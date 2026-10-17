@@ -1,0 +1,245 @@
+{
+  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+  "source_byte_count": 26814,
+  "source_line_count": 276,
+  "schema_version": "source_selection_candidates_v1",
+  "title": "体育竞赛预测",
+  "candidate_count": 4,
+  "candidate_record_count": 4,
+  "candidates": [
+    {
+      "key": "sports_general_roles",
+      "domain": "sports_competition",
+      "scope": "general_roles",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "sports_competition"
+        },
+        {
+          "field": "sports_subtype",
+          "op": "eq",
+          "value": "general_roles"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_sports_general_roles_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_sports_reference_v1"
+      },
+      "source_lines": [
+        7
+      ],
+      "source_quote": "凡预测体育竞赛，一般以值符为裁判，以日干或时干为运动员；如果主队与客队比赛，则须分主客，一般以地盘日干或时干为主队，以天盘日干或时干为客队，以其落宫的旺相休囚、格局好坏、生克关系来定输赢。同时，以庚为比赛器械，以辛为金牌，景门为技术指导，综合判断输赢胜负。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "日干或时干保留为合法备选，不默认唯一；主客条件须明确",
+        "来源参考，未知条件不默认满足，不自动绑定专业角色或预测胜负"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "值符",
+          "日干",
+          "时干",
+          "地盘",
+          "天盘",
+          "庚",
+          "辛",
+          "景门"
+        ],
+        "semantic_role": "general_roles",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "sports_same_country_jersey_methods",
+      "domain": "sports_competition",
+      "scope": "same_country_jersey_methods",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "sports_competition"
+        },
+        {
+          "field": "sports_subtype",
+          "op": "eq",
+          "value": "same_country_jersey_methods"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_sports_same_country_jersey_methods_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_sports_reference_v1"
+      },
+      "source_lines": [
+        114,
+        132
+      ],
+      "source_quote": "由于孔令辉和刘国良均为中国男队队员，所以无法分主客。以二人背上号码113和114为代表信息，如果看地盘3宫和4宫：\n\n则①震3宫和巽4宫，同属木，比和；②3宫乙+癸为华盖逢星，惊门为金，门克宫，星为天心星为金，也克宫，只有上乘六合为木，与宫比和；③4宫辛+丁为狱神得奇，开门为金，门克宫，天蓬星为水，生宫，但上乘白虎为金，又克宫。\n\n所以如果以地盘宫数为用神，仍不分胜负。如果以八门为用神，则3宫伤门代表孔令辉，4宫杜门代表刘国良：\n\n(1)伤门落兑7宫属金，丁+戊为青龙转光，官人升迁，常人威昌，宫克星，宫克门，上乘九天；\n\n(2)杜门落乾6宫属金，庚+乙为太白逢星，退吉进凶，谋为不利，星克宫，宫克门，上乘值符；\n\n二者比较，孔令辉的格局要比刘国良的好，但二门落宫比和，又均为反吟，胜负也不明显。\n\n我突然想到，二人均是乒坛明星，应以九星为用神，以3宫的天冲星为孔令辉，以4宫的天辅星为刘国良，这样以来：\n\n(1)代表孔令辉的天冲星落坤2宫，癸+丙为华盖悖格，贵贱逢之皆不利，惟上人见喜；癸+壬为复见螣蛇，嫁娶重婚，后嫁无子，不保年华；逢生门为吉门，生门属土，门宫比和；上乘九地，为土，与宫也比和；开休生三吉门，合三奇(此处为丙奇),上乘九地，为真诈，三诈宜远行、商贾、嫁娶，百事皆吉。\n\n(2)代表刘国良的天辅星落兑7宫，格局丁+戊为青龙转光，官人升迁，常人威昌；逢伤门为凶门，且伤门为木，被兑7宫之金所克，宫克门，为凶；上乘九天，为金，与宫比和。\n\n从以上二星落宫格局看，孔令辉格局略好于刘国良。再结合时令，正值四月火旺，生助孔令辉所落坤2宫之土，克制刘国良所落兑7宫之金；换句话说，2宫旺相，7宫休囚无力。所以，我断，最后孔令辉会胜。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "限原例同国队员和号码113/114语境；地盘/八门未分明再取九星，不泛化为球衣号码算法",
+        "来源参考，未知条件不默认满足，不自动绑定专业角色或预测胜负"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "地盘宫数",
+          "八门",
+          "九星",
+          "天冲星",
+          "天辅星"
+        ],
+        "semantic_role": "same_country_jersey_methods",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "sports_neutral_venue_distance",
+      "domain": "sports_competition",
+      "scope": "neutral_venue_distance",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "sports_competition"
+        },
+        {
+          "field": "sports_subtype",
+          "op": "eq",
+          "value": "neutral_venue_distance"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_sports_neutral_venue_distance_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_sports_reference_v1"
+      },
+      "source_lines": [
+        194
+      ],
+      "source_quote": "(1)要分清主客。在法国比赛，按说巴西和荷兰均为客队，但巴西在南美洲，距离更远，远来为客，应以巴西为客队；荷兰在欧洲，距法国很近，应为主队。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "限本例中立法国比赛、巴西较远荷兰较近的作者主客判别，不把中立赛事都当实际主场",
+        "来源参考，未知条件不默认满足，不自动绑定专业角色或预测胜负"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "主队",
+          "客队"
+        ],
+        "semantic_role": "neutral_venue_distance",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "sports_host_nation",
+      "domain": "sports_competition",
+      "scope": "host_nation",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "sports_competition"
+        },
+        {
+          "field": "sports_subtype",
+          "op": "eq",
+          "value": "host_nation"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_sports_host_nation_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_sports_reference_v1"
+      },
+      "source_lines": [
+        264
+      ],
+      "source_quote": "(1)法国为本届足球赛东道主，自然应以法国队为主，以巴西队为客。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "限明确东道主语境；不能与中立场地或同国队员情形无条件混用",
+        "来源参考，未知条件不默认满足，不自动绑定专业角色或预测胜负"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "主队",
+          "客队"
+        ],
+        "semantic_role": "host_nation",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    }
+  ]
+}

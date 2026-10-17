@@ -16,4 +16,4 @@
 
 运行：`PYTHONPATH=src python3 -m unittest discover -s tests -v`。
 资料/案例规则见 KNOWLEDGE_POLICY / CASE_POLICY；架构与迁移见 ARCHITECTURE / SCHEMA；评估见 EVALUATION_PROTOCOL；设备与远程接入见 HARDWARE。
-当前已接收《神奇之门》16份章级输入，累计78故事/75家族/84事件/83原盘。官司诉讼本轮6故事/6事件/6原盘、68过程记录；源SHA256 a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2。第五例先反馈后续断及张志春方法批评分别保留，第六例初断/后述事实/续断及后置原盘解释隔离，不把后知当初始输入。沿import_shenqi_litigation.py、snapshot及QimenService接续，无schema迁移或workflow增删，正式rules/训练0。最高总指令见docs/user_instructions/master_spec_reaffirmed_2026-10-17.txt，旧原件保留；不重置Phase0。进度以STATUS为准，历史验收报告不覆盖。
+当前已接收《神奇之门》17份章级输入，累计85故事/82家族/91事件/90原盘。体育竞赛本轮7故事/7事件/7完整原盘、67过程记录；源SHA256 784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b。第十二章是原印刷标题，sequence18仅接收排序。甲戌仅文字局不补盘，第三例宫数/门/星尝试保留，第四例10或16原断不改，第六例胜队错断及后验解释分开，第五例铺庚原字不校。沿import_shenqi_sports.py、snapshot和QimenService接续，无schema迁移或workflow增删，正式rules/训练0。最高总指令见docs/user_instructions/master_spec_reaffirmed_2026-10-17.txt，旧原件保留；不重置Phase0。进度以STATUS为准，历史验收报告不覆盖。

@@ -106,3 +106,14 @@ PYTHONPATH=src python3 scripts/import_shenqi_litigation.py --restore-base --db w
 ```
 
 目标库须不存在；已包含本章的快照恢复后重放幂等，不删除历史。local-only仅维护暂存，不算GitHub交付。原盘在QimenService/CLI/WSGI既有目录和case-chart读取；第五例方法分歧与第六例后置解释阶段见本章报告。完整回归后核验私有仓库、非强制更新main、按精确SHA逐blob及四CI验收。不新增章级Actions。
+
+
+## 体育竞赛增量重放
+
+源文件26814原字节/276行，确切SHA见data/provenance/sports_source_audit.json，uploads/SQLite BLOB/snapshot raw保留。chapter_key=sports-competition，sequence18为接收顺序，源文实际标题第十二章。既有快照恢复到新库后重放：
+
+```sh
+PYTHONPATH=src python3 scripts/import_shenqi_sports.py --restore-base --db work/sports.sqlite3 --raw-dir work/sports-raw --local-only
+```
+
+目标库须不存在；已含本章的快照重放幂等。local-only仅暂存，正式交付必须审计/导出/完整回归/核实私有仓库/非强制更新main/精确SHA四CI。脚本复用既有import_chapter、install_curated、import_cases和install_candidates，读取沿QimenService/CLI/WSGI。甲戌缺完整盘不造；铺庚星名未知，完整原字行引用和可读取盘同时保留。不新增章级Actions；旧章manifest/gold/原文不可改。详见SHENQI_SPORTS报告。

@@ -20,6 +20,7 @@ MISSING_SHA='5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574'
 LOST_SHA='ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9'
 CRIMINAL_SHA='289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9'
 LITIGATION_SHA='a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2'
+SPORTS_SHA='784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b'
 PROJECTION='shenqi_health_table_projection_v1'
 SOURCE_POLICIES={HEALTH_SHA:PROJECTION,MARRIAGE_SHA:'shenqi_marriage_table_projection_v1',
                  PREGNANCY_SHA:'shenqi_pregnancy_table_projection_v1',
@@ -30,7 +31,8 @@ SOURCE_POLICIES={HEALTH_SHA:PROJECTION,MARRIAGE_SHA:'shenqi_marriage_table_proje
                  MISSING_SHA:'shenqi_missing_unicode_grid_projection_v1',
                  LOST_SHA:'shenqi_lost_unicode_grid_projection_v1',
                  CRIMINAL_SHA:'shenqi_criminal_unicode_grid_projection_v1',
-                 LITIGATION_SHA:'shenqi_litigation_unicode_grid_projection_v1'}
+                 LITIGATION_SHA:'shenqi_litigation_unicode_grid_projection_v1',
+                 SPORTS_SHA:'shenqi_sports_unicode_grid_projection_v1'}
 NUMERALS=dict(zip('一二三四五六七八九',range(1,10)))
 
 
@@ -71,7 +73,7 @@ def project_chart(db,case_id,chart_id):
     stems={r['stem'] for r in families['stem_attributes']['payload']['dataset']['rows']}
     source_lines=text.splitlines(keepends=True); start_line=raw[:row['byte_start']].count(b'\n')+1
     grid_sources={}
-    if row['sha256'] in (TRAVEL_SHA,LOST_SHA,CRIMINAL_SHA,LITIGATION_SHA):
+    if row['sha256'] in (TRAVEL_SHA,LOST_SHA,CRIMINAL_SHA,LITIGATION_SHA,SPORTS_SHA):
         # Read literal grid cells in place. Synthetic rows are local projection
         # inputs only; their citations retain all three exact Unicode source lines.
         lines=[]
@@ -83,7 +85,7 @@ def project_chart(db,case_id,chart_id):
             for column in range(3):
                 header=cells[0][column].strip()
                 if ((row['sha256'] in (LOST_SHA,CRIMINAL_SHA) and header=='中五宫  中宫')
-                        or (row['sha256']==LITIGATION_SHA and header=='中五宫')):
+                        or (row['sha256'] in (LITIGATION_SHA,SPORTS_SHA) and header=='中五宫')):
                     label,deity='中五宫','—'
                 else:
                     label,deity=header.split('八神：')
@@ -159,10 +161,20 @@ def project_chart(db,case_id,chart_id):
                 return _unique_name(names[family],short),suffix,prefix or None
             door_name,heaven,prefix=split_cell(door,'doors')
             companion = row['sha256']==TRAVEL_SHA and star=='芮禽己'
-            star_name,earth,star_prefix=split_cell('芮己' if companion else star,'stars')
+            # This exact sports upload prints 铺庚. Preserve its stem and
+            # unmapped glyph without silently substituting the canonical 辅.
+            unmapped_star = row['sha256']==SPORTS_SHA and star=='铺庚'
+            if unmapped_star:
+                star_name,earth,star_prefix=None,'庚',None
+            else:
+                star_name,earth,star_prefix=split_cell('芮己' if companion else star,'stars')
             item={'palace':palace,'earth_stem':earth,'heaven_stem':heaven,
                   'door':door_name,'star':star_name,'deity':_unique_name(names['deities'],deity),
                   'heaven_prefix_marker':prefix,'star_prefix_marker':star_prefix}
+            if unmapped_star:
+                item['source_star_cell_as_written']=star
+                item['unmapped_star_abbreviation']='铺'
+                item['star_mapping_status']='unmapped_source_literal'
             if companion:
                 item['source_star_cell_as_written']=star
                 item['additional_star_as_written']='禽'
@@ -186,6 +198,11 @@ def project_chart(db,case_id,chart_id):
             'training_export':False,'purpose':'historical_source_chart_reading',
             'original_chart_modified':False,'engine_verified':False,'calendar_recomputed':False,
             'voids':None,'horse':None,'medical_inference':None,'professional_analysis_completed':False}
+    if row['sha256']==SPORTS_SHA:
+        result['unmapped_source_cells']=[{'palace':p['palace'],'field':'star',
+            'source_literal':p['source_star_cell_as_written'],'canonical_star':None}
+            for p in palaces.values() if p.get('star_mapping_status')=='unmapped_source_literal']
+        result['source_symbol_mapping_complete']=not result['unmapped_source_cells']
     if row['sha256'] in (MARRIAGE_SHA,PREGNANCY_SHA,EXAM_SHA,EMPLOYMENT_SHA,BUSINESS_SHA):
         counts=Counter(p['earth_stem'] for p in palaces.values())
         result['source_table_observations']={'distinct_primary_earth_stems':len(counts),

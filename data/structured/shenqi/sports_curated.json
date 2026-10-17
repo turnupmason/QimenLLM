@@ -1,0 +1,861 @@
+{
+  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+  "source_byte_count": 26814,
+  "source_line_count": 276,
+  "chapter_title": "体育竞赛预测",
+  "chapter_key_suggestion": "sports-competition",
+  "printed_chapter_number": 12,
+  "groups": [
+    {
+      "key": "sports_heading",
+      "title": "第十二章",
+      "category": "commentary",
+      "line_start": 1,
+      "line_end": 6,
+      "attribution": "杜新会（第五、六例）；其余我依原文不另定姓名",
+      "summary": "完整上下文；角色/方法尝试与取舍、原断、反馈、错断和后验解释分别保留",
+      "concepts": [],
+      "dataset": {
+        "key": "sports_heading_reference",
+        "rows": [
+          {
+            "key": "sports_heading_1",
+            "source_lines": [
+              1,
+              1
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 1,
+              "line_end": 1,
+              "byte_start": 0,
+              "byte_end": 13,
+              "source_quote": "第十二章\n"
+            },
+            "source_quote": "第十二章\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "sports_heading_3",
+            "source_lines": [
+              3,
+              3
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 3,
+              "line_end": 3,
+              "byte_start": 14,
+              "byte_end": 33,
+              "source_quote": "体育竞赛预测\n"
+            },
+            "source_quote": "体育竞赛预测\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "sports_heading_5",
+            "source_lines": [
+              5,
+              5
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 5,
+              "line_end": 5,
+              "byte_start": 34,
+              "byte_end": 63,
+              "source_quote": "第一节 取用判断经验\n"
+            },
+            "source_quote": "第一节 取用判断经验\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "sports_general_roles",
+      "title": "凡预测体育竞赛，一般以值符为裁判，以日干或时干为运动员；如果主队与客队比赛，则须分主客，一般以地盘日干或时干为主队，以天盘日干或时干为客队，",
+      "category": "role",
+      "line_start": 7,
+      "line_end": 8,
+      "attribution": "杜新会（第五、六例）；其余我依原文不另定姓名",
+      "summary": "完整上下文；角色/方法尝试与取舍、原断、反馈、错断和后验解释分别保留",
+      "concepts": [
+        "值符",
+        "日干",
+        "时干",
+        "地盘",
+        "天盘",
+        "主客",
+        "庚",
+        "辛",
+        "景门"
+      ],
+      "dataset": {
+        "key": "sports_general_roles_reference",
+        "rows": [
+          {
+            "key": "sports_general_roles_7",
+            "source_lines": [
+              7,
+              7
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 7,
+              "line_end": 7,
+              "byte_start": 64,
+              "byte_end": 449,
+              "source_quote": "凡预测体育竞赛，一般以值符为裁判，以日干或时干为运动员；如果主队与客队比赛，则须分主客，一般以地盘日干或时干为主队，以天盘日干或时干为客队，以其落宫的旺相休囚、格局好坏、生克关系来定输赢。同时，以庚为比赛器械，以辛为金牌，景门为技术指导，综合判断输赢胜负。\n"
+            },
+            "source_quote": "凡预测体育竞赛，一般以值符为裁判，以日干或时干为运动员；如果主队与客队比赛，则须分主客，一般以地盘日干或时干为主队，以天盘日干或时干为客队，以其落宫的旺相休囚、格局好坏、生克关系来定输赢。同时，以庚为比赛器械，以辛为金牌，景门为技术指导，综合判断输赢胜负。\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "sports_case_heading",
+      "title": "第二节 实例解析（7例）",
+      "category": "commentary",
+      "line_start": 9,
+      "line_end": 10,
+      "attribution": "杜新会（第五、六例）；其余我依原文不另定姓名",
+      "summary": "完整上下文；角色/方法尝试与取舍、原断、反馈、错断和后验解释分别保留",
+      "concepts": [],
+      "dataset": {
+        "key": "sports_case_heading_reference",
+        "rows": [
+          {
+            "key": "sports_case_heading_9",
+            "source_lines": [
+              9,
+              9
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 9,
+              "line_end": 9,
+              "byte_start": 450,
+              "byte_end": 483,
+              "source_quote": "第二节 实例解析（7例）\n"
+            },
+            "source_quote": "第二节 实例解析（7例）\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "sports_case_01",
+      "title": "实例一：测第四十三届世乒赛女子团体决赛",
+      "category": "analysis",
+      "line_start": 11,
+      "line_end": 47,
+      "attribution": "杜新会（第五、六例）；其余我依原文不另定姓名",
+      "summary": "完整上下文；角色/方法尝试与取舍、原断、反馈、错断和后验解释分别保留",
+      "concepts": [
+        "值符",
+        "时干",
+        "金牌",
+        "景门",
+        "月令"
+      ],
+      "dataset": {
+        "key": "sports_case_01_reference",
+        "rows": [
+          {
+            "key": "sports_case_01_38",
+            "source_lines": [
+              38,
+              38
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 38,
+              "line_end": 38,
+              "byte_start": 2994,
+              "byte_end": 3396,
+              "source_quote": "(1)以地盘时干壬为主队，为中国女子乒乓球队，在艮8宫。上乘值符，值符为裁判，与值符同宫，说明裁判对我方有利。上乘天英星，英星属火，火生土，对我有力。上乘景门，景门为技术指导，说明我队教练指导有方。8宫属土，时当阴历四月，月令巳火生助艮土，时令对我有利，说明我女队士气旺盛。\n"
+            },
+            "source_quote": "(1)以地盘时干壬为主队，为中国女子乒乓球队，在艮8宫。上乘值符，值符为裁判，与值符同宫，说明裁判对我方有利。上乘天英星，英星属火，火生土，对我有力。上乘景门，景门为技术指导，说明我队教练指导有方。8宫属土，时当阴历四月，月令巳火生助艮土，时令对我有利，说明我女队士气旺盛。\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "sports_case_01_40",
+            "source_lines": [
+              40,
+              40
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 40,
+              "line_end": 40,
+              "byte_start": 3397,
+              "byte_end": 3656,
+              "source_quote": "(2)以天盘时干壬为客队，为韩国女子乒乓球队，落兑宫，属金，上乘天任星属土，土生金；上乘生门，生门属土，土生金；说明该队实力很强。但四月月令巳火，火旺金死，说明时令对客队不利。\n"
+            },
+            "source_quote": "(2)以天盘时干壬为客队，为韩国女子乒乓球队，落兑宫，属金，上乘天任星属土，土生金；上乘生门，生门属土，土生金；说明该队实力很强。但四月月令巳火，火旺金死，说明时令对客队不利。\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "sports_case_01_42",
+            "source_lines": [
+              42,
+              42
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 42,
+              "line_end": 42,
+              "byte_start": 3657,
+              "byte_end": 3804,
+              "source_quote": "(3)二队所争者为金牌，辛为金牌。地盘辛在兑7宫属金，天盘辛落巽4宫属木，金克木，所以地盘胜，即主队胜。\n"
+            },
+            "source_quote": "(3)二队所争者为金牌，辛为金牌。地盘辛在兑7宫属金，天盘辛落巽4宫属木，金克木，所以地盘胜，即主队胜。\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "sports_case_02",
+      "title": "实例二：测第四十三届世乒赛男子团体决赛",
+      "category": "analysis",
+      "line_start": 48,
+      "line_end": 88,
+      "attribution": "杜新会（第五、六例）；其余我依原文不另定姓名",
+      "summary": "完整上下文；角色/方法尝试与取舍、原断、反馈、错断和后验解释分别保留",
+      "concepts": [
+        "值符",
+        "时干",
+        "金牌",
+        "伏吟",
+        "景门"
+      ],
+      "dataset": {
+        "key": "sports_case_02_reference",
+        "rows": [
+          {
+            "key": "sports_case_02_77",
+            "source_lines": [
+              77,
+              77
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 77,
+              "line_end": 77,
+              "byte_start": 6942,
+              "byte_end": 7309,
+              "source_quote": "(1)以地盘时干乙为主队，为中国男队，在离9宫，属火，上乘芮星为土，宫生星；上乘开门属金，火克金，宫克门；上乘值符，值符为裁判，对我有利。四月火旺，我队落入旺宫。说明我队得地得时，士气很旺。又己+乙为地户逢星，半吉半凶；壬+乙为小蛇得势；开门也为吉门。\n"
+            },
+            "source_quote": "(1)以地盘时干乙为主队，为中国男队，在离9宫，属火，上乘芮星为土，宫生星；上乘开门属金，火克金，宫克门；上乘值符，值符为裁判，对我有利。四月火旺，我队落入旺宫。说明我队得地得时，士气很旺。又己+乙为地户逢星，半吉半凶；壬+乙为小蛇得势；开门也为吉门。\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "sports_case_02_79",
+            "source_lines": [
+              79,
+              79
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 79,
+              "line_end": 79,
+              "byte_start": 7310,
+              "byte_end": 7649,
+              "source_quote": "(2)以天盘时干乙为客队，为瑞典男队，天盘时干乙落4宫，为木。4宫木生9宫火，对我队有利。4宫上乘天英星，木生火，宫生星；上乘惊门为凶门为金，金克木，门克宫；上乘九天，也属金，金克木；又乙+辛为龙逃走凶格。综合这几点看，客队不利，要输。\n"
+            },
+            "source_quote": "(2)以天盘时干乙为客队，为瑞典男队，天盘时干乙落4宫，为木。4宫木生9宫火，对我队有利。4宫上乘天英星，木生火，宫生星；上乘惊门为凶门为金，金克木，门克宫；上乘九天，也属金，金克木；又乙+辛为龙逃走凶格。综合这几点看，客队不利，要输。\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "sports_case_02_81",
+            "source_lines": [
+              81,
+              81
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 81,
+              "line_end": 81,
+              "byte_start": 7650,
+              "byte_end": 7838,
+              "source_quote": "(3)以辛为金牌，地盘辛在巽4宫属木，天盘辛落3宫，也属木，二宫比和，不分胜负。但4宫上乘九天，3宫上乘九地和死门，所以天盘落宫不利。\n"
+            },
+            "source_quote": "(3)以辛为金牌，地盘辛在巽4宫属木，天盘辛落3宫，也属木，二宫比和，不分胜负。但4宫上乘九天，3宫上乘九地和死门，所以天盘落宫不利。\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "sports_case_02_83",
+            "source_lines": [
+              83,
+              83
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 83,
+              "line_end": 83,
+              "byte_start": 7839,
+              "byte_end": 7979,
+              "source_quote": "(4)景门为技术指导，落艮8宫，与主队落宫相生；与客队落宫相克，四月火旺土相木休，所以也对我有利。\n"
+            },
+            "source_quote": "(4)景门为技术指导，落艮8宫，与主队落宫相生；与客队落宫相克，四月火旺土相木休，所以也对我有利。\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "sports_case_03",
+      "title": "实例三：测第四十三届世乒赛男单决赛",
+      "category": "analysis",
+      "line_start": 89,
+      "line_end": 135,
+      "attribution": "杜新会（第五、六例）；其余我依原文不另定姓名",
+      "summary": "完整上下文；角色/方法尝试与取舍、原断、反馈、错断和后验解释分别保留",
+      "concepts": [
+        "值符",
+        "主客",
+        "金牌",
+        "反吟",
+        "九星",
+        "号码",
+        "景门"
+      ],
+      "dataset": {
+        "key": "sports_case_03_reference",
+        "rows": [
+          {
+            "key": "sports_case_03_120",
+            "source_lines": [
+              120,
+              120
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 120,
+              "line_end": 120,
+              "byte_start": 11669,
+              "byte_end": 11792,
+              "source_quote": "(1)伤门落兑7宫属金，丁+戊为青龙转光，官人升迁，常人威昌，宫克星，宫克门，上乘九天；\n"
+            },
+            "source_quote": "(1)伤门落兑7宫属金，丁+戊为青龙转光，官人升迁，常人威昌，宫克星，宫克门，上乘九天；\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "sports_case_03_122",
+            "source_lines": [
+              122,
+              122
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 122,
+              "line_end": 122,
+              "byte_start": 11793,
+              "byte_end": 11916,
+              "source_quote": "(2)杜门落乾6宫属金，庚+乙为太白逢星，退吉进凶，谋为不利，星克宫，宫克门，上乘值符；\n"
+            },
+            "source_quote": "(2)杜门落乾6宫属金，庚+乙为太白逢星，退吉进凶，谋为不利，星克宫，宫克门，上乘值符；\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "sports_case_03_128",
+            "source_lines": [
+              128,
+              128
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 128,
+              "line_end": 128,
+              "byte_start": 12193,
+              "byte_end": 12593,
+              "source_quote": "(1)代表孔令辉的天冲星落坤2宫，癸+丙为华盖悖格，贵贱逢之皆不利，惟上人见喜；癸+壬为复见螣蛇，嫁娶重婚，后嫁无子，不保年华；逢生门为吉门，生门属土，门宫比和；上乘九地，为土，与宫也比和；开休生三吉门，合三奇(此处为丙奇),上乘九地，为真诈，三诈宜远行、商贾、嫁娶，百事皆吉。\n"
+            },
+            "source_quote": "(1)代表孔令辉的天冲星落坤2宫，癸+丙为华盖悖格，贵贱逢之皆不利，惟上人见喜；癸+壬为复见螣蛇，嫁娶重婚，后嫁无子，不保年华；逢生门为吉门，生门属土，门宫比和；上乘九地，为土，与宫也比和；开休生三吉门，合三奇(此处为丙奇),上乘九地，为真诈，三诈宜远行、商贾、嫁娶，百事皆吉。\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "sports_case_03_130",
+            "source_lines": [
+              130,
+              130
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 130,
+              "line_end": 130,
+              "byte_start": 12594,
+              "byte_end": 12823,
+              "source_quote": "(2)代表刘国良的天辅星落兑7宫，格局丁+戊为青龙转光，官人升迁，常人威昌；逢伤门为凶门，且伤门为木，被兑7宫之金所克，宫克门，为凶；上乘九天，为金，与宫比和。\n"
+            },
+            "source_quote": "(2)代表刘国良的天辅星落兑7宫，格局丁+戊为青龙转光，官人升迁，常人威昌；逢伤门为凶门，且伤门为木，被兑7宫之金所克，宫克门，为凶；上乘九天，为金，与宫比和。\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "sports_case_04",
+      "title": "实例四：测中国队获金牌数",
+      "category": "analysis",
+      "line_start": 136,
+      "line_end": 166,
+      "attribution": "杜新会（第五、六例）；其余我依原文不另定姓名",
+      "summary": "完整上下文；角色/方法尝试与取舍、原断、反馈、错断和后验解释分别保留",
+      "concepts": [
+        "值符",
+        "时干",
+        "金牌"
+      ],
+      "dataset": {
+        "key": "sports_case_04_reference",
+        "rows": [
+          {
+            "key": "sports_case_04_161",
+            "source_lines": [
+              161,
+              161
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 161,
+              "line_end": 161,
+              "byte_start": 15639,
+              "byte_end": 15833,
+              "source_quote": "(1)以地盘时干为中国队，在坎1宫，上乘辛，辛为金牌，临开门吉门生宫，值符吉神，但天任星克宫。因此，虽然困难不少，但会开创一个新局面。\n"
+            },
+            "source_quote": "(1)以地盘时干为中国队，在坎1宫，上乘辛，辛为金牌，临开门吉门生宫，值符吉神，但天任星克宫。因此，虽然困难不少，但会开创一个新局面。\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "sports_case_04_163",
+            "source_lines": [
+              163,
+              163
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 163,
+              "line_end": 163,
+              "byte_start": 15834,
+              "byte_end": 15938,
+              "source_quote": "(2)金牌辛落1宫，坎宫属水，主一、六数。因而断中国会得十枚或十六枚金牌。\n"
+            },
+            "source_quote": "(2)金牌辛落1宫，坎宫属水，主一、六数。因而断中国会得十枚或十六枚金牌。\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "sports_case_05",
+      "title": "实例五：测第十六届世界杯足球赛半决赛",
+      "category": "analysis",
+      "line_start": 167,
+      "line_end": 203,
+      "attribution": "杜新会（第五、六例）；其余我依原文不另定姓名",
+      "summary": "完整上下文；角色/方法尝试与取舍、原断、反馈、错断和后验解释分别保留",
+      "concepts": [
+        "值符",
+        "时干",
+        "主客",
+        "月令"
+      ],
+      "dataset": {
+        "key": "sports_case_05_reference",
+        "rows": [
+          {
+            "key": "sports_case_05_194",
+            "source_lines": [
+              194,
+              194
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 194,
+              "line_end": 194,
+              "byte_start": 18680,
+              "byte_end": 18885,
+              "source_quote": "(1)要分清主客。在法国比赛，按说巴西和荷兰均为客队，但巴西在南美洲，距离更远，远来为客，应以巴西为客队；荷兰在欧洲，距法国很近，应为主队。\n"
+            },
+            "source_quote": "(1)要分清主客。在法国比赛，按说巴西和荷兰均为客队，但巴西在南美洲，距离更远，远来为客，应以巴西为客队；荷兰在欧洲，距法国很近，应为主队。\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "sports_case_05_196",
+            "source_lines": [
+              196,
+              196
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 196,
+              "line_end": 196,
+              "byte_start": 18886,
+              "byte_end": 19385,
+              "source_quote": "(2)以地盘时干辛为主队，代表荷兰队，在艮8宫，为土；己+辛游魂入墓凶格；上乘值符吉神，值符又为裁判，与裁判同宫，说明裁判向荷兰队。临天蓬凶星，很厉害，但蓬星为水受宫之克，又受月令未土之克，所以为被囚之象。开门虽为吉门，但落8宫为入墓；又足球赛就是破门，你逢开门，还不是让人家进球吗?进几个?艮宫属土，土主五、十数，据此断，荷兰队要输掉5个球。\n"
+            },
+            "source_quote": "(2)以地盘时干辛为主队，代表荷兰队，在艮8宫，为土；己+辛游魂入墓凶格；上乘值符吉神，值符又为裁判，与裁判同宫，说明裁判向荷兰队。临天蓬凶星，很厉害，但蓬星为水受宫之克，又受月令未土之克，所以为被囚之象。开门虽为吉门，但落8宫为入墓；又足球赛就是破门，你逢开门，还不是让人家进球吗?进几个?艮宫属土，土主五、十数，据此断，荷兰队要输掉5个球。\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "sports_case_05_198",
+            "source_lines": [
+              198,
+              198
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 198,
+              "line_end": 198,
+              "byte_start": 19386,
+              "byte_end": 19802,
+              "source_quote": "(3)以天盘时干辛为客队，代表巴西队，在震3宫，震为足，不愧是一支足球劲旅、前世界冠军队。辛+乙虎猖狂，实力很足。临天任吉星，天任星落3宫虽受克，但旺于月令。又休门吉门生宫，上乘九天，九天之上好扬兵，得胜之象。关键一点，震木克艮土，客克主，所以必然巴西队胜。休门在3宫，可能输掉三个球。\n"
+            },
+            "source_quote": "(3)以天盘时干辛为客队，代表巴西队，在震3宫，震为足，不愧是一支足球劲旅、前世界冠军队。辛+乙虎猖狂，实力很足。临天任吉星，天任星落3宫虽受克，但旺于月令。又休门吉门生宫，上乘九天，九天之上好扬兵，得胜之象。关键一点，震木克艮土，客克主，所以必然巴西队胜。休门在3宫，可能输掉三个球。\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "sports_case_06",
+      "title": "实例六：测法国与克罗地亚队半决赛",
+      "category": "analysis",
+      "line_start": 204,
+      "line_end": 238,
+      "attribution": "杜新会（第五、六例）；其余我依原文不另定姓名",
+      "summary": "完整上下文；角色/方法尝试与取舍、原断、反馈、错断和后验解释分别保留",
+      "concepts": [
+        "值符",
+        "时干",
+        "主客",
+        "景门",
+        "月令"
+      ],
+      "dataset": {
+        "key": "sports_case_06_reference",
+        "rows": [
+          {
+            "key": "sports_case_06_229",
+            "source_lines": [
+              229,
+              229
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 229,
+              "line_end": 229,
+              "byte_start": 22521,
+              "byte_end": 22802,
+              "source_quote": "(1)首先要分主客。世界杯足球赛在法国举行，法国自然是东道主队，因此以应地盘时干壬为用神。地盘时干壬在兑7宫，上乘庚为比赛器械为足球。值符为裁判，与裁判同宫。临伤门，竞争力很强。但伤门受宫克。\n"
+            },
+            "source_quote": "(1)首先要分主客。世界杯足球赛在法国举行，法国自然是东道主队，因此以应地盘时干壬为用神。地盘时干壬在兑7宫，上乘庚为比赛器械为足球。值符为裁判，与裁判同宫。临伤门，竞争力很强。但伤门受宫克。\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "sports_case_06_231",
+            "source_lines": [
+              231,
+              231
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 231,
+              "line_end": 231,
+              "byte_start": 22803,
+              "byte_end": 22919,
+              "source_quote": "(2)克罗地亚队为客，以天盘时干壬为用神，在坎1宫，临景门，火入水乡，又上乘九地。\n"
+            },
+            "source_quote": "(2)克罗地亚队为客，以天盘时干壬为用神，在坎1宫，临景门，火入水乡，又上乘九地。\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "sports_case_06_233",
+            "source_lines": [
+              233,
+              233
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 233,
+              "line_end": 233,
+              "byte_start": 22920,
+              "byte_end": 23040,
+              "source_quote": "(3)地盘时干壬生天盘时干壬落宫。地盘时干壬在兑宫，主2数，天盘时干壬在坎宫，主1数。\n"
+            },
+            "source_quote": "(3)地盘时干壬生天盘时干壬落宫。地盘时干壬在兑宫，主2数，天盘时干壬在坎宫，主1数。\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "sports_case_07",
+      "title": "实例七：测第十六届世界杯足球赛决赛",
+      "category": "analysis",
+      "line_start": 239,
+      "line_end": 276,
+      "attribution": "杜新会（第五、六例）；其余我依原文不另定姓名",
+      "summary": "完整上下文；角色/方法尝试与取舍、原断、反馈、错断和后验解释分别保留",
+      "concepts": [
+        "值符",
+        "时干",
+        "金牌",
+        "景门"
+      ],
+      "dataset": {
+        "key": "sports_case_07_reference",
+        "rows": [
+          {
+            "key": "sports_case_07_264",
+            "source_lines": [
+              264,
+              264
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 264,
+              "line_end": 264,
+              "byte_start": 25928,
+              "byte_end": 26019,
+              "source_quote": "(1)法国为本届足球赛东道主，自然应以法国队为主，以巴西队为客。\n"
+            },
+            "source_quote": "(1)法国为本届足球赛东道主，自然应以法国队为主，以巴西队为客。\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "sports_case_07_266",
+            "source_lines": [
+              266,
+              266
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 266,
+              "line_end": 266,
+              "byte_start": 26020,
+              "byte_end": 26142,
+              "source_quote": "(2)以地盘时干丙为主队，落兑7宫，上乘吉神值符、吉门休门。值符又为裁判，裁判向主队。\n"
+            },
+            "source_quote": "(2)以地盘时干丙为主队，落兑7宫，上乘吉神值符、吉门休门。值符又为裁判，裁判向主队。\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "sports_case_07_268",
+            "source_lines": [
+              268,
+              268
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 268,
+              "line_end": 268,
+              "byte_start": 26143,
+              "byte_end": 26226,
+              "source_quote": "(3)以天盘时干丙为客队，落震3宫，上乘白虎凶神，景门凶门。\n"
+            },
+            "source_quote": "(3)以天盘时干丙为客队，落震3宫，上乘白虎凶神，景门凶门。\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "sports_case_07_270",
+            "source_lines": [
+              270,
+              270
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 270,
+              "line_end": 270,
+              "byte_start": 26227,
+              "byte_end": 26326,
+              "source_quote": "(4)未月，兑7宫之金旺相，直冲克震3宫休囚之木，所以必然主队法国队胜。\n"
+            },
+            "source_quote": "(4)未月，兑7宫之金旺相，直冲克震3宫休囚之木，所以必然主队法国队胜。\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "sports_case_07_272",
+            "source_lines": [
+              272,
+              272
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 272,
+              "line_end": 272,
+              "byte_start": 26327,
+              "byte_end": 26479,
+              "source_quote": "(5)兑7宫地盘之星为天柱星，直冲克震3宫天冲星，金旺相，木休囚，木主3数，故主破其门3次，因而比分可能是3:0。\n"
+            },
+            "source_quote": "(5)兑7宫地盘之星为天柱星，直冲克震3宫天冲星，金旺相，木休囚，木主3数，故主破其门3次，因而比分可能是3:0。\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "sports_case_07_274",
+            "source_lines": [
+              274,
+              274
+            ],
+            "source_pointer": {
+              "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+              "line_start": 274,
+              "line_end": 274,
+              "byte_start": 26480,
+              "byte_end": 26665,
+              "source_quote": "⑥又以辛为金牌，地盘辛在坤2宫，生助兑7宫主队；天盘辛在艮8宫，受震3宫客队之克，但休囚之木克不动旺相之土，故而巴西队卫冕无望。\n"
+            },
+            "source_quote": "⑥又以辛为金牌，地盘辛在坤2宫，生助兑7宫主队；天盘辛在艮8宫，受震3宫客队之克，但休囚之木克不动旺相之土，故而巴西队卫冕无望。\n",
+            "method_scope": "shenqi_sports_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    }
+  ],
+  "quality_issues": [
+    {
+      "key": "case2_two_forecast_stages_one_match",
+      "line_start": 54,
+      "line_end": 87,
+      "description": "甲戌文字局描述和初断时限完整保存；仅乙亥有九宫原盘。初断记录不挂乙亥chart_id，不补完整甲戌盘；同一比赛为同事件/家族"
+    },
+    {
+      "key": "case3_multiple_role_attempts",
+      "line_start": 93,
+      "line_end": 132,
+      "description": "同国队员难分主客，号码113/114依次试地盘宫数、八门、九星，保留放弃/比较理由，不把最终取星倒写成一开始唯一用神"
+    },
+    {
+      "key": "case4_alternative_count_not_exact_forecast",
+      "line_start": 163,
+      "line_end": 165,
+      "description": "原断十枚或十六枚保留两种候选；实际十六不倒改成单点精确预断"
+    },
+    {
+      "key": "case5_unmapped_star_literal",
+      "line_start": 180,
+      "line_end": 181,
+      "description": "离九宫星位原写铺庚，保存原字与庚干；规范星名未知，不擅校为辅，不影响原字节接收"
+    },
+    {
+      "key": "case5_stage_specific_score_as_written",
+      "line_start": 200,
+      "line_end": 202,
+      "description": "原断巴西5:3与来源报告90分钟1:1、加时仍1:1、点球决胜5:3分别保留；不合并为常规时间5:3或以外部赛果改源"
+    },
+    {
+      "key": "case6_missed_winner_posthoc_month",
+      "line_start": 235,
+      "line_end": 237,
+      "description": "原断克罗地亚胜2:1；实际法国胜2:1。比分字面相同不等于胜队预测正确，事后补月令/干生克不冒充事前理由"
+    },
+    {
+      "key": "case6_mixed_outcome_and_explanation",
+      "line_start": 237,
+      "line_end": 237,
+      "description": "同段结果与事后检查保留整行，并附精确字节分句；整个段为post_feedback，不能把更正注入235行原断"
+    },
+    {
+      "key": "printed_heading_and_source_literals",
+      "line_start": 1,
+      "line_end": 276,
+      "description": "按原文记第十二章，sequence18仅接收排序；⑥、以应地盘、这样以来等原字不改。问时、比赛时间与电话反馈时点依原文，不代算时区或赛历"
+    }
+  ],
+  "worked_examples": []
+}

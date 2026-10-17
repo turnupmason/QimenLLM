@@ -1,0 +1,175 @@
+{
+  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+  "source_byte_count": 26814,
+  "source_line_count": 276,
+  "source_file": "神奇之门_体育竞赛预测_精校完整版.txt",
+  "verification_basis": "user_attestation",
+  "system_performed_independent_verification": false,
+  "printed_chapter_number": 12,
+  "stories": 7,
+  "events": 7,
+  "charts": 7,
+  "source_palaces": 63,
+  "text_only_initial_chart_descriptions": 1,
+  "records": 67,
+  "context_groups": 10,
+  "technical_boundaries": 8,
+  "reference_candidates": 4,
+  "case6_missed_winner_retained": true,
+  "unmapped_star_cell_as_written": "铺庚",
+  "last_line_as_supplied": "结果，第二天上午，我问昨夜看球赛的球迷，果然是法国队以3:0大胜巴西队，夺得第十六届世界杯足球赛冠军。\n",
+  "schema_migration": false,
+  "formal_rules_added": 0,
+  "training_tasks_added": 0,
+  "snapshot": {
+    "data_version": "17df382d-d0bb-4e3b-95a4-4eb968dc8c36",
+    "snapshot": "data/snapshots/current",
+    "counts": {
+      "data_versions": 80,
+      "books": 1,
+      "chapters": 17,
+      "raw_documents": 17,
+      "chapter_revisions": 17,
+      "source_reviews": 24,
+      "source_spans": 2833,
+      "methods": 26,
+      "concepts": 2344,
+      "concept_links": 0,
+      "knowledge_items": 1015,
+      "rules": 0,
+      "rule_conditions": 0,
+      "rule_disagreements": 0,
+      "event_families": 82,
+      "cases": 85,
+      "events": 91,
+      "case_events": 91,
+      "charts": 90,
+      "case_records": 1341,
+      "evidence_links": 1664,
+      "dataset_releases": 0,
+      "split_assignments": 0,
+      "training_tasks": 0,
+      "task_inputs": 0
+    },
+    "manifest_sha256": "1dd8fc85d71ef1d7aa27e5ca1bae462324516b17ee87ed37015e9b6ed73ad102"
+  },
+  "old_rows_preserved": {
+    "rule_conditions": {
+      "old": 0,
+      "new": 0
+    },
+    "concept_links": {
+      "old": 0,
+      "new": 0
+    },
+    "case_events": {
+      "old": 84,
+      "new": 91
+    },
+    "data_versions": {
+      "old": 75,
+      "new": 80
+    },
+    "case_records": {
+      "old": 1274,
+      "new": 1341
+    },
+    "rule_disagreements": {
+      "old": 0,
+      "new": 0
+    },
+    "training_tasks": {
+      "old": 0,
+      "new": 0
+    },
+    "evidence_links": {
+      "old": 1597,
+      "new": 1664
+    },
+    "chapter_revisions": {
+      "old": 16,
+      "new": 17
+    },
+    "knowledge_items": {
+      "old": 993,
+      "new": 1015
+    },
+    "methods": {
+      "old": 25,
+      "new": 26
+    },
+    "event_families": {
+      "old": 75,
+      "new": 82
+    },
+    "raw_documents": {
+      "old": 16,
+      "new": 17
+    },
+    "cases": {
+      "old": 78,
+      "new": 85
+    },
+    "task_inputs": {
+      "old": 0,
+      "new": 0
+    },
+    "source_spans": {
+      "old": 2729,
+      "new": 2833
+    },
+    "concepts": {
+      "old": 2302,
+      "new": 2344
+    },
+    "events": {
+      "old": 84,
+      "new": 91
+    },
+    "rules": {
+      "old": 0,
+      "new": 0
+    },
+    "split_assignments": {
+      "old": 0,
+      "new": 0
+    },
+    "charts": {
+      "old": 83,
+      "new": 90
+    },
+    "chapters": {
+      "old": 16,
+      "new": 17
+    },
+    "books": {
+      "old": 1,
+      "new": 1
+    },
+    "source_reviews": {
+      "old": 23,
+      "new": 24
+    },
+    "dataset_releases": {
+      "old": 0,
+      "new": 0
+    }
+  },
+  "old_raw_documents_preserved": 16,
+  "remote_base_sha": "027a9b512772318ead0c81c1f88816c3cbc5a6cd",
+  "github_sync": {
+    "status": "pending"
+  },
+  "workflow_added": false,
+  "workflow_deleted": false,
+  "local_regression": {
+    "command": "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+    "tests": 358,
+    "failures": 0,
+    "errors": 0,
+    "new_chapter_tests": 18
+  },
+  "snapshot_roundtrip": "byte_identical",
+  "api_original_charts": 7,
+  "cli_cases": 7
+}

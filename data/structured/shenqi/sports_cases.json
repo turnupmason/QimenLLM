@@ -1,0 +1,3885 @@
+{
+  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+  "source_byte_count": 26814,
+  "source_line_count": 276,
+  "temporal_payload_contract": "source-stage-v1",
+  "cases": [
+    {
+      "case_key": "sports-case-01",
+      "title": "实例一：测第四十三届世乒赛女子团体决赛",
+      "completeness": "confirmed_complete",
+      "source_ranges": [
+        [
+          11,
+          47
+        ]
+      ],
+      "source_selectors": [
+        {
+          "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+          "line_start": 11,
+          "line_end": 47,
+          "byte_start": 484,
+          "byte_end": 3986,
+          "source_quote": "实例一：测第四十三届世乒赛女子团体决赛\n\n举世瞩目的第四十三届世界乒乓球锦标赛1995年5月在中国天津市举行。\n\n5月7日晚7点至9点将进行女子团体决赛，由中国队和韩国队争夺冠亚军。\n\n打开电视后，家人让我预测一下中国女队能否夺得冠军。于是我用奇门测了一下。\n\n干支是乙亥年辛巳月戊戌日壬戌时，阳遁4局，甲寅旬，天英星为值符，落8宫，景门为值使，落8宫。\n\n九宫盘面（依原文转写，未重新排盘）\n┌──────────────────────────┬──────────────────────────┬──────────────────────────┐\n│ 巽四宫  八神：阴         │ 离九宫  八神：合         │ 坤二宫  八神：虎         │\n│ 门位：惊辛               │ 门位：开庚               │ 门位：休丁               │\n│ 星位：柱戊               │ 星位：心癸               │ 星位：蓬丙               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 震三宫  八神：蛇         │ 中五宫                   │ 兑七宫  八神：武         │\n│ 门位：己死丙             │ 中宫原字：己             │ 门位：生壬               │\n│ 星位：芮乙               │                          │ 星位：任辛               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 艮八宫  八神：符         │ 坎一宫  八神：天         │ 乾六宫  八神：地         │\n│ 门位：景癸               │ 门位：杜戊               │ 门位：伤乙               │\n│ 星位：英壬               │ 星位：辅丁               │ 星位：冲庚               │\n└──────────────────────────┴──────────────────────────┴──────────────────────────┘\n\n分析：\n\n(1)以地盘时干壬为主队，为中国女子乒乓球队，在艮8宫。上乘值符，值符为裁判，与值符同宫，说明裁判对我方有利。上乘天英星，英星属火，火生土，对我有力。上乘景门，景门为技术指导，说明我队教练指导有方。8宫属土，时当阴历四月，月令巳火生助艮土，时令对我有利，说明我女队士气旺盛。\n\n(2)以天盘时干壬为客队，为韩国女子乒乓球队，落兑宫，属金，上乘天任星属土，土生金；上乘生门，生门属土，土生金；说明该队实力很强。但四月月令巳火，火旺金死，说明时令对客队不利。\n\n(3)二队所争者为金牌，辛为金牌。地盘辛在兑7宫属金，天盘辛落巽4宫属木，金克木，所以地盘胜，即主队胜。\n\n综合以上三点，我说，中国女子乒乓球队将夺得金牌。\n\n结果，中国女队果然以3:0胜韩国队，夺取了第四十三届世乒赛女子团体赛冠军。\n\n"
+        }
+      ],
+      "family": {
+        "family_key": "shenqi-sports-case-01-family",
+        "description": "实例一：测第四十三届世乒赛女子团体决赛：同一比赛/竞赛问测的多时段与方法尝试、预测和结果同组"
+      },
+      "events": [
+        {
+          "event_key": "sports-case-01-event-1",
+          "chronology_status": "ordered",
+          "background": {
+            "initial_inquiry_as_written": "举世瞩目的第四十三届世界乒乓球锦标赛1995年5月在中国天津市举行。\n",
+            "source_confirmation": "user_attestation",
+            "whole_background_not_prediction_input": true
+          },
+          "prediction_input_policy": {
+            "mode": "first_forecast_only_conservative",
+            "contract": "source-stage-v1",
+            "unrestricted_background_withheld": true,
+            "unknown_explanations_withheld": true
+          },
+          "charts": [
+            {
+              "chart_key": "sports-case-01-chart-1",
+              "source_lines": [
+                22,
+                34
+              ],
+              "source_or_engine": "original",
+              "casting_method": null,
+              "method_version": null,
+              "input_datetime": null,
+              "timezone": null,
+              "location": null,
+              "validation_status": "original_unparsed",
+              "payload": {
+                "chart_role": "source_original_nine_palace_grid",
+                "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                "raw_chart_text": "┌──────────────────────────┬──────────────────────────┬──────────────────────────┐\n│ 巽四宫  八神：阴         │ 离九宫  八神：合         │ 坤二宫  八神：虎         │\n│ 门位：惊辛               │ 门位：开庚               │ 门位：休丁               │\n│ 星位：柱戊               │ 星位：心癸               │ 星位：蓬丙               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 震三宫  八神：蛇         │ 中五宫                   │ 兑七宫  八神：武         │\n│ 门位：己死丙             │ 中宫原字：己             │ 门位：生壬               │\n│ 星位：芮乙               │                          │ 星位：任辛               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 艮八宫  八神：符         │ 坎一宫  八神：天         │ 乾六宫  八神：地         │\n│ 门位：景癸               │ 门位：杜戊               │ 门位：伤乙               │\n│ 星位：英壬               │ 星位：辅丁               │ 星位：冲庚               │\n└──────────────────────────┴──────────────────────────┴──────────────────────────┘\n",
+                "source_table_rows": [
+                  {
+                    "source_lines": [
+                      23,
+                      25
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 23,
+                      "line_end": 25,
+                      "byte_start": 1276,
+                      "byte_end": 1600,
+                      "source_quote": "│ 巽四宫  八神：阴         │ 离九宫  八神：合         │ 坤二宫  八神：虎         │\n│ 门位：惊辛               │ 门位：开庚               │ 门位：休丁               │\n│ 星位：柱戊               │ 星位：心癸               │ 星位：蓬丙               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "巽四宫",
+                      "阴",
+                      "惊辛",
+                      "柱戊"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      23,
+                      25
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 23,
+                      "line_end": 25,
+                      "byte_start": 1276,
+                      "byte_end": 1600,
+                      "source_quote": "│ 巽四宫  八神：阴         │ 离九宫  八神：合         │ 坤二宫  八神：虎         │\n│ 门位：惊辛               │ 门位：开庚               │ 门位：休丁               │\n│ 星位：柱戊               │ 星位：心癸               │ 星位：蓬丙               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "离九宫",
+                      "合",
+                      "开庚",
+                      "心癸"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      23,
+                      25
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 23,
+                      "line_end": 25,
+                      "byte_start": 1276,
+                      "byte_end": 1600,
+                      "source_quote": "│ 巽四宫  八神：阴         │ 离九宫  八神：合         │ 坤二宫  八神：虎         │\n│ 门位：惊辛               │ 门位：开庚               │ 门位：休丁               │\n│ 星位：柱戊               │ 星位：心癸               │ 星位：蓬丙               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "坤二宫",
+                      "虎",
+                      "休丁",
+                      "蓬丙"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      27,
+                      29
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 27,
+                      "line_end": 29,
+                      "byte_start": 1847,
+                      "byte_end": 2164,
+                      "source_quote": "│ 震三宫  八神：蛇         │ 中五宫                   │ 兑七宫  八神：武         │\n│ 门位：己死丙             │ 中宫原字：己             │ 门位：生壬               │\n│ 星位：芮乙               │                          │ 星位：任辛               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "震三宫",
+                      "蛇",
+                      "己死丙",
+                      "芮乙"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      27,
+                      29
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 27,
+                      "line_end": 29,
+                      "byte_start": 1847,
+                      "byte_end": 2164,
+                      "source_quote": "│ 震三宫  八神：蛇         │ 中五宫                   │ 兑七宫  八神：武         │\n│ 门位：己死丙             │ 中宫原字：己             │ 门位：生壬               │\n│ 星位：芮乙               │                          │ 星位：任辛               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "中五宫",
+                      "—",
+                      "己",
+                      "—"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      27,
+                      29
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 27,
+                      "line_end": 29,
+                      "byte_start": 1847,
+                      "byte_end": 2164,
+                      "source_quote": "│ 震三宫  八神：蛇         │ 中五宫                   │ 兑七宫  八神：武         │\n│ 门位：己死丙             │ 中宫原字：己             │ 门位：生壬               │\n│ 星位：芮乙               │                          │ 星位：任辛               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "兑七宫",
+                      "武",
+                      "生壬",
+                      "任辛"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      31,
+                      33
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 31,
+                      "line_end": 33,
+                      "byte_start": 2411,
+                      "byte_end": 2735,
+                      "source_quote": "│ 艮八宫  八神：符         │ 坎一宫  八神：天         │ 乾六宫  八神：地         │\n│ 门位：景癸               │ 门位：杜戊               │ 门位：伤乙               │\n│ 星位：英壬               │ 星位：辅丁               │ 星位：冲庚               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "艮八宫",
+                      "符",
+                      "景癸",
+                      "英壬"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      31,
+                      33
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 31,
+                      "line_end": 33,
+                      "byte_start": 2411,
+                      "byte_end": 2735,
+                      "source_quote": "│ 艮八宫  八神：符         │ 坎一宫  八神：天         │ 乾六宫  八神：地         │\n│ 门位：景癸               │ 门位：杜戊               │ 门位：伤乙               │\n│ 星位：英壬               │ 星位：辅丁               │ 星位：冲庚               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "坎一宫",
+                      "天",
+                      "杜戊",
+                      "辅丁"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      31,
+                      33
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 31,
+                      "line_end": 33,
+                      "byte_start": 2411,
+                      "byte_end": 2735,
+                      "source_quote": "│ 艮八宫  八神：符         │ 坎一宫  八神：天         │ 乾六宫  八神：地         │\n│ 门位：景癸               │ 门位：杜戊               │ 门位：伤乙               │\n│ 星位：英壬               │ 星位：辅丁               │ 星位：冲庚               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "乾六宫",
+                      "地",
+                      "伤乙",
+                      "冲庚"
+                    ]
+                  }
+                ],
+                "source_chart_metadata": {
+                  "casting_description": "干支是乙亥年辛巳月戊戌日壬戌时，阳遁4局，甲寅旬，天英星为值符，落8宫，景门为值使，落8宫。",
+                  "casting_basis_as_written": "source_stated_casting_time"
+                },
+                "source_presentation_stage": "source_order",
+                "calendar_recomputed": false
+              }
+            }
+          ],
+          "records": [
+            {
+              "record_key": "sports-case-01-line-13",
+              "sequence": 0,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                13,
+                13
+              ],
+              "text": "举世瞩目的第四十三届世界乒乓球锦标赛1995年5月在中国天津市举行。\n",
+              "chart_key": "sports-case-01-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_inquiry",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 13,
+                  "line_end": 13,
+                  "byte_start": 543,
+                  "byte_end": 636,
+                  "source_quote": "举世瞩目的第四十三届世界乒乓球锦标赛1995年5月在中国天津市举行。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-01-line-15",
+              "sequence": 1,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                15,
+                15
+              ],
+              "text": "5月7日晚7点至9点将进行女子团体决赛，由中国队和韩国队争夺冠亚军。\n",
+              "chart_key": "sports-case-01-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_inquiry",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 15,
+                  "line_end": 15,
+                  "byte_start": 637,
+                  "byte_end": 732,
+                  "source_quote": "5月7日晚7点至9点将进行女子团体决赛，由中国队和韩国队争夺冠亚军。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-01-line-17",
+              "sequence": 2,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                17,
+                17
+              ],
+              "text": "打开电视后，家人让我预测一下中国女队能否夺得冠军。于是我用奇门测了一下。\n",
+              "chart_key": "sports-case-01-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_inquiry",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 17,
+                  "line_end": 17,
+                  "byte_start": 733,
+                  "byte_end": 842,
+                  "source_quote": "打开电视后，家人让我预测一下中国女队能否夺得冠军。于是我用奇门测了一下。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-01-line-19",
+              "sequence": 3,
+              "kind": "dialogue",
+              "knowledge_phase": "unknown",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                19,
+                19
+              ],
+              "text": "干支是乙亥年辛巳月戊戌日壬戌时，阳遁4局，甲寅旬，天英星为值符，落8宫，景门为值使，落8宫。\n",
+              "chart_key": "sports-case-01-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "source_narrative",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 19,
+                  "line_end": 19,
+                  "byte_start": 843,
+                  "byte_end": 976,
+                  "source_quote": "干支是乙亥年辛巳月戊戌日壬戌时，阳遁4局，甲寅旬，天英星为值符，落8宫，景门为值使，落8宫。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-01-line-38",
+              "sequence": 4,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                38,
+                38
+              ],
+              "text": "(1)以地盘时干壬为主队，为中国女子乒乓球队，在艮8宫。上乘值符，值符为裁判，与值符同宫，说明裁判对我方有利。上乘天英星，英星属火，火生土，对我有力。上乘景门，景门为技术指导，说明我队教练指导有方。8宫属土，时当阴历四月，月令巳火生助艮土，时令对我有利，说明我女队士气旺盛。\n",
+              "chart_key": "sports-case-01-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 38,
+                  "line_end": 38,
+                  "byte_start": 2994,
+                  "byte_end": 3396,
+                  "source_quote": "(1)以地盘时干壬为主队，为中国女子乒乓球队，在艮8宫。上乘值符，值符为裁判，与值符同宫，说明裁判对我方有利。上乘天英星，英星属火，火生土，对我有力。上乘景门，景门为技术指导，说明我队教练指导有方。8宫属土，时当阴历四月，月令巳火生助艮土，时令对我有利，说明我女队士气旺盛。\n"
+                },
+                "original_step_number": "1",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-01-line-40",
+              "sequence": 5,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                40,
+                40
+              ],
+              "text": "(2)以天盘时干壬为客队，为韩国女子乒乓球队，落兑宫，属金，上乘天任星属土，土生金；上乘生门，生门属土，土生金；说明该队实力很强。但四月月令巳火，火旺金死，说明时令对客队不利。\n",
+              "chart_key": "sports-case-01-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 40,
+                  "line_end": 40,
+                  "byte_start": 3397,
+                  "byte_end": 3656,
+                  "source_quote": "(2)以天盘时干壬为客队，为韩国女子乒乓球队，落兑宫，属金，上乘天任星属土，土生金；上乘生门，生门属土，土生金；说明该队实力很强。但四月月令巳火，火旺金死，说明时令对客队不利。\n"
+                },
+                "original_step_number": "2",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-01-line-42",
+              "sequence": 6,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                42,
+                42
+              ],
+              "text": "(3)二队所争者为金牌，辛为金牌。地盘辛在兑7宫属金，天盘辛落巽4宫属木，金克木，所以地盘胜，即主队胜。\n",
+              "chart_key": "sports-case-01-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 42,
+                  "line_end": 42,
+                  "byte_start": 3657,
+                  "byte_end": 3804,
+                  "source_quote": "(3)二队所争者为金牌，辛为金牌。地盘辛在兑7宫属金，天盘辛落巽4宫属木，金克木，所以地盘胜，即主队胜。\n"
+                },
+                "original_step_number": "3",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-01-line-44",
+              "sequence": 7,
+              "kind": "prediction",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                44,
+                44
+              ],
+              "text": "综合以上三点，我说，中国女子乒乓球队将夺得金牌。\n",
+              "chart_key": "sports-case-01-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "original_forecast",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 44,
+                  "line_end": 44,
+                  "byte_start": 3805,
+                  "byte_end": 3878,
+                  "source_quote": "综合以上三点，我说，中国女子乒乓球队将夺得金牌。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-01-line-46",
+              "sequence": 8,
+              "kind": "outcome",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                46,
+                46
+              ],
+              "text": "结果，中国女队果然以3:0胜韩国队，夺取了第四十三届世乒赛女子团体赛冠军。\n",
+              "chart_key": "sports-case-01-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "reported_outcome",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 46,
+                  "line_end": 46,
+                  "byte_start": 3879,
+                  "byte_end": 3985,
+                  "source_quote": "结果，中国女队果然以3:0胜韩国队，夺取了第四十三届世乒赛女子团体赛冠军。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            }
+          ],
+          "evidence_links": []
+        }
+      ]
+    },
+    {
+      "case_key": "sports-case-02",
+      "title": "实例二：测第四十三届世乒赛男子团体决赛",
+      "completeness": "confirmed_complete",
+      "source_ranges": [
+        [
+          48,
+          88
+        ]
+      ],
+      "source_selectors": [
+        {
+          "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+          "line_start": 48,
+          "line_end": 88,
+          "byte_start": 3986,
+          "byte_end": 8317,
+          "source_quote": "实例二：测第四十三届世乒赛男子团体决赛\n\n5月8日晚7点以后，第四十三届世乒赛将举行男子团体决赛，由中国男队与瑞典男队争夺冠亚军。中国男队已经痛失冠军十六年，这次能否夺回冠军更加令人瞩目，全国亿万观众翘首以待。\n\n我一家同样如此，所以电视打开后，一家人让我一定要测一测。\n\n于是我用奇门遁甲起局预测。干支为乙亥年辛巳月己亥日甲戌时，阳遁1局，甲戌旬，甲戌己在2宫，天芮星为值符，死门为值使，星、门俱伏吟。\n\n我一看是伏吟局，地盘时干、天盘时干同宫比和，不分胜负。我说，两队势均力敌，在9点以前(甲戌时内)恐怕难分胜负，一定会打到乙亥时才能见分晓。再看看乙亥时的奇门格局吧。\n\n乙亥时，值符天芮星落9宫，死门值使落3宫。地盘时干乙在9宫，天盘时干乙落4宫。\n\n九宫盘面（依原文转写，未重新排盘）\n┌──────────────────────────┬──────────────────────────┬──────────────────────────┐\n│ 巽四宫  八神：天         │ 离九宫  八神：符         │ 坤二宫  八神：蛇         │\n│ 门位：惊乙               │ 门位：壬开己             │ 门位：休丁               │\n│ 星位：英辛               │ 星位：芮乙               │ 星位：柱己               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 震三宫  八神：地         │ 中五宫                   │ 兑七宫  八神：阴         │\n│ 门位：死辛               │ 中宫原字：壬             │ 门位：生癸               │\n│ 星位：辅庚               │                          │ 星位：心丁               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 艮八宫  八神：武         │ 坎一宫  八神：虎         │ 乾六宫  八神：合         │\n│ 门位：景庚               │ 门位：杜丙               │ 门位：伤戊               │\n│ 星位：冲丙               │ 星位：任戊               │ 星位：蓬癸               │\n└──────────────────────────┴──────────────────────────┴──────────────────────────┘\n\n分析：\n\n(1)以地盘时干乙为主队，为中国男队，在离9宫，属火，上乘芮星为土，宫生星；上乘开门属金，火克金，宫克门；上乘值符，值符为裁判，对我有利。四月火旺，我队落入旺宫。说明我队得地得时，士气很旺。又己+乙为地户逢星，半吉半凶；壬+乙为小蛇得势；开门也为吉门。\n\n(2)以天盘时干乙为客队，为瑞典男队，天盘时干乙落4宫，为木。4宫木生9宫火，对我队有利。4宫上乘天英星，木生火，宫生星；上乘惊门为凶门为金，金克木，门克宫；上乘九天，也属金，金克木；又乙+辛为龙逃走凶格。综合这几点看，客队不利，要输。\n\n(3)以辛为金牌，地盘辛在巽4宫属木，天盘辛落3宫，也属木，二宫比和，不分胜负。但4宫上乘九天，3宫上乘九地和死门，所以天盘落宫不利。\n\n(4)景门为技术指导，落艮8宫，与主队落宫相生；与客队落宫相克，四月火旺土相木休，所以也对我有利。\n\n综合以上几点，我断，中国男队经过艰苦拼搏，最后可望夺取冠军。\n\n结果，中国男队与瑞典男队在前四局中，打成2:2平，不分胜负，正合伏吟局，一直打到晚上9点50分即进入乙亥时才结束，最终中国男队以3:2战胜瑞典队，夺回世乒赛男子团体决赛冠军。\n\n"
+        }
+      ],
+      "family": {
+        "family_key": "shenqi-sports-case-02-family",
+        "description": "实例二：测第四十三届世乒赛男子团体决赛：同一比赛/竞赛问测的多时段与方法尝试、预测和结果同组"
+      },
+      "events": [
+        {
+          "event_key": "sports-case-02-event-1",
+          "chronology_status": "ordered",
+          "background": {
+            "initial_inquiry_as_written": "5月8日晚7点以后，第四十三届世乒赛将举行男子团体决赛，由中国男队与瑞典男队争夺冠亚军。中国男队已经痛失冠军十六年，这次能否夺回冠军更加令人瞩目，全国亿万观众翘首以待。\n",
+            "source_confirmation": "user_attestation",
+            "whole_background_not_prediction_input": true,
+            "text_only_initial_chart": {
+              "source_lines": [
+                54,
+                54
+              ],
+              "source_selector": {
+                "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                "line_start": 54,
+                "line_end": 54,
+                "byte_start": 4379,
+                "byte_end": 4571,
+                "source_quote": "于是我用奇门遁甲起局预测。干支为乙亥年辛巳月己亥日甲戌时，阳遁1局，甲戌旬，甲戌己在2宫，天芮星为值符，死门为值使，星、门俱伏吟。\n"
+              },
+              "full_grid_supplied": false,
+              "not_reconstructed": true
+            }
+          },
+          "prediction_input_policy": {
+            "mode": "first_forecast_only_conservative",
+            "contract": "source-stage-v1",
+            "unrestricted_background_withheld": true,
+            "unknown_explanations_withheld": true
+          },
+          "charts": [
+            {
+              "chart_key": "sports-case-02-chart-1",
+              "source_lines": [
+                61,
+                73
+              ],
+              "source_or_engine": "original",
+              "casting_method": null,
+              "method_version": null,
+              "input_datetime": null,
+              "timezone": null,
+              "location": null,
+              "validation_status": "original_unparsed",
+              "payload": {
+                "chart_role": "source_yihai_followup_time_grid",
+                "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                "raw_chart_text": "┌──────────────────────────┬──────────────────────────┬──────────────────────────┐\n│ 巽四宫  八神：天         │ 离九宫  八神：符         │ 坤二宫  八神：蛇         │\n│ 门位：惊乙               │ 门位：壬开己             │ 门位：休丁               │\n│ 星位：英辛               │ 星位：芮乙               │ 星位：柱己               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 震三宫  八神：地         │ 中五宫                   │ 兑七宫  八神：阴         │\n│ 门位：死辛               │ 中宫原字：壬             │ 门位：生癸               │\n│ 星位：辅庚               │                          │ 星位：心丁               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 艮八宫  八神：武         │ 坎一宫  八神：虎         │ 乾六宫  八神：合         │\n│ 门位：景庚               │ 门位：杜丙               │ 门位：伤戊               │\n│ 星位：冲丙               │ 星位：任戊               │ 星位：蓬癸               │\n└──────────────────────────┴──────────────────────────┴──────────────────────────┘\n",
+                "source_table_rows": [
+                  {
+                    "source_lines": [
+                      62,
+                      64
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 62,
+                      "line_end": 64,
+                      "byte_start": 5224,
+                      "byte_end": 5549,
+                      "source_quote": "│ 巽四宫  八神：天         │ 离九宫  八神：符         │ 坤二宫  八神：蛇         │\n│ 门位：惊乙               │ 门位：壬开己             │ 门位：休丁               │\n│ 星位：英辛               │ 星位：芮乙               │ 星位：柱己               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "巽四宫",
+                      "天",
+                      "惊乙",
+                      "英辛"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      62,
+                      64
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 62,
+                      "line_end": 64,
+                      "byte_start": 5224,
+                      "byte_end": 5549,
+                      "source_quote": "│ 巽四宫  八神：天         │ 离九宫  八神：符         │ 坤二宫  八神：蛇         │\n│ 门位：惊乙               │ 门位：壬开己             │ 门位：休丁               │\n│ 星位：英辛               │ 星位：芮乙               │ 星位：柱己               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "离九宫",
+                      "符",
+                      "壬开己",
+                      "芮乙"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      62,
+                      64
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 62,
+                      "line_end": 64,
+                      "byte_start": 5224,
+                      "byte_end": 5549,
+                      "source_quote": "│ 巽四宫  八神：天         │ 离九宫  八神：符         │ 坤二宫  八神：蛇         │\n│ 门位：惊乙               │ 门位：壬开己             │ 门位：休丁               │\n│ 星位：英辛               │ 星位：芮乙               │ 星位：柱己               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "坤二宫",
+                      "蛇",
+                      "休丁",
+                      "柱己"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      66,
+                      68
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 66,
+                      "line_end": 68,
+                      "byte_start": 5796,
+                      "byte_end": 6112,
+                      "source_quote": "│ 震三宫  八神：地         │ 中五宫                   │ 兑七宫  八神：阴         │\n│ 门位：死辛               │ 中宫原字：壬             │ 门位：生癸               │\n│ 星位：辅庚               │                          │ 星位：心丁               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "震三宫",
+                      "地",
+                      "死辛",
+                      "辅庚"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      66,
+                      68
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 66,
+                      "line_end": 68,
+                      "byte_start": 5796,
+                      "byte_end": 6112,
+                      "source_quote": "│ 震三宫  八神：地         │ 中五宫                   │ 兑七宫  八神：阴         │\n│ 门位：死辛               │ 中宫原字：壬             │ 门位：生癸               │\n│ 星位：辅庚               │                          │ 星位：心丁               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "中五宫",
+                      "—",
+                      "壬",
+                      "—"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      66,
+                      68
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 66,
+                      "line_end": 68,
+                      "byte_start": 5796,
+                      "byte_end": 6112,
+                      "source_quote": "│ 震三宫  八神：地         │ 中五宫                   │ 兑七宫  八神：阴         │\n│ 门位：死辛               │ 中宫原字：壬             │ 门位：生癸               │\n│ 星位：辅庚               │                          │ 星位：心丁               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "兑七宫",
+                      "阴",
+                      "生癸",
+                      "心丁"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      70,
+                      72
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 70,
+                      "line_end": 72,
+                      "byte_start": 6359,
+                      "byte_end": 6683,
+                      "source_quote": "│ 艮八宫  八神：武         │ 坎一宫  八神：虎         │ 乾六宫  八神：合         │\n│ 门位：景庚               │ 门位：杜丙               │ 门位：伤戊               │\n│ 星位：冲丙               │ 星位：任戊               │ 星位：蓬癸               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "艮八宫",
+                      "武",
+                      "景庚",
+                      "冲丙"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      70,
+                      72
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 70,
+                      "line_end": 72,
+                      "byte_start": 6359,
+                      "byte_end": 6683,
+                      "source_quote": "│ 艮八宫  八神：武         │ 坎一宫  八神：虎         │ 乾六宫  八神：合         │\n│ 门位：景庚               │ 门位：杜丙               │ 门位：伤戊               │\n│ 星位：冲丙               │ 星位：任戊               │ 星位：蓬癸               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "坎一宫",
+                      "虎",
+                      "杜丙",
+                      "任戊"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      70,
+                      72
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 70,
+                      "line_end": 72,
+                      "byte_start": 6359,
+                      "byte_end": 6683,
+                      "source_quote": "│ 艮八宫  八神：武         │ 坎一宫  八神：虎         │ 乾六宫  八神：合         │\n│ 门位：景庚               │ 门位：杜丙               │ 门位：伤戊               │\n│ 星位：冲丙               │ 星位：任戊               │ 星位：蓬癸               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "乾六宫",
+                      "合",
+                      "伤戊",
+                      "蓬癸"
+                    ]
+                  }
+                ],
+                "source_chart_metadata": {
+                  "casting_description": "乙亥时，值符天芮星落9宫，死门值使落3宫。地盘时干乙在9宫，天盘时干乙落4宫。",
+                  "casting_basis_as_written": "followup_time_yihai"
+                },
+                "source_presentation_stage": "source_order",
+                "calendar_recomputed": false
+              }
+            }
+          ],
+          "records": [
+            {
+              "record_key": "sports-case-02-line-50",
+              "sequence": 0,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                50,
+                50
+              ],
+              "text": "5月8日晚7点以后，第四十三届世乒赛将举行男子团体决赛，由中国男队与瑞典男队争夺冠亚军。中国男队已经痛失冠军十六年，这次能否夺回冠军更加令人瞩目，全国亿万观众翘首以待。\n",
+              "chart_key": null,
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_inquiry",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 50,
+                  "line_end": 50,
+                  "byte_start": 4045,
+                  "byte_end": 4292,
+                  "source_quote": "5月8日晚7点以后，第四十三届世乒赛将举行男子团体决赛，由中国男队与瑞典男队争夺冠亚军。中国男队已经痛失冠军十六年，这次能否夺回冠军更加令人瞩目，全国亿万观众翘首以待。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-02-line-52",
+              "sequence": 1,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                52,
+                52
+              ],
+              "text": "我一家同样如此，所以电视打开后，一家人让我一定要测一测。\n",
+              "chart_key": null,
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_inquiry",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 52,
+                  "line_end": 52,
+                  "byte_start": 4293,
+                  "byte_end": 4378,
+                  "source_quote": "我一家同样如此，所以电视打开后，一家人让我一定要测一测。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-02-line-54",
+              "sequence": 2,
+              "kind": "dialogue",
+              "knowledge_phase": "unknown",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                54,
+                54
+              ],
+              "text": "于是我用奇门遁甲起局预测。干支为乙亥年辛巳月己亥日甲戌时，阳遁1局，甲戌旬，甲戌己在2宫，天芮星为值符，死门为值使，星、门俱伏吟。\n",
+              "chart_key": null,
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "source_narrative",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 54,
+                  "line_end": 54,
+                  "byte_start": 4379,
+                  "byte_end": 4571,
+                  "source_quote": "于是我用奇门遁甲起局预测。干支为乙亥年辛巳月己亥日甲戌时，阳遁1局，甲戌旬，甲戌己在2宫，天芮星为值符，死门为值使，星、门俱伏吟。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "forecast_stage_as_written": "initial_jiaxu",
+                "full_nine_palace_chart_not_provided": true
+              }
+            },
+            {
+              "record_key": "sports-case-02-line-56",
+              "sequence": 3,
+              "kind": "timing",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                56,
+                56
+              ],
+              "text": "我一看是伏吟局，地盘时干、天盘时干同宫比和，不分胜负。我说，两队势均力敌，在9点以前(甲戌时内)恐怕难分胜负，一定会打到乙亥时才能见分晓。再看看乙亥时的奇门格局吧。\n",
+              "chart_key": null,
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_jiaxu_forecast_without_supplied_grid",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 56,
+                  "line_end": 56,
+                  "byte_start": 4572,
+                  "byte_end": 4813,
+                  "source_quote": "我一看是伏吟局，地盘时干、天盘时干同宫比和，不分胜负。我说，两队势均力敌，在9点以前(甲戌时内)恐怕难分胜负，一定会打到乙亥时才能见分晓。再看看乙亥时的奇门格局吧。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "forecast_stage_as_written": "initial_jiaxu",
+                "full_nine_palace_chart_not_provided": true
+              }
+            },
+            {
+              "record_key": "sports-case-02-line-58",
+              "sequence": 4,
+              "kind": "dialogue",
+              "knowledge_phase": "unknown",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                58,
+                58
+              ],
+              "text": "乙亥时，值符天芮星落9宫，死门值使落3宫。地盘时干乙在9宫，天盘时干乙落4宫。\n",
+              "chart_key": "sports-case-02-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "source_narrative",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 58,
+                  "line_end": 58,
+                  "byte_start": 4814,
+                  "byte_end": 4924,
+                  "source_quote": "乙亥时，值符天芮星落9宫，死门值使落3宫。地盘时干乙在9宫，天盘时干乙落4宫。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "forecast_stage_as_written": "subsequent_yihai_or_reported_result"
+              }
+            },
+            {
+              "record_key": "sports-case-02-line-77",
+              "sequence": 5,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                77,
+                77
+              ],
+              "text": "(1)以地盘时干乙为主队，为中国男队，在离9宫，属火，上乘芮星为土，宫生星；上乘开门属金，火克金，宫克门；上乘值符，值符为裁判，对我有利。四月火旺，我队落入旺宫。说明我队得地得时，士气很旺。又己+乙为地户逢星，半吉半凶；壬+乙为小蛇得势；开门也为吉门。\n",
+              "chart_key": "sports-case-02-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 77,
+                  "line_end": 77,
+                  "byte_start": 6942,
+                  "byte_end": 7309,
+                  "source_quote": "(1)以地盘时干乙为主队，为中国男队，在离9宫，属火，上乘芮星为土，宫生星；上乘开门属金，火克金，宫克门；上乘值符，值符为裁判，对我有利。四月火旺，我队落入旺宫。说明我队得地得时，士气很旺。又己+乙为地户逢星，半吉半凶；壬+乙为小蛇得势；开门也为吉门。\n"
+                },
+                "original_step_number": "1",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "forecast_stage_as_written": "subsequent_yihai_or_reported_result"
+              }
+            },
+            {
+              "record_key": "sports-case-02-line-79",
+              "sequence": 6,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                79,
+                79
+              ],
+              "text": "(2)以天盘时干乙为客队，为瑞典男队，天盘时干乙落4宫，为木。4宫木生9宫火，对我队有利。4宫上乘天英星，木生火，宫生星；上乘惊门为凶门为金，金克木，门克宫；上乘九天，也属金，金克木；又乙+辛为龙逃走凶格。综合这几点看，客队不利，要输。\n",
+              "chart_key": "sports-case-02-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 79,
+                  "line_end": 79,
+                  "byte_start": 7310,
+                  "byte_end": 7649,
+                  "source_quote": "(2)以天盘时干乙为客队，为瑞典男队，天盘时干乙落4宫，为木。4宫木生9宫火，对我队有利。4宫上乘天英星，木生火，宫生星；上乘惊门为凶门为金，金克木，门克宫；上乘九天，也属金，金克木；又乙+辛为龙逃走凶格。综合这几点看，客队不利，要输。\n"
+                },
+                "original_step_number": "2",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "forecast_stage_as_written": "subsequent_yihai_or_reported_result"
+              }
+            },
+            {
+              "record_key": "sports-case-02-line-81",
+              "sequence": 7,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                81,
+                81
+              ],
+              "text": "(3)以辛为金牌，地盘辛在巽4宫属木，天盘辛落3宫，也属木，二宫比和，不分胜负。但4宫上乘九天，3宫上乘九地和死门，所以天盘落宫不利。\n",
+              "chart_key": "sports-case-02-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 81,
+                  "line_end": 81,
+                  "byte_start": 7650,
+                  "byte_end": 7838,
+                  "source_quote": "(3)以辛为金牌，地盘辛在巽4宫属木，天盘辛落3宫，也属木，二宫比和，不分胜负。但4宫上乘九天，3宫上乘九地和死门，所以天盘落宫不利。\n"
+                },
+                "original_step_number": "3",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "forecast_stage_as_written": "subsequent_yihai_or_reported_result"
+              }
+            },
+            {
+              "record_key": "sports-case-02-line-83",
+              "sequence": 8,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                83,
+                83
+              ],
+              "text": "(4)景门为技术指导，落艮8宫，与主队落宫相生；与客队落宫相克，四月火旺土相木休，所以也对我有利。\n",
+              "chart_key": "sports-case-02-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 83,
+                  "line_end": 83,
+                  "byte_start": 7839,
+                  "byte_end": 7979,
+                  "source_quote": "(4)景门为技术指导，落艮8宫，与主队落宫相生；与客队落宫相克，四月火旺土相木休，所以也对我有利。\n"
+                },
+                "original_step_number": "4",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "forecast_stage_as_written": "subsequent_yihai_or_reported_result"
+              }
+            },
+            {
+              "record_key": "sports-case-02-line-85",
+              "sequence": 9,
+              "kind": "prediction",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                85,
+                85
+              ],
+              "text": "综合以上几点，我断，中国男队经过艰苦拼搏，最后可望夺取冠军。\n",
+              "chart_key": "sports-case-02-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "original_forecast",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 85,
+                  "line_end": 85,
+                  "byte_start": 7980,
+                  "byte_end": 8071,
+                  "source_quote": "综合以上几点，我断，中国男队经过艰苦拼搏，最后可望夺取冠军。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "forecast_stage_as_written": "subsequent_yihai_or_reported_result"
+              }
+            },
+            {
+              "record_key": "sports-case-02-line-87",
+              "sequence": 10,
+              "kind": "outcome",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                87,
+                87
+              ],
+              "text": "结果，中国男队与瑞典男队在前四局中，打成2:2平，不分胜负，正合伏吟局，一直打到晚上9点50分即进入乙亥时才结束，最终中国男队以3:2战胜瑞典队，夺回世乒赛男子团体决赛冠军。\n",
+              "chart_key": "sports-case-02-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "reported_outcome",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 87,
+                  "line_end": 87,
+                  "byte_start": 8072,
+                  "byte_end": 8316,
+                  "source_quote": "结果，中国男队与瑞典男队在前四局中，打成2:2平，不分胜负，正合伏吟局，一直打到晚上9点50分即进入乙亥时才结束，最终中国男队以3:2战胜瑞典队，夺回世乒赛男子团体决赛冠军。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "forecast_stage_as_written": "subsequent_yihai_or_reported_result"
+              }
+            }
+          ],
+          "evidence_links": []
+        }
+      ]
+    },
+    {
+      "case_key": "sports-case-03",
+      "title": "实例三：测第四十三届世乒赛男单决赛",
+      "completeness": "confirmed_complete",
+      "source_ranges": [
+        [
+          89,
+          135
+        ]
+      ],
+      "source_selectors": [
+        {
+          "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+          "line_start": 89,
+          "line_end": 135,
+          "byte_start": 8317,
+          "byte_end": 13255,
+          "source_quote": "实例三：测第四十三届世乒赛男单决赛\n\n5月14日下午5点至7点，第四十三届世乒赛进行最后一项决赛，这就是举世瞩目的男子单打决赛。该项决赛在两名中国队员孔令辉和刘国良之间举行。\n\n家人对我说，你再预测一下这二人谁能拿金牌。这下子把我难住了，二人都是中国队员，怎么分主客呢?电视机打开以后，我看到上场的孔令辉和刘国良背上背的不同的号码，于是灵机一动，说：有了!我就按二人不同的号码来预测吧。\n\n孔令辉背上号码是113,刘国良背上号码是114。干支是乙亥年辛巳月乙巳日乙酉时，阳7局，甲申旬，天英星落6宫，景门落1宫。\n\n九宫盘面（依原文转写，未重新排盘）\n┌──────────────────────────┬──────────────────────────┬──────────────────────────┐\n│ 巽四宫  八神：虎         │ 离九宫  八神：武         │ 坤二宫  八神：地         │\n│ 门位：开辛               │ 门位：休己               │ 门位：生癸               │\n│ 星位：蓬丁               │ 星位：任庚               │ 星位：丙冲壬             │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 震三宫  八神：合         │ 中五宫                   │ 兑七宫  八神：天         │\n│ 门位：惊乙               │ 中宫原字：丙             │ 门位：伤丁               │\n│ 星位：心癸               │                          │ 星位：辅戊               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 艮八宫  八神：阴         │ 坎一宫  八神：蛇         │ 乾六宫  八神：符         │\n│ 门位：死戊               │ 门位：丙景壬             │ 门位：杜庚               │\n│ 星位：柱己               │ 星位：芮辛               │ 星位：英乙               │\n└──────────────────────────┴──────────────────────────┴──────────────────────────┘\n\n分析：\n\n由于孔令辉和刘国良均为中国男队队员，所以无法分主客。以二人背上号码113和114为代表信息，如果看地盘3宫和4宫：\n\n则①震3宫和巽4宫，同属木，比和；②3宫乙+癸为华盖逢星，惊门为金，门克宫，星为天心星为金，也克宫，只有上乘六合为木，与宫比和；③4宫辛+丁为狱神得奇，开门为金，门克宫，天蓬星为水，生宫，但上乘白虎为金，又克宫。\n\n所以如果以地盘宫数为用神，仍不分胜负。如果以八门为用神，则3宫伤门代表孔令辉，4宫杜门代表刘国良：\n\n(1)伤门落兑7宫属金，丁+戊为青龙转光，官人升迁，常人威昌，宫克星，宫克门，上乘九天；\n\n(2)杜门落乾6宫属金，庚+乙为太白逢星，退吉进凶，谋为不利，星克宫，宫克门，上乘值符；\n\n二者比较，孔令辉的格局要比刘国良的好，但二门落宫比和，又均为反吟，胜负也不明显。\n\n我突然想到，二人均是乒坛明星，应以九星为用神，以3宫的天冲星为孔令辉，以4宫的天辅星为刘国良，这样以来：\n\n(1)代表孔令辉的天冲星落坤2宫，癸+丙为华盖悖格，贵贱逢之皆不利，惟上人见喜；癸+壬为复见螣蛇，嫁娶重婚，后嫁无子，不保年华；逢生门为吉门，生门属土，门宫比和；上乘九地，为土，与宫也比和；开休生三吉门，合三奇(此处为丙奇),上乘九地，为真诈，三诈宜远行、商贾、嫁娶，百事皆吉。\n\n(2)代表刘国良的天辅星落兑7宫，格局丁+戊为青龙转光，官人升迁，常人威昌；逢伤门为凶门，且伤门为木，被兑7宫之金所克，宫克门，为凶；上乘九天，为金，与宫比和。\n\n从以上二星落宫格局看，孔令辉格局略好于刘国良。再结合时令，正值四月火旺，生助孔令辉所落坤2宫之土，克制刘国良所落兑7宫之金；换句话说，2宫旺相，7宫休囚无力。所以，我断，最后孔令辉会胜。\n\n结果，最后孔令辉以3:2胜刘国良，夺得第四十三届世乒赛男子单打冠军，刘国良开始看起来很厉害，但最终屈居亚军。\n\n"
+        }
+      ],
+      "family": {
+        "family_key": "shenqi-sports-case-03-family",
+        "description": "实例三：测第四十三届世乒赛男单决赛：同一比赛/竞赛问测的多时段与方法尝试、预测和结果同组"
+      },
+      "events": [
+        {
+          "event_key": "sports-case-03-event-1",
+          "chronology_status": "ordered",
+          "background": {
+            "initial_inquiry_as_written": "5月14日下午5点至7点，第四十三届世乒赛进行最后一项决赛，这就是举世瞩目的男子单打决赛。该项决赛在两名中国队员孔令辉和刘国良之间举行。\n",
+            "source_confirmation": "user_attestation",
+            "whole_background_not_prediction_input": true
+          },
+          "prediction_input_policy": {
+            "mode": "first_forecast_only_conservative",
+            "contract": "source-stage-v1",
+            "unrestricted_background_withheld": true,
+            "unknown_explanations_withheld": true
+          },
+          "charts": [
+            {
+              "chart_key": "sports-case-03-chart-1",
+              "source_lines": [
+                98,
+                110
+              ],
+              "source_or_engine": "original",
+              "casting_method": null,
+              "method_version": null,
+              "input_datetime": null,
+              "timezone": null,
+              "location": null,
+              "validation_status": "original_unparsed",
+              "payload": {
+                "chart_role": "source_original_nine_palace_grid",
+                "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                "raw_chart_text": "┌──────────────────────────┬──────────────────────────┬──────────────────────────┐\n│ 巽四宫  八神：虎         │ 离九宫  八神：武         │ 坤二宫  八神：地         │\n│ 门位：开辛               │ 门位：休己               │ 门位：生癸               │\n│ 星位：蓬丁               │ 星位：任庚               │ 星位：丙冲壬             │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 震三宫  八神：合         │ 中五宫                   │ 兑七宫  八神：天         │\n│ 门位：惊乙               │ 中宫原字：丙             │ 门位：伤丁               │\n│ 星位：心癸               │                          │ 星位：辅戊               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 艮八宫  八神：阴         │ 坎一宫  八神：蛇         │ 乾六宫  八神：符         │\n│ 门位：死戊               │ 门位：丙景壬             │ 门位：杜庚               │\n│ 星位：柱己               │ 星位：芮辛               │ 星位：英乙               │\n└──────────────────────────┴──────────────────────────┴──────────────────────────┘\n",
+                "source_table_rows": [
+                  {
+                    "source_lines": [
+                      99,
+                      101
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 99,
+                      "line_end": 101,
+                      "byte_start": 9340,
+                      "byte_end": 9665,
+                      "source_quote": "│ 巽四宫  八神：虎         │ 离九宫  八神：武         │ 坤二宫  八神：地         │\n│ 门位：开辛               │ 门位：休己               │ 门位：生癸               │\n│ 星位：蓬丁               │ 星位：任庚               │ 星位：丙冲壬             │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "巽四宫",
+                      "虎",
+                      "开辛",
+                      "蓬丁"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      99,
+                      101
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 99,
+                      "line_end": 101,
+                      "byte_start": 9340,
+                      "byte_end": 9665,
+                      "source_quote": "│ 巽四宫  八神：虎         │ 离九宫  八神：武         │ 坤二宫  八神：地         │\n│ 门位：开辛               │ 门位：休己               │ 门位：生癸               │\n│ 星位：蓬丁               │ 星位：任庚               │ 星位：丙冲壬             │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "离九宫",
+                      "武",
+                      "休己",
+                      "任庚"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      99,
+                      101
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 99,
+                      "line_end": 101,
+                      "byte_start": 9340,
+                      "byte_end": 9665,
+                      "source_quote": "│ 巽四宫  八神：虎         │ 离九宫  八神：武         │ 坤二宫  八神：地         │\n│ 门位：开辛               │ 门位：休己               │ 门位：生癸               │\n│ 星位：蓬丁               │ 星位：任庚               │ 星位：丙冲壬             │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "坤二宫",
+                      "地",
+                      "生癸",
+                      "丙冲壬"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      103,
+                      105
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 103,
+                      "line_end": 105,
+                      "byte_start": 9912,
+                      "byte_end": 10228,
+                      "source_quote": "│ 震三宫  八神：合         │ 中五宫                   │ 兑七宫  八神：天         │\n│ 门位：惊乙               │ 中宫原字：丙             │ 门位：伤丁               │\n│ 星位：心癸               │                          │ 星位：辅戊               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "震三宫",
+                      "合",
+                      "惊乙",
+                      "心癸"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      103,
+                      105
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 103,
+                      "line_end": 105,
+                      "byte_start": 9912,
+                      "byte_end": 10228,
+                      "source_quote": "│ 震三宫  八神：合         │ 中五宫                   │ 兑七宫  八神：天         │\n│ 门位：惊乙               │ 中宫原字：丙             │ 门位：伤丁               │\n│ 星位：心癸               │                          │ 星位：辅戊               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "中五宫",
+                      "—",
+                      "丙",
+                      "—"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      103,
+                      105
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 103,
+                      "line_end": 105,
+                      "byte_start": 9912,
+                      "byte_end": 10228,
+                      "source_quote": "│ 震三宫  八神：合         │ 中五宫                   │ 兑七宫  八神：天         │\n│ 门位：惊乙               │ 中宫原字：丙             │ 门位：伤丁               │\n│ 星位：心癸               │                          │ 星位：辅戊               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "兑七宫",
+                      "天",
+                      "伤丁",
+                      "辅戊"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      107,
+                      109
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 107,
+                      "line_end": 109,
+                      "byte_start": 10475,
+                      "byte_end": 10800,
+                      "source_quote": "│ 艮八宫  八神：阴         │ 坎一宫  八神：蛇         │ 乾六宫  八神：符         │\n│ 门位：死戊               │ 门位：丙景壬             │ 门位：杜庚               │\n│ 星位：柱己               │ 星位：芮辛               │ 星位：英乙               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "艮八宫",
+                      "阴",
+                      "死戊",
+                      "柱己"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      107,
+                      109
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 107,
+                      "line_end": 109,
+                      "byte_start": 10475,
+                      "byte_end": 10800,
+                      "source_quote": "│ 艮八宫  八神：阴         │ 坎一宫  八神：蛇         │ 乾六宫  八神：符         │\n│ 门位：死戊               │ 门位：丙景壬             │ 门位：杜庚               │\n│ 星位：柱己               │ 星位：芮辛               │ 星位：英乙               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "坎一宫",
+                      "蛇",
+                      "丙景壬",
+                      "芮辛"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      107,
+                      109
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 107,
+                      "line_end": 109,
+                      "byte_start": 10475,
+                      "byte_end": 10800,
+                      "source_quote": "│ 艮八宫  八神：阴         │ 坎一宫  八神：蛇         │ 乾六宫  八神：符         │\n│ 门位：死戊               │ 门位：丙景壬             │ 门位：杜庚               │\n│ 星位：柱己               │ 星位：芮辛               │ 星位：英乙               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "乾六宫",
+                      "符",
+                      "杜庚",
+                      "英乙"
+                    ]
+                  }
+                ],
+                "source_chart_metadata": {
+                  "casting_description": "孔令辉背上号码是113,刘国良背上号码是114。干支是乙亥年辛巳月乙巳日乙酉时，阳7局，甲申旬，天英星落6宫，景门落1宫。",
+                  "casting_basis_as_written": "source_stated_casting_time"
+                },
+                "source_presentation_stage": "source_order",
+                "calendar_recomputed": false
+              }
+            }
+          ],
+          "records": [
+            {
+              "record_key": "sports-case-03-line-91",
+              "sequence": 0,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                91,
+                91
+              ],
+              "text": "5月14日下午5点至7点，第四十三届世乒赛进行最后一项决赛，这就是举世瞩目的男子单打决赛。该项决赛在两名中国队员孔令辉和刘国良之间举行。\n",
+              "chart_key": "sports-case-03-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_inquiry",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 91,
+                  "line_end": 91,
+                  "byte_start": 8370,
+                  "byte_end": 8565,
+                  "source_quote": "5月14日下午5点至7点，第四十三届世乒赛进行最后一项决赛，这就是举世瞩目的男子单打决赛。该项决赛在两名中国队员孔令辉和刘国良之间举行。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-03-line-93",
+              "sequence": 1,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                93,
+                93
+              ],
+              "text": "家人对我说，你再预测一下这二人谁能拿金牌。这下子把我难住了，二人都是中国队员，怎么分主客呢?电视机打开以后，我看到上场的孔令辉和刘国良背上背的不同的号码，于是灵机一动，说：有了!我就按二人不同的号码来预测吧。\n",
+              "chart_key": "sports-case-03-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_inquiry",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 93,
+                  "line_end": 93,
+                  "byte_start": 8566,
+                  "byte_end": 8875,
+                  "source_quote": "家人对我说，你再预测一下这二人谁能拿金牌。这下子把我难住了，二人都是中国队员，怎么分主客呢?电视机打开以后，我看到上场的孔令辉和刘国良背上背的不同的号码，于是灵机一动，说：有了!我就按二人不同的号码来预测吧。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-03-line-95",
+              "sequence": 2,
+              "kind": "dialogue",
+              "knowledge_phase": "unknown",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                95,
+                95
+              ],
+              "text": "孔令辉背上号码是113,刘国良背上号码是114。干支是乙亥年辛巳月乙巳日乙酉时，阳7局，甲申旬，天英星落6宫，景门落1宫。\n",
+              "chart_key": "sports-case-03-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "source_narrative",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 95,
+                  "line_end": 95,
+                  "byte_start": 8876,
+                  "byte_end": 9040,
+                  "source_quote": "孔令辉背上号码是113,刘国良背上号码是114。干支是乙亥年辛巳月乙巳日乙酉时，阳7局，甲申旬，天英星落6宫，景门落1宫。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-03-line-114",
+              "sequence": 3,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                114,
+                114
+              ],
+              "text": "由于孔令辉和刘国良均为中国男队队员，所以无法分主客。以二人背上号码113和114为代表信息，如果看地盘3宫和4宫：\n",
+              "chart_key": "sports-case-03-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 114,
+                  "line_end": 114,
+                  "byte_start": 11059,
+                  "byte_end": 11215,
+                  "source_quote": "由于孔令辉和刘国良均为中国男队队员，所以无法分主客。以二人背上号码113和114为代表信息，如果看地盘3宫和4宫：\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "method_attempt": "jersey_number_earth_palaces_3_4"
+              }
+            },
+            {
+              "record_key": "sports-case-03-line-116",
+              "sequence": 4,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                116,
+                116
+              ],
+              "text": "则①震3宫和巽4宫，同属木，比和；②3宫乙+癸为华盖逢星，惊门为金，门克宫，星为天心星为金，也克宫，只有上乘六合为木，与宫比和；③4宫辛+丁为狱神得奇，开门为金，门克宫，天蓬星为水，生宫，但上乘白虎为金，又克宫。\n",
+              "chart_key": "sports-case-03-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 116,
+                  "line_end": 116,
+                  "byte_start": 11216,
+                  "byte_end": 11523,
+                  "source_quote": "则①震3宫和巽4宫，同属木，比和；②3宫乙+癸为华盖逢星，惊门为金，门克宫，星为天心星为金，也克宫，只有上乘六合为木，与宫比和；③4宫辛+丁为狱神得奇，开门为金，门克宫，天蓬星为水，生宫，但上乘白虎为金，又克宫。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "method_attempt": "jersey_number_earth_palaces_3_4"
+              }
+            },
+            {
+              "record_key": "sports-case-03-line-118",
+              "sequence": 5,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                118,
+                118
+              ],
+              "text": "所以如果以地盘宫数为用神，仍不分胜负。如果以八门为用神，则3宫伤门代表孔令辉，4宫杜门代表刘国良：\n",
+              "chart_key": "sports-case-03-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 118,
+                  "line_end": 118,
+                  "byte_start": 11524,
+                  "byte_end": 11668,
+                  "source_quote": "所以如果以地盘宫数为用神，仍不分胜负。如果以八门为用神，则3宫伤门代表孔令辉，4宫杜门代表刘国良：\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "method_attempt": "jersey_number_doors_3_4"
+              }
+            },
+            {
+              "record_key": "sports-case-03-line-120",
+              "sequence": 6,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                120,
+                120
+              ],
+              "text": "(1)伤门落兑7宫属金，丁+戊为青龙转光，官人升迁，常人威昌，宫克星，宫克门，上乘九天；\n",
+              "chart_key": "sports-case-03-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 120,
+                  "line_end": 120,
+                  "byte_start": 11669,
+                  "byte_end": 11792,
+                  "source_quote": "(1)伤门落兑7宫属金，丁+戊为青龙转光，官人升迁，常人威昌，宫克星，宫克门，上乘九天；\n"
+                },
+                "original_step_number": "1",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "method_attempt": "jersey_number_doors_3_4"
+              }
+            },
+            {
+              "record_key": "sports-case-03-line-122",
+              "sequence": 7,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                122,
+                122
+              ],
+              "text": "(2)杜门落乾6宫属金，庚+乙为太白逢星，退吉进凶，谋为不利，星克宫，宫克门，上乘值符；\n",
+              "chart_key": "sports-case-03-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 122,
+                  "line_end": 122,
+                  "byte_start": 11793,
+                  "byte_end": 11916,
+                  "source_quote": "(2)杜门落乾6宫属金，庚+乙为太白逢星，退吉进凶，谋为不利，星克宫，宫克门，上乘值符；\n"
+                },
+                "original_step_number": "2",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "method_attempt": "jersey_number_doors_3_4"
+              }
+            },
+            {
+              "record_key": "sports-case-03-line-124",
+              "sequence": 8,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                124,
+                124
+              ],
+              "text": "二者比较，孔令辉的格局要比刘国良的好，但二门落宫比和，又均为反吟，胜负也不明显。\n",
+              "chart_key": "sports-case-03-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 124,
+                  "line_end": 124,
+                  "byte_start": 11917,
+                  "byte_end": 12038,
+                  "source_quote": "二者比较，孔令辉的格局要比刘国良的好，但二门落宫比和，又均为反吟，胜负也不明显。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "method_attempt": "jersey_number_doors_3_4"
+              }
+            },
+            {
+              "record_key": "sports-case-03-line-126",
+              "sequence": 9,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                126,
+                126
+              ],
+              "text": "我突然想到，二人均是乒坛明星，应以九星为用神，以3宫的天冲星为孔令辉，以4宫的天辅星为刘国良，这样以来：\n",
+              "chart_key": "sports-case-03-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 126,
+                  "line_end": 126,
+                  "byte_start": 12039,
+                  "byte_end": 12192,
+                  "source_quote": "我突然想到，二人均是乒坛明星，应以九星为用神，以3宫的天冲星为孔令辉，以4宫的天辅星为刘国良，这样以来：\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "method_attempt": "jersey_number_stars_3_4"
+              }
+            },
+            {
+              "record_key": "sports-case-03-line-128",
+              "sequence": 10,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                128,
+                128
+              ],
+              "text": "(1)代表孔令辉的天冲星落坤2宫，癸+丙为华盖悖格，贵贱逢之皆不利，惟上人见喜；癸+壬为复见螣蛇，嫁娶重婚，后嫁无子，不保年华；逢生门为吉门，生门属土，门宫比和；上乘九地，为土，与宫也比和；开休生三吉门，合三奇(此处为丙奇),上乘九地，为真诈，三诈宜远行、商贾、嫁娶，百事皆吉。\n",
+              "chart_key": "sports-case-03-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 128,
+                  "line_end": 128,
+                  "byte_start": 12193,
+                  "byte_end": 12593,
+                  "source_quote": "(1)代表孔令辉的天冲星落坤2宫，癸+丙为华盖悖格，贵贱逢之皆不利，惟上人见喜；癸+壬为复见螣蛇，嫁娶重婚，后嫁无子，不保年华；逢生门为吉门，生门属土，门宫比和；上乘九地，为土，与宫也比和；开休生三吉门，合三奇(此处为丙奇),上乘九地，为真诈，三诈宜远行、商贾、嫁娶，百事皆吉。\n"
+                },
+                "original_step_number": "1",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "method_attempt": "jersey_number_stars_3_4"
+              }
+            },
+            {
+              "record_key": "sports-case-03-line-130",
+              "sequence": 11,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                130,
+                130
+              ],
+              "text": "(2)代表刘国良的天辅星落兑7宫，格局丁+戊为青龙转光，官人升迁，常人威昌；逢伤门为凶门，且伤门为木，被兑7宫之金所克，宫克门，为凶；上乘九天，为金，与宫比和。\n",
+              "chart_key": "sports-case-03-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 130,
+                  "line_end": 130,
+                  "byte_start": 12594,
+                  "byte_end": 12823,
+                  "source_quote": "(2)代表刘国良的天辅星落兑7宫，格局丁+戊为青龙转光，官人升迁，常人威昌；逢伤门为凶门，且伤门为木，被兑7宫之金所克，宫克门，为凶；上乘九天，为金，与宫比和。\n"
+                },
+                "original_step_number": "2",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "method_attempt": "jersey_number_stars_3_4"
+              }
+            },
+            {
+              "record_key": "sports-case-03-line-132",
+              "sequence": 12,
+              "kind": "prediction",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                132,
+                132
+              ],
+              "text": "从以上二星落宫格局看，孔令辉格局略好于刘国良。再结合时令，正值四月火旺，生助孔令辉所落坤2宫之土，克制刘国良所落兑7宫之金；换句话说，2宫旺相，7宫休囚无力。所以，我断，最后孔令辉会胜。\n",
+              "chart_key": "sports-case-03-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "original_forecast",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 132,
+                  "line_end": 132,
+                  "byte_start": 12824,
+                  "byte_end": 13096,
+                  "source_quote": "从以上二星落宫格局看，孔令辉格局略好于刘国良。再结合时令，正值四月火旺，生助孔令辉所落坤2宫之土，克制刘国良所落兑7宫之金；换句话说，2宫旺相，7宫休囚无力。所以，我断，最后孔令辉会胜。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "method_attempt": "jersey_number_stars_3_4"
+              }
+            },
+            {
+              "record_key": "sports-case-03-line-134",
+              "sequence": 13,
+              "kind": "outcome",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                134,
+                134
+              ],
+              "text": "结果，最后孔令辉以3:2胜刘国良，夺得第四十三届世乒赛男子单打冠军，刘国良开始看起来很厉害，但最终屈居亚军。\n",
+              "chart_key": "sports-case-03-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "reported_outcome",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 134,
+                  "line_end": 134,
+                  "byte_start": 13097,
+                  "byte_end": 13254,
+                  "source_quote": "结果，最后孔令辉以3:2胜刘国良，夺得第四十三届世乒赛男子单打冠军，刘国良开始看起来很厉害，但最终屈居亚军。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            }
+          ],
+          "evidence_links": []
+        }
+      ]
+    },
+    {
+      "case_key": "sports-case-04",
+      "title": "实例四：测中国队获金牌数",
+      "completeness": "confirmed_complete",
+      "source_ranges": [
+        [
+          136,
+          166
+        ]
+      ],
+      "source_selectors": [
+        {
+          "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+          "line_start": 136,
+          "line_end": 166,
+          "byte_start": 13255,
+          "byte_end": 16036,
+          "source_quote": "实例四：测中国队获金牌数\n\n1996年7月19日举世瞩目的奥运会将在美国南部城市亚特兰大举行。7月18日晚上10点30分，家人提出，请你预测一下中国队会获得多少块金牌。\n\n我于是按问时起局：\n\n丙子年乙未月丙辰日己亥时，阴2局，甲午旬，天任星为值符落1宫，生门为值使落3宫。\n\n九宫盘面（依原文转写，未重新排盘）\n┌──────────────────────────┬──────────────────────────┬──────────────────────────┐\n│ 巽四宫  八神：武         │ 离九宫  八神：虎         │ 坤二宫  八神：合         │\n│ 门位：伤庚               │ 门位：丁杜戊             │ 门位：景壬               │\n│ 星位：英丙               │ 星位：芮庚               │ 星位：柱戊               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 震三宫  八神：地         │ 中五宫                   │ 兑七宫  八神：阴         │\n│ 门位：生丙               │ 中宫原字：丁             │ 门位：死癸               │\n│ 星位：辅乙               │                          │ 星位：心壬               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 艮八宫  八神：天         │ 坎一宫  八神：符         │ 乾六宫  八神：蛇         │\n│ 门位：休乙               │ 门位：开辛               │ 门位：惊己               │\n│ 星位：冲辛               │ 星位：任己               │ 星位：蓬癸               │\n└──────────────────────────┴──────────────────────────┴──────────────────────────┘\n\n分析：\n\n(1)以地盘时干为中国队，在坎1宫，上乘辛，辛为金牌，临开门吉门生宫，值符吉神，但天任星克宫。因此，虽然困难不少，但会开创一个新局面。\n\n(2)金牌辛落1宫，坎宫属水，主一、六数。因而断中国会得十枚或十六枚金牌。\n\n结果：奥运会到8月5日结束，中国队夺得十六枚金牌，名列世界第四位。\n\n"
+        }
+      ],
+      "family": {
+        "family_key": "shenqi-sports-case-04-family",
+        "description": "实例四：测中国队获金牌数：同一比赛/竞赛问测的多时段与方法尝试、预测和结果同组"
+      },
+      "events": [
+        {
+          "event_key": "sports-case-04-event-1",
+          "chronology_status": "ordered",
+          "background": {
+            "initial_inquiry_as_written": "1996年7月19日举世瞩目的奥运会将在美国南部城市亚特兰大举行。7月18日晚上10点30分，家人提出，请你预测一下中国队会获得多少块金牌。\n",
+            "source_confirmation": "user_attestation",
+            "whole_background_not_prediction_input": true
+          },
+          "prediction_input_policy": {
+            "mode": "first_forecast_only_conservative",
+            "contract": "source-stage-v1",
+            "unrestricted_background_withheld": true,
+            "unknown_explanations_withheld": true
+          },
+          "charts": [
+            {
+              "chart_key": "sports-case-04-chart-1",
+              "source_lines": [
+                145,
+                157
+              ],
+              "source_or_engine": "original",
+              "casting_method": null,
+              "method_version": null,
+              "input_datetime": null,
+              "timezone": null,
+              "location": null,
+              "validation_status": "original_unparsed",
+              "payload": {
+                "chart_role": "source_original_nine_palace_grid",
+                "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                "raw_chart_text": "┌──────────────────────────┬──────────────────────────┬──────────────────────────┐\n│ 巽四宫  八神：武         │ 离九宫  八神：虎         │ 坤二宫  八神：合         │\n│ 门位：伤庚               │ 门位：丁杜戊             │ 门位：景壬               │\n│ 星位：英丙               │ 星位：芮庚               │ 星位：柱戊               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 震三宫  八神：地         │ 中五宫                   │ 兑七宫  八神：阴         │\n│ 门位：生丙               │ 中宫原字：丁             │ 门位：死癸               │\n│ 星位：辅乙               │                          │ 星位：心壬               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 艮八宫  八神：天         │ 坎一宫  八神：符         │ 乾六宫  八神：蛇         │\n│ 门位：休乙               │ 门位：开辛               │ 门位：惊己               │\n│ 星位：冲辛               │ 星位：任己               │ 星位：蓬癸               │\n└──────────────────────────┴──────────────────────────┴──────────────────────────┘\n",
+                "source_table_rows": [
+                  {
+                    "source_lines": [
+                      146,
+                      148
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 146,
+                      "line_end": 148,
+                      "byte_start": 13921,
+                      "byte_end": 14246,
+                      "source_quote": "│ 巽四宫  八神：武         │ 离九宫  八神：虎         │ 坤二宫  八神：合         │\n│ 门位：伤庚               │ 门位：丁杜戊             │ 门位：景壬               │\n│ 星位：英丙               │ 星位：芮庚               │ 星位：柱戊               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "巽四宫",
+                      "武",
+                      "伤庚",
+                      "英丙"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      146,
+                      148
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 146,
+                      "line_end": 148,
+                      "byte_start": 13921,
+                      "byte_end": 14246,
+                      "source_quote": "│ 巽四宫  八神：武         │ 离九宫  八神：虎         │ 坤二宫  八神：合         │\n│ 门位：伤庚               │ 门位：丁杜戊             │ 门位：景壬               │\n│ 星位：英丙               │ 星位：芮庚               │ 星位：柱戊               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "离九宫",
+                      "虎",
+                      "丁杜戊",
+                      "芮庚"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      146,
+                      148
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 146,
+                      "line_end": 148,
+                      "byte_start": 13921,
+                      "byte_end": 14246,
+                      "source_quote": "│ 巽四宫  八神：武         │ 离九宫  八神：虎         │ 坤二宫  八神：合         │\n│ 门位：伤庚               │ 门位：丁杜戊             │ 门位：景壬               │\n│ 星位：英丙               │ 星位：芮庚               │ 星位：柱戊               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "坤二宫",
+                      "合",
+                      "景壬",
+                      "柱戊"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      150,
+                      152
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 150,
+                      "line_end": 152,
+                      "byte_start": 14493,
+                      "byte_end": 14809,
+                      "source_quote": "│ 震三宫  八神：地         │ 中五宫                   │ 兑七宫  八神：阴         │\n│ 门位：生丙               │ 中宫原字：丁             │ 门位：死癸               │\n│ 星位：辅乙               │                          │ 星位：心壬               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "震三宫",
+                      "地",
+                      "生丙",
+                      "辅乙"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      150,
+                      152
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 150,
+                      "line_end": 152,
+                      "byte_start": 14493,
+                      "byte_end": 14809,
+                      "source_quote": "│ 震三宫  八神：地         │ 中五宫                   │ 兑七宫  八神：阴         │\n│ 门位：生丙               │ 中宫原字：丁             │ 门位：死癸               │\n│ 星位：辅乙               │                          │ 星位：心壬               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "中五宫",
+                      "—",
+                      "丁",
+                      "—"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      150,
+                      152
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 150,
+                      "line_end": 152,
+                      "byte_start": 14493,
+                      "byte_end": 14809,
+                      "source_quote": "│ 震三宫  八神：地         │ 中五宫                   │ 兑七宫  八神：阴         │\n│ 门位：生丙               │ 中宫原字：丁             │ 门位：死癸               │\n│ 星位：辅乙               │                          │ 星位：心壬               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "兑七宫",
+                      "阴",
+                      "死癸",
+                      "心壬"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      154,
+                      156
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 154,
+                      "line_end": 156,
+                      "byte_start": 15056,
+                      "byte_end": 15380,
+                      "source_quote": "│ 艮八宫  八神：天         │ 坎一宫  八神：符         │ 乾六宫  八神：蛇         │\n│ 门位：休乙               │ 门位：开辛               │ 门位：惊己               │\n│ 星位：冲辛               │ 星位：任己               │ 星位：蓬癸               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "艮八宫",
+                      "天",
+                      "休乙",
+                      "冲辛"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      154,
+                      156
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 154,
+                      "line_end": 156,
+                      "byte_start": 15056,
+                      "byte_end": 15380,
+                      "source_quote": "│ 艮八宫  八神：天         │ 坎一宫  八神：符         │ 乾六宫  八神：蛇         │\n│ 门位：休乙               │ 门位：开辛               │ 门位：惊己               │\n│ 星位：冲辛               │ 星位：任己               │ 星位：蓬癸               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "坎一宫",
+                      "符",
+                      "开辛",
+                      "任己"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      154,
+                      156
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 154,
+                      "line_end": 156,
+                      "byte_start": 15056,
+                      "byte_end": 15380,
+                      "source_quote": "│ 艮八宫  八神：天         │ 坎一宫  八神：符         │ 乾六宫  八神：蛇         │\n│ 门位：休乙               │ 门位：开辛               │ 门位：惊己               │\n│ 星位：冲辛               │ 星位：任己               │ 星位：蓬癸               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "乾六宫",
+                      "蛇",
+                      "惊己",
+                      "蓬癸"
+                    ]
+                  }
+                ],
+                "source_chart_metadata": {
+                  "casting_description": "丙子年乙未月丙辰日己亥时，阴2局，甲午旬，天任星为值符落1宫，生门为值使落3宫。",
+                  "casting_basis_as_written": "source_stated_casting_time"
+                },
+                "source_presentation_stage": "source_order",
+                "calendar_recomputed": false
+              }
+            }
+          ],
+          "records": [
+            {
+              "record_key": "sports-case-04-line-138",
+              "sequence": 0,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                138,
+                138
+              ],
+              "text": "1996年7月19日举世瞩目的奥运会将在美国南部城市亚特兰大举行。7月18日晚上10点30分，家人提出，请你预测一下中国队会获得多少块金牌。\n",
+              "chart_key": "sports-case-04-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_inquiry",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 138,
+                  "line_end": 138,
+                  "byte_start": 13293,
+                  "byte_end": 13476,
+                  "source_quote": "1996年7月19日举世瞩目的奥运会将在美国南部城市亚特兰大举行。7月18日晚上10点30分，家人提出，请你预测一下中国队会获得多少块金牌。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-04-line-140",
+              "sequence": 1,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                140,
+                140
+              ],
+              "text": "我于是按问时起局：\n",
+              "chart_key": "sports-case-04-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_inquiry",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 140,
+                  "line_end": 140,
+                  "byte_start": 13477,
+                  "byte_end": 13505,
+                  "source_quote": "我于是按问时起局：\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-04-line-142",
+              "sequence": 2,
+              "kind": "dialogue",
+              "knowledge_phase": "unknown",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                142,
+                142
+              ],
+              "text": "丙子年乙未月丙辰日己亥时，阴2局，甲午旬，天任星为值符落1宫，生门为值使落3宫。\n",
+              "chart_key": "sports-case-04-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "source_narrative",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 142,
+                  "line_end": 142,
+                  "byte_start": 13506,
+                  "byte_end": 13621,
+                  "source_quote": "丙子年乙未月丙辰日己亥时，阴2局，甲午旬，天任星为值符落1宫，生门为值使落3宫。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-04-line-161",
+              "sequence": 3,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                161,
+                161
+              ],
+              "text": "(1)以地盘时干为中国队，在坎1宫，上乘辛，辛为金牌，临开门吉门生宫，值符吉神，但天任星克宫。因此，虽然困难不少，但会开创一个新局面。\n",
+              "chart_key": "sports-case-04-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 161,
+                  "line_end": 161,
+                  "byte_start": 15639,
+                  "byte_end": 15833,
+                  "source_quote": "(1)以地盘时干为中国队，在坎1宫，上乘辛，辛为金牌，临开门吉门生宫，值符吉神，但天任星克宫。因此，虽然困难不少，但会开创一个新局面。\n"
+                },
+                "original_step_number": "1",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-04-line-163",
+              "sequence": 4,
+              "kind": "prediction",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                163,
+                163
+              ],
+              "text": "(2)金牌辛落1宫，坎宫属水，主一、六数。因而断中国会得十枚或十六枚金牌。\n",
+              "chart_key": "sports-case-04-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "original_forecast",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 163,
+                  "line_end": 163,
+                  "byte_start": 15834,
+                  "byte_end": 15938,
+                  "source_quote": "(2)金牌辛落1宫，坎宫属水，主一、六数。因而断中国会得十枚或十六枚金牌。\n"
+                },
+                "original_step_number": "2",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "count_alternatives_as_written": [
+                  10,
+                  16
+                ],
+                "not_unique_point_forecast": true
+              }
+            },
+            {
+              "record_key": "sports-case-04-line-165",
+              "sequence": 5,
+              "kind": "outcome",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                165,
+                165
+              ],
+              "text": "结果：奥运会到8月5日结束，中国队夺得十六枚金牌，名列世界第四位。\n",
+              "chart_key": "sports-case-04-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "reported_outcome",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 165,
+                  "line_end": 165,
+                  "byte_start": 15939,
+                  "byte_end": 16035,
+                  "source_quote": "结果：奥运会到8月5日结束，中国队夺得十六枚金牌，名列世界第四位。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            }
+          ],
+          "evidence_links": []
+        }
+      ]
+    },
+    {
+      "case_key": "sports-case-05",
+      "title": "实例五：测第十六届世界杯足球赛半决赛",
+      "completeness": "confirmed_complete",
+      "source_ranges": [
+        [
+          167,
+          203
+        ]
+      ],
+      "source_selectors": [
+        {
+          "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+          "line_start": 167,
+          "line_end": 203,
+          "byte_start": 16036,
+          "byte_end": 20127,
+          "source_quote": "实例五：测第十六届世界杯足球赛半决赛\n\n从1998年6月10日开始在法国举行的第十六届世界杯足球赛，牵动着世界各国球迷的心。截至7月6日，已经决出最后四强：巴西、荷兰、法国和克罗地亚四支球队。\n\n7月7日上午10点钟，中国联通河北分公司的司机张东石见到杜新会说：“7月8日凌晨2点40分，巴西队将与荷兰队举行半决赛，请您测一下谁胜谁负?比分多少?”\n\n杜新会立即按问时起局：\n\n戊寅年己未月乙卯日辛巳时，甲戌旬，阴2局，天蓬星为值符落8宫，休门为值使落3宫。\n\n九宫盘面（依原文转写，未重新排盘）\n┌──────────────────────────┬──────────────────────────┬──────────────────────────┐\n│ 巽四宫  八神：地         │ 离九宫  八神：武         │ 坤二宫  八神：虎         │\n│ 门位：生乙               │ 门位：伤丙               │ 门位：杜庚               │\n│ 星位：冲丙               │ 星位：铺庚               │ 星位：英戊               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 震三宫  八神：天         │ 中五宫                   │ 兑七宫  八神：合         │\n│ 门位：休辛               │ 中宫原字：丁             │ 门位：丁景戊             │\n│ 星位：任乙               │                          │ 星位：芮壬               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 艮八宫  八神：符         │ 坎一宫  八神：蛇         │ 乾六宫  八神：阴         │\n│ 门位：开己               │ 门位：惊癸               │ 门位：死壬               │\n│ 星位：蓬辛               │ 星位：心己               │ 星位：柱癸               │\n└──────────────────────────┴──────────────────────────┴──────────────────────────┘\n\n分析：\n\n(1)要分清主客。在法国比赛，按说巴西和荷兰均为客队，但巴西在南美洲，距离更远，远来为客，应以巴西为客队；荷兰在欧洲，距法国很近，应为主队。\n\n(2)以地盘时干辛为主队，代表荷兰队，在艮8宫，为土；己+辛游魂入墓凶格；上乘值符吉神，值符又为裁判，与裁判同宫，说明裁判向荷兰队。临天蓬凶星，很厉害，但蓬星为水受宫之克，又受月令未土之克，所以为被囚之象。开门虽为吉门，但落8宫为入墓；又足球赛就是破门，你逢开门，还不是让人家进球吗?进几个?艮宫属土，土主五、十数，据此断，荷兰队要输掉5个球。\n\n(3)以天盘时干辛为客队，代表巴西队，在震3宫，震为足，不愧是一支足球劲旅、前世界冠军队。辛+乙虎猖狂，实力很足。临天任吉星，天任星落3宫虽受克，但旺于月令。又休门吉门生宫，上乘九天，九天之上好扬兵，得胜之象。关键一点，震木克艮土，客克主，所以必然巴西队胜。休门在3宫，可能输掉三个球。\n\n根据分析，杜新会当即对司机小张说：“我断巴西队胜，比分可能是5:3。”\n\n结果第二天司机小张告知，杜部长测得真准!九十分钟比赛，巴西与荷兰踢成1:1平，加时赛半小时，仍然是1:1,最后罚点球决胜负，巴西队以5:3胜荷兰队，取得决赛资格。\n\n"
+        }
+      ],
+      "family": {
+        "family_key": "shenqi-sports-case-05-family",
+        "description": "实例五：测第十六届世界杯足球赛半决赛：同一比赛/竞赛问测的多时段与方法尝试、预测和结果同组"
+      },
+      "events": [
+        {
+          "event_key": "sports-case-05-event-1",
+          "chronology_status": "ordered",
+          "background": {
+            "initial_inquiry_as_written": "从1998年6月10日开始在法国举行的第十六届世界杯足球赛，牵动着世界各国球迷的心。截至7月6日，已经决出最后四强：巴西、荷兰、法国和克罗地亚四支球队。\n",
+            "source_confirmation": "user_attestation",
+            "whole_background_not_prediction_input": true
+          },
+          "prediction_input_policy": {
+            "mode": "first_forecast_only_conservative",
+            "contract": "source-stage-v1",
+            "unrestricted_background_withheld": true,
+            "unknown_explanations_withheld": true
+          },
+          "charts": [
+            {
+              "chart_key": "sports-case-05-chart-1",
+              "source_lines": [
+                178,
+                190
+              ],
+              "source_or_engine": "original",
+              "casting_method": null,
+              "method_version": null,
+              "input_datetime": null,
+              "timezone": null,
+              "location": null,
+              "validation_status": "original_unparsed",
+              "payload": {
+                "chart_role": "source_original_nine_palace_grid",
+                "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                "raw_chart_text": "┌──────────────────────────┬──────────────────────────┬──────────────────────────┐\n│ 巽四宫  八神：地         │ 离九宫  八神：武         │ 坤二宫  八神：虎         │\n│ 门位：生乙               │ 门位：伤丙               │ 门位：杜庚               │\n│ 星位：冲丙               │ 星位：铺庚               │ 星位：英戊               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 震三宫  八神：天         │ 中五宫                   │ 兑七宫  八神：合         │\n│ 门位：休辛               │ 中宫原字：丁             │ 门位：丁景戊             │\n│ 星位：任乙               │                          │ 星位：芮壬               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 艮八宫  八神：符         │ 坎一宫  八神：蛇         │ 乾六宫  八神：阴         │\n│ 门位：开己               │ 门位：惊癸               │ 门位：死壬               │\n│ 星位：蓬辛               │ 星位：心己               │ 星位：柱癸               │\n└──────────────────────────┴──────────────────────────┴──────────────────────────┘\n",
+                "source_table_rows": [
+                  {
+                    "source_lines": [
+                      179,
+                      181
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 179,
+                      "line_end": 181,
+                      "byte_start": 16962,
+                      "byte_end": 17286,
+                      "source_quote": "│ 巽四宫  八神：地         │ 离九宫  八神：武         │ 坤二宫  八神：虎         │\n│ 门位：生乙               │ 门位：伤丙               │ 门位：杜庚               │\n│ 星位：冲丙               │ 星位：铺庚               │ 星位：英戊               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "巽四宫",
+                      "地",
+                      "生乙",
+                      "冲丙"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      179,
+                      181
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 179,
+                      "line_end": 181,
+                      "byte_start": 16962,
+                      "byte_end": 17286,
+                      "source_quote": "│ 巽四宫  八神：地         │ 离九宫  八神：武         │ 坤二宫  八神：虎         │\n│ 门位：生乙               │ 门位：伤丙               │ 门位：杜庚               │\n│ 星位：冲丙               │ 星位：铺庚               │ 星位：英戊               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "离九宫",
+                      "武",
+                      "伤丙",
+                      "铺庚"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      179,
+                      181
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 179,
+                      "line_end": 181,
+                      "byte_start": 16962,
+                      "byte_end": 17286,
+                      "source_quote": "│ 巽四宫  八神：地         │ 离九宫  八神：武         │ 坤二宫  八神：虎         │\n│ 门位：生乙               │ 门位：伤丙               │ 门位：杜庚               │\n│ 星位：冲丙               │ 星位：铺庚               │ 星位：英戊               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "坤二宫",
+                      "虎",
+                      "杜庚",
+                      "英戊"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      183,
+                      185
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 183,
+                      "line_end": 185,
+                      "byte_start": 17533,
+                      "byte_end": 17850,
+                      "source_quote": "│ 震三宫  八神：天         │ 中五宫                   │ 兑七宫  八神：合         │\n│ 门位：休辛               │ 中宫原字：丁             │ 门位：丁景戊             │\n│ 星位：任乙               │                          │ 星位：芮壬               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "震三宫",
+                      "天",
+                      "休辛",
+                      "任乙"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      183,
+                      185
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 183,
+                      "line_end": 185,
+                      "byte_start": 17533,
+                      "byte_end": 17850,
+                      "source_quote": "│ 震三宫  八神：天         │ 中五宫                   │ 兑七宫  八神：合         │\n│ 门位：休辛               │ 中宫原字：丁             │ 门位：丁景戊             │\n│ 星位：任乙               │                          │ 星位：芮壬               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "中五宫",
+                      "—",
+                      "丁",
+                      "—"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      183,
+                      185
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 183,
+                      "line_end": 185,
+                      "byte_start": 17533,
+                      "byte_end": 17850,
+                      "source_quote": "│ 震三宫  八神：天         │ 中五宫                   │ 兑七宫  八神：合         │\n│ 门位：休辛               │ 中宫原字：丁             │ 门位：丁景戊             │\n│ 星位：任乙               │                          │ 星位：芮壬               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "兑七宫",
+                      "合",
+                      "丁景戊",
+                      "芮壬"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      187,
+                      189
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 187,
+                      "line_end": 189,
+                      "byte_start": 18097,
+                      "byte_end": 18421,
+                      "source_quote": "│ 艮八宫  八神：符         │ 坎一宫  八神：蛇         │ 乾六宫  八神：阴         │\n│ 门位：开己               │ 门位：惊癸               │ 门位：死壬               │\n│ 星位：蓬辛               │ 星位：心己               │ 星位：柱癸               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "艮八宫",
+                      "符",
+                      "开己",
+                      "蓬辛"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      187,
+                      189
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 187,
+                      "line_end": 189,
+                      "byte_start": 18097,
+                      "byte_end": 18421,
+                      "source_quote": "│ 艮八宫  八神：符         │ 坎一宫  八神：蛇         │ 乾六宫  八神：阴         │\n│ 门位：开己               │ 门位：惊癸               │ 门位：死壬               │\n│ 星位：蓬辛               │ 星位：心己               │ 星位：柱癸               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "坎一宫",
+                      "蛇",
+                      "惊癸",
+                      "心己"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      187,
+                      189
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 187,
+                      "line_end": 189,
+                      "byte_start": 18097,
+                      "byte_end": 18421,
+                      "source_quote": "│ 艮八宫  八神：符         │ 坎一宫  八神：蛇         │ 乾六宫  八神：阴         │\n│ 门位：开己               │ 门位：惊癸               │ 门位：死壬               │\n│ 星位：蓬辛               │ 星位：心己               │ 星位：柱癸               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "乾六宫",
+                      "阴",
+                      "死壬",
+                      "柱癸"
+                    ]
+                  }
+                ],
+                "source_chart_metadata": {
+                  "casting_description": "戊寅年己未月乙卯日辛巳时，甲戌旬，阴2局，天蓬星为值符落8宫，休门为值使落3宫。",
+                  "casting_basis_as_written": "source_stated_casting_time"
+                },
+                "source_presentation_stage": "source_order",
+                "calendar_recomputed": false,
+                "unmapped_source_cells": [
+                  {
+                    "palace": 9,
+                    "field": "star",
+                    "source_literal": "铺庚",
+                    "canonical_star": null,
+                    "source_lines": [
+                      179,
+                      181
+                    ],
+                    "reason": "No explicit source-supported correction; preserve received literal"
+                  }
+                ]
+              }
+            }
+          ],
+          "records": [
+            {
+              "record_key": "sports-case-05-line-169",
+              "sequence": 0,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                169,
+                169
+              ],
+              "text": "从1998年6月10日开始在法国举行的第十六届世界杯足球赛，牵动着世界各国球迷的心。截至7月6日，已经决出最后四强：巴西、荷兰、法国和克罗地亚四支球队。\n",
+              "chart_key": "sports-case-05-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_inquiry",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 169,
+                  "line_end": 169,
+                  "byte_start": 16092,
+                  "byte_end": 16303,
+                  "source_quote": "从1998年6月10日开始在法国举行的第十六届世界杯足球赛，牵动着世界各国球迷的心。截至7月6日，已经决出最后四强：巴西、荷兰、法国和克罗地亚四支球队。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-05-line-171",
+              "sequence": 1,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                171,
+                171
+              ],
+              "text": "7月7日上午10点钟，中国联通河北分公司的司机张东石见到杜新会说：“7月8日凌晨2点40分，巴西队将与荷兰队举行半决赛，请您测一下谁胜谁负?比分多少?”\n",
+              "chart_key": "sports-case-05-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_inquiry",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 171,
+                  "line_end": 171,
+                  "byte_start": 16304,
+                  "byte_end": 16511,
+                  "source_quote": "7月7日上午10点钟，中国联通河北分公司的司机张东石见到杜新会说：“7月8日凌晨2点40分，巴西队将与荷兰队举行半决赛，请您测一下谁胜谁负?比分多少?”\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-05-line-173",
+              "sequence": 2,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                173,
+                173
+              ],
+              "text": "杜新会立即按问时起局：\n",
+              "chart_key": "sports-case-05-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_inquiry",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 173,
+                  "line_end": 173,
+                  "byte_start": 16512,
+                  "byte_end": 16546,
+                  "source_quote": "杜新会立即按问时起局：\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-05-line-175",
+              "sequence": 3,
+              "kind": "dialogue",
+              "knowledge_phase": "unknown",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                175,
+                175
+              ],
+              "text": "戊寅年己未月乙卯日辛巳时，甲戌旬，阴2局，天蓬星为值符落8宫，休门为值使落3宫。\n",
+              "chart_key": "sports-case-05-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "source_narrative",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 175,
+                  "line_end": 175,
+                  "byte_start": 16547,
+                  "byte_end": 16662,
+                  "source_quote": "戊寅年己未月乙卯日辛巳时，甲戌旬，阴2局，天蓬星为值符落8宫，休门为值使落3宫。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-05-line-194",
+              "sequence": 4,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                194,
+                194
+              ],
+              "text": "(1)要分清主客。在法国比赛，按说巴西和荷兰均为客队，但巴西在南美洲，距离更远，远来为客，应以巴西为客队；荷兰在欧洲，距法国很近，应为主队。\n",
+              "chart_key": "sports-case-05-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 194,
+                  "line_end": 194,
+                  "byte_start": 18680,
+                  "byte_end": 18885,
+                  "source_quote": "(1)要分清主客。在法国比赛，按说巴西和荷兰均为客队，但巴西在南美洲，距离更远，远来为客，应以巴西为客队；荷兰在欧洲，距法国很近，应为主队。\n"
+                },
+                "original_step_number": "1",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-05-line-196",
+              "sequence": 5,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                196,
+                196
+              ],
+              "text": "(2)以地盘时干辛为主队，代表荷兰队，在艮8宫，为土；己+辛游魂入墓凶格；上乘值符吉神，值符又为裁判，与裁判同宫，说明裁判向荷兰队。临天蓬凶星，很厉害，但蓬星为水受宫之克，又受月令未土之克，所以为被囚之象。开门虽为吉门，但落8宫为入墓；又足球赛就是破门，你逢开门，还不是让人家进球吗?进几个?艮宫属土，土主五、十数，据此断，荷兰队要输掉5个球。\n",
+              "chart_key": "sports-case-05-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 196,
+                  "line_end": 196,
+                  "byte_start": 18886,
+                  "byte_end": 19385,
+                  "source_quote": "(2)以地盘时干辛为主队，代表荷兰队，在艮8宫，为土；己+辛游魂入墓凶格；上乘值符吉神，值符又为裁判，与裁判同宫，说明裁判向荷兰队。临天蓬凶星，很厉害，但蓬星为水受宫之克，又受月令未土之克，所以为被囚之象。开门虽为吉门，但落8宫为入墓；又足球赛就是破门，你逢开门，还不是让人家进球吗?进几个?艮宫属土，土主五、十数，据此断，荷兰队要输掉5个球。\n"
+                },
+                "original_step_number": "2",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-05-line-198",
+              "sequence": 6,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                198,
+                198
+              ],
+              "text": "(3)以天盘时干辛为客队，代表巴西队，在震3宫，震为足，不愧是一支足球劲旅、前世界冠军队。辛+乙虎猖狂，实力很足。临天任吉星，天任星落3宫虽受克，但旺于月令。又休门吉门生宫，上乘九天，九天之上好扬兵，得胜之象。关键一点，震木克艮土，客克主，所以必然巴西队胜。休门在3宫，可能输掉三个球。\n",
+              "chart_key": "sports-case-05-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 198,
+                  "line_end": 198,
+                  "byte_start": 19386,
+                  "byte_end": 19802,
+                  "source_quote": "(3)以天盘时干辛为客队，代表巴西队，在震3宫，震为足，不愧是一支足球劲旅、前世界冠军队。辛+乙虎猖狂，实力很足。临天任吉星，天任星落3宫虽受克，但旺于月令。又休门吉门生宫，上乘九天，九天之上好扬兵，得胜之象。关键一点，震木克艮土，客克主，所以必然巴西队胜。休门在3宫，可能输掉三个球。\n"
+                },
+                "original_step_number": "3",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-05-line-200",
+              "sequence": 7,
+              "kind": "prediction",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                200,
+                200
+              ],
+              "text": "根据分析，杜新会当即对司机小张说：“我断巴西队胜，比分可能是5:3。”\n",
+              "chart_key": "sports-case-05-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "original_forecast",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 200,
+                  "line_end": 200,
+                  "byte_start": 19803,
+                  "byte_end": 19903,
+                  "source_quote": "根据分析，杜新会当即对司机小张说：“我断巴西队胜，比分可能是5:3。”\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-05-line-202",
+              "sequence": 8,
+              "kind": "outcome",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                202,
+                202
+              ],
+              "text": "结果第二天司机小张告知，杜部长测得真准!九十分钟比赛，巴西与荷兰踢成1:1平，加时赛半小时，仍然是1:1,最后罚点球决胜负，巴西队以5:3胜荷兰队，取得决赛资格。\n",
+              "chart_key": "sports-case-05-chart-1",
+              "speaker": "司机张东石（小张）转述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "reported_outcome",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 202,
+                  "line_end": 202,
+                  "byte_start": 19904,
+                  "byte_end": 20126,
+                  "source_quote": "结果第二天司机小张告知，杜部长测得真准!九十分钟比赛，巴西与荷兰踢成1:1平，加时赛半小时，仍然是1:1,最后罚点球决胜负，巴西队以5:3胜荷兰队，取得决赛资格。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "reported_score_stages_as_written": [
+                  {
+                    "stage": "ninety_minutes",
+                    "score": "1:1"
+                  },
+                  {
+                    "stage": "after_extra_half_hour",
+                    "score": "1:1"
+                  },
+                  {
+                    "stage": "penalty_decision_as_source_reports",
+                    "score": "5:3"
+                  }
+                ],
+                "not_regulation_time_5_3": true
+              }
+            }
+          ],
+          "evidence_links": []
+        }
+      ]
+    },
+    {
+      "case_key": "sports-case-06",
+      "title": "实例六：测法国与克罗地亚队半决赛",
+      "completeness": "confirmed_complete",
+      "source_ranges": [
+        [
+          204,
+          238
+        ]
+      ],
+      "source_selectors": [
+        {
+          "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+          "line_start": 204,
+          "line_end": 238,
+          "byte_start": 20127,
+          "byte_end": 23497,
+          "source_quote": "实例六：测法国与克罗地亚队半决赛\n\n1998年7月8日上午8点40分，石家庄移动电话局陈小平局长从邢台打来电话，问杜新会7月9日凌晨2点40分法国与克罗地亚半决赛情况，谁胜谁负?\n\n杜新会按问时起局：\n\n戊寅年己未月丙辰日壬辰时，阴2局，甲申旬，天英星为值符落7宫，景门值使落1宫。\n\n九宫盘面（依原文转写，未重新排盘）\n┌──────────────────────────┬──────────────────────────┬──────────────────────────┐\n│ 巽四宫  八神：合         │ 离九宫  八神：阴         │ 坤二宫  八神：蛇         │\n│ 门位：开辛               │ 门位：休乙               │ 门位：生丙               │\n│ 星位：任丙               │ 星位：冲庚               │ 星位：辅戊               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 震三宫  八神：虎         │ 中五宫                   │ 兑七宫  八神：符         │\n│ 门位：惊己               │ 中宫原字：丁             │ 门位：伤庚               │\n│ 星位：蓬乙               │                          │ 星位：英壬               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 艮八宫  八神：武         │ 坎一宫  八神：地         │ 乾六宫  八神：天         │\n│ 门位：死癸               │ 门位：景壬               │ 门位：丁杜戊             │\n│ 星位：心辛               │ 星位：柱己               │ 星位：芮癸               │\n└──────────────────────────┴──────────────────────────┴──────────────────────────┘\n\n分析：\n\n(1)首先要分主客。世界杯足球赛在法国举行，法国自然是东道主队，因此以应地盘时干壬为用神。地盘时干壬在兑7宫，上乘庚为比赛器械为足球。值符为裁判，与裁判同宫。临伤门，竞争力很强。但伤门受宫克。\n\n(2)克罗地亚队为客，以天盘时干壬为用神，在坎1宫，临景门，火入水乡，又上乘九地。\n\n(3)地盘时干壬生天盘时干壬落宫。地盘时干壬在兑宫，主2数，天盘时干壬在坎宫，主1数。\n\n据此，杜新会当时断：客队胜，即克罗地亚胜，比分为2:1。\n\n但实际结果是主队法国队胜，比分确为2:1。事后检查此局，当时在电话中看得匆忙，没看月令，月令未土，生助兑7宫，所以法国队胜；月令未土克坎1宫，所以克罗地亚队败。另外，地盘时干壬上乘庚，庚生壬，客生主；天盘时干壬下临己，己土克壬水，主克客，据此，也为主队胜。\n\n"
+        }
+      ],
+      "family": {
+        "family_key": "shenqi-sports-case-06-family",
+        "description": "实例六：测法国与克罗地亚队半决赛：同一比赛/竞赛问测的多时段与方法尝试、预测和结果同组"
+      },
+      "events": [
+        {
+          "event_key": "sports-case-06-event-1",
+          "chronology_status": "ordered",
+          "background": {
+            "initial_inquiry_as_written": "1998年7月8日上午8点40分，石家庄移动电话局陈小平局长从邢台打来电话，问杜新会7月9日凌晨2点40分法国与克罗地亚半决赛情况，谁胜谁负?\n",
+            "source_confirmation": "user_attestation",
+            "whole_background_not_prediction_input": true
+          },
+          "prediction_input_policy": {
+            "mode": "first_forecast_only_conservative",
+            "contract": "source-stage-v1",
+            "unrestricted_background_withheld": true,
+            "unknown_explanations_withheld": true
+          },
+          "charts": [
+            {
+              "chart_key": "sports-case-06-chart-1",
+              "source_lines": [
+                213,
+                225
+              ],
+              "source_or_engine": "original",
+              "casting_method": null,
+              "method_version": null,
+              "input_datetime": null,
+              "timezone": null,
+              "location": null,
+              "validation_status": "original_unparsed",
+              "payload": {
+                "chart_role": "source_original_nine_palace_grid",
+                "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                "raw_chart_text": "┌──────────────────────────┬──────────────────────────┬──────────────────────────┐\n│ 巽四宫  八神：合         │ 离九宫  八神：阴         │ 坤二宫  八神：蛇         │\n│ 门位：开辛               │ 门位：休乙               │ 门位：生丙               │\n│ 星位：任丙               │ 星位：冲庚               │ 星位：辅戊               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 震三宫  八神：虎         │ 中五宫                   │ 兑七宫  八神：符         │\n│ 门位：惊己               │ 中宫原字：丁             │ 门位：伤庚               │\n│ 星位：蓬乙               │                          │ 星位：英壬               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 艮八宫  八神：武         │ 坎一宫  八神：地         │ 乾六宫  八神：天         │\n│ 门位：死癸               │ 门位：景壬               │ 门位：丁杜戊             │\n│ 星位：心辛               │ 星位：柱己               │ 星位：芮癸               │\n└──────────────────────────┴──────────────────────────┴──────────────────────────┘\n",
+                "source_table_rows": [
+                  {
+                    "source_lines": [
+                      214,
+                      216
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 214,
+                      "line_end": 216,
+                      "byte_start": 20803,
+                      "byte_end": 21127,
+                      "source_quote": "│ 巽四宫  八神：合         │ 离九宫  八神：阴         │ 坤二宫  八神：蛇         │\n│ 门位：开辛               │ 门位：休乙               │ 门位：生丙               │\n│ 星位：任丙               │ 星位：冲庚               │ 星位：辅戊               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "巽四宫",
+                      "合",
+                      "开辛",
+                      "任丙"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      214,
+                      216
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 214,
+                      "line_end": 216,
+                      "byte_start": 20803,
+                      "byte_end": 21127,
+                      "source_quote": "│ 巽四宫  八神：合         │ 离九宫  八神：阴         │ 坤二宫  八神：蛇         │\n│ 门位：开辛               │ 门位：休乙               │ 门位：生丙               │\n│ 星位：任丙               │ 星位：冲庚               │ 星位：辅戊               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "离九宫",
+                      "阴",
+                      "休乙",
+                      "冲庚"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      214,
+                      216
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 214,
+                      "line_end": 216,
+                      "byte_start": 20803,
+                      "byte_end": 21127,
+                      "source_quote": "│ 巽四宫  八神：合         │ 离九宫  八神：阴         │ 坤二宫  八神：蛇         │\n│ 门位：开辛               │ 门位：休乙               │ 门位：生丙               │\n│ 星位：任丙               │ 星位：冲庚               │ 星位：辅戊               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "坤二宫",
+                      "蛇",
+                      "生丙",
+                      "辅戊"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      218,
+                      220
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 218,
+                      "line_end": 220,
+                      "byte_start": 21374,
+                      "byte_end": 21690,
+                      "source_quote": "│ 震三宫  八神：虎         │ 中五宫                   │ 兑七宫  八神：符         │\n│ 门位：惊己               │ 中宫原字：丁             │ 门位：伤庚               │\n│ 星位：蓬乙               │                          │ 星位：英壬               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "震三宫",
+                      "虎",
+                      "惊己",
+                      "蓬乙"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      218,
+                      220
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 218,
+                      "line_end": 220,
+                      "byte_start": 21374,
+                      "byte_end": 21690,
+                      "source_quote": "│ 震三宫  八神：虎         │ 中五宫                   │ 兑七宫  八神：符         │\n│ 门位：惊己               │ 中宫原字：丁             │ 门位：伤庚               │\n│ 星位：蓬乙               │                          │ 星位：英壬               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "中五宫",
+                      "—",
+                      "丁",
+                      "—"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      218,
+                      220
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 218,
+                      "line_end": 220,
+                      "byte_start": 21374,
+                      "byte_end": 21690,
+                      "source_quote": "│ 震三宫  八神：虎         │ 中五宫                   │ 兑七宫  八神：符         │\n│ 门位：惊己               │ 中宫原字：丁             │ 门位：伤庚               │\n│ 星位：蓬乙               │                          │ 星位：英壬               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "兑七宫",
+                      "符",
+                      "伤庚",
+                      "英壬"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      222,
+                      224
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 222,
+                      "line_end": 224,
+                      "byte_start": 21937,
+                      "byte_end": 22262,
+                      "source_quote": "│ 艮八宫  八神：武         │ 坎一宫  八神：地         │ 乾六宫  八神：天         │\n│ 门位：死癸               │ 门位：景壬               │ 门位：丁杜戊             │\n│ 星位：心辛               │ 星位：柱己               │ 星位：芮癸               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "艮八宫",
+                      "武",
+                      "死癸",
+                      "心辛"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      222,
+                      224
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 222,
+                      "line_end": 224,
+                      "byte_start": 21937,
+                      "byte_end": 22262,
+                      "source_quote": "│ 艮八宫  八神：武         │ 坎一宫  八神：地         │ 乾六宫  八神：天         │\n│ 门位：死癸               │ 门位：景壬               │ 门位：丁杜戊             │\n│ 星位：心辛               │ 星位：柱己               │ 星位：芮癸               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "坎一宫",
+                      "地",
+                      "景壬",
+                      "柱己"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      222,
+                      224
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 222,
+                      "line_end": 224,
+                      "byte_start": 21937,
+                      "byte_end": 22262,
+                      "source_quote": "│ 艮八宫  八神：武         │ 坎一宫  八神：地         │ 乾六宫  八神：天         │\n│ 门位：死癸               │ 门位：景壬               │ 门位：丁杜戊             │\n│ 星位：心辛               │ 星位：柱己               │ 星位：芮癸               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "乾六宫",
+                      "天",
+                      "丁杜戊",
+                      "芮癸"
+                    ]
+                  }
+                ],
+                "source_chart_metadata": {
+                  "casting_description": "戊寅年己未月丙辰日壬辰时，阴2局，甲申旬，天英星为值符落7宫，景门值使落1宫。",
+                  "casting_basis_as_written": "source_stated_casting_time"
+                },
+                "source_presentation_stage": "source_order",
+                "calendar_recomputed": false
+              }
+            }
+          ],
+          "records": [
+            {
+              "record_key": "sports-case-06-line-206",
+              "sequence": 0,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                206,
+                206
+              ],
+              "text": "1998年7月8日上午8点40分，石家庄移动电话局陈小平局长从邢台打来电话，问杜新会7月9日凌晨2点40分法国与克罗地亚半决赛情况，谁胜谁负?\n",
+              "chart_key": "sports-case-06-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_inquiry",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 206,
+                  "line_end": 206,
+                  "byte_start": 20177,
+                  "byte_end": 20361,
+                  "source_quote": "1998年7月8日上午8点40分，石家庄移动电话局陈小平局长从邢台打来电话，问杜新会7月9日凌晨2点40分法国与克罗地亚半决赛情况，谁胜谁负?\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-06-line-208",
+              "sequence": 1,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                208,
+                208
+              ],
+              "text": "杜新会按问时起局：\n",
+              "chart_key": "sports-case-06-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_inquiry",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 208,
+                  "line_end": 208,
+                  "byte_start": 20362,
+                  "byte_end": 20390,
+                  "source_quote": "杜新会按问时起局：\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-06-line-210",
+              "sequence": 2,
+              "kind": "dialogue",
+              "knowledge_phase": "unknown",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                210,
+                210
+              ],
+              "text": "戊寅年己未月丙辰日壬辰时，阴2局，甲申旬，天英星为值符落7宫，景门值使落1宫。\n",
+              "chart_key": "sports-case-06-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "source_narrative",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 210,
+                  "line_end": 210,
+                  "byte_start": 20391,
+                  "byte_end": 20503,
+                  "source_quote": "戊寅年己未月丙辰日壬辰时，阴2局，甲申旬，天英星为值符落7宫，景门值使落1宫。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-06-line-229",
+              "sequence": 3,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                229,
+                229
+              ],
+              "text": "(1)首先要分主客。世界杯足球赛在法国举行，法国自然是东道主队，因此以应地盘时干壬为用神。地盘时干壬在兑7宫，上乘庚为比赛器械为足球。值符为裁判，与裁判同宫。临伤门，竞争力很强。但伤门受宫克。\n",
+              "chart_key": "sports-case-06-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 229,
+                  "line_end": 229,
+                  "byte_start": 22521,
+                  "byte_end": 22802,
+                  "source_quote": "(1)首先要分主客。世界杯足球赛在法国举行，法国自然是东道主队，因此以应地盘时干壬为用神。地盘时干壬在兑7宫，上乘庚为比赛器械为足球。值符为裁判，与裁判同宫。临伤门，竞争力很强。但伤门受宫克。\n"
+                },
+                "original_step_number": "1",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-06-line-231",
+              "sequence": 4,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                231,
+                231
+              ],
+              "text": "(2)克罗地亚队为客，以天盘时干壬为用神，在坎1宫，临景门，火入水乡，又上乘九地。\n",
+              "chart_key": "sports-case-06-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 231,
+                  "line_end": 231,
+                  "byte_start": 22803,
+                  "byte_end": 22919,
+                  "source_quote": "(2)克罗地亚队为客，以天盘时干壬为用神，在坎1宫，临景门，火入水乡，又上乘九地。\n"
+                },
+                "original_step_number": "2",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-06-line-233",
+              "sequence": 5,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                233,
+                233
+              ],
+              "text": "(3)地盘时干壬生天盘时干壬落宫。地盘时干壬在兑宫，主2数，天盘时干壬在坎宫，主1数。\n",
+              "chart_key": "sports-case-06-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 233,
+                  "line_end": 233,
+                  "byte_start": 22920,
+                  "byte_end": 23040,
+                  "source_quote": "(3)地盘时干壬生天盘时干壬落宫。地盘时干壬在兑宫，主2数，天盘时干壬在坎宫，主1数。\n"
+                },
+                "original_step_number": "3",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-06-line-235",
+              "sequence": 6,
+              "kind": "prediction",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                235,
+                235
+              ],
+              "text": "据此，杜新会当时断：客队胜，即克罗地亚胜，比分为2:1。\n",
+              "chart_key": "sports-case-06-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "original_forecast",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 235,
+                  "line_end": 235,
+                  "byte_start": 23041,
+                  "byte_end": 23120,
+                  "source_quote": "据此，杜新会当时断：客队胜，即克罗地亚胜，比分为2:1。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-06-line-237",
+              "sequence": 7,
+              "kind": "outcome",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                237,
+                237
+              ],
+              "text": "但实际结果是主队法国队胜，比分确为2:1。事后检查此局，当时在电话中看得匆忙，没看月令，月令未土，生助兑7宫，所以法国队胜；月令未土克坎1宫，所以克罗地亚队败。另外，地盘时干壬上乘庚，庚生壬，客生主；天盘时干壬下临己，己土克壬水，主克客，据此，也为主队胜。\n",
+              "chart_key": "sports-case-06-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "reported_outcome",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 237,
+                  "line_end": 237,
+                  "byte_start": 23121,
+                  "byte_end": 23496,
+                  "source_quote": "但实际结果是主队法国队胜，比分确为2:1。事后检查此局，当时在电话中看得匆忙，没看月令，月令未土，生助兑7宫，所以法国队胜；月令未土克坎1宫，所以克罗地亚队败。另外，地盘时干壬上乘庚，庚生壬，客生主；天盘时干壬下临己，己土克壬水，主克客，据此，也为主队胜。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "source_statement_segments": [
+                  {
+                    "record_role": "reported_france_win",
+                    "knowledge_phase": "post_feedback",
+                    "text": "但实际结果是主队法国队胜，比分确为2:1。",
+                    "byte_start": 23121,
+                    "byte_end": 23178
+                  },
+                  {
+                    "record_role": "retrospective_month_and_stem_explanation",
+                    "knowledge_phase": "post_feedback",
+                    "text": "事后检查此局，当时在电话中看得匆忙，没看月令，月令未土，生助兑7宫，所以法国队胜；月令未土克坎1宫，所以克罗地亚队败。另外，地盘时干壬上乘庚，庚生壬，客生主；天盘时干壬下临己，己土克壬水，主克客，据此，也为主队胜。\n",
+                    "byte_start": 23178,
+                    "byte_end": 23496
+                  }
+                ],
+                "winner_comparison": {
+                  "predicted": "克罗地亚",
+                  "reported": "法国",
+                  "same_winner": false,
+                  "score_literal_both": "2:1"
+                },
+                "posthoc_not_original_reasoning": true
+              }
+            }
+          ],
+          "evidence_links": []
+        }
+      ]
+    },
+    {
+      "case_key": "sports-case-07",
+      "title": "实例七：测第十六届世界杯足球赛决赛",
+      "completeness": "confirmed_complete",
+      "source_ranges": [
+        [
+          239,
+          276
+        ]
+      ],
+      "source_selectors": [
+        {
+          "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+          "line_start": 239,
+          "line_end": 276,
+          "byte_start": 23497,
+          "byte_end": 26814,
+          "source_quote": "实例七：测第十六届世界杯足球赛决赛\n\n1998年7月12日晚上7点新闻节目中预告，明天(7月13日)凌晨1点30分将在法国举行第十六届世界杯足球决赛，由上届冠军巴西队与东道主法国队争夺冠亚军。\n\n于是我立即按此时间起局预测：\n\n戊寅年己未月庚申日丙戌时，甲申旬，阴5局，天冲星为值符落7宫，伤门为值使落1宫。\n\n九宫盘面（依原文转写，未重新排盘）\n┌──────────────────────────┬──────────────────────────┬──────────────────────────┐\n│ 巽四宫  八神：合         │ 离九宫  八神：阴         │ 坤二宫  八神：蛇         │\n│ 门位：死乙               │ 门位：惊壬               │ 门位：开丁               │\n│ 星位：心己               │ 星位：蓬癸               │ 星位：任辛               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 震三宫  八神：虎         │ 中五宫                   │ 兑七宫  八神：符         │\n│ 门位：景丙               │ 中宫原字：戊             │ 门位：休庚               │\n│ 星位：柱庚               │                          │ 星位：冲丙               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 艮八宫  八神：武         │ 坎一宫  八神：地         │ 乾六宫  八神：天         │\n│ 门位：戊杜辛             │ 门位：伤癸               │ 门位：生己               │\n│ 星位：芮丁               │ 星位：英壬               │ 星位：辅乙               │\n└──────────────────────────┴──────────────────────────┴──────────────────────────┘\n\n分析：\n\n(1)法国为本届足球赛东道主，自然应以法国队为主，以巴西队为客。\n\n(2)以地盘时干丙为主队，落兑7宫，上乘吉神值符、吉门休门。值符又为裁判，裁判向主队。\n\n(3)以天盘时干丙为客队，落震3宫，上乘白虎凶神，景门凶门。\n\n(4)未月，兑7宫之金旺相，直冲克震3宫休囚之木，所以必然主队法国队胜。\n\n(5)兑7宫地盘之星为天柱星，直冲克震3宫天冲星，金旺相，木休囚，木主3数，故主破其门3次，因而比分可能是3:0。\n\n⑥又以辛为金牌，地盘辛在坤2宫，生助兑7宫主队；天盘辛在艮8宫，受震3宫客队之克，但休囚之木克不动旺相之土，故而巴西队卫冕无望。\n\n结果，第二天上午，我问昨夜看球赛的球迷，果然是法国队以3:0大胜巴西队，夺得第十六届世界杯足球赛冠军。\n"
+        }
+      ],
+      "family": {
+        "family_key": "shenqi-sports-case-07-family",
+        "description": "实例七：测第十六届世界杯足球赛决赛：同一比赛/竞赛问测的多时段与方法尝试、预测和结果同组"
+      },
+      "events": [
+        {
+          "event_key": "sports-case-07-event-1",
+          "chronology_status": "ordered",
+          "background": {
+            "initial_inquiry_as_written": "1998年7月12日晚上7点新闻节目中预告，明天(7月13日)凌晨1点30分将在法国举行第十六届世界杯足球决赛，由上届冠军巴西队与东道主法国队争夺冠亚军。\n",
+            "source_confirmation": "user_attestation",
+            "whole_background_not_prediction_input": true
+          },
+          "prediction_input_policy": {
+            "mode": "first_forecast_only_conservative",
+            "contract": "source-stage-v1",
+            "unrestricted_background_withheld": true,
+            "unknown_explanations_withheld": true
+          },
+          "charts": [
+            {
+              "chart_key": "sports-case-07-chart-1",
+              "source_lines": [
+                248,
+                260
+              ],
+              "source_or_engine": "original",
+              "casting_method": null,
+              "method_version": null,
+              "input_datetime": null,
+              "timezone": null,
+              "location": null,
+              "validation_status": "original_unparsed",
+              "payload": {
+                "chart_role": "source_original_nine_palace_grid",
+                "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                "raw_chart_text": "┌──────────────────────────┬──────────────────────────┬──────────────────────────┐\n│ 巽四宫  八神：合         │ 离九宫  八神：阴         │ 坤二宫  八神：蛇         │\n│ 门位：死乙               │ 门位：惊壬               │ 门位：开丁               │\n│ 星位：心己               │ 星位：蓬癸               │ 星位：任辛               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 震三宫  八神：虎         │ 中五宫                   │ 兑七宫  八神：符         │\n│ 门位：景丙               │ 中宫原字：戊             │ 门位：休庚               │\n│ 星位：柱庚               │                          │ 星位：冲丙               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 艮八宫  八神：武         │ 坎一宫  八神：地         │ 乾六宫  八神：天         │\n│ 门位：戊杜辛             │ 门位：伤癸               │ 门位：生己               │\n│ 星位：芮丁               │ 星位：英壬               │ 星位：辅乙               │\n└──────────────────────────┴──────────────────────────┴──────────────────────────┘\n",
+                "source_table_rows": [
+                  {
+                    "source_lines": [
+                      249,
+                      251
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 249,
+                      "line_end": 251,
+                      "byte_start": 24210,
+                      "byte_end": 24534,
+                      "source_quote": "│ 巽四宫  八神：合         │ 离九宫  八神：阴         │ 坤二宫  八神：蛇         │\n│ 门位：死乙               │ 门位：惊壬               │ 门位：开丁               │\n│ 星位：心己               │ 星位：蓬癸               │ 星位：任辛               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "巽四宫",
+                      "合",
+                      "死乙",
+                      "心己"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      249,
+                      251
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 249,
+                      "line_end": 251,
+                      "byte_start": 24210,
+                      "byte_end": 24534,
+                      "source_quote": "│ 巽四宫  八神：合         │ 离九宫  八神：阴         │ 坤二宫  八神：蛇         │\n│ 门位：死乙               │ 门位：惊壬               │ 门位：开丁               │\n│ 星位：心己               │ 星位：蓬癸               │ 星位：任辛               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "离九宫",
+                      "阴",
+                      "惊壬",
+                      "蓬癸"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      249,
+                      251
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 249,
+                      "line_end": 251,
+                      "byte_start": 24210,
+                      "byte_end": 24534,
+                      "source_quote": "│ 巽四宫  八神：合         │ 离九宫  八神：阴         │ 坤二宫  八神：蛇         │\n│ 门位：死乙               │ 门位：惊壬               │ 门位：开丁               │\n│ 星位：心己               │ 星位：蓬癸               │ 星位：任辛               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "坤二宫",
+                      "蛇",
+                      "开丁",
+                      "任辛"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      253,
+                      255
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 253,
+                      "line_end": 255,
+                      "byte_start": 24781,
+                      "byte_end": 25097,
+                      "source_quote": "│ 震三宫  八神：虎         │ 中五宫                   │ 兑七宫  八神：符         │\n│ 门位：景丙               │ 中宫原字：戊             │ 门位：休庚               │\n│ 星位：柱庚               │                          │ 星位：冲丙               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "震三宫",
+                      "虎",
+                      "景丙",
+                      "柱庚"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      253,
+                      255
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 253,
+                      "line_end": 255,
+                      "byte_start": 24781,
+                      "byte_end": 25097,
+                      "source_quote": "│ 震三宫  八神：虎         │ 中五宫                   │ 兑七宫  八神：符         │\n│ 门位：景丙               │ 中宫原字：戊             │ 门位：休庚               │\n│ 星位：柱庚               │                          │ 星位：冲丙               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "中五宫",
+                      "—",
+                      "戊",
+                      "—"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      253,
+                      255
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 253,
+                      "line_end": 255,
+                      "byte_start": 24781,
+                      "byte_end": 25097,
+                      "source_quote": "│ 震三宫  八神：虎         │ 中五宫                   │ 兑七宫  八神：符         │\n│ 门位：景丙               │ 中宫原字：戊             │ 门位：休庚               │\n│ 星位：柱庚               │                          │ 星位：冲丙               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "兑七宫",
+                      "符",
+                      "休庚",
+                      "冲丙"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      257,
+                      259
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 257,
+                      "line_end": 259,
+                      "byte_start": 25344,
+                      "byte_end": 25669,
+                      "source_quote": "│ 艮八宫  八神：武         │ 坎一宫  八神：地         │ 乾六宫  八神：天         │\n│ 门位：戊杜辛             │ 门位：伤癸               │ 门位：生己               │\n│ 星位：芮丁               │ 星位：英壬               │ 星位：辅乙               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "艮八宫",
+                      "武",
+                      "戊杜辛",
+                      "芮丁"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      257,
+                      259
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 257,
+                      "line_end": 259,
+                      "byte_start": 25344,
+                      "byte_end": 25669,
+                      "source_quote": "│ 艮八宫  八神：武         │ 坎一宫  八神：地         │ 乾六宫  八神：天         │\n│ 门位：戊杜辛             │ 门位：伤癸               │ 门位：生己               │\n│ 星位：芮丁               │ 星位：英壬               │ 星位：辅乙               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "坎一宫",
+                      "地",
+                      "伤癸",
+                      "英壬"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      257,
+                      259
+                    ],
+                    "source_selector": {
+                      "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                      "line_start": 257,
+                      "line_end": 259,
+                      "byte_start": 25344,
+                      "byte_end": 25669,
+                      "source_quote": "│ 艮八宫  八神：武         │ 坎一宫  八神：地         │ 乾六宫  八神：天         │\n│ 门位：戊杜辛             │ 门位：伤癸               │ 门位：生己               │\n│ 星位：芮丁               │ 星位：英壬               │ 星位：辅乙               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "乾六宫",
+                      "天",
+                      "生己",
+                      "辅乙"
+                    ]
+                  }
+                ],
+                "source_chart_metadata": {
+                  "casting_description": "戊寅年己未月庚申日丙戌时，甲申旬，阴5局，天冲星为值符落7宫，伤门为值使落1宫。",
+                  "casting_basis_as_written": "source_stated_casting_time"
+                },
+                "source_presentation_stage": "source_order",
+                "calendar_recomputed": false
+              }
+            }
+          ],
+          "records": [
+            {
+              "record_key": "sports-case-07-line-241",
+              "sequence": 0,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                241,
+                241
+              ],
+              "text": "1998年7月12日晚上7点新闻节目中预告，明天(7月13日)凌晨1点30分将在法国举行第十六届世界杯足球决赛，由上届冠军巴西队与东道主法国队争夺冠亚军。\n",
+              "chart_key": "sports-case-07-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_inquiry",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 241,
+                  "line_end": 241,
+                  "byte_start": 23550,
+                  "byte_end": 23750,
+                  "source_quote": "1998年7月12日晚上7点新闻节目中预告，明天(7月13日)凌晨1点30分将在法国举行第十六届世界杯足球决赛，由上届冠军巴西队与东道主法国队争夺冠亚军。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-07-line-243",
+              "sequence": 1,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                243,
+                243
+              ],
+              "text": "于是我立即按此时间起局预测：\n",
+              "chart_key": "sports-case-07-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_inquiry",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 243,
+                  "line_end": 243,
+                  "byte_start": 23751,
+                  "byte_end": 23794,
+                  "source_quote": "于是我立即按此时间起局预测：\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-07-line-245",
+              "sequence": 2,
+              "kind": "dialogue",
+              "knowledge_phase": "unknown",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                245,
+                245
+              ],
+              "text": "戊寅年己未月庚申日丙戌时，甲申旬，阴5局，天冲星为值符落7宫，伤门为值使落1宫。\n",
+              "chart_key": "sports-case-07-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "source_narrative",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 245,
+                  "line_end": 245,
+                  "byte_start": 23795,
+                  "byte_end": 23910,
+                  "source_quote": "戊寅年己未月庚申日丙戌时，甲申旬，阴5局，天冲星为值符落7宫，伤门为值使落1宫。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-07-line-264",
+              "sequence": 3,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                264,
+                264
+              ],
+              "text": "(1)法国为本届足球赛东道主，自然应以法国队为主，以巴西队为客。\n",
+              "chart_key": "sports-case-07-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 264,
+                  "line_end": 264,
+                  "byte_start": 25928,
+                  "byte_end": 26019,
+                  "source_quote": "(1)法国为本届足球赛东道主，自然应以法国队为主，以巴西队为客。\n"
+                },
+                "original_step_number": "1",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-07-line-266",
+              "sequence": 4,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                266,
+                266
+              ],
+              "text": "(2)以地盘时干丙为主队，落兑7宫，上乘吉神值符、吉门休门。值符又为裁判，裁判向主队。\n",
+              "chart_key": "sports-case-07-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 266,
+                  "line_end": 266,
+                  "byte_start": 26020,
+                  "byte_end": 26142,
+                  "source_quote": "(2)以地盘时干丙为主队，落兑7宫，上乘吉神值符、吉门休门。值符又为裁判，裁判向主队。\n"
+                },
+                "original_step_number": "2",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-07-line-268",
+              "sequence": 5,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                268,
+                268
+              ],
+              "text": "(3)以天盘时干丙为客队，落震3宫，上乘白虎凶神，景门凶门。\n",
+              "chart_key": "sports-case-07-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 268,
+                  "line_end": 268,
+                  "byte_start": 26143,
+                  "byte_end": 26226,
+                  "source_quote": "(3)以天盘时干丙为客队，落震3宫，上乘白虎凶神，景门凶门。\n"
+                },
+                "original_step_number": "3",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-07-line-270",
+              "sequence": 6,
+              "kind": "prediction",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                270,
+                270
+              ],
+              "text": "(4)未月，兑7宫之金旺相，直冲克震3宫休囚之木，所以必然主队法国队胜。\n",
+              "chart_key": "sports-case-07-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "original_forecast",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 270,
+                  "line_end": 270,
+                  "byte_start": 26227,
+                  "byte_end": 26326,
+                  "source_quote": "(4)未月，兑7宫之金旺相，直冲克震3宫休囚之木，所以必然主队法国队胜。\n"
+                },
+                "original_step_number": "4",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-07-line-272",
+              "sequence": 7,
+              "kind": "prediction",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                272,
+                272
+              ],
+              "text": "(5)兑7宫地盘之星为天柱星，直冲克震3宫天冲星，金旺相，木休囚，木主3数，故主破其门3次，因而比分可能是3:0。\n",
+              "chart_key": "sports-case-07-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "original_forecast",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 272,
+                  "line_end": 272,
+                  "byte_start": 26327,
+                  "byte_end": 26479,
+                  "source_quote": "(5)兑7宫地盘之星为天柱星，直冲克震3宫天冲星，金旺相，木休囚，木主3数，故主破其门3次，因而比分可能是3:0。\n"
+                },
+                "original_step_number": "5",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-07-line-274",
+              "sequence": 8,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                274,
+                274
+              ],
+              "text": "⑥又以辛为金牌，地盘辛在坤2宫，生助兑7宫主队；天盘辛在艮8宫，受震3宫客队之克，但休囚之木克不动旺相之土，故而巴西队卫冕无望。\n",
+              "chart_key": "sports-case-07-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 274,
+                  "line_end": 274,
+                  "byte_start": 26480,
+                  "byte_end": 26665,
+                  "source_quote": "⑥又以辛为金牌，地盘辛在坤2宫，生助兑7宫主队；天盘辛在艮8宫，受震3宫客队之克，但休囚之木克不动旺相之土，故而巴西队卫冕无望。\n"
+                },
+                "original_step_number": "6",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "sports-case-07-line-276",
+              "sequence": 9,
+              "kind": "outcome",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                276,
+                276
+              ],
+              "text": "结果，第二天上午，我问昨夜看球赛的球迷，果然是法国队以3:0大胜巴西队，夺得第十六届世界杯足球赛冠军。\n",
+              "chart_key": "sports-case-07-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "reported_outcome",
+                "source_selector": {
+                  "source_sha256": "784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b",
+                  "line_start": 276,
+                  "line_end": 276,
+                  "byte_start": 26666,
+                  "byte_end": 26814,
+                  "source_quote": "结果，第二天上午，我问昨夜看球赛的球迷，果然是法国队以3:0大胜巴西队，夺得第十六届世界杯足球赛冠军。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            }
+          ],
+          "evidence_links": []
+        }
+      ]
+    }
+  ]
+}
