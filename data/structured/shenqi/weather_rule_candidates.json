@@ -1,0 +1,303 @@
+{
+  "source_sha256": "6093f9a89bd2eb889c392242892528a9022c6d9565f74be8912e2a8724663697",
+  "source_byte_count": 19857,
+  "source_line_count": 156,
+  "schema_version": "source_selection_candidates_v1",
+  "title": "天时气象预测",
+  "candidate_count": 5,
+  "candidate_record_count": 5,
+  "candidates": [
+    {
+      "key": "weather_symbols",
+      "domain": "weather_prediction",
+      "scope": "symbols",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "weather_prediction"
+        },
+        {
+          "field": "weather_subtype",
+          "op": "eq",
+          "value": "symbols"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_weather_symbols_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_weather_reference_v1"
+      },
+      "source_lines": [
+        7,
+        8
+      ],
+      "source_quote": "奇门中以九星代表天时，所以预测天气，以九星为主，兼看天干、八门、八神及其落宫状况。\n一般以天英星为火神，主晴；以天辅星为风伯，主风；以天柱星为雨师，主雨；以天蓬星为水神，主雨；以天冲星为雷公，主雷霆；冬季以天心、天柱星主雪。同时以八门中的景门主晴，开、伤二门主雷，休门主云雨，生门主风，杜门主电，惊门主虹霓。十天干中，以甲、乙主风，丙、丁主火，戊、己主阴云，庚、辛主冰雪，壬、癸主雨水，壬为大雨，癸为小雨。八神中，以值符为日、月，以九天主晴，九地主阴，六合主风和日丽，白虎主风，玄武主雨，太阴主阴云霜雪，螣蛇主闪电虹霓，等等。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "整段保存正反条件、组合与古法语境；符号或方法条件未知不得默认满足",
+        "仅来源参考，不自动预测天气/洪水或将资料复现当现代气象实证"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "九星",
+          "天干",
+          "八门",
+          "八神"
+        ],
+        "semantic_role": "symbols",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "weather_sun_wind",
+      "domain": "weather_prediction",
+      "scope": "sun_wind",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "weather_prediction"
+        },
+        {
+          "field": "weather_subtype",
+          "op": "eq",
+          "value": "sun_wind"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_weather_sun_wind_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_weather_reference_v1"
+      },
+      "source_lines": [
+        9
+      ],
+      "source_quote": "天英星乘旺相，落三、四宫，或克日、时二干，主晴天。天辅星乘旺相，落离九宫，或克下落之宫，或克日、时二干，主风晴。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "整段保存正反条件、组合与古法语境；符号或方法条件未知不得默认满足",
+        "仅来源参考，不自动预测天气/洪水或将资料复现当现代气象实证"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "天英星",
+          "天辅星"
+        ],
+        "semantic_role": "sun_wind",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "weather_rain",
+      "domain": "weather_prediction",
+      "scope": "rain",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "weather_prediction"
+        },
+        {
+          "field": "weather_subtype",
+          "op": "eq",
+          "value": "rain"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_weather_rain_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_weather_reference_v1"
+      },
+      "source_lines": [
+        10,
+        11
+      ],
+      "source_quote": "天蓬星乘壬、癸二干，游于一(坎)三(震)七(兑)宫，或天柱星乘壬、癸二干，游于一三七宫，主雨；乘壬，主大雨；乘癸，主小雨；如果同时天英、天辅落宫天盘之干克地盘之干，必然风雨雷电交作。\n与值符近，则雨速，远则雨迟。天蓬、天柱乘壬癸二干游于坤二宫，主密云不雨。天蓬、天柱如果不乘壬癸水神，即使游于一三七宫，也不下雨。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "整段保存正反条件、组合与古法语境；符号或方法条件未知不得默认满足",
+        "仅来源参考，不自动预测天气/洪水或将资料复现当现代气象实证"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "天蓬星",
+          "天柱星",
+          "壬",
+          "癸",
+          "值符"
+        ],
+        "semantic_role": "rain",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "weather_winter_snow",
+      "domain": "weather_prediction",
+      "scope": "winter_snow",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "weather_prediction"
+        },
+        {
+          "field": "weather_subtype",
+          "op": "eq",
+          "value": "winter_snow"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_weather_winter_snow_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_weather_reference_v1"
+      },
+      "source_lines": [
+        12
+      ],
+      "source_quote": "冬月，天心、天柱二星乘壬癸到乾、兑二宫，主雪。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "整段保存正反条件、组合与古法语境；符号或方法条件未知不得默认满足",
+        "仅来源参考，不自动预测天气/洪水或将资料复现当现代气象实证"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "天心星",
+          "天柱星",
+          "壬",
+          "癸"
+        ],
+        "semantic_role": "winter_snow",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "weather_river_water",
+      "domain": "weather_prediction",
+      "scope": "river_water",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "weather_prediction"
+        },
+        {
+          "field": "weather_subtype",
+          "op": "eq",
+          "value": "river_water"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_weather_river_water_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_weather_reference_v1"
+      },
+      "source_lines": [
+        13
+      ],
+      "source_quote": "测河水消涨，以天蓬、休门为用神而判断。天蓬、休门乘旺相气而得三奇者，水虽涨，不至泛滥。天蓬、休门乘旺相气而值庚格，主河水壅塞泛滥涨满，如果再乘甲辰壬带螣蛇，则洪水肆虐为害。天蓬、休门落于二、五、八宫，水被土克，洪水立消，或无水。天蓬、休门不乘庚格与甲辰壬者，水虽旺发，也不会决堤出岸。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "整段保存正反条件、组合与古法语境；符号或方法条件未知不得默认满足",
+        "仅来源参考，不自动预测天气/洪水或将资料复现当现代气象实证"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "天蓬星",
+          "休门",
+          "庚格",
+          "甲辰壬",
+          "螣蛇"
+        ],
+        "semantic_role": "river_water",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    }
+  ]
+}

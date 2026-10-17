@@ -1,0 +1,23 @@
+{
+  "source_sha256": "6093f9a89bd2eb889c392242892528a9022c6d9565f74be8912e2a8724663697",
+  "source_byte_count": 19857,
+  "source_line_count": 156,
+  "source_file": "神奇之门_天时气象预测_精校完整版.txt",
+  "verification_basis": "user_attestation",
+  "system_performed_independent_verification": false,
+  "stories": 5,
+  "events": 5,
+  "charts": 5,
+  "source_palaces": 45,
+  "new_families": 4,
+  "existing_shared_family_key": "shenqi-sports-case-05-family",
+  "records": 36,
+  "context_groups": 13,
+  "technical_boundaries": 8,
+  "reference_candidates": 5,
+  "case4_shared_casting_context_and_variant_literals_preserved": true,
+  "last_line_as_supplied": "结果：7月28日天气完全如所测那样，阴云密布，刮有小风，一天也没有下雨，保定分公司移动电话网顺利开通。\n",
+  "schema_migration": false,
+  "formal_rules_added": 0,
+  "training_tasks_added": 0
+}

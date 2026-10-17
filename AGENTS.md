@@ -16,4 +16,4 @@
 
 运行：`PYTHONPATH=src python3 -m unittest discover -s tests -v`。
 资料/案例规则见 KNOWLEDGE_POLICY / CASE_POLICY；架构与迁移见 ARCHITECTURE / SCHEMA；评估见 EVALUATION_PROTOCOL；设备与远程接入见 HARDWARE。
-当前已接收《神奇之门》17份章级输入，累计85故事/82家族/91事件/90原盘。体育竞赛本轮7故事/7事件/7完整原盘、67过程记录；源SHA256 784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b。第十二章是原印刷标题，sequence18仅接收排序。甲戌仅文字局不补盘，第三例宫数/门/星尝试保留，第四例10或16原断不改，第六例胜队错断及后验解释分开，第五例铺庚原字不校。沿import_shenqi_sports.py、snapshot和QimenService接续，无schema迁移或workflow增删，正式rules/训练0。最高总指令见docs/user_instructions/master_spec_reaffirmed_2026-10-17.txt，旧原件保留；不重置Phase0。进度以STATUS为准，历史验收报告不覆盖。
+当前已接收《神奇之门》18份章级输入，累计90故事/86家族/96事件/95原盘。天时气象本轮5故事/5事件/5原盘、36过程记录；第四例同体育第五例起局语境，共原有家族，新增4家族；源SHA256 6093f9a89bd2eb889c392242892528a9022c6d9565f74be8912e2a8724663697。第一例同段预测/结果精确分句；六爻三法不补图；揭牌时段与全天结果、风与风级分别保存。共盘辅庚/铺庚各按源保留，不覆盖体育旧数据。沿import_shenqi_weather.py、snapshot和QimenService接续，无schema迁移或workflow增删，正式rules/训练0。最高总指令见docs/user_instructions/master_spec_reaffirmed_2026-10-17.txt，旧原件保留；不重置Phase0。进度以STATUS为准，历史验收报告不覆盖。

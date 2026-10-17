@@ -117,3 +117,14 @@ PYTHONPATH=src python3 scripts/import_shenqi_sports.py --restore-base --db work/
 ```
 
 目标库须不存在；已含本章的快照重放幂等。local-only仅暂存，正式交付必须审计/导出/完整回归/核实私有仓库/非强制更新main/精确SHA四CI。脚本复用既有import_chapter、install_curated、import_cases和install_candidates，读取沿QimenService/CLI/WSGI。甲戌缺完整盘不造；铺庚星名未知，完整原字行引用和可读取盘同时保留。不新增章级Actions；旧章manifest/gold/原文不可改。详见SHENQI_SPORTS报告。
+
+
+## 天时气象增量重放
+
+源文件19857原字节/156行，SHA见data/provenance/weather_source_audit.json，uploads/SQLite BLOB/snapshot raw完整保存。chapter_key=weather-prediction，sequence19仅接收排序，源文未给印刷章号。既有快照恢复到新库重放：
+
+```sh
+PYTHONPATH=src python3 scripts/import_shenqi_weather.py --restore-base --db work/weather.sqlite3 --raw-dir work/weather-raw --local-only
+```
+
+目标库须不存在；已含本章的快照重放幂等。脚本复用既有import_chapter/install_curated/import_cases/install_candidates；CLI/WSGI沿QimenService读取。第四例要求体育章既有家族共组；两来源盘及辅庚/铺庚变体分别保存，不改旧manifest/gold，不跨事件挂evidence_link。local-only仅维护暂存，最终需审计、导出、全量回归、核实私有仓库、非强制更新main、逐blob和精确SHA四CI；不新增章级workflow。详见ingestion/SHENQI_WEATHER.md。
