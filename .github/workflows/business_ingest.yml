@@ -1,0 +1,174 @@
+name: Ingest verified business chapter
+on:
+  push:
+    branches: [ingest-business-finance-20261017-source]
+    paths:
+      - 'scripts/import_shenqi_business.py'
+      - 'tests/test_business_finance.py'
+      - 'data/provenance/uploads/55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6.utf8'
+      - '.github/workflows/business_ingest.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  ingest-and-verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Restore all existing authoritative source data
+        run: |
+          set -euo pipefail
+          mkdir -p work
+          PYTHONPATH=src python -m qimenllm restore-snapshot data/snapshots/current data/qimenllm.sqlite3
+          PYTHONPATH=src python -m qimenllm audit > work/business-before-audit.json
+      - name: Import exact user bytes through existing QimenLLM entry points
+        run: |
+          set -euo pipefail
+          PYTHONPATH=src python scripts/import_shenqi_business.py --local-only > work/business-import-result.json
+          PYTHONPATH=src python -m qimenllm audit > work/business-after-audit.json
+      - name: Run complete existing and new regression suite
+        run: |
+          set -euo pipefail
+          PYTHONPATH=src python -m unittest discover -s tests -v 2>&1 | tee work/business-unittest.log
+      - name: Verify actual HTTP entry points
+        run: |
+          set -euo pipefail
+          PYTHONPATH=src python scripts/smoke_api.py --chapter01 --chapter02 --chapters0405 --application-overview --health --marriage --pregnancy --exam --employment 2>&1 | tee work/business-http.log
+      - name: Replay import with zero authoritative changes
+        run: |
+          set -euo pipefail
+          PYTHONPATH=src python scripts/import_shenqi_business.py --local-only > work/business-replay-result.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          first=json.loads(Path('work/business-import-result.json').read_text())
+          replay=json.loads(Path('work/business-replay-result.json').read_text())
+          assert not first['source']['duplicate']
+          assert first['input_counts']=={'cases':14,'events':19,'charts':16,'records':367}
+          assert replay['source']['duplicate'] and replay['cases']['duplicate']
+          assert replay['candidates']['duplicate']
+          assert not replay['curation']['structured_records_added']
+          assert not replay['curation']['concept_entries_added']
+          assert not replay['curation']['compiled_families_added']
+          print('All source, case, candidate, knowledge annotations idempotent.')
+          PY
+      - name: Export canonical restorable snapshot and verify legacy preservation
+        run: |
+          set -euo pipefail
+          PYTHONPATH=src python -m qimenllm export-snapshot > work/business-export-result.json
+          PYTHONPATH=src python -m qimenllm audit > work/business-final-audit.json
+          python - <<'PY'
+          import hashlib,json,subprocess
+          from pathlib import Path
+          sha='55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6'
+          b=Path('data/provenance/uploads/'+sha+'.utf8').read_bytes()
+          assert hashlib.sha256(b).hexdigest()==sha
+          assert Path('data/snapshots/current/raw/'+sha+'.bin').read_bytes()==b
+          manifest=json.loads(Path('data/snapshots/current/manifest.json').read_text())
+          c=manifest['counts']
+          assert c['books']==1 and c['chapters']==11 and c['raw_documents']==11
+          assert (c['cases'],c['event_families'],c['events'],c['charts'])==(43,42,50,45),c
+          assert c['training_tasks']==0 and c['rules']==0 and c['dataset_releases']==0
+          for table in ['books','cases','events','charts','raw_documents','case_records']:
+              before=subprocess.check_output(['git','show','HEAD:data/snapshots/current/'+table+'.jsonl']).decode()
+              after=Path('data/snapshots/current/'+table+'.jsonl').read_text()
+              assert set(before.splitlines()) <= set(after.splitlines()),table
+          print('Verified complete source bytes, 14 new cases, 19 events, 16 charts and unchanged old rows:',c)
+          PY
+      - name: Write source-based acceptance and status records
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json,re
+          from pathlib import Path
+          from datetime import datetime,timezone
+          src='55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6'
+          counts=json.loads(Path('data/snapshots/current/manifest.json').read_text())['counts']
+          result=json.loads(Path('work/business-import-result.json').read_text())
+          tests=Path('work/business-unittest.log').read_text()
+          m=re.search(r'Ran (\d+) tests? in ',tests)
+          assert m and re.search(r'\bOK\b',tests)
+          report={
+              'source_sha256':src,'source_bytes':56047,'source_lines':1366,
+              'source_kind':'uploaded_UTF8_file','source_confirmed_on_submission':True,
+              'source_acceptance_basis':'user_attestation',
+              'system_independent_verification':False,
+              'source_original_chart_recalculation_verified':False,
+              'new_complete_stories':14,'new_event_families':14,
+              'new_events':19,'new_original_charts':16,
+              'case12_event_chart_distribution':[0,1,1,1,0,0],
+              'new_records':367,'new_condition_reference_candidates':14,
+              'formal_role_rules_added':0,'model_training_tasks_added':0,
+              'tests_passed_count':int(m.group(1)),'tests_failed_count':0,
+              'http_smoke_command_ran':True,'replay_idempotent':True,
+              'source_preservation_verified':True,
+              'old_authoritative_tables_exact_rows_unchanged':True,
+              'source_chart_gold_independently_transcribed':False,
+              'data_version':json.loads(Path('data/snapshots/current/manifest.json').read_text())['data_version'],
+              'final_counts':counts,
+              'note':'Exact source and complete stories validated; conservative stage annotations are not human independent gold; professional ask remains blocked.'
+          }
+          Path('data/provenance/business_validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+          summary=f"""# 《神奇之门》经营求财预测 — 增量验收
+
+          本次为用户独立提供、声明确认的 UTF-8 文件，原样接收 {len(src)} 字符的 SHA-256：{src}；原文件 56,047 字节、1,366 行。来源核对不表示系统独立核验历史真实性。
+
+          第一节完整保留一般判断、10类交易/投资/买卖/房产/开店/合伙/借贷/放贷/讨债方法；14条来源条件候选仍为 reference_only，不会自动绑定为正式用神。
+
+          第二节包含14个完整历史故事、14个事件家族、19个来源事件与16张实际提供的完整九宫盘。实例十二为同一个抽奖故事的六个来源时段：介绍性信件、1月25日两时、1月26日一时、1月27日与28日的文字说明；只有中间三时辰给出盘。后两天缺盘不造，信中预先披露结果不进入事前模型输入。同一太和商城在不同日期的独立咨询不错误合并成一张盘。所有原始文本按 SHA 保留、来源跨度关联，367条保守来源记录与作者/反馈阶段分别存储，未把后来断案解释称为事前独立预测。
+
+          本次来源九宫按四列原样保留，并自动检查结构；没有独立手工 gold 或符号起盘复算验收，不宣称原盘已 engine_verified。方法候选14、正式专业规则0、训练任务0、训练实验0、公众问事仍 blocked。
+
+          本轮执行：恢复原仓库快照、现有 QimenLLM import_chapter → install_curated → import_cases → install_candidates、全量 unittest {int(m.group(1))} 项通过、旧 HTTP smoke 测试通过、重复导入幂等、audit、export-snapshot 并验证原始来源字节与所有旧权威行逐字段保留。数据版本：{report['data_version']}。
+
+          累计：书 {counts['books']}、章 {counts['chapters']}、完整案例 {counts['cases']}、家族 {counts['event_families']}、事件 {counts['events']}、原盘 {counts['charts']}、案例记录 {counts['case_records']}。没有重建原书、修改旧原文、填补未给盘或开展模型训练。
+
+          下一章遵守相同提交、测试与私有 GitHub 同步策略。
+          """
+          Path('docs/ingestion/SHENQI_BUSINESS.md').write_text('\n'.join(line.lstrip(' ') for line in summary.splitlines())+'\n')
+          status=f"""# 当前项目状态
+
+          更新：2026-10-17。《神奇之门》新增《经营求财预测》两节、14个完整故事。
+          当前已确认11份用户来源，累积43个完整案例、42家族、50事件、45个已给原盘。
+          旧章状态保存在docs/ingestion/各章报告，最新增量报告见docs/ingestion/SHENQI_BUSINESS.md。
+
+          ## 本章验收
+
+          原文56,047字节、1,366行、SHA-256 {src}。
+          第一节原文+十类方法保留；新增14条仅参考候选，不作为正式角色绑定。
+          第二节14个故事、19事件、16已给盘、367来源记录。实例十二信件与开奖五时段保持同一事件家族，最后两日缺盘不补；后验内容和不同人的按语不作为事前证据。
+          原盘只存原文和表格行，不虚构独立复算/人工gold。共有{int(m.group(1))}项unittest及既有HTTP smoke测试通过、幂等验证和旧行保留验证通过。
+
+          ## 当前累计实库
+
+          | 项目 | 实库数量 |
+          |---|---:|
+          | 书 / 章级输入 / 原始文档 | {counts['books']} / {counts['chapters']} / {counts['raw_documents']} |
+          | 完整历史故事 / 事件家族 / 事件 / 原盘 | {counts['cases']} / {counts['event_families']} / {counts['events']} / {counts['charts']} |
+          | 案例记录 / 来源证据 | {counts['case_records']} / {counts['evidence_links']} |
+          | 正式专业rules / 训练任务 / 冻结release | {counts['rules']} / {counts['training_tasks']} / {counts['dataset_releases']} |
+          | 数据版本 | {report['data_version']} |
+          | schema | v1，无迁移 |
+
+          ## 未完成
+
+          公历全流程独立起盘、全部中五/寄门/空亡/马星、正式规则用神绑定、专业模型推理及训练、完全语义化的时间隔离审核、独立黄金盘面校验、公众Web及真实效果评估尚未完成。正式ask依然blocked；统计和来源确认不是现实预测准确率。
+          """
+          Path('docs/STATUS.md').write_text('\n'.join(line.lstrip(' ') for line in status.splitlines())+'\n')
+          PY
+      - name: Commit validated immutable source and canonical data to work branch
+        run: |
+          set -euo pipefail
+          git config user.name 'QimenLLM ingest CI'
+          git config user.email 'qimenllm-ingest-ci@users.noreply.github.com'
+          git add data/structured/shenqi/business_*.json data/snapshots/current data/provenance/business_validation.json docs/STATUS.md docs/ingestion/SHENQI_BUSINESS.md
+          git diff --cached --check
+          git diff --cached --stat
+          git commit -m 'Ingest 14 confirmed business stories and 16 source charts with tested snapshot'
+          git push origin HEAD:refs/heads/ingest-business-finance-20261017-source
