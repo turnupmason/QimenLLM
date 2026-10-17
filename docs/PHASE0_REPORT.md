@@ -6,6 +6,8 @@
 
 实际目录：`/workspace/QimenLLM`。云 Linux x86_64，Python 3.12.14、Git 2.52.0，容器内存上限 8 GiB、约 2 CPU 配额。不是用户 Mac；RTX 4090 仅按用户说明记录，未连接。已有 Qimen 目录未读取或继承。详见 HARDWARE / ENVIRONMENT.json。
 
+交付归档与报告位于本项目 artifacts/。聊天指定的 `/codex/.../output` 路径在当前云账户下不可创建（OS PermissionError），因此不提供无法访问的聊天附件链接；项目源码、空库、日志和归档均实际保存在工作区。
+
 目录和启动命令见 README。Git 为本地 main，代理本地提交身份 Codex，无远程或 push；精确 commit 写入交付 manifest，亦可用 `git log -1` 查看。
 
 ## 2. schema 与来源工具

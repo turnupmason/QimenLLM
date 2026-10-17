@@ -34,7 +34,7 @@ CLI/API 共用 QimenService，临时 fixture 证明 DB/模型/校验接线。结
 
 ## D009 Git 与交付
 
-本地初始化 main 并提交 Phase 0，不设置远程、不 push。代码/文档/测试进 Git；用户正文、SQLite、权重默认忽略，交付的空库作为可复现产物单独包含。下载 ZIP 保留本地 Git 历史；打包 manifest 记录 commit 与文件哈希。
+本地初始化 main 并提交 Phase 0，不设置远程、不 push。代码/文档/测试进 Git；用户正文、SQLite、权重默认忽略，交付的空库作为可复现产物单独包含。ZIP 归档保留本地 Git 历史；打包 manifest 记录 commit 与文件哈希。当前云账户无法创建聊天指定的 `/codex/.../output` 路径（OS PermissionError），因此归档作为工程产物保存在项目 artifacts，不伪造附件链接。
 
 ## D010 初始 schema 定稿
 

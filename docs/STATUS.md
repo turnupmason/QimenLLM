@@ -31,6 +31,8 @@
 
 执行命令和日志见根目录 README 以及 artifacts/validation.json、tests.log、audit.log、http-smoke.log、wheel-build.log、wheel-install.log。后者为本次交付产物，默认不进 Git。
 
+归档保存在 artifacts/QimenLLM-Phase0.zip，并附 release.json、manifest.json、schema.sql 和 SHA256SUMS.txt。当前云账户无权创建聊天指定的 `/codex/.../output`，故无法生成该路径下的附件下载链接；不是测试或源码失败。
+
 测试样本都是临时中性工程数据，不属于知识库，不是奇门专业正确性测试。结构通过、正常阻断与空流程响应不计成功断案；专业评分和现实准确率均未评估。
 
 ## 失败与修正
