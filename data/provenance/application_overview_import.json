@@ -1,0 +1,18 @@
+{
+  "import": {
+    "revision_id": "f3f954a3-4cd7-41c4-834b-6b6f2dec15d1",
+    "source_id": "e69752fd-9a1f-4277-a935-d5c8e3c1ca5a",
+    "data_version": "2467e4de-4625-4e0b-a92c-98f0378edd56",
+    "revision": 1,
+    "sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+    "duplicate": false
+  },
+  "chapter_number": "not_given",
+  "sequence_purpose": "ordering_only_not_printed_chapter_number",
+  "bytes": 32020,
+  "characters": 11062,
+  "lines": 479,
+  "final_newline": false,
+  "source_acceptance": "pending_explicit_collation_confirmation",
+  "original_preserved": true
+}
