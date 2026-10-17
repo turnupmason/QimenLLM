@@ -1,0 +1,457 @@
+{
+  "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+  "source_byte_count": 31026,
+  "source_line_count": 350,
+  "schema_version": "source_selection_candidates_v1",
+  "title": "出行出国预测",
+  "candidate_count": 8,
+  "candidate_record_count": 8,
+  "candidates": [
+    {
+      "key": "travel_direction",
+      "domain": "travel",
+      "scope": "direction",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "travel"
+        },
+        {
+          "field": "travel_subtype",
+          "op": "eq",
+          "value": "direction"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_travel_direction_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_travel_reference_v1"
+      },
+      "source_lines": [
+        5
+      ],
+      "source_quote": "出行出国，一般以日干落宫为出行之人，看去什么方向，这个方向如果有吉格吉门来生日干落宫，则为顺利；如果无吉门吉格，但该方向地盘宫与日干落宫比和，也为顺利。如果日干落宫得吉门吉格，克所往方向之宫，也可出行。如果出行之方得吉门吉格，但克日干落宫，虽勉强可行，但必不顺。如果所往之方遇凶门凶格，又来冲克日干落宫，则大凶。如果所往之方为时干空亡之地或为日干之墓地，则不利。如果日干或年命刑、墓、空亡出行方位之宫，也为不利。同时，也可兼看日干与时干的关系，以便帮助判断出行的利弊吉凶。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "完整段落保留全部条件及例外；未知不得当满足；不混用交通工具与归期方法"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "日干",
+          "年命",
+          "时干"
+        ],
+        "semantic_role": "direction",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "travel_car",
+      "domain": "travel",
+      "scope": "car",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "travel"
+        },
+        {
+          "field": "travel_subtype",
+          "op": "eq",
+          "value": "car"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_travel_car_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_travel_reference_v1"
+      },
+      "source_lines": [
+        7
+      ],
+      "source_quote": "凡出行乘车，以景门所临之宫为道路，以伤门为车。遇白入荧凶格易遭盗贼，逢荧入白凶格则可能碰上火灾，临天蓬、玄武可能被盗或丢失钱物。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "完整段落保留全部条件及例外；未知不得当满足；不混用交通工具与归期方法"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "景门",
+          "伤门"
+        ],
+        "semantic_role": "car",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "travel_boat",
+      "domain": "travel",
+      "scope": "boat",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "travel"
+        },
+        {
+          "field": "travel_subtype",
+          "op": "eq",
+          "value": "boat"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_travel_boat_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_travel_reference_v1"
+      },
+      "source_lines": [
+        9
+      ],
+      "source_quote": "凡出行乘船，以休门所落之宫为水路，以伤门为船只。如果遇青龙逃走或白虎猖狂凶格，可能遭遇风暴；如果碰上雀投江、蛇夭矫凶格，则可能有沉船的危险。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "完整段落保留全部条件及例外；未知不得当满足；不混用交通工具与归期方法"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "休门",
+          "伤门"
+        ],
+        "semantic_role": "boat",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "travel_air",
+      "domain": "travel",
+      "scope": "air",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "travel"
+        },
+        {
+          "field": "travel_subtype",
+          "op": "eq",
+          "value": "air"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_travel_air_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_travel_reference_v1"
+      },
+      "source_lines": [
+        11
+      ],
+      "source_quote": "如果坐飞机出行，可以九天所临之宫为航线，以开门为飞机，看其临宫状态、格局如何，以定其利弊吉凶。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "完整段落保留全部条件及例外；未知不得当满足；不混用交通工具与归期方法"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "九天",
+          "开门"
+        ],
+        "semantic_role": "air",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "travel_departure",
+      "domain": "travel",
+      "scope": "departure",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "travel"
+        },
+        {
+          "field": "travel_subtype",
+          "op": "eq",
+          "value": "departure"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_travel_departure_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_travel_reference_v1"
+      },
+      "source_lines": [
+        13
+      ],
+      "source_quote": "凡预测出发时间，一般先看日干和时干，如果日干和时干均在内盘，则行期近；如果日干和时干俱在外盘则行期远；日干和时干一内一外，也主行期远。一般以开门落宫地盘所临之干为具体出发时间。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "完整段落保留全部条件及例外；未知不得当满足；不混用交通工具与归期方法"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "日干",
+          "时干",
+          "开门"
+        ],
+        "semantic_role": "departure",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "travel_return_before_departure",
+      "domain": "travel",
+      "scope": "return_before_departure",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "travel"
+        },
+        {
+          "field": "travel_subtype",
+          "op": "eq",
+          "value": "return_before_departure"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_travel_return_before_departure_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_travel_reference_v1"
+      },
+      "source_lines": [
+        15
+      ],
+      "source_quote": "未动身时预测外出归来之期，一般以出门之日的日干落宫下临地盘之干为归来日期。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "完整段落保留全部条件及例外；未知不得当满足；不混用交通工具与归期方法"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "日干"
+        ],
+        "semantic_role": "return_before_departure",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "travel_traveler_safety",
+      "domain": "travel",
+      "scope": "traveler_safety",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "travel"
+        },
+        {
+          "field": "travel_subtype",
+          "op": "eq",
+          "value": "traveler_safety"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_travel_traveler_safety_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_travel_reference_v1"
+      },
+      "source_lines": [
+        17
+      ],
+      "source_quote": "预测行人在外吉凶，一般以用神及其年命落宫所临星、门、宫、神及其格局好坏旺衰来判断。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "完整段落保留全部条件及例外；未知不得当满足；不混用交通工具与归期方法"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "用神",
+          "年命"
+        ],
+        "semantic_role": "traveler_safety",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "travel_traveler_return",
+      "domain": "travel",
+      "scope": "traveler_return",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "travel"
+        },
+        {
+          "field": "travel_subtype",
+          "op": "eq",
+          "value": "traveler_return"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_travel_traveler_return_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_travel_reference_v1"
+      },
+      "source_lines": [
+        19
+      ],
+      "source_quote": "预测行人归期，一般以庚格来判断。阴日以庚上之干为归期，阳日以庚下之干为归期。逢年格，年内必归；逢月格，月内归来；逢日格，当日即回；逢时格，本时辰内即归。不逢格，则不归。何谓不格？乙庚合，不为格；庚金入墓或空亡，不为格。古人经验，又有以天蓬、天芮二星为代表行人的，行人在千里之外以天蓬星为用神，行人在千里之内以天芮星为用神，如果时干临天蓬或天芮，则可归来，时干就是归期；伏吟不来，反吟来；如果用神临三奇和三吉门，三奇六仪又正好是行人的年干，则马上可以回来；如果凶星凶门临行人年干，必有妨碍不能回来。",
+      "exceptions": [
+        "乙庚合不为格",
+        "庚金入墓或空亡不为格",
+        "千里内外天蓬天芮条件分开，不默认距离"
+      ],
+      "unique": false,
+      "notes": [
+        "完整段落保留全部条件及例外；未知不得当满足；不混用交通工具与归期方法"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "庚",
+          "天蓬",
+          "天芮"
+        ],
+        "semantic_role": "traveler_return",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    }
+  ]
+}

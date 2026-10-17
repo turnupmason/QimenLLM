@@ -15,12 +15,14 @@ PREGNANCY_SHA='adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69'
 EXAM_SHA='7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc'
 EMPLOYMENT_SHA='7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853'
 BUSINESS_SHA='55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6'
+TRAVEL_SHA='c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55'
 PROJECTION='shenqi_health_table_projection_v1'
 SOURCE_POLICIES={HEALTH_SHA:PROJECTION,MARRIAGE_SHA:'shenqi_marriage_table_projection_v1',
                  PREGNANCY_SHA:'shenqi_pregnancy_table_projection_v1',
                  EXAM_SHA:'shenqi_exam_table_projection_v1',
                  EMPLOYMENT_SHA:'shenqi_employment_table_projection_v1',
-                 BUSINESS_SHA:'shenqi_business_table_projection_v1'}
+                 BUSINESS_SHA:'shenqi_business_table_projection_v1',
+                 TRAVEL_SHA:'shenqi_travel_unicode_grid_projection_v1'}
 NUMERALS=dict(zip('一二三四五六七八九',range(1,10)))
 
 
@@ -60,9 +62,29 @@ def project_chart(db,case_id,chart_id):
     names={key:[r['name'] for r in families[key]['payload']['dataset']['rows']] for key in needed[:3]}
     stems={r['stem'] for r in families['stem_attributes']['payload']['dataset']['rows']}
     source_lines=text.splitlines(keepends=True); start_line=raw[:row['byte_start']].count(b'\n')+1
-    headers=[i for i,line in enumerate(source_lines) if line.split()==['宫位','八神','门位','星位']]
-    if len(headers)!=1: raise ValueError('Expected one complete original table header')
-    lines=[(i,line) for i,line in enumerate(source_lines) if i>headers[0] and line.strip()]
+    grid_sources={}
+    if row['sha256']==TRAVEL_SHA:
+        # Read literal grid cells in place. Synthetic rows are local projection
+        # inputs only; their citations retain all three exact Unicode source lines.
+        lines=[]
+        for i,line in enumerate(source_lines):
+            if '八神：' not in line: continue
+            cells=[v.split('│')[1:4] for v in source_lines[i:i+3]]
+            if len(cells)!=3 or any(len(v)!=3 for v in cells):
+                raise ValueError('Incomplete Unicode palace row')
+            for column in range(3):
+                label,deity=cells[0][column].strip().split('八神：')
+                door=cells[1][column].strip().split('：',1)[1]
+                star=cells[2][column].strip().split('：',1)[1] if '：' in cells[2][column] else '—'
+                synthetic=' '.join((label.strip(),deity,door,star))
+                lines.append((i,synthetic))
+                grid_sources[label.strip()]={'text':''.join(source_lines[i:i+3]),
+                    'line_end':start_line+i+2,'grid_column':column+1}
+        headers=[0]
+    else:
+        headers=[i for i,line in enumerate(source_lines) if line.split()==['宫位','八神','门位','星位']]
+        if len(headers)!=1: raise ValueError('Expected one complete original table header')
+        lines=[(i,line) for i,line in enumerate(source_lines) if i>headers[0] and line.strip()]
     if len(lines)!=9: raise ValueError('Expected nine source table rows without trailing analysis')
     palaces={}; evidence=[]
     for i,line in lines:
@@ -75,6 +97,7 @@ def project_chart(db,case_id,chart_id):
         if palace in palaces: raise ValueError('Repeated source palace')
         source={'source_id':row['source_id'],'sha256':row['sha256'],'line':start_line+i,
                 'text':line,'column_cells':cells}
+        if label in grid_sources: source.update(grid_sources[label])
         if palace==5:
             # The business chapter's ninth case prints 禽己 in the native
             # centre cell. Preserve 禽 as a literal marker, without treating it
@@ -101,10 +124,15 @@ def project_chart(db,case_id,chart_id):
                     raise ValueError('Unsupported stem markers')
                 return _unique_name(names[family],short),suffix,prefix or None
             door_name,heaven,prefix=split_cell(door,'doors')
-            star_name,earth,star_prefix=split_cell(star,'stars')
+            companion = row['sha256']==TRAVEL_SHA and star=='芮禽己'
+            star_name,earth,star_prefix=split_cell('芮己' if companion else star,'stars')
             item={'palace':palace,'earth_stem':earth,'heaven_stem':heaven,
                   'door':door_name,'star':star_name,'deity':_unique_name(names['deities'],deity),
                   'heaven_prefix_marker':prefix,'star_prefix_marker':star_prefix}
+            if companion:
+                item['source_star_cell_as_written']=star
+                item['additional_star_as_written']='禽'
+                item['additional_star_carried_stem']=None
         item['source']=source; palaces[palace]=item
     if set(palaces)!=set(range(1,10)): raise ValueError('Incomplete nine-palace source table')
     for key in needed:

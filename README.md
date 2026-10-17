@@ -1,8 +1,8 @@
 # QimenLLM
 
-古籍知识、确定性计算、完整案例与可替换语言模型结合的研究工程。**当前累计接收《神奇之门》十一份章级输入、43个完整故事/49事件/45已给原盘（本轮新增14个经营求财故事/18事件/16原盘）；支持符号计算、来源候选检查、案例阅读和原盘投影对照。独立公历起盘、正式用神激活、专业问事及模型训练尚未完成。**
+古籍知识、确定性计算、完整案例与可替换语言模型结合的研究工程。**当前累计接收《神奇之门》十二份章级输入、49个完整故事/55事件/52已给原盘（本轮新增6个出行出国故事/6事件/7原盘）；支持符号计算、来源候选检查、案例阅读和原盘投影对照。独立公历起盘、正式用神激活、专业问事及模型训练尚未完成。**
 
-用户已统一确认既往及未来提供的资料与历史事实，并声明已独立确认。维护导入默认confirmed，不再请求原文二次确认；确认依据与程序复算、模型评估分开记录，详见[现行来源政策](docs/KNOWLEDGE_POLICY.md)及[本轮经营求财报告](docs/ingestion/SHENQI_BUSINESS.md)及[上一轮工作就业报告](docs/ingestion/SHENQI_EMPLOYMENT.md)。
+用户已统一确认既往及未来提供的资料与历史事实，并声明已独立确认。维护导入默认confirmed，不再请求原文二次确认；确认依据与程序复算、模型评估分开记录，详见[现行来源政策](docs/KNOWLEDGE_POLICY.md)及[本轮出行出国报告](docs/ingestion/SHENQI_TRAVEL.md)及[经营求财报告](docs/ingestion/SHENQI_BUSINESS.md)及[上一轮工作就业报告](docs/ingestion/SHENQI_EMPLOYMENT.md)。
 
 执行约束见 [AGENTS](AGENTS.md)，[完整用户总指令](docs/user_instructions/master_spec_2026-10-17.txt)，[当前进度](docs/STATUS.md)，[首章入库报告](docs/ingestion/SHENQI_CHAPTER01.md)、[第二份报告](docs/ingestion/SHENQI_CHAPTER02.md)、[第四、五章报告](docs/ingestion/SHENQI_CHAPTERS0405.md)、[应用概述报告](docs/ingestion/SHENQI_APPLICATION_OVERVIEW.md)、[疾病案例报告](docs/ingestion/SHENQI_HEALTH.md)、[婚恋案例报告](docs/ingestion/SHENQI_MARRIAGE.md)。没有读取或继承旧项目。
 
@@ -52,7 +52,7 @@ src/qimenllm/按knowledge/casting/retrieval/rules/cases/reasoning/models/verific
 
 data/qimenllm.sqlite3是本地运行库，raw_books是原字节镜像，二者不直接入Git。**实际原文字节与全部权威表**保存在data/snapshots/current，可恢复；整理和来源测试在data/structured/shenqi，来源与验收在data/provenance。schema v1见src/qimenllm/knowledge/migrations/001_initial.sql及[SCHEMA](docs/SCHEMA.md)。
 
-累计376个上下文块、39编译符号族、270来源/技术边界、16符号教学例；139当前条件候选对应146不可变历史条，正式角色rules仍0。43完整故事/40家族/49事件/45已给原盘、842记录/1163证据；缺盘不造。作者明确反馈按用户声明确认；未载结局不补。本轮16张原表已逐盘读取，原书特殊中五“禽己”保留字面前缀；上一轮工作调动盘仍保留2处程序携干差异。训练任务0，旧217有向参考键仍保留原句和条件，详见[覆盖](docs/KNOWLEDGE_COVERAGE.md)。
+累计392个上下文块、39编译符号族、270来源/技术边界、16符号教学例；147当前条件候选对应154不可变历史条，正式角色rules仍0。49完整故事/46家族/55事件/52已给原盘、941记录/1262证据；缺盘不造。作者明确反馈按用户声明确认；未载结局不补。本轮7张Unicode框线原盘已逐盘读取；经营求财16张原表已逐盘读取，原书特殊中五“禽己”保留字面前缀；上一轮工作调动盘仍保留2处程序携干差异。训练任务0，旧217有向参考键仍保留原句和条件，详见[覆盖](docs/KNOWLEDGE_COVERAGE.md)。
 
 ## 每次更新同步GitHub
 
@@ -74,4 +74,5 @@ PYTHONPATH=src python3 -m qimenllm sync --message 'Update project and source dat
 
 各章重放脚本只接受对应已给原文的确切哈希（本次内联聊天另验父消息及正文切片），重放不重复入库；新章/修订另走导入。当前云会话若命令行API受限，Codex通过连接器核实私有状态，再正常Git HTTPS推送并核对远端；pending不算完成。维护和恢复见[GITHUB_SYNC](docs/GITHUB_SYNC.md)、[IMPORT_PROTOCOL](docs/IMPORT_PROTOCOL.md)。不提交密钥、私人问事或模型权重，不公开分发原书。
 
-本轮《经营求财预测》接收与复算边界见[本章报告](docs/ingestion/SHENQI_BUSINESS.md)；重复导入脚本 `PYTHONPATH=src python3 scripts/import_shenqi_business.py`，本章所有真实原盘均通过 `case-chart` 同一服务读取（明确比较方法后才尝试对照）。
+本轮《经营求财预测》接收与复算边界见[本章报告](docs/ingestion/SHENQI_BUSINESS.md)；重复导入脚本 `PYTHONPATH=src python3 scripts/import_shenqi_business.py
+PYTHONPATH=src python3 scripts/import_shenqi_travel.py`，本章所有真实原盘均通过 `case-chart` 同一服务读取（明确比较方法后才尝试对照）。

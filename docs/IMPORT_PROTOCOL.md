@@ -77,3 +77,6 @@ PYTHONPATH=src python3 scripts/import_shenqi_chapters0405.py
 ## 本轮经营求财新增章节的确切重放
 
 `PYTHONPATH=src python3 scripts/import_shenqi_business.py` 从用户实际上传TXT的原始字节镜像读取，严格校验SHA256 `55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6`、56047字节与1366行；使用旧schema、确认策略、方法安装器、完整案例导入器和SQL候选，不强制新原文复核。技术键 business-finance/sequence12。14故事、18事件、16原盘；实例十二五事件只有三张给定盘。正常维护默认同步私有GitHub；--local-only仅供隔离测试，真实提交与远端main SHA/CI核验仍是验收条件。见ingestion/SHENQI_BUSINESS.md。
+
+
+本轮《出行出国预测》沿现有schema v1与导入/服务链增量接续，12份章级输入累计49故事/46家族/55事件/52原盘；新增6故事/6事件/7盘、99记录、8参考候选。原字节SHA256 c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55；案例四旧盘复读与案例六双盘/后置雨情严格隔离，正式规则/训练任务仍0。入口scripts/import_shenqi_travel.py，报告docs/ingestion/SHENQI_TRAVEL.md；不新增workflow，原有tests.yml保留。进度与实际验收以STATUS为准。

@@ -1,45 +1,36 @@
 # 当前项目状态
 
-更新：2026-10-17。来源以用户提供的本次完整 TXT 文件和本仓库 Git 历史为准。当前已接收《神奇之门》11份章级输入；本次新增《经营求财预测》（技术键 business-finance、排序12；不反推印刷章号）。
+更新：2026-10-17。本轮《神奇之门·出行出国预测》，技术键travel-abroad/排序13，不推印刷章号。累计12份章级输入。最高要求仍见PROJECT_CHARTER及user_instructions/master_spec_2026-10-17.txt。
 
-## 现行文献接收与计算能力边界
+## 本轮来源和数据
 
-用户已长期确认既往与未来提供的原文和案例事实；本次原文按用户声明 accepted/confirmed，依据为 user_attestation，system_performed_independent_verification=false。确认原书来源与历史故事接受，不等于程序能独立复算全部古盘，也不等于已证明现实预测效果。不存在模型微调实验或公众预测产品。
+用户TXT原始31026字节/350行，SHA256 c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55。uploads、SQLite BLOB、snapshot raw完整保存，Unicode框线和末尾未完句不改。confirmed/user_attestation，不冒称系统独立查访。16语境组、8条件候选均reference_only；保留方向、交通方式、出发/归期、庚格例外等完整条件。
 
-Phase 1 文献知识、Phase 2 有来源符号计算和条件候选、Phase 3 历史案例持续增量；独立公历起盘、正式用神绑定与专业断案仍未完成。正式 ask 仍 blocked；候选仅 reference_only，role rules=0、training_tasks=0、frozen releases=0。所有入口仍经 QimenService，不能偷换旧 Prompt。
+新增6完整故事/6家族/6事件/7原盘/99记录/99证据。案例四10月电话复盘读取同一2月历史盘，反馈和续断在首测之后。案例六电话盘和拟起飞盘为同一旅行两盘，7月反馈及雨情后置分析不提前，不造延误起飞第三盘。沿QimenService同ID投影，63宫保留原文行列和芮禽己字面，不擅改重复己。详细报告ingestion/SHENQI_TRAVEL.md。
 
-## 本章来源
-
-上传文件：经营求财预测_完整原文.txt；正文起始为“第一节 取用判断经验”，用户给出的章名“经营求财预测”作为技术标题而非虚构书中印刷标题。文件 UTF-8，56047 字节、21935 Unicode 字符、1366 行，末尾有 LF。SHA-256：55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6；远端 Git blob SHA-1：ecf55d859f16ba9ca6c9dc8a38fa2f5b7970f948。
-
-原字节保存在 data/provenance/uploads/55cdc039….utf8、raw_documents BLOB 和 data/snapshots/current/raw/55cdc039….bin；来源关联和原文不可变；用户附加 TXT 不是凭聊天转录重建。现有10份来源与schema不覆盖。
-
-第一节保存总论及10类经营子方法，按真实具体问事和不同用神视角区别。26语境块覆盖两节全文，3来源技术边界，10条件候选全部仅参考、不自动绑定。14完整故事、18事件、16已提供九宫原盘、367记录/367来源证据关联。其余未载盘不补。完整案例并非训练可用数据集；有后验内容的整体背景不进入首次预测。
-
-特别：实例二、三、四关联同一太和商城项目家族，以防跨组泄漏，但各咨询和原盘分别保留。实例十二同一抽奖故事内分五个开奖时段/事件、三张实际提供的盘；第三、第四天仅文字，不造九宫。卢圣湘先前断语、公开的结果、张志春后置按语不混；实例九原中心格“禽己”原字照存，原盘投影保留原始前缀，不擅自补星或改成“己”。
-
-## 累计实际权威库
-
-| 资源 | 已恢复并导出快照中的数量 |
+| 资源 | 累计数量 |
 |---|---:|
-| 书 / 章 / 原始文档 | 1 / 11 / 11 |
-| 概念索引 / 方法 | 1963 / 20 |
-| 结构化知识项 / 来源片段 | 847 / 2071 |
-| 完整案例 / 家族 / 事件 / 原书盘 | 43 / 40 / 49 / 45 |
-| 案例记录 / 证据关联 | 842 / 1163 |
-| 正式角色规则 / 训练任务 / 冻结评估 | 0 / 0 / 0 |
-| 来源审读历史 / 数据版本记录 | 18 / 50 |
-| 当前数据版本 | 3734b978-f108-414d-aaca-b1e0afbc2074 |
-| 数据库 schema | v1，不需要迁移 |
+| 书 / 章 / 原始文档 | 1 / 12 / 12 |
+| 概念索引 / 方法 | 2011 / 21 |
+| 结构化知识项 / 来源片段 | 871 / 2208 |
+| 完整案例 / 家族 / 事件 / 原书盘 | 49 / 46 / 55 / 52 |
+| 案例记录 / 证据关联 | 941 / 1262 |
+| 来源审读历史 / 数据版本记录 | 19 / 55 |
+| 正式角色rules / training_tasks / releases | 0 / 0 / 0 |
+| schema | v1，无迁移 |
 
-先前 29 故事、31 事件、29 原盘保留。数据可由当前 canonical snapshot 完整恢复，审计通过。快照总文件37个（25表JSONL、11原文字节文件和1 manifest），其中 manifest 的 files 映射36条。当前业务资料未发布模型训练输入或训练评估集。
+数据版本817f677d-f7b2-4b42-bd4b-4211f86c200d；snapshot manifest SHA256 6ec09b9999585b26454b0b8f9f02c3eb3f40f5cf92af3f691bc5756be5d971d0。25权威表旧行逐字段全部保留，11旧原文文件字节未变；新快照38文件，恢复再导出逐字节一致。
 
-## 验收依据
+## 实际验收
 
-CI 工作分支在含全部16张原盘专项检查、真实 SQLite 条件候选检查后的提交 a1fc6eaef947ea4baa631dfceed58ffa5c947bd9：Ubuntu/macOS × Python 3.11/3.12 四 job 成功；Ubuntu Python3.12 实际日志 Ran 265 tests / OK。另一次受控入库作业 restore-and-ingest 成功完成旧快照恢复、新章事务化导入、audit、全量回归、快照导出并 push；分支新快照 commit 4872e208dedab4e49b55d0180224591a1e126fad。
+本机执行 `PYTHONPATH=src python3 -m unittest discover -s tests -v`：275项通过，0失败，含10项新增出行专项。旧经营测试43/45全库历史数量检查改为排除新travel-abroad后仍精确43/45；旧原文与案例不变。新检查包括字节/引文、7盘同ID、时序隔离、SQL候选不绑定、幂等、拒绝不可变改写和快照恢复。CLI真实读取6案例，WSGI API沿原app/service读取7盘；没有开放公网端口。
 
-后续文档修改与合并仍需各自按精确提交SHA核对远端四项CI；只可报告当次真实成功结果。不把旧CI当作新commit通过。具体流程与结果见 docs/ingestion/SHENQI_BUSINESS.md。
+本机Git HTTPS缺少登录凭据，采用已连接GitHub接口上传；远端main精确SHA、文件blob和Ubuntu/macOS × Python3.11/3.12四CI仍须在提交后实际核对，不能以本地通过代替远端成功。证据见data/provenance/travel_validation.json。
+
+## workflow审计
+
+.github/workflows/tests.yml从初始化78d5b9a已存在，保留常规四环境回归。上一章临时business-ingest-staging.yml在26f0061新增、23bac5e删除，当前main仅有tests.yml。本轮不新增或删除workflow。完整SHA及用途见入库报告。
 
 ## 未完成
 
-独立节气/公历/四柱和全面排盘、空亡马星、中五寄宫泛化、原案例复算完备、条件化正式用神激活、综合应期推理、语言模型 SFT/LoRA、最终文本校验、公开Web服务和现实盲测均未完成。本章新增来源候选不代表正式规则已经编译。完成并同步本章后等待用户继续提供下一部分原书。
+独立公历/节气/四柱及全面排盘、空亡马星、完整寄宫泛化、正式用神激活、专业断案和应期、SFT/LoRA、公众Web及现实预测评估仍未完成。正式问事沿QimenService.ask阻断，未提前训练、未引入其他古籍。历史入库报告保留原验收事实。

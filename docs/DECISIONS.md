@@ -137,3 +137,6 @@ Actions run 39046797275的实际失败为随机source_id含1991，使疾病事�
 14个完整故事/18独立事件/16原盘按同一旧schema追加，太和商城三次不同咨询同一泄漏隔离家族；卢圣湘抽奖多时段分五事件、已有三盘归属各自时段，后两天无盘不造。作者、学员及张志春后置按语分开。源中心“禽己”保留字面前缀，不造中五星或改旧原盘。保守事前权限不自动开放未知阶段；完整案例只有研究阅读权限，训练仍0。
 
 采用现有 `import_chapter`、`install_curated`、`import_cases`、`install_candidates`、`QimenService`，SQLite schema v1无迁移。原始上传保存在provenance及全量可恢复快照；GitHub CI 在隔离环境真实恢复、导入、审计、更新快照并验证。当前基线见STATUS与SHENQI_BUSINESS；文档维护后按新SHA再次验收。未独立公历复算、专业断案、未来应期模型评估。
+
+
+本轮《出行出国预测》沿现有schema v1与导入/服务链增量接续，12份章级输入累计49故事/46家族/55事件/52原盘；新增6故事/6事件/7盘、99记录、8参考候选。原字节SHA256 c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55；案例四旧盘复读与案例六双盘/后置雨情严格隔离，正式规则/训练任务仍0。入口scripts/import_shenqi_travel.py，报告docs/ingestion/SHENQI_TRAVEL.md；不新增workflow，原有tests.yml保留。进度与实际验收以STATUS为准。

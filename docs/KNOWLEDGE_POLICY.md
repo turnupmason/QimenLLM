@@ -35,3 +35,6 @@
 版权状态默认 unreviewed；research_authorized 与 public_authorized 分离。研究 API 在本地读取用户资料，不提供公众全文服务。公开或商用训练需按具体书版本与权利单独核实。
 
 用户后续已明确要求 GitHub 持续更新。每次资料更新的真实原文字节及结构化权威表经 snapshot 进入指定私有仓库，保留来源和哈希；本地 SQLite/镜像不直接提交。上传失败明确 pending，不能只保存本地就结束。详见 GITHUB_SYNC；该备份授权不扩展为公众分发或个人问事训练授权。
+
+
+本轮《出行出国预测》沿现有schema v1与导入/服务链增量接续，12份章级输入累计49故事/46家族/55事件/52原盘；新增6故事/6事件/7盘、99记录、8参考候选。原字节SHA256 c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55；案例四旧盘复读与案例六双盘/后置雨情严格隔离，正式规则/训练任务仍0。入口scripts/import_shenqi_travel.py，报告docs/ingestion/SHENQI_TRAVEL.md；不新增workflow，原有tests.yml保留。进度与实际验收以STATUS为准。

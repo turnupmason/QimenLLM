@@ -1,0 +1,136 @@
+{
+  "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+  "source_byte_count": 31026,
+  "source_line_count": 350,
+  "source_file": "神奇之门_出行出国预测_精校完整版(1).txt",
+  "verification_basis": "user_attestation",
+  "system_performed_independent_verification": false,
+  "case_count": 6,
+  "event_count": 6,
+  "chart_count": 7,
+  "record_count": 99,
+  "same_historical_chart_revisited_case4": true,
+  "no_third_chart_for_actual_delayed_departure": true,
+  "unreported_case4_separation_not_marked_confirmed": true,
+  "final_sentence_incomplete_as_supplied": "下午6点多已是壬辰日的己酉时了，不是五不遇时了。回头看一下奇门格局，开门、九天所落坎1宫所临天柱星为雨师，甲寅癸为水神，古人经验：“天柱乘壬癸二干游于坎兑震宫”，或“天蓬乘壬癸二干游于坎兑震宫”，“又必天英、天辅所落天上宫克地下宫者”，“必然风云雷雨交作”。今不仅天柱星乘癸游于坎宫，天蓬星乘癸游于震宫，而且天辅星在坤2宫，木克土，天英星在兑七宫，火克金，所以必然雷雨交作。只是对这一点当时没有细看\n",
+  "technical_boundary": "原文照存；原盘投影不是独立复算；不生成训练任务",
+  "local_regression": {
+    "command": "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+    "tests": 275,
+    "failures": 0,
+    "errors": 0
+  },
+  "old_rows_preserved": {
+    "rule_conditions": {
+      "old": 0,
+      "new": 0
+    },
+    "concept_links": {
+      "old": 0,
+      "new": 0
+    },
+    "case_events": {
+      "old": 49,
+      "new": 55
+    },
+    "data_versions": {
+      "old": 50,
+      "new": 55
+    },
+    "case_records": {
+      "old": 842,
+      "new": 941
+    },
+    "rule_disagreements": {
+      "old": 0,
+      "new": 0
+    },
+    "training_tasks": {
+      "old": 0,
+      "new": 0
+    },
+    "evidence_links": {
+      "old": 1163,
+      "new": 1262
+    },
+    "chapter_revisions": {
+      "old": 11,
+      "new": 12
+    },
+    "knowledge_items": {
+      "old": 847,
+      "new": 871
+    },
+    "methods": {
+      "old": 20,
+      "new": 21
+    },
+    "event_families": {
+      "old": 40,
+      "new": 46
+    },
+    "raw_documents": {
+      "old": 11,
+      "new": 12
+    },
+    "cases": {
+      "old": 43,
+      "new": 49
+    },
+    "task_inputs": {
+      "old": 0,
+      "new": 0
+    },
+    "source_spans": {
+      "old": 2071,
+      "new": 2208
+    },
+    "concepts": {
+      "old": 1963,
+      "new": 2011
+    },
+    "events": {
+      "old": 49,
+      "new": 55
+    },
+    "rules": {
+      "old": 0,
+      "new": 0
+    },
+    "split_assignments": {
+      "old": 0,
+      "new": 0
+    },
+    "charts": {
+      "old": 45,
+      "new": 52
+    },
+    "chapters": {
+      "old": 11,
+      "new": 12
+    },
+    "books": {
+      "old": 1,
+      "new": 1
+    },
+    "source_reviews": {
+      "old": 18,
+      "new": 19
+    },
+    "dataset_releases": {
+      "old": 0,
+      "new": 0
+    }
+  },
+  "snapshot_roundtrip": "byte_identical",
+  "api_original_charts": 7,
+  "cli_cases": 6,
+  "github_sync": {
+    "status": "pending",
+    "reason": "Await actual remote commit and CI verification"
+  },
+  "schema_migration": false,
+  "workflow_added": false,
+  "training_tasks_added": 0,
+  "formal_rules_added": 0
+}

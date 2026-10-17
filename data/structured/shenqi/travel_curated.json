@@ -1,0 +1,1074 @@
+{
+  "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+  "source_byte_count": 31026,
+  "source_line_count": 350,
+  "chapter_title": "出行出国预测",
+  "chapter_key_suggestion": "travel-abroad",
+  "printed_chapter_number": null,
+  "groups": [
+    {
+      "key": "travel_heading",
+      "title": "出行出国预测",
+      "category": "commentary",
+      "line_start": 1,
+      "line_end": 4,
+      "attribution": "原书叙述；例二张粤、例三杜新会、例四杜新会与张粤，其他原书第一人称",
+      "summary": "完整原文语境；一般方法与案例特例隔离，未自动编译",
+      "concepts": [],
+      "dataset": {
+        "key": "travel_heading_reference",
+        "rows": [
+          {
+            "key": "travel_heading_1",
+            "source_lines": [
+              1,
+              1
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 1,
+              "line_end": 1,
+              "byte_start": 0,
+              "byte_end": 19,
+              "source_quote": "出行出国预测\n"
+            },
+            "source_quote": "出行出国预测\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "travel_heading_3",
+            "source_lines": [
+              3,
+              3
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 3,
+              "line_end": 3,
+              "byte_start": 20,
+              "byte_end": 49,
+              "source_quote": "第一节 取用判断经验\n"
+            },
+            "source_quote": "第一节 取用判断经验\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "travel_direction",
+      "title": "出行出国，一般以日干落宫为出行之人，看去什么方向，这个方向如果有吉格吉门来生日干落宫，则为顺利；如果无吉门吉格，但该方向",
+      "category": "analysis",
+      "line_start": 5,
+      "line_end": 6,
+      "attribution": "原书叙述；例二张粤、例三杜新会、例四杜新会与张粤，其他原书第一人称",
+      "summary": "完整原文语境；一般方法与案例特例隔离，未自动编译",
+      "concepts": [
+        "日干",
+        "时干",
+        "年命"
+      ],
+      "dataset": {
+        "key": "travel_direction_reference",
+        "rows": [
+          {
+            "key": "travel_direction_5",
+            "source_lines": [
+              5,
+              5
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 5,
+              "line_end": 5,
+              "byte_start": 50,
+              "byte_end": 759,
+              "source_quote": "出行出国，一般以日干落宫为出行之人，看去什么方向，这个方向如果有吉格吉门来生日干落宫，则为顺利；如果无吉门吉格，但该方向地盘宫与日干落宫比和，也为顺利。如果日干落宫得吉门吉格，克所往方向之宫，也可出行。如果出行之方得吉门吉格，但克日干落宫，虽勉强可行，但必不顺。如果所往之方遇凶门凶格，又来冲克日干落宫，则大凶。如果所往之方为时干空亡之地或为日干之墓地，则不利。如果日干或年命刑、墓、空亡出行方位之宫，也为不利。同时，也可兼看日干与时干的关系，以便帮助判断出行的利弊吉凶。\n"
+            },
+            "source_quote": "出行出国，一般以日干落宫为出行之人，看去什么方向，这个方向如果有吉格吉门来生日干落宫，则为顺利；如果无吉门吉格，但该方向地盘宫与日干落宫比和，也为顺利。如果日干落宫得吉门吉格，克所往方向之宫，也可出行。如果出行之方得吉门吉格，但克日干落宫，虽勉强可行，但必不顺。如果所往之方遇凶门凶格，又来冲克日干落宫，则大凶。如果所往之方为时干空亡之地或为日干之墓地，则不利。如果日干或年命刑、墓、空亡出行方位之宫，也为不利。同时，也可兼看日干与时干的关系，以便帮助判断出行的利弊吉凶。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "travel_car",
+      "title": "凡出行乘车，以景门所临之宫为道路，以伤门为车。遇白入荧凶格易遭盗贼，逢荧入白凶格则可能碰上火灾，临天蓬、玄武可能被盗或丢",
+      "category": "role",
+      "line_start": 7,
+      "line_end": 8,
+      "attribution": "原书叙述；例二张粤、例三杜新会、例四杜新会与张粤，其他原书第一人称",
+      "summary": "完整原文语境；一般方法与案例特例隔离，未自动编译",
+      "concepts": [
+        "伤门",
+        "景门"
+      ],
+      "dataset": {
+        "key": "travel_car_reference",
+        "rows": [
+          {
+            "key": "travel_car_7",
+            "source_lines": [
+              7,
+              7
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 7,
+              "line_end": 7,
+              "byte_start": 760,
+              "byte_end": 953,
+              "source_quote": "凡出行乘车，以景门所临之宫为道路，以伤门为车。遇白入荧凶格易遭盗贼，逢荧入白凶格则可能碰上火灾，临天蓬、玄武可能被盗或丢失钱物。\n"
+            },
+            "source_quote": "凡出行乘车，以景门所临之宫为道路，以伤门为车。遇白入荧凶格易遭盗贼，逢荧入白凶格则可能碰上火灾，临天蓬、玄武可能被盗或丢失钱物。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "travel_boat",
+      "title": "凡出行乘船，以休门所落之宫为水路，以伤门为船只。如果遇青龙逃走或白虎猖狂凶格，可能遭遇风暴；如果碰上雀投江、蛇夭矫凶格，",
+      "category": "role",
+      "line_start": 9,
+      "line_end": 10,
+      "attribution": "原书叙述；例二张粤、例三杜新会、例四杜新会与张粤，其他原书第一人称",
+      "summary": "完整原文语境；一般方法与案例特例隔离，未自动编译",
+      "concepts": [
+        "伤门",
+        "休门"
+      ],
+      "dataset": {
+        "key": "travel_boat_reference",
+        "rows": [
+          {
+            "key": "travel_boat_9",
+            "source_lines": [
+              9,
+              9
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 9,
+              "line_end": 9,
+              "byte_start": 954,
+              "byte_end": 1165,
+              "source_quote": "凡出行乘船，以休门所落之宫为水路，以伤门为船只。如果遇青龙逃走或白虎猖狂凶格，可能遭遇风暴；如果碰上雀投江、蛇夭矫凶格，则可能有沉船的危险。\n"
+            },
+            "source_quote": "凡出行乘船，以休门所落之宫为水路，以伤门为船只。如果遇青龙逃走或白虎猖狂凶格，可能遭遇风暴；如果碰上雀投江、蛇夭矫凶格，则可能有沉船的危险。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "travel_air",
+      "title": "如果坐飞机出行，可以九天所临之宫为航线，以开门为飞机，看其临宫状态、格局如何，以定其利弊吉凶。",
+      "category": "role",
+      "line_start": 11,
+      "line_end": 12,
+      "attribution": "原书叙述；例二张粤、例三杜新会、例四杜新会与张粤，其他原书第一人称",
+      "summary": "完整原文语境；一般方法与案例特例隔离，未自动编译",
+      "concepts": [
+        "九天",
+        "开门"
+      ],
+      "dataset": {
+        "key": "travel_air_reference",
+        "rows": [
+          {
+            "key": "travel_air_11",
+            "source_lines": [
+              11,
+              11
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 11,
+              "line_end": 11,
+              "byte_start": 1166,
+              "byte_end": 1308,
+              "source_quote": "如果坐飞机出行，可以九天所临之宫为航线，以开门为飞机，看其临宫状态、格局如何，以定其利弊吉凶。\n"
+            },
+            "source_quote": "如果坐飞机出行，可以九天所临之宫为航线，以开门为飞机，看其临宫状态、格局如何，以定其利弊吉凶。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "travel_departure",
+      "title": "凡预测出发时间，一般先看日干和时干，如果日干和时干均在内盘，则行期近；如果日干和时干俱在外盘则行期远；日干和时干一内一外",
+      "category": "timing",
+      "line_start": 13,
+      "line_end": 14,
+      "attribution": "原书叙述；例二张粤、例三杜新会、例四杜新会与张粤，其他原书第一人称",
+      "summary": "完整原文语境；一般方法与案例特例隔离，未自动编译",
+      "concepts": [
+        "日干",
+        "时干",
+        "开门",
+        "出发时间"
+      ],
+      "dataset": {
+        "key": "travel_departure_reference",
+        "rows": [
+          {
+            "key": "travel_departure_13",
+            "source_lines": [
+              13,
+              13
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 13,
+              "line_end": 13,
+              "byte_start": 1309,
+              "byte_end": 1574,
+              "source_quote": "凡预测出发时间，一般先看日干和时干，如果日干和时干均在内盘，则行期近；如果日干和时干俱在外盘则行期远；日干和时干一内一外，也主行期远。一般以开门落宫地盘所临之干为具体出发时间。\n"
+            },
+            "source_quote": "凡预测出发时间，一般先看日干和时干，如果日干和时干均在内盘，则行期近；如果日干和时干俱在外盘则行期远；日干和时干一内一外，也主行期远。一般以开门落宫地盘所临之干为具体出发时间。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "travel_return_before_departure",
+      "title": "未动身时预测外出归来之期，一般以出门之日的日干落宫下临地盘之干为归来日期。",
+      "category": "timing",
+      "line_start": 15,
+      "line_end": 16,
+      "attribution": "原书叙述；例二张粤、例三杜新会、例四杜新会与张粤，其他原书第一人称",
+      "summary": "完整原文语境；一般方法与案例特例隔离，未自动编译",
+      "concepts": [
+        "日干"
+      ],
+      "dataset": {
+        "key": "travel_return_before_departure_reference",
+        "rows": [
+          {
+            "key": "travel_return_before_departure_15",
+            "source_lines": [
+              15,
+              15
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 15,
+              "line_end": 15,
+              "byte_start": 1575,
+              "byte_end": 1687,
+              "source_quote": "未动身时预测外出归来之期，一般以出门之日的日干落宫下临地盘之干为归来日期。\n"
+            },
+            "source_quote": "未动身时预测外出归来之期，一般以出门之日的日干落宫下临地盘之干为归来日期。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "travel_traveler_safety",
+      "title": "预测行人在外吉凶，一般以用神及其年命落宫所临星、门、宫、神及其格局好坏旺衰来判断。",
+      "category": "analysis",
+      "line_start": 17,
+      "line_end": 18,
+      "attribution": "原书叙述；例二张粤、例三杜新会、例四杜新会与张粤，其他原书第一人称",
+      "summary": "完整原文语境；一般方法与案例特例隔离，未自动编译",
+      "concepts": [
+        "年命"
+      ],
+      "dataset": {
+        "key": "travel_traveler_safety_reference",
+        "rows": [
+          {
+            "key": "travel_traveler_safety_17",
+            "source_lines": [
+              17,
+              17
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 17,
+              "line_end": 17,
+              "byte_start": 1688,
+              "byte_end": 1812,
+              "source_quote": "预测行人在外吉凶，一般以用神及其年命落宫所临星、门、宫、神及其格局好坏旺衰来判断。\n"
+            },
+            "source_quote": "预测行人在外吉凶，一般以用神及其年命落宫所临星、门、宫、神及其格局好坏旺衰来判断。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "travel_traveler_return",
+      "title": "预测行人归期，一般以庚格来判断。阴日以庚上之干为归期，阳日以庚下之干为归期。逢年格，年内必归；逢月格，月内归来；逢日格，",
+      "category": "timing",
+      "line_start": 19,
+      "line_end": 20,
+      "attribution": "原书叙述；例二张粤、例三杜新会、例四杜新会与张粤，其他原书第一人称",
+      "summary": "完整原文语境；一般方法与案例特例隔离，未自动编译",
+      "concepts": [
+        "时干",
+        "庚格",
+        "归期"
+      ],
+      "dataset": {
+        "key": "travel_traveler_return_reference",
+        "rows": [
+          {
+            "key": "travel_traveler_return_19",
+            "source_lines": [
+              19,
+              19
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 19,
+              "line_end": 19,
+              "byte_start": 1813,
+              "byte_end": 2558,
+              "source_quote": "预测行人归期，一般以庚格来判断。阴日以庚上之干为归期，阳日以庚下之干为归期。逢年格，年内必归；逢月格，月内归来；逢日格，当日即回；逢时格，本时辰内即归。不逢格，则不归。何谓不格？乙庚合，不为格；庚金入墓或空亡，不为格。古人经验，又有以天蓬、天芮二星为代表行人的，行人在千里之外以天蓬星为用神，行人在千里之内以天芮星为用神，如果时干临天蓬或天芮，则可归来，时干就是归期；伏吟不来，反吟来；如果用神临三奇和三吉门，三奇六仪又正好是行人的年干，则马上可以回来；如果凶星凶门临行人年干，必有妨碍不能回来。\n"
+            },
+            "source_quote": "预测行人归期，一般以庚格来判断。阴日以庚上之干为归期，阳日以庚下之干为归期。逢年格，年内必归；逢月格，月内归来；逢日格，当日即回；逢时格，本时辰内即归。不逢格，则不归。何谓不格？乙庚合，不为格；庚金入墓或空亡，不为格。古人经验，又有以天蓬、天芮二星为代表行人的，行人在千里之外以天蓬星为用神，行人在千里之内以天芮星为用神，如果时干临天蓬或天芮，则可归来，时干就是归期；伏吟不来，反吟来；如果用神临三奇和三吉门，三奇六仪又正好是行人的年干，则马上可以回来；如果凶星凶门临行人年干，必有妨碍不能回来。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "travel_cases_heading",
+      "title": "第二节 实例解析（6例）",
+      "category": "commentary",
+      "line_start": 21,
+      "line_end": 22,
+      "attribution": "原书叙述；例二张粤、例三杜新会、例四杜新会与张粤，其他原书第一人称",
+      "summary": "完整原文语境；一般方法与案例特例隔离，未自动编译",
+      "concepts": [],
+      "dataset": {
+        "key": "travel_cases_heading_reference",
+        "rows": [
+          {
+            "key": "travel_cases_heading_21",
+            "source_lines": [
+              21,
+              21
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 21,
+              "line_end": 21,
+              "byte_start": 2559,
+              "byte_end": 2592,
+              "source_quote": "第二节 实例解析（6例）\n"
+            },
+            "source_quote": "第二节 实例解析（6例）\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "travel_case_1",
+      "title": "实例一：测坐飞机安全否",
+      "category": "analysis",
+      "line_start": 23,
+      "line_end": 55,
+      "attribution": "原书叙述；例二张粤、例三杜新会、例四杜新会与张粤，其他原书第一人称",
+      "summary": "完整原文语境；一般方法与案例特例隔离，未自动编译",
+      "concepts": [
+        "九天",
+        "开门",
+        "休门"
+      ],
+      "dataset": {
+        "key": "travel_case_1_reference",
+        "rows": [
+          {
+            "key": "travel_case_1_48",
+            "source_lines": [
+              48,
+              48
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 48,
+              "line_end": 48,
+              "byte_start": 4971,
+              "byte_end": 5124,
+              "source_quote": "（1）弟媳测兄，以月干为用神。今月干己落坎1宫，正是其兄所来的方向，上乘六合吉神，临休门吉门，途中安全。\n"
+            },
+            "source_quote": "（1）弟媳测兄，以月干为用神。今月干己落坎1宫，正是其兄所来的方向，上乘六合吉神，临休门吉门，途中安全。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "travel_case_1_50",
+            "source_lines": [
+              50,
+              50
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 50,
+              "line_end": 50,
+              "byte_start": 5125,
+              "byte_end": 5581,
+              "source_quote": "（2）从湛江飞往北京，为由南到北，所以应该看离9宫和坎1宫，今星、门伏吟，均在本宫不动，天气正常；离9宫上乘九天吉神，九天之上好扬兵，正是坐飞机之象；又开门为飞机，生月干己，坎1宫上乘六合吉神，也主顺利。甲申旬中午未空，飞机起飞后，很快进入填实之午时，正值九天吉神，未时上乘值符，也为吉神，故断乘飞机安全顺利。\n"
+            },
+            "source_quote": "（2）从湛江飞往北京，为由南到北，所以应该看离9宫和坎1宫，今星、门伏吟，均在本宫不动，天气正常；离9宫上乘九天吉神，九天之上好扬兵，正是坐飞机之象；又开门为飞机，生月干己，坎1宫上乘六合吉神，也主顺利。甲申旬中午未空，飞机起飞后，很快进入填实之午时，正值九天吉神，未时上乘值符，也为吉神，故断乘飞机安全顺利。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "travel_case_2",
+      "title": "实例二：测出行吉凶",
+      "category": "analysis",
+      "line_start": 56,
+      "line_end": 90,
+      "attribution": "原书叙述；例二张粤、例三杜新会、例四杜新会与张粤，其他原书第一人称",
+      "summary": "完整原文语境；一般方法与案例特例隔离，未自动编译",
+      "concepts": [
+        "日干",
+        "时干",
+        "开门",
+        "伤门",
+        "景门",
+        "休门"
+      ],
+      "dataset": {
+        "key": "travel_case_2_reference",
+        "rows": [
+          {
+            "key": "travel_case_2_79",
+            "source_lines": [
+              79,
+              79
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 79,
+              "line_end": 79,
+              "byte_start": 7919,
+              "byte_end": 8156,
+              "source_quote": "（1）以日干乙为出行之人，落坤2宫，为入墓、空亡之地，虽乙+丁为奇仪相佐吉格，但乙+辛为龙逃走凶格。时干丙落艮8宫，八门反吟，时干临死门、天蓬凶星，与日干对冲，凶。\n"
+            },
+            "source_quote": "（1）以日干乙为出行之人，落坤2宫，为入墓、空亡之地，虽乙+丁为奇仪相佐吉格，但乙+辛为龙逃走凶格。时干丙落艮8宫，八门反吟，时干临死门、天蓬凶星，与日干对冲，凶。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "travel_case_2_81",
+            "source_lines": [
+              81,
+              81
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 81,
+              "line_end": 81,
+              "byte_start": 8157,
+              "byte_end": 8426,
+              "source_quote": "（2）所去南方为离9宫，壬+乙为小蛇得势，女子温柔，男子嗟呀；上临休门为水，休+离，门克宫，音信不至，反招口舌、小凶，行人分散之象；上乘白虎，主道路上有阻隔、凶险；离宫亦逢空亡，不吉。\n"
+            },
+            "source_quote": "（2）所去南方为离9宫，壬+乙为小蛇得势，女子温柔，男子嗟呀；上临休门为水，休+离，门克宫，音信不至，反招口舌、小凶，行人分散之象；上乘白虎，主道路上有阻隔、凶险；离宫亦逢空亡，不吉。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "travel_case_2_83",
+            "source_lines": [
+              83,
+              83
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 83,
+              "line_end": 83,
+              "byte_start": 8427,
+              "byte_end": 8593,
+              "source_quote": "（3）又甲子戊为资本，落震3宫，六仪击刑，戊+癸为青龙华盖，门吉招福、门凶多破败，今上乘凶门惊门，故也是破财之象。\n"
+            },
+            "source_quote": "（3）又甲子戊为资本，落震3宫，六仪击刑，戊+癸为青龙华盖，门吉招福、门凶多破败，今上乘凶门惊门，故也是破财之象。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "travel_case_2_85",
+            "source_lines": [
+              85,
+              85
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 85,
+              "line_end": 85,
+              "byte_start": 8594,
+              "byte_end": 8930,
+              "source_quote": "（4）凡出行乘车，以景门所临之宫为道路，伤门为车马。今景门落坎1宫，火入水乡，互相冲克；庚+丙为太白入荧，主遭盗贼，幸上乘值符，性命无虞。伤门为车，落兑七宫，金克木，宫克门，卯酉相冲；辛+己为入狱自刑，丁+己为火入勾陈，均为凶格。\n"
+            },
+            "source_quote": "（4）凡出行乘车，以景门所临之宫为道路，伤门为车马。今景门落坎1宫，火入水乡，互相冲克；庚+丙为太白入荧，主遭盗贼，幸上乘值符，性命无虞。伤门为车，落兑七宫，金克木，宫克门，卯酉相冲；辛+己为入狱自刑，丁+己为火入勾陈，均为凶格。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "travel_case_3",
+      "title": "实例三：测出行安全",
+      "category": "analysis",
+      "line_start": 91,
+      "line_end": 147,
+      "attribution": "原书叙述；例二张粤、例三杜新会、例四杜新会与张粤，其他原书第一人称",
+      "summary": "完整原文语境；一般方法与案例特例隔离，未自动编译",
+      "concepts": [
+        "九天",
+        "开门",
+        "伤门",
+        "景门"
+      ],
+      "dataset": {
+        "key": "travel_case_3_reference",
+        "rows": [
+          {
+            "key": "travel_case_3_114",
+            "source_lines": [
+              114,
+              114
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 114,
+              "line_end": 114,
+              "byte_start": 11366,
+              "byte_end": 11774,
+              "source_quote": "（1）测战友以月干为用神，兼看出行方向。月干己为战友，落艮8宫，秦皇岛正位于石家庄东北方，上乘六合，出行平安，并有同行人。但是，临杜门，克艮宫，途中有不吉之事；杜门加生门，主男人破财，又临天蓬凶星，宫克星，远行也主破财；己加乙为墓神不明，地户逢星，宜遁迹隐形为利，不宜出行。\n"
+            },
+            "source_quote": "（1）测战友以月干为用神，兼看出行方向。月干己为战友，落艮8宫，秦皇岛正位于石家庄东北方，上乘六合，出行平安，并有同行人。但是，临杜门，克艮宫，途中有不吉之事；杜门加生门，主男人破财，又临天蓬凶星，宫克星，远行也主破财；己加乙为墓神不明，地户逢星，宜遁迹隐形为利，不宜出行。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "travel_case_3_116",
+            "source_lines": [
+              116,
+              116
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 116,
+              "line_end": 116,
+              "byte_start": 11775,
+              "byte_end": 12003,
+              "source_quote": "（2）又坐车出行，以景门为道路，以伤门为车。今景门在震3宫，上乘白虎，不吉；伤门落坎一宫，逢天心星，汽车应为白色，出行人艮宫克坎宫，人克车，车难免出事故。\n"
+            },
+            "source_quote": "（2）又坐车出行，以景门为道路，以伤门为车。今景门在震3宫，上乘白虎，不吉；伤门落坎一宫，逢天心星，汽车应为白色，出行人艮宫克坎宫，人克车，车难免出事故。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "travel_case_3_118",
+            "source_lines": [
+              118,
+              118
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 118,
+              "line_end": 118,
+              "byte_start": 12004,
+              "byte_end": 12302,
+              "source_quote": "（3）坤2宫与艮8宫为反吟之宫，所以返途（从秦皇岛回石家庄）看坤宫，戊加庚为飞宫凶格，庚为白虎，返途遇庚，主事故，开门加庚也主道路词讼、事故之象。又甲申旬中午、未空，坤宫正逢空亡之地，出空恐有事故发生。\n"
+            },
+            "source_quote": "（3）坤2宫与艮8宫为反吟之宫，所以返途（从秦皇岛回石家庄）看坤宫，戊加庚为飞宫凶格，庚为白虎，返途遇庚，主事故，开门加庚也主道路词讼、事故之象。又甲申旬中午、未空，坤宫正逢空亡之地，出空恐有事故发生。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "travel_case_3_120",
+            "source_lines": [
+              120,
+              120
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 120,
+              "line_end": 120,
+              "byte_start": 12303,
+              "byte_end": 12626,
+              "source_quote": "（4）死门落巽4宫，白虎落震3宫，两宫皆克坤2宫，死门、白虎主伤灾，今克返途之宫，故而返途之中可能出事故。又坤宫上乘九天，主车，也主远途，在外盘主外地，九天在物品主圆状物，按九宫格断，坤为右肩，为汽车右侧轮胎可能有损坏。\n"
+            },
+            "source_quote": "（4）死门落巽4宫，白虎落震3宫，两宫皆克坤2宫，死门、白虎主伤灾，今克返途之宫，故而返途之中可能出事故。又坤宫上乘九天，主车，也主远途，在外盘主外地，九天在物品主圆状物，按九宫格断，坤为右肩，为汽车右侧轮胎可能有损坏。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "travel_case_3_122",
+            "source_lines": [
+              122,
+              122
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 122,
+              "line_end": 122,
+              "byte_start": 12627,
+              "byte_end": 12683,
+              "source_quote": "（5）事故应期，出空之日，当在己未日。\n"
+            },
+            "source_quote": "（5）事故应期，出空之日，当在己未日。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "travel_case_4",
+      "title": "实例四：测出国",
+      "category": "analysis",
+      "line_start": 148,
+      "line_end": 246,
+      "attribution": "原书叙述；例二张粤、例三杜新会、例四杜新会与张粤，其他原书第一人称",
+      "summary": "完整原文语境；一般方法与案例特例隔离，未自动编译",
+      "concepts": [
+        "日干",
+        "时干",
+        "九天",
+        "开门",
+        "景门",
+        "休门"
+      ],
+      "dataset": {
+        "key": "travel_case_4_reference",
+        "rows": [
+          {
+            "key": "travel_case_4_173",
+            "source_lines": [
+              173,
+              173
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 173,
+              "line_end": 173,
+              "byte_start": 16676,
+              "byte_end": 17083,
+              "source_quote": "（1）以日干乙为求测之人，时干癸为所问之事。今二者同落离9宫，临景门，寅月木生火，旺相，景、离均主文书，故断她为大学生，在文化部门工作。上乘九天，坐飞机远行之象，乙+辛龙逃走，正应出国之事。但癸+辛为网盖天牢，出国后不会顺利。开门主工作，落乾宫伏吟，与日干落宫相克，也主不顺。\n"
+            },
+            "source_quote": "（1）以日干乙为求测之人，时干癸为所问之事。今二者同落离9宫，临景门，寅月木生火，旺相，景、离均主文书，故断她为大学生，在文化部门工作。上乘九天，坐飞机远行之象，乙+辛龙逃走，正应出国之事。但癸+辛为网盖天牢，出国后不会顺利。开门主工作，落乾宫伏吟，与日干落宫相克，也主不顺。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "travel_case_4_175",
+            "source_lines": [
+              175,
+              175
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 175,
+              "line_end": 175,
+              "byte_start": 17084,
+              "byte_end": 17297,
+              "source_quote": "（2）意大利在石家庄西北方向，出行看所去方位与日干的联系，今日干旺相克乾宫，乾宫逢开门，壬+戊小蛇化龙吉格，又上乘太阴吉神，所以断出行安全顺利。\n"
+            },
+            "source_quote": "（2）意大利在石家庄西北方向，出行看所去方位与日干的联系，今日干旺相克乾宫，乾宫逢开门，壬+戊小蛇化龙吉格，又上乘太阴吉神，所以断出行安全顺利。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "travel_case_4_185",
+            "source_lines": [
+              185,
+              185
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 185,
+              "line_end": 185,
+              "byte_start": 17561,
+              "byte_end": 17763,
+              "source_quote": "（3）天盘乙落9宫，天盘庚落1宫，水克火，坎为中男，到农历六月未土当令，乙奇入墓，土克坎水。据此，杜新会断她到农历六月会同一中年男子分手。\n"
+            },
+            "source_quote": "（3）天盘乙落9宫，天盘庚落1宫，水克火，坎为中男，到农历六月未土当令，乙奇入墓，土克坎水。据此，杜新会断她到农历六月会同一中年男子分手。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "travel_case_4_203",
+            "source_lines": [
+              203,
+              203
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 203,
+              "line_end": 203,
+              "byte_start": 18677,
+              "byte_end": 18895,
+              "source_quote": "（1）天芮病神临日干乙、时干癸在离宫，为头上，在外盘，主头面上生疮，长疙瘩，癸主妇科病，又庚落坎宫，庚下临壬，也主妇科病。据此，杜新会在电话中说：\n"
+            },
+            "source_quote": "（1）天芮病神临日干乙、时干癸在离宫，为头上，在外盘，主头面上生疮，长疙瘩，癸主妇科病，又庚落坎宫，庚下临壬，也主妇科病。据此，杜新会在电话中说：\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "travel_case_4_213",
+            "source_lines": [
+              213,
+              213
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 213,
+              "line_end": 213,
+              "byte_start": 19135,
+              "byte_end": 19305,
+              "source_quote": "（2）年干乙为父，居离宫，景门伏吟，景门主血，又主血的道路，临病神，格局又凶，必是脑血液循环受阻，脑血栓之类病状。\n"
+            },
+            "source_quote": "（2）年干乙为父，居离宫，景门伏吟，景门主血，又主血的道路，临病神，格局又凶，必是脑血液循环受阻，脑血栓之类病状。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "travel_case_4_223",
+            "source_lines": [
+              223,
+              223
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 223,
+              "line_end": 223,
+              "byte_start": 19548,
+              "byte_end": 19800,
+              "source_quote": "（3）离宫中年干乙与时干癸同宫，癸为事为用神，地盘癸上临之干为应期。癸在地盘坤宫，为外，为四维，主时间长，所以按年断，上临己，应为己巳年（1989年）。上乘值符，不会太厉害。\n"
+            },
+            "source_quote": "（3）离宫中年干乙与时干癸同宫，癸为事为用神，地盘癸上临之干为应期。癸在地盘坤宫，为外，为四维，主时间长，所以按年断，上临己，应为己巳年（1989年）。上乘值符，不会太厉害。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "travel_case_4_231",
+            "source_lines": [
+              231,
+              231
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 231,
+              "line_end": 231,
+              "byte_start": 19970,
+              "byte_end": 20145,
+              "source_quote": "（4）庚为病凶，在坎宫与离宫对冲，克年干乙离宫，庚+壬为小格，大凶，庚下临壬为应期，故断庚午（1990年）年壬午月（五月）。\n"
+            },
+            "source_quote": "（4）庚为病凶，在坎宫与离宫对冲，克年干乙离宫，庚+壬为小格，大凶，庚下临壬为应期，故断庚午（1990年）年壬午月（五月）。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "travel_case_4_239",
+            "source_lines": [
+              239,
+              239
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 239,
+              "line_end": 239,
+              "byte_start": 20333,
+              "byte_end": 20548,
+              "source_quote": "（5）乙为父，乙庚合，庚为其妻，即可看作郭女士之母亲。庚落坎宫，庚下临壬，壬主泌尿生殖系统，休门伏吟，格局凶，故郭女士之母必也有比较重的妇科病。\n"
+            },
+            "source_quote": "（5）乙为父，乙庚合，庚为其妻，即可看作郭女士之母亲。庚落坎宫，庚下临壬，壬主泌尿生殖系统，休门伏吟，格局凶，故郭女士之母必也有比较重的妇科病。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "travel_case_5",
+      "title": "实例五：测外出旅游",
+      "category": "analysis",
+      "line_start": 247,
+      "line_end": 283,
+      "attribution": "原书叙述；例二张粤、例三杜新会、例四杜新会与张粤，其他原书第一人称",
+      "summary": "完整原文语境；一般方法与案例特例隔离，未自动编译",
+      "concepts": [
+        "日干",
+        "时干",
+        "开门",
+        "伤门",
+        "景门"
+      ],
+      "dataset": {
+        "key": "travel_case_5_reference",
+        "rows": [
+          {
+            "key": "travel_case_5_272",
+            "source_lines": [
+              272,
+              272
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 272,
+              "line_end": 272,
+              "byte_start": 23183,
+              "byte_end": 23447,
+              "source_quote": "（1）日干戊，戊癸合，以癸代表其妻，今癸落巽4宫临天芮凶星、死门凶门，癸+辛网盖天牢凶格，甲寅癸落4宫又为六仪击刑；庚+辛为白虎干格凶格，不宜出行，远行车折马伤。幸上乘值符至吉之神。\n"
+            },
+            "source_quote": "（1）日干戊，戊癸合，以癸代表其妻，今癸落巽4宫临天芮凶星、死门凶门，癸+辛网盖天牢凶格，甲寅癸落4宫又为六仪击刑；庚+辛为白虎干格凶格，不宜出行，远行车折马伤。幸上乘值符至吉之神。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "travel_case_5_274",
+            "source_lines": [
+              274,
+              274
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 274,
+              "line_end": 274,
+              "byte_start": 23448,
+              "byte_end": 23744,
+              "source_quote": "（2）龙凤湖在石家庄西南方向，坤2宫逢开门、九地，天心吉星，但己+癸为地刑玄武凶格，不吉，己+庚为刑格返名凶格，不吉。虽然用神癸落宫克所去方向之宫，但未月坤宫当令，木难以克土，况未为癸之墓地，去之不吉。\n"
+            },
+            "source_quote": "（2）龙凤湖在石家庄西南方向，坤2宫逢开门、九地，天心吉星，但己+癸为地刑玄武凶格，不吉，己+庚为刑格返名凶格，不吉。虽然用神癸落宫克所去方向之宫，但未月坤宫当令，木难以克土，况未为癸之墓地，去之不吉。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "travel_case_5_276",
+            "source_lines": [
+              276,
+              276
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 276,
+              "line_end": 276,
+              "byte_start": 23745,
+              "byte_end": 23942,
+              "source_quote": "（3）乘车前去旅游，以景门为道路，以伤门为车。今景门在震3宫，上乘螣蛇主变化，丙+壬为火入天罗凶格，为客不利。伤门在坎1宫逢空亡，不吉。\n"
+            },
+            "source_quote": "（3）乘车前去旅游，以景门为道路，以伤门为车。今景门在震3宫，上乘螣蛇主变化，丙+壬为火入天罗凶格，为客不利。伤门在坎1宫逢空亡，不吉。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "travel_case_5_278",
+            "source_lines": [
+              278,
+              278
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 278,
+              "line_end": 278,
+              "byte_start": 23943,
+              "byte_end": 24073,
+              "source_quote": "（4）又时干主事体，今时干辛落艮8宫，逢杜门，闭塞不通，辛+乙为虎猖狂凶格，同时又临空亡。\n"
+            },
+            "source_quote": "（4）又时干主事体，今时干辛落艮8宫，逢杜门，闭塞不通，辛+乙为虎猖狂凶格，同时又临空亡。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "travel_case_6",
+      "title": "实例六：测出国考察",
+      "category": "analysis",
+      "line_start": 284,
+      "line_end": 350,
+      "attribution": "原书叙述；例二张粤、例三杜新会、例四杜新会与张粤，其他原书第一人称",
+      "summary": "完整原文语境；一般方法与案例特例隔离，未自动编译",
+      "concepts": [
+        "日干",
+        "时干",
+        "九天",
+        "开门",
+        "休门",
+        "出发时间"
+      ],
+      "dataset": {
+        "key": "travel_case_6_reference",
+        "rows": [
+          {
+            "key": "travel_case_6_309",
+            "source_lines": [
+              309,
+              309
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 309,
+              "line_end": 309,
+              "byte_start": 26626,
+              "byte_end": 26791,
+              "source_quote": "（1）日干己为求测之人，落兑7宫，为长生之位，下临乙奇，逢休门，上乘值符吉神，又临天禽吉星。但同时又临天芮病星。\n"
+            },
+            "source_quote": "（1）日干己为求测之人，落兑7宫，为长生之位，下临乙奇，逢休门，上乘值符吉神，又临天禽吉星。但同时又临天芮病星。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "travel_case_6_311",
+            "source_lines": [
+              311,
+              311
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 311,
+              "line_end": 311,
+              "byte_start": 26792,
+              "byte_end": 26996,
+              "source_quote": "（2）德国在深圳西北方位，时干乙奇也落西北乾宫，虽为墓地，乙+戊利阴害阳，但临生门吉门，九天吉神。日干与时干，所去方向比和，出行顺利安全。\n"
+            },
+            "source_quote": "（2）德国在深圳西北方位，时干乙奇也落西北乾宫，虽为墓地，乙+戊利阴害阳，但临生门吉门，九天吉神。日干与时干，所去方向比和，出行顺利安全。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "travel_case_6_313",
+            "source_lines": [
+              313,
+              313
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 313,
+              "line_end": 313,
+              "byte_start": 26997,
+              "byte_end": 27180,
+              "source_quote": "（3）古人经验，开门下临地盘之干为出发日期。今开门在坤2宫，下临地盘之干为壬，即壬日出发。6月24日为拟定出发日期，正是壬辰日。\n"
+            },
+            "source_quote": "（3）古人经验，开门下临地盘之干为出发日期。今开门在坤2宫，下临地盘之干为壬，即壬日出发。6月24日为拟定出发日期，正是壬辰日。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "travel_case_6_340",
+            "source_lines": [
+              340,
+              340
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 340,
+              "line_end": 340,
+              "byte_start": 29379,
+              "byte_end": 29456,
+              "source_quote": "（1）时干戊克日干壬，为五不遇时。用事遇此时辰不吉。\n"
+            },
+            "source_quote": "（1）时干戊克日干壬，为五不遇时。用事遇此时辰不吉。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "travel_case_6_342",
+            "source_lines": [
+              342,
+              342
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 342,
+              "line_end": 342,
+              "byte_start": 29457,
+              "byte_end": 29657,
+              "source_quote": "（2）日干壬落乾6宫，正是所往之方位。壬+戊小蛇化龙吉格，又上乘值符吉神；但日干壬临天芮病星，又临惊门凶门，己+戊为犬遇青龙，门凶事不吉。\n"
+            },
+            "source_quote": "（2）日干壬落乾6宫，正是所往之方位。壬+戊小蛇化龙吉格，又上乘值符吉神；但日干壬临天芮病星，又临惊门凶门，己+戊为犬遇青龙，门凶事不吉。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "travel_case_6_344",
+            "source_lines": [
+              344,
+              344
+            ],
+            "source_pointer": {
+              "source_sha256": "c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55",
+              "line_start": 344,
+              "line_end": 344,
+              "byte_start": 29658,
+              "byte_end": 29967,
+              "source_quote": "（3）又出行乘飞机，以九天为航线，开门为飞机。今九天、开门均落坎1宫，与日干宫相生；但临天柱凶星，乙+癸为华盖逢星，退吉进凶。又地盘日干壬在坤2宫，上临庚，庚为阻隔之神，庚+壬为上格，远行道路失迷，男女音信难通。\n"
+            },
+            "source_quote": "（3）又出行乘飞机，以九天为航线，开门为飞机。今九天、开门均落坎1宫，与日干宫相生；但临天柱凶星，乙+癸为华盖逢星，退吉进凶。又地盘日干壬在坤2宫，上临庚，庚为阻隔之神，庚+壬为上格，远行道路失迷，男女音信难通。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    }
+  ],
+  "quality_issues": [],
+  "worked_examples": []
+}
