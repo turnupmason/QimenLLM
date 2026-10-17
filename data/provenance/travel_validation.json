@@ -126,8 +126,43 @@
   "api_original_charts": 7,
   "cli_cases": 6,
   "github_sync": {
-    "status": "pending",
-    "reason": "Await actual remote commit and CI verification"
+    "status": "synced",
+    "repository": "turnupmason/QimenLLM",
+    "content_commit": "1a5153325ba6221db8c41cb97f25d4a457f3887a",
+    "transport": "connected_github_git_data_api",
+    "remote_main_verified": true,
+    "ci": {
+      "run_id": 39071724067,
+      "url": "https://github.com/turnupmason/QimenLLM/actions/runs/39071724067",
+      "head_sha": "1a5153325ba6221db8c41cb97f25d4a457f3887a",
+      "jobs": [
+        {
+          "id": 117510549510,
+          "name": "stdlib-tests (macos-latest, 3.12)",
+          "conclusion": "success"
+        },
+        {
+          "id": 117510549604,
+          "name": "stdlib-tests (ubuntu-latest, 3.11)",
+          "conclusion": "success"
+        },
+        {
+          "id": 117510549618,
+          "name": "stdlib-tests (ubuntu-latest, 3.12)",
+          "conclusion": "success"
+        },
+        {
+          "id": 117510549730,
+          "name": "stdlib-tests (macos-latest, 3.11)",
+          "conclusion": "success"
+        }
+      ],
+      "ubuntu_python312_log_summary": [
+        "2026-10-17T21:38:23.5506106Z Ran 275 tests in 48.966s",
+        "2026-10-17T21:38:23.5507254Z OK"
+      ]
+    },
+    "snapshot_manifest_sha256": "6ec09b9999585b26454b0b8f9f02c3eb3f40f5cf92af3f691bc5756be5d971d0"
   },
   "schema_migration": false,
   "workflow_added": false,

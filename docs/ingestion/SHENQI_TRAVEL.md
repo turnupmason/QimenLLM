@@ -32,3 +32,6 @@
 `.github/workflows/tests.yml`早在初始化提交 `78d5b9a4c27dd4ba66fed1b2e322785c75c64558` 已存在，作用是Ubuntu/macOS × Python3.11/3.12四环境常规回归，应该保留。
 
 上一章曾临时添加 `.github/workflows/business-ingest-staging.yml`，新增提交 `26f00618480f20f21987b9c431b439224e821632`，仅监听当时经营章节的工作分支与该文件路径，用于恢复旧快照、执行导入、全回归、导出并提交快照。它是当时借助Actions执行入库的一次性作业，不是每章资料入库必须另建的目录或文件；移除提交为 `23bac5e03f8dad08132a97bc2688be1d63d38a72`，当前main已无此文件。本轮仅保留原有tests.yml，不删除历史、不再添加一次性工作流。
+
+
+远端实际验收：内容提交 `1a5153325ba6221db8c41cb97f25d4a457f3887a` 已核对main一致；[Actions 39071724067](https://github.com/turnupmason/QimenLLM/actions/runs/39071724067) 的Ubuntu/macOS × Python3.11/3.12四job全部success。Ubuntu3.12日志实际Ran 275 tests / OK。原始字节、结构化文件和快照blob均按本地生成值核对；使用已连接GitHub Git Data接口非强制更新main，未新建workflow。此处记录已验收的内容提交；本验收文档后续提交本身仍按精确SHA另查CI，不用旧CI冒充新提交。

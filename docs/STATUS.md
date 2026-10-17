@@ -34,3 +34,6 @@
 ## 未完成
 
 独立公历/节气/四柱及全面排盘、空亡马星、完整寄宫泛化、正式用神激活、专业断案和应期、SFT/LoRA、公众Web及现实预测评估仍未完成。正式问事沿QimenService.ask阻断，未提前训练、未引入其他古籍。历史入库报告保留原验收事实。
+
+
+远端实际验收：内容提交 `1a5153325ba6221db8c41cb97f25d4a457f3887a` 已核对main一致；[Actions 39071724067](https://github.com/turnupmason/QimenLLM/actions/runs/39071724067) 的Ubuntu/macOS × Python3.11/3.12四job全部success。Ubuntu3.12日志实际Ran 275 tests / OK。原始字节、结构化文件和快照blob均按本地生成值核对；使用已连接GitHub Git Data接口非强制更新main，未新建workflow。此处记录已验收的内容提交；本验收文档后续提交本身仍按精确SHA另查CI，不用旧CI冒充新提交。
