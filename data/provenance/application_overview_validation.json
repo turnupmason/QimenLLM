@@ -1,0 +1,305 @@
+{
+  "date": "2026-10-17",
+  "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+  "data_version": "630f1a83-1eb4-4f52-80f3-50b5e8932f82",
+  "schema_version": 1,
+  "migration_required": false,
+  "commands": [
+    "PYTHONPATH=src python3 scripts/import_shenqi_application_overview.py --local-only",
+    "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+    "PYTHONPATH=src python3 -m qimenllm audit",
+    "PYTHONPATH=src python3 scripts/smoke_api.py --chapter01 --chapter02 --chapters0405 --application-overview",
+    "PYTHONPATH=src python3 -m qimenllm export-snapshot",
+    "PYTHONPATH=src python3 -m qimenllm --raw-dir artifacts/application-overview/restored-raw restore-snapshot data/snapshots/current artifacts/application-overview/restored.sqlite3",
+    "PYTHONPATH=src python3 -m qimenllm --db artifacts/application-overview/restored.sqlite3 --raw-dir artifacts/application-overview/restored-raw audit",
+    "python3 -m pip wheel --no-deps --no-build-isolation --no-index -w artifacts/application-overview/wheels .",
+    "python3 -m pip install --no-deps --no-index --target work/application-installed artifacts/application-overview/wheels/qimenllm-0.1.0-py3-none-any.whl"
+  ],
+  "unit_tests": {
+    "passed": 143,
+    "failed": 0,
+    "previous_regression_count": 112,
+    "new_test_count": 31,
+    "log_sha256": "751a459639d157f37e17fff4889935e6782e26751fbd377c6868816fc8c39b0c"
+  },
+  "conditional_gold": {
+    "selection_cases": 72,
+    "multi_method_groups": 2,
+    "partial_source_fact_records": 5,
+    "generated_from_tested_engine": false
+  },
+  "symbolic_checks": {
+    "inner_outer": 16,
+    "exact_chief_timing_examples": 9,
+    "calendar_prediction": false,
+    "satellite_given_symbol_comparison": "reported partial chief/star/door/deity/overlay positions agree under explicit chapter2 paper method; no independent calendar or outcome verification"
+  },
+  "replay": {
+    "source_duplicate": true,
+    "curation_added": 0,
+    "candidate_added": 0,
+    "case_rows_added": 0,
+    "versions_added": 0
+  },
+  "actual_database": {
+    "old_authoritative_rows_preserved": {
+      "data_versions": 13,
+      "books": 1,
+      "chapters": 4,
+      "raw_documents": 4,
+      "chapter_revisions": 4,
+      "source_reviews": 4,
+      "source_spans": 371,
+      "methods": 13,
+      "concepts": 1074,
+      "concept_links": 0,
+      "knowledge_items": 403,
+      "rules": 0,
+      "rule_conditions": 0,
+      "rule_disagreements": 0,
+      "event_families": 0,
+      "cases": 0,
+      "events": 0,
+      "case_events": 0,
+      "charts": 0,
+      "case_records": 0,
+      "evidence_links": 0,
+      "dataset_releases": 0,
+      "split_assignments": 0,
+      "training_tasks": 0,
+      "task_inputs": 0
+    },
+    "schema_unchanged": true,
+    "curated_source_pointer_checks": 189,
+    "counts": {
+      "data_versions": 19,
+      "books": 1,
+      "chapters": 5,
+      "raw_documents": 5,
+      "chapter_revisions": 5,
+      "source_reviews": 5,
+      "source_spans": 556,
+      "methods": 14,
+      "concepts": 1276,
+      "concept_links": 0,
+      "knowledge_items": 570,
+      "rules": 0,
+      "rule_conditions": 0,
+      "rule_disagreements": 0,
+      "event_families": 1,
+      "cases": 1,
+      "events": 1,
+      "case_events": 1,
+      "charts": 1,
+      "case_records": 10,
+      "evidence_links": 17,
+      "dataset_releases": 0,
+      "split_assignments": 0,
+      "training_tasks": 0,
+      "task_inputs": 0
+    },
+    "knowledge_kinds": {
+      "compiled_dataset": 39,
+      "context_group": 294,
+      "source_quality_issue": 160,
+      "source_selection_candidate": 61,
+      "worked_example": 16
+    },
+    "audit": {
+      "ok": true,
+      "errors": [],
+      "counts": {
+        "books": 1,
+        "chapters": 5,
+        "raw_documents": 5,
+        "knowledge_items": 570,
+        "rules": 0,
+        "cases": 1,
+        "events": 1,
+        "charts": 1,
+        "training_tasks": 0
+      },
+      "data_version": "630f1a83-1eb4-4f52-80f3-50b5e8932f82"
+    }
+  },
+  "snapshot": {
+    "data_version": "630f1a83-1eb4-4f52-80f3-50b5e8932f82",
+    "snapshot": "data/snapshots/current",
+    "counts": {
+      "data_versions": 19,
+      "books": 1,
+      "chapters": 5,
+      "raw_documents": 5,
+      "chapter_revisions": 5,
+      "source_reviews": 5,
+      "source_spans": 556,
+      "methods": 14,
+      "concepts": 1276,
+      "concept_links": 0,
+      "knowledge_items": 570,
+      "rules": 0,
+      "rule_conditions": 0,
+      "rule_disagreements": 0,
+      "event_families": 1,
+      "cases": 1,
+      "events": 1,
+      "case_events": 1,
+      "charts": 1,
+      "case_records": 10,
+      "evidence_links": 17,
+      "dataset_releases": 0,
+      "split_assignments": 0,
+      "training_tasks": 0,
+      "task_inputs": 0
+    },
+    "manifest_sha256": "1d4910af8a382cefc9bdbd021b240ad514ad5f6d96a6c6018ae90b60516f1688"
+  },
+  "restore": {
+    "all_snapshot_files_identical": 31,
+    "case_views_identical": 2,
+    "candidate_views_identical": 2,
+    "schema_migration_needed": false
+  },
+  "http": {
+    "ok": true,
+    "transport": "temporary_loopback_http",
+    "listener_closed": true,
+    "results": [
+      {
+        "path": "/health",
+        "http_status": 200,
+        "status": "ok"
+      },
+      {
+        "path": "/v1/ask",
+        "http_status": 200,
+        "status": "blocked"
+      },
+      {
+        "path": "/v1/learn",
+        "http_status": 200,
+        "status": "awaiting_sources"
+      },
+      {
+        "path": "/v1/learn",
+        "http_status": 200,
+        "status": "sources_found"
+      },
+      {
+        "path": "/v1/calculate",
+        "http_status": 200,
+        "status": "computed"
+      },
+      {
+        "path": "/v1/learn",
+        "http_status": 200,
+        "status": "sources_found"
+      },
+      {
+        "path": "/v1/calculate",
+        "http_status": 200,
+        "status": "computed"
+      },
+      {
+        "path": "/v1/calculate",
+        "http_status": 200,
+        "status": "computed"
+      },
+      {
+        "path": "/v1/ask",
+        "http_status": 200,
+        "status": "blocked"
+      },
+      {
+        "path": "/v1/reference",
+        "http_status": 200,
+        "status": "sources_found"
+      },
+      {
+        "path": "/v1/calculate",
+        "http_status": 200,
+        "status": "computed"
+      },
+      {
+        "path": "/v1/calculate",
+        "http_status": 200,
+        "status": "computed"
+      },
+      {
+        "path": "/v1/calculate",
+        "http_status": 200,
+        "status": "computed"
+      },
+      {
+        "path": "/v1/rule-candidates",
+        "http_status": 200,
+        "status": "inspected"
+      },
+      {
+        "path": "/v1/case",
+        "http_status": 200,
+        "status": "full"
+      },
+      {
+        "path": "/v1/case",
+        "http_status": 200,
+        "status": "before_prediction"
+      }
+    ]
+  },
+  "offline_wheel": {
+    "build": "passed",
+    "separate_target_install": "passed",
+    "isolated_service_calculate_candidates_case": "passed",
+    "package_location": "work/application-installed/qimenllm"
+  },
+  "source_chart_policy": {
+    "complete_story": true,
+    "complete_nine_palace_chart": false,
+    "sql_time_location_index_populated": false,
+    "provided_time_location_preserved_in_chart_json": true,
+    "original_chart_modified": false
+  },
+  "candidate_history": {
+    "latest_keys": 58,
+    "records": 61,
+    "superseded_immutable_records": 3,
+    "latest_record_filter_in_actual_sql": true,
+    "formal_role_bindings": 0
+  },
+  "development_findings": [
+    {
+      "finding": "timing fallback conditions and their supporting source incomplete",
+      "resolution": "append3 record_revision2 candidates; preserve prior3; add8 independent condition gold cases"
+    },
+    {
+      "finding": "temporary tests counted current58 and stored61 interchangeably during revision integration",
+      "resolution": "separate historical record count from latestkey count; final143 pass"
+    },
+    {
+      "finding": "case metadata fallback introduced after initial import caused immutable row replay conflict",
+      "resolution": "restore original explicit top-level metadata convention; preserve sourceJSON scheduled time/location; no authoritative rows modified"
+    }
+  ],
+  "professional_analysis_completed": false,
+  "model_experiments": [],
+  "training_tasks": 0,
+  "public_deployment": false,
+  "unverified": [
+    "independent calendar/date casting",
+    "natural-language understanding",
+    "formal role rule activation",
+    "timing calendar dates",
+    "professional model generation and explanation validation",
+    "prospective real-world prediction",
+    "Mac/Windows and home4090 hardware",
+    "public product load/authentication"
+  ],
+  "github": {
+    "repository": "turnupmason/QimenLLM",
+    "required_visibility": "private",
+    "raw_checkpoint_commit": "b054486c6403bb757d9050cbbba1b27e2a720958",
+    "final_commit_receipt": "work/github-sync.json; generated only after push and remote HEAD verification"
+  },
+  "local_full_logs": "artifacts/application-overview/"
+}

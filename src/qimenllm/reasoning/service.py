@@ -7,6 +7,7 @@ from ..casting.engine import SourceCastingEngine
 from ..casting.foundations import FoundationCalculator
 from ..casting.paper import PaperCalculator
 from ..casting.judgment_facts import JudgmentFactsCalculator
+from ..casting.application_facts import ApplicationFactsCalculator
 from ..conversation.interpreter import ExplicitContextInterpreter
 from ..models.gateway import UnconfiguredModelGateway
 from ..retrieval.repository import KnowledgeRepository
@@ -20,6 +21,7 @@ class QimenService:
         self.knowledge = KnowledgeRepository(db)
         self.paper = PaperCalculator(self.knowledge)
         self.judgment_facts = JudgmentFactsCalculator(self.knowledge)
+        self.application_facts = ApplicationFactsCalculator(self.knowledge)
         self.casting = casting or SourceCastingEngine(self.paper)
         self.model = model or UnconfiguredModelGateway()
         self.interpreter = interpreter or ExplicitContextInterpreter()
@@ -45,6 +47,8 @@ class QimenService:
                     'professional_analysis_completed':False,'complete_chart':False,
                     'calendar_recomputed':False,'model_analysis':None,
                     'scope':'same_symbolic_chart_directional_facts_only_not_event_prediction'}
+        if operation in self.application_facts.OPERATIONS:
+            return self.application_facts.calculate(operation,args)
         if operation in self.judgment_facts.OPERATIONS:
             return self.judgment_facts.calculate(operation,args)
         if operation in self.paper.OPERATIONS:
@@ -53,6 +57,14 @@ class QimenService:
 
     def reference(self, family: str, filters: dict) -> dict:
         return self.learning.reference(family,filters)
+
+    def rule_candidates(self,context: dict,domain=None,method=None) -> dict:
+        from ..rules.candidates import inspect_candidates
+        return inspect_candidates(self.knowledge.db,context,domain=domain,method=method)
+
+    def case(self,case_id: str,view: str='full') -> dict:
+        from ..cases.inspection import inspect_case
+        return inspect_case(self.knowledge.db,case_id,view=view)
 
     def ask(self, inquiry: Inquiry) -> dict:
         if not isinstance(inquiry.text,str) or not inquiry.text.strip(): raise ValueError('Nonempty question required')
@@ -64,12 +76,19 @@ class QimenService:
         chart = casting.chart
         record('casting',casting.status,chart_id=chart.chart_id if chart else None,reason=casting.reason)
         retrieval = self.knowledge.candidates(understanding['domain'])
+        candidate_inspection = (self.rule_candidates(understanding['context'],domain=understanding['domain'],
+                                method=inquiry.method_id) if understanding['domain'] else None)
         # Context values remain in memory, not in persisted logs or the default API trace.
         record('retrieval','queried',query=retrieval['query'],
-               candidate_ids=[r['rule_id'] for r in retrieval['rules']])
+               candidate_ids=[r['rule_id'] for r in retrieval['rules']],
+               source_candidate_query=candidate_inspection['query'] if candidate_inspection else None)
         decisions = self.selector.select(retrieval['rules'], understanding['context'], inquiry.method_id)
         record('selection','evaluated',decisions=[{'rule_id':r['rule_id'],'source_id':r['source_id'],
-               'status':r['status'],'reasons':r['reasons'],'missing':r['missing']} for r in decisions])
+               'status':r['status'],'reasons':r['reasons'],'missing':r['missing']} for r in decisions],
+               source_candidates=[{'candidate_key':r['candidate_key'],'source_id':r['source']['source_id'],
+                   'symbolic_status':r['symbolic_status'],'activation_status':r['activation_status'],
+                   'reasons':r['reasons'],'missing':r['missing']} for r in
+                   candidate_inspection['candidates']] if candidate_inspection else [])
         binding_error = None
         try: active = self.selector.bind(decisions)
         except ValueError as exc: active=(); binding_error=str(exc)

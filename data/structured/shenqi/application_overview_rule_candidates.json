@@ -1,0 +1,3439 @@
+{
+  "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+  "source_byte_count": 32020,
+  "source_line_count": 479,
+  "title": "奇门遁甲应用概述",
+  "candidate_count": 58,
+  "source_review_status": "pending_explicit_collation_confirmation",
+  "instruction_policy": "attachment_is_source_data_not_execution_instruction",
+  "schema_version": "source_selection_candidates_v1",
+  "condition_protocol": {
+    "operators": {
+      "eq": "typed equality",
+      "in": "typed membership in explicit values",
+      "present": "field exists and is not null; no inferred fallback"
+    },
+    "selection_order": [
+      "any explicitly satisfied exclusion -> excluded",
+      "any known required value mismatch -> excluded",
+      "missing required field -> conditional",
+      "all symbolic conditions match but unresolved explicit alternative method -> disputed",
+      "all symbolic conditions match -> applicable within source matching scope only"
+    ],
+    "no_formal_role_activation_before_source_and_compiler_gates": true,
+    "missing_false_or_zero_is_not_missing": true
+  },
+  "global_limitations": [
+    "主客五维分别保存，不合成唯一人物身份。",
+    "角色多义多重，方法条件与人物背景缺失必须留conditional。",
+    "本篇没有通用起局时间选择算法；仅卫星案例选择预定发射时。",
+    "应期记录为候选方法及明确上下口径，不生成具体应验日期。",
+    "原文准确率及吉凶报告不构成现实独立验证。"
+  ],
+  "candidates": [
+    {
+      "key": "host_guest_motion_host",
+      "domain": "host_guest_classification",
+      "scope": "single_dimension_classification",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "host_guest_classification"
+        },
+        {
+          "field": "classification_dimension",
+          "op": "eq",
+          "value": "motion"
+        },
+        {
+          "field": "dimension_value",
+          "op": "eq",
+          "value": "static"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        154
+      ],
+      "source_quote": "（1）从动静来说，动者为客，静者为主。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "此项只分类本维度，不能填充其他四维度。",
+        "不能从天盘=客推断当事人先动、远近或态度；要有对应真实背景。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [],
+        "semantic_role": "host",
+        "binding_kind": "concept_classification",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "host_guest_motion_guest",
+      "domain": "host_guest_classification",
+      "scope": "single_dimension_classification",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "host_guest_classification"
+        },
+        {
+          "field": "classification_dimension",
+          "op": "eq",
+          "value": "motion"
+        },
+        {
+          "field": "dimension_value",
+          "op": "eq",
+          "value": "moving"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        154
+      ],
+      "source_quote": "（1）从动静来说，动者为客，静者为主。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "此项只分类本维度，不能填充其他四维度。",
+        "不能从天盘=客推断当事人先动、远近或态度；要有对应真实背景。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [],
+        "semantic_role": "guest",
+        "binding_kind": "concept_classification",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "host_guest_order_host",
+      "domain": "host_guest_classification",
+      "scope": "single_dimension_classification",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "host_guest_classification"
+        },
+        {
+          "field": "classification_dimension",
+          "op": "eq",
+          "value": "order"
+        },
+        {
+          "field": "dimension_value",
+          "op": "eq",
+          "value": "later"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        156
+      ],
+      "source_quote": "（2）从行动先后来说，先动者为客，后动者为主。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "此项只分类本维度，不能填充其他四维度。",
+        "不能从天盘=客推断当事人先动、远近或态度；要有对应真实背景。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [],
+        "semantic_role": "host",
+        "binding_kind": "concept_classification",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "host_guest_order_guest",
+      "domain": "host_guest_classification",
+      "scope": "single_dimension_classification",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "host_guest_classification"
+        },
+        {
+          "field": "classification_dimension",
+          "op": "eq",
+          "value": "order"
+        },
+        {
+          "field": "dimension_value",
+          "op": "eq",
+          "value": "earlier"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        156
+      ],
+      "source_quote": "（2）从行动先后来说，先动者为客，后动者为主。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "此项只分类本维度，不能填充其他四维度。",
+        "不能从天盘=客推断当事人先动、远近或态度；要有对应真实背景。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [],
+        "semantic_role": "guest",
+        "binding_kind": "concept_classification",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "host_guest_attitude_host",
+      "domain": "host_guest_classification",
+      "scope": "single_dimension_classification",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "host_guest_classification"
+        },
+        {
+          "field": "classification_dimension",
+          "op": "eq",
+          "value": "attitude"
+        },
+        {
+          "field": "dimension_value",
+          "op": "eq",
+          "value": "passive_or_defending"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        158
+      ],
+      "source_quote": "（3）从态度来分，积极主动为客，消极被动者为主；主动出击为客，消极固守为主。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "此项只分类本维度，不能填充其他四维度。",
+        "不能从天盘=客推断当事人先动、远近或态度；要有对应真实背景。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [],
+        "semantic_role": "host",
+        "binding_kind": "concept_classification",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "host_guest_attitude_guest",
+      "domain": "host_guest_classification",
+      "scope": "single_dimension_classification",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "host_guest_classification"
+        },
+        {
+          "field": "classification_dimension",
+          "op": "eq",
+          "value": "attitude"
+        },
+        {
+          "field": "dimension_value",
+          "op": "eq",
+          "value": "active_or_attacking"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        158
+      ],
+      "source_quote": "（3）从态度来分，积极主动为客，消极被动者为主；主动出击为客，消极固守为主。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "此项只分类本维度，不能填充其他四维度。",
+        "不能从天盘=客推断当事人先动、远近或态度；要有对应真实背景。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [],
+        "semantic_role": "guest",
+        "binding_kind": "concept_classification",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "host_guest_plate_host",
+      "domain": "host_guest_classification",
+      "scope": "single_dimension_classification",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "host_guest_classification"
+        },
+        {
+          "field": "classification_dimension",
+          "op": "eq",
+          "value": "plate"
+        },
+        {
+          "field": "dimension_value",
+          "op": "eq",
+          "value": "earth"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        160
+      ],
+      "source_quote": "（4）从奇门活盘来分，天盘九星随时辰运转，所以天盘为客；地盘在某一局六十个时辰中不动，所以地盘为主。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "此项只分类本维度，不能填充其他四维度。",
+        "不能从天盘=客推断当事人先动、远近或态度；要有对应真实背景。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [],
+        "semantic_role": "host",
+        "binding_kind": "concept_classification",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "host_guest_plate_guest",
+      "domain": "host_guest_classification",
+      "scope": "single_dimension_classification",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "host_guest_classification"
+        },
+        {
+          "field": "classification_dimension",
+          "op": "eq",
+          "value": "plate"
+        },
+        {
+          "field": "dimension_value",
+          "op": "eq",
+          "value": "heaven"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        160
+      ],
+      "source_quote": "（4）从奇门活盘来分，天盘九星随时辰运转，所以天盘为客；地盘在某一局六十个时辰中不动，所以地盘为主。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "此项只分类本维度，不能填充其他四维度。",
+        "不能从天盘=客推断当事人先动、远近或态度；要有对应真实背景。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [],
+        "semantic_role": "guest",
+        "binding_kind": "concept_classification",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "host_guest_distance_host",
+      "domain": "host_guest_classification",
+      "scope": "single_dimension_classification",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "host_guest_classification"
+        },
+        {
+          "field": "classification_dimension",
+          "op": "eq",
+          "value": "distance"
+        },
+        {
+          "field": "dimension_value",
+          "op": "eq",
+          "value": "near"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        162
+      ],
+      "source_quote": "（5）从距离来分，远者为客，近者为主。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "此项只分类本维度，不能填充其他四维度。",
+        "不能从天盘=客推断当事人先动、远近或态度；要有对应真实背景。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [],
+        "semantic_role": "host",
+        "binding_kind": "concept_classification",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "host_guest_distance_guest",
+      "domain": "host_guest_classification",
+      "scope": "single_dimension_classification",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "host_guest_classification"
+        },
+        {
+          "field": "classification_dimension",
+          "op": "eq",
+          "value": "distance"
+        },
+        {
+          "field": "dimension_value",
+          "op": "eq",
+          "value": "far"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        162
+      ],
+      "source_quote": "（5）从距离来分，远者为客，近者为主。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "此项只分类本维度，不能填充其他四维度。",
+        "不能从天盘=客推断当事人先动、远近或态度；要有对应真实背景。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [],
+        "semantic_role": "guest",
+        "binding_kind": "concept_classification",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "health_self_patient",
+      "domain": "health",
+      "scope": "relationship_conditioned_patient_role",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "health"
+        },
+        {
+          "field": "target_relationship",
+          "op": "eq",
+          "value": "self"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        302,
+        303,
+        304,
+        305,
+        306
+      ],
+      "source_quote": "比如预测人体疾病，首先九宫格局和内盘外盘，向你展示了人体体表和体内的各个部位，天芮星代表病神，它的落宫向你展示了疾病的主要部位，同时八门中的伤门、死门、杜门、景门也与疾病有关，八神中的白虎、玄武、螣蛇也与疾病有关，而星、门所临之天干以及天地两盘所形成的十干克应、八门克应也能进一步向你提供疾病的部位、特征和吉凶程度，天心星和乙奇又代表医生和医药，由此判断疾病能治不能治及其预后状况，等等。\n\n同时，时干代表所测的事，测病自然时干落宫也代表疾病的情况；如果是患者自己求测，则日干为他本人，可看日干落宫状态，是旺是衰，是休囚入墓，得奇不得奇，得吉门不得吉门。\n\n如果是儿女辈求测长辈疾病，则要看年干落宫状态，测父亲，还要兼看乾宫，测母亲还可兼看坤宫；如果是求测同事或兄弟姐妹疾病，则可看月干落宫状态，是大姐，还可看巽宫，是小弟，还可看艮宫；如果是父母求测儿女或小辈人疾病，则可看时干落宫状态，是少男还可看艮宫，是少女还可看兑宫；等等。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "患者自己求测的明确条件；不推广为所有问事所有当事人。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [
+          "day_stem"
+        ],
+        "semantic_role": "patient",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "health_elder_generation_patient",
+      "domain": "health",
+      "scope": "relationship_conditioned_patient_role",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "health"
+        },
+        {
+          "field": "target_relationship",
+          "op": "in",
+          "value": [
+            "father",
+            "mother",
+            "elder_generation_relative"
+          ]
+        },
+        {
+          "field": "asker_generation_relative_to_target",
+          "op": "eq",
+          "value": "descendant"
+        }
+      ],
+      "exclude": [
+        {
+          "field": "target_relationship",
+          "op": "in",
+          "value": [
+            "sibling",
+            "brother",
+            "sister",
+            "colleague"
+          ]
+        }
+      ],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        304,
+        305,
+        306
+      ],
+      "source_quote": "同时，时干代表所测的事，测病自然时干落宫也代表疾病的情况；如果是患者自己求测，则日干为他本人，可看日干落宫状态，是旺是衰，是休囚入墓，得奇不得奇，得吉门不得吉门。\n\n如果是儿女辈求测长辈疾病，则要看年干落宫状态，测父亲，还要兼看乾宫，测母亲还可兼看坤宫；如果是求测同事或兄弟姐妹疾病，则可看月干落宫状态，是大姐，还可看巽宫，是小弟，还可看艮宫；如果是父母求测儿女或小辈人疾病，则可看时干落宫状态，是少男还可看艮宫，是少女还可看兑宫；等等。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "原文儿女辈测长辈；generation不是age。哥哥姐姐即使年长仍不能用此规则。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [
+          "year_stem"
+        ],
+        "semantic_role": "patient",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "health_sibling_patient",
+      "domain": "health",
+      "scope": "relationship_conditioned_patient_role",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "health"
+        },
+        {
+          "field": "target_relationship",
+          "op": "in",
+          "value": [
+            "sibling",
+            "brother",
+            "sister",
+            "elder_brother",
+            "elder_sister",
+            "younger_brother",
+            "younger_sister"
+          ]
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        304,
+        305,
+        306
+      ],
+      "source_quote": "同时，时干代表所测的事，测病自然时干落宫也代表疾病的情况；如果是患者自己求测，则日干为他本人，可看日干落宫状态，是旺是衰，是休囚入墓，得奇不得奇，得吉门不得吉门。\n\n如果是儿女辈求测长辈疾病，则要看年干落宫状态，测父亲，还要兼看乾宫，测母亲还可兼看坤宫；如果是求测同事或兄弟姐妹疾病，则可看月干落宫状态，是大姐，还可看巽宫，是小弟，还可看艮宫；如果是父母求测儿女或小辈人疾病，则可看时干落宫状态，是少男还可看艮宫，是少女还可看兑宫；等等。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "月干用于兄弟姐妹，长幼不改变同辈关系。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [
+          "month_stem"
+        ],
+        "semantic_role": "patient",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "health_colleague_patient",
+      "domain": "health",
+      "scope": "relationship_conditioned_patient_role",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "health"
+        },
+        {
+          "field": "target_relationship",
+          "op": "eq",
+          "value": "colleague"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        304,
+        305,
+        306
+      ],
+      "source_quote": "同时，时干代表所测的事，测病自然时干落宫也代表疾病的情况；如果是患者自己求测，则日干为他本人，可看日干落宫状态，是旺是衰，是休囚入墓，得奇不得奇，得吉门不得吉门。\n\n如果是儿女辈求测长辈疾病，则要看年干落宫状态，测父亲，还要兼看乾宫，测母亲还可兼看坤宫；如果是求测同事或兄弟姐妹疾病，则可看月干落宫状态，是大姐，还可看巽宫，是小弟，还可看艮宫；如果是父母求测儿女或小辈人疾病，则可看时干落宫状态，是少男还可看艮宫，是少女还可看兑宫；等等。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [
+          "month_stem"
+        ],
+        "semantic_role": "patient",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "health_child_patient",
+      "domain": "health",
+      "scope": "relationship_conditioned_patient_role",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "health"
+        },
+        {
+          "field": "target_relationship",
+          "op": "in",
+          "value": [
+            "son",
+            "daughter",
+            "child",
+            "junior_generation_relative"
+          ]
+        },
+        {
+          "field": "asker_generation_relative_to_target",
+          "op": "eq",
+          "value": "parent_generation"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        304,
+        305,
+        306
+      ],
+      "source_quote": "同时，时干代表所测的事，测病自然时干落宫也代表疾病的情况；如果是患者自己求测，则日干为他本人，可看日干落宫状态，是旺是衰，是休囚入墓，得奇不得奇，得吉门不得吉门。\n\n如果是儿女辈求测长辈疾病，则要看年干落宫状态，测父亲，还要兼看乾宫，测母亲还可兼看坤宫；如果是求测同事或兄弟姐妹疾病，则可看月干落宫状态，是大姐，还可看巽宫，是小弟，还可看艮宫；如果是父母求测儿女或小辈人疾病，则可看时干落宫状态，是少男还可看艮宫，是少女还可看兑宫；等等。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "原文父母测儿女或小辈；不能仅凭目标年龄小就推断父母身份。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [
+          "hour_stem"
+        ],
+        "semantic_role": "patient",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "health_father_palace_supplement",
+      "domain": "health",
+      "scope": "supplementary_relationship_palace",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "health"
+        },
+        {
+          "field": "target_relationship",
+          "op": "eq",
+          "value": "father"
+        },
+        {
+          "field": "asker_generation_relative_to_target",
+          "op": "eq",
+          "value": "descendant"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        304,
+        305,
+        306
+      ],
+      "source_quote": "同时，时干代表所测的事，测病自然时干落宫也代表疾病的情况；如果是患者自己求测，则日干为他本人，可看日干落宫状态，是旺是衰，是休囚入墓，得奇不得奇，得吉门不得吉门。\n\n如果是儿女辈求测长辈疾病，则要看年干落宫状态，测父亲，还要兼看乾宫，测母亲还可兼看坤宫；如果是求测同事或兄弟姐妹疾病，则可看月干落宫状态，是大姐，还可看巽宫，是小弟，还可看艮宫；如果是父母求测儿女或小辈人疾病，则可看时干落宫状态，是少男还可看艮宫，是少女还可看兑宫；等等。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "原文兼看；与年干并用，不替换年干，不构成所有问事唯一用神。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [
+          "乾宫"
+        ],
+        "semantic_role": "patient_father",
+        "binding_kind": "source_candidate",
+        "supplementary": true,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "health_mother_palace_supplement",
+      "domain": "health",
+      "scope": "supplementary_relationship_palace",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "health"
+        },
+        {
+          "field": "target_relationship",
+          "op": "eq",
+          "value": "mother"
+        },
+        {
+          "field": "asker_generation_relative_to_target",
+          "op": "eq",
+          "value": "descendant"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        304,
+        305,
+        306
+      ],
+      "source_quote": "同时，时干代表所测的事，测病自然时干落宫也代表疾病的情况；如果是患者自己求测，则日干为他本人，可看日干落宫状态，是旺是衰，是休囚入墓，得奇不得奇，得吉门不得吉门。\n\n如果是儿女辈求测长辈疾病，则要看年干落宫状态，测父亲，还要兼看乾宫，测母亲还可兼看坤宫；如果是求测同事或兄弟姐妹疾病，则可看月干落宫状态，是大姐，还可看巽宫，是小弟，还可看艮宫；如果是父母求测儿女或小辈人疾病，则可看时干落宫状态，是少男还可看艮宫，是少女还可看兑宫；等等。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "原文兼看；与年干并用，不替换年干，不构成所有问事唯一用神。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [
+          "坤宫"
+        ],
+        "semantic_role": "patient_mother",
+        "binding_kind": "source_candidate",
+        "supplementary": true,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "health_big_sister_palace_supplement",
+      "domain": "health",
+      "scope": "supplementary_relationship_palace",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "health"
+        },
+        {
+          "field": "target_relationship",
+          "op": "eq",
+          "value": "sister"
+        },
+        {
+          "field": "source_family_role",
+          "op": "eq",
+          "value": "大姐"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        304,
+        305,
+        306
+      ],
+      "source_quote": "同时，时干代表所测的事，测病自然时干落宫也代表疾病的情况；如果是患者自己求测，则日干为他本人，可看日干落宫状态，是旺是衰，是休囚入墓，得奇不得奇，得吉门不得吉门。\n\n如果是儿女辈求测长辈疾病，则要看年干落宫状态，测父亲，还要兼看乾宫，测母亲还可兼看坤宫；如果是求测同事或兄弟姐妹疾病，则可看月干落宫状态，是大姐，还可看巽宫，是小弟，还可看艮宫；如果是父母求测儿女或小辈人疾病，则可看时干落宫状态，是少男还可看艮宫，是少女还可看兑宫；等等。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "精确保留原文大姐/小弟条件，不能自动拓展到所有兄弟姐妹。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [
+          "巽宫"
+        ],
+        "semantic_role": "patient",
+        "binding_kind": "source_candidate",
+        "supplementary": true,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "health_little_brother_palace_supplement",
+      "domain": "health",
+      "scope": "supplementary_relationship_palace",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "health"
+        },
+        {
+          "field": "target_relationship",
+          "op": "eq",
+          "value": "brother"
+        },
+        {
+          "field": "source_family_role",
+          "op": "eq",
+          "value": "小弟"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        304,
+        305,
+        306
+      ],
+      "source_quote": "同时，时干代表所测的事，测病自然时干落宫也代表疾病的情况；如果是患者自己求测，则日干为他本人，可看日干落宫状态，是旺是衰，是休囚入墓，得奇不得奇，得吉门不得吉门。\n\n如果是儿女辈求测长辈疾病，则要看年干落宫状态，测父亲，还要兼看乾宫，测母亲还可兼看坤宫；如果是求测同事或兄弟姐妹疾病，则可看月干落宫状态，是大姐，还可看巽宫，是小弟，还可看艮宫；如果是父母求测儿女或小辈人疾病，则可看时干落宫状态，是少男还可看艮宫，是少女还可看兑宫；等等。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "精确保留原文大姐/小弟条件，不能自动拓展到所有兄弟姐妹。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [
+          "艮宫"
+        ],
+        "semantic_role": "patient",
+        "binding_kind": "source_candidate",
+        "supplementary": true,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "health_young_son_palace_supplement",
+      "domain": "health",
+      "scope": "supplementary_relationship_palace",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "health"
+        },
+        {
+          "field": "target_relationship",
+          "op": "eq",
+          "value": "son"
+        },
+        {
+          "field": "asker_generation_relative_to_target",
+          "op": "eq",
+          "value": "parent_generation"
+        },
+        {
+          "field": "source_life_stage",
+          "op": "eq",
+          "value": "少男"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        304,
+        305,
+        306
+      ],
+      "source_quote": "同时，时干代表所测的事，测病自然时干落宫也代表疾病的情况；如果是患者自己求测，则日干为他本人，可看日干落宫状态，是旺是衰，是休囚入墓，得奇不得奇，得吉门不得吉门。\n\n如果是儿女辈求测长辈疾病，则要看年干落宫状态，测父亲，还要兼看乾宫，测母亲还可兼看坤宫；如果是求测同事或兄弟姐妹疾病，则可看月干落宫状态，是大姐，还可看巽宫，是小弟，还可看艮宫；如果是父母求测儿女或小辈人疾病，则可看时干落宫状态，是少男还可看艮宫，是少女还可看兑宫；等等。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "少男/少女未给数值年龄阈值；不能模型自行按年龄线推断。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [
+          "艮宫"
+        ],
+        "semantic_role": "patient",
+        "binding_kind": "source_candidate",
+        "supplementary": true,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "health_young_daughter_palace_supplement",
+      "domain": "health",
+      "scope": "supplementary_relationship_palace",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "health"
+        },
+        {
+          "field": "target_relationship",
+          "op": "eq",
+          "value": "daughter"
+        },
+        {
+          "field": "asker_generation_relative_to_target",
+          "op": "eq",
+          "value": "parent_generation"
+        },
+        {
+          "field": "source_life_stage",
+          "op": "eq",
+          "value": "少女"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        304,
+        305,
+        306
+      ],
+      "source_quote": "同时，时干代表所测的事，测病自然时干落宫也代表疾病的情况；如果是患者自己求测，则日干为他本人，可看日干落宫状态，是旺是衰，是休囚入墓，得奇不得奇，得吉门不得吉门。\n\n如果是儿女辈求测长辈疾病，则要看年干落宫状态，测父亲，还要兼看乾宫，测母亲还可兼看坤宫；如果是求测同事或兄弟姐妹疾病，则可看月干落宫状态，是大姐，还可看巽宫，是小弟，还可看艮宫；如果是父母求测儿女或小辈人疾病，则可看时干落宫状态，是少男还可看艮宫，是少女还可看兑宫；等等。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "少男/少女未给数值年龄阈值；不能模型自行按年龄线推断。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [
+          "兑宫"
+        ],
+        "semantic_role": "patient",
+        "binding_kind": "source_candidate",
+        "supplementary": true,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "health_disease_tianrui",
+      "domain": "health",
+      "scope": "multiple_source_roles",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "health"
+        },
+        {
+          "field": "analysis_object",
+          "op": "eq",
+          "value": "disease"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306
+      ],
+      "source_quote": "奇门预测同一事物，具有多重用神。也就是说，参考系数更多，可以让你从多种角度来观察同一事物，综合分析判断，故而准确度更高。\n\n比如预测人体疾病，首先九宫格局和内盘外盘，向你展示了人体体表和体内的各个部位，天芮星代表病神，它的落宫向你展示了疾病的主要部位，同时八门中的伤门、死门、杜门、景门也与疾病有关，八神中的白虎、玄武、螣蛇也与疾病有关，而星、门所临之天干以及天地两盘所形成的十干克应、八门克应也能进一步向你提供疾病的部位、特征和吉凶程度，天心星和乙奇又代表医生和医药，由此判断疾病能治不能治及其预后状况，等等。\n\n同时，时干代表所测的事，测病自然时干落宫也代表疾病的情况；如果是患者自己求测，则日干为他本人，可看日干落宫状态，是旺是衰，是休囚入墓，得奇不得奇，得吉门不得吉门。\n\n如果是儿女辈求测长辈疾病，则要看年干落宫状态，测父亲，还要兼看乾宫，测母亲还可兼看坤宫；如果是求测同事或兄弟姐妹疾病，则可看月干落宫状态，是大姐，还可看巽宫，是小弟，还可看艮宫；如果是父母求测儿女或小辈人疾病，则可看时干落宫状态，是少男还可看艮宫，是少女还可看兑宫；等等。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "天芮是病神参考，星落宫不能当疾病或身体部位的医学证据。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [
+          "天芮星"
+        ],
+        "semantic_role": "disease",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "health_medical_care_symbols",
+      "domain": "health",
+      "scope": "multiple_source_roles",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "health"
+        },
+        {
+          "field": "analysis_object",
+          "op": "eq",
+          "value": "medical_care"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306
+      ],
+      "source_quote": "奇门预测同一事物，具有多重用神。也就是说，参考系数更多，可以让你从多种角度来观察同一事物，综合分析判断，故而准确度更高。\n\n比如预测人体疾病，首先九宫格局和内盘外盘，向你展示了人体体表和体内的各个部位，天芮星代表病神，它的落宫向你展示了疾病的主要部位，同时八门中的伤门、死门、杜门、景门也与疾病有关，八神中的白虎、玄武、螣蛇也与疾病有关，而星、门所临之天干以及天地两盘所形成的十干克应、八门克应也能进一步向你提供疾病的部位、特征和吉凶程度，天心星和乙奇又代表医生和医药，由此判断疾病能治不能治及其预后状况，等等。\n\n同时，时干代表所测的事，测病自然时干落宫也代表疾病的情况；如果是患者自己求测，则日干为他本人，可看日干落宫状态，是旺是衰，是休囚入墓，得奇不得奇，得吉门不得吉门。\n\n如果是儿女辈求测长辈疾病，则要看年干落宫状态，测父亲，还要兼看乾宫，测母亲还可兼看坤宫；如果是求测同事或兄弟姐妹疾病，则可看月干落宫状态，是大姐，还可看巽宫，是小弟，还可看艮宫；如果是父母求测儿女或小辈人疾病，则可看时干落宫状态，是少男还可看艮宫，是少女还可看兑宫；等等。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "二者都在同句中；不能只凭词相似度任选其一并当唯一医生。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [
+          "天心星",
+          "乙奇"
+        ],
+        "semantic_role": "doctor_or_medicine",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "health_event_hour_stem",
+      "domain": "health",
+      "scope": "general_event_reference_within_health",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "health"
+        },
+        {
+          "field": "analysis_object",
+          "op": "eq",
+          "value": "illness_event"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        302,
+        303,
+        304,
+        305,
+        306
+      ],
+      "source_quote": "比如预测人体疾病，首先九宫格局和内盘外盘，向你展示了人体体表和体内的各个部位，天芮星代表病神，它的落宫向你展示了疾病的主要部位，同时八门中的伤门、死门、杜门、景门也与疾病有关，八神中的白虎、玄武、螣蛇也与疾病有关，而星、门所临之天干以及天地两盘所形成的十干克应、八门克应也能进一步向你提供疾病的部位、特征和吉凶程度，天心星和乙奇又代表医生和医药，由此判断疾病能治不能治及其预后状况，等等。\n\n同时，时干代表所测的事，测病自然时干落宫也代表疾病的情况；如果是患者自己求测，则日干为他本人，可看日干落宫状态，是旺是衰，是休囚入墓，得奇不得奇，得吉门不得吉门。\n\n如果是儿女辈求测长辈疾病，则要看年干落宫状态，测父亲，还要兼看乾宫，测母亲还可兼看坤宫；如果是求测同事或兄弟姐妹疾病，则可看月干落宫状态，是大姐，还可看巽宫，是小弟，还可看艮宫；如果是父母求测儿女或小辈人疾病，则可看时干落宫状态，是少男还可看艮宫，是少女还可看兑宫；等等。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "时干代表病事与时干代表子女是不同角色视角；不能因同一符号就把事认成某个人。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [
+          "hour_stem"
+        ],
+        "semantic_role": "asked_event",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "crime_robbery_homicide_tianpeng",
+      "domain": "crime",
+      "scope": "specific_crime_subtype",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "crime"
+        },
+        {
+          "field": "crime_subtype",
+          "op": "eq",
+          "value": "robbery_homicide"
+        }
+      ],
+      "exclude": [
+        {
+          "field": "crime_subtype",
+          "op": "eq",
+          "value": "petty_theft"
+        }
+      ],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        293,
+        294,
+        295
+      ],
+      "source_quote": "其他九星、八神、九宫、八卦、十二地支也是如此。\n\n比如测抢劫杀人犯，以天蓬星为用神；测小偷小摸，以玄武为用神；测南方来的电话，可以离宫为用；有人手指西南方问一个人的情况，则可看坤宫；测父亲，可用乾卦为用神；测少男，则可看艮卦；测1996年的情况，可以看地支子所在坎宫的格局；测1993年则可看地支酉所在兑宫的格局；测1999年情况，则可看地支卯所在震宫格局；等等。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "只保留原文测抢劫杀人犯这一子类，不能据盘认定真人犯罪。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [
+          "天蓬星"
+        ],
+        "semantic_role": "suspect_traditional_symbol",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "crime_petty_theft_xuanwu",
+      "domain": "crime",
+      "scope": "specific_crime_subtype",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "crime"
+        },
+        {
+          "field": "crime_subtype",
+          "op": "eq",
+          "value": "petty_theft"
+        }
+      ],
+      "exclude": [
+        {
+          "field": "crime_subtype",
+          "op": "eq",
+          "value": "robbery_homicide"
+        }
+      ],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        293,
+        294,
+        295
+      ],
+      "source_quote": "其他九星、八神、九宫、八卦、十二地支也是如此。\n\n比如测抢劫杀人犯，以天蓬星为用神；测小偷小摸，以玄武为用神；测南方来的电话，可以离宫为用；有人手指西南方问一个人的情况，则可看坤宫；测父亲，可用乾卦为用神；测少男，则可看艮卦；测1996年的情况，可以看地支子所在坎宫的格局；测1993年则可看地支酉所在兑宫的格局；测1999年情况，则可看地支卯所在震宫格局；等等。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "未给案型时两条均conditional，不能只按笼统“丢东西”激活。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [
+          "玄武"
+        ],
+        "semantic_role": "suspect_traditional_symbol",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "direction_south_call_li",
+      "domain": "directional_inquiry",
+      "scope": "explicit_direction_event",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "directional_inquiry"
+        },
+        {
+          "field": "event_type",
+          "op": "eq",
+          "value": "telephone_call"
+        },
+        {
+          "field": "reported_origin_direction",
+          "op": "eq",
+          "value": "south"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        293,
+        294,
+        295
+      ],
+      "source_quote": "其他九星、八神、九宫、八卦、十二地支也是如此。\n\n比如测抢劫杀人犯，以天蓬星为用神；测小偷小摸，以玄武为用神；测南方来的电话，可以离宫为用；有人手指西南方问一个人的情况，则可看坤宫；测父亲，可用乾卦为用神；测少男，则可看艮卦；测1996年的情况，可以看地支子所在坎宫的格局；测1993年则可看地支酉所在兑宫的格局；测1999年情况，则可看地支卯所在震宫格局；等等。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "信息明确来自南方电话，不由话题猜方向。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [
+          "离宫"
+        ],
+        "semantic_role": "directional_event",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "direction_southwest_pointing_kun",
+      "domain": "directional_inquiry",
+      "scope": "explicit_gesture_and_question",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "directional_inquiry"
+        },
+        {
+          "field": "event_type",
+          "op": "eq",
+          "value": "asked_person"
+        },
+        {
+          "field": "gesture_direction",
+          "op": "eq",
+          "value": "southwest"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        293,
+        294,
+        295
+      ],
+      "source_quote": "其他九星、八神、九宫、八卦、十二地支也是如此。\n\n比如测抢劫杀人犯，以天蓬星为用神；测小偷小摸，以玄武为用神；测南方来的电话，可以离宫为用；有人手指西南方问一个人的情况，则可看坤宫；测父亲，可用乾卦为用神；测少男，则可看艮卦；测1996年的情况，可以看地支子所在坎宫的格局；测1993年则可看地支酉所在兑宫的格局；测1999年情况，则可看地支卯所在震宫格局；等等。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "需有实际指向背景；不把所有西南题材都归坤。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [
+          "坤宫"
+        ],
+        "semantic_role": "pointed_direction_person",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "father_qian_general_reference",
+      "domain": "family",
+      "scope": "nonunique_family_image",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "family"
+        },
+        {
+          "field": "target_relationship",
+          "op": "eq",
+          "value": "father"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        293,
+        294,
+        295
+      ],
+      "source_quote": "其他九星、八神、九宫、八卦、十二地支也是如此。\n\n比如测抢劫杀人犯，以天蓬星为用神；测小偷小摸，以玄武为用神；测南方来的电话，可以离宫为用；有人手指西南方问一个人的情况，则可看坤宫；测父亲，可用乾卦为用神；测少男，则可看艮卦；测1996年的情况，可以看地支子所在坎宫的格局；测1993年则可看地支酉所在兑宫的格局；测1999年情况，则可看地支卯所在震宫格局；等等。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "可用之法，原文不规定唯一；健康测父另有年干兼乾宫。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": false,
+      "role_binding": {
+        "symbols": [
+          "乾卦"
+        ],
+        "semantic_role": "father",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "general_day_asker_hour_event",
+      "domain": "general_inquiry",
+      "scope": "headline_general_reference",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "general_inquiry"
+        },
+        {
+          "field": "analysis_mode",
+          "op": "eq",
+          "value": "headline_reference"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337
+      ],
+      "source_quote": "（四）奇门用神的纲领性\n\n奇门用神再多再繁再复杂，它也有纲有领，所谓提纲挈领，纲举而目张。\n\n测天时，以九星为主；测人事，以八门为主；测地理、方位，以九宫为主；测六亲，以年、月、日、时为主。\n\n总之，无论预测什么事，日干和时干一般是其主要纲领，日干为求测之人，时干为所测之事，这一点类似于六爻预测中的世爻和应爻。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "原文“一般”“主要纲领”；不覆盖304–306特定人物关系，也不替代问事背景。",
+        "不能将日干本人推广到所有目标人物。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "day_stem",
+          "hour_stem"
+        ],
+        "semantic_role": "asker_and_event_general_headline",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "headline_weather",
+      "domain": "weather",
+      "scope": "headline_not_exclusive_method",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "weather"
+        },
+        {
+          "field": "analysis_mode",
+          "op": "eq",
+          "value": "headline_reference"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337
+      ],
+      "source_quote": "（四）奇门用神的纲领性\n\n奇门用神再多再繁再复杂，它也有纲有领，所谓提纲挈领，纲举而目张。\n\n测天时，以九星为主；测人事，以八门为主；测地理、方位，以九宫为主；测六亲，以年、月、日、时为主。\n\n总之，无论预测什么事，日干和时干一般是其主要纲领，日干为求测之人，时干为所测之事，这一点类似于六爻预测中的世爻和应爻。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "这是纲领性重点而非排他用神；实际子类/人物关系/盘面仍须确定。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "九星"
+        ],
+        "semantic_role": "测天时以九星为主",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "headline_human_affairs",
+      "domain": "human_affairs",
+      "scope": "headline_not_exclusive_method",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "human_affairs"
+        },
+        {
+          "field": "analysis_mode",
+          "op": "eq",
+          "value": "headline_reference"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337
+      ],
+      "source_quote": "（四）奇门用神的纲领性\n\n奇门用神再多再繁再复杂，它也有纲有领，所谓提纲挈领，纲举而目张。\n\n测天时，以九星为主；测人事，以八门为主；测地理、方位，以九宫为主；测六亲，以年、月、日、时为主。\n\n总之，无论预测什么事，日干和时干一般是其主要纲领，日干为求测之人，时干为所测之事，这一点类似于六爻预测中的世爻和应爻。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "这是纲领性重点而非排他用神；实际子类/人物关系/盘面仍须确定。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "八门"
+        ],
+        "semantic_role": "测人事以八门为主",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "headline_geography_direction",
+      "domain": "geography_direction",
+      "scope": "headline_not_exclusive_method",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "geography_direction"
+        },
+        {
+          "field": "analysis_mode",
+          "op": "eq",
+          "value": "headline_reference"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337
+      ],
+      "source_quote": "（四）奇门用神的纲领性\n\n奇门用神再多再繁再复杂，它也有纲有领，所谓提纲挈领，纲举而目张。\n\n测天时，以九星为主；测人事，以八门为主；测地理、方位，以九宫为主；测六亲，以年、月、日、时为主。\n\n总之，无论预测什么事，日干和时干一般是其主要纲领，日干为求测之人，时干为所测之事，这一点类似于六爻预测中的世爻和应爻。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "这是纲领性重点而非排他用神；实际子类/人物关系/盘面仍须确定。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "九宫"
+        ],
+        "semantic_role": "测地理方位以九宫为主",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "headline_kinship",
+      "domain": "kinship",
+      "scope": "headline_not_exclusive_method",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "kinship"
+        },
+        {
+          "field": "analysis_mode",
+          "op": "eq",
+          "value": "headline_reference"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337
+      ],
+      "source_quote": "（四）奇门用神的纲领性\n\n奇门用神再多再繁再复杂，它也有纲有领，所谓提纲挈领，纲举而目张。\n\n测天时，以九星为主；测人事，以八门为主；测地理、方位，以九宫为主；测六亲，以年、月、日、时为主。\n\n总之，无论预测什么事，日干和时干一般是其主要纲领，日干为求测之人，时干为所测之事，这一点类似于六爻预测中的世爻和应爻。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "这是纲领性重点而非排他用神；实际子类/人物关系/盘面仍须确定。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "year_stem",
+          "month_stem",
+          "day_stem",
+          "hour_stem"
+        ],
+        "semantic_role": "测六亲以四干为主",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "birth_year_supplement",
+      "domain": "human_affairs",
+      "scope": "supplementary_birth_year_role",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "human_affairs"
+        },
+        {
+          "field": "include_birth_year_reference",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "target_birth_year_stem",
+          "op": "present",
+          "value": null
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_application_overview_v1"
+      },
+      "source_lines": [
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328
+      ],
+      "source_quote": "另外，在测人事上，除了以年、月、日、时为用神外，还应该看年命用神。\n\n这一点在《四库全书》所收《遁甲演义》中讲得比较清楚。\n\n该书说：\n\n“夫用遁之法，不推本命行年，未见精妙，必人生年命乘本局吉星奇门生旺之方，始得神将护持，无不利也。若命入囚死刑克之宫，而又加以恶星，虽所谋事合生开吉门，终不为美。故遣将先择其年命利者为主，否则当候值符移易可也。”\n\n这一点，《四库全书》的编纂者在为《遁甲演义》写的提要中还特别提及，说：\n\n“至论本命行年，谓欲乘本局中吉星生旺，其说亦他书所未及。”\n\n古人选拔派遣将领，运用奇门“先择其年命利者为主”，我们今天用奇门进行预测决策，也应该重用年命。\n\n经过我们验证，兼取年命为用神，准确率会更高。\n\n所谓重用年命，我认为有二点：\n\n一是看其出生年、月、日、时的奇门格局；\n\n二是平时预测，除以求测时间的年、月、日、时干分别为用神外，最好还要兼看他的年命，即出生之年的年干落宫状态。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "作者建议“最好还兼看”，并非每问强制索取出生信息。",
+        "328为出生年干，不能误用起局当年年干。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "target_birth_year_stem"
+        ],
+        "semantic_role": "subject_birth_year",
+        "binding_kind": "source_candidate",
+        "supplementary": true,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "judgment_method_static_chiefs",
+      "domain": "method_selection",
+      "scope": "quoted_method_branch",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "method_selection"
+        },
+        {
+          "field": "situation_motion",
+          "op": "eq",
+          "value": "static"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "quoted_qimen_tongzong_motion_v1",
+        "unresolved_with": [
+          "three_talents",
+          "role_based",
+          "chief_landing"
+        ],
+        "default_allowed": false
+      },
+      "source_lines": [
+        245,
+        246,
+        247,
+        248,
+        249
+      ],
+      "source_quote": "《奇门统宗》说：\n\n“奇门占法要分动静之用，静则只查值符、值使、时干，看其生克衰旺如何。动则专看方向，盖动者机之先见者也。如闻南方之事则占离位，闻北方之事则占坎位。”\n\n这里提出的是一种静看值符、值使、时干生克衰旺，动则看其方位上天地人神四盘状况的断卦方法。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "这是所引《奇门统宗》的特定方法，不与其他来源方法暗混。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "值符",
+          "值使",
+          "hour_stem"
+        ],
+        "semantic_role": "method_focus",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "judgment_method_dynamic_direction",
+      "domain": "method_selection",
+      "scope": "quoted_method_branch",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "method_selection"
+        },
+        {
+          "field": "situation_motion",
+          "op": "eq",
+          "value": "moving"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "quoted_qimen_tongzong_motion_v1",
+        "unresolved_with": [
+          "three_talents",
+          "role_based",
+          "chief_landing"
+        ],
+        "default_allowed": false
+      },
+      "source_lines": [
+        245,
+        246,
+        247,
+        248,
+        249
+      ],
+      "source_quote": "《奇门统宗》说：\n\n“奇门占法要分动静之用，静则只查值符、值使、时干，看其生克衰旺如何。动则专看方向，盖动者机之先见者也。如闻南方之事则占离位，闻北方之事则占坎位。”\n\n这里提出的是一种静看值符、值使、时干生克衰旺，动则看其方位上天地人神四盘状况的断卦方法。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "这是所引《奇门统宗》的特定方法，不与其他来源方法暗混。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "reported_direction_palace"
+        ],
+        "semantic_role": "method_focus",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "casting_known_scheduled_launch_case",
+      "domain": "case_reproduction",
+      "scope": "case_specific_casting_time",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "case_reproduction"
+        },
+        {
+          "field": "source_case_id",
+          "op": "eq",
+          "value": "apataii_1995_launch"
+        },
+        {
+          "field": "casting_time_basis",
+          "op": "eq",
+          "value": "announced_planned_event_time"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "case_specific_not_generalized",
+        "method_id": "launch_planned_event_time_as_written",
+        "datetime_as_written": "1995-01-26 06:40",
+        "timezone": null,
+        "calendar_recomputed": false
+      },
+      "source_lines": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "source_quote": "比如1995年1月25日晚上中央电视台新闻联播节目中预告，我国西昌卫星发射中心将于明天即1月26日凌晨6点40分用我国制造的长征二号捆绑火箭发射美国休斯公司研制的HS601型亚太二号通信卫星，届时将现场直播。\n\n按：1995年1月26日晨6点40分，即农历甲戌年丁丑月丁巳日癸卯时。\n\n丁日癸卯时，正是奇门择时最忌讳的五不遇时，时干癸水克日干丁火，阴克阴，凶。\n\n我听完新闻联播，当即按预定发射时间用奇门遁甲进行预测。其时用阳9局，天冲星为值符，伤门为值使。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "本段只有这个实例，并未提供普通问事/未知事件/来人/电话等全套起局时间选择算法。",
+        "不自动将所有未来事件改为按计划时间起局。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true
+    },
+    {
+      "key": "timing_overview_principles",
+      "domain": "timing",
+      "scope": "timing_method_candidate",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "timing"
+        },
+        {
+          "field": "timing_task",
+          "op": "eq",
+          "value": "method_study"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "candidate_only",
+        "method_id": "timing_overview_principles",
+        "default_allowed": false,
+        "compute_calendar_date": false,
+        "conflict_group": null
+      },
+      "source_lines": [
+        432,
+        433,
+        434,
+        435,
+        436,
+        437,
+        438
+      ],
+      "source_quote": "（1）奇门断应期的原则有三：\n\n一是根据用神的旺衰长生墓绝，所处宫位是内盘外盘、格局是伏吟还是反吟来判断应期的远近、快慢，远慢断年月，近快断日时；\n\n二是先定地支，后配天干，以定应期的地支为主，兼看天干定应期；\n\n三是先以值符定应期，后以值使定应期。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "远慢断年月，近快断日时；先支后干；先值符后值使，不能直接生成日期。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true
+    },
+    {
+      "key": "timing_chief_punishment_clash",
+      "domain": "timing",
+      "scope": "timing_method_candidate",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "timing"
+        },
+        {
+          "field": "timing_task",
+          "op": "eq",
+          "value": "candidate_selection"
+        },
+        {
+          "field": "chief_relation",
+          "op": "in",
+          "value": [
+            "clash",
+            "punishment"
+          ]
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "candidate_only",
+        "method_id": "timing_chief_punishment_clash",
+        "default_allowed": false,
+        "compute_calendar_date": false,
+        "conflict_group": null
+      },
+      "source_lines": [
+        441
+      ],
+      "source_quote": "（2）断应期的第一种方法是用六甲值符定应期，刑、冲者以合为应期，旬空者以填实为应期。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "以合为应期；冲刑何者、合支及时间粒度须有实际证据。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true
+    },
+    {
+      "key": "timing_chief_void_filling",
+      "domain": "timing",
+      "scope": "timing_method_candidate",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "timing"
+        },
+        {
+          "field": "timing_task",
+          "op": "eq",
+          "value": "candidate_selection"
+        },
+        {
+          "field": "chief_in_void",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "candidate_only",
+        "method_id": "timing_chief_void_filling",
+        "default_allowed": false,
+        "compute_calendar_date": false,
+        "conflict_group": null
+      },
+      "source_lines": [
+        441
+      ],
+      "source_quote": "（2）断应期的第一种方法是用六甲值符定应期，刑、冲者以合为应期，旬空者以填实为应期。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "旬空以填实；本项目未据此补全旬空历法。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true
+    },
+    {
+      "key": "timing_instrument_combine_use_clash",
+      "domain": "timing",
+      "scope": "timing_method_candidate",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "timing"
+        },
+        {
+          "field": "timing_task",
+          "op": "eq",
+          "value": "candidate_selection"
+        },
+        {
+          "field": "chief_relation",
+          "op": "eq",
+          "value": "none"
+        },
+        {
+          "field": "chief_in_void",
+          "op": "eq",
+          "value": false
+        },
+        {
+          "field": "heaven_instrument_branch_relation",
+          "op": "eq",
+          "value": "combine"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "candidate_only",
+        "method_id": "timing_instrument_combine_use_clash",
+        "default_allowed": false,
+        "compute_calendar_date": false,
+        "conflict_group": null
+      },
+      "source_lines": [
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435,
+        436,
+        437,
+        438,
+        439,
+        440,
+        441,
+        442,
+        443,
+        444,
+        445,
+        446,
+        447
+      ],
+      "source_quote": "如果既不冲，又不刑，又不空，论断时必须看天盘六仪所带的地支来定支，也照看冲合，逢冲以其合定支，逢合以其所冲定支。\n\n天盘所带的地支又不冲，又不合，以星、门生克来确定。\n\n生逢生日，克逢克日。\n\n应验有先后的分别，符应主先，使应主后。\n\n这段话向我们提示了奇门预测断应期的主要原则和方法。\n\n归纳起来，不外乎这样几条：\n\n\n（1）奇门断应期的原则有三：\n\n一是根据用神的旺衰长生墓绝，所处宫位是内盘外盘、格局是伏吟还是反吟来判断应期的远近、快慢，远慢断年月，近快断日时；\n\n二是先定地支，后配天干，以定应期的地支为主，兼看天干定应期；\n\n三是先以值符定应期，后以值使定应期。\n\n\n（2）断应期的第一种方法是用六甲值符定应期，刑、冲者以合为应期，旬空者以填实为应期。\n\n\n（3）断应期的第二种方法是以天盘六仪所带地支看其冲合，逢合以冲定地支，逢冲以合定地支。\n\n\n（4）断应期的第三种方法，是天盘所带地支又不冲又不合，则以星门生克来确定，生逢生日，克逢克日。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "依据419行的次级条件；逢合以冲定支，缺值符冲刑空状态时不默认进入。",
+        "修订2保留419—423的前级排除条件，先排除值符冲、刑、空，再进入六仪冲合及星门生克；旧修订仅供审计，不参与当前匹配。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true,
+      "record_revision": 2
+    },
+    {
+      "key": "timing_instrument_clash_use_combine",
+      "domain": "timing",
+      "scope": "timing_method_candidate",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "timing"
+        },
+        {
+          "field": "timing_task",
+          "op": "eq",
+          "value": "candidate_selection"
+        },
+        {
+          "field": "chief_relation",
+          "op": "eq",
+          "value": "none"
+        },
+        {
+          "field": "chief_in_void",
+          "op": "eq",
+          "value": false
+        },
+        {
+          "field": "heaven_instrument_branch_relation",
+          "op": "eq",
+          "value": "clash"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "candidate_only",
+        "method_id": "timing_instrument_clash_use_combine",
+        "default_allowed": false,
+        "compute_calendar_date": false,
+        "conflict_group": null
+      },
+      "source_lines": [
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435,
+        436,
+        437,
+        438,
+        439,
+        440,
+        441,
+        442,
+        443,
+        444,
+        445,
+        446,
+        447
+      ],
+      "source_quote": "如果既不冲，又不刑，又不空，论断时必须看天盘六仪所带的地支来定支，也照看冲合，逢冲以其合定支，逢合以其所冲定支。\n\n天盘所带的地支又不冲，又不合，以星、门生克来确定。\n\n生逢生日，克逢克日。\n\n应验有先后的分别，符应主先，使应主后。\n\n这段话向我们提示了奇门预测断应期的主要原则和方法。\n\n归纳起来，不外乎这样几条：\n\n\n（1）奇门断应期的原则有三：\n\n一是根据用神的旺衰长生墓绝，所处宫位是内盘外盘、格局是伏吟还是反吟来判断应期的远近、快慢，远慢断年月，近快断日时；\n\n二是先定地支，后配天干，以定应期的地支为主，兼看天干定应期；\n\n三是先以值符定应期，后以值使定应期。\n\n\n（2）断应期的第一种方法是用六甲值符定应期，刑、冲者以合为应期，旬空者以填实为应期。\n\n\n（3）断应期的第二种方法是以天盘六仪所带地支看其冲合，逢合以冲定地支，逢冲以合定地支。\n\n\n（4）断应期的第三种方法，是天盘所带地支又不冲又不合，则以星门生克来确定，生逢生日，克逢克日。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "逢冲以合定支；不能拿任意地支合冲代替六仪所带支。",
+        "修订2保留419—423的前级排除条件，先排除值符冲、刑、空，再进入六仪冲合及星门生克；旧修订仅供审计，不参与当前匹配。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true,
+      "record_revision": 2
+    },
+    {
+      "key": "timing_star_door_fallback",
+      "domain": "timing",
+      "scope": "timing_method_candidate",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "timing"
+        },
+        {
+          "field": "timing_task",
+          "op": "eq",
+          "value": "candidate_selection"
+        },
+        {
+          "field": "chief_relation",
+          "op": "eq",
+          "value": "none"
+        },
+        {
+          "field": "chief_in_void",
+          "op": "eq",
+          "value": false
+        },
+        {
+          "field": "heaven_instrument_branch_relation",
+          "op": "eq",
+          "value": "neither_combine_nor_clash"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "candidate_only",
+        "method_id": "timing_star_door_fallback",
+        "default_allowed": false,
+        "compute_calendar_date": false,
+        "conflict_group": null
+      },
+      "source_lines": [
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435,
+        436,
+        437,
+        438,
+        439,
+        440,
+        441,
+        442,
+        443,
+        444,
+        445,
+        446,
+        447
+      ],
+      "source_quote": "如果既不冲，又不刑，又不空，论断时必须看天盘六仪所带的地支来定支，也照看冲合，逢冲以其合定支，逢合以其所冲定支。\n\n天盘所带的地支又不冲，又不合，以星、门生克来确定。\n\n生逢生日，克逢克日。\n\n应验有先后的分别，符应主先，使应主后。\n\n这段话向我们提示了奇门预测断应期的主要原则和方法。\n\n归纳起来，不外乎这样几条：\n\n\n（1）奇门断应期的原则有三：\n\n一是根据用神的旺衰长生墓绝，所处宫位是内盘外盘、格局是伏吟还是反吟来判断应期的远近、快慢，远慢断年月，近快断日时；\n\n二是先定地支，后配天干，以定应期的地支为主，兼看天干定应期；\n\n三是先以值符定应期，后以值使定应期。\n\n\n（2）断应期的第一种方法是用六甲值符定应期，刑、冲者以合为应期，旬空者以填实为应期。\n\n\n（3）断应期的第二种方法是以天盘六仪所带地支看其冲合，逢合以冲定地支，逢冲以合定地支。\n\n\n（4）断应期的第三种方法，是天盘所带地支又不冲又不合，则以星门生克来确定，生逢生日，克逢克日。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "星门生克，生逢生日克逢克日；对象/日期粒度仍缺，不产生日期。",
+        "修订2保留419—423的前级排除条件，先排除值符冲、刑、空，再进入六仪冲合及星门生克；旧修订仅供审计，不参与当前匹配。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true,
+      "record_revision": 2
+    },
+    {
+      "key": "timing_role_birth_prosperity",
+      "domain": "timing",
+      "scope": "timing_method_candidate",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "timing"
+        },
+        {
+          "field": "timing_task",
+          "op": "eq",
+          "value": "candidate_selection"
+        },
+        {
+          "field": "role_life_stage",
+          "op": "in",
+          "value": [
+            "长生",
+            "旺",
+            "相"
+          ]
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "candidate_only",
+        "method_id": "timing_role_birth_prosperity",
+        "default_allowed": false,
+        "compute_calendar_date": false,
+        "conflict_group": null
+      },
+      "source_lines": [
+        453
+      ],
+      "source_quote": "（5）用神长生、旺相应期。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "只列方法名，未给唯一时点算法。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true
+    },
+    {
+      "key": "timing_role_death_tomb_extinction",
+      "domain": "timing",
+      "scope": "timing_method_candidate",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "timing"
+        },
+        {
+          "field": "timing_task",
+          "op": "eq",
+          "value": "candidate_selection"
+        },
+        {
+          "field": "role_life_stage",
+          "op": "in",
+          "value": [
+            "死",
+            "墓",
+            "绝"
+          ]
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "candidate_only",
+        "method_id": "timing_role_death_tomb_extinction",
+        "default_allowed": false,
+        "compute_calendar_date": false,
+        "conflict_group": null
+      },
+      "source_lines": [
+        456
+      ],
+      "source_quote": "（6）用神死、墓、绝应期。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "只列方法名，未给唯一时点算法。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true
+    },
+    {
+      "key": "timing_geng_day_polarity",
+      "domain": "timing",
+      "scope": "timing_method_candidate",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "timing"
+        },
+        {
+          "field": "timing_task",
+          "op": "eq",
+          "value": "candidate_selection"
+        },
+        {
+          "field": "geng_matches_year_month_day_hour",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "day_polarity",
+          "op": "in",
+          "value": [
+            "yin",
+            "yang"
+          ]
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "timing_geng_day_polarity",
+        "default_allowed": false,
+        "compute_calendar_date": false,
+        "conflict_group": "geng_polarity_basis"
+      },
+      "source_lines": [
+        459,
+        460,
+        461
+      ],
+      "source_quote": "（7）庚格应期（庚临年、月、日、时）；阴日看庚上之干，阳日看庚下之干为应期；时干临阴星，看庚上之干，时干临阳星，看庚下之干为应期。\n\n庚格应期多用于破案和行人走失。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "阴日庚上、阳日庚下；与同句时干临星阴阳为不同判断口径。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true
+    },
+    {
+      "key": "timing_geng_hour_star_polarity",
+      "domain": "timing",
+      "scope": "timing_method_candidate",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "timing"
+        },
+        {
+          "field": "timing_task",
+          "op": "eq",
+          "value": "candidate_selection"
+        },
+        {
+          "field": "geng_matches_year_month_day_hour",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "star_at_hour_stem_polarity",
+          "op": "in",
+          "value": [
+            "yin",
+            "yang"
+          ]
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "timing_geng_hour_star_polarity",
+        "default_allowed": false,
+        "compute_calendar_date": false,
+        "conflict_group": "geng_polarity_basis"
+      },
+      "source_lines": [
+        459,
+        460,
+        461
+      ],
+      "source_quote": "（7）庚格应期（庚临年、月、日、时）；阴日看庚上之干，阳日看庚下之干为应期；时干临阴星，看庚上之干，时干临阳星，看庚下之干为应期。\n\n庚格应期多用于破案和行人走失。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "阴星庚上、阳星庚下；两口径冲突时原文未给优先级。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true
+    },
+    {
+      "key": "timing_void_fill_or_clash",
+      "domain": "timing",
+      "scope": "timing_method_candidate",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "timing"
+        },
+        {
+          "field": "timing_task",
+          "op": "eq",
+          "value": "candidate_selection"
+        },
+        {
+          "field": "selected_role_in_void",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "timing_void_fill_or_clash",
+        "default_allowed": false,
+        "compute_calendar_date": false,
+        "conflict_group": null
+      },
+      "source_lines": [
+        464
+      ],
+      "source_quote": "（8）旬空填实为应期，旬空冲实为应期。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "填实与冲实并列，无默认二选一或具体公历日期。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true
+    },
+    {
+      "key": "timing_tomb_clash",
+      "domain": "timing",
+      "scope": "timing_method_candidate",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "timing"
+        },
+        {
+          "field": "timing_task",
+          "op": "eq",
+          "value": "candidate_selection"
+        },
+        {
+          "field": "selected_role_in_tomb",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "candidate_only",
+        "method_id": "timing_tomb_clash",
+        "default_allowed": false,
+        "compute_calendar_date": false,
+        "conflict_group": null
+      },
+      "source_lines": [
+        467
+      ],
+      "source_quote": "（9）冲墓为应期。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "冲墓为应期；必须先有有效墓法及冲支，不强行跨法通用。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true
+    },
+    {
+      "key": "timing_horse_motion",
+      "domain": "timing",
+      "scope": "timing_method_candidate",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "timing"
+        },
+        {
+          "field": "timing_task",
+          "op": "eq",
+          "value": "candidate_selection"
+        },
+        {
+          "field": "horse_fact_available",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "horse_motion_condition_satisfied",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "candidate_only",
+        "method_id": "timing_horse_motion",
+        "default_allowed": false,
+        "compute_calendar_date": false,
+        "conflict_group": null
+      },
+      "source_lines": [
+        470
+      ],
+      "source_quote": "（10）马星动为应期。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "未给马星计算/动的完整判断算法；不能凭空补马星。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true
+    },
+    {
+      "key": "timing_chief_door_stem_or_number",
+      "domain": "timing",
+      "scope": "timing_method_candidate",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "timing"
+        },
+        {
+          "field": "timing_task",
+          "op": "eq",
+          "value": "candidate_selection"
+        },
+        {
+          "field": "chief_door_landing_available",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "timing_chief_door_stem_or_number",
+        "default_allowed": false,
+        "compute_calendar_date": false,
+        "conflict_group": null
+      },
+      "source_lines": [
+        473
+      ],
+      "source_quote": "（11）值使门所临之干为应期，值使门所落宫数为应期。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "值使门所临干与落宫数两种并列，应取何单位何法未定。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true
+    },
+    {
+      "key": "timing_hour_stem_palace_number",
+      "domain": "timing",
+      "scope": "timing_method_candidate",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "timing"
+        },
+        {
+          "field": "timing_task",
+          "op": "eq",
+          "value": "candidate_selection"
+        },
+        {
+          "field": "hour_stem_landing_available",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "candidate_only",
+        "method_id": "timing_hour_stem_palace_number",
+        "default_allowed": false,
+        "compute_calendar_date": false,
+        "conflict_group": null
+      },
+      "source_lines": [
+        476
+      ],
+      "source_quote": "（12）时干所落宫数为应期。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "宫数不自动等于日数/月数；无完整时间锚点则不算日期。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true
+    },
+    {
+      "key": "timing_day_hour_branch_relations",
+      "domain": "timing",
+      "scope": "timing_method_candidate",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "timing"
+        },
+        {
+          "field": "timing_task",
+          "op": "eq",
+          "value": "candidate_selection"
+        },
+        {
+          "field": "day_hour_branches_available",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "candidate_only",
+        "method_id": "timing_day_hour_branch_relations",
+        "default_allowed": false,
+        "compute_calendar_date": false,
+        "conflict_group": null
+      },
+      "source_lines": [
+        479
+      ],
+      "source_quote": "（13）日支、时支三合六合为应期，日支时支刑冲克害为应期，等等。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "三合六合与刑冲克害并列，应验支/年月日时单位均需额外明确。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true
+    },
+    {
+      "key": "geng_side_day_yin",
+      "domain": "timing",
+      "scope": "geng_perspective_reference",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "timing"
+        },
+        {
+          "field": "geng_matches_year_month_day_hour",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "geng_polarity_method",
+          "op": "eq",
+          "value": "day_basis"
+        },
+        {
+          "field": "day_polarity",
+          "op": "eq",
+          "value": "yin"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "geng_day_basis",
+        "conflict_group": "geng_polarity_basis",
+        "default_allowed": false
+      },
+      "source_lines": [
+        459,
+        460,
+        461
+      ],
+      "source_quote": "（7）庚格应期（庚临年、月、日、时）；阴日看庚上之干，阳日看庚下之干为应期；时干临阴星，看庚上之干，时干临阳星，看庚下之干为应期。\n\n庚格应期多用于破案和行人走失。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "若两口径同时满足而指向相反，不默认第一条胜出；先保留disputed并要求指定方法。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "above_geng"
+        ],
+        "semantic_role": "timing_stem_reference",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "geng_side_day_yang",
+      "domain": "timing",
+      "scope": "geng_perspective_reference",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "timing"
+        },
+        {
+          "field": "geng_matches_year_month_day_hour",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "geng_polarity_method",
+          "op": "eq",
+          "value": "day_basis"
+        },
+        {
+          "field": "day_polarity",
+          "op": "eq",
+          "value": "yang"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "geng_day_basis",
+        "conflict_group": "geng_polarity_basis",
+        "default_allowed": false
+      },
+      "source_lines": [
+        459,
+        460,
+        461
+      ],
+      "source_quote": "（7）庚格应期（庚临年、月、日、时）；阴日看庚上之干，阳日看庚下之干为应期；时干临阴星，看庚上之干，时干临阳星，看庚下之干为应期。\n\n庚格应期多用于破案和行人走失。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "若两口径同时满足而指向相反，不默认第一条胜出；先保留disputed并要求指定方法。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "below_geng"
+        ],
+        "semantic_role": "timing_stem_reference",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "geng_side_star_yin",
+      "domain": "timing",
+      "scope": "geng_perspective_reference",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "timing"
+        },
+        {
+          "field": "geng_matches_year_month_day_hour",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "geng_polarity_method",
+          "op": "eq",
+          "value": "hour_star_basis"
+        },
+        {
+          "field": "star_at_hour_stem_polarity",
+          "op": "eq",
+          "value": "yin"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "geng_hour_star_basis",
+        "conflict_group": "geng_polarity_basis",
+        "default_allowed": false
+      },
+      "source_lines": [
+        459,
+        460,
+        461
+      ],
+      "source_quote": "（7）庚格应期（庚临年、月、日、时）；阴日看庚上之干，阳日看庚下之干为应期；时干临阴星，看庚上之干，时干临阳星，看庚下之干为应期。\n\n庚格应期多用于破案和行人走失。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "若两口径同时满足而指向相反，不默认第一条胜出；先保留disputed并要求指定方法。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "above_geng"
+        ],
+        "semantic_role": "timing_stem_reference",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "geng_side_star_yang",
+      "domain": "timing",
+      "scope": "geng_perspective_reference",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "timing"
+        },
+        {
+          "field": "geng_matches_year_month_day_hour",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "geng_polarity_method",
+          "op": "eq",
+          "value": "hour_star_basis"
+        },
+        {
+          "field": "star_at_hour_stem_polarity",
+          "op": "eq",
+          "value": "yang"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "geng_hour_star_basis",
+        "conflict_group": "geng_polarity_basis",
+        "default_allowed": false
+      },
+      "source_lines": [
+        459,
+        460,
+        461
+      ],
+      "source_quote": "（7）庚格应期（庚临年、月、日、时）；阴日看庚上之干，阳日看庚下之干为应期；时干临阴星，看庚上之干，时干临阳星，看庚下之干为应期。\n\n庚格应期多用于破案和行人走失。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "若两口径同时满足而指向相反，不默认第一条胜出；先保留disputed并要求指定方法。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "below_geng"
+        ],
+        "semantic_role": "timing_stem_reference",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    }
+  ],
+  "historical_candidates": [
+    {
+      "key": "timing_instrument_combine_use_clash",
+      "domain": "timing",
+      "scope": "timing_method_candidate",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "timing"
+        },
+        {
+          "field": "timing_task",
+          "op": "eq",
+          "value": "candidate_selection"
+        },
+        {
+          "field": "chief_relation",
+          "op": "eq",
+          "value": "none"
+        },
+        {
+          "field": "chief_in_void",
+          "op": "eq",
+          "value": false
+        },
+        {
+          "field": "heaven_instrument_branch_relation",
+          "op": "eq",
+          "value": "combine"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "candidate_only",
+        "method_id": "timing_instrument_combine_use_clash",
+        "default_allowed": false,
+        "compute_calendar_date": false,
+        "conflict_group": null
+      },
+      "source_lines": [
+        444
+      ],
+      "source_quote": "（3）断应期的第二种方法是以天盘六仪所带地支看其冲合，逢合以冲定地支，逢冲以合定地支。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "依据419行的次级条件；逢合以冲定支，缺值符冲刑空状态时不默认进入。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true
+    },
+    {
+      "key": "timing_instrument_clash_use_combine",
+      "domain": "timing",
+      "scope": "timing_method_candidate",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "timing"
+        },
+        {
+          "field": "timing_task",
+          "op": "eq",
+          "value": "candidate_selection"
+        },
+        {
+          "field": "chief_relation",
+          "op": "eq",
+          "value": "none"
+        },
+        {
+          "field": "chief_in_void",
+          "op": "eq",
+          "value": false
+        },
+        {
+          "field": "heaven_instrument_branch_relation",
+          "op": "eq",
+          "value": "clash"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "candidate_only",
+        "method_id": "timing_instrument_clash_use_combine",
+        "default_allowed": false,
+        "compute_calendar_date": false,
+        "conflict_group": null
+      },
+      "source_lines": [
+        444
+      ],
+      "source_quote": "（3）断应期的第二种方法是以天盘六仪所带地支看其冲合，逢合以冲定地支，逢冲以合定地支。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "逢冲以合定支；不能拿任意地支合冲代替六仪所带支。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true
+    },
+    {
+      "key": "timing_star_door_fallback",
+      "domain": "timing",
+      "scope": "timing_method_candidate",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "timing"
+        },
+        {
+          "field": "timing_task",
+          "op": "eq",
+          "value": "candidate_selection"
+        },
+        {
+          "field": "heaven_instrument_branch_relation",
+          "op": "eq",
+          "value": "neither_combine_nor_clash"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "candidate_only",
+        "method_id": "timing_star_door_fallback",
+        "default_allowed": false,
+        "compute_calendar_date": false,
+        "conflict_group": null
+      },
+      "source_lines": [
+        447
+      ],
+      "source_quote": "（4）断应期的第三种方法，是天盘所带地支又不冲又不合，则以星门生克来确定，生逢生日，克逢克日。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "星门生克，生逢生日克逢克日；对象/日期粒度仍缺，不产生日期。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true
+    }
+  ],
+  "candidate_record_count": 61,
+  "revision_policy": "Append-only per-source/per-key contiguous record_revision. historical_candidates retained for audit; only highest revision participates in current condition inspection."
+}

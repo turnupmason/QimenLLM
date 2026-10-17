@@ -95,3 +95,11 @@ CLI/API calculate symbolic_chart → QimenService.calculate → PaperCalculator 
 chart_observations只调用一次同一PaperCalculator，再由immutable_chart序列化冻结，读该Chart的door位置检查门宫方向。返回原盘、chart_id及带引用的观测；不创建新的排盘算法，不更改问事门槛。ask仍要求engine_verified与真实条件规则，未满足不调用模型。
 
 合并附件原件在data/provenance/uploads，两个章节原样切片在raw_documents及快照，import manifest给parent hash/字节边界。两片拼接恢复原件。第四章编号取文件名，旧导入键不重编号。附件指令文字只当文献数据。新增.gitattributes对原始字节和总指令禁换行转换，对raw快照/原附件禁文本diff，不靠删空白通过检查。schema v1不变。
+
+## 应用概述：候选版本与完整案例真实链
+
+rule-candidates / POST /v1/rule-candidates → QimenService.rule_candidates → rules.candidates.inspect_candidates → 实际knowledge_items/source SQL +三态条件。每来源/候选键只读取最高record_revision，修正追加而非更新；当前58候选/61历史条。symbolic_status只表示给定条件匹配，activation_status始终reference_only；候选不进入专业模型。ask在同一understanding/retrieval/selection阶段真实检索并记候选ID/出处/缺项，不记录用户上下文值，不取代正式rules与全盘门槛。
+
+case / POST /v1/case → QimenService.case → cases.inspection → case_events/events/charts/case_records/evidence_links及精确原文。完整学习与严格事前视图分开；后者不返回无权限背景/目标/反馈/unknown/整盘；不是正式训练导出。cases.ingestion逐事件保存局部原盘与完整叙述，全局显式family_key支持已识别同事件跨来源复用。原文完整、局部解析、计算验证和独立结果验证分别跟踪。
+
+ApplicationFactsCalculator通过既有单入口calculate读3个新编译族：内外16、9应支例及比较范围；横看用实际落宫元素，竖看固定星门属性与同宫。八神不默认按固定元素比较，未知中五不推寄宫，应支不转换日期。源例复核仅显式符号纸上法比较，不给局部原盘改engine_verified。schema v1及旧权威行保持不变。

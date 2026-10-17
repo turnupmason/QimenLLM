@@ -39,6 +39,11 @@ def main(argv=None):
     learn = subs.add_parser('learn'); learn.add_argument('term')
     reference = subs.add_parser('reference'); reference.add_argument('family')
     reference.add_argument('--filters',default='{}')
+    candidates = subs.add_parser('rule-candidates')
+    candidates.add_argument('--context',default='{}'); candidates.add_argument('--domain')
+    candidates.add_argument('--method')
+    case = subs.add_parser('case'); case.add_argument('case_id')
+    case.add_argument('--view',choices=('full','before_prediction'),default='full')
     calculate = subs.add_parser('calculate'); calculate.add_argument('operation')
     calc_input=calculate.add_mutually_exclusive_group()
     calc_input.add_argument('--args',default='{}'); calc_input.add_argument('--args-file',type=Path)
@@ -79,6 +84,9 @@ def main(argv=None):
     else:
         service=QimenService(args.db)
         if args.command=='ask': result=service.ask(Inquiry(args.text))
+        elif args.command=='rule-candidates':
+            result=service.rule_candidates(json.loads(args.context),args.domain,args.method)
+        elif args.command=='case': result=service.case(args.case_id,args.view)
         elif args.command=='reference': result=service.reference(args.family,json.loads(args.filters))
         elif args.command=='calculate':
             payload=json.loads(args.args_file.read_bytes() if args.args_file else args.args)

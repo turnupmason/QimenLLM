@@ -1,0 +1,1925 @@
+{
+  "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+  "source_line_count": 479,
+  "gold_generation": "independent manual source transcription and condition logic; no tested program outputs used",
+  "scope": "symbolic source-candidate selection tests, not divination correctness or runtime formal-role activation",
+  "selection_cases": [
+    {
+      "key": "classify_motion_host",
+      "context": {
+        "domain": "host_guest_classification",
+        "classification_dimension": "motion",
+        "dimension_value": "static"
+      },
+      "expected": {
+        "candidate_key": "host_guest_motion_host",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        154
+      ]
+    },
+    {
+      "key": "classify_motion_guest",
+      "context": {
+        "domain": "host_guest_classification",
+        "classification_dimension": "motion",
+        "dimension_value": "moving"
+      },
+      "expected": {
+        "candidate_key": "host_guest_motion_guest",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        154
+      ]
+    },
+    {
+      "key": "missing_dimension_value_motion",
+      "context": {
+        "domain": "host_guest_classification",
+        "classification_dimension": "motion"
+      },
+      "expected": {
+        "candidate_key": "host_guest_motion_host",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "missing_fields": [
+          "dimension_value"
+        ]
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        154
+      ]
+    },
+    {
+      "key": "wrong_dimension_excludes_motion",
+      "context": {
+        "domain": "host_guest_classification",
+        "classification_dimension": "different_dimension",
+        "dimension_value": "static"
+      },
+      "expected": {
+        "candidate_key": "host_guest_motion_host",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        154
+      ]
+    },
+    {
+      "key": "classify_order_host",
+      "context": {
+        "domain": "host_guest_classification",
+        "classification_dimension": "order",
+        "dimension_value": "later"
+      },
+      "expected": {
+        "candidate_key": "host_guest_order_host",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        156
+      ]
+    },
+    {
+      "key": "classify_order_guest",
+      "context": {
+        "domain": "host_guest_classification",
+        "classification_dimension": "order",
+        "dimension_value": "earlier"
+      },
+      "expected": {
+        "candidate_key": "host_guest_order_guest",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        156
+      ]
+    },
+    {
+      "key": "missing_dimension_value_order",
+      "context": {
+        "domain": "host_guest_classification",
+        "classification_dimension": "order"
+      },
+      "expected": {
+        "candidate_key": "host_guest_order_host",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "missing_fields": [
+          "dimension_value"
+        ]
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        156
+      ]
+    },
+    {
+      "key": "wrong_dimension_excludes_order",
+      "context": {
+        "domain": "host_guest_classification",
+        "classification_dimension": "different_dimension",
+        "dimension_value": "later"
+      },
+      "expected": {
+        "candidate_key": "host_guest_order_host",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        156
+      ]
+    },
+    {
+      "key": "classify_attitude_host",
+      "context": {
+        "domain": "host_guest_classification",
+        "classification_dimension": "attitude",
+        "dimension_value": "passive_or_defending"
+      },
+      "expected": {
+        "candidate_key": "host_guest_attitude_host",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        158
+      ]
+    },
+    {
+      "key": "classify_attitude_guest",
+      "context": {
+        "domain": "host_guest_classification",
+        "classification_dimension": "attitude",
+        "dimension_value": "active_or_attacking"
+      },
+      "expected": {
+        "candidate_key": "host_guest_attitude_guest",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        158
+      ]
+    },
+    {
+      "key": "missing_dimension_value_attitude",
+      "context": {
+        "domain": "host_guest_classification",
+        "classification_dimension": "attitude"
+      },
+      "expected": {
+        "candidate_key": "host_guest_attitude_host",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "missing_fields": [
+          "dimension_value"
+        ]
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        158
+      ]
+    },
+    {
+      "key": "wrong_dimension_excludes_attitude",
+      "context": {
+        "domain": "host_guest_classification",
+        "classification_dimension": "different_dimension",
+        "dimension_value": "passive_or_defending"
+      },
+      "expected": {
+        "candidate_key": "host_guest_attitude_host",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        158
+      ]
+    },
+    {
+      "key": "classify_plate_host",
+      "context": {
+        "domain": "host_guest_classification",
+        "classification_dimension": "plate",
+        "dimension_value": "earth"
+      },
+      "expected": {
+        "candidate_key": "host_guest_plate_host",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        160
+      ]
+    },
+    {
+      "key": "classify_plate_guest",
+      "context": {
+        "domain": "host_guest_classification",
+        "classification_dimension": "plate",
+        "dimension_value": "heaven"
+      },
+      "expected": {
+        "candidate_key": "host_guest_plate_guest",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        160
+      ]
+    },
+    {
+      "key": "missing_dimension_value_plate",
+      "context": {
+        "domain": "host_guest_classification",
+        "classification_dimension": "plate"
+      },
+      "expected": {
+        "candidate_key": "host_guest_plate_host",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "missing_fields": [
+          "dimension_value"
+        ]
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        160
+      ]
+    },
+    {
+      "key": "wrong_dimension_excludes_plate",
+      "context": {
+        "domain": "host_guest_classification",
+        "classification_dimension": "different_dimension",
+        "dimension_value": "earth"
+      },
+      "expected": {
+        "candidate_key": "host_guest_plate_host",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        160
+      ]
+    },
+    {
+      "key": "classify_distance_host",
+      "context": {
+        "domain": "host_guest_classification",
+        "classification_dimension": "distance",
+        "dimension_value": "near"
+      },
+      "expected": {
+        "candidate_key": "host_guest_distance_host",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        162
+      ]
+    },
+    {
+      "key": "classify_distance_guest",
+      "context": {
+        "domain": "host_guest_classification",
+        "classification_dimension": "distance",
+        "dimension_value": "far"
+      },
+      "expected": {
+        "candidate_key": "host_guest_distance_guest",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        162
+      ]
+    },
+    {
+      "key": "missing_dimension_value_distance",
+      "context": {
+        "domain": "host_guest_classification",
+        "classification_dimension": "distance"
+      },
+      "expected": {
+        "candidate_key": "host_guest_distance_host",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "missing_fields": [
+          "dimension_value"
+        ]
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        162
+      ]
+    },
+    {
+      "key": "wrong_dimension_excludes_distance",
+      "context": {
+        "domain": "host_guest_classification",
+        "classification_dimension": "different_dimension",
+        "dimension_value": "near"
+      },
+      "expected": {
+        "candidate_key": "host_guest_distance_host",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        162
+      ]
+    },
+    {
+      "key": "self",
+      "context": {
+        "domain": "health",
+        "target_relationship": "self"
+      },
+      "expected": {
+        "candidate_key": "health_self_patient",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        302,
+        303,
+        304,
+        305,
+        306
+      ]
+    },
+    {
+      "key": "self_missing_relation",
+      "context": {
+        "domain": "health"
+      },
+      "expected": {
+        "candidate_key": "health_self_patient",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "missing_fields": [
+          "target_relationship"
+        ]
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        302,
+        303,
+        304,
+        305,
+        306
+      ]
+    },
+    {
+      "key": "other_not_self",
+      "context": {
+        "domain": "health",
+        "target_relationship": "mother"
+      },
+      "expected": {
+        "candidate_key": "health_self_patient",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        302,
+        303,
+        304,
+        305,
+        306
+      ]
+    },
+    {
+      "key": "father_descendant",
+      "context": {
+        "domain": "health",
+        "target_relationship": "father",
+        "asker_generation_relative_to_target": "descendant"
+      },
+      "expected": {
+        "candidate_key": "health_elder_generation_patient",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        304,
+        305,
+        306
+      ]
+    },
+    {
+      "key": "mother_descendant",
+      "context": {
+        "domain": "health",
+        "target_relationship": "mother",
+        "asker_generation_relative_to_target": "descendant"
+      },
+      "expected": {
+        "candidate_key": "health_elder_generation_patient",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        304,
+        305,
+        306
+      ]
+    },
+    {
+      "key": "father_missing_generation",
+      "context": {
+        "domain": "health",
+        "target_relationship": "father"
+      },
+      "expected": {
+        "candidate_key": "health_elder_generation_patient",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "missing_fields": [
+          "asker_generation_relative_to_target"
+        ]
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        304,
+        305,
+        306
+      ]
+    },
+    {
+      "key": "older_brother_not_elder_generation",
+      "context": {
+        "domain": "health",
+        "target_relationship": "brother",
+        "age_difference": 12
+      },
+      "expected": {
+        "candidate_key": "health_elder_generation_patient",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        304,
+        305,
+        306
+      ]
+    },
+    {
+      "key": "older_brother_month",
+      "context": {
+        "domain": "health",
+        "target_relationship": "elder_brother",
+        "age_difference": 12
+      },
+      "expected": {
+        "candidate_key": "health_sibling_patient",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        304,
+        305,
+        306
+      ]
+    },
+    {
+      "key": "colleague_month",
+      "context": {
+        "domain": "health",
+        "target_relationship": "colleague"
+      },
+      "expected": {
+        "candidate_key": "health_colleague_patient",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        304,
+        305,
+        306
+      ]
+    },
+    {
+      "key": "child_parent",
+      "context": {
+        "domain": "health",
+        "target_relationship": "daughter",
+        "asker_generation_relative_to_target": "parent_generation"
+      },
+      "expected": {
+        "candidate_key": "health_child_patient",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        304,
+        305,
+        306
+      ]
+    },
+    {
+      "key": "younger_unknown_not_child",
+      "context": {
+        "domain": "health",
+        "age_difference": -20
+      },
+      "expected": {
+        "candidate_key": "health_child_patient",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "missing_fields": [
+          "target_relationship",
+          "asker_generation_relative_to_target"
+        ]
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        304,
+        305,
+        306
+      ]
+    },
+    {
+      "key": "wrong_domain",
+      "context": {
+        "domain": "career",
+        "target_relationship": "self"
+      },
+      "expected": {
+        "candidate_key": "health_self_patient",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        302,
+        303,
+        304,
+        305,
+        306
+      ]
+    },
+    {
+      "key": "big_sister_extra",
+      "context": {
+        "domain": "health",
+        "target_relationship": "sister",
+        "source_family_role": "大姐"
+      },
+      "expected": {
+        "candidate_key": "health_big_sister_palace_supplement",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        304,
+        305,
+        306
+      ]
+    },
+    {
+      "key": "sister_no_rank",
+      "context": {
+        "domain": "health",
+        "target_relationship": "sister"
+      },
+      "expected": {
+        "candidate_key": "health_big_sister_palace_supplement",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "missing_fields": [
+          "source_family_role"
+        ]
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        304,
+        305,
+        306
+      ]
+    },
+    {
+      "key": "little_brother_extra",
+      "context": {
+        "domain": "health",
+        "target_relationship": "brother",
+        "source_family_role": "小弟"
+      },
+      "expected": {
+        "candidate_key": "health_little_brother_palace_supplement",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        304,
+        305,
+        306
+      ]
+    },
+    {
+      "key": "young_son_needs_stage",
+      "context": {
+        "domain": "health",
+        "target_relationship": "son",
+        "asker_generation_relative_to_target": "parent_generation",
+        "source_life_stage": "少男"
+      },
+      "expected": {
+        "candidate_key": "health_young_son_palace_supplement",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        304,
+        305,
+        306
+      ]
+    },
+    {
+      "key": "young_age_not_stage",
+      "context": {
+        "domain": "health",
+        "target_relationship": "son",
+        "asker_generation_relative_to_target": "parent_generation",
+        "target_age": 15
+      },
+      "expected": {
+        "candidate_key": "health_young_son_palace_supplement",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "missing_fields": [
+          "source_life_stage"
+        ]
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        304,
+        305,
+        306
+      ]
+    },
+    {
+      "key": "illness_event_hour",
+      "context": {
+        "domain": "health",
+        "analysis_object": "illness_event"
+      },
+      "expected": {
+        "candidate_key": "health_event_hour_stem",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        302,
+        303,
+        304,
+        305,
+        306
+      ]
+    },
+    {
+      "key": "doctor_pair",
+      "context": {
+        "domain": "health",
+        "analysis_object": "medical_care"
+      },
+      "expected": {
+        "candidate_key": "health_medical_care_symbols",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306
+      ]
+    },
+    {
+      "key": "crime_robbery_homicide",
+      "context": {
+        "domain": "crime",
+        "crime_subtype": "robbery_homicide"
+      },
+      "expected": {
+        "candidate_key": "crime_robbery_homicide_tianpeng",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        293,
+        294,
+        295
+      ]
+    },
+    {
+      "key": "crime_missing_robbery_homicide",
+      "context": {
+        "domain": "crime"
+      },
+      "expected": {
+        "candidate_key": "crime_robbery_homicide_tianpeng",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "missing_fields": [
+          "crime_subtype"
+        ]
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        293,
+        294,
+        295
+      ]
+    },
+    {
+      "key": "crime_other_robbery_homicide",
+      "context": {
+        "domain": "crime",
+        "crime_subtype": "petty_theft"
+      },
+      "expected": {
+        "candidate_key": "crime_robbery_homicide_tianpeng",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        293,
+        294,
+        295
+      ]
+    },
+    {
+      "key": "crime_petty_theft",
+      "context": {
+        "domain": "crime",
+        "crime_subtype": "petty_theft"
+      },
+      "expected": {
+        "candidate_key": "crime_petty_theft_xuanwu",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        293,
+        294,
+        295
+      ]
+    },
+    {
+      "key": "crime_missing_petty_theft",
+      "context": {
+        "domain": "crime"
+      },
+      "expected": {
+        "candidate_key": "crime_petty_theft_xuanwu",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "missing_fields": [
+          "crime_subtype"
+        ]
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        293,
+        294,
+        295
+      ]
+    },
+    {
+      "key": "crime_other_petty_theft",
+      "context": {
+        "domain": "crime",
+        "crime_subtype": "robbery_homicide"
+      },
+      "expected": {
+        "candidate_key": "crime_petty_theft_xuanwu",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        293,
+        294,
+        295
+      ]
+    },
+    {
+      "key": "phone_origin_south",
+      "context": {
+        "domain": "directional_inquiry",
+        "event_type": "telephone_call",
+        "reported_origin_direction": "south"
+      },
+      "expected": {
+        "candidate_key": "direction_south_call_li",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        293,
+        294,
+        295
+      ]
+    },
+    {
+      "key": "phone_no_origin",
+      "context": {
+        "domain": "directional_inquiry",
+        "event_type": "telephone_call"
+      },
+      "expected": {
+        "candidate_key": "direction_south_call_li",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "missing_fields": [
+          "reported_origin_direction"
+        ]
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        293,
+        294,
+        295
+      ]
+    },
+    {
+      "key": "pointing_southwest",
+      "context": {
+        "domain": "directional_inquiry",
+        "event_type": "asked_person",
+        "gesture_direction": "southwest"
+      },
+      "expected": {
+        "candidate_key": "direction_southwest_pointing_kun",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        293,
+        294,
+        295
+      ]
+    },
+    {
+      "key": "generic_day_hour_is_reference",
+      "context": {
+        "domain": "general_inquiry",
+        "analysis_mode": "headline_reference"
+      },
+      "expected": {
+        "candidate_key": "general_day_asker_hour_event",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "notes": [
+        "即使symbolic_status applicable，reference_only且formal_role_activation false。"
+      ],
+      "source_lines": [
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337
+      ]
+    },
+    {
+      "key": "birth_year_missing_not_current_year",
+      "context": {
+        "domain": "human_affairs",
+        "include_birth_year_reference": true,
+        "current_year_stem": "丙"
+      },
+      "expected": {
+        "candidate_key": "birth_year_supplement",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "missing_fields": [
+          "target_birth_year_stem"
+        ]
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328
+      ]
+    },
+    {
+      "key": "birth_year_known",
+      "context": {
+        "domain": "human_affairs",
+        "include_birth_year_reference": true,
+        "target_birth_year_stem": "辛"
+      },
+      "expected": {
+        "candidate_key": "birth_year_supplement",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328
+      ]
+    },
+    {
+      "key": "known_launch_case_time",
+      "context": {
+        "domain": "case_reproduction",
+        "source_case_id": "apataii_1995_launch",
+        "casting_time_basis": "announced_planned_event_time"
+      },
+      "expected": {
+        "candidate_key": "casting_known_scheduled_launch_case",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ]
+    },
+    {
+      "key": "generic_future_event_does_not_inherit_launch_time",
+      "context": {
+        "domain": "career",
+        "casting_time_basis": "announced_planned_event_time"
+      },
+      "expected": {
+        "candidate_key": "casting_known_scheduled_launch_case",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ]
+    },
+    {
+      "key": "timing_chief_clash_known",
+      "context": {
+        "domain": "timing",
+        "timing_task": "candidate_selection",
+        "chief_relation": "clash"
+      },
+      "expected": {
+        "candidate_key": "timing_chief_punishment_clash",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        441
+      ]
+    },
+    {
+      "key": "timing_chief_relation_missing",
+      "context": {
+        "domain": "timing",
+        "timing_task": "candidate_selection"
+      },
+      "expected": {
+        "candidate_key": "timing_chief_punishment_clash",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "missing_fields": [
+          "chief_relation"
+        ]
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        441
+      ]
+    },
+    {
+      "key": "timing_chief_not_clashing",
+      "context": {
+        "domain": "timing",
+        "timing_task": "candidate_selection",
+        "chief_relation": "none"
+      },
+      "expected": {
+        "candidate_key": "timing_chief_punishment_clash",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        441
+      ]
+    },
+    {
+      "key": "fallback_requires_explicit_no_chief_void",
+      "context": {
+        "domain": "timing",
+        "timing_task": "candidate_selection",
+        "chief_relation": "none",
+        "heaven_instrument_branch_relation": "combine"
+      },
+      "expected": {
+        "candidate_key": "timing_instrument_combine_use_clash",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "missing_fields": [
+          "chief_in_void"
+        ]
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435,
+        436,
+        437,
+        438,
+        439,
+        440,
+        441,
+        442,
+        443,
+        444,
+        445,
+        446,
+        447
+      ]
+    },
+    {
+      "key": "fallback_false_is_known",
+      "context": {
+        "domain": "timing",
+        "timing_task": "candidate_selection",
+        "chief_relation": "none",
+        "chief_in_void": false,
+        "heaven_instrument_branch_relation": "combine"
+      },
+      "expected": {
+        "candidate_key": "timing_instrument_combine_use_clash",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435,
+        436,
+        437,
+        438,
+        439,
+        440,
+        441,
+        442,
+        443,
+        444,
+        445,
+        446,
+        447
+      ]
+    },
+    {
+      "key": "horse_unknown",
+      "context": {
+        "domain": "timing",
+        "timing_task": "candidate_selection"
+      },
+      "expected": {
+        "candidate_key": "timing_horse_motion",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "missing_fields": [
+          "horse_fact_available",
+          "horse_motion_condition_satisfied"
+        ]
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        470
+      ]
+    },
+    {
+      "key": "geng_unselected_perspective",
+      "context": {
+        "domain": "timing",
+        "geng_matches_year_month_day_hour": true,
+        "day_polarity": "yin",
+        "star_at_hour_stem_polarity": "yang"
+      },
+      "expected": {
+        "candidate_key": "geng_side_day_yin",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "missing_fields": [
+          "geng_polarity_method"
+        ]
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        459,
+        460,
+        461
+      ]
+    },
+    {
+      "key": "geng_explicit_day_yin",
+      "context": {
+        "domain": "timing",
+        "geng_matches_year_month_day_hour": true,
+        "geng_polarity_method": "day_basis",
+        "day_polarity": "yin"
+      },
+      "expected": {
+        "candidate_key": "geng_side_day_yin",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "reference_side": "above_geng"
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        459,
+        460,
+        461
+      ]
+    },
+    {
+      "key": "geng_explicit_day_yang",
+      "context": {
+        "domain": "timing",
+        "geng_matches_year_month_day_hour": true,
+        "geng_polarity_method": "day_basis",
+        "day_polarity": "yang"
+      },
+      "expected": {
+        "candidate_key": "geng_side_day_yang",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "reference_side": "below_geng"
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        459,
+        460,
+        461
+      ]
+    },
+    {
+      "key": "geng_explicit_star_yin",
+      "context": {
+        "domain": "timing",
+        "geng_matches_year_month_day_hour": true,
+        "geng_polarity_method": "hour_star_basis",
+        "star_at_hour_stem_polarity": "yin"
+      },
+      "expected": {
+        "candidate_key": "geng_side_star_yin",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "reference_side": "above_geng"
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        459,
+        460,
+        461
+      ]
+    },
+    {
+      "key": "geng_explicit_star_yang",
+      "context": {
+        "domain": "timing",
+        "geng_matches_year_month_day_hour": true,
+        "geng_polarity_method": "hour_star_basis",
+        "star_at_hour_stem_polarity": "yang"
+      },
+      "expected": {
+        "candidate_key": "geng_side_star_yang",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "reference_side": "below_geng"
+      },
+      "gold_basis": "manually_transcribed_or_conditioned_from_this_source_only",
+      "source_lines": [
+        459,
+        460,
+        461
+      ]
+    },
+    {
+      "key": "fallback_star_missing_chief_basis",
+      "context": {
+        "domain": "timing",
+        "timing_task": "candidate_selection",
+        "heaven_instrument_branch_relation": "neither_combine_nor_clash"
+      },
+      "expected": {
+        "candidate_key": "timing_star_door_fallback",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "record_revision": 2,
+        "missing_fields": [
+          "chief_relation",
+          "chief_in_void"
+        ]
+      },
+      "gold_basis": "manual full-context source419–423 and summary444–447; not generated by engine",
+      "source_lines": [
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435,
+        436,
+        437,
+        438,
+        439,
+        440,
+        441,
+        442,
+        443,
+        444,
+        445,
+        446,
+        447
+      ]
+    },
+    {
+      "key": "fallback_star_chief_clash",
+      "context": {
+        "domain": "timing",
+        "timing_task": "candidate_selection",
+        "heaven_instrument_branch_relation": "neither_combine_nor_clash",
+        "chief_relation": "clash",
+        "chief_in_void": false
+      },
+      "expected": {
+        "candidate_key": "timing_star_door_fallback",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "record_revision": 2
+      },
+      "gold_basis": "manual full-context source419–423 and summary444–447; not generated by engine",
+      "source_lines": [
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435,
+        436,
+        437,
+        438,
+        439,
+        440,
+        441,
+        442,
+        443,
+        444,
+        445,
+        446,
+        447
+      ]
+    },
+    {
+      "key": "fallback_star_chief_punishment",
+      "context": {
+        "domain": "timing",
+        "timing_task": "candidate_selection",
+        "heaven_instrument_branch_relation": "neither_combine_nor_clash",
+        "chief_relation": "punishment",
+        "chief_in_void": false
+      },
+      "expected": {
+        "candidate_key": "timing_star_door_fallback",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "record_revision": 2
+      },
+      "gold_basis": "manual full-context source419–423 and summary444–447; not generated by engine",
+      "source_lines": [
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435,
+        436,
+        437,
+        438,
+        439,
+        440,
+        441,
+        442,
+        443,
+        444,
+        445,
+        446,
+        447
+      ]
+    },
+    {
+      "key": "fallback_star_chief_void",
+      "context": {
+        "domain": "timing",
+        "timing_task": "candidate_selection",
+        "heaven_instrument_branch_relation": "neither_combine_nor_clash",
+        "chief_relation": "none",
+        "chief_in_void": true
+      },
+      "expected": {
+        "candidate_key": "timing_star_door_fallback",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "record_revision": 2
+      },
+      "gold_basis": "manual full-context source419–423 and summary444–447; not generated by engine",
+      "source_lines": [
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435,
+        436,
+        437,
+        438,
+        439,
+        440,
+        441,
+        442,
+        443,
+        444,
+        445,
+        446,
+        447
+      ]
+    },
+    {
+      "key": "fallback_star_no_chief_trigger",
+      "context": {
+        "domain": "timing",
+        "timing_task": "candidate_selection",
+        "heaven_instrument_branch_relation": "neither_combine_nor_clash",
+        "chief_relation": "none",
+        "chief_in_void": false
+      },
+      "expected": {
+        "candidate_key": "timing_star_door_fallback",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "record_revision": 2
+      },
+      "gold_basis": "manual full-context source419–423 and summary444–447; not generated by engine",
+      "source_lines": [
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435,
+        436,
+        437,
+        438,
+        439,
+        440,
+        441,
+        442,
+        443,
+        444,
+        445,
+        446,
+        447
+      ]
+    },
+    {
+      "key": "fallback_instrument_combine_chief_clash",
+      "context": {
+        "domain": "timing",
+        "timing_task": "candidate_selection",
+        "heaven_instrument_branch_relation": "combine",
+        "chief_relation": "clash",
+        "chief_in_void": false
+      },
+      "expected": {
+        "candidate_key": "timing_instrument_combine_use_clash",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "record_revision": 2
+      },
+      "gold_basis": "manual full-context source419–423 and summary444–447; not generated by engine",
+      "source_lines": [
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435,
+        436,
+        437,
+        438,
+        439,
+        440,
+        441,
+        442,
+        443,
+        444,
+        445,
+        446,
+        447
+      ]
+    },
+    {
+      "key": "fallback_instrument_clash_chief_void",
+      "context": {
+        "domain": "timing",
+        "timing_task": "candidate_selection",
+        "heaven_instrument_branch_relation": "clash",
+        "chief_relation": "none",
+        "chief_in_void": true
+      },
+      "expected": {
+        "candidate_key": "timing_instrument_clash_use_combine",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "record_revision": 2
+      },
+      "gold_basis": "manual full-context source419–423 and summary444–447; not generated by engine",
+      "source_lines": [
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435,
+        436,
+        437,
+        438,
+        439,
+        440,
+        441,
+        442,
+        443,
+        444,
+        445,
+        446,
+        447
+      ]
+    },
+    {
+      "key": "fallback_star_null_chief_void",
+      "context": {
+        "domain": "timing",
+        "timing_task": "candidate_selection",
+        "heaven_instrument_branch_relation": "neither_combine_nor_clash",
+        "chief_relation": "none",
+        "chief_in_void": null
+      },
+      "expected": {
+        "candidate_key": "timing_star_door_fallback",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "record_revision": 2,
+        "missing_fields": [
+          "chief_in_void"
+        ]
+      },
+      "gold_basis": "manual full-context source419–423 and summary444–447; not generated by engine",
+      "source_lines": [
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435,
+        436,
+        437,
+        438,
+        439,
+        440,
+        441,
+        442,
+        443,
+        444,
+        445,
+        446,
+        447
+      ]
+    }
+  ],
+  "selection_case_count": 72,
+  "multi_method_conflict_gold": [
+    {
+      "key": "geng_two_perspectives_disagree",
+      "context": {
+        "domain": "timing",
+        "timing_task": "candidate_selection",
+        "geng_matches_year_month_day_hour": true,
+        "day_polarity": "yin",
+        "star_at_hour_stem_polarity": "yang"
+      },
+      "expected": {
+        "status": "disputed",
+        "candidate_keys": [
+          "timing_geng_day_polarity",
+          "timing_geng_hour_star_polarity"
+        ],
+        "competing_sides": [
+          "above_geng",
+          "below_geng"
+        ],
+        "selected_method": null,
+        "concrete_date": null,
+        "formal_role_activation": false
+      },
+      "source_lines": [
+        459,
+        461
+      ]
+    },
+    {
+      "key": "judgment_methods_not_single_default",
+      "context": {
+        "domain": "method_selection",
+        "situation_motion": "static"
+      },
+      "expected": {
+        "source_candidate": "judgment_method_static_chiefs",
+        "selected_method": null,
+        "status": "disputed",
+        "formal_role_activation": false
+      },
+      "source_lines": [
+        239,
+        241,
+        245,
+        247,
+        251,
+        253,
+        255
+      ]
+    }
+  ],
+  "source_fact_gold": [
+    {
+      "key": "launch_four_pillars",
+      "known_input": {
+        "planned_datetime_as_written": "1995-01-26 06:40"
+      },
+      "expected_source_fact": {
+        "four_pillars": [
+          "甲戌",
+          "丁丑",
+          "丁巳",
+          "癸卯"
+        ]
+      },
+      "source_lines": [
+        52,
+        54
+      ],
+      "source_quote": "比如1995年1月25日晚上中央电视台新闻联播节目中预告，我国西昌卫星发射中心将于明天即1月26日凌晨6点40分用我国制造的长征二号捆绑火箭发射美国休斯公司研制的HS601型亚太二号通信卫星，届时将现场直播。\n按：1995年1月26日晨6点40分，即农历甲戌年丁丑月丁巳日癸卯时。",
+      "source_kind": "author_supplied_partial_chart_fact_not_independent_recalculation",
+      "feedback_in_input": false,
+      "reported_outcome_line": 68,
+      "expected_prediction": null
+    },
+    {
+      "key": "launch_bureau_chiefs",
+      "known_input": {
+        "planned_datetime_as_written": "1995-01-26 06:40"
+      },
+      "expected_source_fact": {
+        "dun": "阳遁",
+        "bureau": 9,
+        "chief_star": "天冲星",
+        "chief_door": "伤门"
+      },
+      "source_lines": [
+        58
+      ],
+      "source_quote": "我听完新闻联播，当即按预定发射时间用奇门遁甲进行预测。其时用阳9局，天冲星为值符，伤门为值使。",
+      "source_kind": "author_supplied_partial_chart_fact_not_independent_recalculation",
+      "feedback_in_input": false,
+      "reported_outcome_line": 68,
+      "expected_prediction": null
+    },
+    {
+      "key": "launch_chief_native_and_host",
+      "known_input": {
+        "source_chart_id": "apataii_launch_partial_original"
+      },
+      "expected_source_fact": {
+        "chief_star_original_palace": 5,
+        "chief_star_host_palace": 2,
+        "stem_pairs_as_written": [
+          "辛加癸",
+          "辛加庚"
+        ]
+      },
+      "source_lines": [
+        60
+      ],
+      "source_quote": "值符天冲星落5宫寄坤2宫，辛加癸为“天牢华盖”，日月失明，误入天网，大凶；辛加庚为“白虎出力”，刀刃相接，主客相残，退让稍可，强进血溅衣衫。",
+      "source_kind": "author_supplied_partial_chart_fact_not_independent_recalculation",
+      "feedback_in_input": false,
+      "reported_outcome_line": 68,
+      "expected_prediction": null
+    },
+    {
+      "key": "launch_chief_door_landing",
+      "known_input": {
+        "source_chart_id": "apataii_launch_partial_original"
+      },
+      "expected_source_fact": {
+        "chief_door": "伤门",
+        "chief_door_palace": 3,
+        "named_pattern": "伏吟格"
+      },
+      "source_lines": [
+        62
+      ],
+      "source_quote": "值使伤门又落回3宫，伤加伤，成伏吟格，也主凶。",
+      "source_kind": "author_supplied_partial_chart_fact_not_independent_recalculation",
+      "feedback_in_input": false,
+      "reported_outcome_line": 68,
+      "expected_prediction": null
+    },
+    {
+      "key": "launch_jiutian_landing",
+      "known_input": {
+        "source_chart_id": "apataii_launch_partial_original"
+      },
+      "expected_source_fact": {
+        "deity": "九天",
+        "palace": 9,
+        "stem_pair_as_written": "乙加戊"
+      },
+      "source_lines": [
+        64
+      ],
+      "source_quote": "再看八神，以九天为用，此时九天下临9宫，形成乙加戊格局，利阴害阳，破财伤人。",
+      "source_kind": "author_supplied_partial_chart_fact_not_independent_recalculation",
+      "feedback_in_input": false,
+      "reported_outcome_line": 68,
+      "expected_prediction": null
+    }
+  ],
+  "leakage_policy": {
+    "prediction_input_allowed_source_lines": [
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65
+    ],
+    "author_prediction_target_lines": [
+      66
+    ],
+    "feedback_only_lines": [
+      68
+    ],
+    "feedback_must_never_appear_in_prediction_input": true,
+    "posthoc_author_commentary_lines": [
+      200,
+      202,
+      204
+    ],
+    "posthoc_commentary_not_backfilled_into_first_prediction_input": true
+  },
+  "no_complete_chart_gold_invented": true,
+  "no_concrete_timing_date_gold": true,
+  "no_unprovided_casting_time_policy": true,
+  "candidate_revision_regression": {
+    "corrected_keys": [
+      "timing_instrument_clash_use_combine",
+      "timing_instrument_combine_use_clash",
+      "timing_star_door_fallback"
+    ],
+    "latest_record_revision": 2,
+    "prior_annotations_preserved": true,
+    "reason": "Restore explicit chief neither-clash-nor-punishment-nor-void prerequisites and their source evidence before fallback."
+  }
+}

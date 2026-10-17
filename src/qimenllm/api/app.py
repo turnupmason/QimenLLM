@@ -11,7 +11,7 @@ def create_app(service):
             if path=='/health' and method=='GET':
                 result = {'status':'ok','phase':1 if service.knowledge.coverage()['chapters'] else 0,
                           'professional_analysis_available':False}
-            elif path in ('/v1/ask','/v1/learn','/v1/calculate','/v1/reference') and method=='POST':
+            elif path in ('/v1/ask','/v1/learn','/v1/calculate','/v1/reference','/v1/rule-candidates','/v1/case') and method=='POST':
                 if environ.get('CONTENT_TYPE','').split(';')[0].strip()!='application/json':
                     raise ValueError('application/json required')
                 length = int(environ.get('CONTENT_LENGTH','0'))
@@ -29,6 +29,17 @@ def create_app(service):
                             raise ValueError(f'{key} must be a string')
                     if not isinstance(payload.get('context',{}),dict): raise ValueError('context must be an object')
                     result = service.ask(Inquiry(**payload))
+                elif path=='/v1/rule-candidates':
+                    if set(payload)-{'context','domain','method'} or not isinstance(payload.get('context'),dict):
+                        raise ValueError('context object required')
+                    for key in ('domain','method'):
+                        if payload.get(key) is not None and not isinstance(payload[key],str):
+                            raise ValueError('domain and method must be strings')
+                    result=service.rule_candidates(payload['context'],payload.get('domain'),payload.get('method'))
+                elif path=='/v1/case':
+                    if set(payload)-{'case_id','view'} or not isinstance(payload.get('case_id'),str):
+                        raise ValueError('case_id required')
+                    result=service.case(payload['case_id'],payload.get('view','full'))
                 elif path=='/v1/learn':
                     if set(payload)!={'term'} or not isinstance(payload['term'],str): raise ValueError('term required')
                     result = service.learning.learn(payload['term'])
@@ -41,6 +52,8 @@ def create_app(service):
                     result=service.calculate(payload['operation'],payload['args'])
             else:
                 status, result = '404 Not Found', {'error':'not_found'}
+        except KeyError:
+            status, result = '404 Not Found', {'error':'not_found'}
         except (ValueError,TypeError,UnicodeError,RecursionError):
             status, result = '400 Bad Request', {'error':'invalid_request'}
         except Exception:

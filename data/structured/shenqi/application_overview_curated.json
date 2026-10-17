@@ -1,0 +1,5153 @@
+{
+  "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+  "source_byte_count": 32020,
+  "source_line_count": 479,
+  "chapter_title": "奇门遁甲应用概述",
+  "chapter_key_suggestion": "application-overview",
+  "printed_chapter_number": null,
+  "sections": [
+    {
+      "key": "section_01",
+      "title": "第一节 如何运用奇门遁甲趋吉避凶",
+      "line_start": 1,
+      "line_end": 230
+    },
+    {
+      "key": "section_02",
+      "title": "第二节 奇门预测的几种判断方法",
+      "line_start": 231,
+      "line_end": 260
+    },
+    {
+      "key": "section_03",
+      "title": "第三节 奇门用神的主要特征",
+      "line_start": 261,
+      "line_end": 340
+    },
+    {
+      "key": "section_04",
+      "title": "第四节 奇门判断的根本思路",
+      "line_start": 341,
+      "line_end": 396
+    },
+    {
+      "key": "section_05",
+      "title": "第五节 奇门定应期的主要方法",
+      "line_start": 397,
+      "line_end": 479
+    }
+  ],
+  "groups": [
+    {
+      "key": "overview_introduction",
+      "title": "趋避生活背景与应用总纲",
+      "category": "commentary",
+      "line_start": 1,
+      "line_end": 14,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "保留趋吉避凶的生活背景、全息模型说法及急缓主客总纲；作者理论和经验叙述不当独立有效性证明。",
+      "concepts": [
+        "趋吉避凶",
+        "择时择方",
+        "急则从神",
+        "缓从门",
+        "动静先后分主客"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 1,
+        "line_end": 14,
+        "byte_start": 0,
+        "byte_end": 1578
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "urgent_options",
+      "title": "急则从神两种值符口径及完整符号示例",
+      "category": "analysis",
+      "line_start": 15,
+      "line_end": 25,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "危难紧急无择奇门时间时，原文允许天盘或地盘值符两方；保留阳一庚午例原文全部条件，不暗选唯一方法或保证现实安全。",
+      "concepts": [
+        "急则从神",
+        "天盘值符",
+        "地盘值符",
+        "阳一庚午"
+      ],
+      "dataset": {
+        "key": "application_urgent_chief_options",
+        "rows": [
+          {
+            "key": "heaven_chief",
+            "urgency": "危难紧急且无充裕择奇门时间",
+            "option": "天盘值符所在之宫",
+            "alternatives_group": "source_allows_either_heaven_or_earth",
+            "choice_priority": "not_specified",
+            "meaning": "从值符；原文称天乙之神",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 15,
+              "line_end": 24,
+              "byte_start": 1578,
+              "byte_end": 2365
+            },
+            "source_lines": [
+              15,
+              24
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "earth_chief",
+            "urgency": "危难紧急且无充裕择奇门时间",
+            "option": "地盘值符所在之宫",
+            "alternatives_group": "source_allows_either_heaven_or_earth",
+            "choice_priority": "not_specified",
+            "meaning": "从值符；原文称天乙之神",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 15,
+              "line_end": 24,
+              "byte_start": 1578,
+              "byte_end": 2365
+            },
+            "source_lines": [
+              15,
+              24
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "needs_context_method_conditions_and_a_separate_validated_profile",
+        "conventions": {
+          "neither_option_is_unique": "source_allows_two",
+          "real_emergency_action": "traditional_reference_not_a_substitute_for_actual_safety_assistance"
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 15,
+        "line_end": 25,
+        "byte_start": 1578,
+        "byte_end": 2366
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "slow_time_avoidance",
+      "title": "缓从门择时、五不遇与时干入墓方位",
+      "category": "analysis",
+      "line_start": 26,
+      "line_end": 51,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "保存五不遇十个日时配对及同阴同阳时克日条件、时干入墓例；入墓方位须实际时干落宫，不能仅凭时支反推当前盘。",
+      "concepts": [
+        "缓从门",
+        "五不遇时",
+        "时干入墓",
+        "时干实际落宫"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 26,
+        "line_end": 51,
+        "byte_start": 2366,
+        "byte_end": 3187
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "satellite_case_complete",
+      "title": "亚太二号卫星预测与反馈完整叙述",
+      "category": "analysis",
+      "line_start": 52,
+      "line_end": 70,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "整个保留公告与预定发射时间、作者四柱盘面、对家人事前断语、后来新闻反馈；反馈是作者报告，不提前作为分析输入或推广为通用卫星规则。",
+      "concepts": [
+        "亚太二号卫星",
+        "1995年1月26日",
+        "癸卯五不遇",
+        "发射预测",
+        "报道反馈"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 52,
+        "line_end": 70,
+        "byte_start": 3187,
+        "byte_end": 4631
+      },
+      "status": "structured_reference_only",
+      "narrative_case_link": {
+        "event_key": "satellite_apstar2_1995_01_26_source_narrative",
+        "case_import_owned_by": "separate_case_curator",
+        "source_reported_prediction_lines": [
+          66
+        ],
+        "source_reported_feedback_lines": [
+          68
+        ],
+        "author_analysis_before_prediction_lines": [
+          54,
+          56,
+          58,
+          60,
+          62,
+          64
+        ],
+        "raw_story_preserved_as_one_context": true
+      }
+    },
+    {
+      "key": "slow_direction_priority",
+      "title": "择吉方、奇门优先关系与事项例外",
+      "category": "analysis",
+      "line_start": 71,
+      "line_end": 93,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "整段保存避凶格、得门不得奇等分支、捕猎讨债葬送例外与四吉神辅助；吉门优先仍需具体事项和真实盘条件。",
+      "concepts": [
+        "择吉方向",
+        "得奇不得门",
+        "得门不得奇",
+        "三奇三吉门",
+        "吉神辅助"
+      ],
+      "dataset": {
+        "key": "application_election_priority_contexts",
+        "rows": [
+          {
+            "key": "wonder_and_good_door",
+            "condition": "已避相关凶格，三奇与三吉门相会",
+            "source_assessment": "最佳方位",
+            "required_context": [
+              "实际盘",
+              "具体事项",
+              "三奇和门的真实落宫",
+              "凶格条件",
+              "神盘及旺衰"
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 71,
+              "line_end": 91,
+              "byte_start": 4631,
+              "byte_end": 6119
+            },
+            "source_lines": [
+              71,
+              91
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "wonder_without_good_door",
+            "condition": "得奇不得门",
+            "source_assessment": "还不能算吉利方位",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 71,
+              "line_end": 91,
+              "byte_start": 4631,
+              "byte_end": 6119
+            },
+            "source_lines": [
+              71,
+              91
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "good_door_without_wonder",
+            "condition": "得门不得奇",
+            "source_assessment": "也算吉利，可用",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 71,
+              "line_end": 91,
+              "byte_start": 4631,
+              "byte_end": 6119
+            },
+            "source_lines": [
+              71,
+              91
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "neither_but_good_pattern",
+            "condition": "不得奇不得吉门而逢吉格",
+            "source_assessment": "也可用",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 71,
+              "line_end": 91,
+              "byte_start": 4631,
+              "byte_end": 6119
+            },
+            "source_lines": [
+              71,
+              91
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "neither_and_bad_pattern",
+            "condition": "不得奇不得吉门且遇凶格",
+            "source_assessment": "不可用",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 71,
+              "line_end": 91,
+              "byte_start": 4631,
+              "byte_end": 6119
+            },
+            "source_lines": [
+              71,
+              91
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "task_exception_hunting_debt",
+            "condition": "捕猎或讨债",
+            "symbol": "伤门",
+            "source_assessment": "可用",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 81,
+              "line_end": 81,
+              "byte_start": 5280,
+              "byte_end": 5464
+            },
+            "source_lines": [
+              81
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "task_exception_funeral",
+            "condition": "吊唁送葬",
+            "symbol": "死门",
+            "source_assessment": "可用",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 81,
+              "line_end": 81,
+              "byte_start": 5280,
+              "byte_end": 5464
+            },
+            "source_lines": [
+              81
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "needs_context_method_conditions_and_a_separate_validated_profile",
+        "conventions": {
+          "general_precedence_as_written": "吉门最重要，吉星、三奇次之，吉神辅助",
+          "not_a_universal_score_or_prediction": true
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 71,
+        "line_end": 93,
+        "byte_start": 4631,
+        "byte_end": 6121
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "time_place_strength",
+      "title": "时地方位与门星奇仪旺衰综合",
+      "category": "analysis",
+      "line_start": 94,
+      "line_end": 109,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "保存生门得时得地、受制休囚及凶门无气例；星旺衰另法，不将这些综合判断压成单一吉门开关。",
+      "concepts": [
+        "得时得地",
+        "生门旺衰",
+        "九星有气无气",
+        "三奇六仪生克"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 94,
+        "line_end": 109,
+        "byte_start": 6121,
+        "byte_end": 7261
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "wonder_patterns_with_support",
+      "title": "乙奇相合及虎猖狂多证据程度例",
+      "category": "analysis",
+      "line_start": 110,
+      "line_end": 124,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "保留乙奇受生受克、五种合象及战争比赛诉讼类比、辛加乙在不同门宫支持下程度变化的完整方法语境；不是具体体育历史案例。",
+      "concepts": [
+        "乙奇水木支持",
+        "五合和解",
+        "虎猖狂",
+        "门宫支持",
+        "程度减轻",
+        "比赛平局类比"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 110,
+        "line_end": 124,
+        "byte_start": 7261,
+        "byte_end": 8510
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "excluded_liuren_methods",
+      "title": "天马三门四户私门的他式引用范围",
+      "category": "commentary",
+      "line_start": 125,
+      "line_end": 143,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "保留歌诀及作者明确归为六壬式法而不详述的边界；不导入未给六壬算法或其他书。",
+      "concepts": [
+        "乘天马",
+        "天三门",
+        "地四户",
+        "地私门",
+        "六壬式边界"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 125,
+        "line_end": 143,
+        "byte_start": 8510,
+        "byte_end": 9270
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "host_guest_introduction",
+      "title": "主客动静先后问题的背景",
+      "category": "analysis",
+      "line_start": 144,
+      "line_end": 153,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "保留随时随地分主客的背景及作者称大致四条的引语；后实际列五种轴，不能默认所有轴有同一身份。",
+      "concepts": [
+        "主客",
+        "动静",
+        "先后",
+        "相对利害"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 144,
+        "line_end": 153,
+        "byte_start": 9270,
+        "byte_end": 10021
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "host_guest_axes",
+      "title": "主客五种分类轴完整列举",
+      "category": "role",
+      "line_start": 154,
+      "line_end": 164,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "动静、先后、态度、盘层、远近五种轴分别存；轴间冲突未给唯一优先，不把求测者自动等同主或客。",
+      "concepts": [
+        "动静主客",
+        "先后主客",
+        "态度主客",
+        "盘层主客",
+        "远近主客"
+      ],
+      "dataset": {
+        "key": "application_host_guest_axes",
+        "rows": [
+          {
+            "key": "movement",
+            "axis": "动静",
+            "guest": "动者",
+            "host": "静者",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 154,
+              "line_end": 154,
+              "byte_start": 10021,
+              "byte_end": 10077
+            },
+            "source_lines": [
+              154
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "action_order",
+            "axis": "先后",
+            "guest": "先动者",
+            "host": "后动者",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 156,
+              "line_end": 156,
+              "byte_start": 10078,
+              "byte_end": 10146
+            },
+            "source_lines": [
+              156
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "attitude",
+            "axis": "态度",
+            "guest": "积极主动或主动出击",
+            "host": "消极被动或消极固守",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 158,
+              "line_end": 158,
+              "byte_start": 10147,
+              "byte_end": 10260
+            },
+            "source_lines": [
+              158
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "plate",
+            "axis": "活盘层",
+            "guest": "天盘九星随时辰运转",
+            "host": "地盘在同一局内不动",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 160,
+              "line_end": 160,
+              "byte_start": 10261,
+              "byte_end": 10410
+            },
+            "source_lines": [
+              160
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "distance",
+            "axis": "远近",
+            "guest": "远者",
+            "host": "近者",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 162,
+              "line_end": 162,
+              "byte_start": 10411,
+              "byte_end": 10467
+            },
+            "source_lines": [
+              162
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "needs_context_method_conditions_and_a_separate_validated_profile",
+        "conventions": {
+          "cross_axis_conflict_priority": "not_given",
+          "not_person_identity_defaults": true,
+          "source_calls_four_but_lists_five": true
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 154,
+        "line_end": 164,
+        "byte_start": 10021,
+        "byte_end": 10469
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "host_guest_hours",
+      "title": "五阳五阴时利主客",
+      "category": "analysis",
+      "line_start": 165,
+      "line_end": 170,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "五阳时利客、五阴时利主为作者传统方法；与天干固有阴阳和具体人物身份分开。",
+      "concepts": [
+        "五阳时",
+        "五阴时",
+        "主客时机"
+      ],
+      "dataset": {
+        "key": "application_host_guest_hour_halves",
+        "rows": [
+          {
+            "key": "five_yang_hours",
+            "stems": [
+              "甲",
+              "乙",
+              "丙",
+              "丁",
+              "戊"
+            ],
+            "source_half": "五阳时",
+            "favored_role": "客",
+            "source_action": "主动出击",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 165,
+              "line_end": 170,
+              "byte_start": 10469,
+              "byte_end": 10854
+            },
+            "source_lines": [
+              165,
+              170
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "five_yin_hours",
+            "stems": [
+              "己",
+              "庚",
+              "辛",
+              "壬",
+              "癸"
+            ],
+            "source_half": "五阴时",
+            "favored_role": "主",
+            "source_action": "按兵不动，后发制人",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 165,
+              "line_end": 170,
+              "byte_start": 10469,
+              "byte_end": 10854
+            },
+            "source_lines": [
+              165,
+              170
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "needs_context_method_conditions_and_a_separate_validated_profile",
+        "conventions": {
+          "scope": "operational_hour_halves_not_intrinsic_stem_polarity",
+          "requires_explicit_role_axis": true
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 165,
+        "line_end": 170,
+        "byte_start": 10469,
+        "byte_end": 10854
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "host_guest_patterns",
+      "title": "按格局判主客及伏吟反吟",
+      "category": "analysis",
+      "line_start": 171,
+      "line_end": 174,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "保留四格的主克客客克主方向与伏吟反吟行动建议；格局已识别和旺衰条件未具备时不自动给战斗商业行动结论。",
+      "concepts": [
+        "白虎猖狂",
+        "螣蛇夭矫",
+        "青龙逃走",
+        "朱雀投江",
+        "伏吟反吟主客"
+      ],
+      "dataset": {
+        "key": "application_host_guest_pattern_contexts",
+        "rows": [
+          {
+            "key": "white_tiger_rampage",
+            "source_pattern": "白虎猖狂",
+            "pair_as_written": "辛金克乙木",
+            "favored_role": "客",
+            "reason": "客克主",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 171,
+              "line_end": 174,
+              "byte_start": 10854,
+              "byte_end": 11288
+            },
+            "source_lines": [
+              171,
+              174
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "snake_twist",
+            "source_pattern": "螣蛇夭矫",
+            "pair_as_written": "癸水克丁火",
+            "favored_role": "客",
+            "reason": "客克主",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 171,
+              "line_end": 174,
+              "byte_start": 10854,
+              "byte_end": 11288
+            },
+            "source_lines": [
+              171,
+              174
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "dragon_flees",
+            "source_pattern": "青龙逃走",
+            "pair_as_written": "乙加辛",
+            "favored_role": "主",
+            "reason": "主克客",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 171,
+              "line_end": 174,
+              "byte_start": 10854,
+              "byte_end": 11288
+            },
+            "source_lines": [
+              171,
+              174
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "bird_falls_river",
+            "source_pattern": "朱雀投江",
+            "pair_as_written": "丁加癸",
+            "favored_role": "主",
+            "reason": "主克客",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 171,
+              "line_end": 174,
+              "byte_start": 10854,
+              "byte_end": 11288
+            },
+            "source_lines": [
+              171,
+              174
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "fuyin",
+            "source_pattern": "伏吟格",
+            "source_action": "按兵不动，以逸待劳",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 171,
+              "line_end": 174,
+              "byte_start": 10854,
+              "byte_end": 11288
+            },
+            "source_lines": [
+              171,
+              174
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "fanyin",
+            "source_pattern": "反吟格",
+            "source_action": "主动出击",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 171,
+              "line_end": 174,
+              "byte_start": 10854,
+              "byte_end": 11288
+            },
+            "source_lines": [
+              171,
+              174
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "needs_context_method_conditions_and_a_separate_validated_profile",
+        "conventions": {
+          "need_actual_pattern_and_power_context": true,
+          "no_automatic_combat_or_business_advice": true
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 171,
+        "line_end": 174,
+        "byte_start": 10854,
+        "byte_end": 11288
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "host_guest_relations",
+      "title": "星宫生克与为主视角的主客关系",
+      "category": "analysis",
+      "line_start": 175,
+      "line_end": 182,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "星宫利主利客与站在为主立场的成败句分别带视角，不把利客误读为主人也成功。",
+      "concepts": [
+        "星生宫利主",
+        "宫生星利客",
+        "星克宫利客",
+        "宫克星利主",
+        "为主立场"
+      ],
+      "dataset": {
+        "key": "application_host_guest_relation_contexts",
+        "rows": [
+          {
+            "key": "star_generates_palace",
+            "scope": "天盘九星与地盘宫",
+            "source": "heaven_star",
+            "relation": "生",
+            "target": "earth_palace",
+            "favored_role": "主",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 175,
+              "line_end": 182,
+              "byte_start": 11288,
+              "byte_end": 11864
+            },
+            "source_lines": [
+              175,
+              182
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "palace_generates_star",
+            "scope": "天盘九星与地盘宫",
+            "source": "earth_palace",
+            "relation": "生",
+            "target": "heaven_star",
+            "favored_role": "客",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 175,
+              "line_end": 182,
+              "byte_start": 11288,
+              "byte_end": 11864
+            },
+            "source_lines": [
+              175,
+              182
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "star_controls_palace",
+            "scope": "天盘九星与地盘宫",
+            "source": "heaven_star",
+            "relation": "克",
+            "target": "earth_palace",
+            "favored_role": "客",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 175,
+              "line_end": 182,
+              "byte_start": 11288,
+              "byte_end": 11864
+            },
+            "source_lines": [
+              175,
+              182
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "palace_controls_star",
+            "scope": "天盘九星与地盘宫",
+            "source": "earth_palace",
+            "relation": "克",
+            "target": "heaven_star",
+            "favored_role": "主",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 175,
+              "line_end": 182,
+              "byte_start": 11288,
+              "byte_end": 11864
+            },
+            "source_lines": [
+              175,
+              182
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "guest_generates_host",
+            "scope": "站在为主立场",
+            "source": "guest",
+            "relation": "生",
+            "target": "host",
+            "source_assessment": "称心如意，获益多端",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 179,
+              "line_end": 182,
+              "byte_start": 11524,
+              "byte_end": 11864
+            },
+            "source_lines": [
+              179,
+              182
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "host_generates_guest",
+            "scope": "站在为主立场",
+            "source": "host",
+            "relation": "生",
+            "target": "guest",
+            "source_assessment": "耗散迟延，拖拉散财",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 179,
+              "line_end": 182,
+              "byte_start": 11524,
+              "byte_end": 11864
+            },
+            "source_lines": [
+              179,
+              182
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "host_guest_same",
+            "scope": "站在为主立场",
+            "source": "host",
+            "relation": "比和",
+            "target": "guest",
+            "source_assessment": "双方有利",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 179,
+              "line_end": 182,
+              "byte_start": 11524,
+              "byte_end": 11864
+            },
+            "source_lines": [
+              179,
+              182
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "host_controls_guest",
+            "scope": "站在为主立场",
+            "source": "host",
+            "relation": "克",
+            "target": "guest",
+            "source_assessment": "半实半虚，有始无终，难有成果",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 179,
+              "line_end": 182,
+              "byte_start": 11524,
+              "byte_end": 11864
+            },
+            "source_lines": [
+              179,
+              182
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "guest_controls_host",
+            "scope": "站在为主立场",
+            "source": "guest",
+            "relation": "克",
+            "target": "host",
+            "source_assessment": "难成功，求吉反凶",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 179,
+              "line_end": 182,
+              "byte_start": 11524,
+              "byte_end": 11864
+            },
+            "source_lines": [
+              179,
+              182
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "needs_context_method_conditions_and_a_separate_validated_profile",
+        "conventions": {
+          "benefit_and_host_perspective_not_same_label": true,
+          "season_and_palace_strength_required": true
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 175,
+        "line_end": 182,
+        "byte_start": 11288,
+        "byte_end": 11864
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "host_guest_song",
+      "title": "主客歌完整引文与旺衰限定",
+      "category": "analysis",
+      "line_start": 183,
+      "line_end": 199,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "完整主客歌及末尾其时其方旺衰要求保留；歌中天蓬旺相秋冬等文字不静默覆盖此前作者九星月建方法。",
+      "concepts": [
+        "主客歌",
+        "天蓬加九",
+        "天英加一",
+        "月令方位",
+        "旺衰综合"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 183,
+        "line_end": 199,
+        "byte_start": 11864,
+        "byte_end": 12799
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "major_events_star_satellite_revisit",
+      "title": "大事看星与卫星事例追加解释",
+      "category": "analysis",
+      "line_start": 200,
+      "line_end": 206,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "大事还须看九星吉凶，204重述同一卫星案例星落坤丑月的解释；追加段与52–68同源事件关联，不能伪造新的事前证据。",
+      "concepts": [
+        "大事看星",
+        "卫星案例续释",
+        "天冲坤二丑月"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 200,
+        "line_end": 206,
+        "byte_start": 12799,
+        "byte_end": 13185
+      },
+      "status": "structured_reference_only",
+      "related_narrative_group": "satellite_case_complete",
+      "chronology_status": "later_placed_author_revisit_not_assumed_available_before_prediction"
+    },
+    {
+      "key": "relative_fortune",
+      "title": "吉凶相对、中间状态与人的努力",
+      "category": "commentary",
+      "line_start": 207,
+      "line_end": 230,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "完整保存作者反对见凶字惶恐、吉凶相对和尽人事的限制；吉时吉方不保证吉果，凶时凶方不保证凶果。",
+      "concepts": [
+        "吉凶相对性",
+        "中平状态",
+        "尽人事",
+        "不必见凶惶恐"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 207,
+        "line_end": 230,
+        "byte_start": 13185,
+        "byte_end": 15015
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "judgment_methods_introduction",
+      "title": "判断方法的困难与引入",
+      "category": "commentary",
+      "line_start": 231,
+      "line_end": 238,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "保留作者从四盘多符号复杂性引出古籍要领的开场。",
+      "concepts": [
+        "起局与断卦不同",
+        "判断方法要领"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 231,
+        "line_end": 238,
+        "byte_start": 15015,
+        "byte_end": 15387
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "quoted_three_powers_method",
+      "title": "三才盘层方法完整引文",
+      "category": "analysis",
+      "line_start": 239,
+      "line_end": 244,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "《秘籍大全》引文按天人地事项分别重星门宫及生克；该书引述的简化吉凶与前后综合限制分别保留，不当跨书唯一公理。",
+      "concepts": [
+        "三才断法",
+        "星门宫盘层",
+        "秘籍大全引文"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 239,
+        "line_end": 244,
+        "byte_start": 15387,
+        "byte_end": 16161
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "quoted_dynamic_static_method",
+      "title": "动静方法与方向实例",
+      "category": "analysis",
+      "line_start": 245,
+      "line_end": 250,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "《统宗》静查值符值使时干与动看事物方位完整保存；信息来自南方等是该法输入，不从文本关键词任意选择方法。",
+      "concepts": [
+        "动静判断",
+        "静查值符值使时干",
+        "动看方向",
+        "奇门统宗引文"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 245,
+        "line_end": 250,
+        "byte_start": 16161,
+        "byte_end": 16542
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "quoted_static_chief_method",
+      "title": "静看值符值使及主客旺衰完整长引",
+      "category": "analysis",
+      "line_start": 251,
+      "line_end": 254,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "完整保存《奇门一得》长引内相生相克、主客视角、旺衰与例外，不能拆句取有利断语或把地盘诸星字样悄改成新天盘。",
+      "concepts": [
+        "奇门一得引文",
+        "主客生克",
+        "衰墓失令",
+        "生旺得令",
+        "多条件例外"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 251,
+        "line_end": 254,
+        "byte_start": 16542,
+        "byte_end": 17953
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "use_spirit_method",
+      "title": "按具体事物用神及多用神关系",
+      "category": "analysis",
+      "line_start": 255,
+      "line_end": 260,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "保存用神法相对于其他方法的常用性、按不同事物取神和比较关系；不是仅靠领域取前三条规则。",
+      "concepts": [
+        "用神断卦法",
+        "具体事物",
+        "多用神关系"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 255,
+        "line_end": 260,
+        "byte_start": 17953,
+        "byte_end": 18367
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "role_features_introduction",
+      "title": "用神特征总述",
+      "category": "commentary",
+      "line_start": 261,
+      "line_end": 269,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "引出四大特征，符号复杂性不等于用户须自行选用神。",
+      "concepts": [
+        "用神四大特征",
+        "取用神"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 261,
+        "line_end": 269,
+        "byte_start": 18367,
+        "byte_end": 18764
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "symbol_polysemy",
+      "title": "五类符号多义完整示例",
+      "category": "role",
+      "line_start": 270,
+      "line_end": 284,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "乙、开门、天芮、六合、六宫分别在不同问事维度有不同含义；词义不自动升级成适用规则。",
+      "concepts": [
+        "乙多义",
+        "开门多义",
+        "天芮多义",
+        "六合多义",
+        "六宫多义"
+      ],
+      "dataset": {
+        "key": "application_symbol_polysemy",
+        "rows": [
+          {
+            "key": "yi",
+            "symbol": "乙",
+            "symbol_type": "天干",
+            "contexts": [
+              "阴木",
+              "阳时",
+              "体表脖颈肩",
+              "体内肝脏",
+              "日奇",
+              "测婚女子一方",
+              "测病医生医药"
+            ],
+            "context_source_lines": [
+              274
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 270,
+              "line_end": 284,
+              "byte_start": 18764,
+              "byte_end": 20039
+            },
+            "source_lines": [
+              270,
+              284
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "kai",
+            "symbol": "开门",
+            "symbol_type": "八门",
+            "contexts": [
+              "金",
+              "测工作工作单位领导",
+              "测财门面店铺柜台",
+              "诉讼法官"
+            ],
+            "context_source_lines": [
+              276
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 270,
+              "line_end": 284,
+              "byte_start": 18764,
+              "byte_end": 20039
+            },
+            "source_lines": [
+              270,
+              284
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "rui",
+            "symbol": "天芮星",
+            "symbol_type": "九星",
+            "contexts": [
+              "土",
+              "阴性",
+              "测人女性",
+              "胎产孕妇",
+              "疾病疾病",
+              "走失六畜牛羊猪狗"
+            ],
+            "context_source_lines": [
+              278
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 270,
+              "line_end": 284,
+              "byte_start": 18764,
+              "byte_end": 20039
+            },
+            "source_lines": [
+              270,
+              284
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "liuhe",
+            "symbol": "六合",
+            "symbol_type": "八神",
+            "contexts": [
+              "东方木性质",
+              "测婚媒人",
+              "交易中介经纪人",
+              "诉讼证人证物",
+              "人物走失走失之方",
+              "刑侦逃犯"
+            ],
+            "context_source_lines": [
+              280
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 270,
+              "line_end": 284,
+              "byte_start": 18764,
+              "byte_end": 20039
+            },
+            "source_lines": [
+              270,
+              284
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "palace6",
+            "symbol": "六宫",
+            "symbol_type": "九宫",
+            "contexts": [
+              "乾卦",
+              "西北方向",
+              "戌亥年月日时",
+              "京都大城市形胜之地",
+              "头部右腿骨骼",
+              "数一六四九"
+            ],
+            "context_source_lines": [
+              282
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 270,
+              "line_end": 284,
+              "byte_start": 18764,
+              "byte_end": 20039
+            },
+            "source_lines": [
+              270,
+              284
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "needs_context_method_conditions_and_a_separate_validated_profile",
+        "conventions": {
+          "each_context_needs_domain_and_actual_role": "not_interchangeable",
+          "numbers_need_separate_prior_later_element_scopes_from_prior_chapter": true
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 270,
+        "line_end": 284,
+        "byte_start": 18764,
+        "byte_end": 20039
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "many_roles_and_pillars",
+      "title": "六十四符号说与年月至时角色例",
+      "category": "role",
+      "line_start": 285,
+      "line_end": 297,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "保留作者六十四的计数说、四干社会亲属角色、八门多类象及几种事项方向案例；不因此固定所有方法日干本人时干事情，也不推算未知年份历法。",
+      "concepts": [
+        "六十四用神说",
+        "年干父母领导",
+        "月干兄弟同事",
+        "日干本人",
+        "时干子女下级",
+        "八门角色"
+      ],
+      "dataset": {
+        "key": "application_pillar_role_contexts",
+        "rows": [
+          {
+            "key": "year",
+            "pillar": "year_stem",
+            "representations": [
+              "父母",
+              "最高领导"
+            ],
+            "source_specific_line": 289,
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 285,
+              "line_end": 297,
+              "byte_start": 20039,
+              "byte_end": 22080
+            },
+            "source_lines": [
+              285,
+              297
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "month",
+            "pillar": "month_stem",
+            "representations": [
+              "兄弟姐妹",
+              "中层领导",
+              "同事"
+            ],
+            "source_specific_line": 289,
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 285,
+              "line_end": 297,
+              "byte_start": 20039,
+              "byte_end": 22080
+            },
+            "source_lines": [
+              285,
+              297
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "day",
+            "pillar": "day_stem",
+            "representations": [
+              "求测者本人"
+            ],
+            "source_specific_line": 289,
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 285,
+              "line_end": 297,
+              "byte_start": 20039,
+              "byte_end": 22080
+            },
+            "source_lines": [
+              285,
+              297
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "hour",
+            "pillar": "hour_stem",
+            "representations": [
+              "子女",
+              "下级",
+              "基层群众"
+            ],
+            "source_specific_line": 289,
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 285,
+              "line_end": 297,
+              "byte_start": 20039,
+              "byte_end": 22080
+            },
+            "source_lines": [
+              285,
+              297
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "needs_context_method_conditions_and_a_separate_validated_profile",
+        "conventions": {
+          "context": "人的社会亲属角色，年/月/日/时干已明确的求测盘",
+          "casting_scope_not_universal": true,
+          "same_stem_may_have_multiple_role_bindings": true,
+          "neither_age_alone_nor_domain_alone_is_enough": true
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 285,
+        "line_end": 297,
+        "byte_start": 20039,
+        "byte_end": 22080
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "multiple_roles_medical",
+      "title": "同一疾病多重用神与不同代问关系",
+      "category": "role",
+      "line_start": 298,
+      "line_end": 307,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "整块保存病神医药及多符号证据，特别区分患者本人、儿女问长辈、同事兄弟与父母问子女；是方法而非完整病人案例或现实诊疗。",
+      "concepts": [
+        "多重用神",
+        "疾病代问",
+        "患者本人",
+        "长辈",
+        "兄弟姐妹同事",
+        "儿女小辈"
+      ],
+      "dataset": {
+        "key": "application_medical_multirole_contexts",
+        "rows": [
+          {
+            "key": "patient_self",
+            "domain": "疾病",
+            "requester_relationship": "患者自己求测",
+            "bindings": [
+              {
+                "symbol_role": "day_stem",
+                "entity_role": "patient_self"
+              },
+              {
+                "symbol_role": "hour_stem",
+                "entity_role": "illness_matter"
+              }
+            ],
+            "supplementary_symbols": [
+              "天芮星",
+              "天心星",
+              "乙奇"
+            ],
+            "source_specific_line": 304,
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 298,
+              "line_end": 307,
+              "byte_start": 22080,
+              "byte_end": 23536
+            },
+            "source_lines": [
+              298,
+              307
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "younger_asks_elder",
+            "domain": "疾病",
+            "requester_relationship": "儿女辈求测长辈疾病",
+            "bindings": [
+              {
+                "symbol_role": "year_stem",
+                "entity_role": "elder_patient"
+              }
+            ],
+            "conditional_supplements": [
+              {
+                "relationship": "父亲",
+                "symbol": "乾宫"
+              },
+              {
+                "relationship": "母亲",
+                "symbol": "坤宫"
+              }
+            ],
+            "source_specific_line": 306,
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 298,
+              "line_end": 307,
+              "byte_start": 22080,
+              "byte_end": 23536
+            },
+            "source_lines": [
+              298,
+              307
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "sibling_colleague",
+            "domain": "疾病",
+            "requester_relationship": "求测同事或兄弟姐妹疾病",
+            "bindings": [
+              {
+                "symbol_role": "month_stem",
+                "entity_role": "sibling_or_colleague_patient"
+              }
+            ],
+            "conditional_supplements": [
+              {
+                "relationship": "大姐",
+                "symbol": "巽宫"
+              },
+              {
+                "relationship": "小弟",
+                "symbol": "艮宫"
+              }
+            ],
+            "source_specific_line": 306,
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 298,
+              "line_end": 307,
+              "byte_start": 22080,
+              "byte_end": 23536
+            },
+            "source_lines": [
+              298,
+              307
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "parent_asks_child",
+            "domain": "疾病",
+            "requester_relationship": "父母求测儿女或小辈疾病",
+            "bindings": [
+              {
+                "symbol_role": "hour_stem",
+                "entity_role": "child_or_junior_patient"
+              }
+            ],
+            "conditional_supplements": [
+              {
+                "relationship": "少男",
+                "symbol": "艮宫"
+              },
+              {
+                "relationship": "少女",
+                "symbol": "兑宫"
+              }
+            ],
+            "source_specific_line": 306,
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 298,
+              "line_end": 307,
+              "byte_start": 22080,
+              "byte_end": 23536
+            },
+            "source_lines": [
+              298,
+              307
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "needs_context_method_conditions_and_a_separate_validated_profile",
+        "conventions": {
+          "patient_identity_is_not_automatically_requester": true,
+          "medical_safety": "traditional_reference_not_diagnosis_or_treatment_decision",
+          "multiple_symbols_and_roles_must_coexist": true,
+          "casting_method_and_pillars_must_be_known": true
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 298,
+        "line_end": 307,
+        "byte_start": 22080,
+        "byte_end": 23536
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "birth_year_additional_context",
+      "title": "年命引文、出生盘与兼看出生年干",
+      "category": "role",
+      "line_start": 308,
+      "line_end": 330,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "完整保存《遁甲演义》及提要实际引文和作者重年命两点；出生盘与求测盘、出生年干与求测年干要分标识，作者更准主张不当独立评估。",
+      "concepts": [
+        "年命用神",
+        "出生盘",
+        "出生年干",
+        "求测盘",
+        "遁甲演义引文"
+      ],
+      "dataset": {
+        "key": "application_birth_contexts",
+        "rows": [
+          {
+            "key": "birth_full_chart",
+            "context": "出生年、月、日、时的奇门格局",
+            "source_specific_line": 326,
+            "requires": [
+              "出生时间及其方法、历法条件"
+            ],
+            "scope": "另看出生盘，不与求测盘无标识合成",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 308,
+              "line_end": 330,
+              "byte_start": 23536,
+              "byte_end": 24720
+            },
+            "source_lines": [
+              308,
+              330
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "birth_year_additional_role",
+            "context": "平时预测中兼看出生之年的年干落宫",
+            "source_specific_line": 328,
+            "requires": [
+              "相关当事人出生年干",
+              "求测盘及其年/月/日/时干"
+            ],
+            "scope": "兼看年命，不取代原有角色",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 308,
+              "line_end": 330,
+              "byte_start": 23536,
+              "byte_end": 24720
+            },
+            "source_lines": [
+              308,
+              330
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "needs_context_method_conditions_and_a_separate_validated_profile",
+        "conventions": {
+          "author_accuracy_statement_not_independent_measurement": true,
+          "birth_year_label_does_not_supply_calendar_algorithm": true
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 308,
+        "line_end": 330,
+        "byte_start": 23536,
+        "byte_end": 24720
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "organizing_roles",
+      "title": "用神纲领与日时干一般性表述",
+      "category": "role",
+      "line_start": 331,
+      "line_end": 340,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "天时星、人事门、地理宫、六亲四干为纲，337明确日时干一般为纲领；一般不变成排除其他法和多重角色的唯一规定。",
+      "concepts": [
+        "用神纲领性",
+        "天时人事地理六亲",
+        "日干时干一般纲领"
+      ],
+      "dataset": {
+        "key": "application_role_organizing_guidelines",
+        "rows": [
+          {
+            "key": "heaven",
+            "domain_scope": "天时",
+            "primary_symbol_class": "九星",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 331,
+              "line_end": 340,
+              "byte_start": 24720,
+              "byte_end": 25180
+            },
+            "source_lines": [
+              331,
+              340
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "human",
+            "domain_scope": "人事",
+            "primary_symbol_class": "八门",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 331,
+              "line_end": 340,
+              "byte_start": 24720,
+              "byte_end": 25180
+            },
+            "source_lines": [
+              331,
+              340
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "geography",
+            "domain_scope": "地理方位",
+            "primary_symbol_class": "九宫",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 331,
+              "line_end": 340,
+              "byte_start": 24720,
+              "byte_end": 25180
+            },
+            "source_lines": [
+              331,
+              340
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "relatives",
+            "domain_scope": "六亲",
+            "primary_symbol_class": "年、月、日、时",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 331,
+              "line_end": 340,
+              "byte_start": 24720,
+              "byte_end": 25180
+            },
+            "source_lines": [
+              331,
+              340
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "needs_context_method_conditions_and_a_separate_validated_profile",
+        "conventions": {
+          "day_hour_guideline_as_written": "无论什么事日干时干一般为主要纲领",
+          "not_unique_unconditional_binding": true,
+          "exceptions_and_multiple_roles_preserved": true
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 331,
+        "line_end": 340,
+        "byte_start": 24720,
+        "byte_end": 25180
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "analysis_fundamental_introduction",
+      "title": "阴阳五行根本思路与多角度比喻",
+      "category": "commentary",
+      "line_start": 341,
+      "line_end": 351,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "保留阴阳五行根本原理、苏轼诗及从不同角度观察的作者比喻，不把文学引语当可执行算法。",
+      "concepts": [
+        "生克制化",
+        "横竖远近高低",
+        "多角度分析"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 341,
+        "line_end": 351,
+        "byte_start": 25180,
+        "byte_end": 25795
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "horizontal_palace_comparison",
+      "title": "横看：用神实际落宫元素比较",
+      "category": "analysis",
+      "line_start": 352,
+      "line_end": 358,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "明确日干克时干等指实际落宫之间，白虎克天蓬也用其落宫元素；不能误用这些符号本身元素替代横向关系。",
+      "concepts": [
+        "横向比较",
+        "实际落宫五行",
+        "同一盘",
+        "日时干宫位",
+        "神星落宫关系"
+      ],
+      "dataset": {
+        "key": "application_horizontal_evidence_dimensions",
+        "rows": [
+          {
+            "key": "day_hour",
+            "source_expression": "日干克时干",
+            "operand_type": "actual_landing_palace_elements",
+            "source_role": "日干落宫",
+            "target_role": "时干落宫",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 352,
+              "line_end": 358,
+              "byte_start": 25795,
+              "byte_end": 26273
+            },
+            "source_lines": [
+              352,
+              358
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "day_rui",
+            "source_expression": "日干克病神",
+            "operand_type": "actual_landing_palace_elements",
+            "source_role": "日干落宫",
+            "target_role": "天芮星落宫",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 352,
+              "line_end": 358,
+              "byte_start": 25795,
+              "byte_end": 26273
+            },
+            "source_lines": [
+              352,
+              358
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "kai_day",
+            "source_expression": "开门克日干",
+            "operand_type": "actual_landing_palace_elements",
+            "source_role": "开门落宫",
+            "target_role": "日干落宫",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 352,
+              "line_end": 358,
+              "byte_start": 25795,
+              "byte_end": 26273
+            },
+            "source_lines": [
+              352,
+              358
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "tiger_peng",
+            "source_expression": "白虎克天蓬",
+            "operand_type": "actual_landing_palace_elements",
+            "source_role": "白虎落宫",
+            "target_role": "天蓬星落宫",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 352,
+              "line_end": 358,
+              "byte_start": 25795,
+              "byte_end": 26273
+            },
+            "source_lines": [
+              352,
+              358
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "needs_context_method_conditions_and_a_separate_validated_profile",
+        "conventions": {
+          "not_intrinsic_stem_star_deity_elements": true,
+          "requires_role_binding_and_same_chart": true
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 352,
+        "line_end": 358,
+        "byte_start": 25795,
+        "byte_end": 26273
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "vertical_layer_comparison",
+      "title": "竖看：同宫盘层生克及八神限制",
+      "category": "analysis",
+      "line_start": 359,
+      "line_end": 371,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "同宫中星门自身属性与宫元素、天干天地盘及隐支、星门相互关系按层分开；八神一般不以自身元素比宫，与横向神落宫比较不是一回事。",
+      "concepts": [
+        "竖向比较",
+        "星克宫",
+        "门迫制和义",
+        "天地盘干",
+        "六甲隐支",
+        "八神一般不竖比"
+      ],
+      "dataset": {
+        "key": "application_vertical_evidence_dimensions",
+        "rows": [
+          {
+            "key": "star_palace",
+            "source_layer": "天盘九星固有元素",
+            "target_layer": "地盘宫元素",
+            "example_as_written": "天心金落震三，为天盘克地盘",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 359,
+              "line_end": 371,
+              "byte_start": 26273,
+              "byte_end": 27365
+            },
+            "source_lines": [
+              359,
+              371
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "door_palace",
+            "source_layer": "门固有元素",
+            "target_layer": "地盘宫元素",
+            "example_as_written": "开门金落震三迫、离九制、坎一门生宫、坤二宫生门",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 359,
+              "line_end": 371,
+              "byte_start": 26273,
+              "byte_end": 27365
+            },
+            "source_lines": [
+              359,
+              371
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "heaven_earth_stems",
+            "source_layer": "天盘干",
+            "target_layer": "地盘干",
+            "source_scope": "十干克应、干落宫长生旺死墓绝，有时看干本身生克",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 359,
+              "line_end": 371,
+              "byte_start": 26273,
+              "byte_end": 27365
+            },
+            "source_lines": [
+              359,
+              371
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "hidden_jia_branch",
+            "source_layer": "六甲所带地支",
+            "target_layer": "地盘宫暗含地支",
+            "source_scope": "刑冲克害等",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 359,
+              "line_end": 371,
+              "byte_start": 26273,
+              "byte_end": 27365
+            },
+            "source_lines": [
+              359,
+              371
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "star_door",
+            "source_layer": "九星",
+            "target_layer": "八门",
+            "source_scope": "可比较其生克",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 359,
+              "line_end": 371,
+              "byte_start": 26273,
+              "byte_end": 27365
+            },
+            "source_lines": [
+              359,
+              371
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "deity_limit",
+            "source_layer": "八神自身元素",
+            "target_layer": "地盘宫元素",
+            "source_scope": "一般不以此比较生克",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 359,
+              "line_end": 371,
+              "byte_start": 26273,
+              "byte_end": 27365
+            },
+            "source_lines": [
+              359,
+              371
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "needs_context_method_conditions_and_a_separate_validated_profile",
+        "conventions": {
+          "deity_horizontal_palace_comparison_is_different": true,
+          "complete_context_not_a_universal_edge_rule": true
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 359,
+        "line_end": 371,
+        "byte_start": 26273,
+        "byte_end": 27365
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "inner_outer_speed",
+      "title": "远近内外与阴阳遁分区、伏吟反吟快慢",
+      "category": "analysis",
+      "line_start": 372,
+      "line_end": 378,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "阳遁一八三四内近快、九二七六外远慢，阴遁相反；只给定性分区，中五未说明，伏吟迟反吟速不自行量化。",
+      "concepts": [
+        "内盘外盘",
+        "阳遁内近快",
+        "阴遁内近快",
+        "伏吟迟反吟速"
+      ],
+      "dataset": {
+        "key": "application_inner_outer_palaces",
+        "rows": [
+          {
+            "key": "yang",
+            "dun": "阳遁",
+            "inner_palaces": [
+              1,
+              8,
+              3,
+              4
+            ],
+            "outer_palaces": [
+              9,
+              2,
+              7,
+              6
+            ],
+            "inner_labels": [
+              "内",
+              "近",
+              "快"
+            ],
+            "outer_labels": [
+              "外",
+              "远",
+              "慢"
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 372,
+              "line_end": 378,
+              "byte_start": 27365,
+              "byte_end": 27696
+            },
+            "source_lines": [
+              372,
+              378
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "yin",
+            "dun": "阴遁",
+            "inner_palaces": [
+              9,
+              2,
+              7,
+              6
+            ],
+            "outer_palaces": [
+              1,
+              8,
+              3,
+              4
+            ],
+            "inner_labels": [
+              "内",
+              "近",
+              "快"
+            ],
+            "outer_labels": [
+              "外",
+              "远",
+              "慢"
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 372,
+              "line_end": 378,
+              "byte_start": 27365,
+              "byte_end": 27696
+            },
+            "source_lines": [
+              372,
+              378
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "needs_context_method_conditions_and_a_separate_validated_profile",
+        "conventions": {
+          "center_palace5": "not_specified_do_not_implicitly_host",
+          "fuyin_fanyin": "伏吟迟、反吟速是定性参考，不自动换成具体日期"
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 372,
+        "line_end": 378,
+        "byte_start": 27365,
+        "byte_end": 27696
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "strength_multidimensional_conclusion",
+      "title": "高低旺衰的方法分层与全盘总结",
+      "category": "analysis",
+      "line_start": 379,
+      "line_end": 396,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "干以生旺墓绝兼月令、门星以月令节气兼落宫，九星废与五行死不同；多用神更全面更准为作者主张，未等于模型测试提升。",
+      "concepts": [
+        "干旺衰兼月令",
+        "门星旺衰",
+        "九星废",
+        "全盘综合",
+        "作者经验主张"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 379,
+        "line_end": 396,
+        "byte_start": 27696,
+        "byte_end": 28560
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "timing_introduction",
+      "title": "应期《法窍》大意、时标与先支后干",
+      "category": "timing",
+      "line_start": 397,
+      "line_end": 404,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "作者说明所引《奇门法窍》为大意；年月日时远近须衰旺灵活确定，先定支后配干不等于已经有完整时间算法。",
+      "concepts": [
+        "应期",
+        "奇门法窍大意",
+        "先支后干",
+        "时标远近"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 397,
+        "line_end": 404,
+        "byte_start": 28560,
+        "byte_end": 29043
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "timing_chief_clash",
+      "title": "六甲值符相冲以合定支完整例组",
+      "category": "timing",
+      "line_start": 405,
+      "line_end": 408,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "六个值符相冲例按原文各自条件、合支和年月至日时范围保存；不能自动将第一例多时间单位缩成日或全例统一一个单位。",
+      "concepts": [
+        "值符相冲",
+        "相合定支",
+        "六甲应期例"
+      ],
+      "dataset": {
+        "key": "application_timing_chief_clash_examples",
+        "rows": [
+          {
+            "key": "jiazi_li9",
+            "xun_head": "甲子",
+            "landing_palace": 9,
+            "clash_branches": [
+              "子",
+              "午"
+            ],
+            "combination_branches": [
+              "子",
+              "丑"
+            ],
+            "target_branch": "丑",
+            "source_time_units": [
+              "年",
+              "月",
+              "日",
+              "时"
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 405,
+              "line_end": 408,
+              "byte_start": 29043,
+              "byte_end": 29602
+            },
+            "source_lines": [
+              405,
+              408
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "jiawu_kan1",
+            "xun_head": "甲午",
+            "landing_palace": 1,
+            "clash_branches": [
+              "子",
+              "午"
+            ],
+            "combination_branches": [
+              "午",
+              "未"
+            ],
+            "target_branch": "未",
+            "source_time_units": [
+              "日"
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 405,
+              "line_end": 408,
+              "byte_start": 29043,
+              "byte_end": 29602
+            },
+            "source_lines": [
+              405,
+              408
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "jiayin_kun2",
+            "xun_head": "甲寅",
+            "landing_palace": 2,
+            "clash_branches": [
+              "寅",
+              "申"
+            ],
+            "combination_branches": [
+              "寅",
+              "亥"
+            ],
+            "target_branch": "亥",
+            "source_time_units": [
+              "日"
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 405,
+              "line_end": 408,
+              "byte_start": 29043,
+              "byte_end": 29602
+            },
+            "source_lines": [
+              405,
+              408
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "jiashen_gen8",
+            "xun_head": "甲申",
+            "landing_palace": 8,
+            "clash_branches": [
+              "寅",
+              "申"
+            ],
+            "combination_branches": [
+              "巳",
+              "申"
+            ],
+            "target_branch": "巳",
+            "source_time_units": [
+              "日"
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 405,
+              "line_end": 408,
+              "byte_start": 29043,
+              "byte_end": 29602
+            },
+            "source_lines": [
+              405,
+              408
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "jiaxu_xun4",
+            "xun_head": "甲戌",
+            "landing_palace": 4,
+            "clash_branches": [
+              "辰",
+              "戌"
+            ],
+            "combination_branches": [
+              "卯",
+              "戌"
+            ],
+            "target_branch": "卯",
+            "source_time_units": [
+              "日"
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 405,
+              "line_end": 408,
+              "byte_start": 29043,
+              "byte_end": 29602
+            },
+            "source_lines": [
+              405,
+              408
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "jiachen_qian6",
+            "xun_head": "甲辰",
+            "landing_palace": 6,
+            "clash_branches": [
+              "辰",
+              "戌"
+            ],
+            "combination_branches": [
+              "辰",
+              "酉"
+            ],
+            "target_branch": "酉",
+            "source_time_units": [
+              "日"
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 405,
+              "line_end": 408,
+              "byte_start": 29043,
+              "byte_end": 29602
+            },
+            "source_lines": [
+              405,
+              408
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "needs_context_method_conditions_and_a_separate_validated_profile",
+        "conventions": {
+          "source_is_paraphrase_of_qimen_faqiao": "本章作者称大意",
+          "not_timestamp_generation": true
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 405,
+        "line_end": 408,
+        "byte_start": 29043,
+        "byte_end": 29602
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "timing_chief_punishment",
+      "title": "值符相刑以合定支完整例组",
+      "category": "timing",
+      "line_start": 409,
+      "line_end": 412,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "三例甲戌坤二、甲子震三、甲寅巽四保留本方法明载刑关系；不依据另一章支刑图补反向或改原文。",
+      "concepts": [
+        "值符相刑",
+        "合定支",
+        "戌刑未",
+        "子刑卯",
+        "寅刑巳"
+      ],
+      "dataset": {
+        "key": "application_timing_chief_punishment_examples",
+        "rows": [
+          {
+            "key": "jiaxu_kun2",
+            "xun_head": "甲戌",
+            "landing_palace": 2,
+            "punishment_as_written": "戌刑未",
+            "combination_branches": [
+              "卯",
+              "戌"
+            ],
+            "target_branch": "卯",
+            "source_time_units": [
+              "日"
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 409,
+              "line_end": 412,
+              "byte_start": 29602,
+              "byte_end": 29873
+            },
+            "source_lines": [
+              409,
+              412
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "jiazi_zhen3",
+            "xun_head": "甲子",
+            "landing_palace": 3,
+            "punishment_as_written": "子刑卯",
+            "combination_branches": [
+              "子",
+              "丑"
+            ],
+            "target_branch": "丑",
+            "source_time_units": [
+              "日"
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 409,
+              "line_end": 412,
+              "byte_start": 29602,
+              "byte_end": 29873
+            },
+            "source_lines": [
+              409,
+              412
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "jiayin_xun4",
+            "xun_head": "甲寅",
+            "landing_palace": 4,
+            "punishment_as_written": "寅刑巳",
+            "combination_branches": [
+              "寅",
+              "亥"
+            ],
+            "target_branch": "亥",
+            "source_time_units": [
+              "日"
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 409,
+              "line_end": 412,
+              "byte_start": 29602,
+              "byte_end": 29873
+            },
+            "source_lines": [
+              409,
+              412
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "needs_context_method_conditions_and_a_separate_validated_profile",
+        "conventions": {
+          "use_explicit_timing_examples_not_reverse_inferred_branch_graph": true,
+          "not_timestamp_generation": true
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 409,
+        "line_end": 412,
+        "byte_start": 29602,
+        "byte_end": 29873
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "timing_chief_void",
+      "title": "值符落旬空、出旬与乾宫戌亥例",
+      "category": "timing",
+      "line_start": 413,
+      "line_end": 418,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "完整保留出旬论断、甲子旬戌亥空与乾宫重支示例，出旬和填实等条件不能未经说明当同一程序。",
+      "concepts": [
+        "值符旬空",
+        "出旬",
+        "戌亥空",
+        "乾六宫应期"
+      ],
+      "dataset": {
+        "key": "application_timing_chief_void_contexts",
+        "rows": [
+          {
+            "key": "jiazi_qian6",
+            "xun_head": "甲子",
+            "void_branches_as_written": [
+              "戌",
+              "亥"
+            ],
+            "landing_palace": 6,
+            "target_branches_as_written": [
+              "戌",
+              "亥"
+            ],
+            "source_time_units": [
+              "日"
+            ],
+            "source_condition": "值符落在旬空，必以出旬论断",
+            "source_explanation": "戌亥为重，阳与阳比，阴与阴比",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 413,
+              "line_end": 418,
+              "byte_start": 29873,
+              "byte_end": 30098
+            },
+            "source_lines": [
+              413,
+              418
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "needs_context_method_conditions_and_a_separate_validated_profile",
+        "conventions": {
+          "out_of_xun_vs_fill_vs_opposition": "distinct conditions must be resolved, not silently identified",
+          "no_void_calendar_implementation_added": true
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 413,
+        "line_end": 418,
+        "byte_start": 29873,
+        "byte_end": 30098
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "timing_fallback",
+      "title": "不冲刑空后的六仪地支与星门生克分支",
+      "category": "timing",
+      "line_start": 419,
+      "line_end": 430,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "前置条件逐层不满足才进入后续方法；逢冲合互取、生逢生日克逢克日及符先使后保留主体未明处，不能全部同时确定。",
+      "concepts": [
+        "应期后备分支",
+        "天盘六仪所带支",
+        "冲取合",
+        "合取冲",
+        "符先使后"
+      ],
+      "dataset": {
+        "key": "application_timing_fallback_branches",
+        "rows": [
+          {
+            "key": "no_chief_clash_punishment_void",
+            "prerequisites": [
+              "前述不冲",
+              "不刑",
+              "不空"
+            ],
+            "basis": "天盘六仪所带地支",
+            "branching": {
+              "逢冲": "以其合定支",
+              "逢合": "以其冲定支"
+            },
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 419,
+              "line_end": 420,
+              "byte_start": 30098,
+              "byte_end": 30268
+            },
+            "source_lines": [
+              419,
+              420
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "no_carried_branch_clash_or_combine",
+            "prerequisites": [
+              "天盘所带地支不冲",
+              "不合"
+            ],
+            "basis": "星门生克",
+            "branching": {
+              "生": "逢生日",
+              "克": "逢克日"
+            },
+            "direction_scope": "生克主体对象需明确，不自行补全",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 421,
+              "line_end": 424,
+              "byte_start": 30268,
+              "byte_end": 30377
+            },
+            "source_lines": [
+              421,
+              424
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "chief_before_door",
+            "basis": "符应主先，使应主后",
+            "order": [
+              "值符",
+              "值使"
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 425,
+              "line_end": 430,
+              "byte_start": 30377,
+              "byte_end": 30554
+            },
+            "source_lines": [
+              425,
+              430
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "needs_context_method_conditions_and_a_separate_validated_profile",
+        "conventions": {
+          "unknown_prerequisite_is_not_true": true,
+          "do_not_run_all_fallbacks_as_simultaneous_certainties": true
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 419,
+        "line_end": 430,
+        "byte_start": 30098,
+        "byte_end": 30554
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "timing_item01",
+      "title": "第1条：应期三原则完整块",
+      "category": "timing",
+      "line_start": 431,
+      "line_end": 440,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "远慢年月近快日时、先支后干、先符后使三原则一起保留；不是13条中独立精确日期公式。",
+      "concepts": [
+        "应期三原则",
+        "时标",
+        "支干先后",
+        "符使先后"
+      ],
+      "dataset": {
+        "key": "application_timing_principles",
+        "rows": [
+          {
+            "key": "distance_and_unit",
+            "principle": "用神旺衰长生墓绝、内外盘、伏吟反吟判远近快慢；远慢断年月、近快断日时",
+            "missing_context": [
+              "实际用神",
+              "实际盘",
+              "状态方法",
+              "事件时间尺度"
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 431,
+              "line_end": 440,
+              "byte_start": 30554,
+              "byte_end": 30919
+            },
+            "source_lines": [
+              431,
+              440
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "branch_before_stem",
+            "principle": "先定地支，后配天干，以支为主兼干",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 431,
+              "line_end": 440,
+              "byte_start": 30554,
+              "byte_end": 30919
+            },
+            "source_lines": [
+              431,
+              440
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "chief_before_door",
+            "principle": "先值符后值使",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 431,
+              "line_end": 440,
+              "byte_start": 30554,
+              "byte_end": 30919
+            },
+            "source_lines": [
+              431,
+              440
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "needs_context_method_conditions_and_a_separate_validated_profile",
+        "conventions": {
+          "principles_not_complete_deterministic_date_algorithm": true
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 431,
+        "line_end": 440,
+        "byte_start": 30554,
+        "byte_end": 30919
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "timing_item02",
+      "title": "第2条：六甲值符刑冲合与旬空填实",
+      "category": "timing",
+      "line_start": 441,
+      "line_end": 443,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "第一种方法以六甲值符刑冲合或旬空填实；与前面出旬和后面冲实的说明分开，不自动替换。",
+      "concepts": [
+        "六甲值符应期",
+        "刑冲取合",
+        "旬空填实"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 441,
+        "line_end": 443,
+        "byte_start": 30919,
+        "byte_end": 31046
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "timing_item03",
+      "title": "第3条：天盘六仪所带支冲合",
+      "category": "timing",
+      "line_start": 444,
+      "line_end": 446,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "第二种方法所取对象是天盘六仪带支，逢合取冲逢冲取合；不能把所有实际地支对象混为一个。",
+      "concepts": [
+        "六仪带支应期",
+        "合取冲",
+        "冲取合"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 444,
+        "line_end": 446,
+        "byte_start": 31046,
+        "byte_end": 31176
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "timing_item04",
+      "title": "第4条：带支不冲不合时星门生克",
+      "category": "timing",
+      "line_start": 447,
+      "line_end": 452,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "第三种方法前置为天盘带支不冲不合；生克主体对象和具体日历配干未完全给，须保留未明。",
+      "concepts": [
+        "不冲不合",
+        "星门生克应期",
+        "生逢生日",
+        "克逢克日"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 447,
+        "line_end": 452,
+        "byte_start": 31176,
+        "byte_end": 31369
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "timing_item05",
+      "title": "第5条：用神长生旺相应期",
+      "category": "timing",
+      "line_start": 453,
+      "line_end": 455,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "仅列长生旺相应期方法，未给具体取支日历和与其他方法优先规则。",
+      "concepts": [
+        "用神长生应期",
+        "用神旺相应期"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 453,
+        "line_end": 455,
+        "byte_start": 31369,
+        "byte_end": 31409
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "timing_item06",
+      "title": "第6条：用神死墓绝应期",
+      "category": "timing",
+      "line_start": 456,
+      "line_end": 458,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "仅列死墓绝应期，不能和上一条无条件合并为所有阶段都同一日期。",
+      "concepts": [
+        "用神死应期",
+        "用神墓应期",
+        "用神绝应期"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 456,
+        "line_end": 458,
+        "byte_start": 31409,
+        "byte_end": 31449
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "timing_item07",
+      "title": "第7条：庚格日阴阳与时干临星两口径",
+      "category": "timing",
+      "line_start": 459,
+      "line_end": 463,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "完整保留庚临四干、阴日看庚上阳日看庚下及时干临阴星看上临阳星看下两套选择；多用于破案行走，冲突或阴日口径未明不暗选。",
+      "concepts": [
+        "庚格应期",
+        "庚上干",
+        "庚下干",
+        "阴阳日",
+        "阴阳星",
+        "破案行人走失"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 459,
+        "line_end": 463,
+        "byte_start": 31449,
+        "byte_end": 31692
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "timing_item08",
+      "title": "第8条：旬空填实与冲实两法",
+      "category": "timing",
+      "line_start": 464,
+      "line_end": 466,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "两种旬空应期并列，不凭同为旬空自动认定唯一填支；需要具体方法及前提。",
+      "concepts": [
+        "旬空填实",
+        "旬空冲实"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 464,
+        "line_end": 466,
+        "byte_start": 31692,
+        "byte_end": 31750
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "timing_item09",
+      "title": "第9条：冲墓应期",
+      "category": "timing",
+      "line_start": 467,
+      "line_end": 469,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "原文只列冲墓，墓对象、冲的时标与干支搭配未明，不能补全。",
+      "concepts": [
+        "冲墓应期"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 467,
+        "line_end": 469,
+        "byte_start": 31750,
+        "byte_end": 31778
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "timing_item10",
+      "title": "第10条：马星动应期",
+      "category": "timing",
+      "line_start": 470,
+      "line_end": 472,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "只列马星动，未给本方法马星算法、动的定义或时间换算。",
+      "concepts": [
+        "马星动应期"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 470,
+        "line_end": 472,
+        "byte_start": 31778,
+        "byte_end": 31810
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "timing_item11",
+      "title": "第11条：值使门临干与落宫数",
+      "category": "timing",
+      "line_start": 473,
+      "line_end": 475,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "临干、落宫数两种应期并列，哪个盘层干和数值单位不能暗中填。",
+      "concepts": [
+        "值使临干应期",
+        "值使宫数应期"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 473,
+        "line_end": 475,
+        "byte_start": 31810,
+        "byte_end": 31887
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "timing_item12",
+      "title": "第12条：时干所落宫数",
+      "category": "timing",
+      "line_start": 476,
+      "line_end": 478,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "只给时干宫数应期，需知道时干所用盘层和真实落宫，时间单位未明确。",
+      "concepts": [
+        "时干宫数应期"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 476,
+        "line_end": 478,
+        "byte_start": 31887,
+        "byte_end": 31928
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "timing_item13",
+      "title": "第13条：日时支合与刑冲克害",
+      "category": "timing",
+      "line_start": 479,
+      "line_end": 479,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "原文以等等开放列举日时支三合六合与刑冲克害应期，不构成全部日期可执行封闭算法。",
+      "concepts": [
+        "日支时支应期",
+        "三合六合",
+        "刑冲克害"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 479,
+        "line_end": 479,
+        "byte_start": 31928,
+        "byte_end": 32020
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "judgment_method_catalog",
+      "title": "判断方法四种完整来源目录",
+      "category": "analysis",
+      "line_start": 231,
+      "line_end": 260,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "四种方法分来源条件保留，没有原文唯一默认。",
+      "concepts": [
+        "判断方法四种完整来源目录"
+      ],
+      "dataset": {
+        "key": "application_judgment_methods",
+        "rows": [
+          {
+            "key": "three_powers",
+            "method_scope": "按天人地三才所主事项及盘层生克",
+            "source_attribution": "本章所引《奇门遁甲秘籍大全》",
+            "requires": [
+              "明确所涉天人地事项",
+              "星门宫及盘层"
+            ],
+            "no_unique_default": true,
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 239,
+              "line_end": 244,
+              "byte_start": 15387,
+              "byte_end": 16161
+            },
+            "source_lines": [
+              239,
+              244
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "dynamic_static",
+            "method_scope": "静看值符值使时干，动看事件方向",
+            "source_attribution": "本章所引《奇门统宗》",
+            "requires": [
+              "动静口径",
+              "如用方向法需已知事情方向"
+            ],
+            "no_unique_default": true,
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 245,
+              "line_end": 250,
+              "byte_start": 16161,
+              "byte_end": 16542
+            },
+            "source_lines": [
+              245,
+              250
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "static_chiefs",
+            "method_scope": "静看值符值使落宫及主客旺衰",
+            "source_attribution": "本章所引《奇门一得》",
+            "requires": [
+              "主客口径",
+              "天盘地盘对象",
+              "旺衰状态"
+            ],
+            "no_unique_default": true,
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 251,
+              "line_end": 254,
+              "byte_start": 16542,
+              "byte_end": 17953
+            },
+            "source_lines": [
+              251,
+              254
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "selected_spirits",
+            "method_scope": "按不同事物取不同用神并综合落宫关系",
+            "source_attribution": "本章作者（本次材料未明确姓名）",
+            "requires": [
+              "具体问事及角色",
+              "起局方法与盘",
+              "可用条件规则"
+            ],
+            "no_unique_default": true,
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 255,
+              "line_end": 258,
+              "byte_start": 17953,
+              "byte_end": 18365
+            },
+            "source_lines": [
+              255,
+              258
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "needs_context_method_conditions_and_a_separate_validated_profile",
+        "supporting_group_keys": [
+          "quoted_three_powers_method",
+          "quoted_dynamic_static_method",
+          "quoted_static_chief_method",
+          "use_spirit_method"
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 231,
+        "line_end": 260,
+        "byte_start": 15015,
+        "byte_end": 18367
+      },
+      "overlaps_groups": [
+        "quoted_three_powers_method",
+        "quoted_dynamic_static_method",
+        "quoted_static_chief_method",
+        "use_spirit_method"
+      ],
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "casting_context_catalog",
+      "title": "事件求测出生时间口径与年命角色目录",
+      "category": "casting",
+      "line_start": 52,
+      "line_end": 330,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "仅列本章实际出现的时间口径；源未详述换日时区，不能自行选口径或假装全部问题已起盘。",
+      "concepts": [
+        "事件求测出生时间口径与年命角色目录"
+      ],
+      "dataset": {
+        "key": "application_casting_contexts",
+        "rows": [
+          {
+            "key": "scheduled_event_chart",
+            "source_context": "作者按预定发射时间起盘",
+            "time_basis": "事件预定时间",
+            "time_as_written": "1995年1月26日凌晨6点40分",
+            "scope": "该历史案例已使用的起局口径，不自动推广所有问题",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 52,
+              "line_end": 70,
+              "byte_start": 3187,
+              "byte_end": 4631
+            },
+            "source_lines": [
+              52,
+              70
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "query_time_pillars",
+            "source_context": "平时预测求测时间年、月、日、时干",
+            "time_basis": "求测时间",
+            "scope": "作者平时预测说法；多方法及问题背景仍须确定",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 324,
+              "line_end": 328,
+              "byte_start": 24455,
+              "byte_end": 24718
+            },
+            "source_lines": [
+              324,
+              328
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "birth_chart",
+            "source_context": "出生年、月、日、时的奇门格局",
+            "time_basis": "出生时间",
+            "scope": "独立出生盘，不与求测盘混同",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 324,
+              "line_end": 328,
+              "byte_start": 24455,
+              "byte_end": 24718
+            },
+            "source_lines": [
+              324,
+              328
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "birth_year_additional",
+            "source_context": "出生年干兼看",
+            "time_basis": "相关当事人出生年干作为额外角色",
+            "scope": "兼看角色，不能误当当前求测年干",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 324,
+              "line_end": 328,
+              "byte_start": 24455,
+              "byte_end": 24718
+            },
+            "source_lines": [
+              324,
+              328
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "needs_context_method_conditions_and_a_separate_validated_profile",
+        "supporting_group_keys": [
+          "satellite_case_complete",
+          "birth_year_additional_context"
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 52,
+        "line_end": 330,
+        "byte_start": 3187,
+        "byte_end": 24720
+      },
+      "overlaps_groups": [
+        "satellite_case_complete",
+        "birth_year_additional_context"
+      ],
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "analysis_dimension_catalog",
+      "title": "横竖远近旺衰四维目录",
+      "category": "analysis",
+      "line_start": 341,
+      "line_end": 396,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "四维保持具体对象和条件，不能把符号自身元素与实际落宫元素混用。",
+      "concepts": [
+        "横竖远近旺衰四维目录"
+      ],
+      "dataset": {
+        "key": "application_analysis_dimensions",
+        "rows": [
+          {
+            "key": "horizontal",
+            "dimension": "横看",
+            "operand_scope": "用神实际落宫元素",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 352,
+              "line_end": 358,
+              "byte_start": 25795,
+              "byte_end": 26273
+            },
+            "source_lines": [
+              352,
+              358
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "vertical",
+            "dimension": "竖看",
+            "operand_scope": "同宫各层原文限定对象",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 359,
+              "line_end": 371,
+              "byte_start": 26273,
+              "byte_end": 27365
+            },
+            "source_lines": [
+              359,
+              371
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "distance",
+            "dimension": "远近内外快慢",
+            "operand_scope": "阴阳遁分区及伏吟反吟定性",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 372,
+              "line_end": 378,
+              "byte_start": 27365,
+              "byte_end": 27696
+            },
+            "source_lines": [
+              372,
+              378
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "strength",
+            "dimension": "高低旺衰",
+            "operand_scope": "干长生墓绝兼月令，门星月令节气兼落宫；九星另法",
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 379,
+              "line_end": 396,
+              "byte_start": 27696,
+              "byte_end": 28560
+            },
+            "source_lines": [
+              379,
+              396
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "needs_context_method_conditions_and_a_separate_validated_profile",
+        "supporting_group_keys": [
+          "horizontal_palace_comparison",
+          "vertical_layer_comparison",
+          "inner_outer_speed",
+          "strength_multidimensional_conclusion"
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 341,
+        "line_end": 396,
+        "byte_start": 25180,
+        "byte_end": 28560
+      },
+      "overlaps_groups": [
+        "horizontal_palace_comparison",
+        "vertical_layer_comparison",
+        "inner_outer_speed",
+        "strength_multidimensional_conclusion"
+      ],
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "timing_method_catalog",
+      "title": "十三条应期完整上下文目录",
+      "category": "timing",
+      "line_start": 431,
+      "line_end": 479,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "十三条包含一组原则和多分支方法；原文未给的优先、单位和配干算法不补全。",
+      "concepts": [
+        "十三条应期完整上下文目录"
+      ],
+      "dataset": {
+        "key": "application_timing_catalog",
+        "rows": [
+          {
+            "key": "item_1",
+            "item_number": 1,
+            "record_type": "原则",
+            "source_heading": "远近单位、先支后干、先符后使",
+            "conditions_and_exceptions": "read entire referenced item and preceding timing context",
+            "can_generate_exact_date": false,
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 431,
+              "line_end": 440,
+              "byte_start": 30554,
+              "byte_end": 30919
+            },
+            "source_lines": [
+              431,
+              440
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "item_2",
+            "item_number": 2,
+            "record_type": "方法",
+            "source_heading": "六甲值符刑冲以合、旬空填实",
+            "conditions_and_exceptions": "read entire referenced item and preceding timing context",
+            "can_generate_exact_date": false,
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 441,
+              "line_end": 443,
+              "byte_start": 30919,
+              "byte_end": 31046
+            },
+            "source_lines": [
+              441,
+              443
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "item_3",
+            "item_number": 3,
+            "record_type": "方法",
+            "source_heading": "六仪所带支冲合互取",
+            "conditions_and_exceptions": "read entire referenced item and preceding timing context",
+            "can_generate_exact_date": false,
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 444,
+              "line_end": 446,
+              "byte_start": 31046,
+              "byte_end": 31176
+            },
+            "source_lines": [
+              444,
+              446
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "item_4",
+            "item_number": 4,
+            "record_type": "方法",
+            "source_heading": "带支无冲合时星门生克",
+            "conditions_and_exceptions": "read entire referenced item and preceding timing context",
+            "can_generate_exact_date": false,
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 447,
+              "line_end": 452,
+              "byte_start": 31176,
+              "byte_end": 31369
+            },
+            "source_lines": [
+              447,
+              452
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "item_5",
+            "item_number": 5,
+            "record_type": "方法",
+            "source_heading": "用神长生旺相",
+            "conditions_and_exceptions": "read entire referenced item and preceding timing context",
+            "can_generate_exact_date": false,
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 453,
+              "line_end": 455,
+              "byte_start": 31369,
+              "byte_end": 31409
+            },
+            "source_lines": [
+              453,
+              455
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "item_6",
+            "item_number": 6,
+            "record_type": "方法",
+            "source_heading": "用神死墓绝",
+            "conditions_and_exceptions": "read entire referenced item and preceding timing context",
+            "can_generate_exact_date": false,
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 456,
+              "line_end": 458,
+              "byte_start": 31409,
+              "byte_end": 31449
+            },
+            "source_lines": [
+              456,
+              458
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "item_7",
+            "item_number": 7,
+            "record_type": "方法",
+            "source_heading": "庚格两套阴阳选择",
+            "conditions_and_exceptions": "read entire referenced item and preceding timing context",
+            "can_generate_exact_date": false,
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 459,
+              "line_end": 463,
+              "byte_start": 31449,
+              "byte_end": 31692
+            },
+            "source_lines": [
+              459,
+              463
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "item_8",
+            "item_number": 8,
+            "record_type": "方法",
+            "source_heading": "旬空填实或冲实",
+            "conditions_and_exceptions": "read entire referenced item and preceding timing context",
+            "can_generate_exact_date": false,
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 464,
+              "line_end": 466,
+              "byte_start": 31692,
+              "byte_end": 31750
+            },
+            "source_lines": [
+              464,
+              466
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "item_9",
+            "item_number": 9,
+            "record_type": "方法",
+            "source_heading": "冲墓",
+            "conditions_and_exceptions": "read entire referenced item and preceding timing context",
+            "can_generate_exact_date": false,
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 467,
+              "line_end": 469,
+              "byte_start": 31750,
+              "byte_end": 31778
+            },
+            "source_lines": [
+              467,
+              469
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "item_10",
+            "item_number": 10,
+            "record_type": "方法",
+            "source_heading": "马星动",
+            "conditions_and_exceptions": "read entire referenced item and preceding timing context",
+            "can_generate_exact_date": false,
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 470,
+              "line_end": 472,
+              "byte_start": 31778,
+              "byte_end": 31810
+            },
+            "source_lines": [
+              470,
+              472
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "item_11",
+            "item_number": 11,
+            "record_type": "方法",
+            "source_heading": "值使临干或宫数",
+            "conditions_and_exceptions": "read entire referenced item and preceding timing context",
+            "can_generate_exact_date": false,
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 473,
+              "line_end": 475,
+              "byte_start": 31810,
+              "byte_end": 31887
+            },
+            "source_lines": [
+              473,
+              475
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "item_12",
+            "item_number": 12,
+            "record_type": "方法",
+            "source_heading": "时干宫数",
+            "conditions_and_exceptions": "read entire referenced item and preceding timing context",
+            "can_generate_exact_date": false,
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 476,
+              "line_end": 478,
+              "byte_start": 31887,
+              "byte_end": 31928
+            },
+            "source_lines": [
+              476,
+              478
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "item_13",
+            "item_number": 13,
+            "record_type": "方法",
+            "source_heading": "日时支合或刑冲克害等",
+            "conditions_and_exceptions": "read entire referenced item and preceding timing context",
+            "can_generate_exact_date": false,
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 479,
+              "line_end": 479,
+              "byte_start": 31928,
+              "byte_end": 32020
+            },
+            "source_lines": [
+              479
+            ],
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "needs_context_method_conditions_and_a_separate_validated_profile",
+        "supporting_group_keys": [
+          "timing_item01",
+          "timing_item02",
+          "timing_item03",
+          "timing_item04",
+          "timing_item05",
+          "timing_item06",
+          "timing_item07",
+          "timing_item08",
+          "timing_item09",
+          "timing_item10",
+          "timing_item11",
+          "timing_item12",
+          "timing_item13"
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 431,
+        "line_end": 479,
+        "byte_start": 30554,
+        "byte_end": 32020
+      },
+      "overlaps_groups": [
+        "timing_item01",
+        "timing_item02",
+        "timing_item03",
+        "timing_item04",
+        "timing_item05",
+        "timing_item06",
+        "timing_item07",
+        "timing_item08",
+        "timing_item09",
+        "timing_item10",
+        "timing_item11",
+        "timing_item12",
+        "timing_item13"
+      ],
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "facts_inner_outer_palaces",
+      "title": "阴阳遁外八宫内外近远快慢明载分区",
+      "category": "foundation",
+      "line_start": 372,
+      "line_end": 378,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "仅源374的十六个符号分类，不含中五，不将近远快慢直接换算具体应期。",
+      "concepts": [
+        "阴阳遁外八宫内外近远快慢明载分区"
+      ],
+      "dataset": {
+        "key": "inner_outer_palaces",
+        "rows": [
+          {
+            "dun": "阳遁",
+            "palace": 1,
+            "classification": "内",
+            "scope": "near_fast",
+            "source_lines": [
+              374
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 372,
+              "line_end": 378,
+              "byte_start": 27365,
+              "byte_end": 27696
+            },
+            "source_quote": "阳遁以一、八、三、四宫为内、为近、为快，以九、二、七、六宫为外、为远、为慢；阴遁正好相反，即以九、二、七、六宫为内、为近、为快，以一、八、三、四宫为外、为远、为慢。",
+            "quantitative_date_or_duration": null
+          },
+          {
+            "dun": "阳遁",
+            "palace": 8,
+            "classification": "内",
+            "scope": "near_fast",
+            "source_lines": [
+              374
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 372,
+              "line_end": 378,
+              "byte_start": 27365,
+              "byte_end": 27696
+            },
+            "source_quote": "阳遁以一、八、三、四宫为内、为近、为快，以九、二、七、六宫为外、为远、为慢；阴遁正好相反，即以九、二、七、六宫为内、为近、为快，以一、八、三、四宫为外、为远、为慢。",
+            "quantitative_date_or_duration": null
+          },
+          {
+            "dun": "阳遁",
+            "palace": 3,
+            "classification": "内",
+            "scope": "near_fast",
+            "source_lines": [
+              374
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 372,
+              "line_end": 378,
+              "byte_start": 27365,
+              "byte_end": 27696
+            },
+            "source_quote": "阳遁以一、八、三、四宫为内、为近、为快，以九、二、七、六宫为外、为远、为慢；阴遁正好相反，即以九、二、七、六宫为内、为近、为快，以一、八、三、四宫为外、为远、为慢。",
+            "quantitative_date_or_duration": null
+          },
+          {
+            "dun": "阳遁",
+            "palace": 4,
+            "classification": "内",
+            "scope": "near_fast",
+            "source_lines": [
+              374
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 372,
+              "line_end": 378,
+              "byte_start": 27365,
+              "byte_end": 27696
+            },
+            "source_quote": "阳遁以一、八、三、四宫为内、为近、为快，以九、二、七、六宫为外、为远、为慢；阴遁正好相反，即以九、二、七、六宫为内、为近、为快，以一、八、三、四宫为外、为远、为慢。",
+            "quantitative_date_or_duration": null
+          },
+          {
+            "dun": "阳遁",
+            "palace": 9,
+            "classification": "外",
+            "scope": "far_slow",
+            "source_lines": [
+              374
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 372,
+              "line_end": 378,
+              "byte_start": 27365,
+              "byte_end": 27696
+            },
+            "source_quote": "阳遁以一、八、三、四宫为内、为近、为快，以九、二、七、六宫为外、为远、为慢；阴遁正好相反，即以九、二、七、六宫为内、为近、为快，以一、八、三、四宫为外、为远、为慢。",
+            "quantitative_date_or_duration": null
+          },
+          {
+            "dun": "阳遁",
+            "palace": 2,
+            "classification": "外",
+            "scope": "far_slow",
+            "source_lines": [
+              374
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 372,
+              "line_end": 378,
+              "byte_start": 27365,
+              "byte_end": 27696
+            },
+            "source_quote": "阳遁以一、八、三、四宫为内、为近、为快，以九、二、七、六宫为外、为远、为慢；阴遁正好相反，即以九、二、七、六宫为内、为近、为快，以一、八、三、四宫为外、为远、为慢。",
+            "quantitative_date_or_duration": null
+          },
+          {
+            "dun": "阳遁",
+            "palace": 7,
+            "classification": "外",
+            "scope": "far_slow",
+            "source_lines": [
+              374
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 372,
+              "line_end": 378,
+              "byte_start": 27365,
+              "byte_end": 27696
+            },
+            "source_quote": "阳遁以一、八、三、四宫为内、为近、为快，以九、二、七、六宫为外、为远、为慢；阴遁正好相反，即以九、二、七、六宫为内、为近、为快，以一、八、三、四宫为外、为远、为慢。",
+            "quantitative_date_or_duration": null
+          },
+          {
+            "dun": "阳遁",
+            "palace": 6,
+            "classification": "外",
+            "scope": "far_slow",
+            "source_lines": [
+              374
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 372,
+              "line_end": 378,
+              "byte_start": 27365,
+              "byte_end": 27696
+            },
+            "source_quote": "阳遁以一、八、三、四宫为内、为近、为快，以九、二、七、六宫为外、为远、为慢；阴遁正好相反，即以九、二、七、六宫为内、为近、为快，以一、八、三、四宫为外、为远、为慢。",
+            "quantitative_date_or_duration": null
+          },
+          {
+            "dun": "阴遁",
+            "palace": 9,
+            "classification": "内",
+            "scope": "near_fast",
+            "source_lines": [
+              374
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 372,
+              "line_end": 378,
+              "byte_start": 27365,
+              "byte_end": 27696
+            },
+            "source_quote": "阳遁以一、八、三、四宫为内、为近、为快，以九、二、七、六宫为外、为远、为慢；阴遁正好相反，即以九、二、七、六宫为内、为近、为快，以一、八、三、四宫为外、为远、为慢。",
+            "quantitative_date_or_duration": null
+          },
+          {
+            "dun": "阴遁",
+            "palace": 2,
+            "classification": "内",
+            "scope": "near_fast",
+            "source_lines": [
+              374
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 372,
+              "line_end": 378,
+              "byte_start": 27365,
+              "byte_end": 27696
+            },
+            "source_quote": "阳遁以一、八、三、四宫为内、为近、为快，以九、二、七、六宫为外、为远、为慢；阴遁正好相反，即以九、二、七、六宫为内、为近、为快，以一、八、三、四宫为外、为远、为慢。",
+            "quantitative_date_or_duration": null
+          },
+          {
+            "dun": "阴遁",
+            "palace": 7,
+            "classification": "内",
+            "scope": "near_fast",
+            "source_lines": [
+              374
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 372,
+              "line_end": 378,
+              "byte_start": 27365,
+              "byte_end": 27696
+            },
+            "source_quote": "阳遁以一、八、三、四宫为内、为近、为快，以九、二、七、六宫为外、为远、为慢；阴遁正好相反，即以九、二、七、六宫为内、为近、为快，以一、八、三、四宫为外、为远、为慢。",
+            "quantitative_date_or_duration": null
+          },
+          {
+            "dun": "阴遁",
+            "palace": 6,
+            "classification": "内",
+            "scope": "near_fast",
+            "source_lines": [
+              374
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 372,
+              "line_end": 378,
+              "byte_start": 27365,
+              "byte_end": 27696
+            },
+            "source_quote": "阳遁以一、八、三、四宫为内、为近、为快，以九、二、七、六宫为外、为远、为慢；阴遁正好相反，即以九、二、七、六宫为内、为近、为快，以一、八、三、四宫为外、为远、为慢。",
+            "quantitative_date_or_duration": null
+          },
+          {
+            "dun": "阴遁",
+            "palace": 1,
+            "classification": "外",
+            "scope": "far_slow",
+            "source_lines": [
+              374
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 372,
+              "line_end": 378,
+              "byte_start": 27365,
+              "byte_end": 27696
+            },
+            "source_quote": "阳遁以一、八、三、四宫为内、为近、为快，以九、二、七、六宫为外、为远、为慢；阴遁正好相反，即以九、二、七、六宫为内、为近、为快，以一、八、三、四宫为外、为远、为慢。",
+            "quantitative_date_or_duration": null
+          },
+          {
+            "dun": "阴遁",
+            "palace": 8,
+            "classification": "外",
+            "scope": "far_slow",
+            "source_lines": [
+              374
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 372,
+              "line_end": 378,
+              "byte_start": 27365,
+              "byte_end": 27696
+            },
+            "source_quote": "阳遁以一、八、三、四宫为内、为近、为快，以九、二、七、六宫为外、为远、为慢；阴遁正好相反，即以九、二、七、六宫为内、为近、为快，以一、八、三、四宫为外、为远、为慢。",
+            "quantitative_date_or_duration": null
+          },
+          {
+            "dun": "阴遁",
+            "palace": 3,
+            "classification": "外",
+            "scope": "far_slow",
+            "source_lines": [
+              374
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 372,
+              "line_end": 378,
+              "byte_start": 27365,
+              "byte_end": 27696
+            },
+            "source_quote": "阳遁以一、八、三、四宫为内、为近、为快，以九、二、七、六宫为外、为远、为慢；阴遁正好相反，即以九、二、七、六宫为内、为近、为快，以一、八、三、四宫为外、为远、为慢。",
+            "quantitative_date_or_duration": null
+          },
+          {
+            "dun": "阴遁",
+            "palace": 4,
+            "classification": "外",
+            "scope": "far_slow",
+            "source_lines": [
+              374
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 372,
+              "line_end": 378,
+              "byte_start": 27365,
+              "byte_end": 27696
+            },
+            "source_quote": "阳遁以一、八、三、四宫为内、为近、为快，以九、二、七、六宫为外、为远、为慢；阴遁正好相反，即以九、二、七、六宫为内、为近、为快，以一、八、三、四宫为外、为远、为慢。",
+            "quantitative_date_or_duration": null
+          }
+        ],
+        "reference_only": false,
+        "compilation_status": "candidate_for_explicit_source_scoped_symbolic_profile",
+        "supporting_group_keys": [
+          "inner_outer_speed"
+        ],
+        "role_binding_policy": "never_activates_professional_roles_or_predictions"
+      },
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 372,
+        "line_end": 378,
+        "byte_start": 27365,
+        "byte_end": 27696
+      },
+      "overlaps_groups": [
+        "inner_outer_speed"
+      ],
+      "status": "structured_source_fact_candidate"
+    },
+    {
+      "key": "facts_timing_chief_examples",
+      "title": "九个值符冲刑取合的精确来源例",
+      "category": "foundation",
+      "line_start": 405,
+      "line_end": 412,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "仅查询原文九例；第一例明确年月日时多选，不擅选唯一单位，不从这些例推广所有新盘应期。",
+      "concepts": [
+        "九个值符冲刑取合的精确来源例"
+      ],
+      "dataset": {
+        "key": "timing_chief_examples",
+        "rows": [
+          {
+            "xun_head": "甲子",
+            "palace": 9,
+            "trigger": "冲",
+            "branch": "丑",
+            "time_unit": "年、月、日、时",
+            "time_unit_options": [
+              "年",
+              "月",
+              "日",
+              "时"
+            ],
+            "source_lines": [
+              405
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 405,
+              "line_end": 405,
+              "byte_start": 29043,
+              "byte_end": 29554
+            },
+            "source_quote": "假如，甲子值符加离九宫，为子午相冲，子与丑合，应验应当在丑年、月、日、时；甲午值符加坎一宫，也是子午相冲，午与未合，必然应在未日；甲寅值符加坤二宫，为寅申相冲，寅与亥合，应验在亥日；甲申值符加艮八宫，也为寅申相冲，巳与申合，应在巳日；甲戌值符加巽四宫，为辰戌相冲，卯与戌合，应验在卯日；甲辰值符加乾六宫，也是辰戌相冲，辰与酉合，应验在酉日。",
+            "scope": "exact_source_symbolic_timing_example_only_not_new_event_forecast",
+            "automatic_date_generation": false
+          },
+          {
+            "xun_head": "甲午",
+            "palace": 1,
+            "trigger": "冲",
+            "branch": "未",
+            "time_unit": "日",
+            "time_unit_options": [
+              "日"
+            ],
+            "source_lines": [
+              405
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 405,
+              "line_end": 405,
+              "byte_start": 29043,
+              "byte_end": 29554
+            },
+            "source_quote": "假如，甲子值符加离九宫，为子午相冲，子与丑合，应验应当在丑年、月、日、时；甲午值符加坎一宫，也是子午相冲，午与未合，必然应在未日；甲寅值符加坤二宫，为寅申相冲，寅与亥合，应验在亥日；甲申值符加艮八宫，也为寅申相冲，巳与申合，应在巳日；甲戌值符加巽四宫，为辰戌相冲，卯与戌合，应验在卯日；甲辰值符加乾六宫，也是辰戌相冲，辰与酉合，应验在酉日。",
+            "scope": "exact_source_symbolic_timing_example_only_not_new_event_forecast",
+            "automatic_date_generation": false
+          },
+          {
+            "xun_head": "甲寅",
+            "palace": 2,
+            "trigger": "冲",
+            "branch": "亥",
+            "time_unit": "日",
+            "time_unit_options": [
+              "日"
+            ],
+            "source_lines": [
+              405
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 405,
+              "line_end": 405,
+              "byte_start": 29043,
+              "byte_end": 29554
+            },
+            "source_quote": "假如，甲子值符加离九宫，为子午相冲，子与丑合，应验应当在丑年、月、日、时；甲午值符加坎一宫，也是子午相冲，午与未合，必然应在未日；甲寅值符加坤二宫，为寅申相冲，寅与亥合，应验在亥日；甲申值符加艮八宫，也为寅申相冲，巳与申合，应在巳日；甲戌值符加巽四宫，为辰戌相冲，卯与戌合，应验在卯日；甲辰值符加乾六宫，也是辰戌相冲，辰与酉合，应验在酉日。",
+            "scope": "exact_source_symbolic_timing_example_only_not_new_event_forecast",
+            "automatic_date_generation": false
+          },
+          {
+            "xun_head": "甲申",
+            "palace": 8,
+            "trigger": "冲",
+            "branch": "巳",
+            "time_unit": "日",
+            "time_unit_options": [
+              "日"
+            ],
+            "source_lines": [
+              405
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 405,
+              "line_end": 405,
+              "byte_start": 29043,
+              "byte_end": 29554
+            },
+            "source_quote": "假如，甲子值符加离九宫，为子午相冲，子与丑合，应验应当在丑年、月、日、时；甲午值符加坎一宫，也是子午相冲，午与未合，必然应在未日；甲寅值符加坤二宫，为寅申相冲，寅与亥合，应验在亥日；甲申值符加艮八宫，也为寅申相冲，巳与申合，应在巳日；甲戌值符加巽四宫，为辰戌相冲，卯与戌合，应验在卯日；甲辰值符加乾六宫，也是辰戌相冲，辰与酉合，应验在酉日。",
+            "scope": "exact_source_symbolic_timing_example_only_not_new_event_forecast",
+            "automatic_date_generation": false
+          },
+          {
+            "xun_head": "甲戌",
+            "palace": 4,
+            "trigger": "冲",
+            "branch": "卯",
+            "time_unit": "日",
+            "time_unit_options": [
+              "日"
+            ],
+            "source_lines": [
+              405
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 405,
+              "line_end": 405,
+              "byte_start": 29043,
+              "byte_end": 29554
+            },
+            "source_quote": "假如，甲子值符加离九宫，为子午相冲，子与丑合，应验应当在丑年、月、日、时；甲午值符加坎一宫，也是子午相冲，午与未合，必然应在未日；甲寅值符加坤二宫，为寅申相冲，寅与亥合，应验在亥日；甲申值符加艮八宫，也为寅申相冲，巳与申合，应在巳日；甲戌值符加巽四宫，为辰戌相冲，卯与戌合，应验在卯日；甲辰值符加乾六宫，也是辰戌相冲，辰与酉合，应验在酉日。",
+            "scope": "exact_source_symbolic_timing_example_only_not_new_event_forecast",
+            "automatic_date_generation": false
+          },
+          {
+            "xun_head": "甲辰",
+            "palace": 6,
+            "trigger": "冲",
+            "branch": "酉",
+            "time_unit": "日",
+            "time_unit_options": [
+              "日"
+            ],
+            "source_lines": [
+              405
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 405,
+              "line_end": 405,
+              "byte_start": 29043,
+              "byte_end": 29554
+            },
+            "source_quote": "假如，甲子值符加离九宫，为子午相冲，子与丑合，应验应当在丑年、月、日、时；甲午值符加坎一宫，也是子午相冲，午与未合，必然应在未日；甲寅值符加坤二宫，为寅申相冲，寅与亥合，应验在亥日；甲申值符加艮八宫，也为寅申相冲，巳与申合，应在巳日；甲戌值符加巽四宫，为辰戌相冲，卯与戌合，应验在卯日；甲辰值符加乾六宫，也是辰戌相冲，辰与酉合，应验在酉日。",
+            "scope": "exact_source_symbolic_timing_example_only_not_new_event_forecast",
+            "automatic_date_generation": false
+          },
+          {
+            "xun_head": "甲戌",
+            "palace": 2,
+            "trigger": "刑",
+            "branch": "卯",
+            "time_unit": "日",
+            "time_unit_options": [
+              "日"
+            ],
+            "source_lines": [
+              409
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 409,
+              "line_end": 409,
+              "byte_start": 29602,
+              "byte_end": 29825
+            },
+            "source_quote": "甲戌值符加坤二宫，为戌刑未，卯与戌合，应验在卯日；甲子值符加震三宫，为子刑卯，子与丑合，应验在丑日；甲寅值符加巽四宫，为寅刑巳，寅与亥合，应在亥日。",
+            "scope": "exact_source_symbolic_timing_example_only_not_new_event_forecast",
+            "automatic_date_generation": false
+          },
+          {
+            "xun_head": "甲子",
+            "palace": 3,
+            "trigger": "刑",
+            "branch": "丑",
+            "time_unit": "日",
+            "time_unit_options": [
+              "日"
+            ],
+            "source_lines": [
+              409
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 409,
+              "line_end": 409,
+              "byte_start": 29602,
+              "byte_end": 29825
+            },
+            "source_quote": "甲戌值符加坤二宫，为戌刑未，卯与戌合，应验在卯日；甲子值符加震三宫，为子刑卯，子与丑合，应验在丑日；甲寅值符加巽四宫，为寅刑巳，寅与亥合，应在亥日。",
+            "scope": "exact_source_symbolic_timing_example_only_not_new_event_forecast",
+            "automatic_date_generation": false
+          },
+          {
+            "xun_head": "甲寅",
+            "palace": 4,
+            "trigger": "刑",
+            "branch": "亥",
+            "time_unit": "日",
+            "time_unit_options": [
+              "日"
+            ],
+            "source_lines": [
+              409
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 409,
+              "line_end": 409,
+              "byte_start": 29602,
+              "byte_end": 29825
+            },
+            "source_quote": "甲戌值符加坤二宫，为戌刑未，卯与戌合，应验在卯日；甲子值符加震三宫，为子刑卯，子与丑合，应验在丑日；甲寅值符加巽四宫，为寅刑巳，寅与亥合，应在亥日。",
+            "scope": "exact_source_symbolic_timing_example_only_not_new_event_forecast",
+            "automatic_date_generation": false
+          }
+        ],
+        "reference_only": false,
+        "compilation_status": "candidate_for_explicit_source_scoped_symbolic_profile",
+        "supporting_group_keys": [
+          "timing_chief_clash",
+          "timing_chief_punishment"
+        ],
+        "role_binding_policy": "never_activates_professional_roles_or_predictions"
+      },
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 405,
+        "line_end": 412,
+        "byte_start": 29043,
+        "byte_end": 29873
+      },
+      "overlaps_groups": [
+        "timing_chief_clash",
+        "timing_chief_punishment"
+      ],
+      "status": "structured_source_fact_candidate"
+    },
+    {
+      "key": "facts_comparison_scopes",
+      "title": "横向实际宫与竖向盘层及八神除外对象",
+      "category": "foundation",
+      "line_start": 352,
+      "line_end": 371,
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "比较对象选择本身有本章出处：横向实际落宫元素；竖向同宫对象；八神自身元素一般不对宫，但其落宫仍可横比。",
+      "concepts": [
+        "横向实际宫与竖向盘层及八神除外对象"
+      ],
+      "dataset": {
+        "key": "comparison_scopes",
+        "rows": [
+          {
+            "axis": "horizontal",
+            "basis": "actual_landing_palace_elements",
+            "source_lines": [
+              354,
+              356
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 352,
+              "line_end": 358,
+              "byte_start": 25795,
+              "byte_end": 26273
+            },
+            "source_quote": "即无论是十天干作为用神，还是九星、八门、八神作为用神，主要是以它们落宫的五行属性进行横向的比较，看其生克关系。\n\n如日干克时干，指的是日干落宫克时干落宫；日干克病神，指的是日干落宫克天芮星落宫；开门克日干，指的是开门落宫克日干落宫；白虎克天蓬，指的是白虎落宫五行克天蓬星落宫五行，等等。",
+            "intrinsic_symbol_elements_used": false
+          },
+          {
+            "axis": "vertical",
+            "basis": "within_one_palace_source_scoped_layer_relationships",
+            "source_lines": [
+              359,
+              361,
+              363,
+              365,
+              367
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 359,
+              "line_end": 369,
+              "byte_start": 26273,
+              "byte_end": 27363
+            },
+            "source_quote": "第二是竖看，这一般仅限于一个宫内的天、地、人、神四层之间。\n\n如天盘与地盘的关系，主要看九星与地盘宫五行属性上的生克，如天心星属金，落震3宫，则为天盘克地盘。\n\n八门与地盘宫的关系，如开门属金，落震3宫，则为门克宫，古人叫门迫或门被迫；如开门落离9宫，火克金，宫克门，叫门受制；如开门落坎1宫，则金生水，门生宫；开门落坤2宫，则土生金，宫生门。\n\n还有十天干落宫，除主要看天、地两盘形成的十干克应，看天盘天干或地盘天干落宫所处的状态，即长生、帝旺、死、墓、绝等以外，有时还看天盘天干与地盘天干的生克关系，还有六甲中的地支（甲子、甲戌、甲申、甲午、甲辰、甲寅中的子、戌、申、午、辰、寅）与地盘宫暗含的地支（坎宫的子，艮宫的丑、寅，等）之间的刑冲克害等。\n\n九星与八门之间也可以比较其生克关系。\n\n其中八神，一般不以其五行属性与地盘宫比较其生克关系。",
+            "requires_distinct_symbol_layer_and_palace": true
+          },
+          {
+            "axis": "deity_vertical_exclusion",
+            "basis": "deity_intrinsic_element_not_generally_compared_to_earth_palace",
+            "source_lines": [
+              369
+            ],
+            "source_pointer": {
+              "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+              "line_start": 369,
+              "line_end": 369,
+              "byte_start": 27284,
+              "byte_end": 27363
+            },
+            "source_quote": "其中八神，一般不以其五行属性与地盘宫比较其生克关系。",
+            "horizontal_deity_landing_palace_comparison_still_allowed": true
+          }
+        ],
+        "reference_only": false,
+        "compilation_status": "candidate_for_explicit_source_scoped_symbolic_profile",
+        "supporting_group_keys": [
+          "horizontal_palace_comparison",
+          "vertical_layer_comparison"
+        ],
+        "role_binding_policy": "never_activates_professional_roles_or_predictions"
+      },
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 352,
+        "line_end": 371,
+        "byte_start": 25795,
+        "byte_end": 27365
+      },
+      "overlaps_groups": [
+        "horizontal_palace_comparison",
+        "vertical_layer_comparison"
+      ],
+      "status": "structured_source_fact_candidate"
+    }
+  ],
+  "quality_issues": [
+    {
+      "key": "no_printed_chapter_number",
+      "line_start": 1,
+      "line_end": 479,
+      "kind": "metadata_limit",
+      "detail": "标题未给印刷章号，五节正文不能据输入顺序臆称第六章。",
+      "handling": "book chapter_key用application-overview；sequence6仅项目输入顺序。"
+    },
+    {
+      "key": "source_confirmation_separate",
+      "line_start": 1,
+      "line_end": 479,
+      "kind": "source_status",
+      "detail": "收到完整原文字节不等于用户已明确校勘确认，也不等于模型掌握。",
+      "handling": "原文确认pending单列，正常接收结构化；不因待确认而丢弃资料或编造确认。"
+    },
+    {
+      "key": "quoted_material_authority_boundary",
+      "line_start": 17,
+      "line_end": 399,
+      "kind": "authorization_boundary",
+      "detail": "多处古书引用与作者概括，不是授权导入其余全文。",
+      "handling": "只保存本章实际引文；章节内政治哲学和行为建议按资料处理，不覆盖项目总指令。"
+    },
+    {
+      "key": "urgent_two_legitimate_options",
+      "line_start": 15,
+      "line_end": 24,
+      "kind": "method_alternatives",
+      "detail": "天盘值符方与地盘值符方均被原文允许，未规定哪法唯一优先。",
+      "handling": "两选项分别保存，不默选一个；实际紧急安全事项不由方向传统说法替代。"
+    },
+    {
+      "key": "urgent_example_given_symbols_only",
+      "line_start": 21,
+      "line_end": 21,
+      "kind": "calculation_limit",
+      "detail": "阳一甲己日庚午惊蛰上元例只给符号条件，未给公历时间地点时区。",
+      "handling": "可核对给定条件的两值符方，不称历法独立起盘。"
+    },
+    {
+      "key": "hour_tomb_not_hour_branch_inference",
+      "line_start": 31,
+      "line_end": 50,
+      "kind": "input_precondition",
+      "detail": "时干入墓方位需时干实际落宫；丙戌丁丑等句未给全局。",
+      "handling": "保存示例，不从时干支字面自动判当前时干必在其墓宫。"
+    },
+    {
+      "key": "satellite_whole_story_and_feedback",
+      "line_start": 52,
+      "line_end": 70,
+      "kind": "case_chronology",
+      "detail": "公告、盘面判断、对家人断语、第二三天新闻反馈是同一完整叙述。",
+      "handling": "不按句拆规则，不提前将68反馈放入预测上下文；外部case agent保留完整事件。"
+    },
+    {
+      "key": "satellite_report_not_independent_validation",
+      "line_start": 52,
+      "line_end": 68,
+      "kind": "empirical_status",
+      "detail": "失败、保险金额、伤亡为作者报道结果，未在本项目独立外查。",
+      "handling": "原文保留为source_reported，不用模型记忆纠正或当独立预测统计。"
+    },
+    {
+      "key": "satellite_no_full_original_plate",
+      "line_start": 54,
+      "line_end": 64,
+      "kind": "chart_completeness",
+      "detail": "给四柱阴阳局值符值使和部分干星门神，未给完整九宫原盘。",
+      "handling": "缺宫字段未知，不为凑全盘补原书没有的内容；程序复算状态另记。"
+    },
+    {
+      "key": "satellite_revisit_order",
+      "line_start": 200,
+      "line_end": 206,
+      "kind": "case_chronology",
+      "detail": "204在后文再次解释同一卫星案例，原文未说明该句何时形成。",
+      "handling": "关联同事件但标后置作者解释，不假定为66前已用证据。"
+    },
+    {
+      "key": "missing_jingfang_sports_cases",
+      "line_start": 1,
+      "line_end": 479,
+      "kind": "scope_integrity",
+      "detail": "本附件没有京房、完整病人病例或独立体育历史案例；114只是比赛平局类比。",
+      "handling": "不从任务提示、旧资料或记忆补入不存在的故事。"
+    },
+    {
+      "key": "election_task_exceptions",
+      "line_start": 71,
+      "line_end": 91,
+      "kind": "applicability_limit",
+      "detail": "得门奇、逢吉格和捕猎讨债伤门、送葬死门是不同分支。",
+      "handling": "具体事项、门奇格及排盘条件要明确，不把一般吉门排序当所有问题通用唯一结论。"
+    },
+    {
+      "key": "season_and_geography_not_exact_dates",
+      "line_start": 94,
+      "line_end": 106,
+      "kind": "time_scope",
+      "detail": "立春至春分前45天、农历季月与节令得地得时并述。",
+      "handling": "原样分scope，不按45×24小时硬算交节，也不将农历月默认公历月。"
+    },
+    {
+      "key": "door_strength_context_vs_previous_chapter",
+      "line_start": 96,
+      "line_end": 100,
+      "kind": "method_context",
+      "detail": "生门得时有艮季与四季月，后句秋冬土休囚是概述，细节与前章逐门句需合条件理解。",
+      "handling": "保留来源分层，不静默改写之前数据或擅设特别月优先。"
+    },
+    {
+      "key": "heaven_earth_stem_harmony_identity",
+      "line_start": 112,
+      "line_end": 114,
+      "kind": "entity_scope",
+      "detail": "天盘值符括甲子戊临己以甲己合解释，不等于任何戊己都化土。",
+      "handling": "隐甲关系与显干本身分别记，保留格局盘层，不凭字面填合化。"
+    },
+    {
+      "key": "pattern_degree_changes",
+      "line_start": 116,
+      "line_end": 122,
+      "kind": "conditional_judgment",
+      "detail": "虎猖狂的程度受门宫支持制泄而变化。",
+      "handling": "同一格不能固定一个现实结果或直接压成必败句。"
+    },
+    {
+      "key": "liuren_methods_explicitly_excluded",
+      "line_start": 125,
+      "line_end": 143,
+      "kind": "method_boundary",
+      "detail": "作者明说天马三门四户私门属六壬式法，本文不赘述。",
+      "handling": "只存引文参考，不用常识填六壬算法。"
+    },
+    {
+      "key": "four_principles_lists_five",
+      "line_start": 152,
+      "line_end": 162,
+      "kind": "source_count_discrepancy",
+      "detail": "152说大致四条，随后列1至5五条。",
+      "handling": "原文不改，结构表保留五轴并记录计数差异。"
+    },
+    {
+      "key": "host_guest_axes_no_priority",
+      "line_start": 154,
+      "line_end": 162,
+      "kind": "method_alternatives",
+      "detail": "动静先后态度盘层远近可能给不同人物身份，未给冲突唯一优先。",
+      "handling": "必须显式所用分类轴，不把求测者、天盘或主动者无条件等同。"
+    },
+    {
+      "key": "host_viewpoint",
+      "line_start": 175,
+      "line_end": 182,
+      "kind": "perspective_scope",
+      "detail": "177利主利客与179对结果的句子，181明确站在为主立场。",
+      "handling": "保存受益角色和评价视角，不能将客克主利客解释为主人也有利。"
+    },
+    {
+      "key": "host_song_star_strength_context",
+      "line_start": 183,
+      "line_end": 193,
+      "kind": "method_dispute",
+      "detail": "歌188天蓬旺相秋冬与第四章所选我生旺等月建法表述不能简单同一。",
+      "handling": "歌与当前方法版本分别留，不以引歌静默覆盖已编译九星方法。"
+    },
+    {
+      "key": "relative_good_bad_and_effort",
+      "line_start": 207,
+      "line_end": 227,
+      "kind": "interpretation_limit",
+      "detail": "作者明确吉时吉方不保证吉果、凶时凶方不保证凶果，且要尽人事。",
+      "handling": "此限制与所有择时断语一起提供，不能输出保证成败。"
+    },
+    {
+      "key": "quoted_judgment_methods_differ",
+      "line_start": 239,
+      "line_end": 258,
+      "kind": "method_scope",
+      "detail": "三才、动静、静看符使、用神法各有对象与例外，引用中简化门宫吉凶也与前后综合法不同。",
+      "handling": "分方法来源和条件，不合并为一套无条件评分规则。"
+    },
+    {
+      "key": "source_no_explicit_questionnaire",
+      "line_start": 231,
+      "line_end": 340,
+      "kind": "engineering_vs_source",
+      "detail": "本章没有规定完整信息表或明确先问清反问流程。",
+      "handling": "工程缺关键信息时可按用户总指令最少补问，但不得伪称古书逐字要求，也不强填无记录背景。"
+    },
+    {
+      "key": "polysemy_not_fixed_role",
+      "line_start": 270,
+      "line_end": 297,
+      "kind": "role_scope",
+      "detail": "乙、开、天芮、六合等多问事多义，四干也有多层社会亲属角色。",
+      "handling": "领域、关系、盘层和起局口径未明时不激活唯一角色；未知条件不当真。"
+    },
+    {
+      "key": "sixty_four_count_taxonomy",
+      "line_start": 285,
+      "line_end": 287,
+      "kind": "taxonomy_scope",
+      "detail": "作者将各类符号相加称六十四，类别可能有交叉且不等于64条可执行规则。",
+      "handling": "作为原书计数说保留，不用作数据库固定角色数量或训练覆盖数量。"
+    },
+    {
+      "key": "day_hour_general_not_unique",
+      "line_start": 289,
+      "line_end": 337,
+      "kind": "role_scope",
+      "detail": "日干本人、时干事情分别有一般性表述，时干还可表子女或小辈。",
+      "handling": "保留多角色与限定，不在全部起局方法或代问中把日干当患者本人。"
+    },
+    {
+      "key": "medical_relative_relation_not_age",
+      "line_start": 302,
+      "line_end": 306,
+      "kind": "role_scope",
+      "detail": "儿女问长辈用年、同事兄弟用月、父母问小辈用时；大姐小弟另兼卦宫。",
+      "handling": "按实际关系和问测角色，不能因哥哥年长就归父母长辈，也不把兼看宫替代主用神。"
+    },
+    {
+      "key": "medical_traditional_not_diagnosis",
+      "line_start": 298,
+      "line_end": 306,
+      "kind": "medical_boundary",
+      "detail": "病神医药及疾病部位治愈预后为传统术数方法，没有实际病人结局验证。",
+      "handling": "不作临床诊断治疗依据，不编病例；模型健康安全政策继续生效。"
+    },
+    {
+      "key": "birth_and_query_chart_separate",
+      "line_start": 308,
+      "line_end": 328,
+      "kind": "casting_scope",
+      "detail": "出生盘和求测盘兼看出生年干是两层方法。",
+      "handling": "各盘各角色ID明确；出生年干不与求测年干混绑，不索取原文没有的背景来伪复算历史。"
+    },
+    {
+      "key": "author_accuracy_claims_not_model_results",
+      "line_start": 300,
+      "line_end": 393,
+      "kind": "empirical_status",
+      "detail": "多重用神和兼年命更准是作者经验报告。",
+      "handling": "不记本模型准确率、训练成效或现实预测统计。"
+    },
+    {
+      "key": "horizontal_vs_intrinsic_elements",
+      "line_start": 352,
+      "line_end": 356,
+      "kind": "evidence_dimension",
+      "detail": "横看比较用神实际落宫元素，不是干星神本身元素。",
+      "handling": "证据须指向同一盘实际宫，禁止把甲木克时干土字面当横看。"
+    },
+    {
+      "key": "vertical_deity_exception",
+      "line_start": 359,
+      "line_end": 369,
+      "kind": "evidence_dimension",
+      "detail": "竖看可比星门固有元素与宫，八神一般不以自身元素比宫；横看白虎宫克天蓬宫仍有来源。",
+      "handling": "盘层和比较维度分别标，不能把八神禁竖比误当禁止其落宫横比。"
+    },
+    {
+      "key": "center_missing_inner_outer",
+      "line_start": 372,
+      "line_end": 376,
+      "kind": "coverage_limit",
+      "detail": "内外分区只列外八宫，没有给中五近远快慢。",
+      "handling": "中五未知，不自动套寄二或凑进某一组。"
+    },
+    {
+      "key": "qualitative_speed_not_time_units",
+      "line_start": 374,
+      "line_end": 438,
+      "kind": "timing_limit",
+      "detail": "快慢远近及伏吟迟反吟速是定性，年月日时选择仍依具体事件状态。",
+      "handling": "不生成固定天数或唯一时间单位。"
+    },
+    {
+      "key": "faqiao_paraphrase",
+      "line_start": 397,
+      "line_end": 427,
+      "kind": "attribution_scope",
+      "detail": "作者称《奇门法窍》论述为一段大意。",
+      "handling": "标本章作者转述，不冒称与原书逐字核对或导入完整原书。"
+    },
+    {
+      "key": "timing_clash_examples_units",
+      "line_start": 405,
+      "line_end": 408,
+      "kind": "timing_scope",
+      "detail": "第一例可丑年月日时，其余例多写某日。",
+      "handling": "各例保持原时间尺度，不整批缩成日或擅配公历日期。"
+    },
+    {
+      "key": "timing_punishment_conflict_isolation",
+      "line_start": 409,
+      "line_end": 412,
+      "kind": "method_scope",
+      "detail": "戌刑未等与既有一般支刑方向表不能简单推导合并。",
+      "handling": "本方法显式示例单列，不改原表或反向推所有刑。"
+    },
+    {
+      "key": "void_out_xun_fill_opposition",
+      "line_start": 413,
+      "line_end": 466,
+      "kind": "method_alternatives",
+      "detail": "出旬、填实、冲实并列，未给统一优先。",
+      "handling": "分方法条件保留，不将旬空未知时默认为满足或自动定唯一支。"
+    },
+    {
+      "key": "fallback_prerequisites_unknown",
+      "line_start": 419,
+      "line_end": 447,
+      "kind": "condition_scope",
+      "detail": "后备法以不冲不刑不空、所带支不冲不合为前置。",
+      "handling": "未知与不满足分开，不能因尚未计算就判无冲合进入后备。"
+    },
+    {
+      "key": "timing_birth_and_control_operands_missing",
+      "line_start": 421,
+      "line_end": 447,
+      "kind": "operand_scope",
+      "detail": "生逢生日克逢克日没有在本段穷尽所有主体客体。",
+      "handling": "保留原句，缺对象时条件待明，不编通用五行日期表。"
+    },
+    {
+      "key": "timing_no_complete_stem_matching",
+      "line_start": 403,
+      "line_end": 479,
+      "kind": "algorithm_coverage",
+      "detail": "只说先支后干，未给全量配干、时间单位、历法与多法择取算法。",
+      "handling": "此章应期目录不宣称确定性时间引擎完成。"
+    },
+    {
+      "key": "geng_two_selector_dimensions",
+      "line_start": 459,
+      "line_end": 461,
+      "kind": "method_alternatives",
+      "detail": "阴阳日与时干临阴阳星两套庚上/庚下选择未给冲突优先；阴阳日的完整定义未在此展开。",
+      "handling": "两选择轴分别记，不能借五阳时或干阴阳想当然替代；仅用于源指的破案行走等范围时仍需条件。"
+    },
+    {
+      "key": "brief_timing_items_remain_incomplete",
+      "line_start": 453,
+      "line_end": 479,
+      "kind": "coverage_limit",
+      "detail": "长生旺相、死墓绝、冲墓、马动、临干、宫数、支合刑冲等不少条仅列名。",
+      "handling": "所需马星空亡墓法、盘层、单位和历法未给不补；一号内多分支不能强制单选。"
+    },
+    {
+      "key": "no_unsupplied_historical_material",
+      "line_start": 1,
+      "line_end": 479,
+      "kind": "source_integrity",
+      "detail": "此附件只有卫星完整叙述，疾病段为一般方法，比赛是类比。",
+      "handling": "不导入旧案例、京房、体育等未在原文出现的内容。"
+    }
+  ],
+  "worked_examples": [
+    {
+      "key": "urgent_yang1_gengwu_given_inputs",
+      "line_start": 15,
+      "line_end": 24,
+      "kind": "casting_worked_example",
+      "attribution": "本章作者（本次材料未明确姓名）",
+      "summary": "惊蛰上元阳一甲己日庚午，天蓬值符随庚落三，地盘甲子戊原一；两方向并列，不保证实际应急安全。",
+      "given_inputs": {
+        "solar_term": "惊蛰",
+        "yuan": "上元",
+        "dun": "阳遁",
+        "bureau": 1,
+        "day_stem_alternatives": [
+          "甲",
+          "己"
+        ],
+        "hour_ganzhi": "庚午"
+      },
+      "source_outputs": {
+        "xun_head": "甲子",
+        "chief_star": "天蓬星",
+        "heaven_chief_palace": 3,
+        "earth_chief_palace": 1,
+        "permitted_direction_options": [
+          {
+            "palace": 3,
+            "direction": "正东"
+          },
+          {
+            "palace": 1,
+            "direction": "正北"
+          }
+        ]
+      },
+      "calendar_recalculation_status": "not_independently_recomputed",
+      "historical_divination_case": false,
+      "source_pointer": {
+        "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+        "line_start": 15,
+        "line_end": 24,
+        "byte_start": 1578,
+        "byte_end": 2365
+      },
+      "raw_context_policy": "entire example retained; no new date or result added"
+    }
+  ],
+  "source_review_status": "pending_explicit_collation_confirmation",
+  "compilation_scope": "three candidate source-scoped symbolic fact families inner_outer_palaces/timing_chief_examples/comparison_scopes; all other families reference-only; no professional role binding or exact event date prediction",
+  "coverage_policy": "50 primary complete-context groups partition all 479 lines; four reference catalog overlays and three explicit-fact overlays preserve the full satellite narrative.",
+  "case_handoff": {
+    "event_key": "satellite_apstar2_1995_01_26_source_narrative",
+    "complete_story_group": "satellite_case_complete",
+    "later_revisit_group": "major_events_star_satellite_revisit",
+    "case_records_owned_by": "separate_case_import_agent",
+    "do_not_count_satellite_as_a_teaching_worked_example": true
+  },
+  "engineering_missing_information_policy": {
+    "basis": "user project charter, not a quotation of this chapter",
+    "behavior": "ask only missing material method/relationship/time conditions; unknown never assumed satisfied; no historical background invented"
+  },
+  "source_scope": "only the actual 479-line user attachment; no prior-project or quoted-book import"
+}

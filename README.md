@@ -1,8 +1,8 @@
 # QimenLLM
 
-古籍知识、确定性计算、完整案例与可替换语言模型结合的研究工程。**当前Phase 1：已接收《神奇之门》四份章级输入（本次为附件所标第四、五章），支持基础计算、符号转盘、部分条件事实与有向原文查询；公历自动起盘、专业问事和模型训练尚未完成。**
+古籍知识、确定性计算、完整案例与可替换语言模型结合的研究工程。**当前累计接收《神奇之门》五份章级输入；支持符号计算、来源条件候选检查及首个完整历史故事阅读。独立公历起盘、正式用神激活、专业问事及模型训练尚未完成。**
 
-执行约束见 [AGENTS](AGENTS.md)，[完整用户总指令](docs/user_instructions/master_spec_2026-10-17.txt)，[当前进度](docs/STATUS.md)，[首章入库报告](docs/ingestion/SHENQI_CHAPTER01.md)、[第二份报告](docs/ingestion/SHENQI_CHAPTER02.md)、[第四、五章报告](docs/ingestion/SHENQI_CHAPTERS0405.md)。没有读取或继承旧项目。
+执行约束见 [AGENTS](AGENTS.md)，[完整用户总指令](docs/user_instructions/master_spec_2026-10-17.txt)，[当前进度](docs/STATUS.md)，[首章入库报告](docs/ingestion/SHENQI_CHAPTER01.md)、[第二份报告](docs/ingestion/SHENQI_CHAPTER02.md)、[第四、五章报告](docs/ingestion/SHENQI_CHAPTERS0405.md)、[应用概述报告](docs/ingestion/SHENQI_APPLICATION_OVERVIEW.md)。没有读取或继承旧项目。
 
 ## 运行与恢复
 
@@ -20,6 +20,9 @@ PYTHONPATH=src python3 -m qimenllm calculate hour_ganzhi --args '{"day_stem":"�
 PYTHONPATH=src python3 -m qimenllm calculate symbolic_chart --args '{"dun":"阴遁","bureau":8,"hour_ganzhi":"戊戌","method":"shenqi_ch2_paper_v1"}'
 PYTHONPATH=src python3 -m qimenllm calculate star_month_strength --args '{"star":"天蓬星","month_branch":"寅","method":"shenqi_ch4_star_month_v1"}'
 PYTHONPATH=src python3 -m qimenllm reference stem_responses --filters '{"heaven_stem":"戊","earth_stem":"丙"}'
+PYTHONPATH=src python3 -m qimenllm calculate inner_outer --args '{"dun":"阳遁","palace":1}'
+PYTHONPATH=src python3 -m qimenllm rule-candidates --domain health --context '{"target_relationship":"self"}'
+PYTHONPATH=src python3 -m qimenllm case case-b3dd6097c4186c79d3b834cef63cad5cf7f195da0d7946de4495c1184b3e6459 --view before_prediction
 PYTHONPATH=src python3 -m qimenllm ask '我最近想换工作'
 ```
 
@@ -29,10 +32,10 @@ PYTHONPATH=src python3 -m qimenllm ask '我最近想换工作'
 
 ```sh
 PYTHONPATH=src python3 -m qimenllm serve --port 8765
-PYTHONPATH=src python3 scripts/smoke_api.py --chapter01 --chapter02 --chapters0405
+PYTHONPATH=src python3 scripts/smoke_api.py --chapter01 --chapter02 --chapters0405 --application-overview
 ```
 
-只监听127.0.0.1。GET /health；POST /v1/ask：`{"text":"问题"}`；/v1/learn：`{"term":"符头"}`；/v1/calculate：`{"operation":"earth_plate","args":{"dun":"阳遁","bureau":3}}`。POST /v1/reference为 `{"family":"stem_responses","filters":{"heaven_stem":"戊","earth_stem":"丙"}}`。没有维护写路由，不是公众服务器。
+只监听127.0.0.1。GET /health；POST /v1/ask：`{"text":"问题"}`；/v1/learn：`{"term":"符头"}`；/v1/calculate：`{"operation":"earth_plate","args":{"dun":"阳遁","bureau":3}}`。POST /v1/reference为 `{"family":"stem_responses","filters":{"heaven_stem":"戊","earth_stem":"丙"}}`。POST /v1/rule-candidates为 `{"context":{"target_relationship":"self"},"domain":"health"}`；POST /v1/case为 `{"case_id":"已导入case_id","view":"before_prediction"}` 或full。候选检查不是专业激活，事前视图不含结果。没有维护写路由，不是公众服务器。
 
 问事只通过QimenService.ask，教学计算通过QimenService.calculate；CLI/API/集成测试共用核心模块，实际运行查询数据库。符号转盘可生成同一不可变Chart，标symbolic_verified而非engine_verified；不靠模型记忆补全。显式提供casting_method及context条件时ask也调用相同计算器，但仍不启用专业断案。
 
@@ -42,7 +45,7 @@ src/qimenllm/按knowledge/casting/retrieval/rules/cases/reasoning/models/verific
 
 data/qimenllm.sqlite3是本地运行库，raw_books是原字节镜像，二者不直接入Git。**实际原文字节与全部权威表**保存在data/snapshots/current，可恢复；整理和来源测试在data/structured/shenqi，来源与验收在data/provenance。schema v1见src/qimenllm/knowledge/migrations/001_initial.sql及[SCHEMA](docs/SCHEMA.md)。
 
-累计237个上下文块、36编译族、115疑点/边界、15演算教学例；217个有向参考键保留原句和条件，类象与吉凶断语不自动绑定问事；历史问事案例、用神规则、训练任务仍0，详见[覆盖](docs/KNOWLEDGE_COVERAGE.md)。
+累计294个上下文块、39编译族、160疑点/边界、16符号教学例；58当前条件候选对应61历史条，正式角色rules仍0。首个完整卫星故事含1事件/1局部原盘、10记录/17证据，作者反馈非独立确认；训练任务0。217个有向参考键保留原句和条件，详见[覆盖](docs/KNOWLEDGE_COVERAGE.md)。
 
 ## 每次更新同步GitHub
 
@@ -52,6 +55,7 @@ data/qimenllm.sqlite3是本地运行库，raw_books是原字节镜像，二者�
 PYTHONPATH=src python3 scripts/import_shenqi_chapter01.py
 PYTHONPATH=src python3 scripts/import_shenqi_chapter02.py
 PYTHONPATH=src python3 scripts/import_shenqi_chapters0405.py
+PYTHONPATH=src python3 scripts/import_shenqi_application_overview.py
 PYTHONPATH=src python3 -m qimenllm export-snapshot
 PYTHONPATH=src python3 -m qimenllm sync --message 'Update project and source data'
 ```

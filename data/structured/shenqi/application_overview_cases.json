@@ -1,0 +1,880 @@
+{
+  "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+  "source_byte_count": 32020,
+  "source_line_count": 479,
+  "chapter_title_as_written": "奇门遁甲应用概述",
+  "book_title": "神奇之门",
+  "book_chapter_number": null,
+  "chapter_number_policy": "正文没有章号，不从前后资料推定或重编号",
+  "source_review_status": "pending_explicit_collation_confirmation",
+  "cases": [
+    {
+      "case_key": "sqzm-app-overview-satellite-case-001",
+      "title": "亚太二号通信卫星预定发射时间预测（原书完整叙事、局部盘）",
+      "completeness": "complete",
+      "completeness_scope": "source narrative as supplied; not a complete nine-palace diagram and not independent event verification",
+      "source_ranges": [
+        [
+          52,
+          68
+        ],
+        [
+          204,
+          204
+        ]
+      ],
+      "source_selectors": [
+        {
+          "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+          "line_start": 52,
+          "line_end": 68,
+          "byte_start": 3187,
+          "byte_end": 4629,
+          "source_quote": "比如1995年1月25日晚上中央电视台新闻联播节目中预告，我国西昌卫星发射中心将于明天即1月26日凌晨6点40分用我国制造的长征二号捆绑火箭发射美国休斯公司研制的HS601型亚太二号通信卫星，届时将现场直播。\n\n按：1995年1月26日晨6点40分，即农历甲戌年丁丑月丁巳日癸卯时。\n\n丁日癸卯时，正是奇门择时最忌讳的五不遇时，时干癸水克日干丁火，阴克阴，凶。\n\n我听完新闻联播，当即按预定发射时间用奇门遁甲进行预测。其时用阳9局，天冲星为值符，伤门为值使。\n\n值符天冲星落5宫寄坤2宫，辛加癸为“天牢华盖”，日月失明，误入天网，大凶；辛加庚为“白虎出力”，刀刃相接，主客相残，退让稍可，强进血溅衣衫。\n\n值使伤门又落回3宫，伤加伤，成伏吟格，也主凶。\n\n再看八神，以九天为用，此时九天下临9宫，形成乙加戊格局，利阴害阳，破财伤人。\n\n根据奇门预测格局，我对家人说，发射卫星怎么选择这个不利的时辰呢？卫星恐怕不但发射不成功，还要破财伤人。\n\n果然，第二天、第三天接连报道了卫星发射失败，星箭爆炸、破财伤人（美国休斯公司索赔，太平洋保险公司为亚太二号卫星发射提供1.6亿美元的保险；星箭爆炸坠落，伤及当地居民，死6人，伤23人）的凶信。\n"
+        },
+        {
+          "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+          "line_start": 204,
+          "line_end": 204,
+          "byte_start": 13052,
+          "byte_end": 13183,
+          "source_quote": "如发射亚太二号卫星时，天冲星落坤2宫逢丑月，天冲星休囚，土旺，木克土，克不动，反悔，凶。\n"
+        }
+      ],
+      "family": {
+        "family_key": "sqzm-app-overview-satellite-family-001",
+        "description": "本章亚太二号卫星发射预测与同案后文解释；所有派生任务、多处引用和可能的未来同事重复资料必须同事件家族",
+        "cross_book_duplicate_status": "not_reviewed_against_unprovided_sources",
+        "same_chapter_duplicate_resolution": {
+          "line_204": "same event and same source chart, not another historical case"
+        }
+      },
+      "events": [
+        {
+          "event_key": "sqzm-app-overview-satellite-event-001",
+          "family_key": "sqzm-app-overview-satellite-family-001",
+          "title": "亚太二号卫星发射预测",
+          "source_ranges": [
+            [
+              52,
+              68
+            ],
+            [
+              204,
+              204
+            ]
+          ],
+          "background": {
+            "source_announcement": {
+              "date_as_written": "1995年1月25日晚上",
+              "broadcaster_as_written": "中央电视台新闻联播节目",
+              "content_status": "author paraphrase of prior news announcement; no independent broadcast transcript supplied",
+              "scheduled_event_time": "1995-01-26T06:40:00",
+              "venue_as_written": "我国西昌卫星发射中心",
+              "launcher_as_written": "我国制造的长征二号捆绑火箭",
+              "satellite_as_written": "美国休斯公司研制的HS601型亚太二号通信卫星",
+              "planned_telecast_as_written": "届时将现场直播",
+              "source_lines": [
+                52,
+                52
+              ]
+            },
+            "prediction_time_as_written": "我听完新闻联播，当即",
+            "prediction_clock_time": null,
+            "actual_launch_or_accident_datetime": null,
+            "questioner": null,
+            "audience_as_written": "家人",
+            "privacy_scope": "historical book narrative only",
+            "background_excludes_predictions_and_feedback": true
+          },
+          "chronology_status": "ordered",
+          "chronology_scope": "source-narrated forecast-before-reported-result ordering, not independent proof that prediction was externally recorded before the event",
+          "charts": [
+            {
+              "chart_key": "sqzm-app-overview-satellite-chart-001",
+              "source_lines": [
+                54,
+                64
+              ],
+              "source_selector": {
+                "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+                "line_start": 54,
+                "line_end": 64,
+                "byte_start": 3465,
+                "byte_end": 4196,
+                "source_quote": "按：1995年1月26日晨6点40分，即农历甲戌年丁丑月丁巳日癸卯时。\n\n丁日癸卯时，正是奇门择时最忌讳的五不遇时，时干癸水克日干丁火，阴克阴，凶。\n\n我听完新闻联播，当即按预定发射时间用奇门遁甲进行预测。其时用阳9局，天冲星为值符，伤门为值使。\n\n值符天冲星落5宫寄坤2宫，辛加癸为“天牢华盖”，日月失明，误入天网，大凶；辛加庚为“白虎出力”，刀刃相接，主客相残，退让稍可，强进血溅衣衫。\n\n值使伤门又落回3宫，伤加伤，成伏吟格，也主凶。\n\n再看八神，以九天为用，此时九天下临9宫，形成乙加戊格局，利阴害阳，破财伤人。\n"
+              },
+              "casting_method": null,
+              "method_version": null,
+              "source_or_engine": "original",
+              "validation_status": "original_unparsed",
+              "payload": {
+                "chart_key": "sqzm-app-overview-satellite-chart-001",
+                "chart_role": "source_original_partial_reported_chart",
+                "input_datetime": "1995-01-26T06:40:00",
+                "input_datetime_basis": "scheduled_event_time_as_given_by_source_not_the_time_the_author_heard_news",
+                "timezone": null,
+                "location": {
+                  "name_as_written": "我国西昌卫星发射中心",
+                  "coordinates": null,
+                  "basis": "launch venue explicitly named in the prior announcement"
+                },
+                "casting_method": null,
+                "method_version": null,
+                "casting_time_basis_as_written": "我听完新闻联播，当即按预定发射时间用奇门遁甲进行预测",
+                "method_name_status": "用预定事件时间和阳9局为显式原文；置闰/拆补等定局算法未在本案命名，不能暗定。",
+                "four_pillars": {
+                  "year": "甲戌",
+                  "month": "丁丑",
+                  "day": "丁巳",
+                  "hour": "癸卯"
+                },
+                "four_pillars_status": "source_given_not_independently_calendar_recalculated",
+                "lunar_month_day_numbers": null,
+                "bureau": {
+                  "dun": "阳遁",
+                  "number": 9
+                },
+                "duty": {
+                  "xun_head": null,
+                  "xun_head_status": "not explicitly written in this case; do not backfill from other tables into original facts",
+                  "zhifu_star": "天冲星",
+                  "zhifu_landing_original_palace": 5,
+                  "zhifu_layout_palace": 2,
+                  "zhishi_door": "伤门",
+                  "zhishi_landing_palace": 3
+                },
+                "reported_plate_facts": [
+                  {
+                    "fact_key": "chief_star_original_and_hosted",
+                    "source_lines": [
+                      60,
+                      60
+                    ],
+                    "kind": "chief_star_location",
+                    "star": "天冲星",
+                    "original_landing_palace": 5,
+                    "hosted_layout_palace": 2,
+                    "source_text": "值符天冲星落5宫寄坤2宫，辛加癸为“天牢华盖”，日月失明，误入天网，大凶；辛加庚为“白虎出力”，刀刃相接，主客相残，退让稍可，强进血溅衣衫。",
+                    "explicitness": "author_explicit"
+                  },
+                  {
+                    "fact_key": "xin_gui_overlay",
+                    "source_lines": [
+                      60,
+                      60
+                    ],
+                    "kind": "ordered_stem_overlay",
+                    "heaven_stem": "辛",
+                    "earth_stem": "癸",
+                    "source_pattern_name": "天牢华盖",
+                    "palace": null,
+                    "reported_location_context": [
+                      5,
+                      2
+                    ],
+                    "pair_location_assignment": "not separately identified in the source clause; do not silently set coordinates",
+                    "source_text": "值符天冲星落5宫寄坤2宫，辛加癸为“天牢华盖”，日月失明，误入天网，大凶；辛加庚为“白虎出力”，刀刃相接，主客相残，退让稍可，强进血溅衣衫。",
+                    "explicitness": "author_explicit"
+                  },
+                  {
+                    "fact_key": "xin_geng_overlay",
+                    "source_lines": [
+                      60,
+                      60
+                    ],
+                    "kind": "ordered_stem_overlay",
+                    "heaven_stem": "辛",
+                    "earth_stem": "庚",
+                    "source_pattern_name": "白虎出力",
+                    "palace": null,
+                    "reported_location_context": [
+                      5,
+                      2
+                    ],
+                    "pair_location_assignment": "not separately identified in the source clause; do not silently set coordinates",
+                    "source_text": "值符天冲星落5宫寄坤2宫，辛加癸为“天牢华盖”，日月失明，误入天网，大凶；辛加庚为“白虎出力”，刀刃相接，主客相残，退让稍可，强进血溅衣衫。",
+                    "explicitness": "author_explicit"
+                  },
+                  {
+                    "fact_key": "chief_gate_returns_native",
+                    "source_lines": [
+                      62,
+                      62
+                    ],
+                    "kind": "door_location",
+                    "door": "伤门",
+                    "landing_palace": 3,
+                    "source_overlay": "伤加伤",
+                    "source_pattern_name": "伏吟格",
+                    "source_text": "值使伤门又落回3宫，伤加伤，成伏吟格，也主凶。",
+                    "explicitness": "author_explicit"
+                  },
+                  {
+                    "fact_key": "jiutian_nine_yi_wu",
+                    "source_lines": [
+                      64,
+                      64
+                    ],
+                    "kind": "deity_location_and_overlay",
+                    "deity": "九天",
+                    "landing_palace": 9,
+                    "heaven_stem": "乙",
+                    "earth_stem": "戊",
+                    "source_text": "再看八神，以九天为用，此时九天下临9宫，形成乙加戊格局，利阴害阳，破财伤人。",
+                    "explicitness": "author_explicit"
+                  }
+                ],
+                "palaces": null,
+                "heaven_plate": null,
+                "earth_plate": null,
+                "doors": null,
+                "stars": null,
+                "deities": null,
+                "voids": null,
+                "horse": null,
+                "raw_context_ranges": [
+                  [
+                    54,
+                    64
+                  ]
+                ],
+                "retrospective_addendum_source_lines": [
+                  204,
+                  204
+                ],
+                "retrospective_addendum": {
+                  "same_chart": true,
+                  "star": "天冲星",
+                  "source_month_branch": "丑",
+                  "layout_palace": 2,
+                  "author_condition_as_written": "休囚",
+                  "author_interpretation_as_written": "土旺，木克土，克不动，反悔，凶",
+                  "knowledge_phase": "unknown",
+                  "source_text": "如发射亚太二号卫星时，天冲星落坤2宫逢丑月，天冲星休囚，土旺，木克土，克不动，反悔，凶。",
+                  "before_prediction_eligible": false
+                },
+                "validation_status": "original_unparsed",
+                "partial_structure_status": "explicit local facts extracted; full original chart not supplied",
+                "source_or_engine": "original",
+                "complete_nine_palace_chart": false,
+                "calendar_recomputed": false,
+                "original_data_rejected_for_missing_palaces": false,
+                "facts_must_not_be_filled_from_outcome": true
+              },
+              "chart_provenance_phase": "prediction",
+              "before_prediction_view_eligible": false,
+              "before_prediction_view_reason": "This source chart combines the author casting and reasoning at prediction stage, not a separately preregistered input-only original diagram."
+            }
+          ],
+          "records": [
+            {
+              "record_key": "satellite-announcement-52",
+              "event_key": "sqzm-app-overview-satellite-event-001",
+              "chart_key": "sqzm-app-overview-satellite-chart-001",
+              "sequence": 0,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "source_lines": [
+                52,
+                52
+              ],
+              "source_selector": {
+                "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+                "line_start": 52,
+                "line_end": 52,
+                "byte_start": 3187,
+                "byte_end": 3464,
+                "source_quote": "比如1995年1月25日晚上中央电视台新闻联播节目中预告，我国西昌卫星发射中心将于明天即1月26日凌晨6点40分用我国制造的长征二号捆绑火箭发射美国休斯公司研制的HS601型亚太二号通信卫星，届时将现场直播。\n"
+              },
+              "text": "比如1995年1月25日晚上中央电视台新闻联播节目中预告，我国西昌卫星发射中心将于明天即1月26日凌晨6点40分用我国制造的长征二号捆绑火箭发射美国休斯公司研制的HS601型亚太二号通信卫星，届时将现场直播。",
+              "explicitness": "author_explicit",
+              "speaker": "作者转述央视新闻联播预告（非逐字新闻实录）",
+              "reported_at": null,
+              "payload": {
+                "source_narrative_status": "author_explicit_text_not_independent_historical_confirmation",
+                "prediction_input_eligible_current_conservative_protocol": true,
+                "record_role": "pre_event_announced_background",
+                "speaker_text_is_paraphrase": true,
+                "source_date_as_written": "1995年1月25日晚上",
+                "scheduled_date_as_written": "明天即1月26日凌晨6点40分",
+                "contains_prediction": false,
+                "contains_feedback": false
+              }
+            },
+            {
+              "record_key": "satellite-given-inputs-54",
+              "event_key": "sqzm-app-overview-satellite-event-001",
+              "chart_key": "sqzm-app-overview-satellite-chart-001",
+              "sequence": 1,
+              "kind": "author_reasoning",
+              "knowledge_phase": "pre_prediction",
+              "source_lines": [
+                54,
+                54
+              ],
+              "source_selector": {
+                "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+                "line_start": 54,
+                "line_end": 54,
+                "byte_start": 3465,
+                "byte_end": 3551,
+                "source_quote": "按：1995年1月26日晨6点40分，即农历甲戌年丁丑月丁巳日癸卯时。\n"
+              },
+              "text": "按：1995年1月26日晨6点40分，即农历甲戌年丁丑月丁巳日癸卯时。",
+              "explicitness": "author_explicit",
+              "speaker": "原文按语（未单独署名）",
+              "reported_at": null,
+              "payload": {
+                "source_narrative_status": "author_explicit_text_not_independent_historical_confirmation",
+                "prediction_input_eligible_current_conservative_protocol": false,
+                "record_role": "source_given_casting_inputs",
+                "datetime": "1995-01-26T06:40:00",
+                "timezone": null,
+                "four_pillars": {
+                  "year": "甲戌",
+                  "month": "丁丑",
+                  "day": "丁巳",
+                  "hour": "癸卯"
+                },
+                "source_status": "calendar facts supplied by source; not independently recalculated",
+                "not_dialogue_only_policy_reason": "不能为了绕过当前task_inputs只准dialogue的约束把按语伪装成问答。"
+              }
+            },
+            {
+              "record_key": "satellite-time-assessment-56",
+              "event_key": "sqzm-app-overview-satellite-event-001",
+              "chart_key": "sqzm-app-overview-satellite-chart-001",
+              "sequence": 2,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "source_lines": [
+                56,
+                56
+              ],
+              "source_selector": {
+                "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+                "line_start": 56,
+                "line_end": 56,
+                "byte_start": 3552,
+                "byte_end": 3664,
+                "source_quote": "丁日癸卯时，正是奇门择时最忌讳的五不遇时，时干癸水克日干丁火，阴克阴，凶。\n"
+              },
+              "text": "丁日癸卯时，正是奇门择时最忌讳的五不遇时，时干癸水克日干丁火，阴克阴，凶。",
+              "explicitness": "author_explicit",
+              "speaker": "作者",
+              "reported_at": null,
+              "payload": {
+                "source_narrative_status": "author_explicit_text_not_independent_historical_confirmation",
+                "prediction_input_eligible_current_conservative_protocol": false,
+                "record_role": "author_explicit_time_condition",
+                "feature_name": "五不遇时",
+                "day_stem": "丁",
+                "hour_stem": "癸",
+                "hour_pillar": "癸卯",
+                "directed_relation": "hour_stem_controls_day_stem",
+                "polarity": "阴克阴",
+                "author_valuation_as_written": "凶",
+                "traditional_interpretation_not_outcome_fact": true
+              }
+            },
+            {
+              "record_key": "satellite-casting-58",
+              "event_key": "sqzm-app-overview-satellite-event-001",
+              "chart_key": "sqzm-app-overview-satellite-chart-001",
+              "sequence": 3,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "source_lines": [
+                58,
+                58
+              ],
+              "source_selector": {
+                "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+                "line_start": 58,
+                "line_end": 58,
+                "byte_start": 3665,
+                "byte_end": 3805,
+                "source_quote": "我听完新闻联播，当即按预定发射时间用奇门遁甲进行预测。其时用阳9局，天冲星为值符，伤门为值使。\n"
+              },
+              "text": "我听完新闻联播，当即按预定发射时间用奇门遁甲进行预测。其时用阳9局，天冲星为值符，伤门为值使。",
+              "explicitness": "author_explicit",
+              "speaker": "作者",
+              "reported_at": null,
+              "payload": {
+                "source_narrative_status": "author_explicit_text_not_independent_historical_confirmation",
+                "prediction_input_eligible_current_conservative_protocol": false,
+                "record_role": "author_reported_casting",
+                "time_basis": "预定发射时间",
+                "bureau": {
+                  "dun": "阳遁",
+                  "number": 9
+                },
+                "chief_star": "天冲星",
+                "chief_door": "伤门",
+                "actual_prediction_timestamp": null,
+                "prediction_timing_as_written": "听完新闻联播，当即",
+                "casting_method_name_not_given": true
+              }
+            },
+            {
+              "record_key": "satellite-chief-star-analysis-60",
+              "event_key": "sqzm-app-overview-satellite-event-001",
+              "chart_key": "sqzm-app-overview-satellite-chart-001",
+              "sequence": 4,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "source_lines": [
+                60,
+                60
+              ],
+              "source_selector": {
+                "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+                "line_start": 60,
+                "line_end": 60,
+                "byte_start": 3806,
+                "byte_end": 4013,
+                "source_quote": "值符天冲星落5宫寄坤2宫，辛加癸为“天牢华盖”，日月失明，误入天网，大凶；辛加庚为“白虎出力”，刀刃相接，主客相残，退让稍可，强进血溅衣衫。\n"
+              },
+              "text": "值符天冲星落5宫寄坤2宫，辛加癸为“天牢华盖”，日月失明，误入天网，大凶；辛加庚为“白虎出力”，刀刃相接，主客相残，退让稍可，强进血溅衣衫。",
+              "explicitness": "author_explicit",
+              "speaker": "作者",
+              "reported_at": null,
+              "payload": {
+                "source_narrative_status": "author_explicit_text_not_independent_historical_confirmation",
+                "prediction_input_eligible_current_conservative_protocol": false,
+                "record_role": "chief_star_and_stem_overlay_evidence",
+                "chart_fact_keys": [
+                  "chief_star_original_and_hosted",
+                  "xin_gui_overlay",
+                  "xin_geng_overlay"
+                ],
+                "author_terms": [
+                  "天牢华盖",
+                  "白虎出力"
+                ],
+                "source_interpretations_as_written": [
+                  "日月失明，误入天网，大凶",
+                  "刀刃相接，主客相残，退让稍可，强进血溅衣衫"
+                ],
+                "traditional_interpretation_not_outcome_fact": true,
+                "internal_mental_steps_not_invented": true
+              }
+            },
+            {
+              "record_key": "satellite-gate-analysis-62",
+              "event_key": "sqzm-app-overview-satellite-event-001",
+              "chart_key": "sqzm-app-overview-satellite-chart-001",
+              "sequence": 5,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "source_lines": [
+                62,
+                62
+              ],
+              "source_selector": {
+                "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+                "line_start": 62,
+                "line_end": 62,
+                "byte_start": 4014,
+                "byte_end": 4082,
+                "source_quote": "值使伤门又落回3宫，伤加伤，成伏吟格，也主凶。\n"
+              },
+              "text": "值使伤门又落回3宫，伤加伤，成伏吟格，也主凶。",
+              "explicitness": "author_explicit",
+              "speaker": "作者",
+              "reported_at": null,
+              "payload": {
+                "source_narrative_status": "author_explicit_text_not_independent_historical_confirmation",
+                "prediction_input_eligible_current_conservative_protocol": false,
+                "record_role": "chief_door_evidence",
+                "chart_fact_keys": [
+                  "chief_gate_returns_native"
+                ],
+                "door": "伤门",
+                "palace": 3,
+                "source_pattern": "伏吟格",
+                "author_valuation_as_written": "也主凶",
+                "traditional_interpretation_not_outcome_fact": true
+              }
+            },
+            {
+              "record_key": "satellite-role-and-nine-heaven-64",
+              "event_key": "sqzm-app-overview-satellite-event-001",
+              "chart_key": "sqzm-app-overview-satellite-chart-001",
+              "sequence": 6,
+              "kind": "role_selection",
+              "knowledge_phase": "prediction",
+              "source_lines": [
+                64,
+                64
+              ],
+              "source_selector": {
+                "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+                "line_start": 64,
+                "line_end": 64,
+                "byte_start": 4083,
+                "byte_end": 4196,
+                "source_quote": "再看八神，以九天为用，此时九天下临9宫，形成乙加戊格局，利阴害阳，破财伤人。\n"
+              },
+              "text": "再看八神，以九天为用，此时九天下临9宫，形成乙加戊格局，利阴害阳，破财伤人。",
+              "explicitness": "author_explicit",
+              "speaker": "作者",
+              "reported_at": null,
+              "payload": {
+                "source_narrative_status": "author_explicit_text_not_independent_historical_confirmation",
+                "prediction_input_eligible_current_conservative_protocol": false,
+                "record_role": "case_specific_role_selection_and_whole_same_paragraph_evidence",
+                "selected_symbol": "九天",
+                "chart_fact_keys": [
+                  "jiutian_nine_yi_wu"
+                ],
+                "deity_palace": 9,
+                "ordered_stem_overlay": [
+                  "乙",
+                  "戊"
+                ],
+                "author_interpretation_as_written": "利阴害阳，破财伤人",
+                "generalize_to_all_space_launch_questions": false,
+                "selection_reason_beyond_explicit_case_text": "not supplied; do not invent why 九天 represents every satellite"
+              }
+            },
+            {
+              "record_key": "satellite-prediction-66",
+              "event_key": "sqzm-app-overview-satellite-event-001",
+              "chart_key": "sqzm-app-overview-satellite-chart-001",
+              "sequence": 7,
+              "kind": "prediction",
+              "knowledge_phase": "prediction",
+              "source_lines": [
+                66,
+                66
+              ],
+              "source_selector": {
+                "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+                "line_start": 66,
+                "line_end": 66,
+                "byte_start": 4197,
+                "byte_end": 4351,
+                "source_quote": "根据奇门预测格局，我对家人说，发射卫星怎么选择这个不利的时辰呢？卫星恐怕不但发射不成功，还要破财伤人。\n"
+              },
+              "text": "根据奇门预测格局，我对家人说，发射卫星怎么选择这个不利的时辰呢？卫星恐怕不但发射不成功，还要破财伤人。",
+              "explicitness": "author_explicit",
+              "speaker": "作者对家人说",
+              "reported_at": null,
+              "payload": {
+                "source_narrative_status": "author_explicit_text_not_independent_historical_confirmation",
+                "prediction_input_eligible_current_conservative_protocol": false,
+                "record_role": "explicit_prior_prediction_as_narrated",
+                "predictions_as_written": [
+                  "发射不成功",
+                  "破财伤人"
+                ],
+                "modality_as_written": "恐怕不但……还要……",
+                "event_time_basis": "previously announced scheduled launch",
+                "forecast_antecedence_status": "claimed by source narrative, not independently preregistered or externally timestamped",
+                "prediction_success_label": null,
+                "contains_actual_result": false
+              }
+            },
+            {
+              "record_key": "satellite-feedback-68",
+              "event_key": "sqzm-app-overview-satellite-event-001",
+              "chart_key": "sqzm-app-overview-satellite-chart-001",
+              "sequence": 8,
+              "kind": "feedback",
+              "knowledge_phase": "post_feedback",
+              "source_lines": [
+                68,
+                68
+              ],
+              "source_selector": {
+                "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+                "line_start": 68,
+                "line_end": 68,
+                "byte_start": 4352,
+                "byte_end": 4629,
+                "source_quote": "果然，第二天、第三天接连报道了卫星发射失败，星箭爆炸、破财伤人（美国休斯公司索赔，太平洋保险公司为亚太二号卫星发射提供1.6亿美元的保险；星箭爆炸坠落，伤及当地居民，死6人，伤23人）的凶信。\n"
+              },
+              "text": "果然，第二天、第三天接连报道了卫星发射失败，星箭爆炸、破财伤人（美国休斯公司索赔，太平洋保险公司为亚太二号卫星发射提供1.6亿美元的保险；星箭爆炸坠落，伤及当地居民，死6人，伤23人）的凶信。",
+              "explicitness": "author_explicit",
+              "speaker": "作者转述第二天、第三天报道",
+              "reported_at": null,
+              "payload": {
+                "source_narrative_status": "author_explicit_text_not_independent_historical_confirmation",
+                "prediction_input_eligible_current_conservative_protocol": false,
+                "record_role": "source_reported_feedback_and_outcome",
+                "feedback_status": "author_reported",
+                "independent_confirmed": false,
+                "reported_relative_time_as_written": "第二天、第三天接连报道",
+                "absolute_report_dates": null,
+                "reported_event_outcomes": [
+                  "卫星发射失败",
+                  "星箭爆炸",
+                  "破财伤人"
+                ],
+                "reported_compensation_claimant_as_written": "美国休斯公司索赔",
+                "insurance_as_written": {
+                  "provider": "太平洋保险公司",
+                  "coverage": "1.6亿美元",
+                  "coverage_usd": 160000000,
+                  "payout_or_actual_loss_amount": null
+                },
+                "reported_local_human_harm": {
+                  "deaths": 6,
+                  "injuries": 23
+                },
+                "not_independently_verified": true,
+                "may_not_enter_prediction_inputs": true
+              }
+            },
+            {
+              "record_key": "satellite-later-commentary-204",
+              "event_key": "sqzm-app-overview-satellite-event-001",
+              "chart_key": "sqzm-app-overview-satellite-chart-001",
+              "sequence": 9,
+              "kind": "author_reasoning",
+              "knowledge_phase": "unknown",
+              "source_lines": [
+                204,
+                204
+              ],
+              "source_selector": {
+                "source_sha256": "2022ad633e935eeca7970b74c0df7af8c980ebb2867def3a0d2593e32656ac9a",
+                "line_start": 204,
+                "line_end": 204,
+                "byte_start": 13052,
+                "byte_end": 13183,
+                "source_quote": "如发射亚太二号卫星时，天冲星落坤2宫逢丑月，天冲星休囚，土旺，木克土，克不动，反悔，凶。\n"
+              },
+              "text": "如发射亚太二号卫星时，天冲星落坤2宫逢丑月，天冲星休囚，土旺，木克土，克不动，反悔，凶。",
+              "explicitness": "author_explicit",
+              "speaker": "作者在后文“大事看星”中的同案解释",
+              "reported_at": null,
+              "payload": {
+                "source_narrative_status": "author_explicit_text_not_independent_historical_confirmation",
+                "prediction_input_eligible_current_conservative_protocol": false,
+                "record_role": "retrospective_expository_addendum_same_event",
+                "same_chart": true,
+                "star": "天冲星",
+                "layout_palace": 2,
+                "month_branch": "丑",
+                "author_state_as_written": "休囚",
+                "author_reason_as_written": "土旺，木克土，克不动，反悔，凶",
+                "original_wording_preserved": "反悔",
+                "timing_of_original_use_in_author_decision": "not established by text; later written placement cannot prove it was used before prediction",
+                "before_prediction_eligible": false,
+                "is_continuation_prediction": false
+              }
+            }
+          ],
+          "evidence_links": [
+            {
+              "record_key": "satellite-time-assessment-56",
+              "source_lines": [
+                56,
+                56
+              ],
+              "chart_key": "sqzm-app-overview-satellite-chart-001",
+              "fact_path": "four_pillars",
+              "relation": "author_explicit_source_evidence_not_engine_validated_fact"
+            },
+            {
+              "record_key": "satellite-casting-58",
+              "source_lines": [
+                58,
+                58
+              ],
+              "chart_key": "sqzm-app-overview-satellite-chart-001",
+              "fact_path": "bureau",
+              "relation": "author_explicit_source_evidence_not_engine_validated_fact"
+            },
+            {
+              "record_key": "satellite-chief-star-analysis-60",
+              "source_lines": [
+                60,
+                60
+              ],
+              "chart_key": "sqzm-app-overview-satellite-chart-001",
+              "fact_path": "reported_plate_facts",
+              "relation": "author_explicit_source_evidence_not_engine_validated_fact"
+            },
+            {
+              "record_key": "satellite-gate-analysis-62",
+              "source_lines": [
+                62,
+                62
+              ],
+              "chart_key": "sqzm-app-overview-satellite-chart-001",
+              "fact_path": "reported_plate_facts",
+              "relation": "author_explicit_source_evidence_not_engine_validated_fact"
+            },
+            {
+              "record_key": "satellite-role-and-nine-heaven-64",
+              "source_lines": [
+                64,
+                64
+              ],
+              "chart_key": "sqzm-app-overview-satellite-chart-001",
+              "fact_path": "reported_plate_facts",
+              "relation": "author_explicit_source_evidence_not_engine_validated_fact"
+            },
+            {
+              "record_key": "satellite-prediction-66",
+              "source_lines": [
+                56,
+                64
+              ],
+              "chart_key": "sqzm-app-overview-satellite-chart-001",
+              "fact_path": null,
+              "relation": "prediction_preceded_by_author_written_evidence; original narrative attribution, not invented internal reasoning"
+            },
+            {
+              "record_key": "satellite-later-commentary-204",
+              "source_lines": [
+                204,
+                204
+              ],
+              "chart_key": "sqzm-app-overview-satellite-chart-001",
+              "fact_path": "retrospective_addendum",
+              "relation": "same_event_later_exposition_unknown_original_use_time"
+            }
+          ],
+          "outcome_record_key": "satellite-feedback-68",
+          "independent_confirmation": false,
+          "outcome_verification_status": "author_reported_media_news_only",
+          "future_family_review_required": true
+        }
+      ],
+      "case_acceptance": {
+        "source_complete_as_provided": true,
+        "user_collation_confirmation": "not_yet_explicit",
+        "independent_prediction_log_verified": false,
+        "independent_outcome_verified": false,
+        "engine_recalculated": false,
+        "formal_prediction_accuracy_claim": false
+      }
+    }
+  ],
+  "non_cases": [
+    {
+      "source_lines": [
+        21,
+        21
+      ],
+      "classification": "hypothetical_casting_and_urgent_direction_example",
+      "reason": "明确比如及若有急难，未记一个发生过的个人事件或事后反馈。"
+    },
+    {
+      "source_lines": [
+        50,
+        50
+      ],
+      "classification": "generic_time_stem_tomb_examples",
+      "reason": "四个时干落宫说明，不是四起历史事件。"
+    },
+    {
+      "source_lines": [
+        96,
+        120
+      ],
+      "classification": "general_symbol_condition_and_host_guest_examples",
+      "reason": "生门得时得地、乙奇和辛乙主客说明，没有明确历史当事人与结果。"
+    },
+    {
+      "source_lines": [
+        239,
+        253
+      ],
+      "classification": "quoted_traditional_methods",
+      "reason": "所引诸书为本章内引用，不是本项目可导入的另书案例。"
+    },
+    {
+      "source_lines": [
+        274,
+        306
+      ],
+      "classification": "role_selection_and_relationship_examples",
+      "reason": "职业关系疾病、年份标签举例不构成具体人物真实历史故事。"
+    },
+    {
+      "source_lines": [
+        314,
+        328
+      ],
+      "classification": "quoted_natal_year_method_and_author_opinion",
+      "reason": "古代遣将和年命方法是一般论述，无单次人物事件。"
+    },
+    {
+      "source_lines": [
+        405,
+        419
+      ],
+      "classification": "generic_timing_examples",
+      "reason": "甲子值符落离等为假如的规则教学例，旬空示例不构成真实案例。"
+    }
+  ],
+  "summary_counts": {
+    "cases": 1,
+    "events": 1,
+    "event_families": 1,
+    "source_charts": 1,
+    "complete_nine_palace_charts": 0,
+    "case_records": 10,
+    "predictions": 1,
+    "feedback_records": 1,
+    "independent_confirmed_outcomes": 0,
+    "retrospective_same_event_addenda": 1,
+    "distinct_cases_added_for_later_repetition": 0
+  },
+  "split_policy": {
+    "unit": "entire_event_family",
+    "source_story_and_204_addendum_same_family": true,
+    "split_assignment": null,
+    "training_tasks_to_create_now": 0,
+    "dataset_release_to_create_now": null,
+    "future_task_candidates_only": {
+      "author_prediction_target_record": "satellite-prediction-66",
+      "current_dialogue_only_input_record_keys": [
+        "satellite-announcement-52"
+      ],
+      "other_source_given_pre_prediction_record_keys": [
+        "satellite-given-inputs-54"
+      ],
+      "never_prediction_input_record_keys": [
+        "satellite-prediction-66",
+        "satellite-feedback-68",
+        "satellite-later-commentary-204"
+      ],
+      "prediction_phase_analysis_is_not_automatically_input_eligible": true,
+      "original_chart_input_requires_explicit_future_task_cutoff_and_audited_chart_visibility": true
+    },
+    "chronology_and_truth_separated": "ordered records reflect the book narrative; independent confirmation is a separate status and not silently assumed"
+  },
+  "schema_adaptation": {
+    "family_key": "event_families.family_id",
+    "case_key": "cases.case_id; resolve source_id from full chapter or primary story span; data_version comes from actual import",
+    "event_key": "events.event_id; background serialized as background_json; chronology_status=ordered",
+    "case_events": "one link case_key→event_key with sequence0",
+    "chart_key": "charts.chart_id via CaseRepository.put_chart with actual resolved source span; payload is exact source-partial facts and validation stays original_unparsed",
+    "records": "map record_key to record_id, use actual resolved source_id per source_lines; payload serialized as payload_json; use chart_key as same-event chart_id",
+    "evidence_links": "resolve source_id from source_lines, chart_id from chart_key; no rule_id guessed",
+    "unknown_fields": "unknown source metadata stays null; do not synthesize complete nine-palace data",
+    "allowed_kinds": [
+      "dialogue",
+      "author_reasoning",
+      "role_selection",
+      "prediction",
+      "timing",
+      "feedback",
+      "continuation",
+      "outcome"
+    ],
+    "allowed_knowledge_phases": [
+      "pre_prediction",
+      "prediction",
+      "post_feedback",
+      "unknown"
+    ]
+  }
+}
