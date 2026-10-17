@@ -1,0 +1,83 @@
+name: verify-and-persist-business-chapter
+on:
+  push:
+    branches: [ingest-shenqi-business-20261017]
+    paths:
+      - data/provenance/uploads/business_source_20261017.utf8
+jobs:
+  import-and-persist:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Restore immutable prior snapshot
+        run: |
+          mkdir -p work
+          PYTHONPATH=src python - <<'PY'
+          from qimenllm.knowledge.snapshot import restore_snapshot
+          r=restore_snapshot('data/snapshots/current','work/business.sqlite3','work/business-raw')
+          assert r['ok'],r
+          print('Previous verified snapshot restored')
+          PY
+      - name: Import the precise business chapter and all fourteen stories
+        run: |
+          PYTHONPATH=src python scripts/import_shenqi_business.py --db work/business.sqlite3 --raw-dir work/business-raw --local-only > work/business-import.json
+      - name: Full original repository regression suite
+        run: |
+          PYTHONPATH=src python -m unittest discover -s tests -v
+      - name: Verify data and export complete authoritative snapshot
+        run: |
+          PYTHONPATH=src python - <<'PY'
+          import json
+          from pathlib import Path
+          from qimenllm.knowledge.snapshot import export_snapshot
+          from qimenllm.knowledge.db import connect
+          from qimenllm.knowledge.integrity import audit
+          db='work/business.sqlite3'
+          a=audit(db,'work/business-raw')
+          assert a['ok'],a
+          snapshot=export_snapshot(db,'work/business-raw','data/snapshots/current')
+          with connect(db) as conn:
+              counts={t:conn.execute('SELECT COUNT(*) FROM '+t).fetchone()[0] for t in
+                  ('books','chapters','raw_documents','cases','events','event_families','charts','case_records','evidence_links','rules','training_tasks','dataset_releases')}
+          assert counts['chapters']==11,counts
+          assert counts['cases']==43,counts
+          assert counts['charts']==45,counts
+          assert counts['rules']==counts['training_tasks']==counts['dataset_releases']==0,counts
+          raw=Path('data/provenance/uploads/business_source_20261017.utf8').read_bytes()
+          from qimenllm.knowledge.db import digest
+          assert digest(raw)=='15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645'
+          report={'chapter':'经营求财预测','source_sha256':digest(raw),
+                  'source_bytes':len(raw),'confirmed_basis':'user_attestation',
+                  'stories':14,'original_charts':16,'source_table_rows':144,
+                  'current_reference_candidates':10,'formal_role_rules_created':0,
+                  'training_tasks_created':0,'model_experiment':'not_performed',
+                  'calendar_recomputed':False,'source_chart_edited':False,
+                  'source_claims_independently_verified':False,
+                  'unit_tests':'passed_on_GitHub_Actions_before_snapshot_commit',
+                  'integrity_audit':a['ok'],'snapshot_manifest_sha256':snapshot['manifest_sha256'],
+                  'data_version':snapshot['data_version'],'counts':counts,
+                  'limitations':['Source original is curated user input, not independently verified',
+                  'Story 12: only three explicit complete charts; no missing charts invented',
+                  'One original center marker 禽己 retained literally',
+                  'Formal inquiry remains blocked; no SFT or independent real-world predictions']}
+          Path('data/provenance/business_validation.json').write_text(
+              json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+          print(json.dumps(report,ensure_ascii=False,indent=2))
+          PY
+      - name: Commit verified snapshot and provenance to the staging branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/snapshots/current data/provenance/business_validation.json
+          git diff --cached --check
+          if ! git diff --cached --quiet; then
+            git commit -m 'Persist verified business chapter authoritative snapshot'
+            git push origin HEAD:refs/heads/ingest-shenqi-business-20261017
+          fi

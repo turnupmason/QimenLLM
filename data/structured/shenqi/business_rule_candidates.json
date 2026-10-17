@@ -1,0 +1,627 @@
+{
+  "schema_version": "source_selection_candidates_v1",
+  "title": "经营求财预测",
+  "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+  "source_byte_count": 56154,
+  "source_line_count": 1456,
+  "candidate_count": 10,
+  "candidate_record_count": 10,
+  "candidates": [
+    {
+      "key": "business_method_01",
+      "domain": "business_finance",
+      "scope": "交易求财",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "business_finance"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "business_method_01"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_business_reference_v1"
+      },
+      "source_lines": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "source_quote": "（1）交易求财\n\n一般以日干为买主，时干为卖主，六合为经纪人、中介人。\n\n日干生时干利卖方；时干生日干利买方；日干克时干，买主不要；时干克日干，卖主不卖；六合生日干，经纪人向买主；六合生时干，经纪人向卖主；六合入墓或空亡，必有奸诈欺瞒之事；日干与时干比和，公平交易，也主成交；日干、时干有一空亡，交易不成。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "仅作为《神奇之门》原书条件参考；未形成正式角色绑定",
+        "不同交易/投资/贷款/讨债的符号取法不能混用"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [],
+        "semantic_role": "交易求财",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "business_method_02",
+      "domain": "business_finance",
+      "scope": "投资求财",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "business_finance"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "business_method_02"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_business_reference_v1"
+      },
+      "source_lines": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "source_quote": "（2）投资求财\n\n一般以甲子戊为资本，以生门为利息。\n\n生门落宫得奇和吉格、吉星，生甲子戊落宫吉，必获倍利；比和，得中利。\n\n生门宫克甲子戊宫，又得凶神凶格者，必赔本。\n\n甲子戊落宫生生门落宫，主添加资本仍可获利。\n\n生门落墓绝之地（指月令与生门之关系），再有凶神凶格，必耗尽资本。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "仅作为《神奇之门》原书条件参考；未形成正式角色绑定",
+        "不同交易/投资/贷款/讨债的符号取法不能混用"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [],
+        "semantic_role": "投资求财",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "business_method_03",
+      "domain": "business_finance",
+      "scope": "买货求财",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "business_finance"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "business_method_03"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_business_reference_v1"
+      },
+      "source_lines": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "source_quote": "（3）买货求财\n\n日干为买主，时干为货物。\n\n时干宫旺相得吉门吉格又上乘吉神者，为货的质量好；休囚不得奇门吉格吉神者，质量次；如果休囚，又临凶门凶格，上乘玄武者，必是假冒伪劣产品或腐烂变质货物。\n\n时干生日干，好货孬货终有利。\n\n时干克日干，或空亡、墓绝，则无利。\n\n日干生时干，为主动去买；日干克时干，也能买成。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "仅作为《神奇之门》原书条件参考；未形成正式角色绑定",
+        "不同交易/投资/贷款/讨债的符号取法不能混用"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [],
+        "semantic_role": "买货求财",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "business_method_04",
+      "domain": "business_finance",
+      "scope": "卖货求财",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "business_finance"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "business_method_04"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_business_reference_v1"
+      },
+      "source_lines": [
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "source_quote": "（4）卖货求财\n\n一般以值符为卖方，值使为买方。\n\n值使乘奇门吉格生值符或二者比和，可以卖出。\n\n值符生值使，或二者相克，则卖不出去。\n\n又可以日干为卖方，以时干为货物；甲子戊为资本，生门为利息。\n\n日干生时干，为人恋货，不肯卖；时干生日干，为货恋人，卖不出去。\n\n日干克时干，虽想快速将货卖出去，但成交迟缓；时干克日干，卖得快。\n\n卖货有利无利，只要时干宫（货物）生甲子戊或生门宫，则可获利；时干宫不生甲子戊或生门宫，或者二者相克，则无利。\n\n时干宫乘凶神凶格来冲克日干宫者，必赔本（二、八宫不遇反吟，则按比和断；反吟，则按对冲断）。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "仅作为《神奇之门》原书条件参考；未形成正式角色绑定",
+        "不同交易/投资/贷款/讨债的符号取法不能混用"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [],
+        "semantic_role": "卖货求财",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "business_method_05",
+      "domain": "business_finance",
+      "scope": "买卖房地产求财",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "business_finance"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "business_method_05"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_business_reference_v1"
+      },
+      "source_lines": [
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89
+      ],
+      "source_quote": "（5）买卖房地产求财\n\n一般以生门为住宅，以死门为地皮，以值符为买房或卖房之人。\n\n生死二门乘三奇吉格，说明房屋和地皮好，如果生值符宫，对买主有利，买后可发达。\n\n如果生死二门不得吉格，说明房屋和地皮一般或质量差，如果生值符宫，则对卖主有利，卖后发达。\n\n如果二者比和，则主平安。\n\n如果生死二门休囚无力，又乘凶神凶格，说明房屋和地皮不好，如果二门宫来克值符宫，则主买后破家败财；如果值符来生此二门落宫，则必因此宅产而破败不利。\n\n又可以日干为买主或卖主，以生门为房屋、以死门为地皮，看其二者之间的生克关系。\n\n还可以日干为买主或卖主，以时干为房屋或地皮，来看其二者之间的生克关系。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "仅作为《神奇之门》原书条件参考；未形成正式角色绑定",
+        "不同交易/投资/贷款/讨债的符号取法不能混用"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [],
+        "semantic_role": "买卖房地产求财",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "business_method_06",
+      "domain": "business_finance",
+      "scope": "开店求财",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "business_finance"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "business_method_06"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_business_reference_v1"
+      },
+      "source_lines": [
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104
+      ],
+      "source_quote": "（6）开店求财\n\n商场、门市、酒店、旅馆、餐厅等，包括开办工厂等坐地经商预测，一般均以日干为求测之人，开门为其商场、门市、工厂、酒店等的代表符号。\n\n开门乘旺相之气带三奇、吉星、吉格、吉神来生日干落宫者，为大吉大利；比和者次吉。\n\n如果开门入墓、空亡或反吟者，则未开者开不成，已开者可能停产或关门。\n\n开门落宫乘凶神凶格来冲克日干宫者，必破耗折本，因开店而破财。\n\n也可以日干为求测之人，以时干为店铺，看其二者的旺相休囚及其生克关系。\n\n又以时干为顾客，乘吉门吉格吉神和旺相之气，又与开门相生，则顾客多；反之，则顾客少。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "仅作为《神奇之门》原书条件参考；未形成正式角色绑定",
+        "不同交易/投资/贷款/讨债的符号取法不能混用"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [],
+        "semantic_role": "开店求财",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "business_method_07",
+      "domain": "business_finance",
+      "scope": "合伙求财",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "business_finance"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "business_method_07"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_business_reference_v1"
+      },
+      "source_lines": [
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117
+      ],
+      "source_quote": "（7）合伙求财\n\n一般以日干为我方，时干为合伙之人。\n\n时干乘奇门吉格来生日干宫者，对我方有利；日干宫生时干宫者，对他方有利；日干与时干比和者，公平；时干宫克日干宫者对我不利；日干宫克时干宫者，对他不利。\n\n同时，生门宫生我则吉，克我则不吉。\n\n又可以地盘日干为我方，以上乘天盘之干为合伙之人。\n\n天盘之干生地盘日干者，对我方有利；地盘日干生天盘之干者，对他方有利；比和者公平；二者相克则不成，成则不顺利。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "仅作为《神奇之门》原书条件参考；未形成正式角色绑定",
+        "不同交易/投资/贷款/讨债的符号取法不能混用"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [],
+        "semantic_role": "合伙求财",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "business_method_08",
+      "domain": "business_finance",
+      "scope": "贷款或借钱",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "business_finance"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "business_method_08"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_business_reference_v1"
+      },
+      "source_lines": [
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136
+      ],
+      "source_quote": "（8）贷款或借钱\n\n一般以值符为物主或银行，以值使为借贷之人。\n\n值符生值使，或值使克值符，可以借到或贷到；如果值符克值使，或值使生值符，则借贷不遂。\n\n值符与值使有一方空亡，也主借贷不成。\n\n又可以所往之方的天盘星与地盘星之间的生克关系论之。\n\n天盘为动为客，为借贷之人；地盘为静为主，为物主或银行。\n\n地盘星生天盘星者，必借给或贷给；二者比和，虽然肯借贷，但必迟疑；二星相克主不借，反惹羞辱。\n\n如果天盘星所临之干入地盘墓库者，则物主吝啬，不肯借。\n\n所去借贷之方，如果遇空亡，则说明物主无钱或人不在，去了也借贷不成。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "仅作为《神奇之门》原书条件参考；未形成正式角色绑定",
+        "不同交易/投资/贷款/讨债的符号取法不能混用"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [],
+        "semantic_role": "贷款或借钱",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "business_method_09",
+      "domain": "business_finance",
+      "scope": "放贷",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "business_finance"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "business_method_09"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_business_reference_v1"
+      },
+      "source_lines": [
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153
+      ],
+      "source_quote": "（9）放贷\n\n值符为银行为放贷人，天乙（值符落宫原地盘之星）为借贷人，生门为利息。\n\n值符克天乙落宫吉，天乙克值符落宫凶。\n\n天乙生值符落宫吉，值符生天乙落宫凶。\n\n生门与天乙同克值符落宫，放出之款损失殆尽。\n\n生门与天乙同生值符落宫，本息全还。\n\n生门与天乙有一生一克值符宫者，借出之款不能全还或迟还。\n\n如果天乙落宫休囚无力，虽生值符宫，是无力偿还，结局是不全还或迟还。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "仅作为《神奇之门》原书条件参考；未形成正式角色绑定",
+        "不同交易/投资/贷款/讨债的符号取法不能混用"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [],
+        "semantic_role": "放贷",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "business_method_10",
+      "domain": "business_finance",
+      "scope": "讨债",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "business_finance"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "business_method_10"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_business_reference_v1"
+      },
+      "source_lines": [
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182
+      ],
+      "source_quote": "（10）讨债\n\n值符为放债之人，天乙（值符下临地盘之星）为欠债人，伤门为讨债人。\n\n伤门克天乙，讨债人实心实意去讨。\n\n天乙克伤门，彼此争斗不服。\n\n伤门与天乙同生值符，本息全能追回。\n\n伤门与天乙同克值符，本息不还。\n\n伤门生值符，克天乙，能讨回。\n\n伤门生天乙，克值符，讨不回。\n\n天乙旺相克伤门，虽有能力，但不还。\n\n天乙休囚生伤门，虽有心还，而无力量，即使还，也还不全。\n\n如果天乙乘庚辛来克值符，必有经官之事。\n\n值符克天乙乘丁奇或景门落四宫（四宫杜门主执法机关）者，也有经官之事。\n\n甲子戊会开门落内盘者，其债速还。\n\n天乙乘天蓬或玄武，又克值符宫者，欠债人存心不还。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "仅作为《神奇之门》原书条件参考；未形成正式角色绑定",
+        "不同交易/投资/贷款/讨债的符号取法不能混用"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [],
+        "semantic_role": "讨债",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    }
+  ],
+  "historical_candidates": [],
+  "scope": "Traditional business finance reference-method selection, no formal role binding",
+  "source_acceptance": "confirmed",
+  "formal_role_rules_created": 0
+}

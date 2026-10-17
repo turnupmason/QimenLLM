@@ -1,0 +1,3245 @@
+{
+  "source_title": "经营求财预测",
+  "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+  "source_bytes": 56154,
+  "source_characters": 22030,
+  "source_logical_lines": 1456,
+  "source_ends_with_newline": false,
+  "audit_status": "direct_transcription_from_supplied_text_not_independently_manual_gold",
+  "count": {
+    "cases": 14,
+    "source_charts": 16,
+    "source_nine_palace_rows": 144
+  },
+  "cases": [
+    {
+      "case_number": 1,
+      "title": "实例一：测租赁经营",
+      "source_lines": [
+        187,
+        253
+      ],
+      "count_source_charts": 1,
+      "charts": [
+        {
+          "chart_key": "business-case-01-chart-1",
+          "source_lines": [
+            196,
+            226
+          ],
+          "source_table_rows": [
+            {
+              "source_lines": [
+                218,
+                218
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 218,
+                "line_end": 218,
+                "byte_start": 8725,
+                "byte_end": 8767,
+                "source_quote": "巽四宫    阴      死乙       英壬\n"
+              },
+              "raw_text": "巽四宫    阴      死乙       英壬\n",
+              "palace_label": "巽四宫",
+              "deity_token": "阴",
+              "door_position_token": "死乙",
+              "star_position_token": "英壬",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                219,
+                219
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 219,
+                "line_end": 219,
+                "byte_start": 8767,
+                "byte_end": 8810,
+                "source_quote": "离九宫    蛇      辛惊丁     芮乙\n"
+              },
+              "raw_text": "离九宫    蛇      辛惊丁     芮乙\n",
+              "palace_label": "离九宫",
+              "deity_token": "蛇",
+              "door_position_token": "辛惊丁",
+              "star_position_token": "芮乙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                220,
+                220
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 220,
+                "line_end": 220,
+                "byte_start": 8810,
+                "byte_end": 8855,
+                "source_quote": "坤二宫    符      开己       辛柱丁\n"
+              },
+              "raw_text": "坤二宫    符      开己       辛柱丁\n",
+              "palace_label": "坤二宫",
+              "deity_token": "符",
+              "door_position_token": "开己",
+              "star_position_token": "辛柱丁",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                221,
+                221
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 221,
+                "line_end": 221,
+                "byte_start": 8855,
+                "byte_end": 8897,
+                "source_quote": "震三宫    合      景壬       辅癸\n"
+              },
+              "raw_text": "震三宫    合      景壬       辅癸\n",
+              "palace_label": "震三宫",
+              "deity_token": "合",
+              "door_position_token": "景壬",
+              "star_position_token": "辅癸",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                222,
+                222
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 222,
+                "line_end": 222,
+                "byte_start": 8897,
+                "byte_end": 8936,
+                "source_quote": "中五宫    —       辛         —\n"
+              },
+              "raw_text": "中五宫    —       辛         —\n",
+              "palace_label": "中五宫",
+              "deity_token": "—",
+              "door_position_token": "辛",
+              "star_position_token": "—",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                223,
+                223
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 223,
+                "line_end": 223,
+                "byte_start": 8936,
+                "byte_end": 8978,
+                "source_quote": "兑七宫    天      休庚       心己\n"
+              },
+              "raw_text": "兑七宫    天      休庚       心己\n",
+              "palace_label": "兑七宫",
+              "deity_token": "天",
+              "door_position_token": "休庚",
+              "star_position_token": "心己",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                224,
+                224
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 224,
+                "line_end": 224,
+                "byte_start": 8978,
+                "byte_end": 9020,
+                "source_quote": "艮八宫    虎      杜癸       冲戊\n"
+              },
+              "raw_text": "艮八宫    虎      杜癸       冲戊\n",
+              "palace_label": "艮八宫",
+              "deity_token": "虎",
+              "door_position_token": "杜癸",
+              "star_position_token": "冲戊",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                225,
+                225
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 225,
+                "line_end": 225,
+                "byte_start": 9020,
+                "byte_end": 9062,
+                "source_quote": "坎一宫    武      伤戊       任丙\n"
+              },
+              "raw_text": "坎一宫    武      伤戊       任丙\n",
+              "palace_label": "坎一宫",
+              "deity_token": "武",
+              "door_position_token": "伤戊",
+              "star_position_token": "任丙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                226,
+                226
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 226,
+                "line_end": 226,
+                "byte_start": 9062,
+                "byte_end": 9104,
+                "source_quote": "乾六宫    地      生丙       蓬庚\n"
+              },
+              "raw_text": "乾六宫    地      生丙       蓬庚\n",
+              "palace_label": "乾六宫",
+              "deity_token": "地",
+              "door_position_token": "生丙",
+              "star_position_token": "蓬庚",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            }
+          ],
+          "source_table_header": "宫位      八神    门位       星位\n",
+          "interpretation_scope": "literal_tokens_only_not_independently_hand_gold"
+        }
+      ]
+    },
+    {
+      "case_number": 2,
+      "title": "实例二：测引进外资建商城",
+      "source_lines": [
+        254,
+        334
+      ],
+      "count_source_charts": 1,
+      "charts": [
+        {
+          "chart_key": "business-case-02-chart-1",
+          "source_lines": [
+            263,
+            293
+          ],
+          "source_table_rows": [
+            {
+              "source_lines": [
+                285,
+                285
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 285,
+                "line_end": 285,
+                "byte_start": 12079,
+                "byte_end": 12121,
+                "source_quote": "巽四宫    蛇      杜癸       冲丁\n"
+              },
+              "raw_text": "巽四宫    蛇      杜癸       冲丁\n",
+              "palace_label": "巽四宫",
+              "deity_token": "蛇",
+              "door_position_token": "杜癸",
+              "star_position_token": "冲丁",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                286,
+                286
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 286,
+                "line_end": 286,
+                "byte_start": 12121,
+                "byte_end": 12163,
+                "source_quote": "离九宫    阴      景丁       辅庚\n"
+              },
+              "raw_text": "离九宫    阴      景丁       辅庚\n",
+              "palace_label": "离九宫",
+              "deity_token": "阴",
+              "door_position_token": "景丁",
+              "star_position_token": "辅庚",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                287,
+                287
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 287,
+                "line_end": 287,
+                "byte_start": 12163,
+                "byte_end": 12205,
+                "source_quote": "坤二宫    合      死庚       英壬\n"
+              },
+              "raw_text": "坤二宫    合      死庚       英壬\n",
+              "palace_label": "坤二宫",
+              "deity_token": "合",
+              "door_position_token": "死庚",
+              "star_position_token": "英壬",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                288,
+                288
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 288,
+                "line_end": 288,
+                "byte_start": 12205,
+                "byte_end": 12247,
+                "source_quote": "震三宫    符      伤己       任癸\n"
+              },
+              "raw_text": "震三宫    符      伤己       任癸\n",
+              "palace_label": "震三宫",
+              "deity_token": "符",
+              "door_position_token": "伤己",
+              "star_position_token": "任癸",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                289,
+                289
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 289,
+                "line_end": 289,
+                "byte_start": 12247,
+                "byte_end": 12286,
+                "source_quote": "中五宫    —       丙         —\n"
+              },
+              "raw_text": "中五宫    —       丙         —\n",
+              "palace_label": "中五宫",
+              "deity_token": "—",
+              "door_position_token": "丙",
+              "star_position_token": "—",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                290,
+                290
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 290,
+                "line_end": 290,
+                "byte_start": 12286,
+                "byte_end": 12329,
+                "source_quote": "兑七宫    虎      丙惊壬     芮戊\n"
+              },
+              "raw_text": "兑七宫    虎      丙惊壬     芮戊\n",
+              "palace_label": "兑七宫",
+              "deity_token": "虎",
+              "door_position_token": "丙惊壬",
+              "star_position_token": "芮戊",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                291,
+                291
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 291,
+                "line_end": 291,
+                "byte_start": 12329,
+                "byte_end": 12371,
+                "source_quote": "艮八宫    天      生辛       蓬己\n"
+              },
+              "raw_text": "艮八宫    天      生辛       蓬己\n",
+              "palace_label": "艮八宫",
+              "deity_token": "天",
+              "door_position_token": "生辛",
+              "star_position_token": "蓬己",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                292,
+                292
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 292,
+                "line_end": 292,
+                "byte_start": 12371,
+                "byte_end": 12413,
+                "source_quote": "坎一宫    地      休乙       心辛\n"
+              },
+              "raw_text": "坎一宫    地      休乙       心辛\n",
+              "palace_label": "坎一宫",
+              "deity_token": "地",
+              "door_position_token": "休乙",
+              "star_position_token": "心辛",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                293,
+                293
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 293,
+                "line_end": 293,
+                "byte_start": 12413,
+                "byte_end": 12455,
+                "source_quote": "乾六宫    武      开戊       柱乙\n"
+              },
+              "raw_text": "乾六宫    武      开戊       柱乙\n",
+              "palace_label": "乾六宫",
+              "deity_token": "武",
+              "door_position_token": "开戊",
+              "star_position_token": "柱乙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            }
+          ],
+          "source_table_header": "宫位      八神    门位       星位\n",
+          "interpretation_scope": "literal_tokens_only_not_independently_hand_gold"
+        }
+      ]
+    },
+    {
+      "case_number": 3,
+      "title": "实例三：测商城开业后效益",
+      "source_lines": [
+        335,
+        429
+      ],
+      "count_source_charts": 1,
+      "charts": [
+        {
+          "chart_key": "business-case-03-chart-1",
+          "source_lines": [
+            346,
+            372
+          ],
+          "source_table_rows": [
+            {
+              "source_lines": [
+                364,
+                364
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 364,
+                "line_end": 364,
+                "byte_start": 15413,
+                "byte_end": 15455,
+                "source_quote": "巽四宫    虎      惊己       任丁\n"
+              },
+              "raw_text": "巽四宫    虎      惊己       任丁\n",
+              "palace_label": "巽四宫",
+              "deity_token": "虎",
+              "door_position_token": "惊己",
+              "star_position_token": "任丁",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                365,
+                365
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 365,
+                "line_end": 365,
+                "byte_start": 15455,
+                "byte_end": 15497,
+                "source_quote": "离九宫    武      开癸       冲庚\n"
+              },
+              "raw_text": "离九宫    武      开癸       冲庚\n",
+              "palace_label": "离九宫",
+              "deity_token": "武",
+              "door_position_token": "开癸",
+              "star_position_token": "冲庚",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                366,
+                366
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 366,
+                "line_end": 366,
+                "byte_start": 15497,
+                "byte_end": 15539,
+                "source_quote": "坤二宫    地      休丁       辅壬\n"
+              },
+              "raw_text": "坤二宫    地      休丁       辅壬\n",
+              "palace_label": "坤二宫",
+              "deity_token": "地",
+              "door_position_token": "休丁",
+              "star_position_token": "辅壬",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                367,
+                367
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 367,
+                "line_end": 367,
+                "byte_start": 15539,
+                "byte_end": 15581,
+                "source_quote": "震三宫    合      死辛       蓬癸\n"
+              },
+              "raw_text": "震三宫    合      死辛       蓬癸\n",
+              "palace_label": "震三宫",
+              "deity_token": "合",
+              "door_position_token": "死辛",
+              "star_position_token": "蓬癸",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                368,
+                368
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 368,
+                "line_end": 368,
+                "byte_start": 15581,
+                "byte_end": 15620,
+                "source_quote": "中五宫    —       丙         —\n"
+              },
+              "raw_text": "中五宫    —       丙         —\n",
+              "palace_label": "中五宫",
+              "deity_token": "—",
+              "door_position_token": "丙",
+              "star_position_token": "—",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                369,
+                369
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 369,
+                "line_end": 369,
+                "byte_start": 15620,
+                "byte_end": 15662,
+                "source_quote": "兑七宫    天      生庚       英戊\n"
+              },
+              "raw_text": "兑七宫    天      生庚       英戊\n",
+              "palace_label": "兑七宫",
+              "deity_token": "天",
+              "door_position_token": "生庚",
+              "star_position_token": "英戊",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                370,
+                370
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 370,
+                "line_end": 370,
+                "byte_start": 15662,
+                "byte_end": 15704,
+                "source_quote": "艮八宫    阴      景乙       心己\n"
+              },
+              "raw_text": "艮八宫    阴      景乙       心己\n",
+              "palace_label": "艮八宫",
+              "deity_token": "阴",
+              "door_position_token": "景乙",
+              "star_position_token": "心己",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                371,
+                371
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 371,
+                "line_end": 371,
+                "byte_start": 15704,
+                "byte_end": 15746,
+                "source_quote": "坎一宫    蛇      杜戊       柱辛\n"
+              },
+              "raw_text": "坎一宫    蛇      杜戊       柱辛\n",
+              "palace_label": "坎一宫",
+              "deity_token": "蛇",
+              "door_position_token": "杜戊",
+              "star_position_token": "柱辛",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                372,
+                372
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 372,
+                "line_end": 372,
+                "byte_start": 15746,
+                "byte_end": 15789,
+                "source_quote": "乾六宫    符      丙伤壬     芮乙\n"
+              },
+              "raw_text": "乾六宫    符      丙伤壬     芮乙\n",
+              "palace_label": "乾六宫",
+              "deity_token": "符",
+              "door_position_token": "丙伤壬",
+              "star_position_token": "芮乙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            }
+          ],
+          "source_table_header": "宫位      八神    门位       星位\n",
+          "interpretation_scope": "literal_tokens_only_not_independently_hand_gold"
+        }
+      ]
+    },
+    {
+      "case_number": 4,
+      "title": "实例四：测投资买商位",
+      "source_lines": [
+        430,
+        516
+      ],
+      "count_source_charts": 1,
+      "charts": [
+        {
+          "chart_key": "business-case-04-chart-1",
+          "source_lines": [
+            443,
+            471
+          ],
+          "source_table_rows": [
+            {
+              "source_lines": [
+                463,
+                463
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 463,
+                "line_end": 463,
+                "byte_start": 19459,
+                "byte_end": 19501,
+                "source_quote": "巽四宫    阴      景癸       冲丁\n"
+              },
+              "raw_text": "巽四宫    阴      景癸       冲丁\n",
+              "palace_label": "巽四宫",
+              "deity_token": "阴",
+              "door_position_token": "景癸",
+              "star_position_token": "冲丁",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                464,
+                464
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 464,
+                "line_end": 464,
+                "byte_start": 19501,
+                "byte_end": 19543,
+                "source_quote": "离九宫    合      死丁       辅庚\n"
+              },
+              "raw_text": "离九宫    合      死丁       辅庚\n",
+              "palace_label": "离九宫",
+              "deity_token": "合",
+              "door_position_token": "死丁",
+              "star_position_token": "辅庚",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                465,
+                465
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 465,
+                "line_end": 465,
+                "byte_start": 19543,
+                "byte_end": 19585,
+                "source_quote": "坤二宫    虎      惊庚       英壬\n"
+              },
+              "raw_text": "坤二宫    虎      惊庚       英壬\n",
+              "palace_label": "坤二宫",
+              "deity_token": "虎",
+              "door_position_token": "惊庚",
+              "star_position_token": "英壬",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                466,
+                466
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 466,
+                "line_end": 466,
+                "byte_start": 19585,
+                "byte_end": 19627,
+                "source_quote": "震三宫    蛇      杜己       任癸\n"
+              },
+              "raw_text": "震三宫    蛇      杜己       任癸\n",
+              "palace_label": "震三宫",
+              "deity_token": "蛇",
+              "door_position_token": "杜己",
+              "star_position_token": "任癸",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                467,
+                467
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 467,
+                "line_end": 467,
+                "byte_start": 19627,
+                "byte_end": 19666,
+                "source_quote": "中五宫    —       丙         —\n"
+              },
+              "raw_text": "中五宫    —       丙         —\n",
+              "palace_label": "中五宫",
+              "deity_token": "—",
+              "door_position_token": "丙",
+              "star_position_token": "—",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                468,
+                468
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 468,
+                "line_end": 468,
+                "byte_start": 19666,
+                "byte_end": 19709,
+                "source_quote": "兑七宫    武      丙开壬     芮戊\n"
+              },
+              "raw_text": "兑七宫    武      丙开壬     芮戊\n",
+              "palace_label": "兑七宫",
+              "deity_token": "武",
+              "door_position_token": "丙开壬",
+              "star_position_token": "芮戊",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                469,
+                469
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 469,
+                "line_end": 469,
+                "byte_start": 19709,
+                "byte_end": 19751,
+                "source_quote": "艮八宫    符      伤辛       蓬己\n"
+              },
+              "raw_text": "艮八宫    符      伤辛       蓬己\n",
+              "palace_label": "艮八宫",
+              "deity_token": "符",
+              "door_position_token": "伤辛",
+              "star_position_token": "蓬己",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                470,
+                470
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 470,
+                "line_end": 470,
+                "byte_start": 19751,
+                "byte_end": 19793,
+                "source_quote": "坎一宫    天      生乙       心辛\n"
+              },
+              "raw_text": "坎一宫    天      生乙       心辛\n",
+              "palace_label": "坎一宫",
+              "deity_token": "天",
+              "door_position_token": "生乙",
+              "star_position_token": "心辛",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                471,
+                471
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 471,
+                "line_end": 471,
+                "byte_start": 19793,
+                "byte_end": 19835,
+                "source_quote": "乾六宫    地      休戊       柱乙\n"
+              },
+              "raw_text": "乾六宫    地      休戊       柱乙\n",
+              "palace_label": "乾六宫",
+              "deity_token": "地",
+              "door_position_token": "休戊",
+              "star_position_token": "柱乙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            }
+          ],
+          "source_table_header": "宫位      八神    门位       星位\n",
+          "interpretation_scope": "literal_tokens_only_not_independently_hand_gold"
+        }
+      ]
+    },
+    {
+      "case_number": 5,
+      "title": "实例五：测合资办厂",
+      "source_lines": [
+        517,
+        577
+      ],
+      "count_source_charts": 1,
+      "charts": [
+        {
+          "chart_key": "business-case-05-chart-1",
+          "source_lines": [
+            528,
+            558
+          ],
+          "source_table_rows": [
+            {
+              "source_lines": [
+                550,
+                550
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 550,
+                "line_end": 550,
+                "byte_start": 22405,
+                "byte_end": 22447,
+                "source_quote": "巽四宫    地      生壬       英乙\n"
+              },
+              "raw_text": "巽四宫    地      生壬       英乙\n",
+              "palace_label": "巽四宫",
+              "deity_token": "地",
+              "door_position_token": "生壬",
+              "star_position_token": "英乙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                551,
+                551
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 551,
+                "line_end": 551,
+                "byte_start": 22447,
+                "byte_end": 22490,
+                "source_quote": "离九宫    天      戊伤丁     芮壬\n"
+              },
+              "raw_text": "离九宫    天      戊伤丁     芮壬\n",
+              "palace_label": "离九宫",
+              "deity_token": "天",
+              "door_position_token": "戊伤丁",
+              "star_position_token": "芮壬",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                552,
+                552
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 552,
+                "line_end": 552,
+                "byte_start": 22490,
+                "byte_end": 22535,
+                "source_quote": "坤二宫    符      杜庚       戊柱丁\n"
+              },
+              "raw_text": "坤二宫    符      杜庚       戊柱丁\n",
+              "palace_label": "坤二宫",
+              "deity_token": "符",
+              "door_position_token": "杜庚",
+              "star_position_token": "戊柱丁",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                553,
+                553
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 553,
+                "line_end": 553,
+                "byte_start": 22535,
+                "byte_end": 22577,
+                "source_quote": "震三宫    武      休乙       辅丙\n"
+              },
+              "raw_text": "震三宫    武      休乙       辅丙\n",
+              "palace_label": "震三宫",
+              "deity_token": "武",
+              "door_position_token": "休乙",
+              "star_position_token": "辅丙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                554,
+                554
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 554,
+                "line_end": 554,
+                "byte_start": 22577,
+                "byte_end": 22616,
+                "source_quote": "中五宫    —       戊         —\n"
+              },
+              "raw_text": "中五宫    —       戊         —\n",
+              "palace_label": "中五宫",
+              "deity_token": "—",
+              "door_position_token": "戊",
+              "star_position_token": "—",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                555,
+                555
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 555,
+                "line_end": 555,
+                "byte_start": 22616,
+                "byte_end": 22658,
+                "source_quote": "兑七宫    蛇      景己       心庚\n"
+              },
+              "raw_text": "兑七宫    蛇      景己       心庚\n",
+              "palace_label": "兑七宫",
+              "deity_token": "蛇",
+              "door_position_token": "景己",
+              "star_position_token": "心庚",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                556,
+                556
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 556,
+                "line_end": 556,
+                "byte_start": 22658,
+                "byte_end": 22700,
+                "source_quote": "艮八宫    虎      开丙       冲辛\n"
+              },
+              "raw_text": "艮八宫    虎      开丙       冲辛\n",
+              "palace_label": "艮八宫",
+              "deity_token": "虎",
+              "door_position_token": "开丙",
+              "star_position_token": "冲辛",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                557,
+                557
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 557,
+                "line_end": 557,
+                "byte_start": 22700,
+                "byte_end": 22742,
+                "source_quote": "坎一宫    合      惊辛       任癸\n"
+              },
+              "raw_text": "坎一宫    合      惊辛       任癸\n",
+              "palace_label": "坎一宫",
+              "deity_token": "合",
+              "door_position_token": "惊辛",
+              "star_position_token": "任癸",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                558,
+                558
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 558,
+                "line_end": 558,
+                "byte_start": 22742,
+                "byte_end": 22784,
+                "source_quote": "乾六宫    阴      死癸       蓬己\n"
+              },
+              "raw_text": "乾六宫    阴      死癸       蓬己\n",
+              "palace_label": "乾六宫",
+              "deity_token": "阴",
+              "door_position_token": "死癸",
+              "star_position_token": "蓬己",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            }
+          ],
+          "source_table_header": "宫位      八神    门位       星位\n",
+          "interpretation_scope": "literal_tokens_only_not_independently_hand_gold"
+        }
+      ]
+    },
+    {
+      "case_number": 6,
+      "title": "实例六：测传销营养药品",
+      "source_lines": [
+        578,
+        639
+      ],
+      "count_source_charts": 1,
+      "charts": [
+        {
+          "chart_key": "business-case-06-chart-1",
+          "source_lines": [
+            589,
+            618
+          ],
+          "source_table_rows": [
+            {
+              "source_lines": [
+                610,
+                610
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 610,
+                "line_end": 610,
+                "byte_start": 24683,
+                "byte_end": 24725,
+                "source_quote": "巽四宫    蛇      杜己       辅己\n"
+              },
+              "raw_text": "巽四宫    蛇      杜己       辅己\n",
+              "palace_label": "巽四宫",
+              "deity_token": "蛇",
+              "door_position_token": "杜己",
+              "star_position_token": "辅己",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                611,
+                611
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 611,
+                "line_end": 611,
+                "byte_start": 24725,
+                "byte_end": 24767,
+                "source_quote": "离九宫    符      景癸       英癸\n"
+              },
+              "raw_text": "离九宫    符      景癸       英癸\n",
+              "palace_label": "离九宫",
+              "deity_token": "符",
+              "door_position_token": "景癸",
+              "star_position_token": "英癸",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                612,
+                612
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 612,
+                "line_end": 612,
+                "byte_start": 24767,
+                "byte_end": 24809,
+                "source_quote": "坤二宫    天      死辛       芮辛\n"
+              },
+              "raw_text": "坤二宫    天      死辛       芮辛\n",
+              "palace_label": "坤二宫",
+              "deity_token": "天",
+              "door_position_token": "死辛",
+              "star_position_token": "芮辛",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                613,
+                613
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 613,
+                "line_end": 613,
+                "byte_start": 24809,
+                "byte_end": 24851,
+                "source_quote": "震三宫    阴      伤庚       冲庚\n"
+              },
+              "raw_text": "震三宫    阴      伤庚       冲庚\n",
+              "palace_label": "震三宫",
+              "deity_token": "阴",
+              "door_position_token": "伤庚",
+              "star_position_token": "冲庚",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                614,
+                614
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 614,
+                "line_end": 614,
+                "byte_start": 24851,
+                "byte_end": 24890,
+                "source_quote": "中五宫    —       戊         —\n"
+              },
+              "raw_text": "中五宫    —       戊         —\n",
+              "palace_label": "中五宫",
+              "deity_token": "—",
+              "door_position_token": "戊",
+              "star_position_token": "—",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                615,
+                615
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 615,
+                "line_end": 615,
+                "byte_start": 24890,
+                "byte_end": 24932,
+                "source_quote": "兑七宫    地      惊丙       柱丙\n"
+              },
+              "raw_text": "兑七宫    地      惊丙       柱丙\n",
+              "palace_label": "兑七宫",
+              "deity_token": "地",
+              "door_position_token": "惊丙",
+              "star_position_token": "柱丙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                616,
+                616
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 616,
+                "line_end": 616,
+                "byte_start": 24932,
+                "byte_end": 24974,
+                "source_quote": "艮八宫    合      生丁       任丁\n"
+              },
+              "raw_text": "艮八宫    合      生丁       任丁\n",
+              "palace_label": "艮八宫",
+              "deity_token": "合",
+              "door_position_token": "生丁",
+              "star_position_token": "任丁",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                617,
+                617
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 617,
+                "line_end": 617,
+                "byte_start": 24974,
+                "byte_end": 25016,
+                "source_quote": "坎一宫    虎      休壬       蓬壬\n"
+              },
+              "raw_text": "坎一宫    虎      休壬       蓬壬\n",
+              "palace_label": "坎一宫",
+              "deity_token": "虎",
+              "door_position_token": "休壬",
+              "star_position_token": "蓬壬",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                618,
+                618
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 618,
+                "line_end": 618,
+                "byte_start": 25016,
+                "byte_end": 25058,
+                "source_quote": "乾六宫    武      开乙       心乙\n"
+              },
+              "raw_text": "乾六宫    武      开乙       心乙\n",
+              "palace_label": "乾六宫",
+              "deity_token": "武",
+              "door_position_token": "开乙",
+              "star_position_token": "心乙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            }
+          ],
+          "source_table_header": "宫位      八神    门位       星位\n",
+          "interpretation_scope": "literal_tokens_only_not_independently_hand_gold"
+        }
+      ]
+    },
+    {
+      "case_number": 7,
+      "title": "实例七：杜新会测出租商场",
+      "source_lines": [
+        640,
+        733
+      ],
+      "count_source_charts": 1,
+      "charts": [
+        {
+          "chart_key": "business-case-07-chart-1",
+          "source_lines": [
+            671,
+            695
+          ],
+          "source_table_rows": [
+            {
+              "source_lines": [
+                687,
+                687
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 687,
+                "line_end": 687,
+                "byte_start": 28102,
+                "byte_end": 28144,
+                "source_quote": "巽四宫    天      景戊       英壬\n"
+              },
+              "raw_text": "巽四宫    天      景戊       英壬\n",
+              "palace_label": "巽四宫",
+              "deity_token": "天",
+              "door_position_token": "景戊",
+              "star_position_token": "英壬",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                688,
+                688
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 688,
+                "line_end": 688,
+                "byte_start": 28144,
+                "byte_end": 28187,
+                "source_quote": "离九宫    符      癸死庚     禽戊\n"
+              },
+              "raw_text": "离九宫    符      癸死庚     禽戊\n",
+              "palace_label": "离九宫",
+              "deity_token": "符",
+              "door_position_token": "癸死庚",
+              "star_position_token": "禽戊",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                689,
+                689
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 689,
+                "line_end": 689,
+                "byte_start": 28187,
+                "byte_end": 28229,
+                "source_quote": "坤二宫    蛇      惊丙       柱庚\n"
+              },
+              "raw_text": "坤二宫    蛇      惊丙       柱庚\n",
+              "palace_label": "坤二宫",
+              "deity_token": "蛇",
+              "door_position_token": "惊丙",
+              "star_position_token": "柱庚",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                690,
+                690
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 690,
+                "line_end": 690,
+                "byte_start": 28229,
+                "byte_end": 28271,
+                "source_quote": "震三宫    地      杜壬       辅辛\n"
+              },
+              "raw_text": "震三宫    地      杜壬       辅辛\n",
+              "palace_label": "震三宫",
+              "deity_token": "地",
+              "door_position_token": "杜壬",
+              "star_position_token": "辅辛",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                691,
+                691
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 691,
+                "line_end": 691,
+                "byte_start": 28271,
+                "byte_end": 28310,
+                "source_quote": "中五宫    —       癸         —\n"
+              },
+              "raw_text": "中五宫    —       癸         —\n",
+              "palace_label": "中五宫",
+              "deity_token": "—",
+              "door_position_token": "癸",
+              "star_position_token": "—",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                692,
+                692
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 692,
+                "line_end": 692,
+                "byte_start": 28310,
+                "byte_end": 28352,
+                "source_quote": "兑七宫    阴      开丁       心丙\n"
+              },
+              "raw_text": "兑七宫    阴      开丁       心丙\n",
+              "palace_label": "兑七宫",
+              "deity_token": "阴",
+              "door_position_token": "开丁",
+              "star_position_token": "心丙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                693,
+                693
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 693,
+                "line_end": 693,
+                "byte_start": 28352,
+                "byte_end": 28394,
+                "source_quote": "艮八宫    武      伤辛       冲乙\n"
+              },
+              "raw_text": "艮八宫    武      伤辛       冲乙\n",
+              "palace_label": "艮八宫",
+              "deity_token": "武",
+              "door_position_token": "伤辛",
+              "star_position_token": "冲乙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                694,
+                694
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 694,
+                "line_end": 694,
+                "byte_start": 28394,
+                "byte_end": 28436,
+                "source_quote": "坎一宫    虎      生乙       任己\n"
+              },
+              "raw_text": "坎一宫    虎      生乙       任己\n",
+              "palace_label": "坎一宫",
+              "deity_token": "虎",
+              "door_position_token": "生乙",
+              "star_position_token": "任己",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                695,
+                695
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 695,
+                "line_end": 695,
+                "byte_start": 28436,
+                "byte_end": 28478,
+                "source_quote": "乾六宫    合      休己       蓬丁\n"
+              },
+              "raw_text": "乾六宫    合      休己       蓬丁\n",
+              "palace_label": "乾六宫",
+              "deity_token": "合",
+              "door_position_token": "休己",
+              "star_position_token": "蓬丁",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            }
+          ],
+          "source_table_header": "宫位      八神    门位       星位\n",
+          "interpretation_scope": "literal_tokens_only_not_independently_hand_gold"
+        }
+      ]
+    },
+    {
+      "case_number": 8,
+      "title": "实例八：杜新会测买画卷赢利",
+      "source_lines": [
+        734,
+        846
+      ],
+      "count_source_charts": 1,
+      "charts": [
+        {
+          "chart_key": "business-case-08-chart-1",
+          "source_lines": [
+            787,
+            811
+          ],
+          "source_table_rows": [
+            {
+              "source_lines": [
+                803,
+                803
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 803,
+                "line_end": 803,
+                "byte_start": 32687,
+                "byte_end": 32729,
+                "source_quote": "巽四宫    天      杜乙       冲戊\n"
+              },
+              "raw_text": "巽四宫    天      杜乙       冲戊\n",
+              "palace_label": "巽四宫",
+              "deity_token": "天",
+              "door_position_token": "杜乙",
+              "star_position_token": "冲戊",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                804,
+                804
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 804,
+                "line_end": 804,
+                "byte_start": 32729,
+                "byte_end": 32771,
+                "source_quote": "离九宫    符      景戊       辅癸\n"
+              },
+              "raw_text": "离九宫    符      景戊       辅癸\n",
+              "palace_label": "离九宫",
+              "deity_token": "符",
+              "door_position_token": "景戊",
+              "star_position_token": "辅癸",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                805,
+                805
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 805,
+                "line_end": 805,
+                "byte_start": 32771,
+                "byte_end": 32813,
+                "source_quote": "坤二宫    蛇      死癸       英丙\n"
+              },
+              "raw_text": "坤二宫    蛇      死癸       英丙\n",
+              "palace_label": "坤二宫",
+              "deity_token": "蛇",
+              "door_position_token": "死癸",
+              "star_position_token": "英丙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                806,
+                806
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 806,
+                "line_end": 806,
+                "byte_start": 32813,
+                "byte_end": 32855,
+                "source_quote": "震三宫    地      伤壬       任乙\n"
+              },
+              "raw_text": "震三宫    地      伤壬       任乙\n",
+              "palace_label": "震三宫",
+              "deity_token": "地",
+              "door_position_token": "伤壬",
+              "star_position_token": "任乙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                807,
+                807
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 807,
+                "line_end": 807,
+                "byte_start": 32855,
+                "byte_end": 32894,
+                "source_quote": "中五宫    —       己         —\n"
+              },
+              "raw_text": "中五宫    —       己         —\n",
+              "palace_label": "中五宫",
+              "deity_token": "—",
+              "door_position_token": "己",
+              "star_position_token": "—",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                808,
+                808
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 808,
+                "line_end": 808,
+                "byte_start": 32894,
+                "byte_end": 32937,
+                "source_quote": "兑七宫    阴      己惊丙     芮辛\n"
+              },
+              "raw_text": "兑七宫    阴      己惊丙     芮辛\n",
+              "palace_label": "兑七宫",
+              "deity_token": "阴",
+              "door_position_token": "己惊丙",
+              "star_position_token": "芮辛",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                809,
+                809
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 809,
+                "line_end": 809,
+                "byte_start": 32937,
+                "byte_end": 32979,
+                "source_quote": "艮八宫    武      生丁       蓬壬\n"
+              },
+              "raw_text": "艮八宫    武      生丁       蓬壬\n",
+              "palace_label": "艮八宫",
+              "deity_token": "武",
+              "door_position_token": "生丁",
+              "star_position_token": "蓬壬",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                810,
+                810
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 810,
+                "line_end": 810,
+                "byte_start": 32979,
+                "byte_end": 33021,
+                "source_quote": "坎一宫    虎      休庚       心丁\n"
+              },
+              "raw_text": "坎一宫    虎      休庚       心丁\n",
+              "palace_label": "坎一宫",
+              "deity_token": "虎",
+              "door_position_token": "休庚",
+              "star_position_token": "心丁",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                811,
+                811
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 811,
+                "line_end": 811,
+                "byte_start": 33021,
+                "byte_end": 33063,
+                "source_quote": "乾六宫    合      开辛       柱庚\n"
+              },
+              "raw_text": "乾六宫    合      开辛       柱庚\n",
+              "palace_label": "乾六宫",
+              "deity_token": "合",
+              "door_position_token": "开辛",
+              "star_position_token": "柱庚",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            }
+          ],
+          "source_table_header": "宫位      八神    门位       星位\n",
+          "interpretation_scope": "literal_tokens_only_not_independently_hand_gold"
+        }
+      ]
+    },
+    {
+      "case_number": 9,
+      "title": "实例九：杜新会测企业前景及对策",
+      "source_lines": [
+        847,
+        956
+      ],
+      "count_source_charts": 1,
+      "charts": [
+        {
+          "chart_key": "business-case-09-chart-1",
+          "source_lines": [
+            892,
+            916
+          ],
+          "source_table_rows": [
+            {
+              "source_lines": [
+                908,
+                908
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 908,
+                "line_end": 908,
+                "byte_start": 37089,
+                "byte_end": 37131,
+                "source_quote": "巽四宫    合      惊己       冲戊\n"
+              },
+              "raw_text": "巽四宫    合      惊己       冲戊\n",
+              "palace_label": "巽四宫",
+              "deity_token": "合",
+              "door_position_token": "惊己",
+              "star_position_token": "冲戊",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                909,
+                909
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 909,
+                "line_end": 909,
+                "byte_start": 37131,
+                "byte_end": 37173,
+                "source_quote": "离九宫    虎      开戊       辅癸\n"
+              },
+              "raw_text": "离九宫    虎      开戊       辅癸\n",
+              "palace_label": "离九宫",
+              "deity_token": "虎",
+              "door_position_token": "开戊",
+              "star_position_token": "辅癸",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                910,
+                910
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 910,
+                "line_end": 910,
+                "byte_start": 37173,
+                "byte_end": 37215,
+                "source_quote": "坤二宫    武      休癸       英丙\n"
+              },
+              "raw_text": "坤二宫    武      休癸       英丙\n",
+              "palace_label": "坤二宫",
+              "deity_token": "武",
+              "door_position_token": "休癸",
+              "star_position_token": "英丙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                911,
+                911
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 911,
+                "line_end": 911,
+                "byte_start": 37215,
+                "byte_end": 37257,
+                "source_quote": "震三宫    阴      死壬       任乙\n"
+              },
+              "raw_text": "震三宫    阴      死壬       任乙\n",
+              "palace_label": "震三宫",
+              "deity_token": "阴",
+              "door_position_token": "死壬",
+              "star_position_token": "任乙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                912,
+                912
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 912,
+                "line_end": 912,
+                "byte_start": 37257,
+                "byte_end": 37297,
+                "source_quote": "中五宫    —       禽己       —\n"
+              },
+              "raw_text": "中五宫    —       禽己       —\n",
+              "palace_label": "中五宫",
+              "deity_token": "—",
+              "door_position_token": "禽己",
+              "star_position_token": "—",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                913,
+                913
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 913,
+                "line_end": 913,
+                "byte_start": 37297,
+                "byte_end": 37339,
+                "source_quote": "兑七宫    地      生丙       芮辛\n"
+              },
+              "raw_text": "兑七宫    地      生丙       芮辛\n",
+              "palace_label": "兑七宫",
+              "deity_token": "地",
+              "door_position_token": "生丙",
+              "star_position_token": "芮辛",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                914,
+                914
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 914,
+                "line_end": 914,
+                "byte_start": 37339,
+                "byte_end": 37381,
+                "source_quote": "艮八宫    蛇      景丁       蓬壬\n"
+              },
+              "raw_text": "艮八宫    蛇      景丁       蓬壬\n",
+              "palace_label": "艮八宫",
+              "deity_token": "蛇",
+              "door_position_token": "景丁",
+              "star_position_token": "蓬壬",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                915,
+                915
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 915,
+                "line_end": 915,
+                "byte_start": 37381,
+                "byte_end": 37423,
+                "source_quote": "坎一宫    符      杜庚       心丁\n"
+              },
+              "raw_text": "坎一宫    符      杜庚       心丁\n",
+              "palace_label": "坎一宫",
+              "deity_token": "符",
+              "door_position_token": "杜庚",
+              "star_position_token": "心丁",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                916,
+                916
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 916,
+                "line_end": 916,
+                "byte_start": 37423,
+                "byte_end": 37465,
+                "source_quote": "乾六宫    天      伤辛       柱庚\n"
+              },
+              "raw_text": "乾六宫    天      伤辛       柱庚\n",
+              "palace_label": "乾六宫",
+              "deity_token": "天",
+              "door_position_token": "伤辛",
+              "star_position_token": "柱庚",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            }
+          ],
+          "source_table_header": "宫位      八神    门位       星位\n",
+          "interpretation_scope": "literal_tokens_only_not_independently_hand_gold"
+        }
+      ]
+    },
+    {
+      "case_number": 10,
+      "title": "实例十：杜新会测贷款",
+      "source_lines": [
+        957,
+        1040
+      ],
+      "count_source_charts": 1,
+      "charts": [
+        {
+          "chart_key": "business-case-10-chart-1",
+          "source_lines": [
+            996,
+            1022
+          ],
+          "source_table_rows": [
+            {
+              "source_lines": [
+                1014,
+                1014
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1014,
+                "line_end": 1014,
+                "byte_start": 41335,
+                "byte_end": 41377,
+                "source_quote": "巽四宫    符      景戊       冲己\n"
+              },
+              "raw_text": "巽四宫    符      景戊       冲己\n",
+              "palace_label": "巽四宫",
+              "deity_token": "符",
+              "door_position_token": "景戊",
+              "star_position_token": "冲己",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1015,
+                1015
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1015,
+                "line_end": 1015,
+                "byte_start": 41377,
+                "byte_end": 41419,
+                "source_quote": "离九宫    蛇      死己       辅丁\n"
+              },
+              "raw_text": "离九宫    蛇      死己       辅丁\n",
+              "palace_label": "离九宫",
+              "deity_token": "蛇",
+              "door_position_token": "死己",
+              "star_position_token": "辅丁",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1016,
+                1016
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1016,
+                "line_end": 1016,
+                "byte_start": 41419,
+                "byte_end": 41461,
+                "source_quote": "坤二宫    阴      惊丁       英乙\n"
+              },
+              "raw_text": "坤二宫    阴      惊丁       英乙\n",
+              "palace_label": "坤二宫",
+              "deity_token": "阴",
+              "door_position_token": "惊丁",
+              "star_position_token": "英乙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1017,
+                1017
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1017,
+                "line_end": 1017,
+                "byte_start": 41461,
+                "byte_end": 41503,
+                "source_quote": "震三宫    天      杜癸       任戊\n"
+              },
+              "raw_text": "震三宫    天      杜癸       任戊\n",
+              "palace_label": "震三宫",
+              "deity_token": "天",
+              "door_position_token": "杜癸",
+              "star_position_token": "任戊",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1018,
+                1018
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1018,
+                "line_end": 1018,
+                "byte_start": 41503,
+                "byte_end": 41542,
+                "source_quote": "中五宫    —       庚         —\n"
+              },
+              "raw_text": "中五宫    —       庚         —\n",
+              "palace_label": "中五宫",
+              "deity_token": "—",
+              "door_position_token": "庚",
+              "star_position_token": "—",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1019,
+                1019
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1019,
+                "line_end": 1019,
+                "byte_start": 41542,
+                "byte_end": 41585,
+                "source_quote": "兑七宫    合      庚开乙     芮壬\n"
+              },
+              "raw_text": "兑七宫    合      庚开乙     芮壬\n",
+              "palace_label": "兑七宫",
+              "deity_token": "合",
+              "door_position_token": "庚开乙",
+              "star_position_token": "芮壬",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1020,
+                1020
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1020,
+                "line_end": 1020,
+                "byte_start": 41585,
+                "byte_end": 41627,
+                "source_quote": "艮八宫    地      伤丙       蓬癸\n"
+              },
+              "raw_text": "艮八宫    地      伤丙       蓬癸\n",
+              "palace_label": "艮八宫",
+              "deity_token": "地",
+              "door_position_token": "伤丙",
+              "star_position_token": "蓬癸",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1021,
+                1021
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1021,
+                "line_end": 1021,
+                "byte_start": 41627,
+                "byte_end": 41669,
+                "source_quote": "坎一宫    武      生辛       心丙\n"
+              },
+              "raw_text": "坎一宫    武      生辛       心丙\n",
+              "palace_label": "坎一宫",
+              "deity_token": "武",
+              "door_position_token": "生辛",
+              "star_position_token": "心丙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1022,
+                1022
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1022,
+                "line_end": 1022,
+                "byte_start": 41669,
+                "byte_end": 41711,
+                "source_quote": "乾六宫    虎      休壬       柱辛\n"
+              },
+              "raw_text": "乾六宫    虎      休壬       柱辛\n",
+              "palace_label": "乾六宫",
+              "deity_token": "虎",
+              "door_position_token": "休壬",
+              "star_position_token": "柱辛",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            }
+          ],
+          "source_table_header": "宫位      八神    门位       星位\n",
+          "interpretation_scope": "literal_tokens_only_not_independently_hand_gold"
+        }
+      ]
+    },
+    {
+      "case_number": 11,
+      "title": "实例十一：杜新会测中介生意",
+      "source_lines": [
+        1041,
+        1098
+      ],
+      "count_source_charts": 1,
+      "charts": [
+        {
+          "chart_key": "business-case-11-chart-1",
+          "source_lines": [
+            1058,
+            1082
+          ],
+          "source_table_rows": [
+            {
+              "source_lines": [
+                1074,
+                1074
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1074,
+                "line_end": 1074,
+                "byte_start": 43198,
+                "byte_end": 43241,
+                "source_quote": "巽四宫    武      乙休庚     芮戊\n"
+              },
+              "raw_text": "巽四宫    武      乙休庚     芮戊\n",
+              "palace_label": "巽四宫",
+              "deity_token": "武",
+              "door_position_token": "乙休庚",
+              "star_position_token": "芮戊",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1075,
+                1075
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1075,
+                "line_end": 1075,
+                "byte_start": 43241,
+                "byte_end": 43283,
+                "source_quote": "离九宫    虎      生丁       柱壬\n"
+              },
+              "raw_text": "离九宫    虎      生丁       柱壬\n",
+              "palace_label": "离九宫",
+              "deity_token": "虎",
+              "door_position_token": "生丁",
+              "star_position_token": "柱壬",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1076,
+                1076
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1076,
+                "line_end": 1076,
+                "byte_start": 43283,
+                "byte_end": 43325,
+                "source_quote": "坤二宫    合      伤丙       心庚\n"
+              },
+              "raw_text": "坤二宫    合      伤丙       心庚\n",
+              "palace_label": "坤二宫",
+              "deity_token": "合",
+              "door_position_token": "伤丙",
+              "star_position_token": "心庚",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1077,
+                1077
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1077,
+                "line_end": 1077,
+                "byte_start": 43325,
+                "byte_end": 43367,
+                "source_quote": "震三宫    地      开壬       英己\n"
+              },
+              "raw_text": "震三宫    地      开壬       英己\n",
+              "palace_label": "震三宫",
+              "deity_token": "地",
+              "door_position_token": "开壬",
+              "star_position_token": "英己",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1078,
+                1078
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1078,
+                "line_end": 1078,
+                "byte_start": 43367,
+                "byte_end": 43406,
+                "source_quote": "中五宫    —       乙         —\n"
+              },
+              "raw_text": "中五宫    —       乙         —\n",
+              "palace_label": "中五宫",
+              "deity_token": "—",
+              "door_position_token": "乙",
+              "star_position_token": "—",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1079,
+                1079
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1079,
+                "line_end": 1079,
+                "byte_start": 43406,
+                "byte_end": 43448,
+                "source_quote": "兑七宫    阴      杜辛       蓬丁\n"
+              },
+              "raw_text": "兑七宫    阴      杜辛       蓬丁\n",
+              "palace_label": "兑七宫",
+              "deity_token": "阴",
+              "door_position_token": "杜辛",
+              "star_position_token": "蓬丁",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1080,
+                1080
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1080,
+                "line_end": 1080,
+                "byte_start": 43448,
+                "byte_end": 43490,
+                "source_quote": "艮八宫    天      惊戊       辅癸\n"
+              },
+              "raw_text": "艮八宫    天      惊戊       辅癸\n",
+              "palace_label": "艮八宫",
+              "deity_token": "天",
+              "door_position_token": "惊戊",
+              "star_position_token": "辅癸",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1081,
+                1081
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1081,
+                "line_end": 1081,
+                "byte_start": 43490,
+                "byte_end": 43532,
+                "source_quote": "坎一宫    符      死己       冲辛\n"
+              },
+              "raw_text": "坎一宫    符      死己       冲辛\n",
+              "palace_label": "坎一宫",
+              "deity_token": "符",
+              "door_position_token": "死己",
+              "star_position_token": "冲辛",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1082,
+                1082
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1082,
+                "line_end": 1082,
+                "byte_start": 43532,
+                "byte_end": 43574,
+                "source_quote": "乾六宫    蛇      景癸       任丙\n"
+              },
+              "raw_text": "乾六宫    蛇      景癸       任丙\n",
+              "palace_label": "乾六宫",
+              "deity_token": "蛇",
+              "door_position_token": "景癸",
+              "star_position_token": "任丙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            }
+          ],
+          "source_table_header": "宫位      八神    门位       星位\n",
+          "interpretation_scope": "literal_tokens_only_not_independently_hand_gold"
+        }
+      ]
+    },
+    {
+      "case_number": 12,
+      "title": "实例十二：贵州省赤水市学员卢圣湘测抽奖例",
+      "source_lines": [
+        1099,
+        1336
+      ],
+      "count_source_charts": 3,
+      "charts": [
+        {
+          "chart_key": "business-case-12-chart-1",
+          "source_lines": [
+            1131,
+            1160
+          ],
+          "source_table_rows": [
+            {
+              "source_lines": [
+                1152,
+                1152
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1152,
+                "line_end": 1152,
+                "byte_start": 45990,
+                "byte_end": 46032,
+                "source_quote": "巽四宫    合      死癸       任己\n"
+              },
+              "raw_text": "巽四宫    合      死癸       任己\n",
+              "palace_label": "巽四宫",
+              "deity_token": "合",
+              "door_position_token": "死癸",
+              "star_position_token": "任己",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1153,
+                1153
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1153,
+                "line_end": 1153,
+                "byte_start": 46032,
+                "byte_end": 46074,
+                "source_quote": "离九宫    虎      惊戊       冲丁\n"
+              },
+              "raw_text": "离九宫    虎      惊戊       冲丁\n",
+              "palace_label": "离九宫",
+              "deity_token": "虎",
+              "door_position_token": "惊戊",
+              "star_position_token": "冲丁",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1154,
+                1154
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1154,
+                "line_end": 1154,
+                "byte_start": 46074,
+                "byte_end": 46116,
+                "source_quote": "坤二宫    武      开己       辅乙\n"
+              },
+              "raw_text": "坤二宫    武      开己       辅乙\n",
+              "palace_label": "坤二宫",
+              "deity_token": "武",
+              "door_position_token": "开己",
+              "star_position_token": "辅乙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1155,
+                1155
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1155,
+                "line_end": 1155,
+                "byte_start": 46116,
+                "byte_end": 46158,
+                "source_quote": "震三宫    阴      景丙       蓬戊\n"
+              },
+              "raw_text": "震三宫    阴      景丙       蓬戊\n",
+              "palace_label": "震三宫",
+              "deity_token": "阴",
+              "door_position_token": "景丙",
+              "star_position_token": "蓬戊",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1156,
+                1156
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1156,
+                "line_end": 1156,
+                "byte_start": 46158,
+                "byte_end": 46197,
+                "source_quote": "中五宫    —       庚         —\n"
+              },
+              "raw_text": "中五宫    —       庚         —\n",
+              "palace_label": "中五宫",
+              "deity_token": "—",
+              "door_position_token": "庚",
+              "star_position_token": "—",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1157,
+                1157
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1157,
+                "line_end": 1157,
+                "byte_start": 46197,
+                "byte_end": 46239,
+                "source_quote": "兑七宫    地      休丁       英壬\n"
+              },
+              "raw_text": "兑七宫    地      休丁       英壬\n",
+              "palace_label": "兑七宫",
+              "deity_token": "地",
+              "door_position_token": "休丁",
+              "star_position_token": "英壬",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1158,
+                1158
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1158,
+                "line_end": 1158,
+                "byte_start": 46239,
+                "byte_end": 46281,
+                "source_quote": "艮八宫    蛇      杜辛       心癸\n"
+              },
+              "raw_text": "艮八宫    蛇      杜辛       心癸\n",
+              "palace_label": "艮八宫",
+              "deity_token": "蛇",
+              "door_position_token": "杜辛",
+              "star_position_token": "心癸",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1159,
+                1159
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1159,
+                "line_end": 1159,
+                "byte_start": 46281,
+                "byte_end": 46323,
+                "source_quote": "坎一宫    符      伤壬       柱丙\n"
+              },
+              "raw_text": "坎一宫    符      伤壬       柱丙\n",
+              "palace_label": "坎一宫",
+              "deity_token": "符",
+              "door_position_token": "伤壬",
+              "star_position_token": "柱丙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1160,
+                1160
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1160,
+                "line_end": 1160,
+                "byte_start": 46323,
+                "byte_end": 46366,
+                "source_quote": "乾六宫    天      庚生乙     芮辛\n"
+              },
+              "raw_text": "乾六宫    天      庚生乙     芮辛\n",
+              "palace_label": "乾六宫",
+              "deity_token": "天",
+              "door_position_token": "庚生乙",
+              "star_position_token": "芮辛",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            }
+          ],
+          "source_table_header": "宫位      八神    门位       星位\n",
+          "interpretation_scope": "literal_tokens_only_not_independently_hand_gold"
+        },
+        {
+          "chart_key": "business-case-12-chart-2",
+          "source_lines": [
+            1198,
+            1225
+          ],
+          "source_table_rows": [
+            {
+              "source_lines": [
+                1217,
+                1217
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1217,
+                "line_end": 1217,
+                "byte_start": 47891,
+                "byte_end": 47934,
+                "source_quote": "巽四宫    天      庚生乙     芮己\n"
+              },
+              "raw_text": "巽四宫    天      庚生乙     芮己\n",
+              "palace_label": "巽四宫",
+              "deity_token": "天",
+              "door_position_token": "庚生乙",
+              "star_position_token": "芮己",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1218,
+                1218
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1218,
+                "line_end": 1218,
+                "byte_start": 47934,
+                "byte_end": 47976,
+                "source_quote": "离九宫    符      伤壬       柱丁\n"
+              },
+              "raw_text": "离九宫    符      伤壬       柱丁\n",
+              "palace_label": "离九宫",
+              "deity_token": "符",
+              "door_position_token": "伤壬",
+              "star_position_token": "柱丁",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1219,
+                1219
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1219,
+                "line_end": 1219,
+                "byte_start": 47976,
+                "byte_end": 48018,
+                "source_quote": "坤二宫    蛇      杜辛       心乙\n"
+              },
+              "raw_text": "坤二宫    蛇      杜辛       心乙\n",
+              "palace_label": "坤二宫",
+              "deity_token": "蛇",
+              "door_position_token": "杜辛",
+              "star_position_token": "心乙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1220,
+                1220
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1220,
+                "line_end": 1220,
+                "byte_start": 48018,
+                "byte_end": 48060,
+                "source_quote": "震三宫    地      休丁       英戊\n"
+              },
+              "raw_text": "震三宫    地      休丁       英戊\n",
+              "palace_label": "震三宫",
+              "deity_token": "地",
+              "door_position_token": "休丁",
+              "star_position_token": "英戊",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1221,
+                1221
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1221,
+                "line_end": 1221,
+                "byte_start": 48060,
+                "byte_end": 48099,
+                "source_quote": "中五宫    —       庚         —\n"
+              },
+              "raw_text": "中五宫    —       庚         —\n",
+              "palace_label": "中五宫",
+              "deity_token": "—",
+              "door_position_token": "庚",
+              "star_position_token": "—",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1222,
+                1222
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1222,
+                "line_end": 1222,
+                "byte_start": 48099,
+                "byte_end": 48141,
+                "source_quote": "兑七宫    阴      景丙       蓬壬\n"
+              },
+              "raw_text": "兑七宫    阴      景丙       蓬壬\n",
+              "palace_label": "兑七宫",
+              "deity_token": "阴",
+              "door_position_token": "景丙",
+              "star_position_token": "蓬壬",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1223,
+                1223
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1223,
+                "line_end": 1223,
+                "byte_start": 48141,
+                "byte_end": 48183,
+                "source_quote": "艮八宫    武      开己       辅癸\n"
+              },
+              "raw_text": "艮八宫    武      开己       辅癸\n",
+              "palace_label": "艮八宫",
+              "deity_token": "武",
+              "door_position_token": "开己",
+              "star_position_token": "辅癸",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1224,
+                1224
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1224,
+                "line_end": 1224,
+                "byte_start": 48183,
+                "byte_end": 48225,
+                "source_quote": "坎一宫    虎      惊戊       冲丙\n"
+              },
+              "raw_text": "坎一宫    虎      惊戊       冲丙\n",
+              "palace_label": "坎一宫",
+              "deity_token": "虎",
+              "door_position_token": "惊戊",
+              "star_position_token": "冲丙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1225,
+                1225
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1225,
+                "line_end": 1225,
+                "byte_start": 48225,
+                "byte_end": 48267,
+                "source_quote": "乾六宫    合      死癸       任辛\n"
+              },
+              "raw_text": "乾六宫    合      死癸       任辛\n",
+              "palace_label": "乾六宫",
+              "deity_token": "合",
+              "door_position_token": "死癸",
+              "star_position_token": "任辛",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            }
+          ],
+          "source_table_header": "宫位      八神    门位       星位\n",
+          "interpretation_scope": "literal_tokens_only_not_independently_hand_gold"
+        },
+        {
+          "chart_key": "business-case-12-chart-3",
+          "source_lines": [
+            1263,
+            1289
+          ],
+          "source_table_rows": [
+            {
+              "source_lines": [
+                1281,
+                1281
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1281,
+                "line_end": 1281,
+                "byte_start": 49504,
+                "byte_end": 49546,
+                "source_quote": "巽四宫    天      开丙       蓬己\n"
+              },
+              "raw_text": "巽四宫    天      开丙       蓬己\n",
+              "palace_label": "巽四宫",
+              "deity_token": "天",
+              "door_position_token": "开丙",
+              "star_position_token": "蓬己",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1282,
+                1282
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1282,
+                "line_end": 1282,
+                "byte_start": 49546,
+                "byte_end": 49588,
+                "source_quote": "离九宫    符      休癸       任丁\n"
+              },
+              "raw_text": "离九宫    符      休癸       任丁\n",
+              "palace_label": "离九宫",
+              "deity_token": "符",
+              "door_position_token": "休癸",
+              "star_position_token": "任丁",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1283,
+                1283
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1283,
+                "line_end": 1283,
+                "byte_start": 49588,
+                "byte_end": 49630,
+                "source_quote": "坤二宫    蛇      生戊       冲乙\n"
+              },
+              "raw_text": "坤二宫    蛇      生戊       冲乙\n",
+              "palace_label": "坤二宫",
+              "deity_token": "蛇",
+              "door_position_token": "生戊",
+              "star_position_token": "冲乙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1284,
+                1284
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1284,
+                "line_end": 1284,
+                "byte_start": 49630,
+                "byte_end": 49672,
+                "source_quote": "震三宫    地      惊辛       心戊\n"
+              },
+              "raw_text": "震三宫    地      惊辛       心戊\n",
+              "palace_label": "震三宫",
+              "deity_token": "地",
+              "door_position_token": "惊辛",
+              "star_position_token": "心戊",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1285,
+                1285
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1285,
+                "line_end": 1285,
+                "byte_start": 49672,
+                "byte_end": 49711,
+                "source_quote": "中五宫    —       庚         —\n"
+              },
+              "raw_text": "中五宫    —       庚         —\n",
+              "palace_label": "中五宫",
+              "deity_token": "—",
+              "door_position_token": "庚",
+              "star_position_token": "—",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1286,
+                1286
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1286,
+                "line_end": 1286,
+                "byte_start": 49711,
+                "byte_end": 49753,
+                "source_quote": "兑七宫    阴      伤己       辅壬\n"
+              },
+              "raw_text": "兑七宫    阴      伤己       辅壬\n",
+              "palace_label": "兑七宫",
+              "deity_token": "阴",
+              "door_position_token": "伤己",
+              "star_position_token": "辅壬",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1287,
+                1287
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1287,
+                "line_end": 1287,
+                "byte_start": 49753,
+                "byte_end": 49795,
+                "source_quote": "艮八宫    武      死壬       柱癸\n"
+              },
+              "raw_text": "艮八宫    武      死壬       柱癸\n",
+              "palace_label": "艮八宫",
+              "deity_token": "武",
+              "door_position_token": "死壬",
+              "star_position_token": "柱癸",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1288,
+                1288
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1288,
+                "line_end": 1288,
+                "byte_start": 49795,
+                "byte_end": 49838,
+                "source_quote": "坎一宫    虎      庚景乙     芮丙\n"
+              },
+              "raw_text": "坎一宫    虎      庚景乙     芮丙\n",
+              "palace_label": "坎一宫",
+              "deity_token": "虎",
+              "door_position_token": "庚景乙",
+              "star_position_token": "芮丙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1289,
+                1289
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1289,
+                "line_end": 1289,
+                "byte_start": 49838,
+                "byte_end": 49880,
+                "source_quote": "乾六宫    合      杜丁       英辛\n"
+              },
+              "raw_text": "乾六宫    合      杜丁       英辛\n",
+              "palace_label": "乾六宫",
+              "deity_token": "合",
+              "door_position_token": "杜丁",
+              "star_position_token": "英辛",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            }
+          ],
+          "source_table_header": "宫位      八神    门位       星位\n",
+          "interpretation_scope": "literal_tokens_only_not_independently_hand_gold"
+        }
+      ]
+    },
+    {
+      "case_number": 13,
+      "title": "实例十三：杜新会测讨债",
+      "source_lines": [
+        1337,
+        1394
+      ],
+      "count_source_charts": 1,
+      "charts": [
+        {
+          "chart_key": "business-case-13-chart-1",
+          "source_lines": [
+            1350,
+            1377
+          ],
+          "source_table_rows": [
+            {
+              "source_lines": [
+                1369,
+                1369
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1369,
+                "line_end": 1369,
+                "byte_start": 52638,
+                "byte_end": 52680,
+                "source_quote": "巽四宫    阴      生丙       任庚\n"
+              },
+              "raw_text": "巽四宫    阴      生丙       任庚\n",
+              "palace_label": "巽四宫",
+              "deity_token": "阴",
+              "door_position_token": "生丙",
+              "star_position_token": "任庚",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1370,
+                1370
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1370,
+                "line_end": 1370,
+                "byte_start": 52680,
+                "byte_end": 52722,
+                "source_quote": "离九宫    蛇      伤辛       冲丁\n"
+              },
+              "raw_text": "离九宫    蛇      伤辛       冲丁\n",
+              "palace_label": "离九宫",
+              "deity_token": "蛇",
+              "door_position_token": "伤辛",
+              "star_position_token": "冲丁",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1371,
+                1371
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1371,
+                "line_end": 1371,
+                "byte_start": 52722,
+                "byte_end": 52764,
+                "source_quote": "坤二宫    符      杜庚       辅壬\n"
+              },
+              "raw_text": "坤二宫    符      杜庚       辅壬\n",
+              "palace_label": "坤二宫",
+              "deity_token": "符",
+              "door_position_token": "杜庚",
+              "star_position_token": "辅壬",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1372,
+                1372
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1372,
+                "line_end": 1372,
+                "byte_start": 52764,
+                "byte_end": 52806,
+                "source_quote": "震三宫    合      休癸       蓬辛\n"
+              },
+              "raw_text": "震三宫    合      休癸       蓬辛\n",
+              "palace_label": "震三宫",
+              "deity_token": "合",
+              "door_position_token": "休癸",
+              "star_position_token": "蓬辛",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1373,
+                1373
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1373,
+                "line_end": 1373,
+                "byte_start": 52806,
+                "byte_end": 52845,
+                "source_quote": "中五宫    —       己         —\n"
+              },
+              "raw_text": "中五宫    —       己         —\n",
+              "palace_label": "中五宫",
+              "deity_token": "—",
+              "door_position_token": "己",
+              "star_position_token": "—",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1374,
+                1374
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1374,
+                "line_end": 1374,
+                "byte_start": 52845,
+                "byte_end": 52887,
+                "source_quote": "兑七宫    天      景丁       英乙\n"
+              },
+              "raw_text": "兑七宫    天      景丁       英乙\n",
+              "palace_label": "兑七宫",
+              "deity_token": "天",
+              "door_position_token": "景丁",
+              "star_position_token": "英乙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1375,
+                1375
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1375,
+                "line_end": 1375,
+                "byte_start": 52887,
+                "byte_end": 52929,
+                "source_quote": "艮八宫    虎      开戊       心丙\n"
+              },
+              "raw_text": "艮八宫    虎      开戊       心丙\n",
+              "palace_label": "艮八宫",
+              "deity_token": "虎",
+              "door_position_token": "开戊",
+              "star_position_token": "心丙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1376,
+                1376
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1376,
+                "line_end": 1376,
+                "byte_start": 52929,
+                "byte_end": 52971,
+                "source_quote": "坎一宫    武      惊乙       柱癸\n"
+              },
+              "raw_text": "坎一宫    武      惊乙       柱癸\n",
+              "palace_label": "坎一宫",
+              "deity_token": "武",
+              "door_position_token": "惊乙",
+              "star_position_token": "柱癸",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1377,
+                1377
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1377,
+                "line_end": 1377,
+                "byte_start": 52971,
+                "byte_end": 53014,
+                "source_quote": "乾六宫    地      己死壬     芮戊\n"
+              },
+              "raw_text": "乾六宫    地      己死壬     芮戊\n",
+              "palace_label": "乾六宫",
+              "deity_token": "地",
+              "door_position_token": "己死壬",
+              "star_position_token": "芮戊",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            }
+          ],
+          "source_table_header": "宫位      八神    门位       星位\n",
+          "interpretation_scope": "literal_tokens_only_not_independently_hand_gold"
+        }
+      ]
+    },
+    {
+      "case_number": 14,
+      "title": "实例十四：杜新会测讨债无获",
+      "source_lines": [
+        1395,
+        1456
+      ],
+      "count_source_charts": 1,
+      "charts": [
+        {
+          "chart_key": "business-case-14-chart-1",
+          "source_lines": [
+            1418,
+            1445
+          ],
+          "source_table_rows": [
+            {
+              "source_lines": [
+                1437,
+                1437
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1437,
+                "line_end": 1437,
+                "byte_start": 55132,
+                "byte_end": 55174,
+                "source_quote": "巽四宫    虎      伤辛       辅辛\n"
+              },
+              "raw_text": "巽四宫    虎      伤辛       辅辛\n",
+              "palace_label": "巽四宫",
+              "deity_token": "虎",
+              "door_position_token": "伤辛",
+              "star_position_token": "辅辛",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1438,
+                1438
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1438,
+                "line_end": 1438,
+                "byte_start": 55174,
+                "byte_end": 55216,
+                "source_quote": "离九宫    合      杜丙       英丙\n"
+              },
+              "raw_text": "离九宫    合      杜丙       英丙\n",
+              "palace_label": "离九宫",
+              "deity_token": "合",
+              "door_position_token": "杜丙",
+              "star_position_token": "英丙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1439,
+                1439
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1439,
+                "line_end": 1439,
+                "byte_start": 55216,
+                "byte_end": 55258,
+                "source_quote": "坤二宫    阴      景癸       芮癸\n"
+              },
+              "raw_text": "坤二宫    阴      景癸       芮癸\n",
+              "palace_label": "坤二宫",
+              "deity_token": "阴",
+              "door_position_token": "景癸",
+              "star_position_token": "芮癸",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1440,
+                1440
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1440,
+                "line_end": 1440,
+                "byte_start": 55258,
+                "byte_end": 55300,
+                "source_quote": "震三宫    武      生壬       冲壬\n"
+              },
+              "raw_text": "震三宫    武      生壬       冲壬\n",
+              "palace_label": "震三宫",
+              "deity_token": "武",
+              "door_position_token": "生壬",
+              "star_position_token": "冲壬",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1441,
+                1441
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1441,
+                "line_end": 1441,
+                "byte_start": 55300,
+                "byte_end": 55339,
+                "source_quote": "中五宫    —       庚         —\n"
+              },
+              "raw_text": "中五宫    —       庚         —\n",
+              "palace_label": "中五宫",
+              "deity_token": "—",
+              "door_position_token": "庚",
+              "star_position_token": "—",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1442,
+                1442
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1442,
+                "line_end": 1442,
+                "byte_start": 55339,
+                "byte_end": 55381,
+                "source_quote": "兑七宫    蛇      死戊       柱戊\n"
+              },
+              "raw_text": "兑七宫    蛇      死戊       柱戊\n",
+              "palace_label": "兑七宫",
+              "deity_token": "蛇",
+              "door_position_token": "死戊",
+              "star_position_token": "柱戊",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1443,
+                1443
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1443,
+                "line_end": 1443,
+                "byte_start": 55381,
+                "byte_end": 55423,
+                "source_quote": "艮八宫    地      休乙       任乙\n"
+              },
+              "raw_text": "艮八宫    地      休乙       任乙\n",
+              "palace_label": "艮八宫",
+              "deity_token": "地",
+              "door_position_token": "休乙",
+              "star_position_token": "任乙",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1444,
+                1444
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1444,
+                "line_end": 1444,
+                "byte_start": 55423,
+                "byte_end": 55465,
+                "source_quote": "坎一宫    天      开丁       蓬丁\n"
+              },
+              "raw_text": "坎一宫    天      开丁       蓬丁\n",
+              "palace_label": "坎一宫",
+              "deity_token": "天",
+              "door_position_token": "开丁",
+              "star_position_token": "蓬丁",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            },
+            {
+              "source_lines": [
+                1445,
+                1445
+              ],
+              "source_selector": {
+                "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+                "line_start": 1445,
+                "line_end": 1445,
+                "byte_start": 55465,
+                "byte_end": 55507,
+                "source_quote": "乾六宫    符      惊己       心己\n"
+              },
+              "raw_text": "乾六宫    符      惊己       心己\n",
+              "palace_label": "乾六宫",
+              "deity_token": "符",
+              "door_position_token": "惊己",
+              "star_position_token": "心己",
+              "token_interpretation_status": "source_literal_columns_preserved; heaven/earth stems only attributed under reviewed chapter convention"
+            }
+          ],
+          "source_table_header": "宫位      八神    门位       星位\n",
+          "interpretation_scope": "literal_tokens_only_not_independently_hand_gold"
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "key": "business_multichart",
+      "line_start": 1099,
+      "line_end": 1336,
+      "description": "第十二案只有3张完整文字盘，其余时辰有作者描述而无完整盘；不可虚构缺失盘"
+    },
+    {
+      "key": "business_center_literal",
+      "line_start": 912,
+      "line_end": 912,
+      "description": "第九案中五宫门位原写作“禽己”，不是通常单一地盘干。保留原文，需兼容独立表示；不改原盘"
+    }
+  ],
+  "verification": {
+    "original_unmodified": true,
+    "engine_verified": false,
+    "manual_independent_chart_gold": false
+  }
+}
