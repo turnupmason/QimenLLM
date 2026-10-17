@@ -19,6 +19,7 @@ TRAVEL_SHA='c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55'
 MISSING_SHA='5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574'
 LOST_SHA='ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9'
 CRIMINAL_SHA='289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9'
+LITIGATION_SHA='a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2'
 PROJECTION='shenqi_health_table_projection_v1'
 SOURCE_POLICIES={HEALTH_SHA:PROJECTION,MARRIAGE_SHA:'shenqi_marriage_table_projection_v1',
                  PREGNANCY_SHA:'shenqi_pregnancy_table_projection_v1',
@@ -28,7 +29,8 @@ SOURCE_POLICIES={HEALTH_SHA:PROJECTION,MARRIAGE_SHA:'shenqi_marriage_table_proje
                  TRAVEL_SHA:'shenqi_travel_unicode_grid_projection_v1',
                  MISSING_SHA:'shenqi_missing_unicode_grid_projection_v1',
                  LOST_SHA:'shenqi_lost_unicode_grid_projection_v1',
-                 CRIMINAL_SHA:'shenqi_criminal_unicode_grid_projection_v1'}
+                 CRIMINAL_SHA:'shenqi_criminal_unicode_grid_projection_v1',
+                 LITIGATION_SHA:'shenqi_litigation_unicode_grid_projection_v1'}
 NUMERALS=dict(zip('一二三四五六七八九',range(1,10)))
 
 
@@ -69,7 +71,7 @@ def project_chart(db,case_id,chart_id):
     stems={r['stem'] for r in families['stem_attributes']['payload']['dataset']['rows']}
     source_lines=text.splitlines(keepends=True); start_line=raw[:row['byte_start']].count(b'\n')+1
     grid_sources={}
-    if row['sha256'] in (TRAVEL_SHA,LOST_SHA,CRIMINAL_SHA):
+    if row['sha256'] in (TRAVEL_SHA,LOST_SHA,CRIMINAL_SHA,LITIGATION_SHA):
         # Read literal grid cells in place. Synthetic rows are local projection
         # inputs only; their citations retain all three exact Unicode source lines.
         lines=[]
@@ -80,7 +82,8 @@ def project_chart(db,case_id,chart_id):
                 raise ValueError('Incomplete Unicode palace row')
             for column in range(3):
                 header=cells[0][column].strip()
-                if row['sha256'] in (LOST_SHA,CRIMINAL_SHA) and header=='中五宫  中宫':
+                if ((row['sha256'] in (LOST_SHA,CRIMINAL_SHA) and header=='中五宫  中宫')
+                        or (row['sha256']==LITIGATION_SHA and header=='中五宫')):
                     label,deity='中五宫','—'
                 else:
                     label,deity=header.split('八神：')

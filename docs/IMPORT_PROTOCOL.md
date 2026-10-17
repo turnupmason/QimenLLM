@@ -95,3 +95,14 @@ scripts/import_shenqi_lost.py验证上传原字节SHA256 ed3c80f32c213563bf35d9f
 ## 刑事案件预测增量重放
 
 scripts/import_shenqi_criminal.py验证源SHA256 289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9、37260字节/261行；criminal-cases/sequence16。5故事/5事件/6给定盘、62记录/64证据；17语境组、11参考候选。银行案置闰原断与事后拆补对照同家族，原始应期失准不改成命中；未提供系列案独立咨询盘不补。source_chart同ID投影及既有CLI/API入口不变，无schema迁移。默认confirmed及同步GitHub，完整快照、回归和精确新main四CI为验收条件。报告ingestion/SHENQI_CRIMINAL.md。
+
+
+## 官司诉讼增量重放
+
+源指纹见data/provenance/litigation_source_audit.json，完整30547原字节/267行保存在uploads和snapshot raw。scripts/import_shenqi_litigation.py沿import_chapter/install_curated/import_cases/install_candidates；chapter_key=litigation，sequence17是接收排序，不冒称书面章号。既有快照恢复到新库后：
+
+```sh
+PYTHONPATH=src python3 scripts/import_shenqi_litigation.py --restore-base --db work/litigation.sqlite3 --raw-dir work/litigation-raw --local-only
+```
+
+目标库须不存在；已包含本章的快照恢复后重放幂等，不删除历史。local-only仅维护暂存，不算GitHub交付。原盘在QimenService/CLI/WSGI既有目录和case-chart读取；第五例方法分歧与第六例后置解释阶段见本章报告。完整回归后核验私有仓库、非强制更新main、按精确SHA逐blob及四CI验收。不新增章级Actions。

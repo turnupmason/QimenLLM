@@ -1,0 +1,3610 @@
+{
+  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+  "source_byte_count": 30547,
+  "source_line_count": 267,
+  "temporal_payload_contract": "source-stage-v1",
+  "cases": [
+    {
+      "case_key": "litigation-case-01",
+      "title": "实例一：测官司",
+      "completeness": "confirmed_complete",
+      "source_ranges": [
+        [
+          19,
+          59
+        ]
+      ],
+      "source_selectors": [
+        {
+          "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+          "line_start": 19,
+          "line_end": 59,
+          "byte_start": 2015,
+          "byte_end": 5778,
+          "source_quote": "实例一：测官司\n\n1995年5月6日晚9点20分，某女给杜新会打电话，言她父亲昨天被检察院传走，至今未让回家，不知何故，请测一下吉凶如何，能否放回?\n\n杜新会当即按打电话时间，用六爻起卦预测，接着又用奇门遁甲起局预测。\n\n按此时干支历，为乙亥年辛巳月丁酉日辛亥时。\n\n应用阳遁4局，属甲辰旬，天任星为值符落兑7宫，生门为值使落乾6宫。\n\n九宫盘面（依原文转写，未重新排盘）\n┌──────────────────────────┬──────────────────────────┬──────────────────────────┐\n│ 巽四宫  八神：武         │ 离九宫  八神：地         │ 坤二宫  八神：天         │\n│ 门位：死辛               │ 门位：惊庚               │ 门位：开丁               │\n│ 星位：柱戊               │ 星位：心癸               │ 星位：蓬丙               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 震三宫  八神：虎         │ 中五宫                   │ 兑七宫  八神：符         │\n│ 门位：己景丙             │ 中宫原字：己             │ 门位：休壬               │\n│ 星位：芮乙               │                          │ 星位：任辛               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 艮八宫  八神：合         │ 坎一宫  八神：阴         │ 乾六宫  八神：蛇         │\n│ 门位：杜癸               │ 门位：伤戊               │ 门位：生乙               │\n│ 星位：英壬               │ 星位：辅丁               │ 星位：冲庚               │\n└──────────────────────────┴──────────────────────────┴──────────────────────────┘\n\n分析：\n\n(1)年干乙为其父，落乾6宫，乙墓在戌，乙奇落乾6宫为入墓，说明被关押；格局乙+庚，为日奇被刑，争讼财产；乾为领导，生门+开门，上乘螣蛇，说明其父是理财的领导人。\n\n(2)其父乙奇落乾6宫，被地盘六仪之庚所刑，再看天盘庚落离.9宫，为火而克其父落宫乾金，离主文化人，惊门主争讼，上乘九地，说明被本单位人告发所致。\n\n(3)景门为举报信，落震3宫为空亡之地(甲辰旬中寅卯空),说明举报不实，为凭空捏造，栽赃陷害。\n\n(4)开门为法官，为检察院，落坤2宫为土，与日干丁奇(求测人)同宫比和，上乘九天为领导。求测人一定会去找检察院领导，并会得到同情和理解。开门临坤宫，宫生门，又得奇，又生其父落宫，故断其父一定会被放出。\n\n(5)年干乙奇为用神，地盘乙奇在3宫，上临六仪丙与己，丙日或己日可放出，阳遁3宫为内盘，主快，故断己日可放回。\n\n后经验证，其父确为某单位行政科长，负责基建工作，被人诬告，受到检察院传讯。求测人第二天(即戊戌日)到检察院找主管领导表明愿意支持工作，得到同情和理解。\n\n其父果于第三天(己亥日)被放回。\n\n"
+        }
+      ],
+      "family": {
+        "family_key": "shenqi-litigation-case-01-family",
+        "description": "实例一：测官司：同一历史纠纷的原断、反馈、续断、结果与方法评论同组"
+      },
+      "events": [
+        {
+          "event_key": "litigation-case-01-event-1",
+          "chronology_status": "ordered",
+          "background": {
+            "initial_inquiry_as_written": "1995年5月6日晚9点20分，某女给杜新会打电话，言她父亲昨天被检察院传走，至今未让回家，不知何故，请测一下吉凶如何，能否放回?\n",
+            "source_confirmation": "user_attestation",
+            "whole_background_not_prediction_input": true
+          },
+          "prediction_input_policy": {
+            "mode": "first_forecast_only_conservative",
+            "contract": "source-stage-v1",
+            "unrestricted_background_withheld": true,
+            "unknown_explanations_withheld": true
+          },
+          "charts": [
+            {
+              "chart_key": "litigation-case-01-chart-1",
+              "source_lines": [
+                30,
+                42
+              ],
+              "source_or_engine": "original",
+              "casting_method": null,
+              "method_version": null,
+              "input_datetime": null,
+              "timezone": null,
+              "location": null,
+              "validation_status": "original_unparsed",
+              "payload": {
+                "chart_role": "source_original_nine_palace_grid",
+                "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                "raw_chart_text": "┌──────────────────────────┬──────────────────────────┬──────────────────────────┐\n│ 巽四宫  八神：武         │ 离九宫  八神：地         │ 坤二宫  八神：天         │\n│ 门位：死辛               │ 门位：惊庚               │ 门位：开丁               │\n│ 星位：柱戊               │ 星位：心癸               │ 星位：蓬丙               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 震三宫  八神：虎         │ 中五宫                   │ 兑七宫  八神：符         │\n│ 门位：己景丙             │ 中宫原字：己             │ 门位：休壬               │\n│ 星位：芮乙               │                          │ 星位：任辛               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 艮八宫  八神：合         │ 坎一宫  八神：阴         │ 乾六宫  八神：蛇         │\n│ 门位：杜癸               │ 门位：伤戊               │ 门位：生乙               │\n│ 星位：英壬               │ 星位：辅丁               │ 星位：冲庚               │\n└──────────────────────────┴──────────────────────────┴──────────────────────────┘\n",
+                "source_table_rows": [
+                  {
+                    "source_lines": [
+                      31,
+                      33
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 31,
+                      "line_end": 33,
+                      "byte_start": 2775,
+                      "byte_end": 3099,
+                      "source_quote": "│ 巽四宫  八神：武         │ 离九宫  八神：地         │ 坤二宫  八神：天         │\n│ 门位：死辛               │ 门位：惊庚               │ 门位：开丁               │\n│ 星位：柱戊               │ 星位：心癸               │ 星位：蓬丙               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "巽四宫",
+                      "武",
+                      "死辛",
+                      "柱戊"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      31,
+                      33
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 31,
+                      "line_end": 33,
+                      "byte_start": 2775,
+                      "byte_end": 3099,
+                      "source_quote": "│ 巽四宫  八神：武         │ 离九宫  八神：地         │ 坤二宫  八神：天         │\n│ 门位：死辛               │ 门位：惊庚               │ 门位：开丁               │\n│ 星位：柱戊               │ 星位：心癸               │ 星位：蓬丙               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "离九宫",
+                      "地",
+                      "惊庚",
+                      "心癸"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      31,
+                      33
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 31,
+                      "line_end": 33,
+                      "byte_start": 2775,
+                      "byte_end": 3099,
+                      "source_quote": "│ 巽四宫  八神：武         │ 离九宫  八神：地         │ 坤二宫  八神：天         │\n│ 门位：死辛               │ 门位：惊庚               │ 门位：开丁               │\n│ 星位：柱戊               │ 星位：心癸               │ 星位：蓬丙               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "坤二宫",
+                      "天",
+                      "开丁",
+                      "蓬丙"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      35,
+                      37
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 35,
+                      "line_end": 37,
+                      "byte_start": 3346,
+                      "byte_end": 3663,
+                      "source_quote": "│ 震三宫  八神：虎         │ 中五宫                   │ 兑七宫  八神：符         │\n│ 门位：己景丙             │ 中宫原字：己             │ 门位：休壬               │\n│ 星位：芮乙               │                          │ 星位：任辛               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "震三宫",
+                      "虎",
+                      "己景丙",
+                      "芮乙"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      35,
+                      37
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 35,
+                      "line_end": 37,
+                      "byte_start": 3346,
+                      "byte_end": 3663,
+                      "source_quote": "│ 震三宫  八神：虎         │ 中五宫                   │ 兑七宫  八神：符         │\n│ 门位：己景丙             │ 中宫原字：己             │ 门位：休壬               │\n│ 星位：芮乙               │                          │ 星位：任辛               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "中五宫",
+                      "—",
+                      "己",
+                      "—"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      35,
+                      37
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 35,
+                      "line_end": 37,
+                      "byte_start": 3346,
+                      "byte_end": 3663,
+                      "source_quote": "│ 震三宫  八神：虎         │ 中五宫                   │ 兑七宫  八神：符         │\n│ 门位：己景丙             │ 中宫原字：己             │ 门位：休壬               │\n│ 星位：芮乙               │                          │ 星位：任辛               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "兑七宫",
+                      "符",
+                      "休壬",
+                      "任辛"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      39,
+                      41
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 39,
+                      "line_end": 41,
+                      "byte_start": 3910,
+                      "byte_end": 4234,
+                      "source_quote": "│ 艮八宫  八神：合         │ 坎一宫  八神：阴         │ 乾六宫  八神：蛇         │\n│ 门位：杜癸               │ 门位：伤戊               │ 门位：生乙               │\n│ 星位：英壬               │ 星位：辅丁               │ 星位：冲庚               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "艮八宫",
+                      "合",
+                      "杜癸",
+                      "英壬"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      39,
+                      41
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 39,
+                      "line_end": 41,
+                      "byte_start": 3910,
+                      "byte_end": 4234,
+                      "source_quote": "│ 艮八宫  八神：合         │ 坎一宫  八神：阴         │ 乾六宫  八神：蛇         │\n│ 门位：杜癸               │ 门位：伤戊               │ 门位：生乙               │\n│ 星位：英壬               │ 星位：辅丁               │ 星位：冲庚               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "坎一宫",
+                      "阴",
+                      "伤戊",
+                      "辅丁"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      39,
+                      41
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 39,
+                      "line_end": 41,
+                      "byte_start": 3910,
+                      "byte_end": 4234,
+                      "source_quote": "│ 艮八宫  八神：合         │ 坎一宫  八神：阴         │ 乾六宫  八神：蛇         │\n│ 门位：杜癸               │ 门位：伤戊               │ 门位：生乙               │\n│ 星位：英壬               │ 星位：辅丁               │ 星位：冲庚               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "乾六宫",
+                      "蛇",
+                      "生乙",
+                      "冲庚"
+                    ]
+                  }
+                ],
+                "source_chart_metadata": {
+                  "casting_description": "应用阳遁4局，属甲辰旬，天任星为值符落兑7宫，生门为值使落乾6宫。",
+                  "casting_basis_as_written": "inquiry_time"
+                },
+                "source_presentation_stage": "source_order",
+                "calendar_recomputed": false
+              }
+            }
+          ],
+          "records": [
+            {
+              "record_key": "litigation-case-01-line-21",
+              "sequence": 0,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                21,
+                21
+              ],
+              "text": "1995年5月6日晚9点20分，某女给杜新会打电话，言她父亲昨天被检察院传走，至今未让回家，不知何故，请测一下吉凶如何，能否放回?\n",
+              "chart_key": "litigation-case-01-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_inquiry",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 21,
+                  "line_end": 21,
+                  "byte_start": 2038,
+                  "byte_end": 2214,
+                  "source_quote": "1995年5月6日晚9点20分，某女给杜新会打电话，言她父亲昨天被检察院传走，至今未让回家，不知何故，请测一下吉凶如何，能否放回?\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-01-line-23",
+              "sequence": 1,
+              "kind": "dialogue",
+              "knowledge_phase": "unknown",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                23,
+                23
+              ],
+              "text": "杜新会当即按打电话时间，用六爻起卦预测，接着又用奇门遁甲起局预测。\n",
+              "chart_key": "litigation-case-01-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "source_narrative",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 23,
+                  "line_end": 23,
+                  "byte_start": 2215,
+                  "byte_end": 2315,
+                  "source_quote": "杜新会当即按打电话时间，用六爻起卦预测，接着又用奇门遁甲起局预测。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-01-line-25",
+              "sequence": 2,
+              "kind": "dialogue",
+              "knowledge_phase": "unknown",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                25,
+                25
+              ],
+              "text": "按此时干支历，为乙亥年辛巳月丁酉日辛亥时。\n",
+              "chart_key": "litigation-case-01-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "source_narrative",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 25,
+                  "line_end": 25,
+                  "byte_start": 2316,
+                  "byte_end": 2380,
+                  "source_quote": "按此时干支历，为乙亥年辛巳月丁酉日辛亥时。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-01-line-27",
+              "sequence": 3,
+              "kind": "dialogue",
+              "knowledge_phase": "unknown",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                27,
+                27
+              ],
+              "text": "应用阳遁4局，属甲辰旬，天任星为值符落兑7宫，生门为值使落乾6宫。\n",
+              "chart_key": "litigation-case-01-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "source_narrative",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 27,
+                  "line_end": 27,
+                  "byte_start": 2381,
+                  "byte_end": 2475,
+                  "source_quote": "应用阳遁4局，属甲辰旬，天任星为值符落兑7宫，生门为值使落乾6宫。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-01-line-46",
+              "sequence": 4,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                46,
+                46
+              ],
+              "text": "(1)年干乙为其父，落乾6宫，乙墓在戌，乙奇落乾6宫为入墓，说明被关押；格局乙+庚，为日奇被刑，争讼财产；乾为领导，生门+开门，上乘螣蛇，说明其父是理财的领导人。\n",
+              "chart_key": "litigation-case-01-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 46,
+                  "line_end": 46,
+                  "byte_start": 4493,
+                  "byte_end": 4723,
+                  "source_quote": "(1)年干乙为其父，落乾6宫，乙墓在戌，乙奇落乾6宫为入墓，说明被关押；格局乙+庚，为日奇被刑，争讼财产；乾为领导，生门+开门，上乘螣蛇，说明其父是理财的领导人。\n"
+                },
+                "original_step_number": "1",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-01-line-48",
+              "sequence": 5,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                48,
+                48
+              ],
+              "text": "(2)其父乙奇落乾6宫，被地盘六仪之庚所刑，再看天盘庚落离.9宫，为火而克其父落宫乾金，离主文化人，惊门主争讼，上乘九地，说明被本单位人告发所致。\n",
+              "chart_key": "litigation-case-01-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 48,
+                  "line_end": 48,
+                  "byte_start": 4724,
+                  "byte_end": 4932,
+                  "source_quote": "(2)其父乙奇落乾6宫，被地盘六仪之庚所刑，再看天盘庚落离.9宫，为火而克其父落宫乾金，离主文化人，惊门主争讼，上乘九地，说明被本单位人告发所致。\n"
+                },
+                "original_step_number": "2",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-01-line-50",
+              "sequence": 6,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                50,
+                50
+              ],
+              "text": "(3)景门为举报信，落震3宫为空亡之地(甲辰旬中寅卯空),说明举报不实，为凭空捏造，栽赃陷害。\n",
+              "chart_key": "litigation-case-01-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 50,
+                  "line_end": 50,
+                  "byte_start": 4933,
+                  "byte_end": 5061,
+                  "source_quote": "(3)景门为举报信，落震3宫为空亡之地(甲辰旬中寅卯空),说明举报不实，为凭空捏造，栽赃陷害。\n"
+                },
+                "original_step_number": "3",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-01-line-52",
+              "sequence": 7,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                52,
+                52
+              ],
+              "text": "(4)开门为法官，为检察院，落坤2宫为土，与日干丁奇(求测人)同宫比和，上乘九天为领导。求测人一定会去找检察院领导，并会得到同情和理解。开门临坤宫，宫生门，又得奇，又生其父落宫，故断其父一定会被放出。\n",
+              "chart_key": "litigation-case-01-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 52,
+                  "line_end": 52,
+                  "byte_start": 5062,
+                  "byte_end": 5351,
+                  "source_quote": "(4)开门为法官，为检察院，落坤2宫为土，与日干丁奇(求测人)同宫比和，上乘九天为领导。求测人一定会去找检察院领导，并会得到同情和理解。开门临坤宫，宫生门，又得奇，又生其父落宫，故断其父一定会被放出。\n"
+                },
+                "original_step_number": "4",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-01-line-54",
+              "sequence": 8,
+              "kind": "timing",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                54,
+                54
+              ],
+              "text": "(5)年干乙奇为用神，地盘乙奇在3宫，上临六仪丙与己，丙日或己日可放出，阳遁3宫为内盘，主快，故断己日可放回。\n",
+              "chart_key": "litigation-case-01-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 54,
+                  "line_end": 54,
+                  "byte_start": 5352,
+                  "byte_end": 5508,
+                  "source_quote": "(5)年干乙奇为用神，地盘乙奇在3宫，上临六仪丙与己，丙日或己日可放出，阳遁3宫为内盘，主快，故断己日可放回。\n"
+                },
+                "original_step_number": "5",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-01-line-56",
+              "sequence": 9,
+              "kind": "outcome",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                56,
+                56
+              ],
+              "text": "后经验证，其父确为某单位行政科长，负责基建工作，被人诬告，受到检察院传讯。求测人第二天(即戊戌日)到检察院找主管领导表明愿意支持工作，得到同情和理解。\n",
+              "chart_key": "litigation-case-01-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "reported_outcome",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 56,
+                  "line_end": 56,
+                  "byte_start": 5509,
+                  "byte_end": 5731,
+                  "source_quote": "后经验证，其父确为某单位行政科长，负责基建工作，被人诬告，受到检察院传讯。求测人第二天(即戊戌日)到检察院找主管领导表明愿意支持工作，得到同情和理解。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-01-line-58",
+              "sequence": 10,
+              "kind": "outcome",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                58,
+                58
+              ],
+              "text": "其父果于第三天(己亥日)被放回。\n",
+              "chart_key": "litigation-case-01-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "reported_outcome",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 58,
+                  "line_end": 58,
+                  "byte_start": 5732,
+                  "byte_end": 5777,
+                  "source_quote": "其父果于第三天(己亥日)被放回。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            }
+          ],
+          "evidence_links": []
+        }
+      ]
+    },
+    {
+      "case_key": "litigation-case-02",
+      "title": "实例二：测拘留",
+      "completeness": "confirmed_complete",
+      "source_ranges": [
+        [
+          60,
+          92
+        ]
+      ],
+      "source_selectors": [
+        {
+          "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+          "line_start": 60,
+          "line_end": 92,
+          "byte_start": 5778,
+          "byte_end": 9317,
+          "source_quote": "实例二：测拘留\n\n1995年12月14日上午10时，某公司姚某找到杜新会，说他同事张某被检察院拘留了，请预测一下后果如何，会不会被判刑?\n\n杜新会即按时间起局。干支历为乙亥年戊子月己卯日己巳时，阳1局，甲子旬，天蓬星为值符，落2宫，休门为值使，落6宫。\n\n九宫盘面（依原文转写，未重新排盘）\n┌──────────────────────────┬──────────────────────────┬──────────────────────────┐\n│ 巽四宫  八神：地         │ 离九宫  八神：天         │ 坤二宫  八神：符         │\n│ 门位：景丁               │ 门位：死癸               │ 门位：惊戊               │\n│ 星位：柱辛               │ 星位：心乙               │ 星位：蓬己               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 震三宫  八神：武         │ 中五宫                   │ 兑七宫  八神：蛇         │\n│ 门位：壬杜己             │ 中宫原字：壬             │ 门位：开丙               │\n│ 星位：芮庚               │                          │ 星位：任丁               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 艮八宫  八神：虎         │ 坎一宫  八神：合         │ 乾六宫  八神：阴         │\n│ 门位：伤乙               │ 门位：生辛               │ 门位：休庚               │\n│ 星位：英丙               │ 星位：辅戊               │ 星位：冲癸               │\n└──────────────────────────┴──────────────────────────┴──────────────────────────┘\n\n分析：\n\n(1)测同事，以月干戊为用神。月干戊落坤2宫，戊又主财物，临天蓬盗星，必因钱财问题被拘留，戊+己为“贵人入狱”,戊+壬为“青龙入天牢”,正是被拘留之象；上乘值符，说明他还是一个负责人；临惊门，正主官司惊恐之事。\n\n(2)测犯罪，又以甲午辛为罪人，辛落1宫，正逢地盘戊，戊主钱财，正为钱财之事，辛+戊为“困龙被伤”,主官司破财，屈抑安分守己吉，妄动遭祸。该人正因为妄动，违反经济纪律被拘留。但临天辅吉星，吉门生门，吉神六合；4宫地盘辛上又逢丁奇，不逢壬、癸天罗地网，所以断不会判刑；值符又为领导，与月干同宫，开门为法官，与月干落宫和甲午辛落宫相生，故必然被保释出来。\n\n(3)但月干戊临蓬星，必然要破财，天蓬星在子月正当旺相之时，坤2宫、惊门均主2数，土又主5数，故断必破财二万或二万五千元左右。\n\n(4)甲午辛下临之干为戊，子午相冲，必在戊子月放出。\n\n结果，12月29日即戊子月甲午日，张某向检察院交出两万五千元，被领导保释出来。\n\n"
+        }
+      ],
+      "family": {
+        "family_key": "shenqi-litigation-case-02-family",
+        "description": "实例二：测拘留：同一历史纠纷的原断、反馈、续断、结果与方法评论同组"
+      },
+      "events": [
+        {
+          "event_key": "litigation-case-02-event-1",
+          "chronology_status": "ordered",
+          "background": {
+            "initial_inquiry_as_written": "1995年12月14日上午10时，某公司姚某找到杜新会，说他同事张某被检察院拘留了，请预测一下后果如何，会不会被判刑?\n",
+            "source_confirmation": "user_attestation",
+            "whole_background_not_prediction_input": true
+          },
+          "prediction_input_policy": {
+            "mode": "first_forecast_only_conservative",
+            "contract": "source-stage-v1",
+            "unrestricted_background_withheld": true,
+            "unknown_explanations_withheld": true
+          },
+          "charts": [
+            {
+              "chart_key": "litigation-case-02-chart-1",
+              "source_lines": [
+                67,
+                79
+              ],
+              "source_or_engine": "original",
+              "casting_method": null,
+              "method_version": null,
+              "input_datetime": null,
+              "timezone": null,
+              "location": null,
+              "validation_status": "original_unparsed",
+              "payload": {
+                "chart_role": "source_original_nine_palace_grid",
+                "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                "raw_chart_text": "┌──────────────────────────┬──────────────────────────┬──────────────────────────┐\n│ 巽四宫  八神：地         │ 离九宫  八神：天         │ 坤二宫  八神：符         │\n│ 门位：景丁               │ 门位：死癸               │ 门位：惊戊               │\n│ 星位：柱辛               │ 星位：心乙               │ 星位：蓬己               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 震三宫  八神：武         │ 中五宫                   │ 兑七宫  八神：蛇         │\n│ 门位：壬杜己             │ 中宫原字：壬             │ 门位：开丙               │\n│ 星位：芮庚               │                          │ 星位：任丁               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 艮八宫  八神：虎         │ 坎一宫  八神：合         │ 乾六宫  八神：阴         │\n│ 门位：伤乙               │ 门位：生辛               │ 门位：休庚               │\n│ 星位：英丙               │ 星位：辅戊               │ 星位：冲癸               │\n└──────────────────────────┴──────────────────────────┴──────────────────────────┘\n",
+                "source_table_rows": [
+                  {
+                    "source_lines": [
+                      68,
+                      70
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 68,
+                      "line_end": 70,
+                      "byte_start": 6421,
+                      "byte_end": 6745,
+                      "source_quote": "│ 巽四宫  八神：地         │ 离九宫  八神：天         │ 坤二宫  八神：符         │\n│ 门位：景丁               │ 门位：死癸               │ 门位：惊戊               │\n│ 星位：柱辛               │ 星位：心乙               │ 星位：蓬己               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "巽四宫",
+                      "地",
+                      "景丁",
+                      "柱辛"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      68,
+                      70
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 68,
+                      "line_end": 70,
+                      "byte_start": 6421,
+                      "byte_end": 6745,
+                      "source_quote": "│ 巽四宫  八神：地         │ 离九宫  八神：天         │ 坤二宫  八神：符         │\n│ 门位：景丁               │ 门位：死癸               │ 门位：惊戊               │\n│ 星位：柱辛               │ 星位：心乙               │ 星位：蓬己               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "离九宫",
+                      "天",
+                      "死癸",
+                      "心乙"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      68,
+                      70
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 68,
+                      "line_end": 70,
+                      "byte_start": 6421,
+                      "byte_end": 6745,
+                      "source_quote": "│ 巽四宫  八神：地         │ 离九宫  八神：天         │ 坤二宫  八神：符         │\n│ 门位：景丁               │ 门位：死癸               │ 门位：惊戊               │\n│ 星位：柱辛               │ 星位：心乙               │ 星位：蓬己               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "坤二宫",
+                      "符",
+                      "惊戊",
+                      "蓬己"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      72,
+                      74
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 72,
+                      "line_end": 74,
+                      "byte_start": 6992,
+                      "byte_end": 7309,
+                      "source_quote": "│ 震三宫  八神：武         │ 中五宫                   │ 兑七宫  八神：蛇         │\n│ 门位：壬杜己             │ 中宫原字：壬             │ 门位：开丙               │\n│ 星位：芮庚               │                          │ 星位：任丁               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "震三宫",
+                      "武",
+                      "壬杜己",
+                      "芮庚"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      72,
+                      74
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 72,
+                      "line_end": 74,
+                      "byte_start": 6992,
+                      "byte_end": 7309,
+                      "source_quote": "│ 震三宫  八神：武         │ 中五宫                   │ 兑七宫  八神：蛇         │\n│ 门位：壬杜己             │ 中宫原字：壬             │ 门位：开丙               │\n│ 星位：芮庚               │                          │ 星位：任丁               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "中五宫",
+                      "—",
+                      "壬",
+                      "—"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      72,
+                      74
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 72,
+                      "line_end": 74,
+                      "byte_start": 6992,
+                      "byte_end": 7309,
+                      "source_quote": "│ 震三宫  八神：武         │ 中五宫                   │ 兑七宫  八神：蛇         │\n│ 门位：壬杜己             │ 中宫原字：壬             │ 门位：开丙               │\n│ 星位：芮庚               │                          │ 星位：任丁               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "兑七宫",
+                      "蛇",
+                      "开丙",
+                      "任丁"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      76,
+                      78
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 76,
+                      "line_end": 78,
+                      "byte_start": 7556,
+                      "byte_end": 7880,
+                      "source_quote": "│ 艮八宫  八神：虎         │ 坎一宫  八神：合         │ 乾六宫  八神：阴         │\n│ 门位：伤乙               │ 门位：生辛               │ 门位：休庚               │\n│ 星位：英丙               │ 星位：辅戊               │ 星位：冲癸               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "艮八宫",
+                      "虎",
+                      "伤乙",
+                      "英丙"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      76,
+                      78
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 76,
+                      "line_end": 78,
+                      "byte_start": 7556,
+                      "byte_end": 7880,
+                      "source_quote": "│ 艮八宫  八神：虎         │ 坎一宫  八神：合         │ 乾六宫  八神：阴         │\n│ 门位：伤乙               │ 门位：生辛               │ 门位：休庚               │\n│ 星位：英丙               │ 星位：辅戊               │ 星位：冲癸               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "坎一宫",
+                      "合",
+                      "生辛",
+                      "辅戊"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      76,
+                      78
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 76,
+                      "line_end": 78,
+                      "byte_start": 7556,
+                      "byte_end": 7880,
+                      "source_quote": "│ 艮八宫  八神：虎         │ 坎一宫  八神：合         │ 乾六宫  八神：阴         │\n│ 门位：伤乙               │ 门位：生辛               │ 门位：休庚               │\n│ 星位：英丙               │ 星位：辅戊               │ 星位：冲癸               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "乾六宫",
+                      "阴",
+                      "休庚",
+                      "冲癸"
+                    ]
+                  }
+                ],
+                "source_chart_metadata": {
+                  "casting_description": "杜新会即按时间起局。干支历为乙亥年戊子月己卯日己巳时，阳1局，甲子旬，天蓬星为值符，落2宫，休门为值使，落6宫。",
+                  "casting_basis_as_written": "inquiry_time"
+                },
+                "source_presentation_stage": "source_order",
+                "calendar_recomputed": false
+              }
+            }
+          ],
+          "records": [
+            {
+              "record_key": "litigation-case-02-line-62",
+              "sequence": 0,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                62,
+                62
+              ],
+              "text": "1995年12月14日上午10时，某公司姚某找到杜新会，说他同事张某被检察院拘留了，请预测一下后果如何，会不会被判刑?\n",
+              "chart_key": "litigation-case-02-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_inquiry",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 62,
+                  "line_end": 62,
+                  "byte_start": 5801,
+                  "byte_end": 5957,
+                  "source_quote": "1995年12月14日上午10时，某公司姚某找到杜新会，说他同事张某被检察院拘留了，请预测一下后果如何，会不会被判刑?\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-02-line-64",
+              "sequence": 1,
+              "kind": "dialogue",
+              "knowledge_phase": "unknown",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                64,
+                64
+              ],
+              "text": "杜新会即按时间起局。干支历为乙亥年戊子月己卯日己巳时，阳1局，甲子旬，天蓬星为值符，落2宫，休门为值使，落6宫。\n",
+              "chart_key": "litigation-case-02-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "source_narrative",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 64,
+                  "line_end": 64,
+                  "byte_start": 5958,
+                  "byte_end": 6121,
+                  "source_quote": "杜新会即按时间起局。干支历为乙亥年戊子月己卯日己巳时，阳1局，甲子旬，天蓬星为值符，落2宫，休门为值使，落6宫。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-02-line-83",
+              "sequence": 2,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                83,
+                83
+              ],
+              "text": "(1)测同事，以月干戊为用神。月干戊落坤2宫，戊又主财物，临天蓬盗星，必因钱财问题被拘留，戊+己为“贵人入狱”,戊+壬为“青龙入天牢”,正是被拘留之象；上乘值符，说明他还是一个负责人；临惊门，正主官司惊恐之事。\n",
+              "chart_key": "litigation-case-02-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 83,
+                  "line_end": 83,
+                  "byte_start": 8139,
+                  "byte_end": 8439,
+                  "source_quote": "(1)测同事，以月干戊为用神。月干戊落坤2宫，戊又主财物，临天蓬盗星，必因钱财问题被拘留，戊+己为“贵人入狱”,戊+壬为“青龙入天牢”,正是被拘留之象；上乘值符，说明他还是一个负责人；临惊门，正主官司惊恐之事。\n"
+                },
+                "original_step_number": "1",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-02-line-85",
+              "sequence": 3,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                85,
+                85
+              ],
+              "text": "(2)测犯罪，又以甲午辛为罪人，辛落1宫，正逢地盘戊，戊主钱财，正为钱财之事，辛+戊为“困龙被伤”,主官司破财，屈抑安分守己吉，妄动遭祸。该人正因为妄动，违反经济纪律被拘留。但临天辅吉星，吉门生门，吉神六合；4宫地盘辛上又逢丁奇，不逢壬、癸天罗地网，所以断不会判刑；值符又为领导，与月干同宫，开门为法官，与月干落宫和甲午辛落宫相生，故必然被保释出来。\n",
+              "chart_key": "litigation-case-02-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 85,
+                  "line_end": 85,
+                  "byte_start": 8440,
+                  "byte_end": 8952,
+                  "source_quote": "(2)测犯罪，又以甲午辛为罪人，辛落1宫，正逢地盘戊，戊主钱财，正为钱财之事，辛+戊为“困龙被伤”,主官司破财，屈抑安分守己吉，妄动遭祸。该人正因为妄动，违反经济纪律被拘留。但临天辅吉星，吉门生门，吉神六合；4宫地盘辛上又逢丁奇，不逢壬、癸天罗地网，所以断不会判刑；值符又为领导，与月干同宫，开门为法官，与月干落宫和甲午辛落宫相生，故必然被保释出来。\n"
+                },
+                "original_step_number": "2",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-02-line-87",
+              "sequence": 4,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                87,
+                87
+              ],
+              "text": "(3)但月干戊临蓬星，必然要破财，天蓬星在子月正当旺相之时，坤2宫、惊门均主2数，土又主5数，故断必破财二万或二万五千元左右。\n",
+              "chart_key": "litigation-case-02-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 87,
+                  "line_end": 87,
+                  "byte_start": 8953,
+                  "byte_end": 9131,
+                  "source_quote": "(3)但月干戊临蓬星，必然要破财，天蓬星在子月正当旺相之时，坤2宫、惊门均主2数，土又主5数，故断必破财二万或二万五千元左右。\n"
+                },
+                "original_step_number": "3",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-02-line-89",
+              "sequence": 5,
+              "kind": "timing",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                89,
+                89
+              ],
+              "text": "(4)甲午辛下临之干为戊，子午相冲，必在戊子月放出。\n",
+              "chart_key": "litigation-case-02-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 89,
+                  "line_end": 89,
+                  "byte_start": 9132,
+                  "byte_end": 9205,
+                  "source_quote": "(4)甲午辛下临之干为戊，子午相冲，必在戊子月放出。\n"
+                },
+                "original_step_number": "4",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-02-line-91",
+              "sequence": 6,
+              "kind": "outcome",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                91,
+                91
+              ],
+              "text": "结果，12月29日即戊子月甲午日，张某向检察院交出两万五千元，被领导保释出来。\n",
+              "chart_key": "litigation-case-02-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "reported_outcome",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 91,
+                  "line_end": 91,
+                  "byte_start": 9206,
+                  "byte_end": 9316,
+                  "source_quote": "结果，12月29日即戊子月甲午日，张某向检察院交出两万五千元，被领导保释出来。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            }
+          ],
+          "evidence_links": []
+        }
+      ]
+    },
+    {
+      "case_key": "litigation-case-03",
+      "title": "实例三：测房产纠纷",
+      "completeness": "confirmed_complete",
+      "source_ranges": [
+        [
+          93,
+          133
+        ]
+      ],
+      "source_selectors": [
+        {
+          "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+          "line_start": 93,
+          "line_end": 133,
+          "byte_start": 9317,
+          "byte_end": 13929,
+          "source_quote": "实例三：测房产纠纷\n\n国务院某部委下属一个公司，为房产与北京市一个区发生纠纷，该区房管部门向法院起诉此公司。此公司张老板多次打电话，找我和我会人员预测。根据奇门格局显示的信息，我一直劝他与对方调解解决，如果不服从调解，由法院判决，则对他不利。\n\n1996年12月11日上午9点10分，张老板又从北京打来电话，说：“明天(12日)下午法院出面调解，但对方要我付三十九万元房租，我不能接受，如果调不成，则要判决，判决又对我不利，我应该怎么办才好?”\n\n我当时正在上班，给张老板回电话说：“您等一下，我下午抽时间预测后再告诉您。”\n\n干支历为丙子年庚子月壬午日乙巳时，阴4局，甲辰旬，天英星为值符落5宫，寄2宫，景门为值使落8宫。\n\n九宫盘面（依原文转写，未重新排盘）\n┌──────────────────────────┬──────────────────────────┬──────────────────────────┐\n│ 巽四宫  八神：阴         │ 离九宫  八神：蛇         │ 坤二宫  八神：符         │\n│ 门位：惊己               │ 门位：开戊               │ 门位：休壬               │\n│ 星位：冲戊               │ 星位：辅壬               │ 星位：乙英庚             │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 震三宫  八神：合         │ 中五宫                   │ 兑七宫  八神：天         │\n│ 门位：死癸               │ 中宫原字：乙             │ 门位：乙生庚             │\n│ 星位：任己               │                          │ 星位：芮丁               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 艮八宫  八神：虎         │ 坎一宫  八神：武         │ 乾六宫  八神：地         │\n│ 门位：景辛               │ 门位：杜丙               │ 门位：伤丁               │\n│ 星位：蓬癸               │ 星位：心辛               │ 星位：柱丙               │\n└──────────────────────────┴──────────────────────────┴──────────────────────────┘\n\n分析：\n\n(1)以值符为原告，代表北京市某区房产部门，以天乙(值符落坤2宫地盘之星天芮星)为被告，代表张老板的公司。\n\n(2)值符落坤2宫生天乙所落兑7宫，原告也愿意调解解决纠纷。开门为法院落离9宫，生值符宫，克天乙宫，说明法院向原告，不向被告，如果判决，对被告不利。\n\n(3)甲辰旬中寅、卯空，景门、六合均逢空亡，说明虽然开门向原告，但原告所诉理由也不充分，证据不足。\n\n(4)甲子戊为钱财，临开门在9宫，生值符2宫，正符合原告索要三十九万元之数。被告临生门，为房屋，也为利息，在兑7宫，说明被告只想付十七万元左右。生门逢庚，庚为阻隔之神，又上乘九天，九天主远行，因此调解后可能得让张老板搬家，不让他再在这里办公。\n\n(5)开门不逢庚，法院不会立即判决。惊门为律师，在巽4宫，生开门，克原告，受被告之克。\n\n下午我抽时间预测后，于5点半给张老板打电话，告知预测信息，并建议他明天下午到法院调解时，一定要争取坐在室内的东南角，这样对他比较有利。\n\n事后，张老板打电话告诉：12月12日下午，他按照我的建议，一到法院，就先坐在了屋子的东南方位，结果调解比较顺利。对方开始仍坚持要三十九万元，经过法院调解，最后达成协议，“我只给原告十六万元，另外负责诉讼费六千元，加上诉讼期间其他开销，也就是十七万元左右”。“另外，关于房子，只给我留下两间，其余都得腾出。这两间又要价太高，一间一年五万元房租。我只好搬走了。”\n\n"
+        }
+      ],
+      "family": {
+        "family_key": "shenqi-litigation-case-03-family",
+        "description": "实例三：测房产纠纷：同一历史纠纷的原断、反馈、续断、结果与方法评论同组"
+      },
+      "events": [
+        {
+          "event_key": "litigation-case-03-event-1",
+          "chronology_status": "ordered",
+          "background": {
+            "initial_inquiry_as_written": "国务院某部委下属一个公司，为房产与北京市一个区发生纠纷，该区房管部门向法院起诉此公司。此公司张老板多次打电话，找我和我会人员预测。根据奇门格局显示的信息，我一直劝他与对方调解解决，如果不服从调解，由法院判决，则对他不利。\n",
+            "source_confirmation": "user_attestation",
+            "whole_background_not_prediction_input": true
+          },
+          "prediction_input_policy": {
+            "mode": "first_forecast_only_conservative",
+            "contract": "source-stage-v1",
+            "unrestricted_background_withheld": true,
+            "unknown_explanations_withheld": true
+          },
+          "charts": [
+            {
+              "chart_key": "litigation-case-03-chart-1",
+              "source_lines": [
+                104,
+                116
+              ],
+              "source_or_engine": "original",
+              "casting_method": null,
+              "method_version": null,
+              "input_datetime": null,
+              "timezone": null,
+              "location": null,
+              "validation_status": "original_unparsed",
+              "payload": {
+                "chart_role": "source_original_nine_palace_grid",
+                "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                "raw_chart_text": "┌──────────────────────────┬──────────────────────────┬──────────────────────────┐\n│ 巽四宫  八神：阴         │ 离九宫  八神：蛇         │ 坤二宫  八神：符         │\n│ 门位：惊己               │ 门位：开戊               │ 门位：休壬               │\n│ 星位：冲戊               │ 星位：辅壬               │ 星位：乙英庚             │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 震三宫  八神：合         │ 中五宫                   │ 兑七宫  八神：天         │\n│ 门位：死癸               │ 中宫原字：乙             │ 门位：乙生庚             │\n│ 星位：任己               │                          │ 星位：芮丁               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 艮八宫  八神：虎         │ 坎一宫  八神：武         │ 乾六宫  八神：地         │\n│ 门位：景辛               │ 门位：杜丙               │ 门位：伤丁               │\n│ 星位：蓬癸               │ 星位：心辛               │ 星位：柱丙               │\n└──────────────────────────┴──────────────────────────┴──────────────────────────┘\n",
+                "source_table_rows": [
+                  {
+                    "source_lines": [
+                      105,
+                      107
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 105,
+                      "line_end": 107,
+                      "byte_start": 10498,
+                      "byte_end": 10823,
+                      "source_quote": "│ 巽四宫  八神：阴         │ 离九宫  八神：蛇         │ 坤二宫  八神：符         │\n│ 门位：惊己               │ 门位：开戊               │ 门位：休壬               │\n│ 星位：冲戊               │ 星位：辅壬               │ 星位：乙英庚             │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "巽四宫",
+                      "阴",
+                      "惊己",
+                      "冲戊"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      105,
+                      107
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 105,
+                      "line_end": 107,
+                      "byte_start": 10498,
+                      "byte_end": 10823,
+                      "source_quote": "│ 巽四宫  八神：阴         │ 离九宫  八神：蛇         │ 坤二宫  八神：符         │\n│ 门位：惊己               │ 门位：开戊               │ 门位：休壬               │\n│ 星位：冲戊               │ 星位：辅壬               │ 星位：乙英庚             │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "离九宫",
+                      "蛇",
+                      "开戊",
+                      "辅壬"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      105,
+                      107
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 105,
+                      "line_end": 107,
+                      "byte_start": 10498,
+                      "byte_end": 10823,
+                      "source_quote": "│ 巽四宫  八神：阴         │ 离九宫  八神：蛇         │ 坤二宫  八神：符         │\n│ 门位：惊己               │ 门位：开戊               │ 门位：休壬               │\n│ 星位：冲戊               │ 星位：辅壬               │ 星位：乙英庚             │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "坤二宫",
+                      "符",
+                      "休壬",
+                      "乙英庚"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      109,
+                      111
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 109,
+                      "line_end": 111,
+                      "byte_start": 11070,
+                      "byte_end": 11387,
+                      "source_quote": "│ 震三宫  八神：合         │ 中五宫                   │ 兑七宫  八神：天         │\n│ 门位：死癸               │ 中宫原字：乙             │ 门位：乙生庚             │\n│ 星位：任己               │                          │ 星位：芮丁               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "震三宫",
+                      "合",
+                      "死癸",
+                      "任己"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      109,
+                      111
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 109,
+                      "line_end": 111,
+                      "byte_start": 11070,
+                      "byte_end": 11387,
+                      "source_quote": "│ 震三宫  八神：合         │ 中五宫                   │ 兑七宫  八神：天         │\n│ 门位：死癸               │ 中宫原字：乙             │ 门位：乙生庚             │\n│ 星位：任己               │                          │ 星位：芮丁               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "中五宫",
+                      "—",
+                      "乙",
+                      "—"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      109,
+                      111
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 109,
+                      "line_end": 111,
+                      "byte_start": 11070,
+                      "byte_end": 11387,
+                      "source_quote": "│ 震三宫  八神：合         │ 中五宫                   │ 兑七宫  八神：天         │\n│ 门位：死癸               │ 中宫原字：乙             │ 门位：乙生庚             │\n│ 星位：任己               │                          │ 星位：芮丁               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "兑七宫",
+                      "天",
+                      "乙生庚",
+                      "芮丁"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      113,
+                      115
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 113,
+                      "line_end": 115,
+                      "byte_start": 11634,
+                      "byte_end": 11958,
+                      "source_quote": "│ 艮八宫  八神：虎         │ 坎一宫  八神：武         │ 乾六宫  八神：地         │\n│ 门位：景辛               │ 门位：杜丙               │ 门位：伤丁               │\n│ 星位：蓬癸               │ 星位：心辛               │ 星位：柱丙               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "艮八宫",
+                      "虎",
+                      "景辛",
+                      "蓬癸"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      113,
+                      115
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 113,
+                      "line_end": 115,
+                      "byte_start": 11634,
+                      "byte_end": 11958,
+                      "source_quote": "│ 艮八宫  八神：虎         │ 坎一宫  八神：武         │ 乾六宫  八神：地         │\n│ 门位：景辛               │ 门位：杜丙               │ 门位：伤丁               │\n│ 星位：蓬癸               │ 星位：心辛               │ 星位：柱丙               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "坎一宫",
+                      "武",
+                      "杜丙",
+                      "心辛"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      113,
+                      115
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 113,
+                      "line_end": 115,
+                      "byte_start": 11634,
+                      "byte_end": 11958,
+                      "source_quote": "│ 艮八宫  八神：虎         │ 坎一宫  八神：武         │ 乾六宫  八神：地         │\n│ 门位：景辛               │ 门位：杜丙               │ 门位：伤丁               │\n│ 星位：蓬癸               │ 星位：心辛               │ 星位：柱丙               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "乾六宫",
+                      "地",
+                      "伤丁",
+                      "柱丙"
+                    ]
+                  }
+                ],
+                "source_chart_metadata": {
+                  "casting_description": "干支历为丙子年庚子月壬午日乙巳时，阴4局，甲辰旬，天英星为值符落5宫，寄2宫，景门为值使落8宫。",
+                  "casting_basis_as_written": "inquiry_time"
+                },
+                "source_presentation_stage": "source_order",
+                "calendar_recomputed": false
+              }
+            }
+          ],
+          "records": [
+            {
+              "record_key": "litigation-case-03-line-95",
+              "sequence": 0,
+              "kind": "dialogue",
+              "knowledge_phase": "unknown",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                95,
+                95
+              ],
+              "text": "国务院某部委下属一个公司，为房产与北京市一个区发生纠纷，该区房管部门向法院起诉此公司。此公司张老板多次打电话，找我和我会人员预测。根据奇门格局显示的信息，我一直劝他与对方调解解决，如果不服从调解，由法院判决，则对他不利。\n",
+              "chart_key": "litigation-case-03-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "source_narrative",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 95,
+                  "line_end": 95,
+                  "byte_start": 9346,
+                  "byte_end": 9677,
+                  "source_quote": "国务院某部委下属一个公司，为房产与北京市一个区发生纠纷，该区房管部门向法院起诉此公司。此公司张老板多次打电话，找我和我会人员预测。根据奇门格局显示的信息，我一直劝他与对方调解解决，如果不服从调解，由法院判决，则对他不利。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-03-line-97",
+              "sequence": 1,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                97,
+                97
+              ],
+              "text": "1996年12月11日上午9点10分，张老板又从北京打来电话，说：“明天(12日)下午法院出面调解，但对方要我付三十九万元房租，我不能接受，如果调不成，则要判决，判决又对我不利，我应该怎么办才好?”\n",
+              "chart_key": "litigation-case-03-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_inquiry",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 97,
+                  "line_end": 97,
+                  "byte_start": 9678,
+                  "byte_end": 9944,
+                  "source_quote": "1996年12月11日上午9点10分，张老板又从北京打来电话，说：“明天(12日)下午法院出面调解，但对方要我付三十九万元房租，我不能接受，如果调不成，则要判决，判决又对我不利，我应该怎么办才好?”\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-03-line-99",
+              "sequence": 2,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                99,
+                99
+              ],
+              "text": "我当时正在上班，给张老板回电话说：“您等一下，我下午抽时间预测后再告诉您。”\n",
+              "chart_key": "litigation-case-03-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_inquiry",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 99,
+                  "line_end": 99,
+                  "byte_start": 9945,
+                  "byte_end": 10060,
+                  "source_quote": "我当时正在上班，给张老板回电话说：“您等一下，我下午抽时间预测后再告诉您。”\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-03-line-101",
+              "sequence": 3,
+              "kind": "dialogue",
+              "knowledge_phase": "unknown",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                101,
+                101
+              ],
+              "text": "干支历为丙子年庚子月壬午日乙巳时，阴4局，甲辰旬，天英星为值符落5宫，寄2宫，景门为值使落8宫。\n",
+              "chart_key": "litigation-case-03-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "source_narrative",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 101,
+                  "line_end": 101,
+                  "byte_start": 10061,
+                  "byte_end": 10198,
+                  "source_quote": "干支历为丙子年庚子月壬午日乙巳时，阴4局，甲辰旬，天英星为值符落5宫，寄2宫，景门为值使落8宫。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-03-line-120",
+              "sequence": 4,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                120,
+                120
+              ],
+              "text": "(1)以值符为原告，代表北京市某区房产部门，以天乙(值符落坤2宫地盘之星天芮星)为被告，代表张老板的公司。\n",
+              "chart_key": "litigation-case-03-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 120,
+                  "line_end": 120,
+                  "byte_start": 12217,
+                  "byte_end": 12365,
+                  "source_quote": "(1)以值符为原告，代表北京市某区房产部门，以天乙(值符落坤2宫地盘之星天芮星)为被告，代表张老板的公司。\n"
+                },
+                "original_step_number": "1",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-03-line-122",
+              "sequence": 5,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                122,
+                122
+              ],
+              "text": "(2)值符落坤2宫生天乙所落兑7宫，原告也愿意调解解决纠纷。开门为法院落离9宫，生值符宫，克天乙宫，说明法院向原告，不向被告，如果判决，对被告不利。\n",
+              "chart_key": "litigation-case-03-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 122,
+                  "line_end": 122,
+                  "byte_start": 12366,
+                  "byte_end": 12577,
+                  "source_quote": "(2)值符落坤2宫生天乙所落兑7宫，原告也愿意调解解决纠纷。开门为法院落离9宫，生值符宫，克天乙宫，说明法院向原告，不向被告，如果判决，对被告不利。\n"
+                },
+                "original_step_number": "2",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-03-line-124",
+              "sequence": 6,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                124,
+                124
+              ],
+              "text": "(3)甲辰旬中寅、卯空，景门、六合均逢空亡，说明虽然开门向原告，但原告所诉理由也不充分，证据不足。\n",
+              "chart_key": "litigation-case-03-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 124,
+                  "line_end": 124,
+                  "byte_start": 12578,
+                  "byte_end": 12720,
+                  "source_quote": "(3)甲辰旬中寅、卯空，景门、六合均逢空亡，说明虽然开门向原告，但原告所诉理由也不充分，证据不足。\n"
+                },
+                "original_step_number": "3",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-03-line-126",
+              "sequence": 7,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                126,
+                126
+              ],
+              "text": "(4)甲子戊为钱财，临开门在9宫，生值符2宫，正符合原告索要三十九万元之数。被告临生门，为房屋，也为利息，在兑7宫，说明被告只想付十七万元左右。生门逢庚，庚为阻隔之神，又上乘九天，九天主远行，因此调解后可能得让张老板搬家，不让他再在这里办公。\n",
+              "chart_key": "litigation-case-03-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 126,
+                  "line_end": 126,
+                  "byte_start": 12721,
+                  "byte_end": 13073,
+                  "source_quote": "(4)甲子戊为钱财，临开门在9宫，生值符2宫，正符合原告索要三十九万元之数。被告临生门，为房屋，也为利息，在兑7宫，说明被告只想付十七万元左右。生门逢庚，庚为阻隔之神，又上乘九天，九天主远行，因此调解后可能得让张老板搬家，不让他再在这里办公。\n"
+                },
+                "original_step_number": "4",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-03-line-128",
+              "sequence": 8,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                128,
+                128
+              ],
+              "text": "(5)开门不逢庚，法院不会立即判决。惊门为律师，在巽4宫，生开门，克原告，受被告之克。\n",
+              "chart_key": "litigation-case-03-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 128,
+                  "line_end": 128,
+                  "byte_start": 13074,
+                  "byte_end": 13196,
+                  "source_quote": "(5)开门不逢庚，法院不会立即判决。惊门为律师，在巽4宫，生开门，克原告，受被告之克。\n"
+                },
+                "original_step_number": "5",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-03-line-130",
+              "sequence": 9,
+              "kind": "prediction",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                130,
+                130
+              ],
+              "text": "下午我抽时间预测后，于5点半给张老板打电话，告知预测信息，并建议他明天下午到法院调解时，一定要争取坐在室内的东南角，这样对他比较有利。\n",
+              "chart_key": "litigation-case-03-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "original_forecast",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 130,
+                  "line_end": 130,
+                  "byte_start": 13197,
+                  "byte_end": 13397,
+                  "source_quote": "下午我抽时间预测后，于5点半给张老板打电话，告知预测信息，并建议他明天下午到法院调解时，一定要争取坐在室内的东南角，这样对他比较有利。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-03-line-132",
+              "sequence": 10,
+              "kind": "outcome",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                132,
+                132
+              ],
+              "text": "事后，张老板打电话告诉：12月12日下午，他按照我的建议，一到法院，就先坐在了屋子的东南方位，结果调解比较顺利。对方开始仍坚持要三十九万元，经过法院调解，最后达成协议，“我只给原告十六万元，另外负责诉讼费六千元，加上诉讼期间其他开销，也就是十七万元左右”。“另外，关于房子，只给我留下两间，其余都得腾出。这两间又要价太高，一间一年五万元房租。我只好搬走了。”\n",
+              "chart_key": "litigation-case-03-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "reported_outcome",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 132,
+                  "line_end": 132,
+                  "byte_start": 13398,
+                  "byte_end": 13928,
+                  "source_quote": "事后，张老板打电话告诉：12月12日下午，他按照我的建议，一到法院，就先坐在了屋子的东南方位，结果调解比较顺利。对方开始仍坚持要三十九万元，经过法院调解，最后达成协议，“我只给原告十六万元，另外负责诉讼费六千元，加上诉讼期间其他开销，也就是十七万元左右”。“另外，关于房子，只给我留下两间，其余都得腾出。这两间又要价太高，一间一年五万元房租。我只好搬走了。”\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            }
+          ],
+          "evidence_links": []
+        }
+      ]
+    },
+    {
+      "case_key": "litigation-case-04",
+      "title": "实例四：测判刑",
+      "completeness": "confirmed_complete",
+      "source_ranges": [
+        [
+          134,
+          178
+        ]
+      ],
+      "source_selectors": [
+        {
+          "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+          "line_start": 134,
+          "line_end": 178,
+          "byte_start": 13929,
+          "byte_end": 18335,
+          "source_quote": "实例四：测判刑\n\n外地在石市打工的一男一女，1996年11月23日将房东周岁男孩抱走，11月24日追回。一男一女先后被拘留逮捕，房东以拐骗儿童罪将这对男女告上法庭。\n\n1997年1月下旬即将开庭审理。1月22日晚上10点，女犯罪嫌疑人的亲属找我预测，问会不会判刑，是判实刑还是缓刑?\n\n我即按问时起局：\n\n丙子年辛丑月甲子日乙亥时，阳3局，甲戌旬，天辅星为值符落2宫，杜门为值使落5宫，寄2宫。\n\n九宫盘面（依原文转写，未重新排盘）\n┌──────────────────────────┬──────────────────────────┬──────────────────────────┐\n│ 巽四宫  八神：地         │ 离九宫  八神：天         │ 坤二宫  八神：符         │\n│ 门位：生癸               │ 门位：伤戊               │ 门位：杜己               │\n│ 星位：任己               │ 星位：冲丁               │ 星位：辅乙               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 震三宫  八神：武         │ 中五宫                   │ 兑七宫  八神：蛇         │\n│ 门位：休丙               │ 中宫原字：庚             │ 门位：景丁               │\n│ 星位：蓬戊               │                          │ 星位：英壬               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 艮八宫  八神：虎         │ 坎一宫  八神：合         │ 乾六宫  八神：阴         │\n│ 门位：开辛               │ 门位：惊壬               │ 门位：庚死乙             │\n│ 星位：心癸               │ 星位：柱丙               │ 星位：芮辛               │\n└──────────────────────────┴──────────────────────────┴──────────────────────────┘\n\n分析：\n\n(1)以值符为原告，落坤2宫；以天乙为被告，落乾6宫。原告生被告，原告又逢空亡，说明原告仍然有调解解决之意。\n\n(2)天乙天芮星为被告落乾6宫，临乙、庚，正是一男一女，下临辛为天狱，乙在6宫又为入墓，正符合现被羁押在看守所的状况。但乙+辛为龙逃走格，以辛为罪人上乘乙奇，也为能被释放之象。\n\n(3)开门为法官，在艮8宫为入墓。古籍云“开门入墓，问官糊涂”,结合此案情，法官未必糊涂，只是在认罪量刑上拿不准。因为被告陈述：自己家没有男孩，因为喜欢房东男孩，所以才起了抱回家自养的动机，被房东发现后又及时送回。原告却认为被告是想拐卖儿童，但又缺乏证据。开门落宫生被告宫，与原告比和又对冲，总的看对被告有利。\n\n(4)惊门为律师，落坎一宫，受原告和开门之克，但与被告相生，说明律师也对被告有利。\n\n(5)开门虽上乘白虎，但不逢庚，故而恐怕不会当庭立判，还有调解的可能。\n\n据此，我说：“法院开庭审理，也不一定当庭宣判，只要答应向对方赔偿些经济损失，就可能判缓刑。”\n\n结果：1月29日上午法院开庭公开审理此案，当众进行了法庭调查，双方律师辩论甚为激烈，最后宣布休庭。原告诉状中除控告被告刑事罪以外还附有民事诉状，要求被告赔偿原告经济及精神损失费二万元。\n\n1月30日法院出面为双方调解民事诉状部分。经过工作，双方达成协议，被告赔偿原告经济及精神损失费一万元，男女两名犯罪嫌疑人各出五千元。\n\n民事诉讼解决后，2月3日下午法院判决男女两名犯罪嫌疑人：判刑二年，缓期三年执行。第二天，男女二人即被从看守所放出回家。\n\n"
+        }
+      ],
+      "family": {
+        "family_key": "shenqi-litigation-case-04-family",
+        "description": "实例四：测判刑：同一历史纠纷的原断、反馈、续断、结果与方法评论同组"
+      },
+      "events": [
+        {
+          "event_key": "litigation-case-04-event-1",
+          "chronology_status": "ordered",
+          "background": {
+            "initial_inquiry_as_written": "外地在石市打工的一男一女，1996年11月23日将房东周岁男孩抱走，11月24日追回。一男一女先后被拘留逮捕，房东以拐骗儿童罪将这对男女告上法庭。\n",
+            "source_confirmation": "user_attestation",
+            "whole_background_not_prediction_input": true
+          },
+          "prediction_input_policy": {
+            "mode": "first_forecast_only_conservative",
+            "contract": "source-stage-v1",
+            "unrestricted_background_withheld": true,
+            "unknown_explanations_withheld": true
+          },
+          "charts": [
+            {
+              "chart_key": "litigation-case-04-chart-1",
+              "source_lines": [
+                145,
+                157
+              ],
+              "source_or_engine": "original",
+              "casting_method": null,
+              "method_version": null,
+              "input_datetime": null,
+              "timezone": null,
+              "location": null,
+              "validation_status": "original_unparsed",
+              "payload": {
+                "chart_role": "source_original_nine_palace_grid",
+                "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                "raw_chart_text": "┌──────────────────────────┬──────────────────────────┬──────────────────────────┐\n│ 巽四宫  八神：地         │ 离九宫  八神：天         │ 坤二宫  八神：符         │\n│ 门位：生癸               │ 门位：伤戊               │ 门位：杜己               │\n│ 星位：任己               │ 星位：冲丁               │ 星位：辅乙               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 震三宫  八神：武         │ 中五宫                   │ 兑七宫  八神：蛇         │\n│ 门位：休丙               │ 中宫原字：庚             │ 门位：景丁               │\n│ 星位：蓬戊               │                          │ 星位：英壬               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 艮八宫  八神：虎         │ 坎一宫  八神：合         │ 乾六宫  八神：阴         │\n│ 门位：开辛               │ 门位：惊壬               │ 门位：庚死乙             │\n│ 星位：心癸               │ 星位：柱丙               │ 星位：芮辛               │\n└──────────────────────────┴──────────────────────────┴──────────────────────────┘\n",
+                "source_table_rows": [
+                  {
+                    "source_lines": [
+                      146,
+                      148
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 146,
+                      "line_end": 148,
+                      "byte_start": 14751,
+                      "byte_end": 15075,
+                      "source_quote": "│ 巽四宫  八神：地         │ 离九宫  八神：天         │ 坤二宫  八神：符         │\n│ 门位：生癸               │ 门位：伤戊               │ 门位：杜己               │\n│ 星位：任己               │ 星位：冲丁               │ 星位：辅乙               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "巽四宫",
+                      "地",
+                      "生癸",
+                      "任己"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      146,
+                      148
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 146,
+                      "line_end": 148,
+                      "byte_start": 14751,
+                      "byte_end": 15075,
+                      "source_quote": "│ 巽四宫  八神：地         │ 离九宫  八神：天         │ 坤二宫  八神：符         │\n│ 门位：生癸               │ 门位：伤戊               │ 门位：杜己               │\n│ 星位：任己               │ 星位：冲丁               │ 星位：辅乙               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "离九宫",
+                      "天",
+                      "伤戊",
+                      "冲丁"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      146,
+                      148
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 146,
+                      "line_end": 148,
+                      "byte_start": 14751,
+                      "byte_end": 15075,
+                      "source_quote": "│ 巽四宫  八神：地         │ 离九宫  八神：天         │ 坤二宫  八神：符         │\n│ 门位：生癸               │ 门位：伤戊               │ 门位：杜己               │\n│ 星位：任己               │ 星位：冲丁               │ 星位：辅乙               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "坤二宫",
+                      "符",
+                      "杜己",
+                      "辅乙"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      150,
+                      152
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 150,
+                      "line_end": 152,
+                      "byte_start": 15322,
+                      "byte_end": 15638,
+                      "source_quote": "│ 震三宫  八神：武         │ 中五宫                   │ 兑七宫  八神：蛇         │\n│ 门位：休丙               │ 中宫原字：庚             │ 门位：景丁               │\n│ 星位：蓬戊               │                          │ 星位：英壬               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "震三宫",
+                      "武",
+                      "休丙",
+                      "蓬戊"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      150,
+                      152
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 150,
+                      "line_end": 152,
+                      "byte_start": 15322,
+                      "byte_end": 15638,
+                      "source_quote": "│ 震三宫  八神：武         │ 中五宫                   │ 兑七宫  八神：蛇         │\n│ 门位：休丙               │ 中宫原字：庚             │ 门位：景丁               │\n│ 星位：蓬戊               │                          │ 星位：英壬               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "中五宫",
+                      "—",
+                      "庚",
+                      "—"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      150,
+                      152
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 150,
+                      "line_end": 152,
+                      "byte_start": 15322,
+                      "byte_end": 15638,
+                      "source_quote": "│ 震三宫  八神：武         │ 中五宫                   │ 兑七宫  八神：蛇         │\n│ 门位：休丙               │ 中宫原字：庚             │ 门位：景丁               │\n│ 星位：蓬戊               │                          │ 星位：英壬               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "兑七宫",
+                      "蛇",
+                      "景丁",
+                      "英壬"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      154,
+                      156
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 154,
+                      "line_end": 156,
+                      "byte_start": 15885,
+                      "byte_end": 16210,
+                      "source_quote": "│ 艮八宫  八神：虎         │ 坎一宫  八神：合         │ 乾六宫  八神：阴         │\n│ 门位：开辛               │ 门位：惊壬               │ 门位：庚死乙             │\n│ 星位：心癸               │ 星位：柱丙               │ 星位：芮辛               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "艮八宫",
+                      "虎",
+                      "开辛",
+                      "心癸"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      154,
+                      156
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 154,
+                      "line_end": 156,
+                      "byte_start": 15885,
+                      "byte_end": 16210,
+                      "source_quote": "│ 艮八宫  八神：虎         │ 坎一宫  八神：合         │ 乾六宫  八神：阴         │\n│ 门位：开辛               │ 门位：惊壬               │ 门位：庚死乙             │\n│ 星位：心癸               │ 星位：柱丙               │ 星位：芮辛               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "坎一宫",
+                      "合",
+                      "惊壬",
+                      "柱丙"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      154,
+                      156
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 154,
+                      "line_end": 156,
+                      "byte_start": 15885,
+                      "byte_end": 16210,
+                      "source_quote": "│ 艮八宫  八神：虎         │ 坎一宫  八神：合         │ 乾六宫  八神：阴         │\n│ 门位：开辛               │ 门位：惊壬               │ 门位：庚死乙             │\n│ 星位：心癸               │ 星位：柱丙               │ 星位：芮辛               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "乾六宫",
+                      "阴",
+                      "庚死乙",
+                      "芮辛"
+                    ]
+                  }
+                ],
+                "source_chart_metadata": {
+                  "casting_description": "丙子年辛丑月甲子日乙亥时，阳3局，甲戌旬，天辅星为值符落2宫，杜门为值使落5宫，寄2宫。",
+                  "casting_basis_as_written": "inquiry_time"
+                },
+                "source_presentation_stage": "source_order",
+                "calendar_recomputed": false
+              }
+            }
+          ],
+          "records": [
+            {
+              "record_key": "litigation-case-04-line-136",
+              "sequence": 0,
+              "kind": "dialogue",
+              "knowledge_phase": "unknown",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                136,
+                136
+              ],
+              "text": "外地在石市打工的一男一女，1996年11月23日将房东周岁男孩抱走，11月24日追回。一男一女先后被拘留逮捕，房东以拐骗儿童罪将这对男女告上法庭。\n",
+              "chart_key": "litigation-case-04-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "source_narrative",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 136,
+                  "line_end": 136,
+                  "byte_start": 13952,
+                  "byte_end": 14148,
+                  "source_quote": "外地在石市打工的一男一女，1996年11月23日将房东周岁男孩抱走，11月24日追回。一男一女先后被拘留逮捕，房东以拐骗儿童罪将这对男女告上法庭。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-04-line-138",
+              "sequence": 1,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                138,
+                138
+              ],
+              "text": "1997年1月下旬即将开庭审理。1月22日晚上10点，女犯罪嫌疑人的亲属找我预测，问会不会判刑，是判实刑还是缓刑?\n",
+              "chart_key": "litigation-case-04-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_inquiry",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 138,
+                  "line_end": 138,
+                  "byte_start": 14149,
+                  "byte_end": 14299,
+                  "source_quote": "1997年1月下旬即将开庭审理。1月22日晚上10点，女犯罪嫌疑人的亲属找我预测，问会不会判刑，是判实刑还是缓刑?\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-04-line-140",
+              "sequence": 2,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                140,
+                140
+              ],
+              "text": "我即按问时起局：\n",
+              "chart_key": "litigation-case-04-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_inquiry",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 140,
+                  "line_end": 140,
+                  "byte_start": 14300,
+                  "byte_end": 14325,
+                  "source_quote": "我即按问时起局：\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-04-line-142",
+              "sequence": 3,
+              "kind": "dialogue",
+              "knowledge_phase": "unknown",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                142,
+                142
+              ],
+              "text": "丙子年辛丑月甲子日乙亥时，阳3局，甲戌旬，天辅星为值符落2宫，杜门为值使落5宫，寄2宫。\n",
+              "chart_key": "litigation-case-04-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "source_narrative",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 142,
+                  "line_end": 142,
+                  "byte_start": 14326,
+                  "byte_end": 14451,
+                  "source_quote": "丙子年辛丑月甲子日乙亥时，阳3局，甲戌旬，天辅星为值符落2宫，杜门为值使落5宫，寄2宫。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-04-line-161",
+              "sequence": 4,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                161,
+                161
+              ],
+              "text": "(1)以值符为原告，落坤2宫；以天乙为被告，落乾6宫。原告生被告，原告又逢空亡，说明原告仍然有调解解决之意。\n",
+              "chart_key": "litigation-case-04-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 161,
+                  "line_end": 161,
+                  "byte_start": 16469,
+                  "byte_end": 16622,
+                  "source_quote": "(1)以值符为原告，落坤2宫；以天乙为被告，落乾6宫。原告生被告，原告又逢空亡，说明原告仍然有调解解决之意。\n"
+                },
+                "original_step_number": "1",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-04-line-163",
+              "sequence": 5,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                163,
+                163
+              ],
+              "text": "(2)天乙天芮星为被告落乾6宫，临乙、庚，正是一男一女，下临辛为天狱，乙在6宫又为入墓，正符合现被羁押在看守所的状况。但乙+辛为龙逃走格，以辛为罪人上乘乙奇，也为能被释放之象。\n",
+              "chart_key": "litigation-case-04-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 163,
+                  "line_end": 163,
+                  "byte_start": 16623,
+                  "byte_end": 16876,
+                  "source_quote": "(2)天乙天芮星为被告落乾6宫，临乙、庚，正是一男一女，下临辛为天狱，乙在6宫又为入墓，正符合现被羁押在看守所的状况。但乙+辛为龙逃走格，以辛为罪人上乘乙奇，也为能被释放之象。\n"
+                },
+                "original_step_number": "2",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-04-line-165",
+              "sequence": 6,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                165,
+                165
+              ],
+              "text": "(3)开门为法官，在艮8宫为入墓。古籍云“开门入墓，问官糊涂”,结合此案情，法官未必糊涂，只是在认罪量刑上拿不准。因为被告陈述：自己家没有男孩，因为喜欢房东男孩，所以才起了抱回家自养的动机，被房东发现后又及时送回。原告却认为被告是想拐卖儿童，但又缺乏证据。开门落宫生被告宫，与原告比和又对冲，总的看对被告有利。\n",
+              "chart_key": "litigation-case-04-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 165,
+                  "line_end": 165,
+                  "byte_start": 16877,
+                  "byte_end": 17333,
+                  "source_quote": "(3)开门为法官，在艮8宫为入墓。古籍云“开门入墓，问官糊涂”,结合此案情，法官未必糊涂，只是在认罪量刑上拿不准。因为被告陈述：自己家没有男孩，因为喜欢房东男孩，所以才起了抱回家自养的动机，被房东发现后又及时送回。原告却认为被告是想拐卖儿童，但又缺乏证据。开门落宫生被告宫，与原告比和又对冲，总的看对被告有利。\n"
+                },
+                "original_step_number": "3",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-04-line-167",
+              "sequence": 7,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                167,
+                167
+              ],
+              "text": "(4)惊门为律师，落坎一宫，受原告和开门之克，但与被告相生，说明律师也对被告有利。\n",
+              "chart_key": "litigation-case-04-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 167,
+                  "line_end": 167,
+                  "byte_start": 17334,
+                  "byte_end": 17452,
+                  "source_quote": "(4)惊门为律师，落坎一宫，受原告和开门之克，但与被告相生，说明律师也对被告有利。\n"
+                },
+                "original_step_number": "4",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-04-line-169",
+              "sequence": 8,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                169,
+                169
+              ],
+              "text": "(5)开门虽上乘白虎，但不逢庚，故而恐怕不会当庭立判，还有调解的可能。\n",
+              "chart_key": "litigation-case-04-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 169,
+                  "line_end": 169,
+                  "byte_start": 17453,
+                  "byte_end": 17553,
+                  "source_quote": "(5)开门虽上乘白虎，但不逢庚，故而恐怕不会当庭立判，还有调解的可能。\n"
+                },
+                "original_step_number": "5",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-04-line-171",
+              "sequence": 9,
+              "kind": "prediction",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                171,
+                171
+              ],
+              "text": "据此，我说：“法院开庭审理，也不一定当庭宣判，只要答应向对方赔偿些经济损失，就可能判缓刑。”\n",
+              "chart_key": "litigation-case-04-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "original_forecast",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 171,
+                  "line_end": 171,
+                  "byte_start": 17554,
+                  "byte_end": 17693,
+                  "source_quote": "据此，我说：“法院开庭审理，也不一定当庭宣判，只要答应向对方赔偿些经济损失，就可能判缓刑。”\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-04-line-173",
+              "sequence": 10,
+              "kind": "outcome",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                173,
+                173
+              ],
+              "text": "结果：1月29日上午法院开庭公开审理此案，当众进行了法庭调查，双方律师辩论甚为激烈，最后宣布休庭。原告诉状中除控告被告刑事罪以外还附有民事诉状，要求被告赔偿原告经济及精神损失费二万元。\n",
+              "chart_key": "litigation-case-04-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "reported_outcome",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 173,
+                  "line_end": 173,
+                  "byte_start": 17694,
+                  "byte_end": 17965,
+                  "source_quote": "结果：1月29日上午法院开庭公开审理此案，当众进行了法庭调查，双方律师辩论甚为激烈，最后宣布休庭。原告诉状中除控告被告刑事罪以外还附有民事诉状，要求被告赔偿原告经济及精神损失费二万元。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-04-line-175",
+              "sequence": 11,
+              "kind": "outcome",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                175,
+                175
+              ],
+              "text": "1月30日法院出面为双方调解民事诉状部分。经过工作，双方达成协议，被告赔偿原告经济及精神损失费一万元，男女两名犯罪嫌疑人各出五千元。\n",
+              "chart_key": "litigation-case-04-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "reported_outcome",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 175,
+                  "line_end": 175,
+                  "byte_start": 17966,
+                  "byte_end": 18159,
+                  "source_quote": "1月30日法院出面为双方调解民事诉状部分。经过工作，双方达成协议，被告赔偿原告经济及精神损失费一万元，男女两名犯罪嫌疑人各出五千元。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-04-line-177",
+              "sequence": 12,
+              "kind": "outcome",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                177,
+                177
+              ],
+              "text": "民事诉讼解决后，2月3日下午法院判决男女两名犯罪嫌疑人：判刑二年，缓期三年执行。第二天，男女二人即被从看守所放出回家。\n",
+              "chart_key": "litigation-case-04-chart-1",
+              "speaker": "原书叙述（我未具名）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "reported_outcome",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 177,
+                  "line_end": 177,
+                  "byte_start": 18160,
+                  "byte_end": 18334,
+                  "source_quote": "民事诉讼解决后，2月3日下午法院判决男女两名犯罪嫌疑人：判刑二年，缓期三年执行。第二天，男女二人即被从看守所放出回家。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            }
+          ],
+          "evidence_links": []
+        }
+      ]
+    },
+    {
+      "case_key": "litigation-case-05",
+      "title": "实例五：四川学员李文达测官讼例",
+      "completeness": "confirmed_complete",
+      "source_ranges": [
+        [
+          179,
+          223
+        ]
+      ],
+      "source_selectors": [
+        {
+          "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+          "line_start": 179,
+          "line_end": 223,
+          "byte_start": 18335,
+          "byte_end": 22499,
+          "source_quote": "实例五：四川学员李文达测官讼例\n\n1997年4月25日凌晨1点30分，乐山市某装饰公司赵经理给李文达打电话，求测目前吉凶，有灾否?\n\n李文达即按问时起局：\n\n丁丑年甲辰月丁酉日辛丑时，阳5局，甲午旬，值符天任星落8宫伏吟，值使生门落6宫。\n\n九宫盘面（依原文转写，未重新排盘）\n┌──────────────────────────┬──────────────────────────┬──────────────────────────┐\n│ 巽四宫  八神：阴         │ 离九宫  八神：合         │ 坤二宫  八神：虎         │\n│ 门位：死乙               │ 门位：惊壬               │ 门位：戊开丁             │\n│ 星位：辅乙               │ 星位：英壬               │ 星位：戊芮丁             │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 震三宫  八神：蛇         │ 中五宫                   │ 兑七宫  八神：武         │\n│ 门位：景丙               │ 中宫原字：戊             │ 门位：休庚               │\n│ 星位：冲丙               │                          │ 星位：柱庚               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 艮八宫  八神：符         │ 坎一宫  八神：天         │ 乾六宫  八神：地         │\n│ 门位：杜辛               │ 门位：伤癸               │ 门位：生己               │\n│ 星位：任辛               │ 星位：蓬癸               │ 星位：心己               │\n└──────────────────────────┴──────────────────────────┴──────────────────────────┘\n\n分析：\n\n(1)以日干为求测之人，日干丁落坤2宫伏吟，丁+丁星奇入太阴；临甲子戊，开+死主官司惊扰，先忧后喜；上乘白虎，主凶杀打斗。\n\n(2)时干为所问之事，时干辛落8宫伏吟，午午自刑，杜加辛主打伤人，词讼，男人小口凶。\n\n(3)甲子戊为钱财，落坤2宫，与日干同宫。\n\n据此，李文达说：“你是不是因二万元左右的资金与别人发生了打斗事件，此案将由法庭裁决?”\n\n赵经理说：“算得太准了!我确实因为二万二千元左右的工程欠款去收账，对方多次推托没钱，拒不还账。这次去催，双方言语较硬，因此发生争吵，结果双方打起架来。我现在正是带着伤给你打电话呢?你看我向法院起诉能赢吗?”\n\n(4)景门为诉状，落3宫临丙奇。乙奇为被告，落4宫临死门，又逢空亡。日干为赵经理，临开门，与法官同宫比和。\n\n据此，李文达对赵经理说：“此案对你有利，对方必输无疑。”\n\n结果：5月2日赵经理打来电话：“4月29日法院开庭裁决，双方医药费各负其责，二万二千元欠款全部付清收回了。”\n\n张志春按：李文达断此官司，以乙奇为被告，显然不对。因为，如果以乙奇为被告，落巽4宫，则克值符原告8宫；乙奇克开门宫，开门宫比和对冲值符，这么一来，原告怎么还会必赢无疑呢?又有古籍以值使门为被告，从此例看也显然不对。值使生门落乾6宫，既受开门宫之生，又受值符宫之生，被告怎么还能必输无疑呢?\n\n只有以值符所落宫地盘之星为天乙为被告，才比较准确。此例则天任星为被告，原告被告同宫比和，开门与8宫比和对冲，所以公平判决：打斗双方医药费自负，欠款还清。\n\n"
+        }
+      ],
+      "family": {
+        "family_key": "shenqi-litigation-case-05-family",
+        "description": "实例五：四川学员李文达测官讼例：同一历史纠纷的原断、反馈、续断、结果与方法评论同组"
+      },
+      "events": [
+        {
+          "event_key": "litigation-case-05-event-1",
+          "chronology_status": "ordered",
+          "background": {
+            "initial_inquiry_as_written": "1997年4月25日凌晨1点30分，乐山市某装饰公司赵经理给李文达打电话，求测目前吉凶，有灾否?\n",
+            "source_confirmation": "user_attestation",
+            "whole_background_not_prediction_input": true
+          },
+          "prediction_input_policy": {
+            "mode": "first_forecast_only_conservative",
+            "contract": "source-stage-v1",
+            "unrestricted_background_withheld": true,
+            "unknown_explanations_withheld": true
+          },
+          "charts": [
+            {
+              "chart_key": "litigation-case-05-chart-1",
+              "source_lines": [
+                188,
+                200
+              ],
+              "source_or_engine": "original",
+              "casting_method": null,
+              "method_version": null,
+              "input_datetime": null,
+              "timezone": null,
+              "location": null,
+              "validation_status": "original_unparsed",
+              "payload": {
+                "chart_role": "source_original_nine_palace_grid",
+                "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                "raw_chart_text": "┌──────────────────────────┬──────────────────────────┬──────────────────────────┐\n│ 巽四宫  八神：阴         │ 离九宫  八神：合         │ 坤二宫  八神：虎         │\n│ 门位：死乙               │ 门位：惊壬               │ 门位：戊开丁             │\n│ 星位：辅乙               │ 星位：英壬               │ 星位：戊芮丁             │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 震三宫  八神：蛇         │ 中五宫                   │ 兑七宫  八神：武         │\n│ 门位：景丙               │ 中宫原字：戊             │ 门位：休庚               │\n│ 星位：冲丙               │                          │ 星位：柱庚               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 艮八宫  八神：符         │ 坎一宫  八神：天         │ 乾六宫  八神：地         │\n│ 门位：杜辛               │ 门位：伤癸               │ 门位：生己               │\n│ 星位：任辛               │ 星位：蓬癸               │ 星位：心己               │\n└──────────────────────────┴──────────────────────────┴──────────────────────────┘\n",
+                "source_table_rows": [
+                  {
+                    "source_lines": [
+                      189,
+                      191
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 189,
+                      "line_end": 191,
+                      "byte_start": 18953,
+                      "byte_end": 19279,
+                      "source_quote": "│ 巽四宫  八神：阴         │ 离九宫  八神：合         │ 坤二宫  八神：虎         │\n│ 门位：死乙               │ 门位：惊壬               │ 门位：戊开丁             │\n│ 星位：辅乙               │ 星位：英壬               │ 星位：戊芮丁             │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "巽四宫",
+                      "阴",
+                      "死乙",
+                      "辅乙"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      189,
+                      191
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 189,
+                      "line_end": 191,
+                      "byte_start": 18953,
+                      "byte_end": 19279,
+                      "source_quote": "│ 巽四宫  八神：阴         │ 离九宫  八神：合         │ 坤二宫  八神：虎         │\n│ 门位：死乙               │ 门位：惊壬               │ 门位：戊开丁             │\n│ 星位：辅乙               │ 星位：英壬               │ 星位：戊芮丁             │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "离九宫",
+                      "合",
+                      "惊壬",
+                      "英壬"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      189,
+                      191
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 189,
+                      "line_end": 191,
+                      "byte_start": 18953,
+                      "byte_end": 19279,
+                      "source_quote": "│ 巽四宫  八神：阴         │ 离九宫  八神：合         │ 坤二宫  八神：虎         │\n│ 门位：死乙               │ 门位：惊壬               │ 门位：戊开丁             │\n│ 星位：辅乙               │ 星位：英壬               │ 星位：戊芮丁             │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "坤二宫",
+                      "虎",
+                      "戊开丁",
+                      "戊芮丁"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      193,
+                      195
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 193,
+                      "line_end": 195,
+                      "byte_start": 19526,
+                      "byte_end": 19842,
+                      "source_quote": "│ 震三宫  八神：蛇         │ 中五宫                   │ 兑七宫  八神：武         │\n│ 门位：景丙               │ 中宫原字：戊             │ 门位：休庚               │\n│ 星位：冲丙               │                          │ 星位：柱庚               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "震三宫",
+                      "蛇",
+                      "景丙",
+                      "冲丙"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      193,
+                      195
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 193,
+                      "line_end": 195,
+                      "byte_start": 19526,
+                      "byte_end": 19842,
+                      "source_quote": "│ 震三宫  八神：蛇         │ 中五宫                   │ 兑七宫  八神：武         │\n│ 门位：景丙               │ 中宫原字：戊             │ 门位：休庚               │\n│ 星位：冲丙               │                          │ 星位：柱庚               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "中五宫",
+                      "—",
+                      "戊",
+                      "—"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      193,
+                      195
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 193,
+                      "line_end": 195,
+                      "byte_start": 19526,
+                      "byte_end": 19842,
+                      "source_quote": "│ 震三宫  八神：蛇         │ 中五宫                   │ 兑七宫  八神：武         │\n│ 门位：景丙               │ 中宫原字：戊             │ 门位：休庚               │\n│ 星位：冲丙               │                          │ 星位：柱庚               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "兑七宫",
+                      "武",
+                      "休庚",
+                      "柱庚"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      197,
+                      199
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 197,
+                      "line_end": 199,
+                      "byte_start": 20089,
+                      "byte_end": 20413,
+                      "source_quote": "│ 艮八宫  八神：符         │ 坎一宫  八神：天         │ 乾六宫  八神：地         │\n│ 门位：杜辛               │ 门位：伤癸               │ 门位：生己               │\n│ 星位：任辛               │ 星位：蓬癸               │ 星位：心己               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "艮八宫",
+                      "符",
+                      "杜辛",
+                      "任辛"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      197,
+                      199
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 197,
+                      "line_end": 199,
+                      "byte_start": 20089,
+                      "byte_end": 20413,
+                      "source_quote": "│ 艮八宫  八神：符         │ 坎一宫  八神：天         │ 乾六宫  八神：地         │\n│ 门位：杜辛               │ 门位：伤癸               │ 门位：生己               │\n│ 星位：任辛               │ 星位：蓬癸               │ 星位：心己               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "坎一宫",
+                      "天",
+                      "伤癸",
+                      "蓬癸"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      197,
+                      199
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 197,
+                      "line_end": 199,
+                      "byte_start": 20089,
+                      "byte_end": 20413,
+                      "source_quote": "│ 艮八宫  八神：符         │ 坎一宫  八神：天         │ 乾六宫  八神：地         │\n│ 门位：杜辛               │ 门位：伤癸               │ 门位：生己               │\n│ 星位：任辛               │ 星位：蓬癸               │ 星位：心己               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "乾六宫",
+                      "地",
+                      "生己",
+                      "心己"
+                    ]
+                  }
+                ],
+                "source_chart_metadata": {
+                  "casting_description": "丁丑年甲辰月丁酉日辛丑时，阳5局，甲午旬，值符天任星落8宫伏吟，值使生门落6宫。",
+                  "casting_basis_as_written": "inquiry_time"
+                },
+                "source_presentation_stage": "source_order",
+                "calendar_recomputed": false
+              }
+            }
+          ],
+          "records": [
+            {
+              "record_key": "litigation-case-05-line-181",
+              "sequence": 0,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                181,
+                181
+              ],
+              "text": "1997年4月25日凌晨1点30分，乐山市某装饰公司赵经理给李文达打电话，求测目前吉凶，有灾否?\n",
+              "chart_key": "litigation-case-05-chart-1",
+              "speaker": "李文达/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_inquiry",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 181,
+                  "line_end": 181,
+                  "byte_start": 18382,
+                  "byte_end": 18505,
+                  "source_quote": "1997年4月25日凌晨1点30分，乐山市某装饰公司赵经理给李文达打电话，求测目前吉凶，有灾否?\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-05-line-183",
+              "sequence": 1,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                183,
+                183
+              ],
+              "text": "李文达即按问时起局：\n",
+              "chart_key": "litigation-case-05-chart-1",
+              "speaker": "李文达/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_inquiry",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 183,
+                  "line_end": 183,
+                  "byte_start": 18506,
+                  "byte_end": 18537,
+                  "source_quote": "李文达即按问时起局：\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-05-line-185",
+              "sequence": 2,
+              "kind": "dialogue",
+              "knowledge_phase": "unknown",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                185,
+                185
+              ],
+              "text": "丁丑年甲辰月丁酉日辛丑时，阳5局，甲午旬，值符天任星落8宫伏吟，值使生门落6宫。\n",
+              "chart_key": "litigation-case-05-chart-1",
+              "speaker": "李文达/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "source_narrative",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 185,
+                  "line_end": 185,
+                  "byte_start": 18538,
+                  "byte_end": 18653,
+                  "source_quote": "丁丑年甲辰月丁酉日辛丑时，阳5局，甲午旬，值符天任星落8宫伏吟，值使生门落6宫。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-05-line-204",
+              "sequence": 3,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                204,
+                204
+              ],
+              "text": "(1)以日干为求测之人，日干丁落坤2宫伏吟，丁+丁星奇入太阴；临甲子戊，开+死主官司惊扰，先忧后喜；上乘白虎，主凶杀打斗。\n",
+              "chart_key": "litigation-case-05-chart-1",
+              "speaker": "李文达/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 204,
+                  "line_end": 204,
+                  "byte_start": 20672,
+                  "byte_end": 20844,
+                  "source_quote": "(1)以日干为求测之人，日干丁落坤2宫伏吟，丁+丁星奇入太阴；临甲子戊，开+死主官司惊扰，先忧后喜；上乘白虎，主凶杀打斗。\n"
+                },
+                "original_step_number": "1",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-05-line-206",
+              "sequence": 4,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                206,
+                206
+              ],
+              "text": "(2)时干为所问之事，时干辛落8宫伏吟，午午自刑，杜加辛主打伤人，词讼，男人小口凶。\n",
+              "chart_key": "litigation-case-05-chart-1",
+              "speaker": "李文达/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 206,
+                  "line_end": 206,
+                  "byte_start": 20845,
+                  "byte_end": 20964,
+                  "source_quote": "(2)时干为所问之事，时干辛落8宫伏吟，午午自刑，杜加辛主打伤人，词讼，男人小口凶。\n"
+                },
+                "original_step_number": "2",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-05-line-208",
+              "sequence": 5,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                208,
+                208
+              ],
+              "text": "(3)甲子戊为钱财，落坤2宫，与日干同宫。\n",
+              "chart_key": "litigation-case-05-chart-1",
+              "speaker": "李文达/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_analysis",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 208,
+                  "line_end": 208,
+                  "byte_start": 20965,
+                  "byte_end": 21021,
+                  "source_quote": "(3)甲子戊为钱财，落坤2宫，与日干同宫。\n"
+                },
+                "original_step_number": "3",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-05-line-210",
+              "sequence": 6,
+              "kind": "prediction",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                210,
+                210
+              ],
+              "text": "据此，李文达说：“你是不是因二万元左右的资金与别人发生了打斗事件，此案将由法庭裁决?”\n",
+              "chart_key": "litigation-case-05-chart-1",
+              "speaker": "李文达/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "original_forecast",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 210,
+                  "line_end": 210,
+                  "byte_start": 21022,
+                  "byte_end": 21150,
+                  "source_quote": "据此，李文达说：“你是不是因二万元左右的资金与别人发生了打斗事件，此案将由法庭裁决?”\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-05-line-212",
+              "sequence": 7,
+              "kind": "feedback",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                212,
+                212
+              ],
+              "text": "赵经理说：“算得太准了!我确实因为二万二千元左右的工程欠款去收账，对方多次推托没钱，拒不还账。这次去催，双方言语较硬，因此发生争吵，结果双方打起架来。我现在正是带着伤给你打电话呢?你看我向法院起诉能赢吗?”\n",
+              "chart_key": "litigation-case-05-chart-1",
+              "speaker": "赵经理",
+              "reported_at": null,
+              "payload": {
+                "record_role": "facts_or_reactions_revealed_after_initial_forecast",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 212,
+                  "line_end": 212,
+                  "byte_start": 21151,
+                  "byte_end": 21455,
+                  "source_quote": "赵经理说：“算得太准了!我确实因为二万二千元左右的工程欠款去收账，对方多次推托没钱，拒不还账。这次去催，双方言语较硬，因此发生争吵，结果双方打起架来。我现在正是带着伤给你打电话呢?你看我向法院起诉能赢吗?”\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-05-line-214",
+              "sequence": 8,
+              "kind": "author_reasoning",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                214,
+                214
+              ],
+              "text": "(4)景门为诉状，落3宫临丙奇。乙奇为被告，落4宫临死门，又逢空亡。日干为赵经理，临开门，与法官同宫比和。\n",
+              "chart_key": "litigation-case-05-chart-1",
+              "speaker": "李文达/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "continuation_after_injury_and_debt_feedback",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 214,
+                  "line_end": 214,
+                  "byte_start": 21456,
+                  "byte_end": 21606,
+                  "source_quote": "(4)景门为诉状，落3宫临丙奇。乙奇为被告，落4宫临死门，又逢空亡。日干为赵经理，临开门，与法官同宫比和。\n"
+                },
+                "original_step_number": "4",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "known_feedback_record_keys": [
+                  "litigation-case-05-line-212"
+                ]
+              }
+            },
+            {
+              "record_key": "litigation-case-05-line-216",
+              "sequence": 9,
+              "kind": "prediction",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                216,
+                216
+              ],
+              "text": "据此，李文达对赵经理说：“此案对你有利，对方必输无疑。”\n",
+              "chart_key": "litigation-case-05-chart-1",
+              "speaker": "李文达/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "continuation_after_injury_and_debt_feedback",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 216,
+                  "line_end": 216,
+                  "byte_start": 21607,
+                  "byte_end": 21692,
+                  "source_quote": "据此，李文达对赵经理说：“此案对你有利，对方必输无疑。”\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "known_feedback_record_keys": [
+                  "litigation-case-05-line-212"
+                ]
+              }
+            },
+            {
+              "record_key": "litigation-case-05-line-218",
+              "sequence": 10,
+              "kind": "outcome",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                218,
+                218
+              ],
+              "text": "结果：5月2日赵经理打来电话：“4月29日法院开庭裁决，双方医药费各负其责，二万二千元欠款全部付清收回了。”\n",
+              "chart_key": "litigation-case-05-chart-1",
+              "speaker": "李文达/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "reported_outcome",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 218,
+                  "line_end": 218,
+                  "byte_start": 21693,
+                  "byte_end": 21846,
+                  "source_quote": "结果：5月2日赵经理打来电话：“4月29日法院开庭裁决，双方医药费各负其责，二万二千元欠款全部付清收回了。”\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-05-line-220",
+              "sequence": 11,
+              "kind": "author_reasoning",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                220,
+                220
+              ],
+              "text": "张志春按：李文达断此官司，以乙奇为被告，显然不对。因为，如果以乙奇为被告，落巽4宫，则克值符原告8宫；乙奇克开门宫，开门宫比和对冲值符，这么一来，原告怎么还会必赢无疑呢?又有古籍以值使门为被告，从此例看也显然不对。值使生门落乾6宫，既受开门宫之生，又受值符宫之生，被告怎么还能必输无疑呢?\n",
+              "chart_key": "litigation-case-05-chart-1",
+              "speaker": "张志春（按语）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "posthoc_role_method_critique",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 220,
+                  "line_end": 220,
+                  "byte_start": 21847,
+                  "byte_end": 22270,
+                  "source_quote": "张志春按：李文达断此官司，以乙奇为被告，显然不对。因为，如果以乙奇为被告，落巽4宫，则克值符原告8宫；乙奇克开门宫，开门宫比和对冲值符，这么一来，原告怎么还会必赢无疑呢?又有古籍以值使门为被告，从此例看也显然不对。值使生门落乾6宫，既受开门宫之生，又受值符宫之生，被告怎么还能必输无疑呢?\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "source_opinion_not_engine_validation": true,
+                "original_method_not_rewritten": true
+              }
+            },
+            {
+              "record_key": "litigation-case-05-line-222",
+              "sequence": 12,
+              "kind": "author_reasoning",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                222,
+                222
+              ],
+              "text": "只有以值符所落宫地盘之星为天乙为被告，才比较准确。此例则天任星为被告，原告被告同宫比和，开门与8宫比和对冲，所以公平判决：打斗双方医药费自负，欠款还清。\n",
+              "chart_key": "litigation-case-05-chart-1",
+              "speaker": "张志春（按语）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "posthoc_role_method_critique",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 222,
+                  "line_end": 222,
+                  "byte_start": 22271,
+                  "byte_end": 22498,
+                  "source_quote": "只有以值符所落宫地盘之星为天乙为被告，才比较准确。此例则天任星为被告，原告被告同宫比和，开门与8宫比和对冲，所以公平判决：打斗双方医药费自负，欠款还清。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "source_opinion_not_engine_validation": true,
+                "original_method_not_rewritten": true
+              }
+            }
+          ],
+          "evidence_links": []
+        }
+      ]
+    },
+    {
+      "case_key": "litigation-case-06",
+      "title": "实例六：杜新会测劳动纠纷案",
+      "completeness": "confirmed_complete",
+      "source_ranges": [
+        [
+          224,
+          267
+        ]
+      ],
+      "source_selectors": [
+        {
+          "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+          "line_start": 224,
+          "line_end": 267,
+          "byte_start": 22499,
+          "byte_end": 30547,
+          "source_quote": "实例六：杜新会测劳动纠纷案\n\n1997年11月10日18时30分，杜下班刚进家，便见到朋友老李在客厅坐着，气色不太好。老李是某大工厂研究所的高级工程师。\n\n李说：“我有点打官司的事，请你给预测一下。”杜简单地问了几句，得知李是原告，被告是他所在工厂的厂长。便拿出笔记本，起好局，对李说：“你是原告，你胜诉，法官倾向你；被告不占理，却气势嚣张，叫嚷得很凶，但最终要败诉；律师很狡猾，他在某些事上有所担心，你小心点。你这是怎么回事，咱们经常在一起，怎么就没听说过你有官司事呢?”\n\n老李说：“打官司的事我谁也没说过，唉!别提了，工厂突然给了我一个处分。是这么回事，我一个亲戚在国外和郊区一个公司有笔生意，去年公司要到国外去考察，我亲戚就让这家公司顺便帮我也一起办理出国护照，出去看看，钱由我亲戚出。这个公司就给我登记了一个副经理职务，并于1996年7月24日出了国。出国前，我向我们所长请了假，所长给我出具了政审材料，厂党委组织部长也给开了同意出国的干部政审信，我从国外回来后又补办了请假手续。谁料到，事隔一年后，也就是1997年7月份，厂里突然贴出一个通告，给了我一个行政记过处分，降两级工资。我气得够呛，觉得这事不公平，凭什么事先不跟我通个气，给处分也得有个理由呀，不能说给就给了。\n\n“于是我就去找所长，所长说这是厂里处分的，他不知道。我又去找厂长，厂长说：‘我们就这么处分了，你不服你就上告吧。’我一气之下，到市工会请了律师，写了个诉状到市劳动仲裁委员会把厂长给告了。这老百姓告当官的，那哪行呢。厂长说：‘打，打到底，一定要打赢，组织人员加班加点整材料。'好家伙，真是泰山压顶，满城风雨，让我喘不过气来。另外，厂里好几千人也不明白真相，都睁眼看着我呢。10月28号开了庭，厂劳资处长代表厂里说我私自出国，请假无效，又说我搞第二职业，更厉害的是给我扣了个大帽子，说我干扰工厂的工作秩序。在法庭上我也申诉了我的理由，提供了证据材料。可到现在也没结果，我也想过了，若仲裁错了，我就告到法院，反正闹到这一步，我也豁出去了。杜老师，现在是关键时候，所以你一定要帮我好好测测，我能打赢吗?下一步该怎么办?\"老李在叙述中，由于情绪过分激动，脸涨得黑紫，端着茶杯的手也不停地颤抖，杜受他影响，同时也出于同情，便不由得也气从心中来，猛地增加了一股责任感、义务感，觉得自己是研究奇门遁甲的，而研究的目的也无非是用于实践，使其发扬光大，造福人类，如果不能做到这一点，还研究它做什么!于是杜细观格局，悉心分析，向老李指出：第一，官司肯定能打赢，第二，你虽能打赢，但格局利于主，应为主，从策略上讲，现在你不主动出击为宜，要等着他们来主动找你，同时你做事要谦和，见好就收，只要给撤销处分，就别到法院告了。\n\n老李说：“有你预测我心里更不怕了。”杜送走李，不一会儿，他又折了回来说：“杜老师，你给我爱人打个电话，把预测的情况给她说一下，今天她硬叫我来找你预测的，她特信你。”杜照办了。\n\n结果事情的发展和预测的一模一样。厂里经过咨询和研究感到，他们的做法不符合劳动法，再打下去，厂里必败诉，就让所长和组织部长做老李的工作。只要撤诉，处分撤销，就补发老李被扣的两千多元工资，诉讼费也由厂里承担。老李依我说的，见好就收，答应撤诉。\n\n事后，老李说：预测以后那一阵子，我索性就照你说的，等他们主动来找我。果然，过了没多久，他们天天找我说好话，求我撤诉。12月27号撤诉那天，厂里派了最高级的轿车接我去劳动仲裁委员会，我提的条件厂里全答应了，连我的内退和爱人长期没有解决的工伤问题也给解决了，真痛快。厂长气得很，因为所长给了我假，他没如实汇报，把所长的职也给撤了；组织部长给我开了政审证明，他也怕担责任，让他写了检查；劳资处长处分我，一不找我谈话核实情况，二不让我在处分决定上签字，明知处分我不符合事实，却硬去打官司，也写了检查。真是整来整去，反倒整了他们自己，对我一点损害也没有。也多亏了你的预测，既稳定了我的情绪，增强了我的信心，又指导了我的实践，以后有事还得找你测。\n\n1997年11月10日18时30分。\n\n丁丑年辛亥月丙辰日丁酉时，阴9局，甲午旬，天心星值符，开门值使。\n\n九宫盘面（依原文转写，未重新排盘）\n┌──────────────────────────┬──────────────────────────┬──────────────────────────┐\n│ 巽四宫  八神：天         │ 离九宫  八神：地         │ 坤二宫  八神：武         │\n│ 门位：休乙               │ 门位：生己               │ 门位：伤丁               │\n│ 星位：蓬癸               │ 星位：任戊               │ 星位：冲丙               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 震三宫  八神：符         │ 中五宫                   │ 兑七宫  八神：虎         │\n│ 门位：开辛               │ 中宫原字：壬             │ 门位：杜癸               │\n│ 星位：心丁               │                          │ 星位：辅庚               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 艮八宫  八神：蛇         │ 坎一宫  八神：阴         │ 乾六宫  八神：合         │\n│ 门位：惊庚               │ 门位：丙死壬             │ 门位：景戊               │\n│ 星位：柱己               │ 星位：芮乙               │ 星位：英辛               │\n└──────────────────────────┴──────────────────────────┴──────────────────────────┘\n\n分析：\n\n(1)为什么说官司能打赢?\n\n值符为原告，开门为仲裁机关，同落震3官属木，天乙天冲星为被告落坤二宫属土，宫中天盘为丁奇，丁奇为年干为太岁，与地盘壬相合为淫荡之和(五宫中的壬也寄于坤二宫),丁下临丙，丙为天威很凶；上乘玄武主无理，宫中又逢伤门和天冲星，主被告无理搅三分，气势逼人，争讼很凶，只可惜被告坤土受仲裁机关和原告震木之克，原告必胜诉。\n\n(2)为什么要采取被动的策略?\n\n奇门预测后，应能指导行为，采取什么策略有利于我。时干丁奇主事体，天盘丁奇为客，地盘丁奇为主，现在是主来克客；日干丙为李师傅落坎一宫，天盘丙为客，地盘丙为主，也是主来克客。从时干、日干上看，均利主，因此应选择为主的策略来指导自己的行动。为主则采取不主动去找厂领导，也不再上告，而是要等待对方上门来找我，则对我有利。\n"
+        }
+      ],
+      "family": {
+        "family_key": "shenqi-litigation-case-06-family",
+        "description": "实例六：杜新会测劳动纠纷案：同一历史纠纷的原断、反馈、续断、结果与方法评论同组"
+      },
+      "events": [
+        {
+          "event_key": "litigation-case-06-event-1",
+          "chronology_status": "ordered",
+          "background": {
+            "initial_inquiry_as_written": "1997年11月10日18时30分，杜下班刚进家，便见到朋友老李在客厅坐着，气色不太好。老李是某大工厂研究所的高级工程师。\n",
+            "source_confirmation": "user_attestation",
+            "whole_background_not_prediction_input": true
+          },
+          "prediction_input_policy": {
+            "mode": "first_forecast_only_conservative",
+            "contract": "source-stage-v1",
+            "unrestricted_background_withheld": true,
+            "unknown_explanations_withheld": true
+          },
+          "charts": [
+            {
+              "chart_key": "litigation-case-06-chart-1",
+              "source_lines": [
+                245,
+                257
+              ],
+              "source_or_engine": "original",
+              "casting_method": null,
+              "method_version": null,
+              "input_datetime": null,
+              "timezone": null,
+              "location": null,
+              "validation_status": "original_unparsed",
+              "payload": {
+                "chart_role": "same_historical_chart_printed_after_outcome",
+                "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                "raw_chart_text": "┌──────────────────────────┬──────────────────────────┬──────────────────────────┐\n│ 巽四宫  八神：天         │ 离九宫  八神：地         │ 坤二宫  八神：武         │\n│ 门位：休乙               │ 门位：生己               │ 门位：伤丁               │\n│ 星位：蓬癸               │ 星位：任戊               │ 星位：冲丙               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 震三宫  八神：符         │ 中五宫                   │ 兑七宫  八神：虎         │\n│ 门位：开辛               │ 中宫原字：壬             │ 门位：杜癸               │\n│ 星位：心丁               │                          │ 星位：辅庚               │\n├──────────────────────────┼──────────────────────────┼──────────────────────────┤\n│ 艮八宫  八神：蛇         │ 坎一宫  八神：阴         │ 乾六宫  八神：合         │\n│ 门位：惊庚               │ 门位：丙死壬             │ 门位：景戊               │\n│ 星位：柱己               │ 星位：芮乙               │ 星位：英辛               │\n└──────────────────────────┴──────────────────────────┴──────────────────────────┘\n",
+                "source_table_rows": [
+                  {
+                    "source_lines": [
+                      246,
+                      248
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 246,
+                      "line_end": 248,
+                      "byte_start": 27829,
+                      "byte_end": 28153,
+                      "source_quote": "│ 巽四宫  八神：天         │ 离九宫  八神：地         │ 坤二宫  八神：武         │\n│ 门位：休乙               │ 门位：生己               │ 门位：伤丁               │\n│ 星位：蓬癸               │ 星位：任戊               │ 星位：冲丙               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "巽四宫",
+                      "天",
+                      "休乙",
+                      "蓬癸"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      246,
+                      248
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 246,
+                      "line_end": 248,
+                      "byte_start": 27829,
+                      "byte_end": 28153,
+                      "source_quote": "│ 巽四宫  八神：天         │ 离九宫  八神：地         │ 坤二宫  八神：武         │\n│ 门位：休乙               │ 门位：生己               │ 门位：伤丁               │\n│ 星位：蓬癸               │ 星位：任戊               │ 星位：冲丙               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "离九宫",
+                      "地",
+                      "生己",
+                      "任戊"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      246,
+                      248
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 246,
+                      "line_end": 248,
+                      "byte_start": 27829,
+                      "byte_end": 28153,
+                      "source_quote": "│ 巽四宫  八神：天         │ 离九宫  八神：地         │ 坤二宫  八神：武         │\n│ 门位：休乙               │ 门位：生己               │ 门位：伤丁               │\n│ 星位：蓬癸               │ 星位：任戊               │ 星位：冲丙               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "坤二宫",
+                      "武",
+                      "伤丁",
+                      "冲丙"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      250,
+                      252
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 250,
+                      "line_end": 252,
+                      "byte_start": 28400,
+                      "byte_end": 28716,
+                      "source_quote": "│ 震三宫  八神：符         │ 中五宫                   │ 兑七宫  八神：虎         │\n│ 门位：开辛               │ 中宫原字：壬             │ 门位：杜癸               │\n│ 星位：心丁               │                          │ 星位：辅庚               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "震三宫",
+                      "符",
+                      "开辛",
+                      "心丁"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      250,
+                      252
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 250,
+                      "line_end": 252,
+                      "byte_start": 28400,
+                      "byte_end": 28716,
+                      "source_quote": "│ 震三宫  八神：符         │ 中五宫                   │ 兑七宫  八神：虎         │\n│ 门位：开辛               │ 中宫原字：壬             │ 门位：杜癸               │\n│ 星位：心丁               │                          │ 星位：辅庚               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "中五宫",
+                      "—",
+                      "壬",
+                      "—"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      250,
+                      252
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 250,
+                      "line_end": 252,
+                      "byte_start": 28400,
+                      "byte_end": 28716,
+                      "source_quote": "│ 震三宫  八神：符         │ 中五宫                   │ 兑七宫  八神：虎         │\n│ 门位：开辛               │ 中宫原字：壬             │ 门位：杜癸               │\n│ 星位：心丁               │                          │ 星位：辅庚               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "兑七宫",
+                      "虎",
+                      "杜癸",
+                      "辅庚"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      254,
+                      256
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 254,
+                      "line_end": 256,
+                      "byte_start": 28963,
+                      "byte_end": 29288,
+                      "source_quote": "│ 艮八宫  八神：蛇         │ 坎一宫  八神：阴         │ 乾六宫  八神：合         │\n│ 门位：惊庚               │ 门位：丙死壬             │ 门位：景戊               │\n│ 星位：柱己               │ 星位：芮乙               │ 星位：英辛               │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "艮八宫",
+                      "蛇",
+                      "惊庚",
+                      "柱己"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      254,
+                      256
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 254,
+                      "line_end": 256,
+                      "byte_start": 28963,
+                      "byte_end": 29288,
+                      "source_quote": "│ 艮八宫  八神：蛇         │ 坎一宫  八神：阴         │ 乾六宫  八神：合         │\n│ 门位：惊庚               │ 门位：丙死壬             │ 门位：景戊               │\n│ 星位：柱己               │ 星位：芮乙               │ 星位：英辛               │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "坎一宫",
+                      "阴",
+                      "丙死壬",
+                      "芮乙"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      254,
+                      256
+                    ],
+                    "source_selector": {
+                      "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                      "line_start": 254,
+                      "line_end": 256,
+                      "byte_start": 28963,
+                      "byte_end": 29288,
+                      "source_quote": "│ 艮八宫  八神：蛇         │ 坎一宫  八神：阴         │ 乾六宫  八神：合         │\n│ 门位：惊庚               │ 门位：丙死壬             │ 门位：景戊               │\n│ 星位：柱己               │ 星位：芮乙               │ 星位：英辛               │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "乾六宫",
+                      "合",
+                      "景戊",
+                      "英辛"
+                    ]
+                  }
+                ],
+                "source_chart_metadata": {
+                  "casting_description": "丁丑年辛亥月丙辰日丁酉时，阴9局，甲午旬，天心星值符，开门值使。",
+                  "casting_basis_as_written": "inquiry_time"
+                },
+                "source_presentation_stage": "post_feedback",
+                "calendar_recomputed": false
+              }
+            }
+          ],
+          "records": [
+            {
+              "record_key": "litigation-case-06-line-226",
+              "sequence": 0,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                226,
+                226
+              ],
+              "text": "1997年11月10日18时30分，杜下班刚进家，便见到朋友老李在客厅坐着，气色不太好。老李是某大工厂研究所的高级工程师。\n",
+              "chart_key": "litigation-case-06-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_inquiry",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 226,
+                  "line_end": 226,
+                  "byte_start": 22540,
+                  "byte_end": 22700,
+                  "source_quote": "1997年11月10日18时30分，杜下班刚进家，便见到朋友老李在客厅坐着，气色不太好。老李是某大工厂研究所的高级工程师。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-06-line-228",
+              "sequence": 1,
+              "kind": "prediction",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                228,
+                228
+              ],
+              "text": "李说：“我有点打官司的事，请你给预测一下。”杜简单地问了几句，得知李是原告，被告是他所在工厂的厂长。便拿出笔记本，起好局，对李说：“你是原告，你胜诉，法官倾向你；被告不占理，却气势嚣张，叫嚷得很凶，但最终要败诉；律师很狡猾，他在某些事上有所担心，你小心点。你这是怎么回事，咱们经常在一起，怎么就没听说过你有官司事呢?”\n",
+              "chart_key": "litigation-case-06-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "original_forecast",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 228,
+                  "line_end": 228,
+                  "byte_start": 22701,
+                  "byte_end": 23177,
+                  "source_quote": "李说：“我有点打官司的事，请你给预测一下。”杜简单地问了几句，得知李是原告，被告是他所在工厂的厂长。便拿出笔记本，起好局，对李说：“你是原告，你胜诉，法官倾向你；被告不占理，却气势嚣张，叫嚷得很凶，但最终要败诉；律师很狡猾，他在某些事上有所担心，你小心点。你这是怎么回事，咱们经常在一起，怎么就没听说过你有官司事呢?”\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "source_statement_segments": [
+                  {
+                    "record_role": "initial_inquiry_and_party_relationships",
+                    "knowledge_phase": "pre_prediction",
+                    "text": "李说：“我有点打官司的事，请你给预测一下。”杜简单地问了几句，得知李是原告，被告是他所在工厂的厂长。",
+                    "byte_start": 22701,
+                    "byte_end": 22851
+                  },
+                  {
+                    "record_role": "first_forecast",
+                    "knowledge_phase": "prediction",
+                    "text": "便拿出笔记本，起好局，对李说：“你是原告，你胜诉，法官倾向你；被告不占理，却气势嚣张，叫嚷得很凶，但最终要败诉；律师很狡猾，他在某些事上有所担心，你小心点。你这是怎么回事，咱们经常在一起，怎么就没听说过你有官司事呢?”\n",
+                    "byte_start": 22851,
+                    "byte_end": 23177
+                  }
+                ]
+              }
+            },
+            {
+              "record_key": "litigation-case-06-line-230",
+              "sequence": 2,
+              "kind": "feedback",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                230,
+                230
+              ],
+              "text": "老李说：“打官司的事我谁也没说过，唉!别提了，工厂突然给了我一个处分。是这么回事，我一个亲戚在国外和郊区一个公司有笔生意，去年公司要到国外去考察，我亲戚就让这家公司顺便帮我也一起办理出国护照，出去看看，钱由我亲戚出。这个公司就给我登记了一个副经理职务，并于1996年7月24日出了国。出国前，我向我们所长请了假，所长给我出具了政审材料，厂党委组织部长也给开了同意出国的干部政审信，我从国外回来后又补办了请假手续。谁料到，事隔一年后，也就是1997年7月份，厂里突然贴出一个通告，给了我一个行政记过处分，降两级工资。我气得够呛，觉得这事不公平，凭什么事先不跟我通个气，给处分也得有个理由呀，不能说给就给了。\n",
+              "chart_key": "litigation-case-06-chart-1",
+              "speaker": "老李（232行含杜新会续断）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "facts_or_reactions_revealed_after_initial_forecast",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 230,
+                  "line_end": 230,
+                  "byte_start": 23178,
+                  "byte_end": 24059,
+                  "source_quote": "老李说：“打官司的事我谁也没说过，唉!别提了，工厂突然给了我一个处分。是这么回事，我一个亲戚在国外和郊区一个公司有笔生意，去年公司要到国外去考察，我亲戚就让这家公司顺便帮我也一起办理出国护照，出去看看，钱由我亲戚出。这个公司就给我登记了一个副经理职务，并于1996年7月24日出了国。出国前，我向我们所长请了假，所长给我出具了政审材料，厂党委组织部长也给开了同意出国的干部政审信，我从国外回来后又补办了请假手续。谁料到，事隔一年后，也就是1997年7月份，厂里突然贴出一个通告，给了我一个行政记过处分，降两级工资。我气得够呛，觉得这事不公平，凭什么事先不跟我通个气，给处分也得有个理由呀，不能说给就给了。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-06-line-232",
+              "sequence": 3,
+              "kind": "feedback",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                232,
+                232
+              ],
+              "text": "“于是我就去找所长，所长说这是厂里处分的，他不知道。我又去找厂长，厂长说：‘我们就这么处分了，你不服你就上告吧。’我一气之下，到市工会请了律师，写了个诉状到市劳动仲裁委员会把厂长给告了。这老百姓告当官的，那哪行呢。厂长说：‘打，打到底，一定要打赢，组织人员加班加点整材料。'好家伙，真是泰山压顶，满城风雨，让我喘不过气来。另外，厂里好几千人也不明白真相，都睁眼看着我呢。10月28号开了庭，厂劳资处长代表厂里说我私自出国，请假无效，又说我搞第二职业，更厉害的是给我扣了个大帽子，说我干扰工厂的工作秩序。在法庭上我也申诉了我的理由，提供了证据材料。可到现在也没结果，我也想过了，若仲裁错了，我就告到法院，反正闹到这一步，我也豁出去了。杜老师，现在是关键时候，所以你一定要帮我好好测测，我能打赢吗?下一步该怎么办?\"老李在叙述中，由于情绪过分激动，脸涨得黑紫，端着茶杯的手也不停地颤抖，杜受他影响，同时也出于同情，便不由得也气从心中来，猛地增加了一股责任感、义务感，觉得自己是研究奇门遁甲的，而研究的目的也无非是用于实践，使其发扬光大，造福人类，如果不能做到这一点，还研究它做什么!于是杜细观格局，悉心分析，向老李指出：第一，官司肯定能打赢，第二，你虽能打赢，但格局利于主，应为主，从策略上讲，现在你不主动出击为宜，要等着他们来主动找你，同时你做事要谦和，见好就收，只要给撤销处分，就别到法院告了。\n",
+              "chart_key": "litigation-case-06-chart-1",
+              "speaker": "老李（232行含杜新会续断）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "facts_or_reactions_revealed_after_initial_forecast",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 232,
+                  "line_end": 232,
+                  "byte_start": 24060,
+                  "byte_end": 25834,
+                  "source_quote": "“于是我就去找所长，所长说这是厂里处分的，他不知道。我又去找厂长，厂长说：‘我们就这么处分了，你不服你就上告吧。’我一气之下，到市工会请了律师，写了个诉状到市劳动仲裁委员会把厂长给告了。这老百姓告当官的，那哪行呢。厂长说：‘打，打到底，一定要打赢，组织人员加班加点整材料。'好家伙，真是泰山压顶，满城风雨，让我喘不过气来。另外，厂里好几千人也不明白真相，都睁眼看着我呢。10月28号开了庭，厂劳资处长代表厂里说我私自出国，请假无效，又说我搞第二职业，更厉害的是给我扣了个大帽子，说我干扰工厂的工作秩序。在法庭上我也申诉了我的理由，提供了证据材料。可到现在也没结果，我也想过了，若仲裁错了，我就告到法院，反正闹到这一步，我也豁出去了。杜老师，现在是关键时候，所以你一定要帮我好好测测，我能打赢吗?下一步该怎么办?\"老李在叙述中，由于情绪过分激动，脸涨得黑紫，端着茶杯的手也不停地颤抖，杜受他影响，同时也出于同情，便不由得也气从心中来，猛地增加了一股责任感、义务感，觉得自己是研究奇门遁甲的，而研究的目的也无非是用于实践，使其发扬光大，造福人类，如果不能做到这一点，还研究它做什么!于是杜细观格局，悉心分析，向老李指出：第一，官司肯定能打赢，第二，你虽能打赢，但格局利于主，应为主，从策略上讲，现在你不主动出击为宜，要等着他们来主动找你，同时你做事要谦和，见好就收，只要给撤销处分，就别到法院告了。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "source_statement_segments": [
+                  {
+                    "record_role": "facts_and_reactions_revealed_after_first_forecast",
+                    "knowledge_phase": "post_feedback",
+                    "text": "“于是我就去找所长，所长说这是厂里处分的，他不知道。我又去找厂长，厂长说：‘我们就这么处分了，你不服你就上告吧。’我一气之下，到市工会请了律师，写了个诉状到市劳动仲裁委员会把厂长给告了。这老百姓告当官的，那哪行呢。厂长说：‘打，打到底，一定要打赢，组织人员加班加点整材料。'好家伙，真是泰山压顶，满城风雨，让我喘不过气来。另外，厂里好几千人也不明白真相，都睁眼看着我呢。10月28号开了庭，厂劳资处长代表厂里说我私自出国，请假无效，又说我搞第二职业，更厉害的是给我扣了个大帽子，说我干扰工厂的工作秩序。在法庭上我也申诉了我的理由，提供了证据材料。可到现在也没结果，我也想过了，若仲裁错了，我就告到法院，反正闹到这一步，我也豁出去了。杜老师，现在是关键时候，所以你一定要帮我好好测测，我能打赢吗?下一步该怎么办?\"老李在叙述中，由于情绪过分激动，脸涨得黑紫，端着茶杯的手也不停地颤抖，杜受他影响，同时也出于同情，便不由得也气从心中来，猛地增加了一股责任感、义务感，觉得自己是研究奇门遁甲的，而研究的目的也无非是用于实践，使其发扬光大，造福人类，如果不能做到这一点，还研究它做什么!",
+                    "byte_start": 24060,
+                    "byte_end": 25509
+                  },
+                  {
+                    "record_role": "continuation_strategy_after_client_facts",
+                    "knowledge_phase": "post_feedback",
+                    "text": "于是杜细观格局，悉心分析，向老李指出：第一，官司肯定能打赢，第二，你虽能打赢，但格局利于主，应为主，从策略上讲，现在你不主动出击为宜，要等着他们来主动找你，同时你做事要谦和，见好就收，只要给撤销处分，就别到法院告了。\n",
+                    "byte_start": 25509,
+                    "byte_end": 25834
+                  }
+                ],
+                "known_feedback_record_keys": [
+                  "litigation-case-06-line-230"
+                ],
+                "parent_paragraph_withheld_from_initial_view": true
+              }
+            },
+            {
+              "record_key": "litigation-case-06-line-234",
+              "sequence": 4,
+              "kind": "feedback",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                234,
+                234
+              ],
+              "text": "老李说：“有你预测我心里更不怕了。”杜送走李，不一会儿，他又折了回来说：“杜老师，你给我爱人打个电话，把预测的情况给她说一下，今天她硬叫我来找你预测的，她特信你。”杜照办了。\n",
+              "chart_key": "litigation-case-06-chart-1",
+              "speaker": "老李（232行含杜新会续断）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "facts_or_reactions_revealed_after_initial_forecast",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 234,
+                  "line_end": 234,
+                  "byte_start": 25835,
+                  "byte_end": 26097,
+                  "source_quote": "老李说：“有你预测我心里更不怕了。”杜送走李，不一会儿，他又折了回来说：“杜老师，你给我爱人打个电话，把预测的情况给她说一下，今天她硬叫我来找你预测的，她特信你。”杜照办了。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-06-line-236",
+              "sequence": 5,
+              "kind": "outcome",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                236,
+                236
+              ],
+              "text": "结果事情的发展和预测的一模一样。厂里经过咨询和研究感到，他们的做法不符合劳动法，再打下去，厂里必败诉，就让所长和组织部长做老李的工作。只要撤诉，处分撤销，就补发老李被扣的两千多元工资，诉讼费也由厂里承担。老李依我说的，见好就收，答应撤诉。\n",
+              "chart_key": "litigation-case-06-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "reported_outcome",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 236,
+                  "line_end": 236,
+                  "byte_start": 26098,
+                  "byte_end": 26456,
+                  "source_quote": "结果事情的发展和预测的一模一样。厂里经过咨询和研究感到，他们的做法不符合劳动法，再打下去，厂里必败诉，就让所长和组织部长做老李的工作。只要撤诉，处分撤销，就补发老李被扣的两千多元工资，诉讼费也由厂里承担。老李依我说的，见好就收，答应撤诉。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-06-line-238",
+              "sequence": 6,
+              "kind": "outcome",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                238,
+                238
+              ],
+              "text": "事后，老李说：预测以后那一阵子，我索性就照你说的，等他们主动来找我。果然，过了没多久，他们天天找我说好话，求我撤诉。12月27号撤诉那天，厂里派了最高级的轿车接我去劳动仲裁委员会，我提的条件厂里全答应了，连我的内退和爱人长期没有解决的工伤问题也给解决了，真痛快。厂长气得很，因为所长给了我假，他没如实汇报，把所长的职也给撤了；组织部长给我开了政审证明，他也怕担责任，让他写了检查；劳资处长处分我，一不找我谈话核实情况，二不让我在处分决定上签字，明知处分我不符合事实，却硬去打官司，也写了检查。真是整来整去，反倒整了他们自己，对我一点损害也没有。也多亏了你的预测，既稳定了我的情绪，增强了我的信心，又指导了我的实践，以后有事还得找你测。\n",
+              "chart_key": "litigation-case-06-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "reported_outcome",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 238,
+                  "line_end": 238,
+                  "byte_start": 26457,
+                  "byte_end": 27401,
+                  "source_quote": "事后，老李说：预测以后那一阵子，我索性就照你说的，等他们主动来找我。果然，过了没多久，他们天天找我说好话，求我撤诉。12月27号撤诉那天，厂里派了最高级的轿车接我去劳动仲裁委员会，我提的条件厂里全答应了，连我的内退和爱人长期没有解决的工伤问题也给解决了，真痛快。厂长气得很，因为所长给了我假，他没如实汇报，把所长的职也给撤了；组织部长给我开了政审证明，他也怕担责任，让他写了检查；劳资处长处分我，一不找我谈话核实情况，二不让我在处分决定上签字，明知处分我不符合事实，却硬去打官司，也写了检查。真是整来整去，反倒整了他们自己，对我一点损害也没有。也多亏了你的预测，既稳定了我的情绪，增强了我的信心，又指导了我的实践，以后有事还得找你测。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "litigation-case-06-line-240",
+              "sequence": 7,
+              "kind": "author_reasoning",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                240,
+                240
+              ],
+              "text": "1997年11月10日18时30分。\n",
+              "chart_key": "litigation-case-06-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "late_published_chart_metadata_or_explanation_not_proven_prior",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 240,
+                  "line_end": 240,
+                  "byte_start": 27402,
+                  "byte_end": 27433,
+                  "source_quote": "1997年11月10日18时30分。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "presentation_order_does_not_establish_prior_recording": true
+              }
+            },
+            {
+              "record_key": "litigation-case-06-line-242",
+              "sequence": 8,
+              "kind": "author_reasoning",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                242,
+                242
+              ],
+              "text": "丁丑年辛亥月丙辰日丁酉时，阴9局，甲午旬，天心星值符，开门值使。\n",
+              "chart_key": "litigation-case-06-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "late_published_chart_metadata_or_explanation_not_proven_prior",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 242,
+                  "line_end": 242,
+                  "byte_start": 27434,
+                  "byte_end": 27529,
+                  "source_quote": "丁丑年辛亥月丙辰日丁酉时，阴9局，甲午旬，天心星值符，开门值使。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "presentation_order_does_not_establish_prior_recording": true
+              }
+            },
+            {
+              "record_key": "litigation-case-06-line-261",
+              "sequence": 9,
+              "kind": "author_reasoning",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                261,
+                261
+              ],
+              "text": "(1)为什么说官司能打赢?\n",
+              "chart_key": "litigation-case-06-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "late_published_chart_metadata_or_explanation_not_proven_prior",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 261,
+                  "line_end": 261,
+                  "byte_start": 29547,
+                  "byte_end": 29579,
+                  "source_quote": "(1)为什么说官司能打赢?\n"
+                },
+                "original_step_number": "1",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "presentation_order_does_not_establish_prior_recording": true
+              }
+            },
+            {
+              "record_key": "litigation-case-06-line-263",
+              "sequence": 10,
+              "kind": "author_reasoning",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                263,
+                263
+              ],
+              "text": "值符为原告，开门为仲裁机关，同落震3官属木，天乙天冲星为被告落坤二宫属土，宫中天盘为丁奇，丁奇为年干为太岁，与地盘壬相合为淫荡之和(五宫中的壬也寄于坤二宫),丁下临丙，丙为天威很凶；上乘玄武主无理，宫中又逢伤门和天冲星，主被告无理搅三分，气势逼人，争讼很凶，只可惜被告坤土受仲裁机关和原告震木之克，原告必胜诉。\n",
+              "chart_key": "litigation-case-06-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "late_published_chart_metadata_or_explanation_not_proven_prior",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 263,
+                  "line_end": 263,
+                  "byte_start": 29580,
+                  "byte_end": 30038,
+                  "source_quote": "值符为原告，开门为仲裁机关，同落震3官属木，天乙天冲星为被告落坤二宫属土，宫中天盘为丁奇，丁奇为年干为太岁，与地盘壬相合为淫荡之和(五宫中的壬也寄于坤二宫),丁下临丙，丙为天威很凶；上乘玄武主无理，宫中又逢伤门和天冲星，主被告无理搅三分，气势逼人，争讼很凶，只可惜被告坤土受仲裁机关和原告震木之克，原告必胜诉。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "presentation_order_does_not_establish_prior_recording": true
+              }
+            },
+            {
+              "record_key": "litigation-case-06-line-265",
+              "sequence": 11,
+              "kind": "author_reasoning",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                265,
+                265
+              ],
+              "text": "(2)为什么要采取被动的策略?\n",
+              "chart_key": "litigation-case-06-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "late_published_chart_metadata_or_explanation_not_proven_prior",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 265,
+                  "line_end": 265,
+                  "byte_start": 30039,
+                  "byte_end": 30077,
+                  "source_quote": "(2)为什么要采取被动的策略?\n"
+                },
+                "original_step_number": "2",
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "presentation_order_does_not_establish_prior_recording": true
+              }
+            },
+            {
+              "record_key": "litigation-case-06-line-267",
+              "sequence": 12,
+              "kind": "author_reasoning",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                267,
+                267
+              ],
+              "text": "奇门预测后，应能指导行为，采取什么策略有利于我。时干丁奇主事体，天盘丁奇为客，地盘丁奇为主，现在是主来克客；日干丙为李师傅落坎一宫，天盘丙为客，地盘丙为主，也是主来克客。从时干、日干上看，均利主，因此应选择为主的策略来指导自己的行动。为主则采取不主动去找厂领导，也不再上告，而是要等待对方上门来找我，则对我有利。\n",
+              "chart_key": "litigation-case-06-chart-1",
+              "speaker": "杜新会/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "late_published_chart_metadata_or_explanation_not_proven_prior",
+                "source_selector": {
+                  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+                  "line_start": 267,
+                  "line_end": 267,
+                  "byte_start": 30078,
+                  "byte_end": 30547,
+                  "source_quote": "奇门预测后，应能指导行为，采取什么策略有利于我。时干丁奇主事体，天盘丁奇为客，地盘丁奇为主，现在是主来克客；日干丙为李师傅落坎一宫，天盘丙为客，地盘丙为主，也是主来克客。从时干、日干上看，均利主，因此应选择为主的策略来指导自己的行动。为主则采取不主动去找厂领导，也不再上告，而是要等待对方上门来找我，则对我有利。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "presentation_order_does_not_establish_prior_recording": true
+              }
+            }
+          ],
+          "evidence_links": []
+        }
+      ]
+    }
+  ]
+}

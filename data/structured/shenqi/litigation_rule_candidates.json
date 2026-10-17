@@ -1,0 +1,365 @@
+{
+  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+  "source_byte_count": 30547,
+  "source_line_count": 267,
+  "schema_version": "source_selection_candidates_v1",
+  "title": "官司诉讼预测",
+  "candidate_count": 6,
+  "candidate_record_count": 6,
+  "candidates": [
+    {
+      "key": "litigation_roles",
+      "domain": "litigation",
+      "scope": "roles",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "litigation"
+        },
+        {
+          "field": "litigation_subtype",
+          "op": "eq",
+          "value": "roles"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_litigation_roles_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_litigation_reference_v1"
+      },
+      "source_lines": [
+        5
+      ],
+      "source_quote": "凡预测官司诉讼，一般以值符为原告，以天乙(值符落宫地盘之星)为被告(古籍和今人著作中有以“乙奇”为被告者，从易理上讲不通，经过实践验证也不准确),以开门为法官，以六合为证人证据，以景门为诉状，以丁奇为传票，以惊门为律师。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "按原段保留条件和多角色映射；天乙不默认等同乙奇",
+        "来源参考，不自动取用；方法批评不等于专业效果已程序验证"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "值符",
+          "天乙",
+          "开门",
+          "六合",
+          "景门",
+          "丁奇",
+          "惊门"
+        ],
+        "semantic_role": "roles",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "litigation_party_relations",
+      "domain": "litigation",
+      "scope": "party_relations",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "litigation"
+        },
+        {
+          "field": "litigation_subtype",
+          "op": "eq",
+          "value": "party_relations"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_litigation_party_relations_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_litigation_reference_v1"
+      },
+      "source_lines": [
+        7
+      ],
+      "source_quote": "值符落宫旺相有气，又乘吉门、吉星、吉格来克天乙落宫者，原告胜。如果天乙落宫旺相有气，又乘吉门、吉星、吉格来克值符宫者，被告胜。如果二宫比和，则可能合解。如果值符宫生天乙宫，可能原告主动求和；如果天乙宫生值符宫，则可能被告主动求和。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "按原段保留条件和多角色映射；天乙不默认等同乙奇",
+        "来源参考，不自动取用；方法批评不等于专业效果已程序验证"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "值符",
+          "天乙",
+          "旺相",
+          "生克"
+        ],
+        "semantic_role": "party_relations",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "litigation_judge",
+      "domain": "litigation",
+      "scope": "judge",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "litigation"
+        },
+        {
+          "field": "litigation_subtype",
+          "op": "eq",
+          "value": "judge"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_litigation_judge_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_litigation_reference_v1"
+      },
+      "source_lines": [
+        9
+      ],
+      "source_quote": "开门落宫既克值符宫，又克天乙宫者，法官铁面无私，公平审判。开门生值符，法官向原告；开门生天乙，法官向被告。如果开门入墓，则法官糊涂，审不明白；开门落空亡，不予审理；反吟，需换官来审。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "按原段保留条件和多角色映射；天乙不默认等同乙奇",
+        "来源参考，不自动取用；方法批评不等于专业效果已程序验证"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "开门",
+          "入墓",
+          "空亡",
+          "反吟"
+        ],
+        "semantic_role": "judge",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "litigation_filing_evidence",
+      "domain": "litigation",
+      "scope": "filing_evidence",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "litigation"
+        },
+        {
+          "field": "litigation_subtype",
+          "op": "eq",
+          "value": "filing_evidence"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_litigation_filing_evidence_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_litigation_reference_v1"
+      },
+      "source_lines": [
+        11
+      ],
+      "source_quote": "起诉书是否被法官受理，以景门为用神，代表起诉书。如果景门落宫旺相，又得三奇吉格，说明情词恳切，不被开门宫冲克者，必被受理。如果受开门宫冲克，则不予受理。如果景门落宫空亡，又乘玄武或螣蛇者，主所诉事情不实。如果六合宫逢空，则说明证据不足。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "按原段保留条件和多角色映射；天乙不默认等同乙奇",
+        "来源参考，不自动取用；方法批评不等于专业效果已程序验证"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "景门",
+          "开门",
+          "六合",
+          "玄武",
+          "螣蛇"
+        ],
+        "semantic_role": "filing_evidence",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "litigation_sentencing",
+      "domain": "litigation",
+      "scope": "sentencing",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "litigation"
+        },
+        {
+          "field": "litigation_subtype",
+          "op": "eq",
+          "value": "sentencing"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_litigation_sentencing_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_litigation_reference_v1"
+      },
+      "source_lines": [
+        13
+      ],
+      "source_quote": "预测是否判刑，以甲午辛为罪人，以壬为天牢，以癸为地网，甲午辛临壬、癸者，必有牢狱之灾；临三奇，特别是丁奇者，则可能无罪释放。再结合与开门落宫的生克关系，综合判断之。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "按原段保留条件和多角色映射；天乙不默认等同乙奇",
+        "来源参考，不自动取用；方法批评不等于专业效果已程序验证"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "甲午辛",
+          "壬",
+          "癸",
+          "丁奇"
+        ],
+        "semantic_role": "sentencing",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "litigation_relative_incarceration",
+      "domain": "litigation",
+      "scope": "relative_incarceration",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "litigation"
+        },
+        {
+          "field": "litigation_subtype",
+          "op": "eq",
+          "value": "relative_incarceration"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_litigation_relative_incarceration_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_litigation_reference_v1"
+      },
+      "source_lines": [
+        15
+      ],
+      "source_quote": "如果是犯罪本人或亲属预测，还可以日干或按六亲关系取用神，以辛为天狱，壬为地牢，癸为地网。如果用神落宫，下临辛，主被囚禁；临壬、癸者为误入天罗地网，待冲破之日可出。如果天盘壬、癸之干下临地盘辛者，为网罗蒙头，主囚禁时间长。如果用神落空亡之宫，则不会被囚禁。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "按原段保留条件和多角色映射；天乙不默认等同乙奇",
+        "来源参考，不自动取用；方法批评不等于专业效果已程序验证"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "日干",
+          "六亲",
+          "辛",
+          "壬",
+          "癸",
+          "空亡"
+        ],
+        "semantic_role": "relative_incarceration",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    }
+  ]
+}

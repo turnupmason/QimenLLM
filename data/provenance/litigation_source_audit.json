@@ -1,0 +1,22 @@
+{
+  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+  "source_byte_count": 30547,
+  "source_line_count": 267,
+  "source_file": "神奇之门_官司诉讼预测_精校完整版.txt",
+  "verification_basis": "user_attestation",
+  "system_performed_independent_verification": false,
+  "stories": 6,
+  "events": 6,
+  "charts": 6,
+  "source_palaces": 54,
+  "records": 68,
+  "context_groups": 14,
+  "technical_boundaries": 8,
+  "reference_candidates": 6,
+  "case5_original_role_method_and_author_critique_separate": true,
+  "case6_late_published_chart_same_historical_inquiry": true,
+  "last_line_as_supplied": "奇门预测后，应能指导行为，采取什么策略有利于我。时干丁奇主事体，天盘丁奇为客，地盘丁奇为主，现在是主来克客；日干丙为李师傅落坎一宫，天盘丙为客，地盘丙为主，也是主来克客。从时干、日干上看，均利主，因此应选择为主的策略来指导自己的行动。为主则采取不主动去找厂领导，也不再上告，而是要等待对方上门来找我，则对我有利。\n",
+  "schema_migration": false,
+  "formal_rules_added": 0,
+  "training_tasks_added": 0
+}

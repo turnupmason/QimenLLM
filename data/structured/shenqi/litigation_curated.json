@@ -1,0 +1,1025 @@
+{
+  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+  "source_byte_count": 30547,
+  "source_line_count": 267,
+  "chapter_title": "官司诉讼预测",
+  "chapter_key_suggestion": "litigation",
+  "printed_chapter_number": null,
+  "groups": [
+    {
+      "key": "litigation_heading",
+      "title": "官司诉讼预测",
+      "category": "commentary",
+      "line_start": 1,
+      "line_end": 4,
+      "attribution": "原书叙述；杜新会、李文达及张志春按语按各段区分，未具名我不擅定",
+      "summary": "整段原文与完整案例保留；原断、现场反馈、续断、事后结果与方法批评分别标记",
+      "concepts": [],
+      "dataset": {
+        "key": "litigation_heading_reference",
+        "rows": [
+          {
+            "key": "litigation_heading_1",
+            "source_lines": [
+              1,
+              1
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 1,
+              "line_end": 1,
+              "byte_start": 0,
+              "byte_end": 19,
+              "source_quote": "官司诉讼预测\n"
+            },
+            "source_quote": "官司诉讼预测\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "litigation_heading_3",
+            "source_lines": [
+              3,
+              3
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 3,
+              "line_end": 3,
+              "byte_start": 20,
+              "byte_end": 49,
+              "source_quote": "第一节 取用判断经验\n"
+            },
+            "source_quote": "第一节 取用判断经验\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "litigation_roles",
+      "title": "凡预测官司诉讼，一般以值符为原告，以天乙(值符落宫地盘之星)为被告(古籍和今人著作中有以“乙奇”为被告者，从易理上讲不通，经过实践验证也不准",
+      "category": "role",
+      "line_start": 5,
+      "line_end": 6,
+      "attribution": "原书叙述；杜新会、李文达及张志春按语按各段区分，未具名我不擅定",
+      "summary": "整段原文与完整案例保留；原断、现场反馈、续断、事后结果与方法批评分别标记",
+      "concepts": [
+        "值符",
+        "天乙",
+        "开门",
+        "六合",
+        "景门",
+        "丁奇",
+        "惊门"
+      ],
+      "dataset": {
+        "key": "litigation_roles_reference",
+        "rows": [
+          {
+            "key": "litigation_roles_5",
+            "source_lines": [
+              5,
+              5
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 5,
+              "line_end": 5,
+              "byte_start": 50,
+              "byte_end": 371,
+              "source_quote": "凡预测官司诉讼，一般以值符为原告，以天乙(值符落宫地盘之星)为被告(古籍和今人著作中有以“乙奇”为被告者，从易理上讲不通，经过实践验证也不准确),以开门为法官，以六合为证人证据，以景门为诉状，以丁奇为传票，以惊门为律师。\n"
+            },
+            "source_quote": "凡预测官司诉讼，一般以值符为原告，以天乙(值符落宫地盘之星)为被告(古籍和今人著作中有以“乙奇”为被告者，从易理上讲不通，经过实践验证也不准确),以开门为法官，以六合为证人证据，以景门为诉状，以丁奇为传票，以惊门为律师。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "litigation_party_relations",
+      "title": "值符落宫旺相有气，又乘吉门、吉星、吉格来克天乙落宫者，原告胜。如果天乙落宫旺相有气，又乘吉门、吉星、吉格来克值符宫者，被告胜。如果二宫比和，",
+      "category": "analysis",
+      "line_start": 7,
+      "line_end": 8,
+      "attribution": "原书叙述；杜新会、李文达及张志春按语按各段区分，未具名我不擅定",
+      "summary": "整段原文与完整案例保留；原断、现场反馈、续断、事后结果与方法批评分别标记",
+      "concepts": [
+        "值符",
+        "天乙",
+        "旺相",
+        "生克"
+      ],
+      "dataset": {
+        "key": "litigation_party_relations_reference",
+        "rows": [
+          {
+            "key": "litigation_party_relations_7",
+            "source_lines": [
+              7,
+              7
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 7,
+              "line_end": 7,
+              "byte_start": 372,
+              "byte_end": 718,
+              "source_quote": "值符落宫旺相有气，又乘吉门、吉星、吉格来克天乙落宫者，原告胜。如果天乙落宫旺相有气，又乘吉门、吉星、吉格来克值符宫者，被告胜。如果二宫比和，则可能合解。如果值符宫生天乙宫，可能原告主动求和；如果天乙宫生值符宫，则可能被告主动求和。\n"
+            },
+            "source_quote": "值符落宫旺相有气，又乘吉门、吉星、吉格来克天乙落宫者，原告胜。如果天乙落宫旺相有气，又乘吉门、吉星、吉格来克值符宫者，被告胜。如果二宫比和，则可能合解。如果值符宫生天乙宫，可能原告主动求和；如果天乙宫生值符宫，则可能被告主动求和。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "litigation_judge",
+      "title": "开门落宫既克值符宫，又克天乙宫者，法官铁面无私，公平审判。开门生值符，法官向原告；开门生天乙，法官向被告。如果开门入墓，则法官糊涂，审不明白",
+      "category": "analysis",
+      "line_start": 9,
+      "line_end": 10,
+      "attribution": "原书叙述；杜新会、李文达及张志春按语按各段区分，未具名我不擅定",
+      "summary": "整段原文与完整案例保留；原断、现场反馈、续断、事后结果与方法批评分别标记",
+      "concepts": [
+        "开门",
+        "入墓",
+        "空亡",
+        "反吟"
+      ],
+      "dataset": {
+        "key": "litigation_judge_reference",
+        "rows": [
+          {
+            "key": "litigation_judge_9",
+            "source_lines": [
+              9,
+              9
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 9,
+              "line_end": 9,
+              "byte_start": 719,
+              "byte_end": 993,
+              "source_quote": "开门落宫既克值符宫，又克天乙宫者，法官铁面无私，公平审判。开门生值符，法官向原告；开门生天乙，法官向被告。如果开门入墓，则法官糊涂，审不明白；开门落空亡，不予审理；反吟，需换官来审。\n"
+            },
+            "source_quote": "开门落宫既克值符宫，又克天乙宫者，法官铁面无私，公平审判。开门生值符，法官向原告；开门生天乙，法官向被告。如果开门入墓，则法官糊涂，审不明白；开门落空亡，不予审理；反吟，需换官来审。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "litigation_filing_evidence",
+      "title": "起诉书是否被法官受理，以景门为用神，代表起诉书。如果景门落宫旺相，又得三奇吉格，说明情词恳切，不被开门宫冲克者，必被受理。如果受开门宫冲克，",
+      "category": "analysis",
+      "line_start": 11,
+      "line_end": 12,
+      "attribution": "原书叙述；杜新会、李文达及张志春按语按各段区分，未具名我不擅定",
+      "summary": "整段原文与完整案例保留；原断、现场反馈、续断、事后结果与方法批评分别标记",
+      "concepts": [
+        "景门",
+        "开门",
+        "六合",
+        "玄武",
+        "螣蛇"
+      ],
+      "dataset": {
+        "key": "litigation_filing_evidence_reference",
+        "rows": [
+          {
+            "key": "litigation_filing_evidence_11",
+            "source_lines": [
+              11,
+              11
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 11,
+              "line_end": 11,
+              "byte_start": 994,
+              "byte_end": 1349,
+              "source_quote": "起诉书是否被法官受理，以景门为用神，代表起诉书。如果景门落宫旺相，又得三奇吉格，说明情词恳切，不被开门宫冲克者，必被受理。如果受开门宫冲克，则不予受理。如果景门落宫空亡，又乘玄武或螣蛇者，主所诉事情不实。如果六合宫逢空，则说明证据不足。\n"
+            },
+            "source_quote": "起诉书是否被法官受理，以景门为用神，代表起诉书。如果景门落宫旺相，又得三奇吉格，说明情词恳切，不被开门宫冲克者，必被受理。如果受开门宫冲克，则不予受理。如果景门落宫空亡，又乘玄武或螣蛇者，主所诉事情不实。如果六合宫逢空，则说明证据不足。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "litigation_sentencing",
+      "title": "预测是否判刑，以甲午辛为罪人，以壬为天牢，以癸为地网，甲午辛临壬、癸者，必有牢狱之灾；临三奇，特别是丁奇者，则可能无罪释放。再结合与开门落宫",
+      "category": "role",
+      "line_start": 13,
+      "line_end": 14,
+      "attribution": "原书叙述；杜新会、李文达及张志春按语按各段区分，未具名我不擅定",
+      "summary": "整段原文与完整案例保留；原断、现场反馈、续断、事后结果与方法批评分别标记",
+      "concepts": [
+        "甲午辛",
+        "壬",
+        "癸",
+        "丁奇"
+      ],
+      "dataset": {
+        "key": "litigation_sentencing_reference",
+        "rows": [
+          {
+            "key": "litigation_sentencing_13",
+            "source_lines": [
+              13,
+              13
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 13,
+              "line_end": 13,
+              "byte_start": 1350,
+              "byte_end": 1597,
+              "source_quote": "预测是否判刑，以甲午辛为罪人，以壬为天牢，以癸为地网，甲午辛临壬、癸者，必有牢狱之灾；临三奇，特别是丁奇者，则可能无罪释放。再结合与开门落宫的生克关系，综合判断之。\n"
+            },
+            "source_quote": "预测是否判刑，以甲午辛为罪人，以壬为天牢，以癸为地网，甲午辛临壬、癸者，必有牢狱之灾；临三奇，特别是丁奇者，则可能无罪释放。再结合与开门落宫的生克关系，综合判断之。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "litigation_relative_incarceration",
+      "title": "如果是犯罪本人或亲属预测，还可以日干或按六亲关系取用神，以辛为天狱，壬为地牢，癸为地网。如果用神落宫，下临辛，主被囚禁；临壬、癸者为误入天罗",
+      "category": "role",
+      "line_start": 15,
+      "line_end": 16,
+      "attribution": "原书叙述；杜新会、李文达及张志春按语按各段区分，未具名我不擅定",
+      "summary": "整段原文与完整案例保留；原断、现场反馈、续断、事后结果与方法批评分别标记",
+      "concepts": [
+        "日干",
+        "六亲",
+        "辛",
+        "壬",
+        "癸",
+        "空亡"
+      ],
+      "dataset": {
+        "key": "litigation_relative_incarceration_reference",
+        "rows": [
+          {
+            "key": "litigation_relative_incarceration_15",
+            "source_lines": [
+              15,
+              15
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 15,
+              "line_end": 15,
+              "byte_start": 1598,
+              "byte_end": 1980,
+              "source_quote": "如果是犯罪本人或亲属预测，还可以日干或按六亲关系取用神，以辛为天狱，壬为地牢，癸为地网。如果用神落宫，下临辛，主被囚禁；临壬、癸者为误入天罗地网，待冲破之日可出。如果天盘壬、癸之干下临地盘辛者，为网罗蒙头，主囚禁时间长。如果用神落空亡之宫，则不会被囚禁。\n"
+            },
+            "source_quote": "如果是犯罪本人或亲属预测，还可以日干或按六亲关系取用神，以辛为天狱，壬为地牢，癸为地网。如果用神落宫，下临辛，主被囚禁；临壬、癸者为误入天罗地网，待冲破之日可出。如果天盘壬、癸之干下临地盘辛者，为网罗蒙头，主囚禁时间长。如果用神落空亡之宫，则不会被囚禁。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "litigation_case_heading",
+      "title": "第二节 实例解析（6例）",
+      "category": "commentary",
+      "line_start": 17,
+      "line_end": 18,
+      "attribution": "原书叙述；杜新会、李文达及张志春按语按各段区分，未具名我不擅定",
+      "summary": "整段原文与完整案例保留；原断、现场反馈、续断、事后结果与方法批评分别标记",
+      "concepts": [],
+      "dataset": {
+        "key": "litigation_case_heading_reference",
+        "rows": [
+          {
+            "key": "litigation_case_heading_17",
+            "source_lines": [
+              17,
+              17
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 17,
+              "line_end": 17,
+              "byte_start": 1981,
+              "byte_end": 2014,
+              "source_quote": "第二节 实例解析（6例）\n"
+            },
+            "source_quote": "第二节 实例解析（6例）\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "litigation_case_01",
+      "title": "实例一：测官司",
+      "category": "analysis",
+      "line_start": 19,
+      "line_end": 59,
+      "attribution": "原书叙述；杜新会、李文达及张志春按语按各段区分，未具名我不擅定",
+      "summary": "整段原文与完整案例保留；原断、现场反馈、续断、事后结果与方法批评分别标记",
+      "concepts": [
+        "值符",
+        "开门",
+        "景门",
+        "丁奇",
+        "惊门",
+        "日干"
+      ],
+      "dataset": {
+        "key": "litigation_case_01_reference",
+        "rows": [
+          {
+            "key": "litigation_case_01_46",
+            "source_lines": [
+              46,
+              46
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 46,
+              "line_end": 46,
+              "byte_start": 4493,
+              "byte_end": 4723,
+              "source_quote": "(1)年干乙为其父，落乾6宫，乙墓在戌，乙奇落乾6宫为入墓，说明被关押；格局乙+庚，为日奇被刑，争讼财产；乾为领导，生门+开门，上乘螣蛇，说明其父是理财的领导人。\n"
+            },
+            "source_quote": "(1)年干乙为其父，落乾6宫，乙墓在戌，乙奇落乾6宫为入墓，说明被关押；格局乙+庚，为日奇被刑，争讼财产；乾为领导，生门+开门，上乘螣蛇，说明其父是理财的领导人。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "litigation_case_01_48",
+            "source_lines": [
+              48,
+              48
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 48,
+              "line_end": 48,
+              "byte_start": 4724,
+              "byte_end": 4932,
+              "source_quote": "(2)其父乙奇落乾6宫，被地盘六仪之庚所刑，再看天盘庚落离.9宫，为火而克其父落宫乾金，离主文化人，惊门主争讼，上乘九地，说明被本单位人告发所致。\n"
+            },
+            "source_quote": "(2)其父乙奇落乾6宫，被地盘六仪之庚所刑，再看天盘庚落离.9宫，为火而克其父落宫乾金，离主文化人，惊门主争讼，上乘九地，说明被本单位人告发所致。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "litigation_case_01_50",
+            "source_lines": [
+              50,
+              50
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 50,
+              "line_end": 50,
+              "byte_start": 4933,
+              "byte_end": 5061,
+              "source_quote": "(3)景门为举报信，落震3宫为空亡之地(甲辰旬中寅卯空),说明举报不实，为凭空捏造，栽赃陷害。\n"
+            },
+            "source_quote": "(3)景门为举报信，落震3宫为空亡之地(甲辰旬中寅卯空),说明举报不实，为凭空捏造，栽赃陷害。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "litigation_case_01_52",
+            "source_lines": [
+              52,
+              52
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 52,
+              "line_end": 52,
+              "byte_start": 5062,
+              "byte_end": 5351,
+              "source_quote": "(4)开门为法官，为检察院，落坤2宫为土，与日干丁奇(求测人)同宫比和，上乘九天为领导。求测人一定会去找检察院领导，并会得到同情和理解。开门临坤宫，宫生门，又得奇，又生其父落宫，故断其父一定会被放出。\n"
+            },
+            "source_quote": "(4)开门为法官，为检察院，落坤2宫为土，与日干丁奇(求测人)同宫比和，上乘九天为领导。求测人一定会去找检察院领导，并会得到同情和理解。开门临坤宫，宫生门，又得奇，又生其父落宫，故断其父一定会被放出。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "litigation_case_01_54",
+            "source_lines": [
+              54,
+              54
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 54,
+              "line_end": 54,
+              "byte_start": 5352,
+              "byte_end": 5508,
+              "source_quote": "(5)年干乙奇为用神，地盘乙奇在3宫，上临六仪丙与己，丙日或己日可放出，阳遁3宫为内盘，主快，故断己日可放回。\n"
+            },
+            "source_quote": "(5)年干乙奇为用神，地盘乙奇在3宫，上临六仪丙与己，丙日或己日可放出，阳遁3宫为内盘，主快，故断己日可放回。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "litigation_case_02",
+      "title": "实例二：测拘留",
+      "category": "analysis",
+      "line_start": 60,
+      "line_end": 92,
+      "attribution": "原书叙述；杜新会、李文达及张志春按语按各段区分，未具名我不擅定",
+      "summary": "整段原文与完整案例保留；原断、现场反馈、续断、事后结果与方法批评分别标记",
+      "concepts": [
+        "值符",
+        "开门",
+        "六合",
+        "丁奇",
+        "惊门",
+        "甲午辛"
+      ],
+      "dataset": {
+        "key": "litigation_case_02_reference",
+        "rows": [
+          {
+            "key": "litigation_case_02_83",
+            "source_lines": [
+              83,
+              83
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 83,
+              "line_end": 83,
+              "byte_start": 8139,
+              "byte_end": 8439,
+              "source_quote": "(1)测同事，以月干戊为用神。月干戊落坤2宫，戊又主财物，临天蓬盗星，必因钱财问题被拘留，戊+己为“贵人入狱”,戊+壬为“青龙入天牢”,正是被拘留之象；上乘值符，说明他还是一个负责人；临惊门，正主官司惊恐之事。\n"
+            },
+            "source_quote": "(1)测同事，以月干戊为用神。月干戊落坤2宫，戊又主财物，临天蓬盗星，必因钱财问题被拘留，戊+己为“贵人入狱”,戊+壬为“青龙入天牢”,正是被拘留之象；上乘值符，说明他还是一个负责人；临惊门，正主官司惊恐之事。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "litigation_case_02_85",
+            "source_lines": [
+              85,
+              85
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 85,
+              "line_end": 85,
+              "byte_start": 8440,
+              "byte_end": 8952,
+              "source_quote": "(2)测犯罪，又以甲午辛为罪人，辛落1宫，正逢地盘戊，戊主钱财，正为钱财之事，辛+戊为“困龙被伤”,主官司破财，屈抑安分守己吉，妄动遭祸。该人正因为妄动，违反经济纪律被拘留。但临天辅吉星，吉门生门，吉神六合；4宫地盘辛上又逢丁奇，不逢壬、癸天罗地网，所以断不会判刑；值符又为领导，与月干同宫，开门为法官，与月干落宫和甲午辛落宫相生，故必然被保释出来。\n"
+            },
+            "source_quote": "(2)测犯罪，又以甲午辛为罪人，辛落1宫，正逢地盘戊，戊主钱财，正为钱财之事，辛+戊为“困龙被伤”,主官司破财，屈抑安分守己吉，妄动遭祸。该人正因为妄动，违反经济纪律被拘留。但临天辅吉星，吉门生门，吉神六合；4宫地盘辛上又逢丁奇，不逢壬、癸天罗地网，所以断不会判刑；值符又为领导，与月干同宫，开门为法官，与月干落宫和甲午辛落宫相生，故必然被保释出来。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "litigation_case_02_87",
+            "source_lines": [
+              87,
+              87
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 87,
+              "line_end": 87,
+              "byte_start": 8953,
+              "byte_end": 9131,
+              "source_quote": "(3)但月干戊临蓬星，必然要破财，天蓬星在子月正当旺相之时，坤2宫、惊门均主2数，土又主5数，故断必破财二万或二万五千元左右。\n"
+            },
+            "source_quote": "(3)但月干戊临蓬星，必然要破财，天蓬星在子月正当旺相之时，坤2宫、惊门均主2数，土又主5数，故断必破财二万或二万五千元左右。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "litigation_case_02_89",
+            "source_lines": [
+              89,
+              89
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 89,
+              "line_end": 89,
+              "byte_start": 9132,
+              "byte_end": 9205,
+              "source_quote": "(4)甲午辛下临之干为戊，子午相冲，必在戊子月放出。\n"
+            },
+            "source_quote": "(4)甲午辛下临之干为戊，子午相冲，必在戊子月放出。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "litigation_case_03",
+      "title": "实例三：测房产纠纷",
+      "category": "analysis",
+      "line_start": 93,
+      "line_end": 133,
+      "attribution": "原书叙述；杜新会、李文达及张志春按语按各段区分，未具名我不擅定",
+      "summary": "整段原文与完整案例保留；原断、现场反馈、续断、事后结果与方法批评分别标记",
+      "concepts": [
+        "值符",
+        "天乙",
+        "开门",
+        "六合",
+        "景门",
+        "惊门"
+      ],
+      "dataset": {
+        "key": "litigation_case_03_reference",
+        "rows": [
+          {
+            "key": "litigation_case_03_120",
+            "source_lines": [
+              120,
+              120
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 120,
+              "line_end": 120,
+              "byte_start": 12217,
+              "byte_end": 12365,
+              "source_quote": "(1)以值符为原告，代表北京市某区房产部门，以天乙(值符落坤2宫地盘之星天芮星)为被告，代表张老板的公司。\n"
+            },
+            "source_quote": "(1)以值符为原告，代表北京市某区房产部门，以天乙(值符落坤2宫地盘之星天芮星)为被告，代表张老板的公司。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "litigation_case_03_122",
+            "source_lines": [
+              122,
+              122
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 122,
+              "line_end": 122,
+              "byte_start": 12366,
+              "byte_end": 12577,
+              "source_quote": "(2)值符落坤2宫生天乙所落兑7宫，原告也愿意调解解决纠纷。开门为法院落离9宫，生值符宫，克天乙宫，说明法院向原告，不向被告，如果判决，对被告不利。\n"
+            },
+            "source_quote": "(2)值符落坤2宫生天乙所落兑7宫，原告也愿意调解解决纠纷。开门为法院落离9宫，生值符宫，克天乙宫，说明法院向原告，不向被告，如果判决，对被告不利。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "litigation_case_03_124",
+            "source_lines": [
+              124,
+              124
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 124,
+              "line_end": 124,
+              "byte_start": 12578,
+              "byte_end": 12720,
+              "source_quote": "(3)甲辰旬中寅、卯空，景门、六合均逢空亡，说明虽然开门向原告，但原告所诉理由也不充分，证据不足。\n"
+            },
+            "source_quote": "(3)甲辰旬中寅、卯空，景门、六合均逢空亡，说明虽然开门向原告，但原告所诉理由也不充分，证据不足。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "litigation_case_03_126",
+            "source_lines": [
+              126,
+              126
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 126,
+              "line_end": 126,
+              "byte_start": 12721,
+              "byte_end": 13073,
+              "source_quote": "(4)甲子戊为钱财，临开门在9宫，生值符2宫，正符合原告索要三十九万元之数。被告临生门，为房屋，也为利息，在兑7宫，说明被告只想付十七万元左右。生门逢庚，庚为阻隔之神，又上乘九天，九天主远行，因此调解后可能得让张老板搬家，不让他再在这里办公。\n"
+            },
+            "source_quote": "(4)甲子戊为钱财，临开门在9宫，生值符2宫，正符合原告索要三十九万元之数。被告临生门，为房屋，也为利息，在兑7宫，说明被告只想付十七万元左右。生门逢庚，庚为阻隔之神，又上乘九天，九天主远行，因此调解后可能得让张老板搬家，不让他再在这里办公。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "litigation_case_03_128",
+            "source_lines": [
+              128,
+              128
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 128,
+              "line_end": 128,
+              "byte_start": 13074,
+              "byte_end": 13196,
+              "source_quote": "(5)开门不逢庚，法院不会立即判决。惊门为律师，在巽4宫，生开门，克原告，受被告之克。\n"
+            },
+            "source_quote": "(5)开门不逢庚，法院不会立即判决。惊门为律师，在巽4宫，生开门，克原告，受被告之克。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "litigation_case_04",
+      "title": "实例四：测判刑",
+      "category": "analysis",
+      "line_start": 134,
+      "line_end": 178,
+      "attribution": "原书叙述；杜新会、李文达及张志春按语按各段区分，未具名我不擅定",
+      "summary": "整段原文与完整案例保留；原断、现场反馈、续断、事后结果与方法批评分别标记",
+      "concepts": [
+        "值符",
+        "天乙",
+        "开门",
+        "惊门"
+      ],
+      "dataset": {
+        "key": "litigation_case_04_reference",
+        "rows": [
+          {
+            "key": "litigation_case_04_161",
+            "source_lines": [
+              161,
+              161
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 161,
+              "line_end": 161,
+              "byte_start": 16469,
+              "byte_end": 16622,
+              "source_quote": "(1)以值符为原告，落坤2宫；以天乙为被告，落乾6宫。原告生被告，原告又逢空亡，说明原告仍然有调解解决之意。\n"
+            },
+            "source_quote": "(1)以值符为原告，落坤2宫；以天乙为被告，落乾6宫。原告生被告，原告又逢空亡，说明原告仍然有调解解决之意。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "litigation_case_04_163",
+            "source_lines": [
+              163,
+              163
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 163,
+              "line_end": 163,
+              "byte_start": 16623,
+              "byte_end": 16876,
+              "source_quote": "(2)天乙天芮星为被告落乾6宫，临乙、庚，正是一男一女，下临辛为天狱，乙在6宫又为入墓，正符合现被羁押在看守所的状况。但乙+辛为龙逃走格，以辛为罪人上乘乙奇，也为能被释放之象。\n"
+            },
+            "source_quote": "(2)天乙天芮星为被告落乾6宫，临乙、庚，正是一男一女，下临辛为天狱，乙在6宫又为入墓，正符合现被羁押在看守所的状况。但乙+辛为龙逃走格，以辛为罪人上乘乙奇，也为能被释放之象。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "litigation_case_04_165",
+            "source_lines": [
+              165,
+              165
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 165,
+              "line_end": 165,
+              "byte_start": 16877,
+              "byte_end": 17333,
+              "source_quote": "(3)开门为法官，在艮8宫为入墓。古籍云“开门入墓，问官糊涂”,结合此案情，法官未必糊涂，只是在认罪量刑上拿不准。因为被告陈述：自己家没有男孩，因为喜欢房东男孩，所以才起了抱回家自养的动机，被房东发现后又及时送回。原告却认为被告是想拐卖儿童，但又缺乏证据。开门落宫生被告宫，与原告比和又对冲，总的看对被告有利。\n"
+            },
+            "source_quote": "(3)开门为法官，在艮8宫为入墓。古籍云“开门入墓，问官糊涂”,结合此案情，法官未必糊涂，只是在认罪量刑上拿不准。因为被告陈述：自己家没有男孩，因为喜欢房东男孩，所以才起了抱回家自养的动机，被房东发现后又及时送回。原告却认为被告是想拐卖儿童，但又缺乏证据。开门落宫生被告宫，与原告比和又对冲，总的看对被告有利。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "litigation_case_04_167",
+            "source_lines": [
+              167,
+              167
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 167,
+              "line_end": 167,
+              "byte_start": 17334,
+              "byte_end": 17452,
+              "source_quote": "(4)惊门为律师，落坎一宫，受原告和开门之克，但与被告相生，说明律师也对被告有利。\n"
+            },
+            "source_quote": "(4)惊门为律师，落坎一宫，受原告和开门之克，但与被告相生，说明律师也对被告有利。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "litigation_case_04_169",
+            "source_lines": [
+              169,
+              169
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 169,
+              "line_end": 169,
+              "byte_start": 17453,
+              "byte_end": 17553,
+              "source_quote": "(5)开门虽上乘白虎，但不逢庚，故而恐怕不会当庭立判，还有调解的可能。\n"
+            },
+            "source_quote": "(5)开门虽上乘白虎，但不逢庚，故而恐怕不会当庭立判，还有调解的可能。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "litigation_case_05",
+      "title": "实例五：四川学员李文达测官讼例",
+      "category": "analysis",
+      "line_start": 179,
+      "line_end": 223,
+      "attribution": "原书叙述；杜新会、李文达及张志春按语按各段区分，未具名我不擅定",
+      "summary": "整段原文与完整案例保留；原断、现场反馈、续断、事后结果与方法批评分别标记",
+      "concepts": [
+        "值符",
+        "天乙",
+        "开门",
+        "景门",
+        "日干"
+      ],
+      "dataset": {
+        "key": "litigation_case_05_reference",
+        "rows": [
+          {
+            "key": "litigation_case_05_204",
+            "source_lines": [
+              204,
+              204
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 204,
+              "line_end": 204,
+              "byte_start": 20672,
+              "byte_end": 20844,
+              "source_quote": "(1)以日干为求测之人，日干丁落坤2宫伏吟，丁+丁星奇入太阴；临甲子戊，开+死主官司惊扰，先忧后喜；上乘白虎，主凶杀打斗。\n"
+            },
+            "source_quote": "(1)以日干为求测之人，日干丁落坤2宫伏吟，丁+丁星奇入太阴；临甲子戊，开+死主官司惊扰，先忧后喜；上乘白虎，主凶杀打斗。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "litigation_case_05_206",
+            "source_lines": [
+              206,
+              206
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 206,
+              "line_end": 206,
+              "byte_start": 20845,
+              "byte_end": 20964,
+              "source_quote": "(2)时干为所问之事，时干辛落8宫伏吟，午午自刑，杜加辛主打伤人，词讼，男人小口凶。\n"
+            },
+            "source_quote": "(2)时干为所问之事，时干辛落8宫伏吟，午午自刑，杜加辛主打伤人，词讼，男人小口凶。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "litigation_case_05_208",
+            "source_lines": [
+              208,
+              208
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 208,
+              "line_end": 208,
+              "byte_start": 20965,
+              "byte_end": 21021,
+              "source_quote": "(3)甲子戊为钱财，落坤2宫，与日干同宫。\n"
+            },
+            "source_quote": "(3)甲子戊为钱财，落坤2宫，与日干同宫。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "litigation_case_05_214",
+            "source_lines": [
+              214,
+              214
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 214,
+              "line_end": 214,
+              "byte_start": 21456,
+              "byte_end": 21606,
+              "source_quote": "(4)景门为诉状，落3宫临丙奇。乙奇为被告，落4宫临死门，又逢空亡。日干为赵经理，临开门，与法官同宫比和。\n"
+            },
+            "source_quote": "(4)景门为诉状，落3宫临丙奇。乙奇为被告，落4宫临死门，又逢空亡。日干为赵经理，临开门，与法官同宫比和。\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "litigation_case_06",
+      "title": "实例六：杜新会测劳动纠纷案",
+      "category": "analysis",
+      "line_start": 224,
+      "line_end": 267,
+      "attribution": "原书叙述；杜新会、李文达及张志春按语按各段区分，未具名我不擅定",
+      "summary": "整段原文与完整案例保留；原断、现场反馈、续断、事后结果与方法批评分别标记",
+      "concepts": [
+        "值符",
+        "天乙",
+        "开门",
+        "丁奇",
+        "日干"
+      ],
+      "dataset": {
+        "key": "litigation_case_06_reference",
+        "rows": [
+          {
+            "key": "litigation_case_06_261",
+            "source_lines": [
+              261,
+              261
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 261,
+              "line_end": 261,
+              "byte_start": 29547,
+              "byte_end": 29579,
+              "source_quote": "(1)为什么说官司能打赢?\n"
+            },
+            "source_quote": "(1)为什么说官司能打赢?\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "litigation_case_06_265",
+            "source_lines": [
+              265,
+              265
+            ],
+            "source_pointer": {
+              "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+              "line_start": 265,
+              "line_end": 265,
+              "byte_start": 30039,
+              "byte_end": 30077,
+              "source_quote": "(2)为什么要采取被动的策略?\n"
+            },
+            "source_quote": "(2)为什么要采取被动的策略?\n",
+            "method_scope": "shenqi_litigation_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    }
+  ],
+  "quality_issues": [
+    {
+      "key": "method_scope_and_distinct_roles",
+      "line_start": 5,
+      "line_end": 15,
+      "description": "天乙指值符落宫地盘之星，不等同乙奇；甲午辛罪人与亲属取用中的辛天狱分别按段落保留，不消除不同语境壬天牢/地牢字面差异"
+    },
+    {
+      "key": "case1_li爻_not_imported_as_qimen_rules",
+      "line_start": 23,
+      "line_end": 27,
+      "description": "先六爻再奇门仅记原文，未提供六爻盘，不补造或混编"
+    },
+    {
+      "key": "case3_earlier_queries_no_charts_invented",
+      "line_start": 95,
+      "line_end": 101,
+      "description": "多次历史问测只有本次一个原盘；仍同一故事/家族/已供盘事件，不补前次盘；报时上午、下午分析、17:30传达分别保存"
+    },
+    {
+      "key": "case4_civil_compensation_and_sentence",
+      "line_start": 171,
+      "line_end": 177,
+      "description": "可能缓刑原断、民事索赔二万、协议一万、男女各五千、判二缓三及次日放出分开，不混为无罪或不判刑"
+    },
+    {
+      "key": "case5_mid_feedback_and_method_critique",
+      "line_start": 210,
+      "line_end": 222,
+      "description": "二万二千工程欠款和受伤到212行才反馈；214/216为续断；220/222为张志春事后批评乙奇/值使取法，不改原断或宣称方法已程序证明"
+    },
+    {
+      "key": "case6_mixed_paragraph_exact_segments",
+      "line_start": 228,
+      "line_end": 234,
+      "description": "228初问与初断同段，232事实叙述与续断同段，整行保留并附精确字节分句；不将后述出国/处分细节提到首次预测"
+    },
+    {
+      "key": "case6_late_chart_and_explanation",
+      "line_start": 236,
+      "line_end": 267,
+      "description": "盘和解释在结果之后出版展示，不能据此证明其全部解释在结果前已记录；同一问时历史盘，不另建结果后问测或重算盘；保守从首次输入隔离"
+    },
+    {
+      "key": "source_literals_uncorrected",
+      "line_start": 48,
+      "line_end": 263,
+      "description": "离.9宫、震3官、淫荡之和及中五宫原字等按原字节保存，不擅改术语错字或补天禽/伏吟盘"
+    }
+  ],
+  "worked_examples": []
+}

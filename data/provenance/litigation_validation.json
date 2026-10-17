@@ -1,0 +1,173 @@
+{
+  "source_sha256": "a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2",
+  "source_byte_count": 30547,
+  "source_line_count": 267,
+  "source_file": "神奇之门_官司诉讼预测_精校完整版.txt",
+  "verification_basis": "user_attestation",
+  "system_performed_independent_verification": false,
+  "stories": 6,
+  "events": 6,
+  "charts": 6,
+  "source_palaces": 54,
+  "records": 68,
+  "context_groups": 14,
+  "technical_boundaries": 8,
+  "reference_candidates": 6,
+  "case5_original_role_method_and_author_critique_separate": true,
+  "case6_late_published_chart_same_historical_inquiry": true,
+  "last_line_as_supplied": "奇门预测后，应能指导行为，采取什么策略有利于我。时干丁奇主事体，天盘丁奇为客，地盘丁奇为主，现在是主来克客；日干丙为李师傅落坎一宫，天盘丙为客，地盘丙为主，也是主来克客。从时干、日干上看，均利主，因此应选择为主的策略来指导自己的行动。为主则采取不主动去找厂领导，也不再上告，而是要等待对方上门来找我，则对我有利。\n",
+  "schema_migration": false,
+  "formal_rules_added": 0,
+  "training_tasks_added": 0,
+  "snapshot": {
+    "data_version": "70680bd7-daa7-4374-9215-9cd6518acaae",
+    "snapshot": "data/snapshots/current",
+    "counts": {
+      "data_versions": 75,
+      "books": 1,
+      "chapters": 16,
+      "raw_documents": 16,
+      "chapter_revisions": 16,
+      "source_reviews": 23,
+      "source_spans": 2729,
+      "methods": 25,
+      "concepts": 2302,
+      "concept_links": 0,
+      "knowledge_items": 993,
+      "rules": 0,
+      "rule_conditions": 0,
+      "rule_disagreements": 0,
+      "event_families": 75,
+      "cases": 78,
+      "events": 84,
+      "case_events": 84,
+      "charts": 83,
+      "case_records": 1274,
+      "evidence_links": 1597,
+      "dataset_releases": 0,
+      "split_assignments": 0,
+      "training_tasks": 0,
+      "task_inputs": 0
+    },
+    "manifest_sha256": "7f2c4152f8d4e29a81eb5a88d1c67ba8cc2e1e08da2fdd70ac2d625bc5105dae"
+  },
+  "old_rows_preserved": {
+    "rule_conditions": {
+      "old": 0,
+      "new": 0
+    },
+    "concept_links": {
+      "old": 0,
+      "new": 0
+    },
+    "case_events": {
+      "old": 78,
+      "new": 84
+    },
+    "data_versions": {
+      "old": 70,
+      "new": 75
+    },
+    "case_records": {
+      "old": 1206,
+      "new": 1274
+    },
+    "rule_disagreements": {
+      "old": 0,
+      "new": 0
+    },
+    "training_tasks": {
+      "old": 0,
+      "new": 0
+    },
+    "evidence_links": {
+      "old": 1529,
+      "new": 1597
+    },
+    "chapter_revisions": {
+      "old": 15,
+      "new": 16
+    },
+    "knowledge_items": {
+      "old": 965,
+      "new": 993
+    },
+    "methods": {
+      "old": 24,
+      "new": 25
+    },
+    "event_families": {
+      "old": 69,
+      "new": 75
+    },
+    "raw_documents": {
+      "old": 15,
+      "new": 16
+    },
+    "cases": {
+      "old": 72,
+      "new": 78
+    },
+    "task_inputs": {
+      "old": 0,
+      "new": 0
+    },
+    "source_spans": {
+      "old": 2620,
+      "new": 2729
+    },
+    "concepts": {
+      "old": 2240,
+      "new": 2302
+    },
+    "events": {
+      "old": 78,
+      "new": 84
+    },
+    "rules": {
+      "old": 0,
+      "new": 0
+    },
+    "split_assignments": {
+      "old": 0,
+      "new": 0
+    },
+    "charts": {
+      "old": 77,
+      "new": 83
+    },
+    "chapters": {
+      "old": 15,
+      "new": 16
+    },
+    "books": {
+      "old": 1,
+      "new": 1
+    },
+    "source_reviews": {
+      "old": 22,
+      "new": 23
+    },
+    "dataset_releases": {
+      "old": 0,
+      "new": 0
+    }
+  },
+  "old_raw_documents_preserved": 15,
+  "remote_base_sha": "54fc94426626ba8bbc822f53585eed4c22d43951",
+  "github_sync": {
+    "status": "pending"
+  },
+  "workflow_added": false,
+  "workflow_deleted": false,
+  "local_regression": {
+    "command": "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+    "tests": 340,
+    "failures": 0,
+    "errors": 0,
+    "new_chapter_tests": 17
+  },
+  "snapshot_roundtrip": "byte_identical",
+  "api_original_charts": 6,
+  "cli_cases": 6
+}
