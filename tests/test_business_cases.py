@@ -71,14 +71,39 @@ class BusinessCaseTests(unittest.TestCase):
         self.assertFalse(any(r['knowledge_phase'] == 'pre_prediction'
                              for case in c for e in case['events'] for r in e['records']))
 
-    def test_same_original_chart_id_is_projected(self):
+    def test_all_sixteen_original_charts_project_without_modifying_source(self):
         svc = QimenService(self.db)
-        c = svc.cases('business-finance')['cases'][0]
-        chart_id = c['events'][0]['chart_ids'][0]
-        result = svc.case_chart(c['case_id'], chart_id)
-        self.assertEqual(result['status'], 'projected')
-        self.assertEqual(len(result['palaces']), 9)
-        self.assertFalse(result['engine_verified'])
+        count = 0
+        literal_centre_found = False
+        for c in svc.cases('business-finance')['cases']:
+            for event in c['events']:
+                for chart_id in event['chart_ids']:
+                    result = svc.case_chart(c['case_id'], chart_id)
+                    self.assertEqual(result['status'], 'projected')
+                    self.assertEqual(len(result['palaces']), 9)
+                    self.assertFalse(result['engine_verified'])
+                    self.assertEqual(result['chart_id'], chart_id)
+                    if result['palaces']['5'].get('native_center_prefix_marker') == '禽':
+                        literal_centre_found = True
+                        self.assertEqual(result['palaces']['5']['earth_stem'], '己')
+                        self.assertEqual(result['palaces']['5']['source_cell_as_written'], '禽己')
+                    count += 1
+        self.assertEqual(count, 16)
+        self.assertTrue(literal_centre_found)
+
+    def test_real_sql_reference_conditions_are_never_role_bindings(self):
+        svc = QimenService(self.db)
+        context = {'domain': 'business_finance', 'business_subtype': 'borrowing',
+                   'method_scope': 'shenqi_business_borrowing_reference_v1'}
+        result = svc.rule_candidates(context, domain='business_finance',
+                                     method='shenqi_business_reference_v1')
+        self.assertEqual(result['candidate_count'], 10)
+        self.assertEqual(len([c for c in result['candidates']
+                              if c['symbolic_status']=='applicable']), 1)
+        self.assertFalse(result['role_bindings'])
+        self.assertFalse(result['professional_analysis_completed'])
+        self.assertTrue(all(c['activation_status']=='reference_only'
+                            for c in result['candidates']))
 
     def test_idempotent_complete_reimport(self):
         curated = install_business(self.db, self.revision, self.curated)
