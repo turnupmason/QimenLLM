@@ -1,6 +1,7 @@
 """Parameterized runtime SQL retrieval; semantic similarity never activates a rule."""
 import json
 from ..knowledge.db import connect, digest
+from ..knowledge.source_confirmation import source_confirmation
 
 
 class KnowledgeRepository:
@@ -40,6 +41,7 @@ class KnowledgeRepository:
             raw = result.pop('content')
             if digest(raw)!=result['sha256']: raise ValueError('Source bytes do not match their recorded hash')
             result['excerpt'] = raw[result['byte_start']:result['byte_end']].decode('utf-8')
+            result['source_confirmation'] = source_confirmation(conn,result['revision_id'])
             return result
 
     def search(self, term: str, limit: int = 20) -> list[dict]:

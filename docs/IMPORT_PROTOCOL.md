@@ -14,7 +14,7 @@ PYTHONPATH=src python3 -m qimenllm audit
 PYTHONPATH=src python3 -m unittest discover -s tests -v
 ```
 
-只有用户明确确认原文时才加 `--confirmed`。同文重入返回 duplicate 与同一 source/revision，不生成新正文；确认可独立追加 review。不同文不会替换，须显式 `--revision 2` 等下一版本。原文文件以 bytes 读取，不经过 shell 转义或字符替换。
+用户已统一确认既往及未来资料。维护CLI和各章脚本默认confirmed，无需再加`--confirmed`或请求人工二次确认；`--unconfirmed`只供声明范围外的工程测试。既有七份资料已追加用户确认审计，新章沿同一政策。同文重入返回duplicate与同一source/revision，不生成新正文；声明幂等追加review。不同文不会替换，须显式`--revision 2`等下一版本。原文文件以bytes读取，不经过shell转义或字符替换。
 
 结构化注释由 Codex 精读后形成 JSON 数组，CLI：
 
@@ -36,11 +36,11 @@ PYTHONPATH=src python3 -m qimenllm annotate REVISION_ID work/annotations.json
 PYTHONPATH=src python3 scripts/import_shenqi_chapter01.py
 ```
 
-脚本从仓库真实原文字节快照读取，校验确定SHA，按相同book/chapter键导入，再安装人工精读的chapter01_curated.json。作者/版本未知，confirmed=false；同文重放不增加正文、概念、编译条目或数据版本。不同哈希拒绝，不用于下一章。默认尝试GitHub同步；受限网络按GITHUB_SYNC由Codex完成推送。
+脚本从仓库真实原文字节快照读取，校验确定SHA，按相同book/chapter键导入，再安装精读的chapter01_curated.json。作者/版本未提供不补，confirmed=true；当前声明已应用后，同文重放不增加正文、概念、编译条目或数据版本。不同哈希拒绝，不用于下一章。默认尝试GitHub同步；受限网络按GITHUB_SYNC由Codex完成推送。
 
 可信维护过程中可用 --local-only 分阶段检查或针对临时库重建；这会明确输出github_sync=pending，不能据此交付。全部工作完成后必须导出当前快照、测试、推送并核对远端。脚本不执行训练、不读取其他书或旧项目。
 
-本次正文完整保留，但用户尚未明确校勘确认，状态pending与教学算法源码测试独立；不需为继续保存已提供材料额外确认。后续章节仍按用户输入顺序，不能直接套用首章算法填缺失规则。细节见 ingestion/SHENQI_CHAPTER01.md。
+首章当前已按用户声明确认，旧pending审计作为历史保留并由最新confirmed覆盖，不再等待校勘确认。后续章节仍按用户输入顺序，不能直接套用首章算法填缺失规则。初次导入历史见ingestion/SHENQI_CHAPTER01.md，现行接受状态查最新source_reviews。
 
 ## 第二章重放
 
@@ -48,7 +48,7 @@ PYTHONPATH=src python3 scripts/import_shenqi_chapter01.py
 PYTHONPATH=src python3 scripts/import_shenqi_chapter02.py
 ```
 
-只接受本次第二章确切原文字节SHA，保留已有book键、chapter-02和顺序2；无confirmed推定。安装使用显式chapter02 compiler profile，分别保存上下文、质量记录、完整演算例及8编译族。不自动读其他书，纸上十步仅流程参考，公历转换没有给算法就不编造。
+只接受本次第二章确切原文字节SHA，保留已有book键、chapter-02和顺序2；按用户长期声明confirmed。安装使用显式chapter02 compiler profile，分别保存上下文、技术边界、完整演算例及8编译族。不自动读其他书，纸上十步仅流程参考，公历转换没有给算法就不编造。
 
 跨章运行需要首章既有数据：新设备优先恢复完整current快照，或分别重放两章脚本。--local-only只供分阶段维护/临时验证，会输出pending；最终仍必须导出、测试、push和远端核对。新增结构化JSON及来源/验收也纳入自动同步的受控目录。新章继续按用户完整章节输入，不把第二章两张教学盘当历史断案或训练反馈。
 
@@ -67,3 +67,5 @@ PYTHONPATH=src python3 scripts/import_shenqi_chapters0405.py
 人体疾病预测由scripts/import_shenqi_health.py按SHA重放：完整原文→10上下文/仅参考知识→6完整案例，默认最终尝试Git同步；--local-only仅分步维护，交付前仍须实际同步。先在临时库核查全部源行/案例时序及受限定的盘投影，再写实库，避免导入后改不可变载体。实例表列的天/地干解释有作者叠干出处，显式标整理约定，不擅自补九星/马星/空亡。不同案例载体的具体字段名不是源文缺项，统一从source_span读完整表。新章技术排序7不推印刷章号。
 
 恋爱婚姻由scripts/import_shenqi_marriage.py按确切SHA增量重放，先完整上下文/参考资料、再6整案和11来源候选。实库前在临时库校验，后验注释归反馈/案例审计，新的temporal_payload_contract显式启用结构检查，旧manifest不改。源表哈希策略只扩展明确审查的新附件，例3地盘重复、例5宫位与年份差别原样留存；最后一案2事件只有1已提供盘，不能自动补盘。技术排序8不推印刷章号。
+
+怀孕分娩由scripts/import_shenqi_pregnancy.py按确切SHA重放，技术键pregnancy-childbirth、排序9不推印刷章号。保存12完整块、6故事/5家族/6事件/6原盘、99记录、180证据、14候选及18候选历史。星名条件使用已给基础表全称，4条rev1保留并追加rev2；完整事件家族防拆分。68独立条件期望与54原行gold分别验证；程序对照差异不拒收原书。新用户资料默认confirmed，仍不从确认声明推断缺失结局、自动执行医学建议或现实准确率。

@@ -119,3 +119,9 @@ marriage源HASH注册独立projection_method，沿同一case-chart服务，只�
 6故事为7事件6已给原盘，最后一案首次事件无盘、次事件有盘，case_events分别关联同family；不能假设events[0]一定有chart或把后来好转挂到第二次。沿cases/case/case-chart现有API，无新旁路。11婚恋来源候选由实际SQL参与ask的检索/选择trace，reference_only不自动绑定。
 
 新manifest显式temporal_payload_contract=source-stage-v1，cases.ingestion在任何写入前核查已知结果审计字段及反馈引用顺序，预测记录不夹带后续值，审计移feedback/case顶层。该合同非全语义泄漏证明，旧manifest保留原样，训练发布仍未实现。schema v1无迁移。
+
+## 现行确认与孕产接线
+
+knowledge.source_confirmation以追加review/data_version保存用户对全部既往和未来资料的确认声明；import_chapter及维护CLI/重放脚本默认confirmed。真实KnowledgeRepository.source、case inspection及source_chart读取同一最新确认，含user_attestation依据；公众问事不能写入该状态。旧payload不回写，当前source_confirmation明确覆盖历史未确认注释。明确源注释的受孕/分娩feedback可作为其窄范围结果读取，不虚构未给结局或系统外查。
+
+pregnancy installer、source hash投影、cases与候选复用原正式service/CLI/API，没有新问事旁路。六故事按五家族分组，前两共享家族而分别事件/原盘；SQL候选取最新修订，14当前/18新历史。源表投影同ID，明确paper方法才建另一个比较盘；mismatch只记技术差异、source_rejected=false。保守事前视图各4/2/2/2/2/4条，后置盘、解释、医院新信息、结果与加工注不回灌。医学内容是古籍案例研究，当前ask仍blocked，不把历史建议转为临床决策。

@@ -6,12 +6,15 @@ calendar, void, horse, extra star or medical conclusion is inferred here.
 from __future__ import annotations
 from collections import Counter
 from ..knowledge.db import connect, digest
+from ..knowledge.source_confirmation import source_confirmation
 from ..retrieval.repository import KnowledgeRepository
 
 HEALTH_SHA='73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d'
 MARRIAGE_SHA='041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5'
+PREGNANCY_SHA='adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69'
 PROJECTION='shenqi_health_table_projection_v1'
-SOURCE_POLICIES={HEALTH_SHA:PROJECTION,MARRIAGE_SHA:'shenqi_marriage_table_projection_v1'}
+SOURCE_POLICIES={HEALTH_SHA:PROJECTION,MARRIAGE_SHA:'shenqi_marriage_table_projection_v1',
+                 PREGNANCY_SHA:'shenqi_pregnancy_table_projection_v1'}
 NUMERALS=dict(zip('一二三四五六七八九',range(1,10)))
 
 
@@ -40,6 +43,7 @@ def project_chart(db,case_id,chart_id):
         raw=row['content']; text=raw[row['byte_start']:row['byte_end']].decode()
         review=conn.execute('SELECT status FROM source_reviews WHERE revision_id=? ORDER BY rowid DESC LIMIT 1',
                             (row['revision_id'],)).fetchone()
+        confirmation=source_confirmation(conn,row['revision_id'])
     knowledge=KnowledgeRepository(db)
     compiled=knowledge.compiled_datasets('shenqi_ch1_foundation_v1')
     families={r['payload']['dataset']['key']:r for r in compiled}
@@ -98,6 +102,7 @@ def project_chart(db,case_id,chart_id):
     result={'status':'projected','case_id':case_id,'chart_id':chart_id,'event_id':row['event_id'],
             'projection_method':SOURCE_POLICIES[row['sha256']],'source_sha256':row['sha256'],
             'source_acceptance':review[0] if review else 'pending',
+            'source_confirmation':confirmation,
             'original_validation_status':row['validation_status'],'source_metadata':metadata,
             'palaces':{str(p):palaces[p] for p in sorted(palaces)},'reference_evidence':evidence,
             'raw_table_complete':True,'interpretation_basis':'reviewed_transcription_convention_not_engine_recalculation',
@@ -105,7 +110,7 @@ def project_chart(db,case_id,chart_id):
             'training_export':False,'purpose':'historical_source_chart_reading',
             'original_chart_modified':False,'engine_verified':False,'calendar_recomputed':False,
             'voids':None,'horse':None,'medical_inference':None,'professional_analysis_completed':False}
-    if row['sha256']==MARRIAGE_SHA:
+    if row['sha256'] in (MARRIAGE_SHA,PREGNANCY_SHA):
         counts=Counter(p['earth_stem'] for p in palaces.values())
         result['source_table_observations']={'distinct_primary_earth_stems':len(counts),
             'duplicate_primary_earth_stems':{s:[p['palace'] for p in palaces.values() if p['earth_stem']==s]

@@ -10,6 +10,7 @@ import json
 from pathlib import Path
 
 from ..knowledge.db import connect, digest
+from ..knowledge.source_confirmation import source_confirmation
 
 
 def list_cases(db,chapter_key=None):
@@ -50,15 +51,39 @@ def _source(conn, source_id: str) -> dict:
     if digest(raw) != row['sha256']:
         raise ValueError('Case source hash mismatch')
     start, end = row['byte_start'], row['byte_end']
-    review = conn.execute('''SELECT status FROM source_reviews WHERE revision_id=?
-        ORDER BY rowid DESC LIMIT 1''', (row['revision_id'],)).fetchone()
+    confirmation = source_confirmation(conn, row['revision_id'])
     return {'source_id': row['source_id'], 'revision_id': row['revision_id'],
             'source_sha256': row['sha256'], 'byte_start': start, 'byte_end': end,
             'locator': row['locator'], 'book_key': row['book_key'],
             'book_title': row['book_title'], 'chapter_key': row['chapter_key'],
             'chapter_title': row['chapter_title'],
-            'source_acceptance': review[0] if review else 'pending',
+            'source_acceptance': confirmation['source_acceptance'],
+            'source_confirmation': confirmation,
             'text': raw[start:end].decode('utf-8')}
+
+
+def _outcome_confirmation(records: list[dict]) -> dict:
+    """Accept reported outcomes under the user's declaration, never infer one."""
+    # These source-backed result annotations were stored as dialogue feedback.
+    # Preserve their immutable rows and their narrow scope (conception is not
+    # confirmation of an unreported birth or fetal sex).
+    result_roles = {'reported_first_lunar_month_conception', 'reported_delivery_result'}
+    outcomes = [record for record in records if (record['kind'] == 'outcome' or
+                record['kind'] == 'feedback' and record.get('payload',{}).get('record_role') in result_roles)
+                and record['knowledge_phase'] == 'post_feedback']
+    accepted = bool(outcomes) and all(record['source']['source_confirmation'][
+        'user_declares_independent_verification'] for record in outcomes)
+    return {'status': ('user_confirmed_reported_outcomes' if accepted else
+                       'not_user_confirmed' if outcomes else 'no_normalized_outcome_record'),
+            'recorded_outcome_count': len(outcomes),
+            'reported_outcomes_user_confirmed': accepted,
+            'verification_basis': 'user_attestation' if accepted else None,
+            'system_performed_independent_verification': False,
+            'scope': 'outcome_kind_or_explicit_source_annotated_result_only',
+            'recorded_outcome_roles': sorted({record.get('payload',{}).get('record_role') or
+                                             'explicit_outcome_record' for record in outcomes}),
+            'unreported_outcomes_not_inferred': True,
+            'prediction_accuracy_evaluated': False}
 
 
 def _covered(source: dict, allowed: list[dict]) -> bool:
@@ -92,11 +117,14 @@ def inspect_case(db: str | Path, case_id: str, view: str = 'full') -> dict:
         case = conn.execute('SELECT * FROM cases WHERE case_id=?', (case_id,)).fetchone()
         if case is None:
             raise KeyError(case_id)
+        revision_id = conn.execute('SELECT revision_id FROM source_spans WHERE source_id=?',
+                                   (case['source_id'],)).fetchone()[0]
         full = view == 'full'
         result = {'case_id': case['case_id'], 'view': view,
                   'data_version': case['data_version'], 'events': [],
                   'training_export': False, 'professional_prediction': False,
                   'outcome_independently_verified': False,
+                  'source_confirmation': source_confirmation(conn, revision_id),
                   'trace': [{'stage': 'case_lookup', 'tables': ['cases', 'case_events',
                     'events', 'case_records', 'charts', 'source_spans', 'raw_documents',
                     'source_reviews', 'evidence_links']}],
@@ -142,6 +170,11 @@ def inspect_case(db: str | Path, case_id: str, view: str = 'full') -> dict:
                 if full:
                     item['chart_id'] = record['chart_id']
                     item['payload'] = json.loads(record['payload_json'])
+                    item['source_confirmation'] = dict(source['source_confirmation'])
+                    if item['payload'].get('independent_confirmed') is False:
+                        item['source_confirmation'][
+                            'historical_annotation_superseded_by_current_user_attestation'] = bool(
+                                source['source_confirmation']['user_declares_independent_verification'])
                 event_result['records'].append(item)
             for chart in conn.execute('SELECT * FROM charts WHERE event_id=? ORDER BY chart_id',
                                       (event['event_id'],)):
@@ -180,5 +213,12 @@ def inspect_case(db: str | Path, case_id: str, view: str = 'full') -> dict:
                 event_result['cutoff_sequence'] = boundary
                 event_result['withheld_background'] = True
                 event_result['training_eligible'] = False
+            else:
+                event_result['outcome_confirmation'] = _outcome_confirmation(event_result['records'])
             result['events'].append(event_result)
+        if full:
+            result['outcome_confirmation'] = _outcome_confirmation([
+                record for event in result['events'] for record in event['records']])
+            result['outcome_independently_verified'] = result[
+                'outcome_confirmation']['reported_outcomes_user_confirmed']
         return result

@@ -7,6 +7,7 @@ from pathlib import Path
 from uuid import uuid4
 
 from .db import connect, digest, now
+from .source_confirmation import append_user_attestation, attestation_note, source_confirmation
 
 
 class ImportConflict(ValueError):
@@ -29,7 +30,14 @@ def import_chapter(db: str | Path, raw_dir: str | Path, content: bytes, *,
                    book_key: str, book_title: str, chapter_key: str, chapter_title: str,
                    sequence: int, origin: str, author: str | None = None,
                    edition: str | None = None, revision: int | None = None,
-                   confirmed: bool = False) -> dict:
+                   confirmed: bool = True) -> dict:
+    """Import a maintainer-supplied source, accepted under the owner's declaration.
+
+    Explicit ``confirmed=False`` is an opt-out for neutral pending fixtures or
+    sources outside that declaration. Public inquiry text never calls this tool.
+    """
+    if not isinstance(confirmed, bool):
+        raise ValueError('confirmed must be a boolean maintainer decision')
     text = content.decode('utf-8')  # no BOM removal, whitespace cleanup, newline conversion
     if not text.strip() or not all((book_key.strip(), book_title.strip(), chapter_key.strip(), chapter_title.strip(), origin.strip())):
         raise ValueError('Nonempty text and source identity required')
@@ -78,13 +86,12 @@ def import_chapter(db: str | Path, raw_dir: str | Path, content: bytes, *,
             result['source_id']=conn.execute('''SELECT source_id FROM source_spans WHERE revision_id=?
                 AND byte_start=0 AND byte_end=? AND locator='full chapter' ''',
                 (existing['revision_id'],len(content))).fetchone()[0]
-            latest_review=conn.execute('SELECT status FROM source_reviews WHERE revision_id=? ORDER BY rowid DESC LIMIT 1',
-                                      (existing['revision_id'],)).fetchone()
-            if confirmed and (latest_review is None or latest_review[0]!='confirmed'):
-                new_version(conn,'confirm_source',{'revision_id':existing['revision_id']})
-                conn.execute('INSERT INTO source_reviews VALUES (?,?,?,?,?,?)',
-                    (str(uuid4()),existing['revision_id'],'confirmed','user','Explicit confirmation at repeated import',now()))
-            result.update(duplicate=True, sha256=sha)
+            if confirmed and append_user_attestation(conn, existing['revision_id']):
+                result['data_version'] = new_version(conn, 'confirm_source',
+                    {'revision_id': existing['revision_id'],
+                     'declaration': json.loads(attestation_note())})
+            result.update(duplicate=True, sha256=sha,
+                          source_confirmation=source_confirmation(conn, existing['revision_id']))
             return result
         latest = conn.execute('SELECT MAX(revision) FROM chapter_revisions WHERE chapter_id=?', (chapter_id,)).fetchone()[0]
         expected = (latest or 0) + 1
@@ -95,18 +102,24 @@ def import_chapter(db: str | Path, raw_dir: str | Path, content: bytes, *,
         document_id = 'doc-' + sha
         conn.execute('INSERT OR IGNORE INTO raw_documents VALUES (?,?,?,?,?,?)',
                      (document_id, sha, content, len(content), 'text/plain; charset=utf-8', now()))
-        version = new_version(conn, 'import_chapter', {'book':book_key,'chapter':chapter_key,'revision':expected,'sha256':sha})
+        version = new_version(conn, 'import_chapter', {'book':book_key,'chapter':chapter_key,
+            'revision':expected,'sha256':sha,'source_confirmation':
+            json.loads(attestation_note()) if confirmed else {'source_acceptance':'pending'}})
         revision_id, source_id = str(uuid4()), str(uuid4())
         conn.execute('INSERT INTO chapter_revisions VALUES (?,?,?,?,?,?,?)',
                      (revision_id, chapter_id, expected, document_id, version, origin, now()))
         conn.execute('INSERT INTO source_spans VALUES (?,?,?,?,?)',
                      (source_id, revision_id, 0, len(content), 'full chapter'))
-        conn.execute('INSERT INTO source_reviews VALUES (?,?,?,?,?,?)',
-                     (str(uuid4()), revision_id, 'confirmed' if confirmed else 'pending',
-                      'user' if confirmed else 'importer', 'Explicit confirmation at import' if confirmed else 'Awaiting source acceptance', now()))
+        if confirmed:
+            append_user_attestation(conn, revision_id)
+        else:
+            conn.execute('INSERT INTO source_reviews VALUES (?,?,?,?,?,?)',
+                         (str(uuid4()), revision_id, 'pending', 'importer',
+                          'Explicit maintainer opt-out from user-supplied source acceptance', now()))
         conn.execute('INSERT INTO chapter_search(revision_id,body) VALUES (?,?)', (revision_id, text))
         return {'revision_id':revision_id, 'source_id':source_id, 'data_version':version,
-                'revision':expected, 'sha256':sha, 'duplicate':False}
+                'revision':expected, 'sha256':sha, 'duplicate':False,
+                'source_confirmation':source_confirmation(conn, revision_id)}
 
 
 def add_annotations(db: str | Path, revision_id: str, annotations: list[dict]) -> dict:

@@ -24,7 +24,7 @@ def main():
     if digest(raw)!=SOURCE_SHA: parser.error('Different source bytes require an explicit revision workflow')
     source=import_chapter(args.db,args.raw_dir,raw,book_key='shenqi-user-text-v1',book_title='神奇之门',
         chapter_key='application-overview',chapter_title='奇门遁甲应用概述',sequence=6,
-        origin='user-upload:sediment://file_000000003d1081f6b048e2ee4b4b1253',confirmed=False)
+        origin='user-upload:sediment://file_000000003d1081f6b048e2ee4b4b1253',confirmed=True)
     load=lambda key:json.loads((DATA/f'application_overview_{key}.json').read_bytes())
     result={'source':source,'curation':install_application(args.db,source['revision_id'],load('curated')),
             'candidates':install_candidates(args.db,source['revision_id'],load('rule_candidates')),

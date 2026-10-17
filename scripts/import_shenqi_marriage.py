@@ -24,7 +24,7 @@ def main():
     if digest(raw)!=MARRIAGE_SHA:parser.error('Different source bytes require explicit revision workflow')
     source=import_chapter(args.db,args.raw_dir,raw,book_key='shenqi-user-text-v1',book_title='神奇之门',
         chapter_key='marriage-prediction',chapter_title='恋爱婚姻预测',sequence=8,
-        origin='user-upload:sediment://file_000000006ce081f69f2d3955faaef1f4',confirmed=False)
+        origin='user-upload:sediment://file_000000006ce081f69f2d3955faaef1f4',confirmed=True)
     load=lambda key:json.loads((DATA/f'marriage_{key}.json').read_bytes())
     result={'source':source,'curation':install_marriage(args.db,source['revision_id'],load('curated')),
             'cases':import_cases(args.db,source['revision_id'],load('cases')),

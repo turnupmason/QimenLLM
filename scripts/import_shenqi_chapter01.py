@@ -30,7 +30,7 @@ def main():
     result = {'source': import_chapter(
         args.db, args.raw_dir, raw, book_key='shenqi-user-text-v1', book_title='神奇之门',
         chapter_key='chapter-01', chapter_title='时家奇门演局的规律', sequence=1,
-        origin='user-upload:file_000000002c9081f6bfe1eb22da47d4d0', confirmed=False)}
+        origin='user-upload:file_000000002c9081f6bfe1eb22da47d4d0', confirmed=True)}
     result['curation'] = install_curated(args.db, result['source']['revision_id'], curated)
     status = 0
     if args.local_only:

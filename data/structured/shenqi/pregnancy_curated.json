@@ -1,0 +1,2607 @@
+{
+  "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+  "source_byte_count": 17843,
+  "source_line_count": 505,
+  "chapter_title": "怀孕分娩预测",
+  "chapter_key_suggestion": "pregnancy-childbirth",
+  "printed_chapter_number": null,
+  "sections": [
+    {
+      "key": "section_01",
+      "title": "第一节 取用判断经验",
+      "line_start": 1,
+      "line_end": 56
+    },
+    {
+      "key": "section_02",
+      "title": "第二节 实例解析（6例）",
+      "line_start": 57,
+      "line_end": 505
+    }
+  ],
+  "groups": [
+    {
+      "key": "pregnancy_title_and_section_01",
+      "title": "怀孕分娩预测：标题与第一节",
+      "category": "commentary",
+      "line_start": 1,
+      "line_end": 5,
+      "attribution": "本章叙述者；具名学员与张志春加工注明确分开",
+      "summary": "保存章与节标题；本次没有印刷章号，不反推。",
+      "concepts": [
+        "怀孕分娩预测",
+        "取用判断经验"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 1,
+        "line_end": 5,
+        "byte_start": 0,
+        "byte_end": 51
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "pregnancy_author_research_scope",
+      "title": "作者研究范围与经验来源声明",
+      "category": "commentary",
+      "line_start": 6,
+      "line_end": 10,
+      "attribution": "本章叙述者；具名学员与张志春加工注明确分开",
+      "summary": "作者明确研究会未将此列入研究项目、没有积累此方面经验；本章归纳古籍经验并举现代案例。原文已由用户确认，研究范围仍需保留。",
+      "concepts": [
+        "现代医学",
+        "研究范围",
+        "古籍经验",
+        "现代测例"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 6,
+        "line_end": 10,
+        "byte_start": 51,
+        "byte_end": 488
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true,
+      "source_scope_notes": {
+        "source_acceptance": "user_confirmed",
+        "author_explicit_scope": "研究会未将此列入研究项目，也没有积累这方面的经验；归纳古籍经验并举测例",
+        "not_a_claim_of_modern_clinical_validation": true
+      }
+    },
+    {
+      "key": "pregnancy_fetal_sex_methods_complete",
+      "title": "判断胎儿性别：全部并列取法完整语境",
+      "category": "role",
+      "line_start": 11,
+      "line_end": 23,
+      "attribution": "本章叙述者；具名学员与张志春加工注明确分开",
+      "summary": "完整保存坤宫星、天禽双生、门、日时干、值符配六合或值使的并列方法。",
+      "concepts": [
+        "坤宫",
+        "天芮",
+        "天盘星",
+        "胎儿",
+        "阴阳星",
+        "天禽",
+        "双生",
+        "阴阳干",
+        "八门",
+        "日干",
+        "时干",
+        "值符",
+        "六合",
+        "值使"
+      ],
+      "dataset": {
+        "key": "pregnancy_fetal_sex_methods_complete_reference",
+        "rows": [
+          {
+            "key": "pregnancy_kun_stars_mother_fetus",
+            "analysis_focus": "以坤宫天芮为母、天盘临坤宫之星为胎儿，按星阴阳判断的传统方法",
+            "source_lines": [
+              13,
+              13
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 13,
+              "line_end": 13,
+              "byte_start": 518,
+              "byte_end": 627
+            },
+            "source_quote": "以坤宫天芮星为母亲，以天盘临坤宫之星为胎儿，阳星为男胎儿，阴星为女胎儿。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_pregnancy_method_reference",
+            "method_scope": "shenqi_pregnancy_kun_star_v1",
+            "role_candidates": [
+              {
+                "role": "母亲",
+                "symbol": "天芮星",
+                "reference": "坤宫本宫/地盘语境，不能误作任意天盘天芮实际落宫"
+              },
+              {
+                "role": "胎儿",
+                "symbol": "天盘临坤宫之星"
+              }
+            ],
+            "source_branches": [
+              {
+                "condition": "阳星",
+                "author_interpretation": "男胎儿"
+              },
+              {
+                "condition": "阴星",
+                "author_interpretation": "女胎儿"
+              }
+            ],
+            "exclusions": [
+              "此星法与门法、日时干法等为并列方法，不证明是唯一方法",
+              "星的本宫与实际天盘落宫分别保存"
+            ]
+          },
+          {
+            "key": "pregnancy_tianqin_twins_and_stem",
+            "analysis_focus": "天禽临坤宫为双生，继以干阴阳论男女；未说明阴阳干所指盘层，不补造",
+            "source_lines": [
+              15,
+              15
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 15,
+              "line_end": 15,
+              "byte_start": 628,
+              "byte_end": 701
+            },
+            "source_quote": "其中天禽星临坤宫为双生，阳干是男孩，阴干是女孩。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_pregnancy_method_reference",
+            "method_scope": "shenqi_pregnancy_tianqin_twins_v1",
+            "required_symbol_context": "天禽星临坤宫",
+            "source_branches": [
+              {
+                "condition": "阳干",
+                "author_interpretation": "男孩"
+              },
+              {
+                "condition": "阴干",
+                "author_interpretation": "女孩"
+              }
+            ],
+            "technical_boundary": "原文没有明确本段阳干阴干究竟取哪个盘层或干；原文确认不等于技术绑定完成"
+          },
+          {
+            "key": "pregnancy_kun_door_fetus",
+            "analysis_focus": "又以坤宫所临门为胎儿，按门阴阳判断；与星法分别保留",
+            "source_lines": [
+              17,
+              17
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 17,
+              "line_end": 17,
+              "byte_start": 702,
+              "byte_end": 775
+            },
+            "source_quote": "又以坤宫所临之门为胎儿，阳门为男胎，阴门为女胎。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_pregnancy_method_reference",
+            "method_scope": "shenqi_pregnancy_kun_door_v1",
+            "role_candidates": [
+              {
+                "role": "胎儿",
+                "symbol": "坤宫所临之门"
+              }
+            ],
+            "source_branches": [
+              {
+                "condition": "阳门",
+                "author_interpretation": "男胎"
+              },
+              {
+                "condition": "阴门",
+                "author_interpretation": "女胎"
+              }
+            ]
+          },
+          {
+            "key": "pregnancy_day_hour_mother_child",
+            "analysis_focus": "又可日干为母、时干为子，综合时干阴阳和所临星门宫",
+            "source_lines": [
+              19,
+              19
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 19,
+              "line_end": 19,
+              "byte_start": 776,
+              "byte_end": 876
+            },
+            "source_quote": "又可以日干为母，以时干为子，以时干阴阳和所临星、门、宫来判断男女。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_pregnancy_method_reference",
+            "method_scope": "shenqi_pregnancy_day_hour_v1",
+            "role_candidates": [
+              {
+                "role": "母",
+                "symbol": "日干"
+              },
+              {
+                "role": "子",
+                "symbol": "时干"
+              }
+            ],
+            "requires_combination": [
+              "时干阴阳",
+              "时干所临星",
+              "时干所临门",
+              "时干所临宫"
+            ],
+            "exclusions": [
+              "不得只凭时干阴阳一项断实际胎儿性别",
+              "不得与其他问题中日时干身份无条件合并"
+            ]
+          },
+          {
+            "key": "pregnancy_zhifu_alternative_fetus",
+            "analysis_focus": "还有值符为产母、六合或值使为胎儿两种取法；保留或而不暗选",
+            "source_lines": [
+              21,
+              21
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 21,
+              "line_end": 21,
+              "byte_start": 877,
+              "byte_end": 950
+            },
+            "source_quote": "还有以值符为产母，以六合或值使为胎儿来取用神的。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_pregnancy_method_reference",
+            "method_scope": "explicit_alternatives_zhifu_liuhe_or_zhishi",
+            "role_candidates": [
+              {
+                "role": "产母",
+                "symbol": "值符"
+              },
+              {
+                "role": "胎儿",
+                "symbol": "六合",
+                "alternative_group": "fetus_choice"
+              },
+              {
+                "role": "胎儿",
+                "symbol": "值使",
+                "alternative_group": "fetus_choice"
+              }
+            ],
+            "exclusions": [
+              "六合与值使为并列取法，不当作同一符号",
+              "没有明确方法选择时不自动指定唯一胎儿用神"
+            ]
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "source_method_reference_no_automatic_medical_or_fetal_sex_decision",
+        "conventions": {
+          "complete_context_source_pointer": {
+            "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+            "line_start": 11,
+            "line_end": 23,
+            "byte_start": 488,
+            "byte_end": 952
+          },
+          "unknown_conditions_not_satisfied": true,
+          "method_alternatives_preserved": true,
+          "no_case_specific_method_auto_generalization": true
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 11,
+        "line_end": 23,
+        "byte_start": 488,
+        "byte_end": 952
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "pregnancy_delivery_methods_complete",
+      "title": "胎位与分娩：宫星门格局及例外完整语境",
+      "category": "analysis",
+      "line_start": 24,
+      "line_end": 48,
+      "attribution": "本章叙述者；具名学员与张志春加工注明确分开",
+      "summary": "保留母胎星的有向生克、墓与凶格、宫门双向关系，以及旺相奇门例外、伏吟白虎和三奇。",
+      "concepts": [
+        "胎位",
+        "产室",
+        "天芮",
+        "地盘",
+        "天盘",
+        "母子生克",
+        "产速",
+        "产迟",
+        "旺相",
+        "奇门吉格",
+        "入墓",
+        "凶门凶格",
+        "伏吟",
+        "白虎",
+        "三奇"
+      ],
+      "dataset": {
+        "key": "pregnancy_delivery_methods_complete_reference",
+        "rows": [
+          {
+            "key": "pregnancy_star_delivery_relation_context",
+            "analysis_focus": "产室、母星、胎星角色与有向关系整段；母克子同时涉及产速、凶断及旺相奇门例外，不能截句编译",
+            "source_lines": [
+              26,
+              32
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 26,
+              "line_end": 32,
+              "byte_start": 1003,
+              "byte_end": 1343
+            },
+            "source_quote": "以坤宫为产室，天芮星为产母，天盘所临之星为胎儿。\n\n天芮克天盘之星者，主产速。\n\n天盘星生地盘星天芮者，子恋母腹，产迟。\n\n天盘星克地盘天芮者，为子克母，主母凶；地盘天芮克天盘星者，母克子，主子亡，但得旺相之气，及奇门吉格者则不碍事。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_pregnancy_delivery_reference",
+            "method_scope": "shenqi_pregnancy_delivery_star_v1",
+            "role_candidates": [
+              {
+                "role": "产室",
+                "symbol": "坤宫"
+              },
+              {
+                "role": "产母",
+                "symbol": "地盘/本宫天芮星"
+              },
+              {
+                "role": "胎儿",
+                "symbol": "天盘临坤宫之星"
+              }
+            ],
+            "source_branches": [
+              {
+                "directed_relation": "天芮克天盘星",
+                "author_interpretation": "产速"
+              },
+              {
+                "directed_relation": "天盘星生地盘天芮",
+                "author_interpretation": "子恋母腹、产迟"
+              },
+              {
+                "directed_relation": "天盘星克地盘天芮",
+                "author_interpretation": "子克母，主母凶"
+              },
+              {
+                "directed_relation": "地盘天芮克天盘星",
+                "author_interpretation": "母克子，主子亡",
+                "exception_source": "但得旺相之气，及奇门吉格者则不碍事"
+              }
+            ],
+            "technical_boundary": "保留母克胎星在产速与主子亡两处语境，以及旺相之气及奇门吉格原字；尚不把它们编为互斥单值结果，也不擅定及为程序AND或OR。"
+          },
+          {
+            "key": "pregnancy_adverse_chart_configuration_context",
+            "analysis_focus": "时干所临天盘星落地盘墓及天地盘凶门凶格的原书凶断；仅方法参考",
+            "source_lines": [
+              34,
+              36
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 34,
+              "line_end": 36,
+              "byte_start": 1344,
+              "byte_end": 1464
+            },
+            "source_quote": "如果时干所临天盘星落地盘墓，主子死母腹内。\n\n天地两盘如果乘凶门凶格者，子母俱凶。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_pregnancy_delivery_reference",
+            "method_scope": "shenqi_pregnancy_delivery_star_v1",
+            "required_facts": [
+              "时干所临天盘星",
+              "地盘墓对应约定",
+              "天地盘门格"
+            ],
+            "exclusions": [
+              "不作为胎死、母婴风险的临床诊断",
+              "未知地盘墓或凶格约定不得默认已满足"
+            ]
+          },
+          {
+            "key": "pregnancy_delivery_door_directed_relation_context",
+            "analysis_focus": "坤宫门为胎儿：产室克门与门克宫分向保存",
+            "source_lines": [
+              38,
+              38
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 38,
+              "line_end": 38,
+              "byte_start": 1465,
+              "byte_end": 1559
+            },
+            "source_quote": "又以坤宫所临之门为胎儿，产室克门，胎不安。门克坤宫，孕妇常病。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_pregnancy_delivery_reference",
+            "method_scope": "shenqi_pregnancy_delivery_door_v1",
+            "source_branches": [
+              {
+                "directed_relation": "产室克门",
+                "author_interpretation": "胎不安"
+              },
+              {
+                "directed_relation": "门克坤宫",
+                "author_interpretation": "孕妇常病"
+              }
+            ],
+            "exclusions": [
+              "不得颠倒宫克门与门克宫",
+              "传统解释不替代医疗判断"
+            ]
+          },
+          {
+            "key": "pregnancy_delivery_pattern_combination_context",
+            "analysis_focus": "伏吟、白虎、休囚入墓与三奇的完整条件语境，避免将单征象变成唯一临床结论",
+            "source_lines": [
+              40,
+              46
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 40,
+              "line_end": 46,
+              "byte_start": 1560,
+              "byte_end": 1756
+            },
+            "source_quote": "如果伏吟，为子恋母腹，胎主稳而产迟。\n\n上乘白虎，则主产速，因白虎为血光神。\n\n门到坤宫若休囚入墓，可能是死胎。\n\n如果临三奇，则为吉利。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_pregnancy_delivery_reference",
+            "method_scope": "shenqi_pregnancy_delivery_pattern_v1",
+            "source_branches": [
+              {
+                "condition": "伏吟",
+                "author_interpretation": "子恋母腹，胎稳产迟"
+              },
+              {
+                "condition": "上乘白虎",
+                "author_interpretation": "产速；白虎血光神"
+              },
+              {
+                "condition": "门到坤宫休囚入墓",
+                "author_interpretation": "可能是死胎",
+                "qualification": "可能"
+              },
+              {
+                "condition": "临三奇",
+                "author_interpretation": "吉利"
+              }
+            ],
+            "technical_boundary": "临三奇及上乘白虎所属对象需结合完整原文/案盘，不无依据绑定；保留可能措辞。"
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "source_method_reference_no_automatic_medical_or_fetal_sex_decision",
+        "conventions": {
+          "complete_context_source_pointer": {
+            "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+            "line_start": 24,
+            "line_end": 48,
+            "byte_start": 952,
+            "byte_end": 1758
+          },
+          "unknown_conditions_not_satisfied": true,
+          "method_alternatives_preserved": true,
+          "no_case_specific_method_auto_generalization": true
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 24,
+        "line_end": 48,
+        "byte_start": 952,
+        "byte_end": 1758
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "pregnancy_timing_methods_complete",
+      "title": "产期：对冲宫天干与庚上下干并列方法完整语境",
+      "category": "timing",
+      "line_start": 49,
+      "line_end": 56,
+      "attribution": "本章叙述者；具名学员与张志春加工注明确分开",
+      "summary": "一般取坤对冲宫天盘干，也可按阴日庚上、阳日庚下等法；不暗定唯一法或唯一公历日。",
+      "concepts": [
+        "产期",
+        "坤宫对冲",
+        "天盘干",
+        "阴日",
+        "阳日",
+        "庚上",
+        "庚下",
+        "应期"
+      ],
+      "dataset": {
+        "key": "pregnancy_timing_methods_complete_reference",
+        "rows": [
+          {
+            "key": "pregnancy_opposite_kun_heaven_stem_timing",
+            "analysis_focus": "一般以坤宫对冲宫天盘所临干为应期，未给每次唯一日时映射",
+            "source_lines": [
+              51,
+              51
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 51,
+              "line_end": 51,
+              "byte_start": 1782,
+              "byte_end": 1840
+            },
+            "source_quote": "一般以坤宫对冲之宫天盘所临之干为应期。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_pregnancy_timing_reference",
+            "method_scope": "shenqi_pregnancy_timing_opposite_kun_v1",
+            "qualification": "一般",
+            "required_facts": [
+              "坤宫对冲宫",
+              "该宫天盘所临之干"
+            ],
+            "exclusions": [
+              "不把一般方法当唯一",
+              "仅有干不能自动变成公历唯一日期时刻"
+            ]
+          },
+          {
+            "key": "pregnancy_geng_side_timing_alternatives",
+            "analysis_focus": "阴日庚上干、阳日庚下干亦可采用；与其他应期方法并列",
+            "source_lines": [
+              53,
+              53
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 53,
+              "line_end": 53,
+              "byte_start": 1841,
+              "byte_end": 1932
+            },
+            "source_quote": "也可按阴日看庚上之干，阳日看庚下之干等其他断应期的方法进行。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_pregnancy_timing_reference",
+            "method_scope": "explicit_alternatives_yin_above_yang_below",
+            "source_branches": [
+              {
+                "condition": "阴日",
+                "perspective": "庚上之干"
+              },
+              {
+                "condition": "阳日",
+                "perspective": "庚下之干"
+              }
+            ],
+            "exclusions": [
+              "不能将阴阳日条件替换成阴阳时",
+              "不能忽略盘层与所取庚的上下关系",
+              "等其他方法并非排他清单"
+            ]
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "source_method_reference_no_automatic_medical_or_fetal_sex_decision",
+        "conventions": {
+          "complete_context_source_pointer": {
+            "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+            "line_start": 49,
+            "line_end": 56,
+            "byte_start": 1758,
+            "byte_end": 1935
+          },
+          "unknown_conditions_not_satisfied": true,
+          "method_alternatives_preserved": true,
+          "no_case_specific_method_auto_generalization": true
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 49,
+        "line_end": 56,
+        "byte_start": 1758,
+        "byte_end": 1935
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "pregnancy_section_02_title",
+      "title": "第二节：六个完整实例标题",
+      "category": "commentary",
+      "line_start": 57,
+      "line_end": 59,
+      "attribution": "本章叙述者；具名学员与张志春加工注明确分开",
+      "summary": "本次明确六例，完整故事数量与事件、盘面、反馈轮次分别统计。",
+      "concepts": [
+        "实例解析",
+        "完整案例"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 57,
+        "line_end": 59,
+        "byte_start": 1935,
+        "byte_end": 1970
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "pregnancy_case_01_complete",
+      "title": "实例01：测怀孕完整故事与作者分析",
+      "category": "analysis",
+      "line_start": 60,
+      "line_end": 127,
+      "attribution": "本章叙述者；具名学员与张志春加工注明确分开",
+      "summary": "女儿计划1996生育，先问何时怀孕能生男；作者先说没有把握，分别用日时干、坤星门、天芮六合及填空判断。",
+      "concepts": [
+        "怀孕计划",
+        "日干",
+        "时干",
+        "空亡",
+        "坤宫",
+        "天任",
+        "伤门",
+        "六合",
+        "寅月填实"
+      ],
+      "dataset": {
+        "key": "pregnancy_case_01_complete_reference",
+        "rows": [
+          {
+            "key": "pregnancy_case_01_author_step_1",
+            "analysis_focus": "日干己、时干壬空亡说明尚未怀孕，震长男取象",
+            "source_lines": [
+              109,
+              114
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 109,
+              "line_end": 114,
+              "byte_start": 3515,
+              "byte_end": 3785
+            },
+            "source_quote": "（1）日干己为求测之人，落乾6宫时干空亡之地，说明尚未怀孕。\n\n以时干为所求之事，所求之子，时干壬落震3宫，临日干空亡之地（甲辰旬中空寅卯），也说明尚未怀孕。\n\n震主长男，头胎怀男孩之象。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "pregnancy_case_01",
+            "step_number": 1,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "explicit_symbol_evidence": [
+              "日干己乾6",
+              "时干壬震3",
+              "时干空亡",
+              "日干空亡",
+              "震长男"
+            ],
+            "chronology_policy": "完整案例的书面分析次序不等于事前可知顺序；后验反馈、医生中途披露、编者加工单独分层；不能将本语境整块作为训练事前输入。",
+            "generalization_status": "not_compiled_as_general_rule",
+            "attributed_forecaster": "本章第一人称预测者；女儿为求测者"
+          },
+          {
+            "key": "pregnancy_case_01_author_step_2",
+            "analysis_focus": "坤产母、天任阳星与伤阳门并参",
+            "source_lines": [
+              115,
+              116
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 115,
+              "line_end": 116,
+              "byte_start": 3785,
+              "byte_end": 3932
+            },
+            "source_quote": "（2）以坤宫为产母，坤宫天盘所临之星为胎儿，今临天任阳星，主男孩；所临伤门也为阳门，是生男孩之象。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "pregnancy_case_01",
+            "step_number": 2,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "explicit_symbol_evidence": [
+              "坤2",
+              "天任",
+              "伤门"
+            ],
+            "chronology_policy": "完整案例的书面分析次序不等于事前可知顺序；后验反馈、医生中途披露、编者加工单独分层；不能将本语境整块作为训练事前输入。",
+            "generalization_status": "not_compiled_as_general_rule",
+            "attributed_forecaster": "本章第一人称预测者；女儿为求测者"
+          },
+          {
+            "key": "pregnancy_case_01_author_step_3",
+            "analysis_focus": "天芮母、艮少男、乙庚夫妻六合胎儿与寅月填空",
+            "source_lines": [
+              117,
+              120
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 117,
+              "line_end": 120,
+              "byte_start": 3932,
+              "byte_end": 4119
+            },
+            "source_quote": "（3）以天芮星为母亲，今落艮8宫，艮也主少男；乙为妻，庚为夫，又上乘六合，六合也为胎儿。\n\n今艮8宫逢空，寅月填实，乙庚合而怀孕。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "pregnancy_case_01",
+            "step_number": 3,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "explicit_symbol_evidence": [
+              "天芮艮8",
+              "乙庚",
+              "六合",
+              "空亡",
+              "寅月填实"
+            ],
+            "chronology_policy": "完整案例的书面分析次序不等于事前可知顺序；后验反馈、医生中途披露、编者加工单独分层；不能将本语境整块作为训练事前输入。",
+            "generalization_status": "not_compiled_as_general_rule",
+            "attributed_forecaster": "本章第一人称预测者；女儿为求测者"
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "source_method_reference_no_automatic_medical_or_fetal_sex_decision",
+        "conventions": {
+          "complete_context_source_pointer": {
+            "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+            "line_start": 60,
+            "line_end": 127,
+            "byte_start": 1970,
+            "byte_end": 4269
+          },
+          "unknown_conditions_not_satisfied": true,
+          "method_alternatives_preserved": true,
+          "no_case_specific_method_auto_generalization": true,
+          "complete_case_source_pointer": {
+            "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+            "line_start": 60,
+            "line_end": 127,
+            "byte_start": 1970,
+            "byte_end": 4269
+          },
+          "source_case_title": "测怀孕",
+          "attributed_forecaster": "本章第一人称预测者；女儿为求测者",
+          "printed_step_order_preserved": true,
+          "timeline_notes": {
+            "initial_known_lines": [
+              62,
+              64,
+              66,
+              68
+            ],
+            "prediction_lines": [
+              122
+            ],
+            "later_feedback_lines": [
+              124
+            ],
+            "not_initial_input": [
+              "1996年正月已经怀孕"
+            ],
+            "same_event_family_as": "pregnancy_case_02",
+            "outcome_scope": "本案只记录正月怀孕；本案未单独给出生性别，不能借例2结果提前填入。"
+          },
+          "usable_for_training": "candidate_only_requires_temporal_and_event_family_split_validation",
+          "independent_future_prediction_performance": "not_measured_by_source_acceptance"
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 60,
+        "line_end": 127,
+        "byte_start": 1970,
+        "byte_end": 4269
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true,
+      "historical_case": true,
+      "case_key": "pregnancy_case_01",
+      "case_completeness": "complete_as_supplied",
+      "chronology_notes": {
+        "initial_known_lines": [
+          62,
+          64,
+          66,
+          68
+        ],
+        "prediction_lines": [
+          122
+        ],
+        "later_feedback_lines": [
+          124
+        ],
+        "not_initial_input": [
+          "1996年正月已经怀孕"
+        ],
+        "same_event_family_as": "pregnancy_case_02",
+        "outcome_scope": "本案只记录正月怀孕；本案未单独给出生性别，不能借例2结果提前填入。"
+      }
+    },
+    {
+      "key": "pregnancy_case_02_complete",
+      "title": "实例02：测分娩完整故事与作者分析",
+      "category": "analysis",
+      "line_start": 128,
+      "line_end": 203,
+      "attribution": "本章叙述者；具名学员与张志春加工注明确分开",
+      "summary": "同一女儿临产，作者并参多种母胎取法；性别证据冲突，明确不确定；产期从11月19日改至听闻医院预产期后的11月21日。",
+      "concepts": [
+        "母子平安",
+        "星法",
+        "门法",
+        "日时干",
+        "值符六合",
+        "性别不确定",
+        "医院预产期",
+        "庚上干",
+        "填空",
+        "冲动"
+      ],
+      "dataset": {
+        "key": "pregnancy_case_02_complete_reference",
+        "rows": [
+          {
+            "key": "pregnancy_case_02_author_step_1",
+            "analysis_focus": "日时同宫比和判断母子平安",
+            "source_lines": [
+              168,
+              169
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 168,
+              "line_end": 169,
+              "byte_start": 5310,
+              "byte_end": 5392
+            },
+            "source_quote": "（1）日干己、时干壬均在4宫，二者同宫比和，主母子平安。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "pregnancy_case_02",
+            "step_number": 1,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "explicit_symbol_evidence": [
+              "日干己",
+              "时干壬",
+              "巽4",
+              "同宫比和"
+            ],
+            "chronology_policy": "完整案例的书面分析次序不等于事前可知顺序；后验反馈、医生中途披露、编者加工单独分层；不能将本语境整块作为训练事前输入。",
+            "generalization_status": "not_compiled_as_general_rule",
+            "attributed_forecaster": "本章第一人称预测者；老伴提供问题与医院预产期"
+          },
+          {
+            "key": "pregnancy_case_02_author_step_2",
+            "analysis_focus": "坤产室、地盘天芮母、天心胎儿，母生子与亥月旺相",
+            "source_lines": [
+              170,
+              171
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 170,
+              "line_end": 171,
+              "byte_start": 5392,
+              "byte_end": 5563
+            },
+            "source_quote": "（2）以坤宫为产室，地盘天芮星为孕妇，以天盘星为胎儿，今天芮星生天心星，天心星临亥月为旺相，故母子平安，分娩顺利。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "pregnancy_case_02",
+            "step_number": 2,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "explicit_symbol_evidence": [
+              "坤2",
+              "地盘天芮",
+              "天盘天心",
+              "亥月旺相"
+            ],
+            "chronology_policy": "完整案例的书面分析次序不等于事前可知顺序；后验反馈、医生中途披露、编者加工单独分层；不能将本语境整块作为训练事前输入。",
+            "generalization_status": "not_compiled_as_general_rule",
+            "attributed_forecaster": "本章第一人称预测者；老伴提供问题与医院预产期"
+          },
+          {
+            "key": "pregnancy_case_02_author_step_3",
+            "analysis_focus": "门为胎儿、星为产室并参惊门天心比和、旺相与值符",
+            "source_lines": [
+              172,
+              177
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 172,
+              "line_end": 177,
+              "byte_start": 5563,
+              "byte_end": 5802
+            },
+            "source_quote": "（3）又可以坤宫所临之门为胎儿，以天盘星为产室。\n\n今惊门与天心星比和，又旺相，故母子平安，正常分娩。\n\n虽然戊+壬格局不太好，但上乘值符至吉之神，故一定会顺利生产。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "pregnancy_case_02",
+            "step_number": 3,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "explicit_symbol_evidence": [
+              "惊门",
+              "天心",
+              "戊+壬",
+              "值符"
+            ],
+            "chronology_policy": "完整案例的书面分析次序不等于事前可知顺序；后验反馈、医生中途披露、编者加工单独分层；不能将本语境整块作为训练事前输入。",
+            "generalization_status": "not_compiled_as_general_rule",
+            "attributed_forecaster": "本章第一人称预测者；老伴提供问题与医院预产期"
+          },
+          {
+            "key": "pregnancy_case_02_author_step_4",
+            "analysis_focus": "星门与时干提示女，六合震宫提示男，作者明确拿不准",
+            "source_lines": [
+              178,
+              183
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 178,
+              "line_end": 183,
+              "byte_start": 5802,
+              "byte_end": 6224
+            },
+            "source_quote": "（4）以坤宫天盘之星为胎儿，今天盘为天心星，天心星本在乾宫，乾为阳为男性，但在奇门中，天心星为阴星；又以坤宫所临之门为胎儿，今惊门为阴门；又时干壬落入巽宫：据此，莫非女儿怀的不是男孩，而是女孩？\n\n但，以值符为产母，以六合为胎儿，六合落震3宫，却又主男孩。\n\n到底是男是女，我也拿不准了。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "pregnancy_case_02",
+            "step_number": 4,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "explicit_symbol_evidence": [
+              "天心阴星",
+              "惊阴门",
+              "时干壬巽4",
+              "值符产母",
+              "六合震3"
+            ],
+            "chronology_policy": "完整案例的书面分析次序不等于事前可知顺序；后验反馈、医生中途披露、编者加工单独分层；不能将本语境整块作为训练事前输入。",
+            "generalization_status": "not_compiled_as_general_rule",
+            "attributed_forecaster": "本章第一人称预测者；老伴提供问题与医院预产期"
+          },
+          {
+            "key": "pregnancy_case_02_author_step_5",
+            "analysis_focus": "先依对冲宫庚判11月19日；听医院11月21日后改以庚上干、填空冲动修正",
+            "source_lines": [
+              184,
+              191
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 184,
+              "line_end": 191,
+              "byte_start": 6224,
+              "byte_end": 6752
+            },
+            "source_quote": "（5）断产期一般以坤宫对冲之宫天盘所临之干为应期。\n\n据此，艮宫天盘是庚，应断11月19日庚申日。\n\n但听老伴讲，医院给定的预产期是11月21日。\n\n据此，我又按阴日看庚上之干、阳日看庚下之干来判断，今己酉日为阴日，应看庚上之干，庚上之干为己，应在己亥月；庚上之干为壬，应为11月21日壬戌日，正好戌日填实乾6宫之空亡，冲动巽4宫产妇天芮和时干壬，于是我定为11月21日壬戌日为产期。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "pregnancy_case_02",
+            "step_number": 5,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "explicit_symbol_evidence": [
+              "坤对冲艮",
+              "庚申日",
+              "阴日庚上",
+              "己亥月",
+              "壬戌日",
+              "乾空亡",
+              "冲巽"
+            ],
+            "chronology_policy": "完整案例的书面分析次序不等于事前可知顺序；后验反馈、医生中途披露、编者加工单独分层；不能将本语境整块作为训练事前输入。",
+            "generalization_status": "not_compiled_as_general_rule",
+            "attributed_forecaster": "本章第一人称预测者；老伴提供问题与医院预产期"
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "source_method_reference_no_automatic_medical_or_fetal_sex_decision",
+        "conventions": {
+          "complete_context_source_pointer": {
+            "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+            "line_start": 128,
+            "line_end": 203,
+            "byte_start": 4269,
+            "byte_end": 7104
+          },
+          "unknown_conditions_not_satisfied": true,
+          "method_alternatives_preserved": true,
+          "no_case_specific_method_auto_generalization": true,
+          "complete_case_source_pointer": {
+            "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+            "line_start": 128,
+            "line_end": 203,
+            "byte_start": 4269,
+            "byte_end": 7104
+          },
+          "source_case_title": "测分娩",
+          "attributed_forecaster": "本章第一人称预测者；老伴提供问题与医院预产期",
+          "printed_step_order_preserved": true,
+          "timeline_notes": {
+            "initial_known_lines": [
+              130
+            ],
+            "first_timing_prediction_line": 186,
+            "medical_due_date_first_disclosed_line": 188,
+            "revised_timing_analysis_line": 190,
+            "final_prediction_lines": [
+              193
+            ],
+            "later_feedback_lines": [
+              198,
+              200
+            ],
+            "not_initial_input": [
+              "医院预产期11月21日",
+              "11月21日凌晨3点零5分出生男孩"
+            ],
+            "same_event_family_as": "pregnancy_case_01",
+            "outcome_scope": "顺利生男与时刻来自末尾结果；医院预产期只在中途得知，最终产期预测不是独立于医生的盲测。"
+          },
+          "usable_for_training": "candidate_only_requires_temporal_and_event_family_split_validation",
+          "independent_future_prediction_performance": "not_measured_by_source_acceptance"
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 128,
+        "line_end": 203,
+        "byte_start": 4269,
+        "byte_end": 7104
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true,
+      "historical_case": true,
+      "case_key": "pregnancy_case_02",
+      "case_completeness": "complete_as_supplied",
+      "chronology_notes": {
+        "initial_known_lines": [
+          130
+        ],
+        "first_timing_prediction_line": 186,
+        "medical_due_date_first_disclosed_line": 188,
+        "revised_timing_analysis_line": 190,
+        "final_prediction_lines": [
+          193
+        ],
+        "later_feedback_lines": [
+          198,
+          200
+        ],
+        "not_initial_input": [
+          "医院预产期11月21日",
+          "11月21日凌晨3点零5分出生男孩"
+        ],
+        "same_event_family_as": "pregnancy_case_01",
+        "outcome_scope": "顺利生男与时刻来自末尾结果；医院预产期只在中途得知，最终产期预测不是独立于医生的盲测。"
+      }
+    },
+    {
+      "key": "pregnancy_case_03_complete",
+      "title": "实例03：广东省潮州市学员卢松天测例完整故事与作者分析",
+      "category": "analysis",
+      "line_start": 204,
+      "line_end": 265,
+      "attribution": "本章叙述者；具名学员与张志春加工注明确分开",
+      "summary": "叶某孕肚明显但仅说忧闷，卢松天以外应确定产育；综合太阴、乙医生及伏吟逢冲，预期次日辰时，性别用可能。",
+      "concepts": [
+        "外应",
+        "忧闷",
+        "全盘伏吟",
+        "太阴",
+        "乙医生",
+        "坤天芮",
+        "阴星阴干",
+        "甲子戊与甲戌己",
+        "辰戌冲"
+      ],
+      "dataset": {
+        "key": "pregnancy_case_03_complete_reference",
+        "rows": [
+          {
+            "key": "pregnancy_case_03_author_step_1",
+            "analysis_focus": "日干甲子戊兑7惊门螣蛇取惊恐",
+            "source_lines": [
+              245,
+              246
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 245,
+              "line_end": 246,
+              "byte_start": 8326,
+              "byte_end": 8426
+            },
+            "source_quote": "（1）日干甲子戊为求测之人，落7宫，上乘惊门、螣蛇，为少女惊恐之象。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "pregnancy_case_03",
+            "step_number": 1,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "explicit_symbol_evidence": [
+              "日干甲子戊兑7",
+              "惊门",
+              "螣蛇"
+            ],
+            "chronology_policy": "完整案例的书面分析次序不等于事前可知顺序；后验反馈、医生中途披露、编者加工单独分层；不能将本语境整块作为训练事前输入。",
+            "generalization_status": "not_compiled_as_general_rule",
+            "attributed_forecaster": "卢松天；女教师叶某为问事者"
+          },
+          {
+            "key": "pregnancy_case_03_author_step_2",
+            "analysis_focus": "由孕妇外应确定产育；坤产室、地芮母、天盘星胎儿，太阴与对冲乙医生生门判断平安，芮癸阴性别取象",
+            "source_lines": [
+              247,
+              254
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 247,
+              "line_end": 254,
+              "byte_start": 8426,
+              "byte_end": 8909
+            },
+            "source_quote": "（2）外应妇人大腹便便，为临产之势，必以测产育为主。\n\n测产育，以坤宫为产室，地盘天芮为产母，又以坤宫所临之星为胎儿，以阴阳论男女；又以对冲之宫天盘所得之干为产期，看是否平安。\n\n今坤宫上乘太阴荫护之神，对冲之宫天地盘二个乙奇为医生，临生门、九地，据此断产育平安。\n\n坤宫所临之星为天芮为阴星，所临之干癸也为阴干，故断可能生女孩。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "pregnancy_case_03",
+            "step_number": 2,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "explicit_symbol_evidence": [
+              "大腹便便外应",
+              "坤2",
+              "地盘天芮",
+              "太阴",
+              "艮8乙",
+              "生门",
+              "九地",
+              "天芮阴星",
+              "癸阴干"
+            ],
+            "chronology_policy": "完整案例的书面分析次序不等于事前可知顺序；后验反馈、医生中途披露、编者加工单独分层；不能将本语境整块作为训练事前输入。",
+            "generalization_status": "not_compiled_as_general_rule",
+            "attributed_forecaster": "卢松天；女教师叶某为问事者"
+          },
+          {
+            "key": "pregnancy_case_03_author_step_3",
+            "analysis_focus": "对冲宫天盘乙定次日乙丑，时干甲戌己与伏吟辰戌冲定辰时",
+            "source_lines": [
+              255,
+              260
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 255,
+              "line_end": 260,
+              "byte_start": 8909,
+              "byte_end": 9205
+            },
+            "source_quote": "（3）坤宫对冲之宫天盘所得之干为乙，为应期之日干；甲戌己为时干落乾6宫，临开门、天心星值使和值符，也主生产时平安。\n\n又时干为所测之事，今伏吟不动，辰戌相冲，必然辰时生育。\n\n故断第二天乙丑日辰时为应期。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "pregnancy_case_03",
+            "step_number": 3,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "explicit_symbol_evidence": [
+              "对冲宫乙",
+              "甲戌己乾6",
+              "开门",
+              "天心",
+              "伏吟",
+              "辰戌冲",
+              "乙丑日辰时"
+            ],
+            "chronology_policy": "完整案例的书面分析次序不等于事前可知顺序；后验反馈、医生中途披露、编者加工单独分层；不能将本语境整块作为训练事前输入。",
+            "generalization_status": "not_compiled_as_general_rule",
+            "attributed_forecaster": "卢松天；女教师叶某为问事者"
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "source_method_reference_no_automatic_medical_or_fetal_sex_decision",
+        "conventions": {
+          "complete_context_source_pointer": {
+            "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+            "line_start": 204,
+            "line_end": 265,
+            "byte_start": 7104,
+            "byte_end": 9288
+          },
+          "unknown_conditions_not_satisfied": true,
+          "method_alternatives_preserved": true,
+          "no_case_specific_method_auto_generalization": true,
+          "complete_case_source_pointer": {
+            "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+            "line_start": 204,
+            "line_end": 265,
+            "byte_start": 7104,
+            "byte_end": 9288
+          },
+          "source_case_title": "广东省潮州市学员卢松天测例",
+          "attributed_forecaster": "卢松天；女教师叶某为问事者",
+          "printed_step_order_preserved": true,
+          "timeline_notes": {
+            "initial_known_lines": [
+              206,
+              208
+            ],
+            "printed_prediction_before_chart_and_analysis_line": 210,
+            "printed_analysis_lines": [
+              245,
+              259
+            ],
+            "later_feedback_lines": [
+              262
+            ],
+            "not_initial_input": [
+              "婆母次日中午报告辰时生女孩"
+            ],
+            "outcome_scope": "原书先打印断语后列盘和分析；打印顺序不等于独立逐时现场实录。"
+          },
+          "usable_for_training": "candidate_only_requires_temporal_and_event_family_split_validation",
+          "independent_future_prediction_performance": "not_measured_by_source_acceptance"
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 204,
+        "line_end": 265,
+        "byte_start": 7104,
+        "byte_end": 9288
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true,
+      "historical_case": true,
+      "case_key": "pregnancy_case_03",
+      "case_completeness": "complete_as_supplied",
+      "chronology_notes": {
+        "initial_known_lines": [
+          206,
+          208
+        ],
+        "printed_prediction_before_chart_and_analysis_line": 210,
+        "printed_analysis_lines": [
+          245,
+          259
+        ],
+        "later_feedback_lines": [
+          262
+        ],
+        "not_initial_input": [
+          "婆母次日中午报告辰时生女孩"
+        ],
+        "outcome_scope": "原书先打印断语后列盘和分析；打印顺序不等于独立逐时现场实录。"
+      }
+    },
+    {
+      "key": "pregnancy_case_04_complete",
+      "title": "实例04：辽宁学员王作霞测例完整故事与作者分析",
+      "category": "analysis",
+      "line_start": 266,
+      "line_end": 333,
+      "attribution": "本章叙述者；具名学员与张志春加工注明确分开",
+      "summary": "广州来电已知将早产，王作霞用多种母胎角色、击刑门星和应期判手术及时；末尾保留张志春加工注。",
+      "concepts": [
+        "早产",
+        "坐车冲击",
+        "丙辛合",
+        "值符",
+        "手术象",
+        "医生星奇",
+        "丁入库",
+        "庚下戊",
+        "作者加工"
+      ],
+      "dataset": {
+        "key": "pregnancy_case_04_complete_reference",
+        "rows": [
+          {
+            "key": "pregnancy_case_04_author_step_1",
+            "analysis_focus": "坤宫丙庚与日干友人、丙辛合妻、击刑开门解释坐车冲击早产",
+            "source_lines": [
+              306,
+              309
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 306,
+              "line_end": 309,
+              "byte_start": 10348,
+              "byte_end": 10600
+            },
+            "source_quote": "（1）以坤宫为主妇，格局丙加庚为荧入太白，凶，是夫人坐车受冲击造成早产。\n\n又丙为日干，为儿子的朋友，丙辛合，以辛为其妻，在离9宫为六仪击刑，临开门，也为开车撞击造成早产。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "pregnancy_case_04",
+            "step_number": 1,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "explicit_symbol_evidence": [
+              "坤2",
+              "丙加庚",
+              "日干丙",
+              "丙辛合",
+              "辛离9",
+              "六仪击刑",
+              "开门"
+            ],
+            "chronology_policy": "完整案例的书面分析次序不等于事前可知顺序；后验反馈、医生中途披露、编者加工单独分层；不能将本语境整块作为训练事前输入。",
+            "generalization_status": "not_compiled_as_general_rule",
+            "attributed_forecaster": "王作霞；张志春明确修改加工"
+          },
+          {
+            "key": "pregnancy_case_04_author_step_2",
+            "analysis_focus": "坤天蓬阳星休阳门及时干艮宫判断男孩",
+            "source_lines": [
+              310,
+              311
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 310,
+              "line_end": 311,
+              "byte_start": 10600,
+              "byte_end": 10714
+            },
+            "source_quote": "（2）坤宫天盘星天蓬为阳星，所临休门为阳门，又时干丁落艮宫，均说明是个男孩。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "pregnancy_case_04",
+            "step_number": 2,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "explicit_symbol_evidence": [
+              "天蓬",
+              "休门",
+              "时干丁艮8"
+            ],
+            "chronology_policy": "完整案例的书面分析次序不等于事前可知顺序；后验反馈、医生中途披露、编者加工单独分层；不能将本语境整块作为训练事前输入。",
+            "generalization_status": "not_compiled_as_general_rule",
+            "attributed_forecaster": "王作霞；张志春明确修改加工"
+          },
+          {
+            "key": "pregnancy_case_04_author_step_3",
+            "analysis_focus": "值符与妻辛击刑开门、坤胎门星受克判断手术；吉格与医生星奇支持顺利",
+            "source_lines": [
+              312,
+              315
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 312,
+              "line_end": 315,
+              "byte_start": 10714,
+              "byte_end": 11061
+            },
+            "source_quote": "（3）值符为产母，辛为其妻，在9宫临开门，又为六仪击刑，为做手术之象；又坤宫为产室，休门、天蓬为胎儿，均受宫克，也是做手术之象。\n\n辛下临丁为狱神得奇吉格，坤宫丙加乙也是吉格，天心星、乙奇为医生，正好临9宫和2宫，说明必然手术顺利、及时。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "pregnancy_case_04",
+            "step_number": 3,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "explicit_symbol_evidence": [
+              "值符产母",
+              "辛离9",
+              "六仪击刑",
+              "开门",
+              "坤门星受宫克",
+              "辛下丁",
+              "丙加乙",
+              "天心乙奇医生"
+            ],
+            "chronology_policy": "完整案例的书面分析次序不等于事前可知顺序；后验反馈、医生中途披露、编者加工单独分层；不能将本语境整块作为训练事前输入。",
+            "generalization_status": "not_compiled_as_general_rule",
+            "attributed_forecaster": "王作霞；张志春明确修改加工"
+          },
+          {
+            "key": "pregnancy_case_04_author_step_4",
+            "analysis_focus": "丁酉入库凶格与戊戌时吉象、庚下戊综合取时",
+            "source_lines": [
+              316,
+              323
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 316,
+              "line_end": 323,
+              "byte_start": 11061,
+              "byte_end": 11493
+            },
+            "source_quote": "（4）何时出生为好？\n\n丁酉时，丁为时干为孩子，在艮8宫为入库，虽然丁癸相冲，但还不会出生，而且丁加癸雀投江为凶格，这个时辰出生不好。\n\n应到戊戌时，戊干落乾6宫逢开门和天心星，年干丁生时干戊，又上乘六合，这个时候孩子出生最顺利。\n\n又阳日看庚下之干为应期，今3宫庚下之干为戊，也说明应在戊戌时出生。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "pregnancy_case_04",
+            "step_number": 4,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "explicit_symbol_evidence": [
+              "丁酉",
+              "时干丁艮8入库",
+              "丁加癸",
+              "戊戌",
+              "戊乾6",
+              "年丁生时戊",
+              "六合",
+              "阳日庚下戊"
+            ],
+            "chronology_policy": "完整案例的书面分析次序不等于事前可知顺序；后验反馈、医生中途披露、编者加工单独分层；不能将本语境整块作为训练事前输入。",
+            "generalization_status": "not_compiled_as_general_rule",
+            "attributed_forecaster": "王作霞；张志春明确修改加工"
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "source_method_reference_no_automatic_medical_or_fetal_sex_decision",
+        "conventions": {
+          "complete_context_source_pointer": {
+            "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+            "line_start": 266,
+            "line_end": 333,
+            "byte_start": 9288,
+            "byte_end": 11779
+          },
+          "unknown_conditions_not_satisfied": true,
+          "method_alternatives_preserved": true,
+          "no_case_specific_method_auto_generalization": true,
+          "complete_case_source_pointer": {
+            "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+            "line_start": 266,
+            "line_end": 333,
+            "byte_start": 9288,
+            "byte_end": 11779
+          },
+          "source_case_title": "辽宁学员王作霞测例",
+          "attributed_forecaster": "王作霞；张志春明确修改加工",
+          "printed_step_order_preserved": true,
+          "timeline_notes": {
+            "initial_known_lines": [
+              268
+            ],
+            "prediction_analysis_lines": [
+              306,
+              322
+            ],
+            "later_feedback_lines": [
+              325,
+              327
+            ],
+            "editorial_note_line": 330,
+            "not_initial_input": [
+              "坐车冲击的具体原因已被证实",
+              "戊戌剖腹男孩母子平安"
+            ],
+            "outcome_scope": "原始电话说要早产，原因坐车冲击属分析后结果；张志春明确原判断简单不规范并修改加工。"
+          },
+          "usable_for_training": "candidate_only_requires_temporal_and_event_family_split_validation",
+          "independent_future_prediction_performance": "not_measured_by_source_acceptance"
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 266,
+        "line_end": 333,
+        "byte_start": 9288,
+        "byte_end": 11779
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true,
+      "historical_case": true,
+      "case_key": "pregnancy_case_04",
+      "case_completeness": "complete_as_supplied",
+      "chronology_notes": {
+        "initial_known_lines": [
+          268
+        ],
+        "prediction_analysis_lines": [
+          306,
+          322
+        ],
+        "later_feedback_lines": [
+          325,
+          327
+        ],
+        "editorial_note_line": 330,
+        "not_initial_input": [
+          "坐车冲击的具体原因已被证实",
+          "戊戌剖腹男孩母子平安"
+        ],
+        "outcome_scope": "原始电话说要早产，原因坐车冲击属分析后结果；张志春明确原判断简单不规范并修改加工。"
+      }
+    },
+    {
+      "key": "pregnancy_case_05_complete",
+      "title": "实例05：山西学员王海燕测例完整故事与作者分析",
+      "category": "analysis",
+      "line_start": 334,
+      "line_end": 416,
+      "attribution": "本章叙述者；具名学员与张志春加工注明确分开",
+      "summary": "多种角色分析互相校核，母克子分支有旺衰和合的例外；性别信息冲突，保留王海燕择值使方法与作者性别不稳、五不遇时不能独断的总结。",
+      "concepts": [
+        "旺衰",
+        "母克子例外",
+        "卯戌合",
+        "值使",
+        "性别矛盾",
+        "壬日壬时",
+        "五不遇时",
+        "整体分析",
+        "作者加工"
+      ],
+      "dataset": {
+        "key": "pregnancy_case_05_complete_reference",
+        "rows": [
+          {
+            "key": "pregnancy_case_05_author_step_1",
+            "analysis_focus": "坤地芮母天柱子、门杜入库旺相九地乙，日时干比和并参",
+            "source_lines": [
+              373,
+              378
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 373,
+              "line_end": 378,
+              "byte_start": 12760,
+              "byte_end": 13183
+            },
+            "source_quote": "（1）坤宫为产室，地盘天芮为产母，天盘天柱星为胎儿，天芮生天柱，母子平安。\n\n又以坤宫所临之门为胎儿，杜门虽然克宫，但杜门落坤宫为入库，寅月杜门旺相，又上乘九地吉神，临乙奇医生，所以表明胎儿在母腹内健壮平安。\n\n又日干庚为产母，时干丙为胎儿，一个在乾6宫，一个在兑7宫，二者比和，也主平安。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "pregnancy_case_05",
+            "step_number": 1,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "explicit_symbol_evidence": [
+              "坤2",
+              "地盘天芮",
+              "天柱",
+              "杜门入库",
+              "寅月旺相",
+              "九地",
+              "乙医生",
+              "日干庚乾6",
+              "时干丙兑7"
+            ],
+            "chronology_policy": "完整案例的书面分析次序不等于事前可知顺序；后验反馈、医生中途披露、编者加工单独分层；不能将本语境整块作为训练事前输入。",
+            "generalization_status": "not_compiled_as_general_rule",
+            "attributed_forecaster": "王海燕；张志春明确修改加工"
+          },
+          {
+            "key": "pregnancy_case_05_author_step_2",
+            "analysis_focus": "值符母六合子有母克子凶象，但寅木旺金囚和卯戌合缓解",
+            "source_lines": [
+              379,
+              384
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 379,
+              "line_end": 384,
+              "byte_start": 13183,
+              "byte_end": 13369
+            },
+            "source_quote": "（2）又值符为产母，落乾6宫，六合为胎儿落震3宫，母克子，似乎不吉。\n\n但寅月木旺金囚，克者无妨。\n\n又地盘卯戌相合，故也表明无妨。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "pregnancy_case_05",
+            "step_number": 2,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "explicit_symbol_evidence": [
+              "值符乾6",
+              "六合震3",
+              "母克子",
+              "寅月木旺金囚",
+              "卯戌合"
+            ],
+            "chronology_policy": "完整案例的书面分析次序不等于事前可知顺序；后验反馈、医生中途披露、编者加工单独分层；不能将本语境整块作为训练事前输入。",
+            "generalization_status": "not_compiled_as_general_rule",
+            "attributed_forecaster": "王海燕；张志春明确修改加工"
+          },
+          {
+            "key": "pregnancy_case_05_author_step_3",
+            "analysis_focus": "天柱阴、杜阳、时干阴宫星门阴与值使阳宫阳星冲突，王海燕择值使判男",
+            "source_lines": [
+              385,
+              394
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 385,
+              "line_end": 394,
+              "byte_start": 13369,
+              "byte_end": 13628
+            },
+            "source_quote": "（3）坤宫天盘为天柱星，为阴星；但杜门却为阳门。\n\n时干丙落兑7宫为阴宫，所临星、门也属阴。\n\n但是值使休门落震3宫，阳门阳宫阳星。\n\n究竟是男孩女孩？\n\n王海燕按值使门落宫判断为男孩。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "pregnancy_case_05",
+            "step_number": 3,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "explicit_symbol_evidence": [
+              "天柱阴星",
+              "杜阳门",
+              "丙兑7阴宫",
+              "值使休门震3",
+              "阳门阳宫阳星"
+            ],
+            "chronology_policy": "完整案例的书面分析次序不等于事前可知顺序；后验反馈、医生中途披露、编者加工单独分层；不能将本语境整块作为训练事前输入。",
+            "generalization_status": "not_compiled_as_general_rule",
+            "attributed_forecaster": "王海燕；张志春明确修改加工"
+          },
+          {
+            "key": "pregnancy_case_05_author_step_4",
+            "analysis_focus": "对冲艮宫壬定壬日壬时，开门和值使震3辅助三天内",
+            "source_lines": [
+              395,
+              402
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 395,
+              "line_end": 402,
+              "byte_start": 13628,
+              "byte_end": 13881
+            },
+            "source_quote": "（4）与坤宫对冲之宫，即艮宫天盘所临之干为产期。\n\n所临之干为壬，故断壬日壬时。\n\n又艮宫临开门，也表明在此日此时出生。\n\n又值使门落宫为应期，值使休门落震3宫，表明三天内出生。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "pregnancy_case_05",
+            "step_number": 4,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "explicit_symbol_evidence": [
+              "艮宫天盘壬",
+              "开门",
+              "壬日壬时",
+              "值使休门震3",
+              "三天内"
+            ],
+            "chronology_policy": "完整案例的书面分析次序不等于事前可知顺序；后验反馈、医生中途披露、编者加工单独分层；不能将本语境整块作为训练事前输入。",
+            "generalization_status": "not_compiled_as_general_rule",
+            "attributed_forecaster": "王海燕；张志春明确修改加工"
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "source_method_reference_no_automatic_medical_or_fetal_sex_decision",
+        "conventions": {
+          "complete_context_source_pointer": {
+            "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+            "line_start": 334,
+            "line_end": 416,
+            "byte_start": 11779,
+            "byte_end": 14350
+          },
+          "unknown_conditions_not_satisfied": true,
+          "method_alternatives_preserved": true,
+          "no_case_specific_method_auto_generalization": true,
+          "complete_case_source_pointer": {
+            "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+            "line_start": 334,
+            "line_end": 416,
+            "byte_start": 11779,
+            "byte_end": 14350
+          },
+          "source_case_title": "山西学员王海燕测例",
+          "attributed_forecaster": "王海燕；张志春明确修改加工",
+          "printed_step_order_preserved": true,
+          "timeline_notes": {
+            "initial_known_lines": [
+              336
+            ],
+            "prediction_analysis_lines": [
+              373,
+              401
+            ],
+            "later_feedback_lines": [
+              404
+            ],
+            "editorial_note_line": 407,
+            "editorial_method_notes_lines": [
+              409,
+              413
+            ],
+            "not_initial_input": [
+              "正月初三壬午日壬寅时顺利生男孩"
+            ],
+            "outcome_scope": "作者加工后明言性别有时矛盾不十分准确；五不遇时并非一见即凶，须综合用神格局。"
+          },
+          "usable_for_training": "candidate_only_requires_temporal_and_event_family_split_validation",
+          "independent_future_prediction_performance": "not_measured_by_source_acceptance"
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 334,
+        "line_end": 416,
+        "byte_start": 11779,
+        "byte_end": 14350
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true,
+      "historical_case": true,
+      "case_key": "pregnancy_case_05",
+      "case_completeness": "complete_as_supplied",
+      "chronology_notes": {
+        "initial_known_lines": [
+          336
+        ],
+        "prediction_analysis_lines": [
+          373,
+          401
+        ],
+        "later_feedback_lines": [
+          404
+        ],
+        "editorial_note_line": 407,
+        "editorial_method_notes_lines": [
+          409,
+          413
+        ],
+        "not_initial_input": [
+          "正月初三壬午日壬寅时顺利生男孩"
+        ],
+        "outcome_scope": "作者加工后明言性别有时矛盾不十分准确；五不遇时并非一见即凶，须综合用神格局。"
+      }
+    },
+    {
+      "key": "pregnancy_case_06_complete",
+      "title": "实例06：王建国测孕产例完整故事与作者分析",
+      "category": "analysis",
+      "line_start": 417,
+      "line_end": 505,
+      "attribution": "本章叙述者；具名学员与张志春加工注明确分开",
+      "summary": "孕六个月B超怀疑畸形，丈夫先问保留与否，再问性别分娩；完整保留原作者对影像的解释和保胎建议，同时将复查与出生体重、难产原因严格置于后验反馈。",
+      "concepts": [
+        "B超",
+        "怀疑畸形",
+        "时干入库",
+        "天遁",
+        "螣蛇",
+        "值使医生",
+        "十四天复查",
+        "后续问答",
+        "可能性别",
+        "剖腹",
+        "体重预测"
+      ],
+      "dataset": {
+        "key": "pregnancy_case_06_complete_reference",
+        "rows": [
+          {
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "pregnancy_case_06",
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "完整案例的书面分析次序不等于事前可知顺序；后验反馈、医生中途披露、编者加工单独分层；不能将本语境整块作为训练事前输入。",
+            "generalization_status": "not_compiled_as_general_rule",
+            "attributed_forecaster": "王建国；本章叙述者编录",
+            "key": "pregnancy_case_06_author_step_1",
+            "step_number": 1,
+            "analysis_focus": "原编号（1）：时干入库、生门天遁、太岁生与日干比和作胎正常判断，螣蛇乾头解释影像",
+            "explicit_symbol_evidence": [
+              "时干丙乾6入库",
+              "生门",
+              "丙下丁天遁",
+              "太岁坤生",
+              "日干庚比和",
+              "螣蛇",
+              "乾为头"
+            ],
+            "source_lines": [
+              461,
+              468
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 461,
+              "line_end": 468,
+              "byte_start": 15931,
+              "byte_end": 16262
+            },
+            "source_quote": "（1）以时干为胎儿。时干丙落乾6宫为入库，正应在母腹之象。\n\n时干临生门，丙下又临丁奇，此为天遁吉格，又得太岁所在坤宫生之，日干庚与之比和。\n\n这一切均说明胎儿正常。\n\n上乘螣蛇主虚惊怪异，乾为头，因而胎儿头部有阴影应是虚幻之象。\n\n"
+          },
+          {
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "pregnancy_case_06",
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "完整案例的书面分析次序不等于事前可知顺序；后验反馈、医生中途披露、编者加工单独分层；不能将本语境整块作为训练事前输入。",
+            "generalization_status": "not_compiled_as_general_rule",
+            "attributed_forecaster": "王建国；本章叙述者编录",
+            "key": "pregnancy_case_06_author_step_2",
+            "step_number": 2,
+            "analysis_focus": "原编号（2）：值使死门玄武辛解释检查，提出十四天后复查及安心保胎的历史建议",
+            "explicit_symbol_evidence": [
+              "值使死门巽4",
+              "冲时干乾6",
+              "玄武",
+              "辛",
+              "四数",
+              "十四天",
+              "丙辰月冲库"
+            ],
+            "source_lines": [
+              469,
+              481
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 469,
+              "line_end": 481,
+              "byte_start": 16262,
+              "byte_end": 16712
+            },
+            "source_quote": "（2）死门为值使落巽4宫，与时干丙所在乾宫对冲。\n\n值使门可视为检查胎儿的值班医师，今上乘玄武，主头昏、黑暗，临辛主错误。\n\n由此怀疑值班医师检查的不认真不仔细。\n\n死门落4宫主4数。\n\n因此，王建国建议十四天以后，正好也进入了丙辰月，辰冲戌库，再到医院做一次B超检查，一定就会有一个明确的诊断。\n\n现在应该安心保胎。\n\n\n"
+          },
+          {
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "pregnancy_case_06",
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "完整案例的书面分析次序不等于事前可知顺序；后验反馈、医生中途披露、编者加工单独分层；不能将本语境整块作为训练事前输入。",
+            "generalization_status": "not_compiled_as_general_rule",
+            "attributed_forecaster": "王建国；本章叙述者编录",
+            "key": "pregnancy_case_06_author_step_3",
+            "step_number": 3,
+            "analysis_focus": "原编号（3）：天英阴星与开阳门戊阳土分歧，择门干说可能男孩",
+            "explicit_symbol_evidence": [
+              "坤天英阴星",
+              "开门阳门",
+              "戊阳土"
+            ],
+            "source_lines": [
+              485,
+              490
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 485,
+              "line_end": 490,
+              "byte_start": 16817,
+              "byte_end": 17049
+            },
+            "source_quote": "（3）坤宫天盘星是天英星，天英星是阴星，似乎是女孩？\n\n古人又以坤宫所临之门来判断胎儿性别。\n\n今临开门为阳门，所临六仪戊也为阳土，故王建国判断：可能是个男孩。\n\n"
+          },
+          {
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "pregnancy_case_06",
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "完整案例的书面分析次序不等于事前可知顺序；后验反馈、医生中途披露、编者加工单独分层；不能将本语境整块作为训练事前输入。",
+            "generalization_status": "not_compiled_as_general_rule",
+            "attributed_forecaster": "王建国；本章叙述者编录",
+            "key": "pregnancy_case_06_author_step_4",
+            "step_number": 4,
+            "analysis_focus": "原编号（4）：飞宫开门、庚丙、时干墓与五不遇时判断分娩阻碍；附随无编号原总断语",
+            "explicit_symbol_evidence": [
+              "戊+庚飞宫",
+              "开门",
+              "天芮兑7",
+              "休门",
+              "值符",
+              "庚+丙",
+              "丙入戌墓",
+              "五不遇时",
+              "可能男孩",
+              "总的平安",
+              "难产",
+              "剖腹产",
+              "6斤左右"
+            ],
+            "source_lines": [
+              491,
+              498
+            ],
+            "source_pointer": {
+              "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+              "line_start": 491,
+              "line_end": 498,
+              "byte_start": 17049,
+              "byte_end": 17565
+            },
+            "source_quote": "（4）坤宫为产室，戊+庚为飞宫格，古籍经验“飞宫伏宫，婴儿有难”，临开门，又是开刀之象。\n\n天芮星为产母，落兑七宫，临休门吉门，值符吉神，但庚+丙为时格，阻碍难产之象。\n\n又时干丙入戌墓，“入墓罗网，生产不顺利”；又问测时间为五不遇时，也主不顺利。\n\n\n据此，王建国说：“可能是个男孩。总的看，分娩平安，但可能要难产，需做剖腹产手术才行，胎儿体重6斤左右。”\n",
+            "attached_unnumbered_prediction_line": 498
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "source_method_reference_no_automatic_medical_or_fetal_sex_decision",
+        "conventions": {
+          "complete_context_source_pointer": {
+            "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+            "line_start": 417,
+            "line_end": 505,
+            "byte_start": 14350,
+            "byte_end": 17843
+          },
+          "unknown_conditions_not_satisfied": true,
+          "method_alternatives_preserved": true,
+          "no_case_specific_method_auto_generalization": true,
+          "complete_case_source_pointer": {
+            "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+            "line_start": 417,
+            "line_end": 505,
+            "byte_start": 14350,
+            "byte_end": 17843
+          },
+          "source_case_title": "王建国测孕产例",
+          "attributed_forecaster": "王建国；本章叙述者编录",
+          "printed_step_order_preserved": true,
+          "timeline_notes": {
+            "initial_known_lines": [
+              419,
+              421,
+              423
+            ],
+            "initial_forecast_analysis_lines": [
+              461,
+              479
+            ],
+            "followup_question_line": 482,
+            "followup_forecast_lines": [
+              485,
+              498
+            ],
+            "later_feedback_lines": [
+              501,
+              503,
+              505
+            ],
+            "not_initial_input": [
+              "半月后B超正常",
+              "6月19日下午2点剖腹男婴",
+              "6.6斤",
+              "骨盆小导致分娩困难"
+            ],
+            "outcome_scope": "B超异常怀疑为原始已知；正常复查、体重和出生结果为后验反馈。保胎/流产/手术相关原断语仅保存历史案例，不供系统现实医疗执行。"
+          },
+          "usable_for_training": "candidate_only_requires_temporal_and_event_family_split_validation",
+          "independent_future_prediction_performance": "not_measured_by_source_acceptance"
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 417,
+        "line_end": 505,
+        "byte_start": 14350,
+        "byte_end": 17843
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true,
+      "historical_case": true,
+      "case_key": "pregnancy_case_06",
+      "case_completeness": "complete_as_supplied",
+      "chronology_notes": {
+        "initial_known_lines": [
+          419,
+          421,
+          423
+        ],
+        "initial_forecast_analysis_lines": [
+          461,
+          479
+        ],
+        "followup_question_line": 482,
+        "followup_forecast_lines": [
+          485,
+          498
+        ],
+        "later_feedback_lines": [
+          501,
+          503,
+          505
+        ],
+        "not_initial_input": [
+          "半月后B超正常",
+          "6月19日下午2点剖腹男婴",
+          "6.6斤",
+          "骨盆小导致分娩困难"
+        ],
+        "outcome_scope": "B超异常怀疑为原始已知；正常复查、体重和出生结果为后验反馈。保胎/流产/手术相关原断语仅保存历史案例，不供系统现实医疗执行。"
+      }
+    }
+  ],
+  "quality_issues": [
+    {
+      "key": "pregnancy_no_printed_chapter_number",
+      "line_start": 1,
+      "line_end": 4,
+      "kind": "source_scope",
+      "detail": "用户提交章名和两节，无印刷章号。",
+      "handling": "使用pregnancy-childbirth技术键，不推断章号。",
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 1,
+        "line_end": 4,
+        "byte_start": 0,
+        "byte_end": 50
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "pregnancy_explicit_research_scope",
+      "line_start": 6,
+      "line_end": 8,
+      "kind": "source_scope",
+      "detail": "作者说研究会未列研究项目、没有积累此方面经验，仅归纳古籍经验并举测例。",
+      "handling": "保留范围声明；来源用户已确认，不另设人工确认门；不据六例推出现实预测准确率。",
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 6,
+        "line_end": 8,
+        "byte_start": 51,
+        "byte_end": 486
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "pregnancy_nonexclusive_role_methods",
+      "line_start": 13,
+      "line_end": 21,
+      "kind": "method_isolation",
+      "detail": "星、门、日时干以及值符配六合或值使为并列取法。",
+      "handling": "明确method_id和盘层；未知方法不暗选，不把不同角色方案覆盖为唯一方法。",
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 13,
+        "line_end": 21,
+        "byte_start": 518,
+        "byte_end": 950
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "pregnancy_tianqin_stem_layer_unspecified",
+      "line_start": 15,
+      "line_end": 15,
+      "kind": "technical_applicability_boundary",
+      "detail": "双生条后阳干阴干未明确具体干和盘层。",
+      "handling": "原文确认；技术绑定未明不补造所取天干，不请求用户二次确认。",
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 15,
+        "line_end": 15,
+        "byte_start": 628,
+        "byte_end": 701
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "pregnancy_earth_home_vs_heaven_actual",
+      "line_start": 13,
+      "line_end": 32,
+      "kind": "chart_semantics",
+      "detail": "坤宫本宫/地盘天芮与天盘临坤星不同；实例也有实际落宫天芮作母亲。",
+      "handling": "角色引用区分固定本宫与实际天盘落宫，数据一致不等于都选同一对象。",
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 13,
+        "line_end": 32,
+        "byte_start": 518,
+        "byte_end": 1343
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "pregnancy_mother_controls_child_tension",
+      "line_start": 28,
+      "line_end": 32,
+      "kind": "technical_applicability_boundary",
+      "detail": "天芮克天盘星既见主产速，又见母克子主子亡，并附旺相之气及奇门吉格例外。",
+      "handling": "保留整段、条件和两种解释；不拆为无条件死亡规则，不以原文确认替代逻辑编译。",
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 28,
+        "line_end": 32,
+        "byte_start": 1077,
+        "byte_end": 1343
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "pregnancy_star_relation_direction",
+      "line_start": 28,
+      "line_end": 38,
+      "kind": "directed_relation_boundary",
+      "detail": "母克子、子克母、子生母及产室克门/门克宫有向关系分别陈述。",
+      "handling": "每次明确source、target及盘层；不逆转生克，不用宫五行混代星固定五行。",
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 28,
+        "line_end": 38,
+        "byte_start": 1077,
+        "byte_end": 1559
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "pregnancy_possible_and_pattern_qualifiers",
+      "line_start": 34,
+      "line_end": 46,
+      "kind": "interpretive_scope",
+      "detail": "门到坤休囚入墓为可能死胎；凶门凶格、白虎与三奇需完整条件。",
+      "handling": "保留可能、综合与例外；仅历史方法，不当现实健康诊断。",
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 34,
+        "line_end": 46,
+        "byte_start": 1344,
+        "byte_end": 1756
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "pregnancy_multiple_timing_methods",
+      "line_start": 51,
+      "line_end": 53,
+      "kind": "method_isolation",
+      "detail": "一般取坤对冲宫天盘干，也可阴日庚上阳日庚下等法。",
+      "handling": "不隐选唯一方法；阴阳日不能变成阴阳时；不以一干自动给公历唯一应期。",
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 51,
+        "line_end": 53,
+        "byte_start": 1782,
+        "byte_end": 1932
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "pregnancy_shared_case_family_01_02",
+      "line_start": 60,
+      "line_end": 203,
+      "kind": "event_family_split",
+      "detail": "前两例同一女儿的计划怀孕和临产两次咨询、各一张盘。",
+      "handling": "同家族、不同event/chart；首测不借次测结果，不跨训练测试组。",
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 60,
+        "line_end": 203,
+        "byte_start": 1970,
+        "byte_end": 7104
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "pregnancy_case_01_uncertain_and_later_pregnancy",
+      "line_start": 68,
+      "line_end": 124,
+      "kind": "temporal_availability",
+      "detail": "作者先说没有把握，后断正月怀孕；结尾只确认怀孕。",
+      "handling": "保留不确定措辞；原案无独立生男反馈，不从后案提前回填。",
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 68,
+        "line_end": 124,
+        "byte_start": 2515,
+        "byte_end": 4266
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "pregnancy_case_02_sex_disagreement",
+      "line_start": 178,
+      "line_end": 182,
+      "kind": "method_comparison",
+      "detail": "天心惊门巽宫与六合震宫给出不同性别信息，作者明确拿不准。",
+      "handling": "保留分歧，不能按结局挑出一种假装事前确定。",
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 178,
+        "line_end": 182,
+        "byte_start": 5802,
+        "byte_end": 6223
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "pregnancy_case_02_medical_due_date_midturn",
+      "line_start": 184,
+      "line_end": 193,
+      "kind": "temporal_availability",
+      "detail": "先判11月19日，后听医院11月21日，再改判11月21日。",
+      "handling": "医院预产期只能进入披露后的续断，不在初始输入；不将修订命中当独立盲测。",
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 184,
+        "line_end": 193,
+        "byte_start": 6224,
+        "byte_end": 6893
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "pregnancy_case_02_geng_upper_stems_multiple",
+      "line_start": 190,
+      "line_end": 190,
+      "kind": "technical_applicability_boundary",
+      "detail": "同句庚上之干先己后壬分别用于己亥月和壬戌日，具体选庚/盘层未另解释。",
+      "handling": "原句逐字保存；未明确盘层和所取庚时不把两干强行融合、不改字、不自动断应期。",
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 190,
+        "line_end": 190,
+        "byte_start": 6419,
+        "byte_end": 6751
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "pregnancy_case_03_source_print_order",
+      "line_start": 206,
+      "line_end": 262,
+      "kind": "temporal_availability",
+      "detail": "先有大腹外应与初断，再印原盘和分析，末尾婆母报告结果。",
+      "handling": "书面分析保持归属和来源；初始问事并非已明说产期，结果不提前进入。",
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 206,
+        "line_end": 262,
+        "byte_start": 7157,
+        "byte_end": 9285
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "pregnancy_case_04_author_edited",
+      "line_start": 306,
+      "line_end": 330,
+      "kind": "attribution_scope",
+      "detail": "王作霞原判断简单不规范，张志春明确修改加工。",
+      "handling": "保留具名预测者与编者加工，不冒充未经加工现场逐步记录。",
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 306,
+        "line_end": 330,
+        "byte_start": 10348,
+        "byte_end": 11776
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "pregnancy_case_04_timing_chart_projection",
+      "line_start": 318,
+      "line_end": 322,
+      "kind": "calculation_scope",
+      "detail": "戊戌时戊乾宫开门天心是作者应时分析，与起问盘不同语境。",
+      "handling": "原句确认保留；若未提供独立应时原盘不新增虚构盘，不强塞初始盘事实。",
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 318,
+        "line_end": 322,
+        "byte_start": 11091,
+        "byte_end": 11492
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "pregnancy_case_05_mother_controls_exception",
+      "line_start": 379,
+      "line_end": 383,
+      "kind": "condition_exception",
+      "detail": "值符母乾克六合子震貌似不吉，但寅月木旺金囚及卯戌合解。",
+      "handling": "例外证据随整案保留，禁止母克子单条必凶。",
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 379,
+        "line_end": 383,
+        "byte_start": 13183,
+        "byte_end": 13368
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "pregnancy_case_05_author_edited_sex_limit",
+      "line_start": 385,
+      "line_end": 413,
+      "kind": "attribution_scope",
+      "detail": "性别信息冲突而择值使；张志春加工并明言性别有时不准、五不遇时不能一概凶。",
+      "handling": "保留作者方法取舍和局限；无独立临床效度或现实预测率推定。",
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 385,
+        "line_end": 413,
+        "byte_start": 13369,
+        "byte_end": 14347
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "pregnancy_case_06_medical_vs_historical_role",
+      "line_start": 421,
+      "line_end": 505,
+      "kind": "medical_product_boundary",
+      "detail": "案例包含对B超判断、胎儿保留和流产、保胎、难产手术及体重的历史断语。",
+      "handling": "原文用户确认无误且完整保存；系统不能据奇门取代超声、产科评估或决定保留/终止妊娠，现实问事由医疗安全层处理。",
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 421,
+        "line_end": 505,
+        "byte_start": 14561,
+        "byte_end": 17843
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "pregnancy_case_06_followup_and_later_feedback",
+      "line_start": 477,
+      "line_end": 505,
+      "kind": "temporal_availability",
+      "detail": "首次建议十四天后复查；丈夫随后另问性别分娩；半月后正常复查及六月出生体重在结果。",
+      "handling": "分开首次预测、追问续断和后验反馈；6.6斤不能回填6斤原预测。",
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 477,
+        "line_end": 505,
+        "byte_start": 16520,
+        "byte_end": 17843
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "pregnancy_timezone_calendar_not_given",
+      "line_start": 72,
+      "line_end": 443,
+      "kind": "engineering_missing_information",
+      "detail": "原文给地方时刻和四柱，未统一时区、真太阳时或换日约定。",
+      "handling": "完整保存原文原盘，不猜约定、不要求补原书未记背景；程序复算覆盖单列。",
+      "source_pointer": {
+        "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+        "line_start": 72,
+        "line_end": 443,
+        "byte_start": 2594,
+        "byte_end": 15481
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    }
+  ],
+  "worked_examples": [],
+  "source_review_status": "confirmed_by_user_submission",
+  "source_confirmed_by_user": true,
+  "manual_source_reconfirmation_required": false,
+  "compilation_scope": "No medical interpretation, new deterministic dataset or formal role rule compiled. Three context-complete method families and six complete historical narrative families preserve 11 method rows and 23 case-specific printed analysis contexts. Source acceptance is confirmed; programming, conditional activation and independent evaluation remain separate.",
+  "coverage_policy": "Twelve primary complete-context groups partition all 505 source lines. Each historical case remains one whole narrative context; printed numbered analyses are nested references, never independent universal rules or automatically pre-prediction input.",
+  "case_handoff": {
+    "case_count": 6,
+    "complete_case_keys": [
+      "pregnancy_case_01",
+      "pregnancy_case_02",
+      "pregnancy_case_03",
+      "pregnancy_case_04",
+      "pregnancy_case_05",
+      "pregnancy_case_06"
+    ],
+    "complete_case_ranges": [
+      [
+        60,
+        127
+      ],
+      [
+        128,
+        203
+      ],
+      [
+        204,
+        265
+      ],
+      [
+        266,
+        333
+      ],
+      [
+        334,
+        416
+      ],
+      [
+        417,
+        505
+      ]
+    ],
+    "recorded_original_chart_count": 6,
+    "complete_story_completeness": "complete_as_supplied",
+    "same_event_family_case_keys": [
+      [
+        "pregnancy_case_01",
+        "pregnancy_case_02"
+      ]
+    ],
+    "predictions_feedback_and_editorial_notes_separately_available": true,
+    "case_records_owned_by": "separate_case_import_agents",
+    "historical_cases_not_counted_as_teaching_worked_examples": true
+  },
+  "engineering_missing_information_policy": {
+    "basis": "user project charter and current user source-confirmation instruction; not attributed source quotation",
+    "source_policy": "All supplied original material is confirmed on submission; no second human source review.",
+    "technical_policy": "Do not invent missing calendar conventions, stem layers, spoken chronology or unrecorded chart; source confirmation does not assert successful program recomputation or compile unavailable conditions."
+  },
+  "source_scope": "Only this actual 505-line user-provided 怀孕分娩预测 upload. No old project, plugin source, external case or model-memory completion.",
+  "medical_product_policy": {
+    "basis": "user project charter health requirements; not attributed source quotation",
+    "use": "Historical traditional method study and complete-case preservation. Author clinical-seeming statements, sex forecasts and intervention recommendations are retained with attribution; runtime does not use them for diagnosis, fetal anomaly determination, termination decisions, obstetric scheduling or delaying real medical care."
+  },
+  "dataset_summary": {
+    "reference_families": 9,
+    "general_conditional_reference_rows": 11,
+    "case_specific_author_steps": 23,
+    "reference_rows_total": 34,
+    "compiled_families": 0,
+    "formal_role_rules": 0,
+    "training_tasks": 0
+  }
+}

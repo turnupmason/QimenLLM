@@ -23,7 +23,7 @@ def main():
     if digest(raw)!=HEALTH_SHA:parser.error('Different source bytes require explicit revision workflow')
     source=import_chapter(args.db,args.raw_dir,raw,book_key='shenqi-user-text-v1',book_title='神奇之门',
         chapter_key='health-prediction',chapter_title='人体疾病预测',sequence=7,
-        origin='user-upload:sediment://file_00000000126481f6ab7b7bec77ac66b1',confirmed=False)
+        origin='user-upload:sediment://file_00000000126481f6ab7b7bec77ac66b1',confirmed=True)
     result={'source':source,'curation':install_health(args.db,source['revision_id'],json.loads((DATA/'health_curated.json').read_bytes())),
             'cases':import_cases(args.db,source['revision_id'],json.loads((DATA/'health_cases.json').read_bytes()))}
     code=0

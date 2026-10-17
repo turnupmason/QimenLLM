@@ -1,0 +1,22 @@
+{
+  "declaration_source": "docs/user_instructions/source_confirmation_2026-10-17.txt",
+  "declaration_sha256": "bab12c19a4fceef86e1cebfa1dd201fd936cbf1671af067f8332cd5d3596d6bc",
+  "retroactive_confirmed_revisions": 7,
+  "current_confirmed_revisions": 8,
+  "raw_bytes_and_old_reviews_unchanged": true,
+  "verification_basis": "user_attestation",
+  "user_declares_independent_verification": true,
+  "system_performed_independent_verification": false,
+  "reapplication": {
+    "status": "confirmed",
+    "reviewed_revisions": 8,
+    "appended_reviews": 0,
+    "duplicate": true,
+    "data_version": "ee488d38-8fa1-442d-ba89-487d8419314f",
+    "verification_basis": "user_attestation",
+    "user_declares_independent_verification": true,
+    "system_performed_independent_verification": false,
+    "declaration_source": "docs/user_instructions/source_confirmation_2026-10-17.txt",
+    "confirmation_policy": "user-supplied-source-confirmation-v1"
+  }
+}

@@ -51,7 +51,7 @@ class ApplicationCandidateTests(DatabaseTest):
                 self.assertEqual(actual['symbolic_status'], expected['symbolic_status'])
                 self.assertEqual(actual['role_bindings'], [])
                 self.assertEqual(actual['activation_status'], 'reference_only')
-                self.assertEqual(actual['source_acceptance'], 'pending')
+                self.assertEqual(actual['source_acceptance'], 'confirmed')
                 if 'missing_fields' in expected:
                     self.assertEqual(actual['missing'], sorted(expected['missing_fields']))
                 if 'reference_side' in expected:

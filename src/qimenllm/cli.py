@@ -32,7 +32,10 @@ def main(argv=None):
     importer.add_argument('--sequence',type=int,required=True)
     importer.add_argument('--author'); importer.add_argument('--edition')
     importer.add_argument('--revision',type=int)
-    importer.add_argument('--confirmed',action='store_true',help='Only when user explicitly confirmed the original')
+    importer.add_argument('--confirmed',action='store_true',default=True,
+                          help='User-supplied project sources are confirmed by standing instruction')
+    importer.add_argument('--unconfirmed',action='store_false',dest='confirmed',
+                          help='Explicit maintainer override for engineering fixtures, not supplied books')
     annotate = subs.add_parser('annotate')
     annotate.add_argument('revision_id'); annotate.add_argument('file',type=Path)
     ask = subs.add_parser('ask'); ask.add_argument('text')

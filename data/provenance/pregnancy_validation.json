@@ -1,0 +1,239 @@
+{
+  "date_utc": "2026-10-17",
+  "previous_commit": "6c28bd80c398f8b7c1a0737c102bd19f8a5e32a5",
+  "source": {
+    "origin": "sediment://file_00000000f65081f69216ab4e5ea91adf",
+    "sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+    "bytes": 17843,
+    "characters": 7147,
+    "lines": 505,
+    "trailing_newline": false,
+    "status": "confirmed",
+    "verification_basis": "user_attestation"
+  },
+  "source_policy_update": {
+    "status": "confirmed",
+    "reviewed_revisions": 7,
+    "appended_reviews": 7,
+    "duplicate": false,
+    "data_version": "1c8e9000-b355-4c4c-a60d-b8faeff87482",
+    "verification_basis": "user_attestation",
+    "user_declares_independent_verification": true,
+    "system_performed_independent_verification": false,
+    "declaration_source": "docs/user_instructions/source_confirmation_2026-10-17.txt",
+    "confirmation_policy": "user-supplied-source-confirmation-v1"
+  },
+  "all_sources_confirmed": 8,
+  "schema_migration": false,
+  "data_version": "ee488d38-8fa1-442d-ba89-487d8419314f",
+  "snapshot_manifest_sha256": "a3e009dca5735e0a1b6ff7d4da0a347e889e64eb0906678a484c6faf9fba259b",
+  "added": {
+    "contexts": 12,
+    "reference_datasets": 9,
+    "reference_rows": 34,
+    "printed_analysis_steps": 23,
+    "technical_boundaries": 22,
+    "cases": 6,
+    "families": 5,
+    "events": 6,
+    "original_charts": 6,
+    "records": 99,
+    "evidence_links": 180,
+    "current_candidates": 14,
+    "candidate_history_records": 18,
+    "candidate_revision2": 4,
+    "compiled_rules": 0,
+    "training_tasks": 0
+  },
+  "totals": {
+    "books": 1,
+    "chapters": 8,
+    "raw_documents": 8,
+    "source_reviews": 15,
+    "knowledge_items": 700,
+    "concepts": 1596,
+    "methods": 17,
+    "cases": 19,
+    "events": 20,
+    "charts": 19,
+    "event_families": 18,
+    "case_records": 281,
+    "evidence_links": 468,
+    "rules": 0,
+    "training_tasks": 0,
+    "dataset_releases": 0,
+    "split_assignments": 0,
+    "context_group": 325,
+    "worked_example": 16,
+    "source_selection_candidate": 90,
+    "compiled_families": 39,
+    "datasets": 102,
+    "data_version": "ee488d38-8fa1-442d-ba89-487d8419314f",
+    "schema": {
+      "version": 1,
+      "sha256": "d20d40765d39b7857e72558815714d0f2e0573098e2fecc7ed821c720475efa1"
+    },
+    "current_candidates": 83,
+    "source_quality_issue": 230
+  },
+  "tests": {
+    "command": "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+    "platform": "cloud Linux; Python 3.12.14",
+    "passed": 217,
+    "failures": 0,
+    "source_confirmation_tests": 15,
+    "pregnancy_case_tests": 19,
+    "independent_chart_rows": 54,
+    "independent_selection_gold": 68,
+    "old_fixture_and_source_tests": 183
+  },
+  "http": {
+    "command": "PYTHONPATH=src python3 scripts/smoke_api.py --chapter01 --chapter02 --chapters0405 --application-overview --health --marriage --pregnancy",
+    "requests": 55,
+    "passed": true,
+    "listener_closed": true
+  },
+  "audit": {
+    "ok": true,
+    "errors": [],
+    "counts": {
+      "books": 1,
+      "chapters": 8,
+      "raw_documents": 8,
+      "knowledge_items": 700,
+      "rules": 0,
+      "cases": 19,
+      "events": 20,
+      "charts": 19,
+      "training_tasks": 0
+    },
+    "data_version": "ee488d38-8fa1-442d-ba89-487d8419314f"
+  },
+  "recovery": {
+    "old_authoritative_rows_preserved": 3683,
+    "old_raw_files_preserved": 7,
+    "schema_unchanged": true,
+    "snapshot_files_byte_identical": 34,
+    "restored_case_views": 38,
+    "restored_source_charts": 19,
+    "all_sources_confirmed": 8,
+    "data_version": "ee488d38-8fa1-442d-ba89-487d8419314f",
+    "manifest_sha256": "a3e009dca5735e0a1b6ff7d4da0a347e889e64eb0906678a484c6faf9fba259b"
+  },
+  "packaging": {
+    "ok": true,
+    "loaded_from": "isolated_wheel_install",
+    "case_count": 6,
+    "all_six_explicit_outcomes_user_confirmed": true,
+    "candidate_revision": 2
+  },
+  "wheel_sha256": "652774d190229f648ae8cd836b7f2f048cd267e52dcec98ee6a803d19e8d96e3",
+  "source_chart_comparisons": [
+    {
+      "case_number": 1,
+      "source_chart_id": "chart-2212b60b1e5cf22f4ca8953ba43c3cd0679f2a2fd664c8c80d3fabb06bd2b1aa",
+      "comparison_status": "matches",
+      "checked_fields": 47,
+      "differences": [],
+      "before_records": 4,
+      "source_accepted": true
+    },
+    {
+      "case_number": 2,
+      "source_chart_id": "chart-8f33b9616668d88a46270b0ae9f51bf383617eee0397d16337e34a9c6ea07c2c",
+      "comparison_status": "matches",
+      "checked_fields": 47,
+      "differences": [],
+      "before_records": 2,
+      "source_accepted": true
+    },
+    {
+      "case_number": 3,
+      "source_chart_id": "chart-258321d84fd8eb52c353d4f5ff987be2eda1479d667bf80bc77a5f0ba0661268",
+      "comparison_status": "mismatch",
+      "checked_fields": 44,
+      "differences": [
+        {
+          "path": "palaces.4.heaven_stem",
+          "source_value": "庚",
+          "computed_value": "辛",
+          "matches": false
+        }
+      ],
+      "before_records": 2,
+      "source_accepted": true
+    },
+    {
+      "case_number": 4,
+      "source_chart_id": "chart-0161cef0948cf36e13e91e88177ab19301dbe0fa5ba3dff6e6f244bddf7bc283",
+      "comparison_status": "matches",
+      "checked_fields": 47,
+      "differences": [],
+      "before_records": 2,
+      "source_accepted": true
+    },
+    {
+      "case_number": 5,
+      "source_chart_id": "chart-f79cfe8f6778ef81ef13dee39e0890a1a9636a73f12d31f767ce907a11ddc3d4",
+      "comparison_status": "matches",
+      "checked_fields": 47,
+      "differences": [],
+      "before_records": 2,
+      "source_accepted": true
+    },
+    {
+      "case_number": 6,
+      "source_chart_id": "chart-c633be06b5f8e009f8a10faf50b9fe8ca41b66b3d58ba8b9d2341ac632e23c94",
+      "comparison_status": "matches",
+      "checked_fields": 47,
+      "differences": [],
+      "before_records": 4,
+      "source_accepted": true
+    }
+  ],
+  "data_replay": {
+    "source_duplicate": true,
+    "curation_additions": 0,
+    "cases_additions": 0,
+    "candidate_additions": 0,
+    "confirmation_additions": 0
+  },
+  "previous_authoritative_rows_modified": 0,
+  "original_text_modified": false,
+  "previous_gold_modified": false,
+  "frozen_split_changes": false,
+  "development_findings": [
+    {
+      "finding": "Two case6 interpretation records contradicted their no-initial-input annotation",
+      "resolution": "Changed phase to unknown before first actual case import; exact text unchanged"
+    },
+    {
+      "finding": "Case6 reference numbering combined printed steps1/2 and shifted remaining labels",
+      "resolution": "Restored four actual numbered groups before first actual curation import"
+    },
+    {
+      "finding": "Four star-name condition vocabularies changed after first candidate installation",
+      "resolution": "Retained exact revision1 and appended revision2; SQL selects latest"
+    },
+    {
+      "finding": "First confirmation-policy regression had 72 pending-vs-confirmed subtest failures",
+      "resolution": "Updated prior acceptance expectation to the user-authorized confirmed status; did not change source or gold"
+    },
+    {
+      "finding": "Revision regression initially expected explicit1 where legacy payload omits version1",
+      "resolution": "Read missing version as1 under the existing schema contract; production data unchanged"
+    },
+    {
+      "finding": "Initial replay used default snapshot path before first new raw export",
+      "resolution": "Exported complete snapshot, then replay passed with zero new rows"
+    },
+    {
+      "finding": "Explicit reported conception/delivery feedback not labelled outcome kind",
+      "resolution": "Read-only result role allowlist confirms only source-reported scope; generic feedback and absent outcomes remain separate"
+    }
+  ],
+  "model_experiments": null,
+  "professional_prediction_completed": false,
+  "clinical_decision_support": false,
+  "remote_acceptance": "Verify exact pushed main SHA; four Linux/macOS x Python3.11/3.12 jobs must all complete successfully; evidence in GitHub Actions and work/github-sync.json"
+}

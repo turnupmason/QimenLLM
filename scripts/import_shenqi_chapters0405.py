@@ -31,7 +31,7 @@ def main():
         curated=json.loads((ROOT/f'data/structured/shenqi/chapter{number:02d}_curated.json').read_bytes())
         source=import_chapter(args.db,args.raw_dir,content,book_key='shenqi-user-text-v1',book_title='神奇之门',
             chapter_key=f'chapter-0{number}',chapter_title=title,sequence=number,
-            origin=f'user-upload:file_00000000a94481f6bc6b14739af71694; byte slice {start}:{end}',confirmed=False)
+            origin=f'user-upload:file_00000000a94481f6bc6b14739af71694; byte slice {start}:{end}',confirmed=True)
         results.append({'chapter':number,'source':source,
                         'curation':install_chapter(args.db,source['revision_id'],curated,number)})
     result={'upload_sha256':UPLOAD_SHA,'chapters':results}; code=0

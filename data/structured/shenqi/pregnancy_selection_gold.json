@@ -1,0 +1,1807 @@
+{
+  "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+  "source_byte_count": 17843,
+  "source_line_count": 505,
+  "gold_generation": "Independent manual source transcription and explicit condition logic; no candidate inspection program or production output invoked. Table expansion adds authored missing/mismatch/method-choice variants without consulting program results.",
+  "scope": "First-section source-candidate inspection only, not obstetric decisions, fetal diagnosis or prediction accuracy scoring.",
+  "selection_cases": [
+    {
+      "key": "kun_star_role_explicit",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "maternal_fetal_role_reference",
+        "kun_heaven_star": "天心星"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_kun_star_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_kun_star_mother_fetus",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        13
+      ]
+    },
+    {
+      "key": "kun_star_role_unselected_method",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "maternal_fetal_role_reference",
+        "kun_heaven_star": "天心星"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_kun_star_mother_fetus",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        13
+      ]
+    },
+    {
+      "key": "kun_star_role_missing",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "maternal_fetal_role_reference"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_kun_star_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_kun_star_mother_fetus",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "kun_heaven_star"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        13
+      ]
+    },
+    {
+      "key": "kun_star_role_mismatched",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "career_role_reference",
+        "kun_heaven_star": "天心星"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_kun_star_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_kun_star_mother_fetus",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        13
+      ]
+    },
+    {
+      "key": "kun_star_polarity_explicit",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "fetal_sex_method_reference",
+        "kun_heaven_star": "天心星",
+        "kun_heaven_star_polarity": "yin"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_kun_star_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_kun_star_polarity_reference",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        13
+      ]
+    },
+    {
+      "key": "kun_star_polarity_unselected_method",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "fetal_sex_method_reference",
+        "kun_heaven_star": "天心星",
+        "kun_heaven_star_polarity": "yin"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_kun_star_polarity_reference",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        13
+      ]
+    },
+    {
+      "key": "kun_star_polarity_missing",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "fetal_sex_method_reference",
+        "kun_heaven_star": "天心星"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_kun_star_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_kun_star_polarity_reference",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "kun_heaven_star_polarity"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        13
+      ]
+    },
+    {
+      "key": "kun_star_polarity_mismatched",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "fetal_sex_method_reference",
+        "kun_heaven_star": "天心星",
+        "kun_heaven_star_polarity": "unknown"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_kun_star_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_kun_star_polarity_reference",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        13
+      ]
+    },
+    {
+      "key": "tianqin_twins_explicit",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "multiple_birth_method_reference",
+        "kun_heaven_star": "天禽星"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_tianqin_twins_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_tianqin_twins_reference",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        15
+      ]
+    },
+    {
+      "key": "tianqin_twins_unselected_method",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "multiple_birth_method_reference",
+        "kun_heaven_star": "天禽星"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_tianqin_twins_reference",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        15
+      ]
+    },
+    {
+      "key": "tianqin_twins_missing",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "multiple_birth_method_reference"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_tianqin_twins_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_tianqin_twins_reference",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "kun_heaven_star"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        15
+      ]
+    },
+    {
+      "key": "tianqin_twins_mismatched",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "multiple_birth_method_reference",
+        "kun_heaven_star": "天任星"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_tianqin_twins_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_tianqin_twins_reference",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        15
+      ]
+    },
+    {
+      "key": "kun_door_role_explicit",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "maternal_fetal_role_reference",
+        "kun_door": "惊门"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_kun_door_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_kun_door_fetus",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        17
+      ]
+    },
+    {
+      "key": "kun_door_role_unselected_method",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "maternal_fetal_role_reference",
+        "kun_door": "惊门"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_kun_door_fetus",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        17
+      ]
+    },
+    {
+      "key": "kun_door_role_missing",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "maternal_fetal_role_reference"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_kun_door_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_kun_door_fetus",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "kun_door"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        17
+      ]
+    },
+    {
+      "key": "kun_door_role_mismatched",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "career_role_reference",
+        "kun_door": "惊门"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_kun_door_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_kun_door_fetus",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        17
+      ]
+    },
+    {
+      "key": "kun_door_polarity_explicit",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "fetal_sex_method_reference",
+        "kun_door": "惊门",
+        "kun_door_polarity": "yin"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_kun_door_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_kun_door_polarity_reference",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        17
+      ]
+    },
+    {
+      "key": "kun_door_polarity_unselected_method",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "fetal_sex_method_reference",
+        "kun_door": "惊门",
+        "kun_door_polarity": "yin"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_kun_door_polarity_reference",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        17
+      ]
+    },
+    {
+      "key": "kun_door_polarity_missing",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "fetal_sex_method_reference",
+        "kun_door": "惊门"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_kun_door_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_kun_door_polarity_reference",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "kun_door_polarity"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        17
+      ]
+    },
+    {
+      "key": "kun_door_polarity_mismatched",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "fetal_sex_method_reference",
+        "kun_door": "惊门",
+        "kun_door_polarity": "unknown"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_kun_door_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_kun_door_polarity_reference",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        17
+      ]
+    },
+    {
+      "key": "day_hour_role_explicit",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "maternal_fetal_role_reference",
+        "day_stem": "己",
+        "hour_stem": "壬"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_day_hour_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_day_hour_mother_child",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        19
+      ]
+    },
+    {
+      "key": "day_hour_role_unselected_method",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "maternal_fetal_role_reference",
+        "day_stem": "己",
+        "hour_stem": "壬"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_day_hour_mother_child",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        19
+      ]
+    },
+    {
+      "key": "day_hour_role_missing",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "maternal_fetal_role_reference",
+        "day_stem": "己"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_day_hour_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_day_hour_mother_child",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "hour_stem"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        19
+      ]
+    },
+    {
+      "key": "day_hour_role_mismatched",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "maternal_fetal_role_reference",
+        "day_stem": false,
+        "hour_stem": "壬"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_day_hour_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_day_hour_mother_child",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        19
+      ]
+    },
+    {
+      "key": "hour_combination_explicit",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "fetal_sex_method_reference",
+        "hour_stem_polarity": "yang",
+        "hour_landing_star": "天英星",
+        "hour_landing_door": "杜门",
+        "hour_landing_palace": 4
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_day_hour_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_hour_stem_combination_sex_reference",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        19
+      ]
+    },
+    {
+      "key": "hour_combination_unselected_method",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "fetal_sex_method_reference",
+        "hour_stem_polarity": "yang",
+        "hour_landing_star": "天英星",
+        "hour_landing_door": "杜门",
+        "hour_landing_palace": 4
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_hour_stem_combination_sex_reference",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        19
+      ]
+    },
+    {
+      "key": "hour_combination_missing",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "fetal_sex_method_reference",
+        "hour_stem_polarity": "yang",
+        "hour_landing_door": "杜门",
+        "hour_landing_palace": 4
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_day_hour_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_hour_stem_combination_sex_reference",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "hour_landing_star"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        19
+      ]
+    },
+    {
+      "key": "hour_combination_mismatched",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "fetal_sex_method_reference",
+        "hour_stem_polarity": "yang",
+        "hour_landing_star": "天英星",
+        "hour_landing_door": "杜门",
+        "hour_landing_palace": false
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_day_hour_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_hour_stem_combination_sex_reference",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        19
+      ]
+    },
+    {
+      "key": "zhifu_liuhe_explicit",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "maternal_fetal_role_reference"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_zhifu_liuhe_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_zhifu_liuhe_mother_fetus",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        21
+      ]
+    },
+    {
+      "key": "zhifu_liuhe_unselected_method",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "maternal_fetal_role_reference"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_zhifu_liuhe_mother_fetus",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        21
+      ]
+    },
+    {
+      "key": "zhifu_liuhe_missing",
+      "context": {
+        "domain": "pregnancy_childbirth"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_zhifu_liuhe_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_zhifu_liuhe_mother_fetus",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "analysis_context"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        21
+      ]
+    },
+    {
+      "key": "zhifu_liuhe_mismatched",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "medical_diagnosis"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_zhifu_liuhe_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_zhifu_liuhe_mother_fetus",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        21
+      ]
+    },
+    {
+      "key": "zhifu_zhishi_explicit",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "maternal_fetal_role_reference"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_zhifu_zhishi_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_zhifu_zhishi_mother_fetus",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        21
+      ]
+    },
+    {
+      "key": "zhifu_zhishi_unselected_method",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "maternal_fetal_role_reference"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_zhifu_zhishi_mother_fetus",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        21
+      ]
+    },
+    {
+      "key": "zhifu_zhishi_missing",
+      "context": {
+        "domain": "pregnancy_childbirth"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_zhifu_zhishi_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_zhifu_zhishi_mother_fetus",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "analysis_context"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        21
+      ]
+    },
+    {
+      "key": "zhifu_zhishi_mismatched",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "medical_diagnosis"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_zhifu_zhishi_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_zhifu_zhishi_mother_fetus",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        21
+      ]
+    },
+    {
+      "key": "delivery_star_relation_explicit",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "delivery_method_reference",
+        "comparison_basis": "kun_earth_tianrui_and_actual_heaven_star",
+        "directed_star_relation": "earth_tianrui_controls_heaven_star"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_delivery_star_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_delivery_star_relation_context",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        26
+      ]
+    },
+    {
+      "key": "delivery_star_relation_unselected_method",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "delivery_method_reference",
+        "comparison_basis": "kun_earth_tianrui_and_actual_heaven_star",
+        "directed_star_relation": "earth_tianrui_controls_heaven_star"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_delivery_star_relation_context",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        26
+      ]
+    },
+    {
+      "key": "delivery_star_relation_missing",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "delivery_method_reference",
+        "comparison_basis": "kun_earth_tianrui_and_actual_heaven_star"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_delivery_star_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_delivery_star_relation_context",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "directed_star_relation"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        26
+      ]
+    },
+    {
+      "key": "delivery_star_relation_mismatched",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "delivery_method_reference",
+        "comparison_basis": "actual_landing_palace_elements",
+        "directed_star_relation": "earth_tianrui_controls_heaven_star"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_delivery_star_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_delivery_star_relation_context",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        26
+      ]
+    },
+    {
+      "key": "delivery_door_relation_explicit",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "delivery_method_reference",
+        "comparison_basis": "kun_palace_and_actual_door",
+        "directed_palace_door_relation": "palace_controls_door"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_delivery_door_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_delivery_door_relation_context",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        38
+      ]
+    },
+    {
+      "key": "delivery_door_relation_unselected_method",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "delivery_method_reference",
+        "comparison_basis": "kun_palace_and_actual_door",
+        "directed_palace_door_relation": "palace_controls_door"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_delivery_door_relation_context",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        38
+      ]
+    },
+    {
+      "key": "delivery_door_relation_missing",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "delivery_method_reference",
+        "comparison_basis": "kun_palace_and_actual_door"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_delivery_door_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_delivery_door_relation_context",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "directed_palace_door_relation"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        38
+      ]
+    },
+    {
+      "key": "delivery_door_relation_mismatched",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "delivery_method_reference",
+        "comparison_basis": "star_fixed_elements",
+        "directed_palace_door_relation": "palace_controls_door"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_delivery_door_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_delivery_door_relation_context",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        38
+      ]
+    },
+    {
+      "key": "timing_opposite_explicit",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "delivery_timing_method_reference",
+        "opposite_kun_heaven_stem": "庚"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_timing_opposite_kun_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_timing_opposite_kun_heaven_stem",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        51
+      ]
+    },
+    {
+      "key": "timing_opposite_unselected_method",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "delivery_timing_method_reference",
+        "opposite_kun_heaven_stem": "庚"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_timing_opposite_kun_heaven_stem",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        51
+      ]
+    },
+    {
+      "key": "timing_opposite_missing",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "delivery_timing_method_reference"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_timing_opposite_kun_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_timing_opposite_kun_heaven_stem",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "opposite_kun_heaven_stem"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        51
+      ]
+    },
+    {
+      "key": "timing_opposite_mismatched",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "delivery_timing_method_reference",
+        "opposite_kun_heaven_stem": 0
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_timing_opposite_kun_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_timing_opposite_kun_heaven_stem",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        51
+      ]
+    },
+    {
+      "key": "timing_yin_above_explicit",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "delivery_timing_method_reference",
+        "day_polarity": "yin",
+        "geng_side": "above",
+        "selected_geng_adjacent_stem": "壬"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_timing_geng_yin_above_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_timing_yin_day_geng_above",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        53
+      ]
+    },
+    {
+      "key": "timing_yin_above_unselected_method",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "delivery_timing_method_reference",
+        "day_polarity": "yin",
+        "geng_side": "above",
+        "selected_geng_adjacent_stem": "壬"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_timing_yin_day_geng_above",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        53
+      ]
+    },
+    {
+      "key": "timing_yin_above_missing",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "delivery_timing_method_reference",
+        "day_polarity": "yin",
+        "geng_side": "above"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_timing_geng_yin_above_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_timing_yin_day_geng_above",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "selected_geng_adjacent_stem"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        53
+      ]
+    },
+    {
+      "key": "timing_yin_above_mismatched",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "delivery_timing_method_reference",
+        "day_polarity": "yin",
+        "geng_side": "below",
+        "selected_geng_adjacent_stem": "壬"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_timing_geng_yin_above_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_timing_yin_day_geng_above",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        53
+      ]
+    },
+    {
+      "key": "timing_yang_below_explicit",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "delivery_timing_method_reference",
+        "day_polarity": "yang",
+        "geng_side": "below",
+        "selected_geng_adjacent_stem": "戊"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_timing_geng_yang_below_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_timing_yang_day_geng_below",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        53
+      ]
+    },
+    {
+      "key": "timing_yang_below_unselected_method",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "delivery_timing_method_reference",
+        "day_polarity": "yang",
+        "geng_side": "below",
+        "selected_geng_adjacent_stem": "戊"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_timing_yang_day_geng_below",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        53
+      ]
+    },
+    {
+      "key": "timing_yang_below_missing",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "delivery_timing_method_reference",
+        "geng_side": "below",
+        "selected_geng_adjacent_stem": "戊"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_timing_geng_yang_below_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_timing_yang_day_geng_below",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "day_polarity"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        53
+      ]
+    },
+    {
+      "key": "timing_yang_below_mismatched",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "delivery_timing_method_reference",
+        "day_polarity": "yin",
+        "geng_side": "below",
+        "selected_geng_adjacent_stem": "戊"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_timing_geng_yang_below_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_timing_yang_day_geng_below",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        53
+      ]
+    },
+    {
+      "key": "star_relation_child_generates_mother_preserved",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "delivery_method_reference",
+        "comparison_basis": "kun_earth_tianrui_and_actual_heaven_star",
+        "directed_star_relation": "heaven_star_generates_earth_tianrui"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_delivery_star_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_delivery_star_relation_context",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        30
+      ]
+    },
+    {
+      "key": "star_relation_child_controls_mother_preserved",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "delivery_method_reference",
+        "comparison_basis": "kun_earth_tianrui_and_actual_heaven_star",
+        "directed_star_relation": "heaven_star_controls_earth_tianrui"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_delivery_star_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_delivery_star_relation_context",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        32
+      ]
+    },
+    {
+      "key": "star_relation_generating_reverse_not_in_same_clause",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "delivery_method_reference",
+        "comparison_basis": "kun_earth_tianrui_and_actual_heaven_star",
+        "directed_star_relation": "earth_tianrui_generates_heaven_star"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_delivery_star_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_delivery_star_relation_context",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        30
+      ]
+    },
+    {
+      "key": "door_controls_palace_direction_distinct",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "delivery_method_reference",
+        "comparison_basis": "kun_palace_and_actual_door",
+        "directed_palace_door_relation": "door_controls_palace"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_delivery_door_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_delivery_door_relation_context",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        38
+      ]
+    },
+    {
+      "key": "star_role_door_method_cannot_replace",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "maternal_fetal_role_reference",
+        "kun_heaven_star": "天心星"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_kun_door_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_kun_star_mother_fetus",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        13
+      ]
+    },
+    {
+      "key": "zhifu_liuhe_does_not_imply_zhishi",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "maternal_fetal_role_reference"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_zhifu_liuhe_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_zhifu_zhishi_mother_fetus",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        21
+      ]
+    },
+    {
+      "key": "day_hour_null_is_unknown",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "maternal_fetal_role_reference",
+        "day_stem": "己",
+        "hour_stem": null
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_day_hour_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_day_hour_mother_child",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "hour_stem"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        19
+      ]
+    },
+    {
+      "key": "yin_day_cannot_be_supplied_as_hour_polarity",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "delivery_timing_method_reference",
+        "hour_polarity": "yin",
+        "geng_side": "above",
+        "selected_geng_adjacent_stem": "壬"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_timing_geng_yin_above_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_timing_yin_day_geng_above",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "day_polarity"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        53
+      ]
+    },
+    {
+      "key": "day_hour_zero_not_stem",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "maternal_fetal_role_reference",
+        "day_stem": 0,
+        "hour_stem": "壬"
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_day_hour_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_day_hour_mother_child",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        19
+      ]
+    },
+    {
+      "key": "false_not_heaven_star",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "maternal_fetal_role_reference",
+        "kun_heaven_star": false
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_kun_star_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_kun_star_mother_fetus",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        13
+      ]
+    },
+    {
+      "key": "zero_not_door",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "maternal_fetal_role_reference",
+        "kun_door": 0
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_kun_door_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_kun_door_fetus",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        17
+      ]
+    },
+    {
+      "key": "empty_not_landing_star",
+      "context": {
+        "domain": "pregnancy_childbirth",
+        "analysis_context": "fetal_sex_method_reference",
+        "hour_stem_polarity": "yang",
+        "hour_landing_star": "",
+        "hour_landing_door": "杜门",
+        "hour_landing_palace": 4
+      },
+      "inspection_filters": {
+        "domain": "pregnancy_childbirth",
+        "method": "shenqi_pregnancy_day_hour_v1"
+      },
+      "expected": {
+        "candidate_key": "pregnancy_hour_stem_combination_sex_reference",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        19
+      ]
+    }
+  ],
+  "selection_case_count": 68,
+  "method_contract": {
+    "inspection_filters": "Pass separately to inspect_candidates; method is explicit requested source perspective, never inferred from context.",
+    "all_candidates_domain": "pregnancy_childbirth",
+    "source_acceptance": "confirmed on user submission; no human reconfirmation gate",
+    "formal_activation": "role_bindings always empty and activation_status reference_only even for applicable symbolic conditions",
+    "canonical_symbol_inputs": "Use exact chapter01_curated.stars name values such as 天心星; no implicit short-name or alias normalization. Original quotations remain unchanged."
+  },
+  "first_section_line_ranges": [
+    [
+      6,
+      53
+    ]
+  ],
+  "source_limitations_gold": [
+    {
+      "key": "author_scope",
+      "source_lines": [
+        6,
+        8
+      ],
+      "expected": "作者说明研究会未列研究项目、未积累经验，归纳古籍并列现代测例；必须连同方法保留"
+    },
+    {
+      "key": "parallel_roles",
+      "source_lines": [
+        13,
+        21
+      ],
+      "expected": "坤星、坤门、日时干、值符六合或值使不是唯一混合方法"
+    },
+    {
+      "key": "mother_controls_tension_and_exceptions",
+      "source_lines": [
+        28,
+        32
+      ],
+      "expected": "母克胎星产速和母克子凶断、旺相之气及奇门吉格例外同时保留，不自动编译死亡预测"
+    },
+    {
+      "key": "not_automatic_sex_certainty",
+      "source_lines": [
+        178,
+        182,
+        385,
+        413
+      ],
+      "expected": "多法性别证据冲突及作者不确定、准确率局限保留，不能由后来男婴结果反选取法"
+    },
+    {
+      "key": "medical_due_date_midturn",
+      "source_lines": [
+        186,
+        188,
+        190
+      ],
+      "expected": "先庚申11月19日，听医院11月21日后修正；医院日期不能成为最初输入"
+    },
+    {
+      "key": "author_edited_student_examples",
+      "source_lines": [
+        330,
+        407
+      ],
+      "expected": "王作霞、王海燕案例均有张志春修改加工，具名预测者和加工归属分别保存"
+    },
+    {
+      "key": "five_not_meeting_not_instantly_adverse",
+      "source_lines": [
+        413,
+        495
+      ],
+      "expected": "例5不能一见五不遇时即凶；例6结合其他证据为难产象，不生成矛盾的绝对单征象规则"
+    },
+    {
+      "key": "same_event_family",
+      "source_lines": [
+        62,
+        66,
+        130,
+        198
+      ],
+      "expected": "例1/2同女儿同孕产家族，不同问时与原盘；后案出生结果不得回填例1事前数据"
+    },
+    {
+      "key": "original_source_confirmed",
+      "source_lines": [
+        1,
+        505
+      ],
+      "expected": "用户本轮指令将已给及后续原文都确认为无误；技术条件与程序复算独立，不能要求二次人工确认原文"
+    }
+  ],
+  "formal_rules_added": 0,
+  "no_training_tasks_created": true,
+  "no_real_world_outcome_gold_invented": true
+}

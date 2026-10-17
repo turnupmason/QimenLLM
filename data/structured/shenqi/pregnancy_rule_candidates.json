@@ -1,0 +1,1221 @@
+{
+  "schema_version": "source_selection_candidates_v1",
+  "title": "怀孕分娩预测",
+  "source_sha256": "adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69",
+  "source_byte_count": 17843,
+  "source_line_count": 505,
+  "candidate_count": 14,
+  "candidate_record_count": 18,
+  "candidates": [
+    {
+      "key": "pregnancy_kun_star_mother_fetus",
+      "domain": "pregnancy_childbirth",
+      "scope": "kun_star_maternal_fetal_role_reference",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "pregnancy_childbirth"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "maternal_fetal_role_reference"
+        },
+        {
+          "field": "kun_heaven_star",
+          "op": "in",
+          "value": [
+            "天蓬星",
+            "天任星",
+            "天冲星",
+            "天辅星",
+            "天英星",
+            "天芮星",
+            "天柱星",
+            "天心星",
+            "天禽星"
+          ]
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_pregnancy_kun_star_v1"
+      },
+      "source_lines": [
+        13
+      ],
+      "source_quote": "以坤宫天芮星为母亲，以天盘临坤宫之星为胎儿，阳星为男胎儿，阴星为女胎儿。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "坤宫天芮是母方参照，天盘临坤之星是胎方；固定本宫与实际落宫不混同。",
+        "本条件仅检查传入符号字段，不能代替盘面验证；与门、日时干、值符等并列。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "earth_home_kun:天芮",
+          "heaven_at_kun:star"
+        ],
+        "semantic_role": "mother_and_fetus_perspective",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      },
+      "record_revision": 2
+    },
+    {
+      "key": "pregnancy_kun_star_polarity_reference",
+      "domain": "pregnancy_childbirth",
+      "scope": "kun_star_polarity_historical_sex_reference",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "pregnancy_childbirth"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "fetal_sex_method_reference"
+        },
+        {
+          "field": "kun_heaven_star",
+          "op": "in",
+          "value": [
+            "天蓬星",
+            "天任星",
+            "天冲星",
+            "天辅星",
+            "天英星",
+            "天芮星",
+            "天柱星",
+            "天心星",
+            "天禽星"
+          ]
+        },
+        {
+          "field": "kun_heaven_star_polarity",
+          "op": "in",
+          "value": [
+            "yang",
+            "yin"
+          ]
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_pregnancy_kun_star_v1"
+      },
+      "source_lines": [
+        13
+      ],
+      "source_quote": "以坤宫天芮星为母亲，以天盘临坤宫之星为胎儿，阳星为男胎儿，阴星为女胎儿。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "只审查原书按坤宫天盘星阴阳取象的方法，不输出实际胎儿性别。",
+        "例2、例5出现多法冲突，不按后来结果反选星法。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "record_revision": 2
+    },
+    {
+      "key": "pregnancy_tianqin_twins_reference",
+      "domain": "pregnancy_childbirth",
+      "scope": "tianqin_at_kun_twins_reference",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "pregnancy_childbirth"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "multiple_birth_method_reference"
+        },
+        {
+          "field": "kun_heaven_star",
+          "op": "eq",
+          "value": "天禽星"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_pregnancy_tianqin_twins_v1"
+      },
+      "source_lines": [
+        15
+      ],
+      "source_quote": "其中天禽星临坤宫为双生，阳干是男孩，阴干是女孩。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "只在天禽临坤的原文条件下返回双生方法参考，不作超声结果。",
+        "本句继述阳干阴干却未明确所取干和盘层；不自动绑定干或生成男女性别结论。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "record_revision": 2
+    },
+    {
+      "key": "pregnancy_kun_door_fetus",
+      "domain": "pregnancy_childbirth",
+      "scope": "kun_door_fetal_role_reference",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "pregnancy_childbirth"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "maternal_fetal_role_reference"
+        },
+        {
+          "field": "kun_door",
+          "op": "in",
+          "value": [
+            "休门",
+            "生门",
+            "伤门",
+            "杜门",
+            "景门",
+            "死门",
+            "惊门",
+            "开门"
+          ]
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_pregnancy_kun_door_v1"
+      },
+      "source_lines": [
+        17
+      ],
+      "source_quote": "又以坤宫所临之门为胎儿，阳门为男胎，阴门为女胎。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "坤宫所临门可作胎儿符号，是又一种方法，不覆盖星法。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "door_at_kun"
+        ],
+        "semantic_role": "fetus_perspective",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "pregnancy_kun_door_polarity_reference",
+      "domain": "pregnancy_childbirth",
+      "scope": "kun_door_polarity_historical_sex_reference",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "pregnancy_childbirth"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "fetal_sex_method_reference"
+        },
+        {
+          "field": "kun_door",
+          "op": "in",
+          "value": [
+            "休门",
+            "生门",
+            "伤门",
+            "杜门",
+            "景门",
+            "死门",
+            "惊门",
+            "开门"
+          ]
+        },
+        {
+          "field": "kun_door_polarity",
+          "op": "in",
+          "value": [
+            "yang",
+            "yin"
+          ]
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_pregnancy_kun_door_v1"
+      },
+      "source_lines": [
+        17
+      ],
+      "source_quote": "又以坤宫所临之门为胎儿，阳门为男胎，阴门为女胎。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "阳门男胎、阴门女胎原解释完整返回，仅作传统方法学习。",
+        "不以门法强行消除与星法不同的信息。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true
+    },
+    {
+      "key": "pregnancy_day_hour_mother_child",
+      "domain": "pregnancy_childbirth",
+      "scope": "day_mother_hour_child_role_reference",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "pregnancy_childbirth"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "maternal_fetal_role_reference"
+        },
+        {
+          "field": "day_stem",
+          "op": "in",
+          "value": [
+            "甲",
+            "乙",
+            "丙",
+            "丁",
+            "戊",
+            "己",
+            "庚",
+            "辛",
+            "壬",
+            "癸"
+          ]
+        },
+        {
+          "field": "hour_stem",
+          "op": "in",
+          "value": [
+            "甲",
+            "乙",
+            "丙",
+            "丁",
+            "戊",
+            "己",
+            "庚",
+            "辛",
+            "壬",
+            "癸"
+          ]
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_pregnancy_day_hour_v1"
+      },
+      "source_lines": [
+        19
+      ],
+      "source_quote": "又可以日干为母，以时干为子，以时干阴阳和所临星、门、宫来判断男女。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "只在本孕产方法明确选定时把日干母、时干子作为候选；不是所有领域日时干的固定现实身份。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "day_stem",
+          "hour_stem"
+        ],
+        "semantic_role": "mother_and_child_perspective",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "pregnancy_hour_stem_combination_sex_reference",
+      "domain": "pregnancy_childbirth",
+      "scope": "hour_stem_star_door_palace_combination_reference",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "pregnancy_childbirth"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "fetal_sex_method_reference"
+        },
+        {
+          "field": "hour_stem_polarity",
+          "op": "in",
+          "value": [
+            "yang",
+            "yin"
+          ]
+        },
+        {
+          "field": "hour_landing_star",
+          "op": "in",
+          "value": [
+            "天蓬星",
+            "天任星",
+            "天冲星",
+            "天辅星",
+            "天英星",
+            "天芮星",
+            "天柱星",
+            "天心星",
+            "天禽星"
+          ]
+        },
+        {
+          "field": "hour_landing_door",
+          "op": "in",
+          "value": [
+            "休门",
+            "生门",
+            "伤门",
+            "杜门",
+            "景门",
+            "死门",
+            "惊门",
+            "开门"
+          ]
+        },
+        {
+          "field": "hour_landing_palace",
+          "op": "in",
+          "value": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_pregnancy_day_hour_v1"
+      },
+      "source_lines": [
+        19
+      ],
+      "source_quote": "又可以日干为母，以时干为子，以时干阴阳和所临星、门、宫来判断男女。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "原文要求时干阴阳和所临星、门、宫综合；不只凭一干输出结论。",
+        "候选检查输入，不证明盘位或符号极性已被引擎验证。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "record_revision": 2
+    },
+    {
+      "key": "pregnancy_zhifu_liuhe_mother_fetus",
+      "domain": "pregnancy_childbirth",
+      "scope": "zhifu_mother_liuhe_fetus_role_reference",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "pregnancy_childbirth"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "maternal_fetal_role_reference"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_pregnancy_zhifu_liuhe_v1"
+      },
+      "source_lines": [
+        21
+      ],
+      "source_quote": "还有以值符为产母，以六合或值使为胎儿来取用神的。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "值符为产母、六合为胎儿是还有的一种取法。",
+        "与值使为胎儿方案分别指定method_id；未选择不暗定。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "值符",
+          "六合"
+        ],
+        "semantic_role": "mother_and_fetus_perspective",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "pregnancy_zhifu_zhishi_mother_fetus",
+      "domain": "pregnancy_childbirth",
+      "scope": "zhifu_mother_zhishi_fetus_role_reference",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "pregnancy_childbirth"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "maternal_fetal_role_reference"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_pregnancy_zhifu_zhishi_v1"
+      },
+      "source_lines": [
+        21
+      ],
+      "source_quote": "还有以值符为产母，以六合或值使为胎儿来取用神的。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "值符为产母、值使为胎儿与六合方案并列。",
+        "该参考不将值使在例6的值班医师类象覆盖成固定胎儿身份。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "值符",
+          "值使"
+        ],
+        "semantic_role": "mother_and_fetus_perspective",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "pregnancy_delivery_star_relation_context",
+      "domain": "pregnancy_childbirth",
+      "scope": "delivery_star_directed_relationship_context",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "pregnancy_childbirth"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "delivery_method_reference"
+        },
+        {
+          "field": "comparison_basis",
+          "op": "eq",
+          "value": "kun_earth_tianrui_and_actual_heaven_star"
+        },
+        {
+          "field": "directed_star_relation",
+          "op": "in",
+          "value": [
+            "earth_tianrui_controls_heaven_star",
+            "heaven_star_generates_earth_tianrui",
+            "heaven_star_controls_earth_tianrui"
+          ]
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_pregnancy_delivery_star_v1"
+      },
+      "source_lines": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "source_quote": "以坤宫为产室，天芮星为产母，天盘所临之星为胎儿。\n\n天芮克天盘之星者，主产速。\n\n天盘星生地盘星天芮者，子恋母腹，产迟。\n\n天盘星克地盘天芮者，为子克母，主母凶；地盘天芮克天盘星者，母克子，主子亡，但得旺相之气，及奇门吉格者则不碍事。\n\n如果时干所临天盘星落地盘墓，主子死母腹内。\n\n天地两盘如果乘凶门凶格者，子母俱凶。",
+      "exceptions": [
+        "但得旺相之气，及奇门吉格者则不碍事；原文的及不在此擅定布尔组合。",
+        "时干所临天盘星落地盘墓、天地盘凶门凶格的额外前提必须分别完整。"
+      ],
+      "unique": false,
+      "notes": [
+        "必须保留整段：天芮克天盘星既主产速，又母克子主子亡，并附旺相之气及奇门吉格例外。",
+        "本候选只返回条件语境，不将生克单征象编为死亡、胎死腹中或现实医疗预测。",
+        "基准是地盘/本宫天芮与实际天盘星的星关系，不能改用两宫五行或反转source/target。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true
+    },
+    {
+      "key": "pregnancy_delivery_door_relation_context",
+      "domain": "pregnancy_childbirth",
+      "scope": "delivery_palace_door_directed_relationship_context",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "pregnancy_childbirth"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "delivery_method_reference"
+        },
+        {
+          "field": "comparison_basis",
+          "op": "eq",
+          "value": "kun_palace_and_actual_door"
+        },
+        {
+          "field": "directed_palace_door_relation",
+          "op": "in",
+          "value": [
+            "palace_controls_door",
+            "door_controls_palace"
+          ]
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_pregnancy_delivery_door_v1"
+      },
+      "source_lines": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "source_quote": "又以坤宫所临之门为胎儿，产室克门，胎不安。门克坤宫，孕妇常病。\n\n如果伏吟，为子恋母腹，胎主稳而产迟。\n\n上乘白虎，则主产速，因白虎为血光神。\n\n门到坤宫若休囚入墓，可能是死胎。\n\n如果临三奇，则为吉利。",
+      "exceptions": [
+        "伏吟主胎稳产迟、白虎产速、临三奇吉利均须放回具体方法和完整盘局。"
+      ],
+      "unique": false,
+      "notes": [
+        "保留产室克门与门克坤宫两种方向及后文伏吟、白虎、休囚入墓、三奇的完整语境。",
+        "门到坤休囚入墓原文是可能，不能变成胎死确定事实。",
+        "无论符号条件是否匹配，系统不将其作为医疗诊断或干预指令。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true
+    },
+    {
+      "key": "pregnancy_timing_opposite_kun_heaven_stem",
+      "domain": "pregnancy_childbirth",
+      "scope": "opposite_kun_heaven_stem_timing_reference",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "pregnancy_childbirth"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "delivery_timing_method_reference"
+        },
+        {
+          "field": "opposite_kun_heaven_stem",
+          "op": "in",
+          "value": [
+            "甲",
+            "乙",
+            "丙",
+            "丁",
+            "戊",
+            "己",
+            "庚",
+            "辛",
+            "壬",
+            "癸"
+          ]
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_pregnancy_timing_opposite_kun_v1"
+      },
+      "source_lines": [
+        51
+      ],
+      "source_quote": "一般以坤宫对冲之宫天盘所临之干为应期。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "一般以坤宫对冲宫天盘干为应期；地盘同干不能替代。",
+        "方法条件匹配不等于可算出唯一日期时刻；不替代医院预产期或分娩安排。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true
+    },
+    {
+      "key": "pregnancy_timing_yin_day_geng_above",
+      "domain": "pregnancy_childbirth",
+      "scope": "yin_day_geng_above_timing_reference",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "pregnancy_childbirth"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "delivery_timing_method_reference"
+        },
+        {
+          "field": "day_polarity",
+          "op": "eq",
+          "value": "yin"
+        },
+        {
+          "field": "geng_side",
+          "op": "eq",
+          "value": "above"
+        },
+        {
+          "field": "selected_geng_adjacent_stem",
+          "op": "in",
+          "value": [
+            "甲",
+            "乙",
+            "丙",
+            "丁",
+            "戊",
+            "己",
+            "庚",
+            "辛",
+            "壬",
+            "癸"
+          ]
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_pregnancy_timing_geng_yin_above_v1"
+      },
+      "source_lines": [
+        53
+      ],
+      "source_quote": "也可按阴日看庚上之干，阳日看庚下之干等其他断应期的方法进行。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "阴日看庚上，条件是日而非时。",
+        "需明确所取庚与盘层；原文等其他应期方法不是排他列表。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true
+    },
+    {
+      "key": "pregnancy_timing_yang_day_geng_below",
+      "domain": "pregnancy_childbirth",
+      "scope": "yang_day_geng_below_timing_reference",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "pregnancy_childbirth"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "delivery_timing_method_reference"
+        },
+        {
+          "field": "day_polarity",
+          "op": "eq",
+          "value": "yang"
+        },
+        {
+          "field": "geng_side",
+          "op": "eq",
+          "value": "below"
+        },
+        {
+          "field": "selected_geng_adjacent_stem",
+          "op": "in",
+          "value": [
+            "甲",
+            "乙",
+            "丙",
+            "丁",
+            "戊",
+            "己",
+            "庚",
+            "辛",
+            "壬",
+            "癸"
+          ]
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_pregnancy_timing_geng_yang_below_v1"
+      },
+      "source_lines": [
+        53
+      ],
+      "source_quote": "也可按阴日看庚上之干，阳日看庚下之干等其他断应期的方法进行。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "阳日看庚下，与阴日庚上并列且条件不能逆置。",
+        "不把例4戊戌应时语境直接写回初始问时盘，不生成未给出的新原盘。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true
+    }
+  ],
+  "source_review_status": "confirmed_by_user_submission",
+  "source_confirmed_by_user": true,
+  "manual_source_reconfirmation_required": false,
+  "instruction_policy": "attachment_is_source_data_not_execution_instruction",
+  "condition_protocol": {
+    "operators": {
+      "eq": "typed equality",
+      "in": "typed membership in explicit values",
+      "present": "field exists and is not null; no inferred fallback"
+    },
+    "selection_order": [
+      "known condition mismatch -> excluded",
+      "missing required condition -> conditional",
+      "unselected explicit alternative method -> disputed",
+      "all conditions and method scope match -> applicable within source inspection only"
+    ],
+    "source_acceptance": "confirmed by current user instruction on submission; no second human review",
+    "formal_activation": "all entries remain reference_only until independently compiled and tested; no medical rule compilation by this import",
+    "missing_false_or_zero_is_not_missing": true,
+    "symbol_input_protocol": "星名只接受本项目chapter01_curated.stars已给name全称（如天心星、天禽星），不自动接受简称、别名或推断转换；门名使用休门等已给全称。null为缺失，false/0/空串不是有效符号。此工程输入约束不另增原书断案条件，也不证明盘位已经校验。"
+  },
+  "method_policy": "坤星、门、日时干、值符六合、值符值使及不同应期方法明确隔离；不暗选唯一方法，不按事后结果挑选性别取法。",
+  "global_limitations": [
+    "14项只是来源条件审查候选，不是正式规则；SQL检索与条件匹配可运行，但正式角色绑定为空。",
+    "原文已确认，技术条件未知仍不默认满足；无须人工再次确认原文。",
+    "本章母胎、星门、产期为传统研究参考，不用于胎儿异常诊断、保留或终止妊娠决定、手术/分娩调度。",
+    "作者明确性别判断有时矛盾不准；六例历史结果不提供独立现实效度。",
+    "六故事完整保留；例1/2同家族；医院中途披露、编者加工、预测与反馈分层。",
+    "所有候选均不调用专业模型、不生成训练任务、不自动断真实男女、生死或具体日期。"
+  ],
+  "historical_candidates": [
+    {
+      "domain": "pregnancy_childbirth",
+      "exceptions": [],
+      "exclude": [],
+      "formal_role_activation_allowed": false,
+      "key": "pregnancy_kun_star_mother_fetus",
+      "method_choice": {
+        "method_id": "shenqi_pregnancy_kun_star_v1",
+        "status": "explicit_choice_required"
+      },
+      "notes": [
+        "坤宫天芮是母方参照，天盘临坤之星是胎方；固定本宫与实际落宫不混同。",
+        "本条件仅检查传入符号字段，不能代替盘面验证；与门、日时干、值符等并列。"
+      ],
+      "professional_prediction_completed": false,
+      "reference_only": true,
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "pregnancy_childbirth"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "maternal_fetal_role_reference"
+        },
+        {
+          "field": "kun_heaven_star",
+          "op": "in",
+          "value": [
+            "天蓬",
+            "天任",
+            "天冲",
+            "天辅",
+            "天英",
+            "天芮",
+            "天柱",
+            "天心",
+            "天禽"
+          ]
+        }
+      ],
+      "role_binding": {
+        "automatic_activation": false,
+        "binding_kind": "source_candidate",
+        "semantic_role": "mother_and_fetus_perspective",
+        "supplementary": false,
+        "symbols": [
+          "earth_home_kun:天芮",
+          "heaven_at_kun:star"
+        ],
+        "uniqueness": "not_claimed"
+      },
+      "scope": "kun_star_maternal_fetal_role_reference",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_satisfied": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_confirmed_by_user": true,
+      "source_lines": [
+        13
+      ],
+      "source_quote": "以坤宫天芮星为母亲，以天盘临坤宫之星为胎儿，阳星为男胎儿，阴星为女胎儿。",
+      "unique": false,
+      "unknown_policy": "conditional_never_true_by_default"
+    },
+    {
+      "domain": "pregnancy_childbirth",
+      "exceptions": [],
+      "exclude": [],
+      "formal_role_activation_allowed": false,
+      "key": "pregnancy_kun_star_polarity_reference",
+      "method_choice": {
+        "method_id": "shenqi_pregnancy_kun_star_v1",
+        "status": "explicit_choice_required"
+      },
+      "notes": [
+        "只审查原书按坤宫天盘星阴阳取象的方法，不输出实际胎儿性别。",
+        "例2、例5出现多法冲突，不按后来结果反选星法。"
+      ],
+      "professional_prediction_completed": false,
+      "reference_only": true,
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "pregnancy_childbirth"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "fetal_sex_method_reference"
+        },
+        {
+          "field": "kun_heaven_star",
+          "op": "in",
+          "value": [
+            "天蓬",
+            "天任",
+            "天冲",
+            "天辅",
+            "天英",
+            "天芮",
+            "天柱",
+            "天心",
+            "天禽"
+          ]
+        },
+        {
+          "field": "kun_heaven_star_polarity",
+          "op": "in",
+          "value": [
+            "yang",
+            "yin"
+          ]
+        }
+      ],
+      "scope": "kun_star_polarity_historical_sex_reference",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_satisfied": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_confirmed_by_user": true,
+      "source_lines": [
+        13
+      ],
+      "source_quote": "以坤宫天芮星为母亲，以天盘临坤宫之星为胎儿，阳星为男胎儿，阴星为女胎儿。",
+      "unique": false,
+      "unknown_policy": "conditional_never_true_by_default"
+    },
+    {
+      "domain": "pregnancy_childbirth",
+      "exceptions": [],
+      "exclude": [],
+      "formal_role_activation_allowed": false,
+      "key": "pregnancy_tianqin_twins_reference",
+      "method_choice": {
+        "method_id": "shenqi_pregnancy_tianqin_twins_v1",
+        "status": "explicit_choice_required"
+      },
+      "notes": [
+        "只在天禽临坤的原文条件下返回双生方法参考，不作超声结果。",
+        "本句继述阳干阴干却未明确所取干和盘层；不自动绑定干或生成男女性别结论。"
+      ],
+      "professional_prediction_completed": false,
+      "reference_only": true,
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "pregnancy_childbirth"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "multiple_birth_method_reference"
+        },
+        {
+          "field": "kun_heaven_star",
+          "op": "eq",
+          "value": "天禽"
+        }
+      ],
+      "scope": "tianqin_at_kun_twins_reference",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_satisfied": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_confirmed_by_user": true,
+      "source_lines": [
+        15
+      ],
+      "source_quote": "其中天禽星临坤宫为双生，阳干是男孩，阴干是女孩。",
+      "unique": false,
+      "unknown_policy": "conditional_never_true_by_default"
+    },
+    {
+      "domain": "pregnancy_childbirth",
+      "exceptions": [],
+      "exclude": [],
+      "formal_role_activation_allowed": false,
+      "key": "pregnancy_hour_stem_combination_sex_reference",
+      "method_choice": {
+        "method_id": "shenqi_pregnancy_day_hour_v1",
+        "status": "explicit_choice_required"
+      },
+      "notes": [
+        "原文要求时干阴阳和所临星、门、宫综合；不只凭一干输出结论。",
+        "候选检查输入，不证明盘位或符号极性已被引擎验证。"
+      ],
+      "professional_prediction_completed": false,
+      "reference_only": true,
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "pregnancy_childbirth"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "fetal_sex_method_reference"
+        },
+        {
+          "field": "hour_stem_polarity",
+          "op": "in",
+          "value": [
+            "yang",
+            "yin"
+          ]
+        },
+        {
+          "field": "hour_landing_star",
+          "op": "in",
+          "value": [
+            "天蓬",
+            "天任",
+            "天冲",
+            "天辅",
+            "天英",
+            "天芮",
+            "天柱",
+            "天心",
+            "天禽"
+          ]
+        },
+        {
+          "field": "hour_landing_door",
+          "op": "in",
+          "value": [
+            "休门",
+            "生门",
+            "伤门",
+            "杜门",
+            "景门",
+            "死门",
+            "惊门",
+            "开门"
+          ]
+        },
+        {
+          "field": "hour_landing_palace",
+          "op": "in",
+          "value": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "scope": "hour_stem_star_door_palace_combination_reference",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_satisfied": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_confirmed_by_user": true,
+      "source_lines": [
+        19
+      ],
+      "source_quote": "又可以日干为母，以时干为子，以时干阴阳和所临星、门、宫来判断男女。",
+      "unique": false,
+      "unknown_policy": "conditional_never_true_by_default"
+    }
+  ],
+  "revision_history": [
+    {
+      "record_revision": 2,
+      "candidate_keys": [
+        "pregnancy_kun_star_mother_fetus",
+        "pregnancy_kun_star_polarity_reference",
+        "pregnancy_tianqin_twins_reference",
+        "pregnancy_hour_stem_combination_sex_reference"
+      ],
+      "reason": "Use existing chapter01 canonical star names. Preserve previously installed revision1 as immutable history.",
+      "data_scope": "condition input vocabulary only; source quotes and original text unchanged"
+    }
+  ]
+}

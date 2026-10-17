@@ -136,7 +136,10 @@ class HealthCaseTests(DatabaseTest):
         for record in full['records']:
             if record['kind'] in ('feedback','outcome'):
                 self.assertEqual(record['knowledge_phase'],'post_feedback')
-        self.assertFalse(self.original(2)['outcome_independently_verified'])
+        confirmed=self.original(2)
+        self.assertTrue(confirmed['outcome_independently_verified'])
+        self.assertEqual(confirmed['outcome_confirmation']['verification_basis'],'user_attestation')
+        self.assertFalse(confirmed['outcome_confirmation']['system_performed_independent_verification'])
 
     def test_nephew_initial_accident_known_but_later_feedback_and_discharge_hidden(self):
         text=case_content_text(self.original(3,'before_prediction'))
@@ -165,7 +168,8 @@ class HealthCaseTests(DatabaseTest):
         before=case_content_text(self.original(6,'before_prediction'))
         self.assertIn('肾炎',before)
         for later in ('1998年3月','已经稳定了','心脏病'):self.assertNotIn(later,before)
-        full=self.original(6);self.assertFalse(full['outcome_independently_verified'])
+        full=self.original(6);self.assertTrue(full['outcome_independently_verified'])
+        self.assertEqual(full['outcome_confirmation']['verification_basis'],'user_attestation')
         final=full['events'][0]['records'][-1]
         self.assertEqual(final['knowledge_phase'],'post_feedback')
         self.assertIn('已经稳定了',final['text'])

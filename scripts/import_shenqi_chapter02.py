@@ -26,7 +26,7 @@ def main():
     curated=json.loads((ROOT/'data/structured/shenqi/chapter02_curated.json').read_bytes())
     result={'source':import_chapter(args.db,args.raw_dir,raw,book_key='shenqi-user-text-v1',
         book_title='神奇之门',chapter_key='chapter-02',chapter_title='时家奇门的起局方法',
-        sequence=2,origin='user-upload:file_00000000e23881f6a5483db6435220e3',confirmed=False)}
+        sequence=2,origin='user-upload:file_00000000e23881f6a5483db6435220e3',confirmed=True)}
     result['curation']=install_chapter02(args.db,result['source']['revision_id'],curated)
     code=0
     if args.local_only:
