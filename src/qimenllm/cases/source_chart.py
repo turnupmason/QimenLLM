@@ -76,10 +76,18 @@ def project_chart(db,case_id,chart_id):
         source={'source_id':row['source_id'],'sha256':row['sha256'],'line':start_line+i,
                 'text':line,'column_cells':cells}
         if palace==5:
-            if deity!='—' or star!='—' or door not in stems:
+            # The business chapter's ninth case prints 禽己 in the native
+            # centre cell. Preserve 禽 as a literal marker, without treating it
+            # as an independently placed heaven star or altering its 己 stem.
+            special_centre = row['sha256'] == BUSINESS_SHA and door == '禽己'
+            if deity!='—' or star!='—' or (door not in stems and not special_centre):
                 raise ValueError('Unsupported central palace representation')
-            item={'palace':palace,'earth_stem':door,'door':None,'star':None,'deity':None,
+            item={'palace':palace,'earth_stem':'己' if special_centre else door,
+                  'door':None,'star':None,'deity':None,
                   'heaven_stem':None,'heaven_prefix_marker':None,'star_prefix_marker':None}
+            if special_centre:
+                item['native_center_prefix_marker']='禽'
+                item['source_cell_as_written']='禽己'
         else:
             if len(deity)!=1: raise ValueError('Unsupported deity cell')
             # Adjacent main stems are supported by this chapter's explicit
