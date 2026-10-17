@@ -33,3 +33,6 @@ scripts/import_shenqi_weather.py沿import_chapter → install_curated → import
 本章17专项及全量375回归实际通过、0失败/错误，包含API全部5盘/CLI5案、源图变体共家族、时序隔离、未知条件不激活、旧数据/幂等/拒改和快照恢复。远端精确SHA四CI另见STATUS和data/provenance/weather_validation.json，未完成不假称验收。旧25权威表全部旧行逐字段保留、17旧原文逐字节相同；44文件快照恢复再导出一致。无schema迁移、新目录或workflow增删，不改旧source/curation/cases/gold及总指令。
 
 累计18份章级输入、90故事/86家族/96事件/95来源原盘、1377记录/1700证据，1041知识项/2410概念/27方法；478语境块/314技术边界/187当前候选/194历史候选，39编译符号族不变。正式rules/训练任务/冻结release为0。
+
+
+远端内容验收：`79ec410a15204831890b4099ea88c410341a84a2` 已核对main一致、321文件blob匹配；[Actions 39080835687](https://github.com/turnupmason/QimenLLM/actions/runs/39080835687) 的Ubuntu/macOS × Python3.11/3.12四job全部success，四份日志均实际Ran 375 tests / OK。通过已连接GitHub接口非强制更新，未增删workflow。这里记录已实际验收的内容提交；本验收文档后续提交本身仍须按精确新SHA另查四CI，不以旧CI替代。
