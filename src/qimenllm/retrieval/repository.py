@@ -1,6 +1,6 @@
 """Parameterized runtime SQL retrieval; semantic similarity never activates a rule."""
 import json
-from ..knowledge.db import connect
+from ..knowledge.db import connect, digest
 
 
 class KnowledgeRepository:
@@ -29,12 +29,16 @@ class KnowledgeRepository:
     def source(self, source_id: str) -> dict:
         with connect(self.db) as conn:
             row = conn.execute('''SELECT s.*,d.content,b.title AS book,c.title AS chapter,
-                r.revision,d.sha256 FROM source_spans s JOIN chapter_revisions r USING(revision_id)
+                r.revision,d.sha256,
+                (SELECT status FROM source_reviews sr WHERE sr.revision_id=r.revision_id
+                 ORDER BY sr.rowid DESC LIMIT 1) AS source_acceptance
+                FROM source_spans s JOIN chapter_revisions r USING(revision_id)
                 JOIN raw_documents d USING(document_id) JOIN chapters c USING(chapter_id)
                 JOIN books b USING(book_id) WHERE s.source_id=?''', (source_id,)).fetchone()
             if row is None: raise KeyError(source_id)
             result = dict(row)
             raw = result.pop('content')
+            if digest(raw)!=result['sha256']: raise ValueError('Source bytes do not match their recorded hash')
             result['excerpt'] = raw[result['byte_start']:result['byte_end']].decode('utf-8')
             return result
 
@@ -46,3 +50,27 @@ class KnowledgeRepository:
         with connect(self.db) as conn:
             return [dict(r) for r in conn.execute('''SELECT revision_id,body FROM chapter_search
                 WHERE instr(body,?)>0 ORDER BY revision_id LIMIT ?''', (term,limit))]
+
+    def compiled_datasets(self, method_id: str = 'shenqi_ch1_foundation_v1') -> list[dict]:
+        with connect(self.db) as conn:
+            rows=conn.execute('''SELECT k.item_id,k.source_id,k.payload_json,
+                (SELECT status FROM source_reviews sr WHERE sr.revision_id=s.revision_id
+                 ORDER BY sr.rowid DESC LIMIT 1) AS source_acceptance
+                FROM knowledge_items k JOIN source_spans s USING(source_id)
+                WHERE k.method_id=? AND k.compiled=1 AND k.structured=1 AND k.disputed=0
+                AND k.reference_only=0 ORDER BY k.item_id''',(method_id,)).fetchall()
+            return [{**dict(row),'payload':json.loads(row['payload_json'])} for row in rows
+                    if row['source_acceptance']!='disputed']
+
+    def context_groups(self, term: str, limit: int = 30) -> list[dict]:
+        if not term.strip(): return []
+        with connect(self.db) as conn:
+            rows=conn.execute('''SELECT k.item_id,k.source_id,k.payload_json,k.compiled,k.disputed
+                FROM knowledge_items k WHERE json_extract(k.payload_json,'$.kind')='context_group'
+                AND instr(k.payload_json,?)>0 ORDER BY k.rowid LIMIT ?''',(term,min(max(limit,1),100))).fetchall()
+            return [{**dict(row),'payload':json.loads(row['payload_json'])} for row in rows]
+
+    def coverage(self) -> dict:
+        with connect(self.db) as conn:
+            return {table:conn.execute(f'SELECT COUNT(*) FROM {table}').fetchone()[0]
+                    for table in ('books','chapters','knowledge_items','cases','rules')}

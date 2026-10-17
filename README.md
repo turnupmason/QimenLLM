@@ -1,67 +1,53 @@
 # QimenLLM
 
-面向奇门遁甲专业知识、确定性工具、完整历史案例和可替换语言模型的全新工程。**当前仅 Phase 0：没有古籍知识、专业排盘、模型或断案能力。**
+古籍知识、确定性计算、完整案例与可替换语言模型结合的研究工程。**当前Phase 1：已接收《神奇之门》“时家奇门演局的规律”七节，支持有来源的基础教学计算与原文检索；完整排盘、专业问事和模型训练尚未完成。**
 
-开发入口约束见 AGENTS.md；完整使命见 docs/PROJECT_CHARTER.md；进度见 docs/STATUS.md。本次没有读取或继承旧项目。
+执行约束见 [AGENTS](AGENTS.md)，[完整用户总指令](docs/user_instructions/master_spec_2026-10-17.txt)，[当前进度](docs/STATUS.md)，[首章入库报告](docs/ingestion/SHENQI_CHAPTER01.md)。没有读取或继承旧项目。
 
-## 运行
+## 运行与恢复
 
-要求 Python >=3.11、SQLite 支持 JSON/FTS5、Git。源码运行不需要安装第三方包：
+Python >=3.11、SQLite支持JSON/FTS5、Git。源码运行无第三方依赖。在仓库根目录执行：
 
 ```sh
-cd QimenLLM
-PYTHONPATH=src python3 -m qimenllm init
 PYTHONPATH=src python3 -m unittest discover -s tests -v
+# 全新设备从实际快照恢复；目标库必须不存在
+PYTHONPATH=src python3 -m qimenllm restore-snapshot data/snapshots/current data/qimenllm.sqlite3
 PYTHONPATH=src python3 -m qimenllm audit
+PYTHONPATH=src python3 -m qimenllm learn '符头'
+PYTHONPATH=src python3 -m qimenllm calculate earth_plate --args '{"dun":"阳遁","bureau":3}'
+PYTHONPATH=src python3 -m qimenllm calculate bureau --args '{"solar_term":"冬至","day_ganzhi":"甲子","method":"chaibu"}'
 PYTHONPATH=src python3 -m qimenllm ask '我最近想换工作'
-PYTHONPATH=src python3 -m qimenllm learn '九宫'
 ```
 
-问事应返回 blocked；学习应返回 awaiting_sources。这是如实报告能力缺口，不能计为成功断案。打包安装可选 `python3 -m pip install -e .`，然后使用 qimenllm 命令；建议先建 venv。
+学习返回原文和独立标记的整理说明。计算结果带SHA/出处，调用者明确给节气和干支等符号输入；尚不从公历自动确定。问事仍blocked，不能算成功断案。init仅建新空库；已有库不要删除重建。可选venv后安装 `python3 -m pip install -e .`。
 
-## 最小研究 API
+## 研究API
 
 ```sh
 PYTHONPATH=src python3 -m qimenllm serve --port 8765
+PYTHONPATH=src python3 scripts/smoke_api.py --chapter01
 ```
 
-仅监听 127.0.0.1。GET /health；POST /v1/ask 的 JSON 为 `{"text":"问题"}`；POST /v1/learn 为 `{"term":"术语"}`。没有维护写入口，不是生产服务器。本轮没有留下常驻服务、创建网站或公开端口。
+只监听127.0.0.1。GET /health；POST /v1/ask：`{"text":"问题"}`；/v1/learn：`{"term":"符头"}`；/v1/calculate：`{"operation":"earth_plate","args":{"dun":"阳遁","bureau":3}}`。没有维护写路由，不是公众服务器。
 
-所有问事入口共用 QimenService.ask。测试用临时中性工程样本证明动态数据库规则确实到达模型适配器和校验器；不包含假装正式知识的奇门样本。真实算法和模型默认明确未实现/未配置。
+问事只通过QimenService.ask，教学计算通过QimenService.calculate；CLI/API/集成测试共用核心模块，实际运行查询数据库。教学对象不是完整Chart，不靠模型记忆补全。
 
-## 目录
+## 数据与目录
 
-```text
-QimenLLM/
-├── AGENTS.md  README.md  pyproject.toml  Makefile
-├── configs/                  # 开发与未来 GPU 配置模板，不启动训练
-├── docs/                     # 章程、架构、政策、schema、设备、验收及状态
-├── data/
-│   ├── raw_books/            # 原文字节镜像，默认不进 Git
-│   ├── structured/ rules/ cases/ provenance/ splits/
-│   └── qimenllm.sqlite3      # 可重建的空领域库
-├── src/qimenllm/
-│   ├── calendar/ casting/ knowledge/ retrieval/ rules/ cases/
-│   ├── models/ reasoning/ verification/ evaluation/
-│   └── conversation/ learning/ api/
-├── tests/                    # 自动回归；临时库，不污染 data/
-├── scripts/doctor.py
-├── frontend/                 # 仅接口接入说明
-├── training/                 # 仅训练门槛说明
-└── artifacts/                # 本轮验收产物，默认不进 Git
-```
+src/qimenllm/按knowledge/casting/retrieval/rules/cases/reasoning/models/verification/learning/api分层。docs保存持久规范，tests用临时库，scripts提供诊断、首章重放和HTTP检查；frontend、training目前仅预留集成说明。
 
-数据库：src/qimenllm/knowledge/migrations/001_initial.sql，补充约束在 knowledge/db.py。设计与关系图见 docs/SCHEMA.md；原文/案例接口见 docs/IMPORT_PROTOCOL.md、CASE_POLICY.md。
+data/qimenllm.sqlite3是本地运行库，raw_books是原字节镜像，二者不直接入Git。**实际原文字节与全部权威表**保存在data/snapshots/current，可恢复；整理和来源测试在data/structured/shenqi，来源与验收在data/provenance。schema v1见src/qimenllm/knowledge/migrations/001_initial.sql及[SCHEMA](docs/SCHEMA.md)。
 
-导入下一章前不用安装模型或连接 GPU。用户按完整章节提供材料后，Codex 将保存来源与哈希、审读标注、按来源支持编译并运行相应测试。本轮完成后等待《神奇之门》第一章。
+首章40个上下文块、12编译族、21疑点/边界、11演算教学例；历史问事案例、用神规则、训练任务仍0，详见[覆盖](docs/KNOWLEDGE_COVERAGE.md)。
 
-## GitHub 持续同步
+## 每次更新同步GitHub
 
-用户已要求每次源码和数据更新同步至私有 `turnupmason/QimenLLM`。import-chapter / annotate 会在本地保存成功后自动尝试导出、测试、commit、push 并核对远端。失败返回退出码 2 和 pending，原文仍已保存；不能把它当上传成功。源码以 Git 管理，实际文献/结构化库用可恢复快照进入 Git，不只上传计数或 schema。
+用户已长期授权同步至私有 https://github.com/turnupmason/QimenLLM 。实际库快照随代码版本化。导入/标注CLI和首章脚本默认尝试审计、导出、测试、commit/push并核对远端。失败pending/退出码2，原文仍保存。
 
 ```sh
+PYTHONPATH=src python3 scripts/import_shenqi_chapter01.py
 PYTHONPATH=src python3 -m qimenllm export-snapshot
 PYTHONPATH=src python3 -m qimenllm sync --message 'Update project and source data'
 ```
 
-仓库已由用户创建，当前项目及实际空数据快照已上传到 https://github.com/turnupmason/QimenLLM 。当前会话若遇到命令行 GitHub API 的网络限制，Codex 使用 GitHub 连接器核实私有状态和权限，再以正常 Git HTTPS 上传并核对远端提交。具体操作、恢复命令和同步边界见 docs/GITHUB_SYNC.md。
+首章脚本只接受本次确切哈希，重放不重复入库；新章/修订另走导入。当前云会话若命令行API受限，Codex通过连接器核实私有状态，再正常Git HTTPS推送并核对远端；pending不算完成。维护和恢复见[GITHUB_SYNC](docs/GITHUB_SYNC.md)、[IMPORT_PROTOCOL](docs/IMPORT_PROTOCOL.md)。不提交密钥、私人问事或模型权重，不公开分发原书。

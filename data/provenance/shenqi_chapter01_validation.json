@@ -1,0 +1,219 @@
+{
+  "recorded_at": "2026-10-17T14:06:31.240476+00:00",
+  "environment": {
+    "system": "Linux",
+    "machine": "x86_64",
+    "python": "3.12.14",
+    "mac_and_home_gpu_tested": false
+  },
+  "source_sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+  "data_version": "1ca4eeee-fc4a-4977-ad3d-6687aa423566",
+  "schema_version": 1,
+  "migration_required": false,
+  "counts": {
+    "books": 1,
+    "chapters": 1,
+    "raw_documents": 1,
+    "source_spans": 73,
+    "knowledge_items": 84,
+    "concepts": 263,
+    "methods": 6,
+    "rules": 0,
+    "cases": 0,
+    "events": 0,
+    "charts": 0,
+    "training_tasks": 0
+  },
+  "tests": {
+    "command": "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+    "total": 79,
+    "passed": 79,
+    "failed": 0,
+    "chapter_tests": 20,
+    "source_comparison_subchecks": 203,
+    "source_comparisons_are_independent_unseen_predictions": false
+  },
+  "compileall": {
+    "command": "PYTHONPATH=src python3 -m compileall -q src tests scripts",
+    "ok": true
+  },
+  "audit": {
+    "ok": true,
+    "errors": [],
+    "counts": {
+      "books": 1,
+      "chapters": 1,
+      "raw_documents": 1,
+      "knowledge_items": 84,
+      "rules": 0,
+      "cases": 0,
+      "events": 0,
+      "charts": 0,
+      "training_tasks": 0
+    },
+    "data_version": "1ca4eeee-fc4a-4977-ad3d-6687aa423566"
+  },
+  "duplicate_import_and_install": {
+    "unchanged": true,
+    "result": {
+      "source": {
+        "revision_id": "8f4e8998-0cb6-43d6-917e-ba5b88220024",
+        "chapter_id": "4ca386e7-9a2c-4911-a278-9b92bdf66c8f",
+        "revision": 1,
+        "document_id": "doc-b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+        "data_version": "330fb64c-42b6-4211-9526-600980af4ab1",
+        "input_origin": "user-upload:file_000000002c9081f6bfe1eb22da47d4d0",
+        "imported_at": "2026-10-17T13:46:16.601736+00:00",
+        "source_id": "4ff800d9-8fdc-43bc-a26b-82b73c211dae",
+        "duplicate": true,
+        "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718"
+      },
+      "curation": {
+        "structured_records_added": 0,
+        "context_groups": 40,
+        "quality_records": 21,
+        "worked_examples": 11,
+        "compiled_families_added": 0,
+        "concept_entries_added": 0,
+        "methods_added": 0,
+        "data_version": "1ca4eeee-fc4a-4977-ad3d-6687aa423566",
+        "source_acceptance": "tracked_separately",
+        "professional_prediction_available": false
+      }
+    }
+  },
+  "snapshot": {
+    "manifest_file_sha256": "c0eb3277b17e99b26c2018d6633fcf5842e37c975c9168d6a36ecf83906a0174",
+    "export": {
+      "data_version": "1ca4eeee-fc4a-4977-ad3d-6687aa423566",
+      "snapshot": "data/snapshots/current",
+      "counts": {
+        "data_versions": 4,
+        "books": 1,
+        "chapters": 1,
+        "raw_documents": 1,
+        "chapter_revisions": 1,
+        "source_reviews": 1,
+        "source_spans": 73,
+        "methods": 6,
+        "concepts": 263,
+        "concept_links": 0,
+        "knowledge_items": 84,
+        "rules": 0,
+        "rule_conditions": 0,
+        "rule_disagreements": 0,
+        "event_families": 0,
+        "cases": 0,
+        "events": 0,
+        "case_events": 0,
+        "charts": 0,
+        "case_records": 0,
+        "evidence_links": 0,
+        "dataset_releases": 0,
+        "split_assignments": 0,
+        "training_tasks": 0,
+        "task_inputs": 0
+      },
+      "manifest_sha256": "155e922c46c3fe12bb6f4c86a19f6dce1c8982f16d83705c842d38bc13bfd102"
+    },
+    "restoration": {
+      "ok": true,
+      "new_database_only": true,
+      "all_authoritative_snapshot_bytes_equal": true,
+      "calculation_and_evidence_equal": true,
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "counts": {
+          "books": 1,
+          "chapters": 1,
+          "raw_documents": 1,
+          "knowledge_items": 84,
+          "rules": 0,
+          "cases": 0,
+          "events": 0,
+          "charts": 0,
+          "training_tasks": 0
+        },
+        "data_version": "1ca4eeee-fc4a-4977-ad3d-6687aa423566"
+      }
+    }
+  },
+  "real_http": {
+    "ok": true,
+    "transport": "temporary_loopback_http",
+    "listener_closed": true,
+    "results": [
+      {
+        "path": "/health",
+        "http_status": 200,
+        "status": "ok"
+      },
+      {
+        "path": "/v1/ask",
+        "http_status": 200,
+        "status": "blocked"
+      },
+      {
+        "path": "/v1/learn",
+        "http_status": 200,
+        "status": "awaiting_sources"
+      },
+      {
+        "path": "/v1/learn",
+        "http_status": 200,
+        "status": "sources_found"
+      },
+      {
+        "path": "/v1/calculate",
+        "http_status": 200,
+        "status": "computed"
+      }
+    ]
+  },
+  "offline_wheel_install": {
+    "ok": true,
+    "isolated_package": true,
+    "migration_packaged": true,
+    "new_calculator_packaged": true,
+    "runtime_db_query": true
+  },
+  "wheel_sha256": "c92c666ed1b467a63ad898bb19233acaa6bbc24321e1470b34daca4ea3270bd7",
+  "log_hashes": {
+    "artifacts/chapter01-audit.json": "04a854bfc18c01e50420fcc612270bca0dad2c63c5201540324b53b1d8dddc48",
+    "artifacts/chapter01-compile.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "artifacts/chapter01-export.json": "27d1ec7652050a872b57bbf15d236f3517e196c675a3698773846cac3bb96d29",
+    "artifacts/chapter01-http-smoke.json": "53c854ad9e515079a9b522bc6bdfc5ebfb6eaf364470fb94d6b739b06dae6d39",
+    "artifacts/chapter01-installed-smoke.json": "84b574b2859a8e88f0a6ffa6475cd73abc1167bf75ba9cc582de456bc215f8de",
+    "artifacts/chapter01-reimport.json": "af9c55f5b5159f30f9ea3abe6800b69fb77ade1fc62955cf81f1fcd53f0e58d1",
+    "artifacts/chapter01-restore.json": "a49e1f685598a35a17edd9277c63f271785a5def9e109ada1efa9bf1fee6779d",
+    "artifacts/chapter01-tests.log": "271c4ec234ca11e3dfec8bc7084846ee4f69217f1fc293f2200441b0da4f973f",
+    "artifacts/chapter01-wheel-build.log": "60e14a6e604842c68b1e31b3e235235657340db988272fd42b270558b365a4eb",
+    "artifacts/chapter01-wheel-install.log": "d3da72d10f503825999246927d8cd07e2a2ae453db61377e6f96c24c5d4bdc1e"
+  },
+  "commands": [
+    "PYTHONPATH=src python3 scripts/import_shenqi_chapter01.py --local-only",
+    "PYTHONPATH=src python3 -m qimenllm audit",
+    "PYTHONPATH=src python3 -m qimenllm export-snapshot",
+    "PYTHONPATH=src python3 scripts/smoke_api.py --chapter01",
+    "PIP_NO_INDEX=1 python3 -m pip wheel . --no-deps --no-build-isolation --wheel-dir artifacts/chapter01-wheel",
+    "python3 -m pip install --no-index --no-deps --target work/chapter01-installed artifacts/chapter01-wheel/qimenllm-0.1.0-py3-none-any.whl"
+  ],
+  "actual_call_chain": "CLI/API -> QimenService.calculate -> FoundationCalculator -> SQLite compiled datasets + original sources",
+  "professional_cases": 0,
+  "role_rules": 0,
+  "model_experiments": null,
+  "training_run": false,
+  "real_world_prediction_accuracy": null,
+  "original_changed": false,
+  "frozen_professional_evaluation_changed": false,
+  "unimplemented": [
+    "independent calendar and four pillars",
+    "complete chart",
+    "conditional professional role rules",
+    "professional analysis and timing",
+    "model baseline and training",
+    "public product"
+  ],
+  "github_sync_receipt": "work/github-sync.json (generated after final push; not a substitute for remote verification)"
+}

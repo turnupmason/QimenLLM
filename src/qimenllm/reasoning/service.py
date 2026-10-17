@@ -4,6 +4,7 @@ from dataclasses import asdict
 from uuid import uuid4
 from ..contracts import Analysis, GenerationError, Inquiry, ModelUnavailable
 from ..casting.engine import UnimplementedCastingEngine
+from ..casting.foundations import FoundationCalculator
 from ..conversation.interpreter import ExplicitContextInterpreter
 from ..models.gateway import UnconfiguredModelGateway
 from ..retrieval.repository import KnowledgeRepository
@@ -21,7 +22,11 @@ class QimenService:
         self.selector = RuleSelector()
         self.verifier = verifier or EvidenceVerifier()
         self.learning = LearningService(self.knowledge)
+        self.foundations = FoundationCalculator(self.knowledge)
         self.capture_debug = capture_debug  # trusted local callers only; never persisted
+
+    def calculate(self, operation: str, args: dict) -> dict:
+        return self.foundations.calculate(operation,args)
 
     def ask(self, inquiry: Inquiry) -> dict:
         if not isinstance(inquiry.text,str) or not inquiry.text.strip(): raise ValueError('Nonempty question required')
@@ -46,7 +51,7 @@ class QimenService:
                rule_ids=[r['rule_id'] for r in active],error=binding_error)
         result = {'request_id':str(uuid4()),'status':'blocked','professional_analysis_completed':False,
                   'chart_id':chart.chart_id if chart else None, 'rule_ids':[r['rule_id'] for r in active],
-                  'message':'尚未提供古籍及已验证的起盘方法，当前不能进行奇门断案。', 'trace':trace}
+                  'message':'完整起盘和专业断案链路尚未验证完成，当前不能进行奇门断案。', 'trace':trace}
         if chart is None or not active or binding_error or understanding['status']=='not_implemented':
             record('model','skipped',reason='prerequisites_missing')
             record('verification','not_run',reason='no_generated_analysis')

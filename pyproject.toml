@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "qimenllm"
 version = "0.1.0"
-description = "Source-grounded Qimen research and product foundation; no chart algorithms yet"
+description = "Source-grounded Qimen research with partial deterministic teaching calculations"
 requires-python = ">=3.11"
 dependencies = []
 

@@ -16,4 +16,4 @@
 
 运行：`PYTHONPATH=src python3 -m unittest discover -s tests -v`。
 资料/案例规则见 KNOWLEDGE_POLICY / CASE_POLICY；架构与迁移见 ARCHITECTURE / SCHEMA；评估见 EVALUATION_PROTOCOL；设备与远程接入见 HARDWARE。
-当前已进入 Phase 1，收到《神奇之门》“时家奇门演局的规律”七节原文。按用户实际提供内容增量保存、审读、编译和测试；不导入未提供的下一章、不提前训练。完整总指令原件见 docs/user_instructions/master_spec_2026-10-17.txt，覆盖进度以 STATUS 为准。
+当前已进入 Phase 1，已完成《神奇之门》“时家奇门演局的规律”七节的本轮入库、基础计算与测试。按用户实际提供内容增量保存、审读、编译和测试；不导入未提供的下一章、不提前训练。完整总指令原件见 docs/user_instructions/master_spec_2026-10-17.txt，覆盖进度以 STATUS 为准。

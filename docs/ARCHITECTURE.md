@@ -1,6 +1,6 @@
 # 技术架构与真实数据流
 
-Phase 0 用 Python 3.11+ 标准库、SQLite（FK/JSON/FTS5）和 WSGI。没有运行时第三方依赖，不安装 CUDA 或语言模型。单机研究优先，模型协议和存储边界允许后续替换。配置 TOML 目前为文档模板；实际 CLI 参数明确，不存在隐式配置或网络模型选择。
+项目用 Python 3.11+ 标准库、SQLite（FK/JSON/FTS5）和 WSGI。没有运行时第三方依赖，不安装 CUDA 或语言模型。单机研究优先，模型协议和存储边界允许后续替换。配置 TOML 目前为文档模板；实际 CLI 参数明确，不存在隐式配置或网络模型选择。
 
 ```mermaid
 flowchart TD
@@ -26,7 +26,7 @@ flowchart TD
 
 `python -m qimenllm ask` 和 `POST /v1/ask` 均实例化/调用同一个 `QimenService.ask`。入口依次执行问题上下文、起盘尝试、真实 SQL、适用性、绑定和前置门槛。前置不足时模型不调用，trace 标 skipped/not_run，输出不能断案的状态。空流程不是完整专业推理流程成功。
 
-对暂存工程数据，通过依赖注入的中性测试起盘器和模型适配器，测试证明：数据库 → 条件选择 → 模型实际接收规则和同一个 Chart → 事实验证 → 固定渲染 → 最终检查。这只验证接线；没有任何已实现的真实排盘、自然语言理解或专业模型。
+对暂存工程数据，通过依赖注入的中性测试起盘器和模型适配器，测试证明：数据库 → 条件选择 → 模型实际接收规则和同一个 Chart → 事实验证 → 固定渲染 → 最终检查。这只验证接线；完整排盘、自然语言理解和专业模型仍未实现。
 
 Chart dataclass 冻结，内部盘面使用单份 JSON 字符串，读取返回副本。历史盘 `charts.chart_json` 保存同一不可变整体，哈希校验。未来规范化九宫视图必须从它投影，禁止另算。尚未将原书不可解析盘强制填为九宫或 engine_verified。
 
@@ -52,7 +52,7 @@ SQLite BLOB 为权威字节；`data/raw_books/<sha256>.utf8` 为可检查镜像�
 
 ## API 与未来部署
 
-`GET /health`，`POST /v1/ask`，`POST /v1/learn`。JSON 上限 64 KiB，错误不泄露提交内容；不输出访问日志、不缓存。研究服务器固定监听 127.0.0.1，不是生产服务器；Phase 0 没有账户、TLS、限流、公众 UI 和生产授权。未启动常驻服务或公开任何端口。
+`GET /health`，`POST /v1/ask`，`POST /v1/learn`，`POST /v1/calculate`。JSON 上限 64 KiB，错误不泄露提交内容；不输出访问日志、不缓存。研究服务器固定监听 127.0.0.1，不是生产服务器；Phase 0 没有账户、TLS、限流、公众 UI 和生产授权。未启动常驻服务或公开任何端口。
 
 未来前端仅调用 API。生产拆为入口/鉴权、核心服务、资料存储、推理 worker、异步实验和受限维护面；公众账户无法写权威数据。选择 FastAPI 等框架时先证明与统一 service 的集成，不创建第二条 Prompt 路径。
 
@@ -67,3 +67,13 @@ SQLite BLOB 为权威字节；`data/raw_books/<sha256>.utf8` 为可检查镜像�
 用户已要求每次数据更新同步 GitHub。维护 CLI 在 import/annotate 事务提交后调用 snapshot 和 sync；失败不丢已保存内容，返回 pending/退出码2。问事/学习运行时仍不修改权威数据、不调用同步。JSONL + 原始字节导出可恢复全部权威表，搜索索引重建；初始化新增 seed_empty=False 仅供恢复新库，不改变 schema 或现有库。
 
 sync 依次验证指定私有目标、回归、受控 staging、commit/push 和远端 SHA；仅本地提交不能报完成。用户已自行创建新仓库，当前会话通过 GitHub 连接器核验私有状态与权限，再以允许的正常 Git HTTPS 成功首次 push。CLI 的 API 域名检查在当前会话仍会 pending，由 Codex 执行上述已验证的维护流程完成实际上传；问事正式执行链不受影响。详见 GITHUB_SYNC。
+
+## Phase 1 首章教学计算的接入
+
+CLI calculate、POST /v1/calculate、专业来源回归都调用 QimenService.calculate → FoundationCalculator → KnowledgeRepository.compiled_datasets → SQLite knowledge_items/source_spans/raw_documents。每次运行读取实际库，不将古籍属性写死在Prompt或代码字典。结果携带原文hash、来源范围、source_acceptance和数据集ID；并发调用的证据状态隔离。
+
+该入口只计算已给符号条件下的基础事实，不生成正式完整Chart，不调用模型，不绕过QimenService.ask的全盘与角色门槛。模型分析、complete_chart、professional_analysis_completed均明确为空或false。未覆盖、缺条件、参数错误分开返回。学习查询原文并查询上下文块；整理解释标明curated_explanation_not_original，内嵌作者单独归属。
+
+本章原文pending与编译verified-against-provided-text分别报告。教学编译不赋予正式角色绑定权限；角色rules表仍0。完整天盘、八神转布、自然语言解释事实校验仍需后续独立验收。
+
+人工整理安装器先校验原文SHA、整章覆盖、数据族字段及支持组引用，再追加注释和编译条目；注释与编译是两个事务，意外故障可能留下可审计的部分注释。幂等重放可恢复，不宣称整个跨事务安装原子化。schema v1不变；本轮不需要迁移。

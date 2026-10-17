@@ -20,7 +20,7 @@ class PrivateRequestHandler(WSGIRequestHandler):
 
 
 def main(argv=None):
-    parser = argparse.ArgumentParser(description='QimenLLM Phase 0 research tools')
+    parser = argparse.ArgumentParser(description='QimenLLM source-grounded research tools')
     parser.add_argument('--db',default='data/qimenllm.sqlite3')
     parser.add_argument('--raw-dir',default='data/raw_books')
     subs = parser.add_subparsers(dest='command',required=True)
@@ -37,6 +37,9 @@ def main(argv=None):
     annotate.add_argument('revision_id'); annotate.add_argument('file',type=Path)
     ask = subs.add_parser('ask'); ask.add_argument('text')
     learn = subs.add_parser('learn'); learn.add_argument('term')
+    calculate = subs.add_parser('calculate'); calculate.add_argument('operation')
+    calc_input=calculate.add_mutually_exclusive_group()
+    calc_input.add_argument('--args',default='{}'); calc_input.add_argument('--args-file',type=Path)
     serve = subs.add_parser('serve'); serve.add_argument('--port',type=int,default=8765)
     backup = subs.add_parser('backup'); backup.add_argument('destination',type=Path)
     snapshot = subs.add_parser('export-snapshot'); snapshot.add_argument('destination',type=Path,nargs='?',default=Path('data/snapshots/current'))
@@ -73,7 +76,11 @@ def main(argv=None):
         return 0
     else:
         service=QimenService(args.db)
-        result=service.ask(Inquiry(args.text)) if args.command=='ask' else service.learning.learn(args.term)
+        if args.command=='ask': result=service.ask(Inquiry(args.text))
+        elif args.command=='calculate':
+            payload=json.loads(args.args_file.read_bytes() if args.args_file else args.args)
+            result=service.calculate(args.operation,payload)
+        else: result=service.learning.learn(args.term)
     if args.command in ('import-chapter','annotate'):
         try:
             result['github_sync']=sync_github(Path.cwd(),args.db,args.raw_dir,

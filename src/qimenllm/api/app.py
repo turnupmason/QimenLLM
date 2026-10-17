@@ -9,8 +9,9 @@ def create_app(service):
         try:
             path, method = environ.get('PATH_INFO',''), environ.get('REQUEST_METHOD','GET')
             if path=='/health' and method=='GET':
-                result = {'status':'ok','phase':0,'professional_analysis_available':False}
-            elif path in ('/v1/ask','/v1/learn') and method=='POST':
+                result = {'status':'ok','phase':1 if service.knowledge.coverage()['chapters'] else 0,
+                          'professional_analysis_available':False}
+            elif path in ('/v1/ask','/v1/learn','/v1/calculate') and method=='POST':
                 if environ.get('CONTENT_TYPE','').split(';')[0].strip()!='application/json':
                     raise ValueError('application/json required')
                 length = int(environ.get('CONTENT_LENGTH','0'))
@@ -28,9 +29,13 @@ def create_app(service):
                             raise ValueError(f'{key} must be a string')
                     if not isinstance(payload.get('context',{}),dict): raise ValueError('context must be an object')
                     result = service.ask(Inquiry(**payload))
-                else:
+                elif path=='/v1/learn':
                     if set(payload)!={'term'} or not isinstance(payload['term'],str): raise ValueError('term required')
                     result = service.learning.learn(payload['term'])
+                else:
+                    if set(payload)!={'operation','args'} or not isinstance(payload['operation'],str) or not isinstance(payload['args'],dict):
+                        raise ValueError('operation string and args object required')
+                    result=service.calculate(payload['operation'],payload['args'])
             else:
                 status, result = '404 Not Found', {'error':'not_found'}
         except (ValueError,TypeError,UnicodeError,RecursionError):

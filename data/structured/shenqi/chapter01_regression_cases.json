@@ -1,0 +1,3992 @@
+[
+  {
+    "key": "earth_yang3_narrative_and_table",
+    "operation": "earth_plate",
+    "args": {
+      "dun": "阳遁",
+      "bureau": 3
+    },
+    "expected": {
+      "palaces": {
+        "1": "丙",
+        "2": "乙",
+        "3": "戊",
+        "4": "己",
+        "5": "庚",
+        "6": "辛",
+        "7": "壬",
+        "8": "癸",
+        "9": "丁"
+      }
+    },
+    "line_start": 51,
+    "line_end": 65,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "earth_yin4_narrative_and_table",
+    "operation": "earth_plate",
+    "args": {
+      "dun": "阴遁",
+      "bureau": 4
+    },
+    "expected": {
+      "palaces": {
+        "1": "辛",
+        "2": "庚",
+        "3": "己",
+        "4": "戊",
+        "5": "乙",
+        "6": "丙",
+        "7": "丁",
+        "8": "癸",
+        "9": "壬"
+      }
+    },
+    "line_start": 52,
+    "line_end": 78,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "xun_table_甲子",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "甲子"
+    },
+    "expected": {
+      "xun_head": "甲子",
+      "hidden_stem": "戊",
+      "hour_in_xun": 1
+    },
+    "line_start": 107,
+    "line_end": 107,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      107
+    ]
+  },
+  {
+    "key": "xun_table_乙丑",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "乙丑"
+    },
+    "expected": {
+      "xun_head": "甲子",
+      "hidden_stem": "戊",
+      "hour_in_xun": 2
+    },
+    "line_start": 107,
+    "line_end": 107,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      107
+    ]
+  },
+  {
+    "key": "xun_table_丙寅",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "丙寅"
+    },
+    "expected": {
+      "xun_head": "甲子",
+      "hidden_stem": "戊",
+      "hour_in_xun": 3
+    },
+    "line_start": 107,
+    "line_end": 107,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      107
+    ]
+  },
+  {
+    "key": "xun_table_丁卯",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "丁卯"
+    },
+    "expected": {
+      "xun_head": "甲子",
+      "hidden_stem": "戊",
+      "hour_in_xun": 4
+    },
+    "line_start": 107,
+    "line_end": 107,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      107
+    ]
+  },
+  {
+    "key": "xun_table_戊辰",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "戊辰"
+    },
+    "expected": {
+      "xun_head": "甲子",
+      "hidden_stem": "戊",
+      "hour_in_xun": 5
+    },
+    "line_start": 107,
+    "line_end": 107,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      107
+    ]
+  },
+  {
+    "key": "xun_table_己巳",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "己巳"
+    },
+    "expected": {
+      "xun_head": "甲子",
+      "hidden_stem": "戊",
+      "hour_in_xun": 6
+    },
+    "line_start": 107,
+    "line_end": 107,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      107
+    ]
+  },
+  {
+    "key": "xun_table_庚午",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "庚午"
+    },
+    "expected": {
+      "xun_head": "甲子",
+      "hidden_stem": "戊",
+      "hour_in_xun": 7
+    },
+    "line_start": 107,
+    "line_end": 107,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      107
+    ]
+  },
+  {
+    "key": "xun_table_辛未",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "辛未"
+    },
+    "expected": {
+      "xun_head": "甲子",
+      "hidden_stem": "戊",
+      "hour_in_xun": 8
+    },
+    "line_start": 107,
+    "line_end": 107,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      107
+    ]
+  },
+  {
+    "key": "xun_table_壬申",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "壬申"
+    },
+    "expected": {
+      "xun_head": "甲子",
+      "hidden_stem": "戊",
+      "hour_in_xun": 9
+    },
+    "line_start": 107,
+    "line_end": 107,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      107
+    ]
+  },
+  {
+    "key": "xun_table_癸酉",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "癸酉"
+    },
+    "expected": {
+      "xun_head": "甲子",
+      "hidden_stem": "戊",
+      "hour_in_xun": 10
+    },
+    "line_start": 107,
+    "line_end": 107,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      107
+    ]
+  },
+  {
+    "key": "xun_table_甲戌",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "甲戌"
+    },
+    "expected": {
+      "xun_head": "甲戌",
+      "hidden_stem": "己",
+      "hour_in_xun": 1
+    },
+    "line_start": 108,
+    "line_end": 108,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      108
+    ]
+  },
+  {
+    "key": "xun_table_乙亥",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "乙亥"
+    },
+    "expected": {
+      "xun_head": "甲戌",
+      "hidden_stem": "己",
+      "hour_in_xun": 2
+    },
+    "line_start": 108,
+    "line_end": 108,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      108
+    ]
+  },
+  {
+    "key": "xun_table_丙子",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "丙子"
+    },
+    "expected": {
+      "xun_head": "甲戌",
+      "hidden_stem": "己",
+      "hour_in_xun": 3
+    },
+    "line_start": 108,
+    "line_end": 108,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      108
+    ]
+  },
+  {
+    "key": "xun_table_丁丑",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "丁丑"
+    },
+    "expected": {
+      "xun_head": "甲戌",
+      "hidden_stem": "己",
+      "hour_in_xun": 4
+    },
+    "line_start": 108,
+    "line_end": 108,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      108
+    ]
+  },
+  {
+    "key": "xun_table_戊寅",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "戊寅"
+    },
+    "expected": {
+      "xun_head": "甲戌",
+      "hidden_stem": "己",
+      "hour_in_xun": 5
+    },
+    "line_start": 108,
+    "line_end": 108,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      108
+    ]
+  },
+  {
+    "key": "xun_table_己卯",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "己卯"
+    },
+    "expected": {
+      "xun_head": "甲戌",
+      "hidden_stem": "己",
+      "hour_in_xun": 6
+    },
+    "line_start": 108,
+    "line_end": 108,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      108
+    ]
+  },
+  {
+    "key": "xun_table_庚辰",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "庚辰"
+    },
+    "expected": {
+      "xun_head": "甲戌",
+      "hidden_stem": "己",
+      "hour_in_xun": 7
+    },
+    "line_start": 108,
+    "line_end": 108,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      108
+    ]
+  },
+  {
+    "key": "xun_table_辛巳",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "辛巳"
+    },
+    "expected": {
+      "xun_head": "甲戌",
+      "hidden_stem": "己",
+      "hour_in_xun": 8
+    },
+    "line_start": 108,
+    "line_end": 108,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      108
+    ]
+  },
+  {
+    "key": "xun_table_壬午",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "壬午"
+    },
+    "expected": {
+      "xun_head": "甲戌",
+      "hidden_stem": "己",
+      "hour_in_xun": 9
+    },
+    "line_start": 108,
+    "line_end": 108,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      108
+    ]
+  },
+  {
+    "key": "xun_table_癸未",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "癸未"
+    },
+    "expected": {
+      "xun_head": "甲戌",
+      "hidden_stem": "己",
+      "hour_in_xun": 10
+    },
+    "line_start": 108,
+    "line_end": 108,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      108
+    ]
+  },
+  {
+    "key": "xun_table_甲申",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "甲申"
+    },
+    "expected": {
+      "xun_head": "甲申",
+      "hidden_stem": "庚",
+      "hour_in_xun": 1
+    },
+    "line_start": 109,
+    "line_end": 109,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      109
+    ]
+  },
+  {
+    "key": "xun_table_乙酉",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "乙酉"
+    },
+    "expected": {
+      "xun_head": "甲申",
+      "hidden_stem": "庚",
+      "hour_in_xun": 2
+    },
+    "line_start": 109,
+    "line_end": 109,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      109
+    ]
+  },
+  {
+    "key": "xun_table_丙戌",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "丙戌"
+    },
+    "expected": {
+      "xun_head": "甲申",
+      "hidden_stem": "庚",
+      "hour_in_xun": 3
+    },
+    "line_start": 109,
+    "line_end": 109,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      109
+    ]
+  },
+  {
+    "key": "xun_table_丁亥",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "丁亥"
+    },
+    "expected": {
+      "xun_head": "甲申",
+      "hidden_stem": "庚",
+      "hour_in_xun": 4
+    },
+    "line_start": 109,
+    "line_end": 109,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      109
+    ]
+  },
+  {
+    "key": "xun_table_戊子",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "戊子"
+    },
+    "expected": {
+      "xun_head": "甲申",
+      "hidden_stem": "庚",
+      "hour_in_xun": 5
+    },
+    "line_start": 109,
+    "line_end": 109,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      109
+    ]
+  },
+  {
+    "key": "xun_table_己丑",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "己丑"
+    },
+    "expected": {
+      "xun_head": "甲申",
+      "hidden_stem": "庚",
+      "hour_in_xun": 6
+    },
+    "line_start": 109,
+    "line_end": 109,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      109
+    ]
+  },
+  {
+    "key": "xun_table_庚寅",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "庚寅"
+    },
+    "expected": {
+      "xun_head": "甲申",
+      "hidden_stem": "庚",
+      "hour_in_xun": 7
+    },
+    "line_start": 109,
+    "line_end": 109,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      109
+    ]
+  },
+  {
+    "key": "xun_table_辛卯",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "辛卯"
+    },
+    "expected": {
+      "xun_head": "甲申",
+      "hidden_stem": "庚",
+      "hour_in_xun": 8
+    },
+    "line_start": 109,
+    "line_end": 109,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      109
+    ]
+  },
+  {
+    "key": "xun_table_壬辰",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "壬辰"
+    },
+    "expected": {
+      "xun_head": "甲申",
+      "hidden_stem": "庚",
+      "hour_in_xun": 9
+    },
+    "line_start": 109,
+    "line_end": 109,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      109
+    ]
+  },
+  {
+    "key": "xun_table_癸巳",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "癸巳"
+    },
+    "expected": {
+      "xun_head": "甲申",
+      "hidden_stem": "庚",
+      "hour_in_xun": 10
+    },
+    "line_start": 109,
+    "line_end": 109,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      109
+    ]
+  },
+  {
+    "key": "xun_table_甲午",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "甲午"
+    },
+    "expected": {
+      "xun_head": "甲午",
+      "hidden_stem": "辛",
+      "hour_in_xun": 1
+    },
+    "line_start": 110,
+    "line_end": 110,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      110
+    ]
+  },
+  {
+    "key": "xun_table_乙未",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "乙未"
+    },
+    "expected": {
+      "xun_head": "甲午",
+      "hidden_stem": "辛",
+      "hour_in_xun": 2
+    },
+    "line_start": 110,
+    "line_end": 110,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      110
+    ]
+  },
+  {
+    "key": "xun_table_丙申",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "丙申"
+    },
+    "expected": {
+      "xun_head": "甲午",
+      "hidden_stem": "辛",
+      "hour_in_xun": 3
+    },
+    "line_start": 110,
+    "line_end": 110,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      110
+    ]
+  },
+  {
+    "key": "xun_table_丁酉",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "丁酉"
+    },
+    "expected": {
+      "xun_head": "甲午",
+      "hidden_stem": "辛",
+      "hour_in_xun": 4
+    },
+    "line_start": 110,
+    "line_end": 110,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      110
+    ]
+  },
+  {
+    "key": "xun_table_戊戌",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "戊戌"
+    },
+    "expected": {
+      "xun_head": "甲午",
+      "hidden_stem": "辛",
+      "hour_in_xun": 5
+    },
+    "line_start": 110,
+    "line_end": 110,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      110
+    ]
+  },
+  {
+    "key": "xun_table_己亥",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "己亥"
+    },
+    "expected": {
+      "xun_head": "甲午",
+      "hidden_stem": "辛",
+      "hour_in_xun": 6
+    },
+    "line_start": 110,
+    "line_end": 110,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      110
+    ]
+  },
+  {
+    "key": "xun_table_庚子",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "庚子"
+    },
+    "expected": {
+      "xun_head": "甲午",
+      "hidden_stem": "辛",
+      "hour_in_xun": 7
+    },
+    "line_start": 110,
+    "line_end": 110,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      110
+    ]
+  },
+  {
+    "key": "xun_table_辛丑",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "辛丑"
+    },
+    "expected": {
+      "xun_head": "甲午",
+      "hidden_stem": "辛",
+      "hour_in_xun": 8
+    },
+    "line_start": 110,
+    "line_end": 110,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      110
+    ]
+  },
+  {
+    "key": "xun_table_壬寅",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "壬寅"
+    },
+    "expected": {
+      "xun_head": "甲午",
+      "hidden_stem": "辛",
+      "hour_in_xun": 9
+    },
+    "line_start": 110,
+    "line_end": 110,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      110
+    ]
+  },
+  {
+    "key": "xun_table_癸卯",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "癸卯"
+    },
+    "expected": {
+      "xun_head": "甲午",
+      "hidden_stem": "辛",
+      "hour_in_xun": 10
+    },
+    "line_start": 110,
+    "line_end": 110,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      110
+    ]
+  },
+  {
+    "key": "xun_table_甲辰",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "甲辰"
+    },
+    "expected": {
+      "xun_head": "甲辰",
+      "hidden_stem": "壬",
+      "hour_in_xun": 1
+    },
+    "line_start": 111,
+    "line_end": 111,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      111
+    ]
+  },
+  {
+    "key": "xun_table_乙巳",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "乙巳"
+    },
+    "expected": {
+      "xun_head": "甲辰",
+      "hidden_stem": "壬",
+      "hour_in_xun": 2
+    },
+    "line_start": 111,
+    "line_end": 111,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      111
+    ]
+  },
+  {
+    "key": "xun_table_丙午",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "丙午"
+    },
+    "expected": {
+      "xun_head": "甲辰",
+      "hidden_stem": "壬",
+      "hour_in_xun": 3
+    },
+    "line_start": 111,
+    "line_end": 111,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      111
+    ]
+  },
+  {
+    "key": "xun_table_丁未",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "丁未"
+    },
+    "expected": {
+      "xun_head": "甲辰",
+      "hidden_stem": "壬",
+      "hour_in_xun": 4
+    },
+    "line_start": 111,
+    "line_end": 111,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      111
+    ]
+  },
+  {
+    "key": "xun_table_戊申",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "戊申"
+    },
+    "expected": {
+      "xun_head": "甲辰",
+      "hidden_stem": "壬",
+      "hour_in_xun": 5
+    },
+    "line_start": 111,
+    "line_end": 111,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      111
+    ]
+  },
+  {
+    "key": "xun_table_己酉",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "己酉"
+    },
+    "expected": {
+      "xun_head": "甲辰",
+      "hidden_stem": "壬",
+      "hour_in_xun": 6
+    },
+    "line_start": 111,
+    "line_end": 111,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      111
+    ]
+  },
+  {
+    "key": "xun_table_庚戌",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "庚戌"
+    },
+    "expected": {
+      "xun_head": "甲辰",
+      "hidden_stem": "壬",
+      "hour_in_xun": 7
+    },
+    "line_start": 111,
+    "line_end": 111,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      111
+    ]
+  },
+  {
+    "key": "xun_table_辛亥",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "辛亥"
+    },
+    "expected": {
+      "xun_head": "甲辰",
+      "hidden_stem": "壬",
+      "hour_in_xun": 8
+    },
+    "line_start": 111,
+    "line_end": 111,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      111
+    ]
+  },
+  {
+    "key": "xun_table_壬子",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "壬子"
+    },
+    "expected": {
+      "xun_head": "甲辰",
+      "hidden_stem": "壬",
+      "hour_in_xun": 9
+    },
+    "line_start": 111,
+    "line_end": 111,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      111
+    ]
+  },
+  {
+    "key": "xun_table_癸丑",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "癸丑"
+    },
+    "expected": {
+      "xun_head": "甲辰",
+      "hidden_stem": "壬",
+      "hour_in_xun": 10
+    },
+    "line_start": 111,
+    "line_end": 111,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      111
+    ]
+  },
+  {
+    "key": "xun_table_甲寅",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "甲寅"
+    },
+    "expected": {
+      "xun_head": "甲寅",
+      "hidden_stem": "癸",
+      "hour_in_xun": 1
+    },
+    "line_start": 112,
+    "line_end": 112,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      112
+    ]
+  },
+  {
+    "key": "xun_table_乙卯",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "乙卯"
+    },
+    "expected": {
+      "xun_head": "甲寅",
+      "hidden_stem": "癸",
+      "hour_in_xun": 2
+    },
+    "line_start": 112,
+    "line_end": 112,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      112
+    ]
+  },
+  {
+    "key": "xun_table_丙辰",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "丙辰"
+    },
+    "expected": {
+      "xun_head": "甲寅",
+      "hidden_stem": "癸",
+      "hour_in_xun": 3
+    },
+    "line_start": 112,
+    "line_end": 112,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      112
+    ]
+  },
+  {
+    "key": "xun_table_丁巳",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "丁巳"
+    },
+    "expected": {
+      "xun_head": "甲寅",
+      "hidden_stem": "癸",
+      "hour_in_xun": 4
+    },
+    "line_start": 112,
+    "line_end": 112,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      112
+    ]
+  },
+  {
+    "key": "xun_table_戊午",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "戊午"
+    },
+    "expected": {
+      "xun_head": "甲寅",
+      "hidden_stem": "癸",
+      "hour_in_xun": 5
+    },
+    "line_start": 112,
+    "line_end": 112,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      112
+    ]
+  },
+  {
+    "key": "xun_table_己未",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "己未"
+    },
+    "expected": {
+      "xun_head": "甲寅",
+      "hidden_stem": "癸",
+      "hour_in_xun": 6
+    },
+    "line_start": 112,
+    "line_end": 112,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      112
+    ]
+  },
+  {
+    "key": "xun_table_庚申",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "庚申"
+    },
+    "expected": {
+      "xun_head": "甲寅",
+      "hidden_stem": "癸",
+      "hour_in_xun": 7
+    },
+    "line_start": 112,
+    "line_end": 112,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      112
+    ]
+  },
+  {
+    "key": "xun_table_辛酉",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "辛酉"
+    },
+    "expected": {
+      "xun_head": "甲寅",
+      "hidden_stem": "癸",
+      "hour_in_xun": 8
+    },
+    "line_start": 112,
+    "line_end": 112,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      112
+    ]
+  },
+  {
+    "key": "xun_table_壬戌",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "壬戌"
+    },
+    "expected": {
+      "xun_head": "甲寅",
+      "hidden_stem": "癸",
+      "hour_in_xun": 9
+    },
+    "line_start": 112,
+    "line_end": 112,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      112
+    ]
+  },
+  {
+    "key": "xun_table_癸亥",
+    "operation": "xun",
+    "args": {
+      "ganzhi": "癸亥"
+    },
+    "expected": {
+      "xun_head": "甲寅",
+      "hidden_stem": "癸",
+      "hour_in_xun": 10
+    },
+    "line_start": 112,
+    "line_end": 112,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      18,
+      112
+    ]
+  },
+  {
+    "key": "day_yuan_table_甲子",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "甲子"
+    },
+    "expected": {
+      "fu_head": "甲子",
+      "yuan": "上元",
+      "day_in_yuan": 1
+    },
+    "line_start": 198,
+    "line_end": 198,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_乙丑",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "乙丑"
+    },
+    "expected": {
+      "fu_head": "甲子",
+      "yuan": "上元",
+      "day_in_yuan": 2
+    },
+    "line_start": 198,
+    "line_end": 198,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_丙寅",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "丙寅"
+    },
+    "expected": {
+      "fu_head": "甲子",
+      "yuan": "上元",
+      "day_in_yuan": 3
+    },
+    "line_start": 198,
+    "line_end": 198,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_丁卯",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "丁卯"
+    },
+    "expected": {
+      "fu_head": "甲子",
+      "yuan": "上元",
+      "day_in_yuan": 4
+    },
+    "line_start": 198,
+    "line_end": 198,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_戊辰",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "戊辰"
+    },
+    "expected": {
+      "fu_head": "甲子",
+      "yuan": "上元",
+      "day_in_yuan": 5
+    },
+    "line_start": 198,
+    "line_end": 198,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_己巳",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "己巳"
+    },
+    "expected": {
+      "fu_head": "己巳",
+      "yuan": "中元",
+      "day_in_yuan": 1
+    },
+    "line_start": 199,
+    "line_end": 199,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_庚午",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "庚午"
+    },
+    "expected": {
+      "fu_head": "己巳",
+      "yuan": "中元",
+      "day_in_yuan": 2
+    },
+    "line_start": 199,
+    "line_end": 199,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_辛未",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "辛未"
+    },
+    "expected": {
+      "fu_head": "己巳",
+      "yuan": "中元",
+      "day_in_yuan": 3
+    },
+    "line_start": 199,
+    "line_end": 199,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_壬申",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "壬申"
+    },
+    "expected": {
+      "fu_head": "己巳",
+      "yuan": "中元",
+      "day_in_yuan": 4
+    },
+    "line_start": 199,
+    "line_end": 199,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_癸酉",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "癸酉"
+    },
+    "expected": {
+      "fu_head": "己巳",
+      "yuan": "中元",
+      "day_in_yuan": 5
+    },
+    "line_start": 199,
+    "line_end": 199,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_甲戌",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "甲戌"
+    },
+    "expected": {
+      "fu_head": "甲戌",
+      "yuan": "下元",
+      "day_in_yuan": 1
+    },
+    "line_start": 200,
+    "line_end": 200,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_乙亥",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "乙亥"
+    },
+    "expected": {
+      "fu_head": "甲戌",
+      "yuan": "下元",
+      "day_in_yuan": 2
+    },
+    "line_start": 200,
+    "line_end": 200,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_丙子",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "丙子"
+    },
+    "expected": {
+      "fu_head": "甲戌",
+      "yuan": "下元",
+      "day_in_yuan": 3
+    },
+    "line_start": 200,
+    "line_end": 200,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_丁丑",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "丁丑"
+    },
+    "expected": {
+      "fu_head": "甲戌",
+      "yuan": "下元",
+      "day_in_yuan": 4
+    },
+    "line_start": 200,
+    "line_end": 200,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_戊寅",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "戊寅"
+    },
+    "expected": {
+      "fu_head": "甲戌",
+      "yuan": "下元",
+      "day_in_yuan": 5
+    },
+    "line_start": 200,
+    "line_end": 200,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_己卯",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "己卯"
+    },
+    "expected": {
+      "fu_head": "己卯",
+      "yuan": "上元",
+      "day_in_yuan": 1
+    },
+    "line_start": 201,
+    "line_end": 201,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_庚辰",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "庚辰"
+    },
+    "expected": {
+      "fu_head": "己卯",
+      "yuan": "上元",
+      "day_in_yuan": 2
+    },
+    "line_start": 201,
+    "line_end": 201,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_辛巳",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "辛巳"
+    },
+    "expected": {
+      "fu_head": "己卯",
+      "yuan": "上元",
+      "day_in_yuan": 3
+    },
+    "line_start": 201,
+    "line_end": 201,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_壬午",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "壬午"
+    },
+    "expected": {
+      "fu_head": "己卯",
+      "yuan": "上元",
+      "day_in_yuan": 4
+    },
+    "line_start": 201,
+    "line_end": 201,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_癸未",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "癸未"
+    },
+    "expected": {
+      "fu_head": "己卯",
+      "yuan": "上元",
+      "day_in_yuan": 5
+    },
+    "line_start": 201,
+    "line_end": 201,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_甲申",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "甲申"
+    },
+    "expected": {
+      "fu_head": "甲申",
+      "yuan": "中元",
+      "day_in_yuan": 1
+    },
+    "line_start": 202,
+    "line_end": 202,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_乙酉",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "乙酉"
+    },
+    "expected": {
+      "fu_head": "甲申",
+      "yuan": "中元",
+      "day_in_yuan": 2
+    },
+    "line_start": 202,
+    "line_end": 202,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_丙戌",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "丙戌"
+    },
+    "expected": {
+      "fu_head": "甲申",
+      "yuan": "中元",
+      "day_in_yuan": 3
+    },
+    "line_start": 202,
+    "line_end": 202,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_丁亥",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "丁亥"
+    },
+    "expected": {
+      "fu_head": "甲申",
+      "yuan": "中元",
+      "day_in_yuan": 4
+    },
+    "line_start": 202,
+    "line_end": 202,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_戊子",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "戊子"
+    },
+    "expected": {
+      "fu_head": "甲申",
+      "yuan": "中元",
+      "day_in_yuan": 5
+    },
+    "line_start": 202,
+    "line_end": 202,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_己丑",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "己丑"
+    },
+    "expected": {
+      "fu_head": "己丑",
+      "yuan": "下元",
+      "day_in_yuan": 1
+    },
+    "line_start": 203,
+    "line_end": 203,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_庚寅",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "庚寅"
+    },
+    "expected": {
+      "fu_head": "己丑",
+      "yuan": "下元",
+      "day_in_yuan": 2
+    },
+    "line_start": 203,
+    "line_end": 203,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_辛卯",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "辛卯"
+    },
+    "expected": {
+      "fu_head": "己丑",
+      "yuan": "下元",
+      "day_in_yuan": 3
+    },
+    "line_start": 203,
+    "line_end": 203,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_壬辰",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "壬辰"
+    },
+    "expected": {
+      "fu_head": "己丑",
+      "yuan": "下元",
+      "day_in_yuan": 4
+    },
+    "line_start": 203,
+    "line_end": 203,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_癸巳",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "癸巳"
+    },
+    "expected": {
+      "fu_head": "己丑",
+      "yuan": "下元",
+      "day_in_yuan": 5
+    },
+    "line_start": 203,
+    "line_end": 203,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_甲午",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "甲午"
+    },
+    "expected": {
+      "fu_head": "甲午",
+      "yuan": "上元",
+      "day_in_yuan": 1
+    },
+    "line_start": 204,
+    "line_end": 204,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_乙未",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "乙未"
+    },
+    "expected": {
+      "fu_head": "甲午",
+      "yuan": "上元",
+      "day_in_yuan": 2
+    },
+    "line_start": 204,
+    "line_end": 204,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_丙申",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "丙申"
+    },
+    "expected": {
+      "fu_head": "甲午",
+      "yuan": "上元",
+      "day_in_yuan": 3
+    },
+    "line_start": 204,
+    "line_end": 204,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_丁酉",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "丁酉"
+    },
+    "expected": {
+      "fu_head": "甲午",
+      "yuan": "上元",
+      "day_in_yuan": 4
+    },
+    "line_start": 204,
+    "line_end": 204,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_戊戌",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "戊戌"
+    },
+    "expected": {
+      "fu_head": "甲午",
+      "yuan": "上元",
+      "day_in_yuan": 5
+    },
+    "line_start": 204,
+    "line_end": 204,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_己亥",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "己亥"
+    },
+    "expected": {
+      "fu_head": "己亥",
+      "yuan": "中元",
+      "day_in_yuan": 1
+    },
+    "line_start": 205,
+    "line_end": 205,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_庚子",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "庚子"
+    },
+    "expected": {
+      "fu_head": "己亥",
+      "yuan": "中元",
+      "day_in_yuan": 2
+    },
+    "line_start": 205,
+    "line_end": 205,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_辛丑",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "辛丑"
+    },
+    "expected": {
+      "fu_head": "己亥",
+      "yuan": "中元",
+      "day_in_yuan": 3
+    },
+    "line_start": 205,
+    "line_end": 205,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_壬寅",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "壬寅"
+    },
+    "expected": {
+      "fu_head": "己亥",
+      "yuan": "中元",
+      "day_in_yuan": 4
+    },
+    "line_start": 205,
+    "line_end": 205,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_癸卯",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "癸卯"
+    },
+    "expected": {
+      "fu_head": "己亥",
+      "yuan": "中元",
+      "day_in_yuan": 5
+    },
+    "line_start": 205,
+    "line_end": 205,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_甲辰",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "甲辰"
+    },
+    "expected": {
+      "fu_head": "甲辰",
+      "yuan": "下元",
+      "day_in_yuan": 1
+    },
+    "line_start": 206,
+    "line_end": 206,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_乙巳",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "乙巳"
+    },
+    "expected": {
+      "fu_head": "甲辰",
+      "yuan": "下元",
+      "day_in_yuan": 2
+    },
+    "line_start": 206,
+    "line_end": 206,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_丙午",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "丙午"
+    },
+    "expected": {
+      "fu_head": "甲辰",
+      "yuan": "下元",
+      "day_in_yuan": 3
+    },
+    "line_start": 206,
+    "line_end": 206,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_丁未",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "丁未"
+    },
+    "expected": {
+      "fu_head": "甲辰",
+      "yuan": "下元",
+      "day_in_yuan": 4
+    },
+    "line_start": 206,
+    "line_end": 206,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_戊申",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "戊申"
+    },
+    "expected": {
+      "fu_head": "甲辰",
+      "yuan": "下元",
+      "day_in_yuan": 5
+    },
+    "line_start": 206,
+    "line_end": 206,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_己酉",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "己酉"
+    },
+    "expected": {
+      "fu_head": "己酉",
+      "yuan": "上元",
+      "day_in_yuan": 1
+    },
+    "line_start": 207,
+    "line_end": 207,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_庚戌",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "庚戌"
+    },
+    "expected": {
+      "fu_head": "己酉",
+      "yuan": "上元",
+      "day_in_yuan": 2
+    },
+    "line_start": 207,
+    "line_end": 207,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_辛亥",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "辛亥"
+    },
+    "expected": {
+      "fu_head": "己酉",
+      "yuan": "上元",
+      "day_in_yuan": 3
+    },
+    "line_start": 207,
+    "line_end": 207,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_壬子",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "壬子"
+    },
+    "expected": {
+      "fu_head": "己酉",
+      "yuan": "上元",
+      "day_in_yuan": 4
+    },
+    "line_start": 207,
+    "line_end": 207,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_癸丑",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "癸丑"
+    },
+    "expected": {
+      "fu_head": "己酉",
+      "yuan": "上元",
+      "day_in_yuan": 5
+    },
+    "line_start": 207,
+    "line_end": 207,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_甲寅",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "甲寅"
+    },
+    "expected": {
+      "fu_head": "甲寅",
+      "yuan": "中元",
+      "day_in_yuan": 1
+    },
+    "line_start": 208,
+    "line_end": 208,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_乙卯",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "乙卯"
+    },
+    "expected": {
+      "fu_head": "甲寅",
+      "yuan": "中元",
+      "day_in_yuan": 2
+    },
+    "line_start": 208,
+    "line_end": 208,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_丙辰",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "丙辰"
+    },
+    "expected": {
+      "fu_head": "甲寅",
+      "yuan": "中元",
+      "day_in_yuan": 3
+    },
+    "line_start": 208,
+    "line_end": 208,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_丁巳",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "丁巳"
+    },
+    "expected": {
+      "fu_head": "甲寅",
+      "yuan": "中元",
+      "day_in_yuan": 4
+    },
+    "line_start": 208,
+    "line_end": 208,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_戊午",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "戊午"
+    },
+    "expected": {
+      "fu_head": "甲寅",
+      "yuan": "中元",
+      "day_in_yuan": 5
+    },
+    "line_start": 208,
+    "line_end": 208,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_己未",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "己未"
+    },
+    "expected": {
+      "fu_head": "己未",
+      "yuan": "下元",
+      "day_in_yuan": 1
+    },
+    "line_start": 209,
+    "line_end": 209,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_庚申",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "庚申"
+    },
+    "expected": {
+      "fu_head": "己未",
+      "yuan": "下元",
+      "day_in_yuan": 2
+    },
+    "line_start": 209,
+    "line_end": 209,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_辛酉",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "辛酉"
+    },
+    "expected": {
+      "fu_head": "己未",
+      "yuan": "下元",
+      "day_in_yuan": 3
+    },
+    "line_start": 209,
+    "line_end": 209,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_壬戌",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "壬戌"
+    },
+    "expected": {
+      "fu_head": "己未",
+      "yuan": "下元",
+      "day_in_yuan": 4
+    },
+    "line_start": 209,
+    "line_end": 209,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "day_yuan_table_癸亥",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "癸亥"
+    },
+    "expected": {
+      "fu_head": "己未",
+      "yuan": "下元",
+      "day_in_yuan": 5
+    },
+    "line_start": 209,
+    "line_end": 209,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "bureau_term_table_冬至_甲子",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "冬至",
+      "day_ganzhi": "甲子",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 1
+    },
+    "line_start": 146,
+    "line_end": 146,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      146,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_冬至_己巳",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "冬至",
+      "day_ganzhi": "己巳",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 7
+    },
+    "line_start": 146,
+    "line_end": 146,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      146,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_冬至_甲戌",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "冬至",
+      "day_ganzhi": "甲戌",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 4
+    },
+    "line_start": 146,
+    "line_end": 146,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      146,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_小寒_甲子",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "小寒",
+      "day_ganzhi": "甲子",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 2
+    },
+    "line_start": 147,
+    "line_end": 147,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      147,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_小寒_己巳",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "小寒",
+      "day_ganzhi": "己巳",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 8
+    },
+    "line_start": 147,
+    "line_end": 147,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      147,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_小寒_甲戌",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "小寒",
+      "day_ganzhi": "甲戌",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 5
+    },
+    "line_start": 147,
+    "line_end": 147,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      147,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_大寒_甲子",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "大寒",
+      "day_ganzhi": "甲子",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 3
+    },
+    "line_start": 148,
+    "line_end": 148,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      148,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_大寒_己巳",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "大寒",
+      "day_ganzhi": "己巳",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 9
+    },
+    "line_start": 148,
+    "line_end": 148,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      148,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_大寒_甲戌",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "大寒",
+      "day_ganzhi": "甲戌",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 6
+    },
+    "line_start": 148,
+    "line_end": 148,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      148,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_立春_甲子",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "立春",
+      "day_ganzhi": "甲子",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 8
+    },
+    "line_start": 149,
+    "line_end": 149,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      149,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_立春_己巳",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "立春",
+      "day_ganzhi": "己巳",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 5
+    },
+    "line_start": 149,
+    "line_end": 149,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      149,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_立春_甲戌",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "立春",
+      "day_ganzhi": "甲戌",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 2
+    },
+    "line_start": 149,
+    "line_end": 149,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      149,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_雨水_甲子",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "雨水",
+      "day_ganzhi": "甲子",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 9
+    },
+    "line_start": 150,
+    "line_end": 150,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      150,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_雨水_己巳",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "雨水",
+      "day_ganzhi": "己巳",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 6
+    },
+    "line_start": 150,
+    "line_end": 150,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      150,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_雨水_甲戌",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "雨水",
+      "day_ganzhi": "甲戌",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 3
+    },
+    "line_start": 150,
+    "line_end": 150,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      150,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_惊蛰_甲子",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "惊蛰",
+      "day_ganzhi": "甲子",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 1
+    },
+    "line_start": 151,
+    "line_end": 151,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      151,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_惊蛰_己巳",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "惊蛰",
+      "day_ganzhi": "己巳",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 7
+    },
+    "line_start": 151,
+    "line_end": 151,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      151,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_惊蛰_甲戌",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "惊蛰",
+      "day_ganzhi": "甲戌",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 4
+    },
+    "line_start": 151,
+    "line_end": 151,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      151,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_春分_甲子",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "春分",
+      "day_ganzhi": "甲子",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 3
+    },
+    "line_start": 152,
+    "line_end": 152,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      152,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_春分_己巳",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "春分",
+      "day_ganzhi": "己巳",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 9
+    },
+    "line_start": 152,
+    "line_end": 152,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      152,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_春分_甲戌",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "春分",
+      "day_ganzhi": "甲戌",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 6
+    },
+    "line_start": 152,
+    "line_end": 152,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      152,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_清明_甲子",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "清明",
+      "day_ganzhi": "甲子",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 4
+    },
+    "line_start": 153,
+    "line_end": 153,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      153,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_清明_己巳",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "清明",
+      "day_ganzhi": "己巳",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 1
+    },
+    "line_start": 153,
+    "line_end": 153,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      153,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_清明_甲戌",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "清明",
+      "day_ganzhi": "甲戌",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 7
+    },
+    "line_start": 153,
+    "line_end": 153,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      153,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_谷雨_甲子",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "谷雨",
+      "day_ganzhi": "甲子",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 5
+    },
+    "line_start": 154,
+    "line_end": 154,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      154,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_谷雨_己巳",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "谷雨",
+      "day_ganzhi": "己巳",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 2
+    },
+    "line_start": 154,
+    "line_end": 154,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      154,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_谷雨_甲戌",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "谷雨",
+      "day_ganzhi": "甲戌",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 8
+    },
+    "line_start": 154,
+    "line_end": 154,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      154,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_立夏_甲子",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "立夏",
+      "day_ganzhi": "甲子",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 4
+    },
+    "line_start": 155,
+    "line_end": 155,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      155,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_立夏_己巳",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "立夏",
+      "day_ganzhi": "己巳",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 1
+    },
+    "line_start": 155,
+    "line_end": 155,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      155,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_立夏_甲戌",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "立夏",
+      "day_ganzhi": "甲戌",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 7
+    },
+    "line_start": 155,
+    "line_end": 155,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      155,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_小满_甲子",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "小满",
+      "day_ganzhi": "甲子",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 5
+    },
+    "line_start": 156,
+    "line_end": 156,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      156,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_小满_己巳",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "小满",
+      "day_ganzhi": "己巳",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 2
+    },
+    "line_start": 156,
+    "line_end": 156,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      156,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_小满_甲戌",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "小满",
+      "day_ganzhi": "甲戌",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 8
+    },
+    "line_start": 156,
+    "line_end": 156,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      156,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_芒种_甲子",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "芒种",
+      "day_ganzhi": "甲子",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 6
+    },
+    "line_start": 157,
+    "line_end": 157,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      157,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_芒种_己巳",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "芒种",
+      "day_ganzhi": "己巳",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 3
+    },
+    "line_start": 157,
+    "line_end": 157,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      157,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_芒种_甲戌",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "芒种",
+      "day_ganzhi": "甲戌",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 9
+    },
+    "line_start": 157,
+    "line_end": 157,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      157,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_夏至_甲子",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "夏至",
+      "day_ganzhi": "甲子",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 9
+    },
+    "line_start": 158,
+    "line_end": 158,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      158,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_夏至_己巳",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "夏至",
+      "day_ganzhi": "己巳",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 3
+    },
+    "line_start": 158,
+    "line_end": 158,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      158,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_夏至_甲戌",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "夏至",
+      "day_ganzhi": "甲戌",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 6
+    },
+    "line_start": 158,
+    "line_end": 158,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      158,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_小暑_甲子",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "小暑",
+      "day_ganzhi": "甲子",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 8
+    },
+    "line_start": 159,
+    "line_end": 159,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      159,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_小暑_己巳",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "小暑",
+      "day_ganzhi": "己巳",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 2
+    },
+    "line_start": 159,
+    "line_end": 159,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      159,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_小暑_甲戌",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "小暑",
+      "day_ganzhi": "甲戌",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 5
+    },
+    "line_start": 159,
+    "line_end": 159,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      159,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_大暑_甲子",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "大暑",
+      "day_ganzhi": "甲子",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 7
+    },
+    "line_start": 160,
+    "line_end": 160,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      160,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_大暑_己巳",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "大暑",
+      "day_ganzhi": "己巳",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 1
+    },
+    "line_start": 160,
+    "line_end": 160,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      160,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_大暑_甲戌",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "大暑",
+      "day_ganzhi": "甲戌",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 4
+    },
+    "line_start": 160,
+    "line_end": 160,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      160,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_立秋_甲子",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "立秋",
+      "day_ganzhi": "甲子",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 2
+    },
+    "line_start": 161,
+    "line_end": 161,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      161,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_立秋_己巳",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "立秋",
+      "day_ganzhi": "己巳",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 5
+    },
+    "line_start": 161,
+    "line_end": 161,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      161,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_立秋_甲戌",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "立秋",
+      "day_ganzhi": "甲戌",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 8
+    },
+    "line_start": 161,
+    "line_end": 161,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      161,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_处暑_甲子",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "处暑",
+      "day_ganzhi": "甲子",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 1
+    },
+    "line_start": 162,
+    "line_end": 162,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      162,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_处暑_己巳",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "处暑",
+      "day_ganzhi": "己巳",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 4
+    },
+    "line_start": 162,
+    "line_end": 162,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      162,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_处暑_甲戌",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "处暑",
+      "day_ganzhi": "甲戌",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 7
+    },
+    "line_start": 162,
+    "line_end": 162,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      162,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_白露_甲子",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "白露",
+      "day_ganzhi": "甲子",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 9
+    },
+    "line_start": 163,
+    "line_end": 163,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      163,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_白露_己巳",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "白露",
+      "day_ganzhi": "己巳",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 3
+    },
+    "line_start": 163,
+    "line_end": 163,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      163,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_白露_甲戌",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "白露",
+      "day_ganzhi": "甲戌",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 6
+    },
+    "line_start": 163,
+    "line_end": 163,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      163,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_秋分_甲子",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "秋分",
+      "day_ganzhi": "甲子",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 7
+    },
+    "line_start": 164,
+    "line_end": 164,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      164,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_秋分_己巳",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "秋分",
+      "day_ganzhi": "己巳",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 1
+    },
+    "line_start": 164,
+    "line_end": 164,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      164,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_秋分_甲戌",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "秋分",
+      "day_ganzhi": "甲戌",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 4
+    },
+    "line_start": 164,
+    "line_end": 164,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      164,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_寒露_甲子",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "寒露",
+      "day_ganzhi": "甲子",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 6
+    },
+    "line_start": 165,
+    "line_end": 165,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      165,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_寒露_己巳",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "寒露",
+      "day_ganzhi": "己巳",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 9
+    },
+    "line_start": 165,
+    "line_end": 165,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      165,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_寒露_甲戌",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "寒露",
+      "day_ganzhi": "甲戌",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 3
+    },
+    "line_start": 165,
+    "line_end": 165,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      165,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_霜降_甲子",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "霜降",
+      "day_ganzhi": "甲子",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 5
+    },
+    "line_start": 166,
+    "line_end": 166,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      166,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_霜降_己巳",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "霜降",
+      "day_ganzhi": "己巳",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 8
+    },
+    "line_start": 166,
+    "line_end": 166,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      166,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_霜降_甲戌",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "霜降",
+      "day_ganzhi": "甲戌",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 2
+    },
+    "line_start": 166,
+    "line_end": 166,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      166,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_立冬_甲子",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "立冬",
+      "day_ganzhi": "甲子",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 6
+    },
+    "line_start": 167,
+    "line_end": 167,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      167,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_立冬_己巳",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "立冬",
+      "day_ganzhi": "己巳",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 9
+    },
+    "line_start": 167,
+    "line_end": 167,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      167,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_立冬_甲戌",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "立冬",
+      "day_ganzhi": "甲戌",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 3
+    },
+    "line_start": 167,
+    "line_end": 167,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      167,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_小雪_甲子",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "小雪",
+      "day_ganzhi": "甲子",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 5
+    },
+    "line_start": 168,
+    "line_end": 168,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      168,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_小雪_己巳",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "小雪",
+      "day_ganzhi": "己巳",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 8
+    },
+    "line_start": 168,
+    "line_end": 168,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      168,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_小雪_甲戌",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "小雪",
+      "day_ganzhi": "甲戌",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 2
+    },
+    "line_start": 168,
+    "line_end": 168,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      168,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_大雪_甲子",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "大雪",
+      "day_ganzhi": "甲子",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 4
+    },
+    "line_start": 169,
+    "line_end": 169,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      169,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_大雪_己巳",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "大雪",
+      "day_ganzhi": "己巳",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 7
+    },
+    "line_start": 169,
+    "line_end": 169,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      169,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "bureau_term_table_大雪_甲戌",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "大雪",
+      "day_ganzhi": "甲戌",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阴遁",
+      "bureau": 1
+    },
+    "line_start": 169,
+    "line_end": 169,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      169,
+      198,
+      199,
+      200,
+      245
+    ]
+  },
+  {
+    "key": "narrative_1995_renchen_day_yuan",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "壬辰"
+    },
+    "expected": {
+      "fu_head": "己丑",
+      "yuan": "下元",
+      "day_in_yuan": 4
+    },
+    "line_start": 221,
+    "line_end": 223,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      203,
+      221,
+      222,
+      223
+    ]
+  },
+  {
+    "key": "narrative_1995_renchen_dongzhi_bureau",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "冬至",
+      "day_ganzhi": "壬辰",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 4
+    },
+    "line_start": 221,
+    "line_end": 223,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "narrative_1995_dingmao_lichun_bureau",
+    "operation": "bureau",
+    "args": {
+      "solar_term": "立春",
+      "day_ganzhi": "丁卯",
+      "method": "chaibu"
+    },
+    "expected": {
+      "dun": "阳遁",
+      "bureau": 8
+    },
+    "line_start": 224,
+    "line_end": 224,
+    "validation_scope": "provided_inputs_only"
+  },
+  {
+    "key": "narrative_1995_dingmao_day_yuan",
+    "operation": "day_yuan",
+    "args": {
+      "day_ganzhi": "丁卯"
+    },
+    "expected": {
+      "fu_head": "甲子",
+      "yuan": "上元",
+      "day_in_yuan": 4
+    },
+    "line_start": 224,
+    "line_end": 224,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      198,
+      224
+    ]
+  },
+  {
+    "key": "duty_yang1_wuxu",
+    "operation": "duty",
+    "args": {
+      "dun": "阳遁",
+      "bureau": 1,
+      "hour_ganzhi": "戊戌"
+    },
+    "expected": {
+      "xun_head": "甲午",
+      "zhifu_star": "天辅星",
+      "zhifu_native_palace": 4,
+      "zhifu_landing_palace": 1,
+      "zhifu_hosted_palace": null,
+      "zhishi_door": "杜门",
+      "zhishi_landing_palace": 8,
+      "zhishi_hosted_palace": null
+    },
+    "line_start": 398,
+    "line_end": 424,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      398,
+      400,
+      403,
+      422,
+      424
+    ],
+    "original_expected_spelling": {
+      "zhifu_star": "天辅"
+    },
+    "normalization_note": "结构化星名采用本章九星属性表中的完整名称；保留独立审读者初始简名，不改变原书及宫位期望。"
+  },
+  {
+    "key": "duty_yang1_renyin_central_host",
+    "operation": "duty",
+    "args": {
+      "dun": "阳遁",
+      "bureau": 1,
+      "hour_ganzhi": "壬寅"
+    },
+    "expected": {
+      "xun_head": "甲午",
+      "zhifu_star": "天辅星",
+      "zhifu_native_palace": 4,
+      "zhifu_landing_palace": 5,
+      "zhifu_hosted_palace": 2,
+      "zhishi_door": "杜门",
+      "zhishi_landing_palace": 3,
+      "zhishi_hosted_palace": null
+    },
+    "line_start": 398,
+    "line_end": 425,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      398,
+      400,
+      404,
+      422,
+      425
+    ],
+    "original_expected_spelling": {
+      "zhifu_star": "天辅"
+    },
+    "normalization_note": "结构化星名采用本章九星属性表中的完整名称；保留独立审读者初始简名，不改变原书及宫位期望。"
+  },
+  {
+    "key": "duty_yang1_guimao",
+    "operation": "duty",
+    "args": {
+      "dun": "阳遁",
+      "bureau": 1,
+      "hour_ganzhi": "癸卯"
+    },
+    "expected": {
+      "xun_head": "甲午",
+      "zhifu_star": "天辅星",
+      "zhifu_native_palace": 4,
+      "zhifu_landing_palace": 6,
+      "zhifu_hosted_palace": null,
+      "zhishi_door": "杜门",
+      "zhishi_landing_palace": 4,
+      "zhishi_hosted_palace": null
+    },
+    "line_start": 398,
+    "line_end": 425,
+    "validation_scope": "provided_inputs_only",
+    "source_lines": [
+      398,
+      400,
+      405,
+      422,
+      425
+    ],
+    "original_expected_spelling": {
+      "zhifu_star": "天辅"
+    },
+    "normalization_note": "结构化星名采用本章九星属性表中的完整名称；保留独立审读者初始简名，不改变原书及宫位期望。"
+  },
+  {
+    "key": "duty_yin9_jisi",
+    "operation": "duty",
+    "args": {
+      "dun": "阴遁",
+      "bureau": 9,
+      "hour_ganzhi": "己巳"
+    },
+    "expected": {
+      "xun_head": "甲子",
+      "zhifu_star": "天英星",
+      "zhifu_native_palace": 9,
+      "zhifu_landing_palace": 8,
+      "zhifu_hosted_palace": null,
+      "zhishi_door": "景门",
+      "zhishi_landing_palace": 4,
+      "zhishi_hosted_palace": null
+    },
+    "line_start": 426,
+    "line_end": 427,
+    "validation_scope": "provided_inputs_only",
+    "source_derived": [
+      "expected.zhifu_landing_palace"
+    ],
+    "source_lines": [
+      46,
+      395,
+      401,
+      426,
+      427
+    ],
+    "derivation_note": "原文426-427明确天英值符、景门值使及景门落4；天英落8由原文46阴九局己在8宫及395/401值符随时干规则派生，不声称原文逐字给出。",
+    "original_expected_spelling": {
+      "zhifu_star": "天英"
+    },
+    "normalization_note": "结构化星名采用本章九星属性表中的完整名称；保留独立审读者初始简名，不改变原书及宫位期望。"
+  },
+  {
+    "key": "duty_yin9_guiyou",
+    "operation": "duty",
+    "args": {
+      "dun": "阴遁",
+      "bureau": 9,
+      "hour_ganzhi": "癸酉"
+    },
+    "expected": {
+      "xun_head": "甲子",
+      "zhifu_star": "天英星",
+      "zhifu_native_palace": 9,
+      "zhifu_landing_palace": 4,
+      "zhifu_hosted_palace": null,
+      "zhishi_door": "景门",
+      "zhishi_landing_palace": 9,
+      "zhishi_hosted_palace": null
+    },
+    "line_start": 426,
+    "line_end": 428,
+    "validation_scope": "provided_inputs_only",
+    "source_derived": [
+      "expected.zhifu_landing_palace"
+    ],
+    "source_lines": [
+      46,
+      107,
+      395,
+      401,
+      426,
+      428
+    ],
+    "derivation_note": "原文428明确景门落9；天英落4由原文46阴九局癸在4宫及395/401值符随时干规则派生。",
+    "original_expected_spelling": {
+      "zhifu_star": "天英"
+    },
+    "normalization_note": "结构化星名采用本章九星属性表中的完整名称；保留独立审读者初始简名，不改变原书及宫位期望。"
+  }
+]
