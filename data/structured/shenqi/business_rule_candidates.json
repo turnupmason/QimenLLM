@@ -1,0 +1,610 @@
+{
+  "schema_version": "source_selection_candidates_v1",
+  "title": "经营求财预测",
+  "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+  "source_byte_count": 56047,
+  "source_line_count": 1366,
+  "candidate_count": 10,
+  "candidate_record_count": 10,
+  "candidates": [
+    {
+      "key": "business_trade_method",
+      "domain": "business_finance",
+      "scope": "trade",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "business_finance"
+        },
+        {
+          "field": "business_subtype",
+          "op": "eq",
+          "value": "trade"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_business_trade_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_business_reference_v1"
+      },
+      "source_lines": [
+        17,
+        18,
+        19
+      ],
+      "source_quote": "（1）交易求财\n\n一般以日干为买主，时干为卖主，六合为经纪人、中介人。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "适用条件不足时不得激活",
+        "同一符号跨子类承担不同语义，不能随意混用"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "日干",
+          "时干",
+          "六合"
+        ],
+        "semantic_role": "trade",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "business_investment_method",
+      "domain": "business_finance",
+      "scope": "investment",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "business_finance"
+        },
+        {
+          "field": "business_subtype",
+          "op": "eq",
+          "value": "investment"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_business_investment_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_business_reference_v1"
+      },
+      "source_lines": [
+        23,
+        24,
+        25
+      ],
+      "source_quote": "（2）投资求财\n\n一般以甲子戊为资本，以生门为利息。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "适用条件不足时不得激活",
+        "同一符号跨子类承担不同语义，不能随意混用"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "甲子戊",
+          "生门"
+        ],
+        "semantic_role": "investment",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "business_buy_goods_method",
+      "domain": "business_finance",
+      "scope": "buy_goods",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "business_finance"
+        },
+        {
+          "field": "business_subtype",
+          "op": "eq",
+          "value": "buy_goods"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_business_buy_goods_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_business_reference_v1"
+      },
+      "source_lines": [
+        35,
+        36,
+        37
+      ],
+      "source_quote": "（3）买货求财\n\n日干为买主，时干为货物。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "适用条件不足时不得激活",
+        "同一符号跨子类承担不同语义，不能随意混用"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "日干",
+          "时干"
+        ],
+        "semantic_role": "buy_goods",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "business_sell_goods_method",
+      "domain": "business_finance",
+      "scope": "sell_goods",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "business_finance"
+        },
+        {
+          "field": "business_subtype",
+          "op": "eq",
+          "value": "sell_goods"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_business_sell_goods_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_business_reference_v1"
+      },
+      "source_lines": [
+        47,
+        48,
+        49
+      ],
+      "source_quote": "（4）卖货求财\n\n一般以值符为卖方，值使为买方。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "适用条件不足时不得激活",
+        "同一符号跨子类承担不同语义，不能随意混用"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "值符",
+          "值使",
+          "日干",
+          "时干",
+          "甲子戊",
+          "生门"
+        ],
+        "semantic_role": "sell_goods",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "business_property_method",
+      "domain": "business_finance",
+      "scope": "property",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "business_finance"
+        },
+        {
+          "field": "business_subtype",
+          "op": "eq",
+          "value": "property"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_business_property_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_business_reference_v1"
+      },
+      "source_lines": [
+        65,
+        66,
+        67
+      ],
+      "source_quote": "（5）买卖房地产求财\n\n一般以生门为住宅，以死门为地皮，以值符为买房或卖房之人。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "适用条件不足时不得激活",
+        "同一符号跨子类承担不同语义，不能随意混用"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "生门",
+          "死门",
+          "值符",
+          "日干",
+          "时干"
+        ],
+        "semantic_role": "property",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "business_store_method",
+      "domain": "business_finance",
+      "scope": "store",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "business_finance"
+        },
+        {
+          "field": "business_subtype",
+          "op": "eq",
+          "value": "store"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_business_store_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_business_reference_v1"
+      },
+      "source_lines": [
+        81,
+        82,
+        83
+      ],
+      "source_quote": "（6）开店求财\n\n商场、门市、酒店、旅馆、餐厅等，包括开办工厂等坐地经商预测，一般均以日干为求测之人，开门为其商场、门市、工厂、酒店等的代表符号。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "适用条件不足时不得激活",
+        "同一符号跨子类承担不同语义，不能随意混用"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "开门",
+          "日干",
+          "时干"
+        ],
+        "semantic_role": "store",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "business_partnership_method",
+      "domain": "business_finance",
+      "scope": "partnership",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "business_finance"
+        },
+        {
+          "field": "business_subtype",
+          "op": "eq",
+          "value": "partnership"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_business_partnership_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_business_reference_v1"
+      },
+      "source_lines": [
+        95,
+        96,
+        97
+      ],
+      "source_quote": "（7）合伙求财\n\n一般以日干为我方，时干为合伙之人。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "适用条件不足时不得激活",
+        "同一符号跨子类承担不同语义，不能随意混用"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "日干",
+          "时干",
+          "地盘日干",
+          "天盘干"
+        ],
+        "semantic_role": "partnership",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "business_borrowing_method",
+      "domain": "business_finance",
+      "scope": "borrowing",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "business_finance"
+        },
+        {
+          "field": "business_subtype",
+          "op": "eq",
+          "value": "borrowing"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_business_borrowing_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_business_reference_v1"
+      },
+      "source_lines": [
+        107,
+        108,
+        109
+      ],
+      "source_quote": "（8）贷款或借钱\n\n一般以值符为物主或银行，以值使为借贷之人。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "适用条件不足时不得激活",
+        "同一符号跨子类承担不同语义，不能随意混用"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "值符",
+          "值使",
+          "天盘星",
+          "地盘星"
+        ],
+        "semantic_role": "borrowing",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "business_lending_method",
+      "domain": "business_finance",
+      "scope": "lending",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "business_finance"
+        },
+        {
+          "field": "business_subtype",
+          "op": "eq",
+          "value": "lending"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_business_lending_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_business_reference_v1"
+      },
+      "source_lines": [
+        125,
+        126,
+        127
+      ],
+      "source_quote": "（9）放贷\n\n值符为银行为放贷人，天乙（值符落宫原地盘之星）为借贷人，生门为利息。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "适用条件不足时不得激活",
+        "同一符号跨子类承担不同语义，不能随意混用"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "值符",
+          "天乙",
+          "生门"
+        ],
+        "semantic_role": "lending",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "business_debt_collection_method",
+      "domain": "business_finance",
+      "scope": "debt_collection",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "business_finance"
+        },
+        {
+          "field": "business_subtype",
+          "op": "eq",
+          "value": "debt_collection"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_business_debt_collection_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_business_reference_v1"
+      },
+      "source_lines": [
+        141,
+        142,
+        143
+      ],
+      "source_quote": "（10）讨债\n\n值符为放债之人，天乙（值符下临地盘之星）为欠债人，伤门为讨债人。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "适用条件不足时不得激活",
+        "同一符号跨子类承担不同语义，不能随意混用"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "值符",
+          "天乙",
+          "伤门"
+        ],
+        "semantic_role": "debt_collection",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    }
+  ],
+  "historical_candidates": [],
+  "scope": "source_scoped_conditions_reference_only",
+  "source_acceptance": "confirmed",
+  "formal_role_rules_created": 0
+}
