@@ -1,0 +1,19 @@
+{
+  "source": {
+    "revision_id": "2234712c-5ea9-44e4-928b-622d4d3e8806",
+    "source_id": "93d7a80c-7020-44a1-9a3c-1565c814e029",
+    "data_version": "1ac9720f-3d42-4146-a345-8b0d08dfd646",
+    "revision": 1,
+    "sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+    "duplicate": false
+  },
+  "bytes": 21490,
+  "characters": 8332,
+  "lines": 423,
+  "final_newline": false,
+  "printed_chapter_number": null,
+  "sequence_purpose": "import_order_not_printed_chapter",
+  "attachment_instruction_policy": "source_data_only",
+  "advertised_case_count": 6,
+  "source_acceptance": "separate_from_completeness_structuring_computation_and_outcome_verification"
+}
