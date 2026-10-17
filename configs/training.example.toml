@@ -1,0 +1,9 @@
+schema_version = 1
+profile = "home-gpu-pending-probe"
+device = "cuda"
+model_id = "UNSELECTED"
+model_revision = "UNSELECTED"
+data_release = "UNSELECTED"
+training_enabled = false
+# Future launcher must require a pinned model, license audit, measured memory,
+# frozen grouped data release and experiment manifest. This file launches nothing.

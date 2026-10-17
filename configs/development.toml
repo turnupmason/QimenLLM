@@ -1,0 +1,8 @@
+schema_version = 1
+profile = "development"
+database = "data/qimenllm.sqlite3"
+raw_directory = "data/raw_books"
+listen_host = "127.0.0.1"
+training_enabled = false
+model_provider = "unconfigured"
+# Documentation profile only; no hidden automatic model or network configuration.
