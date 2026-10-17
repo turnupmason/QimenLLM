@@ -1,0 +1,40 @@
+{
+  "chapter": "经营求财预测",
+  "source_sha256": "15a904a1974ed6598d30bed58afec7337385fadef31310b73ba2458547ba9645",
+  "source_bytes": 56154,
+  "confirmed_basis": "user_attestation",
+  "stories": 14,
+  "original_charts": 16,
+  "source_table_rows": 144,
+  "current_reference_candidates": 10,
+  "formal_role_rules_created": 0,
+  "training_tasks_created": 0,
+  "model_experiment": "not_performed",
+  "calendar_recomputed": false,
+  "source_chart_edited": false,
+  "source_claims_independently_verified": false,
+  "unit_tests": "passed_on_GitHub_Actions_before_snapshot_commit",
+  "integrity_audit": true,
+  "snapshot_manifest_sha256": "e601e711f329312898f5ab18f56ff7cc1d1249f1ca61bd57e8e2f36a79908c85",
+  "data_version": "71536c82-07a2-46d0-a6bf-8273ba62ac75",
+  "counts": {
+    "books": 1,
+    "chapters": 11,
+    "raw_documents": 11,
+    "cases": 43,
+    "events": 45,
+    "event_families": 40,
+    "charts": 45,
+    "case_records": 842,
+    "evidence_links": 1225,
+    "rules": 0,
+    "training_tasks": 0,
+    "dataset_releases": 0
+  },
+  "limitations": [
+    "Source original is curated user input, not independently verified",
+    "Story 12: only three explicit complete charts; no missing charts invented",
+    "One original center marker 禽己 retained literally",
+    "Formal inquiry remains blocked; no SFT or independent real-world predictions"
+  ]
+}
