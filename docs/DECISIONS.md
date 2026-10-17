@@ -39,3 +39,7 @@ CLI/API 共用 QimenService，临时 fixture 证明 DB/模型/校验接线。结
 ## D010 初始 schema 定稿
 
 在 Phase 0 尚无用户资料时调整 v1 并重建本轮新建空库。此操作不构成后续有数据时的迁移方案。定稿后任何 schema 修改必须新 migration、备份与回归；不能改已应用文件来掩盖迁移差异。
+
+## D011 用户要求每次更新同步 GitHub
+
+用户后续明确要求新建 QimenLLM，且每次数据更新同步 GitHub。这取代 D009 当时的“仅本地”交付范围。目标为 turnupmason/QimenLLM 私有仓库。以 canonical JSONL + 原始字节快照备份实际库，不把 schema/计数当已上传数据；CLI 资料更新自动尝试同步，失败 pending/退出码2，不丢本地资料。push 后核对远端 SHA 才算完成。现因云网络策略未允许 api.github.com 且连接器无建库接口，创建/首次上传仍受阻，不能宣称完成。

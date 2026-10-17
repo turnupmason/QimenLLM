@@ -38,7 +38,7 @@ APPEND_ONLY = (
 )
 
 
-def initialize(path: str | Path) -> None:
+def initialize(path: str | Path, *, seed_empty: bool = True) -> None:
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
     sql = (Path(__file__).parent / 'migrations/001_initial.sql').read_text()
@@ -60,8 +60,9 @@ def initialize(path: str | Path) -> None:
         try:
             conn.executescript('BEGIN IMMEDIATE;\n' + sql)
             conn.execute('INSERT INTO schema_migrations VALUES (1,?,?)', (fingerprint, stamp))
-            conn.execute('INSERT INTO data_versions VALUES (?,?,?,?,?)',
-                         ('empty-v1', None, 'initialize_empty', digest(b''), stamp))
+            if seed_empty:
+                conn.execute('INSERT INTO data_versions VALUES (?,?,?,?,?)',
+                             ('empty-v1', None, 'initialize_empty', digest(b''), stamp))
             conn.commit()
         except Exception:
             conn.rollback()

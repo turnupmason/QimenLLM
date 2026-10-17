@@ -50,3 +50,11 @@
 ## 下一步及停止点
 
 用户提供《神奇之门》第一章或完整知识点，章名及有的来源信息随文提供；多条输入标记本章结束。按 IMPORT_PROTOCOL 完整保存、哈希与来源、整块结构化、关联与条件审查，对实际可编译的内容加来源测试并更新本文件。本轮不执行任何后续文献导入、模型下载或训练。
+
+## 后续指令：GitHub 新仓库与持续同步
+
+用户已要求创建 QimenLLM，且每次数据更新同步 GitHub。已确认连接账号 turnupmason；目标私有 turnupmason/QimenLLM。已新增可恢复实际数据快照/恢复工具、CLI 更新后自动同步及远端 SHA 校验、持久规则和配置。schema v1 不变，不迁移或改写原文。
+
+当前远端创建和首次上传仍未完成：现有连接器没有建库接口；gh 到 api.github.com 被云网络策略拒绝（Forbidden），本地策略仅允许 github.com 等域名而没有 api.github.com。必须通过云环境正式配置流程补充访问，再重试建库与 push。不得说“GitHub 已同步”。当前资料仍为 0，专业能力边界不变。
+
+此次追加后的回归总数为 **59 项，全通过**（Phase 0 原有 51 项 + 快照/同步 8 项）。已验证真实原文字节及所有权威表导出/恢复后相同、数据不变文件不变、损坏快照拒绝、冻结分组保留、公开仓库不推送、远端 SHA 不符不报告成功，以及 CLI 上传失败仍保存本地资料。实际空库导出及原库 audit 均通过；真实 sync 尝试退出码2/pending，日志见 artifacts/sync-regression.log、github-sync-attempt.log 和 github-sync-validation.json。没有实际成功的远端写入，创建/首次 push 待访问恢复后完成。

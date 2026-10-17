@@ -25,3 +25,5 @@ PYTHONPATH=src python3 -m qimenllm annotate REVISION_ID work/annotations.json
 每项字段为 category、byte_start、byte_end、locator、payload（对象），可选 method_id。byte 范围必须在 UTF-8 字符边界，locator 来自实际段落/页码。标注按相同 JSON 内容幂等，默认 structured=1 / compiled=0 / reference_only=1。需编译的真实规则在已实现相应条件/算法和测试后单独维护，标注不会凭空造可执行奇门规则。
 
 目前文本导入、全章索引和结构标注已可运行；扫描图片/复杂原盘解析、自动章节理解、自动规则编译不在 Phase 0 已实现范围。收到图片时必须保留原始附件及另行实现有哈希的媒体导入，不把 OCR 当原文覆盖。
+
+用户后续要求每次数据更新同步 GitHub。上述 import-chapter / annotate 现在保存成功后会自动导出并尝试同步指定私有仓库；网络/权限失败时输出 pending、返回退出码2，已保存资料不回滚。修复访问后运行 `PYTHONPATH=src python3 -m qimenllm sync --message 'Update source data'` 重试，核对远端 commit 后才报告同步完成。当前建库首次上传仍受云环境 api.github.com 访问限制，详见 GITHUB_SYNC。

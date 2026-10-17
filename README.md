@@ -54,3 +54,14 @@ QimenLLM/
 数据库：src/qimenllm/knowledge/migrations/001_initial.sql，补充约束在 knowledge/db.py。设计与关系图见 docs/SCHEMA.md；原文/案例接口见 docs/IMPORT_PROTOCOL.md、CASE_POLICY.md。
 
 导入下一章前不用安装模型或连接 GPU。用户按完整章节提供材料后，Codex 将保存来源与哈希、审读标注、按来源支持编译并运行相应测试。本轮完成后等待《神奇之门》第一章。
+
+## GitHub 持续同步
+
+用户已要求每次源码和数据更新同步至私有 `turnupmason/QimenLLM`。import-chapter / annotate 会在本地保存成功后自动尝试导出、测试、commit、push 并核对远端。失败返回退出码 2 和 pending，原文仍已保存；不能把它当上传成功。源码以 Git 管理，实际文献/结构化库用可恢复快照进入 Git，不只上传计数或 schema。
+
+```sh
+PYTHONPATH=src python3 -m qimenllm export-snapshot
+PYTHONPATH=src python3 -m qimenllm sync --message 'Update project and source data'
+```
+
+当前建库/首次上传受云环境网络限制阻断，尚未完成；具体状态、恢复命令和同步边界见 docs/GITHUB_SYNC.md。

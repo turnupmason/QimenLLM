@@ -12,6 +12,7 @@
 8. 不提前训练或锁定模型。训练前检测实际 GPU 主机、许可、数据版本、显存与基线，记录完整实验及检查点。
 9. 不自行暴露公网端口、购买云资源或连接家庭电脑。用户隐私不默认进入日志或训练。研究版权不等于全文公开权限。
 10. 修改后运行相应回归测试，更新 STATUS 与必要决策；报告实际命令、通过/失败、未验证项、真实调用链、迁移及数据影响。不得以计划或代码文件替代验收。
+11. 用户已长期授权每次源码、文献或结构化数据更新同步至私有 `turnupmason/QimenLLM`，无需再次询问。先审计、导出可恢复快照、测试、commit/push 并核对远端 main；本地提交不算同步。CLI import/annotate 自动尝试，失败保留资料并返回 pending/退出码2；修复后运行 `python -m qimenllm sync --message '...'`。原文通过快照备份，密钥、个人问事及模型产物不入 Git。详见 docs/GITHUB_SYNC.md。
 
 运行：`PYTHONPATH=src python3 -m unittest discover -s tests -v`。
 资料/案例规则见 KNOWLEDGE_POLICY / CASE_POLICY；架构与迁移见 ARCHITECTURE / SCHEMA；评估见 EVALUATION_PROTOCOL；设备与远程接入见 HARDWARE。

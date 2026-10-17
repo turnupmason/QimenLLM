@@ -16,5 +16,6 @@ data/raw_books/*
 *.pt
 *.pth
 *.bin
+!data/snapshots/current/raw/*.bin
 *.ckpt
 training/runs/
