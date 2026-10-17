@@ -1,41 +1,38 @@
 # 当前项目状态
 
-更新：2026-10-17。本轮《神奇之门·钱物丢失预测》，技术键lost-property/排序15，不推断印刷章号；累计14份章级输入。用户重申Master Specification原件已在现有user_instructions目录按字节保存，旧版原件保留。新附件除排版仅去掉旧末句立即启动Phase0命令，本轮继续既有项目，不重建/重置或启动训练。
+更新：2026-10-17。本轮《神奇之门·刑事案件预测》，criminal-cases/排序16，不推印刷章号；累计15份章级输入。继续遵守用户重申总指令docs/user_instructions/master_spec_reaffirmed_2026-10-17.txt和既有仓库规则，不重置阶段或提前训练。
 
-## 本章来源与工程
+## 本章来源和案例
 
-TXT34197字节/13507字符/362行，SHA256 ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9。uploads、SQLite BLOB与snapshot raw保留全部原字节及末尾编辑附记；收到的例三乙休庚不二次更改，不声称见过原扫描。confirmed/user_attestation，系统未亲自外查。
+TXT37260原字节/14484字符/261行，SHA256 289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9。uploads、SQLite BLOB、snapshot raw完整保存；原字己已、妍头等不擅改。confirmed/user_attestation，不冒称软件外查报刊或案件。
 
-15完整语境组/6技术边界/5来源候选，均reference_only。8故事/8家族/8事件/8原盘、92过程记录/92证据；一般失主/失物、找回、位置、偷盗遗忘、应期分条件，案例多取法不改成无条件绑定。例三先盲问后透露皮衣；例六每次反馈/找不到/续断按说话者原序，最后车内位置事前未断出；例七先旅行后身份证，张志春按语在反馈后，实际旅行结局未报；例八未找回仅截至原书叙述时。混合问答整段保留并给出逐句说话者和准确字节出处；作者对被盗问题的回答不升级为外部核实。
+17完整语境组/7技术边界/11参考候选；5完整故事/5家族/5事件/6原盘、62过程记录/64证据。一般案情角色玄武/天蓬/辛、特征工具、方向、无名尸、能否破案、庚格及自首经验按条件保存，全部reference_only，不自动作为现实人物认定或取证依据。
 
-三行原字标签盘沿source_chart与QimenService同ID投影，72宫同时和独立字面gold核对；中五原干、门星前缀、原始三行/列号均保留。新增脚本import_shenqi_lost.py复用import_chapter、install_curated、import_cases、install_candidates；CLI/WSGI读取沿既有服务链，无schema迁移、新目录或workflow增删。见ingestion/SHENQI_LOST.md。
+银行案置闰阳3原断与事后拆补阳2对照分别保存，两个chart_id同一事件/家族；6月24日/7月4日原断应期与9月9/10日结果不改成命中，187行应期未准和当时未看出的承认单列。拆补盘、后验案情及张志春按语不进入首次预测。服装案已抓两名小孩是107行才透露；被盗额与最终损失分开。抢劫案可望抓获原断和实际击毙分开。末例基本合乎实际不升级为每条推断获证，至今未破仅原书时点。
 
-## 累计权威库
+沿既有import_chapter、install_curated、import_cases、install_candidates和QimenService/CLI/WSGI读取；source_chart同ID投影，54宫与独立字面gold同时核对原盘及服务结果，原字前缀/中五原干/禽壬保留。无schema迁移、新目录或workflow增删。详见ingestion/SHENQI_CRIMINAL.md。
+
+## 当前权威库
 
 | 资源 | 数量 |
 |---|---:|
-| 书 / 章级输入 / 原始文档 | 1 / 14 / 14 |
-| 概念索引 / 方法 | 2173 / 23 |
-| 知识项 / 来源片段 | 930 / 2509 |
-| 完整故事 / 家族 / 事件 / 原书盘 | 67 / 64 / 73 / 71 |
-| 案例记录 / 证据 | 1144 / 1465 |
-| 来源审读历史 / 数据版本记录 | 21 / 65 |
+| 书 / 章级输入 / 原始文档 | 1 / 15 / 15 |
+| 概念索引 / 方法 | 2240 / 24 |
+| 知识项 / 来源片段 | 965 / 2620 |
+| 完整故事 / 家族 / 事件 / 原书盘 | 72 / 69 / 78 / 77 |
+| 案例记录 / 证据关联 | 1206 / 1529 |
+| 来源审读历史 / 数据版本记录 | 22 / 70 |
 | 正式角色rules / 训练任务 / 冻结release | 0 / 0 / 0 |
 | schema | v1，无迁移 |
 
-数据版本da05c74d-cc3d-4642-b37b-b575f952353f；snapshot manifest SHA256 6f6c7fa5e2c06f7bd878233e1aea5d44df785d6b6b9ac743e65bf1b9ed9df7f0。旧25权威表逐字段全部行保留、13份旧原文逐字节不变，40文件快照恢复再导出一致。旧章节source/cases/curation/gold不覆盖，旧总指令原件不覆盖。
+数据版本29d1843d-9581-4928-a37d-fbf2d6d4cb65；snapshot manifest SHA256 c8c94663baac21483469b0a743c180952bcb01488b11409fbe56f1a919a8fdd7。旧25权威表每条旧行逐字段仍在，14旧原文逐字节不变；41文件快照恢复再导出一致。旧章source/cases/curation/gold和总指令原件不覆盖。
 
-## 已实际验证
+## 已实际运行的验收
 
-`PYTHONPATH=src python3 -m unittest discover -s tests -v`：本机307项通过，0失败/错误，含本章16专项。覆盖全部原字节及来源/分句、72宫独立gold与服务投影、盲问与多轮时序、说话者、来源编辑附记、5候选条件不激活、全部旧不可变行保留、幂等/拒改、恢复、CLI及WSGI共用入口。没有用阻断的正式ask或参考候选匹配冒充专业预测成功。
+`PYTHONPATH=src python3 -m unittest discover -s tests -v`本机323项通过、0失败/错误，含本章16专项。覆盖原字节/引文/分句、54宫独立gold和同ID读取、两种方法与后知隔离、失准应期、金额与前置逮捕反馈、击毙与抓获区别、未破案件观察截止、源字面、11候选条件不激活、旧行保留/幂等/拒改及快照恢复。既有CLI目录实际读取5案，WSGI API读取全部6盘；没有用ask阻断或参考查询冒充专业预测完成。
 
-新总指令文件SHA256 e3988844b89e78cce3e4305e65e9d681e4c3cc3e62ed24535c90afe7afd72e57，39123字节；档案docs/user_instructions/master_spec_reaffirmed_2026-10-17.txt与附件逐字节相同。
+通过已连接GitHub接口非强制更新main，提交后必须按精确SHA核对全部文件blob和Ubuntu/macOS × Python3.11/3.12四CI；未完成时不声称远端成功。验收记录data/provenance/criminal_validation.json，本地回执work/github-sync.json。
 
-远端同步通过已连接GitHub接口非强制更新main；提交后须按精确SHA、所有文件blob与Ubuntu/macOS × Python3.11/3.12四CI实际核验。尚未核验前不宣称远端成功。数据验收见data/provenance/lost_validation.json，本地回执work/github-sync.json。
+## 未完成
 
-## 能力边界及下一步
-
-独立历法/节气/四柱和全面排盘/空亡马星/寄宫、正式用神激活、专业综合断案/应期、模型训练和现实预测评估、公众Web均未完成。正式ask仍由QimenService阻断；文献接受、结构化投影、程序复算和模型专业效果分别报告。没有引入其他古籍或家庭GPU连接。历史验收报告保留，完成同步后继续等用户下一章。
-
-
-远端内容验收：`a86dccb3fcb46d221d29706b7a1ce91c91ec2586` 已核对main一致、273文件blob匹配；[Actions 39073906226](https://github.com/turnupmason/QimenLLM/actions/runs/39073906226) 的Ubuntu/macOS × Python3.11/3.12四job全部success，四份日志均实际Ran 307 tests / OK。经已连接GitHub接口非强制更新，未增删workflow。此处记录已实际验收的内容提交；本验收文档后续提交本身仍须按精确新SHA另查四CI，不以旧CI代替。
+独立历法/节气/四柱及全面排盘/空亡马星/完整寄宫、正式用神激活、专业综合断案和应期、模型训练/现实效果评估、公众Web均未完成。原书和作者意见不等于程序独立验证或现实侦查依据，按源23–25行保留其明确限制。正式问事仍由QimenService.ask阻断，未引入其他古籍。历史验收报告保留，完成同步后等待用户下一章。

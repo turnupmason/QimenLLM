@@ -1,0 +1,180 @@
+{
+  "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+  "source_byte_count": 37260,
+  "source_line_count": 261,
+  "source_file": "神奇之门_刑事案件预测_精校完整版_重新生成.txt",
+  "verification_basis": "user_attestation",
+  "system_performed_independent_verification": false,
+  "stories": 5,
+  "events": 5,
+  "charts": 6,
+  "source_palaces": 54,
+  "records": 62,
+  "context_groups": 17,
+  "technical_boundaries": 7,
+  "reference_candidates": 11,
+  "case4_zhirun_original_and_posthoc_chaibu_kept_separate": true,
+  "source_does_not_replace_investigation_or_evidence_lines": [
+    23,
+    25,
+    225,
+    227,
+    261
+  ],
+  "last_line_as_supplied": "张志春按：此实例说明，并非每个案件都能侦破。有些案件，由于作案者过于狡诈，加上缺乏知情人，证据不足，所以长期难以侦破。周易预测本身并不能破案，只能向公安人员提供一些接近实际的案情和能否破案以及如何破案的大体态势，供公安人员参考，减少盲目性，减轻工作量。否定它的价值与夸大它的作用，都是不妥当的\n",
+  "schema_migration": false,
+  "formal_rules_added": 0,
+  "training_tasks_added": 0,
+  "snapshot": {
+    "data_version": "29d1843d-9581-4928-a37d-fbf2d6d4cb65",
+    "snapshot": "data/snapshots/current",
+    "counts": {
+      "data_versions": 70,
+      "books": 1,
+      "chapters": 15,
+      "raw_documents": 15,
+      "chapter_revisions": 15,
+      "source_reviews": 22,
+      "source_spans": 2620,
+      "methods": 24,
+      "concepts": 2240,
+      "concept_links": 0,
+      "knowledge_items": 965,
+      "rules": 0,
+      "rule_conditions": 0,
+      "rule_disagreements": 0,
+      "event_families": 69,
+      "cases": 72,
+      "events": 78,
+      "case_events": 78,
+      "charts": 77,
+      "case_records": 1206,
+      "evidence_links": 1529,
+      "dataset_releases": 0,
+      "split_assignments": 0,
+      "training_tasks": 0,
+      "task_inputs": 0
+    },
+    "manifest_sha256": "c8c94663baac21483469b0a743c180952bcb01488b11409fbe56f1a919a8fdd7"
+  },
+  "old_rows_preserved": {
+    "rule_conditions": {
+      "old": 0,
+      "new": 0
+    },
+    "concept_links": {
+      "old": 0,
+      "new": 0
+    },
+    "case_events": {
+      "old": 73,
+      "new": 78
+    },
+    "data_versions": {
+      "old": 65,
+      "new": 70
+    },
+    "case_records": {
+      "old": 1144,
+      "new": 1206
+    },
+    "rule_disagreements": {
+      "old": 0,
+      "new": 0
+    },
+    "training_tasks": {
+      "old": 0,
+      "new": 0
+    },
+    "evidence_links": {
+      "old": 1465,
+      "new": 1529
+    },
+    "chapter_revisions": {
+      "old": 14,
+      "new": 15
+    },
+    "knowledge_items": {
+      "old": 930,
+      "new": 965
+    },
+    "methods": {
+      "old": 23,
+      "new": 24
+    },
+    "event_families": {
+      "old": 64,
+      "new": 69
+    },
+    "raw_documents": {
+      "old": 14,
+      "new": 15
+    },
+    "cases": {
+      "old": 67,
+      "new": 72
+    },
+    "task_inputs": {
+      "old": 0,
+      "new": 0
+    },
+    "source_spans": {
+      "old": 2509,
+      "new": 2620
+    },
+    "concepts": {
+      "old": 2173,
+      "new": 2240
+    },
+    "events": {
+      "old": 73,
+      "new": 78
+    },
+    "rules": {
+      "old": 0,
+      "new": 0
+    },
+    "split_assignments": {
+      "old": 0,
+      "new": 0
+    },
+    "charts": {
+      "old": 71,
+      "new": 77
+    },
+    "chapters": {
+      "old": 14,
+      "new": 15
+    },
+    "books": {
+      "old": 1,
+      "new": 1
+    },
+    "source_reviews": {
+      "old": 21,
+      "new": 22
+    },
+    "dataset_releases": {
+      "old": 0,
+      "new": 0
+    }
+  },
+  "old_raw_documents_preserved": 14,
+  "remote_base_sha": "64e3416877c38a821cc80f570c33197be6e28eba",
+  "local_regression": {
+    "command": "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+    "tests": 323,
+    "failures": 0,
+    "errors": 0,
+    "new_chapter_tests": 16
+  },
+  "snapshot_roundtrip": "byte_identical",
+  "api_original_charts": 6,
+  "cli_cases": 5,
+  "workflow_added": false,
+  "workflow_deleted": false,
+  "github_sync": {
+    "status": "pending",
+    "reason": "Await actual main commit and four CI results"
+  }
+}

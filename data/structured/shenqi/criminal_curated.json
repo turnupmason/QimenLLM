@@ -1,0 +1,1292 @@
+{
+  "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+  "source_byte_count": 37260,
+  "source_line_count": 261,
+  "chapter_title": "刑事案件预测",
+  "chapter_key_suggestion": "criminal-cases",
+  "printed_chapter_number": null,
+  "groups": [
+    {
+      "key": "criminal_heading",
+      "title": "刑事案件预测",
+      "category": "commentary",
+      "line_start": 1,
+      "line_end": 4,
+      "attribution": "我会人员（原文未具名）；张志春按语单列，不冒称每案由张志春亲断",
+      "summary": "完整原文语境；断语、现场反馈、后置复盘、方法差异与案件调查证据分开",
+      "concepts": [],
+      "dataset": {
+        "key": "criminal_heading_reference",
+        "rows": [
+          {
+            "key": "criminal_heading_1",
+            "source_lines": [
+              1,
+              1
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 1,
+              "line_end": 1,
+              "byte_start": 0,
+              "byte_end": 19,
+              "source_quote": "刑事案件预测\n"
+            },
+            "source_quote": "刑事案件预测\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_heading_3",
+            "source_lines": [
+              3,
+              3
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 3,
+              "line_end": 3,
+              "byte_start": 20,
+              "byte_end": 49,
+              "source_quote": "第一节 取用判断经验\n"
+            },
+            "source_quote": "第一节 取用判断经验\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "criminal_offense_roles",
+      "title": "刑事犯罪包括偷盗、抢劫、流氓、杀人以及贪污受贿等经济犯罪。在奇门预测中，一般性偷窃财物、流氓强奸、轻微经济犯罪，多以玄武为用神；抢劫杀人、奸",
+      "category": "role",
+      "line_start": 5,
+      "line_end": 6,
+      "attribution": "我会人员（原文未具名）；张志春按语单列，不冒称每案由张志春亲断",
+      "summary": "完整原文语境；断语、现场反馈、后置复盘、方法差异与案件调查证据分开",
+      "concepts": [
+        "玄武",
+        "天蓬",
+        "甲午辛"
+      ],
+      "dataset": {
+        "key": "criminal_offense_roles_reference",
+        "rows": [
+          {
+            "key": "criminal_offense_roles_5",
+            "source_lines": [
+              5,
+              5
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 5,
+              "line_end": 5,
+              "byte_start": 50,
+              "byte_end": 453,
+              "source_quote": "刑事犯罪包括偷盗、抢劫、流氓、杀人以及贪污受贿等经济犯罪。在奇门预测中，一般性偷窃财物、流氓强奸、轻微经济犯罪，多以玄武为用神；抢劫杀人、奸情杀人，重大贪污受贿罪犯，多以天蓬星为用神；同时，甲午辛为罪人，凡是犯错误或犯罪之人，都还可以同时以六仪辛为用神，来帮助判断之。\n"
+            },
+            "source_quote": "刑事犯罪包括偷盗、抢劫、流氓、杀人以及贪污受贿等经济犯罪。在奇门预测中，一般性偷窃财物、流氓强奸、轻微经济犯罪，多以玄武为用神；抢劫杀人、奸情杀人，重大贪污受贿罪犯，多以天蓬星为用神；同时，甲午辛为罪人，凡是犯错误或犯罪之人，都还可以同时以六仪辛为用神，来帮助判断之。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "criminal_characteristics",
+      "title": "罪犯特征，一般以用神落宫旺衰，结合所临星、门、神、三奇六仪，来判断其职业、长相、身高、性格等。蓬、玄临庚多为老奸巨滑的重大案犯，临辛多为惯犯",
+      "category": "analogy",
+      "line_start": 7,
+      "line_end": 8,
+      "attribution": "我会人员（原文未具名）；张志春按语单列，不冒称每案由张志春亲断",
+      "summary": "完整原文语境；断语、现场反馈、后置复盘、方法差异与案件调查证据分开",
+      "concepts": [
+        "旺衰",
+        "星门神",
+        "庚辛壬癸"
+      ],
+      "dataset": {
+        "key": "criminal_characteristics_reference",
+        "rows": [
+          {
+            "key": "criminal_characteristics_7",
+            "source_lines": [
+              7,
+              7
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 7,
+              "line_end": 7,
+              "byte_start": 454,
+              "byte_end": 725,
+              "source_quote": "罪犯特征，一般以用神落宫旺衰，结合所临星、门、神、三奇六仪，来判断其职业、长相、身高、性格等。蓬、玄临庚多为老奸巨滑的重大案犯，临辛多为惯犯或曾被劳教关押者，临壬、癸多为在逃罪犯。\n"
+            },
+            "source_quote": "罪犯特征，一般以用神落宫旺衰，结合所临星、门、神、三奇六仪，来判断其职业、长相、身高、性格等。蓬、玄临庚多为老奸巨滑的重大案犯，临辛多为惯犯或曾被劳教关押者，临壬、癸多为在逃罪犯。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "criminal_means",
+      "title": "作案手段与工具，蓬、玄临伤门或伤门生蓬、玄，多为用车；临景门或景门生蓬、玄，多为使用枪支火器；临庚、辛或庚、辛生蓬、玄，多为使用尖刀、匕首等",
+      "category": "analysis",
+      "line_start": 9,
+      "line_end": 10,
+      "attribution": "我会人员（原文未具名）；张志春按语单列，不冒称每案由张志春亲断",
+      "summary": "完整原文语境；断语、现场反馈、后置复盘、方法差异与案件调查证据分开",
+      "concepts": [
+        "伤门",
+        "景门",
+        "庚辛",
+        "巽宫",
+        "螣蛇"
+      ],
+      "dataset": {
+        "key": "criminal_means_reference",
+        "rows": [
+          {
+            "key": "criminal_means_9",
+            "source_lines": [
+              9,
+              9
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 9,
+              "line_end": 9,
+              "byte_start": 726,
+              "byte_end": 1120,
+              "source_quote": "作案手段与工具，蓬、玄临伤门或伤门生蓬、玄，多为用车；临景门或景门生蓬、玄，多为使用枪支火器；临庚、辛或庚、辛生蓬、玄，多为使用尖刀、匕首等金属器械；临巽宫或螣蛇，多以绳索将人勒死或以手掐颈而致死人命；临甲、乙或伤、杜二门，也可能用木棍或木制东西将人打伤或致死。\n"
+            },
+            "source_quote": "作案手段与工具，蓬、玄临伤门或伤门生蓬、玄，多为用车；临景门或景门生蓬、玄，多为使用枪支火器；临庚、辛或庚、辛生蓬、玄，多为使用尖刀、匕首等金属器械；临巽宫或螣蛇，多以绳索将人勒死或以手掐颈而致死人命；临甲、乙或伤、杜二门，也可能用木棍或木制东西将人打伤或致死。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "criminal_locality",
+      "title": "星门伏吟或用神落内盘，则可能是本地人或单位内部之人所为；星门反吟或用神落外盘，则可能是外地、外单位人或流窜犯再次作案。",
+      "category": "analysis",
+      "line_start": 11,
+      "line_end": 12,
+      "attribution": "我会人员（原文未具名）；张志春按语单列，不冒称每案由张志春亲断",
+      "summary": "完整原文语境；断语、现场反馈、后置复盘、方法差异与案件调查证据分开",
+      "concepts": [
+        "伏吟",
+        "反吟",
+        "内盘",
+        "外盘"
+      ],
+      "dataset": {
+        "key": "criminal_locality_reference",
+        "rows": [
+          {
+            "key": "criminal_locality_11",
+            "source_lines": [
+              11,
+              11
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 11,
+              "line_end": 11,
+              "byte_start": 1121,
+              "byte_end": 1299,
+              "source_quote": "星门伏吟或用神落内盘，则可能是本地人或单位内部之人所为；星门反吟或用神落外盘，则可能是外地、外单位人或流窜犯再次作案。\n"
+            },
+            "source_quote": "星门伏吟或用神落内盘，则可能是本地人或单位内部之人所为；星门反吟或用神落外盘，则可能是外地、外单位人或流窜犯再次作案。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "criminal_hiding",
+      "title": "罪犯逃跑、藏匿方向，一般以六合为逃犯，以杜门落宫为藏匿方向。以内盘、外盘、杜门所落宫数，来判断其远近。",
+      "category": "role",
+      "line_start": 13,
+      "line_end": 14,
+      "attribution": "我会人员（原文未具名）；张志春按语单列，不冒称每案由张志春亲断",
+      "summary": "完整原文语境；断语、现场反馈、后置复盘、方法差异与案件调查证据分开",
+      "concepts": [
+        "六合",
+        "杜门"
+      ],
+      "dataset": {
+        "key": "criminal_hiding_reference",
+        "rows": [
+          {
+            "key": "criminal_hiding_13",
+            "source_lines": [
+              13,
+              13
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 13,
+              "line_end": 13,
+              "byte_start": 1300,
+              "byte_end": 1454,
+              "source_quote": "罪犯逃跑、藏匿方向，一般以六合为逃犯，以杜门落宫为藏匿方向。以内盘、外盘、杜门所落宫数，来判断其远近。\n"
+            },
+            "source_quote": "罪犯逃跑、藏匿方向，一般以六合为逃犯，以杜门落宫为藏匿方向。以内盘、外盘、杜门所落宫数，来判断其远近。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "criminal_unidentified_body",
+      "title": "发现无名尸首，一般以死门为其代表符号。死门临甲子戊，可能是为钱财而被杀；临乙、庚、丁、壬或桃花者，多为奸情所杀；乘太阴、六合，多为隐私暧昧之",
+      "category": "role",
+      "line_start": 15,
+      "line_end": 16,
+      "attribution": "我会人员（原文未具名）；张志春按语单列，不冒称每案由张志春亲断",
+      "summary": "完整原文语境；断语、现场反馈、后置复盘、方法差异与案件调查证据分开",
+      "concepts": [
+        "死门",
+        "甲子戊",
+        "乙庚丁壬",
+        "太阴",
+        "六合"
+      ],
+      "dataset": {
+        "key": "criminal_unidentified_body_reference",
+        "rows": [
+          {
+            "key": "criminal_unidentified_body_15",
+            "source_lines": [
+              15,
+              15
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 15,
+              "line_end": 15,
+              "byte_start": 1455,
+              "byte_end": 1678,
+              "source_quote": "发现无名尸首，一般以死门为其代表符号。死门临甲子戊，可能是为钱财而被杀；临乙、庚、丁、壬或桃花者，多为奸情所杀；乘太阴、六合，多为隐私暧昧之事所杀。\n"
+            },
+            "source_quote": "发现无名尸首，一般以死门为其代表符号。死门临甲子戊，可能是为钱财而被杀；临乙、庚、丁、壬或桃花者，多为奸情所杀；乘太阴、六合，多为隐私暧昧之事所杀。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "criminal_solvability",
+      "title": "能否破案，一般以伤门、白虎、六仪中的庚和值使门为公安捕盗之人。公安捕盗之人落宫旺相，冲克罪犯落宫者，案一定能破；相反则难破或破不了案。星、门",
+      "category": "analysis",
+      "line_start": 17,
+      "line_end": 18,
+      "attribution": "我会人员（原文未具名）；张志春按语单列，不冒称每案由张志春亲断",
+      "summary": "完整原文语境；断语、现场反馈、后置复盘、方法差异与案件调查证据分开",
+      "concepts": [
+        "伤门",
+        "白虎",
+        "庚",
+        "值使",
+        "庚格"
+      ],
+      "dataset": {
+        "key": "criminal_solvability_reference",
+        "rows": [
+          {
+            "key": "criminal_solvability_17",
+            "source_lines": [
+              17,
+              17
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 17,
+              "line_end": 17,
+              "byte_start": 1679,
+              "byte_end": 2181,
+              "source_quote": "能否破案，一般以伤门、白虎、六仪中的庚和值使门为公安捕盗之人。公安捕盗之人落宫旺相，冲克罪犯落宫者，案一定能破；相反则难破或破不了案。星、门伏吟者难破，反吟则能破或案犯再次作案时可破。同时，有庚格，即庚临年、月、日、时者，能破；不格者，不破或难破。另外，杜门逢庚、辛、壬、癸，或天盘六仪克地盘六仪，或地盘六仪生天盘六仪，一般也能破案。\n"
+            },
+            "source_quote": "能否破案，一般以伤门、白虎、六仪中的庚和值使门为公安捕盗之人。公安捕盗之人落宫旺相，冲克罪犯落宫者，案一定能破；相反则难破或破不了案。星、门伏吟者难破，反吟则能破或案犯再次作案时可破。同时，有庚格，即庚临年、月、日、时者，能破；不格者，不破或难破。另外，杜门逢庚、辛、壬、癸，或天盘六仪克地盘六仪，或地盘六仪生天盘六仪，一般也能破案。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "criminal_timing",
+      "title": "破案时间，多以庚格而断。庚临年干，一般年内可破；庚临月干，月内可破；庚临日干，当日可破；庚临时格，本时辰内或表示较短时间内可破。如果一局中同",
+      "category": "timing",
+      "line_start": 19,
+      "line_end": 20,
+      "attribution": "我会人员（原文未具名）；张志春按语单列，不冒称每案由张志春亲断",
+      "summary": "完整原文语境；断语、现场反馈、后置复盘、方法差异与案件调查证据分开",
+      "concepts": [
+        "庚格",
+        "阴日",
+        "阳日",
+        "阴星",
+        "阳星",
+        "马星",
+        "值使"
+      ],
+      "dataset": {
+        "key": "criminal_timing_reference",
+        "rows": [
+          {
+            "key": "criminal_timing_19",
+            "source_lines": [
+              19,
+              19
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 19,
+              "line_end": 19,
+              "byte_start": 2182,
+              "byte_end": 2714,
+              "source_quote": "破案时间，多以庚格而断。庚临年干，一般年内可破；庚临月干，月内可破；庚临日干，当日可破；庚临时格，本时辰内或表示较短时间内可破。如果一局中同时出现两个庚格，则表示该案一定能破，而且时间较短。具体破获时间，还可以结合阳日看庚下之干，阴日看庚上之干，或时干临阳星看庚下之干，时干临阴星看庚上之干等方法来判断。还可以按旬空出空、马星动，值使门落宫等方法来判断。\n"
+            },
+            "source_quote": "破案时间，多以庚格而断。庚临年干，一般年内可破；庚临月干，月内可破；庚临日干，当日可破；庚临时格，本时辰内或表示较短时间内可破。如果一局中同时出现两个庚格，则表示该案一定能破，而且时间较短。具体破获时间，还可以结合阳日看庚下之干，阴日看庚上之干，或时干临阳星看庚下之干，时干临阴星看庚上之干等方法来判断。还可以按旬空出空、马星动，值使门落宫等方法来判断。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "criminal_surrender",
+      "title": "另外，古籍中还有“死门加壬，主讼人自讼”和壬临坤宫凶犯自首的经验，也可供参考。",
+      "category": "analysis",
+      "line_start": 21,
+      "line_end": 22,
+      "attribution": "我会人员（原文未具名）；张志春按语单列，不冒称每案由张志春亲断",
+      "summary": "完整原文语境；断语、现场反馈、后置复盘、方法差异与案件调查证据分开",
+      "concepts": [
+        "死门加壬",
+        "壬临坤宫"
+      ],
+      "dataset": {
+        "key": "criminal_surrender_reference",
+        "rows": [
+          {
+            "key": "criminal_surrender_21",
+            "source_lines": [
+              21,
+              21
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 21,
+              "line_end": 21,
+              "byte_start": 2715,
+              "byte_end": 2833,
+              "source_quote": "另外，古籍中还有“死门加壬，主讼人自讼”和壬临坤宫凶犯自首的经验，也可供参考。\n"
+            },
+            "source_quote": "另外，古籍中还有“死门加壬，主讼人自讼”和壬临坤宫凶犯自首的经验，也可供参考。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "criminal_investigative_limit",
+      "title": "总之，奇门预测，如果搞得好，可以为刑侦人员提供一些有参考价值的意见或信息，以减少破案的盲目性，减轻其工作量。",
+      "category": "commentary",
+      "line_start": 23,
+      "line_end": 26,
+      "attribution": "我会人员（原文未具名）；张志春按语单列，不冒称每案由张志春亲断",
+      "summary": "完整原文语境；断语、现场反馈、后置复盘、方法差异与案件调查证据分开",
+      "concepts": [
+        "调查取证",
+        "破案依据",
+        "证据"
+      ],
+      "dataset": {
+        "key": "criminal_investigative_limit_reference",
+        "rows": [
+          {
+            "key": "criminal_investigative_limit_23",
+            "source_lines": [
+              23,
+              23
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 23,
+              "line_end": 23,
+              "byte_start": 2834,
+              "byte_end": 2997,
+              "source_quote": "总之，奇门预测，如果搞得好，可以为刑侦人员提供一些有参考价值的意见或信息，以减少破案的盲目性，减轻其工作量。\n"
+            },
+            "source_quote": "总之，奇门预测，如果搞得好，可以为刑侦人员提供一些有参考价值的意见或信息，以减少破案的盲目性，减轻其工作量。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_investigative_limit_25",
+            "source_lines": [
+              25,
+              25
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 25,
+              "line_end": 25,
+              "byte_start": 2998,
+              "byte_end": 3128,
+              "source_quote": "但绝对代替不了刑事侦察和调查取证，更不能作为破案的依据和证据。易学预测本身并不能破案。\n"
+            },
+            "source_quote": "但绝对代替不了刑事侦察和调查取证，更不能作为破案的依据和证据。易学预测本身并不能破案。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "criminal_case_heading",
+      "title": "第二节 实例解析（5例）",
+      "category": "commentary",
+      "line_start": 27,
+      "line_end": 28,
+      "attribution": "我会人员（原文未具名）；张志春按语单列，不冒称每案由张志春亲断",
+      "summary": "完整原文语境；断语、现场反馈、后置复盘、方法差异与案件调查证据分开",
+      "concepts": [],
+      "dataset": {
+        "key": "criminal_case_heading_reference",
+        "rows": [
+          {
+            "key": "criminal_case_heading_27",
+            "source_lines": [
+              27,
+              27
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 27,
+              "line_end": 27,
+              "byte_start": 3129,
+              "byte_end": 3162,
+              "source_quote": "第二节 实例解析（5例）\n"
+            },
+            "source_quote": "第二节 实例解析（5例）\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "criminal_case_01",
+      "title": "实例一：测钱被偷案",
+      "category": "analysis",
+      "line_start": 29,
+      "line_end": 63,
+      "attribution": "我会人员（原文未具名）；张志春按语单列，不冒称每案由张志春亲断",
+      "summary": "完整原文语境；断语、现场反馈、后置复盘、方法差异与案件调查证据分开",
+      "concepts": [
+        "玄武",
+        "白虎",
+        "值使",
+        "庚格"
+      ],
+      "dataset": {
+        "key": "criminal_case_01_reference",
+        "rows": [
+          {
+            "key": "criminal_case_01_52",
+            "source_lines": [
+              52,
+              52
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 52,
+              "line_end": 52,
+              "byte_start": 5797,
+              "byte_end": 6109,
+              "source_quote": "（1）以玄武为小偷，临坎1宫，冬季水旺，玄武旺相，故为青壮年；天任星为阳星，故断为男性；在阳遁内盘，故为单位内部人；临景门，说明是会写文章的人；格局为辛加癸为华盖天牢，误入天网，说明是一般人犯错误，属小偷小摸。\n"
+            },
+            "source_quote": "（1）以玄武为小偷，临坎1宫，冬季水旺，玄武旺相，故为青壮年；天任星为阳星，故断为男性；在阳遁内盘，故为单位内部人；临景门，说明是会写文章的人；格局为辛加癸为华盖天牢，误入天网，说明是一般人犯错误，属小偷小摸。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_case_01_54",
+            "source_lines": [
+              54,
+              54
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 54,
+              "line_end": 54,
+              "byte_start": 6110,
+              "byte_end": 6303,
+              "source_quote": "（2）该报社在西南方坤位，生门为财居坤2宫，时值丑月，生门与坤宫比和又乘旺相，故2数加倍，既为小偷，故按理推断，大约偷了四百元左右。\n"
+            },
+            "source_quote": "（2）该报社在西南方坤位，生门为财居坤2宫，时值丑月，生门与坤宫比和又乘旺相，故2数加倍，既为小偷，故按理推断，大约偷了四百元左右。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_case_01_56",
+            "source_lines": [
+              56,
+              56
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 56,
+              "line_end": 56,
+              "byte_start": 6304,
+              "byte_end": 6578,
+              "source_quote": "（3）庚为白虎，为破案人，落坤2宫，为土；上乘太阴，密谋策划，直克玄武所落坎1宫之水；八门反吟，贼易被获，且反吟速度快。但玄武所临天任星为吉星，属好人犯错误，一旦交出钱来，不会受到处理。\n"
+            },
+            "source_quote": "（3）庚为白虎，为破案人，落坤2宫，为土；上乘太阴，密谋策划，直克玄武所落坎1宫之水；八门反吟，贼易被获，且反吟速度快。但玄武所临天任星为吉星，属好人犯错误，一旦交出钱来，不会受到处理。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_case_01_58",
+            "source_lines": [
+              58,
+              58
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 58,
+              "line_end": 58,
+              "byte_start": 6579,
+              "byte_end": 6695,
+              "source_quote": "（4）破案时间，以庚格而断，现庚下临丁，既为月格又为日格，故必在今日破获此案。\n"
+            },
+            "source_quote": "（4）破案时间，以庚格而断，现庚下临丁，既为月格又为日格，故必在今日破获此案。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "criminal_case_02",
+      "title": "实例二：测服装被盗案",
+      "category": "analysis",
+      "line_start": 64,
+      "line_end": 112,
+      "attribution": "我会人员（原文未具名）；张志春按语单列，不冒称每案由张志春亲断",
+      "summary": "完整原文语境；断语、现场反馈、后置复盘、方法差异与案件调查证据分开",
+      "concepts": [
+        "玄武",
+        "白虎",
+        "伤门",
+        "值使",
+        "庚格"
+      ],
+      "dataset": {
+        "key": "criminal_case_02_reference",
+        "rows": [
+          {
+            "key": "criminal_case_02_87",
+            "source_lines": [
+              87,
+              87
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 87,
+              "line_end": 87,
+              "byte_start": 9647,
+              "byte_end": 10051,
+              "source_quote": "（1）以玄武为盗贼，落3宫，故断小偷可能有三人，天辅星为阳星，卯月旺相，为青少年男性；甲子戊为钱物资本，在3宫临天辅星，天辅星主衣服、棉花之类，所盗正是服装；景门主道路，景加伤，伤门主车辆，故被盗还有车辆。地盘玄武在巽4宫，与地盘甲子戊同宫，说明小偷为附近人，熟悉你家情况。\n"
+            },
+            "source_quote": "（1）以玄武为盗贼，落3宫，故断小偷可能有三人，天辅星为阳星，卯月旺相，为青少年男性；甲子戊为钱物资本，在3宫临天辅星，天辅星主衣服、棉花之类，所盗正是服装；景门主道路，景加伤，伤门主车辆，故被盗还有车辆。地盘玄武在巽4宫，与地盘甲子戊同宫，说明小偷为附近人，熟悉你家情况。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_case_02_89",
+            "source_lines": [
+              89,
+              89
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 89,
+              "line_end": 89,
+              "byte_start": 10052,
+              "byte_end": 10347,
+              "source_quote": "（2）地盘甲子戊在4宫，被盗4家；天盘六仪癸与玄武同为水，也为小偷，甲寅癸落4宫遇巳为六仪击刑，死门为锁，故为撬锁而盗。死门为2数，故被盗价值二万元的东西。又甲午旬中辰巳空，巽4宫空亡，也是四家被盗之象。\n"
+            },
+            "source_quote": "（2）地盘甲子戊在4宫，被盗4家；天盘六仪癸与玄武同为水，也为小偷，甲寅癸落4宫遇巳为六仪击刑，死门为锁，故为撬锁而盗。死门为2数，故被盗价值二万元的东西。又甲午旬中辰巳空，巽4宫空亡，也是四家被盗之象。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_case_02_91",
+            "source_lines": [
+              91,
+              91
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 91,
+              "line_end": 91,
+              "byte_start": 10348,
+              "byte_end": 10663,
+              "source_quote": "（3）白虎、伤门主公安破案之人，白虎落8宫，受玄武落宫所克，伤门落一宫，生玄武落宫，据此看此案难以破获；但是，庚落与玄武对冲的兑七宫，庚下又临辛，正为月格，逢月格，在月内可破案。这说明该案不能全破，可破获一部分。\n"
+            },
+            "source_quote": "（3）白虎、伤门主公安破案之人，白虎落8宫，受玄武落宫所克，伤门落一宫，生玄武落宫，据此看此案难以破获；但是，庚落与玄武对冲的兑七宫，庚下又临辛，正为月格，逢月格，在月内可破案。这说明该案不能全破，可破获一部分。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_case_02_93",
+            "source_lines": [
+              93,
+              93
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 93,
+              "line_end": 93,
+              "byte_start": 10664,
+              "byte_end": 11196,
+              "source_quote": "（4）古人经验，又以甲午辛为罪人，庚格下之辛为作案人，在兑7宫，今卯月木旺金囚，应以2数来断，所以断三名小偷中，会有两名年幼者被抓住。地盘辛为本地人，天盘辛为外来人，天盘辛落坤2宫，逢开门，主逃跑，上乘值符，说明他是主犯是头目，而坤2宫克伤门落宫，又与白虎落宫比和，所以断主犯抓不住。而两名年幼罪犯虽被抓住，但7宫生伤门落宫，又受白虎落宫之生，所以最终也得放了。\n"
+            },
+            "source_quote": "（4）古人经验，又以甲午辛为罪人，庚格下之辛为作案人，在兑7宫，今卯月木旺金囚，应以2数来断，所以断三名小偷中，会有两名年幼者被抓住。地盘辛为本地人，天盘辛为外来人，天盘辛落坤2宫，逢开门，主逃跑，上乘值符，说明他是主犯是头目，而坤2宫克伤门落宫，又与白虎落宫比和，所以断主犯抓不住。而两名年幼罪犯虽被抓住，但7宫生伤门落宫，又受白虎落宫之生，所以最终也得放了。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_case_02_95",
+            "source_lines": [
+              95,
+              95
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 95,
+              "line_end": 95,
+              "byte_start": 11197,
+              "byte_end": 11553,
+              "source_quote": "（5）日干为求测之人，时干为所测之事，日干、时干同为丙，落离九宫为月照端门，帝旺之乡，说明该个体户搞服装生意很兴隆，离又为中女，也主衣服，正与该人身份相合。但逢惊门，必受惊恐之事；丙加癸为华盖悖师格，阴人害事，灾祸颇多，所以发生失盗现象。\n"
+            },
+            "source_quote": "（5）日干为求测之人，时干为所测之事，日干、时干同为丙，落离九宫为月照端门，帝旺之乡，说明该个体户搞服装生意很兴隆，离又为中女，也主衣服，正与该人身份相合。但逢惊门，必受惊恐之事；丙加癸为华盖悖师格，阴人害事，灾祸颇多，所以发生失盗现象。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_case_02_97",
+            "source_lines": [
+              97,
+              97
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 97,
+              "line_end": 97,
+              "byte_start": 11554,
+              "byte_end": 11737,
+              "source_quote": "（6）甲子戊为钱财，与玄武同落3宫，子卯相刑为六仪击刑，主损财，因卯月木旺，故按八数（三、八木数）来断，她得损失八千元左右。\n"
+            },
+            "source_quote": "（6）甲子戊为钱财，与玄武同落3宫，子卯相刑为六仪击刑，主损财，因卯月木旺，故按八数（三、八木数）来断，她得损失八千元左右。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "criminal_case_03",
+      "title": "实例三：测抢劫案",
+      "category": "analysis",
+      "line_start": 113,
+      "line_end": 149,
+      "attribution": "我会人员（原文未具名）；张志春按语单列，不冒称每案由张志春亲断",
+      "summary": "完整原文语境；断语、现场反馈、后置复盘、方法差异与案件调查证据分开",
+      "concepts": [
+        "天蓬",
+        "白虎",
+        "伤门",
+        "值使",
+        "庚格"
+      ],
+      "dataset": {
+        "key": "criminal_case_03_reference",
+        "rows": [
+          {
+            "key": "criminal_case_03_138",
+            "source_lines": [
+              138,
+              138
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 138,
+              "line_end": 138,
+              "byte_start": 16000,
+              "byte_end": 16280,
+              "source_quote": "（1）抢劫犯以天蓬星为用神。今天蓬星落震3宫，震为长男，巳月3宫旺相，为青壮年，年龄在二十八至三十岁左右，身高一米七三或一米七八；蓬星临癸，为在逃犯，临伤门，会开车，上乘太阴，为人阴险毒辣。\n"
+            },
+            "source_quote": "（1）抢劫犯以天蓬星为用神。今天蓬星落震3宫，震为长男，巳月3宫旺相，为青壮年，年龄在二十八至三十岁左右，身高一米七三或一米七八；蓬星临癸，为在逃犯，临伤门，会开车，上乘太阴，为人阴险毒辣。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_case_03_140",
+            "source_lines": [
+              140,
+              140
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 140,
+              "line_end": 140,
+              "byte_start": 16281,
+              "byte_end": 16573,
+              "source_quote": "（2）六合为逃犯，杜门为藏匿方向。今六合、杜门均落内盘巽4宫，为内为近，故断该案犯藏在本市中心东南方向，距离大约两公里或七公里的地方。甲午辛为罪人，临杜门落4宫，又为入墓，既为深藏，又为被困死之象。\n"
+            },
+            "source_quote": "（2）六合为逃犯，杜门为藏匿方向。今六合、杜门均落内盘巽4宫，为内为近，故断该案犯藏在本市中心东南方向，距离大约两公里或七公里的地方。甲午辛为罪人，临杜门落4宫，又为入墓，既为深藏，又为被困死之象。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_case_03_142",
+            "source_lines": [
+              142,
+              142
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 142,
+              "line_end": 142,
+              "byte_start": 16574,
+              "byte_end": 16996,
+              "source_quote": "（3）白虎、伤门为公安军警，今伤门与天蓬同宫，天蓬生白虎宫，说明该案犯与公安人员有关系，或本人曾干过军警；值使惊门也为捕盗之人，今惊门落兑7宫，冲克天蓬星落宫，说明此案能破。又庚为阻隔之神，坎1宫庚+癸，既为月格，又为时格，逢两个庚格，更说明此案一定能破，而且在本月内较短时间就能破案。\n"
+            },
+            "source_quote": "（3）白虎、伤门为公安军警，今伤门与天蓬同宫，天蓬生白虎宫，说明该案犯与公安人员有关系，或本人曾干过军警；值使惊门也为捕盗之人，今惊门落兑7宫，冲克天蓬星落宫，说明此案能破。又庚为阻隔之神，坎1宫庚+癸，既为月格，又为时格，逢两个庚格，更说明此案一定能破，而且在本月内较短时间就能破案。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_case_03_144",
+            "source_lines": [
+              144,
+              144
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 144,
+              "line_end": 144,
+              "byte_start": 16997,
+              "byte_end": 17126,
+              "source_quote": "（4）值使惊门落兑7宫，7天左右可破案，6月5日癸酉日，值使惊门当令最旺之日，可望抓获此犯。\n"
+            },
+            "source_quote": "（4）值使惊门落兑7宫，7天左右可破案，6月5日癸酉日，值使惊门当令最旺之日，可望抓获此犯。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "criminal_case_04",
+      "title": "实例四：测抢银行案",
+      "category": "analysis",
+      "line_start": 150,
+      "line_end": 228,
+      "attribution": "我会人员（原文未具名）；张志春按语单列，不冒称每案由张志春亲断",
+      "summary": "完整原文语境；断语、现场反馈、后置复盘、方法差异与案件调查证据分开",
+      "concepts": [
+        "玄武",
+        "天蓬",
+        "白虎",
+        "伤门",
+        "值使",
+        "庚格",
+        "置闰法",
+        "拆补法",
+        "阴日",
+        "马星"
+      ],
+      "dataset": {
+        "key": "criminal_case_04_reference",
+        "rows": [
+          {
+            "key": "criminal_case_04_175",
+            "source_lines": [
+              175,
+              175
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 175,
+              "line_end": 175,
+              "byte_start": 20307,
+              "byte_end": 20621,
+              "source_quote": "（1）六合为逃犯，天蓬为作案人，均落艮8宫，临杜门，杜门为躲藏方向，阳遁8宫为内盘为近，故断案犯现藏在作案地点东北方向四公里或九公里范围内。内盘主本地，天蓬星所临地盘丙也在内盘坎1宫，故断案犯是本市人，不是外地人。\n"
+            },
+            "source_quote": "（1）六合为逃犯，天蓬为作案人，均落艮8宫，临杜门，杜门为躲藏方向，阳遁8宫为内盘为近，故断案犯现藏在作案地点东北方向四公里或九公里范围内。内盘主本地，天蓬星所临地盘丙也在内盘坎1宫，故断案犯是本市人，不是外地人。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_case_04_177",
+            "source_lines": [
+              177,
+              177
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 177,
+              "line_end": 177,
+              "byte_start": 20622,
+              "byte_end": 21197,
+              "source_quote": "（2）天蓬星落艮8宫，巳月火旺土相，所临丙奇在此又为长生之地，故断案犯为青壮年，年龄二十八至三十八岁之间；丙奇主漂亮，故人长得漂亮；艮为八白，故案犯肤色白；杜门在8宫为门迫，故身材不会太高，大约一米六八至一米七八；天盘丙代表上衣颜色，为红色，地盘癸代表下衣颜色，为黑色。丙为天威，杜门主武装，故断其职业与军、警有关。上乘六合，不是一人作案，丙为火为二、七数，丙又为3数，故断案犯二至三人。\n"
+            },
+            "source_quote": "（2）天蓬星落艮8宫，巳月火旺土相，所临丙奇在此又为长生之地，故断案犯为青壮年，年龄二十八至三十八岁之间；丙奇主漂亮，故人长得漂亮；艮为八白，故案犯肤色白；杜门在8宫为门迫，故身材不会太高，大约一米六八至一米七八；天盘丙代表上衣颜色，为红色，地盘癸代表下衣颜色，为黑色。丙为天威，杜门主武装，故断其职业与军、警有关。上乘六合，不是一人作案，丙为火为二、七数，丙又为3数，故断案犯二至三人。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_case_04_179",
+            "source_lines": [
+              179,
+              179
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 179,
+              "line_end": 179,
+              "byte_start": 21198,
+              "byte_end": 21726,
+              "source_quote": "（3）在发案时间奇门格局中，又可以日干为用神，代表作案人。今日干辛落坎1宫，辛下临丙，丙辛合，正表明是二人勾结合伙作案。甲午辛为罪人，今辛为日干，表明案犯有前科，曾是犯罪之人。日干辛临天心星，说明案犯很精明能干，临伤门，伤门主车，说明案犯会开车，或当过司机。上乘太阴，说明二人阴险狡诈，对抢劫运钞车谋划已久。日干辛在坎宫为长生之地，也说明案犯为青壮年人。\n"
+            },
+            "source_quote": "（3）在发案时间奇门格局中，又可以日干为用神，代表作案人。今日干辛落坎1宫，辛下临丙，丙辛合，正表明是二人勾结合伙作案。甲午辛为罪人，今辛为日干，表明案犯有前科，曾是犯罪之人。日干辛临天心星，说明案犯很精明能干，临伤门，伤门主车，说明案犯会开车，或当过司机。上乘太阴，说明二人阴险狡诈，对抢劫运钞车谋划已久。日干辛在坎宫为长生之地，也说明案犯为青壮年人。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_case_04_181",
+            "source_lines": [
+              181,
+              181
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 181,
+              "line_end": 181,
+              "byte_start": 21727,
+              "byte_end": 22025,
+              "source_quote": "（4）以伤门、白虎和值使门为捕盗之人。今伤门在坎1宫受天蓬8宫之克，幸白虎在震3宫、值使死门在4宫，均克天蓬落宫，说明此案能破。但巳、午月火旺土相木休囚，木难以克土，虽兑7宫庚加壬为时格，短期内也难以破案。\n"
+            },
+            "source_quote": "（4）以伤门、白虎和值使门为捕盗之人。今伤门在坎1宫受天蓬8宫之克，幸白虎在震3宫、值使死门在4宫，均克天蓬落宫，说明此案能破。但巳、午月火旺土相木休囚，木难以克土，虽兑7宫庚加壬为时格，短期内也难以破案。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_case_04_183",
+            "source_lines": [
+              183,
+              183
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 183,
+              "line_end": 183,
+              "byte_start": 22026,
+              "byte_end": 22300,
+              "source_quote": "（5）具体破案时间，根据此格局，当时很难下断语，巳、午、未月木休囚，申、酉月木处死地，只有看庚格了。庚下临壬，近期6月24日壬辰日，壬水入辰墓，7月4日壬寅日，这两个日期破不了，就往后拖了。\n"
+            },
+            "source_quote": "（5）具体破案时间，根据此格局，当时很难下断语，巳、午、未月木休囚，申、酉月木处死地，只有看庚格了。庚下临壬，近期6月24日壬辰日，壬水入辰墓，7月4日壬寅日，这两个日期破不了，就往后拖了。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_case_04_209",
+            "source_lines": [
+              209,
+              209
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 209,
+              "line_end": 209,
+              "byte_start": 26593,
+              "byte_end": 27503,
+              "source_quote": "（1）杀人抢劫犯以天蓬为用神，一般偷盗以玄武为用神，今天蓬、玄武均落离9宫，巳月火旺，旺相主青壮年，故断案犯为青壮年；天蓬临乙奇，乙在离9宫为长生之地，也主青壮年；乙为二数，故可断案犯二人。火主二、七数，先天离卦为三数，故可断年龄在二十七至三十三岁之间。天蓬星临死门主2数，火也主2数，故可断案犯为两人。天蓬临乙奇，故断人长得漂亮，临死门，不会太高，可断一米六九至一米七三。乙加丙为奇仪顺遂，吉星迁官晋职，凶星夫妻离别。今临天蓬凶星，又临死门，必然夫妻离别，很可能是死囚犯；死门逢空亡，为在逃之人。地盘乙奇代表案犯的籍贯，地盘乙在坎1宫，阳遁坎宫为内盘，故断为本市人。又年干为父母，年干丙奇在坎宫，也说明是本市人。\n"
+            },
+            "source_quote": "（1）杀人抢劫犯以天蓬为用神，一般偷盗以玄武为用神，今天蓬、玄武均落离9宫，巳月火旺，旺相主青壮年，故断案犯为青壮年；天蓬临乙奇，乙在离9宫为长生之地，也主青壮年；乙为二数，故可断案犯二人。火主二、七数，先天离卦为三数，故可断年龄在二十七至三十三岁之间。天蓬星临死门主2数，火也主2数，故可断案犯为两人。天蓬临乙奇，故断人长得漂亮，临死门，不会太高，可断一米六九至一米七三。乙加丙为奇仪顺遂，吉星迁官晋职，凶星夫妻离别。今临天蓬凶星，又临死门，必然夫妻离别，很可能是死囚犯；死门逢空亡，为在逃之人。地盘乙奇代表案犯的籍贯，地盘乙在坎1宫，阳遁坎宫为内盘，故断为本市人。又年干为父母，年干丙奇在坎宫，也说明是本市人。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_case_04_211",
+            "source_lines": [
+              211,
+              211
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 211,
+              "line_end": 211,
+              "byte_start": 27504,
+              "byte_end": 28118,
+              "source_quote": "（2）案发之局，也可以日干为用神，代表作案人。今日干辛落艮8宫，辛临天禽星，人长得比较漂亮，体态丰满，土形人不会太高。艮8宫主少男，巳月火旺土相，由此看也为青壮年。甲午辛为罪人，辛+丁为狱神得奇格，经商求财获倍利，囚人逢天赦，正符合越狱潜逃犯和释放犯的身份。日干辛临伤门，伤门为车，此案犯必然会开车，或职业与车有关；上乘太阴，为人阴险狡诈。又日干辛临天芮星，天芮星主棉布、衣物，上乘太阴，正符合案犯蒙面作案的实际。\n"
+            },
+            "source_quote": "（2）案发之局，也可以日干为用神，代表作案人。今日干辛落艮8宫，辛临天禽星，人长得比较漂亮，体态丰满，土形人不会太高。艮8宫主少男，巳月火旺土相，由此看也为青壮年。甲午辛为罪人，辛+丁为狱神得奇格，经商求财获倍利，囚人逢天赦，正符合越狱潜逃犯和释放犯的身份。日干辛临伤门，伤门为车，此案犯必然会开车，或职业与车有关；上乘太阴，为人阴险狡诈。又日干辛临天芮星，天芮星主棉布、衣物，上乘太阴，正符合案犯蒙面作案的实际。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_case_04_213",
+            "source_lines": [
+              213,
+              213
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 213,
+              "line_end": 213,
+              "byte_start": 28119,
+              "byte_end": 28542,
+              "source_quote": "（3）时干代表所发生之事。今时干壬落巽4宫，临景门、白虎，二者均主道路，说明抢劫运钞车都是在道路上拦截运钞车作案；景门又主火器、枪支，生天蓬宫，说明是持枪作案；甲辰壬在4宫为六仪击刑，说明必然开枪作案。壬在4宫为入墓，壬+庚为太白擒蛇格，壬又主流动，故必然是流动作案，自掘坟墓，最后被擒。\n"
+            },
+            "source_quote": "（3）时干代表所发生之事。今时干壬落巽4宫，临景门、白虎，二者均主道路，说明抢劫运钞车都是在道路上拦截运钞车作案；景门又主火器、枪支，生天蓬宫，说明是持枪作案；甲辰壬在4宫为六仪击刑，说明必然开枪作案。壬在4宫为入墓，壬+庚为太白擒蛇格，壬又主流动，故必然是流动作案，自掘坟墓，最后被擒。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_case_04_215",
+            "source_lines": [
+              215,
+              215
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 215,
+              "line_end": 215,
+              "byte_start": 28543,
+              "byte_end": 28950,
+              "source_quote": "（4）作案后逃往何处？杜门为躲藏方向，六合为逃犯，二者均落震3宫，阳遁3宫为内盘主近，故断藏在发案地点的东边一公里半至六公里半、四公里或九公里范围内。癸+己为华盖地户格，此格躲灾避难吉，故不易被发现。癸又为月干，月干主同事、同伙，天柱星又为阴星，正符合案犯藏在妍头家中的事实。\n"
+            },
+            "source_quote": "（4）作案后逃往何处？杜门为躲藏方向，六合为逃犯，二者均落震3宫，阳遁3宫为内盘主近，故断藏在发案地点的东边一公里半至六公里半、四公里或九公里范围内。癸+己为华盖地户格，此格躲灾避难吉，故不易被发现。癸又为月干，月干主同事、同伙，天柱星又为阴星，正符合案犯藏在妍头家中的事实。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_case_04_217",
+            "source_lines": [
+              217,
+              217
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 217,
+              "line_end": 217,
+              "byte_start": 28951,
+              "byte_end": 30040,
+              "source_quote": "（5）能不能破案？白虎、伤门和值使门代表公安刑警，今白虎在4宫生9宫天蓬落宫，值使杜门在3宫也生天蓬落宫，天蓬在9宫反生伤门8宫，说明难破。但白虎在4宫，杜门在3宫均克日干甲午辛所在8宫，这是一个可破的信息；6宫庚加壬为时格，也是一个可破的信息；另外，九星反吟，一般也表示能破案，或再次作案后被破获；还有时干克日干也可以作为一个能破的信息。综上所述，可断此案难破，但最终能破。再看马星，申子辰马在寅，马星寅在艮8宫临日干甲午辛，正符合1996年寅月（阳历为2月8日乙亥日）曾作案一次；九星反吟，主事情有反复，到农历七月申月又冲动马星寅，故又发生8月27日上午8点50分（丙申月丙申日壬辰时）再次作案的事实；9月2日（壬寅日），马星当令之日，案犯又出来抢劫一辆汽车，9月8日（戊申日）冲动马星之日，主犯鹿某又出来活动，终于被公安人员在9月9日（己酉日）凌晨将其擒获。\n"
+            },
+            "source_quote": "（5）能不能破案？白虎、伤门和值使门代表公安刑警，今白虎在4宫生9宫天蓬落宫，值使杜门在3宫也生天蓬落宫，天蓬在9宫反生伤门8宫，说明难破。但白虎在4宫，杜门在3宫均克日干甲午辛所在8宫，这是一个可破的信息；6宫庚加壬为时格，也是一个可破的信息；另外，九星反吟，一般也表示能破案，或再次作案后被破获；还有时干克日干也可以作为一个能破的信息。综上所述，可断此案难破，但最终能破。再看马星，申子辰马在寅，马星寅在艮8宫临日干甲午辛，正符合1996年寅月（阳历为2月8日乙亥日）曾作案一次；九星反吟，主事情有反复，到农历七月申月又冲动马星寅，故又发生8月27日上午8点50分（丙申月丙申日壬辰时）再次作案的事实；9月2日（壬寅日），马星当令之日，案犯又出来抢劫一辆汽车，9月8日（戊申日）冲动马星之日，主犯鹿某又出来活动，终于被公安人员在9月9日（己酉日）凌晨将其擒获。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_case_04_219",
+            "source_lines": [
+              219,
+              219
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 219,
+              "line_end": 219,
+              "byte_start": 30041,
+              "byte_end": 30797,
+              "source_quote": "（6）何时破案？白虎、值使杜门虽克日干甲午辛，但巳、午、未月木休囚，申、酉月木死，庚格在6宫外盘，也主远主慢，据此，短期内破不了案。古人还有一条经验，叫大事看星。伤门为捕吏，伤门所乘之星不妨称作捕盗之星。今伤门乘天芮星，巳、午月火旺，天芮星处于废的状态，何时最旺，我生之月最旺，土生金，七、八申、酉月最旺时可望破案。又杜门为值使，代表值班的刑警，所乘之星为天柱星，巳、午月被囚，只有七、八申酉月当令。又案犯藏在杜门所在的3宫卯地，卯酉相冲，酉月日冲开案犯隐藏之地为应期。所以9月9日（丁酉月己酉日）主犯被擒获。\n"
+            },
+            "source_quote": "（6）何时破案？白虎、值使杜门虽克日干甲午辛，但巳、午、未月木休囚，申、酉月木死，庚格在6宫外盘，也主远主慢，据此，短期内破不了案。古人还有一条经验，叫大事看星。伤门为捕吏，伤门所乘之星不妨称作捕盗之星。今伤门乘天芮星，巳、午月火旺，天芮星处于废的状态，何时最旺，我生之月最旺，土生金，七、八申、酉月最旺时可望破案。又杜门为值使，代表值班的刑警，所乘之星为天柱星，巳、午月被囚，只有七、八申酉月当令。又案犯藏在杜门所在的3宫卯地，卯酉相冲，酉月日冲开案犯隐藏之地为应期。所以9月9日（丁酉月己酉日）主犯被擒获。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_case_04_223",
+            "source_lines": [
+              223,
+              223
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 223,
+              "line_end": 223,
+              "byte_start": 30875,
+              "byte_end": 31275,
+              "source_quote": "（1）从技术角度，我们可以看出，用拆补法定局，严格按照某个节气就用某个节气的奇门用局，不仅符合自然规律，又免去了超神接气的繁琐，而且还可以提高预测准确率。此例用置闰法的阳3局，显然没有拆补法的阳2局所提供的信息更准确，更符合案情的实际情况。所以我提倡和推广用拆补法定局。\n"
+            },
+            "source_quote": "（1）从技术角度，我们可以看出，用拆补法定局，严格按照某个节气就用某个节气的奇门用局，不仅符合自然规律，又免去了超神接气的繁琐，而且还可以提高预测准确率。此例用置闰法的阳3局，显然没有拆补法的阳2局所提供的信息更准确，更符合案情的实际情况。所以我提倡和推广用拆补法定局。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_case_04_225",
+            "source_lines": [
+              225,
+              225
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 225,
+              "line_end": 225,
+              "byte_start": 31276,
+              "byte_end": 31752,
+              "source_quote": "（2）从应用角度，此例显示了奇门预测在刑侦方向的实用价值，无论是案发时间还是求测时间的奇门格局，均可以为公安刑侦人员提供一些有参考价值的意见或叫信息，以减轻或减少公安破案人员的盲目性和工作量。但其作用，也仅限于此，它绝对代替不了刑事侦察和调查取证，更不能作为破案的依据和证据。这一点，每一个从事周易预测的人都应该清醒。\n"
+            },
+            "source_quote": "（2）从应用角度，此例显示了奇门预测在刑侦方向的实用价值，无论是案发时间还是求测时间的奇门格局，均可以为公安刑侦人员提供一些有参考价值的意见或叫信息，以减轻或减少公安破案人员的盲目性和工作量。但其作用，也仅限于此，它绝对代替不了刑事侦察和调查取证，更不能作为破案的依据和证据。这一点，每一个从事周易预测的人都应该清醒。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "criminal_case_05",
+      "title": "实例五：测奸情杀人案",
+      "category": "analysis",
+      "line_start": 229,
+      "line_end": 261,
+      "attribution": "我会人员（原文未具名）；张志春按语单列，不冒称每案由张志春亲断",
+      "summary": "完整原文语境；断语、现场反馈、后置复盘、方法差异与案件调查证据分开",
+      "concepts": [
+        "天蓬",
+        "白虎",
+        "伤门",
+        "值使"
+      ],
+      "dataset": {
+        "key": "criminal_case_05_reference",
+        "rows": [
+          {
+            "key": "criminal_case_05_251",
+            "source_lines": [
+              251,
+              251
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 251,
+              "line_end": 251,
+              "byte_start": 34962,
+              "byte_end": 35522,
+              "source_quote": "（1）发现死尸，以死门为用神。今死门在坤2宫伏吟，又临乙奇，必为女性尸体。乙加己为日奇入墓格，被土暗昧，乙下又临丙，丙为第三者男人，必是因男女关系暧昧之事而被杀。地盘乙在巽4宫，为沐浴桃花之地，据此断为二十四岁左右的风流青年女子。天盘乙奇临天辅星，人长得漂亮，上乘螣蛇，必然瘦而苗条。天辅为文星，有文化，但天辅落2宫为入墓，故文化不高，最多高中毕业。地盘乙在外盘，必为外地之女。\n"
+            },
+            "source_quote": "（1）发现死尸，以死门为用神。今死门在坤2宫伏吟，又临乙奇，必为女性尸体。乙加己为日奇入墓格，被土暗昧，乙下又临丙，丙为第三者男人，必是因男女关系暧昧之事而被杀。地盘乙在巽4宫，为沐浴桃花之地，据此断为二十四岁左右的风流青年女子。天盘乙奇临天辅星，人长得漂亮，上乘螣蛇，必然瘦而苗条。天辅为文星，有文化，但天辅落2宫为入墓，故文化不高，最多高中毕业。地盘乙在外盘，必为外地之女。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_case_05_253",
+            "source_lines": [
+              253,
+              253
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 253,
+              "line_end": 253,
+              "byte_start": 35523,
+              "byte_end": 35711,
+              "source_quote": "（2）时干代表所发生之事。今时干癸克日干丁，为五不遇时，大凶之事；癸加庚为太白入网凶格，主以暴力争讼，此事正是以暴力肢解女尸。\n"
+            },
+            "source_quote": "（2）时干代表所发生之事。今时干癸克日干丁，为五不遇时，大凶之事；癸加庚为太白入网凶格，主以暴力争讼，此事正是以暴力肢解女尸。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_case_05_255",
+            "source_lines": [
+              255,
+              255
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 255,
+              "line_end": 255,
+              "byte_start": 35712,
+              "byte_end": 36338,
+              "source_quote": "（3）杀人凶手以天蓬星为用神。今天蓬星落震宫，震为长男，临庚为要犯，又临伤门、白虎，故必然是极端凶狠的男人。天蓬星在酉月虽废于月令，但落入旺宫，故必为青壮年男子，年龄在二十八至三十八岁左右。乘伤门、白虎，表示他的职业与军、警有关。乙庚本相合，今庚克乙宫，必然是由爱变恨，因奸情而杀害女性。地盘庚生地盘乙，说明他曾追求爱慕过此女，地盘乙逢空，天盘乙下临丙，天盘乙生天盘丙，必然是该女性又爱上了第三个男人，因此而被庚所杀。\n"
+            },
+            "source_quote": "（3）杀人凶手以天蓬星为用神。今天蓬星落震宫，震为长男，临庚为要犯，又临伤门、白虎，故必然是极端凶狠的男人。天蓬星在酉月虽废于月令，但落入旺宫，故必为青壮年男子，年龄在二十八至三十八岁左右。乘伤门、白虎，表示他的职业与军、警有关。乙庚本相合，今庚克乙宫，必然是由爱变恨，因奸情而杀害女性。地盘庚生地盘乙，说明他曾追求爱慕过此女，地盘乙逢空，天盘乙下临丙，天盘乙生天盘丙，必然是该女性又爱上了第三个男人，因此而被庚所杀。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "criminal_case_05_257",
+            "source_lines": [
+              257,
+              257
+            ],
+            "source_pointer": {
+              "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+              "line_start": 257,
+              "line_end": 257,
+              "byte_start": 36339,
+              "byte_end": 36545,
+              "source_quote": "（4）能否破案？今白虎、伤门与天蓬星同宫，值使景门反受天蓬星所生，六合为证据、证人，又逢空亡，说明证据不足，又八门伏吟，故而断此案破不了。\n"
+            },
+            "source_quote": "（4）能否破案？今白虎、伤门与天蓬星同宫，值使景门反受天蓬星所生，六合为证据、证人，又逢空亡，说明证据不足，又八门伏吟，故而断此案破不了。\n",
+            "method_scope": "shenqi_criminal_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    }
+  ],
+  "quality_issues": [
+    {
+      "key": "case2_prior_arrests_revealed_mid_consultation",
+      "line_start": 99,
+      "line_end": 111,
+      "description": "两名小孩已被抓是107行才透露的既有事实；不提前注入最初分析，失盗总额/本人被盗额/最终损失分开"
+    },
+    {
+      "key": "case3_capture_forecast_vs_reported_shooting",
+      "line_start": 144,
+      "line_end": 148,
+      "description": "原断可望抓获；结果现场击毙，不能合并为活捉命中；未时入墓为后置解释，媒体报道仅原书声称"
+    },
+    {
+      "key": "case4_missed_timing_retrospective_method_comparison",
+      "line_start": 183,
+      "line_end": 227,
+      "description": "原断6月24日/7月4日与实际9月9/10日分开；置闰阳3与后置拆补阳2都保留，不用后验盘覆盖原断"
+    },
+    {
+      "key": "case4_serial_offenses_same_case_family",
+      "line_start": 185,
+      "line_end": 219,
+      "description": "2月/6月/8月/9月系列案仅在结果和复盘中叙述，同家族；不伪造各次独立咨询盘"
+    },
+    {
+      "key": "case4_source_literals_not_corrected",
+      "line_start": 189,
+      "line_end": 215,
+      "description": "己已、妍头按收到字面保存，不改作己巳、姘头；时间描述等细节不据算法或结局校正"
+    },
+    {
+      "key": "case5_unresolved_cutoff_and_limited_confirmation",
+      "line_start": 259,
+      "line_end": 261,
+      "description": "基本合乎实际不是所有年龄/动机/职业断言逐项获证；至今未破仅原书时点"
+    },
+    {
+      "key": "source_not_investigative_evidence",
+      "line_start": 23,
+      "line_end": 25,
+      "description": "原书明确绝对代替不了侦察取证，不可作为破案依据或证据；教学参考不作为现实人物定罪规则"
+    }
+  ],
+  "worked_examples": []
+}

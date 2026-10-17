@@ -90,3 +90,8 @@ scripts/import_shenqi_missing.py从原始上传镜像验证SHA256 5eca2a1a091469
 ## 钱物丢失预测增量重放
 
 scripts/import_shenqi_lost.py验证上传原字节SHA256 ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9、34197字节/362行；lost-property/sequence15。8故事/8事件/8原盘/92记录；15语境组、5参考候选。末尾356–362校订附记原样保留，不算第九案；已上传乙休庚不再改盘。盲问揭示、逐轮找寻反馈与后置按语隔离。默认confirmed及同步GitHub，完整快照、回归和精确main四CI为交付条件。见ingestion/SHENQI_LOST.md。
+
+
+## 刑事案件预测增量重放
+
+scripts/import_shenqi_criminal.py验证源SHA256 289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9、37260字节/261行；criminal-cases/sequence16。5故事/5事件/6给定盘、62记录/64证据；17语境组、11参考候选。银行案置闰原断与事后拆补对照同家族，原始应期失准不改成命中；未提供系列案独立咨询盘不补。source_chart同ID投影及既有CLI/API入口不变，无schema迁移。默认confirmed及同步GitHub，完整快照、回归和精确新main四CI为验收条件。报告ingestion/SHENQI_CRIMINAL.md。

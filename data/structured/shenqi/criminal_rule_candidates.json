@@ -1,0 +1,641 @@
+{
+  "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+  "source_byte_count": 37260,
+  "source_line_count": 261,
+  "schema_version": "source_selection_candidates_v1",
+  "title": "刑事案件预测",
+  "candidate_count": 11,
+  "candidate_record_count": 11,
+  "candidates": [
+    {
+      "key": "criminal_role_theft_sexual_assault_or_minor_economic",
+      "domain": "criminal_cases",
+      "scope": "theft_sexual_assault_or_minor_economic",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "criminal_cases"
+        },
+        {
+          "field": "offense_scope",
+          "op": "eq",
+          "value": "theft_sexual_assault_or_minor_economic"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_criminal_roles_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_criminal_reference_v1"
+      },
+      "source_lines": [
+        5
+      ],
+      "source_quote": "刑事犯罪包括偷盗、抢劫、流氓、杀人以及贪污受贿等经济犯罪。在奇门预测中，一般性偷窃财物、流氓强奸、轻微经济犯罪，多以玄武为用神；抢劫杀人、奸情杀人，重大贪污受贿罪犯，多以天蓬星为用神；同时，甲午辛为罪人，凡是犯错误或犯罪之人，都还可以同时以六仪辛为用神，来帮助判断之。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "仅原书所述传统角色候选，不是现实侦查证据或罪犯认定",
+        "案情类型未知不得默认满足，原书多以不变成唯一通则"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "玄武"
+        ],
+        "semantic_role": "source_offender_symbol",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "criminal_role_violent_robbery_homicide_or_major_economic",
+      "domain": "criminal_cases",
+      "scope": "violent_robbery_homicide_or_major_economic",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "criminal_cases"
+        },
+        {
+          "field": "offense_scope",
+          "op": "eq",
+          "value": "violent_robbery_homicide_or_major_economic"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_criminal_roles_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_criminal_reference_v1"
+      },
+      "source_lines": [
+        5
+      ],
+      "source_quote": "刑事犯罪包括偷盗、抢劫、流氓、杀人以及贪污受贿等经济犯罪。在奇门预测中，一般性偷窃财物、流氓强奸、轻微经济犯罪，多以玄武为用神；抢劫杀人、奸情杀人，重大贪污受贿罪犯，多以天蓬星为用神；同时，甲午辛为罪人，凡是犯错误或犯罪之人，都还可以同时以六仪辛为用神，来帮助判断之。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "仅原书所述传统角色候选，不是现实侦查证据或罪犯认定",
+        "案情类型未知不得默认满足，原书多以不变成唯一通则"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "天蓬"
+        ],
+        "semantic_role": "source_offender_symbol",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "criminal_xin_supplement",
+      "domain": "criminal_cases",
+      "scope": "xin_supplement",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "criminal_cases"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_criminal_xin_supplement_reference_v1"
+        },
+        {
+          "field": "use_supplementary_symbol",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_criminal_reference_v1"
+      },
+      "source_lines": [
+        5
+      ],
+      "source_quote": "刑事犯罪包括偷盗、抢劫、流氓、杀人以及贪污受贿等经济犯罪。在奇门预测中，一般性偷窃财物、流氓强奸、轻微经济犯罪，多以玄武为用神；抢劫杀人、奸情杀人，重大贪污受贿罪犯，多以天蓬星为用神；同时，甲午辛为罪人，凡是犯错误或犯罪之人，都还可以同时以六仪辛为用神，来帮助判断之。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "仅原书所述传统角色候选，不是现实侦查证据或罪犯认定",
+        "案情类型未知不得默认满足，原书多以不变成唯一通则"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "甲午辛"
+        ],
+        "semantic_role": "source_offender_symbol",
+        "binding_kind": "source_candidate",
+        "supplementary": true,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "criminal_characteristics",
+      "domain": "criminal_cases",
+      "scope": "characteristics",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "criminal_cases"
+        },
+        {
+          "field": "criminal_subtype",
+          "op": "eq",
+          "value": "characteristics"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_criminal_characteristics_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_criminal_reference_v1"
+      },
+      "source_lines": [
+        7
+      ],
+      "source_quote": "罪犯特征，一般以用神落宫旺衰，结合所临星、门、神、三奇六仪，来判断其职业、长相、身高、性格等。蓬、玄临庚多为老奸巨滑的重大案犯，临辛多为惯犯或曾被劳教关押者，临壬、癸多为在逃罪犯。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "完整段落保留所有条件与多取法，仅来源参考；不可用于现实侦察取证或人物定罪",
+        "未知条件不默认满足；事后比较不编为事前可靠性证明"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "旺衰",
+          "星门神",
+          "庚辛壬癸"
+        ],
+        "semantic_role": "characteristics",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "criminal_means",
+      "domain": "criminal_cases",
+      "scope": "means",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "criminal_cases"
+        },
+        {
+          "field": "criminal_subtype",
+          "op": "eq",
+          "value": "means"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_criminal_means_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_criminal_reference_v1"
+      },
+      "source_lines": [
+        9
+      ],
+      "source_quote": "作案手段与工具，蓬、玄临伤门或伤门生蓬、玄，多为用车；临景门或景门生蓬、玄，多为使用枪支火器；临庚、辛或庚、辛生蓬、玄，多为使用尖刀、匕首等金属器械；临巽宫或螣蛇，多以绳索将人勒死或以手掐颈而致死人命；临甲、乙或伤、杜二门，也可能用木棍或木制东西将人打伤或致死。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "完整段落保留所有条件与多取法，仅来源参考；不可用于现实侦察取证或人物定罪",
+        "未知条件不默认满足；事后比较不编为事前可靠性证明"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "伤门",
+          "景门",
+          "庚辛",
+          "巽宫",
+          "螣蛇"
+        ],
+        "semantic_role": "means",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "criminal_locality",
+      "domain": "criminal_cases",
+      "scope": "locality",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "criminal_cases"
+        },
+        {
+          "field": "criminal_subtype",
+          "op": "eq",
+          "value": "locality"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_criminal_locality_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_criminal_reference_v1"
+      },
+      "source_lines": [
+        11
+      ],
+      "source_quote": "星门伏吟或用神落内盘，则可能是本地人或单位内部之人所为；星门反吟或用神落外盘，则可能是外地、外单位人或流窜犯再次作案。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "完整段落保留所有条件与多取法，仅来源参考；不可用于现实侦察取证或人物定罪",
+        "未知条件不默认满足；事后比较不编为事前可靠性证明"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "伏吟",
+          "反吟",
+          "内盘",
+          "外盘"
+        ],
+        "semantic_role": "locality",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "criminal_hiding",
+      "domain": "criminal_cases",
+      "scope": "hiding",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "criminal_cases"
+        },
+        {
+          "field": "criminal_subtype",
+          "op": "eq",
+          "value": "hiding"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_criminal_hiding_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_criminal_reference_v1"
+      },
+      "source_lines": [
+        13
+      ],
+      "source_quote": "罪犯逃跑、藏匿方向，一般以六合为逃犯，以杜门落宫为藏匿方向。以内盘、外盘、杜门所落宫数，来判断其远近。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "完整段落保留所有条件与多取法，仅来源参考；不可用于现实侦察取证或人物定罪",
+        "未知条件不默认满足；事后比较不编为事前可靠性证明"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "六合",
+          "杜门"
+        ],
+        "semantic_role": "hiding",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "criminal_unidentified_body",
+      "domain": "criminal_cases",
+      "scope": "unidentified_body",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "criminal_cases"
+        },
+        {
+          "field": "criminal_subtype",
+          "op": "eq",
+          "value": "unidentified_body"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_criminal_unidentified_body_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_criminal_reference_v1"
+      },
+      "source_lines": [
+        15
+      ],
+      "source_quote": "发现无名尸首，一般以死门为其代表符号。死门临甲子戊，可能是为钱财而被杀；临乙、庚、丁、壬或桃花者，多为奸情所杀；乘太阴、六合，多为隐私暧昧之事所杀。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "完整段落保留所有条件与多取法，仅来源参考；不可用于现实侦察取证或人物定罪",
+        "未知条件不默认满足；事后比较不编为事前可靠性证明"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "死门",
+          "甲子戊",
+          "乙庚丁壬",
+          "太阴",
+          "六合"
+        ],
+        "semantic_role": "unidentified_body",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "criminal_solvability",
+      "domain": "criminal_cases",
+      "scope": "solvability",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "criminal_cases"
+        },
+        {
+          "field": "criminal_subtype",
+          "op": "eq",
+          "value": "solvability"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_criminal_solvability_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_criminal_reference_v1"
+      },
+      "source_lines": [
+        17
+      ],
+      "source_quote": "能否破案，一般以伤门、白虎、六仪中的庚和值使门为公安捕盗之人。公安捕盗之人落宫旺相，冲克罪犯落宫者，案一定能破；相反则难破或破不了案。星、门伏吟者难破，反吟则能破或案犯再次作案时可破。同时，有庚格，即庚临年、月、日、时者，能破；不格者，不破或难破。另外，杜门逢庚、辛、壬、癸，或天盘六仪克地盘六仪，或地盘六仪生天盘六仪，一般也能破案。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "完整段落保留所有条件与多取法，仅来源参考；不可用于现实侦察取证或人物定罪",
+        "未知条件不默认满足；事后比较不编为事前可靠性证明"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "伤门",
+          "白虎",
+          "庚",
+          "值使",
+          "庚格"
+        ],
+        "semantic_role": "solvability",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "criminal_timing",
+      "domain": "criminal_cases",
+      "scope": "timing",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "criminal_cases"
+        },
+        {
+          "field": "criminal_subtype",
+          "op": "eq",
+          "value": "timing"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_criminal_timing_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_criminal_reference_v1"
+      },
+      "source_lines": [
+        19
+      ],
+      "source_quote": "破案时间，多以庚格而断。庚临年干，一般年内可破；庚临月干，月内可破；庚临日干，当日可破；庚临时格，本时辰内或表示较短时间内可破。如果一局中同时出现两个庚格，则表示该案一定能破，而且时间较短。具体破获时间，还可以结合阳日看庚下之干，阴日看庚上之干，或时干临阳星看庚下之干，时干临阴星看庚上之干等方法来判断。还可以按旬空出空、马星动，值使门落宫等方法来判断。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "完整段落保留所有条件与多取法，仅来源参考；不可用于现实侦察取证或人物定罪",
+        "未知条件不默认满足；事后比较不编为事前可靠性证明"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "庚格",
+          "阴日",
+          "阳日",
+          "阴星",
+          "阳星",
+          "马星",
+          "值使"
+        ],
+        "semantic_role": "timing",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "criminal_surrender",
+      "domain": "criminal_cases",
+      "scope": "surrender",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "criminal_cases"
+        },
+        {
+          "field": "criminal_subtype",
+          "op": "eq",
+          "value": "surrender"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_criminal_surrender_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_criminal_reference_v1"
+      },
+      "source_lines": [
+        21
+      ],
+      "source_quote": "另外，古籍中还有“死门加壬，主讼人自讼”和壬临坤宫凶犯自首的经验，也可供参考。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "完整段落保留所有条件与多取法，仅来源参考；不可用于现实侦察取证或人物定罪",
+        "未知条件不默认满足；事后比较不编为事前可靠性证明"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "死门加壬",
+          "壬临坤宫"
+        ],
+        "semantic_role": "surrender",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    }
+  ]
+}

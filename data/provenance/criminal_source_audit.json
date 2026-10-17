@@ -1,0 +1,28 @@
+{
+  "source_sha256": "289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9",
+  "source_byte_count": 37260,
+  "source_line_count": 261,
+  "source_file": "神奇之门_刑事案件预测_精校完整版_重新生成.txt",
+  "verification_basis": "user_attestation",
+  "system_performed_independent_verification": false,
+  "stories": 5,
+  "events": 5,
+  "charts": 6,
+  "source_palaces": 54,
+  "records": 62,
+  "context_groups": 17,
+  "technical_boundaries": 7,
+  "reference_candidates": 11,
+  "case4_zhirun_original_and_posthoc_chaibu_kept_separate": true,
+  "source_does_not_replace_investigation_or_evidence_lines": [
+    23,
+    25,
+    225,
+    227,
+    261
+  ],
+  "last_line_as_supplied": "张志春按：此实例说明，并非每个案件都能侦破。有些案件，由于作案者过于狡诈，加上缺乏知情人，证据不足，所以长期难以侦破。周易预测本身并不能破案，只能向公安人员提供一些接近实际的案情和能否破案以及如何破案的大体态势，供公安人员参考，减少盲目性，减轻工作量。否定它的价值与夸大它的作用，都是不妥当的\n",
+  "schema_migration": false,
+  "formal_rules_added": 0,
+  "training_tasks_added": 0
+}

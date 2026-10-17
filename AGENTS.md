@@ -16,4 +16,4 @@
 
 运行：`PYTHONPATH=src python3 -m unittest discover -s tests -v`。
 资料/案例规则见 KNOWLEDGE_POLICY / CASE_POLICY；架构与迁移见 ARCHITECTURE / SCHEMA；评估见 EVALUATION_PROTOCOL；设备与远程接入见 HARDWARE。
-当前已接收《神奇之门》14份章级输入，累计67故事/64家族/73事件/71原盘。钱物丢失本轮8故事/8盘、源SHA256 ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9。例三盲问后揭示皮衣、例六逐轮反馈与漏断承认、例七后置按语不得提前。上传末尾校订附记与正文分开，收到的乙休庚不再擅改。沿import_shenqi_lost.py、snapshot及QimenService接续，无迁移或workflow增删，正式rules/训练0。用户本次重申总指令原件见docs/user_instructions/master_spec_reaffirmed_2026-10-17.txt，旧master_spec_2026-10-17.txt原件保留；不重做已完成Phase0。进度以STATUS为准，历史入库报告不覆盖。
+当前已接收《神奇之门》15份章级输入，累计72故事/69家族/78事件/77原盘。刑事案件本轮5故事/6原盘；源SHA256 289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9。银行案置闰阳3原断与后置拆补阳2对照不混，原断应期未准和后验分析保留；不能将原书参考当作现实侦查取证或专业效力验证。沿import_shenqi_criminal.py、snapshot及QimenService接续，无schema迁移或workflow增删，正式rules/训练0。最高总指令见docs/user_instructions/master_spec_reaffirmed_2026-10-17.txt，旧原件保留；不重置Phase0。进度以STATUS为准，历史验收报告不覆盖。
