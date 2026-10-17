@@ -1,0 +1,1347 @@
+{
+  "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+  "source_byte_count": 56047,
+  "source_line_count": 1366,
+  "chapter_title": "经营求财预测",
+  "chapter_key_suggestion": "business-finance",
+  "printed_chapter_number": null,
+  "groups": [
+    {
+      "key": "business-section-00",
+      "title": "经营求财总论",
+      "category": "analysis",
+      "line_start": 1,
+      "line_end": 16,
+      "attribution": "《神奇之门》本节叙述者",
+      "summary": "保留完整来源语境及具体条件；不能用语义相似度激活专业规则。",
+      "concepts": [
+        "经营求财总论"
+      ],
+      "dataset": {
+        "key": "business-section-00-source-reference",
+        "rows": [
+          {
+            "key": "business-section00-line1",
+            "source_lines": [
+              1,
+              1
+            ],
+            "source_quote": "第一节 取用判断经验",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section00-line3",
+            "source_lines": [
+              3,
+              3
+            ],
+            "source_quote": "经营求财预测，一般以日干为求测之人，以时干为财或货物；以甲子戊为资本，以生门为利息；以值符为货主，值使为购货之人；以六合为经纪人，月干为同行竞争者；以生门所临之星为财星；以值符和景门为行情；以时干和值使门落宫为经营项目；以开、休、生落宫为得财方向；以生门落宫为得财数量；以开门为店铺、门面，以生门为房屋，以死门为地皮；以值符为物主或银行，以值使为借贷人；以值符为银行为放贷人；以天乙（值符下临地盘之星）为贷款人或借款人；以值符为债主；以天乙为欠债人，以伤门为讨债人，等等。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section00-line5",
+            "source_lines": [
+              5,
+              5
+            ],
+            "source_quote": "生门落旺宫，又得奇、得吉格，则得利大，相则平，休囚利微；如休囚又逢凶格，无利赔本；甲子戊与生门落空亡、反吟、墓绝，再有凶格凶神者，不仅不得财，反会招惹是非。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section00-line7",
+            "source_lines": [
+              7,
+              7
+            ],
+            "source_quote": "甲子戊和生门上乘吉星事更吉，乘凶星则含有凶的成分。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section00-line9",
+            "source_lines": [
+              9,
+              9
+            ],
+            "source_quote": "又可以地盘甲子戊上乘之干来判断得财数量。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section00-line11",
+            "source_lines": [
+              11,
+              11
+            ],
+            "source_quote": "得财时间：甲子戊与生门同落内盘为距离近、速度快，一内一外则迟，全在外则更迟、更远。如甲子戊与开门同宫，则得财迅速。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section00-line13",
+            "source_lines": [
+              13,
+              13
+            ],
+            "source_quote": "又以地盘时干宫的地支定应期，为得财之年、月、日、时。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section00-line15",
+            "source_lines": [
+              15,
+              15
+            ],
+            "source_quote": "伏吟，则生门对冲之宫地支为应期。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "business-section-01",
+      "title": "交易求财",
+      "category": "role",
+      "line_start": 17,
+      "line_end": 22,
+      "attribution": "《神奇之门》本节叙述者",
+      "summary": "保留完整来源语境及具体条件；不能用语义相似度激活专业规则。",
+      "concepts": [
+        "交易求财"
+      ],
+      "dataset": {
+        "key": "business-section-01-source-reference",
+        "rows": [
+          {
+            "key": "business-section01-line17",
+            "source_lines": [
+              17,
+              17
+            ],
+            "source_quote": "（1）交易求财",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section01-line19",
+            "source_lines": [
+              19,
+              19
+            ],
+            "source_quote": "一般以日干为买主，时干为卖主，六合为经纪人、中介人。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section01-line21",
+            "source_lines": [
+              21,
+              21
+            ],
+            "source_quote": "日干生时干利卖方；时干生日干利买方；日干克时干，买主不要；时干克日干，卖主不卖；六合生日干，经纪人向买主；六合生时干，经纪人向卖主；六合入墓或空亡，必有奸诈欺瞒之事；日干与时干比和，公平交易，也主成交；日干、时干有一空亡，交易不成。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "business-section-02",
+      "title": "投资求财",
+      "category": "analysis",
+      "line_start": 23,
+      "line_end": 34,
+      "attribution": "《神奇之门》本节叙述者",
+      "summary": "保留完整来源语境及具体条件；不能用语义相似度激活专业规则。",
+      "concepts": [
+        "投资求财"
+      ],
+      "dataset": {
+        "key": "business-section-02-source-reference",
+        "rows": [
+          {
+            "key": "business-section02-line23",
+            "source_lines": [
+              23,
+              23
+            ],
+            "source_quote": "（2）投资求财",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section02-line25",
+            "source_lines": [
+              25,
+              25
+            ],
+            "source_quote": "一般以甲子戊为资本，以生门为利息。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section02-line27",
+            "source_lines": [
+              27,
+              27
+            ],
+            "source_quote": "生门落宫得奇和吉格、吉星，生甲子戊落宫吉，必获倍利；比和，得中利。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section02-line29",
+            "source_lines": [
+              29,
+              29
+            ],
+            "source_quote": "生门宫克甲子戊宫，又得凶神凶格者，必赔本。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section02-line31",
+            "source_lines": [
+              31,
+              31
+            ],
+            "source_quote": "甲子戊落宫生生门落宫，主添加资本仍可获利。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section02-line33",
+            "source_lines": [
+              33,
+              33
+            ],
+            "source_quote": "生门落墓绝之地（指月令与生门之关系），再有凶神凶格，必耗尽资本。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "business-section-03",
+      "title": "买货求财",
+      "category": "analysis",
+      "line_start": 35,
+      "line_end": 46,
+      "attribution": "《神奇之门》本节叙述者",
+      "summary": "保留完整来源语境及具体条件；不能用语义相似度激活专业规则。",
+      "concepts": [
+        "买货求财"
+      ],
+      "dataset": {
+        "key": "business-section-03-source-reference",
+        "rows": [
+          {
+            "key": "business-section03-line35",
+            "source_lines": [
+              35,
+              35
+            ],
+            "source_quote": "（3）买货求财",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section03-line37",
+            "source_lines": [
+              37,
+              37
+            ],
+            "source_quote": "日干为买主，时干为货物。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section03-line39",
+            "source_lines": [
+              39,
+              39
+            ],
+            "source_quote": "时干宫旺相得吉门吉格又上乘吉神者，为货的质量好；休囚不得奇门吉格吉神者，质量次；如果休囚，又临凶门凶格，上乘玄武者，必是假冒伪劣产品或腐烂变质货物。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section03-line41",
+            "source_lines": [
+              41,
+              41
+            ],
+            "source_quote": "时干生日干，好货孬货终有利。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section03-line43",
+            "source_lines": [
+              43,
+              43
+            ],
+            "source_quote": "时干克日干，或空亡、墓绝，则无利。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section03-line45",
+            "source_lines": [
+              45,
+              45
+            ],
+            "source_quote": "日干生时干，为主动去买；日干克时干，也能买成。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "business-section-04",
+      "title": "卖货求财",
+      "category": "analysis",
+      "line_start": 47,
+      "line_end": 64,
+      "attribution": "《神奇之门》本节叙述者",
+      "summary": "保留完整来源语境及具体条件；不能用语义相似度激活专业规则。",
+      "concepts": [
+        "卖货求财"
+      ],
+      "dataset": {
+        "key": "business-section-04-source-reference",
+        "rows": [
+          {
+            "key": "business-section04-line47",
+            "source_lines": [
+              47,
+              47
+            ],
+            "source_quote": "（4）卖货求财",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section04-line49",
+            "source_lines": [
+              49,
+              49
+            ],
+            "source_quote": "一般以值符为卖方，值使为买方。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section04-line51",
+            "source_lines": [
+              51,
+              51
+            ],
+            "source_quote": "值使乘奇门吉格生值符或二者比和，可以卖出。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section04-line53",
+            "source_lines": [
+              53,
+              53
+            ],
+            "source_quote": "值符生值使，或二者相克，则卖不出去。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section04-line55",
+            "source_lines": [
+              55,
+              55
+            ],
+            "source_quote": "又可以日干为卖方，以时干为货物；甲子戊为资本，生门为利息。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section04-line57",
+            "source_lines": [
+              57,
+              57
+            ],
+            "source_quote": "日干生时干，为人恋货，不肯卖；时干生日干，为货恋人，卖不出去。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section04-line59",
+            "source_lines": [
+              59,
+              59
+            ],
+            "source_quote": "日干克时干，虽想快速将货卖出去，但成交迟缓；时干克日干，卖得快。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section04-line61",
+            "source_lines": [
+              61,
+              61
+            ],
+            "source_quote": "卖货有利无利，只要时干宫（货物）生甲子戊或生门宫，则可获利；时干宫不生甲子戊或生门宫，或者二者相克，则无利。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section04-line63",
+            "source_lines": [
+              63,
+              63
+            ],
+            "source_quote": "时干宫乘凶神凶格来冲克日干宫者，必赔本（二、八宫不遇反吟，则按比和断；反吟，则按对冲断）。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "business-section-05",
+      "title": "房地产买卖",
+      "category": "analysis",
+      "line_start": 65,
+      "line_end": 80,
+      "attribution": "《神奇之门》本节叙述者",
+      "summary": "保留完整来源语境及具体条件；不能用语义相似度激活专业规则。",
+      "concepts": [
+        "房地产买卖"
+      ],
+      "dataset": {
+        "key": "business-section-05-source-reference",
+        "rows": [
+          {
+            "key": "business-section05-line65",
+            "source_lines": [
+              65,
+              65
+            ],
+            "source_quote": "（5）买卖房地产求财",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section05-line67",
+            "source_lines": [
+              67,
+              67
+            ],
+            "source_quote": "一般以生门为住宅，以死门为地皮，以值符为买房或卖房之人。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section05-line69",
+            "source_lines": [
+              69,
+              69
+            ],
+            "source_quote": "生死二门乘三奇吉格，说明房屋和地皮好，如果生值符宫，对买主有利，买后可发达。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section05-line71",
+            "source_lines": [
+              71,
+              71
+            ],
+            "source_quote": "如果生死二门不得吉格，说明房屋和地皮一般或质量差，如果生值符宫，则对卖主有利，卖后发达。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section05-line73",
+            "source_lines": [
+              73,
+              73
+            ],
+            "source_quote": "如果二者比和，则主平安。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section05-line75",
+            "source_lines": [
+              75,
+              75
+            ],
+            "source_quote": "如果生死二门休囚无力，又乘凶神凶格，说明房屋和地皮不好，如果二门宫来克值符宫，则主买后破家败财；如果值符来生此二门落宫，则必因此宅产而破败不利。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section05-line77",
+            "source_lines": [
+              77,
+              77
+            ],
+            "source_quote": "又可以日干为买主或卖主，以生门为房屋、以死门为地皮，看其二者之间的生克关系。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section05-line79",
+            "source_lines": [
+              79,
+              79
+            ],
+            "source_quote": "还可以日干为买主或卖主，以时干为房屋或地皮，来看其二者之间的生克关系。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "business-section-06",
+      "title": "开店求财",
+      "category": "analysis",
+      "line_start": 81,
+      "line_end": 94,
+      "attribution": "《神奇之门》本节叙述者",
+      "summary": "保留完整来源语境及具体条件；不能用语义相似度激活专业规则。",
+      "concepts": [
+        "开店求财"
+      ],
+      "dataset": {
+        "key": "business-section-06-source-reference",
+        "rows": [
+          {
+            "key": "business-section06-line81",
+            "source_lines": [
+              81,
+              81
+            ],
+            "source_quote": "（6）开店求财",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section06-line83",
+            "source_lines": [
+              83,
+              83
+            ],
+            "source_quote": "商场、门市、酒店、旅馆、餐厅等，包括开办工厂等坐地经商预测，一般均以日干为求测之人，开门为其商场、门市、工厂、酒店等的代表符号。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section06-line85",
+            "source_lines": [
+              85,
+              85
+            ],
+            "source_quote": "开门乘旺相之气带三奇、吉星、吉格、吉神来生日干落宫者，为大吉大利；比和者次吉。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section06-line87",
+            "source_lines": [
+              87,
+              87
+            ],
+            "source_quote": "如果开门入墓、空亡或反吟者，则未开者开不成，已开者可能停产或关门。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section06-line89",
+            "source_lines": [
+              89,
+              89
+            ],
+            "source_quote": "开门落宫乘凶神凶格来冲克日干宫者，必破耗折本，因开店而破财。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section06-line91",
+            "source_lines": [
+              91,
+              91
+            ],
+            "source_quote": "也可以日干为求测之人，以时干为店铺，看其二者的旺相休囚及其生克关系。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section06-line93",
+            "source_lines": [
+              93,
+              93
+            ],
+            "source_quote": "又以时干为顾客，乘吉门吉格吉神和旺相之气，又与开门相生，则顾客多；反之，则顾客少。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "business-section-07",
+      "title": "合伙求财",
+      "category": "role",
+      "line_start": 95,
+      "line_end": 106,
+      "attribution": "《神奇之门》本节叙述者",
+      "summary": "保留完整来源语境及具体条件；不能用语义相似度激活专业规则。",
+      "concepts": [
+        "合伙求财"
+      ],
+      "dataset": {
+        "key": "business-section-07-source-reference",
+        "rows": [
+          {
+            "key": "business-section07-line95",
+            "source_lines": [
+              95,
+              95
+            ],
+            "source_quote": "（7）合伙求财",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section07-line97",
+            "source_lines": [
+              97,
+              97
+            ],
+            "source_quote": "一般以日干为我方，时干为合伙之人。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section07-line99",
+            "source_lines": [
+              99,
+              99
+            ],
+            "source_quote": "时干乘奇门吉格来生日干宫者，对我方有利；日干宫生时干宫者，对他方有利；日干与时干比和者，公平；时干宫克日干宫者对我不利；日干宫克时干宫者，对他不利。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section07-line101",
+            "source_lines": [
+              101,
+              101
+            ],
+            "source_quote": "同时，生门宫生我则吉，克我则不吉。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section07-line103",
+            "source_lines": [
+              103,
+              103
+            ],
+            "source_quote": "又可以地盘日干为我方，以上乘天盘之干为合伙之人。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section07-line105",
+            "source_lines": [
+              105,
+              105
+            ],
+            "source_quote": "天盘之干生地盘日干者，对我方有利；地盘日干生天盘之干者，对他方有利；比和者公平；二者相克则不成，成则不顺利。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "business-section-08",
+      "title": "贷款或借钱",
+      "category": "role",
+      "line_start": 107,
+      "line_end": 124,
+      "attribution": "《神奇之门》本节叙述者",
+      "summary": "保留完整来源语境及具体条件；不能用语义相似度激活专业规则。",
+      "concepts": [
+        "贷款或借钱"
+      ],
+      "dataset": {
+        "key": "business-section-08-source-reference",
+        "rows": [
+          {
+            "key": "business-section08-line107",
+            "source_lines": [
+              107,
+              107
+            ],
+            "source_quote": "（8）贷款或借钱",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section08-line109",
+            "source_lines": [
+              109,
+              109
+            ],
+            "source_quote": "一般以值符为物主或银行，以值使为借贷之人。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section08-line111",
+            "source_lines": [
+              111,
+              111
+            ],
+            "source_quote": "值符生值使，或值使克值符，可以借到或贷到；如果值符克值使，或值使生值符，则借贷不遂。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section08-line113",
+            "source_lines": [
+              113,
+              113
+            ],
+            "source_quote": "值符与值使有一方空亡，也主借贷不成。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section08-line115",
+            "source_lines": [
+              115,
+              115
+            ],
+            "source_quote": "又可以所往之方的天盘星与地盘星之间的生克关系论之。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section08-line117",
+            "source_lines": [
+              117,
+              117
+            ],
+            "source_quote": "天盘为动为客，为借贷之人；地盘为静为主，为物主或银行。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section08-line119",
+            "source_lines": [
+              119,
+              119
+            ],
+            "source_quote": "地盘星生天盘星者，必借给或贷给；二者比和，虽然肯借贷，但必迟疑；二星相克主不借，反惹羞辱。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section08-line121",
+            "source_lines": [
+              121,
+              121
+            ],
+            "source_quote": "如果天盘星所临之干入地盘墓库者，则物主吝啬，不肯借。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section08-line123",
+            "source_lines": [
+              123,
+              123
+            ],
+            "source_quote": "所去借贷之方，如果遇空亡，则说明物主无钱或人不在，去了也借贷不成。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "business-section-09",
+      "title": "放贷",
+      "category": "role",
+      "line_start": 125,
+      "line_end": 140,
+      "attribution": "《神奇之门》本节叙述者",
+      "summary": "保留完整来源语境及具体条件；不能用语义相似度激活专业规则。",
+      "concepts": [
+        "放贷"
+      ],
+      "dataset": {
+        "key": "business-section-09-source-reference",
+        "rows": [
+          {
+            "key": "business-section09-line125",
+            "source_lines": [
+              125,
+              125
+            ],
+            "source_quote": "（9）放贷",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section09-line127",
+            "source_lines": [
+              127,
+              127
+            ],
+            "source_quote": "值符为银行为放贷人，天乙（值符落宫原地盘之星）为借贷人，生门为利息。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section09-line129",
+            "source_lines": [
+              129,
+              129
+            ],
+            "source_quote": "值符克天乙落宫吉，天乙克值符落宫凶。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section09-line131",
+            "source_lines": [
+              131,
+              131
+            ],
+            "source_quote": "天乙生值符落宫吉，值符生天乙落宫凶。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section09-line133",
+            "source_lines": [
+              133,
+              133
+            ],
+            "source_quote": "生门与天乙同克值符落宫，放出之款损失殆尽。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section09-line135",
+            "source_lines": [
+              135,
+              135
+            ],
+            "source_quote": "生门与天乙同生值符落宫，本息全还。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section09-line137",
+            "source_lines": [
+              137,
+              137
+            ],
+            "source_quote": "生门与天乙有一生一克值符宫者，借出之款不能全还或迟还。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section09-line139",
+            "source_lines": [
+              139,
+              139
+            ],
+            "source_quote": "如果天乙落宫休囚无力，虽生值符宫，是无力偿还，结局是不全还或迟还。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "business-section-10",
+      "title": "讨债",
+      "category": "role",
+      "line_start": 141,
+      "line_end": 168,
+      "attribution": "《神奇之门》本节叙述者",
+      "summary": "保留完整来源语境及具体条件；不能用语义相似度激活专业规则。",
+      "concepts": [
+        "讨债"
+      ],
+      "dataset": {
+        "key": "business-section-10-source-reference",
+        "rows": [
+          {
+            "key": "business-section10-line141",
+            "source_lines": [
+              141,
+              141
+            ],
+            "source_quote": "（10）讨债",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section10-line143",
+            "source_lines": [
+              143,
+              143
+            ],
+            "source_quote": "值符为放债之人，天乙（值符下临地盘之星）为欠债人，伤门为讨债人。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section10-line145",
+            "source_lines": [
+              145,
+              145
+            ],
+            "source_quote": "伤门克天乙，讨债人实心实意去讨。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section10-line147",
+            "source_lines": [
+              147,
+              147
+            ],
+            "source_quote": "天乙克伤门，彼此争斗不服。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section10-line149",
+            "source_lines": [
+              149,
+              149
+            ],
+            "source_quote": "伤门与天乙同生值符，本息全能追回。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section10-line151",
+            "source_lines": [
+              151,
+              151
+            ],
+            "source_quote": "伤门与天乙同克值符，本息不还。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section10-line153",
+            "source_lines": [
+              153,
+              153
+            ],
+            "source_quote": "伤门生值符，克天乙，能讨回。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section10-line155",
+            "source_lines": [
+              155,
+              155
+            ],
+            "source_quote": "伤门生天乙，克值符，讨不回。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section10-line157",
+            "source_lines": [
+              157,
+              157
+            ],
+            "source_quote": "天乙旺相克伤门，虽有能力，但不还。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section10-line159",
+            "source_lines": [
+              159,
+              159
+            ],
+            "source_quote": "天乙休囚生伤门，虽有心还，而无力量，即使还，也还不全。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section10-line161",
+            "source_lines": [
+              161,
+              161
+            ],
+            "source_quote": "如果天乙乘庚辛来克值符，必有经官之事。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section10-line163",
+            "source_lines": [
+              163,
+              163
+            ],
+            "source_quote": "值符克天乙乘丁奇或景门落四宫（四宫杜门主执法机关）者，也有经官之事。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section10-line165",
+            "source_lines": [
+              165,
+              165
+            ],
+            "source_quote": "甲子戊会开门落内盘者，其债速还。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "business-section10-line167",
+            "source_lines": [
+              167,
+              167
+            ],
+            "source_quote": "天乙乘天蓬或玄武，又克值符宫者，欠债人存心不还。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "business-section-11",
+      "title": "实例解析标题",
+      "category": "commentary",
+      "line_start": 169,
+      "line_end": 170,
+      "attribution": "《神奇之门》本节叙述者",
+      "summary": "保留完整来源语境及具体条件；不能用语义相似度激活专业规则。",
+      "concepts": [
+        "实例解析标题"
+      ],
+      "dataset": {
+        "key": "business-section-11-source-reference",
+        "rows": [
+          {
+            "key": "business-section11-line169",
+            "source_lines": [
+              169,
+              169
+            ],
+            "source_quote": "第二节 实例解析（14例）",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "business-case-01-whole",
+      "title": "实例一：测租赁经营",
+      "category": "commentary",
+      "line_start": 171,
+      "line_end": 232,
+      "attribution": "保留叙述者、具体预测者、后来反馈与按语的独立归属",
+      "summary": "完整历史故事；仅有原书已提供的盘；不把事后解释变成事前输入。",
+      "concepts": [
+        "经营求财预测",
+        "实例一：测租赁经营"
+      ],
+      "dataset": null
+    },
+    {
+      "key": "business-case-02-whole",
+      "title": "实例二：测引进外资建商城",
+      "category": "commentary",
+      "line_start": 233,
+      "line_end": 308,
+      "attribution": "保留叙述者、具体预测者、后来反馈与按语的独立归属",
+      "summary": "完整历史故事；仅有原书已提供的盘；不把事后解释变成事前输入。",
+      "concepts": [
+        "经营求财预测",
+        "实例二：测引进外资建商城"
+      ],
+      "dataset": null
+    },
+    {
+      "key": "business-case-03-whole",
+      "title": "实例三：测商城开业后效益",
+      "category": "commentary",
+      "line_start": 309,
+      "line_end": 396,
+      "attribution": "保留叙述者、具体预测者、后来反馈与按语的独立归属",
+      "summary": "完整历史故事；仅有原书已提供的盘；不把事后解释变成事前输入。",
+      "concepts": [
+        "经营求财预测",
+        "实例三：测商城开业后效益"
+      ],
+      "dataset": null
+    },
+    {
+      "key": "business-case-04-whole",
+      "title": "实例四：测投资买商位",
+      "category": "commentary",
+      "line_start": 397,
+      "line_end": 478,
+      "attribution": "保留叙述者、具体预测者、后来反馈与按语的独立归属",
+      "summary": "完整历史故事；仅有原书已提供的盘；不把事后解释变成事前输入。",
+      "concepts": [
+        "经营求财预测",
+        "实例四：测投资买商位"
+      ],
+      "dataset": null
+    },
+    {
+      "key": "business-case-05-whole",
+      "title": "实例五：测合资办厂",
+      "category": "commentary",
+      "line_start": 479,
+      "line_end": 534,
+      "attribution": "保留叙述者、具体预测者、后来反馈与按语的独立归属",
+      "summary": "完整历史故事；仅有原书已提供的盘；不把事后解释变成事前输入。",
+      "concepts": [
+        "经营求财预测",
+        "实例五：测合资办厂"
+      ],
+      "dataset": null
+    },
+    {
+      "key": "business-case-06-whole",
+      "title": "实例六：测传销营养药品",
+      "category": "commentary",
+      "line_start": 535,
+      "line_end": 591,
+      "attribution": "保留叙述者、具体预测者、后来反馈与按语的独立归属",
+      "summary": "完整历史故事；仅有原书已提供的盘；不把事后解释变成事前输入。",
+      "concepts": [
+        "经营求财预测",
+        "实例六：测传销营养药品"
+      ],
+      "dataset": null
+    },
+    {
+      "key": "business-case-07-whole",
+      "title": "实例七：杜新会测出租商场",
+      "category": "commentary",
+      "line_start": 592,
+      "line_end": 681,
+      "attribution": "保留叙述者、具体预测者、后来反馈与按语的独立归属",
+      "summary": "完整历史故事；仅有原书已提供的盘；不把事后解释变成事前输入。",
+      "concepts": [
+        "经营求财预测",
+        "实例七：杜新会测出租商场"
+      ],
+      "dataset": null
+    },
+    {
+      "key": "business-case-08-whole",
+      "title": "实例八：杜新会测买画卷赢利",
+      "category": "commentary",
+      "line_start": 682,
+      "line_end": 791,
+      "attribution": "保留叙述者、具体预测者、后来反馈与按语的独立归属",
+      "summary": "完整历史故事；仅有原书已提供的盘；不把事后解释变成事前输入。",
+      "concepts": [
+        "经营求财预测",
+        "实例八：杜新会测买画卷赢利"
+      ],
+      "dataset": null
+    },
+    {
+      "key": "business-case-09-whole",
+      "title": "实例九：杜新会测企业前景及对策",
+      "category": "commentary",
+      "line_start": 792,
+      "line_end": 897,
+      "attribution": "保留叙述者、具体预测者、后来反馈与按语的独立归属",
+      "summary": "完整历史故事；仅有原书已提供的盘；不把事后解释变成事前输入。",
+      "concepts": [
+        "经营求财预测",
+        "实例九：杜新会测企业前景及对策"
+      ],
+      "dataset": null
+    },
+    {
+      "key": "business-case-10-whole",
+      "title": "实例十：杜新会测贷款",
+      "category": "commentary",
+      "line_start": 898,
+      "line_end": 977,
+      "attribution": "保留叙述者、具体预测者、后来反馈与按语的独立归属",
+      "summary": "完整历史故事；仅有原书已提供的盘；不把事后解释变成事前输入。",
+      "concepts": [
+        "经营求财预测",
+        "实例十：杜新会测贷款"
+      ],
+      "dataset": null
+    },
+    {
+      "key": "business-case-11-whole",
+      "title": "实例十一：杜新会测中介生意",
+      "category": "commentary",
+      "line_start": 978,
+      "line_end": 1031,
+      "attribution": "保留叙述者、具体预测者、后来反馈与按语的独立归属",
+      "summary": "完整历史故事；仅有原书已提供的盘；不把事后解释变成事前输入。",
+      "concepts": [
+        "经营求财预测",
+        "实例十一：杜新会测中介生意"
+      ],
+      "dataset": null
+    },
+    {
+      "key": "business-case-12-whole",
+      "title": "实例十二：贵州省赤水市学员卢圣湘测抽奖例",
+      "category": "commentary",
+      "line_start": 1032,
+      "line_end": 1253,
+      "attribution": "保留叙述者、具体预测者、后来反馈与按语的独立归属",
+      "summary": "完整历史故事；仅有原书已提供的盘；不把事后解释变成事前输入。",
+      "concepts": [
+        "经营求财预测",
+        "实例十二：贵州省赤水市学员卢圣湘测抽奖例"
+      ],
+      "dataset": null
+    },
+    {
+      "key": "business-case-13-whole",
+      "title": "实例十三：杜新会测讨债",
+      "category": "commentary",
+      "line_start": 1254,
+      "line_end": 1306,
+      "attribution": "保留叙述者、具体预测者、后来反馈与按语的独立归属",
+      "summary": "完整历史故事；仅有原书已提供的盘；不把事后解释变成事前输入。",
+      "concepts": [
+        "经营求财预测",
+        "实例十三：杜新会测讨债"
+      ],
+      "dataset": null
+    },
+    {
+      "key": "business-case-14-whole",
+      "title": "实例十四：杜新会测讨债无获",
+      "category": "commentary",
+      "line_start": 1307,
+      "line_end": 1366,
+      "attribution": "保留叙述者、具体预测者、后来反馈与按语的独立归属",
+      "summary": "完整历史故事；仅有原书已提供的盘；不把事后解释变成事前输入。",
+      "concepts": [
+        "经营求财预测",
+        "实例十四：杜新会测讨债无获"
+      ],
+      "dataset": null
+    }
+  ],
+  "quality_issues": [],
+  "worked_examples": []
+}
