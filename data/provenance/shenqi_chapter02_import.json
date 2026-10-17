@@ -1,0 +1,17 @@
+{
+  "revision_id": "042b2b75-405e-4487-b7ba-cba197eff874",
+  "source_id": "ef4dd33f-1394-473a-a354-f46cb55455c4",
+  "data_version": "20dbf4d0-b650-4c11-b9b1-5e1dd36e9569",
+  "revision": 1,
+  "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+  "duplicate": false,
+  "book_key": "shenqi-user-text-v1",
+  "chapter_key": "chapter-02",
+  "bytes": 22354,
+  "characters": 8284,
+  "logical_lines": 416,
+  "source_acceptance": "pending_explicit_user_confirmation",
+  "content_status": "preserved_exactly_as_provided",
+  "public_distribution_authorized": false,
+  "historical_cases": 0
+}
