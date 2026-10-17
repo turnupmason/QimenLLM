@@ -17,6 +17,7 @@ EMPLOYMENT_SHA='7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853
 BUSINESS_SHA='55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6'
 TRAVEL_SHA='c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55'
 MISSING_SHA='5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574'
+LOST_SHA='ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9'
 PROJECTION='shenqi_health_table_projection_v1'
 SOURCE_POLICIES={HEALTH_SHA:PROJECTION,MARRIAGE_SHA:'shenqi_marriage_table_projection_v1',
                  PREGNANCY_SHA:'shenqi_pregnancy_table_projection_v1',
@@ -24,7 +25,8 @@ SOURCE_POLICIES={HEALTH_SHA:PROJECTION,MARRIAGE_SHA:'shenqi_marriage_table_proje
                  EMPLOYMENT_SHA:'shenqi_employment_table_projection_v1',
                  BUSINESS_SHA:'shenqi_business_table_projection_v1',
                  TRAVEL_SHA:'shenqi_travel_unicode_grid_projection_v1',
-                 MISSING_SHA:'shenqi_missing_unicode_grid_projection_v1'}
+                 MISSING_SHA:'shenqi_missing_unicode_grid_projection_v1',
+                 LOST_SHA:'shenqi_lost_unicode_grid_projection_v1'}
 NUMERALS=dict(zip('一二三四五六七八九',range(1,10)))
 
 
@@ -65,7 +67,7 @@ def project_chart(db,case_id,chart_id):
     stems={r['stem'] for r in families['stem_attributes']['payload']['dataset']['rows']}
     source_lines=text.splitlines(keepends=True); start_line=raw[:row['byte_start']].count(b'\n')+1
     grid_sources={}
-    if row['sha256']==TRAVEL_SHA:
+    if row['sha256'] in (TRAVEL_SHA,LOST_SHA):
         # Read literal grid cells in place. Synthetic rows are local projection
         # inputs only; their citations retain all three exact Unicode source lines.
         lines=[]
@@ -75,7 +77,11 @@ def project_chart(db,case_id,chart_id):
             if len(cells)!=3 or any(len(v)!=3 for v in cells):
                 raise ValueError('Incomplete Unicode palace row')
             for column in range(3):
-                label,deity=cells[0][column].strip().split('八神：')
+                header=cells[0][column].strip()
+                if row['sha256']==LOST_SHA and header=='中五宫  中宫':
+                    label,deity='中五宫','—'
+                else:
+                    label,deity=header.split('八神：')
                 door=cells[1][column].strip().split('：',1)[1]
                 star=cells[2][column].strip().split('：',1)[1] if '：' in cells[2][column] else '—'
                 synthetic=' '.join((label.strip(),deity,door,star))

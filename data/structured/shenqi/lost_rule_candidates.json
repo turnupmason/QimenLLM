@@ -1,0 +1,304 @@
+{
+  "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+  "source_byte_count": 34197,
+  "source_line_count": 362,
+  "schema_version": "source_selection_candidates_v1",
+  "title": "钱物丢失预测",
+  "candidate_count": 5,
+  "candidate_record_count": 5,
+  "candidates": [
+    {
+      "key": "lost_owner_property",
+      "domain": "lost_property",
+      "scope": "owner_property",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "lost_property"
+        },
+        {
+          "field": "lost_subtype",
+          "op": "eq",
+          "value": "owner_property"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_lost_owner_property_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_lost_reference_v1"
+      },
+      "source_lines": [
+        5
+      ],
+      "source_quote": "钱物丢失，一般以日干落宫为失主，以时干落宫为丢失之钱物。如果日、时同宫，为没有丢失，可以找到。如果时干落宫乘旺相之气来生日干落宫，也能找回。反吟者也主能找回。相反，则不易找回。时干落空亡、墓、绝之宫，也主难找回。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "完整一般法语境和条件保留；候选仅参考，不能仅凭匹配给现实人物定盗窃结论",
+        "未知条件不默认满足；景门、丁奇、甲子戊、坐宫等案例视角不覆盖一般法"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "日干",
+          "时干"
+        ],
+        "semantic_role": "owner_and_property",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "lost_recoverability",
+      "domain": "lost_property",
+      "scope": "recoverability",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "lost_property"
+        },
+        {
+          "field": "lost_subtype",
+          "op": "eq",
+          "value": "recoverability"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_lost_recoverability_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_lost_reference_v1"
+      },
+      "source_lines": [
+        5
+      ],
+      "source_quote": "钱物丢失，一般以日干落宫为失主，以时干落宫为丢失之钱物。如果日、时同宫，为没有丢失，可以找到。如果时干落宫乘旺相之气来生日干落宫，也能找回。反吟者也主能找回。相反，则不易找回。时干落空亡、墓、绝之宫，也主难找回。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "完整一般法语境和条件保留；候选仅参考，不能仅凭匹配给现实人物定盗窃结论",
+        "未知条件不默认满足；景门、丁奇、甲子戊、坐宫等案例视角不覆盖一般法"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "日干",
+          "时干",
+          "反吟",
+          "空亡",
+          "墓",
+          "绝"
+        ],
+        "semantic_role": "recoverability",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "lost_location",
+      "domain": "lost_property",
+      "scope": "location",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "lost_property"
+        },
+        {
+          "field": "lost_subtype",
+          "op": "eq",
+          "value": "location"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_lost_location_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_lost_reference_v1"
+      },
+      "source_lines": [
+        7
+      ],
+      "source_quote": "日干与时干同在内盘，则钱物丢失在家中或近处；日干与时干同在外盘，则钱物丢失在外边或远处；日干在内、时干在外，则丢失在外边；时干在内、日干在外，则丢失在家中。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "完整一般法语境和条件保留；候选仅参考，不能仅凭匹配给现实人物定盗窃结论",
+        "未知条件不默认满足；景门、丁奇、甲子戊、坐宫等案例视角不覆盖一般法"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "日干",
+          "时干",
+          "内盘",
+          "外盘"
+        ],
+        "semantic_role": "location",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "lost_theft",
+      "domain": "lost_property",
+      "scope": "theft",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "lost_property"
+        },
+        {
+          "field": "lost_subtype",
+          "op": "eq",
+          "value": "theft"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_lost_theft_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_lost_reference_v1"
+      },
+      "source_lines": [
+        9
+      ],
+      "source_quote": "如果时干临玄武，则可能被人偷去或自己忘记；如果时干宫被玄武宫或天蓬宫所克，则可能被人盗走。玄武乘阳星为男人，乘阴星为女子；旺相有气为青壮年，休囚无气则为老年人。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "完整一般法语境和条件保留；候选仅参考，不能仅凭匹配给现实人物定盗窃结论",
+        "未知条件不默认满足；景门、丁奇、甲子戊、坐宫等案例视角不覆盖一般法"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "玄武",
+          "天蓬",
+          "阳星",
+          "阴星"
+        ],
+        "semantic_role": "theft_hypothesis",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "lost_timing",
+      "domain": "lost_property",
+      "scope": "timing",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "lost_property"
+        },
+        {
+          "field": "lost_subtype",
+          "op": "eq",
+          "value": "timing"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_lost_timing_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_lost_reference_v1"
+      },
+      "source_lines": [
+        11
+      ],
+      "source_quote": "丢失钱物找到时间，一般以时干生日干之日时为应期；或按庚格而断，阴干寻庚上，阳干寻庚下；入库者，以冲出之日时为应期，旬空者以填实之日时为应期，等。",
+      "exceptions": [
+        "阴干寻庚上/阳干寻庚下，入库取冲出，旬空取填实，按实际可知盘面及适用方法分开"
+      ],
+      "unique": false,
+      "notes": [
+        "完整一般法语境和条件保留；候选仅参考，不能仅凭匹配给现实人物定盗窃结论",
+        "未知条件不默认满足；景门、丁奇、甲子戊、坐宫等案例视角不覆盖一般法"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "时干",
+          "日干",
+          "庚",
+          "入库",
+          "旬空"
+        ],
+        "semantic_role": "recovery_timing",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    }
+  ]
+}

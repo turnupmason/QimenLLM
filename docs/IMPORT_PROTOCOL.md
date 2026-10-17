@@ -85,3 +85,8 @@ PYTHONPATH=src python3 scripts/import_shenqi_chapters0405.py
 ## 行人走失预测增量重放
 
 scripts/import_shenqi_missing.py从原始上传镜像验证SHA256 5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574、49372字节/477行；missing-person/sequence14。10完整故事/10事件/11给定盘、111记录；17语境组、9参考候选，schema不变。原断、错断反馈、来信及事后复盘按来源阶段保存，缺盘不补，混合段落保留完整原文及准确分句字节范围。默认confirmed及同步GitHub；完整快照、全回归和精确新main四CI仍为交付条件。详见ingestion/SHENQI_MISSING.md。
+
+
+## 钱物丢失预测增量重放
+
+scripts/import_shenqi_lost.py验证上传原字节SHA256 ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9、34197字节/362行；lost-property/sequence15。8故事/8事件/8原盘/92记录；15语境组、5参考候选。末尾356–362校订附记原样保留，不算第九案；已上传乙休庚不再改盘。盲问揭示、逐轮找寻反馈与后置按语隔离。默认confirmed及同步GitHub，完整快照、回归和精确main四CI为交付条件。见ingestion/SHENQI_LOST.md。

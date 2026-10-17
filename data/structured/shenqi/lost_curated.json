@@ -1,0 +1,1188 @@
+{
+  "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+  "source_byte_count": 34197,
+  "source_line_count": 362,
+  "chapter_title": "钱物丢失预测",
+  "chapter_key_suggestion": "lost-property",
+  "printed_chapter_number": null,
+  "groups": [
+    {
+      "key": "lost_heading",
+      "title": "钱物丢失预测",
+      "category": "commentary",
+      "line_start": 1,
+      "line_end": 4,
+      "attribution": "原书案例执行者按文记录，作者后置按语单列",
+      "summary": "完整来源语境；原始断语、反馈与续断、后置作者说明分别标注，不自动推广个案",
+      "concepts": [],
+      "dataset": {
+        "key": "lost_heading_reference",
+        "rows": [
+          {
+            "key": "lost_heading_1",
+            "source_lines": [
+              1,
+              1
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 1,
+              "line_end": 1,
+              "byte_start": 0,
+              "byte_end": 19,
+              "source_quote": "钱物丢失预测\n"
+            },
+            "source_quote": "钱物丢失预测\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_heading_3",
+            "source_lines": [
+              3,
+              3
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 3,
+              "line_end": 3,
+              "byte_start": 20,
+              "byte_end": 49,
+              "source_quote": "第一节 取用判断经验\n"
+            },
+            "source_quote": "第一节 取用判断经验\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "lost_recovery_roles",
+      "title": "钱物丢失，一般以日干落宫为失主，以时干落宫为丢失之钱物。如果日、时同宫，为没有丢失，可以找到。如果时干落宫乘旺相之气来生日干落宫",
+      "category": "role",
+      "line_start": 5,
+      "line_end": 6,
+      "attribution": "原书案例执行者按文记录，作者后置按语单列",
+      "summary": "完整来源语境；原始断语、反馈与续断、后置作者说明分别标注，不自动推广个案",
+      "concepts": [
+        "日干",
+        "时干",
+        "反吟",
+        "空亡",
+        "墓",
+        "绝"
+      ],
+      "dataset": {
+        "key": "lost_recovery_roles_reference",
+        "rows": [
+          {
+            "key": "lost_recovery_roles_5",
+            "source_lines": [
+              5,
+              5
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 5,
+              "line_end": 5,
+              "byte_start": 50,
+              "byte_end": 369,
+              "source_quote": "钱物丢失，一般以日干落宫为失主，以时干落宫为丢失之钱物。如果日、时同宫，为没有丢失，可以找到。如果时干落宫乘旺相之气来生日干落宫，也能找回。反吟者也主能找回。相反，则不易找回。时干落空亡、墓、绝之宫，也主难找回。\n"
+            },
+            "source_quote": "钱物丢失，一般以日干落宫为失主，以时干落宫为丢失之钱物。如果日、时同宫，为没有丢失，可以找到。如果时干落宫乘旺相之气来生日干落宫，也能找回。反吟者也主能找回。相反，则不易找回。时干落空亡、墓、绝之宫，也主难找回。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "lost_location",
+      "title": "日干与时干同在内盘，则钱物丢失在家中或近处；日干与时干同在外盘，则钱物丢失在外边或远处；日干在内、时干在外，则丢失在外边；时干在",
+      "category": "analysis",
+      "line_start": 7,
+      "line_end": 8,
+      "attribution": "原书案例执行者按文记录，作者后置按语单列",
+      "summary": "完整来源语境；原始断语、反馈与续断、后置作者说明分别标注，不自动推广个案",
+      "concepts": [
+        "内盘",
+        "外盘",
+        "日干",
+        "时干"
+      ],
+      "dataset": {
+        "key": "lost_location_reference",
+        "rows": [
+          {
+            "key": "lost_location_7",
+            "source_lines": [
+              7,
+              7
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 7,
+              "line_end": 7,
+              "byte_start": 370,
+              "byte_end": 605,
+              "source_quote": "日干与时干同在内盘，则钱物丢失在家中或近处；日干与时干同在外盘，则钱物丢失在外边或远处；日干在内、时干在外，则丢失在外边；时干在内、日干在外，则丢失在家中。\n"
+            },
+            "source_quote": "日干与时干同在内盘，则钱物丢失在家中或近处；日干与时干同在外盘，则钱物丢失在外边或远处；日干在内、时干在外，则丢失在外边；时干在内、日干在外，则丢失在家中。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "lost_theft",
+      "title": "如果时干临玄武，则可能被人偷去或自己忘记；如果时干宫被玄武宫或天蓬宫所克，则可能被人盗走。玄武乘阳星为男人，乘阴星为女子；旺相有",
+      "category": "analysis",
+      "line_start": 9,
+      "line_end": 10,
+      "attribution": "原书案例执行者按文记录，作者后置按语单列",
+      "summary": "完整来源语境；原始断语、反馈与续断、后置作者说明分别标注，不自动推广个案",
+      "concepts": [
+        "玄武",
+        "天蓬",
+        "阳星",
+        "阴星",
+        "旺相",
+        "休囚"
+      ],
+      "dataset": {
+        "key": "lost_theft_reference",
+        "rows": [
+          {
+            "key": "lost_theft_9",
+            "source_lines": [
+              9,
+              9
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 9,
+              "line_end": 9,
+              "byte_start": 606,
+              "byte_end": 847,
+              "source_quote": "如果时干临玄武，则可能被人偷去或自己忘记；如果时干宫被玄武宫或天蓬宫所克，则可能被人盗走。玄武乘阳星为男人，乘阴星为女子；旺相有气为青壮年，休囚无气则为老年人。\n"
+            },
+            "source_quote": "如果时干临玄武，则可能被人偷去或自己忘记；如果时干宫被玄武宫或天蓬宫所克，则可能被人盗走。玄武乘阳星为男人，乘阴星为女子；旺相有气为青壮年，休囚无气则为老年人。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "lost_timing",
+      "title": "丢失钱物找到时间，一般以时干生日干之日时为应期；或按庚格而断，阴干寻庚上，阳干寻庚下；入库者，以冲出之日时为应期，旬空者以填实之",
+      "category": "timing",
+      "line_start": 11,
+      "line_end": 13,
+      "attribution": "原书案例执行者按文记录，作者后置按语单列",
+      "summary": "完整来源语境；原始断语、反馈与续断、后置作者说明分别标注，不自动推广个案",
+      "concepts": [
+        "庚格",
+        "入库",
+        "旬空",
+        "填实",
+        "应期"
+      ],
+      "dataset": {
+        "key": "lost_timing_reference",
+        "rows": [
+          {
+            "key": "lost_timing_11",
+            "source_lines": [
+              11,
+              11
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 11,
+              "line_end": 11,
+              "byte_start": 848,
+              "byte_end": 1065,
+              "source_quote": "丢失钱物找到时间，一般以时干生日干之日时为应期；或按庚格而断，阴干寻庚上，阳干寻庚下；入库者，以冲出之日时为应期，旬空者以填实之日时为应期，等。\n"
+            },
+            "source_quote": "丢失钱物找到时间，一般以时干生日干之日时为应期；或按庚格而断，阴干寻庚上，阳干寻庚下；入库者，以冲出之日时为应期，旬空者以填实之日时为应期，等。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "lost_cases_heading",
+      "title": "第二节 实例解析（8例）",
+      "category": "commentary",
+      "line_start": 14,
+      "line_end": 15,
+      "attribution": "原书案例执行者按文记录，作者后置按语单列",
+      "summary": "完整来源语境；原始断语、反馈与续断、后置作者说明分别标注，不自动推广个案",
+      "concepts": [],
+      "dataset": {
+        "key": "lost_cases_heading_reference",
+        "rows": [
+          {
+            "key": "lost_cases_heading_14",
+            "source_lines": [
+              14,
+              14
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 14,
+              "line_end": 14,
+              "byte_start": 1067,
+              "byte_end": 1100,
+              "source_quote": "第二节 实例解析（8例）\n"
+            },
+            "source_quote": "第二节 实例解析（8例）\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "lost_case_01",
+      "title": "实例一：测找发票",
+      "category": "analysis",
+      "line_start": 16,
+      "line_end": 49,
+      "attribution": "原书案例执行者按文记录，作者后置按语单列",
+      "summary": "完整来源语境；原始断语、反馈与续断、后置作者说明分别标注，不自动推广个案",
+      "concepts": [
+        "日干",
+        "时干",
+        "景门",
+        "玄武",
+        "天蓬",
+        "值符",
+        "值使",
+        "反吟"
+      ],
+      "dataset": {
+        "key": "lost_case_01_reference",
+        "rows": [
+          {
+            "key": "lost_case_01_41",
+            "source_lines": [
+              41,
+              41
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 41,
+              "line_end": 41,
+              "byte_start": 3662,
+              "byte_end": 3860,
+              "source_quote": "（1）景门为文书、发票，景门落坎1宫，火入水乡，景加休，主文书遗失；上乘六合，又临天辅吉星，景门落宫又生日干、时干落宫，失物可以找回。\n"
+            },
+            "source_quote": "（1）景门为文书、发票，景门落坎1宫，火入水乡，景加休，主文书遗失；上乘六合，又临天辅吉星，景门落宫又生日干、时干落宫，失物可以找回。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_case_01_43",
+            "source_lines": [
+              43,
+              43
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 43,
+              "line_end": 43,
+              "byte_start": 3861,
+              "byte_end": 4225,
+              "source_quote": "（2）日干为己为求测之人，时干壬为失物，今与玄武同落震3宫，说明是求测之人把发票遗失在他所去的东方了。今震3宫为木，地盘六仪庚为金，惊门也为金，说明遗失的地方是个铁木结构的容器，而且有门有口（因惊门属兑，兑主有缺口之物），恐为木质铁皮保险柜之类。\n"
+            },
+            "source_quote": "（2）日干为己为求测之人，时干壬为失物，今与玄武同落震3宫，说明是求测之人把发票遗失在他所去的东方了。今震3宫为木，地盘六仪庚为金，惊门也为金，说明遗失的地方是个铁木结构的容器，而且有门有口（因惊门属兑，兑主有缺口之物），恐为木质铁皮保险柜之类。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_case_01_45",
+            "source_lines": [
+              45,
+              45
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 45,
+              "line_end": 45,
+              "byte_start": 4226,
+              "byte_end": 4458,
+              "source_quote": "（3）今八门反吟，反吟主做事速度快，成败易分，又震宫为阳遁内盘，也主快主近，所以遗失地方在东边离工商所不太远，而且大约3天（震3宫，又三、八木）左右即可找回。\n"
+            },
+            "source_quote": "（3）今八门反吟，反吟主做事速度快，成败易分，又震宫为阳遁内盘，也主快主近，所以遗失地方在东边离工商所不太远，而且大约3天（震3宫，又三、八木）左右即可找回。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "lost_case_02",
+      "title": "实例二：测身份证下落",
+      "category": "analysis",
+      "line_start": 50,
+      "line_end": 89,
+      "attribution": "原书案例执行者按文记录，作者后置按语单列",
+      "summary": "完整来源语境；原始断语、反馈与续断、后置作者说明分别标注，不自动推广个案",
+      "concepts": [
+        "日干",
+        "时干",
+        "景门",
+        "值符",
+        "值使",
+        "伏吟"
+      ],
+      "dataset": {
+        "key": "lost_case_02_reference",
+        "rows": [
+          {
+            "key": "lost_case_02_77",
+            "source_lines": [
+              77,
+              77
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 77,
+              "line_end": 77,
+              "byte_start": 7436,
+              "byte_end": 7593,
+              "source_quote": "（1）以日干为求测之人，以时干为所寻之身份证。日干己落震3宫，时干癸落坎1宫，时干宫生日干宫，为失物能找到。\n"
+            },
+            "source_quote": "（1）以日干为求测之人，以时干为所寻之身份证。日干己落震3宫，时干癸落坎1宫，时干宫生日干宫，为失物能找到。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_case_02_79",
+            "source_lines": [
+              79,
+              79
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 79,
+              "line_end": 79,
+              "byte_start": 7594,
+              "byte_end": 7849,
+              "source_quote": "（2）景门主文书、身份证，落离9宫，为外盘，为南方，又伏吟不动，说明身份证未动，没有离开原来家宅，离卦中虚，离又为火，主红色，故可能在一个红色容器如箱、柜、盒之类的东西内。\n"
+            },
+            "source_quote": "（2）景门主文书、身份证，落离9宫，为外盘，为南方，又伏吟不动，说明身份证未动，没有离开原来家宅，离卦中虚，离又为火，主红色，故可能在一个红色容器如箱、柜、盒之类的东西内。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_case_02_81",
+            "source_lines": [
+              81,
+              81
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 81,
+              "line_end": 81,
+              "byte_start": 7850,
+              "byte_end": 8119,
+              "source_quote": "（3）景门加景门，主文状未动，有预先见之意，内有小口忧患。现在旅游出发前，找寻身份证，正说明有预先见之意，因一时找不到，难免有口舌之争，但文状未动，说明身份证未卖掉，仍在家中未动。\n"
+            },
+            "source_quote": "（3）景门加景门，主文状未动，有预先见之意，内有小口忧患。现在旅游出发前，找寻身份证，正说明有预先见之意，因一时找不到，难免有口舌之争，但文状未动，说明身份证未卖掉，仍在家中未动。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_case_02_83",
+            "source_lines": [
+              83,
+              83
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 83,
+              "line_end": 83,
+              "byte_start": 8120,
+              "byte_end": 8343,
+              "source_quote": "（4）时干为失物，时干为癸落坎1宫，遇天任吉星，吉门休门，癸+丙为华盖悖格，惟上人见喜，上人为长辈，又上乘九天，九天为父辈，为文印，故可能被其父母找到。\n"
+            },
+            "source_quote": "（4）时干为失物，时干为癸落坎1宫，遇天任吉星，吉门休门，癸+丙为华盖悖格，惟上人见喜，上人为长辈，又上乘九天，九天为父辈，为文印，故可能被其父母找到。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_case_02_85",
+            "source_lines": [
+              85,
+              85
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 85,
+              "line_end": 85,
+              "byte_start": 8344,
+              "byte_end": 8626,
+              "source_quote": "（5）找到时间：阴干寻庚上，阳干寻庚下，或在时干生日干之日。今时干癸为阴干，西南坤宫地盘庚上之干为壬，阳遁时干落1宫为近，为速，故当在本旬壬日内找到，或癸日，时干癸最旺，生日干落宫之日找到。\n"
+            },
+            "source_quote": "（5）找到时间：阴干寻庚上，阳干寻庚下，或在时干生日干之日。今时干癸为阴干，西南坤宫地盘庚上之干为壬，阳遁时干落1宫为近，为速，故当在本旬壬日内找到，或癸日，时干癸最旺，生日干落宫之日找到。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "lost_case_03",
+      "title": "实例三：测失皮衣",
+      "category": "analysis",
+      "line_start": 90,
+      "line_end": 123,
+      "attribution": "原书案例执行者按文记录，作者后置按语单列",
+      "summary": "完整来源语境；原始断语、反馈与续断、后置作者说明分别标注，不自动推广个案",
+      "concepts": [
+        "日干",
+        "时干",
+        "景门",
+        "丁奇",
+        "玄武",
+        "值符",
+        "值使"
+      ],
+      "dataset": {
+        "key": "lost_case_03_reference",
+        "rows": []
+      }
+    },
+    {
+      "key": "lost_case_04",
+      "title": "实例四：测丢BP机",
+      "category": "analysis",
+      "line_start": 124,
+      "line_end": 161,
+      "attribution": "原书案例执行者按文记录，作者后置按语单列",
+      "summary": "完整来源语境；原始断语、反馈与续断、后置作者说明分别标注，不自动推广个案",
+      "concepts": [
+        "日干",
+        "时干",
+        "景门",
+        "玄武",
+        "天蓬",
+        "值符",
+        "值使",
+        "反吟"
+      ],
+      "dataset": {
+        "key": "lost_case_04_reference",
+        "rows": [
+          {
+            "key": "lost_case_04_149",
+            "source_lines": [
+              149,
+              149
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 149,
+              "line_end": 149,
+              "byte_start": 14459,
+              "byte_end": 14686,
+              "source_quote": "（1）以时干丙为丢失之BP机，时干丙落艮8宫为空亡之地（甲辰旬中寅、卯空），确为丢失，伤+丙主道路损失，白虎也主道路，伤门属木，据此断BP机当丢在路边电话亭里。\n"
+            },
+            "source_quote": "（1）以时干丙为丢失之BP机，时干丙落艮8宫为空亡之地（甲辰旬中寅、卯空），确为丢失，伤+丙主道路损失，白虎也主道路，伤门属木，据此断BP机当丢在路边电话亭里。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_case_04_151",
+            "source_lines": [
+              151,
+              151
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 151,
+              "line_end": 151,
+              "byte_start": 14687,
+              "byte_end": 14876,
+              "source_quote": "（2）玄武为小偷，虽克时干落宫，但玄武落3宫空亡；天蓬为大盗，落9宫，临死门，不克时干宫，据此，BP机也不是人偷走，而是自己遗失的。\n"
+            },
+            "source_quote": "（2）玄武为小偷，虽克时干落宫，但玄武落3宫空亡；天蓬为大盗，落9宫，临死门，不克时干宫，据此，BP机也不是人偷走，而是自己遗失的。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_case_04_153",
+            "source_lines": [
+              153,
+              153
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 153,
+              "line_end": 153,
+              "byte_start": 14877,
+              "byte_end": 15027,
+              "source_quote": "（3）BP机能找到，日干丁落离9宫，与时干丙所落艮8宫相生；又景门为电为通信为BP机，落4宫旺相，生日干离宫。\n"
+            },
+            "source_quote": "（3）BP机能找到，日干丁落离9宫，与时干丙所落艮8宫相生；又景门为电为通信为BP机，落4宫旺相，生日干离宫。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_case_04_155",
+            "source_lines": [
+              155,
+              155
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 155,
+              "line_end": 155,
+              "byte_start": 15028,
+              "byte_end": 15142,
+              "source_quote": "（4）拣到BP机的是三个小伙子：时干丙落艮8宫，艮为少男，伤门为人盘，伤门为3数。\n"
+            },
+            "source_quote": "（4）拣到BP机的是三个小伙子：时干丙落艮8宫，艮为少男，伤门为人盘，伤门为3数。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_case_04_157",
+            "source_lines": [
+              157,
+              157
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 157,
+              "line_end": 157,
+              "byte_start": 15143,
+              "byte_end": 15348,
+              "source_quote": "（5）何时可找回，九星反吟主快，阳遁8宫为内，也主快。当在8日之内，具体日期，甲辰旬中寅卯空，出空之日为应期，因此断为3月24日（甲寅日）找回。\n"
+            },
+            "source_quote": "（5）何时可找回，九星反吟主快，阳遁8宫为内，也主快。当在8日之内，具体日期，甲辰旬中寅卯空，出空之日为应期，因此断为3月24日（甲寅日）找回。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "lost_case_05",
+      "title": "实例五：测失钱",
+      "category": "analysis",
+      "line_start": 162,
+      "line_end": 199,
+      "attribution": "原书案例执行者按文记录，作者后置按语单列",
+      "summary": "完整来源语境；原始断语、反馈与续断、后置作者说明分别标注，不自动推广个案",
+      "concepts": [
+        "日干",
+        "时干",
+        "玄武",
+        "值符",
+        "值使"
+      ],
+      "dataset": {
+        "key": "lost_case_05_reference",
+        "rows": [
+          {
+            "key": "lost_case_05_187",
+            "source_lines": [
+              187,
+              187
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 187,
+              "line_end": 187,
+              "byte_start": 17945,
+              "byte_end": 18051,
+              "source_quote": "（1）日干庚为失主落4宫，时干壬为失物落3宫，日、时比和物不失，钱未丢失。\n"
+            },
+            "source_quote": "（1）日干庚为失主落4宫，时干壬为失物落3宫，日、时比和物不失，钱未丢失。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_case_05_189",
+            "source_lines": [
+              189,
+              189
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 189,
+              "line_end": 189,
+              "byte_start": 18052,
+              "byte_end": 18145,
+              "source_quote": "（2）玄武为小偷，落2宫空亡，又不克时干落宫。钱不是被人偷走了。\n"
+            },
+            "source_quote": "（2）玄武为小偷，落2宫空亡，又不克时干落宫。钱不是被人偷走了。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_case_05_191",
+            "source_lines": [
+              191,
+              191
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 191,
+              "line_end": 191,
+              "byte_start": 18146,
+              "byte_end": 18375,
+              "source_quote": "（3）甲子戊为钱财，落8宫，戊+庚为飞宫格，显然钱被挪动了地方。戊下临庚，庚正好为日干，上乘螣蛇也主变化、虚幻，很可能是本人把钱移动了地方，却又忘记了此事。\n"
+            },
+            "source_quote": "（3）甲子戊为钱财，落8宫，戊+庚为飞宫格，显然钱被挪动了地方。戊下临庚，庚正好为日干，上乘螣蛇也主变化、虚幻，很可能是本人把钱移动了地方，却又忘记了此事。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_case_05_193",
+            "source_lines": [
+              193,
+              193
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 193,
+              "line_end": 193,
+              "byte_start": 18376,
+              "byte_end": 18711,
+              "source_quote": "（4）地盘甲子戊在乾6宫，为原来钱放的地方，乾为金、惊门主口，正为电视机架，天芮主棉毛制品，钱被卷在毛衣里。但天盘甲子戊落艮宫，艮为山为止，阳遁为内盘，可视为家中高大的立柜。又时干壬落3宫，3宫属木，在内盘，也主在木制家具之内。\n"
+            },
+            "source_quote": "（4）地盘甲子戊在乾6宫，为原来钱放的地方，乾为金、惊门主口，正为电视机架，天芮主棉毛制品，钱被卷在毛衣里。但天盘甲子戊落艮宫，艮为山为止，阳遁为内盘，可视为家中高大的立柜。又时干壬落3宫，3宫属木，在内盘，也主在木制家具之内。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_case_05_195",
+            "source_lines": [
+              195,
+              195
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 195,
+              "line_end": 195,
+              "byte_start": 18712,
+              "byte_end": 18942,
+              "source_quote": "（5）时干、甲子戊均在内盘，找到时间比较快，惊门值使落6宫，6天左右可以找到。又阳日看庚下之干为应期，今庚申日为阳日，4宫庚下之干为丙，3月30日丙寅日可以找到。\n"
+            },
+            "source_quote": "（5）时干、甲子戊均在内盘，找到时间比较快，惊门值使落6宫，6天左右可以找到。又阳日看庚下之干为应期，今庚申日为阳日，4宫庚下之干为丙，3月30日丙寅日可以找到。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "lost_case_06",
+      "title": "实例六：测丢失文件",
+      "category": "analysis",
+      "line_start": 200,
+      "line_end": 255,
+      "attribution": "原书案例执行者按文记录，作者后置按语单列",
+      "summary": "完整来源语境；原始断语、反馈与续断、后置作者说明分别标注，不自动推广个案",
+      "concepts": [
+        "日干",
+        "时干",
+        "丁奇",
+        "玄武",
+        "天蓬",
+        "值符",
+        "值使",
+        "伏吟"
+      ],
+      "dataset": {
+        "key": "lost_case_06_reference",
+        "rows": [
+          {
+            "key": "lost_case_06_227",
+            "source_lines": [
+              227,
+              227
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 227,
+              "line_end": 227,
+              "byte_start": 22215,
+              "byte_end": 22323,
+              "source_quote": "（1）日干辛、时干辛同落坤2宫，又克天蓬、玄武落宫，文件既未丢，也未失盗。\n"
+            },
+            "source_quote": "（1）日干辛、时干辛同落坤2宫，又克天蓬、玄武落宫，文件既未丢，也未失盗。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_case_06_229",
+            "source_lines": [
+              229,
+              229
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 229,
+              "line_end": 229,
+              "byte_start": 22324,
+              "byte_end": 22541,
+              "source_quote": "（2）丁奇为文件，临太岁、乘白虎，为重要文件。丁落艮8宫为入丑库，丑为牛，文件装在一个牛皮纸袋内，时干辛落坤宫为土，土主五、十数，所以断为5份文件。\n"
+            },
+            "source_quote": "（2）丁奇为文件，临太岁、乘白虎，为重要文件。丁落艮8宫为入丑库，丑为牛，文件装在一个牛皮纸袋内，时干辛落坤宫为土，土主五、十数，所以断为5份文件。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_case_06_233",
+            "source_lines": [
+              233,
+              233
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 233,
+              "line_end": 233,
+              "byte_start": 22647,
+              "byte_end": 22775,
+              "source_quote": "（3）7月16日己未日、辛未时，未冲丑。说明这天下午未时翻动过这套文件，之后至今再没动过。\n"
+            },
+            "source_quote": "（3）7月16日己未日、辛未时，未冲丑。说明这天下午未时翻动过这套文件，之后至今再没动过。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_case_06_237",
+            "source_lines": [
+              237,
+              237
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 237,
+              "line_end": 237,
+              "byte_start": 23001,
+              "byte_end": 23097,
+              "source_quote": "（4）丁奇落8宫为外盘，说明文件不在招待所内，临生门，可能在家中。\n"
+            },
+            "source_quote": "（4）丁奇落8宫为外盘，说明文件不在招待所内，临生门，可能在家中。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_case_06_243",
+            "source_lines": [
+              243,
+              243
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 243,
+              "line_end": 243,
+              "byte_start": 23207,
+              "byte_end": 23339,
+              "source_quote": "（5）何时找到？甲午旬中辰、巳空，乙未时，乙临开门冲实4宫，未冲开丑库，文件丁奇当应找见。\n"
+            },
+            "source_quote": "（5）何时找到？甲午旬中辰、巳空，乙未时，乙临开门冲实4宫，未冲开丑库，文件丁奇当应找见。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "lost_case_07",
+      "title": "实例七：江苏学员赵国葆测例",
+      "category": "analysis",
+      "line_start": 256,
+      "line_end": 309,
+      "attribution": "原书案例执行者按文记录，作者后置按语单列",
+      "summary": "完整来源语境；原始断语、反馈与续断、后置作者说明分别标注，不自动推广个案",
+      "concepts": [
+        "日干",
+        "时干",
+        "景门",
+        "丁奇",
+        "玄武",
+        "天蓬",
+        "值符",
+        "值使",
+        "反吟"
+      ],
+      "dataset": {
+        "key": "lost_case_07_reference",
+        "rows": [
+          {
+            "key": "lost_case_07_281",
+            "source_lines": [
+              281,
+              281
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 281,
+              "line_end": 281,
+              "byte_start": 26842,
+              "byte_end": 27048,
+              "source_quote": "（1）日干癸为求测之人，落兑7宫，伤+惊为亲人疾病忧惊。伤+癸为讼狱被冤，有理难伸。求测时间又为五不遇时，亦不顺，但上乘值符，千灾万祸化为尘。\n"
+            },
+            "source_quote": "（1）日干癸为求测之人，落兑7宫，伤+惊为亲人疾病忧惊。伤+癸为讼狱被冤，有理难伸。求测时间又为五不遇时，亦不顺，但上乘值符，千灾万祸化为尘。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_case_07_283",
+            "source_lines": [
+              283,
+              283
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 283,
+              "line_end": 283,
+              "byte_start": 27049,
+              "byte_end": 27158,
+              "source_quote": "（2）时干己为所问之事，落震3宫，临惊门主口舌是非。己+癸为地刑玄武，不利。\n"
+            },
+            "source_quote": "（2）时干己为所问之事，落震3宫，临惊门主口舌是非。己+癸为地刑玄武，不利。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_case_07_285",
+            "source_lines": [
+              285,
+              285
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 285,
+              "line_end": 285,
+              "byte_start": 27159,
+              "byte_end": 27487,
+              "source_quote": "（3）日干癸为梁工，戊癸相合，以戊为梁工之妻落坤2宫，正好是梁工妻去海口的方向（海口在北京西南方向），临生门吉门、天任吉星，可以去。反吟主快，即近期内就要动身之象。生+丁主词讼，时干己又临惊门，说明夫妻俩为去海口事有争吵。\n"
+            },
+            "source_quote": "（3）日干癸为梁工，戊癸相合，以戊为梁工之妻落坤2宫，正好是梁工妻去海口的方向（海口在北京西南方向），临生门吉门、天任吉星，可以去。反吟主快，即近期内就要动身之象。生+丁主词讼，时干己又临惊门，说明夫妻俩为去海口事有争吵。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_case_07_295",
+            "source_lines": [
+              295,
+              295
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 295,
+              "line_end": 295,
+              "byte_start": 27958,
+              "byte_end": 28116,
+              "source_quote": "（4）景门为身份证，落坎1宫，景+休为文书遗失，争讼不休，但乙+丙为奇仪顺遂吉格。阴遁坎宫为外为远，坎主一数。\n"
+            },
+            "source_quote": "（4）景门为身份证，落坎1宫，景+休为文书遗失，争讼不休，但乙+丙为奇仪顺遂吉格。阴遁坎宫为外为远，坎主一数。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_case_07_299",
+            "source_lines": [
+              299,
+              299
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 299,
+              "line_end": 299,
+              "byte_start": 28218,
+              "byte_end": 28320,
+              "source_quote": "（5）老家为地盘，地盘景门在离9宫，离为中空，乙又为木，天蓬星为一白。\n"
+            },
+            "source_quote": "（5）老家为地盘，地盘景门在离9宫，离为中空，乙又为木，天蓬星为一白。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_case_07_303",
+            "source_lines": [
+              303,
+              303
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 303,
+              "line_end": 303,
+              "byte_start": 28413,
+              "byte_end": 28569,
+              "source_quote": "（6）找到时间：九星、八门均反吟，反吟主快，离9宫为内盘，也主快。离为三数，故断今天三个小时内就会有消息。\n"
+            },
+            "source_quote": "（6）找到时间：九星、八门均反吟，反吟主快，离9宫为内盘，也主快。离为三数，故断今天三个小时内就会有消息。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "lost_case_08",
+      "title": "实例八：测汽车丢失",
+      "category": "analysis",
+      "line_start": 310,
+      "line_end": 355,
+      "attribution": "原书案例执行者按文记录，作者后置按语单列",
+      "summary": "完整来源语境；原始断语、反馈与续断、后置作者说明分别标注，不自动推广个案",
+      "concepts": [
+        "日干",
+        "时干",
+        "景门",
+        "玄武",
+        "值符",
+        "值使",
+        "伏吟"
+      ],
+      "dataset": {
+        "key": "lost_case_08_reference",
+        "rows": [
+          {
+            "key": "lost_case_08_335",
+            "source_lines": [
+              335,
+              335
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 335,
+              "line_end": 335,
+              "byte_start": 32274,
+              "byte_end": 32439,
+              "source_quote": "（1）日干甲午辛在坤2宫伏吟，午午自刑，景门主道路，白虎为刑伤，又九星伏吟，不宜出行，行则有伤灾或破财之事发生。\n"
+            },
+            "source_quote": "（1）日干甲午辛在坤2宫伏吟，午午自刑，景门主道路，白虎为刑伤，又九星伏吟，不宜出行，行则有伤灾或破财之事发生。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_case_08_337",
+            "source_lines": [
+              337,
+              337
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 337,
+              "line_end": 337,
+              "byte_start": 32440,
+              "byte_end": 32593,
+              "source_quote": "（2）以时干为失物为汽车。时干戊落艮8宫，虽与日干比和，但又有对冲之意，而且临马星，遗失之象，难以找回。\n"
+            },
+            "source_quote": "（2）以时干为失物为汽车。时干戊落艮8宫，虽与日干比和，但又有对冲之意，而且临马星，遗失之象，难以找回。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_case_08_339",
+            "source_lines": [
+              339,
+              339
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 339,
+              "line_end": 339,
+              "byte_start": 32594,
+              "byte_end": 32697,
+              "source_quote": "（3）以伤门为汽车落4宫，克日干宫，又临癸+癸天网四张格。找不回来之象。\n"
+            },
+            "source_quote": "（3）以伤门为汽车落4宫，克日干宫，又临癸+癸天网四张格。找不回来之象。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_case_08_345",
+            "source_lines": [
+              345,
+              345
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 345,
+              "line_end": 345,
+              "byte_start": 32942,
+              "byte_end": 33060,
+              "source_quote": "（4）玄武为偷车之人，落兑7宫，克伤门所在4宫，时干戊又生玄武，显然是被人偷走了。\n"
+            },
+            "source_quote": "（4）玄武为偷车之人，落兑7宫，克伤门所在4宫，时干戊又生玄武，显然是被人偷走了。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "lost_case_08_349",
+            "source_lines": [
+              349,
+              349
+            ],
+            "source_pointer": {
+              "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+              "line_start": 349,
+              "line_end": 349,
+              "byte_start": 33171,
+              "byte_end": 33314,
+              "source_quote": "（5）白虎和值使生门代表刑警、捕盗之人，今白虎生玄武，生门受玄武之克，又九星伏吟，显然破不了案。\n"
+            },
+            "source_quote": "（5）白虎和值使生门代表刑警、捕盗之人，今白虎生玄武，生门受玄武之克，又九星伏吟，显然破不了案。\n",
+            "method_scope": "shenqi_lost_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "lost_editorial_appendix",
+      "title": "盘面校订说明",
+      "category": "commentary",
+      "line_start": 356,
+      "line_end": 362,
+      "attribution": "本次上传文件的编辑校订说明；非历史作者新增断案",
+      "summary": "完整来源语境；原始断语、反馈与续断、后置作者说明分别标注，不自动推广个案",
+      "concepts": [
+        "门位原字",
+        "星位原字",
+        "乙体庚",
+        "乙休庚"
+      ],
+      "dataset": {
+        "key": "lost_editorial_appendix_reference",
+        "rows": []
+      }
+    }
+  ],
+  "quality_issues": [
+    {
+      "key": "source_editorial_correction_not_agent_change",
+      "line_start": 356,
+      "line_end": 362,
+      "description": "上传版本已把例三乙体庚校为乙休庚；疑字仅附记提及，保留原收到字节，不重新校订或声称核验未提供扫描"
+    },
+    {
+      "key": "case3_blind_question_revealed_later",
+      "line_start": 92,
+      "line_end": 121,
+      "description": "先不说问事，初断后才说明皮衣；不能提前把皮衣注入初断"
+    },
+    {
+      "key": "case6_feedback_and_missed_location",
+      "line_start": 225,
+      "line_end": 253,
+      "description": "五份、牛皮袋、看过时间逐步反馈；办公室未找到后续问；最后车坐垫位置事先未断出，不能回填"
+    },
+    {
+      "key": "case7_later_identity_and_author_note",
+      "line_start": 287,
+      "line_end": 307,
+      "description": "最初问妻旅行，后反馈身份证；张志春按语在反馈之后，不能混成赵国葆初断"
+    },
+    {
+      "key": "case8_as_of_source_only",
+      "line_start": 353,
+      "line_end": 353,
+      "description": "至今未找回仅截至原书叙述时，不推断永久找不回或未来破案结局"
+    },
+    {
+      "key": "six_yao_separate_method",
+      "line_start": 18,
+      "line_end": 87,
+      "description": "六爻仅按原文记先行使用；未提供六爻盘和推断，不编入奇门盘或新规则"
+    }
+  ],
+  "worked_examples": []
+}

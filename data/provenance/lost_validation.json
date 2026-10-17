@@ -1,0 +1,185 @@
+{
+  "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+  "source_byte_count": 34197,
+  "source_line_count": 362,
+  "source_file": "神奇之门_钱物丢失预测_精校完整版.txt",
+  "verification_basis": "user_attestation",
+  "system_performed_independent_verification": false,
+  "stories": 8,
+  "events": 8,
+  "original_charts": 8,
+  "source_palaces": 72,
+  "records": 92,
+  "context_groups": 15,
+  "technical_boundaries": 6,
+  "reference_candidates": 5,
+  "editorial_appendix_lines": [
+    356,
+    362
+  ],
+  "editorial_correction_preexists_upload": true,
+  "agent_changed_source_bytes": false,
+  "master_spec_reaffirmation": {
+    "path": "docs/user_instructions/master_spec_reaffirmed_2026-10-17.txt",
+    "sha256": "e3988844b89e78cce3e4305e65e9d681e4c3cc3e62ed24535c90afe7afd72e57",
+    "byte_count": 39123,
+    "prior_original_preserved": true,
+    "substantive_difference": "New reminder omits prior closing Phase0-start command; ongoing project continues, no reinitialization"
+  },
+  "schema_migration": false,
+  "training_tasks_added": 0,
+  "formal_rules_added": 0,
+  "snapshot": {
+    "data_version": "da05c74d-cc3d-4642-b37b-b575f952353f",
+    "snapshot": "data/snapshots/current",
+    "counts": {
+      "data_versions": 65,
+      "books": 1,
+      "chapters": 14,
+      "raw_documents": 14,
+      "chapter_revisions": 14,
+      "source_reviews": 21,
+      "source_spans": 2509,
+      "methods": 23,
+      "concepts": 2173,
+      "concept_links": 0,
+      "knowledge_items": 930,
+      "rules": 0,
+      "rule_conditions": 0,
+      "rule_disagreements": 0,
+      "event_families": 64,
+      "cases": 67,
+      "events": 73,
+      "case_events": 73,
+      "charts": 71,
+      "case_records": 1144,
+      "evidence_links": 1465,
+      "dataset_releases": 0,
+      "split_assignments": 0,
+      "training_tasks": 0,
+      "task_inputs": 0
+    },
+    "manifest_sha256": "6f6c7fa5e2c06f7bd878233e1aea5d44df785d6b6b9ac743e65bf1b9ed9df7f0"
+  },
+  "old_rows_preserved": {
+    "rule_conditions": {
+      "old": 0,
+      "new": 0
+    },
+    "concept_links": {
+      "old": 0,
+      "new": 0
+    },
+    "case_events": {
+      "old": 65,
+      "new": 73
+    },
+    "data_versions": {
+      "old": 60,
+      "new": 65
+    },
+    "case_records": {
+      "old": 1052,
+      "new": 1144
+    },
+    "rule_disagreements": {
+      "old": 0,
+      "new": 0
+    },
+    "training_tasks": {
+      "old": 0,
+      "new": 0
+    },
+    "evidence_links": {
+      "old": 1373,
+      "new": 1465
+    },
+    "chapter_revisions": {
+      "old": 13,
+      "new": 14
+    },
+    "knowledge_items": {
+      "old": 904,
+      "new": 930
+    },
+    "methods": {
+      "old": 22,
+      "new": 23
+    },
+    "event_families": {
+      "old": 56,
+      "new": 64
+    },
+    "raw_documents": {
+      "old": 13,
+      "new": 14
+    },
+    "cases": {
+      "old": 59,
+      "new": 67
+    },
+    "task_inputs": {
+      "old": 0,
+      "new": 0
+    },
+    "source_spans": {
+      "old": 2374,
+      "new": 2509
+    },
+    "concepts": {
+      "old": 2090,
+      "new": 2173
+    },
+    "events": {
+      "old": 65,
+      "new": 73
+    },
+    "rules": {
+      "old": 0,
+      "new": 0
+    },
+    "split_assignments": {
+      "old": 0,
+      "new": 0
+    },
+    "charts": {
+      "old": 63,
+      "new": 71
+    },
+    "chapters": {
+      "old": 13,
+      "new": 14
+    },
+    "books": {
+      "old": 1,
+      "new": 1
+    },
+    "source_reviews": {
+      "old": 20,
+      "new": 21
+    },
+    "dataset_releases": {
+      "old": 0,
+      "new": 0
+    }
+  },
+  "old_raw_documents_preserved": 13,
+  "remote_base_sha": "887980d1678907c2eaf87237b3bd31dc714d634f",
+  "case7_trip_outcome": "not_reported; only identity card recovery/posting feedback recorded",
+  "local_regression": {
+    "command": "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+    "tests": 307,
+    "failures": 0,
+    "errors": 0,
+    "new_chapter_tests": 16
+  },
+  "snapshot_roundtrip": "byte_identical",
+  "api_original_charts": 8,
+  "cli_cases": 8,
+  "workflow_added": false,
+  "workflow_deleted": false,
+  "github_sync": {
+    "status": "pending",
+    "reason": "Await actual main commit and four CI results"
+  }
+}

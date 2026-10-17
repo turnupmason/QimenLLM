@@ -1,0 +1,78 @@
+{
+  "source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+  "source_byte_count": 34197,
+  "source_line_count": 362,
+  "source_file": "神奇之门_钱物丢失预测_精校完整版.txt",
+  "verification_basis": "user_attestation",
+  "system_performed_independent_verification": false,
+  "stories": 8,
+  "events": 8,
+  "original_charts": 8,
+  "source_palaces": 72,
+  "records": 92,
+  "context_groups": 15,
+  "technical_boundaries": 6,
+  "reference_candidates": 5,
+  "editorial_appendix_lines": [
+    356,
+    362
+  ],
+  "editorial_correction_preexists_upload": true,
+  "agent_changed_source_bytes": false,
+  "master_spec_reaffirmation": {
+    "path": "docs/user_instructions/master_spec_reaffirmed_2026-10-17.txt",
+    "sha256": "e3988844b89e78cce3e4305e65e9d681e4c3cc3e62ed24535c90afe7afd72e57",
+    "byte_count": 39123,
+    "prior_original_preserved": true,
+    "substantive_difference": "New reminder omits prior closing Phase0-start command; ongoing project continues, no reinitialization"
+  },
+  "schema_migration": false,
+  "training_tasks_added": 0,
+  "formal_rules_added": 0,
+  "independent_source_reading_review": {
+    "scope": "Source transcript, not external historical verification",
+    "source_integrity": {
+      "sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+      "bytes": 34197,
+      "characters": 13507,
+      "physical_lines": 362,
+      "final_lf": true,
+      "encoding": "utf-8",
+      "source_modified": false
+    },
+    "summary": {
+      "complete_stories": 8,
+      "provided_charts": 8,
+      "recommended_events": 8,
+      "recommended_new_families": 8,
+      "chapter_ordinal_in_printed_book": "unknown",
+      "exact_general_method_lines": [
+        5,
+        7,
+        9,
+        11
+      ],
+      "case_section_header": {
+        "line_start": 14,
+        "line_end": 14,
+        "byte_start": 1067,
+        "byte_end_exclusive": 1100,
+        "sha256": "13a6ca51ff04c6ee0e64f829c48ba993da758fbd5f6d12c1b8751cf4d6334e44",
+        "text": "第二节 实例解析（8例）\n"
+      }
+    },
+    "risks": [
+      "所有盘为已给Unicode框线十三行表，仅作原盘字面投影；未独立历法复算。",
+      "日干/时干、文书景门/丁奇、钱财戊、汽车伤门均为有条件多取法，不编成无条件通用角色绑定。",
+      "反馈后续断标post_feedback；只有相对任务确已可知的对白才可在未来逐任务协议使用，当前无训练发布。",
+      "完整背景和标题尤其例三、例七会泄漏原断主题，不作为首次预测输入。",
+      "原文结论可能性词、具体错误或未报反馈不可被用户确认声明改写为全命中。"
+    ],
+    "refinements_applied": [
+      "Explicit dialogue speakers retained",
+      "Case7 final author note is author_reasoning/post_feedback",
+      "Mixed case8 price/theft dialogue has literal per-speaker byte spans",
+      "Case7 travel outcome not inferred from identity-card feedback"
+    ]
+  }
+}
