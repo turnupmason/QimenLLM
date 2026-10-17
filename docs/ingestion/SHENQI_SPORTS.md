@@ -37,3 +37,6 @@ scripts/import_shenqi_sports.py复用import_chapter → install_curated → impo
 本章18专项及全量358回归实际通过、0失败/错误，含API全部7盘、CLI7案、条件候选不激活、初始输入隔离、旧行保留、幂等、拒改和快照恢复；远端SHA/四CI以STATUS和data/provenance/sports_validation.json实际验收为准。旧25权威表全部旧行逐字段保留，16旧原文逐字节不变；43文件快照恢复再导出一致。未更改旧章source/cases/curation/gold/总指令，无schema迁移、新目录或workflow增删；原有tests.yml继续沿用。
 
 累计17份章级输入、85故事/82家族/91事件/90原盘、1341记录/1664证据，1015知识项/2344概念/26方法；465语境块/306技术边界/182当前候选/189历史候选，39编译符号族不变。正式rules、训练任务、冻结release为0。
+
+
+远端内容验收：`3363433473346717c576ddd0f57d0d880365a8e0` 已核对main一致、309文件blob匹配；[Actions 39080312629](https://github.com/turnupmason/QimenLLM/actions/runs/39080312629) 的Ubuntu/macOS × Python3.11/3.12四job全部success，四份日志均实际Ran 358 tests / OK。通过已连接GitHub接口非强制更新，未增删workflow。这里记录已实际验收的内容提交；本验收文档后续提交本身仍须按精确新SHA另查四CI，不以旧CI替代。
