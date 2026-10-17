@@ -1,0 +1,53 @@
+{
+  "input_kind": "user_uploaded_plaintext_file",
+  "original_uploaded_name": "经营求财预测_完整原文.txt",
+  "bytes": 56047,
+  "characters": 21935,
+  "line_count": 1366,
+  "trailing_newline": true,
+  "encoding": "UTF-8",
+  "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+  "git_blob_sha": "ecf55d859f16ba9ca6c9dc8a38fa2f5b7970f948",
+  "source_container_has_file_bytes": true,
+  "stored_path": "data/provenance/uploads/55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6.utf8",
+  "scope": "business-finance",
+  "chapter_sequence": 12,
+  "source_confirmed_by_user": true,
+  "verification_basis": "user_attestation",
+  "system_performed_independent_verification": false,
+  "counts": {
+    "complete_stories": 14,
+    "events": 18,
+    "event_families_added": 12,
+    "original_charts": 16,
+    "case_records_added": 367,
+    "source_reference_candidates_added": 10,
+    "context_groups_added": 26,
+    "technical_annotations_added": 3,
+    "formal_role_rules_added": 0,
+    "training_tasks_added": 0
+  },
+  "snapshot": {
+    "data_version": "3734b978-f108-414d-aaca-b1e0afbc2074",
+    "total_cases": 43,
+    "total_events": 49,
+    "total_charts": 45,
+    "total_records": 842,
+    "total_evidence_links": 1163,
+    "total_raw_documents": 11,
+    "format": 1,
+    "manifest_files": 36
+  },
+  "tests": {
+    "branch_ci_run": 39060805000,
+    "branch_ci_sha": "a1fc6eaef947ea4baa631dfceed58ffa5c947bd9",
+    "matrix_passed": 4,
+    "actual_unittest_count": 265,
+    "failed": 0,
+    "staging_ingestion_run": 39060660094,
+    "staging_ingestion_success": true,
+    "source_chart_projection_tested": 16,
+    "source_literal_kinji_preserved": true
+  },
+  "remote_acceptance": "Pending final main merge and exact main SHA CI verification"
+}

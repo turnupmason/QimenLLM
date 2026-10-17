@@ -16,4 +16,4 @@
 
 运行：`PYTHONPATH=src python3 -m unittest discover -s tests -v`。
 资料/案例规则见 KNOWLEDGE_POLICY / CASE_POLICY；架构与迁移见 ARCHITECTURE / SCHEMA；评估见 EVALUATION_PROTOCOL；设备与远程接入见 HARDWARE。
-当前已接收十份章级输入，本轮工作就业预测未标印刷章号；旧chapter-01/02保留，不反推印刷章号。已保存29完整故事、28家族、31事件和29已给原盘，未记载的盘不造；同家族的事件/盘/续断训练测试不得跨组。129条件候选不是已激活专业规则。Phase 2支持符号转盘及部分有来源条件事实，公历全流程与专业问事未完成。后置分析/结果不得提前，五测只给一盘不造其余盘，原书与程序携干差异单列不改字。按用户实际提供内容增量保存、审读、编译和测试；不导入未给下一章、不提前训练。完整总指令见docs/user_instructions/master_spec_2026-10-17.txt，新确认政策见同目录补充，进度以STATUS为准。
+当前《神奇之门》已接收十一份章级输入，含本轮《经营求财预测》14故事/18事件/16给定原书盘；累计43故事/40家族/49事件/45原盘。用户来源仍按user_attestation确认，文献接受与程序复算分开；经营十子类候选仅reference_only、正式rules及训练仍0。来源原字节SHA256为55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6，书中实例十二后两天缺九宫不补，实例九中五“禽己”字面保留。按原有导入、snapshot及QimenService接续；每章完成必须push且核验远端main/CI。完整总指令见docs/user_instructions/master_spec_2026-10-17.txt，进度以STATUS为准。

@@ -1,6 +1,6 @@
 # QimenLLM
 
-古籍知识、确定性计算、完整案例与可替换语言模型结合的研究工程。**当前累计接收《神奇之门》十份章级输入、29个完整故事/31事件/29已给原盘（本轮5个工作就业故事）；支持符号计算、来源候选检查、案例阅读和原盘投影对照。独立公历起盘、正式用神激活、专业问事及模型训练尚未完成。**
+古籍知识、确定性计算、完整案例与可替换语言模型结合的研究工程。**当前累计接收《神奇之门》十一份章级输入、43个完整故事/49事件/45已给原盘（本轮新增14个经营求财故事/18事件/16原盘）；支持符号计算、来源候选检查、案例阅读和原盘投影对照。独立公历起盘、正式用神激活、专业问事及模型训练尚未完成。**
 
 用户已统一确认既往及未来提供的资料与历史事实，并声明已独立确认。维护导入默认confirmed，不再请求原文二次确认；确认依据与程序复算、模型评估分开记录，详见[现行来源政策](docs/KNOWLEDGE_POLICY.md)及[本轮工作就业报告](docs/ingestion/SHENQI_EMPLOYMENT.md)。
 
@@ -73,3 +73,5 @@ PYTHONPATH=src python3 -m qimenllm sync --message 'Update project and source dat
 ```
 
 各章重放脚本只接受对应已给原文的确切哈希（本次内联聊天另验父消息及正文切片），重放不重复入库；新章/修订另走导入。当前云会话若命令行API受限，Codex通过连接器核实私有状态，再正常Git HTTPS推送并核对远端；pending不算完成。维护和恢复见[GITHUB_SYNC](docs/GITHUB_SYNC.md)、[IMPORT_PROTOCOL](docs/IMPORT_PROTOCOL.md)。不提交密钥、私人问事或模型权重，不公开分发原书。
+
+本轮《经营求财预测》接收与复算边界见[本章报告](docs/ingestion/SHENQI_BUSINESS.md)；重复导入脚本 `PYTHONPATH=src python3 scripts/import_shenqi_business.py`，本章所有真实原盘均通过 `case-chart` 同一服务读取（明确比较方法后才尝试对照）。
