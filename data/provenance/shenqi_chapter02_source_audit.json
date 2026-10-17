@@ -1,0 +1,704 @@
+{
+  "source_sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+  "source_byte_count": 22354,
+  "source_line_count": 416,
+  "chapter_title": "时家奇门的起局方法",
+  "source_review_status": "pending_explicit_collation_confirmation",
+  "attribution": "本章作者（本次原文未明确姓名）",
+  "scope": "only the user-supplied second chapter and explicitly identified links to the already supplied first chapter; no external sources or engine-generated expected answers",
+  "sections": [
+    {
+      "key": "palm_casting",
+      "title": "第一节 掌上快速起局法",
+      "line_start": 1,
+      "line_end": 176
+    },
+    {
+      "key": "paper_casting",
+      "title": "第二节 纸上快速起局法",
+      "line_start": 177,
+      "line_end": 416
+    }
+  ],
+  "structure": [
+    {
+      "key": "chapter_and_palm_intro",
+      "title": "章题及掌上法引入",
+      "line_start": 1,
+      "line_end": 9
+    },
+    {
+      "key": "palm_branches_and_sexagenary",
+      "title": "十二地支手位与六甲循环",
+      "line_start": 10,
+      "line_end": 52
+    },
+    {
+      "key": "palm_palaces_and_doors",
+      "title": "八卦八门九宫固定手位",
+      "line_start": 53,
+      "line_end": 61
+    },
+    {
+      "key": "palm_first_step",
+      "title": "掌上第一步：日节气三元定局",
+      "line_start": 62,
+      "line_end": 84
+    },
+    {
+      "key": "palm_second_step",
+      "title": "掌上第二步：三奇六仪地盘",
+      "line_start": 85,
+      "line_end": 89
+    },
+    {
+      "key": "palm_third_step_clock",
+      "title": "掌上第三步：钟表时辰与五鼠遁",
+      "line_start": 90,
+      "line_end": 132
+    },
+    {
+      "key": "palm_fourth_step",
+      "title": "掌上第四步：旬首值符值使",
+      "line_start": 133,
+      "line_end": 143
+    },
+    {
+      "key": "palm_fifth_step",
+      "title": "掌上第五步：星门运转及阳二局例",
+      "line_start": 144,
+      "line_end": 164
+    },
+    {
+      "key": "palm_sixth_step",
+      "title": "掌上第六步：小值符追大值符及工具说明",
+      "line_start": 165,
+      "line_end": 176
+    },
+    {
+      "key": "paper_intro",
+      "title": "纸上法动机与作者评价",
+      "line_start": 177,
+      "line_end": 185
+    },
+    {
+      "key": "paper_ten_steps",
+      "title": "纸上快速起局的十个步骤",
+      "line_start": 186,
+      "line_end": 223
+    },
+    {
+      "key": "example_01_inputs_bureau",
+      "title": "例一：1995年6月11日来源给定时间与定局",
+      "line_start": 224,
+      "line_end": 239
+    },
+    {
+      "key": "example_01_earth_and_full_table",
+      "title": "例一：阳三地盘及完整九宫文字盘",
+      "line_start": 240,
+      "line_end": 275
+    },
+    {
+      "key": "example_01_chief",
+      "title": "例一：旬首及值符值使",
+      "line_start": 276,
+      "line_end": 286
+    },
+    {
+      "key": "example_01_heaven",
+      "title": "例一：天盘星携干及天地干格局",
+      "line_start": 287,
+      "line_end": 299
+    },
+    {
+      "key": "example_01_doors",
+      "title": "例一：八门及三宫属性关系",
+      "line_start": 300,
+      "line_end": 318
+    },
+    {
+      "key": "example_01_deities",
+      "title": "例一：八神及起盘完成",
+      "line_start": 319,
+      "line_end": 334
+    },
+    {
+      "key": "example_02_inputs_bureau",
+      "title": "例二：1995年8月13日来源给定时间与定局",
+      "line_start": 335,
+      "line_end": 344
+    },
+    {
+      "key": "example_02_earth_and_center_origin",
+      "title": "例二：阴八地盘与中心旬首值符值使",
+      "line_start": 345,
+      "line_end": 358
+    },
+    {
+      "key": "example_02_heaven_and_full_table",
+      "title": "例二：天禽随芮携干与完整九宫文字盘",
+      "line_start": 359,
+      "line_end": 398
+    },
+    {
+      "key": "example_02_doors",
+      "title": "例二：值使从原中五宫逆数与八门",
+      "line_start": 399,
+      "line_end": 407
+    },
+    {
+      "key": "example_02_deities",
+      "title": "例二：阴遁逆排八神及起盘完成",
+      "line_start": 408,
+      "line_end": 416
+    }
+  ],
+  "source_issues": [
+    {
+      "key": "source_calendar_not_independently_verified",
+      "line_start": 188,
+      "line_end": 416,
+      "kind": "validation_limit",
+      "detail": "本章要求先将阳历换干支历，但没有给公历到年/月/日干支、天文节气算法、地点、时区或历书版本；两完整盘的年月日时为作者给定。",
+      "handling": "原始输入四柱与日期并存保留，calendar_recomputed=false，不宣称程序独立验算真实日期或节气。"
+    },
+    {
+      "key": "zi_crosses_midnight_without_day_rollover_rule",
+      "line_start": 90,
+      "line_end": 130,
+      "kind": "boundary_convention_missing",
+      "detail": "子时23点—1点与每天从子时开始给出时支范围和起时思想，但未明确公历哪天干支在23点或0点更换、夜子早子或真太阳时。",
+      "handling": "仅从显式给定日干和钟表时支计算；跨日依赖外部已确认日柱，不悄悄选择换日制度。"
+    },
+    {
+      "key": "clock_interval_exact_endpoint",
+      "line_start": 94,
+      "line_end": 106,
+      "kind": "engineering_convention",
+      "detail": "钟表表格提供起止点，没有逐字规定恰好边界分钟秒的包含方式、夏令时或时区折返。",
+      "handling": "保留12个原始区间；代码若采用左闭右开须说明为表示约定，不把它当额外古籍条文或自动地点时间换算。"
+    },
+    {
+      "key": "wu_yang_stems_vs_chapter01_hour_halves",
+      "line_start": 114,
+      "line_end": 130,
+      "kind": "semantic_scope",
+      "detail": "本章五阳干明确为甲丙戊庚壬；第一章五阳时为甲乙丙丁戊，属于不同维度。",
+      "handling": "五鼠遁起子干按十干固有阴阳排列，不覆盖第一章五阳五阴时分类。"
+    },
+    {
+      "key": "stem_combination_transformation_conditions_absent",
+      "line_start": 130,
+      "line_end": 130,
+      "kind": "applicability_limit",
+      "detail": "原文列甲己合化土等五组对应，没有具体断案中实际合化成败的旺衰条件、阻碍或例外。",
+      "handling": "可编译有来源的五合及传统化神对应查询，不能无条件更换盘上固定干五行或自动断定已化。"
+    },
+    {
+      "key": "center_table_native_note_not_duplicate_actual_star",
+      "line_start": 267,
+      "line_end": 396,
+      "kind": "representation_constraint",
+      "detail": "两表中五宫写天禽星原始位置；273、396明确天禽随天芮转到一宫/八宫。",
+      "handling": "中五宫实际heaven_stars=[]，原始本宫说明另存native_notes；实际九星总数9，天禽只能出现一次。"
+    },
+    {
+      "key": "chief_origin_5_and_door_home_2_distinct",
+      "line_start": 351,
+      "line_end": 401,
+      "kind": "calculation_origin",
+      "detail": "阴八戊戌旬首甲午辛原在5寄2，值符天禽、值使死门；401明确从午时原5逆数四步到戌时1。",
+      "handling": "值使计数原点保持5；死门固定本宫2、布局寄宫2与计数原点5各自保存，不先寄2再数。"
+    },
+    {
+      "key": "final_door_landing_5_not_specified",
+      "line_start": 148,
+      "line_end": 403,
+      "kind": "uncovered_center_boundary",
+      "detail": "本章多次出现门移动经过5；阴例只演示原5出发到1，没有给值使最终停5时八门如何布八外宫或寄何宫。",
+      "handling": "允许输出算术落5；全人盘/全盘若需要最终寄门必须not_covered，不类推五寄二自动补全。"
+    },
+    {
+      "key": "star_center_target_dual_palaces",
+      "line_start": 57,
+      "line_end": 396,
+      "kind": "cross_chapter_boundary",
+      "detail": "本章给中五寄二、天禽随天芮；第一章404已明示天辅随时干壬落五也寄坤二。",
+      "handling": "值符原始数值落宫5与实际外圈布局宫2分别保存；用2作布局锚点但不抹除来源落5事实，和未知寄门规则分开。"
+    },
+    {
+      "key": "star_and_door_rotation_not_yin_mirror",
+      "line_start": 204,
+      "line_end": 412,
+      "kind": "algorithm_scope",
+      "detail": "阳例291/308与阴例365/403都按相同固定顺序旋转星门；神盘214/325/412才明确按阴阳反转方向。",
+      "handling": "星门沿同一固定环整体平移；阴阳只影响地盘、值使九宫计数及八神顺逆，不能镜像星门固定次序。"
+    },
+    {
+      "key": "alternate_deity_method_not_erased",
+      "line_start": 165,
+      "line_end": 412,
+      "kind": "method_isolation",
+      "detail": "本章步骤明确采用小值符追随大值符，阴例412写六合；第一章还记每旬移宫方法及太合异文。",
+      "handling": "可将本章法作为明确method编译并记录阴神序六合的本章证据，第一章异文原字和另一方法仍保存，不能回改。"
+    },
+    {
+      "key": "geju_name_only_not_judgment_rule",
+      "line_start": 297,
+      "line_end": 297,
+      "kind": "rule_scope",
+      "detail": "癸加丁名蛇夭矫仅附在具体盘的天干叠加说明，没有断案适用条件或吉凶结论。",
+      "handling": "可留作有来源格局名称/案例盘事实，天盘在前地盘在后；不可推广成无条件吉凶预测。"
+    },
+    {
+      "key": "palace_elements_only_three_explicit",
+      "line_start": 312,
+      "line_end": 316,
+      "kind": "coverage_limit",
+      "detail": "本章只直接说离九火、坤二土、兑七金，并明确水克火、二土比和与金克木。",
+      "handling": "只能新增这三宫固定属性的直接来源，不能从九星或八门元素补齐其余六宫。"
+    },
+    {
+      "key": "no_complete_historical_divination_cases",
+      "line_start": 224,
+      "line_end": 416,
+      "kind": "case_classification",
+      "detail": "两例只给起局过程，没有问事类别、用神、作者预测、反馈、续断或结果；结尾说下一步进入判断。",
+      "handling": "分类为完整排盘教学实例，完整历史断案数仍0，不生造问事或训练监督断语。"
+    },
+    {
+      "key": "metadata_figures_and_tools_not_provided",
+      "line_start": 1,
+      "line_end": 416,
+      "kind": "source_limit",
+      "detail": "未提供纸本页码版次主作者或原始图像；手盘、活盘及其他书均只在正文被提及。",
+      "handling": "按本次文本保全，全文文字盘是当前权威输入，不导入所引外书或猜原始图形；主作者等未给字段为空。"
+    },
+    {
+      "key": "wording_qizhi_40",
+      "line_start": 40,
+      "line_end": 40,
+      "kind": "text_anomaly",
+      "detail": "原文为从起支戌上起甲戌；与随后甲戌旬描述不冲突，但可能为字词疑点。",
+      "handling": "原字保存，解析依据明确的甲戌与癸未，不擅改为地支。"
+    }
+  ],
+  "chapter01_links": [
+    {
+      "key": "term_song_matches_table",
+      "chapter01_lines": [
+        144,
+        169
+      ],
+      "chapter02_lines": [
+        68,
+        80
+      ],
+      "relation": "restates",
+      "detail": "阴阳遁歌复述已入库24节气72局表，不能重复计成新的72条独立知识。"
+    },
+    {
+      "key": "palace_native_mapping",
+      "chapter01_lines": [
+        87,
+        128,
+        411,
+        418
+      ],
+      "chapter02_lines": [
+        53,
+        59
+      ],
+      "relation": "restates",
+      "detail": "后天九宫与八门固定本宫位置再次明确，中五寄二重述。"
+    },
+    {
+      "key": "sexagenary_xun_mapping",
+      "chapter01_lines": [
+        94,
+        112
+      ],
+      "chapter02_lines": [
+        36,
+        50,
+        132
+      ],
+      "relation": "restates",
+      "detail": "六甲旬首与六十甲子循环重述，新增五鼠遁是由给定日干和时支求时干。"
+    },
+    {
+      "key": "full_star_door_rotation_now_explicit",
+      "chapter01_lines": [
+        395,
+        428
+      ],
+      "chapter02_lines": [
+        204,
+        214,
+        291,
+        308,
+        365,
+        403
+      ],
+      "relation": "fills_gap",
+      "detail": "从第一章标量值符值使扩展到本章携干全九星与全八门旋转，完整阳阴两例可逐宫验证。"
+    },
+    {
+      "key": "central_xun_identity_now_explicit",
+      "chapter01_lines": [
+        397,
+        421
+      ],
+      "chapter02_lines": [
+        356,
+        363,
+        396,
+        401
+      ],
+      "relation": "fills_gap",
+      "detail": "中心旬首甲午辛的值符天禽与死门值使、禽芮同转及原5起数已有明确例证。"
+    },
+    {
+      "key": "chief_target_5_source",
+      "chapter01_lines": [
+        401,
+        404
+      ],
+      "chapter02_lines": [
+        57,
+        273,
+        396
+      ],
+      "relation": "supports_dual_representation",
+      "detail": "第一章壬寅天辅原落5寄2提供目标中心边界证据；保留原落5与外圈布局2。"
+    },
+    {
+      "key": "deity_follow_method_and_taihe_reading",
+      "chapter01_lines": [
+        441,
+        445
+      ],
+      "chapter02_lines": [
+        165,
+        214,
+        325,
+        412
+      ],
+      "relation": "method_specific_clarification",
+      "detail": "本章明确追随法且阴序写六合，可用本章编译该法，不篡改第一章太合。"
+    },
+    {
+      "key": "wuxing_scope_expansion",
+      "chapter01_lines": [
+        12,
+        14
+      ],
+      "chapter02_lines": [
+        130,
+        312,
+        316
+      ],
+      "relation": "adds_source_grounded_facts",
+      "detail": "新增五干合对应、水克火及3宫直接元素来源，未给完整五行环或全宫元素。"
+    }
+  ],
+  "algorithm_assessment": [
+    {
+      "key": "clock_hour_branch",
+      "status": "supported_for_given_wall_clock",
+      "source_lines": [
+        94,
+        108
+      ],
+      "description": "12个钟表区间对应时支；无需模型决定。",
+      "required_inputs": [
+        "explicit_local_clock_time"
+      ],
+      "uncovered": [
+        "timezone_and_DST_resolution",
+        "true_solar_time",
+        "day_rollover"
+      ]
+    },
+    {
+      "key": "five_rat_hour_pillar",
+      "status": "supported",
+      "source_lines": [
+        110,
+        130
+      ],
+      "description": "给定日干与时支，按原文五组完整12时干支表查得时柱。",
+      "required_inputs": [
+        "given_day_stem",
+        "given_hour_branch"
+      ],
+      "uncovered": [
+        "gregorian_to_day_pillar"
+      ]
+    },
+    {
+      "key": "day_yuan_bureau",
+      "status": "supported_symbolic_via_chapter01",
+      "source_lines": [
+        64,
+        82,
+        233,
+        237,
+        342
+      ],
+      "description": "给定节气与日干支依符头三元及既有表求局。",
+      "required_inputs": [
+        "given_solar_term",
+        "given_day_pillar",
+        "explicit_chaibu_method"
+      ],
+      "uncovered": [
+        "astronomical_term_at_datetime"
+      ]
+    },
+    {
+      "key": "earth_plate",
+      "status": "supported_via_chapter01_and_restatement",
+      "source_lines": [
+        85,
+        87,
+        194,
+        240,
+        242,
+        345,
+        351
+      ],
+      "description": "已知阴阳局数，固定三奇六仪顺逆排九宫。",
+      "required_inputs": [
+        "dun",
+        "bureau"
+      ],
+      "uncovered": []
+    },
+    {
+      "key": "chief_identity_central_origin",
+      "status": "supported",
+      "source_lines": [
+        135,
+        141,
+        200,
+        244,
+        254,
+        260,
+        356,
+        377,
+        383
+      ],
+      "description": "旬首六仪原宫对应星门，原宫5已明确值符禽与死门，寄2作布局。",
+      "required_inputs": [
+        "earth_plate",
+        "hour_pillar"
+      ],
+      "uncovered": [
+        "independent_calendar"
+      ]
+    },
+    {
+      "key": "full_heaven_stars_and_carried_stems",
+      "status": "supported_with_center_dual_fields",
+      "source_lines": [
+        204,
+        206,
+        263,
+        273,
+        289,
+        291,
+        361,
+        365,
+        386,
+        396
+      ],
+      "description": "八外宫按固定顺序整体转动，天禽携原5干并随天芮原2宫成组，各星携其原地盘干；不由阴遁反向星序。",
+      "required_inputs": [
+        "earth_plate",
+        "chief_star",
+        "chief_original_landing",
+        "explicit_follow_hour_stem_method"
+      ],
+      "uncovered": [
+        "missing_clock_or_calendar_inputs"
+      ]
+    },
+    {
+      "key": "chief_gate_nine_palace_count",
+      "status": "supported",
+      "source_lines": [
+        148,
+        158,
+        304,
+        356,
+        401
+      ],
+      "description": "从旬首原始宫按旬内时间偏移阳加阴减，以九宫循环计值使；原5不能先换成寄2。",
+      "required_inputs": [
+        "xun_original_palace",
+        "hour_offset_in_xun",
+        "dun"
+      ],
+      "uncovered": []
+    },
+    {
+      "key": "full_doors",
+      "status": "supported_except_final_center",
+      "source_lines": [
+        208,
+        212,
+        308,
+        401,
+        405
+      ],
+      "description": "值使落八外宫后按固定八门顺序整体转布，阴阳不镜像门序。",
+      "required_inputs": [
+        "chief_door",
+        "chief_gate_landing_outside_center"
+      ],
+      "uncovered": [
+        "chief_gate_final_landing_5_hosting"
+      ]
+    },
+    {
+      "key": "full_deities_follow_chief",
+      "status": "supported_method_specific",
+      "source_lines": [
+        165,
+        165,
+        214,
+        214,
+        323,
+        325,
+        410,
+        412
+      ],
+      "description": "选择小值符随大值符法，神值符占星值符的外圈布局宫，阳顺阴逆布其余七神。",
+      "required_inputs": [
+        "explicit_deity_follow_method",
+        "chief_star_layout_palace",
+        "dun"
+      ],
+      "uncovered": [
+        "per_xun_deity_method"
+      ]
+    },
+    {
+      "key": "final_door_center_hosting",
+      "status": "not_covered",
+      "source_lines": [
+        148,
+        150,
+        351,
+        356,
+        401
+      ],
+      "description": "本文没有值使最终到5的全门盘寄宫规定。",
+      "required_inputs": [
+        "additional_explicit_source_for_final_center_door"
+      ],
+      "uncovered": [
+        "cannot_auto_host_at_2"
+      ]
+    },
+    {
+      "key": "civil_datetime_to_full_chart",
+      "status": "not_covered",
+      "source_lines": [
+        188,
+        188,
+        226,
+        228,
+        335,
+        337
+      ],
+      "description": "实际公历转四柱、节气时刻和日界制度未给，不能因两例日期存在就宣称自动真实起盘。",
+      "required_inputs": [
+        "calendar_algorithm_source",
+        "timezone",
+        "location_policy",
+        "day_rollover_convention"
+      ],
+      "uncovered": []
+    },
+    {
+      "key": "five_stem_combinations",
+      "status": "supported_as_traditional_correspondence",
+      "source_lines": [
+        130,
+        130
+      ],
+      "description": "5个干对与化神为有来源对应关系。",
+      "required_inputs": [
+        "two_explicit_stems"
+      ],
+      "uncovered": [
+        "real_chart_transformation_applicability_conditions"
+      ]
+    }
+  ],
+  "full_rotation_verdict": {
+    "supported": true,
+    "scope": "symbolic complete paper-chart layout for explicit dun/bureau/hour-pillar with the selected follow-chief deity method, excluding unresolved final central gate landing",
+    "clockwise_palace_ring": [
+      4,
+      9,
+      2,
+      7,
+      6,
+      1,
+      8,
+      3
+    ],
+    "star_ring": [
+      "天辅星",
+      "天英星",
+      "天芮星",
+      "天柱星",
+      "天心星",
+      "天蓬星",
+      "天任星",
+      "天冲星"
+    ],
+    "central_star_pair": {
+      "carrier_star": "天芮星",
+      "attached_star": "天禽星",
+      "original_palace": 5,
+      "host_home_palace": 2
+    },
+    "door_ring": [
+      "杜门",
+      "景门",
+      "死门",
+      "惊门",
+      "开门",
+      "休门",
+      "生门",
+      "伤门"
+    ],
+    "deity_sequence": [
+      "值符",
+      "螣蛇",
+      "太阴",
+      "六合",
+      "白虎",
+      "玄武",
+      "九地",
+      "九天"
+    ],
+    "star_and_door_sequence_direction": "same fixed clockwise sequence in both dun directions; rotate anchor without reflecting sequence",
+    "deity_sequence_direction": "yang clockwise; yin anticlockwise",
+    "gate_center_policy": "retain numeric original landing 5; return not_covered for complete gate layout until final-center rule supplied",
+    "star_target_center_policy": "retain original landing5 and layout2, cite chapter01 L404 plus chapter02 L57/273/396",
+    "actual_center_star_policy": "no duplicated actual Tianqin at palace5; native note separate"
+  },
+  "validation_limits": [
+    "Only manual transcription of supplied source expected tables; no call to tested engine used.",
+    "Source-given dates/four pillars/solar terms not independently recalculated.",
+    "Original text confirmation remains pending and distinct from structural or symbolic checks.",
+    "No role-selection or prediction rules and no complete historical judgment case in this chapter.",
+    "No other books, web materials, prior projects or model-memory rules imported."
+  ]
+}

@@ -19,3 +19,5 @@ explicitness 区分 author_explicit、not_explicit、agent_hypothesis。text 可
 冻结后不可改 split、unfreeze 或追加任务输入；同家族跨组违反唯一约束。新发现来源或家族重复必须新 release，冻结集不静默改写。
 
 每次完整案例验收检查：全文、所有盘与对应事件、逐轮对话、作者显式依据、预测反馈边界、来源完整性、跨书重复、候选任务隔离；不能因程序不能复算就否定用户已确认资料。
+
+第二章两张完整起局示例没有问事背景、作者断语、预测或反馈，当前归为worked_example知识记录，整体保存原文范围和source chart，不创建虚构event/case来凑数。历史charts表保持0不表示源盘丢失；其结构化九宫保存在对应完整教学例。将来真实断案资料按本政策独立入库。

@@ -19,7 +19,7 @@ PYTHONPATH=src python3 -m qimenllm sync --message 'Update QimenLLM project and s
 1. 原文/结构化数据事务提交，不丢失本地资料。
 2. `export_snapshot` 审计并从同一个 SQLite 读事务导出全部权威表，保存真实原文字节与来源，不导出临时检索索引。
 3. 验证 origin 与目标一致，并通过 GitHub API 确认目标仍为私有；网络/可见性验证失败时不 stage/push 数据。
-4. 用当前 src 跑自动回归，然后 stage 已跟踪变更及受控项目目录；提交源码、文档、数据快照。
+4. 用当前 src 跑自动回归，然后 stage 已跟踪变更及受控项目目录；提交源码、文档、数据快照，以及data/structured、provenance、rules、cases、splits中新建的维护文件。
 5. 正常 git push，不 force。再用 git ls-remote 核对 main 等于本地 HEAD，才生成 synced 回执。回执在 work/github-sync.json，不将授权或凭据入 Git。
 
 CLI import-chapter / annotate 自动调用此流程。网络、权限或 push 失败：输出 pending、退出码2，明确本地资料已保存；恢复后运行 sync，不重复编造或覆盖资料。低层 Python 导入接口供事务/测试使用，不隐式联网；Codex 直接用该接口维护后仍须完成 sync 才报告整个更新任务完成。

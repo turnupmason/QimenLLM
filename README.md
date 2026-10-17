@@ -1,8 +1,8 @@
 # QimenLLM
 
-古籍知识、确定性计算、完整案例与可替换语言模型结合的研究工程。**当前Phase 1：已接收《神奇之门》“时家奇门演局的规律”七节，支持有来源的基础教学计算与原文检索；完整排盘、专业问事和模型训练尚未完成。**
+古籍知识、确定性计算、完整案例与可替换语言模型结合的研究工程。**当前Phase 1：已接收《神奇之门》前两章，支持有来源的基础计算、明确符号条件下的纸上转盘与原文检索；公历自动起盘、专业问事和模型训练尚未完成。**
 
-执行约束见 [AGENTS](AGENTS.md)，[完整用户总指令](docs/user_instructions/master_spec_2026-10-17.txt)，[当前进度](docs/STATUS.md)，[首章入库报告](docs/ingestion/SHENQI_CHAPTER01.md)。没有读取或继承旧项目。
+执行约束见 [AGENTS](AGENTS.md)，[完整用户总指令](docs/user_instructions/master_spec_2026-10-17.txt)，[当前进度](docs/STATUS.md)，[首章入库报告](docs/ingestion/SHENQI_CHAPTER01.md)、[第二章报告](docs/ingestion/SHENQI_CHAPTER02.md)。没有读取或继承旧项目。
 
 ## 运行与恢复
 
@@ -16,6 +16,8 @@ PYTHONPATH=src python3 -m qimenllm audit
 PYTHONPATH=src python3 -m qimenllm learn '符头'
 PYTHONPATH=src python3 -m qimenllm calculate earth_plate --args '{"dun":"阳遁","bureau":3}'
 PYTHONPATH=src python3 -m qimenllm calculate bureau --args '{"solar_term":"冬至","day_ganzhi":"甲子","method":"chaibu"}'
+PYTHONPATH=src python3 -m qimenllm calculate hour_ganzhi --args '{"day_stem":"丙","hour_branch":"戌"}'
+PYTHONPATH=src python3 -m qimenllm calculate symbolic_chart --args '{"dun":"阴遁","bureau":8,"hour_ganzhi":"戊戌","method":"shenqi_ch2_paper_v1"}'
 PYTHONPATH=src python3 -m qimenllm ask '我最近想换工作'
 ```
 
@@ -25,12 +27,12 @@ PYTHONPATH=src python3 -m qimenllm ask '我最近想换工作'
 
 ```sh
 PYTHONPATH=src python3 -m qimenllm serve --port 8765
-PYTHONPATH=src python3 scripts/smoke_api.py --chapter01
+PYTHONPATH=src python3 scripts/smoke_api.py --chapter01 --chapter02
 ```
 
 只监听127.0.0.1。GET /health；POST /v1/ask：`{"text":"问题"}`；/v1/learn：`{"term":"符头"}`；/v1/calculate：`{"operation":"earth_plate","args":{"dun":"阳遁","bureau":3}}`。没有维护写路由，不是公众服务器。
 
-问事只通过QimenService.ask，教学计算通过QimenService.calculate；CLI/API/集成测试共用核心模块，实际运行查询数据库。教学对象不是完整Chart，不靠模型记忆补全。
+问事只通过QimenService.ask，教学计算通过QimenService.calculate；CLI/API/集成测试共用核心模块，实际运行查询数据库。符号转盘可生成同一不可变Chart，标symbolic_verified而非engine_verified；不靠模型记忆补全。显式提供casting_method及context条件时ask也调用相同计算器，但仍不启用专业断案。
 
 ## 数据与目录
 
@@ -38,7 +40,7 @@ src/qimenllm/按knowledge/casting/retrieval/rules/cases/reasoning/models/verific
 
 data/qimenllm.sqlite3是本地运行库，raw_books是原字节镜像，二者不直接入Git。**实际原文字节与全部权威表**保存在data/snapshots/current，可恢复；整理和来源测试在data/structured/shenqi，来源与验收在data/provenance。schema v1见src/qimenllm/knowledge/migrations/001_initial.sql及[SCHEMA](docs/SCHEMA.md)。
 
-首章40个上下文块、12编译族、21疑点/边界、11演算教学例；历史问事案例、用神规则、训练任务仍0，详见[覆盖](docs/KNOWLEDGE_COVERAGE.md)。
+累计72个上下文块、20编译族、43疑点/边界、14演算教学例（含第二章2张完整来源盘）；历史问事案例、用神规则、训练任务仍0，详见[覆盖](docs/KNOWLEDGE_COVERAGE.md)。
 
 ## 每次更新同步GitHub
 
@@ -46,8 +48,9 @@ data/qimenllm.sqlite3是本地运行库，raw_books是原字节镜像，二者�
 
 ```sh
 PYTHONPATH=src python3 scripts/import_shenqi_chapter01.py
+PYTHONPATH=src python3 scripts/import_shenqi_chapter02.py
 PYTHONPATH=src python3 -m qimenllm export-snapshot
 PYTHONPATH=src python3 -m qimenllm sync --message 'Update project and source data'
 ```
 
-首章脚本只接受本次确切哈希，重放不重复入库；新章/修订另走导入。当前云会话若命令行API受限，Codex通过连接器核实私有状态，再正常Git HTTPS推送并核对远端；pending不算完成。维护和恢复见[GITHUB_SYNC](docs/GITHUB_SYNC.md)、[IMPORT_PROTOCOL](docs/IMPORT_PROTOCOL.md)。不提交密钥、私人问事或模型权重，不公开分发原书。
+各章重放脚本只接受对应上传的确切哈希，重放不重复入库；新章/修订另走导入。当前云会话若命令行API受限，Codex通过连接器核实私有状态，再正常Git HTTPS推送并核对远端；pending不算完成。维护和恢复见[GITHUB_SYNC](docs/GITHUB_SYNC.md)、[IMPORT_PROTOCOL](docs/IMPORT_PROTOCOL.md)。不提交密钥、私人问事或模型权重，不公开分发原书。

@@ -1,0 +1,892 @@
+{
+  "source_sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+  "source_line_count": 416,
+  "expectation_method": "manual transcription of source tables and prose; no tested engine invoked",
+  "chart_expectations": [
+    {
+      "key": "paper_yang3_1995_06_11",
+      "line_start": 224,
+      "line_end": 334,
+      "kind": "casting_worked_example_not_historical_judgment",
+      "given_inputs": {
+        "civil_datetime_as_written": "1995年6月11日上午9点30分",
+        "civil_datetime_naive": "1995-06-11T09:30:00",
+        "timezone": null,
+        "location": null,
+        "four_pillars": {
+          "year": "乙亥",
+          "month": "壬午",
+          "day": "癸酉",
+          "hour": "丁巳"
+        },
+        "lunar_date_as_written": "五月十四日",
+        "solar_term": "芒种",
+        "yuan": "中元",
+        "fu_head": "己巳",
+        "dun": "阳遁",
+        "bureau": 3
+      },
+      "duty": {
+        "xun_head": "甲寅",
+        "hidden_stem": "癸",
+        "xun_original_palace": 8,
+        "xun_hosted_palace": null,
+        "zhifu_star": "天任星",
+        "zhifu_home_palace": 8,
+        "zhifu_landing_original_palace": 9,
+        "zhifu_layout_palace": 9,
+        "zhishi_door": "生门",
+        "zhishi_home_palace": 8,
+        "zhishi_count_origin_palace": 8,
+        "zhishi_landing_original_palace": 2,
+        "zhishi_layout_palace": 2
+      },
+      "palaces": {
+        "1": {
+          "earth_stem": "丙",
+          "heaven_stars": [
+            {
+              "name": "天芮星",
+              "carried_stem": "乙"
+            },
+            {
+              "name": "天禽星",
+              "carried_stem": "庚"
+            }
+          ],
+          "door": "景门",
+          "deity": "白虎",
+          "source_lines": [
+            270
+          ]
+        },
+        "2": {
+          "earth_stem": "乙",
+          "heaven_stars": [
+            {
+              "name": "天冲星",
+              "carried_stem": "戊"
+            }
+          ],
+          "door": "生门",
+          "deity": "螣蛇",
+          "source_lines": [
+            265
+          ]
+        },
+        "3": {
+          "earth_stem": "戊",
+          "heaven_stars": [
+            {
+              "name": "天心星",
+              "carried_stem": "辛"
+            }
+          ],
+          "door": "惊门",
+          "deity": "九地",
+          "source_lines": [
+            266
+          ]
+        },
+        "4": {
+          "earth_stem": "己",
+          "heaven_stars": [
+            {
+              "name": "天蓬星",
+              "carried_stem": "丙"
+            }
+          ],
+          "door": "开门",
+          "deity": "九天",
+          "source_lines": [
+            263
+          ]
+        },
+        "5": {
+          "earth_stem": "庚",
+          "heaven_stars": [],
+          "door": null,
+          "deity": null,
+          "source_lines": [
+            267
+          ]
+        },
+        "6": {
+          "earth_stem": "辛",
+          "heaven_stars": [
+            {
+              "name": "天英星",
+              "carried_stem": "丁"
+            }
+          ],
+          "door": "杜门",
+          "deity": "六合",
+          "source_lines": [
+            271
+          ]
+        },
+        "7": {
+          "earth_stem": "壬",
+          "heaven_stars": [
+            {
+              "name": "天辅星",
+              "carried_stem": "己"
+            }
+          ],
+          "door": "伤门",
+          "deity": "太阴",
+          "source_lines": [
+            268
+          ]
+        },
+        "8": {
+          "earth_stem": "癸",
+          "heaven_stars": [
+            {
+              "name": "天柱星",
+              "carried_stem": "壬"
+            }
+          ],
+          "door": "死门",
+          "deity": "玄武",
+          "source_lines": [
+            269
+          ]
+        },
+        "9": {
+          "earth_stem": "丁",
+          "heaven_stars": [
+            {
+              "name": "天任星",
+              "carried_stem": "癸"
+            }
+          ],
+          "door": "休门",
+          "deity": "值符",
+          "source_lines": [
+            264
+          ]
+        }
+      },
+      "native_notes": [
+        {
+          "palace": 5,
+          "text": "天禽星原始位置",
+          "actual_landing_palace": 1,
+          "source_lines": [
+            267,
+            273
+          ]
+        }
+      ],
+      "evidence_sections": {
+        "inputs": [
+          226,
+          228
+        ],
+        "bureau": [
+          233,
+          235,
+          237
+        ],
+        "chief": [
+          244,
+          254,
+          260,
+          278,
+          282
+        ],
+        "heaven": [
+          263,
+          273,
+          289,
+          291
+        ],
+        "doors": [
+          300,
+          316
+        ],
+        "deities": [
+          319,
+          325
+        ]
+      },
+      "calendar_recomputed": false,
+      "professional_analysis_completed": false
+    },
+    {
+      "key": "paper_yin8_1995_08_13",
+      "line_start": 335,
+      "line_end": 416,
+      "kind": "casting_worked_example_not_historical_judgment",
+      "given_inputs": {
+        "civil_datetime_as_written": "1995年8月13日晚上8点",
+        "civil_datetime_naive": "1995-08-13T20:00:00",
+        "timezone": null,
+        "location": null,
+        "four_pillars": {
+          "year": "乙亥",
+          "month": "甲申",
+          "day": "丙子",
+          "hour": "戊戌"
+        },
+        "lunar_date_as_written": "七月十八日",
+        "solar_term": "立秋",
+        "yuan": "下元",
+        "fu_head": "甲戌",
+        "dun": "阴遁",
+        "bureau": 8
+      },
+      "duty": {
+        "xun_head": "甲午",
+        "hidden_stem": "辛",
+        "xun_original_palace": 5,
+        "xun_hosted_palace": 2,
+        "zhifu_star": "天禽星",
+        "zhifu_home_palace": 5,
+        "zhifu_landing_original_palace": 8,
+        "zhifu_layout_palace": 8,
+        "zhishi_door": "死门",
+        "zhishi_home_palace": 2,
+        "zhishi_count_origin_palace": 5,
+        "zhishi_landing_original_palace": 1,
+        "zhishi_layout_palace": 1
+      },
+      "palaces": {
+        "1": {
+          "earth_stem": "丙",
+          "heaven_stars": [
+            {
+              "name": "天英星",
+              "carried_stem": "乙"
+            }
+          ],
+          "door": "死门",
+          "deity": "螣蛇",
+          "source_lines": [
+            393
+          ]
+        },
+        "2": {
+          "earth_stem": "丁",
+          "heaven_stars": [
+            {
+              "name": "天任星",
+              "carried_stem": "戊"
+            }
+          ],
+          "door": "伤门",
+          "deity": "白虎",
+          "source_lines": [
+            388
+          ]
+        },
+        "3": {
+          "earth_stem": "癸",
+          "heaven_stars": [
+            {
+              "name": "天柱星",
+              "carried_stem": "己"
+            }
+          ],
+          "door": "开门",
+          "deity": "九天",
+          "source_lines": [
+            389
+          ]
+        },
+        "4": {
+          "earth_stem": "壬",
+          "heaven_stars": [
+            {
+              "name": "天心星",
+              "carried_stem": "庚"
+            }
+          ],
+          "door": "休门",
+          "deity": "九地",
+          "source_lines": [
+            386
+          ]
+        },
+        "5": {
+          "earth_stem": "辛",
+          "heaven_stars": [],
+          "door": null,
+          "deity": null,
+          "source_lines": [
+            390
+          ]
+        },
+        "6": {
+          "earth_stem": "庚",
+          "heaven_stars": [
+            {
+              "name": "天辅星",
+              "carried_stem": "壬"
+            }
+          ],
+          "door": "景门",
+          "deity": "太阴",
+          "source_lines": [
+            394
+          ]
+        },
+        "7": {
+          "earth_stem": "己",
+          "heaven_stars": [
+            {
+              "name": "天冲星",
+              "carried_stem": "癸"
+            }
+          ],
+          "door": "杜门",
+          "deity": "六合",
+          "source_lines": [
+            391
+          ]
+        },
+        "8": {
+          "earth_stem": "戊",
+          "heaven_stars": [
+            {
+              "name": "天禽星",
+              "carried_stem": "辛"
+            },
+            {
+              "name": "天芮星",
+              "carried_stem": "丁"
+            }
+          ],
+          "door": "惊门",
+          "deity": "值符",
+          "source_lines": [
+            392
+          ]
+        },
+        "9": {
+          "earth_stem": "乙",
+          "heaven_stars": [
+            {
+              "name": "天蓬星",
+              "carried_stem": "丙"
+            }
+          ],
+          "door": "生门",
+          "deity": "玄武",
+          "source_lines": [
+            387
+          ]
+        }
+      },
+      "native_notes": [
+        {
+          "palace": 5,
+          "text": "天禽星原始位置",
+          "actual_landing_palace": 8,
+          "source_lines": [
+            390,
+            396
+          ]
+        }
+      ],
+      "evidence_sections": {
+        "inputs": [
+          335,
+          337,
+          372,
+          376
+        ],
+        "bureau": [
+          342
+        ],
+        "chief": [
+          356,
+          377,
+          383
+        ],
+        "heaven": [
+          361,
+          365,
+          386,
+          396
+        ],
+        "doors": [
+          399,
+          405
+        ],
+        "deities": [
+          408,
+          414
+        ]
+      },
+      "calendar_recomputed": false,
+      "professional_analysis_completed": false
+    }
+  ],
+  "hour_pillar_groups": [
+    {
+      "day_stems": [
+        "甲",
+        "己"
+      ],
+      "hours": [
+        "甲子",
+        "乙丑",
+        "丙寅",
+        "丁卯",
+        "戊辰",
+        "己巳",
+        "庚午",
+        "辛未",
+        "壬申",
+        "癸酉",
+        "甲戌",
+        "乙亥"
+      ],
+      "source_lines": [
+        120
+      ],
+      "requires_given_day_stem": true,
+      "day_rollover_inferred": false
+    },
+    {
+      "day_stems": [
+        "乙",
+        "庚"
+      ],
+      "hours": [
+        "丙子",
+        "丁丑",
+        "戊寅",
+        "己卯",
+        "庚辰",
+        "辛巳",
+        "壬午",
+        "癸未",
+        "甲申",
+        "乙酉",
+        "丙戌",
+        "丁亥"
+      ],
+      "source_lines": [
+        122
+      ],
+      "requires_given_day_stem": true,
+      "day_rollover_inferred": false
+    },
+    {
+      "day_stems": [
+        "丙",
+        "辛"
+      ],
+      "hours": [
+        "戊子",
+        "己丑",
+        "庚寅",
+        "辛卯",
+        "壬辰",
+        "癸巳",
+        "甲午",
+        "乙未",
+        "丙申",
+        "丁酉",
+        "戊戌",
+        "己亥"
+      ],
+      "source_lines": [
+        124
+      ],
+      "requires_given_day_stem": true,
+      "day_rollover_inferred": false
+    },
+    {
+      "day_stems": [
+        "丁",
+        "壬"
+      ],
+      "hours": [
+        "庚子",
+        "辛丑",
+        "壬寅",
+        "癸卯",
+        "甲辰",
+        "乙巳",
+        "丙午",
+        "丁未",
+        "戊申",
+        "己酉",
+        "庚戌",
+        "辛亥"
+      ],
+      "source_lines": [
+        126
+      ],
+      "requires_given_day_stem": true,
+      "day_rollover_inferred": false
+    },
+    {
+      "day_stems": [
+        "戊",
+        "癸"
+      ],
+      "hours": [
+        "壬子",
+        "癸丑",
+        "甲寅",
+        "乙卯",
+        "丙辰",
+        "丁巳",
+        "戊午",
+        "己未",
+        "庚申",
+        "辛酉",
+        "壬戌",
+        "癸亥"
+      ],
+      "source_lines": [
+        128
+      ],
+      "requires_given_day_stem": true,
+      "day_rollover_inferred": false
+    }
+  ],
+  "clock_branch_expectations": [
+    {
+      "branch": "子",
+      "start_hour": 23,
+      "end_hour": 1,
+      "source_interval_text": "23点—1点",
+      "representative_clock_time": "23:30",
+      "expected_branch": "子",
+      "crosses_midnight": true,
+      "source_lines": [
+        95
+      ],
+      "endpoint_policy": "source only supplies range; representative sample avoids endpoints"
+    },
+    {
+      "branch": "丑",
+      "start_hour": 1,
+      "end_hour": 3,
+      "source_interval_text": "1—3点",
+      "representative_clock_time": "01:30",
+      "expected_branch": "丑",
+      "crosses_midnight": false,
+      "source_lines": [
+        96
+      ],
+      "endpoint_policy": "source only supplies range; representative sample avoids endpoints"
+    },
+    {
+      "branch": "寅",
+      "start_hour": 3,
+      "end_hour": 5,
+      "source_interval_text": "3—5点",
+      "representative_clock_time": "03:30",
+      "expected_branch": "寅",
+      "crosses_midnight": false,
+      "source_lines": [
+        97
+      ],
+      "endpoint_policy": "source only supplies range; representative sample avoids endpoints"
+    },
+    {
+      "branch": "卯",
+      "start_hour": 5,
+      "end_hour": 7,
+      "source_interval_text": "5—7点",
+      "representative_clock_time": "05:30",
+      "expected_branch": "卯",
+      "crosses_midnight": false,
+      "source_lines": [
+        98
+      ],
+      "endpoint_policy": "source only supplies range; representative sample avoids endpoints"
+    },
+    {
+      "branch": "辰",
+      "start_hour": 7,
+      "end_hour": 9,
+      "source_interval_text": "7—9点",
+      "representative_clock_time": "07:30",
+      "expected_branch": "辰",
+      "crosses_midnight": false,
+      "source_lines": [
+        99
+      ],
+      "endpoint_policy": "source only supplies range; representative sample avoids endpoints"
+    },
+    {
+      "branch": "巳",
+      "start_hour": 9,
+      "end_hour": 11,
+      "source_interval_text": "9—11点",
+      "representative_clock_time": "09:30",
+      "expected_branch": "巳",
+      "crosses_midnight": false,
+      "source_lines": [
+        100
+      ],
+      "endpoint_policy": "source only supplies range; representative sample avoids endpoints"
+    },
+    {
+      "branch": "午",
+      "start_hour": 11,
+      "end_hour": 13,
+      "source_interval_text": "11—13点",
+      "representative_clock_time": "11:30",
+      "expected_branch": "午",
+      "crosses_midnight": false,
+      "source_lines": [
+        101
+      ],
+      "endpoint_policy": "source only supplies range; representative sample avoids endpoints"
+    },
+    {
+      "branch": "未",
+      "start_hour": 13,
+      "end_hour": 15,
+      "source_interval_text": "13—15点",
+      "representative_clock_time": "13:30",
+      "expected_branch": "未",
+      "crosses_midnight": false,
+      "source_lines": [
+        102
+      ],
+      "endpoint_policy": "source only supplies range; representative sample avoids endpoints"
+    },
+    {
+      "branch": "申",
+      "start_hour": 15,
+      "end_hour": 17,
+      "source_interval_text": "15—17点",
+      "representative_clock_time": "15:30",
+      "expected_branch": "申",
+      "crosses_midnight": false,
+      "source_lines": [
+        103
+      ],
+      "endpoint_policy": "source only supplies range; representative sample avoids endpoints"
+    },
+    {
+      "branch": "酉",
+      "start_hour": 17,
+      "end_hour": 19,
+      "source_interval_text": "17—19点",
+      "representative_clock_time": "17:30",
+      "expected_branch": "酉",
+      "crosses_midnight": false,
+      "source_lines": [
+        104
+      ],
+      "endpoint_policy": "source only supplies range; representative sample avoids endpoints"
+    },
+    {
+      "branch": "戌",
+      "start_hour": 19,
+      "end_hour": 21,
+      "source_interval_text": "19—21点",
+      "representative_clock_time": "19:30",
+      "expected_branch": "戌",
+      "crosses_midnight": false,
+      "source_lines": [
+        105
+      ],
+      "endpoint_policy": "source only supplies range; representative sample avoids endpoints"
+    },
+    {
+      "branch": "亥",
+      "start_hour": 21,
+      "end_hour": 23,
+      "source_interval_text": "21—23点",
+      "representative_clock_time": "21:30",
+      "expected_branch": "亥",
+      "crosses_midnight": false,
+      "source_lines": [
+        106
+      ],
+      "endpoint_policy": "source only supplies range; representative sample avoids endpoints"
+    }
+  ],
+  "stem_combination_expectations": [
+    {
+      "stems": [
+        "甲",
+        "己"
+      ],
+      "relation": "合",
+      "transformation_element": "土",
+      "source_phrase": "甲、己合化土",
+      "source_lines": [
+        130
+      ],
+      "scope": "traditional_correspondence_only",
+      "chart_transformation_applicability": "not_given; do not overwrite fixed stem elements"
+    },
+    {
+      "stems": [
+        "乙",
+        "庚"
+      ],
+      "relation": "合",
+      "transformation_element": "金",
+      "source_phrase": "乙、庚合化金",
+      "source_lines": [
+        130
+      ],
+      "scope": "traditional_correspondence_only",
+      "chart_transformation_applicability": "not_given; do not overwrite fixed stem elements"
+    },
+    {
+      "stems": [
+        "丙",
+        "辛"
+      ],
+      "relation": "合",
+      "transformation_element": "水",
+      "source_phrase": "丙、辛合化水",
+      "source_lines": [
+        130
+      ],
+      "scope": "traditional_correspondence_only",
+      "chart_transformation_applicability": "not_given; do not overwrite fixed stem elements"
+    },
+    {
+      "stems": [
+        "丁",
+        "壬"
+      ],
+      "relation": "合",
+      "transformation_element": "木",
+      "source_phrase": "丁、壬合化木",
+      "source_lines": [
+        130
+      ],
+      "scope": "traditional_correspondence_only",
+      "chart_transformation_applicability": "not_given; do not overwrite fixed stem elements"
+    },
+    {
+      "stems": [
+        "戊",
+        "癸"
+      ],
+      "relation": "合",
+      "transformation_element": "火",
+      "source_phrase": "戊、癸合化火",
+      "source_lines": [
+        130
+      ],
+      "scope": "traditional_correspondence_only",
+      "chart_transformation_applicability": "not_given; do not overwrite fixed stem elements"
+    }
+  ],
+  "element_relation_expectations": [
+    {
+      "source": "水",
+      "relation": "克",
+      "target": "火",
+      "source_lines": [
+        312
+      ],
+      "context": "休门属水，离九宫属火，水克火，即门克宫"
+    }
+  ],
+  "palace_element_expectations": [
+    {
+      "palace": 9,
+      "element": "火",
+      "source_lines": [
+        312
+      ]
+    },
+    {
+      "palace": 2,
+      "element": "土",
+      "source_lines": [
+        314
+      ]
+    },
+    {
+      "palace": 7,
+      "element": "金",
+      "source_lines": [
+        316
+      ]
+    }
+  ],
+  "additional_symbolic_examples": [
+    {
+      "key": "palm_yang2_wuyin_renxu",
+      "source_chapter": 2,
+      "source_lines": [
+        152,
+        154,
+        156,
+        158
+      ],
+      "given_inputs": {
+        "day_pillar": "戊寅",
+        "hour_pillar": "壬戌",
+        "dun": "阳遁",
+        "bureau": 2
+      },
+      "expected": {
+        "xun_head": "甲寅",
+        "hidden_stem": "癸",
+        "xun_original_palace": 7,
+        "zhifu_star": "天柱星",
+        "zhifu_landing_original_palace": 6,
+        "zhifu_layout_palace": 6,
+        "zhishi_door": "惊门",
+        "zhishi_count_origin_palace": 7,
+        "zhishi_landing_original_palace": 6
+      },
+      "not_given": "具体公历年份、节气、时区未提供；阳二局作为原文给定条件"
+    },
+    {
+      "key": "prior_chapter_star_target_original5_layout2",
+      "source_chapter": 1,
+      "source_lines": [
+        398,
+        400,
+        404
+      ],
+      "supporting_chapter02_lines": [
+        57,
+        273,
+        396
+      ],
+      "given_inputs": {
+        "dun": "阳遁",
+        "bureau": 1,
+        "hour_pillar": "壬寅"
+      },
+      "expected": {
+        "zhifu_star": "天辅星",
+        "zhifu_landing_original_palace": 5,
+        "zhifu_layout_palace": 2
+      },
+      "scope": "explicit cross-chapter center-target evidence; not a newly supplied second-chapter full chart"
+    },
+    {
+      "key": "door_final_center_unresolved",
+      "source_chapter": 2,
+      "source_lines": [
+        148,
+        150,
+        401
+      ],
+      "expected_status": "not_covered_for_complete_gate_layout",
+      "reason": "未给值使最终到中五时寄门规则；不能由中五地盘或星盘寄二推成门盘寄二",
+      "not_a_source_full_chart": true
+    }
+  ],
+  "validation_limits": [
+    "Only manual transcription of supplied source expected tables; no call to tested engine used.",
+    "Source-given dates/four pillars/solar terms not independently recalculated.",
+    "Original text confirmation remains pending and distinct from structural or symbolic checks.",
+    "No role-selection or prediction rules and no complete historical judgment case in this chapter.",
+    "No other books, web materials, prior projects or model-memory rules imported."
+  ]
+}

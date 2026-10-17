@@ -41,3 +41,13 @@ PYTHONPATH=src python3 scripts/import_shenqi_chapter01.py
 可信维护过程中可用 --local-only 分阶段检查或针对临时库重建；这会明确输出github_sync=pending，不能据此交付。全部工作完成后必须导出当前快照、测试、推送并核对远端。脚本不执行训练、不读取其他书或旧项目。
 
 本次正文完整保留，但用户尚未明确校勘确认，状态pending与教学算法源码测试独立；不需为继续保存已提供材料额外确认。后续章节仍按用户输入顺序，不能直接套用首章算法填缺失规则。细节见 ingestion/SHENQI_CHAPTER01.md。
+
+## 第二章重放
+
+```sh
+PYTHONPATH=src python3 scripts/import_shenqi_chapter02.py
+```
+
+只接受本次第二章确切原文字节SHA，保留已有book键、chapter-02和顺序2；无confirmed推定。安装使用显式chapter02 compiler profile，分别保存上下文、质量记录、完整演算例及8编译族。不自动读其他书，纸上十步仅流程参考，公历转换没有给算法就不编造。
+
+跨章运行需要首章既有数据：新设备优先恢复完整current快照，或分别重放两章脚本。--local-only只供分阶段维护/临时验证，会输出pending；最终仍必须导出、测试、push和远端核对。新增结构化JSON及来源/验收也纳入自动同步的受控目录。新章继续按用户完整章节输入，不把第二章两张教学盘当历史断案或训练反馈。

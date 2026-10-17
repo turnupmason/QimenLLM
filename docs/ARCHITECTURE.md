@@ -77,3 +77,13 @@ CLI calculate、POST /v1/calculate、专业来源回归都调用 QimenService.ca
 本章原文pending与编译verified-against-provided-text分别报告。教学编译不赋予正式角色绑定权限；角色rules表仍0。完整天盘、八神转布、自然语言解释事实校验仍需后续独立验收。
 
 人工整理安装器先校验原文SHA、整章覆盖、数据族字段及支持组引用，再追加注释和编译条目；注释与编译是两个事务，意外故障可能留下可审计的部分注释。幂等重放可恢复，不宣称整个跨事务安装原子化。schema v1不变；本轮不需要迁移。
+
+## 第二章：符号转盘与同一不可变盘
+
+PaperCalculator继承来源加载与证据协议，通过两个显式method_id分别查询两章编译族；chapter02 compiler profile只追加本章方法和条目，未改首章原文、方法或migration。32上下文与完整教学例保留，原书盘以worked_example整体存，不制造不存在的历史事件。
+
+CLI/API calculate symbolic_chart → QimenService.calculate → PaperCalculator → 实际DB旋转约定与首章属性 → 原宫/落宫/寄宫分开的布局。每宫视图、heaven_plate/earth_plate/doors/deities均从同一次计算投影，星与所携干绑定；不是另算的多份盘。输出有chart_id、方法版本、来源及scope。
+
+显式Inquiry.casting_method=shenqi_ch2_paper_v1且context有dun/bureau/hour_ganzhi时，QimenService.ask的SourceCastingEngine调用相同PaperCalculator并把完全相同的payload序列化成冻结Chart；不另实现第二套算法。symbolic_verified不能满足正式engine_verified门槛，即使未来有候选角色也不调用专业模型。没有casting_method时仍明确独立公历算法未实现。
+
+中心目标原5与外圈布局2双字段，中心旬首门本宫2与计数原点5双字段；门最终落5未覆盖。rotation_conventions提供并由代码核对固定星门方向、中心/伴星、神锚点、神顺逆及未覆盖策略；不从模型补方法。钟表区间只处理给定钟表读数，不猜日期/时区。

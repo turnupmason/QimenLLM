@@ -3,8 +3,9 @@ from __future__ import annotations
 from dataclasses import asdict
 from uuid import uuid4
 from ..contracts import Analysis, GenerationError, Inquiry, ModelUnavailable
-from ..casting.engine import UnimplementedCastingEngine
+from ..casting.engine import SourceCastingEngine
 from ..casting.foundations import FoundationCalculator
+from ..casting.paper import PaperCalculator
 from ..conversation.interpreter import ExplicitContextInterpreter
 from ..models.gateway import UnconfiguredModelGateway
 from ..retrieval.repository import KnowledgeRepository
@@ -16,7 +17,8 @@ from ..learning.service import LearningService
 class QimenService:
     def __init__(self, db, *, casting=None, model=None, interpreter=None, verifier=None, capture_debug=False):
         self.knowledge = KnowledgeRepository(db)
-        self.casting = casting or UnimplementedCastingEngine()
+        self.paper = PaperCalculator(self.knowledge)
+        self.casting = casting or SourceCastingEngine(self.paper)
         self.model = model or UnconfiguredModelGateway()
         self.interpreter = interpreter or ExplicitContextInterpreter()
         self.selector = RuleSelector()
@@ -26,6 +28,8 @@ class QimenService:
         self.capture_debug = capture_debug  # trusted local callers only; never persisted
 
     def calculate(self, operation: str, args: dict) -> dict:
+        if operation in self.paper.OPERATIONS:
+            return self.paper.calculate(operation,args)
         return self.foundations.calculate(operation,args)
 
     def ask(self, inquiry: Inquiry) -> dict:
@@ -36,7 +40,7 @@ class QimenService:
         record('understanding',understanding['status'],domain=understanding['domain'])
         casting = self.casting.cast(inquiry)
         chart = casting.chart
-        record('casting',casting.status,chart_id=chart.chart_id if chart else None)
+        record('casting',casting.status,chart_id=chart.chart_id if chart else None,reason=casting.reason)
         retrieval = self.knowledge.candidates(understanding['domain'])
         # Context values remain in memory, not in persisted logs or the default API trace.
         record('retrieval','queried',query=retrieval['query'],
@@ -51,8 +55,9 @@ class QimenService:
                rule_ids=[r['rule_id'] for r in active],error=binding_error)
         result = {'request_id':str(uuid4()),'status':'blocked','professional_analysis_completed':False,
                   'chart_id':chart.chart_id if chart else None, 'rule_ids':[r['rule_id'] for r in active],
+                  'chart':asdict(chart) if chart else None,
                   'message':'完整起盘和专业断案链路尚未验证完成，当前不能进行奇门断案。', 'trace':trace}
-        if chart is None or not active or binding_error or understanding['status']=='not_implemented':
+        if chart is None or chart.validation_status!='engine_verified' or not active or binding_error or understanding['status']=='not_implemented':
             record('model','skipped',reason='prerequisites_missing')
             record('verification','not_run',reason='no_generated_analysis')
             record('rendering','status_message_only')

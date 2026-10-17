@@ -84,6 +84,10 @@ class SyncTests(DatabaseTest):
             result=sync_github(self.root,self.db,self.raw,'fixture update')
         self.assertEqual(result['status'],'synced')
         self.assertTrue(any(call.args[0][:2]==['git','push'] for call in run.call_args_list))
+        staged_paths={path for call in run.call_args_list if call.args[0][:2]==['git','add']
+                      for path in call.args[0][2:]}
+        self.assertTrue({'data/snapshots','data/structured','data/provenance'}<=staged_paths)
+        self.assertNotIn('data/raw_books',staged_paths)
         self.assertTrue((self.root/'work/github-sync.json').exists())
 
     def test_public_repo_does_not_stage_or_push_data(self):

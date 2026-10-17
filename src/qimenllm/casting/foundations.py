@@ -15,6 +15,8 @@ class AmbiguousSource(ValueError):
 
 
 class FoundationCalculator:
+    METHOD_IDS=('shenqi_ch1_foundation_v1',)
+    INTEGER_ARGS=frozenset({'bureau','palace'})
     OPERATIONS={
         'stem_attribute':{'stem'},'hidden_jia':{'xun_head'},'earth_plate':{'dun','bureau'},
         'xun':{'ganzhi'},'day_yuan':{'day_ganzhi'},'bureau':{'solar_term','day_ganzhi','method'},
@@ -29,7 +31,7 @@ class FoundationCalculator:
 
     def calculate(self, operation: str, args: dict) -> dict:
         # Keep per-call evidence state isolated, including in future concurrent servers.
-        return FoundationCalculator(self.knowledge)._calculate(operation,args)
+        return type(self)(self.knowledge)._calculate(operation,args)
 
     def _calculate(self, operation: str, args: dict) -> dict:
         if operation not in self.OPERATIONS: raise ValueError('Unsupported calculation operation')
@@ -41,10 +43,11 @@ class FoundationCalculator:
             return {'status':'conditional','missing':[k for k,v in args.items() if v is None],
                     'professional_analysis_completed':False}
         for key,value in args.items():
-            if key not in ('bureau','palace') and not isinstance(value,str):
+            if key not in self.INTEGER_ARGS and not isinstance(value,str):
                 raise ValueError('Symbolic calculation arguments must be strings')
         self._families={}; self._used={}
-        for record in self.knowledge.compiled_datasets():
+        records=[record for method in self.METHOD_IDS for record in self.knowledge.compiled_datasets(method)]
+        for record in records:
             payload=record['payload']
             if payload.get('kind')!='compiled_dataset': continue
             key=payload['dataset']['key']

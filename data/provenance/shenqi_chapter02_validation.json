@@ -1,0 +1,296 @@
+{
+  "recorded_at": "2026-10-17T14:22:11.387163+00:00",
+  "environment": {
+    "system": "Linux",
+    "machine": "x86_64",
+    "python": "3.12.14",
+    "mac_and_home_gpu_tested": false
+  },
+  "source_sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+  "data_version": "846ca783-fdb5-48c1-98b6-7590caaf7537",
+  "schema_version": 1,
+  "migration_required": false,
+  "counts": {
+    "books": 1,
+    "chapters": 2,
+    "raw_documents": 2,
+    "source_spans": 131,
+    "knowledge_items": 149,
+    "concepts": 425,
+    "methods": 8,
+    "rules": 0,
+    "cases": 0,
+    "events": 0,
+    "charts": 0,
+    "training_tasks": 0
+  },
+  "knowledge_kinds": {
+    "compiled_dataset": 20,
+    "context_group": 72,
+    "source_quality_issue": 43,
+    "worked_example": 14
+  },
+  "chapter02": {
+    "sections": 2,
+    "context_groups": 32,
+    "datasets": 9,
+    "compiled_families": 8,
+    "quality_records": 22,
+    "worked_examples": 3,
+    "complete_source_layout_examples": 2,
+    "concept_index_entries": 162
+  },
+  "tests": {
+    "command": "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+    "total": 94,
+    "passed": 94,
+    "failed": 0,
+    "chapter02_tests": 15,
+    "chapter01_source_subchecks_preserved": 203,
+    "chapter02_source_checks": {
+      "complete_layouts": 2,
+      "palace_rows": 18,
+      "given_day_stem_hour_combinations": 120,
+      "clock_intervals": 12,
+      "stem_combination_groups": 5,
+      "palace_element_facts": 3,
+      "new_directed_element_edges": 1
+    },
+    "independent_unseen_predictions": false
+  },
+  "compileall": {
+    "command": "PYTHONPATH=src python3 -m compileall -q src tests scripts",
+    "ok": true
+  },
+  "audit": {
+    "ok": true,
+    "errors": [],
+    "counts": {
+      "books": 1,
+      "chapters": 2,
+      "raw_documents": 2,
+      "knowledge_items": 149,
+      "rules": 0,
+      "cases": 0,
+      "events": 0,
+      "charts": 0,
+      "training_tasks": 0
+    },
+    "data_version": "846ca783-fdb5-48c1-98b6-7590caaf7537"
+  },
+  "idempotent_replay": {
+    "unchanged": true,
+    "source_duplicate": true,
+    "curation": {
+      "structured_records_added": 0,
+      "context_groups": 32,
+      "quality_records": 22,
+      "worked_examples": 3,
+      "compiled_families_added": 0,
+      "concept_entries_added": 0,
+      "methods_added": 0,
+      "data_version": "846ca783-fdb5-48c1-98b6-7590caaf7537",
+      "source_acceptance": "tracked_separately",
+      "professional_prediction_available": false
+    }
+  },
+  "prior_data_preservation": {
+    "ok": true,
+    "baseline": "afab58788483875610950f4ce840c1659e0a9f71",
+    "all_prior_authoritative_rows_equal": true,
+    "prior_rows": {
+      "data_versions": 4,
+      "books": 1,
+      "chapters": 1,
+      "raw_documents": 1,
+      "chapter_revisions": 1,
+      "source_reviews": 1,
+      "source_spans": 73,
+      "methods": 6,
+      "concepts": 263,
+      "concept_links": 0,
+      "knowledge_items": 84,
+      "rules": 0,
+      "rule_conditions": 0,
+      "rule_disagreements": 0,
+      "event_families": 0,
+      "cases": 0,
+      "events": 0,
+      "case_events": 0,
+      "charts": 0,
+      "case_records": 0,
+      "evidence_links": 0,
+      "dataset_releases": 0,
+      "split_assignments": 0,
+      "training_tasks": 0,
+      "task_inputs": 0
+    }
+  },
+  "snapshot": {
+    "manifest_file_sha256": "4b32c4b0817e6882b7194db6110aa22f5b6c5822a78e76220999b4f479fc0db4",
+    "export": {
+      "data_version": "846ca783-fdb5-48c1-98b6-7590caaf7537",
+      "snapshot": "data/snapshots/current",
+      "counts": {
+        "data_versions": 7,
+        "books": 1,
+        "chapters": 2,
+        "raw_documents": 2,
+        "chapter_revisions": 2,
+        "source_reviews": 2,
+        "source_spans": 131,
+        "methods": 8,
+        "concepts": 425,
+        "concept_links": 0,
+        "knowledge_items": 149,
+        "rules": 0,
+        "rule_conditions": 0,
+        "rule_disagreements": 0,
+        "event_families": 0,
+        "cases": 0,
+        "events": 0,
+        "case_events": 0,
+        "charts": 0,
+        "case_records": 0,
+        "evidence_links": 0,
+        "dataset_releases": 0,
+        "split_assignments": 0,
+        "training_tasks": 0,
+        "task_inputs": 0
+      },
+      "manifest_sha256": "7333357a52bcc4f314ab2bfede160dee18c1b16b02532b5a2a8f3ece2c7742dd"
+    },
+    "restoration": {
+      "ok": true,
+      "new_database_only": true,
+      "all_snapshot_files_byte_equal": true,
+      "both_source_charts_and_evidence_equal": true,
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "counts": {
+          "books": 1,
+          "chapters": 2,
+          "raw_documents": 2,
+          "knowledge_items": 149,
+          "rules": 0,
+          "cases": 0,
+          "events": 0,
+          "charts": 0,
+          "training_tasks": 0
+        },
+        "data_version": "846ca783-fdb5-48c1-98b6-7590caaf7537"
+      }
+    }
+  },
+  "real_http": {
+    "ok": true,
+    "transport": "temporary_loopback_http",
+    "listener_closed": true,
+    "results": [
+      {
+        "path": "/health",
+        "http_status": 200,
+        "status": "ok"
+      },
+      {
+        "path": "/v1/ask",
+        "http_status": 200,
+        "status": "blocked"
+      },
+      {
+        "path": "/v1/learn",
+        "http_status": 200,
+        "status": "awaiting_sources"
+      },
+      {
+        "path": "/v1/learn",
+        "http_status": 200,
+        "status": "sources_found"
+      },
+      {
+        "path": "/v1/calculate",
+        "http_status": 200,
+        "status": "computed"
+      },
+      {
+        "path": "/v1/learn",
+        "http_status": 200,
+        "status": "sources_found"
+      },
+      {
+        "path": "/v1/calculate",
+        "http_status": 200,
+        "status": "computed"
+      },
+      {
+        "path": "/v1/calculate",
+        "http_status": 200,
+        "status": "computed"
+      },
+      {
+        "path": "/v1/ask",
+        "http_status": 200,
+        "status": "blocked"
+      }
+    ]
+  },
+  "offline_wheel_install": {
+    "ok": true,
+    "isolated_package": true,
+    "migration_packaged": true,
+    "paper_calculator_packaged": true,
+    "runtime_db_query": true
+  },
+  "wheel_sha256": "7a8c12fa7d47cbc05fe05dbd8ab0980f8ba479db8e397afe2c2930f3950679a9",
+  "independent_expected_fixture_sha256": "6e1bd9bfc95e6e09459f8efe64f93bb6cae1bb10ecde33d23d9ad149aed6300d",
+  "expected_answers_rewritten_from_engine": false,
+  "log_hashes": {
+    "artifacts/chapter02-audit.json": "416bd57330f3d26a4e1de248ac12a47aef99fa150538d52597dca5e43e7eed3a",
+    "artifacts/chapter02-compile.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "artifacts/chapter02-development-tests.log": "c18560cc9aa3be022330384a70b5ef0ccc410f40d046023883f886b50d8e8a72",
+    "artifacts/chapter02-export.json": "4244d2727567d1a5cde0f4582945ab1e864f08a88df1d6ee9a0fd86a39118bb8",
+    "artifacts/chapter02-foundation-regression.log": "af895a8048c96269939ce1d89a92fea839ff2ccd50aa01fa595b8d5a5335353c",
+    "artifacts/chapter02-http-smoke.json": "997e2f0a779e87648427da496f7300ebcaec2321347cb362af76cad28c10d703",
+    "artifacts/chapter02-install.json": "5bb30d59a22c438bdcb8a24ea09f71ae1c6c9556a09421d9e0b1f9bcb12bad37",
+    "artifacts/chapter02-installed-smoke.json": "9ded4cd98ca71e3440d83ae9d778b57e159ee42d24af454c3be502159c3d49d4",
+    "artifacts/chapter02-prior-data-preservation.json": "1fd6a5b4c1010051cb0104f6a2ca23ad1ce526952cc4d98303ea2309de192118",
+    "artifacts/chapter02-reimport.json": "98f6dc8021ca03eff1525824eec93e359a2a7676ebe045b1ebf2ac5f75a18530",
+    "artifacts/chapter02-restore.json": "4a6c6a63ef75101ca69828acae94761700692330d12956828dd24e73f117c4de",
+    "artifacts/chapter02-source-checkpoint-audit.json": "735f6b9932f2bb1b238a021002f46128e5a165b1b1c694b6c54af03b447f0971",
+    "artifacts/chapter02-source-checkpoint-tests.log": "56c13c669155d3937fb9fe43f4ac89fdb3e63bdc0fc5d5e9aee1461d44bf37ab",
+    "artifacts/chapter02-tests.log": "bdbb5fc3ec2385cf48d99b238e3424e63efdc471d804ded75fab93afb048f01a",
+    "artifacts/chapter02-wheel-build.log": "d54067c9989c3cf7c972fe3dbbc0aa021f1cb34ac2cec9da000e0b9ffbb8ba67",
+    "artifacts/chapter02-wheel-install.log": "88488ca86857018eccdade5fc0f3c5914c978731107a2ea21d6a93010dfc8646"
+  },
+  "commands": [
+    "PYTHONPATH=src python3 scripts/import_shenqi_chapter02.py --local-only",
+    "PYTHONPATH=src python3 -m qimenllm audit",
+    "PYTHONPATH=src python3 -m qimenllm export-snapshot",
+    "PYTHONPATH=src python3 scripts/smoke_api.py --chapter01 --chapter02",
+    "PIP_NO_INDEX=1 python3 -m pip wheel . --no-deps --no-build-isolation --wheel-dir artifacts/chapter02-wheel",
+    "python3 -m pip install --no-index --no-deps --target work/chapter02-installed artifacts/chapter02-wheel/qimenllm-0.1.0-py3-none-any.whl"
+  ],
+  "actual_call_chains": [
+    "CLI/API calculate -> QimenService.calculate -> PaperCalculator -> both chapter datasets and sources in SQLite",
+    "CLI/API ask -> QimenService.ask -> SourceCastingEngine -> same PaperCalculator -> same immutable symbolic Chart -> professional prerequisites blocked, model skipped"
+  ],
+  "historical_judgment_cases": 0,
+  "role_rules": 0,
+  "model_experiments": null,
+  "training_run": false,
+  "real_world_accuracy": null,
+  "original_changed": false,
+  "frozen_professional_evaluation_changed": false,
+  "unimplemented": [
+    "civil datetime to calendar/four pillars/solar terms",
+    "timezone/location/day rollover conventions",
+    "voids and horse",
+    "final central chief-door hosting",
+    "conditional professional role rules",
+    "professional judgment and timing",
+    "model baseline and training",
+    "public product"
+  ],
+  "github_sync_receipt": "work/github-sync.json (generated after final push and remote verification)"
+}

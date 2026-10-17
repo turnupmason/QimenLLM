@@ -13,5 +13,18 @@
   "source_acceptance": "pending_explicit_user_confirmation",
   "content_status": "preserved_exactly_as_provided",
   "public_distribution_authorized": false,
-  "historical_cases": 0
+  "historical_cases": 0,
+  "raw_import_data_version": "20dbf4d0-b650-4c11-b9b1-5e1dd36e9569",
+  "current_data_version": "846ca783-fdb5-48c1-98b6-7590caaf7537",
+  "curation": {
+    "sections": 2,
+    "context_groups": 32,
+    "datasets": 9,
+    "compiled_families": 8,
+    "quality_records": 22,
+    "worked_examples": 3,
+    "complete_source_layout_examples": 2,
+    "concept_index_entries": 162
+  },
+  "validation_record": "data/provenance/shenqi_chapter02_validation.json"
 }

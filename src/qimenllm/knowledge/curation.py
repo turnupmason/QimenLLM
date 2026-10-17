@@ -38,7 +38,14 @@ ROW_REQUIREMENTS={
 }
 
 
-def install_curated(db: str | Path, revision_id: str, curated: dict) -> dict:
+def install_curated(db: str | Path, revision_id: str, curated: dict, *, profile: dict | None = None) -> dict:
+    # Explicit trusted compiler profiles isolate successive chapters without rewriting v1 data.
+    profile=profile or {'compiler_version':COMPILER_VERSION,'method_id':'shenqi_ch1_foundation_v1',
+                       'methods':METHODS,'compiled_datasets':COMPILED_DATASETS,'row_requirements':ROW_REQUIREMENTS}
+    compiler_version=profile['compiler_version']; method_id=profile['method_id']
+    methods=profile['methods']; compiled_datasets=profile['compiled_datasets']
+    row_requirements=profile['row_requirements']
+    if method_id not in methods: raise ValueError('Compiler profile method missing')
     canonical(curated)  # validate serialization before any data write
     with connect(db) as conn:
         record=conn.execute('''SELECT r.*,d.content,d.sha256 FROM chapter_revisions r
@@ -48,10 +55,12 @@ def install_curated(db: str | Path, revision_id: str, curated: dict) -> dict:
         if digest(raw)!=curated['source_sha256']: raise ValueError('Curated source hash mismatch')
         full_source=conn.execute('''SELECT source_id FROM source_spans WHERE revision_id=?
             AND byte_start=0 AND byte_end=? AND locator='full chapter' ''',(revision_id,len(raw))).fetchone()[0]
-        for method_id in METHODS:
-            existing=conn.execute('SELECT source_id FROM methods WHERE method_id=?',(method_id,)).fetchone()
+        for registered_method in methods:
+            existing=conn.execute('SELECT source_id,conventions_json FROM methods WHERE method_id=?',(registered_method,)).fetchone()
             if existing is not None and existing[0]!=full_source:
                 raise ValueError('A different source revision requires an explicit method/compiler version')
+            if existing is not None and existing[1]!=canonical(methods[registered_method]):
+                raise ValueError('Changed method conventions require an explicit version')
     lines=raw.splitlines(keepends=True)
     starts=[0]
     for line in lines: starts.append(starts[-1]+len(line))
@@ -77,8 +86,8 @@ def install_curated(db: str | Path, revision_id: str, curated: dict) -> dict:
         if not dataset: continue
         if any(key not in keys for key in dataset.get('supporting_group_keys',[])):
             raise ValueError('Unknown supporting context group')
-        if dataset['key'] in ROW_REQUIREMENTS:
-            count,fields=ROW_REQUIREMENTS[dataset['key']]
+        if dataset['key'] in row_requirements:
+            count,fields=row_requirements[dataset['key']]
             rows=dataset.get('rows')
             if not isinstance(rows,list) or len(rows)!=count or any(not isinstance(r,dict) or not fields<=set(r) for r in rows):
                 raise ValueError('Incomplete compiled dataset: '+dataset['key'])
@@ -104,15 +113,15 @@ def install_curated(db: str | Path, revision_id: str, curated: dict) -> dict:
         for group in curated['groups']:
             span=sources[group['key']]
             dataset=group.get('dataset')
-            if dataset and dataset['key'] in COMPILED_DATASETS:
-                payload={'kind':'compiled_dataset','compiler_version':COMPILER_VERSION,
+            if dataset and dataset['key'] in compiled_datasets:
+                payload={'kind':'compiled_dataset','compiler_version':compiler_version,
                          'source_sha256':curated['source_sha256'],'dataset':dataset,
                          'supporting_source_ids':[sources[key] for key in dataset.get('supporting_group_keys',[])],
                          'validation_scope':'provided_text_only','author_attribution':group['attribution']}
                 item_id='compiled-'+digest(canonical([revision_id,payload]).encode())
                 if not conn.execute('SELECT 1 FROM knowledge_items WHERE item_id=?',(item_id,)).fetchone():
                     pending.append((item_id,group['category'],span,payload))
-        new_methods=[m for m in METHODS if not conn.execute('SELECT 1 FROM methods WHERE method_id=?',(m,)).fetchone()]
+        new_methods=[m for m in methods if not conn.execute('SELECT 1 FROM methods WHERE method_id=?',(m,)).fetchone()]
         concept_entries=[]
         for group in curated['groups']:
             for name in group.get('concepts',[]):
@@ -123,17 +132,17 @@ def install_curated(db: str | Path, revision_id: str, curated: dict) -> dict:
         version=None
         if pending or new_methods or concept_entries:
             version=new_version(conn,'compile_source_foundations',{'source_sha256':curated['source_sha256'],
-                'compiler':COMPILER_VERSION,'datasets':[p[3]['dataset']['key'] for p in pending],
+                'compiler':compiler_version,'datasets':[p[3]['dataset']['key'] for p in pending],
                 'methods':new_methods,'concept_entries':len(concept_entries)})
         for method in new_methods:
             conn.execute('INSERT INTO methods VALUES (?,?,?,?,?)',
-                         (method,method,'1',full_source,canonical(METHODS[method])))
+                         (method,method,'1',full_source,canonical(methods[method])))
         for row in concept_entries: conn.execute('INSERT INTO concepts VALUES (?,?,?,?,?)',row)
         for item_id,category,span,payload in pending:
             conn.execute('''INSERT INTO knowledge_items(item_id,category,source_id,method_id,payload_json,
                 structured,applicability_confirmed,compiled,reference_only,data_version)
-                VALUES (?,?,?,'shenqi_ch1_foundation_v1',?,1,1,1,0,?)''',
-                         (item_id,category,span,canonical(payload),version))
+                VALUES (?,?,?,?,?,1,1,1,0,?)''',
+                         (item_id,category,span,method_id,canonical(payload),version))
         current_version=conn.execute('SELECT version_id FROM data_versions ORDER BY rowid DESC LIMIT 1').fetchone()[0]
     return {'structured_records_added':imported['added'],'context_groups':len(curated['groups']),
             'quality_records':len(curated.get('quality_issues',[])),

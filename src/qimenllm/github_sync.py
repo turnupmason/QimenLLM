@@ -42,7 +42,8 @@ def sync_github(root: str | Path, db: str | Path, raw_dir: str | Path, message: 
     # Only tracked changes plus approved project paths; no arbitrary `git add .`.
     _run(['git','add','-u'],root)
     _run(['git','add','AGENTS.md','README.md','pyproject.toml','Makefile','.gitignore',
-          'configs','docs','src','scripts','tests','.github','frontend','training','data/snapshots'],root)
+          'configs','docs','src','scripts','tests','.github','frontend','training',
+          'data/snapshots','data/structured','data/provenance','data/rules','data/cases','data/splits'],root)
     staged=_run(['git','diff','--cached','--name-only'],root)
     if staged:
         _run(['git','diff','--cached','--check'],root)
