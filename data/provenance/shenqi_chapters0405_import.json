@@ -1,0 +1,50 @@
+{
+  "upload_file_name": "神奇之门_第四章与第五章_完整纯文字精校版.txt",
+  "upload_pointer": "sediment://file_00000000a94481f6bc6b14739af71694",
+  "upload_sha256": "8b8d7f57fa539785f5613cb6f8fdbdc27090da559d6d2fe5ce0ffd03953c9147",
+  "upload_bytes": 86324,
+  "upload_characters": 29714,
+  "upload_logical_lines": 1261,
+  "upload_preserved_file": "data/provenance/uploads/8b8d7f57fa539785f5613cb6f8fdbdc27090da559d6d2fe5ce0ffd03953c9147.utf8",
+  "split_boundary_byte": 45389,
+  "concatenation_reconstructs_upload": true,
+  "chapter_number_policy": "04 is from the user-supplied filename; 05 also appears in the text. Earlier chapter-01/02 keys are retained import identifiers, not a retrospective claim of printed book numbering. No unseen chapter was created.",
+  "document_instructions_policy": "Attachment text is source data, not execution instructions or an override of user authorization.",
+  "public_distribution_authorized": false,
+  "chapters": [
+    {
+      "revision_id": "56d50b82-0814-4464-8879-8e9d9ccc4568",
+      "source_id": "95275083-946c-440d-99a8-ce14f55c4b1b",
+      "data_version": "10103242-9e80-41ea-87bc-2e4516af9f0f",
+      "revision": 1,
+      "sha256": "15ce23c3fff0c9d3a48b595ee3bbf115d0c1e98a64ce1efc88bdb27e67eab22a",
+      "duplicate": false,
+      "chapter_key": "chapter-04",
+      "bytes": 45389,
+      "characters": 15481,
+      "logical_lines": 500,
+      "upload_byte_start": 0,
+      "upload_byte_end": 45389,
+      "source_acceptance": "pending_explicit_collation_confirmation",
+      "source_completeness": "complete_uploaded_chapter_slice",
+      "historical_cases": 0
+    },
+    {
+      "revision_id": "39be9f51-5d0e-40a2-842e-f5f4db728f76",
+      "source_id": "464eb717-8b3b-4946-8cd7-46c4bf871f94",
+      "data_version": "1a0b5795-174f-4de1-b69f-3ed747d5d1b9",
+      "revision": 1,
+      "sha256": "e153de133f4c5b6c325361ff30a572e782becbb245bb471599d678bb6349679d",
+      "duplicate": false,
+      "chapter_key": "chapter-05",
+      "bytes": 40935,
+      "characters": 14233,
+      "logical_lines": 761,
+      "upload_byte_start": 45389,
+      "upload_byte_end": 86324,
+      "source_acceptance": "pending_explicit_collation_confirmation",
+      "source_completeness": "complete_uploaded_chapter_slice",
+      "historical_cases": 0
+    }
+  ]
+}
