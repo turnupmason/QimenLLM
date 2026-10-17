@@ -69,3 +69,5 @@ PYTHONPATH=src python3 scripts/import_shenqi_chapters0405.py
 恋爱婚姻由scripts/import_shenqi_marriage.py按确切SHA增量重放，先完整上下文/参考资料、再6整案和11来源候选。实库前在临时库校验，后验注释归反馈/案例审计，新的temporal_payload_contract显式启用结构检查，旧manifest不改。源表哈希策略只扩展明确审查的新附件，例3地盘重复、例5宫位与年份差别原样留存；最后一案2事件只有1已提供盘，不能自动补盘。技术排序8不推印刷章号。
 
 怀孕分娩由scripts/import_shenqi_pregnancy.py按确切SHA重放，技术键pregnancy-childbirth、排序9不推印刷章号。保存12完整块、6故事/5家族/6事件/6原盘、99记录、180证据、14候选及18候选历史。星名条件使用已给基础表全称，4条rev1保留并追加rev2；完整事件家族防拆分。68独立条件期望与54原行gold分别验证；程序对照差异不拒收原书。新用户资料默认confirmed，仍不从确认声明推断缺失结局、自动执行医学建议或现实准确率。
+
+求学考试以scripts/import_shenqi_exam.py按精确SHA重放，技术键education-examinations/排序10不推印刷章号。11语境块、5完整故事/5事件/5原盘、93记录、165证据、19参考候选/116独立条件期望；同事件多轮不拆出额外结果样本，估分与年命后知不能回填。五种方法隔离。字节与输入同文幂等，默认confirmed；实际交付必须完整导出、测试、push、核对远端及四CI。报告ingestion/SHENQI_EXAM.md。

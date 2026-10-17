@@ -1,0 +1,1284 @@
+{
+  "schema_version": "source_selection_candidates_v1",
+  "title": "求学考试预测",
+  "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+  "source_byte_count": 18832,
+  "source_line_count": 446,
+  "candidate_count": 19,
+  "candidate_record_count": 19,
+  "candidates": [
+    {
+      "key": "exam_self_day_stem",
+      "domain": "education_examinations",
+      "scope": "ordinary_candidate_self",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "education_examinations"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "ordinary_candidate_self"
+        },
+        {
+          "field": "asker_role",
+          "op": "eq",
+          "value": "candidate"
+        },
+        {
+          "field": "asker_relation_to_candidate",
+          "op": "eq",
+          "value": "self"
+        },
+        {
+          "field": "day_stem",
+          "op": "in",
+          "value": [
+            "甲",
+            "乙",
+            "丙",
+            "丁",
+            "戊",
+            "己",
+            "庚",
+            "辛",
+            "壬",
+            "癸"
+          ]
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_exam_ordinary_v1"
+      },
+      "source_lines": [
+        6
+      ],
+      "source_quote": "（1）凡求学考试，如果是考生本人求测，则以日干为考生；如果是父母求测子女考学情况，则以时干为考生；同时，还可看考生年命（即出生之年的年干），以年命为用神。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "仅本人求测以日干；年命可同时参看，不作唯一排他取法。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "日干"
+        ],
+        "semantic_role": "candidate",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "exam_parent_child_hour_stem",
+      "domain": "education_examinations",
+      "scope": "ordinary_candidate_parent_child",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "education_examinations"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "ordinary_candidate_parent_child"
+        },
+        {
+          "field": "asker_relation_to_candidate",
+          "op": "in",
+          "value": [
+            "father",
+            "mother",
+            "parent"
+          ]
+        },
+        {
+          "field": "candidate_relation_to_asker",
+          "op": "eq",
+          "value": "child"
+        },
+        {
+          "field": "hour_stem",
+          "op": "in",
+          "value": [
+            "甲",
+            "乙",
+            "丙",
+            "丁",
+            "戊",
+            "己",
+            "庚",
+            "辛",
+            "壬",
+            "癸"
+          ]
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_exam_ordinary_v1"
+      },
+      "source_lines": [
+        6
+      ],
+      "source_quote": "（1）凡求学考试，如果是考生本人求测，则以日干为考生；如果是父母求测子女考学情况，则以时干为考生；同时，还可看考生年命（即出生之年的年干），以年命为用神。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "父母为子女问考学，不凭年长、兄长或其他关系替代父母。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "时干"
+        ],
+        "semantic_role": "candidate",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "exam_birth_year_supplement",
+      "domain": "education_examinations",
+      "scope": "ordinary_candidate_birth_year",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "education_examinations"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "ordinary_candidate_birth_year"
+        },
+        {
+          "field": "birth_year_stem",
+          "op": "in",
+          "value": [
+            "甲",
+            "乙",
+            "丙",
+            "丁",
+            "戊",
+            "己",
+            "庚",
+            "辛",
+            "壬",
+            "癸"
+          ]
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_exam_ordinary_v1"
+      },
+      "source_lines": [
+        6
+      ],
+      "source_quote": "（1）凡求学考试，如果是考生本人求测，则以日干为考生；如果是父母求测子女考学情况，则以时干为考生；同时，还可看考生年命（即出生之年的年干），以年命为用神。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "出生年干为年命；与问时年干学校角色区别，同时还可看而非唯一法。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "出生年干/年命"
+        ],
+        "semantic_role": "candidate",
+        "binding_kind": "source_candidate",
+        "supplementary": true,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "exam_ordinary_institution_documents",
+      "domain": "education_examinations",
+      "scope": "ordinary_institution_document_roles",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "education_examinations"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "ordinary_institution_document_roles"
+        },
+        {
+          "field": "tianfu_star",
+          "op": "eq",
+          "value": "天辅星"
+        },
+        {
+          "field": "paper_door",
+          "op": "eq",
+          "value": "景门"
+        },
+        {
+          "field": "article_stem",
+          "op": "eq",
+          "value": "丁"
+        },
+        {
+          "field": "current_year_stem",
+          "op": "in",
+          "value": [
+            "甲",
+            "乙",
+            "丙",
+            "丁",
+            "戊",
+            "己",
+            "庚",
+            "辛",
+            "壬",
+            "癸"
+          ]
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_exam_ordinary_v1"
+      },
+      "source_lines": [
+        8
+      ],
+      "source_quote": "一般以天辅星为考试院，以值符为主考或监考官，以值使为副主考官或副监考官；以丁奇为文章，以景门为试卷；以年干为录取学校。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "天辅考试院、值符正主考监考、值使副主考监考、丁文章、景试卷、年干学校为普通考试语境。",
+        "天辅在访道、天冲在武试、景门在武试的角色另存，不混用。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "天辅星",
+          "值符",
+          "值使",
+          "丁",
+          "景门",
+          "年干"
+        ],
+        "semantic_role": "ordinary_exam_institutions_and_documents",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "exam_favorable_supported",
+      "domain": "education_examinations",
+      "scope": "ordinary_favorable_supported",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "education_examinations"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "ordinary_favorable_supported"
+        },
+        {
+          "field": "candidate_palace_strength",
+          "op": "eq",
+          "value": "旺相"
+        },
+        {
+          "field": "has_three_wonders",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "has_auspicious_door_and_pattern",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "tianfu_generates_candidate",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "zhifu_generates_candidate",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "current_year_stem_generates_candidate",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_exam_ordinary_v1"
+      },
+      "source_lines": [
+        10
+      ],
+      "source_quote": "考生落宫旺相，得三奇、吉门吉格，又得天辅星、值符、年干相生者，能考入理想学校。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "旺相、三奇、吉门吉格与天辅/值符/年干三方生助为完整联合条件。",
+        "只描述原书理想学校判断，不输出真实录取保证。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true
+    },
+    {
+      "key": "exam_favorable_controls",
+      "domain": "education_examinations",
+      "scope": "ordinary_favorable_controls",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "education_examinations"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "ordinary_favorable_controls"
+        },
+        {
+          "field": "candidate_palace_strength",
+          "op": "eq",
+          "value": "旺相"
+        },
+        {
+          "field": "has_three_wonders",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "has_auspicious_door_and_pattern",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "candidate_controls_tianfu",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "candidate_controls_zhifu",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "candidate_controls_current_year_stem",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_exam_ordinary_v1"
+      },
+      "source_lines": [
+        12
+      ],
+      "source_quote": "考生落宫旺相，得三奇、吉门吉格，克天辅星、值符、年干者，也能考入较好学校。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "考生克三方与三方生考生方向不同，但原书各有旺相吉格等完整前提。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true
+    },
+    {
+      "key": "exam_weak_but_supported",
+      "domain": "education_examinations",
+      "scope": "ordinary_weak_but_supported",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "education_examinations"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "ordinary_weak_but_supported"
+        },
+        {
+          "field": "candidate_palace_strength",
+          "op": "eq",
+          "value": "休囚无力"
+        },
+        {
+          "field": "has_qimen_auspicious_pattern",
+          "op": "eq",
+          "value": false
+        },
+        {
+          "field": "tianfu_generates_candidate",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "zhifu_generates_candidate",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "current_year_stem_generates_candidate",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_exam_ordinary_v1"
+      },
+      "source_lines": [
+        14
+      ],
+      "source_quote": "考生落宫休囚无力，又不得奇门吉格者，但得天辅星、值符、年干相生者，虽考试成绩不佳，但也能录取。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "休囚无力且不得奇门吉格、仍得三方生助，是成绩不佳但可录取的完整分支。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true
+    },
+    {
+      "key": "exam_adverse_combined",
+      "domain": "education_examinations",
+      "scope": "ordinary_adverse_combined",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "education_examinations"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "ordinary_adverse_combined"
+        },
+        {
+          "field": "candidate_severe_state",
+          "op": "in",
+          "value": [
+            "死绝入墓",
+            "空亡"
+          ]
+        },
+        {
+          "field": "has_inauspicious_door_and_pattern",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "tianfu_controls_candidate",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "zhifu_controls_candidate",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "current_year_stem_controls_candidate",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_exam_ordinary_v1"
+      },
+      "source_lines": [
+        16
+      ],
+      "source_quote": "如果考生落宫死绝入墓或空亡，又得凶门凶格，又受天辅星、值符、年干相克者，定然是考不上。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "死绝入墓或空亡、凶门凶格及三方相克均须保留，不能一见空亡就断不录取。",
+        "原作者定然语气保留归属，系统不生成现实录取定论。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true
+    },
+    {
+      "key": "exam_article_paper_relation_review",
+      "domain": "education_examinations",
+      "scope": "ordinary_article_paper_relation",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "education_examinations"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "ordinary_article_paper_relation"
+        },
+        {
+          "field": "article_stem",
+          "op": "eq",
+          "value": "丁"
+        },
+        {
+          "field": "paper_door",
+          "op": "eq",
+          "value": "景门"
+        },
+        {
+          "field": "article_and_paper_states_recorded",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "relations_to_tianfu_zhifu_year_stem_recorded",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_exam_ordinary_v1"
+      },
+      "source_lines": [
+        18
+      ],
+      "source_quote": "丁奇为考生文章、景门为试卷，二者落宫状态及与天辅星、值符、年干的生克关系，以此来判断考试答题的优劣及得分状况。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "文章/试卷各状态及与三方关系必须齐备；布尔字段只是已提供信息标记，不代替原盘证据。",
+        "没有原书确定性分数算法，不由历史估分构造通用分数映射。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true
+    },
+    {
+      "key": "exam_historical_martial_roles",
+      "domain": "education_examinations",
+      "scope": "historical_martial_roles",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "education_examinations"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "historical_martial_roles"
+        },
+        {
+          "field": "candidate_stem_perspective",
+          "op": "in",
+          "value": [
+            "day_stem",
+            "hour_stem"
+          ]
+        },
+        {
+          "field": "invigilator_star",
+          "op": "eq",
+          "value": "天冲星"
+        },
+        {
+          "field": "horse_door",
+          "op": "eq",
+          "value": "伤门"
+        },
+        {
+          "field": "essay_door",
+          "op": "eq",
+          "value": "景门"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_exam_historical_martial_v1"
+      },
+      "source_lines": [
+        20,
+        21,
+        22
+      ],
+      "source_quote": "（2）旧社会还有武试，即考武官，如考武秀才、武举、武状元等。\n\n古人经验，是以值符为主考官，以天冲星为监考官，以日干或时干为考生，以甲戌己为弓，以甲申庚为箭，以伤门为马，以甲午辛为靶心，以景门为策论。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "日干或时干为考生，必须显式给视角；景门为策论而非无条件普通试卷。",
+        "甲戌己弓、甲申庚箭、甲午辛靶是本历史武试完整角色。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "值符",
+          "天冲星",
+          "日干或时干",
+          "甲戌己",
+          "甲申庚",
+          "伤门",
+          "甲午辛",
+          "景门"
+        ],
+        "semantic_role": "historical_martial_examination_roles",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "exam_historical_martial_shot",
+      "domain": "education_examinations",
+      "scope": "historical_martial_shot_and_pass",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "education_examinations"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "historical_martial_shot_and_pass"
+        },
+        {
+          "field": "candidate_stem_perspective",
+          "op": "in",
+          "value": [
+            "day_stem",
+            "hour_stem"
+          ]
+        },
+        {
+          "field": "candidate_palace_strength",
+          "op": "eq",
+          "value": "旺相"
+        },
+        {
+          "field": "geng_to_xin_palaces_relation",
+          "op": "in",
+          "value": [
+            "克",
+            "冲"
+          ]
+        },
+        {
+          "field": "jing_door_strength",
+          "op": "eq",
+          "value": "旺相"
+        },
+        {
+          "field": "jing_to_zhifu_palaces_relation",
+          "op": "in",
+          "value": [
+            "景门生值符",
+            "值符生景门"
+          ]
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_exam_historical_martial_v1"
+      },
+      "source_lines": [
+        24
+      ],
+      "source_quote": "日干或时干旺相，甲申庚落宫克甲午辛落宫，或冲其宫，皆为箭中靶心；再看景门旺相，与值符宫相生，则能考中，反此不中。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "庚箭对辛靶的落宫克或冲，以及景门旺相与值符宫相生联合保留。",
+        "关系为宫间关系，不能改作天干庚直接克辛。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true
+    },
+    {
+      "key": "exam_historical_martial_birth_year",
+      "domain": "education_examinations",
+      "scope": "historical_martial_birth_year_relation",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "education_examinations"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "historical_martial_birth_year_relation"
+        },
+        {
+          "field": "birth_year_stem",
+          "op": "in",
+          "value": [
+            "甲",
+            "乙",
+            "丙",
+            "丁",
+            "戊",
+            "己",
+            "庚",
+            "辛",
+            "壬",
+            "癸"
+          ]
+        },
+        {
+          "field": "relations_to_zhifu_tianchong_recorded",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_exam_historical_martial_v1"
+      },
+      "source_lines": [
+        26
+      ],
+      "source_quote": "还可看年命与值符、天冲星落宫的生克关系。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "还可看年命，属补充视角；本段未规定每种生克对应必然结果。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "年命",
+          "值符",
+          "天冲星"
+        ],
+        "semantic_role": "martial_candidate_supplementary_relation",
+        "binding_kind": "source_candidate",
+        "supplementary": true,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "exam_modern_martial_experiment",
+      "domain": "education_examinations",
+      "scope": "modern_martial_experimental_reference",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "education_examinations"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "modern_martial_experimental_reference"
+        },
+        {
+          "field": "modern_event_subtype",
+          "op": "in",
+          "value": [
+            "martial_arts_competition",
+            "military_subject_examination"
+          ]
+        },
+        {
+          "field": "adaptation_scope",
+          "op": "eq",
+          "value": "experimental_reference"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_exam_modern_martial_experiment_v1"
+      },
+      "source_lines": [
+        28
+      ],
+      "source_quote": "现在没有武试了，但如果测武术比赛或军事科目考试，不妨参考古人经验，变通一下进行试验。",
+      "exceptions": [
+        "现代并无旧式武试，需变通试验，不自动迁移旧角色或确定录取。"
+      ],
+      "unique": false,
+      "notes": [
+        "仅原书建议变通进行试验；不能把现代题目当已验证旧武试算法。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true
+    },
+    {
+      "key": "exam_spiritual_roles",
+      "domain": "education_examinations",
+      "scope": "spiritual_apprenticeship_roles",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "education_examinations"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "spiritual_apprenticeship_roles"
+        },
+        {
+          "field": "visitor_star",
+          "op": "eq",
+          "value": "天芮星"
+        },
+        {
+          "field": "teacher_star",
+          "op": "eq",
+          "value": "天辅星"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_exam_spiritual_apprenticeship_v1"
+      },
+      "source_lines": [
+        30,
+        31,
+        32
+      ],
+      "source_quote": "（3）旧社会还有拜师学艺、入山访道。\n\n古人经验，以天芮星为访道之人，以天辅星为传道之人。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "天芮访道、天辅传道是本方法；不能自动替换普通考试考生角色。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "天芮星",
+          "天辅星"
+        ],
+        "semantic_role": "visitor_and_spiritual_teacher",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "exam_spiritual_transmission",
+      "domain": "education_examinations",
+      "scope": "spiritual_apprenticeship_transmission",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "education_examinations"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "spiritual_apprenticeship_transmission"
+        },
+        {
+          "field": "visitor_star",
+          "op": "eq",
+          "value": "天芮星"
+        },
+        {
+          "field": "teacher_star",
+          "op": "eq",
+          "value": "天辅星"
+        },
+        {
+          "field": "teacher_has_auspicious_door_and_pattern",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "teacher_generates_visitor",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_exam_spiritual_apprenticeship_v1"
+      },
+      "source_lines": [
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "source_quote": "若天辅得吉门、吉格来生天芮者，必得高人传授。\n\n相比和者，空见人，不传道。\n\n相克者，不能见人，或不传道。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "得传授分支须天辅吉门吉格并生天芮。",
+        "同一整块保留比和空见不传道、相克不能见或不传道；本候选不把未知关系补为吉。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true
+    },
+    {
+      "key": "exam_martial_apprenticeship_roles",
+      "domain": "education_examinations",
+      "scope": "martial_apprenticeship_roles",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "education_examinations"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "martial_apprenticeship_roles"
+        },
+        {
+          "field": "warrior_star",
+          "op": "eq",
+          "value": "天冲星"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_exam_martial_apprenticeship_v1"
+      },
+      "source_lines": [
+        40
+      ],
+      "source_quote": "还有投武，拜师学武艺者，以天冲星为武士，以值符为武师或教头。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "学武者天冲、教头值符，与武试天冲监考含义分开。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "天冲星",
+          "值符"
+        ],
+        "semantic_role": "warrior_and_martial_teacher",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "exam_martial_apprenticeship_relation",
+      "domain": "education_examinations",
+      "scope": "martial_apprenticeship_relation",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "education_examinations"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "martial_apprenticeship_relation"
+        },
+        {
+          "field": "warrior_star",
+          "op": "eq",
+          "value": "天冲星"
+        },
+        {
+          "field": "warrior_zhifu_relation",
+          "op": "in",
+          "value": [
+            "相生",
+            "相克"
+          ]
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_exam_martial_apprenticeship_v1"
+      },
+      "source_lines": [
+        42,
+        43,
+        44
+      ],
+      "source_quote": "二者相生，主利。\n\n彼此相克，不利。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "相生主利、彼此相克不利分别保存；条件匹配仅检查指定关系，不是专业综合结果。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true
+    },
+    {
+      "key": "exam_martial_apprenticeship_tianchong_chief",
+      "domain": "education_examinations",
+      "scope": "martial_apprenticeship_tianchong_is_zhifu",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "education_examinations"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "martial_apprenticeship_tianchong_is_zhifu"
+        },
+        {
+          "field": "chief_star",
+          "op": "eq",
+          "value": "天冲星"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_exam_martial_apprenticeship_v1"
+      },
+      "source_lines": [
+        46
+      ],
+      "source_quote": "如果天冲星就是值符，则大利。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "天冲就是值符为大利原书特定分支；不外推普通考试。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true
+    },
+    {
+      "key": "exam_martial_apprenticeship_fanyin_fuyin",
+      "domain": "education_examinations",
+      "scope": "martial_apprenticeship_fanyin_fuyin",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "education_examinations"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "martial_apprenticeship_fanyin_fuyin"
+        },
+        {
+          "field": "pattern",
+          "op": "in",
+          "value": [
+            "反吟",
+            "伏吟"
+          ]
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_exam_martial_apprenticeship_v1"
+      },
+      "source_lines": [
+        48
+      ],
+      "source_quote": "遇反吟、伏吟不利。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "反吟或伏吟不利限定拜师学武段语境；不推导所有问题伏吟必凶。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true
+    }
+  ],
+  "historical_candidates": [],
+  "source_review_status": "confirmed_by_user_submission",
+  "source_confirmed_by_user": true,
+  "manual_source_reconfirmation_required": false,
+  "instruction_policy": "attachment_is_source_data_not_execution_instruction",
+  "condition_protocol": {
+    "operators": {
+      "eq": "typed equality",
+      "in": "typed membership",
+      "present": "not used to accept unchecked stem or star symbols"
+    },
+    "selection_order": [
+      "known mismatch -> excluded",
+      "unknown or null required value -> conditional",
+      "all conditions but no explicit method -> disputed",
+      "all conditions and method match -> applicable symbolic source inspection, reference_only formal state"
+    ],
+    "formal_activation": "No candidate is a formal rule or permits professional role activation.",
+    "source_acceptance": "user confirmed on submission; no second manual source review",
+    "symbol_input_protocol": "Canonical complete star names from chapter01, doors as 景门/伤门, ten stems as exact single characters; false, zero, empty strings and aliases are not valid symbols. Boolean fields mark context assertions only, not verified chart facts."
+  },
+  "method_policy": "Ordinary exam, historical martial exam, modern experimental adaptation, spiritual apprenticeship and martial apprenticeship are distinct explicit methods. Case5 lawsuit/alternate teacher-student perspective stays inside complete case and does not become universal candidate.",
+  "global_limitations": [
+    "All19 candidates remain reference_only, formal role_bindings empty; actual SQLite inspection only.",
+    "User source confirmation is satisfied, technical conditions unknown never count as satisfied.",
+    "No modern exam accuracy, legal/medical conclusion or scientific validity established by historical narrative.",
+    "No model calls, new training tasks or frozen gold feedback generated."
+  ],
+  "revision_history": []
+}

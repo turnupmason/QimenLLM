@@ -1,0 +1,3252 @@
+{
+  "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+  "source_byte_count": 18832,
+  "source_line_count": 446,
+  "gold_generation": "Independently authored source-condition expectations. Explicit table expansion adds method/missing/mismatch variants without calling candidate inspector or reading runtime outputs.",
+  "scope": "First-section reference candidate condition inspection; not examination outcome accuracy or legal/medical evaluation.",
+  "selection_cases": [
+    {
+      "key": "exam_self_day_stem_explicit",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_candidate_self",
+        "asker_role": "candidate",
+        "asker_relation_to_candidate": "self",
+        "day_stem": "庚"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_self_day_stem",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "exam_self_day_stem_unselected_method",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_candidate_self",
+        "asker_role": "candidate",
+        "asker_relation_to_candidate": "self",
+        "day_stem": "庚"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations"
+      },
+      "expected": {
+        "candidate_key": "exam_self_day_stem",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "exam_self_day_stem_missing",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_candidate_self",
+        "asker_role": "candidate",
+        "asker_relation_to_candidate": "self"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_self_day_stem",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "day_stem"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "exam_self_day_stem_wrong_context",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "unrelated_domain_context",
+        "asker_role": "candidate",
+        "asker_relation_to_candidate": "self",
+        "day_stem": "庚"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_self_day_stem",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "exam_parent_child_hour_stem_explicit",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_candidate_parent_child",
+        "asker_relation_to_candidate": "father",
+        "candidate_relation_to_asker": "child",
+        "hour_stem": "丙"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_parent_child_hour_stem",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "exam_parent_child_hour_stem_unselected_method",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_candidate_parent_child",
+        "asker_relation_to_candidate": "father",
+        "candidate_relation_to_asker": "child",
+        "hour_stem": "丙"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations"
+      },
+      "expected": {
+        "candidate_key": "exam_parent_child_hour_stem",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "exam_parent_child_hour_stem_missing",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_candidate_parent_child",
+        "asker_relation_to_candidate": "father",
+        "candidate_relation_to_asker": "child"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_parent_child_hour_stem",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "hour_stem"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "exam_parent_child_hour_stem_wrong_context",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "unrelated_domain_context",
+        "asker_relation_to_candidate": "father",
+        "candidate_relation_to_asker": "child",
+        "hour_stem": "丙"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_parent_child_hour_stem",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "exam_birth_year_supplement_explicit",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_candidate_birth_year",
+        "birth_year_stem": "丁"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_birth_year_supplement",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "exam_birth_year_supplement_unselected_method",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_candidate_birth_year",
+        "birth_year_stem": "丁"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations"
+      },
+      "expected": {
+        "candidate_key": "exam_birth_year_supplement",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "exam_birth_year_supplement_missing",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_candidate_birth_year"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_birth_year_supplement",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "birth_year_stem"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "exam_birth_year_supplement_wrong_context",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "unrelated_domain_context",
+        "birth_year_stem": "丁"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_birth_year_supplement",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "exam_ordinary_institution_documents_explicit",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_institution_document_roles",
+        "tianfu_star": "天辅星",
+        "paper_door": "景门",
+        "article_stem": "丁",
+        "current_year_stem": "丙"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_ordinary_institution_documents",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        8
+      ]
+    },
+    {
+      "key": "exam_ordinary_institution_documents_unselected_method",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_institution_document_roles",
+        "tianfu_star": "天辅星",
+        "paper_door": "景门",
+        "article_stem": "丁",
+        "current_year_stem": "丙"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations"
+      },
+      "expected": {
+        "candidate_key": "exam_ordinary_institution_documents",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        8
+      ]
+    },
+    {
+      "key": "exam_ordinary_institution_documents_missing",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_institution_document_roles",
+        "tianfu_star": "天辅星",
+        "paper_door": "景门",
+        "article_stem": "丁"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_ordinary_institution_documents",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "current_year_stem"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        8
+      ]
+    },
+    {
+      "key": "exam_ordinary_institution_documents_wrong_context",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "unrelated_domain_context",
+        "tianfu_star": "天辅星",
+        "paper_door": "景门",
+        "article_stem": "丁",
+        "current_year_stem": "丙"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_ordinary_institution_documents",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        8
+      ]
+    },
+    {
+      "key": "exam_favorable_supported_explicit",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_favorable_supported",
+        "candidate_palace_strength": "旺相",
+        "has_three_wonders": true,
+        "has_auspicious_door_and_pattern": true,
+        "tianfu_generates_candidate": true,
+        "zhifu_generates_candidate": true,
+        "current_year_stem_generates_candidate": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_favorable_supported",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        10
+      ]
+    },
+    {
+      "key": "exam_favorable_supported_unselected_method",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_favorable_supported",
+        "candidate_palace_strength": "旺相",
+        "has_three_wonders": true,
+        "has_auspicious_door_and_pattern": true,
+        "tianfu_generates_candidate": true,
+        "zhifu_generates_candidate": true,
+        "current_year_stem_generates_candidate": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations"
+      },
+      "expected": {
+        "candidate_key": "exam_favorable_supported",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        10
+      ]
+    },
+    {
+      "key": "exam_favorable_supported_missing",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_favorable_supported",
+        "candidate_palace_strength": "旺相",
+        "has_three_wonders": true,
+        "has_auspicious_door_and_pattern": true,
+        "tianfu_generates_candidate": true,
+        "zhifu_generates_candidate": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_favorable_supported",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "current_year_stem_generates_candidate"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        10
+      ]
+    },
+    {
+      "key": "exam_favorable_supported_wrong_context",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "unrelated_domain_context",
+        "candidate_palace_strength": "旺相",
+        "has_three_wonders": true,
+        "has_auspicious_door_and_pattern": true,
+        "tianfu_generates_candidate": true,
+        "zhifu_generates_candidate": true,
+        "current_year_stem_generates_candidate": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_favorable_supported",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        10
+      ]
+    },
+    {
+      "key": "exam_favorable_controls_explicit",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_favorable_controls",
+        "candidate_palace_strength": "旺相",
+        "has_three_wonders": true,
+        "has_auspicious_door_and_pattern": true,
+        "candidate_controls_tianfu": true,
+        "candidate_controls_zhifu": true,
+        "candidate_controls_current_year_stem": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_favorable_controls",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        12
+      ]
+    },
+    {
+      "key": "exam_favorable_controls_unselected_method",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_favorable_controls",
+        "candidate_palace_strength": "旺相",
+        "has_three_wonders": true,
+        "has_auspicious_door_and_pattern": true,
+        "candidate_controls_tianfu": true,
+        "candidate_controls_zhifu": true,
+        "candidate_controls_current_year_stem": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations"
+      },
+      "expected": {
+        "candidate_key": "exam_favorable_controls",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        12
+      ]
+    },
+    {
+      "key": "exam_favorable_controls_missing",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_favorable_controls",
+        "candidate_palace_strength": "旺相",
+        "has_three_wonders": true,
+        "has_auspicious_door_and_pattern": true,
+        "candidate_controls_tianfu": true,
+        "candidate_controls_zhifu": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_favorable_controls",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "candidate_controls_current_year_stem"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        12
+      ]
+    },
+    {
+      "key": "exam_favorable_controls_wrong_context",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "unrelated_domain_context",
+        "candidate_palace_strength": "旺相",
+        "has_three_wonders": true,
+        "has_auspicious_door_and_pattern": true,
+        "candidate_controls_tianfu": true,
+        "candidate_controls_zhifu": true,
+        "candidate_controls_current_year_stem": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_favorable_controls",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        12
+      ]
+    },
+    {
+      "key": "exam_weak_but_supported_explicit",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_weak_but_supported",
+        "candidate_palace_strength": "休囚无力",
+        "has_qimen_auspicious_pattern": false,
+        "tianfu_generates_candidate": true,
+        "zhifu_generates_candidate": true,
+        "current_year_stem_generates_candidate": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_weak_but_supported",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        14
+      ]
+    },
+    {
+      "key": "exam_weak_but_supported_unselected_method",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_weak_but_supported",
+        "candidate_palace_strength": "休囚无力",
+        "has_qimen_auspicious_pattern": false,
+        "tianfu_generates_candidate": true,
+        "zhifu_generates_candidate": true,
+        "current_year_stem_generates_candidate": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations"
+      },
+      "expected": {
+        "candidate_key": "exam_weak_but_supported",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        14
+      ]
+    },
+    {
+      "key": "exam_weak_but_supported_missing",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_weak_but_supported",
+        "candidate_palace_strength": "休囚无力",
+        "has_qimen_auspicious_pattern": false,
+        "tianfu_generates_candidate": true,
+        "zhifu_generates_candidate": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_weak_but_supported",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "current_year_stem_generates_candidate"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        14
+      ]
+    },
+    {
+      "key": "exam_weak_but_supported_wrong_context",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "unrelated_domain_context",
+        "candidate_palace_strength": "休囚无力",
+        "has_qimen_auspicious_pattern": false,
+        "tianfu_generates_candidate": true,
+        "zhifu_generates_candidate": true,
+        "current_year_stem_generates_candidate": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_weak_but_supported",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        14
+      ]
+    },
+    {
+      "key": "exam_adverse_combined_explicit",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_adverse_combined",
+        "candidate_severe_state": "空亡",
+        "has_inauspicious_door_and_pattern": true,
+        "tianfu_controls_candidate": true,
+        "zhifu_controls_candidate": true,
+        "current_year_stem_controls_candidate": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_adverse_combined",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        16
+      ]
+    },
+    {
+      "key": "exam_adverse_combined_unselected_method",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_adverse_combined",
+        "candidate_severe_state": "空亡",
+        "has_inauspicious_door_and_pattern": true,
+        "tianfu_controls_candidate": true,
+        "zhifu_controls_candidate": true,
+        "current_year_stem_controls_candidate": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations"
+      },
+      "expected": {
+        "candidate_key": "exam_adverse_combined",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        16
+      ]
+    },
+    {
+      "key": "exam_adverse_combined_missing",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_adverse_combined",
+        "candidate_severe_state": "空亡",
+        "has_inauspicious_door_and_pattern": true,
+        "tianfu_controls_candidate": true,
+        "zhifu_controls_candidate": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_adverse_combined",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "current_year_stem_controls_candidate"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        16
+      ]
+    },
+    {
+      "key": "exam_adverse_combined_wrong_context",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "unrelated_domain_context",
+        "candidate_severe_state": "空亡",
+        "has_inauspicious_door_and_pattern": true,
+        "tianfu_controls_candidate": true,
+        "zhifu_controls_candidate": true,
+        "current_year_stem_controls_candidate": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_adverse_combined",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        16
+      ]
+    },
+    {
+      "key": "exam_article_paper_relation_review_explicit",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_article_paper_relation",
+        "article_stem": "丁",
+        "paper_door": "景门",
+        "article_and_paper_states_recorded": true,
+        "relations_to_tianfu_zhifu_year_stem_recorded": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_article_paper_relation_review",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        18
+      ]
+    },
+    {
+      "key": "exam_article_paper_relation_review_unselected_method",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_article_paper_relation",
+        "article_stem": "丁",
+        "paper_door": "景门",
+        "article_and_paper_states_recorded": true,
+        "relations_to_tianfu_zhifu_year_stem_recorded": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations"
+      },
+      "expected": {
+        "candidate_key": "exam_article_paper_relation_review",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        18
+      ]
+    },
+    {
+      "key": "exam_article_paper_relation_review_missing",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_article_paper_relation",
+        "article_stem": "丁",
+        "paper_door": "景门",
+        "article_and_paper_states_recorded": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_article_paper_relation_review",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "relations_to_tianfu_zhifu_year_stem_recorded"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        18
+      ]
+    },
+    {
+      "key": "exam_article_paper_relation_review_wrong_context",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "unrelated_domain_context",
+        "article_stem": "丁",
+        "paper_door": "景门",
+        "article_and_paper_states_recorded": true,
+        "relations_to_tianfu_zhifu_year_stem_recorded": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_article_paper_relation_review",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        18
+      ]
+    },
+    {
+      "key": "exam_historical_martial_roles_explicit",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "historical_martial_roles",
+        "candidate_stem_perspective": "day_stem",
+        "invigilator_star": "天冲星",
+        "horse_door": "伤门",
+        "essay_door": "景门"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_historical_martial_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_historical_martial_roles",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "key": "exam_historical_martial_roles_unselected_method",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "historical_martial_roles",
+        "candidate_stem_perspective": "day_stem",
+        "invigilator_star": "天冲星",
+        "horse_door": "伤门",
+        "essay_door": "景门"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations"
+      },
+      "expected": {
+        "candidate_key": "exam_historical_martial_roles",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "key": "exam_historical_martial_roles_missing",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "historical_martial_roles",
+        "candidate_stem_perspective": "day_stem",
+        "invigilator_star": "天冲星",
+        "horse_door": "伤门"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_historical_martial_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_historical_martial_roles",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "essay_door"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "key": "exam_historical_martial_roles_wrong_context",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "unrelated_domain_context",
+        "candidate_stem_perspective": "day_stem",
+        "invigilator_star": "天冲星",
+        "horse_door": "伤门",
+        "essay_door": "景门"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_historical_martial_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_historical_martial_roles",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "key": "exam_historical_martial_shot_explicit",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "historical_martial_shot_and_pass",
+        "candidate_stem_perspective": "hour_stem",
+        "candidate_palace_strength": "旺相",
+        "geng_to_xin_palaces_relation": "冲",
+        "jing_door_strength": "旺相",
+        "jing_to_zhifu_palaces_relation": "值符生景门"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_historical_martial_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_historical_martial_shot",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        24
+      ]
+    },
+    {
+      "key": "exam_historical_martial_shot_unselected_method",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "historical_martial_shot_and_pass",
+        "candidate_stem_perspective": "hour_stem",
+        "candidate_palace_strength": "旺相",
+        "geng_to_xin_palaces_relation": "冲",
+        "jing_door_strength": "旺相",
+        "jing_to_zhifu_palaces_relation": "值符生景门"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations"
+      },
+      "expected": {
+        "candidate_key": "exam_historical_martial_shot",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        24
+      ]
+    },
+    {
+      "key": "exam_historical_martial_shot_missing",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "historical_martial_shot_and_pass",
+        "candidate_stem_perspective": "hour_stem",
+        "candidate_palace_strength": "旺相",
+        "geng_to_xin_palaces_relation": "冲",
+        "jing_door_strength": "旺相"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_historical_martial_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_historical_martial_shot",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "jing_to_zhifu_palaces_relation"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        24
+      ]
+    },
+    {
+      "key": "exam_historical_martial_shot_wrong_context",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "unrelated_domain_context",
+        "candidate_stem_perspective": "hour_stem",
+        "candidate_palace_strength": "旺相",
+        "geng_to_xin_palaces_relation": "冲",
+        "jing_door_strength": "旺相",
+        "jing_to_zhifu_palaces_relation": "值符生景门"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_historical_martial_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_historical_martial_shot",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        24
+      ]
+    },
+    {
+      "key": "exam_historical_martial_birth_year_explicit",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "historical_martial_birth_year_relation",
+        "birth_year_stem": "丁",
+        "relations_to_zhifu_tianchong_recorded": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_historical_martial_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_historical_martial_birth_year",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        26
+      ]
+    },
+    {
+      "key": "exam_historical_martial_birth_year_unselected_method",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "historical_martial_birth_year_relation",
+        "birth_year_stem": "丁",
+        "relations_to_zhifu_tianchong_recorded": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations"
+      },
+      "expected": {
+        "candidate_key": "exam_historical_martial_birth_year",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        26
+      ]
+    },
+    {
+      "key": "exam_historical_martial_birth_year_missing",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "historical_martial_birth_year_relation",
+        "birth_year_stem": "丁"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_historical_martial_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_historical_martial_birth_year",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "relations_to_zhifu_tianchong_recorded"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        26
+      ]
+    },
+    {
+      "key": "exam_historical_martial_birth_year_wrong_context",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "unrelated_domain_context",
+        "birth_year_stem": "丁",
+        "relations_to_zhifu_tianchong_recorded": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_historical_martial_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_historical_martial_birth_year",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        26
+      ]
+    },
+    {
+      "key": "exam_modern_martial_experiment_explicit",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "modern_martial_experimental_reference",
+        "modern_event_subtype": "martial_arts_competition",
+        "adaptation_scope": "experimental_reference"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_modern_martial_experiment_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_modern_martial_experiment",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        28
+      ]
+    },
+    {
+      "key": "exam_modern_martial_experiment_unselected_method",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "modern_martial_experimental_reference",
+        "modern_event_subtype": "martial_arts_competition",
+        "adaptation_scope": "experimental_reference"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations"
+      },
+      "expected": {
+        "candidate_key": "exam_modern_martial_experiment",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        28
+      ]
+    },
+    {
+      "key": "exam_modern_martial_experiment_missing",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "modern_martial_experimental_reference",
+        "modern_event_subtype": "martial_arts_competition"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_modern_martial_experiment_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_modern_martial_experiment",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "adaptation_scope"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        28
+      ]
+    },
+    {
+      "key": "exam_modern_martial_experiment_wrong_context",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "unrelated_domain_context",
+        "modern_event_subtype": "martial_arts_competition",
+        "adaptation_scope": "experimental_reference"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_modern_martial_experiment_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_modern_martial_experiment",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        28
+      ]
+    },
+    {
+      "key": "exam_spiritual_roles_explicit",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "spiritual_apprenticeship_roles",
+        "visitor_star": "天芮星",
+        "teacher_star": "天辅星"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_spiritual_apprenticeship_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_spiritual_roles",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "key": "exam_spiritual_roles_unselected_method",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "spiritual_apprenticeship_roles",
+        "visitor_star": "天芮星",
+        "teacher_star": "天辅星"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations"
+      },
+      "expected": {
+        "candidate_key": "exam_spiritual_roles",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "key": "exam_spiritual_roles_missing",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "spiritual_apprenticeship_roles",
+        "visitor_star": "天芮星"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_spiritual_apprenticeship_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_spiritual_roles",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "teacher_star"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "key": "exam_spiritual_roles_wrong_context",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "unrelated_domain_context",
+        "visitor_star": "天芮星",
+        "teacher_star": "天辅星"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_spiritual_apprenticeship_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_spiritual_roles",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "key": "exam_spiritual_transmission_explicit",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "spiritual_apprenticeship_transmission",
+        "visitor_star": "天芮星",
+        "teacher_star": "天辅星",
+        "teacher_has_auspicious_door_and_pattern": true,
+        "teacher_generates_visitor": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_spiritual_apprenticeship_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_spiritual_transmission",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        34,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "key": "exam_spiritual_transmission_unselected_method",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "spiritual_apprenticeship_transmission",
+        "visitor_star": "天芮星",
+        "teacher_star": "天辅星",
+        "teacher_has_auspicious_door_and_pattern": true,
+        "teacher_generates_visitor": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations"
+      },
+      "expected": {
+        "candidate_key": "exam_spiritual_transmission",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        34,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "key": "exam_spiritual_transmission_missing",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "spiritual_apprenticeship_transmission",
+        "visitor_star": "天芮星",
+        "teacher_star": "天辅星",
+        "teacher_has_auspicious_door_and_pattern": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_spiritual_apprenticeship_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_spiritual_transmission",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "teacher_generates_visitor"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        34,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "key": "exam_spiritual_transmission_wrong_context",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "unrelated_domain_context",
+        "visitor_star": "天芮星",
+        "teacher_star": "天辅星",
+        "teacher_has_auspicious_door_and_pattern": true,
+        "teacher_generates_visitor": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_spiritual_apprenticeship_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_spiritual_transmission",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        34,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "key": "exam_martial_apprenticeship_roles_explicit",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "martial_apprenticeship_roles",
+        "warrior_star": "天冲星"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_martial_apprenticeship_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_martial_apprenticeship_roles",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        40
+      ]
+    },
+    {
+      "key": "exam_martial_apprenticeship_roles_unselected_method",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "martial_apprenticeship_roles",
+        "warrior_star": "天冲星"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations"
+      },
+      "expected": {
+        "candidate_key": "exam_martial_apprenticeship_roles",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        40
+      ]
+    },
+    {
+      "key": "exam_martial_apprenticeship_roles_missing",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "martial_apprenticeship_roles"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_martial_apprenticeship_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_martial_apprenticeship_roles",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "warrior_star"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        40
+      ]
+    },
+    {
+      "key": "exam_martial_apprenticeship_roles_wrong_context",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "unrelated_domain_context",
+        "warrior_star": "天冲星"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_martial_apprenticeship_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_martial_apprenticeship_roles",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        40
+      ]
+    },
+    {
+      "key": "exam_martial_apprenticeship_relation_explicit",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "martial_apprenticeship_relation",
+        "warrior_star": "天冲星",
+        "warrior_zhifu_relation": "相生"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_martial_apprenticeship_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_martial_apprenticeship_relation",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "key": "exam_martial_apprenticeship_relation_unselected_method",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "martial_apprenticeship_relation",
+        "warrior_star": "天冲星",
+        "warrior_zhifu_relation": "相生"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations"
+      },
+      "expected": {
+        "candidate_key": "exam_martial_apprenticeship_relation",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "key": "exam_martial_apprenticeship_relation_missing",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "martial_apprenticeship_relation",
+        "warrior_star": "天冲星"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_martial_apprenticeship_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_martial_apprenticeship_relation",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "warrior_zhifu_relation"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "key": "exam_martial_apprenticeship_relation_wrong_context",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "unrelated_domain_context",
+        "warrior_star": "天冲星",
+        "warrior_zhifu_relation": "相生"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_martial_apprenticeship_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_martial_apprenticeship_relation",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "key": "exam_martial_apprenticeship_tianchong_chief_explicit",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "martial_apprenticeship_tianchong_is_zhifu",
+        "chief_star": "天冲星"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_martial_apprenticeship_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_martial_apprenticeship_tianchong_chief",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        46
+      ]
+    },
+    {
+      "key": "exam_martial_apprenticeship_tianchong_chief_unselected_method",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "martial_apprenticeship_tianchong_is_zhifu",
+        "chief_star": "天冲星"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations"
+      },
+      "expected": {
+        "candidate_key": "exam_martial_apprenticeship_tianchong_chief",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        46
+      ]
+    },
+    {
+      "key": "exam_martial_apprenticeship_tianchong_chief_missing",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "martial_apprenticeship_tianchong_is_zhifu"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_martial_apprenticeship_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_martial_apprenticeship_tianchong_chief",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "chief_star"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        46
+      ]
+    },
+    {
+      "key": "exam_martial_apprenticeship_tianchong_chief_wrong_context",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "unrelated_domain_context",
+        "chief_star": "天冲星"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_martial_apprenticeship_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_martial_apprenticeship_tianchong_chief",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        46
+      ]
+    },
+    {
+      "key": "exam_martial_apprenticeship_fanyin_fuyin_explicit",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "martial_apprenticeship_fanyin_fuyin",
+        "pattern": "伏吟"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_martial_apprenticeship_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_martial_apprenticeship_fanyin_fuyin",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        48
+      ]
+    },
+    {
+      "key": "exam_martial_apprenticeship_fanyin_fuyin_unselected_method",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "martial_apprenticeship_fanyin_fuyin",
+        "pattern": "伏吟"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations"
+      },
+      "expected": {
+        "candidate_key": "exam_martial_apprenticeship_fanyin_fuyin",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        48
+      ]
+    },
+    {
+      "key": "exam_martial_apprenticeship_fanyin_fuyin_missing",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "martial_apprenticeship_fanyin_fuyin"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_martial_apprenticeship_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_martial_apprenticeship_fanyin_fuyin",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "pattern"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        48
+      ]
+    },
+    {
+      "key": "exam_martial_apprenticeship_fanyin_fuyin_wrong_context",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "unrelated_domain_context",
+        "pattern": "伏吟"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_martial_apprenticeship_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_martial_apprenticeship_fanyin_fuyin",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        48
+      ]
+    },
+    {
+      "key": "parent_relation_older_brother",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_candidate_parent_child",
+        "asker_relation_to_candidate": "older_brother",
+        "candidate_relation_to_asker": "child",
+        "hour_stem": "丙"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_parent_child_hour_stem",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "parent_relation_uncle",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_candidate_parent_child",
+        "asker_relation_to_candidate": "uncle",
+        "candidate_relation_to_asker": "child",
+        "hour_stem": "丙"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_parent_child_hour_stem",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "parent_relation_self",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_candidate_parent_child",
+        "asker_relation_to_candidate": "self",
+        "candidate_relation_to_asker": "child",
+        "hour_stem": "丙"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_parent_child_hour_stem",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "parent_relation_spouse_not_child",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_candidate_parent_child",
+        "asker_relation_to_candidate": "father",
+        "candidate_relation_to_asker": "spouse",
+        "hour_stem": "丙"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_parent_child_hour_stem",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "birth_year_invalid_false",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_candidate_birth_year",
+        "birth_year_stem": false
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_birth_year_supplement",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "birth_year_invalid_zero",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_candidate_birth_year",
+        "birth_year_stem": 0
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_birth_year_supplement",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "birth_year_invalid_empty",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_candidate_birth_year",
+        "birth_year_stem": ""
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_birth_year_supplement",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "birth_year_invalid_ganzhi_not_stem",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_candidate_birth_year",
+        "birth_year_stem": "丁巳"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_birth_year_supplement",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "birth_year_invalid_english_alias",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_candidate_birth_year",
+        "birth_year_stem": "ding"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_birth_year_supplement",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "birth_year_null",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_candidate_birth_year",
+        "birth_year_stem": null
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_birth_year_supplement",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "birth_year_stem"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "birth_year_missing",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_candidate_birth_year"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_birth_year_supplement",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "birth_year_stem"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "exam_ordinary_institution_documents_short_symbol_excluded",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_institution_document_roles",
+        "tianfu_star": "天辅",
+        "paper_door": "景门",
+        "article_stem": "丁",
+        "current_year_stem": "丙"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_ordinary_institution_documents",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        8
+      ]
+    },
+    {
+      "key": "exam_spiritual_roles_short_symbol_excluded",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "spiritual_apprenticeship_roles",
+        "visitor_star": "天芮",
+        "teacher_star": "天辅星"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_spiritual_apprenticeship_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_spiritual_roles",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "key": "exam_martial_apprenticeship_roles_short_symbol_excluded",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "martial_apprenticeship_roles",
+        "warrior_star": "冲"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_martial_apprenticeship_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_martial_apprenticeship_roles",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        40
+      ]
+    },
+    {
+      "key": "exam_historical_martial_roles_short_symbol_excluded",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "historical_martial_roles",
+        "candidate_stem_perspective": "day_stem",
+        "invigilator_star": "天冲",
+        "horse_door": "伤门",
+        "essay_door": "景门"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_historical_martial_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_historical_martial_roles",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "key": "exam_article_paper_relation_review_short_symbol_excluded",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_article_paper_relation",
+        "article_stem": "丁",
+        "paper_door": "景",
+        "article_and_paper_states_recorded": true,
+        "relations_to_tianfu_zhifu_year_stem_recorded": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_article_paper_relation_review",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        18
+      ]
+    },
+    {
+      "key": "full_compound_one_support_false",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_favorable_supported",
+        "candidate_palace_strength": "旺相",
+        "has_three_wonders": true,
+        "has_auspicious_door_and_pattern": true,
+        "tianfu_generates_candidate": true,
+        "zhifu_generates_candidate": false,
+        "current_year_stem_generates_candidate": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_favorable_supported",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        10
+      ]
+    },
+    {
+      "key": "full_compound_three_wonders_false",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_favorable_supported",
+        "candidate_palace_strength": "旺相",
+        "has_three_wonders": false,
+        "has_auspicious_door_and_pattern": true,
+        "tianfu_generates_candidate": true,
+        "zhifu_generates_candidate": true,
+        "current_year_stem_generates_candidate": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_favorable_supported",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        10
+      ]
+    },
+    {
+      "key": "full_compound_door_pattern_missing",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_favorable_supported",
+        "candidate_palace_strength": "旺相",
+        "has_three_wonders": true,
+        "has_auspicious_door_and_pattern": null,
+        "tianfu_generates_candidate": true,
+        "zhifu_generates_candidate": true,
+        "current_year_stem_generates_candidate": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_favorable_supported",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "has_auspicious_door_and_pattern"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        10
+      ]
+    },
+    {
+      "key": "full_compound_boolean_one_not_true",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_favorable_supported",
+        "candidate_palace_strength": "旺相",
+        "has_three_wonders": 1,
+        "has_auspicious_door_and_pattern": true,
+        "tianfu_generates_candidate": true,
+        "zhifu_generates_candidate": true,
+        "current_year_stem_generates_candidate": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_favorable_supported",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        10
+      ]
+    },
+    {
+      "key": "control_one_control_false",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_favorable_controls",
+        "candidate_palace_strength": "旺相",
+        "has_three_wonders": true,
+        "has_auspicious_door_and_pattern": true,
+        "candidate_controls_tianfu": false,
+        "candidate_controls_zhifu": true,
+        "candidate_controls_current_year_stem": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_favorable_controls",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        12
+      ]
+    },
+    {
+      "key": "control_reversed_relation",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_favorable_controls",
+        "candidate_palace_strength": "旺相",
+        "has_three_wonders": true,
+        "has_auspicious_door_and_pattern": true,
+        "candidate_controls_tianfu": true,
+        "candidate_controls_zhifu": false,
+        "candidate_controls_current_year_stem": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_favorable_controls",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        12
+      ]
+    },
+    {
+      "key": "weak_false_is_valid_condition",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_weak_but_supported",
+        "candidate_palace_strength": "休囚无力",
+        "has_qimen_auspicious_pattern": false,
+        "tianfu_generates_candidate": true,
+        "zhifu_generates_candidate": true,
+        "current_year_stem_generates_candidate": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_weak_but_supported",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        14
+      ]
+    },
+    {
+      "key": "weak_missing_not_false",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_weak_but_supported",
+        "candidate_palace_strength": "休囚无力",
+        "tianfu_generates_candidate": true,
+        "zhifu_generates_candidate": true,
+        "current_year_stem_generates_candidate": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_weak_but_supported",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed",
+        "missing_fields": [
+          "has_qimen_auspicious_pattern"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        14
+      ]
+    },
+    {
+      "key": "void_only_no_inauspicious_door",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_adverse_combined",
+        "candidate_severe_state": "空亡",
+        "has_inauspicious_door_and_pattern": false,
+        "tianfu_controls_candidate": true,
+        "zhifu_controls_candidate": true,
+        "current_year_stem_controls_candidate": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_adverse_combined",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        16
+      ]
+    },
+    {
+      "key": "adverse_death_tomb_alternative",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_adverse_combined",
+        "candidate_severe_state": "死绝入墓",
+        "has_inauspicious_door_and_pattern": true,
+        "tianfu_controls_candidate": true,
+        "zhifu_controls_candidate": true,
+        "current_year_stem_controls_candidate": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_ordinary_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_adverse_combined",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        16
+      ]
+    },
+    {
+      "key": "martial_hour_alternative",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "historical_martial_roles",
+        "candidate_stem_perspective": "hour_stem",
+        "invigilator_star": "天冲星",
+        "horse_door": "伤门",
+        "essay_door": "景门"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_historical_martial_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_historical_martial_roles",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "key": "martial_no_inferred_year_perspective",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "historical_martial_roles",
+        "candidate_stem_perspective": "year_stem",
+        "invigilator_star": "天冲星",
+        "horse_door": "伤门",
+        "essay_door": "景门"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_historical_martial_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_historical_martial_roles",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "key": "martial_control_alternative",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "historical_martial_shot_and_pass",
+        "candidate_stem_perspective": "hour_stem",
+        "candidate_palace_strength": "旺相",
+        "geng_to_xin_palaces_relation": "克",
+        "jing_door_strength": "旺相",
+        "jing_to_zhifu_palaces_relation": "值符生景门"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_historical_martial_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_historical_martial_shot",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        24
+      ]
+    },
+    {
+      "key": "martial_shot_no_generation_shortcut",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "historical_martial_shot_and_pass",
+        "candidate_stem_perspective": "hour_stem",
+        "candidate_palace_strength": "旺相",
+        "geng_to_xin_palaces_relation": "生",
+        "jing_door_strength": "旺相",
+        "jing_to_zhifu_palaces_relation": "值符生景门"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_historical_martial_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_historical_martial_shot",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        24
+      ]
+    },
+    {
+      "key": "martial_jing_weak_excluded",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "historical_martial_shot_and_pass",
+        "candidate_stem_perspective": "hour_stem",
+        "candidate_palace_strength": "旺相",
+        "geng_to_xin_palaces_relation": "冲",
+        "jing_door_strength": "休囚",
+        "jing_to_zhifu_palaces_relation": "值符生景门"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_historical_martial_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_historical_martial_shot",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        24
+      ]
+    },
+    {
+      "key": "modern_military_experimental",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "modern_martial_experimental_reference",
+        "modern_event_subtype": "military_subject_examination",
+        "adaptation_scope": "experimental_reference"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_modern_martial_experiment_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_modern_martial_experiment",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        28
+      ]
+    },
+    {
+      "key": "modern_claim_validated_rejected",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "modern_martial_experimental_reference",
+        "modern_event_subtype": "martial_arts_competition",
+        "adaptation_scope": "validated_prediction"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_modern_martial_experiment_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_modern_martial_experiment",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        28
+      ]
+    },
+    {
+      "key": "modern_not_ordinary_exam",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "modern_martial_experimental_reference",
+        "modern_event_subtype": "ordinary_academic_examination",
+        "adaptation_scope": "experimental_reference"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_modern_martial_experiment_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_modern_martial_experiment",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        28
+      ]
+    },
+    {
+      "key": "spiritual_no_teacher_auspicious_pattern",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "spiritual_apprenticeship_transmission",
+        "visitor_star": "天芮星",
+        "teacher_star": "天辅星",
+        "teacher_has_auspicious_door_and_pattern": false,
+        "teacher_generates_visitor": true
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_spiritual_apprenticeship_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_spiritual_transmission",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        34,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "key": "spiritual_not_reverse_generation",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "spiritual_apprenticeship_transmission",
+        "visitor_star": "天芮星",
+        "teacher_star": "天辅星",
+        "teacher_has_auspicious_door_and_pattern": true,
+        "teacher_generates_visitor": false
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_spiritual_apprenticeship_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_spiritual_transmission",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        34,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "key": "apprentice_control_branch",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "martial_apprenticeship_relation",
+        "warrior_star": "天冲星",
+        "warrior_zhifu_relation": "相克"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_martial_apprenticeship_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_martial_apprenticeship_relation",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "key": "apprentice_bihe_not_inserted",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "martial_apprenticeship_relation",
+        "warrior_star": "天冲星",
+        "warrior_zhifu_relation": "比和"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_martial_apprenticeship_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_martial_apprenticeship_relation",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "key": "apprentice_fanyin_alternative",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "martial_apprenticeship_fanyin_fuyin",
+        "pattern": "反吟"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_martial_apprenticeship_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_martial_apprenticeship_fanyin_fuyin",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        48
+      ]
+    },
+    {
+      "key": "wrong_explicit_method_even_complete",
+      "context": {
+        "domain": "education_examinations",
+        "analysis_context": "ordinary_candidate_self",
+        "asker_role": "candidate",
+        "asker_relation_to_candidate": "self",
+        "day_stem": "庚"
+      },
+      "inspection_filters": {
+        "domain": "education_examinations",
+        "method": "shenqi_exam_spiritual_apprenticeship_v1"
+      },
+      "expected": {
+        "candidate_key": "exam_self_day_stem",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "source_acceptance": "confirmed"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    }
+  ],
+  "selection_case_count": 116,
+  "method_contract": {
+    "inspection_filters": "Pass independently to inspect_candidates; explicit method never inferred from semantic proximity.",
+    "all_candidates_domain": "education_examinations",
+    "source_acceptance": "confirmed on user submission; no second manual source review",
+    "formal_activation": "role_bindings empty, activation_status reference_only even for applicable symbolic matches",
+    "canonical_symbol_inputs": "Chapter01 canonical star names and full door names, exact single stems. No alias guessing or boolean/number coercion."
+  },
+  "first_section_line_ranges": [
+    [
+      6,
+      48
+    ]
+  ],
+  "source_limitations_gold": [
+    {
+      "key": "candidate_role_relations",
+      "source_lines": [
+        6,
+        8
+      ],
+      "expected": "本人日干、父母问子女时干、出生年命可并参；问时年干为学校，不能混淆。"
+    },
+    {
+      "key": "compound_direction",
+      "source_lines": [
+        10,
+        16
+      ],
+      "expected": "三方生考生与考生克三方两个吉分支均有旺相/奇门格条件；空亡不能独自替代完整凶分支。"
+    },
+    {
+      "key": "martial_adaptation_experimental",
+      "source_lines": [
+        20,
+        28
+      ],
+      "expected": "旧武试日时干并列；现代武术比赛/军事考试仅变通试验。"
+    },
+    {
+      "key": "apprenticeship_separate_methods",
+      "source_lines": [
+        30,
+        48
+      ],
+      "expected": "访道天芮天辅、学武天冲值符分别保存；比和不传道、反伏吟学武不利限定语境。"
+    },
+    {
+      "key": "case1_midturn",
+      "source_lines": [
+        101,
+        115
+      ],
+      "expected": "620自估分和1977出生年在初断后披露，不能提前放初断。"
+    },
+    {
+      "key": "case2_no_final_admission_invented",
+      "source_lines": [
+        175,
+        177
+      ],
+      "expected": "四百多分未达线，原书只说想法自费，没有给最终录取。"
+    },
+    {
+      "key": "case4_same_person_future_year",
+      "source_lines": [
+        293,
+        305
+      ],
+      "expected": "学员判断归属，1997未成与1998成功分年保存，不造1998盘。"
+    },
+    {
+      "key": "case5_no_prior_chart_invention",
+      "source_lines": [
+        313,
+        323
+      ],
+      "expected": "前次北京成绩预测只有引用，不得另造原盘。"
+    },
+    {
+      "key": "case5_roles_not_universal",
+      "source_lines": [
+        410,
+        438
+      ],
+      "expected": "诉讼原被告法院与考试、师生视角分方法；第一名为断语，无独立排名反馈。"
+    },
+    {
+      "key": "case5_followup_and_result",
+      "source_lines": [
+        329,
+        367
+      ],
+      "expected": "初断、收集证据、秘书答复、10月8续问、10月9通知与人物科学引语分层。"
+    },
+    {
+      "key": "source_confirmation",
+      "source_lines": [
+        1,
+        446
+      ],
+      "expected": "用户已确认原文无误，无需二次人工确认；程序复算、方法编译和现实评估独立。"
+    }
+  ],
+  "formal_rules_added": 0,
+  "no_training_tasks_created": true,
+  "no_real_world_outcome_gold_invented": true
+}

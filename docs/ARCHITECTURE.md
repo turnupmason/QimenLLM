@@ -125,3 +125,9 @@ marriage源HASH注册独立projection_method，沿同一case-chart服务，只�
 knowledge.source_confirmation以追加review/data_version保存用户对全部既往和未来资料的确认声明；import_chapter及维护CLI/重放脚本默认confirmed。真实KnowledgeRepository.source、case inspection及source_chart读取同一最新确认，含user_attestation依据；公众问事不能写入该状态。旧payload不回写，当前source_confirmation明确覆盖历史未确认注释。明确源注释的受孕/分娩feedback可作为其窄范围结果读取，不虚构未给结局或系统外查。
 
 pregnancy installer、source hash投影、cases与候选复用原正式service/CLI/API，没有新问事旁路。六故事按五家族分组，前两共享家族而分别事件/原盘；SQL候选取最新修订，14当前/18新历史。源表投影同ID，明确paper方法才建另一个比较盘；mismatch只记技术差异、source_rejected=false。保守事前视图各4/2/2/2/2/4条，后置盘、解释、医院新信息、结果与加工注不回灌。医学内容是古籍案例研究，当前ask仍blocked，不把历史建议转为临床决策。
+
+## 求学考试的增量接线
+
+education-examinations沿既有importer → exam installer/case importer/candidate installer → SQLite → QimenService → CLI/API，无问事旁路。19参考候选五方法隔离，source_stage合同保护预测payload；本人日干/父母时干/兼看年命由实际条件区分。case5同事件多轮，后置盘/分析及新增出生年无初断读取权限。
+
+EXAM_SHA注册相同四列表只读约定，独立45行gold验证投影；原盘与界面使用同ID，比较盘另ID，值符原5寄2双字段比较。before各3/2/3/6/9条，人物说话者与明确outcome归类在新案首次入库前审查，不覆写旧行或放宽通用结果白名单。9源最新确认沿source_confirmation统一读取，schema仍v1；专业模型/历法全链未完成。

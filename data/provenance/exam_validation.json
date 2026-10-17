@@ -1,0 +1,307 @@
+{
+  "date_utc": "2026-10-17",
+  "previous_commit": "059b19ea891009b2f0839975b51510099365643c",
+  "source": {
+    "origin": "sediment://file_00000000ec8481f685a564f6b9cb7edf",
+    "sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+    "bytes": 18832,
+    "characters": 7326,
+    "lines": 446,
+    "trailing_newline": false,
+    "confirmation": {
+      "source_acceptance": "confirmed",
+      "source_facts_user_confirmed": true,
+      "verification_basis": "user_attestation",
+      "user_declares_independent_verification": true,
+      "system_performed_independent_verification": false,
+      "declaration_source": "docs/user_instructions/source_confirmation_2026-10-17.txt",
+      "confirmation_policy": "user-supplied-source-confirmation-v1",
+      "scope": "supplied_source_and_explicitly_reported_facts",
+      "source_owner": "current_project_user"
+    }
+  },
+  "data_version": "428f127b-60f0-4afc-9db2-44569276e1d2",
+  "snapshot_manifest_sha256": "9dd33241f671e2466d36d0036b24b0f892935596b928f9c5222390e6817a46b7",
+  "schema_migration": false,
+  "all_sources_confirmed": 9,
+  "added": {
+    "contexts": 11,
+    "reference_datasets": 9,
+    "reference_rows": 37,
+    "printed_case_analysis_steps": 17,
+    "technical_boundaries": 16,
+    "concepts": 111,
+    "cases": 5,
+    "families": 5,
+    "events": 5,
+    "charts": 5,
+    "records": 93,
+    "evidence_links": 165,
+    "current_candidates": 19,
+    "candidate_history": 19,
+    "compiled_families": 0,
+    "formal_rules": 0,
+    "training_tasks": 0
+  },
+  "totals": {
+    "books": 1,
+    "chapters": 9,
+    "raw_documents": 9,
+    "source_reviews": 16,
+    "knowledge_items": 746,
+    "concepts": 1707,
+    "methods": 18,
+    "cases": 24,
+    "events": 25,
+    "charts": 24,
+    "event_families": 23,
+    "case_records": 374,
+    "evidence_links": 633,
+    "rules": 0,
+    "training_tasks": 0,
+    "dataset_releases": 0,
+    "split_assignments": 0,
+    "context_group": 336,
+    "source_quality_issue": 246,
+    "worked_example": 16,
+    "source_selection_candidate": 109,
+    "compiled_dataset": 39,
+    "datasets": 111,
+    "data_version": "428f127b-60f0-4afc-9db2-44569276e1d2",
+    "current_candidates": 102
+  },
+  "tests": {
+    "command": "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+    "environment": "cloud Linux; Python 3.12.14",
+    "passed": 236,
+    "failed": 0,
+    "chapter_tests": 19,
+    "previous_tests": 217,
+    "independent_source_rows": 45,
+    "source_cell_checks": 180,
+    "projection_primary_fields": 205,
+    "independent_condition_gold": 116
+  },
+  "http": {
+    "command": "PYTHONPATH=src python3 scripts/smoke_api.py --chapter01 --chapter02 --chapters0405 --application-overview --health --marriage --pregnancy --exam",
+    "requests": 73,
+    "passed": true,
+    "listener_closed": true
+  },
+  "audit": {
+    "ok": true,
+    "errors": [],
+    "counts": {
+      "books": 1,
+      "chapters": 9,
+      "raw_documents": 9,
+      "knowledge_items": 746,
+      "rules": 0,
+      "cases": 24,
+      "events": 25,
+      "charts": 24,
+      "training_tasks": 0
+    },
+    "data_version": "428f127b-60f0-4afc-9db2-44569276e1d2"
+  },
+  "recovery": {
+    "old_authoritative_rows_preserved": 4409,
+    "old_raw_files_preserved": 8,
+    "schema_unchanged": true,
+    "snapshot_files_byte_identical": 35,
+    "restored_case_views": 48,
+    "restored_source_charts": 24,
+    "data_version": "428f127b-60f0-4afc-9db2-44569276e1d2",
+    "manifest_sha256": "9dd33241f671e2466d36d0036b24b0f892935596b928f9c5222390e6817a46b7"
+  },
+  "packaging": {
+    "ok": true,
+    "loaded_from": "isolated_wheel_install",
+    "case_count": 5,
+    "chart_count": 5,
+    "condition_query": true,
+    "confirmed_sources": true
+  },
+  "wheel_sha256": "0acba26d3088e28c7d499b05108295f01038de470b9fbd02c2e6abd97fbcf313",
+  "data_replay": {
+    "source_duplicate": true,
+    "case_additions": 0,
+    "curation_additions": 0,
+    "candidate_additions": 0
+  },
+  "source_chart_comparisons": [
+    {
+      "case_number": 1,
+      "status": "matches",
+      "checked_fields": 47,
+      "differences": [],
+      "before_records": 3,
+      "outcome_confirmed": true
+    },
+    {
+      "case_number": 2,
+      "status": "matches",
+      "checked_fields": 47,
+      "differences": [],
+      "before_records": 2,
+      "outcome_confirmed": true
+    },
+    {
+      "case_number": 3,
+      "status": "matches",
+      "checked_fields": 47,
+      "differences": [],
+      "before_records": 3,
+      "outcome_confirmed": true
+    },
+    {
+      "case_number": 4,
+      "status": "matches",
+      "checked_fields": 47,
+      "differences": [],
+      "before_records": 6,
+      "outcome_confirmed": true
+    },
+    {
+      "case_number": 5,
+      "status": "matches",
+      "checked_fields": 48,
+      "differences": [],
+      "before_records": 9,
+      "outcome_confirmed": true
+    }
+  ],
+  "before_prediction_records": [
+    3,
+    2,
+    3,
+    6,
+    9
+  ],
+  "old_authoritative_rows_modified": 0,
+  "old_raw_files_modified": 0,
+  "previous_gold_modified": false,
+  "frozen_split_changes": false,
+  "pre_import_corrections": [
+    {
+      "case": 1,
+      "source_lines": [
+        103,
+        103
+      ],
+      "field": "speaker",
+      "old": "作者叙述",
+      "new": "戴金来"
+    },
+    {
+      "case": 1,
+      "source_lines": [
+        107,
+        107
+      ],
+      "field": "speaker",
+      "old": "作者叙述",
+      "new": "戴金来"
+    },
+    {
+      "case": 1,
+      "source_lines": [
+        113,
+        113
+      ],
+      "field": "speaker",
+      "old": "作者叙述",
+      "new": "戴金来"
+    },
+    {
+      "case": 1,
+      "source_lines": [
+        115,
+        115
+      ],
+      "field": "speaker",
+      "old": "作者叙述",
+      "new": "戴金来（作者转述）"
+    },
+    {
+      "case": 1,
+      "source_lines": [
+        117,
+        117
+      ],
+      "field": "speaker",
+      "old": "作者叙述",
+      "new": "戴金来（作者转述）"
+    },
+    {
+      "case": 2,
+      "source_lines": [
+        165,
+        165
+      ],
+      "field": "speaker",
+      "old": "作者叙述",
+      "new": "女编辑"
+    },
+    {
+      "case": 2,
+      "source_lines": [
+        171,
+        171
+      ],
+      "field": "speaker",
+      "old": "作者叙述",
+      "new": "女编辑"
+    },
+    {
+      "case": 2,
+      "source_lines": [
+        177,
+        177
+      ],
+      "field": "speaker",
+      "old": "作者叙述",
+      "new": "女编辑（作者转述）"
+    },
+    {
+      "case": 3,
+      "source_lines": [
+        247,
+        247
+      ],
+      "field": "kind",
+      "old": "feedback",
+      "new": "outcome"
+    },
+    {
+      "case": 4,
+      "source_lines": [
+        303,
+        303
+      ],
+      "field": "kind",
+      "old": "feedback",
+      "new": "outcome"
+    },
+    {
+      "case": 4,
+      "source_lines": [
+        305,
+        305
+      ],
+      "field": "kind",
+      "old": "feedback",
+      "new": "outcome"
+    }
+  ],
+  "test_failures": [],
+  "model_experiments": null,
+  "professional_prediction_completed": false,
+  "limitations": [
+    "Given-symbol comparison is not independent calendar or forecast validation.",
+    "Candidates remain reference-only; ask does not invoke a professional model.",
+    "The reported 1997 and 1998 results are separate; later success does not validate the earlier target.",
+    "Case5 rank analysis and opinions are attributed to source speakers; no initial rank forecast or rank outcome invented."
+  ],
+  "remote_acceptance": "Verify pushed main SHA and all four Ubuntu/macOS x Python3.11/3.12 jobs; GitHub Actions and work/github-sync.json store final remote evidence."
+}

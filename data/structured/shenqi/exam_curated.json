@@ -1,0 +1,2467 @@
+{
+  "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+  "source_byte_count": 18832,
+  "source_line_count": 446,
+  "chapter_title": "求学考试预测",
+  "chapter_key_suggestion": "education-examinations",
+  "printed_chapter_number": null,
+  "sections": [
+    {
+      "key": "section_01",
+      "title": "第一节 取用判断经验",
+      "line_start": 1,
+      "line_end": 51
+    },
+    {
+      "key": "section_02",
+      "title": "第二节 实例解析（5例）",
+      "line_start": 52,
+      "line_end": 446
+    }
+  ],
+  "groups": [
+    {
+      "key": "exam_title_and_section_01",
+      "title": "求学考试预测：章题与第一节",
+      "category": "commentary",
+      "line_start": 1,
+      "line_end": 5,
+      "attribution": "本章叙述者；例4为研讨班学员判断，例5为杜新会及张老师后续答复，人物引语分别归属",
+      "summary": "完整章题和节题；无印刷章号不反推。",
+      "concepts": [
+        "求学考试预测",
+        "取用判断经验"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+        "line_start": 1,
+        "line_end": 5,
+        "byte_start": 0,
+        "byte_end": 51
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "exam_ordinary_complete",
+      "title": "普通求学考试：角色和完整联合判断",
+      "category": "role",
+      "line_start": 6,
+      "line_end": 19,
+      "attribution": "本章叙述者；例4为研讨班学员判断，例5为杜新会及张老师后续答复，人物引语分别归属",
+      "summary": "本人日干、父母时干和年命并参；考试院、主副考官、文章试卷、学校角色及四类联合生克条件完整保存。",
+      "concepts": [
+        "日干",
+        "时干",
+        "年命",
+        "天辅星",
+        "值符",
+        "值使",
+        "丁奇",
+        "景门",
+        "年干",
+        "旺相",
+        "休囚",
+        "空亡"
+      ],
+      "dataset": {
+        "key": "exam_ordinary_complete_reference",
+        "rows": [
+          {
+            "key": "exam_candidate_relationship_roles",
+            "analysis_focus": "本人问以日干、父母问子女以时干，同时还可参年命；不是互斥唯一法",
+            "source_lines": [
+              6,
+              6
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 6,
+              "line_end": 6,
+              "byte_start": 51,
+              "byte_end": 281
+            },
+            "source_quote": "（1）凡求学考试，如果是考生本人求测，则以日干为考生；如果是父母求测子女考学情况，则以时干为考生；同时，还可看考生年命（即出生之年的年干），以年命为用神。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_education_method_reference",
+            "method_scope": "shenqi_exam_ordinary_v1",
+            "role_candidates": [
+              {
+                "condition": "考生本人求测",
+                "role": "考生",
+                "symbol": "日干"
+              },
+              {
+                "condition": "父母求测子女考学",
+                "role": "考生",
+                "symbol": "时干"
+              },
+              {
+                "condition": "同时参看出生年干",
+                "role": "考生",
+                "symbol": "年命",
+                "supplementary": true
+              }
+            ],
+            "exclusions": [
+              "年龄不能代替父母子女关系",
+              "年命是出生之年年干，不能混作问时年干"
+            ]
+          },
+          {
+            "key": "exam_institution_and_documents",
+            "analysis_focus": "考试院、正副监考、文章试卷及录取学校分别绑定",
+            "source_lines": [
+              8,
+              8
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 8,
+              "line_end": 8,
+              "byte_start": 282,
+              "byte_end": 460
+            },
+            "source_quote": "一般以天辅星为考试院，以值符为主考或监考官，以值使为副主考官或副监考官；以丁奇为文章，以景门为试卷；以年干为录取学校。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_education_method_reference",
+            "method_scope": "shenqi_exam_ordinary_v1",
+            "role_candidates": [
+              {
+                "role": "考试院",
+                "symbol": "天辅星"
+              },
+              {
+                "role": "主考或监考官",
+                "symbol": "值符"
+              },
+              {
+                "role": "副主考或副监考官",
+                "symbol": "值使"
+              },
+              {
+                "role": "文章",
+                "symbol": "丁"
+              },
+              {
+                "role": "试卷",
+                "symbol": "景门"
+              },
+              {
+                "role": "录取学校",
+                "symbol": "年干"
+              }
+            ],
+            "technical_boundary": "一般以而非所有领域绝对定义；访道天辅为传道人，武试景门为策论，不能互换。"
+          },
+          {
+            "key": "exam_favorable_and_supported",
+            "analysis_focus": "考生旺相、三奇、吉门吉格并得考试院/值符/年干相生的完整联合条件",
+            "source_lines": [
+              10,
+              10
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 10,
+              "line_end": 10,
+              "byte_start": 461,
+              "byte_end": 579
+            },
+            "source_quote": "考生落宫旺相，得三奇、吉门吉格，又得天辅星、值符、年干相生者，能考入理想学校。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_education_method_reference",
+            "method_scope": "shenqi_exam_ordinary_v1",
+            "required_conditions": [
+              "考生落宫旺相",
+              "得三奇",
+              "得吉门吉格",
+              "天辅星、值符、年干相生考生"
+            ],
+            "author_interpretation": "能考入理想学校",
+            "relation_direction": "天辅星/值符/年干 -> 生 -> 考生"
+          },
+          {
+            "key": "exam_favorable_and_controls",
+            "analysis_focus": "考生旺相、三奇、吉门吉格且考生克考试院/值符/年干的完整联合条件",
+            "source_lines": [
+              12,
+              12
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 12,
+              "line_end": 12,
+              "byte_start": 580,
+              "byte_end": 692
+            },
+            "source_quote": "考生落宫旺相，得三奇、吉门吉格，克天辅星、值符、年干者，也能考入较好学校。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_education_method_reference",
+            "method_scope": "shenqi_exam_ordinary_v1",
+            "required_conditions": [
+              "考生落宫旺相",
+              "得三奇",
+              "得吉门吉格",
+              "考生克天辅星、值符、年干"
+            ],
+            "author_interpretation": "也能考入较好学校",
+            "relation_direction": "考生 -> 克 -> 天辅星/值符/年干"
+          },
+          {
+            "key": "exam_weak_but_supported",
+            "analysis_focus": "休囚无力、不得奇门吉格但得考试院/值符/年干相生时的录取解释",
+            "source_lines": [
+              14,
+              14
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 14,
+              "line_end": 14,
+              "byte_start": 693,
+              "byte_end": 835
+            },
+            "source_quote": "考生落宫休囚无力，又不得奇门吉格者，但得天辅星、值符、年干相生者，虽考试成绩不佳，但也能录取。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_education_method_reference",
+            "method_scope": "shenqi_exam_ordinary_v1",
+            "required_conditions": [
+              "考生落宫休囚无力",
+              "不得奇门吉格",
+              "天辅星、值符、年干相生考生"
+            ],
+            "author_interpretation": "虽考试成绩不佳，但也能录取"
+          },
+          {
+            "key": "exam_adverse_combined",
+            "analysis_focus": "死绝入墓或空亡与凶门凶格及三方相克须整体保存",
+            "source_lines": [
+              16,
+              16
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 16,
+              "line_end": 16,
+              "byte_start": 836,
+              "byte_end": 966
+            },
+            "source_quote": "如果考生落宫死绝入墓或空亡，又得凶门凶格，又受天辅星、值符、年干相克者，定然是考不上。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_education_method_reference",
+            "method_scope": "shenqi_exam_ordinary_v1",
+            "required_conditions": [
+              "考生落宫死绝入墓或空亡",
+              "得凶门凶格",
+              "受天辅星、值符、年干相克"
+            ],
+            "author_interpretation": "定然是考不上",
+            "exclusions": [
+              "不能仅有空亡便跳过其余联合条件",
+              "原文绝对语气作为作者传统判断保存，不直接生成现代录取保证或否定"
+            ]
+          },
+          {
+            "key": "exam_document_combined_relations",
+            "analysis_focus": "丁奇文章与景门试卷各自状态及三方生克关系综合判断答题与得分",
+            "source_lines": [
+              18,
+              18
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 18,
+              "line_end": 18,
+              "byte_start": 967,
+              "byte_end": 1133
+            },
+            "source_quote": "丁奇为考生文章、景门为试卷，二者落宫状态及与天辅星、值符、年干的生克关系，以此来判断考试答题的优劣及得分状况。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_education_method_reference",
+            "method_scope": "shenqi_exam_ordinary_v1",
+            "required_conditions": [
+              "丁奇落宫状态",
+              "景门落宫状态",
+              "丁奇、景门与天辅星、值符、年干的生克关系"
+            ],
+            "technical_boundary": "本段不提供确定性数值分数映射，不从案例估分推广通式"
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "source_method_reference_no_automatic_professional_binding",
+        "conventions": {
+          "complete_context_source_pointer": {
+            "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+            "line_start": 6,
+            "line_end": 19,
+            "byte_start": 51,
+            "byte_end": 1134
+          },
+          "unknown_conditions_not_satisfied": true,
+          "method_alternatives_preserved": true,
+          "no_case_specific_method_auto_generalization": true
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+        "line_start": 6,
+        "line_end": 19,
+        "byte_start": 51,
+        "byte_end": 1134
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "exam_martial_complete",
+      "title": "历史武试与现代变通实验",
+      "category": "role",
+      "line_start": 20,
+      "line_end": 29,
+      "attribution": "本章叙述者；例4为研讨班学员判断，例5为杜新会及张老师后续答复，人物引语分别归属",
+      "summary": "整组弓箭马靶策论、克冲与旺相联合判断及现代变通试验声明。",
+      "concepts": [
+        "武试",
+        "天冲星",
+        "甲戌己",
+        "甲申庚",
+        "甲午辛",
+        "伤门",
+        "景门",
+        "策论",
+        "变通试验"
+      ],
+      "dataset": {
+        "key": "exam_martial_complete_reference",
+        "rows": [
+          {
+            "key": "exam_martial_roles",
+            "analysis_focus": "历史武试整组角色及日干或时干两种候选",
+            "source_lines": [
+              20,
+              22
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 20,
+              "line_end": 22,
+              "byte_start": 1134,
+              "byte_end": 1429
+            },
+            "source_quote": "（2）旧社会还有武试，即考武官，如考武秀才、武举、武状元等。\n\n古人经验，是以值符为主考官，以天冲星为监考官，以日干或时干为考生，以甲戌己为弓，以甲申庚为箭，以伤门为马，以甲午辛为靶心，以景门为策论。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_education_method_reference",
+            "method_scope": "shenqi_exam_historical_martial_v1",
+            "role_candidates": [
+              {
+                "role": "主考官",
+                "symbol": "值符"
+              },
+              {
+                "role": "监考官",
+                "symbol": "天冲星"
+              },
+              {
+                "role": "考生",
+                "symbol": "日干或时干",
+                "explicit_alternatives": true
+              },
+              {
+                "role": "弓",
+                "symbol": "甲戌己"
+              },
+              {
+                "role": "箭",
+                "symbol": "甲申庚"
+              },
+              {
+                "role": "马",
+                "symbol": "伤门"
+              },
+              {
+                "role": "靶心",
+                "symbol": "甲午辛"
+              },
+              {
+                "role": "策论",
+                "symbol": "景门"
+              }
+            ]
+          },
+          {
+            "key": "exam_martial_shot_and_pass",
+            "analysis_focus": "日时干旺相、庚克辛或冲宫中靶，再结合景门旺相与值符宫相生",
+            "source_lines": [
+              24,
+              24
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 24,
+              "line_end": 24,
+              "byte_start": 1430,
+              "byte_end": 1599
+            },
+            "source_quote": "日干或时干旺相，甲申庚落宫克甲午辛落宫，或冲其宫，皆为箭中靶心；再看景门旺相，与值符宫相生，则能考中，反此不中。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_education_method_reference",
+            "method_scope": "shenqi_exam_historical_martial_v1",
+            "required_conditions": [
+              "日干或时干旺相",
+              "甲申庚落宫克甲午辛落宫或冲其宫",
+              "景门旺相",
+              "景门与值符宫相生"
+            ],
+            "author_interpretation": "箭中靶心；再结合后项则能考中，反此不中",
+            "technical_boundary": "庚克辛为落宫关系，不是金干之间固定克制；或冲不能改成必须克且冲"
+          },
+          {
+            "key": "exam_martial_birth_year",
+            "analysis_focus": "还可看年命与值符及天冲星落宫生克",
+            "source_lines": [
+              26,
+              26
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 26,
+              "line_end": 26,
+              "byte_start": 1600,
+              "byte_end": 1661
+            },
+            "source_quote": "还可看年命与值符、天冲星落宫的生克关系。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_education_method_reference",
+            "method_scope": "shenqi_exam_historical_martial_v1",
+            "supplementary": true,
+            "required_conditions": [
+              "考生年命",
+              "与值符落宫的生克关系",
+              "与天冲星落宫的生克关系"
+            ]
+          },
+          {
+            "key": "exam_martial_modern_experiment",
+            "analysis_focus": "武术比赛或军事科目考试仅建议参考变通试验",
+            "source_lines": [
+              28,
+              28
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 28,
+              "line_end": 28,
+              "byte_start": 1662,
+              "byte_end": 1789
+            },
+            "source_quote": "现在没有武试了，但如果测武术比赛或军事科目考试，不妨参考古人经验，变通一下进行试验。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_education_method_reference",
+            "method_scope": "shenqi_exam_modern_martial_experiment_v1",
+            "source_scope": "现代变通实验性质，不等同古武试已验证算法",
+            "exclusions": [
+              "不能以现代题目近似就自动套完整武试法",
+              "不能宣称现代比赛或军事考试现实准确率已验证"
+            ]
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "source_method_reference_no_automatic_professional_binding",
+        "conventions": {
+          "complete_context_source_pointer": {
+            "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+            "line_start": 20,
+            "line_end": 29,
+            "byte_start": 1134,
+            "byte_end": 1790
+          },
+          "unknown_conditions_not_satisfied": true,
+          "method_alternatives_preserved": true,
+          "no_case_specific_method_auto_generalization": true
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+        "line_start": 20,
+        "line_end": 29,
+        "byte_start": 1134,
+        "byte_end": 1790
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "exam_spiritual_apprenticeship_complete",
+      "title": "访道拜师：天芮与天辅",
+      "category": "role",
+      "line_start": 30,
+      "line_end": 39,
+      "attribution": "本章叙述者；例4为研讨班学员判断，例5为杜新会及张老师后续答复，人物引语分别归属",
+      "summary": "访道与传道身份、吉门吉格生助、比和、相克分别保留。",
+      "concepts": [
+        "访道",
+        "天芮星",
+        "天辅星",
+        "传道",
+        "生克",
+        "比和"
+      ],
+      "dataset": {
+        "key": "exam_spiritual_apprenticeship_complete_reference",
+        "rows": [
+          {
+            "key": "exam_spiritual_roles",
+            "analysis_focus": "访道者天芮、传道人天辅，独立于考试角色",
+            "source_lines": [
+              30,
+              32
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 30,
+              "line_end": 32,
+              "byte_start": 1790,
+              "byte_end": 1920
+            },
+            "source_quote": "（3）旧社会还有拜师学艺、入山访道。\n\n古人经验，以天芮星为访道之人，以天辅星为传道之人。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_education_method_reference",
+            "method_scope": "shenqi_exam_spiritual_apprenticeship_v1",
+            "role_candidates": [
+              {
+                "role": "访道之人",
+                "symbol": "天芮星"
+              },
+              {
+                "role": "传道之人",
+                "symbol": "天辅星"
+              }
+            ]
+          },
+          {
+            "key": "exam_spiritual_transmission",
+            "analysis_focus": "天辅得吉门吉格并来生天芮的联合条件",
+            "source_lines": [
+              34,
+              34
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 34,
+              "line_end": 34,
+              "byte_start": 1921,
+              "byte_end": 1988
+            },
+            "source_quote": "若天辅得吉门、吉格来生天芮者，必得高人传授。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_education_method_reference",
+            "method_scope": "shenqi_exam_spiritual_apprenticeship_v1",
+            "required_conditions": [
+              "天辅得吉门",
+              "天辅得吉格",
+              "天辅来生天芮"
+            ],
+            "author_interpretation": "必得高人传授"
+          },
+          {
+            "key": "exam_spiritual_equal",
+            "analysis_focus": "相比和的访道解释",
+            "source_lines": [
+              36,
+              36
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 36,
+              "line_end": 36,
+              "byte_start": 1989,
+              "byte_end": 2029
+            },
+            "source_quote": "相比和者，空见人，不传道。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_education_method_reference",
+            "method_scope": "shenqi_exam_spiritual_apprenticeship_v1",
+            "required_conditions": [
+              "天辅与天芮相比和"
+            ],
+            "author_interpretation": "空见人，不传道"
+          },
+          {
+            "key": "exam_spiritual_control",
+            "analysis_focus": "相克的访道解释，保留或分支",
+            "source_lines": [
+              38,
+              38
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 38,
+              "line_end": 38,
+              "byte_start": 2030,
+              "byte_end": 2073
+            },
+            "source_quote": "相克者，不能见人，或不传道。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_education_method_reference",
+            "method_scope": "shenqi_exam_spiritual_apprenticeship_v1",
+            "required_conditions": [
+              "天辅与天芮相克"
+            ],
+            "author_interpretation": "不能见人，或不传道"
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "source_method_reference_no_automatic_professional_binding",
+        "conventions": {
+          "complete_context_source_pointer": {
+            "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+            "line_start": 30,
+            "line_end": 39,
+            "byte_start": 1790,
+            "byte_end": 2074
+          },
+          "unknown_conditions_not_satisfied": true,
+          "method_alternatives_preserved": true,
+          "no_case_specific_method_auto_generalization": true
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+        "line_start": 30,
+        "line_end": 39,
+        "byte_start": 1790,
+        "byte_end": 2074
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "exam_martial_apprenticeship_complete",
+      "title": "投武拜师：天冲与值符",
+      "category": "role",
+      "line_start": 40,
+      "line_end": 51,
+      "attribution": "本章叙述者；例4为研讨班学员判断，例5为杜新会及张老师后续答复，人物引语分别归属",
+      "summary": "武士和教头身份、生克、天冲值符及反吟伏吟语境。",
+      "concepts": [
+        "投武",
+        "天冲星",
+        "值符",
+        "武师",
+        "反吟",
+        "伏吟"
+      ],
+      "dataset": {
+        "key": "exam_martial_apprenticeship_complete_reference",
+        "rows": [
+          {
+            "key": "exam_martial_apprenticeship_roles",
+            "analysis_focus": "学武拜师以天冲武士、值符武师教头",
+            "source_lines": [
+              40,
+              40
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 40,
+              "line_end": 40,
+              "byte_start": 2074,
+              "byte_end": 2165
+            },
+            "source_quote": "还有投武，拜师学武艺者，以天冲星为武士，以值符为武师或教头。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_education_method_reference",
+            "method_scope": "shenqi_exam_martial_apprenticeship_v1",
+            "role_candidates": [
+              {
+                "role": "武士",
+                "symbol": "天冲星"
+              },
+              {
+                "role": "武师或教头",
+                "symbol": "值符"
+              }
+            ]
+          },
+          {
+            "key": "exam_martial_apprenticeship_generating",
+            "analysis_focus": "学武两者相生",
+            "source_lines": [
+              42,
+              42
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 42,
+              "line_end": 42,
+              "byte_start": 2166,
+              "byte_end": 2191
+            },
+            "source_quote": "二者相生，主利。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_education_method_reference",
+            "method_scope": "shenqi_exam_martial_apprenticeship_v1",
+            "required_conditions": [
+              "天冲星与值符相生"
+            ],
+            "author_interpretation": "主利"
+          },
+          {
+            "key": "exam_martial_apprenticeship_control",
+            "analysis_focus": "学武彼此相克",
+            "source_lines": [
+              44,
+              44
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 44,
+              "line_end": 44,
+              "byte_start": 2192,
+              "byte_end": 2217
+            },
+            "source_quote": "彼此相克，不利。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_education_method_reference",
+            "method_scope": "shenqi_exam_martial_apprenticeship_v1",
+            "required_conditions": [
+              "天冲星与值符彼此相克"
+            ],
+            "author_interpretation": "不利"
+          },
+          {
+            "key": "exam_martial_apprenticeship_same_chief",
+            "analysis_focus": "天冲星就是值符",
+            "source_lines": [
+              46,
+              46
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 46,
+              "line_end": 46,
+              "byte_start": 2218,
+              "byte_end": 2261
+            },
+            "source_quote": "如果天冲星就是值符，则大利。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_education_method_reference",
+            "method_scope": "shenqi_exam_martial_apprenticeship_v1",
+            "required_conditions": [
+              "天冲星为值符"
+            ],
+            "author_interpretation": "大利"
+          },
+          {
+            "key": "exam_martial_apprenticeship_fanyin_fuyin",
+            "analysis_focus": "反吟与伏吟不利的学武语境",
+            "source_lines": [
+              48,
+              48
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 48,
+              "line_end": 48,
+              "byte_start": 2262,
+              "byte_end": 2290
+            },
+            "source_quote": "遇反吟、伏吟不利。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_education_method_reference",
+            "method_scope": "shenqi_exam_martial_apprenticeship_v1",
+            "required_conditions": [
+              "遇反吟或伏吟"
+            ],
+            "author_interpretation": "不利",
+            "exclusions": [
+              "不将该段无条件推广为所有问事一见伏吟必不利"
+            ]
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "source_method_reference_no_automatic_professional_binding",
+        "conventions": {
+          "complete_context_source_pointer": {
+            "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+            "line_start": 40,
+            "line_end": 51,
+            "byte_start": 2074,
+            "byte_end": 2293
+          },
+          "unknown_conditions_not_satisfied": true,
+          "method_alternatives_preserved": true,
+          "no_case_specific_method_auto_generalization": true
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+        "line_start": 40,
+        "line_end": 51,
+        "byte_start": 2074,
+        "byte_end": 2293
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "exam_section_02_title",
+      "title": "第二节 实例解析（5例）",
+      "category": "commentary",
+      "line_start": 52,
+      "line_end": 54,
+      "attribution": "本章叙述者；例4为研讨班学员判断，例5为杜新会及张老师后续答复，人物引语分别归属",
+      "summary": "保留五例节题，不将第一节的三个编号混作案例编号。",
+      "concepts": [
+        "实例解析"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+        "line_start": 52,
+        "line_end": 54,
+        "byte_start": 2293,
+        "byte_end": 2328
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "exam_case_01_complete",
+      "title": "实例01：父测子升大学完整故事与作者分析",
+      "category": "analysis",
+      "line_start": 55,
+      "line_end": 120,
+      "attribution": "本章叙述者；例4为研讨班学员判断，例5为杜新会及张老师后续答复，人物引语分别归属",
+      "summary": "父测子升大学：全部背景、原盘、原编号分析、对话、判断与已记载反馈整体保留。",
+      "concepts": [
+        "时干丙",
+        "艮8宫",
+        "丙+戊",
+        "死门",
+        "九天",
+        "天辅星",
+        "值符",
+        "丁奇",
+        "景门",
+        "年命丁",
+        "兑7宫",
+        "年干丙"
+      ],
+      "dataset": {
+        "key": "exam_case_01_complete_reference",
+        "rows": [
+          {
+            "key": "exam_case_01_author_step_1",
+            "analysis_focus": "时干丙考生旺相、鸟跌穴、死门比和、九天",
+            "source_lines": [
+              97,
+              98
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 97,
+              "line_end": 98,
+              "byte_start": 3607,
+              "byte_end": 3793
+            },
+            "source_quote": "（1）父测子，以时干丙为考生。今时干丙落艮8宫，为长生之地；未月8宫旺相，丙+戊鸟跌穴吉格；虽临死门，但与宫比和；上乘九天吉神。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "exam_case_01",
+            "step_number": 1,
+            "explicit_symbol_evidence": [
+              "时干丙",
+              "艮8宫",
+              "丙+戊",
+              "死门",
+              "九天"
+            ],
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "原书编号分析保留为整段含中途披露；完整叙事顺序不等于预测时可知输入，不将后验反馈或事后解释整块作为训练输入。",
+            "attributed_forecaster": "本章第一人称预测者"
+          },
+          {
+            "key": "exam_case_01_author_step_2",
+            "analysis_focus": "考试院生助、监考被克、丁景状态后先断分数，再获估分与出生年",
+            "source_lines": [
+              99,
+              108
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 99,
+              "line_end": 108,
+              "byte_start": 3793,
+              "byte_end": 4433
+            },
+            "source_quote": "（2）天辅星为考试院，生助时干丙；值符为监考，被时干所克；丁奇为文章，落兑7宫长生之地，受时干丙所生；景门为试卷，落坎宫虽然不太好，但上乘值符，临天心吉星。\n\n据此，我说：“老戴，你儿子考得不错嘛！总分为七百分，你儿子应该在六百分以上。”\n\n老戴说：“是的。我这个儿子是省重点中学二中毕业，今年高考他自己估分六百二十分。你看报考哪个方向的学校、什么类的学校为好？”\n\n我问：“你儿子是哪年出生？”\n\n他说：“1977年（丁巳年）出生，属蛇的。”\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "exam_case_01",
+            "step_number": 2,
+            "explicit_symbol_evidence": [
+              "天辅星",
+              "值符",
+              "丁奇",
+              "景门"
+            ],
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "原书编号分析保留为整段含中途披露；完整叙事顺序不等于预测时可知输入，不将后验反馈或事后解释整块作为训练输入。",
+            "attributed_forecaster": "本章第一人称预测者"
+          },
+          {
+            "key": "exam_case_01_author_step_3",
+            "analysis_focus": "获丁巳年命后分析学校方向专业与健康；后获清华录取反馈",
+            "source_lines": [
+              109,
+              117
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 109,
+              "line_end": 117,
+              "byte_start": 4433,
+              "byte_end": 5210
+            },
+            "source_quote": "（3）年命丁在兑7宫，为长生之地，但临天芮病星，又临伤门，受年干丙8宫之生，年干为学校，临死门，死门主地皮、地理、无机物，又与救死扶伤有关。\n\n据此，我说：“你儿子考上重点大学不成问题。最好报考东北方向的学校，地理、物理类、医学专业类均可。从奇门格局上看，你儿子身体不太好，现在可能眼睛有毛病，将来还得注意心脏。”\n\n老戴说：“是的。这个孩子从小体质较弱，现在眼睛近视。”\n\n一个多月以后，老戴告诉我：儿子已经顺利被清华大学应用物理系录取。\n\n报考志愿时，西安交通大学也争着要他，但考虑你说东北方向最好，所以就报考了清华大学的志愿。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "exam_case_01",
+            "step_number": 3,
+            "explicit_symbol_evidence": [
+              "年命丁",
+              "兑7宫",
+              "年干丙",
+              "死门"
+            ],
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "原书编号分析保留为整段含中途披露；完整叙事顺序不等于预测时可知输入，不将后验反馈或事后解释整块作为训练输入。",
+            "attributed_forecaster": "本章第一人称预测者"
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "source_method_reference_no_automatic_professional_binding",
+        "conventions": {
+          "complete_context_source_pointer": {
+            "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+            "line_start": 55,
+            "line_end": 120,
+            "byte_start": 2328,
+            "byte_end": 5213
+          },
+          "unknown_conditions_not_satisfied": true,
+          "method_alternatives_preserved": true,
+          "no_case_specific_method_auto_generalization": true,
+          "complete_case_source_pointer": {
+            "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+            "line_start": 55,
+            "line_end": 120,
+            "byte_start": 2328,
+            "byte_end": 5213
+          },
+          "source_case_title": "父测子升大学",
+          "printed_step_order_preserved": true,
+          "timeline_notes": {
+            "initial_known_lines": [
+              57,
+              59,
+              61,
+              63
+            ],
+            "first_prediction_lines": [
+              101
+            ],
+            "midturn_disclosures": [
+              103,
+              107,
+              113
+            ],
+            "later_feedback_lines": [
+              115,
+              117
+            ],
+            "not_initial_input": [
+              "六百二十分",
+              "1977年",
+              "近视",
+              "清华大学",
+              "应用物理系"
+            ],
+            "outcome_scope": "先估六百分以上，再得到自己估分620与丁巳年命；出生年用于后段志愿，不反填初断。"
+          },
+          "usable_for_training": "candidate_only_requires_temporal_and_event_family_split_validation",
+          "independent_future_prediction_performance": "not_measured_by_source_acceptance"
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+        "line_start": 55,
+        "line_end": 120,
+        "byte_start": 2328,
+        "byte_end": 5213
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true,
+      "historical_case": true,
+      "case_key": "exam_case_01",
+      "case_completeness": "complete_as_supplied",
+      "chronology_notes": {
+        "initial_known_lines": [
+          57,
+          59,
+          61,
+          63
+        ],
+        "first_prediction_lines": [
+          101
+        ],
+        "midturn_disclosures": [
+          103,
+          107,
+          113
+        ],
+        "later_feedback_lines": [
+          115,
+          117
+        ],
+        "not_initial_input": [
+          "六百二十分",
+          "1977年",
+          "近视",
+          "清华大学",
+          "应用物理系"
+        ],
+        "outcome_scope": "先估六百分以上，再得到自己估分620与丁巳年命；出生年用于后段志愿，不反填初断。"
+      }
+    },
+    {
+      "key": "exam_case_02_complete",
+      "title": "实例02：母测子高考完整故事与作者分析",
+      "category": "analysis",
+      "line_start": 121,
+      "line_end": 180,
+      "attribution": "本章叙述者；例4为研讨班学员判断，例5为杜新会及张老师后续答复，人物引语分别归属",
+      "summary": "母测子高考：全部背景、原盘、原编号分析、对话、判断与已记载反馈整体保留。",
+      "concepts": [
+        "时干己",
+        "乾6宫",
+        "丁奇",
+        "坎1宫",
+        "空亡",
+        "天辅星",
+        "值符",
+        "景门",
+        "年干丙",
+        "年命乙",
+        "艮8宫"
+      ],
+      "dataset": {
+        "key": "exam_case_02_complete_reference",
+        "rows": [
+          {
+            "key": "exam_case_02_author_step_1",
+            "analysis_focus": "时干己空墓、丁奇受阻先断健康学业，母亲随后确认",
+            "source_lines": [
+              159,
+              166
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 159,
+              "line_end": 166,
+              "byte_start": 6219,
+              "byte_end": 6731
+            },
+            "source_quote": "（1）时干己为其儿子，为考生。落乾6宫为胎养之地，临死门，逢空亡；己+丙为火悖地户凶格。\n\n又以丁奇为考生文章。今丁奇落坎一宫，为火入水乡，丁下又遇庚，为文书阻隔；临天芮病星，惊门，白虎。\n\n据此，我说：“你儿子先天不足，身体不太好，平时学习成绩不会太好。”\n\n女编辑说：“是的，他从小就多病，学习不好，所以才担心他考不好。你看他今年考大学有希望吗？”\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "exam_case_02",
+            "step_number": 1,
+            "explicit_symbol_evidence": [
+              "时干己",
+              "乾6宫",
+              "丁奇",
+              "坎1宫",
+              "空亡"
+            ],
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "原书编号分析保留为整段含中途披露；完整叙事顺序不等于预测时可知输入，不将后验反馈或事后解释整块作为训练输入。",
+            "attributed_forecaster": "本章第一人称预测者"
+          },
+          {
+            "key": "exam_case_02_author_step_2",
+            "analysis_focus": "天辅与时干比和但空亡、值符克与景门被迫，预测后才得乙卯年命",
+            "source_lines": [
+              167,
+              172
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 167,
+              "line_end": 172,
+              "byte_start": 6731,
+              "byte_end": 7110
+            },
+            "source_quote": "（2）天辅星为考试院，与时干比和，生丁奇；但时干逢空，又值符克时干；景门为考卷，在7宫被迫；年干为大学，年干丙在3宫，被丁奇所生，受时干所克。\n\n我说：“你的小孩虽然很努力，但考试不会理想，恐怕难以考上。他是哪年生的？”\n\n女编辑说：“他是1975年（乙卯）生的。”\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "exam_case_02",
+            "step_number": 2,
+            "explicit_symbol_evidence": [
+              "天辅星",
+              "值符",
+              "景门",
+              "年干丙"
+            ],
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "原书编号分析保留为整段含中途披露；完整叙事顺序不等于预测时可知输入，不将后验反馈或事后解释整块作为训练输入。",
+            "attributed_forecaster": "本章第一人称预测者"
+          },
+          {
+            "key": "exam_case_02_author_step_3",
+            "analysis_focus": "获乙年命后断自费路径，后报四百多分未达线",
+            "source_lines": [
+              173,
+              177
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 173,
+              "line_end": 177,
+              "byte_start": 7110,
+              "byte_end": 7509
+            },
+            "source_quote": "（3）年命乙在艮8宫，虽为帝旺之地，但受年干丙之克，难以被大学录取。但值符生年命，年命又生天辅，乙下又临戊。\n\n据此，我说：“靠分数考上正规大学的可能性不大，准备自费上学吧。”\n\n1996年7月高考过后，女编辑告诉我，儿子仅考了四百多分，根本不够录取分数线，只有想法上自费学校了。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "exam_case_02",
+            "step_number": 3,
+            "explicit_symbol_evidence": [
+              "年命乙",
+              "艮8宫",
+              "年干丙",
+              "值符"
+            ],
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "原书编号分析保留为整段含中途披露；完整叙事顺序不等于预测时可知输入，不将后验反馈或事后解释整块作为训练输入。",
+            "attributed_forecaster": "本章第一人称预测者"
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "source_method_reference_no_automatic_professional_binding",
+        "conventions": {
+          "complete_context_source_pointer": {
+            "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+            "line_start": 121,
+            "line_end": 180,
+            "byte_start": 5213,
+            "byte_end": 7512
+          },
+          "unknown_conditions_not_satisfied": true,
+          "method_alternatives_preserved": true,
+          "no_case_specific_method_auto_generalization": true,
+          "complete_case_source_pointer": {
+            "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+            "line_start": 121,
+            "line_end": 180,
+            "byte_start": 5213,
+            "byte_end": 7512
+          },
+          "source_case_title": "母测子高考",
+          "printed_step_order_preserved": true,
+          "timeline_notes": {
+            "initial_known_lines": [
+              123,
+              125
+            ],
+            "midturn_disclosures": [
+              165,
+              171
+            ],
+            "prediction_lines": [
+              163,
+              169,
+              175
+            ],
+            "later_feedback_lines": [
+              177
+            ],
+            "not_initial_input": [
+              "从小就多病",
+              "1975年",
+              "四百多分"
+            ],
+            "outcome_scope": "只记录未达录取线、想法自费，不编造最终自费录取。"
+          },
+          "usable_for_training": "candidate_only_requires_temporal_and_event_family_split_validation",
+          "independent_future_prediction_performance": "not_measured_by_source_acceptance"
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+        "line_start": 121,
+        "line_end": 180,
+        "byte_start": 5213,
+        "byte_end": 7512
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true,
+      "historical_case": true,
+      "case_key": "exam_case_02",
+      "case_completeness": "complete_as_supplied",
+      "chronology_notes": {
+        "initial_known_lines": [
+          123,
+          125
+        ],
+        "midturn_disclosures": [
+          165,
+          171
+        ],
+        "prediction_lines": [
+          163,
+          169,
+          175
+        ],
+        "later_feedback_lines": [
+          177
+        ],
+        "not_initial_input": [
+          "从小就多病",
+          "1975年",
+          "四百多分"
+        ],
+        "outcome_scope": "只记录未达录取线、想法自费，不编造最终自费录取。"
+      }
+    },
+    {
+      "key": "exam_case_03_complete",
+      "title": "实例03：自费上学完整故事与作者分析",
+      "category": "analysis",
+      "line_start": 181,
+      "line_end": 250,
+      "attribution": "本章叙述者；例4为研讨班学员判断，例5为杜新会及张老师后续答复，人物引语分别归属",
+      "summary": "自费上学：全部背景、原盘、原编号分析、对话、判断与已记载反馈整体保留。",
+      "concepts": [
+        "年命丁",
+        "兑7宫",
+        "时干庚",
+        "乾6宫",
+        "八门反吟",
+        "年干丙",
+        "离9宫",
+        "天辅星",
+        "时干",
+        "日干",
+        "日干壬",
+        "坎1宫",
+        "值符",
+        "甲子戊"
+      ],
+      "dataset": {
+        "key": "exam_case_03_complete_reference",
+        "rows": [
+          {
+            "key": "exam_case_03_author_step_1",
+            "analysis_focus": "已知丁巳年命并参时干庚、八门反吟及丁景，断420左右",
+            "source_lines": [
+              225,
+              232
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 225,
+              "line_end": 232,
+              "byte_start": 8645,
+              "byte_end": 9149
+            },
+            "source_quote": "（1）其子1977年生，年命丁巳，丁奇又为考生文章。\n\n今丁奇落兑7宫，虽为三奇正殿吉格，但临伤门不吉，丁加癸为雀投江凶格，必然考试成绩不佳。\n\n又时干庚也代表其子，落6宫，庚加丁，星奇受刑，临杜门不吉，又整个局是八门反吟局，必然考试不顺利。\n\n丁奇、景门为考卷，今景门入水乡，丁奇在七宫为雀投江凶格，故断考试成绩当在四百二十分左右，恐怕达不到分数线。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "exam_case_03",
+            "step_number": 1,
+            "explicit_symbol_evidence": [
+              "年命丁",
+              "兑7宫",
+              "时干庚",
+              "乾6宫",
+              "八门反吟"
+            ],
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "原书编号分析保留为整段含中途披露；完整叙事顺序不等于预测时可知输入，不将后验反馈或事后解释整块作为训练输入。",
+            "attributed_forecaster": "本章第一人称预测者"
+          },
+          {
+            "key": "exam_case_03_author_step_2",
+            "analysis_focus": "年干克考生与考生克考试院、时干生日干的相反证据并存",
+            "source_lines": [
+              233,
+              238
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 233,
+              "line_end": 238,
+              "byte_start": 9149,
+              "byte_end": 9343
+            },
+            "source_quote": "（2）年干丙为大学在9宫，克丁奇和时干落宫，不被录取之象。\n\n幸丁奇、时干克考试院天辅星落宫，又有考上的迹象。\n\n时干生日干，也为吉象。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "exam_case_03",
+            "step_number": 2,
+            "explicit_symbol_evidence": [
+              "年干丙",
+              "离9宫",
+              "天辅星",
+              "时干",
+              "日干"
+            ],
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "原书编号分析保留为整段含中途披露；完整叙事顺序不等于预测时可知输入，不将后验反馈或事后解释整块作为训练输入。",
+            "attributed_forecaster": "本章第一人称预测者"
+          },
+          {
+            "key": "exam_case_03_author_step_3",
+            "analysis_focus": "日干父亲权力与关系证据解释自费录取路径",
+            "source_lines": [
+              239,
+              241
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 239,
+              "line_end": 241,
+              "byte_start": 9343,
+              "byte_end": 9582
+            },
+            "source_quote": "（3）今日干为其父亲。日干壬落1宫，临值符，为有权之人，为单位的负责人。\n\n日干克年干落宫，又生天辅星落宫，甲子戊又生丁奇，所以靠其父找找人，最后可以考上自费大学。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "exam_case_03",
+            "step_number": 3,
+            "explicit_symbol_evidence": [
+              "日干壬",
+              "坎1宫",
+              "值符",
+              "甲子戊"
+            ],
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "原书编号分析保留为整段含中途披露；完整叙事顺序不等于预测时可知输入，不将后验反馈或事后解释整块作为训练输入。",
+            "attributed_forecaster": "本章第一人称预测者"
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "source_method_reference_no_automatic_professional_binding",
+        "conventions": {
+          "complete_context_source_pointer": {
+            "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+            "line_start": 181,
+            "line_end": 250,
+            "byte_start": 7512,
+            "byte_end": 9783
+          },
+          "unknown_conditions_not_satisfied": true,
+          "method_alternatives_preserved": true,
+          "no_case_specific_method_auto_generalization": true,
+          "complete_case_source_pointer": {
+            "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+            "line_start": 181,
+            "line_end": 250,
+            "byte_start": 7512,
+            "byte_end": 9783
+          },
+          "source_case_title": "自费上学",
+          "printed_step_order_preserved": true,
+          "timeline_notes": {
+            "initial_known_lines": [
+              183,
+              185,
+              187,
+              189,
+              207
+            ],
+            "prediction_lines": [
+              231,
+              241
+            ],
+            "later_feedback_lines": [
+              245,
+              247
+            ],
+            "not_initial_input": [
+              "四百二十七分",
+              "418分",
+              "石家庄大学",
+              "计算机专业"
+            ],
+            "outcome_scope": "427分、418自费线、9月13日计算机专业录取分别保存。"
+          },
+          "usable_for_training": "candidate_only_requires_temporal_and_event_family_split_validation",
+          "independent_future_prediction_performance": "not_measured_by_source_acceptance"
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+        "line_start": 181,
+        "line_end": 250,
+        "byte_start": 7512,
+        "byte_end": 9783
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true,
+      "historical_case": true,
+      "case_key": "exam_case_03",
+      "case_completeness": "complete_as_supplied",
+      "chronology_notes": {
+        "initial_known_lines": [
+          183,
+          185,
+          187,
+          189,
+          207
+        ],
+        "prediction_lines": [
+          231,
+          241
+        ],
+        "later_feedback_lines": [
+          245,
+          247
+        ],
+        "not_initial_input": [
+          "四百二十七分",
+          "418分",
+          "石家庄大学",
+          "计算机专业"
+        ],
+        "outcome_scope": "427分、418自费线、9月13日计算机专业录取分别保存。"
+      }
+    },
+    {
+      "key": "exam_case_04_complete",
+      "title": "实例04：当场测考博士生完整故事与作者分析",
+      "category": "analysis",
+      "line_start": 251,
+      "line_end": 308,
+      "attribution": "本章叙述者；例4为研讨班学员判断，例5为杜新会及张老师后续答复，人物引语分别归属",
+      "summary": "当场测考博士生：全部背景、原盘、原编号分析、对话、判断与已记载反馈整体保留。",
+      "concepts": [
+        "日干甲辰壬",
+        "时干壬",
+        "乾6宫",
+        "空亡",
+        "伤门",
+        "天柱星",
+        "丁奇",
+        "兑7宫",
+        "景门",
+        "天蓬星",
+        "玄武",
+        "年干丙",
+        "天辅星",
+        "离9宫",
+        "日干壬"
+      ],
+      "dataset": {
+        "key": "exam_case_04_complete_reference",
+        "rows": [
+          {
+            "key": "exam_case_04_author_step_1",
+            "analysis_focus": "研讨班学员以日时壬旺但空亡、门星格综合不利",
+            "source_lines": [
+              295,
+              296
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 295,
+              "line_end": 296,
+              "byte_start": 11215,
+              "byte_end": 11437
+            },
+            "source_quote": "（1）日干甲辰壬和时干壬虽然同落乾6宫为临官禄地，而且逢戌月当令旺相，但逢空亡，不吉；又壬+癸格局不好，伤门为凶门，天柱为凶星，伤+开主走失变动，不吉。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "exam_case_04",
+            "step_number": 1,
+            "explicit_symbol_evidence": [
+              "日干甲辰壬",
+              "时干壬",
+              "乾6宫",
+              "空亡",
+              "伤门",
+              "天柱星"
+            ],
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "原书编号分析保留为整段含中途披露；完整叙事顺序不等于预测时可知输入，不将后验反馈或事后解释整块作为训练输入。",
+            "attributed_forecaster": "研讨班学员群体判断，张老师主持及鼓励"
+          },
+          {
+            "key": "exam_case_04_author_step_2",
+            "analysis_focus": "学员分析丁奇文章与景门答卷的不利组合",
+            "source_lines": [
+              297,
+              298
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 297,
+              "line_end": 298,
+              "byte_start": 11437,
+              "byte_end": 11659
+            },
+            "source_quote": "（2）丁奇为考生文章，在兑7宫为长生之地，丁+壬为吉格，但临天芮凶星不吉；景门为答卷，临天蓬凶星，又上乘玄武，己+辛为游魂入墓凶格，必然考卷答得不理想。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "exam_case_04",
+            "step_number": 2,
+            "explicit_symbol_evidence": [
+              "丁奇",
+              "兑7宫",
+              "景门",
+              "天蓬星",
+              "玄武"
+            ],
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "原书编号分析保留为整段含中途披露；完整叙事顺序不等于预测时可知输入，不将后验反馈或事后解释整块作为训练输入。",
+            "attributed_forecaster": "研讨班学员群体判断，张老师主持及鼓励"
+          },
+          {
+            "key": "exam_case_04_author_step_3",
+            "analysis_focus": "学员以年干学校与考试院克考生文章；作者随后鼓励拼搏",
+            "source_lines": [
+              299,
+              301
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 299,
+              "line_end": 301,
+              "byte_start": 11659,
+              "byte_end": 12005
+            },
+            "source_quote": "（3）年干丙为学校，天辅星为考试院，二者均在离9宫，直克日干壬所在6宫和丁奇所在7宫，日干又逢空亡，这些都是考不上的信息。\n\n学员们讲完之后，我说：“金老师，但愿大家给你测得不准。希望你不要受此影响，应奋力拼搏，争取考中北大心理学博士。”\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "exam_case_04",
+            "step_number": 3,
+            "explicit_symbol_evidence": [
+              "年干丙",
+              "天辅星",
+              "离9宫",
+              "日干壬",
+              "丁奇"
+            ],
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "原书编号分析保留为整段含中途披露；完整叙事顺序不等于预测时可知输入，不将后验反馈或事后解释整块作为训练输入。",
+            "attributed_forecaster": "研讨班学员群体判断，张老师主持及鼓励"
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "source_method_reference_no_automatic_professional_binding",
+        "conventions": {
+          "complete_context_source_pointer": {
+            "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+            "line_start": 251,
+            "line_end": 308,
+            "byte_start": 9783,
+            "byte_end": 12203
+          },
+          "unknown_conditions_not_satisfied": true,
+          "method_alternatives_preserved": true,
+          "no_case_specific_method_auto_generalization": true,
+          "complete_case_source_pointer": {
+            "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+            "line_start": 251,
+            "line_end": 308,
+            "byte_start": 9783,
+            "byte_end": 12203
+          },
+          "source_case_title": "当场测考博士生",
+          "printed_step_order_preserved": true,
+          "timeline_notes": {
+            "initial_known_lines": [
+              253,
+              255,
+              257,
+              259,
+              261
+            ],
+            "later_feedback_lines": [
+              303,
+              305
+            ],
+            "author_post_analysis_lines": [
+              301
+            ],
+            "not_initial_input": [
+              "1997年她的考博愿望未能实现",
+              "1998年她终于考取"
+            ],
+            "outcome_scope": "1997未成与1998最终考取不合为永久落榜；同人物相关结果同家族，不编造1998新盘。",
+            "attribution": "研讨班学员群体判断，张老师主持及鼓励"
+          },
+          "usable_for_training": "candidate_only_requires_temporal_and_event_family_split_validation",
+          "independent_future_prediction_performance": "not_measured_by_source_acceptance"
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+        "line_start": 251,
+        "line_end": 308,
+        "byte_start": 9783,
+        "byte_end": 12203
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true,
+      "historical_case": true,
+      "case_key": "exam_case_04",
+      "case_completeness": "complete_as_supplied",
+      "chronology_notes": {
+        "initial_known_lines": [
+          253,
+          255,
+          257,
+          259,
+          261
+        ],
+        "later_feedback_lines": [
+          303,
+          305
+        ],
+        "author_post_analysis_lines": [
+          301
+        ],
+        "not_initial_input": [
+          "1997年她的考博愿望未能实现",
+          "1998年她终于考取"
+        ],
+        "outcome_scope": "1997未成与1998最终考取不合为永久落榜；同人物相关结果同家族，不编造1998新盘。",
+        "attribution": "研讨班学员群体判断，张老师主持及鼓励"
+      }
+    },
+    {
+      "key": "exam_case_05_complete",
+      "title": "实例05：杜新会测在美国考行医执照完整故事与作者分析",
+      "category": "analysis",
+      "line_start": 309,
+      "line_end": 446,
+      "attribution": "本章叙述者；例4为研讨班学员判断，例5为杜新会及张老师后续答复，人物引语分别归属",
+      "summary": "杜新会测在美国考行医执照：全部背景、原盘、原编号分析、对话、判断与已记载反馈整体保留。",
+      "concepts": [
+        "值符",
+        "天乙天芮星",
+        "开门",
+        "乾6宫",
+        "戊",
+        "离9宫",
+        "月干戊",
+        "地盘戊",
+        "坎1宫",
+        "庚",
+        "年命己",
+        "巽4宫",
+        "六合",
+        "震3宫",
+        "时干癸",
+        "伤门伏吟",
+        "丁奇太岁",
+        "天辅星",
+        "天芮星",
+        "景门",
+        "旬空",
+        "戌月",
+        "八门伏吟"
+      ],
+      "dataset": {
+        "key": "exam_case_05_complete_reference",
+        "rows": [
+          {
+            "key": "exam_case_05_author_step_1",
+            "analysis_focus": "诉讼语境：值符原告、天乙被告、开门法院、戊费用、伏吟迟缓",
+            "source_lines": [
+              410,
+              419
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 410,
+              "line_end": 419,
+              "byte_start": 16547,
+              "byte_end": 17056
+            },
+            "source_quote": "（1）为何断不宜打官司，考试中心也不怕法院？\n\n预测诉讼，伏吟就不宜打官司；开门为法官伏于乾宫，宫中戊为诉讼费，入墓遇天蓬贪财之凶星，必是诉讼费很高；宫中上乘九地主迟缓，如果打官司必费力又破财。\n\n值符为原告，天乙为被告。\n\n现在天乙天芮星落离九宫属火，宫中遇乙奇和景门，应主有理。\n\n开门为法院，落乾六宫属金，被告离火克法院乾金，说明被告不怕法院。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "exam_case_05",
+            "step_number": 1,
+            "explicit_symbol_evidence": [
+              "值符",
+              "天乙天芮星",
+              "开门",
+              "乾6宫",
+              "戊",
+              "离9宫"
+            ],
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "原书编号分析保留为整段含中途披露；完整叙事顺序不等于预测时可知输入，不将后验反馈或事后解释整块作为训练输入。",
+            "attributed_forecaster": "杜新会主断、张老师后续答复"
+          },
+          {
+            "key": "exam_case_05_author_step_2",
+            "analysis_focus": "月格、玄武与休门天任综合解释善意怀疑，年命另视角",
+            "source_lines": [
+              420,
+              425
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 420,
+              "line_end": 425,
+              "byte_start": 17056,
+              "byte_end": 17677
+            },
+            "source_quote": "（2）考试成绩优异反倒没接到录取通知书，为何说录取人员是善意的怀疑？\n\n该格局中戊为月干，地盘戊落坎1宫，戊上逢庚为月格，凡测考试逢年月日时格，就主评分统计或录取人员作祟，宫中上乘玄武也主作事不当，但宫中逢休门和天任吉星，应主怀疑成绩不真实是善意的。\n\n从另一角度看，其女儿年命己（1969年己酉），也代表其女儿，己落巽四宫，临杜门上乘太阴，主有人暗中阻挠，己加丁为朱雀入墓，主文书词讼先曲后直；己下临丁奇，主录取人员非恶意。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "exam_case_05",
+            "step_number": 2,
+            "explicit_symbol_evidence": [
+              "月干戊",
+              "地盘戊",
+              "坎1宫",
+              "庚",
+              "年命己",
+              "巽4宫"
+            ],
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "原书编号分析保留为整段含中途披露；完整叙事顺序不等于预测时可知输入，不将后验反馈或事后解释整块作为训练输入。",
+            "attributed_forecaster": "杜新会主断、张老师后续答复"
+          },
+          {
+            "key": "exam_case_05_author_step_3",
+            "analysis_focus": "六合证据生时干女儿，伤门伏吟解释尚未收集",
+            "source_lines": [
+              426,
+              429
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 426,
+              "line_end": 429,
+              "byte_start": 17677,
+              "byte_end": 18002
+            },
+            "source_quote": "（3）为什么断证据有利却没收集？\n\n六合为证据落震三宫属木，时干癸为其女儿，落离9宫属火，现震3宫中逢天辅文曲吉星和丁奇、丙奇，丁奇又为太岁，均来生时干宫，说明证据有利其女儿的录取，但证据宫中伤门伏吟，伏吟主没有收集证据。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "exam_case_05",
+            "step_number": 3,
+            "explicit_symbol_evidence": [
+              "六合",
+              "震3宫",
+              "时干癸",
+              "离9宫",
+              "伤门伏吟"
+            ],
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "原书编号分析保留为整段含中途披露；完整叙事顺序不等于预测时可知输入，不将后验反馈或事后解释整块作为训练输入。",
+            "attributed_forecaster": "杜新会主断、张老师后续答复"
+          },
+          {
+            "key": "exam_case_05_author_step_4",
+            "analysis_focus": "太岁考试院生时干与天辅老师生天芮考生并参；第一名是作者推断",
+            "source_lines": [
+              430,
+              439
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 430,
+              "line_end": 439,
+              "byte_start": 18002,
+              "byte_end": 18348
+            },
+            "source_quote": "（4）为什么最终能被录取？\n\n丁奇为太岁，天辅星为考试中心，二者均落震3宫，生时干离9宫，必被录取。\n\n从另一个角度看：天辅为老师，天芮为考生，天辅落宫生天芮落宫也主能被录取。\n\n从局上分析应为第几名？\n\n年干为太岁，太岁生景门文章必是第一名。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "exam_case_05",
+            "step_number": 4,
+            "explicit_symbol_evidence": [
+              "丁奇太岁",
+              "天辅星",
+              "天芮星",
+              "景门"
+            ],
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "原书编号分析保留为整段含中途披露；完整叙事顺序不等于预测时可知输入，不将后验反馈或事后解释整块作为训练输入。",
+            "attributed_forecaster": "杜新会主断、张老师后续答复"
+          },
+          {
+            "key": "exam_case_05_author_step_5",
+            "analysis_focus": "年命空亡待填冲、内外盘和门伏吟取长应期，戌月通知",
+            "source_lines": [
+              440,
+              446
+            ],
+            "source_pointer": {
+              "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+              "line_start": 440,
+              "line_end": 446,
+              "byte_start": 18348,
+              "byte_end": 18832
+            },
+            "source_quote": "（5）为何断10月7号以后才能收到录取通知书？\n\n空亡必藏有玄机，宫中年命己落旺宫，下临太岁，为吉象，太岁丁又为通知书，现四宫旬空，须待填实、逢冲之日月为应期。\n\n因日干丁在外盘，时干癸在内盘，一内一外，又八门伏吟，必主时间长，所以，应断到戌月冲实四宫，通知书才能到达。\n\n10月8号是寒露节，开始进入庚戌月，所以10月9日就收到了录取通知书。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "exam_case_05",
+            "step_number": 5,
+            "explicit_symbol_evidence": [
+              "年命己",
+              "巽4宫",
+              "旬空",
+              "戌月",
+              "八门伏吟"
+            ],
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "原书编号分析保留为整段含中途披露；完整叙事顺序不等于预测时可知输入，不将后验反馈或事后解释整块作为训练输入。",
+            "attributed_forecaster": "杜新会主断、张老师后续答复"
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "source_method_reference_no_automatic_professional_binding",
+        "conventions": {
+          "complete_context_source_pointer": {
+            "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+            "line_start": 309,
+            "line_end": 446,
+            "byte_start": 12203,
+            "byte_end": 18832
+          },
+          "unknown_conditions_not_satisfied": true,
+          "method_alternatives_preserved": true,
+          "no_case_specific_method_auto_generalization": true,
+          "complete_case_source_pointer": {
+            "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+            "line_start": 309,
+            "line_end": 446,
+            "byte_start": 12203,
+            "byte_end": 18832
+          },
+          "source_case_title": "杜新会测在美国考行医执照",
+          "printed_step_order_preserved": true,
+          "timeline_notes": {
+            "initial_known_lines": [
+              311,
+              313,
+              315,
+              317,
+              319,
+              321,
+              323
+            ],
+            "first_prediction_lines": [
+              329,
+              331,
+              333,
+              335,
+              337,
+              341,
+              343,
+              345
+            ],
+            "later_actions_and_feedback_lines": [
+              347,
+              349,
+              351,
+              353,
+              355,
+              357,
+              361,
+              363,
+              365,
+              367
+            ],
+            "followup_response_lines": [
+              359
+            ],
+            "retrospective_chart_and_analysis_lines": [
+              369,
+              446
+            ],
+            "not_initial_input": [
+              "八磅重",
+              "已经通过了",
+              "10月9日",
+              "第一名"
+            ],
+            "outcome_scope": "首次电话已知成绩被质疑、拟诉讼；收集材料、秘书答复、10月8续问与10月9通知后来发生。第一名只作原作者断语，原文无独立排名结果。出生年与书面盘后列，不能无声当电话初始已披露。",
+            "domain_isolation": "诉讼角色与普通考试角色隔离；天辅老师/天芮考生是本案另一视角，不泛化覆盖普通考试日时干。",
+            "legal_and_scientific_attribution": "杜新会声明不了解美国法律；劝不诉、申诉为历史人物建议，科学表述为叶教授爱人引语，非系统法律意见或现实科学验证。"
+          },
+          "usable_for_training": "candidate_only_requires_temporal_and_event_family_split_validation",
+          "independent_future_prediction_performance": "not_measured_by_source_acceptance"
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+        "line_start": 309,
+        "line_end": 446,
+        "byte_start": 12203,
+        "byte_end": 18832
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true,
+      "historical_case": true,
+      "case_key": "exam_case_05",
+      "case_completeness": "complete_as_supplied",
+      "chronology_notes": {
+        "initial_known_lines": [
+          311,
+          313,
+          315,
+          317,
+          319,
+          321,
+          323
+        ],
+        "first_prediction_lines": [
+          329,
+          331,
+          333,
+          335,
+          337,
+          341,
+          343,
+          345
+        ],
+        "later_actions_and_feedback_lines": [
+          347,
+          349,
+          351,
+          353,
+          355,
+          357,
+          361,
+          363,
+          365,
+          367
+        ],
+        "followup_response_lines": [
+          359
+        ],
+        "retrospective_chart_and_analysis_lines": [
+          369,
+          446
+        ],
+        "not_initial_input": [
+          "八磅重",
+          "已经通过了",
+          "10月9日",
+          "第一名"
+        ],
+        "outcome_scope": "首次电话已知成绩被质疑、拟诉讼；收集材料、秘书答复、10月8续问与10月9通知后来发生。第一名只作原作者断语，原文无独立排名结果。出生年与书面盘后列，不能无声当电话初始已披露。",
+        "domain_isolation": "诉讼角色与普通考试角色隔离；天辅老师/天芮考生是本案另一视角，不泛化覆盖普通考试日时干。",
+        "legal_and_scientific_attribution": "杜新会声明不了解美国法律；劝不诉、申诉为历史人物建议，科学表述为叶教授爱人引语，非系统法律意见或现实科学验证。"
+      }
+    }
+  ],
+  "quality_issues": [
+    {
+      "key": "exam_no_printed_chapter_number",
+      "line_start": 1,
+      "line_end": 4,
+      "kind": "source_scope",
+      "detail": "输入未给印刷章号。",
+      "handling": "education-examinations是技术键，不推断章号。",
+      "source_pointer": {
+        "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+        "line_start": 1,
+        "line_end": 4,
+        "byte_start": 0,
+        "byte_end": 50
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "exam_roles_relationship_condition",
+      "line_start": 6,
+      "line_end": 8,
+      "kind": "method_scope",
+      "detail": "本人/父母/年命、考试院/考官/学校各有角色。",
+      "handling": "亲属和方法条件明确；不按年长推父母，不把出生年年命混作问时年干。",
+      "source_pointer": {
+        "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+        "line_start": 6,
+        "line_end": 8,
+        "byte_start": 51,
+        "byte_end": 460
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "exam_complete_compounds",
+      "line_start": 10,
+      "line_end": 18,
+      "kind": "condition_scope",
+      "detail": "旺相或休囚、门格、三方生克是联合判断，存在相反方向可成的分支。",
+      "handling": "保留完整条件及方向；未知不默认为真，不只取有利一项。",
+      "source_pointer": {
+        "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+        "line_start": 10,
+        "line_end": 18,
+        "byte_start": 461,
+        "byte_end": 1133
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "exam_martial_alternatives",
+      "line_start": 20,
+      "line_end": 28,
+      "kind": "method_scope",
+      "detail": "旧武试日干或时干；现代比赛军事题是参考变通试验。",
+      "handling": "显式选方法和考生视角；现代试验不声称已验证。",
+      "source_pointer": {
+        "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+        "line_start": 20,
+        "line_end": 28,
+        "byte_start": 1134,
+        "byte_end": 1789
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "exam_apprenticeship_roles",
+      "line_start": 30,
+      "line_end": 48,
+      "kind": "method_scope",
+      "detail": "访道天芮访道者/天辅传道人，学武天冲/值符，均不同普通考试。",
+      "handling": "领域和方法隔离；反吟伏吟限定本段拜师学武语境。",
+      "source_pointer": {
+        "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+        "line_start": 30,
+        "line_end": 48,
+        "byte_start": 1790,
+        "byte_end": 2290
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "exam_case1_midturn_birth_year",
+      "line_start": 97,
+      "line_end": 117,
+      "kind": "temporal_scope",
+      "detail": "620自估分、1977出生年、近视在初断后逐步告知。",
+      "handling": "不提前放初断输入；学校方向断语在丁巳年命后。",
+      "source_pointer": {
+        "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+        "line_start": 97,
+        "line_end": 117,
+        "byte_start": 3607,
+        "byte_end": 5210
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "exam_case2_unwritten_final_outcome",
+      "line_start": 163,
+      "line_end": 177,
+      "kind": "temporal_scope",
+      "detail": "身体学习确认、1975年命后述，末尾只说想法自费。",
+      "handling": "确认原书但不编造最终自费学校或录取结局。",
+      "source_pointer": {
+        "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+        "line_start": 163,
+        "line_end": 177,
+        "byte_start": 6493,
+        "byte_end": 7509
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "exam_case3_mixed_evidence",
+      "line_start": 225,
+      "line_end": 247,
+      "kind": "case_method_scope",
+      "detail": "考生受年干克与克考试院等并存，父亲关系路径是具体案例综合。",
+      "handling": "不能把找关系、427分或420估分编译为通用分数算法。",
+      "source_pointer": {
+        "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+        "line_start": 225,
+        "line_end": 247,
+        "byte_start": 8645,
+        "byte_end": 9780
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "exam_case4_attribution_and_future_years",
+      "line_start": 293,
+      "line_end": 305,
+      "kind": "temporal_scope",
+      "detail": "三步由学员判断，1997未成、1998成功分别记录。",
+      "handling": "同人物相关事同家族；不造1998盘、不将1998反馈作1997预测前证据。",
+      "source_pointer": {
+        "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+        "line_start": 293,
+        "line_end": 305,
+        "byte_start": 11108,
+        "byte_end": 12200
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "exam_case5_early_forecast_no_chart",
+      "line_start": 313,
+      "line_end": 323,
+      "kind": "source_scope",
+      "detail": "电话引用此前在北京测成绩不错，但本输入没有给此前盘。",
+      "handling": "只保存引用，不造第二张历史盘或提前的具体分析。",
+      "source_pointer": {
+        "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+        "line_start": 313,
+        "line_end": 323,
+        "byte_start": 12475,
+        "byte_end": 13506
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "exam_case5_retrospective_chart",
+      "line_start": 369,
+      "line_end": 446,
+      "kind": "temporal_scope",
+      "detail": "详细盘、出生年和五步解释放在结果后叙述。",
+      "handling": "书面来源有效；不无证断言出生年在首次电话前已知；事后解释独立于事前输入。",
+      "source_pointer": {
+        "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+        "line_start": 369,
+        "line_end": 446,
+        "byte_start": 15546,
+        "byte_end": 18832
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "exam_case5_cross_domain_litigation",
+      "line_start": 410,
+      "line_end": 434,
+      "kind": "method_scope",
+      "detail": "诉讼原被告/法院角色和考试/访道式另一视角同案并存。",
+      "handling": "按步骤领域隔离；不把天芮考生和六合证据泛化为全部考试规则。",
+      "source_pointer": {
+        "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+        "line_start": 410,
+        "line_end": 434,
+        "byte_start": 16547,
+        "byte_end": 18253
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "exam_case5_first_place_not_independent_result",
+      "line_start": 436,
+      "line_end": 438,
+      "kind": "outcome_scope",
+      "detail": "作者推断第一名；结果只记通过并收到通知。",
+      "handling": "保留断语，不把未给排名编造成实测反馈。",
+      "source_pointer": {
+        "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+        "line_start": 436,
+        "line_end": 438,
+        "byte_start": 18254,
+        "byte_end": 18347
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "exam_case5_scientific_claim_attribution",
+      "line_start": 363,
+      "line_end": 367,
+      "kind": "attribution_scope",
+      "detail": "“科学”为事后人物引语。",
+      "handling": "完整归于叶教授爱人，系统不将其当现实预测科学效度证据。",
+      "source_pointer": {
+        "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+        "line_start": 363,
+        "line_end": 367,
+        "byte_start": 15165,
+        "byte_end": 15545
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "exam_case5_legal_advice_attribution",
+      "line_start": 329,
+      "line_end": 345,
+      "kind": "product_scope",
+      "detail": "杜新会自称不了解美国法律，提出不要诉讼和收集证据申诉。",
+      "handling": "历史人物建议完整保存；系统不代作现代法律结论。",
+      "source_pointer": {
+        "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+        "line_start": 329,
+        "line_end": 345,
+        "byte_start": 13634,
+        "byte_end": 14355
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "exam_calendar_and_original_palaces",
+      "line_start": 373,
+      "line_end": 405,
+      "kind": "technical_validation_scope",
+      "detail": "值符中5寄2、门伏吟等原书字段，未给时区和完整历法约定。",
+      "handling": "原文确认与独立程序复算分开；不补时区或未给历法信息。",
+      "source_pointer": {
+        "source_sha256": "7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc",
+        "line_start": 373,
+        "line_end": 405,
+        "byte_start": 15614,
+        "byte_end": 16534
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    }
+  ],
+  "worked_examples": [],
+  "source_review_status": "confirmed_by_user_submission",
+  "source_confirmed_by_user": true,
+  "manual_source_reconfirmation_required": false,
+  "compilation_scope": "Only contextual source reading and reference-only SQL condition inspection. No new deterministic dataset, formal professional rule, outcome accuracy or model training is created.",
+  "coverage_policy": "Eleven primary context groups partition all 446 original lines; 20 first-section method rows and 17 printed case-analysis contexts remain nested within complete source methods/stories.",
+  "case_handoff": {
+    "case_count": 5,
+    "complete_case_keys": [
+      "exam_case_01",
+      "exam_case_02",
+      "exam_case_03",
+      "exam_case_04",
+      "exam_case_05"
+    ],
+    "complete_case_ranges": [
+      [
+        55,
+        120
+      ],
+      [
+        121,
+        180
+      ],
+      [
+        181,
+        250
+      ],
+      [
+        251,
+        308
+      ],
+      [
+        309,
+        446
+      ]
+    ],
+    "recorded_original_chart_count": 5,
+    "complete_story_completeness": "complete_as_supplied",
+    "printed_analysis_step_counts": [
+      3,
+      3,
+      3,
+      3,
+      5
+    ],
+    "historical_cases_not_counted_as_teaching_worked_examples": true,
+    "case_records_owned_by": "separate_case_import_agents"
+  },
+  "engineering_missing_information_policy": {
+    "source_policy": "All user-supplied material confirmed on submission, no second source review.",
+    "technical_policy": "Do not invent prior charts, timezones, exact chronology of retrospective source analysis, unrecorded outcomes or modern predictive validation."
+  },
+  "source_scope": "Only current 446-line supplied chapter. No previous project, plugin source, external texts or model-memory completion.",
+  "legal_medical_product_policy": {
+    "basis": "user project charter, not source statement",
+    "use": "Historical study only; case1 health assertions and case5 litigation suggestions remain attributed traditional interpretations. Professional medical/legal conclusions and scientific validation are not created."
+  },
+  "dataset_summary": {
+    "reference_families": 9,
+    "general_conditional_reference_rows": 20,
+    "case_specific_author_steps": 17,
+    "reference_rows_total": 37,
+    "compiled_families": 0,
+    "formal_role_rules": 0,
+    "training_tasks": 0
+  }
+}

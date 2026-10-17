@@ -20,9 +20,11 @@ def main():
     parser.add_argument('--health',action='store_true',help='Check six health narratives and their original source chart projections')
     parser.add_argument('--marriage',action='store_true',help='Check marriage consultations, source tables and conditional query integration')
     parser.add_argument('--pregnancy',action='store_true',help='Check confirmed pregnancy cases, shared family and source chart comparisons')
+    parser.add_argument('--exam',action='store_true',help='Check examination cases, source charts and conditional methods')
     args=parser.parse_args()
     results=[]
     pregnancy_cases={};pregnancy_charts={}
+    exam_cases={};exam_charts={}
     with make_server('127.0.0.1',0,create_app(QimenService(args.db)),handler_class=PrivateRequestHandler) as server:
         worker=threading.Thread(target=lambda:server.serve_forever(poll_interval=0.01),daemon=True)
         worker.start()
@@ -100,6 +102,24 @@ def main():
                         'method':'shenqi_pregnancy_kun_star_v1'},'inspected'),
                     ('POST','/v1/ask',{'text':'孕产来源条件集成检查','domain':'pregnancy_childbirth',
                         'context':context,'method_id':'shenqi_pregnancy_kun_star_v1'},'blocked')])
+            if args.exam:
+                catalog=QimenService(args.db).cases('education-examinations')
+                assert catalog['total']==5,catalog
+                checks.append(('POST','/v1/cases',{'chapter_key':'education-examinations'},'sources_found'))
+                for number,case in enumerate(catalog['cases'],1):
+                    cid=case['case_id'];chart_id=case['events'][0]['chart_ids'][0]
+                    exam_cases[cid]=number;exam_charts[chart_id]=number
+                    checks.extend([('POST','/v1/case',{'case_id':cid,'view':view},None)
+                                   for view in ('full','before_prediction')])
+                    checks.append(('POST','/v1/case-chart',{'case_id':cid,'chart_id':chart_id,
+                        'comparison_method':'shenqi_ch2_paper_v1'},'projected'))
+                context={'analysis_context':'ordinary_candidate_self','asker_role':'candidate',
+                         'asker_relation_to_candidate':'self','day_stem':'庚'}
+                checks.extend([
+                    ('POST','/v1/rule-candidates',{'context':context,'domain':'education_examinations',
+                        'method':'shenqi_exam_ordinary_v1'},'inspected'),
+                    ('POST','/v1/ask',{'text':'求学考试来源条件集成检查','domain':'education_examinations',
+                        'context':context,'method_id':'shenqi_exam_ordinary_v1'},'blocked')])
             for method,path,payload,expected in checks:
                 client=http.client.HTTPConnection('127.0.0.1',server.server_port,timeout=5)
                 try:
@@ -134,13 +154,23 @@ def main():
                         assert result['role_bindings']==[] and result['sources'],result
                     if path=='/v1/rule-candidates':
                         key={'marriage':'marriage_general_female_party',
+                             'education_examinations':'exam_self_day_stem',
                              'pregnancy_childbirth':'pregnancy_kun_star_mother_fetus'}.get(
                                  payload.get('domain'),'health_self_patient')
                         assert any(r['candidate_key']==key and r['symbolic_status']=='applicable'
                                    for r in result['candidates']),result
                         assert result['role_bindings']==[],result
                     if path=='/v1/case':
-                        if payload['case_id'] in pregnancy_cases:
+                        if payload['case_id'] in exam_cases:
+                            number=exam_cases[payload['case_id']]
+                            assert result['source_confirmation']['source_facts_user_confirmed'],result
+                            event=result['events'][0]
+                            if payload['view']=='before_prediction':
+                                assert len(event['records'])==[3,2,3,6,9][number-1],result
+                                assert 'background' not in event and 'outcome_confirmation' not in result,result
+                            else:
+                                assert len(event['charts'])==1 and result['outcome_independently_verified'],result
+                        elif payload['case_id'] in pregnancy_cases:
                             number=pregnancy_cases[payload['case_id']]
                             assert result['source_confirmation']['source_facts_user_confirmed'],result
                             event=result['events'][0]
@@ -158,10 +188,13 @@ def main():
                             assert len(records)==(10 if payload['view']=='full' else 2),result
                             if payload['view']=='before_prediction':
                                 assert result['events'][0]['charts']==[] and '星箭爆炸' not in json.dumps(result,ensure_ascii=False),result
-                    if path=='/v1/cases':assert result['total']==6,result
+                    if path=='/v1/cases':
+                        assert result['total']==(5 if payload.get('chapter_key')=='education-examinations' else 6),result
                     if path=='/v1/case-chart':
                         assert result['chart_id']==payload['chart_id'] and len(result['palaces'])==9,result
-                        if payload['chart_id'] in pregnancy_charts:
+                        if payload['chart_id'] in exam_charts:
+                            assert result['comparison']['status']=='matches',result
+                        elif payload['chart_id'] in pregnancy_charts:
                             expected_comparison='mismatch' if pregnancy_charts[payload['chart_id']]==3 else 'matches'
                             assert result['comparison']['status']==expected_comparison,result
                         else:
