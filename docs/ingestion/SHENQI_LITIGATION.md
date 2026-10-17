@@ -30,3 +30,6 @@ scripts/import_shenqi_litigation.py复用既有import_chapter → install_curate
 旧25权威表全部旧行逐字段仍在，15旧原文逐字节不变；42文件快照恢复再导出一致。未修改旧章节source/cases/curation/gold，无schema迁移、新目录或workflow增删；原有tests.yml保留，一次性经营导入workflow的历史审计见SHENQI_TRAVEL.md。本章17专项及全量340回归均通过（0失败/错误），CLI6案和WSGI6盘实际读取；远端精确SHA/四CI另见STATUS及data/provenance/litigation_validation.json，未验收部分不冒称成功。
 
 累计16章级输入、78故事/75家族/84事件/83原盘、1274过程记录/1597证据，993知识项/2302概念/25方法；455语境块/298技术边界/178当前候选/185历史候选/39编译符号族。正式rules、训练任务、冻结release为0。
+
+
+远端内容验收：`6e333a4d65fc4deddaf6f7d822a9b6854ed0aacd` 已核对main一致、297文件blob匹配；[Actions 39079726164](https://github.com/turnupmason/QimenLLM/actions/runs/39079726164) 的Ubuntu/macOS × Python3.11/3.12四job全部success，四份日志均实际Ran 340 tests / OK。通过已连接GitHub接口非强制更新，未增删workflow。这里记录已实际验收的内容提交；本验收文档后续提交本身仍须按精确新SHA另查四CI，不以旧CI替代。
