@@ -27,7 +27,19 @@
       "upload_byte_end": 45389,
       "source_acceptance": "pending_explicit_collation_confirmation",
       "source_completeness": "complete_uploaded_chapter_slice",
-      "historical_cases": 0
+      "historical_cases": 0,
+      "curation": {
+        "structured_records_added": 124,
+        "context_groups": 88,
+        "quality_records": 36,
+        "worked_examples": 0,
+        "compiled_families_added": 8,
+        "concept_entries_added": 383,
+        "methods_added": 2,
+        "data_version": "e4c4e22f-8a7c-4ad5-b6b1-a979c518e21a",
+        "source_acceptance": "tracked_separately",
+        "professional_prediction_available": false
+      }
     },
     {
       "revision_id": "39be9f51-5d0e-40a2-842e-f5f4db728f76",
@@ -44,7 +56,26 @@
       "upload_byte_end": 86324,
       "source_acceptance": "pending_explicit_collation_confirmation",
       "source_completeness": "complete_uploaded_chapter_slice",
-      "historical_cases": 0
+      "historical_cases": 0,
+      "curation": {
+        "structured_records_added": 114,
+        "context_groups": 77,
+        "quality_records": 36,
+        "worked_examples": 1,
+        "compiled_families_added": 8,
+        "concept_entries_added": 266,
+        "methods_added": 3,
+        "data_version": "75b09a9b-9765-483f-bfe5-cd2e4db93807",
+        "source_acceptance": "tracked_separately",
+        "professional_prediction_available": false
+      }
     }
-  ]
+  ],
+  "current_data_version": "75b09a9b-9765-483f-bfe5-cd2e4db93807",
+  "validation_record": "data/provenance/shenqi_chapters0405_validation.json",
+  "engineering_metadata_adjustments": {
+    "schema_method_category_maps_to": "analysis (original editorial category retained)",
+    "wonder_tomb_convention_keys": "stem_life_stage/general_wood are explicit engineering identifiers for distinct source rationales, not invented quoted method names",
+    "authoritative_bytes_are_unchanged": true
+  }
 }

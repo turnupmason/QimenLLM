@@ -58,3 +58,5 @@ PYTHONPATH=src python3 -m qimenllm --db work/restored.sqlite3 --raw-dir work/res
 ```
 
 只恢复到新 DB，不覆盖现有数据。先校验每个文件哈希与 schema，再重建 FK、来源、索引和冻结分组，审计通过后才发布目标文件。这个可恢复的数据备份不等于正式训练集发布；训练语义审核与冻结评估门槛保持原有要求。
+
+原附件合并文件保存在data/provenance/uploads并随私有Git上传；章节BLOB仍在快照raw。根.gitattributes关闭权威原始字节换行转换及文本diff/merge，不因末尾空行或Windows autocrlf改变来源hash。同步受控staging包含.gitattributes，恢复时保留此文件。

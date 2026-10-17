@@ -87,3 +87,11 @@ CLI/API calculate symbolic_chart → QimenService.calculate → PaperCalculator 
 显式Inquiry.casting_method=shenqi_ch2_paper_v1且context有dun/bureau/hour_ganzhi时，QimenService.ask的SourceCastingEngine调用相同PaperCalculator并把完全相同的payload序列化成冻结Chart；不另实现第二套算法。symbolic_verified不能满足正式engine_verified门槛，即使未来有候选角色也不调用专业模型。没有casting_method时仍明确独立公历算法未实现。
 
 中心目标原5与外圈布局2双字段，中心旬首门本宫2与计数原点5双字段；门最终落5未覆盖。rotation_conventions提供并由代码核对固定星门方向、中心/伴星、神锚点、神顺逆及未覆盖策略；不从模型补方法。钟表区间只处理给定钟表读数，不猜日期/时区。
+
+## 第四、五章：事实条件与参考查询分开
+
+两章各显式facts profile只追加8编译族，不改既有方法。JudgmentFactsCalculator从实际DB读取支属性、有限生命阶段、生克边和月建方法、门宫关系及若干符号配对，不把传统断语变成预测。门与干盘层未明的217键及争议格局通过reference_dataset查询原context_group.dataset，附整块来源、条件、例外、reference_only和无角色绑定。CLI/API统一走QimenService.reference；这是学习入口，不接专业生成器。
+
+chart_observations只调用一次同一PaperCalculator，再由immutable_chart序列化冻结，读该Chart的door位置检查门宫方向。返回原盘、chart_id及带引用的观测；不创建新的排盘算法，不更改问事门槛。ask仍要求engine_verified与真实条件规则，未满足不调用模型。
+
+合并附件原件在data/provenance/uploads，两个章节原样切片在raw_documents及快照，import manifest给parent hash/字节边界。两片拼接恢复原件。第四章编号取文件名，旧导入键不重编号。附件指令文字只当文献数据。新增.gitattributes对原始字节和总指令禁换行转换，对raw快照/原附件禁文本diff，不靠删空白通过检查。schema v1不变。

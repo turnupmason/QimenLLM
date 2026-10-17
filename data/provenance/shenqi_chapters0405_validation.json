@@ -1,0 +1,389 @@
+{
+  "recorded_at": "2026-10-17T14:48:40.974569+00:00",
+  "environment": {
+    "system": "Linux",
+    "machine": "x86_64",
+    "python": "3.12.14",
+    "mac_home_gpu_or_native_windows_tested": false
+  },
+  "upload_sha256": "8b8d7f57fa539785f5613cb6f8fdbdc27090da559d6d2fe5ce0ffd03953c9147",
+  "chapter_sha256": [
+    "15ce23c3fff0c9d3a48b595ee3bbf115d0c1e98a64ce1efc88bdb27e67eab22a",
+    "e153de133f4c5b6c325361ff30a572e782becbb245bb471599d678bb6349679d"
+  ],
+  "original_bytes_and_slice_concatenation_verified": true,
+  "data_version": "75b09a9b-9765-483f-bfe5-cd2e4db93807",
+  "schema_version": 1,
+  "migration_required": false,
+  "counts": {
+    "books": 1,
+    "chapters": 4,
+    "raw_documents": 4,
+    "source_spans": 371,
+    "knowledge_items": 403,
+    "concepts": 1074,
+    "methods": 13,
+    "rules": 0,
+    "cases": 0,
+    "events": 0,
+    "charts": 0,
+    "training_tasks": 0
+  },
+  "knowledge_kinds": {
+    "compiled_dataset": 36,
+    "context_group": 237,
+    "source_quality_issue": 115,
+    "worked_example": 15
+  },
+  "new_chapter_counts": {
+    "4": {
+      "groups": 88,
+      "datasets": 14,
+      "compiled": 8,
+      "quality": 36,
+      "worked": 0,
+      "concept_entries": 383
+    },
+    "5": {
+      "groups": 77,
+      "datasets": 16,
+      "compiled": 8,
+      "quality": 36,
+      "worked": 1,
+      "concept_entries": 266
+    }
+  },
+  "tests": {
+    "command": "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+    "total": 112,
+    "passed": 112,
+    "failed": 0,
+    "new_tests": 18,
+    "previous_tests": 94,
+    "ordered_reference_keys": 217,
+    "distinct_reference_clauses": 216,
+    "full_original_quote_checks": 1090,
+    "star_month_subchecks": 108,
+    "star_month_explicit_individual_example_applications": 22,
+    "star_month_formula_derived": 86,
+    "new_conditions_are_not_independent_predictions": true
+  },
+  "development_failures_resolved": [
+    {
+      "kind": "engineering_metadata",
+      "detail": "Curated method category was outside schema-v1 enum; mapped 73 groups to analysis with original label retained and preflight added. No production original changed."
+    },
+    {
+      "kind": "test_fixture_adapter",
+      "detail": "Test read instrument instead of independently transcribed heaven_instrument; adapter corrected, gold unchanged."
+    }
+  ],
+  "compileall": {
+    "ok": true,
+    "command": "PYTHONPATH=src python3 -m compileall -q src tests scripts"
+  },
+  "audit": {
+    "ok": true,
+    "errors": [],
+    "counts": {
+      "books": 1,
+      "chapters": 4,
+      "raw_documents": 4,
+      "knowledge_items": 403,
+      "rules": 0,
+      "cases": 0,
+      "events": 0,
+      "charts": 0,
+      "training_tasks": 0
+    },
+    "data_version": "75b09a9b-9765-483f-bfe5-cd2e4db93807"
+  },
+  "restore": {
+    "ok": true,
+    "new_database_only": true,
+    "all_snapshot_bytes_equal": true,
+    "calculations_chart_observations_and_reference_equal": true,
+    "audit": {
+      "ok": true,
+      "errors": [],
+      "counts": {
+        "books": 1,
+        "chapters": 4,
+        "raw_documents": 4,
+        "knowledge_items": 403,
+        "rules": 0,
+        "cases": 0,
+        "events": 0,
+        "charts": 0,
+        "training_tasks": 0
+      },
+      "data_version": "75b09a9b-9765-483f-bfe5-cd2e4db93807"
+    }
+  },
+  "prior-data-preservation": {
+    "ok": true,
+    "baseline": "3cd6620c592182484e0e79920d70addac599ba28",
+    "all_prior_authoritative_rows_equal": true,
+    "prior_rows": {
+      "data_versions": 7,
+      "books": 1,
+      "chapters": 2,
+      "raw_documents": 2,
+      "chapter_revisions": 2,
+      "source_reviews": 2,
+      "source_spans": 131,
+      "methods": 8,
+      "concepts": 425,
+      "concept_links": 0,
+      "knowledge_items": 149,
+      "rules": 0,
+      "rule_conditions": 0,
+      "rule_disagreements": 0,
+      "event_families": 0,
+      "cases": 0,
+      "events": 0,
+      "case_events": 0,
+      "charts": 0,
+      "case_records": 0,
+      "evidence_links": 0,
+      "dataset_releases": 0,
+      "split_assignments": 0,
+      "training_tasks": 0,
+      "task_inputs": 0
+    }
+  },
+  "http-smoke": {
+    "ok": true,
+    "transport": "temporary_loopback_http",
+    "listener_closed": true,
+    "results": [
+      {
+        "path": "/health",
+        "http_status": 200,
+        "status": "ok"
+      },
+      {
+        "path": "/v1/ask",
+        "http_status": 200,
+        "status": "blocked"
+      },
+      {
+        "path": "/v1/learn",
+        "http_status": 200,
+        "status": "awaiting_sources"
+      },
+      {
+        "path": "/v1/learn",
+        "http_status": 200,
+        "status": "sources_found"
+      },
+      {
+        "path": "/v1/calculate",
+        "http_status": 200,
+        "status": "computed"
+      },
+      {
+        "path": "/v1/learn",
+        "http_status": 200,
+        "status": "sources_found"
+      },
+      {
+        "path": "/v1/calculate",
+        "http_status": 200,
+        "status": "computed"
+      },
+      {
+        "path": "/v1/calculate",
+        "http_status": 200,
+        "status": "computed"
+      },
+      {
+        "path": "/v1/ask",
+        "http_status": 200,
+        "status": "blocked"
+      },
+      {
+        "path": "/v1/reference",
+        "http_status": 200,
+        "status": "sources_found"
+      },
+      {
+        "path": "/v1/calculate",
+        "http_status": 200,
+        "status": "computed"
+      },
+      {
+        "path": "/v1/calculate",
+        "http_status": 200,
+        "status": "computed"
+      }
+    ]
+  },
+  "installed-smoke": {
+    "ok": true,
+    "isolated_package": true,
+    "migration_packaged": true,
+    "judgment_facts_and_reference_packaged": true,
+    "runtime_database_queried": true
+  },
+  "git-byte-checkout": {
+    "ok": true,
+    "test": "Git checkout with core.autocrlf=true into temporary directory",
+    "original_source_and_snapshot_and_gold_bytes_equal": true,
+    "files": [
+      "data/snapshots/current/manifest.json",
+      "data/structured/shenqi/chapter0405_regression_cases.json",
+      "data/snapshots/current/raw/15ce23c3fff0c9d3a48b595ee3bbf115d0c1e98a64ce1efc88bdb27e67eab22a.bin",
+      "data/provenance/uploads/8b8d7f57fa539785f5613cb6f8fdbdc27090da559d6d2fe5ce0ffd03953c9147.utf8"
+    ],
+    "native_windows_not_tested": true
+  },
+  "idempotent_replay": {
+    "unchanged": true,
+    "chapters": [
+      {
+        "chapter": 4,
+        "source": {
+          "revision_id": "56d50b82-0814-4464-8879-8e9d9ccc4568",
+          "chapter_id": "cfff0064-b185-42cb-939d-59a91234886f",
+          "revision": 1,
+          "document_id": "doc-15ce23c3fff0c9d3a48b595ee3bbf115d0c1e98a64ce1efc88bdb27e67eab22a",
+          "data_version": "10103242-9e80-41ea-87bc-2e4516af9f0f",
+          "input_origin": "user-upload:file_00000000a94481f6bc6b14739af71694; byte slice 0:45389",
+          "imported_at": "2026-10-17T14:27:53.922315+00:00",
+          "source_id": "95275083-946c-440d-99a8-ce14f55c4b1b",
+          "duplicate": true,
+          "sha256": "15ce23c3fff0c9d3a48b595ee3bbf115d0c1e98a64ce1efc88bdb27e67eab22a"
+        },
+        "curation": {
+          "structured_records_added": 0,
+          "context_groups": 88,
+          "quality_records": 36,
+          "worked_examples": 0,
+          "compiled_families_added": 0,
+          "concept_entries_added": 0,
+          "methods_added": 0,
+          "data_version": "75b09a9b-9765-483f-bfe5-cd2e4db93807",
+          "source_acceptance": "tracked_separately",
+          "professional_prediction_available": false
+        }
+      },
+      {
+        "chapter": 5,
+        "source": {
+          "revision_id": "39be9f51-5d0e-40a2-842e-f5f4db728f76",
+          "chapter_id": "2b7561d7-a686-40c0-a767-2e48ae4d227c",
+          "revision": 1,
+          "document_id": "doc-e153de133f4c5b6c325361ff30a572e782becbb245bb471599d678bb6349679d",
+          "data_version": "1a0b5795-174f-4de1-b69f-3ed747d5d1b9",
+          "input_origin": "user-upload:file_00000000a94481f6bc6b14739af71694; byte slice 45389:86324",
+          "imported_at": "2026-10-17T14:27:53.927303+00:00",
+          "source_id": "464eb717-8b3b-4946-8cd7-46c4bf871f94",
+          "duplicate": true,
+          "sha256": "e153de133f4c5b6c325361ff30a572e782becbb245bb471599d678bb6349679d"
+        },
+        "curation": {
+          "structured_records_added": 0,
+          "context_groups": 77,
+          "quality_records": 36,
+          "worked_examples": 1,
+          "compiled_families_added": 0,
+          "concept_entries_added": 0,
+          "methods_added": 0,
+          "data_version": "75b09a9b-9765-483f-bfe5-cd2e4db93807",
+          "source_acceptance": "tracked_separately",
+          "professional_prediction_available": false
+        }
+      }
+    ]
+  },
+  "snapshot": {
+    "manifest_file_sha256": "3454e3d6a7db21f3190befcd57e1faa9ea09c2d0c07a72569e170e1ec3d8f72e",
+    "export": {
+      "data_version": "75b09a9b-9765-483f-bfe5-cd2e4db93807",
+      "snapshot": "data/snapshots/current",
+      "counts": {
+        "data_versions": 13,
+        "books": 1,
+        "chapters": 4,
+        "raw_documents": 4,
+        "chapter_revisions": 4,
+        "source_reviews": 4,
+        "source_spans": 371,
+        "methods": 13,
+        "concepts": 1074,
+        "concept_links": 0,
+        "knowledge_items": 403,
+        "rules": 0,
+        "rule_conditions": 0,
+        "rule_disagreements": 0,
+        "event_families": 0,
+        "cases": 0,
+        "events": 0,
+        "case_events": 0,
+        "charts": 0,
+        "case_records": 0,
+        "evidence_links": 0,
+        "dataset_releases": 0,
+        "split_assignments": 0,
+        "training_tasks": 0,
+        "task_inputs": 0
+      },
+      "manifest_sha256": "4d50edae93f49034bb14ebd06c22ebad3ce097f7d3ca69a28402ccc9e0dc43dc"
+    }
+  },
+  "offline_wheel_sha256": "a4800ace5678d722cad035592ed80e4905f9ed122b5b0e5465f30a8fe0bffb50",
+  "independent_gold_sha256": "fa07e89dccf945ba012f38afae1561e415bc7f8b00c763ab576e617e7edcb175",
+  "expected_answers_rewritten_from_engine": false,
+  "log_hashes": {
+    "artifacts/chapters0405-audit.json": "6c8fddbd865cd7de126620e3c08258fd933b831a022f8d857fc135b2bdc63a16",
+    "artifacts/chapters0405-compile.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "artifacts/chapters0405-development-tests-v2.log": "11a722bb34a44ccb303e3cb582f4c3ef88c3010403507830bf1dbdb684bd7369",
+    "artifacts/chapters0405-development-tests-v3.log": "a989ad0d292f90687a9e3bad87ba799f3235daff37256651b403091243452d6b",
+    "artifacts/chapters0405-development-tests.log": "1cd2cb1eacc5659036f7e2a0dcb20b99690e27fa20fd90bff789c1a6caae2e86",
+    "artifacts/chapters0405-export.json": "a2f4f0dfbcbafa12b616653d763d3a6422c50a10a86cf72891e2b5716eaf1e82",
+    "artifacts/chapters0405-final-tests.log": "5b0fe5e8abbafcecc5c9c1c8cbe255616c8b9dcb4d333a74a3575c3506c043ed",
+    "artifacts/chapters0405-git-byte-checkout.json": "9dca4e8eefd43a8affa9dd9b83bf15713c597ab92bfba1fb9bc6da6cd739b53d",
+    "artifacts/chapters0405-http-smoke.json": "5b2a9c4c5882f13ef092eb7448d770c5a8eb6231922bc623f34f65341e94eea5",
+    "artifacts/chapters0405-install.json": "23416ae7402082f25b341fd8c32cb645ea3e282135adedd8d05a9ee134d5b249",
+    "artifacts/chapters0405-installed-smoke.json": "40113fe1036b61762dfe6d7d623ce374a2d4ce2f8bf7efbc3ee6913903461e14",
+    "artifacts/chapters0405-prior-data-preservation.json": "81fcc23a212ebd50137efe97dd23de9fa700f36e2118de961ddba73e371cb1a3",
+    "artifacts/chapters0405-reimport.json": "45a1c4df8be511d4769129ac26f2f254612e8ae7be6805c5e313a805d36b353f",
+    "artifacts/chapters0405-restore.json": "14e0679bf08727202fb1a71e3a80714cd2581b47701b33ae1d26c86054b6fef5",
+    "artifacts/chapters0405-source-audit.json": "a712f199790c3fe70ea3c88461d64c4bb2b1b730b208f665556369dc11fd95a3",
+    "artifacts/chapters0405-source-tests.log": "28430c0876b56a1aa92a946a4fa763af7335f5d9cc42a63a28d794ae8d908a32",
+    "artifacts/chapters0405-tests.log": "c1cd3fbe3eae9e61261ed7e38ec2993b8baa484844440579e80e3c66ac88f238",
+    "artifacts/chapters0405-wheel-build.log": "8d54b1bed3a704f60b099ec044e5562f231f93bfbc4e9d60961a2027730e6020",
+    "artifacts/chapters0405-wheel-install.log": "f6af0e77f17f41e7f92aa64247b2604b93bc35552c4de3be7ac44b76f26bea49"
+  },
+  "commands": [
+    "PYTHONPATH=src python3 scripts/import_shenqi_chapters0405.py --local-only",
+    "PYTHONPATH=src python3 -m qimenllm audit",
+    "PYTHONPATH=src python3 -m qimenllm export-snapshot",
+    "PYTHONPATH=src python3 scripts/smoke_api.py --chapter01 --chapter02 --chapters0405",
+    "PIP_NO_INDEX=1 python3 -m pip wheel . --no-deps --no-build-isolation --wheel-dir artifacts/chapters0405-wheel",
+    "python3 -m pip install --no-index --no-deps --target work/chapters0405-installed artifacts/chapters0405-wheel/qimenllm-0.1.0-py3-none-any.whl"
+  ],
+  "actual_call_chains": [
+    "CLI/API calculate -> QimenService -> JudgmentFactsCalculator -> actual compiled SQLite data and original sources",
+    "CLI/API reference -> QimenService.reference -> LearningService -> parameterized context-group dataset SQL -> whole original clauses and conditions",
+    "chart_observations -> same PaperCalculator -> immutable Chart -> actual door positions -> symbolic directional facts only"
+  ],
+  "historical_judgment_cases": 0,
+  "professional_role_rules": 0,
+  "model_experiments": null,
+  "training_run": false,
+  "real_world_accuracy": null,
+  "original_changed": false,
+  "frozen_professional_evaluation_changed": false,
+  "unimplemented": [
+    "independent civil calendar/four pillars/solar terms",
+    "timezone and day rollover policies",
+    "voids and horse",
+    "final central chief-door hosting",
+    "professional role binding and complete conditional judgment",
+    "model baseline/training",
+    "public product"
+  ],
+  "github_sync_receipt": "work/github-sync.json (generated after final push and remote-file checks)"
+}

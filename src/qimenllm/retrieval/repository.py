@@ -70,6 +70,17 @@ class KnowledgeRepository:
                 AND instr(k.payload_json,?)>0 ORDER BY k.rowid LIMIT ?''',(term,min(max(limit,1),100))).fetchall()
             return [{**dict(row),'payload':json.loads(row['payload_json'])} for row in rows]
 
+    def reference_dataset(self, family: str) -> list[dict]:
+        """Retrieve whole curated context, including reference-only and disputed material.
+
+        This is a learning query, never an applicability decision or role binding.
+        """
+        with connect(self.db) as conn:
+            rows=conn.execute('''SELECT k.item_id,k.source_id,k.payload_json,k.data_version
+                FROM knowledge_items k WHERE json_extract(k.payload_json,'$.kind')='context_group'
+                AND json_extract(k.payload_json,'$.dataset.key')=? ORDER BY k.rowid''',(family,)).fetchall()
+            return [{**dict(row),'payload':json.loads(row['payload_json'])} for row in rows]
+
     def coverage(self) -> dict:
         with connect(self.db) as conn:
             return {table:conn.execute(f'SELECT COUNT(*) FROM {table}').fetchone()[0]

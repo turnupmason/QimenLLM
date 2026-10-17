@@ -11,7 +11,7 @@ def create_app(service):
             if path=='/health' and method=='GET':
                 result = {'status':'ok','phase':1 if service.knowledge.coverage()['chapters'] else 0,
                           'professional_analysis_available':False}
-            elif path in ('/v1/ask','/v1/learn','/v1/calculate') and method=='POST':
+            elif path in ('/v1/ask','/v1/learn','/v1/calculate','/v1/reference') and method=='POST':
                 if environ.get('CONTENT_TYPE','').split(';')[0].strip()!='application/json':
                     raise ValueError('application/json required')
                 length = int(environ.get('CONTENT_LENGTH','0'))
@@ -32,6 +32,9 @@ def create_app(service):
                 elif path=='/v1/learn':
                     if set(payload)!={'term'} or not isinstance(payload['term'],str): raise ValueError('term required')
                     result = service.learning.learn(payload['term'])
+                elif path=='/v1/reference':
+                    if set(payload)!={'family','filters'}: raise ValueError('family and filters required')
+                    result=service.reference(payload['family'],payload['filters'])
                 else:
                     if set(payload)!={'operation','args'} or not isinstance(payload['operation'],str) or not isinstance(payload['args'],dict):
                         raise ValueError('operation string and args object required')

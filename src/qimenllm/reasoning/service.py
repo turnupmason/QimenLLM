@@ -6,6 +6,7 @@ from ..contracts import Analysis, GenerationError, Inquiry, ModelUnavailable
 from ..casting.engine import SourceCastingEngine
 from ..casting.foundations import FoundationCalculator
 from ..casting.paper import PaperCalculator
+from ..casting.judgment_facts import JudgmentFactsCalculator
 from ..conversation.interpreter import ExplicitContextInterpreter
 from ..models.gateway import UnconfiguredModelGateway
 from ..retrieval.repository import KnowledgeRepository
@@ -18,6 +19,7 @@ class QimenService:
     def __init__(self, db, *, casting=None, model=None, interpreter=None, verifier=None, capture_debug=False):
         self.knowledge = KnowledgeRepository(db)
         self.paper = PaperCalculator(self.knowledge)
+        self.judgment_facts = JudgmentFactsCalculator(self.knowledge)
         self.casting = casting or SourceCastingEngine(self.paper)
         self.model = model or UnconfiguredModelGateway()
         self.interpreter = interpreter or ExplicitContextInterpreter()
@@ -28,9 +30,29 @@ class QimenService:
         self.capture_debug = capture_debug  # trusted local callers only; never persisted
 
     def calculate(self, operation: str, args: dict) -> dict:
+        if operation=='chart_observations':
+            layout=self.paper.calculate('symbolic_chart',args)
+            if layout['status']!='computed': return {**layout,'operation':operation}
+            immutable=self.paper.immutable_chart(layout)
+            chart=immutable.facts(); observations={}
+            for palace,door in chart['doors'].items():
+                if door is not None:
+                    observations[palace]=self.judgment_facts.calculate('door_palace_relation',
+                        {'door':door,'palace':int(palace)})
+            return {'status':'computed' if all(v['status']=='computed' for v in observations.values()) else 'partial',
+                    'operation':operation,'chart_id':chart['chart_id'],'chart':chart,
+                    'layout_evidence':layout['evidence'],'door_palace_observations':observations,
+                    'professional_analysis_completed':False,'complete_chart':False,
+                    'calendar_recomputed':False,'model_analysis':None,
+                    'scope':'same_symbolic_chart_directional_facts_only_not_event_prediction'}
+        if operation in self.judgment_facts.OPERATIONS:
+            return self.judgment_facts.calculate(operation,args)
         if operation in self.paper.OPERATIONS:
             return self.paper.calculate(operation,args)
         return self.foundations.calculate(operation,args)
+
+    def reference(self, family: str, filters: dict) -> dict:
+        return self.learning.reference(family,filters)
 
     def ask(self, inquiry: Inquiry) -> dict:
         if not isinstance(inquiry.text,str) or not inquiry.text.strip(): raise ValueError('Nonempty question required')

@@ -37,6 +37,8 @@ def main(argv=None):
     annotate.add_argument('revision_id'); annotate.add_argument('file',type=Path)
     ask = subs.add_parser('ask'); ask.add_argument('text')
     learn = subs.add_parser('learn'); learn.add_argument('term')
+    reference = subs.add_parser('reference'); reference.add_argument('family')
+    reference.add_argument('--filters',default='{}')
     calculate = subs.add_parser('calculate'); calculate.add_argument('operation')
     calc_input=calculate.add_mutually_exclusive_group()
     calc_input.add_argument('--args',default='{}'); calc_input.add_argument('--args-file',type=Path)
@@ -77,6 +79,7 @@ def main(argv=None):
     else:
         service=QimenService(args.db)
         if args.command=='ask': result=service.ask(Inquiry(args.text))
+        elif args.command=='reference': result=service.reference(args.family,json.loads(args.filters))
         elif args.command=='calculate':
             payload=json.loads(args.args_file.read_bytes() if args.args_file else args.args)
             result=service.calculate(args.operation,payload)

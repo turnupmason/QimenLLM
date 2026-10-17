@@ -87,6 +87,7 @@ class SyncTests(DatabaseTest):
         staged_paths={path for call in run.call_args_list if call.args[0][:2]==['git','add']
                       for path in call.args[0][2:]}
         self.assertTrue({'data/snapshots','data/structured','data/provenance'}<=staged_paths)
+        self.assertIn('.gitattributes',staged_paths)
         self.assertNotIn('data/raw_books',staged_paths)
         self.assertTrue((self.root/'work/github-sync.json').exists())
 

@@ -1,0 +1,7 @@
+# Authoritative uploaded bytes must survive cross-device checkout unchanged.
+data/snapshots/current/** -text
+data/structured/** -text
+data/provenance/** -text
+data/snapshots/current/raw/*.bin -text -diff -merge
+data/provenance/uploads/*.utf8 -text -diff -merge
+docs/user_instructions/*.txt -text

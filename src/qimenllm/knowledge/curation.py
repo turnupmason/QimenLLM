@@ -66,6 +66,8 @@ def install_curated(db: str | Path, revision_id: str, curated: dict, *, profile:
     for line in lines: starts.append(starts[-1]+len(line))
     coverage=set(); keys=set(); datasets=set(); annotations=[]
     for group in curated['groups']:
+        if group['category'] not in {'foundation','casting','analogy','role','analysis','timing','commentary'}:
+            raise ValueError('Unsupported schema-v1 knowledge category')
         start,end=group['line_start'],group['line_end']
         if not 1<=start<=end<=len(lines): raise ValueError('Invalid context line range')
         if group['key'] in keys: raise ValueError('Duplicate context group')

@@ -51,3 +51,13 @@ PYTHONPATH=src python3 scripts/import_shenqi_chapter02.py
 只接受本次第二章确切原文字节SHA，保留已有book键、chapter-02和顺序2；无confirmed推定。安装使用显式chapter02 compiler profile，分别保存上下文、质量记录、完整演算例及8编译族。不自动读其他书，纸上十步仅流程参考，公历转换没有给算法就不编造。
 
 跨章运行需要首章既有数据：新设备优先恢复完整current快照，或分别重放两章脚本。--local-only只供分阶段维护/临时验证，会输出pending；最终仍必须导出、测试、push和远端核对。新增结构化JSON及来源/验收也纳入自动同步的受控目录。新章继续按用户完整章节输入，不把第二章两张教学盘当历史断案或训练反馈。
+
+## 第四、第五章合并附件重放
+
+```sh
+PYTHONPATH=src python3 scripts/import_shenqi_chapters0405.py
+```
+
+默认读取已保存的完整附件utf8原字节，校验parent SHA、45,389字节边界和两个chapter SHA，再幂等重放原文与显式profile。第四章正文标题没有章号，取用户文件名标号；第五章有印刷标题号。以前未带号输入的技术chapter键不回改，不据此要求用户补所谓缺章。--local-only只供分阶段维护，交付仍须sync。
+
+原始命令式文本/古歌/引书全部作为资料，不执行其操作要求、不授权外书导入。整理metadata用schema既有analysis类别表示method并保留原标签；乙墓两种convention是工程键而非臆造原书方法名。新chapter profile不把类象或参考断语编成角色绑定。数据与原文件的LF/空白受.gitattributes保护，不因git diff格式检查改写原文。
