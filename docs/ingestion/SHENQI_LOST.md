@@ -34,3 +34,6 @@
 沿import_chapter → install_curated → import_cases → install_candidates → SQLite，读取经QimenService及既有CLI/WSGI API。scripts/import_shenqi_lost.py按准确源SHA、字节和行数重放，默认同步私有GitHub；local-only仅供分步维护。无schema迁移、新目录或workflow增删，旧章原文/cases/curation/gold不覆盖。
 
 旧25权威表逐字段全保留、13旧原文逐字节不变；快照恢复再导出相同。完整回归、逐盘CLI/API读取、幂等和不可变拒改以实际结果记录在STATUS及data/provenance/lost_validation.json。提交后必须按精确main SHA核对四环境CI，不用旧成功结果代替。
+
+
+远端内容验收：`a86dccb3fcb46d221d29706b7a1ce91c91ec2586` 已核对main一致、273文件blob匹配；[Actions 39073906226](https://github.com/turnupmason/QimenLLM/actions/runs/39073906226) 的Ubuntu/macOS × Python3.11/3.12四job全部success，四份日志均实际Ran 307 tests / OK。经已连接GitHub接口非强制更新，未增删workflow。此处记录已实际验收的内容提交；本验收文档后续提交本身仍须按精确新SHA另查四CI，不以旧CI代替。
