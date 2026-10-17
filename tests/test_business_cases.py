@@ -97,7 +97,7 @@ class BusinessChapterTests(unittest.TestCase):
         lottery = self.catalog[11]
         result = self.service.case(lottery['case_id'])
         self.assertEqual(len(result['events']), 1)
-        self.assertEqual(len(result['events'][0]['chart_ids']), 3)
+        self.assertEqual(len(result['events'][0]['charts']), 3)
         raw = result['source']['text']
         for expected in ('丙午时', '丁未时', '丁巳时', '元月27日', '元月28日', '张志春按'):
             self.assertIn(expected,raw)
@@ -105,6 +105,7 @@ class BusinessChapterTests(unittest.TestCase):
         # Source-stage visibility is conservative: no complete case/post-hoc outcomes.
         from support import case_content_text
         content = case_content_text(before)
+        self.assertIn('有奖募捐活动', content)
         self.assertNotIn('11点10分', content)
         self.assertNotIn('1997年元月28日，庚午日', content)
 

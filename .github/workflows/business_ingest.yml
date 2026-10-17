@@ -4,6 +4,8 @@ on:
     branches: [ingest-shenqi-business-20261017]
     paths:
       - data/provenance/uploads/business_source_20261017.utf8
+      - tests/test_business_cases.py
+      - data/structured/shenqi/business_cases.json
 jobs:
   import-and-persist:
     runs-on: ubuntu-latest

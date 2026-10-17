@@ -77,7 +77,7 @@
             "chronology_note": "Narrative may recount later outcomes before presenting analytical chart; unknown timing not treated as initial knowledge",
             "case_label": "实例一：测租赁经营"
           },
-          "chronology_status": "unknown",
+          "chronology_status": "ordered",
           "chronology_scope": "User-supplied narrative order only; not independently verified",
           "prediction_input_policy": {
             "mode": "first_forecast_only_conservative",
@@ -1017,7 +1017,7 @@
             "chronology_note": "Narrative may recount later outcomes before presenting analytical chart; unknown timing not treated as initial knowledge",
             "case_label": "实例二：测引进外资建商城"
           },
-          "chronology_status": "unknown",
+          "chronology_status": "ordered",
           "chronology_scope": "User-supplied narrative order only; not independently verified",
           "prediction_input_policy": {
             "mode": "first_forecast_only_conservative",
@@ -2184,7 +2184,7 @@
             "chronology_note": "Narrative may recount later outcomes before presenting analytical chart; unknown timing not treated as initial knowledge",
             "case_label": "实例三：测商城开业后效益"
           },
-          "chronology_status": "unknown",
+          "chronology_status": "ordered",
           "chronology_scope": "User-supplied narrative order only; not independently verified",
           "prediction_input_policy": {
             "mode": "first_forecast_only_conservative",
@@ -3649,7 +3649,7 @@
             "chronology_note": "Narrative may recount later outcomes before presenting analytical chart; unknown timing not treated as initial knowledge",
             "case_label": "实例四：测投资买商位"
           },
-          "chronology_status": "unknown",
+          "chronology_status": "ordered",
           "chronology_scope": "User-supplied narrative order only; not independently verified",
           "prediction_input_policy": {
             "mode": "first_forecast_only_conservative",
@@ -4956,7 +4956,7 @@
             "chronology_note": "Narrative may recount later outcomes before presenting analytical chart; unknown timing not treated as initial knowledge",
             "case_label": "实例五：测合资办厂"
           },
-          "chronology_status": "unknown",
+          "chronology_status": "ordered",
           "chronology_scope": "User-supplied narrative order only; not independently verified",
           "prediction_input_policy": {
             "mode": "first_forecast_only_conservative",
@@ -5755,7 +5755,7 @@
             "chronology_note": "Narrative may recount later outcomes before presenting analytical chart; unknown timing not treated as initial knowledge",
             "case_label": "实例六：测传销营养药品"
           },
-          "chronology_status": "unknown",
+          "chronology_status": "ordered",
           "chronology_scope": "User-supplied narrative order only; not independently verified",
           "prediction_input_policy": {
             "mode": "first_forecast_only_conservative",
@@ -6589,7 +6589,7 @@
             "chronology_note": "Narrative may recount later outcomes before presenting analytical chart; unknown timing not treated as initial knowledge",
             "case_label": "实例七：杜新会测出租商场"
           },
-          "chronology_status": "unknown",
+          "chronology_status": "ordered",
           "chronology_scope": "User-supplied narrative order only; not independently verified",
           "prediction_input_policy": {
             "mode": "first_forecast_only_conservative",
@@ -8124,7 +8124,7 @@
             "chronology_note": "Narrative may recount later outcomes before presenting analytical chart; unknown timing not treated as initial knowledge",
             "case_label": "实例八：杜新会测买画卷赢利"
           },
-          "chronology_status": "unknown",
+          "chronology_status": "ordered",
           "chronology_scope": "User-supplied narrative order only; not independently verified",
           "prediction_input_policy": {
             "mode": "first_forecast_only_conservative",
@@ -10027,7 +10027,7 @@
             "chronology_note": "Narrative may recount later outcomes before presenting analytical chart; unknown timing not treated as initial knowledge",
             "case_label": "实例九：杜新会测企业前景及对策"
           },
-          "chronology_status": "unknown",
+          "chronology_status": "ordered",
           "chronology_scope": "User-supplied narrative order only; not independently verified",
           "prediction_input_policy": {
             "mode": "first_forecast_only_conservative",
@@ -11806,7 +11806,7 @@
             "chronology_note": "Narrative may recount later outcomes before presenting analytical chart; unknown timing not treated as initial knowledge",
             "case_label": "实例十：杜新会测贷款"
           },
-          "chronology_status": "unknown",
+          "chronology_status": "ordered",
           "chronology_scope": "User-supplied narrative order only; not independently verified",
           "prediction_input_policy": {
             "mode": "first_forecast_only_conservative",
@@ -13095,7 +13095,7 @@
             "chronology_note": "Narrative may recount later outcomes before presenting analytical chart; unknown timing not treated as initial knowledge",
             "case_label": "实例十一：杜新会测中介生意"
           },
-          "chronology_status": "unknown",
+          "chronology_status": "ordered",
           "chronology_scope": "User-supplied narrative order only; not independently verified",
           "prediction_input_policy": {
             "mode": "first_forecast_only_conservative",
@@ -13964,7 +13964,7 @@
             "chronology_note": "Single lottery study over several dated time slots; 3 provided complete charts, other slots have only text",
             "case_label": "实例十二：贵州省赤水市学员卢圣湘测抽奖例"
           },
-          "chronology_status": "unknown",
+          "chronology_status": "ordered",
           "chronology_scope": "User-supplied narrative order only; not independently verified",
           "prediction_input_policy": {
             "mode": "first_forecast_only_conservative",
@@ -17298,7 +17298,7 @@
             "chronology_note": "Narrative may recount later outcomes before presenting analytical chart; unknown timing not treated as initial knowledge",
             "case_label": "实例十三：杜新会测讨债"
           },
-          "chronology_status": "unknown",
+          "chronology_status": "ordered",
           "chronology_scope": "User-supplied narrative order only; not independently verified",
           "prediction_input_policy": {
             "mode": "first_forecast_only_conservative",
@@ -18115,7 +18115,7 @@
             "chronology_note": "Narrative may recount later outcomes before presenting analytical chart; unknown timing not treated as initial knowledge",
             "case_label": "实例十四：杜新会测讨债无获"
           },
-          "chronology_status": "unknown",
+          "chronology_status": "ordered",
           "chronology_scope": "User-supplied narrative order only; not independently verified",
           "prediction_input_policy": {
             "mode": "first_forecast_only_conservative",
