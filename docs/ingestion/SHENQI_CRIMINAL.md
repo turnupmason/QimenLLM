@@ -31,3 +31,6 @@
 scripts/import_shenqi_criminal.py按准确SHA/字节/行数重放，复用import_chapter → install_curated → import_cases → install_candidates → SQLite。读取沿QimenService、CLI与现有WSGI API。三行原字标签盘按本章确切SHA接入既有source_chart投影，54宫与独立字面gold同时核对结构化盘和服务投影；同ID、不改原盘，不是历法复算或专业问事验证。
 
 旧25权威表全部旧行逐字段保留、14旧原文逐字节相同，41文件快照可恢复再导出一致。没有schema迁移、新目录或workflow增删，旧章节source/cases/curation/gold不改。本章11候选仅参考，正式rules/训练任务仍0。全量回归、远端main及四CI实际验收见STATUS与data/provenance/criminal_validation.json。
+
+
+远端内容验收：`ef08ac337201d5acc71ad5032525f06979c22eff` 已核对main一致、285文件blob匹配；[Actions 39074750056](https://github.com/turnupmason/QimenLLM/actions/runs/39074750056) 的Ubuntu/macOS × Python3.11/3.12四job全部success，四份日志均实际Ran 323 tests / OK。通过已连接GitHub接口非强制更新，未增删workflow。这里记录已实际验收的内容提交；本验收文档后续提交本身仍须按精确新SHA另查四CI，不以旧CI替代。

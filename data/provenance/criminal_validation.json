@@ -174,7 +174,56 @@
   "workflow_added": false,
   "workflow_deleted": false,
   "github_sync": {
-    "status": "pending",
-    "reason": "Await actual main commit and four CI results"
+    "status": "synced",
+    "repository": "turnupmason/QimenLLM",
+    "content_commit": "ef08ac337201d5acc71ad5032525f06979c22eff",
+    "transport": "connected_github_git_data_api",
+    "remote_main_verified": true,
+    "files_verified": 285,
+    "ci": {
+      "run_id": 39074750056,
+      "url": "https://github.com/turnupmason/QimenLLM/actions/runs/39074750056",
+      "head_sha": "ef08ac337201d5acc71ad5032525f06979c22eff",
+      "jobs": [
+        {
+          "id": 117519471801,
+          "name": "stdlib-tests (ubuntu-latest, 3.12)",
+          "conclusion": "success",
+          "summary": [
+            "2026-10-17T22:22:49.7537803Z Ran 323 tests in 60.552s",
+            "2026-10-17T22:22:49.7538638Z OK"
+          ]
+        },
+        {
+          "id": 117519471930,
+          "name": "stdlib-tests (ubuntu-latest, 3.11)",
+          "conclusion": "success",
+          "summary": [
+            "2026-10-17T22:22:30.2260698Z Ran 323 tests in 42.374s",
+            "2026-10-17T22:22:30.2261235Z OK"
+          ]
+        },
+        {
+          "id": 117519471979,
+          "name": "stdlib-tests (macos-latest, 3.12)",
+          "conclusion": "success",
+          "summary": [
+            "2026-10-17T22:22:24.0959890Z Ran 323 tests in 34.437s",
+            "2026-10-17T22:22:24.0960090Z OK"
+          ]
+        },
+        {
+          "id": 117519472012,
+          "name": "stdlib-tests (macos-latest, 3.11)",
+          "conclusion": "success",
+          "summary": [
+            "2026-10-17T22:22:26.4519250Z Ran 323 tests in 34.888s",
+            "2026-10-17T22:22:26.4519450Z OK"
+          ]
+        }
+      ]
+    },
+    "data_version": "29d1843d-9581-4928-a37d-fbf2d6d4cb65",
+    "snapshot_manifest_sha256": "c8c94663baac21483469b0a743c180952bcb01488b11409fbe56f1a919a8fdd7"
   }
 }
