@@ -1,0 +1,42 @@
+name: business-source-ingest-staging
+
+on:
+  push:
+    branches:
+      - ingest-shenqi-business-20261017-source
+    paths:
+      - .github/workflows/business-ingest-staging.yml
+
+permissions:
+  contents: write
+
+jobs:
+  restore-and-ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Restore old actual records and ingest business source
+        run: |
+          PYTHONPATH=src python scripts/import_shenqi_business.py \
+            --restore-base \
+            --db /tmp/qimen-business-staging.sqlite3 \
+            --raw-dir /tmp/qimen-business-staging-raw \
+            --local-only > /tmp/qimen-business-import.json
+      - name: Audit and export actual canonical snapshot
+        run: |
+          PYTHONPATH=src python -c "from qimenllm.knowledge.snapshot import export_snapshot; print(export_snapshot('/tmp/qimen-business-staging.sqlite3','/tmp/qimen-business-staging-raw','data/snapshots/current'))"
+      - name: Run all regressions on updated snapshot
+        run: PYTHONPATH=src python -m unittest discover -s tests -v
+      - name: Push checked canonical data to the same private staging branch
+        run: |
+          git config user.name "QimenLLM CI Data Pipeline"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/snapshots/current
+          git diff --cached --quiet && exit 1
+          git commit -m "Append confirmed business chapter and original cases to recoverable snapshot"
+          git push origin HEAD:refs/heads/ingest-shenqi-business-20261017-source
