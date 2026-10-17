@@ -2,6 +2,8 @@
 
 结论：基础工程已运行并验收；QimenLLM 尚无专业排盘、问事或模型能力。现在停止 Phase 0，等待《神奇之门》第一章。
 
+本报告记录初次 Phase 0 验收时的结果；后续用户要求的私有 GitHub 仓库已于 2026-10-17 成功上传到 https://github.com/turnupmason/QimenLLM ，最新回归总数和同步状态见 STATUS / GITHUB_SYNC。
+
 ## 1. 项目与环境
 
 实际目录：`/workspace/QimenLLM`。云 Linux x86_64，Python 3.12.14、Git 2.52.0，容器内存上限 8 GiB、约 2 CPU 配额。不是用户 Mac；RTX 4090 仅按用户说明记录，未连接。已有 Qimen 目录未读取或继承。详见 HARDWARE / ENVIRONMENT.json。

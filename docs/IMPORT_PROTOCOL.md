@@ -26,4 +26,4 @@ PYTHONPATH=src python3 -m qimenllm annotate REVISION_ID work/annotations.json
 
 目前文本导入、全章索引和结构标注已可运行；扫描图片/复杂原盘解析、自动章节理解、自动规则编译不在 Phase 0 已实现范围。收到图片时必须保留原始附件及另行实现有哈希的媒体导入，不把 OCR 当原文覆盖。
 
-用户后续要求每次数据更新同步 GitHub。上述 import-chapter / annotate 现在保存成功后会自动导出并尝试同步指定私有仓库；网络/权限失败时输出 pending、返回退出码2，已保存资料不回滚。修复访问后运行 `PYTHONPATH=src python3 -m qimenllm sync --message 'Update source data'` 重试，核对远端 commit 后才报告同步完成。当前建库首次上传仍受云环境 api.github.com 访问限制，详见 GITHUB_SYNC。
+用户后续要求每次数据更新同步 GitHub。上述 import-chapter / annotate 现在保存成功后会自动导出并尝试同步指定私有仓库；网络/权限失败时输出 pending、返回退出码2，已保存资料不回滚。可访问 API 时运行 `PYTHONPATH=src python3 -m qimenllm sync --message 'Update source data'`；当前受限会话由 Codex 按 GITHUB_SYNC 使用连接器核验私有状态，再完成实际 Git push 与远端 commit 核对后报告完成。私有仓库首次上传已成功。

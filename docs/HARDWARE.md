@@ -47,7 +47,7 @@ Python >=3.11；若打包安装，使用独立 venv 和 `python -m pip install -
 
 ## Git 与数据同步
 
-两机使用同一源码 commit/分支。用户后续已要求私有 `turnupmason/QimenLLM`；本地 origin 目标已配置，远端创建与首次 push 尚受 api.github.com 网络策略阻断。后续按 GITHUB_SYNC 每次上传源码和可恢复的实际文献/结构化数据快照；模型和直接 SQLite 不入 Git，原文备份也不能公开分发。
+两机使用同一源码 commit/分支。私有 `turnupmason/QimenLLM` 已由用户创建，本地 origin 已配置并成功首次 push。后续按 GITHUB_SYNC 每次上传源码和可恢复的实际文献/结构化数据快照；当前受限会话使用连接器核验 + 正常 Git HTTPS 完成上传。模型和直接 SQLite 不入 Git，原文备份也不能公开分发。
 
 SQLite 不通过网盘同时打开，也不让两机同时写同一 DB。文献维护端作为当前写入主端；训练只读发布快照。先执行：
 

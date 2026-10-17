@@ -42,4 +42,8 @@ CLI/API 共用 QimenService，临时 fixture 证明 DB/模型/校验接线。结
 
 ## D011 用户要求每次更新同步 GitHub
 
-用户后续明确要求新建 QimenLLM，且每次数据更新同步 GitHub。这取代 D009 当时的“仅本地”交付范围。目标为 turnupmason/QimenLLM 私有仓库。以 canonical JSONL + 原始字节快照备份实际库，不把 schema/计数当已上传数据；CLI 资料更新自动尝试同步，失败 pending/退出码2，不丢本地资料。push 后核对远端 SHA 才算完成。现因云网络策略未允许 api.github.com 且连接器无建库接口，创建/首次上传仍受阻，不能宣称完成。
+用户后续明确要求新建 QimenLLM，且每次数据更新同步 GitHub。这取代 D009 当时的“仅本地”交付范围。目标为 turnupmason/QimenLLM 私有仓库。以 canonical JSONL + 原始字节快照备份实际库，不把 schema/计数当已上传数据；CLI 资料更新自动尝试同步，失败 pending/退出码2，不丢本地资料。push 后核对远端 SHA 才算完成。当时因云网络策略未允许 api.github.com 且连接器无建库接口，创建/首次上传受阻；后续处理见 D012。
+
+## D012 私有仓库首次上传与当前可用传输
+
+2026-10-17 用户自行创建 turnupmason/QimenLLM 后，连接器已确认私有与 push 权限；正常 Git HTTPS 成功上传 main，首个远端 HEAD 为 f2a7e699ea732d4d53e65e08cd4aa07a56c56f7f。当前 API 域名限制未变，github.com 的 Git 流量与连接器各自在允许范围内工作。后续维护先用连接器核验目标，再以正常 Git 推送、核对远端 SHA 与文件；不修改或绕过网络策略。凭据 helper 只引用 gh，不保存 token。此流程已执行，不以接口代码存在代替上传。

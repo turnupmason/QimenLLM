@@ -1,20 +1,18 @@
 # GitHub 更新与可恢复数据
 
-## 用户授权与当前阻断
+## 用户授权与当前状态
 
 用户已要求新建 QimenLLM，并在每次数据更新时同步 GitHub。目标为已连接账号 `turnupmason` 下的私有 `turnupmason/QimenLLM`，main 分支；无需每次重新询问是否上传。
 
-当前仓库尚未由本代理创建或上传。GitHub 连接器已确认账号；get_repo 对目标返回 404（不存在或当前连接无访问权）。现有连接器没有 create-repository 功能。云端 gh 可用且检测到配置的认证，但访问 `https://api.github.com/user` 和 GraphQL 均返回 Forbidden；实际网络允许列表含 github.com，不含 api.github.com。不得编辑策略文件或绕过代理。必须通过云环境的正式配置流程允许 api.github.com 后再验证授权，才能尝试建库。
+2026-10-17，用户已创建并提供 https://github.com/turnupmason/QimenLLM 。GitHub 连接器已确认 owner=turnupmason、visibility=private、push=true，随后通过正常 Git HTTPS 成功推送 main；初次远端提交为 f2a7e699ea732d4d53e65e08cd4aa07a56c56f7f，保留此前本地历史。最终文档更新也要再次 push 并核对远端，最新结果在 work/github-sync.json。
 
-配置好访问后执行：
+当前会话的命令行 api.github.com 仍受旧网络策略限制；github.com 的正常 Git 传输可用，GitHub 连接器读取元数据也可用。后续不得重复建库或绕过网络策略，采用下面的连接器核验流程完成同步。若未来运行环境已允许 GitHub API，可直接运行：
 
 ```sh
-gh api user --jq .login
-gh repo create turnupmason/QimenLLM --private --description 'Source-grounded QimenLLM research and product'
-PYTHONPATH=src python3 -m qimenllm sync --message 'Publish QimenLLM foundation and data snapshot'
+PYTHONPATH=src python3 -m qimenllm sync --message 'Update QimenLLM project and source data'
 ```
 
-若建库提示同名存在，先读 metadata 核实所有者、私有状态与已有内容，不覆盖、不 force-push。Git origin 已按用户目标设置，不意味着远端已存在。创建后如 GitHub App 仅授权选定仓库，还需把新仓库加入该连接的访问范围。不得索取或在聊天粘贴 token。
+本仓库 origin 为 https://github.com/turnupmason/QimenLLM.git；本地凭据 helper 仅引用 gh auth git-credential，未保存或输出 token。不得索取或在聊天粘贴 token。
 
 ## 每次更新的正式流程
 
@@ -27,6 +25,19 @@ PYTHONPATH=src python3 -m qimenllm sync --message 'Publish QimenLLM foundation a
 CLI import-chapter / annotate 自动调用此流程。网络、权限或 push 失败：输出 pending、退出码2，明确本地资料已保存；恢复后运行 sync，不重复编造或覆盖资料。低层 Python 导入接口供事务/测试使用，不隐式联网；Codex 直接用该接口维护后仍须完成 sync 才报告整个更新任务完成。
 
 本工具同步的是已完成的本次更新，不是无人值守文件监控服务。没有运行常驻 watcher、cron 或跨会话后台作业。人工直接修改源码后也必须调用 sync，不能依赖只读 GitHub Actions 把本地文件自动推上去。
+
+## 当前会话的连接器核验流程
+
+若 CLI 在私有状态检查处因 api.github.com 返回 pending，Codex 应使用可用的 GitHub 连接器 get_repo，再次核实目标的所有者、private 状态与 push 权限。核实失败则停止；成功后沿用 export_snapshot、回归和受控 staging/commit，使用正常 Git HTTPS 推送，不修改策略、不 force。实际已验证可行的命令：
+
+```sh
+git config --local credential.https://github.com.helper '!gh auth git-credential'
+GIT_TERMINAL_PROMPT=0 git push --set-upstream origin main
+GIT_TERMINAL_PROMPT=0 git ls-remote origin refs/heads/main
+git rev-parse HEAD
+```
+
+核对本地 HEAD 与远端 main 一致，再以连接器读取关键文件校验。完成后记录 repository、commit、data_version、snapshot_manifest_sha256 和 transport=git_https_after_connector_visibility_check 的本地回执；只有这些实际步骤成功才向用户报告已同步。这个维护工作流由 Codex 执行，CLI 不会自行伪造连接器核验或把 pending 改为成功。
 
 ## Git 里的实际数据
 

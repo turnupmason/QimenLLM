@@ -66,4 +66,4 @@ SQLite BLOB 为权威字节；`data/raw_books/<sha256>.utf8` 为可检查镜像�
 
 用户已要求每次数据更新同步 GitHub。维护 CLI 在 import/annotate 事务提交后调用 snapshot 和 sync；失败不丢已保存内容，返回 pending/退出码2。问事/学习运行时仍不修改权威数据、不调用同步。JSONL + 原始字节导出可恢复全部权威表，搜索索引重建；初始化新增 seed_empty=False 仅供恢复新库，不改变 schema 或现有库。
 
-sync 依次验证指定私有目标、回归、受控 staging、commit/push 和远端 SHA；仅本地提交不能报完成。当前 CLI 的 GitHub API 被网络允许列表拒绝，连接器无建库工具，所以新仓库及首次上传仍待外部访问配置，不能以已实现同步模块替代真实 push。详见 GITHUB_SYNC。
+sync 依次验证指定私有目标、回归、受控 staging、commit/push 和远端 SHA；仅本地提交不能报完成。用户已自行创建新仓库，当前会话通过 GitHub 连接器核验私有状态与权限，再以允许的正常 Git HTTPS 成功首次 push。CLI 的 API 域名检查在当前会话仍会 pending，由 Codex 执行上述已验证的维护流程完成实际上传；问事正式执行链不受影响。详见 GITHUB_SYNC。

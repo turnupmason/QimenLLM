@@ -1,6 +1,6 @@
 # 当前项目状态
 
-更新：2026-10-16（America/New_York；执行主机 UTC 已为 2026-10-17）。当前阶段：**Phase 0 工程验收完成，等待用户第一章**。
+更新：2026-10-17（America/New_York）。当前阶段：**Phase 0 工程验收完成；GitHub 已上传，等待用户第一章**。
 
 ## 本轮完成
 
@@ -55,6 +55,6 @@
 
 用户已要求创建 QimenLLM，且每次数据更新同步 GitHub。已确认连接账号 turnupmason；目标私有 turnupmason/QimenLLM。已新增可恢复实际数据快照/恢复工具、CLI 更新后自动同步及远端 SHA 校验、持久规则和配置。schema v1 不变，不迁移或改写原文。
 
-当前远端创建和首次上传仍未完成：现有连接器没有建库接口；gh 到 api.github.com 被云网络策略拒绝（Forbidden），本地策略仅允许 github.com 等域名而没有 api.github.com。必须通过云环境正式配置流程补充访问，再重试建库与 push。不得说“GitHub 已同步”。当前资料仍为 0，专业能力边界不变。
+2026-10-17，用户已创建并提供私有仓库 https://github.com/turnupmason/QimenLLM 。连接器核实 private/push 权限后，通过正常 Git HTTPS 成功建立远端 main；首次提交为 f2a7e699ea732d4d53e65e08cd4aa07a56c56f7f，已用 git ls-remote 核对。当前会话命令行 api.github.com 仍受旧策略限制，但连接器元数据核验 + github.com Git HTTPS 已实际可用，后续按 GITHUB_SYNC 完成每次更新。当前资料仍为 0，专业能力边界不变。
 
-此次追加后的回归总数为 **59 项，全通过**（Phase 0 原有 51 项 + 快照/同步 8 项）。已验证真实原文字节及所有权威表导出/恢复后相同、数据不变文件不变、损坏快照拒绝、冻结分组保留、公开仓库不推送、远端 SHA 不符不报告成功，以及 CLI 上传失败仍保存本地资料。实际空库导出及原库 audit 均通过；真实 sync 尝试退出码2/pending，日志见 artifacts/sync-regression.log、github-sync-attempt.log 和 github-sync-validation.json。没有实际成功的远端写入，创建/首次 push 待访问恢复后完成。
+回归总数为 **59 项，全通过**（Phase 0 原有 51 项 + 快照/同步 8 项）。已验证真实原文字节及所有权威表导出/恢复后相同、数据不变文件不变、损坏快照拒绝、冻结分组保留、公开仓库不推送、远端 SHA 不符不报告成功，以及 CLI 上传失败仍保存本地资料。实际空库导出及原库 audit 均通过。此前 CLI 的 pending 是当时 API 受阻的真实结果；本次已通过连接器核验和实际 Git push 完成上传，最终远端核验回执保存到 work/github-sync.json，推送输出与文件核验记录保存到 artifacts/github-upload-verification.json。

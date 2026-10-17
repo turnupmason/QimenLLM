@@ -64,4 +64,4 @@ PYTHONPATH=src python3 -m qimenllm export-snapshot
 PYTHONPATH=src python3 -m qimenllm sync --message 'Update project and source data'
 ```
 
-当前建库/首次上传受云环境网络限制阻断，尚未完成；具体状态、恢复命令和同步边界见 docs/GITHUB_SYNC.md。
+仓库已由用户创建，当前项目及实际空数据快照已上传到 https://github.com/turnupmason/QimenLLM 。当前会话若遇到命令行 GitHub API 的网络限制，Codex 使用 GitHub 连接器核实私有状态和权限，再以正常 Git HTTPS 上传并核对远端提交。具体操作、恢复命令和同步边界见 docs/GITHUB_SYNC.md。
