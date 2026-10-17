@@ -14,11 +14,13 @@ MARRIAGE_SHA='041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5'
 PREGNANCY_SHA='adeaa9afad8237bba88ea3b277ec2d8cab4cb0c336b86479189fd2a3530d8d69'
 EXAM_SHA='7db765dab78a42d193160e2655579af2445aa9ce24c872e39e73acae554ef2fc'
 EMPLOYMENT_SHA='7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853'
+BUSINESS_SHA='55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6'
 PROJECTION='shenqi_health_table_projection_v1'
 SOURCE_POLICIES={HEALTH_SHA:PROJECTION,MARRIAGE_SHA:'shenqi_marriage_table_projection_v1',
                  PREGNANCY_SHA:'shenqi_pregnancy_table_projection_v1',
                  EXAM_SHA:'shenqi_exam_table_projection_v1',
-                 EMPLOYMENT_SHA:'shenqi_employment_table_projection_v1'}
+                 EMPLOYMENT_SHA:'shenqi_employment_table_projection_v1',
+                 BUSINESS_SHA:'shenqi_business_table_projection_v1'}
 NUMERALS=dict(zip('一二三四五六七八九',range(1,10)))
 
 
@@ -114,7 +116,7 @@ def project_chart(db,case_id,chart_id):
             'training_export':False,'purpose':'historical_source_chart_reading',
             'original_chart_modified':False,'engine_verified':False,'calendar_recomputed':False,
             'voids':None,'horse':None,'medical_inference':None,'professional_analysis_completed':False}
-    if row['sha256'] in (MARRIAGE_SHA,PREGNANCY_SHA,EXAM_SHA,EMPLOYMENT_SHA):
+    if row['sha256'] in (MARRIAGE_SHA,PREGNANCY_SHA,EXAM_SHA,EMPLOYMENT_SHA,BUSINESS_SHA):
         counts=Counter(p['earth_stem'] for p in palaces.values())
         result['source_table_observations']={'distinct_primary_earth_stems':len(counts),
             'duplicate_primary_earth_stems':{s:[p['palace'] for p in palaces.values() if p['earth_stem']==s]
