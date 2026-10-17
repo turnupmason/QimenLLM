@@ -80,3 +80,8 @@ PYTHONPATH=src python3 scripts/import_shenqi_chapters0405.py
 
 
 本轮《出行出国预测》沿现有schema v1与导入/服务链增量接续，12份章级输入累计49故事/46家族/55事件/52原盘；新增6故事/6事件/7盘、99记录、8参考候选。原字节SHA256 c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55；案例四旧盘复读与案例六双盘/后置雨情严格隔离，正式规则/训练任务仍0。入口scripts/import_shenqi_travel.py，报告docs/ingestion/SHENQI_TRAVEL.md；不新增workflow，原有tests.yml保留。进度与实际验收以STATUS为准。
+
+
+## 行人走失预测增量重放
+
+scripts/import_shenqi_missing.py从原始上传镜像验证SHA256 5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574、49372字节/477行；missing-person/sequence14。10完整故事/10事件/11给定盘、111记录；17语境组、9参考候选，schema不变。原断、错断反馈、来信及事后复盘按来源阶段保存，缺盘不补，混合段落保留完整原文及准确分句字节范围。默认confirmed及同步GitHub；完整快照、全回归和精确新main四CI仍为交付条件。详见ingestion/SHENQI_MISSING.md。

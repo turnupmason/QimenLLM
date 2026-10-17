@@ -1,0 +1,1644 @@
+{
+  "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+  "source_byte_count": 49372,
+  "source_line_count": 477,
+  "chapter_title": "行人走失预测",
+  "chapter_key_suggestion": "missing-person",
+  "printed_chapter_number": null,
+  "groups": [
+    {
+      "key": "missing_heading",
+      "title": "行人走失预测",
+      "category": "commentary",
+      "line_start": 1,
+      "line_end": 4,
+      "attribution": "原书叙述；原断执行者与作者后置复盘分别记录",
+      "summary": "完整来源语境，保留原断、已报告反馈与后验解释，不自动推广或执行",
+      "concepts": [],
+      "dataset": {
+        "key": "missing_heading_reference",
+        "rows": [
+          {
+            "key": "missing_heading_line_1",
+            "source_lines": [
+              1,
+              1
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 1,
+              "line_end": 1,
+              "byte_start": 0,
+              "byte_end": 19,
+              "source_quote": "行人走失预测\n"
+            },
+            "source_quote": "行人走失预测\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_heading_line_3",
+            "source_lines": [
+              3,
+              3
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 3,
+              "line_end": 3,
+              "byte_start": 20,
+              "byte_end": 49,
+              "source_quote": "第一节 取用判断经验\n"
+            },
+            "source_quote": "第一节 取用判断经验\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "missing_roles",
+      "title": "预测行人走失，如果以走失时间起局，一般以日干为用神；如果是按问测时间起局，一般以六亲关系取用神，如父母问测子女走失，以时",
+      "category": "role",
+      "line_start": 5,
+      "line_end": 6,
+      "attribution": "原书叙述；原断执行者与作者后置复盘分别记录",
+      "summary": "完整来源语境，保留原断、已报告反馈与后验解释，不自动推广或执行",
+      "concepts": [
+        "日干",
+        "时干",
+        "月干",
+        "年干",
+        "年命"
+      ],
+      "dataset": {
+        "key": "missing_roles_reference",
+        "rows": [
+          {
+            "key": "missing_roles_line_5",
+            "source_lines": [
+              5,
+              5
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 5,
+              "line_end": 5,
+              "byte_start": 50,
+              "byte_end": 381,
+              "source_quote": "预测行人走失，如果以走失时间起局，一般以日干为用神；如果是按问测时间起局，一般以六亲关系取用神，如父母问测子女走失，以时干为用神，问测同辈人走失以月干为用神，问测老年人走失以年干为用神。同时，都还可以兼取行人年命为用神。\n"
+            },
+            "source_quote": "预测行人走失，如果以走失时间起局，一般以日干为用神；如果是按问测时间起局，一般以六亲关系取用神，如父母问测子女走失，以时干为用神，问测同辈人走失以月干为用神，问测老年人走失以年干为用神。同时，都还可以兼取行人年命为用神。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "missing_direction",
+      "title": "行人走失方向，古籍多以六合落宫为走失方向。经验证，一般情况下，六合落宫是行人开始走失的方向，中间值符落宫、值使门落宫都可",
+      "category": "analysis",
+      "line_start": 7,
+      "line_end": 8,
+      "attribution": "原书叙述；原断执行者与作者后置复盘分别记录",
+      "summary": "完整来源语境，保留原断、已报告反馈与后验解释，不自动推广或执行",
+      "concepts": [
+        "六合",
+        "值符",
+        "值使",
+        "杜门",
+        "空亡",
+        "反吟",
+        "内盘",
+        "外盘"
+      ],
+      "dataset": {
+        "key": "missing_direction_reference",
+        "rows": [
+          {
+            "key": "missing_direction_line_7",
+            "source_lines": [
+              7,
+              7
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 7,
+              "line_end": 7,
+              "byte_start": 382,
+              "byte_end": 1051,
+              "source_quote": "行人走失方向，古籍多以六合落宫为走失方向。经验证，一般情况下，六合落宫是行人开始走失的方向，中间值符落宫、值使门落宫都可能是其落脚点，而最终找回或死亡的方向往往是用神(包括年命)落宫的方向。如果走失之人是有意潜逃，杜门落宫则可能是其躲藏方向。如果九星或八门反吟，或用神宫逢空亡，用神落宫的对冲之宫则可能是其走失之方。又以内盘外盘分其远近，阳遁，用神落宫在一八三四，则为内为近；九二七六宫为外为远。阴遁，则以九二七六宫为内为近，以一八三四宫为外为远。\n"
+            },
+            "source_quote": "行人走失方向，古籍多以六合落宫为走失方向。经验证，一般情况下，六合落宫是行人开始走失的方向，中间值符落宫、值使门落宫都可能是其落脚点，而最终找回或死亡的方向往往是用神(包括年命)落宫的方向。如果走失之人是有意潜逃，杜门落宫则可能是其躲藏方向。如果九星或八门反吟，或用神宫逢空亡，用神落宫的对冲之宫则可能是其走失之方。又以内盘外盘分其远近，阳遁，用神落宫在一八三四，则为内为近；九二七六宫为外为远。阴遁，则以九二七六宫为内为近，以一八三四宫为外为远。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "missing_safety",
+      "title": "行人在外安危吉凶，则主要以用神落宫的格局来判断，如果用神旺相，又临三奇、吉门、吉格、吉神、吉星则平安无事；如果用神落宫得",
+      "category": "analysis",
+      "line_start": 9,
+      "line_end": 10,
+      "attribution": "原书叙述；原断执行者与作者后置复盘分别记录",
+      "summary": "完整来源语境，保留原断、已报告反馈与后验解释，不自动推广或执行",
+      "concepts": [
+        "旺相",
+        "休囚",
+        "太岁",
+        "六仪击刑"
+      ],
+      "dataset": {
+        "key": "missing_safety_reference",
+        "rows": [
+          {
+            "key": "missing_safety_line_9",
+            "source_lines": [
+              9,
+              9
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 9,
+              "line_end": 9,
+              "byte_start": 1052,
+              "byte_end": 1422,
+              "source_quote": "行人在外安危吉凶，则主要以用神落宫的格局来判断，如果用神旺相，又临三奇、吉门、吉格、吉神、吉星则平安无事；如果用神落宫得太岁、月干、日干或时干宫相生，则为有人帮助；如果用神休囚无力，又遇凶星、凶神、凶门、凶格或入墓、空亡、六仪击刑，则不吉或大凶。\n"
+            },
+            "source_quote": "行人在外安危吉凶，则主要以用神落宫的格局来判断，如果用神旺相，又临三奇、吉门、吉格、吉神、吉星则平安无事；如果用神落宫得太岁、月干、日干或时干宫相生，则为有人帮助；如果用神休囚无力，又遇凶星、凶神、凶门、凶格或入墓、空亡、六仪击刑，则不吉或大凶。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "missing_recoverability",
+      "title": "行人走失，能否找回或自己回来，一般日干与时干同宫，或时干生日干，则容易找回或自己回来；日干生时干，日干克时干，或时干克日",
+      "category": "analysis",
+      "line_start": 11,
+      "line_end": 12,
+      "attribution": "原书叙述；原断执行者与作者后置复盘分别记录",
+      "summary": "完整来源语境，保留原断、已报告反馈与后验解释，不自动推广或执行",
+      "concepts": [
+        "日干",
+        "时干",
+        "开休生杜",
+        "伤景死惊",
+        "九地",
+        "太阴",
+        "九天",
+        "玄武",
+        "螣蛇",
+        "白虎"
+      ],
+      "dataset": {
+        "key": "missing_recoverability_reference",
+        "rows": [
+          {
+            "key": "missing_recoverability_line_11",
+            "source_lines": [
+              11,
+              11
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 11,
+              "line_end": 11,
+              "byte_start": 1423,
+              "byte_end": 2042,
+              "source_quote": "行人走失，能否找回或自己回来，一般日干与时干同宫，或时干生日干，则容易找回或自己回来；日干生时干，日干克时干，或时干克日干，则不易归。用神旺相，又临开、休、生、杜四门者，不好找到；用神休囚，又临伤、景、死、惊四门者，则有消息，可以找到或自己回来。用神乘九地、太阴，可能有人潜藏；乘九天，远走高飞；乘玄武，被人拐骗；乘螣蛇，有人盘查羁留；乘白虎，防止刑伤；乘值符、六合，安全无事。另外，伏吟，人难归；反吟，人必归。\n"
+            },
+            "source_quote": "行人走失，能否找回或自己回来，一般日干与时干同宫，或时干生日干，则容易找回或自己回来；日干生时干，日干克时干，或时干克日干，则不易归。用神旺相，又临开、休、生、杜四门者，不好找到；用神休囚，又临伤、景、死、惊四门者，则有消息，可以找到或自己回来。用神乘九地、太阴，可能有人潜藏；乘九天，远走高飞；乘玄武，被人拐骗；乘螣蛇，有人盘查羁留；乘白虎，防止刑伤；乘值符、六合，安全无事。另外，伏吟，人难归；反吟，人必归。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "missing_return_timing",
+      "title": "行人归期，一可以用神和值符定应期，旬空者，以填空之时或冲实之时为应期；逢冲者，以合为应期；逢合者，以冲为应期。二可以庚格",
+      "category": "timing",
+      "line_start": 13,
+      "line_end": 14,
+      "attribution": "原书叙述；原断执行者与作者后置复盘分别记录",
+      "summary": "完整来源语境，保留原断、已报告反馈与后验解释，不自动推广或执行",
+      "concepts": [
+        "值符",
+        "庚格",
+        "马星",
+        "阴星",
+        "阳星"
+      ],
+      "dataset": {
+        "key": "missing_return_timing_reference",
+        "rows": [
+          {
+            "key": "missing_return_timing_line_13",
+            "source_lines": [
+              13,
+              13
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 13,
+              "line_end": 13,
+              "byte_start": 2043,
+              "byte_end": 2560,
+              "source_quote": "行人归期，一可以用神和值符定应期，旬空者，以填空之时或冲实之时为应期；逢冲者，以合为应期；逢合者，以冲为应期。二可以庚格定应期，逢年格者年内归，月格者月内归，日格者当日归，时格者本时辰内归；阴日看庚上之干，阳日看庚下之干为应期；或者看时干，时干临阴星，则以庚上之干为应期，时干临阳星，则以庚下之干为应期。三可看马星，马星动或冲动马星之时为应期。\n"
+            },
+            "source_quote": "行人归期，一可以用神和值符定应期，旬空者，以填空之时或冲实之时为应期；逢冲者，以合为应期；逢合者，以冲为应期。二可以庚格定应期，逢年格者年内归，月格者月内归，日格者当日归，时格者本时辰内归；阴日看庚上之干，阳日看庚下之干为应期；或者看时干，时干临阴星，则以庚上之干为应期，时干临阳星，则以庚下之干为应期。三可看马星，马星动或冲动马星之时为应期。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "missing_case_heading",
+      "title": "第二节 实例解析（10例）",
+      "category": "commentary",
+      "line_start": 15,
+      "line_end": 16,
+      "attribution": "原书叙述；原断执行者与作者后置复盘分别记录",
+      "summary": "完整来源语境，保留原断、已报告反馈与后验解释，不自动推广或执行",
+      "concepts": [],
+      "dataset": {
+        "key": "missing_case_heading_reference",
+        "rows": [
+          {
+            "key": "missing_case_heading_line_15",
+            "source_lines": [
+              15,
+              15
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 15,
+              "line_end": 15,
+              "byte_start": 2561,
+              "byte_end": 2595,
+              "source_quote": "第二节 实例解析（10例）\n"
+            },
+            "source_quote": "第二节 实例解析（10例）\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "missing_case_01",
+      "title": "实例一：测人下落",
+      "category": "analysis",
+      "line_start": 17,
+      "line_end": 58,
+      "attribution": "原书叙述；原断执行者与作者后置复盘分别记录",
+      "summary": "完整来源语境，保留原断、已报告反馈与后验解释，不自动推广或执行",
+      "concepts": [
+        "日干",
+        "时干",
+        "月干",
+        "年命",
+        "空亡"
+      ],
+      "dataset": {
+        "key": "missing_case_01_reference",
+        "rows": [
+          {
+            "key": "missing_case_01_line_45",
+            "source_lines": [
+              45,
+              45
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 45,
+              "line_end": 45,
+              "byte_start": 5391,
+              "byte_end": 5625,
+              "source_quote": "(1)弟测兄，以月干己为用神，时干也为己，落乾6宫。虽临天辅吉星，生门吉门，但丑月土旺木囚，失踪之人临生门反而不好找，上乘白虎凶神，主刑伤，己+辛为游魂入墓凶格。\n"
+            },
+            "source_quote": "(1)弟测兄，以月干己为用神，时干也为己，落乾6宫。虽临天辅吉星，生门吉门，但丑月土旺木囚，失踪之人临生门反而不好找，上乘白虎凶神，主刑伤，己+辛为游魂入墓凶格。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_01_line_47",
+            "source_lines": [
+              47,
+              47
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 47,
+              "line_end": 47,
+              "byte_start": 5626,
+              "byte_end": 5948,
+              "source_quote": "(2)其兄刘德顺生于1941年，年柱辛巳，正与乙亥年太岁天克地冲；年命辛落巽4宫为入墓(辰为辛金之墓),辛加己为“入狱自刑”,又逢死门，又值空亡(甲午旬中辰、巳空);虽上临值符，但古人曾曰“值符逢空，年命不保”。又时干冲克日干，不吉。\n"
+            },
+            "source_quote": "(2)其兄刘德顺生于1941年，年柱辛巳，正与乙亥年太岁天克地冲；年命辛落巽4宫为入墓(辰为辛金之墓),辛加己为“入狱自刑”,又逢死门，又值空亡(甲午旬中辰、巳空);虽上临值符，但古人曾曰“值符逢空，年命不保”。又时干冲克日干，不吉。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_01_line_51",
+            "source_lines": [
+              51,
+              51
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 51,
+              "line_end": 51,
+              "byte_start": 6014,
+              "byte_end": 6091,
+              "source_quote": "(3)伤门为船只，落坎1宫，又上乘玄武，故船也沉入水底。\n"
+            },
+            "source_quote": "(3)伤门为船只，落坎1宫，又上乘玄武，故船也沉入水底。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_01_line_53",
+            "source_lines": [
+              53,
+              53
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 53,
+              "line_end": 53,
+              "byte_start": 6092,
+              "byte_end": 6199,
+              "source_quote": "(4)九星反吟，主速度快，阳遁4宫为内为近为快，甲午辛入墓，冲开之日为应期。\n"
+            },
+            "source_quote": "(4)九星反吟，主速度快，阳遁4宫为内为近为快，甲午辛入墓，冲开之日为应期。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "missing_case_02",
+      "title": "实例二：测初中生走失",
+      "category": "analysis",
+      "line_start": 59,
+      "line_end": 134,
+      "attribution": "原书叙述；原断执行者与作者后置复盘分别记录",
+      "summary": "完整来源语境，保留原断、已报告反馈与后验解释，不自动推广或执行",
+      "concepts": [
+        "日干",
+        "时干",
+        "年命",
+        "杜门",
+        "空亡",
+        "马星"
+      ],
+      "dataset": {
+        "key": "missing_case_02_reference",
+        "rows": [
+          {
+            "key": "missing_case_02_line_87",
+            "source_lines": [
+              87,
+              87
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 87,
+              "line_end": 87,
+              "byte_start": 9231,
+              "byte_end": 9452,
+              "source_quote": "(1)求测朋友之子，应以时干为用神。今时干戊落乾6宫，逢空亡，正为出走之象。乾为西北方，又主京都、大城市、寺观等，故断该学生到北京或西北方向的城市去了。\n"
+            },
+            "source_quote": "(1)求测朋友之子，应以时干为用神。今时干戊落乾6宫，逢空亡，正为出走之象。乾为西北方，又主京都、大城市、寺观等，故断该学生到北京或西北方向的城市去了。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_02_line_89",
+            "source_lines": [
+              89,
+              89
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 89,
+              "line_end": 89,
+              "byte_start": 9453,
+              "byte_end": 9745,
+              "source_quote": "(2)年命壬在坤2宫，逢开门，上乘太阴，说明该生早有出走打算。年干丙为家长在艮8宫，与年命宫对冲；天辅星为老师在巽4宫，克年命宫，又受时干戊所落乾宫冲克，说明他厌倦学习，曾受到家长和老师批评，所以出走。\n"
+            },
+            "source_quote": "(2)年命壬在坤2宫，逢开门，上乘太阴，说明该生早有出走打算。年干丙为家长在艮8宫，与年命宫对冲；天辅星为老师在巽4宫，克年命宫，又受时干戊所落乾宫冲克，说明他厌倦学习，曾受到家长和老师批评，所以出走。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_02_line_91",
+            "source_lines": [
+              91,
+              91
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 91,
+              "line_end": 91,
+              "byte_start": 9746,
+              "byte_end": 9929,
+              "source_quote": "(3)时干戊在乾6宫，虽为入库，但逢生门，上乘值符吉神，故平安无事；年命壬在坤2宫，为长生之地，逢开门吉门，太阴吉神，也主平安。\n"
+            },
+            "source_quote": "(3)时干戊在乾6宫，虽为入库，但逢生门，上乘值符吉神，故平安无事；年命壬在坤2宫，为长生之地，逢开门吉门，太阴吉神，也主平安。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_02_line_93",
+            "source_lines": [
+              93,
+              93
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 93,
+              "line_end": 93,
+              "byte_start": 9930,
+              "byte_end": 10073,
+              "source_quote": "(4)既然是该生有意出走，故杜门是其躲藏方向，今杜门与马星均在艮8宫，因此最后也可能从东北方向找回。\n"
+            },
+            "source_quote": "(4)既然是该生有意出走，故杜门是其躲藏方向，今杜门与马星均在艮8宫，因此最后也可能从东北方向找回。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_02_line_95",
+            "source_lines": [
+              95,
+              95
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 95,
+              "line_end": 95,
+              "byte_start": 10074,
+              "byte_end": 10252,
+              "source_quote": "(5)用神临开休生杜四门不思归，今时干戊临生门，年命壬临开门，又九星伏吟主慢，日干生时干也主难找，所以断他短期内不会回来。\n"
+            },
+            "source_quote": "(5)用神临开休生杜四门不思归，今时干戊临生门，年命壬临开门，又九星伏吟主慢，日干生时干也主难找，所以断他短期内不会回来。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_02_line_97",
+            "source_lines": [
+              97,
+              97
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 97,
+              "line_end": 97,
+              "byte_start": 10253,
+              "byte_end": 10392,
+              "source_quote": "(6)找回时间，甲子旬中戌亥空，今时干临值符逢空，填实之时为应期，故断戌月，即阴历九月才能找回。\n"
+            },
+            "source_quote": "(6)找回时间，甲子旬中戌亥空，今时干临值符逢空，填实之时为应期，故断戌月，即阴历九月才能找回。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_02_line_123",
+            "source_lines": [
+              123,
+              123
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 123,
+              "line_end": 123,
+              "byte_start": 12697,
+              "byte_end": 13027,
+              "source_quote": "(1)按走失时间起局，一般以日干为用神。今日干甲戌己落9宫，与时干己同宫比和，而在9宫为临官禄地，又值月令旺相，虽上乘白虎凶神，临天蓬凶星，但午月火旺金死水囚，因而说明在外平安，而且能找回。杜门为躲藏之方，说明他躲到南方去了。\n"
+            },
+            "source_quote": "(1)按走失时间起局，一般以日干为用神。今日干甲戌己落9宫，与时干己同宫比和，而在9宫为临官禄地，又值月令旺相，虽上乘白虎凶神，临天蓬凶星，但午月火旺金死水囚，因而说明在外平安，而且能找回。杜门为躲藏之方，说明他躲到南方去了。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_02_line_125",
+            "source_lines": [
+              125,
+              125
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 125,
+              "line_end": 125,
+              "byte_start": 13028,
+              "byte_end": 13329,
+              "source_quote": "(2)年命壬落乾6宫，也为临官禄地，壬+丁为干合蛇刑，男吉女凶；上乘九天，远走高飞之象；惊门虽为凶门，但惊+开不凶，而且行人在外遇死、惊、伤、景四门反而容易回来或找回。年命在西北乾宫，也说明人到西北方向去了。\n"
+            },
+            "source_quote": "(2)年命壬落乾6宫，也为临官禄地，壬+丁为干合蛇刑，男吉女凶；上乘九天，远走高飞之象；惊门虽为凶门，但惊+开不凶，而且行人在外遇死、惊、伤、景四门反而容易回来或找回。年命在西北乾宫，也说明人到西北方向去了。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_02_line_127",
+            "source_lines": [
+              127,
+              127
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 127,
+              "line_end": 127,
+              "byte_start": 13330,
+              "byte_end": 13553,
+              "source_quote": "(3)九星反吟，主出行之人能够回来；日、时同宫，也主能够找回。但日、时、年命均在外盘，故短期内不可能回来。今年命逢空，填实之时归，据此也是农历九月找回。\n"
+            },
+            "source_quote": "(3)九星反吟，主出行之人能够回来；日、时同宫，也主能够找回。但日、时、年命均在外盘，故短期内不可能回来。今年命逢空，填实之时归，据此也是农历九月找回。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "missing_case_03",
+      "title": "实例三：测高中生走失",
+      "category": "analysis",
+      "line_start": 135,
+      "line_end": 172,
+      "attribution": "原书叙述；原断执行者与作者后置复盘分别记录",
+      "summary": "完整来源语境，保留原断、已报告反馈与后验解释，不自动推广或执行",
+      "concepts": [
+        "日干",
+        "年命",
+        "六合",
+        "杜门"
+      ],
+      "dataset": {
+        "key": "missing_case_03_reference",
+        "rows": [
+          {
+            "key": "missing_case_03_line_163",
+            "source_lines": [
+              163,
+              163
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 163,
+              "line_end": 163,
+              "byte_start": 17550,
+              "byte_end": 18111,
+              "source_quote": "(1)按走失时间起局，一般以日干为走失之人。今日干己落1宫，为绝地，己+壬为地网高张凶格，临天柱凶星、死门凶门，又上乘九天。据此，有人就断该女凶多吉少，甚至说已经死了。事实证明不对。一者出走之人临死、惊伤、景四门，反而容易回来或找回；二者死门虽然克宫，但在寅月，木旺土死，死门凶不起来；天柱星虽然落入旺宫，但休于月令，所以不能按凶断，只能说明她是生气而走。临九天，说明走得比较远。\n"
+            },
+            "source_quote": "(1)按走失时间起局，一般以日干为走失之人。今日干己落1宫，为绝地，己+壬为地网高张凶格，临天柱凶星、死门凶门，又上乘九天。据此，有人就断该女凶多吉少，甚至说已经死了。事实证明不对。一者出走之人临死、惊伤、景四门，反而容易回来或找回；二者死门虽然克宫，但在寅月，木旺土死，死门凶不起来；天柱星虽然落入旺宫，但休于月令，所以不能按凶断，只能说明她是生气而走。临九天，说明走得比较远。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_03_line_165",
+            "source_lines": [
+              165,
+              165
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 165,
+              "line_end": 165,
+              "byte_start": 18112,
+              "byte_end": 18538,
+              "source_quote": "(2)大事必须兼看年命。今年命丁落离9宫为临官禄地，临生门吉门、天冲吉星，又在外盘，说明外出谋生去了。丁+辛为朱雀入狱，主罪人释囚、官人失位。意思是如果有罪之人，则被释放；如果是有官位之人，则可能丢失职位。结合该高三女生，则是自我挣脱家庭束缚，失去了高考的机会。上乘六合吉神，说明在外平安。\n"
+            },
+            "source_quote": "(2)大事必须兼看年命。今年命丁落离9宫为临官禄地，临生门吉门、天冲吉星，又在外盘，说明外出谋生去了。丁+辛为朱雀入狱，主罪人释囚、官人失位。意思是如果有罪之人，则被释放；如果是有官位之人，则可能丢失职位。结合该高三女生，则是自我挣脱家庭束缚，失去了高考的机会。上乘六合吉神，说明在外平安。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_03_line_167",
+            "source_lines": [
+              167,
+              167
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 167,
+              "line_end": 167,
+              "byte_start": 18539,
+              "byte_end": 18902,
+              "source_quote": "(3)她究竟去了何方?因为是有意出走，躲避家人，所以应以杜门为其逃遁方向。今杜门落兑七宫，正是石家庄正西太原的方向，在外盘为远，三百五十公里左右。而且地盘日干己正在这里，辛+己为“入狱自刑”格，主奴仆背主，有苦诉讼难伸。正应该女出外打工，自找苦吃。\n"
+            },
+            "source_quote": "(3)她究竟去了何方?因为是有意出走，躲避家人，所以应以杜门为其逃遁方向。今杜门落兑七宫，正是石家庄正西太原的方向，在外盘为远，三百五十公里左右。而且地盘日干己正在这里，辛+己为“入狱自刑”格，主奴仆背主，有苦诉讼难伸。正应该女出外打工，自找苦吃。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_03_line_169",
+            "source_lines": [
+              169,
+              169
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 169,
+              "line_end": 169,
+              "byte_start": 18903,
+              "byte_end": 19192,
+              "source_quote": "(4)何时归来?没有庚格。日干在内盘，年命在外盘，说明时间较长。值使门落宫可帮助判断时间，今值使开门落3宫，主3个月左右。甲子旬中戌、亥空，出空则应，值使开门所临之干为应期。开门临壬，壬戌日可以回来。\n"
+            },
+            "source_quote": "(4)何时归来?没有庚格。日干在内盘，年命在外盘，说明时间较长。值使门落宫可帮助判断时间，今值使开门落3宫，主3个月左右。甲子旬中戌、亥空，出空则应，值使开门所临之干为应期。开门临壬，壬戌日可以回来。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "missing_case_04",
+      "title": "实例四：测小男孩被盗",
+      "category": "analysis",
+      "line_start": 173,
+      "line_end": 208,
+      "attribution": "原书叙述；原断执行者与作者后置复盘分别记录",
+      "summary": "完整来源语境，保留原断、已报告反馈与后验解释，不自动推广或执行",
+      "concepts": [
+        "时干",
+        "六合",
+        "杜门",
+        "年格"
+      ],
+      "dataset": {
+        "key": "missing_case_04_reference",
+        "rows": [
+          {
+            "key": "missing_case_04_line_201",
+            "source_lines": [
+              201,
+              201
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 201,
+              "line_end": 201,
+              "byte_start": 21865,
+              "byte_end": 22207,
+              "source_quote": "(1)以时干乙为用神，落巽4宫，而且在外盘，说明小孩被带到外地东南方向去了，大约七十公里之外的地方。用神临景门，容易找回之象。乙+己为日奇入墓，景门小凶，白虎主凶，但临天心吉星，又亥月木旺金休，白虎凶不起来，故孩子还不致于有什么危险。\n"
+            },
+            "source_quote": "(1)以时干乙为用神，落巽4宫，而且在外盘，说明小孩被带到外地东南方向去了，大约七十公里之外的地方。用神临景门，容易找回之象。乙+己为日奇入墓，景门小凶，白虎主凶，但临天心吉星，又亥月木旺金休，白虎凶不起来，故孩子还不致于有什么危险。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_04_line_203",
+            "source_lines": [
+              203,
+              203
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 203,
+              "line_end": 203,
+              "byte_start": 22208,
+              "byte_end": 22396,
+              "source_quote": "(2)拐骗小孩，以天蓬星为案犯。今天蓬星落离9宫，上乘六合，不止一人，死门主二数，可能是两个人，壬为阳，癸为阴，当是一男一女所为。\n"
+            },
+            "source_quote": "(2)拐骗小孩，以天蓬星为案犯。今天蓬星落离9宫，上乘六合，不止一人，死门主二数，可能是两个人，壬为阳，癸为阴，当是一男一女所为。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_04_line_205",
+            "source_lines": [
+              205,
+              205
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 205,
+              "line_end": 205,
+              "byte_start": 22397,
+              "byte_end": 22627,
+              "source_quote": "(3)虽然伤门、白虎、值使门均不克天蓬星落宫，但杜门逢格，丙克庚，又加上九星反吟，所以该案一定能破，小孩一定能找回。又兑七宫庚+丙为年格，说明年内一定能找回。\n"
+            },
+            "source_quote": "(3)虽然伤门、白虎、值使门均不克天蓬星落宫，但杜门逢格，丙克庚，又加上九星反吟，所以该案一定能破，小孩一定能找回。又兑七宫庚+丙为年格，说明年内一定能找回。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "missing_case_05",
+      "title": "实例五：测女儿离家出走",
+      "category": "analysis",
+      "line_start": 209,
+      "line_end": 248,
+      "attribution": "原书叙述；原断执行者与作者后置复盘分别记录",
+      "summary": "完整来源语境，保留原断、已报告反馈与后验解释，不自动推广或执行",
+      "concepts": [
+        "日干",
+        "时干",
+        "年命"
+      ],
+      "dataset": {
+        "key": "missing_case_05_reference",
+        "rows": [
+          {
+            "key": "missing_case_05_line_237",
+            "source_lines": [
+              237,
+              237
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 237,
+              "line_end": 237,
+              "byte_start": 25690,
+              "byte_end": 25946,
+              "source_quote": "(1)测小辈人以时干为用神。今时干壬落巽4宫，为入墓，壬+辛为螣蛇相缠，纵得吉门，也不能安，若有谋望，被人欺骗。甲辰壬在4宫又为六仪击刑，又临死门凶门。又时干壬落宫克日干癸落宫。\n"
+            },
+            "source_quote": "(1)测小辈人以时干为用神。今时干壬落巽4宫，为入墓，壬+辛为螣蛇相缠，纵得吉门，也不能安，若有谋望，被人欺骗。甲辰壬在4宫又为六仪击刑，又临死门凶门。又时干壬落宫克日干癸落宫。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_05_line_243",
+            "source_lines": [
+              243,
+              243
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 243,
+              "line_end": 243,
+              "byte_start": 26411,
+              "byte_end": 26612,
+              "source_quote": "(2)大事兼看年命。今年命戊落兑7宫，临休门吉门，上乘螣蛇，有人羁留。戊+丁为青龙耀明吉格。时干壬，丁壬合，戊下临丁，说明是到男朋友家去了。\n"
+            },
+            "source_quote": "(2)大事兼看年命。今年命戊落兑7宫，临休门吉门，上乘螣蛇，有人羁留。戊+丁为青龙耀明吉格。时干壬，丁壬合，戊下临丁，说明是到男朋友家去了。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_05_line_245",
+            "source_lines": [
+              245,
+              245
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 245,
+              "line_end": 245,
+              "byte_start": 26613,
+              "byte_end": 26824,
+              "source_quote": "(3)何时归来?时干在内盘，日干在外盘，一内一外主慢。值使开门落2宫，十天或十二天左右。又时干临阳星看庚下之干，今1宫庚下之干为戊，故戊日可能回来。\n"
+            },
+            "source_quote": "(3)何时归来?时干在内盘，日干在外盘，一内一外主慢。值使开门落2宫，十天或十二天左右。又时干临阳星看庚下之干，今1宫庚下之干为戊，故戊日可能回来。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "missing_case_06",
+      "title": "实例六：测侄儿出走",
+      "category": "analysis",
+      "line_start": 249,
+      "line_end": 286,
+      "attribution": "原书叙述；原断执行者与作者后置复盘分别记录",
+      "summary": "完整来源语境，保留原断、已报告反馈与后验解释，不自动推广或执行",
+      "concepts": [
+        "时干",
+        "六合",
+        "归期",
+        "空亡"
+      ],
+      "dataset": {
+        "key": "missing_case_06_reference",
+        "rows": [
+          {
+            "key": "missing_case_06_line_277",
+            "source_lines": [
+              277,
+              277
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 277,
+              "line_end": 277,
+              "byte_start": 29945,
+              "byte_end": 30012,
+              "source_quote": "(1)叔父测侄子以时干为用神，以六合为出走之方。\n"
+            },
+            "source_quote": "(1)叔父测侄子以时干为用神，以六合为出走之方。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_06_line_279",
+            "source_lines": [
+              279,
+              279
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 279,
+              "line_end": 279,
+              "byte_start": 30013,
+              "byte_end": 30443,
+              "source_quote": "(2)时干己与六合同落兑七宫，说明其侄子离家后往西方去了，距离大约三十五或八十五公里或更远处。地盘时干己临伤门，又生天盘时干宫，说明他侄子是坐火车或大客车走的，逢开门，人不易寻找；开门加己，事情无头绪，人也无定处。开门、天任星属吉门吉星，申月兑宫旺相，己土长生于酉，所以人平安，不会有凶险。\n"
+            },
+            "source_quote": "(2)时干己与六合同落兑七宫，说明其侄子离家后往西方去了，距离大约三十五或八十五公里或更远处。地盘时干己临伤门，又生天盘时干宫，说明他侄子是坐火车或大客车走的，逢开门，人不易寻找；开门加己，事情无头绪，人也无定处。开门、天任星属吉门吉星，申月兑宫旺相，己土长生于酉，所以人平安，不会有凶险。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_06_line_281",
+            "source_lines": [
+              281,
+              281
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 281,
+              "line_end": 281,
+              "byte_start": 30444,
+              "byte_end": 30673,
+              "source_quote": "(3)丁奇为书信，落乾六宫空亡之地，说明无音信。但丁奇落宫生地盘乙奇所在坎一宫，年干乙奇为老人，地盘乙奇为原籍。地盘丁奇上乘之干(震3宫)丙日或壬日应有书信到。\n"
+            },
+            "source_quote": "(3)丁奇为书信，落乾六宫空亡之地，说明无音信。但丁奇落宫生地盘乙奇所在坎一宫，年干乙奇为老人，地盘乙奇为原籍。地盘丁奇上乘之干(震3宫)丙日或壬日应有书信到。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_06_line_283",
+            "source_lines": [
+              283,
+              283
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 283,
+              "line_end": 283,
+              "byte_start": 30674,
+              "byte_end": 30755,
+              "source_quote": "(4)归期以庚格而断，巽4宫庚+癸，所以可能于癸日返回家中。\n"
+            },
+            "source_quote": "(4)归期以庚格而断，巽4宫庚+癸，所以可能于癸日返回家中。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "missing_case_07",
+      "title": "实例七：测女孩失踪",
+      "category": "analysis",
+      "line_start": 287,
+      "line_end": 330,
+      "attribution": "原书叙述；原断执行者与作者后置复盘分别记录",
+      "summary": "完整来源语境，保留原断、已报告反馈与后验解释，不自动推广或执行",
+      "concepts": [
+        "时干",
+        "杜门"
+      ],
+      "dataset": {
+        "key": "missing_case_07_reference",
+        "rows": [
+          {
+            "key": "missing_case_07_line_315",
+            "source_lines": [
+              315,
+              315
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 315,
+              "line_end": 315,
+              "byte_start": 33736,
+              "byte_end": 33806,
+              "source_quote": "(1)以时干为失踪之人，时干乙落兑宫，人去了西边。\n"
+            },
+            "source_quote": "(1)以时干为失踪之人，时干乙落兑宫，人去了西边。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_07_line_317",
+            "source_lines": [
+              317,
+              317
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 317,
+              "line_end": 317,
+              "byte_start": 33807,
+              "byte_end": 33911,
+              "source_quote": "(2)阴遁兑宫为近为内盘，故断人离开家不远，兑为2数，二百米或一公里左右。\n"
+            },
+            "source_quote": "(2)阴遁兑宫为近为内盘，故断人离开家不远，兑为2数，二百米或一公里左右。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_07_line_319",
+            "source_lines": [
+              319,
+              319
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 319,
+              "line_end": 319,
+              "byte_start": 33912,
+              "byte_end": 34052,
+              "source_quote": "(3)时干乙落兑宫为绝地，乙+壬为日奇入地，又临死门，未月死门旺相，上乘白虎，当被人害死埋到地下。\n"
+            },
+            "source_quote": "(3)时干乙落兑宫为绝地，乙+壬为日奇入地，又临死门，未月死门旺相，上乘白虎，当被人害死埋到地下。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_07_line_321",
+            "source_lines": [
+              321,
+              321
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 321,
+              "line_end": 321,
+              "byte_start": 34053,
+              "byte_end": 34188,
+              "source_quote": "(4)又时干乙所落兑宫，受天蓬(杀人犯)所落离宫之克，所以断被人害死，蓬星临杜门，案犯当有四人。\n"
+            },
+            "source_quote": "(4)又时干乙所落兑宫，受天蓬(杀人犯)所落离宫之克，所以断被人害死，蓬星临杜门，案犯当有四人。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_07_line_323",
+            "source_lines": [
+              323,
+              323
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 323,
+              "line_end": 323,
+              "byte_start": 34189,
+              "byte_end": 34357,
+              "source_quote": "(5)乙+壬为日奇入地，主长幼悖乱，奴欺主；死+惊，主因官司不结，忧疑患病，凶。因此，死因当为长幼不和，引起官司不结。\n"
+            },
+            "source_quote": "(5)乙+壬为日奇入地，主长幼悖乱，奴欺主；死+惊，主因官司不结，忧疑患病，凶。因此，死因当为长幼不和，引起官司不结。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_07_line_325",
+            "source_lines": [
+              325,
+              325
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 325,
+              "line_end": 325,
+              "byte_start": 34358,
+              "byte_end": 34592,
+              "source_quote": "(6)此案当不攻自破：未月土旺，天蓬星落离宫为被囚之象，又逢杜门、庚格、九地，杀人犯无法逃脱；玄武落坤宫也是被囚之象；7宫死门+壬，主讼人自讼自招。故断此案可破。\n"
+            },
+            "source_quote": "(6)此案当不攻自破：未月土旺，天蓬星落离宫为被囚之象，又逢杜门、庚格、九地，杀人犯无法逃脱；玄武落坤宫也是被囚之象；7宫死门+壬，主讼人自讼自招。故断此案可破。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_07_line_327",
+            "source_lines": [
+              327,
+              327
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 327,
+              "line_end": 327,
+              "byte_start": 34593,
+              "byte_end": 34838,
+              "source_quote": "(7)九星反吟，发案快，破案快。求测之今日(8月6日)为己巳日，逢日格(坎1宫庚+己),今日就应当有进展。又用神时干乙所在地盘上临之干壬日为应期，8月9日(壬申日)当可破案，找到尸首。\n"
+            },
+            "source_quote": "(7)九星反吟，发案快，破案快。求测之今日(8月6日)为己巳日，逢日格(坎1宫庚+己),今日就应当有进展。又用神时干乙所在地盘上临之干壬日为应期，8月9日(壬申日)当可破案，找到尸首。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "missing_case_08",
+      "title": "实例八：测外甥离家出走",
+      "category": "analysis",
+      "line_start": 331,
+      "line_end": 370,
+      "attribution": "原书叙述；原断执行者与作者后置复盘分别记录",
+      "summary": "完整来源语境，保留原断、已报告反馈与后验解释，不自动推广或执行",
+      "concepts": [
+        "日干",
+        "六合",
+        "杜门",
+        "归期",
+        "空亡",
+        "马星"
+      ],
+      "dataset": {
+        "key": "missing_case_08_reference",
+        "rows": [
+          {
+            "key": "missing_case_08_line_359",
+            "source_lines": [
+              359,
+              359
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 359,
+              "line_end": 359,
+              "byte_start": 37701,
+              "byte_end": 37932,
+              "source_quote": "(1)出走时间局一般以日干为用神，今日干乙奇落4宫为沐浴冠带之地，临天禽吉星，休门吉门，乙+戊利阴害阳，逢吉门不凶。上乘玄武，又被马星冲动，所以经常偷着往外跑。\n"
+            },
+            "source_quote": "(1)出走时间局一般以日干为用神，今日干乙奇落4宫为沐浴冠带之地，临天禽吉星，休门吉门，乙+戊利阴害阳，逢吉门不凶。上乘玄武，又被马星冲动，所以经常偷着往外跑。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_08_line_361",
+            "source_lines": [
+              361,
+              361
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 361,
+              "line_end": 361,
+              "byte_start": 37933,
+              "byte_end": 38429,
+              "source_quote": "(2)测出行，古籍以六合为走失之方，今六合落坤2宫逢空亡，则看对冲之宫。对冲之宫为艮8宫，为东北方向，为外盘为远。戊癸合，客合主，被人收留，惊门主公检法，当被公安部门收留。又地盘日干乙在坤2宫为入墓，上临伤门也主公安，这也是被公安人员收留之象。又杜门也主武装公安，今杜门克日干乙奇，也是被拘之象，幸杜门所在兑宫逢空，不为真克，仅收留而已。\n"
+            },
+            "source_quote": "(2)测出行，古籍以六合为走失之方，今六合落坤2宫逢空亡，则看对冲之宫。对冲之宫为艮8宫，为东北方向，为外盘为远。戊癸合，客合主，被人收留，惊门主公检法，当被公安部门收留。又地盘日干乙在坤2宫为入墓，上临伤门也主公安，这也是被公安人员收留之象。又杜门也主武装公安，今杜门克日干乙奇，也是被拘之象，幸杜门所在兑宫逢空，不为真克，仅收留而已。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_08_line_363",
+            "source_lines": [
+              363,
+              363
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 363,
+              "line_end": 363,
+              "byte_start": 38430,
+              "byte_end": 38551,
+              "source_quote": "(3)丁奇为音信。今丁奇落离宫为临官之地，临生门，上乘白虎，必是公安人员主动来信息。\n"
+            },
+            "source_quote": "(3)丁奇为音信。今丁奇落离宫为临官之地，临生门，上乘白虎，必是公安人员主动来信息。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_08_line_365",
+            "source_lines": [
+              365,
+              365
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 365,
+              "line_end": 365,
+              "byte_start": 38552,
+              "byte_end": 38652,
+              "source_quote": "(4)归期，日干乙长生在午，丁下临壬，丁壬合，当在壬午日(10月12日)回来。\n"
+            },
+            "source_quote": "(4)归期，日干乙长生在午，丁下临壬，丁壬合，当在壬午日(10月12日)回来。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "missing_case_09",
+      "title": "实例九：测外甥女失踪",
+      "category": "analysis",
+      "line_start": 371,
+      "line_end": 416,
+      "attribution": "原书叙述；原断执行者与作者后置复盘分别记录",
+      "summary": "完整来源语境，保留原断、已报告反馈与后验解释，不自动推广或执行",
+      "concepts": [
+        "日干",
+        "时干",
+        "年命",
+        "六合",
+        "杜门",
+        "空亡",
+        "马星"
+      ],
+      "dataset": {
+        "key": "missing_case_09_reference",
+        "rows": [
+          {
+            "key": "missing_case_09_line_399",
+            "source_lines": [
+              399,
+              399
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 399,
+              "line_end": 399,
+              "byte_start": 41772,
+              "byte_end": 41962,
+              "source_quote": "(1)以时干辛为用神，落巽4宫，为入墓，临天柱凶星，逢死门，辛+戊困龙被伤，上乘玄武，被人拐骗；年命丙在3宫，上乘白虎凶神，又逢空亡。\n"
+            },
+            "source_quote": "(1)以时干辛为用神，落巽4宫，为入墓，临天柱凶星，逢死门，辛+戊困龙被伤，上乘玄武，被人拐骗；年命丙在3宫，上乘白虎凶神，又逢空亡。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_09_line_407",
+            "source_lines": [
+              407,
+              407
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 407,
+              "line_end": 407,
+              "byte_start": 42763,
+              "byte_end": 42925,
+              "source_quote": "(2)年命丙落震3宫为沐浴桃花之地，甲午辛为罪人，上乘玄武，又躲藏之方的杜门临癸+壬，据此当为男女暧昧之事而出走。\n"
+            },
+            "source_quote": "(2)年命丙落震3宫为沐浴桃花之地，甲午辛为罪人，上乘玄武，又躲藏之方的杜门临癸+壬，据此当为男女暧昧之事而出走。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_09_line_409",
+            "source_lines": [
+              409,
+              409
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 409,
+              "line_end": 409,
+              "byte_start": 42926,
+              "byte_end": 43056,
+              "source_quote": "(3)时干辛下临太岁戊，太岁戊落宫又生时干和年命落宫，年命丙下又临乙奇，故人在外平安无事。\n"
+            },
+            "source_quote": "(3)时干辛下临太岁戊，太岁戊落宫又生时干和年命落宫，年命丙下又临乙奇，故人在外平安无事。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_09_line_411",
+            "source_lines": [
+              411,
+              411
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 411,
+              "line_end": 411,
+              "byte_start": 43057,
+              "byte_end": 43281,
+              "source_quote": "(4)时干临死门，又临马星，又子、午冲，故一定能回来。时干在内盘，日干壬在外盘，一内一外主慢。值使生门落6宫，六十天左右才能回来。子、午冲，当在子日找回。\n"
+            },
+            "source_quote": "(4)时干临死门，又临马星，又子、午冲，故一定能回来。时干在内盘，日干壬在外盘，一内一外主慢。值使生门落6宫，六十天左右才能回来。子、午冲，当在子日找回。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_09_line_413",
+            "source_lines": [
+              413,
+              413
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 413,
+              "line_end": 413,
+              "byte_start": 43282,
+              "byte_end": 43434,
+              "source_quote": "(5)丁奇为信息，落坤宫临开门，当能够找到信息。年干戊为父母，戊在1宫下临丁，可能首先由长辈人发现其信息。\n"
+            },
+            "source_quote": "(5)丁奇为信息，落坤宫临开门，当能够找到信息。年干戊为父母，戊在1宫下临丁，可能首先由长辈人发现其信息。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "missing_case_10",
+      "title": "实例十：测出租车司机下落",
+      "category": "analysis",
+      "line_start": 417,
+      "line_end": 477,
+      "attribution": "原书叙述；原断执行者与作者后置复盘分别记录",
+      "summary": "完整来源语境，保留原断、已报告反馈与后验解释，不自动推广或执行",
+      "concepts": [
+        "时干",
+        "月干",
+        "年命",
+        "六合",
+        "空亡",
+        "墓库"
+      ],
+      "dataset": {
+        "key": "missing_case_10_reference",
+        "rows": [
+          {
+            "key": "missing_case_10_line_445",
+            "source_lines": [
+              445,
+              445
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 445,
+              "line_end": 445,
+              "byte_start": 46358,
+              "byte_end": 46516,
+              "source_quote": "(1)时干辛为求测之事，落离9宫，午午自刑，但临生门和天辅吉星，又上乘九天，人在外虽不顺，但不会有更大的危难。\n"
+            },
+            "source_quote": "(1)时干辛为求测之事，落离9宫，午午自刑，但临生门和天辅吉星，又上乘九天，人在外虽不顺，但不会有更大的危难。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_10_line_447",
+            "source_lines": [
+              447,
+              447
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 447,
+              "line_end": 447,
+              "byte_start": 46517,
+              "byte_end": 46659,
+              "source_quote": "(2)六合为走失之方，落坎宫临死门，古有得生则生、得死则死之说，但有天心吉星解救，虽有难，应无妨。\n"
+            },
+            "source_quote": "(2)六合为走失之方，落坎宫临死门，古有得生则生、得死则死之说，但有天心吉星解救，虽有难，应无妨。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_10_line_449",
+            "source_lines": [
+              449,
+              449
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 449,
+              "line_end": 449,
+              "byte_start": 46660,
+              "byte_end": 46896,
+              "source_quote": "(3)走失女司机年柱为丁未，丁火落艮8宫为墓库之地，此人应在东北或西南方向。今日壬午，明日癸未，丑未相冲，冲开墓库，待明日可回。最迟在10月15日(庚寅)寅日出空时回来。\n"
+            },
+            "source_quote": "(3)走失女司机年柱为丁未，丁火落艮8宫为墓库之地，此人应在东北或西南方向。今日壬午，明日癸未，丑未相冲，冲开墓库，待明日可回。最迟在10月15日(庚寅)寅日出空时回来。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_10_line_451",
+            "source_lines": [
+              451,
+              451
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 451,
+              "line_end": 451,
+              "byte_start": 46897,
+              "byte_end": 47049,
+              "source_quote": "(4)伤门为车，壬午日属甲戌旬，伤门所在坤宫空亡，又丙+庚为荧入白凶格，门户破败，盗贼耗失，车有被盗之象。\n"
+            },
+            "source_quote": "(4)伤门为车，壬午日属甲戌旬，伤门所在坤宫空亡，又丙+庚为荧入白凶格，门户破败，盗贼耗失，车有被盗之象。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_10_line_463",
+            "source_lines": [
+              463,
+              463
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 463,
+              "line_end": 463,
+              "byte_start": 47780,
+              "byte_end": 48097,
+              "source_quote": "(1)时干主事体，时干辛落离宫，辛+丙为干合悖师凶格，辛落离宫又为六仪击刑，六仪击刑大凶。午午自刑，临生门，上乘九天，显然是贪图赚大钱，到市外长途出车。行人走失遇生门，反而不易归。虽临天辅吉星，但酉月天辅星休囚无力。\n"
+            },
+            "source_quote": "(1)时干主事体，时干辛落离宫，辛+丙为干合悖师凶格，辛落离宫又为六仪击刑，六仪击刑大凶。午午自刑，临生门，上乘九天，显然是贪图赚大钱，到市外长途出车。行人走失遇生门，反而不易归。虽临天辅吉星，但酉月天辅星休囚无力。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_10_line_465",
+            "source_lines": [
+              465,
+              465
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 465,
+              "line_end": 465,
+              "byte_start": 48098,
+              "byte_end": 48297,
+              "source_quote": "(2)朋友之妻，应以月干为用神。月干己落坎1宫为绝地，己+丁为朱雀入墓凶格。虽临天心吉星、六合吉神，但临死门，死门落坎1宫为门迫，大凶之兆。\n"
+            },
+            "source_quote": "(2)朋友之妻，应以月干为用神。月干己落坎1宫为绝地，己+丁为朱雀入墓凶格。虽临天心吉星、六合吉神，但临死门，死门落坎1宫为门迫，大凶之兆。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_10_line_467",
+            "source_lines": [
+              467,
+              467
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 467,
+              "line_end": 467,
+              "byte_start": 48298,
+              "byte_end": 48556,
+              "source_quote": "(3)大事必须看年命。天盘年命丁落艮8宫为入墓，酉月金旺火囚，为墓不为库，既入墓又空亡，又临天蓬大盗、惊门凶门，故为大凶之象。地盘丁落入坎1宫，火入水乡，己为阴土，正应死在水里。\n"
+            },
+            "source_quote": "(3)大事必须看年命。天盘年命丁落艮8宫为入墓，酉月金旺火囚，为墓不为库，既入墓又空亡，又临天蓬大盗、惊门凶门，故为大凶之象。地盘丁落入坎1宫，火入水乡，己为阴土，正应死在水里。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_10_line_469",
+            "source_lines": [
+              469,
+              469
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 469,
+              "line_end": 469,
+              "byte_start": 48557,
+              "byte_end": 48781,
+              "source_quote": "(4)艮8宫逢空，空则看对冲之宫。伤门也正在坤2宫，所以说人车均去了西南方向。伤门落坤宫为入墓，又丙+庚、丙+癸均为大凶之格，又上乘九地，故车被盗，人被害死。\n"
+            },
+            "source_quote": "(4)艮8宫逢空，空则看对冲之宫。伤门也正在坤2宫，所以说人车均去了西南方向。伤门落坤宫为入墓，又丙+庚、丙+癸均为大凶之格，又上乘九地，故车被盗，人被害死。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_10_line_471",
+            "source_lines": [
+              471,
+              471
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 471,
+              "line_end": 471,
+              "byte_start": 48782,
+              "byte_end": 48979,
+              "source_quote": "(5)又乘车出行，以景门为道路，今景门落乾6宫也为入墓，又逢天柱凶星、白虎凶神，白虎遇景门必有血光之灾，所以必然在道路上发生了伤灾横祸。\n"
+            },
+            "source_quote": "(5)又乘车出行，以景门为道路，今景门落乾6宫也为入墓，又逢天柱凶星、白虎凶神，白虎遇景门必有血光之灾，所以必然在道路上发生了伤灾横祸。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_10_line_473",
+            "source_lines": [
+              473,
+              473
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 473,
+              "line_end": 473,
+              "byte_start": 48980,
+              "byte_end": 49137,
+              "source_quote": "(6)年命丁落外盘主远，8宫四百公里左右。10月15日(庚寅),8宫天蓬星填实之日，克月干宫，估计女司机当被害于这一天。\n"
+            },
+            "source_quote": "(6)年命丁落外盘主远，8宫四百公里左右。10月15日(庚寅),8宫天蓬星填实之日，克月干宫，估计女司机当被害于这一天。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "missing_case_10_line_475",
+            "source_lines": [
+              475,
+              475
+            ],
+            "source_pointer": {
+              "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+              "line_start": 475,
+              "line_end": 475,
+              "byte_start": 49138,
+              "byte_end": 49289,
+              "source_quote": "(7)用神月干落坎宫，死门为死尸，子午冲，午日冲动死门，冲出死尸，被人发现。故在10月19日(甲午日)发现尸首。\n"
+            },
+            "source_quote": "(7)用神月干落坎宫，死门为死尸，子午冲，午日冲动死门，冲出死尸，被人发现。故在10月19日(甲午日)发现尸首。\n",
+            "method_scope": "shenqi_missing_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    }
+  ],
+  "quality_issues": [
+    {
+      "key": "repeated_consultations_without_charts",
+      "line_start": 131,
+      "line_end": 133,
+      "description": "后续六次只保存原书汇总，日期与盘面未提供，不造六事件/六盘"
+    },
+    {
+      "key": "case3_entire_comparison_is_retrospective",
+      "line_start": 137,
+      "line_end": 171,
+      "description": "开篇含已归结果；出走盘和编号分析明确事后对照，不冒充4月11日原断过程"
+    },
+    {
+      "key": "case5_wrong_forecast_and_correction",
+      "line_start": 237,
+      "line_end": 247,
+      "description": "初断错误和后置解释不改写成成功预测"
+    },
+    {
+      "key": "case7_source_role_differs_from_general_rule",
+      "line_start": 291,
+      "line_end": 329,
+      "description": "按失踪时起局仍用时干为原书特例，不修改为日干"
+    },
+    {
+      "key": "case9_wrong_forecast_and_correction",
+      "line_start": 399,
+      "line_end": 415,
+      "description": "王庆丰原断与作者后验解释分开；66天保留原书表述，不自校日期"
+    },
+    {
+      "key": "case10_failed_deadline_and_review",
+      "line_start": 445,
+      "line_end": 477,
+      "description": "失验期限、来信、作者回信、尸首反馈、研讨班复盘分阶段；推测遇害日不是已证实死亡时间"
+    },
+    {
+      "key": "case10_absent_departure_chart",
+      "line_start": 477,
+      "line_end": 477,
+      "description": "末句提及出行时盘但未给出，保留实际末尾不补盘"
+    }
+  ],
+  "worked_examples": []
+}

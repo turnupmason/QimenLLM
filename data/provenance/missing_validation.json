@@ -1,0 +1,181 @@
+{
+  "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+  "source_byte_count": 49372,
+  "source_line_count": 477,
+  "source_file": "神奇之门_行人走失预测_精校完整版.txt",
+  "verification_basis": "user_attestation",
+  "system_performed_independent_verification": false,
+  "cases": 10,
+  "events": 10,
+  "charts": 11,
+  "source_palaces": 99,
+  "records": 111,
+  "context_groups": 17,
+  "source_quality_boundaries": 7,
+  "reference_candidates": 9,
+  "original_step_count": 54,
+  "mixed_paragraphs_with_exact_segments": [
+    137,
+    239,
+    329,
+    401,
+    459
+  ],
+  "last_line_as_supplied": "此例，如果结合看出行之时的奇门格局，其大凶结局更为明显\n",
+  "no_model_training": true,
+  "schema_migration": false,
+  "snapshot": {
+    "data_version": "078f00ff-c883-4edb-b975-6ff4f0250153",
+    "snapshot": "data/snapshots/current",
+    "counts": {
+      "data_versions": 60,
+      "books": 1,
+      "chapters": 13,
+      "raw_documents": 13,
+      "chapter_revisions": 13,
+      "source_reviews": 20,
+      "source_spans": 2374,
+      "methods": 22,
+      "concepts": 2090,
+      "concept_links": 0,
+      "knowledge_items": 904,
+      "rules": 0,
+      "rule_conditions": 0,
+      "rule_disagreements": 0,
+      "event_families": 56,
+      "cases": 59,
+      "events": 65,
+      "case_events": 65,
+      "charts": 63,
+      "case_records": 1052,
+      "evidence_links": 1373,
+      "dataset_releases": 0,
+      "split_assignments": 0,
+      "training_tasks": 0,
+      "task_inputs": 0
+    },
+    "manifest_sha256": "df2f3d540f6e379d9a3664654d690ac7be2793eb2ebd851ff1dfc663c9a8592d"
+  },
+  "old_rows_preserved": {
+    "rule_conditions": {
+      "old": 0,
+      "new": 0
+    },
+    "concept_links": {
+      "old": 0,
+      "new": 0
+    },
+    "case_events": {
+      "old": 55,
+      "new": 65
+    },
+    "data_versions": {
+      "old": 55,
+      "new": 60
+    },
+    "case_records": {
+      "old": 941,
+      "new": 1052
+    },
+    "rule_disagreements": {
+      "old": 0,
+      "new": 0
+    },
+    "training_tasks": {
+      "old": 0,
+      "new": 0
+    },
+    "evidence_links": {
+      "old": 1262,
+      "new": 1373
+    },
+    "chapter_revisions": {
+      "old": 12,
+      "new": 13
+    },
+    "knowledge_items": {
+      "old": 871,
+      "new": 904
+    },
+    "methods": {
+      "old": 21,
+      "new": 22
+    },
+    "event_families": {
+      "old": 46,
+      "new": 56
+    },
+    "raw_documents": {
+      "old": 12,
+      "new": 13
+    },
+    "cases": {
+      "old": 49,
+      "new": 59
+    },
+    "task_inputs": {
+      "old": 0,
+      "new": 0
+    },
+    "source_spans": {
+      "old": 2208,
+      "new": 2374
+    },
+    "concepts": {
+      "old": 2011,
+      "new": 2090
+    },
+    "events": {
+      "old": 55,
+      "new": 65
+    },
+    "rules": {
+      "old": 0,
+      "new": 0
+    },
+    "split_assignments": {
+      "old": 0,
+      "new": 0
+    },
+    "charts": {
+      "old": 52,
+      "new": 63
+    },
+    "chapters": {
+      "old": 12,
+      "new": 13
+    },
+    "books": {
+      "old": 1,
+      "new": 1
+    },
+    "source_reviews": {
+      "old": 19,
+      "new": 20
+    },
+    "dataset_releases": {
+      "old": 0,
+      "new": 0
+    }
+  },
+  "old_raw_files_preserved": 12,
+  "remote_base_sha": "3aefbdf35d40800f29f875beade59ee1ac6d6cf3",
+  "local_regression": {
+    "command": "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+    "tests": 291,
+    "failures": 0,
+    "errors": 0,
+    "new_chapter_tests": 16
+  },
+  "snapshot_roundtrip": "byte_identical",
+  "api_original_charts": 11,
+  "cli_cases": 10,
+  "workflow_added": false,
+  "workflow_deleted": false,
+  "formal_rules_added": 0,
+  "training_tasks_added": 0,
+  "github_sync": {
+    "status": "pending",
+    "reason": "Await actual main commit and four CI results"
+  }
+}

@@ -16,7 +16,4 @@
 
 运行：`PYTHONPATH=src python3 -m unittest discover -s tests -v`。
 资料/案例规则见 KNOWLEDGE_POLICY / CASE_POLICY；架构与迁移见 ARCHITECTURE / SCHEMA；评估见 EVALUATION_PROTOCOL；设备与远程接入见 HARDWARE。
-当前《神奇之门》已接收十一份章级输入，含本轮《经营求财预测》14故事/18事件/16给定原书盘；累计43故事/40家族/49事件/45原盘。用户来源仍按user_attestation确认，文献接受与程序复算分开；经营十子类候选仅reference_only、正式rules及训练仍0。来源原字节SHA256为55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6，书中实例十二后两天缺九宫不补，实例九中五“禽己”字面保留。按原有导入、snapshot及QimenService接续；每章完成必须push且核验远端main/CI。完整总指令见docs/user_instructions/master_spec_2026-10-17.txt，进度以STATUS为准。
-
-
-本轮《出行出国预测》沿现有schema v1与导入/服务链增量接续，12份章级输入累计49故事/46家族/55事件/52原盘；新增6故事/6事件/7盘、99记录、8参考候选。原字节SHA256 c273c803eb78a02cfb3c6c00065da81312c1851a679a1e3bca4911acdbc3bc55；案例四旧盘复读与案例六双盘/后置雨情严格隔离，正式规则/训练任务仍0。入口scripts/import_shenqi_travel.py，报告docs/ingestion/SHENQI_TRAVEL.md；不新增workflow，原有tests.yml保留。进度与实际验收以STATUS为准。
+当前已接收《神奇之门》13份章级输入，累计59故事/56家族/65事件/63原盘。行人走失本轮10故事/10事件/11盘；源SHA256 5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574。案例二重复六次无盘不补，三/五/九/十错断及后验复盘不能提前；四行原盘保持字面。沿scripts/import_shenqi_missing.py、snapshot及QimenService接续，无schema迁移或workflow增删。正式rules/训练仍0；完整总指令见docs/user_instructions/master_spec_2026-10-17.txt，当前进度以STATUS为准；既往每章来源与验收在docs/ingestion/保留。

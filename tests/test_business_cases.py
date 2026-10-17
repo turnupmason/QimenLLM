@@ -56,8 +56,8 @@ class BusinessCaseTests(unittest.TestCase):
         result = s.cases('business-finance')
         self.assertEqual(len(result['cases']), 14)
         with connect(self.db) as conn:
-            self.assertEqual(conn.execute('SELECT COUNT(*) FROM charts JOIN source_spans USING(source_id) JOIN chapter_revisions USING(revision_id) JOIN chapters USING(chapter_id) WHERE chapter_key != \'travel-abroad\'').fetchone()[0], 45)
-            self.assertEqual(conn.execute('SELECT COUNT(*) FROM cases JOIN source_spans USING(source_id) JOIN chapter_revisions USING(revision_id) JOIN chapters USING(chapter_id) WHERE chapter_key != \'travel-abroad\'').fetchone()[0], 43)
+            self.assertEqual(conn.execute('SELECT COUNT(*) FROM charts JOIN source_spans USING(source_id) JOIN chapter_revisions USING(revision_id) JOIN chapters USING(chapter_id) WHERE chapters.sequence <= 12').fetchone()[0], 45)
+            self.assertEqual(conn.execute('SELECT COUNT(*) FROM cases JOIN source_spans USING(source_id) JOIN chapter_revisions USING(revision_id) JOIN chapters USING(chapter_id) WHERE chapters.sequence <= 12').fetchone()[0], 43)
             self.assertEqual(conn.execute('SELECT COUNT(*) FROM training_tasks').fetchone()[0], 0)
             self.assertEqual(conn.execute('SELECT COUNT(*) FROM rules').fetchone()[0], 0)
         self.assertEqual(len(self.candidates['candidates']), 10)

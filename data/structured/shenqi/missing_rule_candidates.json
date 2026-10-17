@@ -1,0 +1,538 @@
+{
+  "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+  "source_byte_count": 49372,
+  "source_line_count": 477,
+  "schema_version": "source_selection_candidates_v1",
+  "title": "行人走失预测",
+  "candidate_count": 9,
+  "candidate_record_count": 9,
+  "candidates": [
+    {
+      "key": "missing_disappearance_time_person",
+      "domain": "missing_person",
+      "scope": "disappearance_time_person",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "missing_person"
+        },
+        {
+          "field": "casting_time_basis",
+          "op": "eq",
+          "value": "disappearance_time"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_missing_roles_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_missing_reference_v1"
+      },
+      "source_lines": [
+        5
+      ],
+      "source_quote": "预测行人走失，如果以走失时间起局，一般以日干为用神；如果是按问测时间起局，一般以六亲关系取用神，如父母问测子女走失，以时干为用神，问测同辈人走失以月干为用神，问测老年人走失以年干为用神。同时，都还可以兼取行人年命为用神。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "走失时间局一般法；不默认适用到问测时间局"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "日干"
+        ],
+        "semantic_role": "missing_person",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "missing_inquiry_child",
+      "domain": "missing_person",
+      "scope": "inquiry_child",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "missing_person"
+        },
+        {
+          "field": "casting_time_basis",
+          "op": "eq",
+          "value": "inquiry_time"
+        },
+        {
+          "field": "target_relationship",
+          "op": "eq",
+          "value": "parent_to_child"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_missing_roles_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_missing_reference_v1"
+      },
+      "source_lines": [
+        5
+      ],
+      "source_quote": "预测行人走失，如果以走失时间起局，一般以日干为用神；如果是按问测时间起局，一般以六亲关系取用神，如父母问测子女走失，以时干为用神，问测同辈人走失以月干为用神，问测老年人走失以年干为用神。同时，都还可以兼取行人年命为用神。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "按明确关系取用；不能仅凭年龄自动代替六亲关系；个案特例不覆盖通则"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "时干"
+        ],
+        "semantic_role": "missing_relative",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "missing_inquiry_peer",
+      "domain": "missing_person",
+      "scope": "inquiry_peer",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "missing_person"
+        },
+        {
+          "field": "casting_time_basis",
+          "op": "eq",
+          "value": "inquiry_time"
+        },
+        {
+          "field": "target_relationship",
+          "op": "eq",
+          "value": "same_generation"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_missing_roles_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_missing_reference_v1"
+      },
+      "source_lines": [
+        5
+      ],
+      "source_quote": "预测行人走失，如果以走失时间起局，一般以日干为用神；如果是按问测时间起局，一般以六亲关系取用神，如父母问测子女走失，以时干为用神，问测同辈人走失以月干为用神，问测老年人走失以年干为用神。同时，都还可以兼取行人年命为用神。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "按明确关系取用；不能仅凭年龄自动代替六亲关系；个案特例不覆盖通则"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "月干"
+        ],
+        "semantic_role": "missing_relative",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "missing_inquiry_elder",
+      "domain": "missing_person",
+      "scope": "inquiry_elder",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "missing_person"
+        },
+        {
+          "field": "casting_time_basis",
+          "op": "eq",
+          "value": "inquiry_time"
+        },
+        {
+          "field": "target_relationship",
+          "op": "eq",
+          "value": "elder_relative"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_missing_roles_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_missing_reference_v1"
+      },
+      "source_lines": [
+        5
+      ],
+      "source_quote": "预测行人走失，如果以走失时间起局，一般以日干为用神；如果是按问测时间起局，一般以六亲关系取用神，如父母问测子女走失，以时干为用神，问测同辈人走失以月干为用神，问测老年人走失以年干为用神。同时，都还可以兼取行人年命为用神。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "按明确关系取用；不能仅凭年龄自动代替六亲关系；个案特例不覆盖通则"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "年干"
+        ],
+        "semantic_role": "missing_relative",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "missing_natal_supplement",
+      "domain": "missing_person",
+      "scope": "natal_supplement",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "missing_person"
+        },
+        {
+          "field": "natal_year_known",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_missing_natal_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_missing_reference_v1"
+      },
+      "source_lines": [
+        5
+      ],
+      "source_quote": "预测行人走失，如果以走失时间起局，一般以日干为用神；如果是按问测时间起局，一般以六亲关系取用神，如父母问测子女走失，以时干为用神，问测同辈人走失以月干为用神，问测老年人走失以年干为用神。同时，都还可以兼取行人年命为用神。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "兼取年命；无出生年不推算，不把年命视为唯一方法"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "年命"
+        ],
+        "semantic_role": "supplementary_missing_person",
+        "binding_kind": "source_candidate",
+        "supplementary": true,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "missing_direction",
+      "domain": "missing_person",
+      "scope": "direction",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "missing_person"
+        },
+        {
+          "field": "missing_subtype",
+          "op": "eq",
+          "value": "direction"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_missing_direction_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_missing_reference_v1"
+      },
+      "source_lines": [
+        7
+      ],
+      "source_quote": "行人走失方向，古籍多以六合落宫为走失方向。经验证，一般情况下，六合落宫是行人开始走失的方向，中间值符落宫、值使门落宫都可能是其落脚点，而最终找回或死亡的方向往往是用神(包括年命)落宫的方向。如果走失之人是有意潜逃，杜门落宫则可能是其躲藏方向。如果九星或八门反吟，或用神宫逢空亡，用神落宫的对冲之宫则可能是其走失之方。又以内盘外盘分其远近，阳遁，用神落宫在一八三四，则为内为近；九二七六宫为外为远。阴遁，则以九二七六宫为内为近，以一八三四宫为外为远。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "完整段落所有分支与例外保留；条件未知不能激活；仅来源查询，不自动断安危或应期"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "六合",
+          "值符",
+          "值使",
+          "杜门",
+          "空亡",
+          "反吟",
+          "内盘",
+          "外盘"
+        ],
+        "semantic_role": "direction",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "missing_safety",
+      "domain": "missing_person",
+      "scope": "safety",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "missing_person"
+        },
+        {
+          "field": "missing_subtype",
+          "op": "eq",
+          "value": "safety"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_missing_safety_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_missing_reference_v1"
+      },
+      "source_lines": [
+        9
+      ],
+      "source_quote": "行人在外安危吉凶，则主要以用神落宫的格局来判断，如果用神旺相，又临三奇、吉门、吉格、吉神、吉星则平安无事；如果用神落宫得太岁、月干、日干或时干宫相生，则为有人帮助；如果用神休囚无力，又遇凶星、凶神、凶门、凶格或入墓、空亡、六仪击刑，则不吉或大凶。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "完整段落所有分支与例外保留；条件未知不能激活；仅来源查询，不自动断安危或应期"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "旺相",
+          "休囚",
+          "太岁",
+          "六仪击刑"
+        ],
+        "semantic_role": "safety",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "missing_recoverability",
+      "domain": "missing_person",
+      "scope": "recoverability",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "missing_person"
+        },
+        {
+          "field": "missing_subtype",
+          "op": "eq",
+          "value": "recoverability"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_missing_recoverability_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_missing_reference_v1"
+      },
+      "source_lines": [
+        11
+      ],
+      "source_quote": "行人走失，能否找回或自己回来，一般日干与时干同宫，或时干生日干，则容易找回或自己回来；日干生时干，日干克时干，或时干克日干，则不易归。用神旺相，又临开、休、生、杜四门者，不好找到；用神休囚，又临伤、景、死、惊四门者，则有消息，可以找到或自己回来。用神乘九地、太阴，可能有人潜藏；乘九天，远走高飞；乘玄武，被人拐骗；乘螣蛇，有人盘查羁留；乘白虎，防止刑伤；乘值符、六合，安全无事。另外，伏吟，人难归；反吟，人必归。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "完整段落所有分支与例外保留；条件未知不能激活；仅来源查询，不自动断安危或应期"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "日干",
+          "时干",
+          "开休生杜",
+          "伤景死惊",
+          "九地",
+          "太阴",
+          "九天",
+          "玄武",
+          "螣蛇",
+          "白虎"
+        ],
+        "semantic_role": "recoverability",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "missing_return_timing",
+      "domain": "missing_person",
+      "scope": "return_timing",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "missing_person"
+        },
+        {
+          "field": "missing_subtype",
+          "op": "eq",
+          "value": "return_timing"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_missing_return_timing_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_missing_reference_v1"
+      },
+      "source_lines": [
+        13
+      ],
+      "source_quote": "行人归期，一可以用神和值符定应期，旬空者，以填空之时或冲实之时为应期；逢冲者，以合为应期；逢合者，以冲为应期。二可以庚格定应期，逢年格者年内归，月格者月内归，日格者当日归，时格者本时辰内归；阴日看庚上之干，阳日看庚下之干为应期；或者看时干，时干临阴星，则以庚上之干为应期，时干临阳星，则以庚下之干为应期。三可看马星，马星动或冲动马星之时为应期。",
+      "exceptions": [
+        "阴阳日与阴阳星是原书两种庚格视角，必须显式选择；未确定不得混用",
+        "旬空填冲、逢冲取合/逢合取冲、马星动冲须有实际盘面及适用证据"
+      ],
+      "unique": false,
+      "notes": [
+        "完整段落所有分支与例外保留；条件未知不能激活；仅来源查询，不自动断安危或应期"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "值符",
+          "庚格",
+          "马星",
+          "阴星",
+          "阳星"
+        ],
+        "semantic_role": "return_timing",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    }
+  ]
+}

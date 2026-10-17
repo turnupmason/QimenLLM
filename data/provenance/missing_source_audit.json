@@ -1,0 +1,27 @@
+{
+  "source_sha256": "5eca2a1a0914691ec439040a9b538fb8e4385fa5cf8ac5286bc5ae86d25b6574",
+  "source_byte_count": 49372,
+  "source_line_count": 477,
+  "source_file": "神奇之门_行人走失预测_精校完整版.txt",
+  "verification_basis": "user_attestation",
+  "system_performed_independent_verification": false,
+  "cases": 10,
+  "events": 10,
+  "charts": 11,
+  "source_palaces": 99,
+  "records": 111,
+  "context_groups": 17,
+  "source_quality_boundaries": 7,
+  "reference_candidates": 9,
+  "original_step_count": 54,
+  "mixed_paragraphs_with_exact_segments": [
+    137,
+    239,
+    329,
+    401,
+    459
+  ],
+  "last_line_as_supplied": "此例，如果结合看出行之时的奇门格局，其大凶结局更为明显\n",
+  "no_model_training": true,
+  "schema_migration": false
+}
