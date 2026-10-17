@@ -8,7 +8,6 @@ from wsgiref.simple_server import make_server
 from qimenllm.api.app import create_app
 from qimenllm.cli import PrivateRequestHandler
 from qimenllm.reasoning.service import QimenService
-from qimenllm.knowledge.db import connect
 
 
 def main():
@@ -18,6 +17,7 @@ def main():
     parser.add_argument('--chapter02',action='store_true',help='Check both chapter-two source plates through real HTTP')
     parser.add_argument('--chapters0405',action='store_true',help='Check source references and symbolic condition facts')
     parser.add_argument('--application-overview',action='store_true',help='Check actual source candidates and whole historical case views')
+    parser.add_argument('--health',action='store_true',help='Check six health narratives and their original source chart projections')
     args=parser.parse_args()
     results=[]
     with make_server('127.0.0.1',0,create_app(QimenService(args.db)),handler_class=PrivateRequestHandler) as server:
@@ -48,13 +48,20 @@ def main():
                     ('POST','/v1/calculate',{'operation':'chart_observations','args':{
                         'dun':'阳遁','bureau':3,'hour_ganzhi':'丁巳','method':'shenqi_ch2_paper_v1'}},'computed')])
             if args.application_overview:
-                with connect(args.db) as conn:
-                    case_id=conn.execute('SELECT case_id FROM cases ORDER BY case_id LIMIT 1').fetchone()[0]
+                case_id=QimenService(args.db).cases('application-overview')['cases'][0]['case_id']
                 checks.extend([
                     ('POST','/v1/calculate',{'operation':'inner_outer','args':{'dun':'阳遁','palace':1}},'computed'),
                     ('POST','/v1/rule-candidates',{'context':{'target_relationship':'self'},'domain':'health'},'inspected'),
                     ('POST','/v1/case',{'case_id':case_id,'view':'full'},None),
                     ('POST','/v1/case',{'case_id':case_id,'view':'before_prediction'},None)])
+            if args.health:
+                catalog=QimenService(args.db).cases('health-prediction')
+                assert catalog['total']==6,catalog
+                checks.append(('POST','/v1/cases',{'chapter_key':'health-prediction'},'sources_found'))
+                for case in catalog['cases']:
+                    cid=case['case_id'];chart_id=case['events'][0]['chart_ids'][0]
+                    checks.append(('POST','/v1/case-chart',{'case_id':cid,'chart_id':chart_id,
+                        'comparison_method':'shenqi_ch2_paper_v1'},'projected'))
             for method,path,payload,expected in checks:
                 client=http.client.HTTPConnection('127.0.0.1',server.server_port,timeout=5)
                 try:
@@ -96,6 +103,11 @@ def main():
                         assert len(records)==(10 if payload['view']=='full' else 2),result
                         if payload['view']=='before_prediction':
                             assert result['events'][0]['charts']==[] and '星箭爆炸' not in json.dumps(result,ensure_ascii=False),result
+                    if path=='/v1/cases':assert result['total']==6,result
+                    if path=='/v1/case-chart':
+                        assert result['chart_id']==payload['chart_id'] and len(result['palaces'])==9,result
+                        assert result['comparison']['status'] in ('matches','not_covered'),result
+                        assert not result['engine_verified'] and not result['comparison']['source_rejected'],result
                     results.append({'path':path,'http_status':response.status,'status':result.get('status',result.get('view'))})
                 finally: client.close()
         finally:

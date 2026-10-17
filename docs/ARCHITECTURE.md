@@ -103,3 +103,11 @@ rule-candidates / POST /v1/rule-candidates → QimenService.rule_candidates → 
 case / POST /v1/case → QimenService.case → cases.inspection → case_events/events/charts/case_records/evidence_links及精确原文。完整学习与严格事前视图分开；后者不返回无权限背景/目标/反馈/unknown/整盘；不是正式训练导出。cases.ingestion逐事件保存局部原盘与完整叙述，全局显式family_key支持已识别同事件跨来源复用。原文完整、局部解析、计算验证和独立结果验证分别跟踪。
 
 ApplicationFactsCalculator通过既有单入口calculate读3个新编译族：内外16、9应支例及比较范围；横看用实际落宫元素，竖看固定星门属性与同宫。八神不默认按固定元素比较，未知中五不推寄宫，应支不转换日期。源例复核仅显式符号纸上法比较，不给局部原盘改engine_verified。schema v1及旧权威行保持不变。
+
+## 疾病案例：完整故事、源表投影与独立对照
+
+health importer按全文SHA保全，两节10整块、39条仅参考方法和6整案进入既有schema，无医疗规则编译。6原盘的54原行保留，不改既有原盘或方法。病例原始JSON载体可有不同字段命名；source_chart统一读取原盘source_span，不靠猜载体字段或后验反馈来排盘。
+
+cases / POST /v1/cases → QimenService.cases → 参数化SQL目录；case-chart / POST /v1/case-chart → QimenService.case_chart → 同事件/来源哈希校验、受原文哈希限定的只读表格投影。同一原盘chart_id贯穿原始/显示/核对；名称由已有授权基础资料提供，双前缀仍保留字面marker。显式comparison_method才调用同一PaperCalculator另建对照engine盘，不默认反推古例算法。所列字段5matches/1中五门not_covered不升级engine_verified；匹配不包括医学推断、现实结局、未知前缀或历法。
+
+完整case、严格事前和源盘研究为不同读取权限视图，不是训练发布。多轮反馈后的续断按post_feedback保存，后写解释或未知声源unknown，不将整段背景/原书总结注入初次输入。原盘表完整与程序解释/独立计算能力分别记录，6案例无新训练任务。研究API继续只监听回环，无维护写路由。

@@ -66,6 +66,19 @@ class QimenService:
         from ..cases.inspection import inspect_case
         return inspect_case(self.knowledge.db,case_id,view=view)
 
+    def cases(self,chapter_key=None) -> dict:
+        from ..cases.inspection import list_cases
+        return list_cases(self.knowledge.db,chapter_key)
+
+    def case_chart(self,case_id,chart_id,comparison_method=None) -> dict:
+        from ..cases.source_chart import project_chart,compare_chart
+        if comparison_method is not None and (not isinstance(comparison_method,str) or not comparison_method):
+            raise ValueError('Explicit comparison method required')
+        result=project_chart(self.knowledge.db,case_id,chart_id)
+        if comparison_method is not None:
+            result['comparison']=compare_chart(result,self.paper,comparison_method)
+        return result
+
     def ask(self, inquiry: Inquiry) -> dict:
         if not isinstance(inquiry.text,str) or not inquiry.text.strip(): raise ValueError('Nonempty question required')
         trace = []

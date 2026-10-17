@@ -16,4 +16,4 @@
 
 运行：`PYTHONPATH=src python3 -m unittest discover -s tests -v`。
 资料/案例规则见 KNOWLEDGE_POLICY / CASE_POLICY；架构与迁移见 ARCHITECTURE / SCHEMA；评估见 EVALUATION_PROTOCOL；设备与远程接入见 HARDWARE。
-当前Phase 1已接收五份章级输入，应用概述未标印刷章号；旧chapter-01/02为保留的导入键，不反推印刷章号。已保存首个完整历史故事及局部原盘；条件候选不是已激活专业规则。Phase 2支持符号转盘及部分有来源条件事实，公历全流程与专业问事仍未完成。按用户实际提供内容增量保存、审读、编译和测试；不导入未提供的下一章、不提前训练。完整总指令原件见 docs/user_instructions/master_spec_2026-10-17.txt，覆盖进度以 STATUS 为准。
+当前已接收六份章级输入，本轮人体疾病预测未标印刷章号；旧chapter-01/02为保留的导入键，不反推印刷章号。已保存7个完整历史故事（含6病案）与原盘；条件候选不是已激活专业规则。Phase 2支持符号转盘及部分有来源条件事实，公历全流程与专业问事仍未完成。按用户实际提供内容增量保存、审读、编译和测试；不导入未提供的下一章、不提前训练。完整总指令原件见 docs/user_instructions/master_spec_2026-10-17.txt，覆盖进度以 STATUS 为准。

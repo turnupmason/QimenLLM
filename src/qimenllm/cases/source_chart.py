@@ -1,0 +1,152 @@
+"""Read-only projection of the supplied health tables, separate from chart computation.
+
+The four columns have an explicit, hash-scoped transcription convention. No
+calendar, void, horse, extra star or medical conclusion is inferred here.
+"""
+from __future__ import annotations
+from ..knowledge.db import connect, digest
+from ..retrieval.repository import KnowledgeRepository
+
+HEALTH_SHA='73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d'
+PROJECTION='shenqi_health_table_projection_v1'
+NUMERALS=dict(zip('一二三四五六七八九',range(1,10)))
+
+
+def _unique_name(names,short):
+    matches=[name for name in names if short in name]
+    if len(matches)!=1: raise ValueError('Ambiguous or unsupported source abbreviation')
+    return matches[0]
+
+
+def project_chart(db,case_id,chart_id):
+    """Project the SAME original chart ID; return exact row citations and scope."""
+    with connect(db) as conn:
+        row=conn.execute('''SELECT ch.*,s.revision_id,s.byte_start,s.byte_end,d.content,d.sha256
+            FROM charts ch JOIN case_events ce USING(event_id)
+            JOIN source_spans s ON s.source_id=ch.source_id
+            JOIN chapter_revisions cr ON cr.revision_id=s.revision_id
+            JOIN raw_documents d ON d.document_id=cr.document_id
+            WHERE ce.case_id=? AND ch.chart_id=? AND ch.source_or_engine='original' ''',
+            (case_id,chart_id)).fetchone()
+        if row is None: raise KeyError(chart_id)
+        if digest(row['content'])!=row['sha256'] or digest(row['chart_json'].encode())!=row['content_sha256']:
+            raise ValueError('Original chart/source integrity mismatch')
+        if row['sha256']!=HEALTH_SHA:
+            return {'status':'not_covered','reason':'No reviewed table convention for this source',
+                    'chart_id':chart_id,'professional_analysis_completed':False}
+        raw=row['content']; text=raw[row['byte_start']:row['byte_end']].decode()
+        review=conn.execute('SELECT status FROM source_reviews WHERE revision_id=? ORDER BY rowid DESC LIMIT 1',
+                            (row['revision_id'],)).fetchone()
+    knowledge=KnowledgeRepository(db)
+    compiled=knowledge.compiled_datasets('shenqi_ch1_foundation_v1')
+    families={r['payload']['dataset']['key']:r for r in compiled}
+    needed=('stars','doors','deities','stem_attributes')
+    if any(key not in families for key in needed):
+        return {'status':'not_covered','reason':'Source abbreviation reference datasets unavailable',
+                'chart_id':chart_id,'professional_analysis_completed':False}
+    names={key:[r['name'] for r in families[key]['payload']['dataset']['rows']] for key in needed[:3]}
+    stems={r['stem'] for r in families['stem_attributes']['payload']['dataset']['rows']}
+    source_lines=text.splitlines(keepends=True); start_line=raw[:row['byte_start']].count(b'\n')+1
+    headers=[i for i,line in enumerate(source_lines) if line.split()==['宫位','八神','门位','星位']]
+    if len(headers)!=1: raise ValueError('Expected one complete original table header')
+    lines=[(i,line) for i,line in enumerate(source_lines) if i>headers[0] and line.strip()]
+    if len(lines)!=9: raise ValueError('Expected nine source table rows without trailing analysis')
+    palaces={}; evidence=[]
+    for i,line in lines:
+        cells=line.split()
+        if len(cells)!=4: raise ValueError('Expected the four original table columns')
+        label,deity,door,star=cells
+        if len(label)!=3 or label[-1]!='宫' or label[1] not in NUMERALS:
+            raise ValueError('Unsupported source palace label')
+        palace=NUMERALS[label[1]]
+        if palace in palaces: raise ValueError('Repeated source palace')
+        source={'source_id':row['source_id'],'sha256':row['sha256'],'line':start_line+i,
+                'text':line,'column_cells':cells}
+        if palace==5:
+            if deity!='—' or star!='—' or door not in stems:
+                raise ValueError('Unsupported central palace representation')
+            item={'palace':palace,'earth_stem':door,'door':None,'star':None,'deity':None,
+                  'heaven_stem':None,'heaven_prefix_marker':None,'star_prefix_marker':None}
+        else:
+            if len(deity)!=1: raise ValueError('Unsupported deity cell')
+            # Adjacent main stems are supported by this chapter's explicit
+            # overlays (e.g. case1 壬+戊, case3 乙+庚, case5 癸+庚).
+            def split_cell(cell,family):
+                matches=[(index,char) for index,char in enumerate(cell) if
+                         char not in stems and any(char in name for name in names[family])]
+                if len(matches)!=1: raise ValueError('Unsupported star/door cell')
+                index,short=matches[0]; prefix=cell[:index]; suffix=cell[index+1:]
+                if len(prefix)>1 or any(c not in stems for c in prefix) or len(suffix)!=1 or suffix not in stems:
+                    raise ValueError('Unsupported stem markers')
+                return _unique_name(names[family],short),suffix,prefix or None
+            door_name,heaven,prefix=split_cell(door,'doors')
+            star_name,earth,star_prefix=split_cell(star,'stars')
+            item={'palace':palace,'earth_stem':earth,'heaven_stem':heaven,
+                  'door':door_name,'star':star_name,'deity':_unique_name(names['deities'],deity),
+                  'heaven_prefix_marker':prefix,'star_prefix_marker':star_prefix}
+        item['source']=source; palaces[palace]=item
+    if set(palaces)!=set(range(1,10)): raise ValueError('Incomplete nine-palace source table')
+    for key in needed:
+        r=families[key]; evidence.append({'dataset':key,'source':knowledge.source(r['source_id'])})
+    metadata={}
+    for line in source_lines[:headers[0]]:
+        if '：' in line:
+            key,value=line.strip().split('：',1); metadata[key]=value
+    return {'status':'projected','case_id':case_id,'chart_id':chart_id,'event_id':row['event_id'],
+            'projection_method':PROJECTION,'source_sha256':row['sha256'],
+            'source_acceptance':review[0] if review else 'pending',
+            'original_validation_status':row['validation_status'],'source_metadata':metadata,
+            'palaces':{str(p):palaces[p] for p in sorted(palaces)},'reference_evidence':evidence,
+            'raw_table_complete':True,'interpretation_basis':'reviewed_transcription_convention_not_engine_recalculation',
+            'prefix_policy':'preserve literal markers; star-prefix meaning not assigned; no extra star inferred',
+            'training_export':False,'purpose':'historical_source_chart_reading',
+            'original_chart_modified':False,'engine_verified':False,'calendar_recomputed':False,
+            'voids':None,'horse':None,'medical_inference':None,'professional_analysis_completed':False}
+
+
+def compare_chart(projected,paper,method):
+    """Compare given source symbols under an EXPLICIT alternative computation.
+
+    A missing method is never silently filled from the example's bureau method.
+    Disagreement concerns computation coverage, not acceptance of the source.
+    """
+    if projected['status']!='projected': return {'status':'not_covered','reason':'Source table not projected'}
+    meta=projected['source_metadata']
+    required=('遁法','局数','时干支')
+    if any(k not in meta for k in required): return {'status':'conditional','missing':[k for k in required if k not in meta]}
+    bureau_text=meta['局数']
+    if not bureau_text.endswith('局') or not bureau_text[:-1].isdigit(): raise ValueError('Explicit source bureau required')
+    computed=paper.calculate('symbolic_chart',{'dun':meta['遁法'],'bureau':int(bureau_text[:-1]),
+                            'hour_ganzhi':meta['时干支'],'method':method})
+    if computed['status']!='computed':
+        return {'status':'not_covered','calculation':computed,'source_rejected':False,'engine_verified':False}
+    chart=computed['result'];checks=[]
+    def check(path,source,actual):
+        checks.append({'path':path,'source_value':source,'computed_value':actual,'matches':source==actual})
+    for palace,p in projected['palaces'].items():
+        check(f'palaces.{palace}.earth_stem',p['earth_stem'],chart['earth_plate'][palace])
+        if palace=='5': continue
+        check(f'palaces.{palace}.door',p['door'],chart['doors'][palace])
+        check(f'palaces.{palace}.deity',p['deity'],chart['deities'][palace])
+        stars=[s for s in chart['heaven_plate'][palace] if s['name']==p['star']]
+        check(f'palaces.{palace}.star',p['star'],stars[0]['name'] if stars else None)
+        check(f'palaces.{palace}.heaven_stem',p['heaven_stem'],stars[0]['carried_stem'] if stars else None)
+        if p['heaven_prefix_marker']:
+            extras=[s['carried_stem'] for s in chart['heaven_plate'][palace] if s['name']!=p['star']]
+            check(f'palaces.{palace}.heaven_prefix_marker',p['heaven_prefix_marker'],extras[0] if len(extras)==1 else extras)
+    chief_fields={'旬首':'xun_head','值符':'zhifu_star','值使':'zhishi_door'}
+    for source_key,fact_key in chief_fields.items():
+        if source_key in meta:check('source_metadata.'+source_key,meta[source_key],chart['derived_facts'][fact_key])
+    for source_key,fact_key in (('值符落宫','zhifu_layout_palace'),('值使落宫','zhishi_landing_palace')):
+        if source_key in meta:
+            digits=[c for c in meta[source_key] if c in '123456789']
+            if len(digits)!=1:raise ValueError('Unsupported source chief palace notation')
+            check('source_metadata.'+source_key,int(digits[0]),chart['derived_facts'][fact_key])
+    return {'status':'matches' if all(c['matches'] for c in checks) else 'mismatch',
+            'comparison_method':method,'source_chart_id':projected['chart_id'],
+            'computed_chart_id':chart['chart_id'],'checks':checks,'calculation_evidence':computed['evidence'],
+            'checked_field_count':len(checks),
+            'uncompared_fields':['star_prefix_marker semantics','full nine-star expansion',
+                'year/month/day calendar','voids/horse','author reasoning/clinical outcome'],
+            'scope':'given_source_symbols_and_transcription_only_not_calendar_or_medical_judgment',
+            'source_rejected':False,'original_chart_modified':False,'engine_verified':False,'calendar_recomputed':False}

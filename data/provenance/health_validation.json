@@ -1,0 +1,531 @@
+{
+  "date": "2026-10-17",
+  "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+  "data_version": "0ced21a7-1833-44f5-86ad-f72fd53bede9",
+  "commands": [
+    "PYTHONPATH=src python3 scripts/import_shenqi_health.py --local-only",
+    "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+    "PYTHONPATH=src python3 -m qimenllm audit",
+    "PYTHONPATH=src python3 scripts/smoke_api.py --chapter01 --chapter02 --chapters0405 --application-overview --health",
+    "PYTHONPATH=src python3 -m qimenllm export-snapshot",
+    "PYTHONPATH=src python3 -m qimenllm --raw-dir artifacts/health-prediction/restored-raw restore-snapshot data/snapshots/current artifacts/health-prediction/restored.sqlite3",
+    "PYTHONPATH=src python3 -m qimenllm --db artifacts/health-prediction/restored.sqlite3 --raw-dir artifacts/health-prediction/restored-raw audit",
+    "python3 -m pip wheel --no-deps --no-build-isolation --no-index -w artifacts/health-prediction/wheels .",
+    "python3 -m pip install --no-deps --no-index --target work/health-installed artifacts/health-prediction/wheels/qimenllm-0.1.0-py3-none-any.whl"
+  ],
+  "unit_tests": {
+    "passed": 158,
+    "failed": 0,
+    "previous_tests": 143,
+    "new_tests": 15,
+    "log_sha256": "ebec3cb84a09355256fcf84293fc37317402f85aa4c94bb8bc4e2a78adf83d52"
+  },
+  "new_source": {
+    "bytes": 20031,
+    "characters": 7839,
+    "lines": 431,
+    "final_newline": false,
+    "sections": 2,
+    "complete_context_groups": 10,
+    "reference_datasets": 8,
+    "reference_rows": 39,
+    "numbered_author_analysis_steps": 29,
+    "source_quality_records": 25,
+    "concept_context_entries": 123,
+    "compiled_datasets_added": 0,
+    "professional_rules_added": 0
+  },
+  "new_cases": {
+    "cases": 6,
+    "event_families": 6,
+    "events": 6,
+    "original_charts": 6,
+    "complete_source_table_rows": 54,
+    "case_records": 81,
+    "evidence_links": 121,
+    "independently_confirmed_outcomes": 0
+  },
+  "source_chart": {
+    "projection": "source_hash_scoped_reviewed_transcription_convention",
+    "all54_independent_gold_rows_checked": true,
+    "comparisons": [
+      {
+        "case_id": "case-dc6238a5f749af624ffd54792af8ced4823aa751485a93eda74bb58d9e00e6d0",
+        "chart_id": "chart-7e3661e1a8e78fa7798e6a536e65bf80ca0d2f95fde7ea542d95c25d72b5a136",
+        "title": "实例一：测动过手术",
+        "status": "matches",
+        "checked_fields": 47,
+        "uncompared_fields": [
+          "star_prefix_marker semantics",
+          "full nine-star expansion",
+          "year/month/day calendar",
+          "voids/horse",
+          "author reasoning/clinical outcome"
+        ],
+        "reason": null
+      },
+      {
+        "case_id": "case-d4a7467f0ad1461d2278b7c571bef9ea2a826d5e112e2018dec7d55abc9a71a5",
+        "chart_id": "chart-d09a1e33b1f6b17cb26cc2cf9f9e5f12e9388a88a4ca45dce055cae0ac879e37",
+        "title": "实例二：女测父病",
+        "status": "not_covered",
+        "checked_fields": 0,
+        "uncompared_fields": null,
+        "reason": "Final chief door lands in palace five; no supplied hosting convention"
+      },
+      {
+        "case_id": "case-37a08549bba6a899758b833ae7cdbebdac389a7044013eaa96e1ae14b4ca90be",
+        "chart_id": "chart-0d9a9c2099126046a2897de4db25cd69e7ae5ec2753d1657b7bf42890bc7d997",
+        "title": "实例三：测何时出院",
+        "status": "matches",
+        "checked_fields": 47,
+        "uncompared_fields": [
+          "star_prefix_marker semantics",
+          "full nine-star expansion",
+          "year/month/day calendar",
+          "voids/horse",
+          "author reasoning/clinical outcome"
+        ],
+        "reason": null
+      },
+      {
+        "case_id": "case-ee43a8baa22671f2d32e08b9464d07c71208258d7e566b0b0b2bdf46c3bf3646",
+        "chart_id": "chart-1fbe0cb06b763964751c44906bbb992c35408cc30bbf6883c689598c58e42329",
+        "title": "实例四：测姨母病",
+        "status": "matches",
+        "checked_fields": 47,
+        "uncompared_fields": [
+          "star_prefix_marker semantics",
+          "full nine-star expansion",
+          "year/month/day calendar",
+          "voids/horse",
+          "author reasoning/clinical outcome"
+        ],
+        "reason": null
+      },
+      {
+        "case_id": "case-3e554b89430de76587487514d493fbcabee6782d5876f67db8dcdc858aa07b80",
+        "chart_id": "chart-04d92a926d383f31994164d31084abb8c6079c6f5d2913d330aad4f00485482d",
+        "title": "实例五：当场测病",
+        "status": "matches",
+        "checked_fields": 47,
+        "uncompared_fields": [
+          "star_prefix_marker semantics",
+          "full nine-star expansion",
+          "year/month/day calendar",
+          "voids/horse",
+          "author reasoning/clinical outcome"
+        ],
+        "reason": null
+      },
+      {
+        "case_id": "case-c8d1e05c9761ccb9c63887c16b5d2abe61996a335a83c184e8321a42df804896",
+        "chart_id": "chart-1040e4bb3e9bb8f3ca122758275177a07b8fe0bf438ae96461b251362177ea89",
+        "title": "实例六：测外出求医",
+        "status": "matches",
+        "checked_fields": 47,
+        "uncompared_fields": [
+          "star_prefix_marker semantics",
+          "full nine-star expansion",
+          "year/month/day calendar",
+          "voids/horse",
+          "author reasoning/clinical outcome"
+        ],
+        "reason": null
+      }
+    ],
+    "computed_given_symbol_tables_matching_listed_fields": 5,
+    "not_covered": 1,
+    "not_covered_reason": "Case2 original-center chief door; source remains accepted and unchanged",
+    "not_compared": [
+      "star_prefix semantics",
+      "full nine-star expansion",
+      "calendar",
+      "voids/horse",
+      "medical interpretation",
+      "clinical outcomes"
+    ],
+    "engine_verified_originals": 0,
+    "originals_modified": false
+  },
+  "chronology": {
+    "case1_birth_year_after_initial_diagnosis": true,
+    "case1_survival_outcome_not_provided": true,
+    "case2_hospital_information_after_forecast": true,
+    "case2_reported_death_separate_from_callback": true,
+    "case3_initial_fall_and_surgery_known": true,
+    "case3_discharge_does_not_prove_lifelong_no_sequelae": true,
+    "case4_predictor": "王建国",
+    "case5_current_diagnosis_and_retrospective_events_not_future_incident_forecast": true,
+    "case6_media_and_third_party_claims_not_independently_verified": true,
+    "case6_unperformed_treatment_counterfactual_not_scored": true,
+    "training_tasks_created": 0
+  },
+  "source_integrity_and_old_rows": {
+    "old_authoritative_rows_preserved": {
+      "data_versions": 19,
+      "books": 1,
+      "chapters": 5,
+      "raw_documents": 5,
+      "chapter_revisions": 5,
+      "source_reviews": 5,
+      "source_spans": 556,
+      "methods": 14,
+      "concepts": 1276,
+      "concept_links": 0,
+      "knowledge_items": 570,
+      "rules": 0,
+      "rule_conditions": 0,
+      "rule_disagreements": 0,
+      "event_families": 1,
+      "cases": 1,
+      "events": 1,
+      "case_events": 1,
+      "charts": 1,
+      "case_records": 10,
+      "evidence_links": 17,
+      "dataset_releases": 0,
+      "split_assignments": 0,
+      "training_tasks": 0,
+      "task_inputs": 0
+    },
+    "schema_migration_needed": false,
+    "source_pointer_checks": 74,
+    "audit": {
+      "ok": true,
+      "errors": [],
+      "counts": {
+        "books": 1,
+        "chapters": 6,
+        "raw_documents": 6,
+        "knowledge_items": 605,
+        "rules": 0,
+        "cases": 7,
+        "events": 7,
+        "charts": 7,
+        "training_tasks": 0
+      },
+      "data_version": "0ced21a7-1833-44f5-86ad-f72fd53bede9"
+    },
+    "case_chart_comparisons": [
+      {
+        "case_id": "case-dc6238a5f749af624ffd54792af8ced4823aa751485a93eda74bb58d9e00e6d0",
+        "chart_id": "chart-7e3661e1a8e78fa7798e6a536e65bf80ca0d2f95fde7ea542d95c25d72b5a136",
+        "title": "实例一：测动过手术",
+        "status": "matches",
+        "checked_fields": 47,
+        "uncompared_fields": [
+          "star_prefix_marker semantics",
+          "full nine-star expansion",
+          "year/month/day calendar",
+          "voids/horse",
+          "author reasoning/clinical outcome"
+        ],
+        "reason": null
+      },
+      {
+        "case_id": "case-d4a7467f0ad1461d2278b7c571bef9ea2a826d5e112e2018dec7d55abc9a71a5",
+        "chart_id": "chart-d09a1e33b1f6b17cb26cc2cf9f9e5f12e9388a88a4ca45dce055cae0ac879e37",
+        "title": "实例二：女测父病",
+        "status": "not_covered",
+        "checked_fields": 0,
+        "uncompared_fields": null,
+        "reason": "Final chief door lands in palace five; no supplied hosting convention"
+      },
+      {
+        "case_id": "case-37a08549bba6a899758b833ae7cdbebdac389a7044013eaa96e1ae14b4ca90be",
+        "chart_id": "chart-0d9a9c2099126046a2897de4db25cd69e7ae5ec2753d1657b7bf42890bc7d997",
+        "title": "实例三：测何时出院",
+        "status": "matches",
+        "checked_fields": 47,
+        "uncompared_fields": [
+          "star_prefix_marker semantics",
+          "full nine-star expansion",
+          "year/month/day calendar",
+          "voids/horse",
+          "author reasoning/clinical outcome"
+        ],
+        "reason": null
+      },
+      {
+        "case_id": "case-ee43a8baa22671f2d32e08b9464d07c71208258d7e566b0b0b2bdf46c3bf3646",
+        "chart_id": "chart-1fbe0cb06b763964751c44906bbb992c35408cc30bbf6883c689598c58e42329",
+        "title": "实例四：测姨母病",
+        "status": "matches",
+        "checked_fields": 47,
+        "uncompared_fields": [
+          "star_prefix_marker semantics",
+          "full nine-star expansion",
+          "year/month/day calendar",
+          "voids/horse",
+          "author reasoning/clinical outcome"
+        ],
+        "reason": null
+      },
+      {
+        "case_id": "case-3e554b89430de76587487514d493fbcabee6782d5876f67db8dcdc858aa07b80",
+        "chart_id": "chart-04d92a926d383f31994164d31084abb8c6079c6f5d2913d330aad4f00485482d",
+        "title": "实例五：当场测病",
+        "status": "matches",
+        "checked_fields": 47,
+        "uncompared_fields": [
+          "star_prefix_marker semantics",
+          "full nine-star expansion",
+          "year/month/day calendar",
+          "voids/horse",
+          "author reasoning/clinical outcome"
+        ],
+        "reason": null
+      },
+      {
+        "case_id": "case-c8d1e05c9761ccb9c63887c16b5d2abe61996a335a83c184e8321a42df804896",
+        "chart_id": "chart-1040e4bb3e9bb8f3ca122758275177a07b8fe0bf438ae96461b251362177ea89",
+        "title": "实例六：测外出求医",
+        "status": "matches",
+        "checked_fields": 47,
+        "uncompared_fields": [
+          "star_prefix_marker semantics",
+          "full nine-star expansion",
+          "year/month/day calendar",
+          "voids/horse",
+          "author reasoning/clinical outcome"
+        ],
+        "reason": null
+      }
+    ]
+  },
+  "audit": {
+    "ok": true,
+    "errors": [],
+    "counts": {
+      "books": 1,
+      "chapters": 6,
+      "raw_documents": 6,
+      "knowledge_items": 605,
+      "rules": 0,
+      "cases": 7,
+      "events": 7,
+      "charts": 7,
+      "training_tasks": 0
+    },
+    "data_version": "0ced21a7-1833-44f5-86ad-f72fd53bede9"
+  },
+  "snapshot": {
+    "data_version": "0ced21a7-1833-44f5-86ad-f72fd53bede9",
+    "snapshot": "data/snapshots/current",
+    "counts": {
+      "data_versions": 23,
+      "books": 1,
+      "chapters": 6,
+      "raw_documents": 6,
+      "chapter_revisions": 6,
+      "source_reviews": 6,
+      "source_spans": 725,
+      "methods": 15,
+      "concepts": 1399,
+      "concept_links": 0,
+      "knowledge_items": 605,
+      "rules": 0,
+      "rule_conditions": 0,
+      "rule_disagreements": 0,
+      "event_families": 7,
+      "cases": 7,
+      "events": 7,
+      "case_events": 7,
+      "charts": 7,
+      "case_records": 91,
+      "evidence_links": 138,
+      "dataset_releases": 0,
+      "split_assignments": 0,
+      "training_tasks": 0,
+      "task_inputs": 0
+    },
+    "manifest_sha256": "34dbdea727894dc27cc407c6dcf51a40f1ac0295d3ea0aa3d73233cefe0aab8a"
+  },
+  "restore": {
+    "snapshot_files_identical": 32,
+    "historical_case_views_identical": 14,
+    "source_chart_views_identical": 7,
+    "catalog_identical": true
+  },
+  "http": {
+    "ok": true,
+    "transport": "temporary_loopback_http",
+    "listener_closed": true,
+    "results": [
+      {
+        "path": "/health",
+        "http_status": 200,
+        "status": "ok"
+      },
+      {
+        "path": "/v1/ask",
+        "http_status": 200,
+        "status": "blocked"
+      },
+      {
+        "path": "/v1/learn",
+        "http_status": 200,
+        "status": "awaiting_sources"
+      },
+      {
+        "path": "/v1/learn",
+        "http_status": 200,
+        "status": "sources_found"
+      },
+      {
+        "path": "/v1/calculate",
+        "http_status": 200,
+        "status": "computed"
+      },
+      {
+        "path": "/v1/learn",
+        "http_status": 200,
+        "status": "sources_found"
+      },
+      {
+        "path": "/v1/calculate",
+        "http_status": 200,
+        "status": "computed"
+      },
+      {
+        "path": "/v1/calculate",
+        "http_status": 200,
+        "status": "computed"
+      },
+      {
+        "path": "/v1/ask",
+        "http_status": 200,
+        "status": "blocked"
+      },
+      {
+        "path": "/v1/reference",
+        "http_status": 200,
+        "status": "sources_found"
+      },
+      {
+        "path": "/v1/calculate",
+        "http_status": 200,
+        "status": "computed"
+      },
+      {
+        "path": "/v1/calculate",
+        "http_status": 200,
+        "status": "computed"
+      },
+      {
+        "path": "/v1/calculate",
+        "http_status": 200,
+        "status": "computed"
+      },
+      {
+        "path": "/v1/rule-candidates",
+        "http_status": 200,
+        "status": "inspected"
+      },
+      {
+        "path": "/v1/case",
+        "http_status": 200,
+        "status": "full"
+      },
+      {
+        "path": "/v1/case",
+        "http_status": 200,
+        "status": "before_prediction"
+      },
+      {
+        "path": "/v1/cases",
+        "http_status": 200,
+        "status": "sources_found"
+      },
+      {
+        "path": "/v1/case-chart",
+        "http_status": 200,
+        "status": "projected"
+      },
+      {
+        "path": "/v1/case-chart",
+        "http_status": 200,
+        "status": "projected"
+      },
+      {
+        "path": "/v1/case-chart",
+        "http_status": 200,
+        "status": "projected"
+      },
+      {
+        "path": "/v1/case-chart",
+        "http_status": 200,
+        "status": "projected"
+      },
+      {
+        "path": "/v1/case-chart",
+        "http_status": 200,
+        "status": "projected"
+      },
+      {
+        "path": "/v1/case-chart",
+        "http_status": 200,
+        "status": "projected"
+      }
+    ]
+  },
+  "offline_installed_service": {
+    "installed_package": "/workspace/QimenLLM/work/health-installed/qimenllm/__init__.py",
+    "case_catalog": "passed",
+    "source_chart_projection": "6 passed",
+    "given_symbol_comparison_statuses": [
+      "matches",
+      "not_covered",
+      "matches",
+      "matches",
+      "matches",
+      "matches"
+    ],
+    "before_prediction_view": "6 passed"
+  },
+  "replay": {
+    "new_annotation_rows": 0,
+    "new_case_rows": 0,
+    "new_versions": 0,
+    "original_bytes_unchanged": true
+  },
+  "schema_migration_needed": false,
+  "frozen_evaluation_changed": false,
+  "old_gold_changed": false,
+  "development_findings": [
+    {
+      "finding": "test initially assumed every case lacked exact minutes",
+      "resolution": "correct expectation for explicitly supplied case3 1996-05-09 16:20; source and positional gold unchanged"
+    },
+    {
+      "finding": "curated abbreviated deity expansion differed from existing authorized canonical spelling",
+      "resolution": "normalize interpretive label to 螣蛇 from provided chapter1; preserve original raw 蛇"
+    },
+    {
+      "finding": "HTTP example selection assumed only one historical case",
+      "resolution": "select satellite case by application-overview chapter rather than first case in expanded database"
+    }
+  ],
+  "professional_analysis_completed": false,
+  "model_experiments": [],
+  "training_started": false,
+  "public_deployment": false,
+  "unverified": [
+    "independent calendar/time conventions",
+    "case2 center chief-door algorithm",
+    "full original chart interpretation",
+    "formal role selection",
+    "professional model author-method reproduction",
+    "prospective real-world prediction",
+    "independent clinical/historical outcome confirmation",
+    "home4090/Mac/Windows and public load"
+  ],
+  "github": {
+    "repository": "turnupmason/QimenLLM",
+    "visibility_required": "private",
+    "raw_checkpoint": "04d1527e5f879fa1ba0043d89cd83453e6506ad0",
+    "final_receipt": "work/github-sync.json after actual push and remote HEAD verification"
+  },
+  "local_full_logs": "artifacts/health-prediction/"
+}

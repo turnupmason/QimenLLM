@@ -1,0 +1,2595 @@
+{
+  "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+  "source_byte_count": 20031,
+  "source_line_count": 431,
+  "chapter_title": "人体疾病预测",
+  "chapter_key_suggestion": "health-prediction",
+  "printed_chapter_number": null,
+  "sections": [
+    {
+      "key": "section_01",
+      "title": "第一节 取用判断经验",
+      "line_start": 1,
+      "line_end": 29
+    },
+    {
+      "key": "section_02",
+      "title": "第二节 实例解析（6例）",
+      "line_start": 30,
+      "line_end": 431
+    }
+  ],
+  "groups": [
+    {
+      "key": "health_title_and_section_01",
+      "title": "人体疾病预测：标题与第一节",
+      "category": "commentary",
+      "line_start": 1,
+      "line_end": 5,
+      "attribution": "本章叙述者（本次材料未明确姓名）",
+      "summary": "保留章标题及取用判断经验节标题；本次正文未标印刷章号，不倒推出章号。",
+      "concepts": [
+        "人体疾病预测",
+        "取用判断经验"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 1,
+        "line_end": 5,
+        "byte_start": 0,
+        "byte_end": 51
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "health_body_complete_context",
+      "title": "人体九宫比附及八宫内外类象完整上下文",
+      "category": "analogy",
+      "line_start": 6,
+      "line_end": 23,
+      "attribution": "本章叙述者（本次材料未明确姓名）",
+      "summary": "保留作者以九宫模拟人体的大致比附及八个具体宫位的体表、体内类象；同宫可有多个位置，须结合五行与内外盘，不能机械确诊。",
+      "concepts": [
+        "人体类象",
+        "九宫比附",
+        "体表",
+        "体内",
+        "内盘外盘",
+        "离宫",
+        "坤宫",
+        "巽宫",
+        "震宫",
+        "兑宫",
+        "艮宫",
+        "乾宫",
+        "坎宫",
+        "肝胆",
+        "脾胃",
+        "心血管",
+        "脑血管",
+        "肾脏",
+        "泌尿生殖系统"
+      ],
+      "dataset": {
+        "key": "health_body_palace_analogies",
+        "rows": [
+          {
+            "key": "li",
+            "palace": 9,
+            "trigram": "离",
+            "attributed_element": "火",
+            "rough_body_analogy": "头部",
+            "surface_body_analogies": [
+              "头部",
+              "眼部",
+              "面部"
+            ],
+            "internal_body_analogies": [
+              "心脏",
+              "心血管",
+              "脑血管"
+            ],
+            "knowledge_kind": "traditional_contextual_body_analogy",
+            "distinction": "宫卦五行属性与人体传统类象分别存储；类象不作医学事实",
+            "requires_context": [
+              "结合八卦五行属性",
+              "结合奇门内盘外盘",
+              "只作大致比附，非单符号确诊"
+            ],
+            "supporting_source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 6,
+              "line_end": 8,
+              "byte_start": 51,
+              "byte_end": 582
+            },
+            "source_lines": [
+              8,
+              8
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 8,
+              "line_end": 8,
+              "byte_start": 407,
+              "byte_end": 582
+            },
+            "source_quote": "具体结合八卦五行属性、奇门内盘外盘，又以离九宫在体表代表头部、眼部、面部；离为火，在体内又主心脏、心血管、脑血管等。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "kun",
+            "palace": 2,
+            "trigram": "坤",
+            "attributed_element": "土",
+            "rough_body_analogy": "右臂",
+            "surface_body_analogies": [
+              "右耳",
+              "右臂",
+              "右手",
+              "人体肌肤"
+            ],
+            "internal_body_analogies": [
+              "脾胃",
+              "食道",
+              "胰脏",
+              "消化系统"
+            ],
+            "knowledge_kind": "traditional_contextual_body_analogy",
+            "distinction": "宫卦五行属性与人体传统类象分别存储；类象不作医学事实",
+            "requires_context": [
+              "结合八卦五行属性",
+              "结合奇门内盘外盘",
+              "只作大致比附，非单符号确诊"
+            ],
+            "supporting_source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 6,
+              "line_end": 8,
+              "byte_start": 51,
+              "byte_end": 582
+            },
+            "source_lines": [
+              10,
+              10
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 10,
+              "line_end": 10,
+              "byte_start": 583,
+              "byte_end": 719
+            },
+            "source_quote": "坤二宫在体表代表右耳、右臂、右手、人体肌肤；坤属土，在体内又主脾胃、食道、胰脏等消化系统。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "xun",
+            "palace": 4,
+            "trigram": "巽",
+            "attributed_element": "木",
+            "rough_body_analogy": "左臂",
+            "surface_body_analogies": [
+              "左耳",
+              "左臂",
+              "头发"
+            ],
+            "internal_body_analogies": [
+              "肝胆",
+              "血管",
+              "经络",
+              "气血"
+            ],
+            "knowledge_kind": "traditional_contextual_body_analogy",
+            "distinction": "宫卦五行属性与人体传统类象分别存储；类象不作医学事实",
+            "requires_context": [
+              "结合八卦五行属性",
+              "结合奇门内盘外盘",
+              "只作大致比附，非单符号确诊"
+            ],
+            "supporting_source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 6,
+              "line_end": 8,
+              "byte_start": 51,
+              "byte_end": 582
+            },
+            "source_lines": [
+              12,
+              12
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 12,
+              "line_end": 12,
+              "byte_start": 720,
+              "byte_end": 844
+            },
+            "source_quote": "巽四宫在体表代表左耳、左臂、头发；巽属木属风，在体内又主肝胆、血管、经络、气血等。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "zhen",
+            "palace": 3,
+            "trigram": "震",
+            "attributed_element": "木",
+            "rough_body_analogy": "左肋左腰",
+            "surface_body_analogies": [
+              "左肋",
+              "左腰",
+              "足部"
+            ],
+            "internal_body_analogies": [
+              "肝胆",
+              "左肺"
+            ],
+            "knowledge_kind": "traditional_contextual_body_analogy",
+            "distinction": "宫卦五行属性与人体传统类象分别存储；类象不作医学事实",
+            "requires_context": [
+              "结合八卦五行属性",
+              "结合奇门内盘外盘",
+              "只作大致比附，非单符号确诊"
+            ],
+            "supporting_source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 6,
+              "line_end": 8,
+              "byte_start": 51,
+              "byte_end": 582
+            },
+            "source_lines": [
+              14,
+              14
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 14,
+              "line_end": 14,
+              "byte_start": 845,
+              "byte_end": 970
+            },
+            "source_quote": "震3宫在体表代表左肋、左腰，震为运动，故又主足部；震属木，在体内又代表肝胆、左肺等。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "dui",
+            "palace": 7,
+            "trigram": "兑",
+            "attributed_element": "金",
+            "rough_body_analogy": "右肋右腰",
+            "surface_body_analogies": [
+              "右肋",
+              "右腰",
+              "口舌",
+              "牙齿"
+            ],
+            "internal_body_analogies": [
+              "肺部",
+              "气管",
+              "右肺"
+            ],
+            "knowledge_kind": "traditional_contextual_body_analogy",
+            "distinction": "宫卦五行属性与人体传统类象分别存储；类象不作医学事实",
+            "requires_context": [
+              "结合八卦五行属性",
+              "结合奇门内盘外盘",
+              "只作大致比附，非单符号确诊"
+            ],
+            "supporting_source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 6,
+              "line_end": 8,
+              "byte_start": 51,
+              "byte_end": 582
+            },
+            "source_lines": [
+              16,
+              16
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 16,
+              "line_end": 16,
+              "byte_start": 971,
+              "byte_end": 1117
+            },
+            "source_quote": "兑7宫在体表代表右肋、右腰，兑为口，故又代表口舌、牙齿等；兑属金，在体内又代表肺部、气管、右肺等。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "gen",
+            "palace": 8,
+            "trigram": "艮",
+            "attributed_element": "土",
+            "rough_body_analogy": "左腿",
+            "surface_body_analogies": [
+              "左腿",
+              "左脚",
+              "鼻子"
+            ],
+            "internal_body_analogies": [
+              "肠胃消化系统"
+            ],
+            "knowledge_kind": "traditional_contextual_body_analogy",
+            "distinction": "宫卦五行属性与人体传统类象分别存储；类象不作医学事实",
+            "requires_context": [
+              "结合八卦五行属性",
+              "结合奇门内盘外盘",
+              "只作大致比附，非单符号确诊"
+            ],
+            "supporting_source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 6,
+              "line_end": 8,
+              "byte_start": 51,
+              "byte_end": 582
+            },
+            "source_lines": [
+              18,
+              18
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 18,
+              "line_end": 18,
+              "byte_start": 1118,
+              "byte_end": 1252
+            },
+            "source_quote": "艮8宫在体表代表左腿、左脚，艮为山，在面部又代表鼻子；艮属土，在体内又代表肠胃消化等系统。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "qian",
+            "palace": 6,
+            "trigram": "乾",
+            "attributed_element": "金",
+            "rough_body_analogy": "右腿",
+            "surface_body_analogies": [
+              "右腿",
+              "右脚",
+              "头部"
+            ],
+            "internal_body_analogies": [
+              "脊髓",
+              "筋骨",
+              "大肠"
+            ],
+            "knowledge_kind": "traditional_contextual_body_analogy",
+            "distinction": "宫卦五行属性与人体传统类象分别存储；类象不作医学事实",
+            "requires_context": [
+              "结合八卦五行属性",
+              "结合奇门内盘外盘",
+              "只作大致比附，非单符号确诊"
+            ],
+            "supporting_source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 6,
+              "line_end": 8,
+              "byte_start": 51,
+              "byte_end": 582
+            },
+            "source_lines": [
+              20,
+              20
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 20,
+              "line_end": 20,
+              "byte_start": 1253,
+              "byte_end": 1390
+            },
+            "source_quote": "乾6宫在体表代表右腿、右脚，乾为天为首，故又代表头部；乾属金，在体内又代表脊髓、筋骨、大肠。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "kan",
+            "palace": 1,
+            "trigram": "坎",
+            "attributed_element": "水",
+            "rough_body_analogy": "泌尿生殖系统",
+            "surface_body_analogies": [
+              "男女外阴部"
+            ],
+            "internal_body_analogies": [
+              "肾脏",
+              "膀胱",
+              "内分泌系统"
+            ],
+            "knowledge_kind": "traditional_contextual_body_analogy",
+            "distinction": "宫卦五行属性与人体传统类象分别存储；类象不作医学事实",
+            "requires_context": [
+              "结合八卦五行属性",
+              "结合奇门内盘外盘",
+              "只作大致比附，非单符号确诊"
+            ],
+            "supporting_source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 6,
+              "line_end": 8,
+              "byte_start": 51,
+              "byte_end": 582
+            },
+            "source_lines": [
+              22,
+              22
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 22,
+              "line_end": 22,
+              "byte_start": 1391,
+              "byte_end": 1498
+            },
+            "source_quote": "坎1宫在体表代表男女外阴部，坎属水，在体内又代表肾脏、膀胱、内分泌系统。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "reference_only_no_diagnosis_or_case_specific_generalization",
+        "conventions": {
+          "source_calls_it_rough_analogy": true,
+          "body_position_not_unique_by_palace": true,
+          "center_palace_5": "not_specified_in_this_section",
+          "medical_diagnostic_status": "not_a_medical_diagnostic_rule",
+          "general_context_source": {
+            "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+            "line_start": 6,
+            "line_end": 23,
+            "byte_start": 51,
+            "byte_end": 1499
+          },
+          "fixed_properties_not_equivalent_to_body_analogies": true
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 6,
+        "line_end": 23,
+        "byte_start": 51,
+        "byte_end": 1499
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "health_disease_and_treatment_context",
+      "title": "病神与医生医药的综合取用语境",
+      "category": "role",
+      "line_start": 24,
+      "line_end": 29,
+      "attribution": "本章叙述者（本次材料未明确姓名）",
+      "summary": "疾病主看天芮、兼看门仪神与格局时令及求测者关系；天心和乙奇代表医生医药并比较实际落宫。只整理来源条件，不编译诊断或预后规则。",
+      "concepts": [
+        "天芮星",
+        "病神",
+        "死门",
+        "伤门",
+        "惊门",
+        "杜门",
+        "景门",
+        "天心星",
+        "乙奇",
+        "医生医药",
+        "实际落宫生克",
+        "综合判断",
+        "旺相休囚",
+        "疾病预后"
+      ],
+      "dataset": {
+        "key": "health_integrated_judgment_reference",
+        "rows": [
+          {
+            "key": "disease_integrated_evidence",
+            "domain": "health_disease",
+            "main_symbol": "天芮星",
+            "supplemental_doors": [
+              "死门",
+              "伤门",
+              "惊门",
+              "杜门",
+              "景门"
+            ],
+            "additional_evidence": [
+              "天芮星所临三奇六仪",
+              "上乘八神状况",
+              "奇门格局",
+              "节气时令旺相休囚",
+              "与求测者本人的生克"
+            ],
+            "attributed_judgment_topics": [
+              "疾病性质",
+              "部位",
+              "轻重",
+              "发展态势",
+              "预后"
+            ],
+            "conditions": [
+              "疾病语境",
+              "需要盘面和时令等多种条件综合",
+              "本段未规定唯一病者亲属角色"
+            ],
+            "excluded_shortcut": "不以某一符号或单一宫位自动断为具体疾病",
+            "source_lines": [
+              24,
+              24
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 24,
+              "line_end": 24,
+              "byte_start": 1499,
+              "byte_end": 1917
+            },
+            "source_quote": "预测疾病以九星中的天芮星为疾病的主要代表符号，同时兼看八门中的死门、伤门、惊门、杜门、景门等，还要看天芮星所临的三奇六仪，以及上乘八神状况，据此来判断疾病的性质和部位，再根据奇门格局的吉凶，节气时令的旺相休囚以及与求测者本人的生克情况，综合判断疾病的轻重、发展态势以及预后情况。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "physician_medicine_landing_palace_relation",
+            "domain": "health_disease",
+            "physician_or_medicine_symbols": [
+              "天心星",
+              "乙奇"
+            ],
+            "disease_symbol": "天芮星",
+            "comparison_basis": "医生或医药符号实际落宫与天芮实际落宫的生克关系",
+            "attributed_judgment_topics": [
+              "治疗成败",
+              "治疗效果"
+            ],
+            "conditions": [
+              "疾病或治疗语境",
+              "已知天心星、乙奇和天芮的实际落宫",
+              "结合本节综合判断"
+            ],
+            "excluded_shortcut": "不把符号固定五行相克或比附当作临床疗效证明",
+            "source_lines": [
+              26,
+              26
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 26,
+              "line_end": 26,
+              "byte_start": 1918,
+              "byte_end": 2069
+            },
+            "source_quote": "又以天心星和乙奇为医生和医药的代表符号，看其落宫与病星天芮落宫的生克关系，以此判断治疗的成败及效果。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "reference_only_no_diagnosis_or_case_specific_generalization",
+        "conventions": {
+          "role_candidates_only": true,
+          "patient_relationship_role_binding": "not_given_generally_in_this_section",
+          "no_new_formal_rules": true,
+          "no_unique_diagnosis_or_survival_prediction": true,
+          "public_product_medical_policy": "项目章程规定术数不能作为诊断依据；本说明不是古籍原句"
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 24,
+        "line_end": 29,
+        "byte_start": 1499,
+        "byte_end": 2072
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "health_section_02_header",
+      "title": "实例解析：六例标题",
+      "category": "commentary",
+      "line_start": 30,
+      "line_end": 32,
+      "attribution": "本章叙述者（本次材料未明确姓名）",
+      "summary": "原文明确标明实例解析六例，六个故事分别完整保存；不是预设后续全书案例数量。",
+      "concepts": [
+        "实例解析",
+        "六例",
+        "完整历史案例"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 30,
+        "line_end": 32,
+        "byte_start": 2072,
+        "byte_end": 2107
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "health_case_01_complete",
+      "title": "实例01：测动过手术完整故事与作者分析",
+      "category": "analysis",
+      "line_start": 33,
+      "line_end": 105,
+      "attribution": "本章叙述者（本次材料未明确姓名）",
+      "summary": "孙某问身体，作者先断手术及位置、再断年份并逐次收到反馈，随后才问出生年并作恢复与寿命判断；后置书面五步解释保持整体。原文没有后续生存结果。",
+      "concepts": [
+        "孙某",
+        "自身健康",
+        "结肠癌手术",
+        "左侧肠胃",
+        "1991年",
+        "1943年出生",
+        "置闰法",
+        "病星天芮",
+        "年命癸",
+        "天心星",
+        "乙奇",
+        "多轮反馈",
+        "寿命断语"
+      ],
+      "dataset": {
+        "key": "health_case_01_author_method_reference",
+        "rows": [
+          {
+            "key": "case_01_author_step_1",
+            "case_key": "health_case_01",
+            "step_number": 1,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "病星与开刀刑伤组合，提出左侧肠癌手术之断",
+            "explicit_symbol_evidence": [
+              "天芮艮8",
+              "伤门",
+              "乙加癸",
+              "庚加癸",
+              "时干戊兑7",
+              "开门",
+              "白虎"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "source_lines": [
+              94,
+              94
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 94,
+              "line_end": 94,
+              "byte_start": 3914,
+              "byte_end": 4253
+            },
+            "source_quote": "（1）病星天芮落艮8宫，艮属土，阳遁为内，主肠胃，乙+癸，庚加癸为凶格，庚主大肠，逢伤门，凶门克宫事更凶；又时干戊落7宫，逢开门，上乘白虎，开门主开刀，白虎主刑伤；综合这些信息，断他作过肠癌手术，艮8宫主左侧，所以断左侧结肠癌手术。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_01_author_step_2",
+            "case_key": "health_case_01",
+            "step_number": 2,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "太岁冲动病宫及反馈后出生年命入墓，用于手术年份解释",
+            "explicit_symbol_evidence": [
+              "1991辛未",
+              "艮8",
+              "年命癸",
+              "坤2",
+              "未墓"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "source_lines": [
+              96,
+              96
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 96,
+              "line_end": 96,
+              "byte_start": 4254,
+              "byte_end": 4495
+            },
+            "source_quote": "（2）1991年，太岁辛未冲动艮八宫病星，故断1991年。孙某告知出生于癸未年（1943年），年命癸落坤2宫，入未土之墓，辛未年（1991年）正是入墓之年，自然断是这一年住院动手术了。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_01_author_step_3",
+            "case_key": "health_case_01",
+            "step_number": 3,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "年柱与次年天克地冲、病星和月年旺衰，用于未来关口判断",
+            "explicit_symbol_evidence": [
+              "1997丁丑",
+              "癸未年柱",
+              "天克地冲",
+              "丑土",
+              "1998寅",
+              "1999卯"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "source_lines": [
+              98,
+              98
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 98,
+              "line_end": 98,
+              "byte_start": 4496,
+              "byte_end": 4770
+            },
+            "source_quote": "（3）明年1997年丁丑，正当孙某54周岁，与年柱癸未天克地冲，按命理学是大凶之年，又丑土当令，天芮土星落宫旺相逢冲，自然是个关口。1998、1999年寅、卯木旺克土，所以说过了明年再能活几年不成问题。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_01_author_step_4",
+            "case_key": "health_case_01",
+            "step_number": 4,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "医药同临、干合与医生宫克病宫，用于治疗及时和恢复解释",
+            "explicit_symbol_evidence": [
+              "乙奇",
+              "乙庚相合",
+              "天心巽4",
+              "艮8"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "source_lines": [
+              100,
+              100
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 100,
+              "line_end": 100,
+              "byte_start": 4771,
+              "byte_end": 4985
+            },
+            "source_quote": "（4）天芮星临乙奇，乙奇为医生，又乙庚相合，所以断手术治疗及时，做得好；又天心星主医生、医药，落4宫为木，克8宫之土，所以断现在没事，恢复得很好。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_01_author_step_5",
+            "case_key": "health_case_01",
+            "step_number": 5,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "日干宫与病宫、年命临医生吉星的综合，用于现状和寿命断语",
+            "explicit_symbol_evidence": [
+              "日干壬震3",
+              "值符",
+              "壬加戊",
+              "卯月",
+              "年命癸坤2",
+              "乙奇",
+              "天任"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "source_lines": [
+              102,
+              102
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 102,
+              "line_end": 102,
+              "byte_start": 4986,
+              "byte_end": 5268
+            },
+            "source_quote": "（5）日干壬为求测之人，落震3宫，上乘值符吉神，壬+戊为小蛇化龙吉格，卯月震宫旺相，又克病星8宫，故现在身体很好。年命癸落坤2宫，虽入墓，但下临乙奇医生，又临天任吉星，所以再活五年十年不成问题。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "reference_only_no_diagnosis_or_case_specific_generalization",
+        "conventions": {
+          "complete_case_source_pointer": {
+            "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+            "line_start": 33,
+            "line_end": 105,
+            "byte_start": 2107,
+            "byte_end": 5271
+          },
+          "source_case_title": "测动过手术",
+          "printed_step_order_preserved": true,
+          "timeline_notes": {
+            "source_order": "五步是反馈及寿命问答后的书面说明；不能整体标为最初判断前输入。",
+            "initial_known_lines": [
+              35,
+              37,
+              39,
+              41
+            ],
+            "birth_year_first_supplied_line": 53,
+            "retrospective_confirmations_lines": [
+              45,
+              49
+            ],
+            "future_survival_outcome": "not_recorded"
+          },
+          "usable_for_training": "candidate_only_requires_separate_temporal_and_event_split_validation",
+          "no_case_specific_method_auto_generalization": true,
+          "independent_prediction_accuracy": "not_measured",
+          "clinical_validity": "not_validated"
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 33,
+        "line_end": 105,
+        "byte_start": 2107,
+        "byte_end": 5271
+      },
+      "status": "structured_reference_only",
+      "historical_case": true,
+      "case_key": "health_case_01",
+      "case_completeness": "complete_as_supplied",
+      "chronology_notes": {
+        "source_order": "五步是反馈及寿命问答后的书面说明；不能整体标为最初判断前输入。",
+        "initial_known_lines": [
+          35,
+          37,
+          39,
+          41
+        ],
+        "birth_year_first_supplied_line": 53,
+        "retrospective_confirmations_lines": [
+          45,
+          49
+        ],
+        "future_survival_outcome": "not_recorded"
+      },
+      "integrity_policy": "完整故事、盘、对话、分析、预测、反馈与后续结果一起保留；不机械拆成通用规则"
+    },
+    {
+      "key": "health_case_02_complete",
+      "title": "实例02：女测父病完整故事与作者分析",
+      "category": "analysis",
+      "line_start": 106,
+      "line_end": 164,
+      "attribution": "本章叙述者（本次材料未明确姓名）",
+      "summary": "吕凤珍测父病，保留父亲出生年、原盘伏吟、多用神与应期分析、测后告知的医院信息及9月13日转述的9月7日死亡结果；已知医院诊断不提前作为作者判断输入。",
+      "concepts": [
+        "吕凤珍",
+        "父病",
+        "年干丙",
+        "乾为父",
+        "年命辛",
+        "天芮",
+        "天心",
+        "乙奇",
+        "伏吟",
+        "空亡",
+        "六仪击刑",
+        "酉戌月未日",
+        "食道癌",
+        "作者转述结果"
+      ],
+      "dataset": {
+        "key": "health_case_02_author_method_reference",
+        "rows": [
+          {
+            "key": "case_02_author_step_1",
+            "case_key": "health_case_02",
+            "step_number": 1,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "病神内盘、死门及干格，提出消化系统癌症晚期之断",
+            "explicit_symbol_evidence": [
+              "天芮坤2",
+              "死门",
+              "庚",
+              "值符",
+              "空亡",
+              "癸加癸",
+              "庚加癸",
+              "甲寅癸击刑"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "source_lines": [
+              148,
+              148
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 148,
+              "line_end": 148,
+              "byte_start": 6396,
+              "byte_end": 6719
+            },
+            "source_quote": "（1）天芮星为病神，落坤2宫，为旺相，死门临庚多为癌症；坤土在内盘主脾胃，故位在消化系统；虽上乘值符，但逢空亡，癸+癸为天网四张，庚+癸为大格，均为大凶之象，甲寅癸落坤宫又为六仪击刑，故极凶。据此，断为胃癌或食道癌晚期。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_02_author_step_2",
+            "case_key": "health_case_02",
+            "step_number": 2,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "天心及乙奇均不能克病宫，提出医药无能为力之断",
+            "explicit_symbol_evidence": [
+              "天心乾6",
+              "乙奇艮8",
+              "天芮坤2"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "source_lines": [
+              150,
+              150
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 150,
+              "line_end": 150,
+              "byte_start": 6720,
+              "byte_end": 6856
+            },
+            "source_quote": "（2）天心星和乙奇为医生，今天心星落6宫，乙奇在8宫，均不能克天芮星落宫，故医生已经束手无策。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_02_author_step_3",
+            "case_key": "health_case_02",
+            "step_number": 3,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "父病年干并参乾宫与年命，综合帝旺、空亡、墓刑提出死亡之断",
+            "explicit_symbol_evidence": [
+              "年干丙离9",
+              "乾6",
+              "己加己",
+              "年命辛巽4",
+              "辰墓",
+              "午午自刑"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "source_lines": [
+              152,
+              152
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 152,
+              "line_end": 152,
+              "byte_start": 6857,
+              "byte_end": 7216
+            },
+            "source_quote": "（3）测父病，年干丙为用神，落离九宫为帝旺之地，但老怕帝旺，又逢空亡，不吉；乾为父，又可看乾6宫，今乾宫己+己为地户逢鬼凶格，病者发凶或必死；又其父生于1921年辛酉年，年命辛落巽四宫，为入墓（辰为辛墓），又为六仪击刑（午午自刑），综此，必死无疑。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_02_author_step_4",
+            "case_key": "health_case_02",
+            "step_number": 4,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "内外、伏吟快慢及丙死墓月、年命刑合，提出酉戌月未日应期",
+            "explicit_symbol_evidence": [
+              "阴遁",
+              "年干丙",
+              "天芮",
+              "内盘",
+              "年命辛外盘",
+              "伏吟",
+              "酉月",
+              "戌月",
+              "未日"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "source_lines": [
+              154,
+              154
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 154,
+              "line_end": 154,
+              "byte_start": 7217,
+              "byte_end": 7501
+            },
+            "source_quote": "（4）何时去世？阴遁，年干丙、病神天芮均在内盘，主快主近；但年命辛在外盘，主迟，星门伏吟也主慢。年干丙死于酉月、墓于戌月；年命甲午辛，午午自刑，刑以合为应期，午未合；当死于酉月或戌月的未日。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "reference_only_no_diagnosis_or_case_specific_generalization",
+        "conventions": {
+          "complete_case_source_pointer": {
+            "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+            "line_start": 106,
+            "line_end": 164,
+            "byte_start": 5271,
+            "byte_end": 7786
+          },
+          "source_case_title": "女测父病",
+          "printed_step_order_preserved": true,
+          "timeline_notes": {
+            "source_order": "四步分析后才叙述测后医学告知和后续死亡反馈。",
+            "initial_known_lines": [
+              108,
+              112,
+              114
+            ],
+            "diagnosis_disclosed_after_analysis_line": 157,
+            "followup_report_line": 159,
+            "reported_date_explanation_line": 161,
+            "outcome_confirmation": "author_reported_not_independently_verified"
+          },
+          "usable_for_training": "candidate_only_requires_separate_temporal_and_event_split_validation",
+          "no_case_specific_method_auto_generalization": true,
+          "independent_prediction_accuracy": "not_measured",
+          "clinical_validity": "not_validated"
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 106,
+        "line_end": 164,
+        "byte_start": 5271,
+        "byte_end": 7786
+      },
+      "status": "structured_reference_only",
+      "historical_case": true,
+      "case_key": "health_case_02",
+      "case_completeness": "complete_as_supplied",
+      "chronology_notes": {
+        "source_order": "四步分析后才叙述测后医学告知和后续死亡反馈。",
+        "initial_known_lines": [
+          108,
+          112,
+          114
+        ],
+        "diagnosis_disclosed_after_analysis_line": 157,
+        "followup_report_line": 159,
+        "reported_date_explanation_line": 161,
+        "outcome_confirmation": "author_reported_not_independently_verified"
+      },
+      "integrity_policy": "完整故事、盘、对话、分析、预测、反馈与后续结果一起保留；不机械拆成通用规则"
+    },
+    {
+      "key": "health_case_03_complete",
+      "title": "实例03：测何时出院完整故事与作者分析",
+      "category": "analysis",
+      "line_start": 165,
+      "line_end": 232,
+      "attribution": "本章叙述者（本次材料未明确姓名）",
+      "summary": "小郑代侄问摔伤术后恢复与出院；一般摔伤和手术一开始已知，尾椎及失禁细节在作者初步分析后反馈，随后作者继续判断后遗症和日期。整段反馈续断与原盘保留。",
+      "concepts": [
+        "小郑",
+        "侄子",
+        "时干丙",
+        "年命乙",
+        "摔伤",
+        "术后",
+        "尾椎骨",
+        "大小便失禁",
+        "天芮震3",
+        "休门",
+        "天心",
+        "生门逢空",
+        "冲墓",
+        "出院日期",
+        "续断"
+      ],
+      "dataset": {
+        "key": "health_case_03_author_method_reference",
+        "rows": [
+          {
+            "key": "case_03_author_step_1",
+            "case_key": "health_case_03",
+            "step_number": 1,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "案例以时干为侄子，病神同宫及壬癸内盘，提出腰部和泌尿判断",
+            "explicit_symbol_evidence": [
+              "时干丙震3",
+              "天芮同宫",
+              "壬",
+              "癸",
+              "内盘"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "source_lines": [
+              206,
+              206
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 206,
+              "line_end": 206,
+              "byte_start": 8924,
+              "byte_end": 9095
+            },
+            "source_quote": "（1）以时干丙为他侄子，落震3宫，与病星天芮同宫，说明病伤在腰部；天芮星临壬、癸，又在内盘，说明病伤主要在泌尿系统。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_03_author_step_2",
+            "case_key": "health_case_03",
+            "step_number": 2,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "年命、干格、伤门九天，用于高处跌伤之象",
+            "explicit_symbol_evidence": [
+              "1975乙卯",
+              "年命乙离9",
+              "乙加庚",
+              "伤门",
+              "九天"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "source_lines": [
+              208,
+              208
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 208,
+              "line_end": 208,
+              "byte_start": 9096,
+              "byte_end": 9259
+            },
+            "source_quote": "（2）按年命看，1975年为乙卯年，年命乙落离九宫，乙+庚为日奇被刑凶格，又临伤门、九天，正是从高处掉下来摔伤之象。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_03_author_step_3",
+            "case_key": "health_case_03",
+            "step_number": 3,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "细节反馈后综合时干、年命旺相吉门、病星受制和医药，判断无后遗症及十三天范围",
+            "explicit_symbol_evidence": [
+              "时干丙震3",
+              "沐浴",
+              "月令",
+              "太岁",
+              "休门",
+              "天芮受制",
+              "年命乙离9",
+              "天心",
+              "内盘",
+              "值使休门震3"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "source_lines": [
+              214,
+              218
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 214,
+              "line_end": 218,
+              "byte_start": 9558,
+              "byte_end": 10058
+            },
+            "source_quote": "（3）时干丙在3宫虽为沐浴之地，但月令旺相，同时又为太岁，又临休门吉门；天芮病星落3宫受制，古云“天芮星落3、4宫不药而愈”，所以泌尿系统虽然受到影响，但并不严重。\n\n又年命乙在离宫为长生之地，癸巳月离宫又为旺相，又临天心星吉星，天心星为医生、医药，说明治疗及时得当。\n\n故断，留不下后遗症。时干在内盘，值使休门也在3宫，故断，最多超不过十三天。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_03_author_step_4",
+            "case_key": "health_case_03",
+            "step_number": 4,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "生门旬空填实和地盘乙入墓冲出，给出最晚5月20日出院之断",
+            "explicit_symbol_evidence": [
+              "甲午旬",
+              "辰巳空",
+              "生门巽4",
+              "地盘乙乾6",
+              "丙辰",
+              "丁巳"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "source_lines": [
+              224,
+              226
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 224,
+              "line_end": 226,
+              "byte_start": 10102,
+              "byte_end": 10372
+            },
+            "source_quote": "（4）甲午旬中辰、巳空，正好生门在四宫逢空亡，地盘乙奇在乾六宫为入墓为住院之象，填实之日，生门冲开死门，将乙奇冲出墓地，自然就可以出院了。\n\n5月19日丙辰、20日丁巳，最晚5月20日痊愈出院。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "reference_only_no_diagnosis_or_case_specific_generalization",
+        "conventions": {
+          "complete_case_source_pointer": {
+            "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+            "line_start": 165,
+            "line_end": 232,
+            "byte_start": 7786,
+            "byte_end": 10444
+          },
+          "source_case_title": "测何时出院",
+          "printed_step_order_preserved": true,
+          "timeline_notes": {
+            "source_order": "初断1、2在反馈前；3、4是在反馈和追加问话后的续断。",
+            "initial_known_lines": [
+              167,
+              171
+            ],
+            "detail_feedback_line": 211,
+            "continuation_lines": [
+              214,
+              226
+            ],
+            "reported_outcome_line": 229,
+            "initial_injury_fact": "摔伤、电工、术后并非模型或作者首次预测未知事实"
+          },
+          "usable_for_training": "candidate_only_requires_separate_temporal_and_event_split_validation",
+          "no_case_specific_method_auto_generalization": true,
+          "independent_prediction_accuracy": "not_measured",
+          "clinical_validity": "not_validated"
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 165,
+        "line_end": 232,
+        "byte_start": 7786,
+        "byte_end": 10444
+      },
+      "status": "structured_reference_only",
+      "historical_case": true,
+      "case_key": "health_case_03",
+      "case_completeness": "complete_as_supplied",
+      "chronology_notes": {
+        "source_order": "初断1、2在反馈前；3、4是在反馈和追加问话后的续断。",
+        "initial_known_lines": [
+          167,
+          171
+        ],
+        "detail_feedback_line": 211,
+        "continuation_lines": [
+          214,
+          226
+        ],
+        "reported_outcome_line": 229,
+        "initial_injury_fact": "摔伤、电工、术后并非模型或作者首次预测未知事实"
+      },
+      "integrity_policy": "完整故事、盘、对话、分析、预测、反馈与后续结果一起保留；不机械拆成通用规则"
+    },
+    {
+      "key": "health_case_04_complete",
+      "title": "实例04：测姨母病完整故事与作者分析",
+      "category": "analysis",
+      "line_start": 233,
+      "line_end": 289,
+      "attribution": "本章叙述者（本次材料未明确姓名）",
+      "summary": "冯春萍电话请王建国测姨母病，起局与六步分析的执行者是王建国。保留具体亲属关系、外盘头部类象、多角色与医药关系及三日应期，死亡为作者转述的结果。",
+      "concepts": [
+        "冯春萍",
+        "王建国",
+        "姨母",
+        "长辈",
+        "年干丙",
+        "坤宫",
+        "五不遇时",
+        "天芮离9",
+        "脑溢血",
+        "天心",
+        "乙奇",
+        "值使休门",
+        "癸亥日",
+        "壬子时"
+      ],
+      "dataset": {
+        "key": "health_case_04_author_method_reference",
+        "rows": [
+          {
+            "key": "case_04_author_step_1",
+            "case_key": "health_case_04",
+            "step_number": 1,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "时干克日干和五不遇时引文作为不利证据",
+            "explicit_symbol_evidence": [
+              "时干丙",
+              "日干庚",
+              "五不遇时"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "王建国",
+            "source_lines": [
+              273,
+              273
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 273,
+              "line_end": 273,
+              "byte_start": 11611,
+              "byte_end": 11718
+            },
+            "source_quote": "（1）时干丙克日干庚，为五不遇时，古人云“五不遇时人将逝”，为大凶之象。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_04_author_step_2",
+            "case_key": "health_case_04",
+            "step_number": 2,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "病宫外盘头部、干格与刑、丁玄武血液等组合，提出脑溢血判断",
+            "explicit_symbol_evidence": [
+              "天芮离9",
+              "外盘",
+              "辛加己",
+              "甲午辛",
+              "六仪击刑",
+              "丁",
+              "玄武",
+              "伤门生宫"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "王建国",
+            "source_lines": [
+              275,
+              275
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 275,
+              "line_end": 275,
+              "byte_start": 11719,
+              "byte_end": 11958
+            },
+            "source_quote": "（2）病星天芮落入离9宫，在外盘为头部，辛+己为入狱自刑凶格，甲午辛落9宫，为六仪击刑，丁奇、玄武主血液，凶门伤门生宫为旺，天芮落离宫受生，也为旺，据此断为脑溢血。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_04_author_step_3",
+            "case_key": "health_case_04",
+            "step_number": 3,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "具体姨母长辈取年干并看天地盘，提出不利判断",
+            "explicit_symbol_evidence": [
+              "年干丙兑7",
+              "死地",
+              "景门",
+              "地盘丙乾6",
+              "入墓",
+              "庚加丙",
+              "死门"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "王建国",
+            "source_lines": [
+              277,
+              277
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 277,
+              "line_end": 277,
+              "byte_start": 11959,
+              "byte_end": 12144
+            },
+            "source_quote": "（3）姨母为长辈，可以年干丙为其符号，丙落7宫为死地，景门旺相克宫，主大凶；地盘丙在6宫为入墓，庚+丙贼必来凶格，又临死门旺相。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_04_author_step_4",
+            "case_key": "health_case_04",
+            "step_number": 4,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "补看坤宫及女人乙奇，综合闭塞、干格和入墓",
+            "explicit_symbol_evidence": [
+              "坤2",
+              "杜门克宫",
+              "乙加辛",
+              "乙奇",
+              "入墓"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "王建国",
+            "source_lines": [
+              279,
+              279
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 279,
+              "line_end": 279,
+              "byte_start": 12145,
+              "byte_end": 12281
+            },
+            "source_quote": "（4）姨母还可看坤宫，坤宫杜门克宫，主闭塞不通，乙+辛龙逃走凶格，乙奇也为女人，在2宫为入墓。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_04_author_step_5",
+            "case_key": "health_case_04",
+            "step_number": 5,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "医药宫不能制病、反受病宫克及玄武昏迷，提出危重断语",
+            "explicit_symbol_evidence": [
+              "天心",
+              "乙奇",
+              "天芮",
+              "时干",
+              "玄武"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "王建国",
+            "source_lines": [
+              281,
+              281
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 281,
+              "line_end": 281,
+              "byte_start": 12282,
+              "byte_end": 12467
+            },
+            "source_quote": "（5）天心星、乙奇为医生、医药，均不克病星。相反，病星旺相克时干、克天心星，故病情危重已无救，玄武主昏迷，病人一直昏迷不醒。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_04_author_step_6",
+            "case_key": "health_case_04",
+            "step_number": 6,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "值使宫数和所临干，提出三天及癸亥日应期",
+            "explicit_symbol_evidence": [
+              "休门震3",
+              "癸",
+              "1996年5月26日癸亥"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "王建国",
+            "source_lines": [
+              283,
+              283
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 283,
+              "line_end": 283,
+              "byte_start": 12468,
+              "byte_end": 12627
+            },
+            "source_quote": "（6）值使休门落3宫，从现在起，难以超过三天，值使门所临之干为应期，休门临癸，5月26日癸亥，这一天恐怕过不去。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "reference_only_no_diagnosis_or_case_specific_generalization",
+        "conventions": {
+          "complete_case_source_pointer": {
+            "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+            "line_start": 233,
+            "line_end": 289,
+            "byte_start": 10444,
+            "byte_end": 12798
+          },
+          "source_case_title": "测姨母病",
+          "printed_step_order_preserved": true,
+          "timeline_notes": {
+            "source_order": "王建国六步分析后叙述通知及死亡结果。",
+            "forecaster": "王建国",
+            "narrator": "本章叙述者，未署名",
+            "initial_known_lines": [
+              235,
+              237,
+              239
+            ],
+            "reported_outcome_line": 286,
+            "medical_diagnosis_status": "原文未提供独立医院脑溢血诊断反馈",
+            "void_attribution": "本案原文没有天芮离宫逢旬空的句子，不添加该断言"
+          },
+          "usable_for_training": "candidate_only_requires_separate_temporal_and_event_split_validation",
+          "no_case_specific_method_auto_generalization": true,
+          "independent_prediction_accuracy": "not_measured",
+          "clinical_validity": "not_validated"
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 233,
+        "line_end": 289,
+        "byte_start": 10444,
+        "byte_end": 12798
+      },
+      "status": "structured_reference_only",
+      "historical_case": true,
+      "case_key": "health_case_04",
+      "case_completeness": "complete_as_supplied",
+      "chronology_notes": {
+        "source_order": "王建国六步分析后叙述通知及死亡结果。",
+        "forecaster": "王建国",
+        "narrator": "本章叙述者，未署名",
+        "initial_known_lines": [
+          235,
+          237,
+          239
+        ],
+        "reported_outcome_line": 286,
+        "medical_diagnosis_status": "原文未提供独立医院脑溢血诊断反馈",
+        "void_attribution": "本案原文没有天芮离宫逢旬空的句子，不添加该断言"
+      },
+      "integrity_policy": "完整故事、盘、对话、分析、预测、反馈与后续结果一起保留；不机械拆成通用规则"
+    },
+    {
+      "key": "health_case_05_complete",
+      "title": "实例05：当场测病完整故事与作者分析",
+      "category": "analysis",
+      "line_start": 290,
+      "line_end": 364,
+      "attribution": "本章叙述者（本次材料未明确姓名）",
+      "summary": "研讨班现场只选阮长生测病；集体分析后作者归纳六步，再由阮转述已知自身病史。身体外观、企业家身份的可知时点与作者括注不扩写为盲测未知；现场自述不是独立临床或现实预测准确率统计。",
+      "concepts": [
+        "阮长生",
+        "杜新会",
+        "现场研讨班",
+        "日干癸",
+        "天芮震3",
+        "玄武",
+        "天心",
+        "时干庚",
+        "六合",
+        "车祸",
+        "脂肪肝",
+        "心律",
+        "糖尿病",
+        "脑囊肿",
+        "反馈"
+      ],
+      "dataset": {
+        "key": "health_case_05_author_method_reference",
+        "rows": [
+          {
+            "key": "case_05_author_step_1",
+            "case_key": "health_case_05",
+            "step_number": 1,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "日干旺相、宫象与值符解释身份及事业状态",
+            "explicit_symbol_evidence": [
+              "日干癸乾6",
+              "帝旺",
+              "戌月",
+              "乾为头",
+              "值符"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "source_lines": [
+              344,
+              344
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 344,
+              "line_end": 344,
+              "byte_start": 14738,
+              "byte_end": 14927
+            },
+            "source_quote": "（1）日干癸在乾6宫为帝旺之地，戌月乾宫当令，乾为头，又上乘值符，这很符合他的身份，是个民营大企业的老板，正处在事业的旺相时期。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_05_author_step_2",
+            "case_key": "health_case_05",
+            "step_number": 2,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "病星所临丁癸、死门玄武和宫象，提出心脏及脂肪肝判断",
+            "explicit_symbol_evidence": [
+              "天芮震3",
+              "玄武",
+              "丁",
+              "丁加癸",
+              "丁癸相冲",
+              "死门",
+              "辛加癸"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "source_lines": [
+              346,
+              346
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 346,
+              "line_end": 346,
+              "byte_start": 14928,
+              "byte_end": 15206
+            },
+            "source_quote": "（2）病星天芮落入震3宫，上乘玄武，有暗疾。天芮星临丁，丁主心脏，丁+癸雀投江凶格，丁癸相冲，说明心脏不好，有时心律不齐、心跳快；震主肝胆，临死门、玄武，辛+癸网盖天牢，可能有陈旧性脂肪肝。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_05_author_step_3",
+            "case_key": "health_case_05",
+            "step_number": 3,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "时干亦看疾病，多病与头部判断",
+            "explicit_symbol_evidence": [
+              "时干庚离9",
+              "六合",
+              "开门",
+              "天心",
+              "离火克金"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "source_lines": [
+              348,
+              348
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 348,
+              "line_end": 348,
+              "byte_start": 15207,
+              "byte_end": 15399
+            },
+            "source_quote": "（3）时干也代表所问的疾病。时干庚落离9宫，上乘六合，说明还不止一种病。庚在离宫受克，开门、天心星均受离火之克，说明头部也有问题。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_05_author_step_4",
+            "case_key": "health_case_05",
+            "step_number": 4,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "伤门车辆、天冲及干格冲，用于既往车祸头伤判断",
+            "explicit_symbol_evidence": [
+              "伤门乾6",
+              "天冲",
+              "癸加庚",
+              "寅申冲",
+              "乾为头"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "source_lines": [
+              350,
+              350
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 350,
+              "line_end": 350,
+              "byte_start": 15400,
+              "byte_end": 15587
+            },
+            "source_quote": "（4）伤门在乾6宫，伤门主车辆，主伤灾，又临天冲星，癸+庚为太白入网凶格，寅、申相冲，据此，可能还出过车祸，乾为头，头部受过伤。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_05_author_step_5",
+            "case_key": "health_case_05",
+            "step_number": 5,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "水道类象和地盘仪击刑等组合，提出泌尿生殖问题",
+            "explicit_symbol_evidence": [
+              "坎1",
+              "杜门",
+              "壬加丙",
+              "地盘壬巽4",
+              "六仪击刑",
+              "白虎",
+              "惊门",
+              "天柱",
+              "己加壬"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "source_lines": [
+              352,
+              352
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 352,
+              "line_end": 352,
+              "byte_start": 15588,
+              "byte_end": 15866
+            },
+            "source_quote": "（5）另外，坎宫临杜门，壬+丙为水蛇入火凶格，壬主水道、泌尿系统，结合地盘壬在巽4宫为六仪击刑，巽宫也主经络系统，但受白虎、惊门、天柱之克，己+壬为地网高张凶格，据此，泌尿生殖系统也有毛病。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_05_author_step_6",
+            "case_key": "health_case_05",
+            "step_number": 6,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "日干旺克病宫及病星死门受制，综合现状和及时用药判断",
+            "explicit_symbol_evidence": [
+              "日干癸乾6",
+              "天芮震3",
+              "死门",
+              "宫木克土",
+              "时干",
+              "天心",
+              "乙奇"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "source_lines": [
+              354,
+              354
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 354,
+              "line_end": 354,
+              "byte_start": 15867,
+              "byte_end": 16162
+            },
+            "source_quote": "（6）但是，日干癸在帝旺之地，克病星所在3宫，病星天芮和死门落3宫本身就受宫木之克，凶不起来。因此虽然有这些暗疾和伤灾，但总的说，目前身体还不错。时干又临天心星和乙奇，有病也治疗及时，同时随身带着药。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "reference_only_no_diagnosis_or_case_specific_generalization",
+        "conventions": {
+          "complete_case_source_pointer": {
+            "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+            "line_start": 290,
+            "line_end": 364,
+            "byte_start": 12798,
+            "byte_end": 16664
+          },
+          "source_case_title": "当场测病",
+          "printed_step_order_preserved": true,
+          "timeline_notes": {
+            "source_order": "学生分析无逐人原始内容；保留作者六步归纳，后接当事人反馈。",
+            "initial_known_lines": [
+              292,
+              294,
+              296,
+              298,
+              300,
+              302,
+              304,
+              336
+            ],
+            "feedback_line": 359,
+            "author_value_claim_line": 361,
+            "parenthetical_1989_analysis_availability": "反馈句中括注的发言者和判断时点未明确，不前置作事前证据",
+            "specific_diabetes_forecast": "反馈提糖尿病，原文作者没有明确先断出糖尿病"
+          },
+          "usable_for_training": "candidate_only_requires_separate_temporal_and_event_split_validation",
+          "no_case_specific_method_auto_generalization": true,
+          "independent_prediction_accuracy": "not_measured",
+          "clinical_validity": "not_validated"
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 290,
+        "line_end": 364,
+        "byte_start": 12798,
+        "byte_end": 16664
+      },
+      "status": "structured_reference_only",
+      "historical_case": true,
+      "case_key": "health_case_05",
+      "case_completeness": "complete_as_supplied",
+      "chronology_notes": {
+        "source_order": "学生分析无逐人原始内容；保留作者六步归纳，后接当事人反馈。",
+        "initial_known_lines": [
+          292,
+          294,
+          296,
+          298,
+          300,
+          302,
+          304,
+          336
+        ],
+        "feedback_line": 359,
+        "author_value_claim_line": 361,
+        "parenthetical_1989_analysis_availability": "反馈句中括注的发言者和判断时点未明确，不前置作事前证据",
+        "specific_diabetes_forecast": "反馈提糖尿病，原文作者没有明确先断出糖尿病"
+      },
+      "integrity_policy": "完整故事、盘、对话、分析、预测、反馈与后续结果一起保留；不机械拆成通用规则"
+    },
+    {
+      "key": "health_case_06_complete",
+      "title": "实例06：测外出求医完整故事与作者分析",
+      "category": "analysis",
+      "line_start": 365,
+      "line_end": 431,
+      "attribution": "本章叙述者（本次材料未明确姓名）",
+      "summary": "田诒忠电话问妻子赴西安求医是否适合，作者按来电时起局，综合病星医药及伏吟后劝留当地；不外出的决定和数月后反馈完整保存。宣传报道仅来电所述，其他赴诊者坏结果属转述，妻子未赴西安无反事实治疗实测。",
+      "concepts": [
+        "田诒忠",
+        "妻子",
+        "肾炎",
+        "外出求医",
+        "胡万林",
+        "玄武",
+        "虚假宣传",
+        "天心乙奇",
+        "伏吟",
+        "主客",
+        "深圳",
+        "西安",
+        "后续电话",
+        "病情稳定"
+      ],
+      "dataset": {
+        "key": "health_case_06_author_method_reference",
+        "rows": [
+          {
+            "key": "case_06_author_step_1",
+            "case_key": "health_case_06",
+            "step_number": 1,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "病星伏吟、六合与壬丙类象，提出不止一种病及心脏病判断",
+            "explicit_symbol_evidence": [
+              "天芮坤2",
+              "六合",
+              "壬",
+              "丙",
+              "时干癸"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "source_lines": [
+              410,
+              410
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 410,
+              "line_end": 410,
+              "byte_start": 18452,
+              "byte_end": 18686
+            },
+            "source_quote": "（1）天芮病星在坤2宫伏吟，上乘六合，确实不止一种病，临壬，壬主肾脏和泌尿系统，临丙，丙主心脏和小肠，不仅有肾炎，还有心脏病。时干癸也主病，也主肾和泌尿系统。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_06_author_step_2",
+            "case_key": "health_case_06",
+            "step_number": 2,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "宫态与月令状态、吉神和时干，综合病不严重之断",
+            "explicit_symbol_evidence": [
+              "天芮坤宫相",
+              "子月水旺土囚",
+              "芮星克水",
+              "六合",
+              "时干癸",
+              "值符"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "source_lines": [
+              412,
+              412
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 412,
+              "line_end": 412,
+              "byte_start": 18687,
+              "byte_end": 18857
+            },
+            "source_quote": "（2）天芮病星在坤宫为相，但子月水旺土囚，芮星克水，处于休囚状态，又上乘六合吉神，时干癸上乘值符，故而病并不严重。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_06_author_step_3",
+            "case_key": "health_case_06",
+            "step_number": 3,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "医生在外盘西北、玄武及乙墓与病宫生克，用于宣传和疗效怀疑",
+            "explicit_symbol_evidence": [
+              "天心乾6",
+              "乙奇乾6",
+              "外盘西北",
+              "玄武",
+              "乙奇入墓",
+              "天芮生医"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "source_lines": [
+              414,
+              414
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 414,
+              "line_end": 414,
+              "byte_start": 18858,
+              "byte_end": 19028
+            },
+            "source_quote": "（3）天心星、乙奇为医生正处外盘西北方位，但上乘玄武，有虚假宣传现象，而且乙奇入墓，不但不克天芮病星，反而受其生。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_06_author_step_4",
+            "case_key": "health_case_06",
+            "step_number": 4,
+            "knowledge_kind": "case_specific_author_analysis",
+            "analysis_focus": "星门伏吟利主不利客作为不宜外出证据",
+            "explicit_symbol_evidence": [
+              "星门伏吟",
+              "主客",
+              "外出求医"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "印刷分析序号不是知识可用时间；以案例记录的逐轮信息边界为准",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "source_lines": [
+              416,
+              416
+            ],
+            "source_pointer": {
+              "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+              "line_start": 416,
+              "line_end": 416,
+              "byte_start": 19029,
+              "byte_end": 19106
+            },
+            "source_quote": "（4）星、门伏吟利主不利客，不宜行动，不宜外出求医。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "reference_only_no_diagnosis_or_case_specific_generalization",
+        "conventions": {
+          "complete_case_source_pointer": {
+            "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+            "line_start": 365,
+            "line_end": 431,
+            "byte_start": 16664,
+            "byte_end": 20031
+          },
+          "source_case_title": "测外出求医",
+          "printed_step_order_preserved": true,
+          "timeline_notes": {
+            "source_order": "来电已知妻子肾炎和宣传报道；四步分析后回电建议，后有不外出决定和1998年3月反馈。",
+            "initial_known_lines": [
+              367,
+              369,
+              371,
+              373,
+              375
+            ],
+            "prediction_lines": [
+              419,
+              423
+            ],
+            "decision_line": 425,
+            "followup_lines": [
+              427,
+              431
+            ],
+            "counterfactual_treatment_outcome": "wife_did_not_travel_no_observed_xian_treatment_result",
+            "other_patient_outcomes": "second_hand_report_only",
+            "medical_advice_policy": "保存原书劝药和不赴外地等断语，不转成当前读者医疗建议"
+          },
+          "usable_for_training": "candidate_only_requires_separate_temporal_and_event_split_validation",
+          "no_case_specific_method_auto_generalization": true,
+          "independent_prediction_accuracy": "not_measured",
+          "clinical_validity": "not_validated"
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 365,
+        "line_end": 431,
+        "byte_start": 16664,
+        "byte_end": 20031
+      },
+      "status": "structured_reference_only",
+      "historical_case": true,
+      "case_key": "health_case_06",
+      "case_completeness": "complete_as_supplied",
+      "chronology_notes": {
+        "source_order": "来电已知妻子肾炎和宣传报道；四步分析后回电建议，后有不外出决定和1998年3月反馈。",
+        "initial_known_lines": [
+          367,
+          369,
+          371,
+          373,
+          375
+        ],
+        "prediction_lines": [
+          419,
+          423
+        ],
+        "decision_line": 425,
+        "followup_lines": [
+          427,
+          431
+        ],
+        "counterfactual_treatment_outcome": "wife_did_not_travel_no_observed_xian_treatment_result",
+        "other_patient_outcomes": "second_hand_report_only",
+        "medical_advice_policy": "保存原书劝药和不赴外地等断语，不转成当前读者医疗建议"
+      },
+      "integrity_policy": "完整故事、盘、对话、分析、预测、反馈与后续结果一起保留；不机械拆成通用规则"
+    }
+  ],
+  "quality_issues": [
+    {
+      "key": "no_printed_chapter_number",
+      "line_start": 1,
+      "line_end": 4,
+      "kind": "source_scope",
+      "detail": "章标题及节标题未标印刷章号。",
+      "handling": "使用health-prediction技术键，不反推缺失章号，不重命名已保存章节。",
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 1,
+        "line_end": 4,
+        "byte_start": 0,
+        "byte_end": 50
+      }
+    },
+    {
+      "key": "body_mapping_analogy_not_clinical_fact",
+      "line_start": 6,
+      "line_end": 26,
+      "kind": "interpretive_scope",
+      "detail": "作者明称人体九宫对应是大致比附；同宫还可对应多个体表与体内部位。",
+      "handling": "固定属性、类象和作者疾病判断分开；8宫映射仅参考，不编译诊断或医学疗效。",
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 6,
+        "line_end": 26,
+        "byte_start": 51,
+        "byte_end": 2069
+      }
+    },
+    {
+      "key": "center_body_analogy_not_given",
+      "line_start": 6,
+      "line_end": 23,
+      "kind": "coverage_boundary",
+      "detail": "本节以9宫格模拟人体，但只明述八个外宫的人体比附，未给中5独立人体部位。",
+      "handling": "不补中宫人体映射；不据此否定原文完整性。",
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 6,
+        "line_end": 23,
+        "byte_start": 51,
+        "byte_end": 1499
+      }
+    },
+    {
+      "key": "integrated_disease_evidence_not_single_symbol",
+      "line_start": 24,
+      "line_end": 26,
+      "kind": "applicability_boundary",
+      "detail": "原文病神主符号与医药符号需要兼门、仪、神、格局、时令及落宫生克综合。",
+      "handling": "未知盘面或时令不默认满足；天芮、死门或庚等不自动绑定具体癌症、死亡或疗效断语。",
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 24,
+        "line_end": 26,
+        "byte_start": 1499,
+        "byte_end": 2069
+      }
+    },
+    {
+      "key": "historical_cases_six_complete_stories",
+      "line_start": 30,
+      "line_end": 431,
+      "kind": "case_integrity",
+      "detail": "本节明确给六例完整叙事，每例单盘但可有多轮判断、反馈、既往事件和未来断语。",
+      "handling": "保留六个完整案例；同案多轮不拆成不同事件家族，历史事件与问事事件的子关系由案例模块记录。",
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 30,
+        "line_end": 431,
+        "byte_start": 2072,
+        "byte_end": 20031
+      }
+    },
+    {
+      "key": "original_compact_chart_layer_not_overread",
+      "line_start": 76,
+      "line_end": 405,
+      "kind": "chart_representation",
+      "detail": "六盘门位和星位栏都含干，部分格含前缀中宫干，例如庚伤乙、丙休壬、丁伤辛；八神为单字简称。",
+      "handling": "保留原格原字符串及原中宫；只依据已提供排盘约定另存解释，不用列名直接等同完整天盘地盘，不补原表未印天禽/中门事实。",
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 76,
+        "line_end": 405,
+        "byte_start": 3311,
+        "byte_end": 18439
+      }
+    },
+    {
+      "key": "civil_time_precision_and_zone_not_given",
+      "line_start": 35,
+      "line_end": 431,
+      "kind": "calendar_boundary",
+      "detail": "六例时间有4点多、4点左右、晚上及9点多，只有个别到分钟；原文未规定时区、经纬度、换日约定。",
+      "handling": "按原精度保存；作者给出的四柱、局数独立于程序复算状态，不填造分钟、时区或经纬度。",
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 35,
+        "line_end": 431,
+        "byte_start": 2136,
+        "byte_end": 20031
+      }
+    },
+    {
+      "key": "case_01_birth_information_after_first_predictions",
+      "line_start": 39,
+      "line_end": 55,
+      "kind": "temporal_boundary",
+      "detail": "手术和1991年判断及相应反馈在前，1943年出生信息到第53行才披露。",
+      "handling": "年命和依出生年解释不得倒灌到最初手术/年份任务输入；后置书面分析不能整体标成事前已知。",
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 39,
+        "line_end": 55,
+        "byte_start": 2415,
+        "byte_end": 3001
+      }
+    },
+    {
+      "key": "case_01_future_survival_not_followed_up",
+      "line_start": 88,
+      "line_end": 102,
+      "kind": "outcome_scope",
+      "detail": "原文预测明年关口及再活五年十年，没有提供该未来寿命的实际结果。",
+      "handling": "原文已反馈的手术细节与未来寿命预测分别记，后者reported_feedback缺失不算兑现，也不要求补原书背景。",
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 88,
+        "line_end": 102,
+        "byte_start": 3722,
+        "byte_end": 5268
+      }
+    },
+    {
+      "key": "case_01_age_convention_not_recalculated",
+      "line_start": 53,
+      "line_end": 98,
+      "kind": "calendar_boundary",
+      "detail": "生于1943年正月与1997年54周岁为作者原述。",
+      "handling": "完整保留年龄说法；未给确切生日不自行验证周岁、生日换年或改动原句。",
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 53,
+        "line_end": 98,
+        "byte_start": 2832,
+        "byte_end": 4770
+      }
+    },
+    {
+      "key": "case_02_xun_void_and_central_hosting_scope",
+      "line_start": 112,
+      "line_end": 154,
+      "kind": "technical_review",
+      "detail": "作者以甲申旬、离9年干与寄坤天芮空亡参与判断；禽为值符和中宫庚的寄宫字段须分辨。",
+      "handling": "保留星门伏吟、原盘和作者空亡判断；空亡/寄宫的程序校验独立记录，不用程序未覆盖否定原文。",
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 112,
+        "line_end": 154,
+        "byte_start": 5478,
+        "byte_end": 7501
+      }
+    },
+    {
+      "key": "case_02_xin_xun_tomb_and_wuwu_punishment",
+      "line_start": 152,
+      "line_end": 154,
+      "kind": "source_interpretation_review",
+      "detail": "同段原文说年命辛落巽四入墓（辰为辛墓），又说六仪击刑（午午自刑）；后段再次午午自刑。",
+      "handling": "保留原句与本宫/实际落宫范围待技术解释标记，不擅改辛落宫、不把本宫刑自动当实际宫刑，不编译普适规则。",
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 152,
+        "line_end": 154,
+        "byte_start": 6857,
+        "byte_end": 7501
+      }
+    },
+    {
+      "key": "case_02_hospital_information_revealed_after_analysis",
+      "line_start": 157,
+      "line_end": 161,
+      "kind": "temporal_boundary",
+      "detail": "食道癌长八厘米及他人梅核气判断是测后才告知；9月7日死亡由9月13日电话反馈。",
+      "handling": "医院原先是否已检查和作者何时获知分开；初始预测输入不能包含157行，结果属作者转述而非独立核验。",
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 157,
+        "line_end": 161,
+        "byte_start": 7503,
+        "byte_end": 7783
+      }
+    },
+    {
+      "key": "case_03_initial_injury_already_known",
+      "line_start": 167,
+      "line_end": 211,
+      "kind": "temporal_boundary",
+      "detail": "起问时电工、摔伤、昨天手术已知；尾椎和失禁等细节在211行初步分析后反馈。",
+      "handling": "区分已知事故、初断细节和反馈后的续断；不将全部事故当未知预测，也不提前注入后反馈细节。",
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 167,
+        "line_end": 211,
+        "byte_start": 7815,
+        "byte_end": 9556
+      }
+    },
+    {
+      "key": "case_03_general_cure_phrase_case_context_only",
+      "line_start": 214,
+      "line_end": 218,
+      "kind": "applicability_boundary",
+      "detail": "本案引用天芮落3、4宫不药而愈，但本例同时有术后治疗、医药星等条件。",
+      "handling": "引用作为本案作者采用的说法，不升格成天芮在木宫即可无需就医或保证无后遗症的通用医学规则。",
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 214,
+        "line_end": 218,
+        "byte_start": 9558,
+        "byte_end": 10058
+      }
+    },
+    {
+      "key": "case_03_timing_date_branch_author_supplied",
+      "line_start": 224,
+      "line_end": 229,
+      "kind": "calendar_boundary",
+      "detail": "辰巳空、丙辰/丁巳日期和5月20日拆线出院均是原文给定。",
+      "handling": "保存原文日期对照和作者应期；公历干支、空亡与出院结果的独立核验不冒充已完成。",
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 224,
+        "line_end": 229,
+        "byte_start": 10102,
+        "byte_end": 10441
+      }
+    },
+    {
+      "key": "case_04_forecaster_is_wang_not_narrator",
+      "line_start": 235,
+      "line_end": 286,
+      "kind": "attribution",
+      "detail": "案例由王建国按来电时间起局和作判断，章叙述者转述；不能默认都是叙述者亲断。",
+      "handling": "分析与预测归王建国，报告叙述归本章作者；死亡反馈亦保持转述级别。",
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 235,
+        "line_end": 286,
+        "byte_start": 10470,
+        "byte_end": 12795
+      }
+    },
+    {
+      "key": "case_04_no_void_assertion_or_hospital_diagnosis",
+      "line_start": 273,
+      "line_end": 286,
+      "kind": "evidence_boundary",
+      "detail": "本案天芮在离9，原文没有说该宫逢旬空，也未提供医院证实脑溢血的独立诊断记录。",
+      "handling": "不新增旬空或已获医院确诊断言；作者脑溢血判断与后述死亡分开。",
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 273,
+        "line_end": 286,
+        "byte_start": 11611,
+        "byte_end": 12795
+      }
+    },
+    {
+      "key": "case_05_feedback_not_earlier_evidence",
+      "line_start": 344,
+      "line_end": 361,
+      "kind": "temporal_boundary",
+      "detail": "六步归纳之后阮长生才说高血压、糖尿病、既往车祸和脑囊肿等；反馈句内1989括注解释的发言者/时间未明。",
+      "handling": "不将359行或括注回填成作者事前证据；作者未明确先断出糖尿病，不把反馈病名充作命中项。",
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 344,
+        "line_end": 361,
+        "byte_start": 14738,
+        "byte_end": 16661
+      }
+    },
+    {
+      "key": "case_05_group_analysis_not_reconstructed",
+      "line_start": 338,
+      "line_end": 344,
+      "kind": "explicitness_boundary",
+      "detail": "原文只说学生七嘴八舌分析，没有逐人发言或各人证据。",
+      "handling": "只保存作者六步归纳，不虚构学生推理或未记录内部思路。",
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 338,
+        "line_end": 344,
+        "byte_start": 14462,
+        "byte_end": 14927
+      }
+    },
+    {
+      "key": "case_05_value_claim_not_accuracy_measurement",
+      "line_start": 290,
+      "line_end": 361,
+      "kind": "evaluation_boundary",
+      "detail": "作者称现场试验并报告四十多名学员体验应用价值，没有盲法、全部失败项或独立诊断统计。",
+      "handling": "保存为作者叙述，不计算现实诊断准确率或以现场人数当评估样本数。",
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 290,
+        "line_end": 361,
+        "byte_start": 12798,
+        "byte_end": 16661
+      }
+    },
+    {
+      "key": "case_06_reported_publication_claims_are_not_verified",
+      "line_start": 367,
+      "line_end": 369,
+      "kind": "attribution",
+      "detail": "关于胡万林和治愈成千上万患者的报道是老同学来电叙述的背景。",
+      "handling": "作为来电已知信息和被质疑宣传保存；不做外网考证、不当项目认可的医学事实，也不导入该书内容。",
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 367,
+        "line_end": 369,
+        "byte_start": 16693,
+        "byte_end": 17422
+      }
+    },
+    {
+      "key": "case_06_no_observed_counterfactual_trip",
+      "line_start": 421,
+      "line_end": 431,
+      "kind": "evaluation_boundary",
+      "detail": "妻子听从建议没有赴西安；后来所述别人的治疗坏结果是电话转述，妻子好转未给可控治疗资料。",
+      "handling": "无妻子赴西安后的观察结果，不把不去的建议记为反事实疗效验证；她好转仅作者转述的病情反馈。",
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 421,
+        "line_end": 431,
+        "byte_start": 19149,
+        "byte_end": 20031
+      }
+    },
+    {
+      "key": "case_06_source_treatment_advice_not_current_advice",
+      "line_start": 421,
+      "line_end": 423,
+      "kind": "product_boundary",
+      "detail": "原文有吃点中药、调整办法和不赴西安的具体建议，但未写药方或调整细节。",
+      "handling": "原句作为历史断语保留；不补药方、调整法或给当前用户推荐用药与就医取舍。",
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 421,
+        "line_end": 423,
+        "byte_start": 19149,
+        "byte_end": 19617
+      }
+    },
+    {
+      "key": "case_sources_complete_while_computation_pending",
+      "line_start": 33,
+      "line_end": 431,
+      "kind": "status_separation",
+      "detail": "六个案例原文及九宫表均按本次输入完整提供；部分算法/语义仍可未编译或待程序校验。",
+      "handling": "分别追踪原文完整、结构化、来源确认、程序复算与评分状态；技术未覆盖不要求用户补原书未记载条件。",
+      "source_pointer": {
+        "source_sha256": "73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d",
+        "line_start": 33,
+        "line_end": 431,
+        "byte_start": 2107,
+        "byte_end": 20031
+      }
+    }
+  ],
+  "worked_examples": [],
+  "source_review_status": "pending_explicit_collation_confirmation",
+  "compilation_scope": "No new compiled dataset or professional diagnostic rule; eight context-complete reference families only. Source review acceptance and case parsing/calculation/evaluation remain separate.",
+  "coverage_policy": "10 primary complete-context groups partition all 431 source lines; each of the six cases remains one whole narrative context. Case-specific author printed analysis steps are reference rows within that complete case, never standalone universal rules.",
+  "case_handoff": {
+    "case_count": 6,
+    "complete_case_keys": [
+      "health_case_01",
+      "health_case_02",
+      "health_case_03",
+      "health_case_04",
+      "health_case_05",
+      "health_case_06"
+    ],
+    "complete_case_ranges": [
+      [
+        33,
+        105
+      ],
+      [
+        106,
+        164
+      ],
+      [
+        165,
+        232
+      ],
+      [
+        233,
+        289
+      ],
+      [
+        290,
+        364
+      ],
+      [
+        365,
+        431
+      ]
+    ],
+    "case_records_owned_by": "separate_case_import_agent",
+    "historical_cases_not_counted_as_teaching_worked_examples": true,
+    "source_story_completeness": "complete_as_supplied",
+    "engine_recomputation_not_equivalent_to_source_acceptance": true
+  },
+  "engineering_missing_information_policy": {
+    "basis": "user project charter; not an attributed source quotation",
+    "behavior": "Do not invent missing chronology, source facts, birth detail, medical diagnosis, exact time or calendar convention. Preserve unknown availability and separate known symptoms, author claims and reported outcomes."
+  },
+  "source_scope": "Only actual 431-line user-provided 人体疾病预测 upload. No old project, plugin books, external case facts or model-memory completion.",
+  "medical_product_policy": {
+    "basis": "user master specification, not this historical book",
+    "use": "Traditional historical knowledge and author method study; no clinical diagnosis, medication or survival assurance. Public care guidance and urgent symptoms require real medical assistance."
+  },
+  "dataset_summary": {
+    "reference_families": 8,
+    "body_analogy_rows": 8,
+    "integrated_judgment_rows": 2,
+    "case_specific_author_steps": 29,
+    "compiled_families": 0,
+    "formal_role_rules": 0,
+    "training_tasks": 0
+  }
+}

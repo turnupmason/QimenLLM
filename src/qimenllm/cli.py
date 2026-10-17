@@ -44,6 +44,10 @@ def main(argv=None):
     candidates.add_argument('--method')
     case = subs.add_parser('case'); case.add_argument('case_id')
     case.add_argument('--view',choices=('full','before_prediction'),default='full')
+    cases = subs.add_parser('cases'); cases.add_argument('--chapter-key')
+    case_chart = subs.add_parser('case-chart')
+    case_chart.add_argument('case_id'); case_chart.add_argument('chart_id')
+    case_chart.add_argument('--comparison-method')
     calculate = subs.add_parser('calculate'); calculate.add_argument('operation')
     calc_input=calculate.add_mutually_exclusive_group()
     calc_input.add_argument('--args',default='{}'); calc_input.add_argument('--args-file',type=Path)
@@ -87,6 +91,8 @@ def main(argv=None):
         elif args.command=='rule-candidates':
             result=service.rule_candidates(json.loads(args.context),args.domain,args.method)
         elif args.command=='case': result=service.case(args.case_id,args.view)
+        elif args.command=='cases': result=service.cases(args.chapter_key)
+        elif args.command=='case-chart': result=service.case_chart(args.case_id,args.chart_id,args.comparison_method)
         elif args.command=='reference': result=service.reference(args.family,json.loads(args.filters))
         elif args.command=='calculate':
             payload=json.loads(args.args_file.read_bytes() if args.args_file else args.args)

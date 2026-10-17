@@ -12,6 +12,31 @@ from pathlib import Path
 from ..knowledge.db import connect, digest
 
 
+def list_cases(db,chapter_key=None):
+    """Historical learning catalog. Titles are not evaluation inputs."""
+    if chapter_key is not None and (not isinstance(chapter_key,str) or not chapter_key):
+        raise ValueError('Nonempty chapter key required')
+    query='''SELECT ca.case_id,ca.title,ca.completeness,ch.chapter_key,ch.title AS chapter,
+        b.title AS book,ca.source_id FROM cases ca JOIN source_spans s USING(source_id)
+        JOIN chapter_revisions cr USING(revision_id) JOIN chapters ch USING(chapter_id)
+        JOIN books b USING(book_id)'''
+    params=[]
+    if chapter_key is not None: query+=' WHERE ch.chapter_key=?'; params.append(chapter_key)
+    query+=' ORDER BY ch.sequence,s.byte_start,ca.case_id'
+    with connect(db) as conn:
+        entries=[]
+        for row in conn.execute(query,params):
+            item=dict(row)
+            item['events']=[{'event_id':e['event_id'],'family_id':e['family_id'],
+                'chart_ids':[c[0] for c in conn.execute('SELECT chart_id FROM charts WHERE event_id=? ORDER BY chart_id',(e['event_id'],))]}
+                for e in conn.execute('''SELECT e.* FROM case_events ce JOIN events e USING(event_id)
+                    WHERE ce.case_id=? ORDER BY ce.sequence''',(row['case_id'],))]
+            entries.append(item)
+    return {'status':'sources_found' if entries else 'not_found','total':len(entries),'cases':entries,
+            'purpose':'historical_learning_catalog_not_prediction_input','training_export':False,
+            'professional_analysis_completed':False}
+
+
 def _source(conn, source_id: str) -> dict:
     row = conn.execute('''SELECT s.*,d.content,d.sha256,c.chapter_key,c.title AS chapter_title,
             b.book_key,b.title AS book_title FROM source_spans s
