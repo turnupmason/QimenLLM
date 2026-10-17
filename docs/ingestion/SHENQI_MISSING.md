@@ -34,3 +34,6 @@
 本次源盘采用四行无标签框线格，按源SHA增加只读投影约定；每宫保留原文四行、列号、原字、门/星前缀和中心原干。原有三行带标签框线及四列表流程不改。11盘同ID读取，99宫与独立字面抄录missing_gold.json逐格核对，投影不等于独立历法复算或专业断案。没有schema迁移、新目录、workflow增删或第二套服务入口。
 
 25张旧权威表逐字段全保留、12旧原文逐字节不变；快照恢复再导出一致。旧经营测试43故事/45盘的历史基准改为只统计排序≤12的原11份章节，避免新章增量影响旧基准，未修改旧案例、原文或gold。真实验收、数据版本和远端CI见STATUS及data/provenance/missing_validation.json。
+
+
+远端内容验收：`84fa396a42d59c3b22275cd64e2101e231a63df3` 已核对main一致、260文件blob匹配；[Actions 39072386318](https://github.com/turnupmason/QimenLLM/actions/runs/39072386318) 的Ubuntu/macOS × Python3.11/3.12四job全部success，四份日志均实际Ran 291 tests / OK。通过已连接GitHub Git Data接口非强制更新，未改变workflow。此处保存已实际验收的内容提交；本验收文档的后续提交本身仍按精确新SHA另查四CI，不以旧CI替代。
