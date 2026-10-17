@@ -1,0 +1,3754 @@
+{
+  "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+  "source_byte_count": 56047,
+  "source_line_count": 1366,
+  "chapter_title": "经营求财预测",
+  "chapter_key_suggestion": "business-finance",
+  "printed_chapter_number": null,
+  "sections": [
+    {
+      "key": "first",
+      "title": "第一节 取用判断经验",
+      "line_start": 1,
+      "line_end": 168
+    },
+    {
+      "key": "second",
+      "title": "第二节 实例解析（14例）",
+      "line_start": 169,
+      "line_end": 1366
+    }
+  ],
+  "groups": [
+    {
+      "key": "business_general",
+      "title": "第一节 取用判断经验：经营求财总论",
+      "category": "analysis",
+      "line_start": 1,
+      "line_end": 16,
+      "attribution": "原书叙述者；案例执行者及张志春按语按原书分别归属",
+      "summary": "完整来源语境；不自动推广案例经验",
+      "concepts": [
+        "甲子戊",
+        "生门",
+        "日干",
+        "时干",
+        "六合",
+        "值符",
+        "值使",
+        "应期"
+      ],
+      "dataset": {
+        "key": "business_general_reference",
+        "rows": [
+          {
+            "key": "business_general_line_1",
+            "source_lines": [
+              1,
+              1
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 1,
+              "line_end": 1,
+              "byte_start": 0,
+              "byte_end": 29
+            },
+            "source_quote": "第一节 取用判断经验\n",
+            "method_scope": "shenqi_business_general_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_general_line_3",
+            "source_lines": [
+              3,
+              3
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 3,
+              "line_end": 3,
+              "byte_start": 30,
+              "byte_end": 739
+            },
+            "source_quote": "经营求财预测，一般以日干为求测之人，以时干为财或货物；以甲子戊为资本，以生门为利息；以值符为货主，值使为购货之人；以六合为经纪人，月干为同行竞争者；以生门所临之星为财星；以值符和景门为行情；以时干和值使门落宫为经营项目；以开、休、生落宫为得财方向；以生门落宫为得财数量；以开门为店铺、门面，以生门为房屋，以死门为地皮；以值符为物主或银行，以值使为借贷人；以值符为银行为放贷人；以天乙（值符下临地盘之星）为贷款人或借款人；以值符为债主；以天乙为欠债人，以伤门为讨债人，等等。\n",
+            "method_scope": "shenqi_business_general_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_general_line_5",
+            "source_lines": [
+              5,
+              5
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 5,
+              "line_end": 5,
+              "byte_start": 740,
+              "byte_end": 975
+            },
+            "source_quote": "生门落旺宫，又得奇、得吉格，则得利大，相则平，休囚利微；如休囚又逢凶格，无利赔本；甲子戊与生门落空亡、反吟、墓绝，再有凶格凶神者，不仅不得财，反会招惹是非。\n",
+            "method_scope": "shenqi_business_general_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_general_line_7",
+            "source_lines": [
+              7,
+              7
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 7,
+              "line_end": 7,
+              "byte_start": 976,
+              "byte_end": 1052
+            },
+            "source_quote": "甲子戊和生门上乘吉星事更吉，乘凶星则含有凶的成分。\n",
+            "method_scope": "shenqi_business_general_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_general_line_9",
+            "source_lines": [
+              9,
+              9
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 9,
+              "line_end": 9,
+              "byte_start": 1053,
+              "byte_end": 1114
+            },
+            "source_quote": "又可以地盘甲子戊上乘之干来判断得财数量。\n",
+            "method_scope": "shenqi_business_general_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_general_line_11",
+            "source_lines": [
+              11,
+              11
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 11,
+              "line_end": 11,
+              "byte_start": 1115,
+              "byte_end": 1287
+            },
+            "source_quote": "得财时间：甲子戊与生门同落内盘为距离近、速度快，一内一外则迟，全在外则更迟、更远。如甲子戊与开门同宫，则得财迅速。\n",
+            "method_scope": "shenqi_business_general_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_general_line_13",
+            "source_lines": [
+              13,
+              13
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 13,
+              "line_end": 13,
+              "byte_start": 1288,
+              "byte_end": 1367
+            },
+            "source_quote": "又以地盘时干宫的地支定应期，为得财之年、月、日、时。\n",
+            "method_scope": "shenqi_business_general_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_general_line_15",
+            "source_lines": [
+              15,
+              15
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 15,
+              "line_end": 15,
+              "byte_start": 1368,
+              "byte_end": 1417
+            },
+            "source_quote": "伏吟，则生门对冲之宫地支为应期。\n",
+            "method_scope": "shenqi_business_general_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+        "line_start": 1,
+        "line_end": 16,
+        "byte_start": 0,
+        "byte_end": 1418
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "business_trade",
+      "title": "（1）交易求财",
+      "category": "role",
+      "line_start": 17,
+      "line_end": 22,
+      "attribution": "原书叙述者；案例执行者及张志春按语按原书分别归属",
+      "summary": "完整来源语境；不自动推广案例经验",
+      "concepts": [
+        "日干",
+        "时干",
+        "六合"
+      ],
+      "dataset": {
+        "key": "business_trade_reference",
+        "rows": [
+          {
+            "key": "business_trade_line_17",
+            "source_lines": [
+              17,
+              17
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 17,
+              "line_end": 17,
+              "byte_start": 1418,
+              "byte_end": 1438
+            },
+            "source_quote": "（1）交易求财\n",
+            "method_scope": "shenqi_business_trade_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_trade_line_19",
+            "source_lines": [
+              19,
+              19
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 19,
+              "line_end": 19,
+              "byte_start": 1439,
+              "byte_end": 1518
+            },
+            "source_quote": "一般以日干为买主，时干为卖主，六合为经纪人、中介人。\n",
+            "method_scope": "shenqi_business_trade_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_trade_line_21",
+            "source_lines": [
+              21,
+              21
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 21,
+              "line_end": 21,
+              "byte_start": 1519,
+              "byte_end": 1868
+            },
+            "source_quote": "日干生时干利卖方；时干生日干利买方；日干克时干，买主不要；时干克日干，卖主不卖；六合生日干，经纪人向买主；六合生时干，经纪人向卖主；六合入墓或空亡，必有奸诈欺瞒之事；日干与时干比和，公平交易，也主成交；日干、时干有一空亡，交易不成。\n",
+            "method_scope": "shenqi_business_trade_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+        "line_start": 17,
+        "line_end": 22,
+        "byte_start": 1418,
+        "byte_end": 1869
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "business_investment",
+      "title": "（2）投资求财",
+      "category": "role",
+      "line_start": 23,
+      "line_end": 34,
+      "attribution": "原书叙述者；案例执行者及张志春按语按原书分别归属",
+      "summary": "完整来源语境；不自动推广案例经验",
+      "concepts": [
+        "甲子戊",
+        "生门"
+      ],
+      "dataset": {
+        "key": "business_investment_reference",
+        "rows": [
+          {
+            "key": "business_investment_line_23",
+            "source_lines": [
+              23,
+              23
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 23,
+              "line_end": 23,
+              "byte_start": 1869,
+              "byte_end": 1889
+            },
+            "source_quote": "（2）投资求财\n",
+            "method_scope": "shenqi_business_investment_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_investment_line_25",
+            "source_lines": [
+              25,
+              25
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 25,
+              "line_end": 25,
+              "byte_start": 1890,
+              "byte_end": 1942
+            },
+            "source_quote": "一般以甲子戊为资本，以生门为利息。\n",
+            "method_scope": "shenqi_business_investment_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_investment_line_27",
+            "source_lines": [
+              27,
+              27
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 27,
+              "line_end": 27,
+              "byte_start": 1943,
+              "byte_end": 2043
+            },
+            "source_quote": "生门落宫得奇和吉格、吉星，生甲子戊落宫吉，必获倍利；比和，得中利。\n",
+            "method_scope": "shenqi_business_investment_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_investment_line_29",
+            "source_lines": [
+              29,
+              29
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 29,
+              "line_end": 29,
+              "byte_start": 2044,
+              "byte_end": 2108
+            },
+            "source_quote": "生门宫克甲子戊宫，又得凶神凶格者，必赔本。\n",
+            "method_scope": "shenqi_business_investment_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_investment_line_31",
+            "source_lines": [
+              31,
+              31
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 31,
+              "line_end": 31,
+              "byte_start": 2109,
+              "byte_end": 2173
+            },
+            "source_quote": "甲子戊落宫生生门落宫，主添加资本仍可获利。\n",
+            "method_scope": "shenqi_business_investment_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_investment_line_33",
+            "source_lines": [
+              33,
+              33
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 33,
+              "line_end": 33,
+              "byte_start": 2174,
+              "byte_end": 2271
+            },
+            "source_quote": "生门落墓绝之地（指月令与生门之关系），再有凶神凶格，必耗尽资本。\n",
+            "method_scope": "shenqi_business_investment_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+        "line_start": 23,
+        "line_end": 34,
+        "byte_start": 1869,
+        "byte_end": 2272
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "business_buy_goods",
+      "title": "（3）买货求财",
+      "category": "role",
+      "line_start": 35,
+      "line_end": 46,
+      "attribution": "原书叙述者；案例执行者及张志春按语按原书分别归属",
+      "summary": "完整来源语境；不自动推广案例经验",
+      "concepts": [
+        "日干",
+        "时干"
+      ],
+      "dataset": {
+        "key": "business_buy_goods_reference",
+        "rows": [
+          {
+            "key": "business_buy_goods_line_35",
+            "source_lines": [
+              35,
+              35
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 35,
+              "line_end": 35,
+              "byte_start": 2272,
+              "byte_end": 2292
+            },
+            "source_quote": "（3）买货求财\n",
+            "method_scope": "shenqi_business_buy_goods_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_buy_goods_line_37",
+            "source_lines": [
+              37,
+              37
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 37,
+              "line_end": 37,
+              "byte_start": 2293,
+              "byte_end": 2330
+            },
+            "source_quote": "日干为买主，时干为货物。\n",
+            "method_scope": "shenqi_business_buy_goods_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_buy_goods_line_39",
+            "source_lines": [
+              39,
+              39
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 39,
+              "line_end": 39,
+              "byte_start": 2331,
+              "byte_end": 2554
+            },
+            "source_quote": "时干宫旺相得吉门吉格又上乘吉神者，为货的质量好；休囚不得奇门吉格吉神者，质量次；如果休囚，又临凶门凶格，上乘玄武者，必是假冒伪劣产品或腐烂变质货物。\n",
+            "method_scope": "shenqi_business_buy_goods_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_buy_goods_line_41",
+            "source_lines": [
+              41,
+              41
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 41,
+              "line_end": 41,
+              "byte_start": 2555,
+              "byte_end": 2598
+            },
+            "source_quote": "时干生日干，好货孬货终有利。\n",
+            "method_scope": "shenqi_business_buy_goods_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_buy_goods_line_43",
+            "source_lines": [
+              43,
+              43
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 43,
+              "line_end": 43,
+              "byte_start": 2599,
+              "byte_end": 2651
+            },
+            "source_quote": "时干克日干，或空亡、墓绝，则无利。\n",
+            "method_scope": "shenqi_business_buy_goods_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_buy_goods_line_45",
+            "source_lines": [
+              45,
+              45
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 45,
+              "line_end": 45,
+              "byte_start": 2652,
+              "byte_end": 2722
+            },
+            "source_quote": "日干生时干，为主动去买；日干克时干，也能买成。\n",
+            "method_scope": "shenqi_business_buy_goods_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+        "line_start": 35,
+        "line_end": 46,
+        "byte_start": 2272,
+        "byte_end": 2723
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "business_sell_goods",
+      "title": "（4）卖货求财",
+      "category": "role",
+      "line_start": 47,
+      "line_end": 64,
+      "attribution": "原书叙述者；案例执行者及张志春按语按原书分别归属",
+      "summary": "完整来源语境；不自动推广案例经验",
+      "concepts": [
+        "值符",
+        "值使",
+        "日干",
+        "时干",
+        "甲子戊",
+        "生门"
+      ],
+      "dataset": {
+        "key": "business_sell_goods_reference",
+        "rows": [
+          {
+            "key": "business_sell_goods_line_47",
+            "source_lines": [
+              47,
+              47
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 47,
+              "line_end": 47,
+              "byte_start": 2723,
+              "byte_end": 2743
+            },
+            "source_quote": "（4）卖货求财\n",
+            "method_scope": "shenqi_business_sell_goods_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_sell_goods_line_49",
+            "source_lines": [
+              49,
+              49
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 49,
+              "line_end": 49,
+              "byte_start": 2744,
+              "byte_end": 2790
+            },
+            "source_quote": "一般以值符为卖方，值使为买方。\n",
+            "method_scope": "shenqi_business_sell_goods_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_sell_goods_line_51",
+            "source_lines": [
+              51,
+              51
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 51,
+              "line_end": 51,
+              "byte_start": 2791,
+              "byte_end": 2855
+            },
+            "source_quote": "值使乘奇门吉格生值符或二者比和，可以卖出。\n",
+            "method_scope": "shenqi_business_sell_goods_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_sell_goods_line_53",
+            "source_lines": [
+              53,
+              53
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 53,
+              "line_end": 53,
+              "byte_start": 2856,
+              "byte_end": 2911
+            },
+            "source_quote": "值符生值使，或二者相克，则卖不出去。\n",
+            "method_scope": "shenqi_business_sell_goods_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_sell_goods_line_55",
+            "source_lines": [
+              55,
+              55
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 55,
+              "line_end": 55,
+              "byte_start": 2912,
+              "byte_end": 3000
+            },
+            "source_quote": "又可以日干为卖方，以时干为货物；甲子戊为资本，生门为利息。\n",
+            "method_scope": "shenqi_business_sell_goods_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_sell_goods_line_57",
+            "source_lines": [
+              57,
+              57
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 57,
+              "line_end": 57,
+              "byte_start": 3001,
+              "byte_end": 3095
+            },
+            "source_quote": "日干生时干，为人恋货，不肯卖；时干生日干，为货恋人，卖不出去。\n",
+            "method_scope": "shenqi_business_sell_goods_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_sell_goods_line_59",
+            "source_lines": [
+              59,
+              59
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 59,
+              "line_end": 59,
+              "byte_start": 3096,
+              "byte_end": 3193
+            },
+            "source_quote": "日干克时干，虽想快速将货卖出去，但成交迟缓；时干克日干，卖得快。\n",
+            "method_scope": "shenqi_business_sell_goods_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_sell_goods_line_61",
+            "source_lines": [
+              61,
+              61
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 61,
+              "line_end": 61,
+              "byte_start": 3194,
+              "byte_end": 3357
+            },
+            "source_quote": "卖货有利无利，只要时干宫（货物）生甲子戊或生门宫，则可获利；时干宫不生甲子戊或生门宫，或者二者相克，则无利。\n",
+            "method_scope": "shenqi_business_sell_goods_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_sell_goods_line_63",
+            "source_lines": [
+              63,
+              63
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 63,
+              "line_end": 63,
+              "byte_start": 3358,
+              "byte_end": 3494
+            },
+            "source_quote": "时干宫乘凶神凶格来冲克日干宫者，必赔本（二、八宫不遇反吟，则按比和断；反吟，则按对冲断）。\n",
+            "method_scope": "shenqi_business_sell_goods_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+        "line_start": 47,
+        "line_end": 64,
+        "byte_start": 2723,
+        "byte_end": 3495
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "business_property",
+      "title": "（5）买卖房地产求财",
+      "category": "role",
+      "line_start": 65,
+      "line_end": 80,
+      "attribution": "原书叙述者；案例执行者及张志春按语按原书分别归属",
+      "summary": "完整来源语境；不自动推广案例经验",
+      "concepts": [
+        "生门",
+        "死门",
+        "值符",
+        "日干",
+        "时干"
+      ],
+      "dataset": {
+        "key": "business_property_reference",
+        "rows": [
+          {
+            "key": "business_property_line_65",
+            "source_lines": [
+              65,
+              65
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 65,
+              "line_end": 65,
+              "byte_start": 3495,
+              "byte_end": 3524
+            },
+            "source_quote": "（5）买卖房地产求财\n",
+            "method_scope": "shenqi_business_property_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_property_line_67",
+            "source_lines": [
+              67,
+              67
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 67,
+              "line_end": 67,
+              "byte_start": 3525,
+              "byte_end": 3610
+            },
+            "source_quote": "一般以生门为住宅，以死门为地皮，以值符为买房或卖房之人。\n",
+            "method_scope": "shenqi_business_property_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_property_line_69",
+            "source_lines": [
+              69,
+              69
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 69,
+              "line_end": 69,
+              "byte_start": 3611,
+              "byte_end": 3726
+            },
+            "source_quote": "生死二门乘三奇吉格，说明房屋和地皮好，如果生值符宫，对买主有利，买后可发达。\n",
+            "method_scope": "shenqi_business_property_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_property_line_71",
+            "source_lines": [
+              71,
+              71
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 71,
+              "line_end": 71,
+              "byte_start": 3727,
+              "byte_end": 3860
+            },
+            "source_quote": "如果生死二门不得吉格，说明房屋和地皮一般或质量差，如果生值符宫，则对卖主有利，卖后发达。\n",
+            "method_scope": "shenqi_business_property_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_property_line_73",
+            "source_lines": [
+              73,
+              73
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 73,
+              "line_end": 73,
+              "byte_start": 3861,
+              "byte_end": 3898
+            },
+            "source_quote": "如果二者比和，则主平安。\n",
+            "method_scope": "shenqi_business_property_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_property_line_75",
+            "source_lines": [
+              75,
+              75
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 75,
+              "line_end": 75,
+              "byte_start": 3899,
+              "byte_end": 4116
+            },
+            "source_quote": "如果生死二门休囚无力，又乘凶神凶格，说明房屋和地皮不好，如果二门宫来克值符宫，则主买后破家败财；如果值符来生此二门落宫，则必因此宅产而破败不利。\n",
+            "method_scope": "shenqi_business_property_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_property_line_77",
+            "source_lines": [
+              77,
+              77
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 77,
+              "line_end": 77,
+              "byte_start": 4117,
+              "byte_end": 4232
+            },
+            "source_quote": "又可以日干为买主或卖主，以生门为房屋、以死门为地皮，看其二者之间的生克关系。\n",
+            "method_scope": "shenqi_business_property_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_property_line_79",
+            "source_lines": [
+              79,
+              79
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 79,
+              "line_end": 79,
+              "byte_start": 4233,
+              "byte_end": 4339
+            },
+            "source_quote": "还可以日干为买主或卖主，以时干为房屋或地皮，来看其二者之间的生克关系。\n",
+            "method_scope": "shenqi_business_property_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+        "line_start": 65,
+        "line_end": 80,
+        "byte_start": 3495,
+        "byte_end": 4340
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "business_store",
+      "title": "（6）开店求财",
+      "category": "role",
+      "line_start": 81,
+      "line_end": 94,
+      "attribution": "原书叙述者；案例执行者及张志春按语按原书分别归属",
+      "summary": "完整来源语境；不自动推广案例经验",
+      "concepts": [
+        "开门",
+        "日干",
+        "时干"
+      ],
+      "dataset": {
+        "key": "business_store_reference",
+        "rows": [
+          {
+            "key": "business_store_line_81",
+            "source_lines": [
+              81,
+              81
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 81,
+              "line_end": 81,
+              "byte_start": 4340,
+              "byte_end": 4360
+            },
+            "source_quote": "（6）开店求财\n",
+            "method_scope": "shenqi_business_store_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_store_line_83",
+            "source_lines": [
+              83,
+              83
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 83,
+              "line_end": 83,
+              "byte_start": 4361,
+              "byte_end": 4554
+            },
+            "source_quote": "商场、门市、酒店、旅馆、餐厅等，包括开办工厂等坐地经商预测，一般均以日干为求测之人，开门为其商场、门市、工厂、酒店等的代表符号。\n",
+            "method_scope": "shenqi_business_store_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_store_line_85",
+            "source_lines": [
+              85,
+              85
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 85,
+              "line_end": 85,
+              "byte_start": 4555,
+              "byte_end": 4673
+            },
+            "source_quote": "开门乘旺相之气带三奇、吉星、吉格、吉神来生日干落宫者，为大吉大利；比和者次吉。\n",
+            "method_scope": "shenqi_business_store_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_store_line_87",
+            "source_lines": [
+              87,
+              87
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 87,
+              "line_end": 87,
+              "byte_start": 4674,
+              "byte_end": 4774
+            },
+            "source_quote": "如果开门入墓、空亡或反吟者，则未开者开不成，已开者可能停产或关门。\n",
+            "method_scope": "shenqi_business_store_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_store_line_89",
+            "source_lines": [
+              89,
+              89
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 89,
+              "line_end": 89,
+              "byte_start": 4775,
+              "byte_end": 4866
+            },
+            "source_quote": "开门落宫乘凶神凶格来冲克日干宫者，必破耗折本，因开店而破财。\n",
+            "method_scope": "shenqi_business_store_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_store_line_91",
+            "source_lines": [
+              91,
+              91
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 91,
+              "line_end": 91,
+              "byte_start": 4867,
+              "byte_end": 4970
+            },
+            "source_quote": "也可以日干为求测之人，以时干为店铺，看其二者的旺相休囚及其生克关系。\n",
+            "method_scope": "shenqi_business_store_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_store_line_93",
+            "source_lines": [
+              93,
+              93
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 93,
+              "line_end": 93,
+              "byte_start": 4971,
+              "byte_end": 5095
+            },
+            "source_quote": "又以时干为顾客，乘吉门吉格吉神和旺相之气，又与开门相生，则顾客多；反之，则顾客少。\n",
+            "method_scope": "shenqi_business_store_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+        "line_start": 81,
+        "line_end": 94,
+        "byte_start": 4340,
+        "byte_end": 5096
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "business_partnership",
+      "title": "（7）合伙求财",
+      "category": "role",
+      "line_start": 95,
+      "line_end": 106,
+      "attribution": "原书叙述者；案例执行者及张志春按语按原书分别归属",
+      "summary": "完整来源语境；不自动推广案例经验",
+      "concepts": [
+        "日干",
+        "时干",
+        "地盘日干",
+        "天盘干"
+      ],
+      "dataset": {
+        "key": "business_partnership_reference",
+        "rows": [
+          {
+            "key": "business_partnership_line_95",
+            "source_lines": [
+              95,
+              95
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 95,
+              "line_end": 95,
+              "byte_start": 5096,
+              "byte_end": 5116
+            },
+            "source_quote": "（7）合伙求财\n",
+            "method_scope": "shenqi_business_partnership_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_partnership_line_97",
+            "source_lines": [
+              97,
+              97
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 97,
+              "line_end": 97,
+              "byte_start": 5117,
+              "byte_end": 5169
+            },
+            "source_quote": "一般以日干为我方，时干为合伙之人。\n",
+            "method_scope": "shenqi_business_partnership_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_partnership_line_99",
+            "source_lines": [
+              99,
+              99
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 99,
+              "line_end": 99,
+              "byte_start": 5170,
+              "byte_end": 5393
+            },
+            "source_quote": "时干乘奇门吉格来生日干宫者，对我方有利；日干宫生时干宫者，对他方有利；日干与时干比和者，公平；时干宫克日干宫者对我不利；日干宫克时干宫者，对他不利。\n",
+            "method_scope": "shenqi_business_partnership_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_partnership_line_101",
+            "source_lines": [
+              101,
+              101
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 101,
+              "line_end": 101,
+              "byte_start": 5394,
+              "byte_end": 5446
+            },
+            "source_quote": "同时，生门宫生我则吉，克我则不吉。\n",
+            "method_scope": "shenqi_business_partnership_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_partnership_line_103",
+            "source_lines": [
+              103,
+              103
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 103,
+              "line_end": 103,
+              "byte_start": 5447,
+              "byte_end": 5520
+            },
+            "source_quote": "又可以地盘日干为我方，以上乘天盘之干为合伙之人。\n",
+            "method_scope": "shenqi_business_partnership_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_partnership_line_105",
+            "source_lines": [
+              105,
+              105
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 105,
+              "line_end": 105,
+              "byte_start": 5521,
+              "byte_end": 5684
+            },
+            "source_quote": "天盘之干生地盘日干者，对我方有利；地盘日干生天盘之干者，对他方有利；比和者公平；二者相克则不成，成则不顺利。\n",
+            "method_scope": "shenqi_business_partnership_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+        "line_start": 95,
+        "line_end": 106,
+        "byte_start": 5096,
+        "byte_end": 5685
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "business_borrowing",
+      "title": "（8）贷款或借钱",
+      "category": "role",
+      "line_start": 107,
+      "line_end": 124,
+      "attribution": "原书叙述者；案例执行者及张志春按语按原书分别归属",
+      "summary": "完整来源语境；不自动推广案例经验",
+      "concepts": [
+        "值符",
+        "值使",
+        "天盘星",
+        "地盘星"
+      ],
+      "dataset": {
+        "key": "business_borrowing_reference",
+        "rows": [
+          {
+            "key": "business_borrowing_line_107",
+            "source_lines": [
+              107,
+              107
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 107,
+              "line_end": 107,
+              "byte_start": 5685,
+              "byte_end": 5708
+            },
+            "source_quote": "（8）贷款或借钱\n",
+            "method_scope": "shenqi_business_borrowing_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_borrowing_line_109",
+            "source_lines": [
+              109,
+              109
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 109,
+              "line_end": 109,
+              "byte_start": 5709,
+              "byte_end": 5773
+            },
+            "source_quote": "一般以值符为物主或银行，以值使为借贷之人。\n",
+            "method_scope": "shenqi_business_borrowing_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_borrowing_line_111",
+            "source_lines": [
+              111,
+              111
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 111,
+              "line_end": 111,
+              "byte_start": 5774,
+              "byte_end": 5901
+            },
+            "source_quote": "值符生值使，或值使克值符，可以借到或贷到；如果值符克值使，或值使生值符，则借贷不遂。\n",
+            "method_scope": "shenqi_business_borrowing_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_borrowing_line_113",
+            "source_lines": [
+              113,
+              113
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 113,
+              "line_end": 113,
+              "byte_start": 5902,
+              "byte_end": 5957
+            },
+            "source_quote": "值符与值使有一方空亡，也主借贷不成。\n",
+            "method_scope": "shenqi_business_borrowing_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_borrowing_line_115",
+            "source_lines": [
+              115,
+              115
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 115,
+              "line_end": 115,
+              "byte_start": 5958,
+              "byte_end": 6034
+            },
+            "source_quote": "又可以所往之方的天盘星与地盘星之间的生克关系论之。\n",
+            "method_scope": "shenqi_business_borrowing_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_borrowing_line_117",
+            "source_lines": [
+              117,
+              117
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 117,
+              "line_end": 117,
+              "byte_start": 6035,
+              "byte_end": 6117
+            },
+            "source_quote": "天盘为动为客，为借贷之人；地盘为静为主，为物主或银行。\n",
+            "method_scope": "shenqi_business_borrowing_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_borrowing_line_119",
+            "source_lines": [
+              119,
+              119
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 119,
+              "line_end": 119,
+              "byte_start": 6118,
+              "byte_end": 6254
+            },
+            "source_quote": "地盘星生天盘星者，必借给或贷给；二者比和，虽然肯借贷，但必迟疑；二星相克主不借，反惹羞辱。\n",
+            "method_scope": "shenqi_business_borrowing_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_borrowing_line_121",
+            "source_lines": [
+              121,
+              121
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 121,
+              "line_end": 121,
+              "byte_start": 6255,
+              "byte_end": 6334
+            },
+            "source_quote": "如果天盘星所临之干入地盘墓库者，则物主吝啬，不肯借。\n",
+            "method_scope": "shenqi_business_borrowing_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_borrowing_line_123",
+            "source_lines": [
+              123,
+              123
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 123,
+              "line_end": 123,
+              "byte_start": 6335,
+              "byte_end": 6435
+            },
+            "source_quote": "所去借贷之方，如果遇空亡，则说明物主无钱或人不在，去了也借贷不成。\n",
+            "method_scope": "shenqi_business_borrowing_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+        "line_start": 107,
+        "line_end": 124,
+        "byte_start": 5685,
+        "byte_end": 6436
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "business_lending",
+      "title": "（9）放贷",
+      "category": "role",
+      "line_start": 125,
+      "line_end": 140,
+      "attribution": "原书叙述者；案例执行者及张志春按语按原书分别归属",
+      "summary": "完整来源语境；不自动推广案例经验",
+      "concepts": [
+        "值符",
+        "天乙",
+        "生门"
+      ],
+      "dataset": {
+        "key": "business_lending_reference",
+        "rows": [
+          {
+            "key": "business_lending_line_125",
+            "source_lines": [
+              125,
+              125
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 125,
+              "line_end": 125,
+              "byte_start": 6436,
+              "byte_end": 6450
+            },
+            "source_quote": "（9）放贷\n",
+            "method_scope": "shenqi_business_lending_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_lending_line_127",
+            "source_lines": [
+              127,
+              127
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 127,
+              "line_end": 127,
+              "byte_start": 6451,
+              "byte_end": 6554
+            },
+            "source_quote": "值符为银行为放贷人，天乙（值符落宫原地盘之星）为借贷人，生门为利息。\n",
+            "method_scope": "shenqi_business_lending_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_lending_line_129",
+            "source_lines": [
+              129,
+              129
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 129,
+              "line_end": 129,
+              "byte_start": 6555,
+              "byte_end": 6610
+            },
+            "source_quote": "值符克天乙落宫吉，天乙克值符落宫凶。\n",
+            "method_scope": "shenqi_business_lending_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_lending_line_131",
+            "source_lines": [
+              131,
+              131
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 131,
+              "line_end": 131,
+              "byte_start": 6611,
+              "byte_end": 6666
+            },
+            "source_quote": "天乙生值符落宫吉，值符生天乙落宫凶。\n",
+            "method_scope": "shenqi_business_lending_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_lending_line_133",
+            "source_lines": [
+              133,
+              133
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 133,
+              "line_end": 133,
+              "byte_start": 6667,
+              "byte_end": 6731
+            },
+            "source_quote": "生门与天乙同克值符落宫，放出之款损失殆尽。\n",
+            "method_scope": "shenqi_business_lending_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_lending_line_135",
+            "source_lines": [
+              135,
+              135
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 135,
+              "line_end": 135,
+              "byte_start": 6732,
+              "byte_end": 6784
+            },
+            "source_quote": "生门与天乙同生值符落宫，本息全还。\n",
+            "method_scope": "shenqi_business_lending_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_lending_line_137",
+            "source_lines": [
+              137,
+              137
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 137,
+              "line_end": 137,
+              "byte_start": 6785,
+              "byte_end": 6867
+            },
+            "source_quote": "生门与天乙有一生一克值符宫者，借出之款不能全还或迟还。\n",
+            "method_scope": "shenqi_business_lending_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_lending_line_139",
+            "source_lines": [
+              139,
+              139
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 139,
+              "line_end": 139,
+              "byte_start": 6868,
+              "byte_end": 6968
+            },
+            "source_quote": "如果天乙落宫休囚无力，虽生值符宫，是无力偿还，结局是不全还或迟还。\n",
+            "method_scope": "shenqi_business_lending_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+        "line_start": 125,
+        "line_end": 140,
+        "byte_start": 6436,
+        "byte_end": 6969
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "business_debt_collection",
+      "title": "（10）讨债",
+      "category": "role",
+      "line_start": 141,
+      "line_end": 168,
+      "attribution": "原书叙述者；案例执行者及张志春按语按原书分别归属",
+      "summary": "完整来源语境；不自动推广案例经验",
+      "concepts": [
+        "值符",
+        "天乙",
+        "伤门"
+      ],
+      "dataset": {
+        "key": "business_debt_collection_reference",
+        "rows": [
+          {
+            "key": "business_debt_collection_line_141",
+            "source_lines": [
+              141,
+              141
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 141,
+              "line_end": 141,
+              "byte_start": 6969,
+              "byte_end": 6984
+            },
+            "source_quote": "（10）讨债\n",
+            "method_scope": "shenqi_business_debt_collection_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_debt_collection_line_143",
+            "source_lines": [
+              143,
+              143
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 143,
+              "line_end": 143,
+              "byte_start": 6985,
+              "byte_end": 7082
+            },
+            "source_quote": "值符为放债之人，天乙（值符下临地盘之星）为欠债人，伤门为讨债人。\n",
+            "method_scope": "shenqi_business_debt_collection_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_debt_collection_line_145",
+            "source_lines": [
+              145,
+              145
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 145,
+              "line_end": 145,
+              "byte_start": 7083,
+              "byte_end": 7132
+            },
+            "source_quote": "伤门克天乙，讨债人实心实意去讨。\n",
+            "method_scope": "shenqi_business_debt_collection_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_debt_collection_line_147",
+            "source_lines": [
+              147,
+              147
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 147,
+              "line_end": 147,
+              "byte_start": 7133,
+              "byte_end": 7173
+            },
+            "source_quote": "天乙克伤门，彼此争斗不服。\n",
+            "method_scope": "shenqi_business_debt_collection_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_debt_collection_line_149",
+            "source_lines": [
+              149,
+              149
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 149,
+              "line_end": 149,
+              "byte_start": 7174,
+              "byte_end": 7226
+            },
+            "source_quote": "伤门与天乙同生值符，本息全能追回。\n",
+            "method_scope": "shenqi_business_debt_collection_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_debt_collection_line_151",
+            "source_lines": [
+              151,
+              151
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 151,
+              "line_end": 151,
+              "byte_start": 7227,
+              "byte_end": 7273
+            },
+            "source_quote": "伤门与天乙同克值符，本息不还。\n",
+            "method_scope": "shenqi_business_debt_collection_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_debt_collection_line_153",
+            "source_lines": [
+              153,
+              153
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 153,
+              "line_end": 153,
+              "byte_start": 7274,
+              "byte_end": 7317
+            },
+            "source_quote": "伤门生值符，克天乙，能讨回。\n",
+            "method_scope": "shenqi_business_debt_collection_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_debt_collection_line_155",
+            "source_lines": [
+              155,
+              155
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 155,
+              "line_end": 155,
+              "byte_start": 7318,
+              "byte_end": 7361
+            },
+            "source_quote": "伤门生天乙，克值符，讨不回。\n",
+            "method_scope": "shenqi_business_debt_collection_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_debt_collection_line_157",
+            "source_lines": [
+              157,
+              157
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 157,
+              "line_end": 157,
+              "byte_start": 7362,
+              "byte_end": 7414
+            },
+            "source_quote": "天乙旺相克伤门，虽有能力，但不还。\n",
+            "method_scope": "shenqi_business_debt_collection_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_debt_collection_line_159",
+            "source_lines": [
+              159,
+              159
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 159,
+              "line_end": 159,
+              "byte_start": 7415,
+              "byte_end": 7497
+            },
+            "source_quote": "天乙休囚生伤门，虽有心还，而无力量，即使还，也还不全。\n",
+            "method_scope": "shenqi_business_debt_collection_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_debt_collection_line_161",
+            "source_lines": [
+              161,
+              161
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 161,
+              "line_end": 161,
+              "byte_start": 7498,
+              "byte_end": 7556
+            },
+            "source_quote": "如果天乙乘庚辛来克值符，必有经官之事。\n",
+            "method_scope": "shenqi_business_debt_collection_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_debt_collection_line_163",
+            "source_lines": [
+              163,
+              163
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 163,
+              "line_end": 163,
+              "byte_start": 7557,
+              "byte_end": 7660
+            },
+            "source_quote": "值符克天乙乘丁奇或景门落四宫（四宫杜门主执法机关）者，也有经官之事。\n",
+            "method_scope": "shenqi_business_debt_collection_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_debt_collection_line_165",
+            "source_lines": [
+              165,
+              165
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 165,
+              "line_end": 165,
+              "byte_start": 7661,
+              "byte_end": 7710
+            },
+            "source_quote": "甲子戊会开门落内盘者，其债速还。\n",
+            "method_scope": "shenqi_business_debt_collection_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          },
+          {
+            "key": "business_debt_collection_line_167",
+            "source_lines": [
+              167,
+              167
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 167,
+              "line_end": 167,
+              "byte_start": 7711,
+              "byte_end": 7784
+            },
+            "source_quote": "天乙乘天蓬或玄武，又克值符宫者，欠债人存心不还。\n",
+            "method_scope": "shenqi_business_debt_collection_reference_v1",
+            "knowledge_kind": "traditional_business_method_reference",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "technical_boundary": "保留多方法及条件；未知不能视为符合；无正式角色绑定"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+        "line_start": 141,
+        "line_end": 168,
+        "byte_start": 6969,
+        "byte_end": 7785
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "business_examples_heading",
+      "title": "第二节 实例解析（14例）",
+      "category": "commentary",
+      "line_start": 169,
+      "line_end": 170,
+      "attribution": "原书叙述者；案例执行者及张志春按语按原书分别归属",
+      "summary": "完整来源语境；不自动推广案例经验",
+      "concepts": [
+        "完整案例"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+        "line_start": 169,
+        "line_end": 170,
+        "byte_start": 7785,
+        "byte_end": 7820
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "business-case-01_whole_case",
+      "title": "实例一：测租赁经营",
+      "category": "analysis",
+      "line_start": 171,
+      "line_end": 232,
+      "attribution": "原书叙述者；案例执行者及张志春按语按原书分别归属",
+      "summary": "完整来源语境；不自动推广案例经验",
+      "concepts": [
+        "完整历史案例",
+        "传统方法",
+        "证据",
+        "作者断语",
+        "应期",
+        "反馈"
+      ],
+      "dataset": {
+        "key": "business-case-01_analysis_reference",
+        "rows": [
+          {
+            "key": "business-case-01_analysis_213",
+            "source_lines": [
+              213,
+              213
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 213,
+              "line_end": 213,
+              "byte_start": 9081,
+              "byte_end": 9299
+            },
+            "source_quote": "（1）时干辛克日干乙，为五不遇时，百事皆凶，得三奇得吉门也不可用，何况正逢凶门惊门值使，又落日干空亡之地，故不仅租赁不成，连这次考察也未必能成行。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-01"
+          },
+          {
+            "key": "business-case-01_analysis_215",
+            "source_lines": [
+              215,
+              215
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 215,
+              "line_end": 215,
+              "byte_start": 9300,
+              "byte_end": 9432
+            },
+            "source_quote": "（2）地盘日干乙为个体企业家张某，在9宫，上乘天芮病星、惊门、螣蛇，又遇辛加乙虎猖狂凶格。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-01"
+          },
+          {
+            "key": "business-case-01_analysis_219",
+            "source_lines": [
+              219,
+              219
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 219,
+              "line_end": 219,
+              "byte_start": 9703,
+              "byte_end": 9935
+            },
+            "source_quote": "（3）天盘日干乙落4宫，上乘太阴，正在暗中策划，但逢死门临宫，虽4宫属木，能克死门之土，但正当戌土死门旺相之月，乙奇虽得地盘巽木相助，也是休囚无力，难以成功。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-01"
+          },
+          {
+            "key": "business-case-01_analysis_221",
+            "source_lines": [
+              221,
+              221
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 221,
+              "line_end": 221,
+              "byte_start": 9936,
+              "byte_end": 10288
+            },
+            "source_quote": "（4）租赁房屋，生门主房屋，落乾6宫，丙加庚为荧入白凶格，又逢天蓬盗星，荧入白又名“火入金乡”，主门户破败，盗贼耗失，生门加庚主财产争讼，破产不利，说明香港美食城自从1990年竣工开业以来，由于经营不善，内部管理混乱，贪污盗窃，已经破产倒闭。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-01"
+          },
+          {
+            "key": "business-case-01_analysis_225",
+            "source_lines": [
+              225,
+              225
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 225,
+              "line_end": 225,
+              "byte_start": 10397,
+              "byte_end": 10691
+            },
+            "source_quote": "（5）又购买或租赁商场、门市、餐厅、旅店等坐地经商，以开门为用神，今开门落坤2宫空亡之地，己加丁为“朱雀入墓”，己加辛为“游魂入墓”，均为凶格，又与日干落宫相克，故不仅租赁不成，即使租了也不会赚钱。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-01"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+        "line_start": 171,
+        "line_end": 232,
+        "byte_start": 7820,
+        "byte_end": 11061
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "business-case-02_whole_case",
+      "title": "实例二：测引进外资建商城",
+      "category": "analysis",
+      "line_start": 233,
+      "line_end": 308,
+      "attribution": "原书叙述者；案例执行者及张志春按语按原书分别归属",
+      "summary": "完整来源语境；不自动推广案例经验",
+      "concepts": [
+        "完整历史案例",
+        "传统方法",
+        "证据",
+        "作者断语",
+        "应期",
+        "反馈"
+      ],
+      "dataset": {
+        "key": "business-case-02_analysis_reference",
+        "rows": [
+          {
+            "key": "business-case-02_analysis_275",
+            "source_lines": [
+              275,
+              275
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 275,
+              "line_end": 275,
+              "byte_start": 12427,
+              "byte_end": 12572
+            },
+            "source_quote": "（1）生门为值使，落艮8宫，旺相，又与日干庚所落2宫比和，适合搞房地产生意。上乘九天，大有发展前途。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-02"
+          },
+          {
+            "key": "business-case-02_analysis_277",
+            "source_lines": [
+              277,
+              277
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 277,
+              "line_end": 277,
+              "byte_start": 12573,
+              "byte_end": 12730
+            },
+            "source_quote": "（2）建商场，搞房地产，坐地经营，以开门为用神，开门在乾6宫，戊+乙为“青龙合灵”，门吉事吉，这事可以办成。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-02"
+          },
+          {
+            "key": "business-case-02_analysis_279",
+            "source_lines": [
+              279,
+              279
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 279,
+              "line_end": 279,
+              "byte_start": 12731,
+              "byte_end": 12811
+            },
+            "source_quote": "（3）合资办企业，以地盘日干为主，以上乘天盘六仪为客。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-02"
+          },
+          {
+            "key": "business-case-02_analysis_287",
+            "source_lines": [
+              287,
+              287
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 287,
+              "line_end": 287,
+              "byte_start": 13099,
+              "byte_end": 13203
+            },
+            "source_quote": "（4）现在八门伏吟，虽然从去年立冬以后就开始策划，但目前尚无大的进展。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-02"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+        "line_start": 233,
+        "line_end": 308,
+        "byte_start": 11061,
+        "byte_end": 14539
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "business-case-03_whole_case",
+      "title": "实例三：测商城开业后效益",
+      "category": "analysis",
+      "line_start": 309,
+      "line_end": 396,
+      "attribution": "原书叙述者；案例执行者及张志春按语按原书分别归属",
+      "summary": "完整来源语境；不自动推广案例经验",
+      "concepts": [
+        "完整历史案例",
+        "传统方法",
+        "证据",
+        "作者断语",
+        "应期",
+        "反馈"
+      ],
+      "dataset": {
+        "key": "business-case-03_analysis_reference",
+        "rows": [
+          {
+            "key": "business-case-03_analysis_349",
+            "source_lines": [
+              349,
+              349
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 349,
+              "line_end": 349,
+              "byte_start": 15756,
+              "byte_end": 15876
+            },
+            "source_quote": "（1）日干壬代表李月珍，落乾6宫为临官禄地，上乘值符吉神，也正应她身为总经理之职。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-03"
+          },
+          {
+            "key": "business-case-03_analysis_355",
+            "source_lines": [
+              355,
+              355
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 355,
+              "line_end": 355,
+              "byte_start": 16129,
+              "byte_end": 16280
+            },
+            "source_quote": "（2）时干乙奇在8宫，生日干6宫，虽目前逢空，填实后会更加有力，总的看商城建设进展顺利，与外商合作较好。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-03"
+          },
+          {
+            "key": "business-case-03_analysis_357",
+            "source_lines": [
+              357,
+              357
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 357,
+              "line_end": 357,
+              "byte_start": 16281,
+              "byte_end": 16334
+            },
+            "source_quote": "（3）以甲子戊为资本，以生门为利息。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-03"
+          },
+          {
+            "key": "business-case-03_analysis_367",
+            "source_lines": [
+              367,
+              367
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 367,
+              "line_end": 367,
+              "byte_start": 16724,
+              "byte_end": 16817
+            },
+            "source_quote": "（4）开门为商城，在离9宫受克，虽然子月离火处死地，但毕竟不吉。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-03"
+          },
+          {
+            "key": "business-case-03_analysis_377",
+            "source_lines": [
+              377,
+              377
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 377,
+              "line_end": 377,
+              "byte_start": 17202,
+              "byte_end": 17304
+            },
+            "source_quote": "（5）地盘日干壬为李月珍，上乘丁奇，地盘丁在巽4宫，正为外商台湾老板。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-03"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+        "line_start": 309,
+        "line_end": 396,
+        "byte_start": 14539,
+        "byte_end": 18382
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "business-case-04_whole_case",
+      "title": "实例四：测投资买商位",
+      "category": "analysis",
+      "line_start": 397,
+      "line_end": 478,
+      "attribution": "原书叙述者；案例执行者及张志春按语按原书分别归属",
+      "summary": "完整来源语境；不自动推广案例经验",
+      "concepts": [
+        "完整历史案例",
+        "传统方法",
+        "证据",
+        "作者断语",
+        "应期",
+        "反馈"
+      ],
+      "dataset": {
+        "key": "business-case-04_analysis_reference",
+        "rows": [
+          {
+            "key": "business-case-04_analysis_441",
+            "source_lines": [
+              441,
+              441
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 441,
+              "line_end": 441,
+              "byte_start": 19795,
+              "byte_end": 19848
+            },
+            "source_quote": "（1）买商位坐地经营，以开门为用神。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-04"
+          },
+          {
+            "key": "business-case-04_analysis_451",
+            "source_lines": [
+              451,
+              451
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 451,
+              "line_end": 451,
+              "byte_start": 20103,
+              "byte_end": 20183
+            },
+            "source_quote": "（2）又买商位等于投资买房地产，生门主房屋，代表商位。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-04"
+          },
+          {
+            "key": "business-case-04_analysis_459",
+            "source_lines": [
+              459,
+              459
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 459,
+              "line_end": 459,
+              "byte_start": 20504,
+              "byte_end": 20588
+            },
+            "source_quote": "（3）甲子戊为资本，今甲子戊落入6宫，投资当在六万元左右。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-04"
+          },
+          {
+            "key": "business-case-04_analysis_465",
+            "source_lines": [
+              465,
+              465
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 465,
+              "line_end": 465,
+              "byte_start": 20761,
+              "byte_end": 20832
+            },
+            "source_quote": "（4）景门为文书为买房合同，今逢空亡，尚未签约。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-04"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+        "line_start": 397,
+        "line_end": 478,
+        "byte_start": 18382,
+        "byte_end": 21343
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "business-case-05_whole_case",
+      "title": "实例五：测合资办厂",
+      "category": "analysis",
+      "line_start": 479,
+      "line_end": 534,
+      "attribution": "原书叙述者；案例执行者及张志春按语按原书分别归属",
+      "summary": "完整来源语境；不自动推广案例经验",
+      "concepts": [
+        "完整历史案例",
+        "传统方法",
+        "证据",
+        "作者断语",
+        "应期",
+        "反馈"
+      ],
+      "dataset": {
+        "key": "business-case-05_analysis_reference",
+        "rows": [
+          {
+            "key": "business-case-05_analysis_523",
+            "source_lines": [
+              523,
+              523
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 523,
+              "line_end": 523,
+              "byte_start": 22739,
+              "byte_end": 22832
+            },
+            "source_quote": "（1）开门为用神，落8宫为入墓，又逢日干空亡之地，故这事办不成。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-05"
+          },
+          {
+            "key": "business-case-05_analysis_525",
+            "source_lines": [
+              525,
+              525
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 525,
+              "line_end": 525,
+              "byte_start": 22833,
+              "byte_end": 22984
+            },
+            "source_quote": "（2）地盘日干庚在7宫为主，上临己为客，己+庚“刑格返名”，格局不好，上乘景门，为门迫，螣蛇主虚诈变动。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-05"
+          },
+          {
+            "key": "business-case-05_analysis_527",
+            "source_lines": [
+              527,
+              527
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 527,
+              "line_end": 527,
+              "byte_start": 22985,
+              "byte_end": 23128
+            },
+            "source_quote": "（3）天盘日干庚落坤2宫，逢时干空亡之地，庚+戊为天乙伏宫，格局不好；丁奇为文书契约，落离9宫空亡。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-05"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+        "line_start": 479,
+        "line_end": 534,
+        "byte_start": 21343,
+        "byte_end": 23399
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "business-case-06_whole_case",
+      "title": "实例六：测传销营养药品",
+      "category": "analysis",
+      "line_start": 535,
+      "line_end": 591,
+      "attribution": "原书叙述者；案例执行者及张志春按语按原书分别归属",
+      "summary": "完整来源语境；不自动推广案例经验",
+      "concepts": [
+        "完整历史案例",
+        "传统方法",
+        "证据",
+        "作者断语",
+        "应期",
+        "反馈"
+      ],
+      "dataset": {
+        "key": "business-case-06_analysis_reference",
+        "rows": [
+          {
+            "key": "business-case-06_analysis_578",
+            "source_lines": [
+              578,
+              578
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 578,
+              "line_end": 578,
+              "byte_start": 25008,
+              "byte_end": 25113
+            },
+            "source_quote": "（1）以天心星和乙奇为医药，落乾6宫，乙奇入墓，上乘玄武，带有欺诈性质。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-06"
+          },
+          {
+            "key": "business-case-06_analysis_580",
+            "source_lines": [
+              580,
+              580
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 580,
+              "line_end": 580,
+              "byte_start": 25114,
+              "byte_end": 25276
+            },
+            "source_quote": "（2）日干癸、时干癸同落9宫，水入火乡，癸加癸为天网四张格，景门加景门，主文状未动有预先见之意，内有小口忧患。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-06"
+          },
+          {
+            "key": "business-case-06_analysis_584",
+            "source_lines": [
+              584,
+              584
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 584,
+              "line_end": 584,
+              "byte_start": 25382,
+              "byte_end": 25522
+            },
+            "source_quote": "（3）星、门伏吟，日干、时干落宫与乙奇落宫相克，生门又落空亡之地，说明赚不了钱，只能上当受骗。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-06"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+        "line_start": 535,
+        "line_end": 591,
+        "byte_start": 23399,
+        "byte_end": 25962
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "business-case-07_whole_case",
+      "title": "实例七：杜新会测出租商场",
+      "category": "analysis",
+      "line_start": 592,
+      "line_end": 681,
+      "attribution": "原书叙述者；案例执行者及张志春按语按原书分别归属",
+      "summary": "完整来源语境；不自动推广案例经验",
+      "concepts": [
+        "完整历史案例",
+        "传统方法",
+        "证据",
+        "作者断语",
+        "应期",
+        "反馈"
+      ],
+      "dataset": {
+        "key": "business-case-07_analysis_reference",
+        "rows": [
+          {
+            "key": "business-case-07_analysis_672",
+            "source_lines": [
+              672,
+              672
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 672,
+              "line_end": 672,
+              "byte_start": 29322,
+              "byte_end": 29417
+            },
+            "source_quote": "（5）怎么断出出租方想要六十万元租金，但对方只给四十万元租金呢？\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-07"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+        "line_start": 592,
+        "line_end": 681,
+        "byte_start": 25962,
+        "byte_end": 29756
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "business-case-08_whole_case",
+      "title": "实例八：杜新会测买画卷赢利",
+      "category": "analysis",
+      "line_start": 682,
+      "line_end": 791,
+      "attribution": "原书叙述者；案例执行者及张志春按语按原书分别归属",
+      "summary": "完整来源语境；不自动推广案例经验",
+      "concepts": [
+        "完整历史案例",
+        "传统方法",
+        "证据",
+        "作者断语",
+        "应期",
+        "反馈"
+      ],
+      "dataset": {
+        "key": "business-case-08_analysis_reference",
+        "rows": [
+          {
+            "key": "business-case-08_analysis_772",
+            "source_lines": [
+              772,
+              772
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 772,
+              "line_end": 772,
+              "byte_start": 33259,
+              "byte_end": 33312
+            },
+            "source_quote": "（3）为什么断是真画，且是名人字画？\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-08"
+          },
+          {
+            "key": "business-case-08_analysis_776",
+            "source_lines": [
+              776,
+              776
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 776,
+              "line_end": 776,
+              "byte_start": 33477,
+              "byte_end": 33527
+            },
+            "source_quote": "（4）怎样看出王某要买下这幅画的？\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-08"
+          },
+          {
+            "key": "business-case-08_analysis_782",
+            "source_lines": [
+              782,
+              782
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 782,
+              "line_end": 782,
+              "byte_start": 33899,
+              "byte_end": 33964
+            },
+            "source_quote": "（5）为何要力劝王某买下该画，并断出要赚钱？\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-08"
+          },
+          {
+            "key": "business-case-08_analysis_788",
+            "source_lines": [
+              788,
+              788
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 788,
+              "line_end": 788,
+              "byte_start": 34342,
+              "byte_end": 34395
+            },
+            "source_quote": "（6）买价和卖价的价格是怎么断的呢？\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-08"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+        "line_start": 682,
+        "line_end": 791,
+        "byte_start": 29756,
+        "byte_end": 34596
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "business-case-09_whole_case",
+      "title": "实例九：杜新会测企业前景及对策",
+      "category": "analysis",
+      "line_start": 792,
+      "line_end": 897,
+      "attribution": "原书叙述者；案例执行者及张志春按语按原书分别归属",
+      "summary": "完整来源语境；不自动推广案例经验",
+      "concepts": [
+        "完整历史案例",
+        "传统方法",
+        "证据",
+        "作者断语",
+        "应期",
+        "反馈"
+      ],
+      "dataset": {
+        "key": "business-case-09_analysis_reference",
+        "rows": [
+          {
+            "key": "business-case-09_analysis_864",
+            "source_lines": [
+              864,
+              864
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 864,
+              "line_end": 864,
+              "byte_start": 37403,
+              "byte_end": 37453
+            },
+            "source_quote": "（1）工厂停产是以开门预测出来的。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-09"
+          },
+          {
+            "key": "business-case-09_analysis_868",
+            "source_lines": [
+              868,
+              868
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 868,
+              "line_end": 868,
+              "byte_start": 37580,
+              "byte_end": 37657
+            },
+            "source_quote": "（2）资金缺乏、产品积压是以甲子戊和时干落宫预测的。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-09"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+        "line_start": 792,
+        "line_end": 897,
+        "byte_start": 34596,
+        "byte_end": 39242
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "business-case-10_whole_case",
+      "title": "实例十：杜新会测贷款",
+      "category": "analysis",
+      "line_start": 898,
+      "line_end": 977,
+      "attribution": "原书叙述者；案例执行者及张志春按语按原书分别归属",
+      "summary": "完整来源语境；不自动推广案例经验",
+      "concepts": [
+        "完整历史案例",
+        "传统方法",
+        "证据",
+        "作者断语",
+        "应期",
+        "反馈"
+      ],
+      "dataset": {
+        "key": "business-case-10_analysis_reference",
+        "rows": []
+      },
+      "source_pointer": {
+        "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+        "line_start": 898,
+        "line_end": 977,
+        "byte_start": 39242,
+        "byte_end": 42180
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "business-case-11_whole_case",
+      "title": "实例十一：杜新会测中介生意",
+      "category": "analysis",
+      "line_start": 978,
+      "line_end": 1031,
+      "attribution": "原书叙述者；案例执行者及张志春按语按原书分别归属",
+      "summary": "完整来源语境；不自动推广案例经验",
+      "concepts": [
+        "完整历史案例",
+        "传统方法",
+        "证据",
+        "作者断语",
+        "应期",
+        "反馈"
+      ],
+      "dataset": {
+        "key": "business-case-11_analysis_reference",
+        "rows": [
+          {
+            "key": "business-case-11_analysis_1022",
+            "source_lines": [
+              1022,
+              1022
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 1022,
+              "line_end": 1022,
+              "byte_start": 43504,
+              "byte_end": 43608
+            },
+            "source_quote": "（1）日干乙奇为买方落巽4宫，时干辛为卖方落兑7宫，六合为经纪人落坤2宫。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-11"
+          },
+          {
+            "key": "business-case-11_analysis_1024",
+            "source_lines": [
+              1024,
+              1024
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 1024,
+              "line_end": 1024,
+              "byte_start": 43609,
+              "byte_end": 43706
+            },
+            "source_quote": "（2）现时干兑7宫克日干巽4宫，主生意不成，时干宫空亡也主生意不成。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-11"
+          },
+          {
+            "key": "business-case-11_analysis_1028",
+            "source_lines": [
+              1028,
+              1028
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 1028,
+              "line_end": 1028,
+              "byte_start": 43790,
+              "byte_end": 43868
+            },
+            "source_quote": "（3）日干宫巽4宫，格局庚加戊，主做生意换地盘仍可做。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-11"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+        "line_start": 978,
+        "line_end": 1031,
+        "byte_start": 42180,
+        "byte_end": 43901
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "business-case-12_whole_case",
+      "title": "实例十二：贵州省赤水市学员卢圣湘测抽奖例",
+      "category": "analysis",
+      "line_start": 1032,
+      "line_end": 1253,
+      "attribution": "原书叙述者；案例执行者及张志春按语按原书分别归属",
+      "summary": "完整来源语境；不自动推广案例经验",
+      "concepts": [
+        "完整历史案例",
+        "传统方法",
+        "证据",
+        "作者断语",
+        "应期",
+        "反馈"
+      ],
+      "dataset": {
+        "key": "business-case-12_analysis_reference",
+        "rows": [
+          {
+            "key": "business-case-12_analysis_1095",
+            "source_lines": [
+              1095,
+              1095
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 1095,
+              "line_end": 1095,
+              "byte_start": 46297,
+              "byte_end": 46423
+            },
+            "source_quote": "（1）测汽车以伤门为用神，今伤门落坎1宫，天盘为客，地盘为主，抽奖人为客，设奖人为主。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-12"
+          },
+          {
+            "key": "business-case-12_analysis_1099",
+            "source_lines": [
+              1099,
+              1099
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 1099,
+              "line_end": 1099,
+              "byte_start": 46516,
+              "byte_end": 46605
+            },
+            "source_quote": "（2）伤加休主男人变动，或托人办事，财名不利，也说明不利主。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-12"
+          },
+          {
+            "key": "business-case-12_analysis_1101",
+            "source_lines": [
+              1101,
+              1101
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 1101,
+              "line_end": 1101,
+              "byte_start": 46606,
+              "byte_end": 46704
+            },
+            "source_quote": "（3）丙午时为五阳时，按阳时利客、明时利主的经验，此时利客不利主。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-12"
+          },
+          {
+            "key": "business-case-12_analysis_1156",
+            "source_lines": [
+              1156,
+              1156
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 1156,
+              "line_end": 1156,
+              "byte_start": 48194,
+              "byte_end": 48299
+            },
+            "source_quote": "（1）汽车伤门落9宫，仍然上乘值符，天盘壬水直克地盘丁火财，利客不利主。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-12"
+          },
+          {
+            "key": "business-case-12_analysis_1158",
+            "source_lines": [
+              1158,
+              1158
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 1158,
+              "line_end": 1158,
+              "byte_start": 48300,
+              "byte_end": 48356
+            },
+            "source_quote": "（2）丁未属五阳时，仍然是利客不利主。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-12"
+          },
+          {
+            "key": "business-case-12_analysis_1216",
+            "source_lines": [
+              1216,
+              1216
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 1216,
+              "line_end": 1216,
+              "byte_start": 49803,
+              "byte_end": 49938
+            },
+            "source_quote": "（1）伤门为汽车落7宫，天盘六仪己土直克地盘壬水，丑月己土又旺，说明客克主，又上乘太阴吉神。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-12"
+          },
+          {
+            "key": "business-case-12_analysis_1218",
+            "source_lines": [
+              1218,
+              1218
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 1218,
+              "line_end": 1218,
+              "byte_start": 49939,
+              "byte_end": 49989
+            },
+            "source_quote": "（2）丁巳时为五阳时，利客不利主。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-12"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+        "line_start": 1032,
+        "line_end": 1253,
+        "byte_start": 43901,
+        "byte_end": 51461
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "business-case-13_whole_case",
+      "title": "实例十三：杜新会测讨债",
+      "category": "analysis",
+      "line_start": 1254,
+      "line_end": 1306,
+      "attribution": "原书叙述者；案例执行者及张志春按语按原书分别归属",
+      "summary": "完整来源语境；不自动推广案例经验",
+      "concepts": [
+        "完整历史案例",
+        "传统方法",
+        "证据",
+        "作者断语",
+        "应期",
+        "反馈"
+      ],
+      "dataset": {
+        "key": "business-case-13_analysis_reference",
+        "rows": [
+          {
+            "key": "business-case-13_analysis_1297",
+            "source_lines": [
+              1297,
+              1297
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 1297,
+              "line_end": 1297,
+              "byte_start": 52924,
+              "byte_end": 53029
+            },
+            "source_quote": "（1）伤门为索债人，落离九宫为火，生值符落坤2宫土，索债有利，欠债可还。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-13"
+          },
+          {
+            "key": "business-case-13_analysis_1299",
+            "source_lines": [
+              1299,
+              1299
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 1299,
+              "line_end": 1299,
+              "byte_start": 53030,
+              "byte_end": 53198
+            },
+            "source_quote": "（2）天乙（值符下临地盘宫对应之九星）为欠债人，现天乙天芮星落乾6宫属金，伤门落离九宫为火，火克金，索债可有收获。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-13"
+          },
+          {
+            "key": "business-case-13_analysis_1301",
+            "source_lines": [
+              1301,
+              1301
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 1301,
+              "line_end": 1301,
+              "byte_start": 53199,
+              "byte_end": 53330
+            },
+            "source_quote": "（3）伤门在9宫，天乙在6宫，值符在2宫，均为阴遁内盘，为速度快，故今日去索债一定会有效果。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-13"
+          },
+          {
+            "key": "business-case-13_analysis_1303",
+            "source_lines": [
+              1303,
+              1303
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 1303,
+              "line_end": 1303,
+              "byte_start": 53331,
+              "byte_end": 53478
+            },
+            "source_quote": "（4）所去土贤庄为东北方，为艮位，艮8宫临开门，天盘加地盘是戊加丙龙回首吉格，为动作大利，成功之象。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-13"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+        "line_start": 1254,
+        "line_end": 1306,
+        "byte_start": 51461,
+        "byte_end": 53724
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "business-case-14_whole_case",
+      "title": "实例十四：杜新会测讨债无获",
+      "category": "analysis",
+      "line_start": 1307,
+      "line_end": 1366,
+      "attribution": "原书叙述者；案例执行者及张志春按语按原书分别归属",
+      "summary": "完整来源语境；不自动推广案例经验",
+      "concepts": [
+        "完整历史案例",
+        "传统方法",
+        "证据",
+        "作者断语",
+        "应期",
+        "反馈"
+      ],
+      "dataset": {
+        "key": "business-case-14_analysis_reference",
+        "rows": [
+          {
+            "key": "business-case-14_analysis_1360",
+            "source_lines": [
+              1360,
+              1360
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 1360,
+              "line_end": 1360,
+              "byte_start": 55412,
+              "byte_end": 55493
+            },
+            "source_quote": "（1）天心星为天乙为欠债人，落乾6宫为伏吟，伏吟为躲藏。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-14"
+          },
+          {
+            "key": "business-case-14_analysis_1362",
+            "source_lines": [
+              1362,
+              1362
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 1362,
+              "line_end": 1362,
+              "byte_start": 55494,
+              "byte_end": 55694
+            },
+            "source_quote": "（2）张某为该机关下属公司，上级找部属看天蓬星，今天蓬星虽休囚无力，但居坎宫在外盘，又临开门相生，上乘九天，说明他躲到遥远的北方去了。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-14"
+          },
+          {
+            "key": "business-case-14_analysis_1364",
+            "source_lines": [
+              1364,
+              1364
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 1364,
+              "line_end": 1364,
+              "byte_start": 55695,
+              "byte_end": 55833
+            },
+            "source_quote": "（3）伤门为讨债人，白虎为委托讨债之人，今同落巽4宫，受欠债人所落乾宫之克，故讨债不会有收获。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-14"
+          },
+          {
+            "key": "business-case-14_analysis_1366",
+            "source_lines": [
+              1366,
+              1366
+            ],
+            "source_pointer": {
+              "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+              "line_start": 1366,
+              "line_end": 1366,
+              "byte_start": 55834,
+              "byte_end": 56047
+            },
+            "source_quote": "（4）所去之方为石家庄的西北方向，正是乾宫之位，虽然己+己百事不遂，星伏吟，又临惊门，惊加开主忧疑，但不凶，且上乘值符，百灾俱消，故断途中安全。\n",
+            "knowledge_kind": "source_case_method_reference",
+            "generalization_status": "not_compiled_as_general_rule",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "case_key": "business-case-14"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "55cdc039b2e23b3cac1f71340aa433a9f3b50d15c230a67bc9649b9fcb296ee6",
+        "line_start": 1307,
+        "line_end": 1366,
+        "byte_start": 53724,
+        "byte_end": 56047
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    }
+  ],
+  "quality_issues": [
+    {
+      "key": "case12_missing_charts",
+      "line_start": 1236,
+      "line_end": 1253,
+      "observation": "第三、四天只有文字判断，不补不存在的原盘"
+    },
+    {
+      "key": "case12_stage_attribution",
+      "line_start": 1032,
+      "line_end": 1253,
+      "observation": "卢圣湘原断与张志春后置按语分开，事后结果不提前"
+    },
+    {
+      "key": "mall_family",
+      "line_start": 233,
+      "line_end": 478,
+      "observation": "相同商城项目单一家族，三次独立问事不混成一次预测"
+    }
+  ],
+  "worked_examples": [],
+  "source_review_status": "confirmed",
+  "source_confirmed_by_user": true,
+  "manual_source_reconfirmation_required": false,
+  "compilation_scope": {
+    "compiled_datasets": [],
+    "formal_role_rules_added": 0,
+    "training_tasks_added": 0
+  },
+  "coverage_policy": "all_nonempty_lines_covered",
+  "engineering_missing_information_policy": "no_made_up_chart_or_historical_data"
+}
