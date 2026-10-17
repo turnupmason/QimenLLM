@@ -1,0 +1,486 @@
+{
+  "date": "2026-10-17",
+  "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+  "data_version": "ec317e3d-b24d-4cd9-83c0-4dfed96857fb",
+  "commands": [
+    "PYTHONPATH=src python3 scripts/import_shenqi_marriage.py --local-only",
+    "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+    "PYTHONPATH=src python3 -m qimenllm audit",
+    "PYTHONPATH=src python3 scripts/smoke_api.py --chapter01 --chapter02 --chapters0405 --application-overview --health --marriage",
+    "PYTHONPATH=src python3 -m qimenllm export-snapshot",
+    "PYTHONPATH=src python3 -m qimenllm --raw-dir artifacts/marriage-prediction/restored-raw restore-snapshot data/snapshots/current artifacts/marriage-prediction/restored.sqlite3",
+    "PYTHONPATH=src python3 -m qimenllm --db artifacts/marriage-prediction/restored.sqlite3 --raw-dir artifacts/marriage-prediction/restored-raw audit",
+    "python3 -m pip wheel --no-deps --no-build-isolation --no-index -w artifacts/marriage-prediction/wheels .",
+    "python3 -m pip install --no-deps --no-index --target work/marriage-installed artifacts/marriage-prediction/wheels/qimenllm-0.1.0-py3-none-any.whl"
+  ],
+  "unit_tests": {
+    "passed": 176,
+    "failed": 0,
+    "previous_count": 158,
+    "new_count": 18,
+    "log_sha256": "f0c8a82014f59ea8a0337107763ba3d80fcba310a9ec60c901dbd93eac1a6c41"
+  },
+  "new_coverage": {
+    "bytes": 21490,
+    "characters": 8332,
+    "lines": 423,
+    "final_newline": false,
+    "sections": 2,
+    "context_groups": 9,
+    "reference_datasets": 7,
+    "reference_rows": 28,
+    "numbered_author_analysis_contexts": 23,
+    "source_quality_records": 23,
+    "concept_context_entries": 95,
+    "compiled_datasets_added": 0,
+    "formal_rules_added": 0,
+    "source_candidates": 11,
+    "independent_condition_gold": 52
+  },
+  "new_cases": {
+    "cases": 6,
+    "families": 6,
+    "events": 7,
+    "provided_original_charts": 6,
+    "raw_table_rows": 54,
+    "case_records": 91,
+    "evidence_links": 150,
+    "unprovided_initial_chart_not_fabricated": true,
+    "independent_outcome_confirmations": 0
+  },
+  "stage_separation": {
+    "preflight_future_annotations_moved_before_production_import": true,
+    "future_comparisons_on_feedback_or_case_audit_only": true,
+    "temporal_payload_contract": "source-stage-v1",
+    "known_outcome_field_and_future_feedback_reference_regressions": "passed",
+    "complete_language_semantic_leakage_proof": false,
+    "first_1997_call_and_1998_consultation_separate": true,
+    "january1998_feedback_not_second_consultation_outcome": true,
+    "case5_predicted_year": 1997,
+    "case5_reported_year": 1998,
+    "case5_year_agreement": false,
+    "case6_second_consultation_final_outcome": "not_supplied",
+    "training_tasks_created": 0
+  },
+  "source_chart_scope": {
+    "projected_raw_rows": 54,
+    "matched_listed_symbolic_fields": 188,
+    "source_tables_matching_listed_fields": 4,
+    "center_chief_door_not_covered": 2,
+    "original_tables_modified": false,
+    "case3_duplicate_primary_earth_stem_preserved": "辛 at palaces2,9; author癸 statement preserved separately",
+    "case5_reported_hour_stem_palace5_vs_table3": "both preserved",
+    "compound_chief_original5_hosted2": "checked separately",
+    "full_calendar_or_predictions_verified": false,
+    "previous_health_projection_and_comparison_unchanged": "independent read-only comparison to e765c25 plus full previous regressions passed"
+  },
+  "runtime_integration": {
+    "entry": "QimenService",
+    "cli_api_case_catalog_views_chart_query": "passed",
+    "official_ask_database_candidates": 11,
+    "formal_role_bindings": 0,
+    "model_generation": "skipped",
+    "generic_yi_geng_is_not_unique": true,
+    "person_allegations_from_symbol_role": "not_authorized"
+  },
+  "audit": {
+    "ok": true,
+    "errors": [],
+    "counts": {
+      "books": 1,
+      "chapters": 7,
+      "raw_documents": 7,
+      "knowledge_items": 648,
+      "rules": 0,
+      "cases": 13,
+      "events": 14,
+      "charts": 13,
+      "training_tasks": 0
+    },
+    "data_version": "ec317e3d-b24d-4cd9-83c0-4dfed96857fb"
+  },
+  "state_and_restore": {
+    "old_authoritative_rows_preserved": {
+      "data_versions": 23,
+      "books": 1,
+      "chapters": 6,
+      "raw_documents": 6,
+      "chapter_revisions": 6,
+      "source_reviews": 6,
+      "source_spans": 725,
+      "methods": 15,
+      "concepts": 1399,
+      "concept_links": 0,
+      "knowledge_items": 605,
+      "rules": 0,
+      "rule_conditions": 0,
+      "rule_disagreements": 0,
+      "event_families": 7,
+      "cases": 7,
+      "events": 7,
+      "case_events": 7,
+      "charts": 7,
+      "case_records": 91,
+      "evidence_links": 138,
+      "dataset_releases": 0,
+      "split_assignments": 0,
+      "training_tasks": 0,
+      "task_inputs": 0
+    },
+    "schema_unchanged": true,
+    "source_pointer_checks": 60,
+    "case_views_restored_identical": 26,
+    "source_chart_views_restored_identical": 13,
+    "candidate_query_restored_identical": true,
+    "snapshot_files_identical": 33,
+    "new_chart_comparisons": [
+      {
+        "case_id": "case-e5446929f76492002068967bd0f7d69ae58788ae47b381af75f9e17a671201fe",
+        "title": "实例一：母亲测儿子婚事",
+        "chart_id": "chart-75ec30d71074d8ea5afcb0f91e8210708d6999bd775d11565b7a8e06a707c377",
+        "status": "matches",
+        "checked_fields": 46,
+        "source_table_observations": {
+          "distinct_primary_earth_stems": 9,
+          "duplicate_primary_earth_stems": {},
+          "scope": "literal_source_table_observation_not_original_correction_or_rejection"
+        }
+      },
+      {
+        "case_id": "case-66e477dd113e9546168814a71a348f90d927350eac4f9a64ed1bcf9db9ed2efa",
+        "title": "实例二：母亲测女儿婚事",
+        "chart_id": "chart-6c19816976f2df7b47365e6b8a71ee205deb0c0d6c2f2e42150fa80a97ecaf3e",
+        "status": "matches",
+        "checked_fields": 47,
+        "source_table_observations": {
+          "distinct_primary_earth_stems": 9,
+          "duplicate_primary_earth_stems": {},
+          "scope": "literal_source_table_observation_not_original_correction_or_rejection"
+        }
+      },
+      {
+        "case_id": "case-e18ba5844c83c23d448d9ce551cbc146cfe697c3b9a0f248b52872724c80edd0",
+        "title": "实例三：杜新会测男青年离婚",
+        "chart_id": "chart-f944687c999057ee4537a9d55c8655ce19f77ebfb488261823c0b0e95cb7bfab",
+        "status": "not_covered",
+        "checked_fields": 0,
+        "source_table_observations": {
+          "distinct_primary_earth_stems": 8,
+          "duplicate_primary_earth_stems": {
+            "辛": [
+              9,
+              2
+            ]
+          },
+          "scope": "literal_source_table_observation_not_original_correction_or_rejection"
+        }
+      },
+      {
+        "case_id": "case-cecf00bd786c790b3bec788b23487bb4a2f7a16d6ca1132ec703d4ce78a96ebc",
+        "title": "实例四：中年妇女测婚",
+        "chart_id": "chart-23951156ea1b90081375d298957979a38d24d3cd2694b5478cc06fba85e5cb45",
+        "status": "not_covered",
+        "checked_fields": 0,
+        "source_table_observations": {
+          "distinct_primary_earth_stems": 9,
+          "duplicate_primary_earth_stems": {},
+          "scope": "literal_source_table_observation_not_original_correction_or_rejection"
+        }
+      },
+      {
+        "case_id": "case-06199fc40772ac8fc5f4a73cde73b79c26318962a41f628c16c8aef05e0c4427",
+        "title": "实例五：第三者测婚",
+        "chart_id": "chart-752b82666e1f8456f51f947181a7c6ee1dc1a527e602b978ac9c76776cb2f8a0",
+        "status": "matches",
+        "checked_fields": 47,
+        "source_table_observations": {
+          "distinct_primary_earth_stems": 9,
+          "duplicate_primary_earth_stems": {},
+          "scope": "literal_source_table_observation_not_original_correction_or_rejection"
+        }
+      },
+      {
+        "case_id": "case-9b0a82c9dd9be93670a78d2035fc0ed84bf4a8a87a5ff970281c1be8bb007855",
+        "title": "实例六：妻子测丈夫外遇",
+        "chart_id": "chart-ee4ad1bf5adeb7e3ce1e5cda5f9dab48848387eb924d288f1805c98ea1152276",
+        "status": "matches",
+        "checked_fields": 48,
+        "source_table_observations": {
+          "distinct_primary_earth_stems": 9,
+          "duplicate_primary_earth_stems": {},
+          "scope": "literal_source_table_observation_not_original_correction_or_rejection"
+        }
+      }
+    ]
+  },
+  "snapshot": {
+    "data_version": "ec317e3d-b24d-4cd9-83c0-4dfed96857fb",
+    "snapshot": "data/snapshots/current",
+    "counts": {
+      "data_versions": 28,
+      "books": 1,
+      "chapters": 7,
+      "raw_documents": 7,
+      "chapter_revisions": 7,
+      "source_reviews": 7,
+      "source_spans": 931,
+      "methods": 16,
+      "concepts": 1494,
+      "concept_links": 0,
+      "knowledge_items": 648,
+      "rules": 0,
+      "rule_conditions": 0,
+      "rule_disagreements": 0,
+      "event_families": 13,
+      "cases": 13,
+      "events": 14,
+      "case_events": 14,
+      "charts": 13,
+      "case_records": 182,
+      "evidence_links": 288,
+      "dataset_releases": 0,
+      "split_assignments": 0,
+      "training_tasks": 0,
+      "task_inputs": 0
+    },
+    "manifest_sha256": "455b9be07b1b0f792c9824278629d6ea8236c0d5e5243eeddc9cf896f2479c76"
+  },
+  "http": {
+    "ok": true,
+    "transport": "temporary_loopback_http",
+    "listener_closed": true,
+    "results": [
+      {
+        "path": "/health",
+        "http_status": 200,
+        "status": "ok"
+      },
+      {
+        "path": "/v1/ask",
+        "http_status": 200,
+        "status": "blocked"
+      },
+      {
+        "path": "/v1/learn",
+        "http_status": 200,
+        "status": "awaiting_sources"
+      },
+      {
+        "path": "/v1/learn",
+        "http_status": 200,
+        "status": "sources_found"
+      },
+      {
+        "path": "/v1/calculate",
+        "http_status": 200,
+        "status": "computed"
+      },
+      {
+        "path": "/v1/learn",
+        "http_status": 200,
+        "status": "sources_found"
+      },
+      {
+        "path": "/v1/calculate",
+        "http_status": 200,
+        "status": "computed"
+      },
+      {
+        "path": "/v1/calculate",
+        "http_status": 200,
+        "status": "computed"
+      },
+      {
+        "path": "/v1/ask",
+        "http_status": 200,
+        "status": "blocked"
+      },
+      {
+        "path": "/v1/reference",
+        "http_status": 200,
+        "status": "sources_found"
+      },
+      {
+        "path": "/v1/calculate",
+        "http_status": 200,
+        "status": "computed"
+      },
+      {
+        "path": "/v1/calculate",
+        "http_status": 200,
+        "status": "computed"
+      },
+      {
+        "path": "/v1/calculate",
+        "http_status": 200,
+        "status": "computed"
+      },
+      {
+        "path": "/v1/rule-candidates",
+        "http_status": 200,
+        "status": "inspected"
+      },
+      {
+        "path": "/v1/case",
+        "http_status": 200,
+        "status": "full"
+      },
+      {
+        "path": "/v1/case",
+        "http_status": 200,
+        "status": "before_prediction"
+      },
+      {
+        "path": "/v1/cases",
+        "http_status": 200,
+        "status": "sources_found"
+      },
+      {
+        "path": "/v1/case-chart",
+        "http_status": 200,
+        "status": "projected"
+      },
+      {
+        "path": "/v1/case-chart",
+        "http_status": 200,
+        "status": "projected"
+      },
+      {
+        "path": "/v1/case-chart",
+        "http_status": 200,
+        "status": "projected"
+      },
+      {
+        "path": "/v1/case-chart",
+        "http_status": 200,
+        "status": "projected"
+      },
+      {
+        "path": "/v1/case-chart",
+        "http_status": 200,
+        "status": "projected"
+      },
+      {
+        "path": "/v1/case-chart",
+        "http_status": 200,
+        "status": "projected"
+      },
+      {
+        "path": "/v1/cases",
+        "http_status": 200,
+        "status": "sources_found"
+      },
+      {
+        "path": "/v1/case-chart",
+        "http_status": 200,
+        "status": "projected"
+      },
+      {
+        "path": "/v1/case-chart",
+        "http_status": 200,
+        "status": "projected"
+      },
+      {
+        "path": "/v1/case-chart",
+        "http_status": 200,
+        "status": "projected"
+      },
+      {
+        "path": "/v1/case-chart",
+        "http_status": 200,
+        "status": "projected"
+      },
+      {
+        "path": "/v1/case-chart",
+        "http_status": 200,
+        "status": "projected"
+      },
+      {
+        "path": "/v1/case-chart",
+        "http_status": 200,
+        "status": "projected"
+      },
+      {
+        "path": "/v1/case",
+        "http_status": 200,
+        "status": "full"
+      },
+      {
+        "path": "/v1/case",
+        "http_status": 200,
+        "status": "before_prediction"
+      },
+      {
+        "path": "/v1/rule-candidates",
+        "http_status": 200,
+        "status": "inspected"
+      },
+      {
+        "path": "/v1/ask",
+        "http_status": 200,
+        "status": "blocked"
+      }
+    ]
+  },
+  "offline_install": {
+    "installed_package": "/workspace/QimenLLM/work/marriage-installed/qimenllm/__init__.py",
+    "cases": 6,
+    "events": 7,
+    "source_charts": 6,
+    "comparison_statuses": [
+      "matches",
+      "matches",
+      "not_covered",
+      "not_covered",
+      "matches",
+      "matches"
+    ],
+    "candidate_query": "11 source candidates; no bindings",
+    "before_prediction_views": "6 passed"
+  },
+  "replay": {
+    "source_duplicate": true,
+    "annotation_rows_added": 0,
+    "case_rows_added": 0,
+    "candidate_rows_added": 0,
+    "versions_added": 0
+  },
+  "schema_migration_required": false,
+  "old_authoritative_rows_modified": false,
+  "old_gold_modified": false,
+  "frozen_evaluation_modified": false,
+  "development_findings": [
+    {
+      "finding": "future details or feedback confirmations in draft forecast payloads63/338/350/371",
+      "resolution": "move to corresponding65/340/352/373 feedback; later outcome/method audit to case-level temporal_audit before authoritative import; source unchanged"
+    },
+    {
+      "finding": "new source compound chief palace and star-only prefix markers",
+      "resolution": "source-hash-specific policy and separate original/host comparison; ambiguous markers literal, no inferred extra star"
+    },
+    {
+      "finding": "two center chief-door calculations not covered and contradictory raw table/author claims",
+      "resolution": "keep coverage gaps and source disagreements separate from test pass, never modify source to match engine"
+    }
+  ],
+  "model_experiments": [],
+  "training_started": false,
+  "professional_analysis_completed": false,
+  "public_deployment": false,
+  "unverified": [
+    "independent calendar/date casting",
+    "center chief-door conventions",
+    "semantic leakage beyond explicit structural contract",
+    "source-internal interpretation differences",
+    "formal role binding and professional model author-method reproduction",
+    "independent historical/real-world outcome verification",
+    "home4090/Mac/Windows/public service load"
+  ],
+  "github": {
+    "repository": "turnupmason/QimenLLM",
+    "visibility_required": "private",
+    "raw_checkpoint_commit": "7623f1b25c87c715779114ec2f6c323ab6f46c6d",
+    "final_receipt": "work/github-sync.json after push and remote HEAD verification"
+  },
+  "local_full_logs": "artifacts/marriage-prediction/"
+}

@@ -65,3 +65,5 @@ PYTHONPATH=src python3 scripts/import_shenqi_chapters0405.py
 应用概述使用scripts/import_shenqi_application_overview.py重放对应确切SHA；保留未编号标题和技术键，不根据排序6推印刷章号。流程原文→完整上下文/3事实族→条件候选历史→完整案例，分阶段可幂等重放，不保证跨阶段单事务。候选支持record_revision追加：同版本变内容拒绝，跳号/缺前版拒绝，historical_candidates供全新库恢复61历史记录，当前58候选由最高版本选取；事前投影不会包含完整叙述。最终按既定私有Git核验流程同步代码、整理及真实快照。
 
 人体疾病预测由scripts/import_shenqi_health.py按SHA重放：完整原文→10上下文/仅参考知识→6完整案例，默认最终尝试Git同步；--local-only仅分步维护，交付前仍须实际同步。先在临时库核查全部源行/案例时序及受限定的盘投影，再写实库，避免导入后改不可变载体。实例表列的天/地干解释有作者叠干出处，显式标整理约定，不擅自补九星/马星/空亡。不同案例载体的具体字段名不是源文缺项，统一从source_span读完整表。新章技术排序7不推印刷章号。
+
+恋爱婚姻由scripts/import_shenqi_marriage.py按确切SHA增量重放，先完整上下文/参考资料、再6整案和11来源候选。实库前在临时库校验，后验注释归反馈/案例审计，新的temporal_payload_contract显式启用结构检查，旧manifest不改。源表哈希策略只扩展明确审查的新附件，例3地盘重复、例5宫位与年份差别原样留存；最后一案2事件只有1已提供盘，不能自动补盘。技术排序8不推印刷章号。

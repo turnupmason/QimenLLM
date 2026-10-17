@@ -1,14 +1,17 @@
-"""Read-only projection of the supplied health tables, separate from chart computation.
+"""Read-only projection of reviewed source tables, separate from chart computation.
 
 The four columns have an explicit, hash-scoped transcription convention. No
 calendar, void, horse, extra star or medical conclusion is inferred here.
 """
 from __future__ import annotations
+from collections import Counter
 from ..knowledge.db import connect, digest
 from ..retrieval.repository import KnowledgeRepository
 
 HEALTH_SHA='73ec9d99ea673dcd811ace001adb42b18f39de609b57c5c186a1f84611d5793d'
+MARRIAGE_SHA='041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5'
 PROJECTION='shenqi_health_table_projection_v1'
+SOURCE_POLICIES={HEALTH_SHA:PROJECTION,MARRIAGE_SHA:'shenqi_marriage_table_projection_v1'}
 NUMERALS=dict(zip('一二三四五六七八九',range(1,10)))
 
 
@@ -31,7 +34,7 @@ def project_chart(db,case_id,chart_id):
         if row is None: raise KeyError(chart_id)
         if digest(row['content'])!=row['sha256'] or digest(row['chart_json'].encode())!=row['content_sha256']:
             raise ValueError('Original chart/source integrity mismatch')
-        if row['sha256']!=HEALTH_SHA:
+        if row['sha256'] not in SOURCE_POLICIES:
             return {'status':'not_covered','reason':'No reviewed table convention for this source',
                     'chart_id':chart_id,'professional_analysis_completed':False}
         raw=row['content']; text=raw[row['byte_start']:row['byte_end']].decode()
@@ -92,8 +95,8 @@ def project_chart(db,case_id,chart_id):
     for line in source_lines[:headers[0]]:
         if '：' in line:
             key,value=line.strip().split('：',1); metadata[key]=value
-    return {'status':'projected','case_id':case_id,'chart_id':chart_id,'event_id':row['event_id'],
-            'projection_method':PROJECTION,'source_sha256':row['sha256'],
+    result={'status':'projected','case_id':case_id,'chart_id':chart_id,'event_id':row['event_id'],
+            'projection_method':SOURCE_POLICIES[row['sha256']],'source_sha256':row['sha256'],
             'source_acceptance':review[0] if review else 'pending',
             'original_validation_status':row['validation_status'],'source_metadata':metadata,
             'palaces':{str(p):palaces[p] for p in sorted(palaces)},'reference_evidence':evidence,
@@ -102,6 +105,13 @@ def project_chart(db,case_id,chart_id):
             'training_export':False,'purpose':'historical_source_chart_reading',
             'original_chart_modified':False,'engine_verified':False,'calendar_recomputed':False,
             'voids':None,'horse':None,'medical_inference':None,'professional_analysis_completed':False}
+    if row['sha256']==MARRIAGE_SHA:
+        counts=Counter(p['earth_stem'] for p in palaces.values())
+        result['source_table_observations']={'distinct_primary_earth_stems':len(counts),
+            'duplicate_primary_earth_stems':{s:[p['palace'] for p in palaces.values() if p['earth_stem']==s]
+                for s,n in counts.items() if n>1},
+            'scope':'literal_source_table_observation_not_original_correction_or_rejection'}
+    return result
 
 
 def compare_chart(projected,paper,method):
@@ -140,8 +150,13 @@ def compare_chart(projected,paper,method):
     for source_key,fact_key in (('值符落宫','zhifu_layout_palace'),('值使落宫','zhishi_landing_palace')):
         if source_key in meta:
             digits=[c for c in meta[source_key] if c in '123456789']
-            if len(digits)!=1:raise ValueError('Unsupported source chief palace notation')
-            check('source_metadata.'+source_key,int(digits[0]),chart['derived_facts'][fact_key])
+            if len(digits)==2 and '寄' in meta[source_key] and source_key=='值符落宫':
+                check('source_metadata.'+source_key+'.original',int(digits[0]),
+                      chart['derived_facts']['zhifu_landing_original_palace'])
+                check('source_metadata.'+source_key+'.hosted',int(digits[1]),chart['derived_facts'][fact_key])
+            elif len(digits)==1:
+                check('source_metadata.'+source_key,int(digits[0]),chart['derived_facts'][fact_key])
+            else:raise ValueError('Unsupported source chief palace notation')
     return {'status':'matches' if all(c['matches'] for c in checks) else 'mismatch',
             'comparison_method':method,'source_chart_id':projected['chart_id'],
             'computed_chart_id':chart['chart_id'],'checks':checks,'calculation_evidence':computed['evidence'],

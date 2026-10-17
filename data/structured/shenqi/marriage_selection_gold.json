@@ -1,0 +1,1391 @@
+{
+  "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+  "source_byte_count": 21490,
+  "source_line_count": 423,
+  "gold_generation": "independent manual source transcription and explicit condition logic; no candidate inspection program invoked",
+  "scope": "first section source-candidate inspection, not professional binding, person allegations or prediction scoring",
+  "selection_cases": [
+    {
+      "key": "female_general_explicit",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "couple_role_reference",
+        "target_party": "female"
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_general_yi_geng_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_general_female_party",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "female_general_no_method_is_not_unique",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "couple_role_reference",
+        "target_party": "female"
+      },
+      "inspection_filters": {
+        "domain": "marriage"
+      },
+      "expected": {
+        "candidate_key": "marriage_general_female_party",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "male_general_explicit",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "couple_role_reference",
+        "target_party": "male"
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_general_yi_geng_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_general_male_party",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "male_general_no_method_is_not_unique",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "couple_role_reference",
+        "target_party": "male"
+      },
+      "inspection_filters": {
+        "domain": "marriage"
+      },
+      "expected": {
+        "candidate_key": "marriage_general_male_party",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "female_general_domain_only",
+      "context": {
+        "domain": "marriage"
+      },
+      "inspection_filters": {
+        "domain": "marriage"
+      },
+      "expected": {
+        "candidate_key": "marriage_general_female_party",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "missing_fields": [
+          "analysis_context",
+          "target_party"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "male_general_null_target",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "couple_role_reference",
+        "target_party": null
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_general_yi_geng_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_general_male_party",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "missing_fields": [
+          "target_party"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "female_general_wrong_target",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "couple_role_reference",
+        "target_party": "male"
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_general_yi_geng_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_general_female_party",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "general_method_mismatch",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "couple_role_reference",
+        "target_party": "female"
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_married_combining_stem_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_general_female_party",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "age_not_substitute_for_target",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "couple_role_reference",
+        "age_difference": 35
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_general_yi_geng_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_general_male_party",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "missing_fields": [
+          "target_party"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "general_no_birth_year_required",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "couple_role_reference",
+        "target_party": "female",
+        "female_birth_year_stem": null,
+        "male_birth_year_stem": null
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_general_yi_geng_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_general_female_party",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "mediator_selected_method",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "mediator_role_reference"
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_general_yi_geng_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_liuhe_mediator",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "mediator_no_method",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "mediator_role_reference"
+      },
+      "inspection_filters": {
+        "domain": "marriage"
+      },
+      "expected": {
+        "candidate_key": "marriage_liuhe_mediator",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "mediator_missing_context",
+      "context": {
+        "domain": "marriage"
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_general_yi_geng_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_liuhe_mediator",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "missing_fields": [
+          "analysis_context"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "mediator_generates_female",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "mediator_alignment_reference",
+        "target_party": "female",
+        "comparison_basis": "actual_landing_palace_elements",
+        "directed_palace_relation": "liuhe_palace_generates_乙_palace"
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_general_yi_geng_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_mediator_favors_female",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "mediator_reverse_not_equivalent_female",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "mediator_alignment_reference",
+        "target_party": "female",
+        "comparison_basis": "actual_landing_palace_elements",
+        "directed_palace_relation": "乙_palace_generates_liuhe_palace"
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_general_yi_geng_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_mediator_favors_female",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "mediator_fixed_element_not_landing_female",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "mediator_alignment_reference",
+        "target_party": "female",
+        "comparison_basis": "symbol_fixed_elements",
+        "directed_palace_relation": "liuhe_palace_generates_乙_palace"
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_general_yi_geng_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_mediator_favors_female",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "mediator_unknown_relation_female",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "mediator_alignment_reference",
+        "target_party": "female",
+        "comparison_basis": "actual_landing_palace_elements"
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_general_yi_geng_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_mediator_favors_female",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "missing_fields": [
+          "directed_palace_relation"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "mediator_generates_male",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "mediator_alignment_reference",
+        "target_party": "male",
+        "comparison_basis": "actual_landing_palace_elements",
+        "directed_palace_relation": "liuhe_palace_generates_庚_palace"
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_general_yi_geng_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_mediator_favors_male",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "mediator_reverse_not_equivalent_male",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "mediator_alignment_reference",
+        "target_party": "male",
+        "comparison_basis": "actual_landing_palace_elements",
+        "directed_palace_relation": "庚_palace_generates_liuhe_palace"
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_general_yi_geng_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_mediator_favors_male",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "mediator_fixed_element_not_landing_male",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "mediator_alignment_reference",
+        "target_party": "male",
+        "comparison_basis": "symbol_fixed_elements",
+        "directed_palace_relation": "liuhe_palace_generates_庚_palace"
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_general_yi_geng_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_mediator_favors_male",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "mediator_unknown_relation_male",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "mediator_alignment_reference",
+        "target_party": "male",
+        "comparison_basis": "actual_landing_palace_elements"
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_general_yi_geng_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_mediator_favors_male",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "missing_fields": [
+          "directed_palace_relation"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        6
+      ]
+    },
+    {
+      "key": "married_optional_spouse_explicit",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "spouse_role_reference",
+        "marital_status": "married",
+        "selected_subject_role_symbol": "庚",
+        "partner_combining_stem": "乙",
+        "stem_pair_combination_evidence_supplied": true
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_married_combining_stem_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_married_combining_stem_spouse",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        10
+      ]
+    },
+    {
+      "key": "married_optional_spouse_not_default",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "spouse_role_reference",
+        "marital_status": "married",
+        "selected_subject_role_symbol": "庚",
+        "partner_combining_stem": "乙",
+        "stem_pair_combination_evidence_supplied": true
+      },
+      "inspection_filters": {
+        "domain": "marriage"
+      },
+      "expected": {
+        "candidate_key": "marriage_married_combining_stem_spouse",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        10
+      ]
+    },
+    {
+      "key": "not_married_spouse_method_excluded",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "spouse_role_reference",
+        "marital_status": "unmarried",
+        "selected_subject_role_symbol": "庚",
+        "partner_combining_stem": "乙",
+        "stem_pair_combination_evidence_supplied": true
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_married_combining_stem_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_married_combining_stem_spouse",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        10
+      ]
+    },
+    {
+      "key": "unknown_marital_status_not_married",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "spouse_role_reference",
+        "marital_status": null,
+        "selected_subject_role_symbol": "庚",
+        "partner_combining_stem": "乙",
+        "stem_pair_combination_evidence_supplied": true
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_married_combining_stem_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_married_combining_stem_spouse",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "missing_fields": [
+          "marital_status"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        10
+      ]
+    },
+    {
+      "key": "missing_combining_stem",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "spouse_role_reference",
+        "marital_status": "married",
+        "selected_subject_role_symbol": "庚",
+        "partner_combining_stem": null,
+        "stem_pair_combination_evidence_supplied": true
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_married_combining_stem_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_married_combining_stem_spouse",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "missing_fields": [
+          "partner_combining_stem"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        10
+      ]
+    },
+    {
+      "key": "combination_not_verified",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "spouse_role_reference",
+        "marital_status": "married",
+        "selected_subject_role_symbol": "庚",
+        "partner_combining_stem": "乙",
+        "stem_pair_combination_evidence_supplied": false
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_married_combining_stem_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_married_combining_stem_spouse",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        10
+      ]
+    },
+    {
+      "key": "year_stems_optional_divorce_method",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "birth_year_supplement_reference",
+        "marriage_question_subtype": "divorce",
+        "female_birth_year_stem": "辛",
+        "male_birth_year_stem": "壬",
+        "birth_year_stems_explicitly_supplied": true
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_birth_year_supplement_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_birth_year_supplement",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        12
+      ]
+    },
+    {
+      "key": "year_stems_optional_formation_method",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "birth_year_supplement_reference",
+        "marriage_question_subtype": "marriage_formation",
+        "female_birth_year_stem": "辛",
+        "male_birth_year_stem": "壬",
+        "birth_year_stems_explicitly_supplied": true
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_birth_year_supplement_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_birth_year_supplement",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        12
+      ]
+    },
+    {
+      "key": "year_stems_not_default",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "birth_year_supplement_reference",
+        "marriage_question_subtype": "divorce",
+        "female_birth_year_stem": "辛",
+        "male_birth_year_stem": "壬",
+        "birth_year_stems_explicitly_supplied": true
+      },
+      "inspection_filters": {
+        "domain": "marriage"
+      },
+      "expected": {
+        "candidate_key": "marriage_birth_year_supplement",
+        "symbolic_status": "disputed",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        12
+      ]
+    },
+    {
+      "key": "year_stems_not_required_for_every_romance",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "birth_year_supplement_reference",
+        "marriage_question_subtype": "casual_romance",
+        "female_birth_year_stem": "辛",
+        "male_birth_year_stem": "壬",
+        "birth_year_stems_explicitly_supplied": true
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_birth_year_supplement_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_birth_year_supplement",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        12
+      ]
+    },
+    {
+      "key": "unknown_year_not_completed_from_age",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "birth_year_supplement_reference",
+        "marriage_question_subtype": "divorce",
+        "female_birth_year_stem": "辛",
+        "male_birth_year_stem": null,
+        "birth_year_stems_explicitly_supplied": true,
+        "male_age": 34
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_birth_year_supplement_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_birth_year_supplement",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "missing_fields": [
+          "male_birth_year_stem"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        12
+      ]
+    },
+    {
+      "key": "unknown_both_year_stems",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "birth_year_supplement_reference",
+        "marriage_question_subtype": "divorce",
+        "female_birth_year_stem": null,
+        "male_birth_year_stem": null,
+        "birth_year_stems_explicitly_supplied": true
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_birth_year_supplement_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_birth_year_supplement",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "missing_fields": [
+          "female_birth_year_stem",
+          "male_birth_year_stem"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        12
+      ]
+    },
+    {
+      "key": "generated_year_stems_not_supplied",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "birth_year_supplement_reference",
+        "marriage_question_subtype": "divorce",
+        "female_birth_year_stem": "辛",
+        "male_birth_year_stem": "壬",
+        "birth_year_stems_explicitly_supplied": false
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_birth_year_supplement_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_birth_year_supplement",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        12
+      ]
+    },
+    {
+      "key": "character_source_reference_only",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "symbolic_character_reference",
+        "selected_couple_role_method": "shenqi_marriage_general_yi_geng_v1",
+        "observed_landing_palace_configuration_supplied": true
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_general_yi_geng_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_symbol_character_reference",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        8
+      ],
+      "notes": [
+        "hypothetical_role_recommendation必须为空；没有具体外貌/职业预测。"
+      ]
+    },
+    {
+      "key": "character_no_actual_configuration",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "symbolic_character_reference",
+        "selected_couple_role_method": "shenqi_marriage_general_yi_geng_v1",
+        "observed_landing_palace_configuration_supplied": null
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_general_yi_geng_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_symbol_character_reference",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "missing_fields": [
+          "observed_landing_palace_configuration_supplied"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        8
+      ]
+    },
+    {
+      "key": "modern_thirdparty_woman_reference",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "thirdparty_symbol_reference",
+        "era_context": "contemporary",
+        "symbolic_role": "thirdparty_woman"
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_era_symbol_reference_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_contemporary_thirdparty_woman",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        14
+      ],
+      "notes": [
+        "只允许假设符号说明，不能从此断言现实人物出轨。"
+      ]
+    },
+    {
+      "key": "ordinary_marriage_not_infidelity_woman",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "couple_role_reference",
+        "era_context": "contemporary",
+        "symbolic_role": "thirdparty_woman"
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_era_symbol_reference_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_contemporary_thirdparty_woman",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        14
+      ]
+    },
+    {
+      "key": "unknown_context_not_infidelity_woman",
+      "context": {
+        "domain": "marriage",
+        "era_context": "contemporary",
+        "symbolic_role": "thirdparty_woman"
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_era_symbol_reference_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_contemporary_thirdparty_woman",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "missing_fields": [
+          "analysis_context"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        14
+      ]
+    },
+    {
+      "key": "unknown_era_not_modern_woman",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "thirdparty_symbol_reference",
+        "era_context": null,
+        "symbolic_role": "thirdparty_woman"
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_era_symbol_reference_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_contemporary_thirdparty_woman",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "missing_fields": [
+          "era_context"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        14
+      ]
+    },
+    {
+      "key": "past_era_not_modern_woman",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "thirdparty_symbol_reference",
+        "era_context": "old_society",
+        "symbolic_role": "thirdparty_woman"
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_era_symbol_reference_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_contemporary_thirdparty_woman",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        14
+      ]
+    },
+    {
+      "key": "modern_thirdparty_man_reference",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "thirdparty_symbol_reference",
+        "era_context": "contemporary",
+        "symbolic_role": "thirdparty_man"
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_era_symbol_reference_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_contemporary_thirdparty_man",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        14
+      ],
+      "notes": [
+        "只允许假设符号说明，不能从此断言现实人物出轨。"
+      ]
+    },
+    {
+      "key": "ordinary_marriage_not_infidelity_man",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "couple_role_reference",
+        "era_context": "contemporary",
+        "symbolic_role": "thirdparty_man"
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_era_symbol_reference_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_contemporary_thirdparty_man",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        14
+      ]
+    },
+    {
+      "key": "unknown_context_not_infidelity_man",
+      "context": {
+        "domain": "marriage",
+        "era_context": "contemporary",
+        "symbolic_role": "thirdparty_man"
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_era_symbol_reference_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_contemporary_thirdparty_man",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "missing_fields": [
+          "analysis_context"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        14
+      ]
+    },
+    {
+      "key": "unknown_era_not_modern_man",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "thirdparty_symbol_reference",
+        "era_context": null,
+        "symbolic_role": "thirdparty_man"
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_era_symbol_reference_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_contemporary_thirdparty_man",
+        "symbolic_status": "conditional",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only",
+        "missing_fields": [
+          "era_context"
+        ]
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        14
+      ]
+    },
+    {
+      "key": "past_era_not_modern_man",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "thirdparty_symbol_reference",
+        "era_context": "old_society",
+        "symbolic_role": "thirdparty_man"
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_era_symbol_reference_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_contemporary_thirdparty_man",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        14
+      ]
+    },
+    {
+      "key": "historical_concubine_only",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "thirdparty_symbol_reference",
+        "era_context": "old_society",
+        "symbolic_role": "concubine"
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_era_symbol_reference_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_historical_ding_concubine",
+        "symbolic_status": "applicable",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        14
+      ]
+    },
+    {
+      "key": "concubine_not_mapped_to_modern",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "thirdparty_symbol_reference",
+        "era_context": "contemporary",
+        "symbolic_role": "concubine"
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_era_symbol_reference_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_historical_ding_concubine",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        14
+      ]
+    },
+    {
+      "key": "modern_symbol_never_case_certificate",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "divorce_certificate_reference",
+        "era_context": "contemporary",
+        "symbolic_role": "thirdparty_woman"
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_era_symbol_reference_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_contemporary_thirdparty_woman",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        14
+      ]
+    },
+    {
+      "key": "invalid_false_is_not_birth_year_stem",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "birth_year_supplement_reference",
+        "marriage_question_subtype": "divorce",
+        "female_birth_year_stem": "辛",
+        "male_birth_year_stem": false,
+        "birth_year_stems_explicitly_supplied": true
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_birth_year_supplement_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_birth_year_supplement",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        12
+      ]
+    },
+    {
+      "key": "invalid_zero_is_not_birth_year_stem",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "birth_year_supplement_reference",
+        "marriage_question_subtype": "divorce",
+        "female_birth_year_stem": "辛",
+        "male_birth_year_stem": 0,
+        "birth_year_stems_explicitly_supplied": true
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_birth_year_supplement_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_birth_year_supplement",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        12
+      ]
+    },
+    {
+      "key": "invalid_empty_is_not_birth_year_stem",
+      "context": {
+        "domain": "marriage",
+        "analysis_context": "birth_year_supplement_reference",
+        "marriage_question_subtype": "divorce",
+        "female_birth_year_stem": "辛",
+        "male_birth_year_stem": "",
+        "birth_year_stems_explicitly_supplied": true
+      },
+      "inspection_filters": {
+        "domain": "marriage",
+        "method": "shenqi_marriage_birth_year_supplement_v1"
+      },
+      "expected": {
+        "candidate_key": "marriage_birth_year_supplement",
+        "symbolic_status": "excluded",
+        "formal_role_activation": false,
+        "role_bindings": [],
+        "activation_status": "reference_only"
+      },
+      "gold_basis": "manual_source_transcription_and_explicit_condition_logic_not_engine_outputs",
+      "source_lines": [
+        12
+      ]
+    }
+  ],
+  "selection_case_count": 52,
+  "method_contract": {
+    "inspection_filters": "Pass to inspect_candidates separately; method is an explicit requested source method, never inferred from context.",
+    "general_method": "shenqi_marriage_general_yi_geng_v1",
+    "optional_spouse_method": "shenqi_marriage_married_combining_stem_v1",
+    "optional_year_method": "shenqi_marriage_birth_year_supplement_v1",
+    "era_symbol_method": "shenqi_marriage_era_symbol_reference_v1"
+  },
+  "first_section_line_ranges": [
+    [
+      6,
+      14
+    ]
+  ],
+  "source_limitations_gold": [
+    {
+      "key": "general_not_unique",
+      "source_lines": [
+        6
+      ],
+      "expected": "一般乙女庚男不是唯一的人物映射或方法"
+    },
+    {
+      "key": "old_couple_vs_new_couple",
+      "source_lines": [
+        125,
+        137,
+        143
+      ],
+      "expected": "乙庚在例二被解释为已分开的旧夫妻，当前双方另用年命；不将此案例过程推广为所有问事强制回退"
+    },
+    {
+      "key": "female_day_stem_is_geng",
+      "source_lines": [
+        267,
+        273
+      ],
+      "expected": "例四日干庚代表女问事者；一般乙女庚男不能覆盖这条明确案例身份"
+    },
+    {
+      "key": "case_ding_certificate_not_universal",
+      "source_lines": [
+        205
+      ],
+      "expected": "丁为离婚证书仅作为案例方法，不是新增通用身份规则"
+    },
+    {
+      "key": "no_trait_algorithm",
+      "source_lines": [
+        8
+      ],
+      "expected": "没有提供具体身高肤色职业算法，不能从此句生成这些具体事实"
+    },
+    {
+      "key": "no_infidelity_fact_from_symbol",
+      "source_lines": [
+        14
+      ],
+      "expected": "时代符号说明不独立证明任何现实人物有第三者关系"
+    }
+  ],
+  "formal_rules_added": 0,
+  "no_training_tasks_created": true,
+  "no_real_world_outcome_gold_invented": true
+}

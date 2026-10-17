@@ -18,6 +18,7 @@ def main():
     parser.add_argument('--chapters0405',action='store_true',help='Check source references and symbolic condition facts')
     parser.add_argument('--application-overview',action='store_true',help='Check actual source candidates and whole historical case views')
     parser.add_argument('--health',action='store_true',help='Check six health narratives and their original source chart projections')
+    parser.add_argument('--marriage',action='store_true',help='Check marriage consultations, source tables and conditional query integration')
     args=parser.parse_args()
     results=[]
     with make_server('127.0.0.1',0,create_app(QimenService(args.db)),handler_class=PrivateRequestHandler) as server:
@@ -62,6 +63,23 @@ def main():
                     cid=case['case_id'];chart_id=case['events'][0]['chart_ids'][0]
                     checks.append(('POST','/v1/case-chart',{'case_id':cid,'chart_id':chart_id,
                         'comparison_method':'shenqi_ch2_paper_v1'},'projected'))
+            if args.marriage:
+                catalog=QimenService(args.db).cases('marriage-prediction')
+                assert catalog['total']==6,catalog
+                checks.append(('POST','/v1/cases',{'chapter_key':'marriage-prediction'},'sources_found'))
+                for case in catalog['cases']:
+                    for event in case['events']:
+                        for chart_id in event['chart_ids']:
+                            checks.append(('POST','/v1/case-chart',{'case_id':case['case_id'],'chart_id':chart_id,
+                                'comparison_method':'shenqi_ch2_paper_v1'},'projected'))
+                cid=catalog['cases'][-1]['case_id']
+                checks.extend([('POST','/v1/case',{'case_id':cid,'view':view},None) for view in ('full','before_prediction')])
+                checks.extend([
+                    ('POST','/v1/rule-candidates',{'context':{'analysis_context':'couple_role_reference','target_party':'female'},
+                        'domain':'marriage','method':'shenqi_marriage_general_yi_geng_v1'},'inspected'),
+                    ('POST','/v1/ask',{'text':'婚姻来源条件集成检查','domain':'marriage',
+                        'context':{'analysis_context':'couple_role_reference','target_party':'female'},
+                        'method_id':'shenqi_marriage_general_yi_geng_v1'},'blocked')])
             for method,path,payload,expected in checks:
                 client=http.client.HTTPConnection('127.0.0.1',server.server_port,timeout=5)
                 try:
@@ -95,14 +113,20 @@ def main():
                         assert result['total']==1 and result['entries'][0]['applicability_status']=='reference_only',result
                         assert result['role_bindings']==[] and result['sources'],result
                     if path=='/v1/rule-candidates':
-                        assert any(r['candidate_key']=='health_self_patient' and r['symbolic_status']=='applicable'
+                        key='marriage_general_female_party' if payload.get('domain')=='marriage' else 'health_self_patient'
+                        assert any(r['candidate_key']==key and r['symbolic_status']=='applicable'
                                    for r in result['candidates']),result
                         assert result['role_bindings']==[],result
                     if path=='/v1/case':
-                        records=result['events'][0]['records']
-                        assert len(records)==(10 if payload['view']=='full' else 2),result
-                        if payload['view']=='before_prediction':
-                            assert result['events'][0]['charts']==[] and '星箭爆炸' not in json.dumps(result,ensure_ascii=False),result
+                        if len(result['events'])==2:
+                            first,later=result['events'];assert first['charts']==[],result
+                            assert len(first['records'])==(4 if payload['view']=='full' else 1),result
+                            assert len(later['records'])==(10 if payload['view']=='full' else 1),result
+                        else:
+                            records=result['events'][0]['records']
+                            assert len(records)==(10 if payload['view']=='full' else 2),result
+                            if payload['view']=='before_prediction':
+                                assert result['events'][0]['charts']==[] and '星箭爆炸' not in json.dumps(result,ensure_ascii=False),result
                     if path=='/v1/cases':assert result['total']==6,result
                     if path=='/v1/case-chart':
                         assert result['chart_id']==payload['chart_id'] and len(result['palaces'])==9,result

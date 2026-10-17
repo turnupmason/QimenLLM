@@ -1,0 +1,2171 @@
+{
+  "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+  "source_byte_count": 21490,
+  "source_line_count": 423,
+  "chapter_title": "恋爱婚姻预测",
+  "chapter_key_suggestion": "marriage-prediction",
+  "printed_chapter_number": null,
+  "sections": [
+    {
+      "key": "section_01",
+      "title": "第一节 取用判断经验",
+      "line_start": 1,
+      "line_end": 17
+    },
+    {
+      "key": "section_02",
+      "title": "第二节 实例解析（6例）",
+      "line_start": 18,
+      "line_end": 423
+    }
+  ],
+  "groups": [
+    {
+      "key": "marriage_title_and_section_01",
+      "title": "恋爱婚姻预测：标题与第一节",
+      "category": "commentary",
+      "line_start": 1,
+      "line_end": 5,
+      "attribution": "本章叙述者（本次材料未明确姓名）",
+      "summary": "保留章标题与取用经验节标题；本次原文未标印刷章号，不反推章号。",
+      "concepts": [
+        "恋爱婚姻预测",
+        "取用判断经验"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 1,
+        "line_end": 5,
+        "byte_start": 0,
+        "byte_end": 51
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "marriage_conditional_methods_complete",
+      "title": "恋爱婚姻取用判断经验完整语境",
+      "category": "role",
+      "line_start": 6,
+      "line_end": 17,
+      "attribution": "本章叙述者（本次材料未明确姓名）",
+      "summary": "保留一般乙庚、宫内门星神格局、已婚相合干、重大婚事双方年命及时代性第三者类象，条件和可选性分别标记。",
+      "concepts": [
+        "婚姻",
+        "恋爱",
+        "乙奇",
+        "庚",
+        "六合",
+        "媒人",
+        "天盘",
+        "已婚者",
+        "相合之干",
+        "成婚",
+        "离婚",
+        "年命",
+        "丁奇",
+        "丙奇",
+        "第三者"
+      ],
+      "dataset": {
+        "key": "marriage_conditional_method_reference",
+        "rows": [
+          {
+            "key": "marriage_general_partners_and_matchmaker",
+            "knowledge_kind": "traditional_conditional_marriage_reference",
+            "method_scope": "this_provided_chapter_context",
+            "uniqueness": "source_general_or_optional_method_not_proven_exclusive",
+            "analysis_focus": "一般乙女庚男、宫间关系及六合媒人偏向须结合门格",
+            "role_candidates": [
+              {
+                "role": "女方",
+                "symbol": "乙奇",
+                "plate": "天盘",
+                "qualification": "一般"
+              },
+              {
+                "role": "男方",
+                "symbol": "庚",
+                "plate": "天盘",
+                "qualification": "一般"
+              },
+              {
+                "role": "媒人",
+                "symbol": "六合"
+              }
+            ],
+            "conditions": [
+              "恋爱婚姻问事",
+              "判断女男落宫关系须已有明确盘面",
+              "成婚有利分支还要求吉门吉格",
+              "媒人偏向须六合宫生女方或男方宫"
+            ],
+            "preserved_alternatives": [
+              "相生或比和且逢吉门吉格",
+              "两宫相冲相克",
+              "六合宫分别生乙宫或庚宫"
+            ],
+            "exclusions": [
+              "不得仅按性别给任意问事绑定乙庚",
+              "不是每案唯一或充分方法",
+              "不能凭相生一项保证关系结果"
+            ],
+            "source_lines": [
+              6,
+              6
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 6,
+              "line_end": 6,
+              "byte_start": 51,
+              "byte_end": 400
+            },
+            "source_quote": "测恋爱婚姻一般以天盘乙奇为女方，天盘庚为男方。如果两者落宫相生和比和，又逢吉门吉格，则恋爱可成，婚姻美满。如果两宫相冲相克，婚事难成，或夫妻关系不好。又以六合为媒人，六合落宫生乙奇落宫，媒人偏向女方；六合落宫生庚落宫，媒人偏向男方。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "marriage_partner_palace_context",
+            "knowledge_kind": "traditional_conditional_marriage_reference",
+            "method_scope": "this_provided_chapter_context",
+            "uniqueness": "source_general_or_optional_method_not_proven_exclusive",
+            "analysis_focus": "角色已在具体语境绑定后，其宫门星神格局作为作者人物性状类象",
+            "conditions": [
+              "恋爱婚姻上下文",
+              "女男角色选取已有依据",
+              "读取实际落宫门星神格局"
+            ],
+            "role_candidates": [
+              {
+                "role": "女方",
+                "symbol": "乙奇"
+              },
+              {
+                "role": "男方",
+                "symbol": "庚"
+              }
+            ],
+            "analogy_dimensions": [
+              "性格",
+              "身材",
+              "长相",
+              "职业状态"
+            ],
+            "exclusions": [
+              "传统类象不是独立事实验证",
+              "不以单符号直接断言现实人物外貌或职业"
+            ],
+            "source_lines": [
+              8,
+              8
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 8,
+              "line_end": 8,
+              "byte_start": 401,
+              "byte_end": 597
+            },
+            "source_quote": "乙奇落宫所临门、星、神及格局，代表女方性格、身材、长相及职业状态。庚落宫所临门、星、神及格局，代表男方性格、身材、长相及职业状态。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "marriage_married_combining_stem_spouse",
+            "knowledge_kind": "traditional_conditional_marriage_reference",
+            "method_scope": "this_provided_chapter_context",
+            "uniqueness": "source_general_or_optional_method_not_proven_exclusive",
+            "analysis_focus": "已婚前提下另可用用神相合之干看配偶",
+            "conditions": [
+              "已婚者",
+              "具体用神已确定",
+              "相合之干有实际来源及同一盘落宫"
+            ],
+            "role_candidates": [
+              {
+                "role": "配偶",
+                "selection": "已选用神相合之干",
+                "qualification": "还可以"
+              }
+            ],
+            "relationship_dimensions": [
+              "生",
+              "克",
+              "刑",
+              "冲",
+              "害"
+            ],
+            "exclusions": [
+              "未婚或婚姻状态未知不满足本段前提",
+              "不能不分已婚状态把任何相合干当现实配偶",
+              "还可以并不排除其他有来源的方法"
+            ],
+            "source_lines": [
+              10,
+              10
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 10,
+              "line_end": 10,
+              "byte_start": 598,
+              "byte_end": 755
+            },
+            "source_quote": "已婚者，还可以用神相合之干为配偶的代表符号，以他们二者落宫的生克刑冲害等状态，来判断他们婚姻的美恶吉凶。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "marriage_major_events_natal_reference",
+            "knowledge_kind": "traditional_conditional_marriage_reference",
+            "method_scope": "this_provided_chapter_context",
+            "uniqueness": "source_general_or_optional_method_not_proven_exclusive",
+            "analysis_focus": "成婚离婚等大事可另看双方年命辅助",
+            "conditions": [
+              "预测成婚或离婚等大事",
+              "男方年命已知",
+              "女方年命已知",
+              "同一盘中相应落宫有依据"
+            ],
+            "role_candidates": [
+              {
+                "role": "男方辅助用神",
+                "selection": "男方年命"
+              },
+              {
+                "role": "女方辅助用神",
+                "selection": "女方年命"
+              }
+            ],
+            "selection_strength": "还可以；帮助判断",
+            "exclusions": [
+              "不把辅助年命定为每次咨询的强制字段",
+              "不补造出生年或年干",
+              "不能把传统年命判断当确定结局"
+            ],
+            "source_lines": [
+              12,
+              12
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 12,
+              "line_end": 12,
+              "byte_start": 756,
+              "byte_end": 910
+            },
+            "source_quote": "如果预测成婚或离婚等大事，还可以分别看男、女双方的年命落宫情况，以此帮助判断他们之间恋爱或婚姻的结局。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "marriage_historical_third_party_symbols",
+            "knowledge_kind": "traditional_conditional_marriage_reference",
+            "method_scope": "this_provided_chapter_context",
+            "uniqueness": "source_general_or_optional_method_not_proven_exclusive",
+            "analysis_focus": "保留作者旧社会与现在的丁丙第三者角色类象及历史语境",
+            "conditions": [
+              "恋爱婚姻具体上下文",
+              "该角色在案例背景或实际问事中有依据",
+              "须区分作者所说旧社会与现在"
+            ],
+            "role_candidates": [
+              {
+                "era": "旧社会（原文用语）",
+                "symbol": "丁奇",
+                "role": "妾"
+              },
+              {
+                "era": "现在（作者成书语境）",
+                "symbol": "丁奇",
+                "role": "插足双方的第三者女人"
+              },
+              {
+                "era": "现在（作者成书语境）",
+                "symbol": "丙奇",
+                "role": "插足双方的第三者男人"
+              }
+            ],
+            "exclusions": [
+              "不得据丁丙出现自动断言外遇、性行为或身份",
+              "不能把作者时代性性别角色推广为所有关系的排他规则",
+              "原词保留为作者传统解释而非系统事实断言"
+            ],
+            "source_lines": [
+              14,
+              14
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 14,
+              "line_end": 14,
+              "byte_start": 911,
+              "byte_end": 1053
+            },
+            "source_quote": "在旧社会以丁奇为妾，在现在以丁奇为插足男女双方的第三者女人，以丙奇为插足男女双方的第三者男人。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "reference_only_no_automatic_relationship_accusation_or_case_specific_generalization",
+        "conventions": {
+          "complete_section_source_pointer": {
+            "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+            "line_start": 6,
+            "line_end": 17,
+            "byte_start": 51,
+            "byte_end": 1056
+          },
+          "general_method_not_exclusive": true,
+          "unknown_conditions_not_satisfied": true,
+          "source_qualification_preserved": [
+            "一般",
+            "还可以",
+            "帮助判断"
+          ],
+          "actual_relationship_claim_policy": "传统历史方法参考；不得凭符号自动指控现实个人外遇"
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 6,
+        "line_end": 17,
+        "byte_start": 51,
+        "byte_end": 1056
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "marriage_section_02_title",
+      "title": "恋爱婚姻六个实例节标题",
+      "category": "commentary",
+      "line_start": 18,
+      "line_end": 20,
+      "attribution": "本章叙述者（本次材料未明确姓名）",
+      "summary": "原文标明六例；各案例保留完整故事，案例计数与多轮事件、原盘数量分别统计。",
+      "concepts": [
+        "实例解析",
+        "完整案例"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 18,
+        "line_end": 20,
+        "byte_start": 1056,
+        "byte_end": 1091
+      },
+      "status": "structured_reference_only"
+    },
+    {
+      "key": "marriage_case_01_complete",
+      "title": "实例01：母亲测儿子婚事完整故事与作者分析",
+      "category": "analysis",
+      "line_start": 21,
+      "line_end": 79,
+      "attribution": "本章叙述者（本次材料未明确姓名）",
+      "summary": "母亲为三十岁儿子新谈对象问成否，作者以一般乙女庚男及六合、杜门伏吟判断，现场反馈后作后续解释，半月后转述恋爱终止。",
+      "concepts": [
+        "母亲问儿子婚事",
+        "乙女庚男",
+        "坎1",
+        "巽4",
+        "杜门",
+        "螣蛇",
+        "六合",
+        "死门",
+        "空亡",
+        "伏吟",
+        "天辅",
+        "学历",
+        "半月反馈"
+      ],
+      "dataset": {
+        "key": "marriage_case_01_author_method_reference",
+        "rows": [
+          {
+            "key": "case_01_author_step_1",
+            "case_key": "marriage_case_01",
+            "step_number": 1,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "analysis_focus": "乙庚宫间相生与女方性状、主动追求判断及母亲现场确认",
+            "explicit_symbol_evidence": [
+              "乙坎1",
+              "庚巽4",
+              "乙宫生庚宫"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "原书编号段及关联问答整体只作研究参考；打印顺序不是判断时可用信息；反馈、结果及后置解释不可提前输入。",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "associated_dialogue_and_reports_may_be_included": true,
+            "source_lines": [
+              61,
+              66
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 61,
+              "line_end": 66,
+              "byte_start": 2199,
+              "byte_end": 2766
+            },
+            "source_quote": "（1）乙奇代表女方，庚代表男方。乙在坎1宫生庚4宫。\n\n我说：“这个女的具有大专以上文化，工作不错，但个子较矮，一米五六左右，皮肤较黑。女方对你儿子印象不错，主动追你儿子。对不对？”\n\n王大嫂说：“是的，人家是正规大学大专班毕业，学英语的，现在中学教书。经人介绍后，人家很愿意，又是打电话，又是写信，又是约我儿子见面。可是我儿子被动得很，你问他，啥也不说，阴阳怪气的，都把大人急死了！”\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_01_author_step_2",
+            "case_key": "marriage_case_01",
+            "step_number": 2,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "analysis_focus": "杜门、神门、六合空亡和伏吟综合断此婚难成，并收到忧虑反馈",
+            "explicit_symbol_evidence": [
+              "庚巽4",
+              "杜门",
+              "螣蛇",
+              "六合坤2",
+              "死门",
+              "空亡",
+              "子午冲",
+              "时干伤门",
+              "大局伏吟"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "原书编号段及关联问答整体只作研究参考；打印顺序不是判断时可用信息；反馈、结果及后置解释不可提前输入。",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "associated_dialogue_and_reports_may_be_included": true,
+            "source_lines": [
+              67,
+              72
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 67,
+              "line_end": 72,
+              "byte_start": 2766,
+              "byte_end": 3099
+            },
+            "source_quote": "（2）庚落4宫临杜门，闭塞不通，上乘螣蛇主变化。六合主婚姻，落2宫临死门，逢空亡，又子午相冲；时干临伤门；大局为伏吟格。\n\n我说：“这桩婚事恐怕不成，你儿子不愿意。”\n\n王大嫂说：“这可咋办呀！家里大人都急死了，他却一点不着急。”\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_01_author_step_3",
+            "case_key": "marriage_case_01",
+            "step_number": 3,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "analysis_focus": "男方伏吟天辅及克六合宫解释读书意愿；半月后转述关系终止",
+            "explicit_symbol_evidence": [
+              "庚巽4",
+              "伏吟",
+              "天辅",
+              "克六合坤2"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "原书编号段及关联问答整体只作研究参考；打印顺序不是判断时可用信息；反馈、结果及后置解释不可提前输入。",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "associated_dialogue_and_reports_may_be_included": true,
+            "source_lines": [
+              73,
+              78
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 73,
+              "line_end": 78,
+              "byte_start": 3099,
+              "byte_end": 3447
+            },
+            "source_quote": "（3）庚在巽4宫伏吟，临天辅星，克六合所落坤2宫。\n\n我说：“你儿子现在根本就不想谈恋爱，一心在学习，想拿到大学文凭以后再说。”\n\n半月以后，王大嫂对我说：“你测得很对。我儿子对人家姑娘谈了二次就吹了。问他原因，他说嫌人家个子矮，长得黑。”\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "reference_only_no_automatic_relationship_accusation_or_case_specific_generalization",
+        "conventions": {
+          "complete_case_source_pointer": {
+            "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+            "line_start": 21,
+            "line_end": 79,
+            "byte_start": 1091,
+            "byte_end": 3448
+          },
+          "source_case_title": "母亲测儿子婚事",
+          "printed_step_order_preserved": true,
+          "timeline_notes": {
+            "initial_known_lines": [
+              23,
+              25,
+              27
+            ],
+            "print_step_groups_include_dialogue_and_feedback": true,
+            "onsite_feedback_lines": [
+              65,
+              71
+            ],
+            "later_report_line": 77,
+            "information_first_disclosed_in_feedback": [
+              "女方学历、专业、任教及主动联系",
+              "儿子对女方个矮肤黑的意见"
+            ],
+            "outcome_scope": "作者转述半月后谈过两次即终止；未记录男方最终婚姻"
+          },
+          "usable_for_training": "candidate_only_requires_separate_temporal_and_event_split_validation",
+          "no_case_specific_method_auto_generalization": true,
+          "independent_prediction_accuracy": "not_measured",
+          "actual_relationship_claims": "author_or_querent_report_only_not_system_verified_facts"
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 21,
+        "line_end": 79,
+        "byte_start": 1091,
+        "byte_end": 3448
+      },
+      "status": "structured_reference_only",
+      "historical_case": true,
+      "case_key": "marriage_case_01",
+      "case_completeness": "complete_as_supplied",
+      "chronology_notes": {
+        "initial_known_lines": [
+          23,
+          25,
+          27
+        ],
+        "print_step_groups_include_dialogue_and_feedback": true,
+        "onsite_feedback_lines": [
+          65,
+          71
+        ],
+        "later_report_line": 77,
+        "information_first_disclosed_in_feedback": [
+          "女方学历、专业、任教及主动联系",
+          "儿子对女方个矮肤黑的意见"
+        ],
+        "outcome_scope": "作者转述半月后谈过两次即终止；未记录男方最终婚姻"
+      },
+      "integrity_policy": "完整故事、多轮问答、原盘、作者分析、预测与转述反馈整体保留；不机械拆成通用规则，不补写未录事件"
+    },
+    {
+      "key": "marriage_case_02_complete",
+      "title": "实例02：母亲测女儿婚事完整故事与作者分析",
+      "category": "analysis",
+      "line_start": 80,
+      "line_end": 151,
+      "attribution": "本章叙述者（本次材料未明确姓名）",
+      "summary": "母亲问女儿与年长六岁离异男教师婚事，作者明确否定把一般乙庚直接当当前这一对，分别使用双方年命、年干父母、时干与六合，现场反馈和次年成婚结果分层。末句丁壬合是结果之后的应期解释。",
+      "concepts": [
+        "母亲问女儿婚事",
+        "年命庚戌",
+        "男命甲辰壬",
+        "乙庚关系改释",
+        "父母年干丙",
+        "时干壬",
+        "六合",
+        "离婚史",
+        "巳月",
+        "丁壬合",
+        "结婚反馈"
+      ],
+      "dataset": {
+        "key": "marriage_case_02_author_method_reference",
+        "rows": [
+          {
+            "key": "case_02_author_step_1",
+            "case_key": "marriage_case_02",
+            "step_number": 1,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "analysis_focus": "乙庚关系不合女儿当前背景，改解读为男方此前婚姻并获离异反馈",
+            "explicit_symbol_evidence": [
+              "甲寅旬子丑空",
+              "乙坎1死门空亡",
+              "冲克庚离9",
+              "女年命庚",
+              "巳月",
+              "时干壬巽4"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "原书编号段及关联问答整体只作研究参考；打印顺序不是判断时可用信息；反馈、结果及后置解释不可提前输入。",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "associated_dialogue_and_reports_may_be_included": true,
+            "source_lines": [
+              125,
+              130
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 125,
+              "line_end": 130,
+              "byte_start": 4756,
+              "byte_end": 5264
+            },
+            "source_quote": "（1）甲寅旬中子、丑空，今乙奇逢空亡，临死门，在坎1宫正好冲克庚所落9宫。李惠女儿年命为庚，临生门，时令已到巳月，时干壬所在巽4宫当令，因此，这对乙、庚关系不可能代表李惠女儿刚刚谈恋爱的状况。\n\n于是，我在电话中说：“你女儿谈的这个男老师恐怕不是童子身，他结过婚，妻子不是死了就是跟他离婚了。”\n\n李惠说：“对，对，他妻子跟他离了婚，到美国去了。”\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_02_author_step_2",
+            "case_key": "marriage_case_02",
+            "step_number": 2,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "analysis_focus": "年干父母宫克时干六合宫，问父母反对并得到包括工作情况的反馈",
+            "explicit_symbol_evidence": [
+              "年干丙兑7",
+              "克时干壬巽4",
+              "六合巽4",
+              "男年命甲辰壬巽4",
+              "入墓",
+              "六仪击刑",
+              "壬加丙"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "原书编号段及关联问答整体只作研究参考；打印顺序不是判断时可用信息；反馈、结果及后置解释不可提前输入。",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "associated_dialogue_and_reports_may_be_included": true,
+            "source_lines": [
+              131,
+              136
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 131,
+              "line_end": 136,
+              "byte_start": 5264,
+              "byte_end": 5894
+            },
+            "source_quote": "（2）年干为父母，年干丙在兑7宫克时干、六合所在巽4宫。\n\n我说：“你们夫妻俩是不是不赞成女儿这桩婚事？”\n\n李惠说：“是呀！我和她爸都说她，自己一个姑娘家，干嘛要找一个比自己大六岁又离过婚的男人呢！而且这个人个子又矮，去美国留学不按期回国，学校对他有意见，不让他上课（年干、天辅星克该男人年命甲辰壬所在4宫，壬在4宫为入墓和六仪击刑，壬+丙为水蛇入火，官灾刑禁，络绎不绝），他只得自己开了一个工艺美术店，靠卖画为生（庚临生门）。”\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_02_author_step_3",
+            "case_key": "marriage_case_02",
+            "step_number": 3,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "analysis_focus": "男命甲辰壬宫生女命庚宫，断男方主动追求并收到女儿态度反馈",
+            "explicit_symbol_evidence": [
+              "男命甲辰壬巽4",
+              "生女命庚离9"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "原书编号段及关联问答整体只作研究参考；打印顺序不是判断时可用信息；反馈、结果及后置解释不可提前输入。",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "associated_dialogue_and_reports_may_be_included": true,
+            "source_lines": [
+              137,
+              142
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 137,
+              "line_end": 142,
+              "byte_start": 5894,
+              "byte_end": 6203
+            },
+            "source_quote": "（3）男命甲辰壬在4宫，生女命庚9宫。\n\n我说：“是这个男老师主动追求你女儿。”\n\n李惠说：“是的。但我女儿个性很强，根本不听父母的意见，她说这个男的有能力，两人性格也合得来。你看这婚事最后会不会成，美满不美满？”\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_02_author_step_4",
+            "case_key": "marriage_case_02",
+            "step_number": 4,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "analysis_focus": "时干吉门、星神及双方年命相生对抗年干反对，预测最终结婚；保存后来结果及后置应期解释",
+            "explicit_symbol_evidence": [
+              "时干壬巽4",
+              "休门生宫",
+              "天蓬生宫",
+              "六合",
+              "男命壬生女命庚",
+              "巳月时干当令",
+              "年干丙死地",
+              "后来丁壬合解释"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "原书编号段及关联问答整体只作研究参考；打印顺序不是判断时可用信息；反馈、结果及后置解释不可提前输入。",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "associated_dialogue_and_reports_may_be_included": true,
+            "source_lines": [
+              143,
+              149
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 143,
+              "line_end": 149,
+              "byte_start": 6203,
+              "byte_end": 6810
+            },
+            "source_quote": "（4）虽然乙克庚，但时干为所问之事，时干壬临吉门休门，休门又生宫，天蓬星也生宫，又上乘六合吉神，六合主婚姻；年命甲辰壬又生年命庚。巳月火旺，时干当令；年干丙处死地。\n\n我说：“这桩婚事，虽然你们夫妻俩反对，但最后恐怕还得屈服于女儿。儿大不由娘，你们就任其自然吧。”\n\n结果，1997年夏天，李惠打电话告诉我：父母拗不过女儿，女儿已于最近同这个男老师结了婚。\n\n1997年丁丑，丁壬合，时干壬与年干丁相合，成为这桩婚事的应期。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "reference_only_no_automatic_relationship_accusation_or_case_specific_generalization",
+        "conventions": {
+          "complete_case_source_pointer": {
+            "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+            "line_start": 80,
+            "line_end": 151,
+            "byte_start": 3448,
+            "byte_end": 6812
+          },
+          "source_case_title": "母亲测女儿婚事",
+          "printed_step_order_preserved": true,
+          "timeline_notes": {
+            "initial_known_lines": [
+              82,
+              84,
+              86,
+              88
+            ],
+            "onsite_feedback_lines": [
+              129,
+              135,
+              141
+            ],
+            "later_report_line": 147,
+            "post_outcome_timing_explanation_line": 149,
+            "role_scope_warning": "同一盘乙庚先被解释为男方此前夫妇；女儿年命庚和一般庚男分别保留，不能按干字去重覆盖。",
+            "outcome_scope": "作者转述1997年夏天已于最近结婚；丁壬合解释不冒充事前明确预测时间"
+          },
+          "usable_for_training": "candidate_only_requires_separate_temporal_and_event_split_validation",
+          "no_case_specific_method_auto_generalization": true,
+          "independent_prediction_accuracy": "not_measured",
+          "actual_relationship_claims": "author_or_querent_report_only_not_system_verified_facts"
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 80,
+        "line_end": 151,
+        "byte_start": 3448,
+        "byte_end": 6812
+      },
+      "status": "structured_reference_only",
+      "historical_case": true,
+      "case_key": "marriage_case_02",
+      "case_completeness": "complete_as_supplied",
+      "chronology_notes": {
+        "initial_known_lines": [
+          82,
+          84,
+          86,
+          88
+        ],
+        "onsite_feedback_lines": [
+          129,
+          135,
+          141
+        ],
+        "later_report_line": 147,
+        "post_outcome_timing_explanation_line": 149,
+        "role_scope_warning": "同一盘乙庚先被解释为男方此前夫妇；女儿年命庚和一般庚男分别保留，不能按干字去重覆盖。",
+        "outcome_scope": "作者转述1997年夏天已于最近结婚；丁壬合解释不冒充事前明确预测时间"
+      },
+      "integrity_policy": "完整故事、多轮问答、原盘、作者分析、预测与转述反馈整体保留；不机械拆成通用规则，不补写未录事件"
+    },
+    {
+      "key": "marriage_case_03_complete",
+      "title": "实例03：杜新会测男青年离婚完整故事与作者分析",
+      "category": "analysis",
+      "line_start": 152,
+      "line_end": 215,
+      "attribution": "杜新会",
+      "summary": "杜新会见业务员小吴临时求测，先断已离婚及钱财分配，收到对方对既往事件的详细确认，再在书面解说中列四步。全部所断为既往情节，不当未来预测命中。原表与壬加癸解释差异保留。",
+      "concepts": [
+        "杜新会",
+        "小吴",
+        "离婚回溯",
+        "乙庚对冲",
+        "死门中5寄2",
+        "六合",
+        "丁离婚证书",
+        "玄武",
+        "邮票",
+        "九千元",
+        "三千九百元",
+        "壬加癸",
+        "源表解释差异"
+      ],
+      "dataset": {
+        "key": "marriage_case_03_author_method_reference",
+        "rows": [
+          {
+            "key": "case_03_author_step_1",
+            "case_key": "marriage_case_03",
+            "step_number": 1,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "analysis_focus": "值使死门寄坤、六合和乙庚冲格，解读已离婚与妻回娘家；保留壬加癸原话",
+            "explicit_symbol_evidence": [
+              "死门坤2伏吟无气",
+              "六合",
+              "壬加癸（原分析）",
+              "乙震3",
+              "庚兑7",
+              "癸加丁",
+              "庚加己",
+              "乙回正位"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "原书编号段及关联问答整体只作研究参考；打印顺序不是判断时可用信息；反馈、结果及后置解释不可提前输入。",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "杜新会",
+            "associated_dialogue_and_reports_may_be_included": true,
+            "source_lines": [
+              201,
+              202
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 201,
+              "line_end": 202,
+              "byte_start": 8881,
+              "byte_end": 9289
+            },
+            "source_quote": "（1）值使死门落坤2宫伏吟无气，上乘六合，六合主婚姻，下临死门，必有婚灾，壬加癸主幼女奸淫，家有丑声；测婚以乙庚代表夫妇双方，乙庚落3、7对冲之宫，冲则散，又乙奇为其妻落震3宫，癸加丁为蛇夭矫凶格，7宫庚加己为刑格；又天盘乙奇落3宫为回归乙卯正位，故据此断他离了婚，爱人回了娘家。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_03_author_step_2",
+            "case_key": "marriage_case_03",
+            "step_number": 2,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "analysis_focus": "乙旺庚弱、地盘癸与乙及季节类象，解释女方先提和矛盾起止",
+            "explicit_symbol_evidence": [
+              "乙震3卯月旺",
+              "庚金休囚反侮",
+              "地盘癸及乙坤2",
+              "秋季",
+              "春分后"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "原书编号段及关联问答整体只作研究参考；打印顺序不是判断时可用信息；反馈、结果及后置解释不可提前输入。",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "杜新会",
+            "associated_dialogue_and_reports_may_be_included": true,
+            "source_lines": [
+              203,
+              204
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 203,
+              "line_end": 204,
+              "byte_start": 9289,
+              "byte_end": 9605
+            },
+            "source_quote": "（2）乙奇为其妻，落震3宫，正值卯月最旺之时，庚金休囚无力被反侮，所以断他妻子先提出离婚，地盘日干癸和乙奇均在坤二宫，上乘死门，坤宫正当秋季，所以断他们从去年秋天开始闹矛盾。春分后乙奇、伤门最旺，所以断近期离婚。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_03_author_step_3",
+            "case_key": "marriage_case_03",
+            "step_number": 3,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "analysis_focus": "丁为离婚证书并为时干，开门法官、玄武私下及丁下戊，解释批准离婚、具体既往日期与钱财争执",
+            "explicit_symbol_evidence": [
+              "丁时干乾6",
+              "开门法官",
+              "玄武",
+              "丁下戊甲",
+              "3月18日甲寅日（原文）",
+              "天盘戊离9",
+              "子午冲"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "原书编号段及关联问答整体只作研究参考；打印顺序不是判断时可用信息；反馈、结果及后置解释不可提前输入。",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "杜新会",
+            "associated_dialogue_and_reports_may_be_included": true,
+            "source_lines": [
+              205,
+              210
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 205,
+              "line_end": 210,
+              "byte_start": 9605,
+              "byte_end": 10043
+            },
+            "source_quote": "（3）丁奇为离婚证书，又是时干，代表现在所测主要之事，落乾6宫，逢开门，开门为法官，所以断已被批准离婚；上乘玄武，为私下协议离婚，不愿让人知道。\n\n丁下所临之干为应期，丁下临戊（甲），故断3月18日甲寅日离婚。\n\n戊又代表钱财，所以断为钱财争执而离婚。天盘戊落离9宫，子午相冲，故为九千元钱的事而闹矛盾。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_03_author_step_4",
+            "case_key": "marriage_case_03",
+            "step_number": 4,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "analysis_focus": "主客天地盘戊和宫数、丁票据玄武邮票、太阴景门等类象解释双方既往分财数额与物品",
+            "explicit_symbol_evidence": [
+              "地盘戊乾6为主",
+              "丁票据",
+              "玄武投机证券",
+              "天盘戊离9为客",
+              "离卦3数九宫9数",
+              "太阴",
+              "景门火电器"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "原书编号段及关联问答整体只作研究参考；打印顺序不是判断时可用信息；反馈、结果及后置解释不可提前输入。",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "杜新会",
+            "associated_dialogue_and_reports_may_be_included": true,
+            "source_lines": [
+              211,
+              213
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 211,
+              "line_end": 213,
+              "byte_start": 10043,
+              "byte_end": 10425
+            },
+            "source_quote": "（4）地盘戊为主，为求测人小吴所分得之财，落6宫，故断六千元，上临丁为证券票据，上乘玄武为投机证券，故为邮票。\n\n天盘戊为客，为其妻所分得钱物，离卦3数，九宫9数，春天离宫不是最旺，而处相的状态，故断三千九百元，上乘太阴为阴金，景门主火主电器，故为空调和抽烟机。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "reference_only_no_automatic_relationship_accusation_or_case_specific_generalization",
+        "conventions": {
+          "complete_case_source_pointer": {
+            "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+            "line_start": 152,
+            "line_end": 215,
+            "byte_start": 6812,
+            "byte_end": 10427
+          },
+          "source_case_title": "杜新会测男青年离婚",
+          "printed_step_order_preserved": true,
+          "timeline_notes": {
+            "initial_known_lines": [
+              154
+            ],
+            "first_reading_line": 156,
+            "first_feedback_line": 158,
+            "retrospective_details_claim_line": 160,
+            "detailed_feedback_line": 162,
+            "post_dialogue_written_explanation_lines": [
+              164,
+              213
+            ],
+            "all_numbered_steps_historical_explanation": true,
+            "source_reports_divorce_date": "3月18日；该日及干支未独立历法复算",
+            "outcome_scope": "本人对已经发生离婚、财产分配的反馈；不是未来婚姻结果"
+          },
+          "usable_for_training": "candidate_only_requires_separate_temporal_and_event_split_validation",
+          "no_case_specific_method_auto_generalization": true,
+          "independent_prediction_accuracy": "not_measured",
+          "actual_relationship_claims": "author_or_querent_report_only_not_system_verified_facts"
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 152,
+        "line_end": 215,
+        "byte_start": 6812,
+        "byte_end": 10427
+      },
+      "status": "structured_reference_only",
+      "historical_case": true,
+      "case_key": "marriage_case_03",
+      "case_completeness": "complete_as_supplied",
+      "chronology_notes": {
+        "initial_known_lines": [
+          154
+        ],
+        "first_reading_line": 156,
+        "first_feedback_line": 158,
+        "retrospective_details_claim_line": 160,
+        "detailed_feedback_line": 162,
+        "post_dialogue_written_explanation_lines": [
+          164,
+          213
+        ],
+        "all_numbered_steps_historical_explanation": true,
+        "source_reports_divorce_date": "3月18日；该日及干支未独立历法复算",
+        "outcome_scope": "本人对已经发生离婚、财产分配的反馈；不是未来婚姻结果"
+      },
+      "integrity_policy": "完整故事、多轮问答、原盘、作者分析、预测与转述反馈整体保留；不机械拆成通用规则，不补写未录事件"
+    },
+    {
+      "key": "marriage_case_04_complete",
+      "title": "实例04：中年妇女测婚完整故事与作者分析",
+      "category": "analysis",
+      "line_start": 216,
+      "line_end": 287,
+      "attribution": "本章叙述者（本次材料未明确姓名）",
+      "summary": "主持人赵小姐问婚，乙女庚男与日干庚为女问事者、时干壬及年命分别是不同作用层。对话逐次披露外遇怀疑与离婚意愿，作者后预测协议离婚时间；随后本人转述办结。",
+      "concepts": [
+        "赵小姐",
+        "日干庚为女问事者",
+        "乙女庚男",
+        "时干壬丈夫",
+        "年命辛",
+        "丈夫年命壬",
+        "丁丙第三者",
+        "杜门中5寄2",
+        "六合空亡",
+        "协议离婚",
+        "律师",
+        "1998年2月"
+      ],
+      "dataset": {
+        "key": "marriage_case_04_author_method_reference",
+        "rows": [
+          {
+            "key": "case_04_author_step_1",
+            "case_key": "marriage_case_04",
+            "step_number": 1,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "analysis_focus": "乙庚宫克、时干壬杜门六合空亡与壬加辛，断既往婚姻伤心及丈夫隐瞒",
+            "explicit_symbol_evidence": [
+              "乙离9伤门",
+              "克庚乾6",
+              "时干壬杜门六合",
+              "空亡",
+              "壬加辛"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "原书编号段及关联问答整体只作研究参考；打印顺序不是判断时可用信息；反馈、结果及后置解释不可提前输入。",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "associated_dialogue_and_reports_may_be_included": true,
+            "source_lines": [
+              261,
+              266
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 261,
+              "line_end": 266,
+              "byte_start": 11582,
+              "byte_end": 12121
+            },
+            "source_quote": "（1）测婚首先看乙、庚，乙为女方，庚为男方。今乙奇在离9宫临伤门，克乾6宫之庚，时干壬临杜门、六合，又逢空亡，壬+辛名为螣蛇相缠，纵得吉门也不能安，若有谋望，被人欺瞒。\n\n据此，我说：“赵小姐，您从今年6月以来，为婚姻事十分伤心，主要是对丈夫不满，他经常夜不回家，有些事瞒着您，为此二人矛盾很尖锐。”\n\n赵小姐说：“谁说不是！我怀疑他在外边胡闹，有婚外恋，你看有没有？”\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_04_author_step_2",
+            "case_key": "marriage_case_04",
+            "step_number": 2,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "analysis_focus": "另以日干为赵小姐、时干壬及庚为丈夫，结合丁丙与宫关系作外遇判断；保存其现场婚姻描述",
+            "explicit_symbol_evidence": [
+              "日干赵小姐",
+              "时干壬坤2丈夫",
+              "生丁兑7",
+              "庚丈夫",
+              "地盘乙",
+              "丁下丙",
+              "丁壬合"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "原书编号段及关联问答整体只作研究参考；打印顺序不是判断时可用信息；反馈、结果及后置解释不可提前输入。",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "associated_dialogue_and_reports_may_be_included": true,
+            "source_lines": [
+              267,
+              272
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 267,
+              "line_end": 272,
+              "byte_start": 12121,
+              "byte_end": 12819
+            },
+            "source_quote": "（2）日干为赵小姐。时干壬为丈夫，在坤2宫，生兑7宫丁奇；又庚为丈夫，刑克地盘乙奇，与兑7宫丁奇比和；兑7宫丁奇又下临第三者男人丙奇。壬生丁，丁壬合又为淫荡之合。\n\n据此，我说：“错不了，您丈夫在外边追着一个比您年轻的小姐，您丈夫经常瞒着您与她偷情。”\n\n赵小姐：“我一忍再忍，跟他闹了几次，他不仅不改，有时干脆几天都不回家了。女儿明年要考大学，他啥也不管，里里外外家里一切都是我的事。我实在伤心透了，跟他凑合了二十年，再也不想这样过下去了。我跟女儿商量好了，坚决跟他离婚！”\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_04_author_step_3",
+            "case_key": "marriage_case_04",
+            "step_number": 3,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "analysis_focus": "日干庚女方与一般乙庚不同角色体系并列，结合时干生日干，判断丈夫不肯离并获反馈",
+            "explicit_symbol_evidence": [
+              "日干庚赵小姐",
+              "死门",
+              "乙伤门白虎",
+              "乙克庚",
+              "庚刑乙",
+              "时干壬生日干庚"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "原书编号段及关联问答整体只作研究参考；打印顺序不是判断时可用信息；反馈、结果及后置解释不可提前输入。",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "associated_dialogue_and_reports_may_be_included": true,
+            "source_lines": [
+              273,
+              278
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 273,
+              "line_end": 278,
+              "byte_start": 12819,
+              "byte_end": 13708
+            },
+            "source_quote": "（3）日干庚为赵小姐，临死门；乙奇临伤门、白虎；乙克庚，庚刑乙。但时干壬生日干庚。\n\n据此，我说：“您想离婚，但您丈夫还不想离，是不是这样？”\n\n赵小姐：“谁说不是！他在外搞女人，又不肯改，我要跟他离婚，他又不离。二十年来，家里大事小事都靠我，连他现在这个经理职位都是我给他跑的。他原来工作的那个单位濒临倒闭，都发不起工资了。我给他找这个人找那个人，托人找门子，好容易才调到这个单位，而且还当了个副经理。不仅不感谢我，还背着我搞女人，实在让人太伤心了！这回，我是下了决心，非跟他离不可！你看我们能不能离了？我这个人还死要面子，不愿意经过法院，闹得大家都知道，我想跟他协议离婚，你看什么时候能离了？”\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_04_author_step_4",
+            "case_key": "marriage_case_04",
+            "step_number": 4,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "analysis_focus": "双方年命宫克、六合空亡及次年寅卯旺，建议律师协助并预测二月；后置本人转述2月27日办结及叙述评论",
+            "explicit_symbol_evidence": [
+              "女年命辛震3",
+              "丈夫年命壬坤2",
+              "六合空亡",
+              "1998寅卯木旺",
+              "二月离婚预测",
+              "2月27日转述结果"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "原书编号段及关联问答整体只作研究参考；打印顺序不是判断时可用信息；反馈、结果及后置解释不可提前输入。",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "associated_dialogue_and_reports_may_be_included": true,
+            "source_lines": [
+              279,
+              285
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 279,
+              "line_end": 285,
+              "byte_start": 13708,
+              "byte_end": 14680
+            },
+            "source_quote": "（4）赵小姐年命辛在震3宫，直克丈夫年命壬所在的坤2宫，六合又逢空亡。1998年寅、卯月木旺，冲克坤宫之土。\n\n据此，我说：“作为一个易学咨询工作者，我不能劝你离婚，因为组织一个家庭不容易，家庭稳定，也关系到社会的稳定。但你一定要离，又不想经过法院，那就应该到你家北边找一个律师帮你出出主意，跟你丈夫讲清利害关系，以便尽早达成协议。大约明年2月可能离清。”\n\n后来，赵小姐打来电话说：她在春节前夕，骑自行车把胳摔骨折了，她丈夫也不闻不问，春节除夕和大年初一她都是在宾馆度过的，连家都没回。她实在伤心透了，年后在律师的帮助下，终于与丈夫达成离婚协议，在2月27日（农历二月初一、甲寅月乙巳日）这一天办清了离婚手续。\n\n没想到，一个欢乐家庭节目主持人，自己的家庭却并不欢乐。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "reference_only_no_automatic_relationship_accusation_or_case_specific_generalization",
+        "conventions": {
+          "complete_case_source_pointer": {
+            "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+            "line_start": 216,
+            "line_end": 287,
+            "byte_start": 10427,
+            "byte_end": 14682
+          },
+          "source_case_title": "中年妇女测婚",
+          "printed_step_order_preserved": true,
+          "timeline_notes": {
+            "initial_known_lines": [
+              218,
+              220,
+              222,
+              224
+            ],
+            "onsite_feedback_lines": [
+              265,
+              271,
+              277
+            ],
+            "explicit_final_divorce_question_line": 277,
+            "future_timing_prediction_line": 281,
+            "later_report_line": 283,
+            "narrator_comment_line": 285,
+            "role_scope_warning": "一般乙女庚男、日干庚为赵小姐、时干壬为丈夫、双方年命均为并行方法角色，不能按同一干强行唯一化。",
+            "outcome_scope": "本人后续转述年后二月办清协议离婚，非独立确认"
+          },
+          "usable_for_training": "candidate_only_requires_separate_temporal_and_event_split_validation",
+          "no_case_specific_method_auto_generalization": true,
+          "independent_prediction_accuracy": "not_measured",
+          "actual_relationship_claims": "author_or_querent_report_only_not_system_verified_facts"
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 216,
+        "line_end": 287,
+        "byte_start": 10427,
+        "byte_end": 14682
+      },
+      "status": "structured_reference_only",
+      "historical_case": true,
+      "case_key": "marriage_case_04",
+      "case_completeness": "complete_as_supplied",
+      "chronology_notes": {
+        "initial_known_lines": [
+          218,
+          220,
+          222,
+          224
+        ],
+        "onsite_feedback_lines": [
+          265,
+          271,
+          277
+        ],
+        "explicit_final_divorce_question_line": 277,
+        "future_timing_prediction_line": 281,
+        "later_report_line": 283,
+        "narrator_comment_line": 285,
+        "role_scope_warning": "一般乙女庚男、日干庚为赵小姐、时干壬为丈夫、双方年命均为并行方法角色，不能按同一干强行唯一化。",
+        "outcome_scope": "本人后续转述年后二月办清协议离婚，非独立确认"
+      },
+      "integrity_policy": "完整故事、多轮问答、原盘、作者分析、预测与转述反馈整体保留；不机械拆成通用规则，不补写未录事件"
+    },
+    {
+      "key": "marriage_case_05_complete",
+      "title": "实例05：第三者测婚完整故事与作者分析",
+      "category": "analysis",
+      "line_start": 288,
+      "line_end": 354,
+      "attribution": "杜新会",
+      "summary": "青年女子起初不说问事，杜新会读盘提出婚姻纠纷并获确认，再问能否结婚和离婚时间。丁5与源表3的差异照存。事后记录离婚及结婚：原预测次年四五月即1997年，原反馈1998年五月成婚，保留偏差。",
+      "concepts": [
+        "杜新会",
+        "第三者测婚",
+        "初始问事未明",
+        "日干庚",
+        "时干丁",
+        "丁5与源表3差异",
+        "女命壬",
+        "乙妻",
+        "年命",
+        "婚姻纠纷",
+        "三十天三个月",
+        "1997年预测",
+        "1998年成婚反馈"
+      ],
+      "dataset": {
+        "key": "marriage_case_05_author_method_reference",
+        "rows": [
+          {
+            "key": "case_05_author_step_1",
+            "case_key": "marriage_case_05",
+            "step_number": 1,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "analysis_focus": "日干庚与时干丁及庚丁、丁癸、景伤格解释婚姻纠纷，提出第三者身份并获点头确认；原分析丁5不改",
+            "explicit_symbol_evidence": [
+              "日干庚巽4",
+              "时干丁5（原分析）",
+              "庚加丁",
+              "丁加癸",
+              "景门值使",
+              "景加伤",
+              "暗庚"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "原书编号段及关联问答整体只作研究参考；打印顺序不是判断时可用信息；反馈、结果及后置解释不可提前输入。",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "杜新会",
+            "associated_dialogue_and_reports_may_be_included": true,
+            "source_lines": [
+              330,
+              335
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 330,
+              "line_end": 335,
+              "byte_start": 15741,
+              "byte_end": 16228
+            },
+            "source_quote": "（1）日干庚在4宫，时干丁在5宫，二者比和。庚为丈夫，丁为第三者女人。庚+丁为亭亭之格，因私匿起官司。丁+癸雀投江，口舌官司。景门为值使，景+伤主姻亲小口口舌。景门又带暗庚，庚+丁又为时格。\n\n据此，杜新会说：“你最近遇到了麻烦，陷入一场婚姻纠纷之中，很可能充当了第三者角色，对不对？”\n\n青年女子点点头，然后说：“你看我跟他能结婚吗？”\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_05_author_step_2",
+            "case_key": "marriage_case_05",
+            "step_number": 2,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "analysis_focus": "男方庚与原妻乙、吉门星神及乙克庚丁，断男方欲离、原妻不肯并获职业反馈",
+            "explicit_symbol_evidence": [
+              "庚值符死门",
+              "妻乙兑7",
+              "天心休门六合",
+              "乙加戊",
+              "乙克庚丁"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "原书编号段及关联问答整体只作研究参考；打印顺序不是判断时可用信息；反馈、结果及后置解释不可提前输入。",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "杜新会",
+            "associated_dialogue_and_reports_may_be_included": true,
+            "source_lines": [
+              336,
+              341
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 336,
+              "line_end": 341,
+              "byte_start": 16228,
+              "byte_end": 16807
+            },
+            "source_quote": "（2）庚为男方，上乘值符，临死门；乙奇为其妻在兑7宫，临天心星、休门、六合，乙+戊利阴害阳。乙克庚，又克丁。\n\n据此，杜新会说：“你恋的这个对象是你单位的副经理，他是决心要离婚，然后同你结婚的。但他妻子不同意，不愿意离，他妻子长得不错，很有能力，可能是在外单位从事财务会计一类工作的，对不对？”\n\n青年女子：“对对！你算得太对了！他老婆是一家商场的会计，说啥也不同意跟他离婚。你看这可咋办呀？”\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_05_author_step_3",
+            "case_key": "marriage_case_05",
+            "step_number": 3,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "analysis_focus": "女子年命壬与丙及壬庚，男方庚宫生女子宫，提出退出或耐心等待建议；其后才被问离婚时间",
+            "explicit_symbol_evidence": [
+              "女子年命壬离9",
+              "丙同宫",
+              "壬下庚",
+              "壬加庚",
+              "庚巽4生壬离9"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "原书编号段及关联问答整体只作研究参考；打印顺序不是判断时可用信息；反馈、结果及后置解释不可提前输入。",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "杜新会",
+            "associated_dialogue_and_reports_may_be_included": true,
+            "source_lines": [
+              342,
+              347
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 342,
+              "line_end": 347,
+              "byte_start": 16807,
+              "byte_end": 17256
+            },
+            "source_quote": "（3）女子年命壬在离9宫，与第三者男人丙同宫，壬下又临庚，壬+庚为太白擒蛇格；庚在4宫临死门，又生9宫之壬。\n\n据此，杜新会说：“要我说，你年轻轻的，可以找未婚的男青年嘛！应该从这场纠葛中退出来，不要充当第三者。如果已经不能自拔，那只有耐心等待了，等他们离了婚再说。”\n\n青年女子：“你看他们啥时候能离了婚？”\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_05_author_step_4",
+            "case_key": "marriage_case_05",
+            "step_number": 4,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "analysis_focus": "内盘、时格、值使宫及辛乙格提出离婚区间和次年四五月结婚；后述家庭冲突、约一月离婚及1998年五月成婚分别保存",
+            "explicit_symbol_evidence": [
+              "日时内盘（原分析）",
+              "庚加丁时格",
+              "景门震3",
+              "三十天至三个月预测",
+              "乾6辛加乙",
+              "明年四五月预测",
+              "1998五月反馈"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "原书编号段及关联问答整体只作研究参考；打印顺序不是判断时可用信息；反馈、结果及后置解释不可提前输入。",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "杜新会",
+            "associated_dialogue_and_reports_may_be_included": true,
+            "source_lines": [
+              348,
+              352
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 348,
+              "line_end": 352,
+              "byte_start": 17256,
+              "byte_end": 17954
+            },
+            "source_quote": "（4）日、时均在内盘，庚+丁又为时格，景门为值使在3宫，快则三十天，慢则三个月左右。又乾6宫辛+乙虎猖狂，家败人亡。\n\n据此，杜新会说：“时间不会太久，他们家庭就发生变故，快则三十天，慢则三个月，他就能离婚，明年四五月你们就能结婚。”\n\n后来杜新会得知，1997年1月3日（乙巳日），即测后第五天，青年女子所恋的这个男经理家中就发生一场尖锐冲突，妻子用酒瓶打伤丈夫右脸，到医院缝合二十六针，右眼差一点被扎瞎。从此，男方更有了离婚的理由。一个月后就离了婚，1998年五月同这个青年女子结了婚。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "reference_only_no_automatic_relationship_accusation_or_case_specific_generalization",
+        "conventions": {
+          "complete_case_source_pointer": {
+            "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+            "line_start": 288,
+            "line_end": 354,
+            "byte_start": 14682,
+            "byte_end": 17956
+          },
+          "source_case_title": "第三者测婚",
+          "printed_step_order_preserved": true,
+          "timeline_notes": {
+            "initial_known_lines": [
+              290,
+              292,
+              294
+            ],
+            "initial_question_domain": "not_disclosed_by_querent_before_first_reading",
+            "initial_birth_year_availability": "叙述开头提供壬子年，但未写求测者何时口述；不虚构告知时间",
+            "first_reading_line": 332,
+            "first_confirmation_and_marriage_question_line": 334,
+            "onsite_feedback_line": 340,
+            "later_divorce_timing_question_line": 346,
+            "future_prediction_line": 350,
+            "later_report_line": 352,
+            "timing_forecast": "1996年12月29日所说“明年四五月”为1997年四五月；不改成1998年",
+            "reported_actual_marriage": "1998年五月",
+            "forecast_vs_outcome": "婚期年份与记录相差一年；不得计作精确命中",
+            "outcome_scope": "杜新会后来得知的转述；非独立确认"
+          },
+          "usable_for_training": "candidate_only_requires_separate_temporal_and_event_split_validation",
+          "no_case_specific_method_auto_generalization": true,
+          "independent_prediction_accuracy": "not_measured",
+          "actual_relationship_claims": "author_or_querent_report_only_not_system_verified_facts"
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 288,
+        "line_end": 354,
+        "byte_start": 14682,
+        "byte_end": 17956
+      },
+      "status": "structured_reference_only",
+      "historical_case": true,
+      "case_key": "marriage_case_05",
+      "case_completeness": "complete_as_supplied",
+      "chronology_notes": {
+        "initial_known_lines": [
+          290,
+          292,
+          294
+        ],
+        "initial_question_domain": "not_disclosed_by_querent_before_first_reading",
+        "initial_birth_year_availability": "叙述开头提供壬子年，但未写求测者何时口述；不虚构告知时间",
+        "first_reading_line": 332,
+        "first_confirmation_and_marriage_question_line": 334,
+        "onsite_feedback_line": 340,
+        "later_divorce_timing_question_line": 346,
+        "future_prediction_line": 350,
+        "later_report_line": 352,
+        "timing_forecast": "1996年12月29日所说“明年四五月”为1997年四五月；不改成1998年",
+        "reported_actual_marriage": "1998年五月",
+        "forecast_vs_outcome": "婚期年份与记录相差一年；不得计作精确命中",
+        "outcome_scope": "杜新会后来得知的转述；非独立确认"
+      },
+      "integrity_policy": "完整故事、多轮问答、原盘、作者分析、预测与转述反馈整体保留；不机械拆成通用规则，不补写未录事件"
+    },
+    {
+      "key": "marriage_case_06_complete",
+      "title": "实例06：妻子测丈夫外遇完整故事与作者分析",
+      "category": "analysis",
+      "line_start": 355,
+      "line_end": 423,
+      "attribution": "本章叙述者（本次材料未明确姓名）",
+      "summary": "一对夫妻1997年经干部电话首问，首盘与准确时辰未录，作者不离婚判断后记1998年1月转好；1998年4月22日亲访再问并附一盘。两次咨询保持同一故事、分开时序；最后无长期婚姻结局补写。",
+      "concepts": [
+        "妻子测丈夫外遇",
+        "1997年首问",
+        "1998年续问",
+        "首次原盘未录",
+        "乙妻庚丈夫",
+        "年命戊子",
+        "年命丁亥",
+        "第三者年命癸巳",
+        "伏吟",
+        "比和",
+        "九地",
+        "六合",
+        "不离婚预测",
+        "后续结局未录"
+      ],
+      "dataset": {
+        "key": "marriage_case_06_author_method_reference",
+        "rows": [
+          {
+            "key": "case_06_author_step_1",
+            "case_key": "marriage_case_06",
+            "step_number": 1,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "analysis_focus": "乙妻庚夫宫相生、六合及九地长久类象，说明本次不离婚判断",
+            "explicit_symbol_evidence": [
+              "乙坎1妻",
+              "庚巽4夫",
+              "相生",
+              "乙临六合",
+              "庚临九地"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "原书编号段及关联问答整体只作研究参考；打印顺序不是判断时可用信息；反馈、结果及后置解释不可提前输入。",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "associated_dialogue_and_reports_may_be_included": true,
+            "source_lines": [
+              417,
+              418
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 417,
+              "line_end": 418,
+              "byte_start": 20584,
+              "byte_end": 20724
+            },
+            "source_quote": "（1）乙为妻子在坎1宫，庚为丈夫在巽4宫，二者相生，乙奇又临六合，庚临九地主长久，怎么能离婚呢？\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_06_author_step_2",
+            "case_key": "marriage_case_06",
+            "step_number": 2,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "analysis_focus": "夫妻双方年命伏吟、宫冲但同土比和，说明本次不动判断",
+            "explicit_symbol_evidence": [
+              "夫年命戊坤2伏吟",
+              "妻年命丁艮8伏吟",
+              "宫冲",
+              "同属土比和"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "原书编号段及关联问答整体只作研究参考；打印顺序不是判断时可用信息；反馈、结果及后置解释不可提前输入。",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "associated_dialogue_and_reports_may_be_included": true,
+            "source_lines": [
+              419,
+              420
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 419,
+              "line_end": 420,
+              "byte_start": 20724,
+              "byte_end": 20965
+            },
+            "source_quote": "（2）丈夫1948年生，年命戊子，在坤2宫伏吟；妻子1947年生，年命丁亥，在艮8宫伏吟。二宫虽然对冲，有矛盾，但毕竟均属土，又有比和之意。伏吟主不动之象。所以说，不会离婚。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_06_author_step_3",
+            "case_key": "marriage_case_06",
+            "step_number": 3,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "analysis_focus": "丁为第三者、入墓及伤虎与丁壬合，壬宫空亡，用于既往寡居判断",
+            "explicit_symbol_evidence": [
+              "丁艮8第三者",
+              "入墓",
+              "伤门白虎",
+              "丁壬合",
+              "壬乾6空亡"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "原书编号段及关联问答整体只作研究参考；打印顺序不是判断时可用信息；反馈、结果及后置解释不可提前输入。",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "associated_dialogue_and_reports_may_be_included": true,
+            "source_lines": [
+              421,
+              422
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 421,
+              "line_end": 422,
+              "byte_start": 20965,
+              "byte_end": 21132
+            },
+            "source_quote": "（3）丁为第三者女人，在艮8宫为入墓，临伤门、白虎，丁壬合，壬为其丈夫，在乾6宫逢空亡，故而断其死了丈夫，为寡居。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "case_06_author_step_4",
+            "case_key": "marriage_case_06",
+            "step_number": 4,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "analysis_focus": "另看第三者年命癸巳之宫干门神、丈夫年命戊及丙丁宫生，解释外形职业与多位追求者之断",
+            "explicit_symbol_evidence": [
+              "第三者年命癸兑7",
+              "癸加癸",
+              "螣蛇",
+              "开门",
+              "夫戊坤2生兑7",
+              "戊癸合",
+              "丙离9生丁艮8"
+            ],
+            "method_scope": "only_this_complete_source_case",
+            "chronology_policy": "原书编号段及关联问答整体只作研究参考；打印顺序不是判断时可用信息；反馈、结果及后置解释不可提前输入。",
+            "generalization_status": "not_validated_as_a_general_rule",
+            "attributed_forecaster": "本章叙述者（本次材料未明确姓名）",
+            "associated_dialogue_and_reports_may_be_included": true,
+            "source_lines": [
+              423,
+              423
+            ],
+            "source_pointer": {
+              "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+              "line_start": 423,
+              "line_end": 423,
+              "byte_start": 21132,
+              "byte_end": 21490
+            },
+            "source_quote": "（4）第三者女人1953年生，年命癸巳，落兑7宫，癸+癸天网四张，上乘螣蛇主瘦高，临开门为有公职，又为开放性女人。江苏女士丈夫年命戊在2宫，生兑宫，自然是追求她，但戊癸合为无情之合。又丙在9宫生8宫之丁，丙为第三者男人，又逢旺相，所以断追她的男人很多。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ],
+        "reference_only": true,
+        "compilation_status": "not_compiled_by_this_curation",
+        "role_binding_policy": "reference_only_no_automatic_relationship_accusation_or_case_specific_generalization",
+        "conventions": {
+          "complete_case_source_pointer": {
+            "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+            "line_start": 355,
+            "line_end": 423,
+            "byte_start": 17956,
+            "byte_end": 21490
+          },
+          "source_case_title": "妻子测丈夫外遇",
+          "printed_step_order_preserved": true,
+          "timeline_notes": {
+            "episode_01_source_lines": [
+              357,
+              367
+            ],
+            "episode_01_casting_time": "1997年，一天；未记确切日期时刻",
+            "episode_01_chart": "not_recorded_in_source",
+            "episode_01_prediction_line": 365,
+            "episode_01_reported_improvement_line": 367,
+            "episode_02_source_lines": [
+              369,
+              423
+            ],
+            "episode_02_time": "1998年4月22日下午1点30分",
+            "episode_02_chart_source_lines": [
+              379,
+              412
+            ],
+            "episode_02_first_reading_line": 371,
+            "episode_02_onsite_feedback_line": 373,
+            "episode_02_prediction_line": 375,
+            "episode_02_numbered_explanation_lines": [
+              417,
+              423
+            ],
+            "future_marriage_outcome": "not_recorded_after_second_consultation",
+            "birth_year_disclosure_time": "年命资料在盘后列出，未记其口头告知先后；不能无条件当作首轮已知",
+            "outcome_scope": "1998年1月好转只对应首问部分反馈；不证明此后永不离婚"
+          },
+          "usable_for_training": "candidate_only_requires_separate_temporal_and_event_split_validation",
+          "no_case_specific_method_auto_generalization": true,
+          "independent_prediction_accuracy": "not_measured",
+          "actual_relationship_claims": "author_or_querent_report_only_not_system_verified_facts"
+        }
+      },
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 355,
+        "line_end": 423,
+        "byte_start": 17956,
+        "byte_end": 21490
+      },
+      "status": "structured_reference_only",
+      "historical_case": true,
+      "case_key": "marriage_case_06",
+      "case_completeness": "complete_as_supplied",
+      "chronology_notes": {
+        "episode_01_source_lines": [
+          357,
+          367
+        ],
+        "episode_01_casting_time": "1997年，一天；未记确切日期时刻",
+        "episode_01_chart": "not_recorded_in_source",
+        "episode_01_prediction_line": 365,
+        "episode_01_reported_improvement_line": 367,
+        "episode_02_source_lines": [
+          369,
+          423
+        ],
+        "episode_02_time": "1998年4月22日下午1点30分",
+        "episode_02_chart_source_lines": [
+          379,
+          412
+        ],
+        "episode_02_first_reading_line": 371,
+        "episode_02_onsite_feedback_line": 373,
+        "episode_02_prediction_line": 375,
+        "episode_02_numbered_explanation_lines": [
+          417,
+          423
+        ],
+        "future_marriage_outcome": "not_recorded_after_second_consultation",
+        "birth_year_disclosure_time": "年命资料在盘后列出，未记其口头告知先后；不能无条件当作首轮已知",
+        "outcome_scope": "1998年1月好转只对应首问部分反馈；不证明此后永不离婚"
+      },
+      "integrity_policy": "完整故事、多轮问答、原盘、作者分析、预测与转述反馈整体保留；不机械拆成通用规则，不补写未录事件"
+    }
+  ],
+  "quality_issues": [
+    {
+      "key": "no_printed_chapter_number",
+      "line_start": 1,
+      "line_end": 4,
+      "kind": "source_scope",
+      "detail": "章标题与节标题未标印刷章号。",
+      "handling": "使用marriage-prediction技术键，不反推章号或改旧章节键。",
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 1,
+        "line_end": 4,
+        "byte_start": 0,
+        "byte_end": 50
+      }
+    },
+    {
+      "key": "general_and_optional_methods_not_unique",
+      "line_start": 6,
+      "line_end": 12,
+      "kind": "applicability_scope",
+      "detail": "原文对乙庚用“一般”，已婚相合干和年命用“还可以”；各方法有条件并非唯一。",
+      "handling": "明确婚恋、已婚及重大婚事等条件；未知不满足，不把年命强制为所有问事字段。",
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 6,
+        "line_end": 12,
+        "byte_start": 51,
+        "byte_end": 910
+      }
+    },
+    {
+      "key": "third_party_symbols_are_historical_context",
+      "line_start": 14,
+      "line_end": 14,
+      "kind": "interpretive_scope",
+      "detail": "丁、丙角色在作者旧社会与现在之区分中描述；并非现实外遇的独立证据。",
+      "handling": "原文保留；不得据盘符自动指控现实人物身份或行为，案例断语仍归作者。",
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 14,
+        "line_end": 14,
+        "byte_start": 911,
+        "byte_end": 1053
+      }
+    },
+    {
+      "key": "relationship_reports_not_independent_verification",
+      "line_start": 21,
+      "line_end": 423,
+      "kind": "verification_scope",
+      "detail": "六案结局、经历及当事人品行均为作者或当事人转述，没有独立佐证。",
+      "handling": "不把历史复现率当现实预测准确率，不外部补证或编造成功率。",
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 21,
+        "line_end": 423,
+        "byte_start": 1091,
+        "byte_end": 21490
+      }
+    },
+    {
+      "key": "timezones_and_calendar_conventions_not_recorded",
+      "line_start": 23,
+      "line_end": 423,
+      "kind": "engineering_missing_information",
+      "detail": "六个列盘有具体地方表述时刻，但本章没有统一时区、真太阳时或换日约定；首问第六案更无完整日期。",
+      "handling": "存原时刻和原四柱；不猜时区、坐标或完整历法，不要求补充原书未记的背景。",
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 23,
+        "line_end": 423,
+        "byte_start": 1126,
+        "byte_end": 21490
+      }
+    },
+    {
+      "key": "case_01_feedback_not_initial_input",
+      "line_start": 61,
+      "line_end": 77,
+      "kind": "temporal_availability",
+      "detail": "学历职业、追求细节及后来终止关系经逐轮反馈才出现。",
+      "handling": "首轮、续断及半月后报告分层，不能把整个编号段引用直接作初始输入。",
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 61,
+        "line_end": 77,
+        "byte_start": 2199,
+        "byte_end": 3446
+      }
+    },
+    {
+      "key": "case_02_role_scopes_not_symbol_collision",
+      "line_start": 125,
+      "line_end": 145,
+      "kind": "role_scope",
+      "detail": "作者明确指出此盘一般乙庚不代表女儿当下恋爱；女儿年命庚、男方年命甲辰壬另行使用。",
+      "handling": "保留原方法否定与改用理由；不因为庚字相同把男方、女命及此前配偶角色覆盖。",
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 125,
+        "line_end": 145,
+        "byte_start": 4756,
+        "byte_end": 6594
+      }
+    },
+    {
+      "key": "case_02_feedback_contains_parenthetical_analysis",
+      "line_start": 135,
+      "line_end": 135,
+      "kind": "attribution_scope",
+      "detail": "李惠反馈引号内含原书括注的年干天辅、入墓击刑及壬丙解释，属于原文混合表现。",
+      "handling": "保留整句与括注，不将括注分析无依据归为来电人事前已知推理。",
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 135,
+        "line_end": 135,
+        "byte_start": 5415,
+        "byte_end": 5893
+      }
+    },
+    {
+      "key": "case_02_timing_explanation_after_result",
+      "line_start": 147,
+      "line_end": 149,
+      "kind": "temporal_availability",
+      "detail": "1997丁丑丁壬合的应期说明在已结婚结果之后列出，未见事前明确预测1997年。",
+      "handling": "保留后置作者解释，不评为事前时间预测命中，不回填首轮输入。",
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 147,
+        "line_end": 149,
+        "byte_start": 6595,
+        "byte_end": 6810
+      }
+    },
+    {
+      "key": "case_03_forecaster_du_xinhui",
+      "line_start": 152,
+      "line_end": 162,
+      "kind": "attribution_scope",
+      "detail": "实例三预测者明确为杜新会，非本章“我”。",
+      "handling": "角色与分析归杜新会，反馈归小吴，不能默认全部故事作者亲测。",
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 152,
+        "line_end": 162,
+        "byte_start": 6812,
+        "byte_end": 7946
+      }
+    },
+    {
+      "key": "case_03_retrospective_reading_and_post_dialogue_steps",
+      "line_start": 154,
+      "line_end": 213,
+      "kind": "temporal_availability",
+      "detail": "离婚、回娘家、9000争执及分财在问测时已发生；四个编号分析在反馈后书面解释。",
+      "handling": "分既往回溯判断、现场确认和书面说明，不冒充未来事件预测，不把后置分析全部标事前可用。",
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 154,
+        "line_end": 213,
+        "byte_start": 6853,
+        "byte_end": 10425
+      }
+    },
+    {
+      "key": "case_03_palace_02_overlay_text_difference",
+      "line_start": 190,
+      "line_end": 201,
+      "kind": "source_internal_difference",
+      "detail": "原表坤二宫为“合 死壬 乙蓬辛”，编号（1）又称“壬加癸主幼女奸淫”，字面配对与该行所列辛有差异。",
+      "handling": "分别保全原表与作者分析，标来源内部解释差异；不把辛改癸、不擅修壬加癸，不据此否定完整故事。",
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 190,
+        "line_end": 201,
+        "byte_start": 8579,
+        "byte_end": 9288
+      }
+    },
+    {
+      "key": "center_chief_gate_hosting_is_source_convention",
+      "line_start": 166,
+      "line_end": 240,
+      "kind": "calculation_coverage",
+      "detail": "例三原文明示死门落5寄2且伏吟；例四原文正文称杜门落5，盘表明示中5寄坤2。",
+      "handling": "原宫、寄宫及原文状态分别保留；现有算法若未覆盖中五值使，报告not_covered，不改原门位、不当原文错误。",
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 166,
+        "line_end": 240,
+        "byte_start": 7994,
+        "byte_end": 11071
+      }
+    },
+    {
+      "key": "case_04_concurrent_role_methods",
+      "line_start": 261,
+      "line_end": 279,
+      "kind": "role_scope",
+      "detail": "例四先以乙女庚男，后以日干庚为女问事者、时干壬为丈夫，再看双方年命。",
+      "handling": "并行保存方法作用域和证据；不因日干庚女方而抹去一般庚男，亦不无依据称原文自相矛盾。",
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 261,
+        "line_end": 279,
+        "byte_start": 11582,
+        "byte_end": 13857
+      }
+    },
+    {
+      "key": "case_04_third_party_accusations_are_attributed",
+      "line_start": 265,
+      "line_end": 277,
+      "kind": "interpretive_scope",
+      "detail": "当事人怀疑外遇后作者作外遇断语并收到后续叙述。",
+      "handling": "分开来访者怀疑、作者判断和当事人报告，均不当系统独立验证的现实事实。",
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 265,
+        "line_end": 277,
+        "byte_start": 12020,
+        "byte_end": 13707
+      }
+    },
+    {
+      "key": "case_04_future_prediction_and_report",
+      "line_start": 281,
+      "line_end": 285,
+      "kind": "temporal_availability",
+      "detail": "次年二月预测在前，伤臂、除夕住宾馆、律师帮助及2月27日办结的报告在后。",
+      "handling": "后续报告不进入前次预测输入；保留末尾作者评论，不补造更晚结果。",
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 281,
+        "line_end": 285,
+        "byte_start": 13858,
+        "byte_end": 14680
+      }
+    },
+    {
+      "key": "case_05_forecaster_du_xinhui",
+      "line_start": 288,
+      "line_end": 352,
+      "kind": "attribution_scope",
+      "detail": "实例五预测者明确为杜新会；女子初来不说测什么。",
+      "handling": "初始问事类型保持未披露；后续点头承认与具体婚姻问题依序进入，非开局已知。",
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 288,
+        "line_end": 352,
+        "byte_start": 14682,
+        "byte_end": 17954
+      }
+    },
+    {
+      "key": "case_05_ding_palace_05_vs_source_table_03",
+      "line_start": 320,
+      "line_end": 330,
+      "kind": "source_internal_difference",
+      "detail": "原表震三宫为“天 景丁 辅癸”，编号（1）却写“时干丁在5宫”；原表中五宫为丙。",
+      "handling": "两者原样保留，来源差异单列；不静默把丁5改3或改原表，不用差异冲淡完整资料。",
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 320,
+        "line_end": 330,
+        "byte_start": 15484,
+        "byte_end": 16013
+      }
+    },
+    {
+      "key": "case_05_marriage_timing_forecast_difference",
+      "line_start": 350,
+      "line_end": 352,
+      "kind": "forecast_outcome_difference",
+      "detail": "1996-12-29预测“明年四五月”即1997年四五月结婚，而后来记录为1998年五月结婚。",
+      "handling": "预测与反馈年份分别保存，明确未精确命中；不把明年改为后年或把实际年改为1997。离婚约一月另行比较。",
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 350,
+        "line_end": 352,
+        "byte_start": 17422,
+        "byte_end": 17954
+      }
+    },
+    {
+      "key": "case_05_birth_detail_disclosure_not_explicit",
+      "line_start": 290,
+      "line_end": 312,
+      "kind": "temporal_availability",
+      "detail": "开头给1972壬子年、盘后复列年命，但没有写该资料是在初断前何时告知。",
+      "handling": "保留书面资料与可用时间未知状态；不用叙述位置虚构对话轮次或首断已知。",
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 290,
+        "line_end": 312,
+        "byte_start": 14711,
+        "byte_end": 15301
+      }
+    },
+    {
+      "key": "case_06_two_consultations_first_chart_absent",
+      "line_start": 357,
+      "line_end": 379,
+      "kind": "case_completeness_and_temporal_scope",
+      "detail": "1997首问及1998-04-22复问是同一对夫妻连续故事；全文只给复问一张原盘，首问准确时间和原盘未录。",
+      "handling": "完整故事保留，事件或轮次分别关联；不复制复问盘给首问，不补原书未录首盘，不把缺首盘说成资料未完整提供。",
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 357,
+        "line_end": 379,
+        "byte_start": 17991,
+        "byte_end": 19747
+      }
+    },
+    {
+      "key": "case_06_improvement_is_not_final_marriage_outcome",
+      "line_start": 365,
+      "line_end": 375,
+      "kind": "outcome_scope",
+      "detail": "1998年1月好转对应首问后部分情况；复问又有外遇来往，两次均有不会离婚断语而章末没有更晚婚姻结局。",
+      "handling": "部分反馈、重复预测与最终结局未录分开，不填永不离婚或已彻底复合的结局。",
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 365,
+        "line_end": 375,
+        "byte_start": 18462,
+        "byte_end": 19589
+      }
+    },
+    {
+      "key": "case_06_natal_roles_not_singular",
+      "line_start": 397,
+      "line_end": 423,
+      "kind": "role_scope",
+      "detail": "同案丁既是妻子年命，又按另一作用域代表第三者；第三者年命另为癸；壬按丁壬合代表其丈夫。",
+      "handling": "按人物、方法、年份与盘位分别关联；不能全案把丁唯一绑定某一人。年命口述披露时刻未知。",
+      "source_pointer": {
+        "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+        "line_start": 397,
+        "line_end": 423,
+        "byte_start": 20027,
+        "byte_end": 21490
+      }
+    }
+  ],
+  "worked_examples": [],
+  "source_review_status": "pending_explicit_collation_confirmation",
+  "compilation_scope": "No new compiled dataset or formal role rule. Seven context-complete reference families preserve conditional general methods and 23 case-specific numbered analysis contexts. Source acceptance, parsing, recomputation, evaluation and training eligibility remain separate.",
+  "coverage_policy": "Nine primary complete-context groups partition all 423 source lines. Each of the six cases stays one whole narrative context; its printed numbered steps are reference rows within the whole case and are not universal rules or automatically pre-prediction evidence.",
+  "case_handoff": {
+    "case_count": 6,
+    "complete_case_keys": [
+      "marriage_case_01",
+      "marriage_case_02",
+      "marriage_case_03",
+      "marriage_case_04",
+      "marriage_case_05",
+      "marriage_case_06"
+    ],
+    "complete_case_ranges": [
+      [
+        21,
+        79
+      ],
+      [
+        80,
+        151
+      ],
+      [
+        152,
+        215
+      ],
+      [
+        216,
+        287
+      ],
+      [
+        288,
+        354
+      ],
+      [
+        355,
+        423
+      ]
+    ],
+    "case_records_owned_by": "separate_case_import_agent",
+    "historical_cases_not_counted_as_teaching_worked_examples": true,
+    "source_story_completeness": "complete_as_supplied",
+    "recorded_original_chart_count": 6,
+    "first_consultation_chart_case_06": "not_recorded",
+    "engine_recomputation_not_equivalent_to_source_acceptance": true
+  },
+  "engineering_missing_information_policy": {
+    "basis": "user project charter; not attributed source quotation",
+    "behavior": "Do not invent missing first-consultation chart, spoken availability, timezone, calendar, later marriage result or hidden author thoughts. Preserve source contradictions and forecaster identities; feedback does not become initial evidence."
+  },
+  "source_scope": "Only actual 423-line user-provided 恋爱婚姻预测 upload. No old project, plugin source, external case facts or model-memory completion.",
+  "relationship_product_policy": {
+    "basis": "user project charter evidence and privacy rules; not a source quotation",
+    "use": "Traditional historical method study. Author assertions about infidelity, character or bereavement are attributed historical claims, not independently verified present-day personal facts or automatic relationship recommendations."
+  },
+  "dataset_summary": {
+    "reference_families": 7,
+    "general_conditional_reference_rows": 5,
+    "case_specific_author_steps": 23,
+    "reference_rows_total": 28,
+    "compiled_families": 0,
+    "formal_role_rules": 0,
+    "training_tasks": 0
+  }
+}

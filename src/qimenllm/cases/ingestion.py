@@ -18,6 +18,46 @@ PHASES = frozenset(('pre_prediction', 'prediction', 'post_feedback', 'unknown'))
 EXPLICITNESS = frozenset(('author_explicit', 'not_explicit', 'agent_hypothesis'))
 
 
+def _validate_stage_payloads(curated):
+    """Opt-in structural guard for source-stage annotations, not semantic proof.
+
+    Outcome comparisons belong to feedback/audit, even if marked unavailable.
+    Known-feedback references in a forecast must point to earlier source records.
+    Older immutable manifests retain their original contract on replay.
+    """
+    contract=curated.get('temporal_payload_contract')
+    if contract is None:return
+    if contract!='source-stage-v1':raise ValueError('Unsupported temporal payload contract')
+    forbidden={'timing_comparison','reported_marriage_year','reported_marriage_month_as_written',
+        'later_feedback_record_key','subsequent_feedback_confirmed_only_as_written',
+        'subsequent_motivation_outcome_not_reported','final_outcome_not_supplied',
+        'may_not_use_later_1998_chart_as_initial_chart'}
+    for case in curated['cases']:
+        for event in case.get('events',[]):
+            records=event.get('records',[]);by_key={r['record_key']:r for r in records}
+            for record in records:
+                if record['kind'] not in ('prediction','timing','continuation'):continue
+                def visit(value):
+                    if isinstance(value,dict):
+                        if forbidden & value.keys():raise ValueError('Future feedback/audit field in prediction payload')
+                        withheld=value.get('feedback_not_available_yet')
+                        if isinstance(withheld,(list,dict)):
+                            raise ValueError('Unavailable feedback values must not be copied into a prediction')
+                        if 'known_feedback_record_keys' in value:
+                            keys=value['known_feedback_record_keys']
+                            if not isinstance(keys,list) or any(not isinstance(k,str) for k in keys):
+                                raise ValueError('Known feedback references require explicit record keys')
+                            for key in keys:
+                                previous=by_key.get(key)
+                                if (previous is None or previous['sequence']>=record['sequence'] or
+                                        previous['kind'] not in ('feedback','outcome')):
+                                    raise ValueError('Prediction feedback reference is not an earlier authorized source record')
+                        for v in value.values():visit(v)
+                    elif isinstance(value,list):
+                        for v in value:visit(v)
+                visit(record.get('payload',{}))
+
+
 def _identity(kind: str, revision_id: str, key: str) -> str:
     if not isinstance(key, str) or not key.strip():
         raise ValueError(f'Nonempty {kind} key required')
@@ -66,6 +106,7 @@ def import_cases(db: str | Path, revision_id: str, curated: dict) -> dict:
         raise ValueError('Reviewed cases object required')
     if not curated['cases']:
         raise ValueError('At least one case required')
+    _validate_stage_payloads(curated)
     manifest_hash = digest(canonical(curated).encode())
     with connect(db) as conn:
         conn.execute('BEGIN IMMEDIATE')

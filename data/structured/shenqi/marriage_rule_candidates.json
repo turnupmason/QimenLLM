@@ -1,0 +1,745 @@
+{
+  "schema_version": "source_selection_candidates_v1",
+  "title": "恋爱婚姻预测",
+  "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+  "source_byte_count": 21490,
+  "source_line_count": 423,
+  "candidate_count": 11,
+  "candidate_record_count": 11,
+  "candidates": [
+    {
+      "key": "marriage_general_female_party",
+      "domain": "marriage",
+      "scope": "general_couple_symbol_reference",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "marriage"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "couple_role_reference"
+        },
+        {
+          "field": "target_party",
+          "op": "eq",
+          "value": "female"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_marriage_general_yi_geng_v1"
+      },
+      "source_lines": [
+        6
+      ],
+      "source_quote": "测恋爱婚姻一般以天盘乙奇为女方，天盘庚为男方。如果两者落宫相生和比和，又逢吉门吉格，则恋爱可成，婚姻美满。如果两宫相冲相克，婚事难成，或夫妻关系不好。又以六合为媒人，六合落宫生乙奇落宫，媒人偏向女方；六合落宫生庚落宫，媒人偏向男方。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "原文为“一般”，不是所有问事、所有参与人的唯一身份。",
+        "明确指天盘；地盘同干不自动获得这一角色。",
+        "第二案乙庚先被作者解释为旧夫妻，第四案女问事者日干为庚；这些案例边界禁止把符号固定为所有现实人物身份。",
+        "本项不要求出生年；其他方法可并用，但须明确口径。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "heaven_plate:乙"
+        ],
+        "semantic_role": "female_party",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "marriage_general_male_party",
+      "domain": "marriage",
+      "scope": "general_couple_symbol_reference",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "marriage"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "couple_role_reference"
+        },
+        {
+          "field": "target_party",
+          "op": "eq",
+          "value": "male"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_marriage_general_yi_geng_v1"
+      },
+      "source_lines": [
+        6
+      ],
+      "source_quote": "测恋爱婚姻一般以天盘乙奇为女方，天盘庚为男方。如果两者落宫相生和比和，又逢吉门吉格，则恋爱可成，婚姻美满。如果两宫相冲相克，婚事难成，或夫妻关系不好。又以六合为媒人，六合落宫生乙奇落宫，媒人偏向女方；六合落宫生庚落宫，媒人偏向男方。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "原文为“一般”，不是所有问事、所有参与人的唯一身份。",
+        "明确指天盘；地盘同干不自动获得这一角色。",
+        "第二案乙庚先被作者解释为旧夫妻，第四案女问事者日干为庚；这些案例边界禁止把符号固定为所有现实人物身份。",
+        "本项不要求出生年；其他方法可并用，但须明确口径。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "heaven_plate:庚"
+        ],
+        "semantic_role": "male_party",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "marriage_liuhe_mediator",
+      "domain": "marriage",
+      "scope": "mediator_symbol_reference",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "marriage"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "mediator_role_reference"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_marriage_general_yi_geng_v1"
+      },
+      "source_lines": [
+        6
+      ],
+      "source_quote": "测恋爱婚姻一般以天盘乙奇为女方，天盘庚为男方。如果两者落宫相生和比和，又逢吉门吉格，则恋爱可成，婚姻美满。如果两宫相冲相克，婚事难成，或夫妻关系不好。又以六合为媒人，六合落宫生乙奇落宫，媒人偏向女方；六合落宫生庚落宫，媒人偏向男方。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "原文又以六合为媒人；仅记录此处媒人角色，不排除案例中的婚姻类象。",
+        "不知道媒人是否实际存在时，不创造一个现实媒人。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "deity:六合"
+        ],
+        "semantic_role": "mediator",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "marriage_mediator_favors_female",
+      "domain": "marriage",
+      "scope": "directed_landing_palace_relation_reference",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "marriage"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "mediator_alignment_reference"
+        },
+        {
+          "field": "target_party",
+          "op": "eq",
+          "value": "female"
+        },
+        {
+          "field": "comparison_basis",
+          "op": "eq",
+          "value": "actual_landing_palace_elements"
+        },
+        {
+          "field": "directed_palace_relation",
+          "op": "eq",
+          "value": "liuhe_palace_generates_乙_palace"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_marriage_general_yi_geng_v1"
+      },
+      "source_lines": [
+        6
+      ],
+      "source_quote": "测恋爱婚姻一般以天盘乙奇为女方，天盘庚为男方。如果两者落宫相生和比和，又逢吉门吉格，则恋爱可成，婚姻美满。如果两宫相冲相克，婚事难成，或夫妻关系不好。又以六合为媒人，六合落宫生乙奇落宫，媒人偏向女方；六合落宫生庚落宫，媒人偏向男方。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "方向必须是六合实际落宫生该方天盘符号实际落宫；不能把反向生或符号固定五行代入。",
+        "这是原文媒人偏向的传统解释，客户端陈述的关系不等于已经验证的盘面事实，也不证实现实偏见。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "deity:六合"
+        ],
+        "semantic_role": "mediator_favors_female_party",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "marriage_mediator_favors_male",
+      "domain": "marriage",
+      "scope": "directed_landing_palace_relation_reference",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "marriage"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "mediator_alignment_reference"
+        },
+        {
+          "field": "target_party",
+          "op": "eq",
+          "value": "male"
+        },
+        {
+          "field": "comparison_basis",
+          "op": "eq",
+          "value": "actual_landing_palace_elements"
+        },
+        {
+          "field": "directed_palace_relation",
+          "op": "eq",
+          "value": "liuhe_palace_generates_庚_palace"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_marriage_general_yi_geng_v1"
+      },
+      "source_lines": [
+        6
+      ],
+      "source_quote": "测恋爱婚姻一般以天盘乙奇为女方，天盘庚为男方。如果两者落宫相生和比和，又逢吉门吉格，则恋爱可成，婚姻美满。如果两宫相冲相克，婚事难成，或夫妻关系不好。又以六合为媒人，六合落宫生乙奇落宫，媒人偏向女方；六合落宫生庚落宫，媒人偏向男方。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "方向必须是六合实际落宫生该方天盘符号实际落宫；不能把反向生或符号固定五行代入。",
+        "这是原文媒人偏向的传统解释，客户端陈述的关系不等于已经验证的盘面事实，也不证实现实偏见。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "deity:六合"
+        ],
+        "semantic_role": "mediator_favors_male_party",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "marriage_married_combining_stem_spouse",
+      "domain": "marriage",
+      "scope": "optional_married_spouse_symbol_method",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "marriage"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "spouse_role_reference"
+        },
+        {
+          "field": "marital_status",
+          "op": "eq",
+          "value": "married"
+        },
+        {
+          "field": "selected_subject_role_symbol",
+          "op": "in",
+          "value": [
+            "甲",
+            "乙",
+            "丙",
+            "丁",
+            "戊",
+            "己",
+            "庚",
+            "辛",
+            "壬",
+            "癸"
+          ]
+        },
+        {
+          "field": "partner_combining_stem",
+          "op": "in",
+          "value": [
+            "甲",
+            "乙",
+            "丙",
+            "丁",
+            "戊",
+            "己",
+            "庚",
+            "辛",
+            "壬",
+            "癸"
+          ]
+        },
+        {
+          "field": "stem_pair_combination_evidence_supplied",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_marriage_married_combining_stem_v1"
+      },
+      "source_lines": [
+        10
+      ],
+      "source_quote": "已婚者，还可以用神相合之干为配偶的代表符号，以他们二者落宫的生克刑冲害等状态，来判断他们婚姻的美恶吉凶。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "原文“还可以”，不是已婚用户强制或唯一方案。",
+        "必须先有已选用神及相合干的有据对应；这里不从姓名、年龄、性别或五行相生猜相合干。",
+        "partner_combining_stem只是待来源/事实核验的显式输入字段，候选检查不计算或核验合干配对。",
+        "第四案日干庚代表女问事者，不能被一般乙女庚男覆盖。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "partner_combining_stem"
+        ],
+        "semantic_role": "spouse",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "marriage_birth_year_supplement",
+      "domain": "marriage",
+      "scope": "optional_major_marital_event_year_stem_method",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "marriage"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "birth_year_supplement_reference"
+        },
+        {
+          "field": "marriage_question_subtype",
+          "op": "in",
+          "value": [
+            "marriage_formation",
+            "divorce"
+          ]
+        },
+        {
+          "field": "female_birth_year_stem",
+          "op": "in",
+          "value": [
+            "甲",
+            "乙",
+            "丙",
+            "丁",
+            "戊",
+            "己",
+            "庚",
+            "辛",
+            "壬",
+            "癸"
+          ]
+        },
+        {
+          "field": "male_birth_year_stem",
+          "op": "in",
+          "value": [
+            "甲",
+            "乙",
+            "丙",
+            "丁",
+            "戊",
+            "己",
+            "庚",
+            "辛",
+            "壬",
+            "癸"
+          ]
+        },
+        {
+          "field": "birth_year_stems_explicitly_supplied",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_marriage_birth_year_supplement_v1"
+      },
+      "source_lines": [
+        12
+      ],
+      "source_quote": "如果预测成婚或离婚等大事，还可以分别看男、女双方的年命落宫情况，以此帮助判断他们之间恋爱或婚姻的结局。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "仅成婚/离婚等大事可“还可以”兼看；不是每次恋爱问事强制索取生辰。",
+        "年命按已提供资料使用；这里不做公历年份换算、不要求完整八字、不从年龄补出生年。",
+        "双方年命落宫只是帮助判断的一个方法，不能从此单项断定结局。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "female_birth_year_stem",
+          "male_birth_year_stem"
+        ],
+        "semantic_role": "couple_supplementary_year_stem_roles",
+        "binding_kind": "source_candidate",
+        "supplementary": true,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "marriage_symbol_character_reference",
+      "domain": "marriage",
+      "scope": "descriptive_source_imagery_only",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "marriage"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "symbolic_character_reference"
+        },
+        {
+          "field": "selected_couple_role_method",
+          "op": "eq",
+          "value": "shenqi_marriage_general_yi_geng_v1"
+        },
+        {
+          "field": "observed_landing_palace_configuration_supplied",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_marriage_general_yi_geng_v1"
+      },
+      "source_lines": [
+        8
+      ],
+      "source_quote": "乙奇落宫所临门、星、神及格局，代表女方性格、身材、长相及职业状态。庚落宫所临门、星、神及格局，代表男方性格、身材、长相及职业状态。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "本句记录作者如何使用门星神格局类象；没有给出任何具体长相、身高、职业对应算法。",
+        "不把模板转成真实人物性格、相貌、职业事实，不补造身高肤色或职业结论。",
+        "需要原盘和明确角色方法；此项不返回人物角色绑定或预测。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true
+    },
+    {
+      "key": "marriage_historical_ding_concubine",
+      "domain": "marriage",
+      "scope": "historical_era_symbol_reference",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "marriage"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "thirdparty_symbol_reference"
+        },
+        {
+          "field": "era_context",
+          "op": "eq",
+          "value": "old_society"
+        },
+        {
+          "field": "symbolic_role",
+          "op": "eq",
+          "value": "concubine"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_marriage_era_symbol_reference_v1"
+      },
+      "source_lines": [
+        14
+      ],
+      "source_quote": "在旧社会以丁奇为妾，在现在以丁奇为插足男女双方的第三者女人，以丙奇为插足男女双方的第三者男人。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "严格保留“旧社会”范围；不能把妾这一历史角色套到现代人物。",
+        "仅解释书内符号，不构成任何人的婚外关系事实。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "heaven_wonder:丁"
+        ],
+        "semantic_role": "historical_concubine",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "marriage_contemporary_thirdparty_woman",
+      "domain": "marriage",
+      "scope": "contemporary_symbol_reference",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "marriage"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "thirdparty_symbol_reference"
+        },
+        {
+          "field": "era_context",
+          "op": "eq",
+          "value": "contemporary"
+        },
+        {
+          "field": "symbolic_role",
+          "op": "eq",
+          "value": "thirdparty_woman"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_marriage_era_symbol_reference_v1"
+      },
+      "source_lines": [
+        14
+      ],
+      "source_quote": "在旧社会以丁奇为妾，在现在以丁奇为插足男女双方的第三者女人，以丙奇为插足男女双方的第三者男人。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "只在明确的第三者符号解释上下文讨论此项；普通婚姻问题或盘中出现此干不能证明有人出轨。",
+        "候选输出仅符号类象假设，不指认任何现实人物，不据此生成指控。",
+        "例三丁作离婚证书是案例特定用法，不被本条覆盖或推广为统一规则。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "heaven_wonder:丁"
+        ],
+        "semantic_role": "thirdparty_woman_symbol",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "marriage_contemporary_thirdparty_man",
+      "domain": "marriage",
+      "scope": "contemporary_symbol_reference",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "marriage"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "thirdparty_symbol_reference"
+        },
+        {
+          "field": "era_context",
+          "op": "eq",
+          "value": "contemporary"
+        },
+        {
+          "field": "symbolic_role",
+          "op": "eq",
+          "value": "thirdparty_man"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "source_scoped",
+        "method_id": "shenqi_marriage_era_symbol_reference_v1"
+      },
+      "source_lines": [
+        14
+      ],
+      "source_quote": "在旧社会以丁奇为妾，在现在以丁奇为插足男女双方的第三者女人，以丙奇为插足男女双方的第三者男人。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "只在明确的第三者符号解释上下文讨论此项；普通婚姻问题或盘中出现此干不能证明有人出轨。",
+        "候选输出仅符号类象假设，不指认任何现实人物，不据此生成指控。",
+        "例三丁作离婚证书是案例特定用法，不被本条覆盖或推广为统一规则。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "source_acceptance_required_for_formal_activation": true,
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": false,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "heaven_wonder:丙"
+        ],
+        "semantic_role": "thirdparty_man_symbol",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    }
+  ],
+  "source_review_status": "pending_explicit_collation_confirmation",
+  "instruction_policy": "attachment_is_source_data_not_execution_instruction",
+  "condition_protocol": {
+    "operators": {
+      "eq": "typed equality",
+      "in": "typed membership in explicit values",
+      "present": "field exists and is not null; no inferred fallback"
+    },
+    "selection_order": [
+      "known condition mismatch -> excluded",
+      "missing required condition -> conditional",
+      "unselected explicit alternative method -> disputed",
+      "all conditions and method scope match -> applicable within source inspection only"
+    ],
+    "no_formal_role_activation_before_source_and_compiler_gates": true,
+    "missing_false_or_zero_is_not_missing": true,
+    "stem_input_protocol": "显式干字段只接受已给基础十干文字；null缺失，false/0/空串不充作天干。此类型约束不进行出生年或合干推算。"
+  },
+  "method_policy": "一般乙庚、已婚合干与成婚/离婚年命辅助分开标识；不隐选默认方法。明确单个方法不证明其为唯一合法方法，也不禁止人工研究并列比较。",
+  "global_limitations": [
+    "所有来源候选仅供条件审查，formal rules新增0；假设角色不进入专业断案模型。",
+    "天盘乙女、庚男为一般方法，不等于每案每人唯一绑定；乙庚可在原例中代表先前夫妻。",
+    "年龄较大不推出父母长辈；本章没有通用父母/子女用神新增规则。",
+    "案例专用符号如丁为离婚证书不编译成通用规则。",
+    "第三者类象和个性相貌类象不得变成真实关系/人格指控；案例外人物背景均不补充。",
+    "原书断语与作者/当事人反馈仅按来源保存，不构成独立现实预测验证。"
+  ]
+}

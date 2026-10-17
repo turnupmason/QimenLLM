@@ -111,3 +111,11 @@ health importer按全文SHA保全，两节10整块、39条仅参考方法和6整
 cases / POST /v1/cases → QimenService.cases → 参数化SQL目录；case-chart / POST /v1/case-chart → QimenService.case_chart → 同事件/来源哈希校验、受原文哈希限定的只读表格投影。同一原盘chart_id贯穿原始/显示/核对；名称由已有授权基础资料提供，双前缀仍保留字面marker。显式comparison_method才调用同一PaperCalculator另建对照engine盘，不默认反推古例算法。所列字段5matches/1中五门not_covered不升级engine_verified；匹配不包括医学推断、现实结局、未知前缀或历法。
 
 完整case、严格事前和源盘研究为不同读取权限视图，不是训练发布。多轮反馈后的续断按post_feedback保存，后写解释或未知声源unknown，不将整段背景/原书总结注入初次输入。原盘表完整与程序解释/独立计算能力分别记录，6案例无新训练任务。研究API继续只监听回环，无维护写路由。
+
+## 婚恋：同故事多事件、源盘策略与逐阶段payload
+
+marriage源HASH注册独立projection_method，沿同一case-chart服务，只读语法与health兼容，旧health输出不变；值符“中5寄2”分别比较original与hosted。新源表另返回字面重复地盘主干观测，不修正原表。两中五值使盘仍not_covered，188所列字段对照不含作者判断或历法。
+
+6故事为7事件6已给原盘，最后一案首次事件无盘、次事件有盘，case_events分别关联同family；不能假设events[0]一定有chart或把后来好转挂到第二次。沿cases/case/case-chart现有API，无新旁路。11婚恋来源候选由实际SQL参与ask的检索/选择trace，reference_only不自动绑定。
+
+新manifest显式temporal_payload_contract=source-stage-v1，cases.ingestion在任何写入前核查已知结果审计字段及反馈引用顺序，预测记录不夹带后续值，审计移feedback/case顶层。该合同非全语义泄漏证明，旧manifest保留原样，训练发布仍未实现。schema v1无迁移。

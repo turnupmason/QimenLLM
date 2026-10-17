@@ -1,0 +1,4462 @@
+{
+  "source_title": "恋爱婚姻预测",
+  "source_sha256": "041ef45b448249e3367023ec4948c48e73c85ba2802c9d5c97686165d090e5e5",
+  "source_bytes": 21490,
+  "source_characters": 8332,
+  "source_logical_lines": 423,
+  "source_ends_with_newline": false,
+  "audit_status": "independent_manual_gold_no_engine_generated_expectations",
+  "source_authority": "Only current user-supplied original and prior user-supplied project chapter names; never old project/plugin/network/model-memory facts",
+  "count": {
+    "cases": 6,
+    "source_nine_palace_rows": 54,
+    "source_table_headers": 6,
+    "source_actual_primary_named_stars": 48,
+    "source_center_native_rows": 6,
+    "door_prefix_rows": 5,
+    "star_prefix_ambiguous_rows": 3,
+    "cases_with_internal_table_author_position_discrepancy": 2,
+    "distinct_source_charts": 6,
+    "missing_initial_consultation_charts": 1
+  },
+  "column_convention": {
+    "header_literal": "宫位      八神    门位      星位",
+    "source_does_not_explicitly_label_heaven_earth_columns": true,
+    "supported_interpretation": "Outer-row door-cell trailing stem is primary heavenly stem; star-cell trailing stem is main earth stem. Both prefixes remain literal markers in this gold. No unqualified extra star or plate assignment inferred.",
+    "independent_anchor_lines": [
+      135,
+      201,
+      207,
+      261,
+      330,
+      336,
+      342,
+      423
+    ],
+    "native_center_is_earth_record_not_actual_heaven_star": true,
+    "no_silent_original_edits": true,
+    "extra_star_prefix_resolved": false,
+    "door_prefix_absence_preserved": true
+  },
+  "cases": [
+    {
+      "case_number": 1,
+      "title": "母亲测儿子婚事",
+      "source_lines": [
+        21,
+        77
+      ],
+      "table_header": {
+        "line": 47,
+        "raw_line": "宫位      八神    门位      星位"
+      },
+      "source_rows": [
+        {
+          "line": 48,
+          "palace": 4,
+          "palace_cell": "巽四宫",
+          "deity_cell": "蛇",
+          "door_cell": "杜庚",
+          "star_cell": "辅庚",
+          "raw_line": "巽四宫    蛇      杜庚      辅庚",
+          "interpretation": {
+            "door": "杜门",
+            "deity": "螣蛇",
+            "primary_star": "天辅星",
+            "primary_heaven_stem": "庚",
+            "earth_stem": "庚",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 49,
+          "palace": 9,
+          "palace_cell": "离九宫",
+          "deity_cell": "阴",
+          "door_cell": "景丙",
+          "star_cell": "英丙",
+          "raw_line": "离九宫    阴      景丙      英丙",
+          "interpretation": {
+            "door": "景门",
+            "deity": "太阴",
+            "primary_star": "天英星",
+            "primary_heaven_stem": "丙",
+            "earth_stem": "丙",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 50,
+          "palace": 2,
+          "palace_cell": "坤二宫",
+          "deity_cell": "合",
+          "door_cell": "死戊",
+          "star_cell": "辛芮戊",
+          "raw_line": "坤二宫    合      死戊      辛芮戊",
+          "interpretation": {
+            "door": "死门",
+            "deity": "六合",
+            "primary_star": "天芮星",
+            "primary_heaven_stem": "戊",
+            "earth_stem": "戊",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": "辛"
+          }
+        },
+        {
+          "line": 51,
+          "palace": 3,
+          "palace_cell": "震三宫",
+          "deity_cell": "符",
+          "door_cell": "伤己",
+          "star_cell": "冲己",
+          "raw_line": "震三宫    符      伤己      冲己",
+          "interpretation": {
+            "door": "伤门",
+            "deity": "值符",
+            "primary_star": "天冲星",
+            "primary_heaven_stem": "己",
+            "earth_stem": "己",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 52,
+          "palace": 5,
+          "palace_cell": "中五宫",
+          "deity_cell": "—",
+          "door_cell": "辛",
+          "star_cell": "—",
+          "raw_line": "中五宫    —       辛         —",
+          "interpretation": {
+            "earth_stem": "辛",
+            "native_center_stem": true,
+            "actual_heaven_stars_in_center": [],
+            "status": "curator_representation_of_native_center_record_not_extra_actual_landing",
+            "original_does_not_label_cell_plate": true
+          }
+        },
+        {
+          "line": 53,
+          "palace": 7,
+          "palace_cell": "兑七宫",
+          "deity_cell": "虎",
+          "door_cell": "惊癸",
+          "star_cell": "柱癸",
+          "raw_line": "兑七宫    虎      惊癸      柱癸",
+          "interpretation": {
+            "door": "惊门",
+            "deity": "白虎",
+            "primary_star": "天柱星",
+            "primary_heaven_stem": "癸",
+            "earth_stem": "癸",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 54,
+          "palace": 8,
+          "palace_cell": "艮八宫",
+          "deity_cell": "天",
+          "door_cell": "生丁",
+          "star_cell": "任丁",
+          "raw_line": "艮八宫    天      生丁      任丁",
+          "interpretation": {
+            "door": "生门",
+            "deity": "九天",
+            "primary_star": "天任星",
+            "primary_heaven_stem": "丁",
+            "earth_stem": "丁",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 55,
+          "palace": 1,
+          "palace_cell": "坎一宫",
+          "deity_cell": "地",
+          "door_cell": "休乙",
+          "star_cell": "蓬乙",
+          "raw_line": "坎一宫    地      休乙      蓬乙",
+          "interpretation": {
+            "door": "休门",
+            "deity": "九地",
+            "primary_star": "天蓬星",
+            "primary_heaven_stem": "乙",
+            "earth_stem": "乙",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 56,
+          "palace": 6,
+          "palace_cell": "乾六宫",
+          "deity_cell": "武",
+          "door_cell": "开壬",
+          "star_cell": "心壬",
+          "raw_line": "乾六宫    武      开壬      心壬",
+          "interpretation": {
+            "door": "开门",
+            "deity": "玄武",
+            "primary_star": "天心星",
+            "primary_heaven_stem": "壬",
+            "earth_stem": "壬",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        }
+      ],
+      "explicit_metadata": {
+        "source_lines": [
+          32,
+          43
+        ],
+        "source_quote": "起局时间：1997年1月7日晚上8点40分\n年干支：丙子\n月干支：辛丑\n日干支：己酉\n时干支：甲戌\n旬首：甲戌\n遁法：阳遁\n局数：2局\n值符：天冲星\n值符落宫：震3宫\n值使：伤门\n值使落宫：震3宫",
+        "datetime_text": "1997年1月7日晚上8点40分",
+        "civil_date_as_written": "1997-01-07",
+        "local_clock_as_written": "20:40",
+        "datetime_precision": "minute_naive_no_timezone",
+        "timezone": null,
+        "location_for_casting": null,
+        "four_pillars": {
+          "year": "丙子",
+          "month": "辛丑",
+          "day": "己酉",
+          "hour": "甲戌"
+        },
+        "xun_head": "甲戌",
+        "dun": "阳遁",
+        "bureau": 2,
+        "casting_method_as_written": null,
+        "chief_star": "天冲星",
+        "chief_star_landing_palace_as_metadata": 3,
+        "chief_star_original_counted_palace": 3,
+        "chief_star_host_palace_as_metadata": null,
+        "chief_star_actual_layout_palace_as_metadata": 3,
+        "chief_door": "伤门",
+        "chief_door_landing_palace_as_metadata": 3,
+        "chief_door_original_counted_palace": 3,
+        "chief_door_host_palace_as_metadata": null,
+        "chief_door_actual_layout_palace_as_metadata": 3,
+        "calendar_recomputed": false,
+        "method_not_silently_inherited_from_another_case": true
+      },
+      "column_convention_evidence": [
+        {
+          "line": 61,
+          "source_quote": "（1）乙奇代表女方，庚代表男方。乙在坎1宫生庚4宫。",
+          "scope": "Later author analysis may audit source interpretation but is not a pre-forecast input"
+        },
+        {
+          "line": 67,
+          "source_quote": "（2）庚落4宫临杜门，闭塞不通，上乘螣蛇主变化。六合主婚姻，落2宫临死门，逢空亡，又子午相冲；时干临伤门；大局为伏吟格。",
+          "scope": "Later author analysis may audit source interpretation but is not a pre-forecast input"
+        },
+        {
+          "line": 73,
+          "source_quote": "（3）庚在巽4宫伏吟，临天辅星，克六合所落坤2宫。",
+          "scope": "Later author analysis may audit source interpretation but is not a pre-forecast input"
+        }
+      ],
+      "explicit_author_positions": [
+        {
+          "line": 61,
+          "symbol_kind": "heaven_stem",
+          "symbol": "乙",
+          "palace": 1,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（1）乙奇代表女方，庚代表男方。乙在坎1宫生庚4宫。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 61,
+          "symbol_kind": "heaven_stem",
+          "symbol": "庚",
+          "palace": 4,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（1）乙奇代表女方，庚代表男方。乙在坎1宫生庚4宫。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 67,
+          "symbol_kind": "heaven_stem",
+          "symbol": "庚",
+          "palace": 4,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（2）庚落4宫临杜门，闭塞不通，上乘螣蛇主变化。六合主婚姻，落2宫临死门，逢空亡，又子午相冲；时干临伤门；大局为伏吟格。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 67,
+          "symbol_kind": "deity",
+          "symbol": "六合",
+          "palace": 2,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（2）庚落4宫临杜门，闭塞不通，上乘螣蛇主变化。六合主婚姻，落2宫临死门，逢空亡，又子午相冲；时干临伤门；大局为伏吟格。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 73,
+          "symbol_kind": "heaven_stem",
+          "symbol": "庚",
+          "palace": 4,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（3）庚在巽4宫伏吟，临天辅星，克六合所落坤2宫。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 73,
+          "symbol_kind": "star",
+          "symbol": "天辅星",
+          "palace": 4,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（3）庚在巽4宫伏吟，临天辅星，克六合所落坤2宫。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 73,
+          "symbol_kind": "deity",
+          "symbol": "六合",
+          "palace": 2,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（3）庚在巽4宫伏吟，临天辅星，克六合所落坤2宫。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        }
+      ],
+      "explicit_author_overlays": [],
+      "source_projection_gold": {
+        "basis": "Independently manually transcribed original tokens expanded with prior user-supplied names; no engine generated expectations",
+        "palaces": {
+          "4": {
+            "palace": 4,
+            "earth_stem": "庚",
+            "heaven_stem": "庚",
+            "door": "杜门",
+            "star": "天辅星",
+            "deity": "螣蛇",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "9": {
+            "palace": 9,
+            "earth_stem": "丙",
+            "heaven_stem": "丙",
+            "door": "景门",
+            "star": "天英星",
+            "deity": "太阴",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "2": {
+            "palace": 2,
+            "earth_stem": "戊",
+            "heaven_stem": "戊",
+            "door": "死门",
+            "star": "天芮星",
+            "deity": "六合",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": "辛"
+          },
+          "3": {
+            "palace": 3,
+            "earth_stem": "己",
+            "heaven_stem": "己",
+            "door": "伤门",
+            "star": "天冲星",
+            "deity": "值符",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "5": {
+            "palace": 5,
+            "earth_stem": "辛",
+            "door": null,
+            "star": null,
+            "deity": null,
+            "heaven_stem": null,
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "7": {
+            "palace": 7,
+            "earth_stem": "癸",
+            "heaven_stem": "癸",
+            "door": "惊门",
+            "star": "天柱星",
+            "deity": "白虎",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "8": {
+            "palace": 8,
+            "earth_stem": "丁",
+            "heaven_stem": "丁",
+            "door": "生门",
+            "star": "天任星",
+            "deity": "九天",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "1": {
+            "palace": 1,
+            "earth_stem": "乙",
+            "heaven_stem": "乙",
+            "door": "休门",
+            "star": "天蓬星",
+            "deity": "九地",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "6": {
+            "palace": 6,
+            "earth_stem": "壬",
+            "heaven_stem": "壬",
+            "door": "开门",
+            "star": "天心星",
+            "deity": "玄武",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          }
+        },
+        "prefix_policy": "literal markers only; neither star-prefix nor door-prefix creates an unqualified additional actual star or stem"
+      },
+      "manual_transcription_gold": {
+        "basis": "Independent source table transcription only. Eight primary named stars are literal abbreviation expansions. Prefix markers remain unresolved and no extra 天禽 is synthesized.",
+        "representation_status": "curator_interpretation_not_original_literal_json",
+        "palaces": {
+          "4": {
+            "earth_stem": "庚",
+            "heaven_stars": [
+              {
+                "name": "天辅星",
+                "carried_stem": "庚",
+                "native_palace": 4
+              }
+            ],
+            "door": "杜门",
+            "deity": "螣蛇",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "9": {
+            "earth_stem": "丙",
+            "heaven_stars": [
+              {
+                "name": "天英星",
+                "carried_stem": "丙",
+                "native_palace": 9
+              }
+            ],
+            "door": "景门",
+            "deity": "太阴",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "2": {
+            "earth_stem": "戊",
+            "heaven_stars": [
+              {
+                "name": "天芮星",
+                "carried_stem": "戊",
+                "native_palace": 2
+              }
+            ],
+            "door": "死门",
+            "deity": "六合",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": "辛"
+          },
+          "3": {
+            "earth_stem": "己",
+            "heaven_stars": [
+              {
+                "name": "天冲星",
+                "carried_stem": "己",
+                "native_palace": 3
+              }
+            ],
+            "door": "伤门",
+            "deity": "值符",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "5": {
+            "earth_stem": "辛",
+            "heaven_stars": [],
+            "door": null,
+            "deity": null,
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "7": {
+            "earth_stem": "癸",
+            "heaven_stars": [
+              {
+                "name": "天柱星",
+                "carried_stem": "癸",
+                "native_palace": 7
+              }
+            ],
+            "door": "惊门",
+            "deity": "白虎",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "8": {
+            "earth_stem": "丁",
+            "heaven_stars": [
+              {
+                "name": "天任星",
+                "carried_stem": "丁",
+                "native_palace": 8
+              }
+            ],
+            "door": "生门",
+            "deity": "九天",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "1": {
+            "earth_stem": "乙",
+            "heaven_stars": [
+              {
+                "name": "天蓬星",
+                "carried_stem": "乙",
+                "native_palace": 1
+              }
+            ],
+            "door": "休门",
+            "deity": "九地",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "6": {
+            "earth_stem": "壬",
+            "heaven_stars": [
+              {
+                "name": "天心星",
+                "carried_stem": "壬",
+                "native_palace": 6
+              }
+            ],
+            "door": "开门",
+            "deity": "玄武",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        "earth_plate": {
+          "4": "庚",
+          "9": "丙",
+          "2": "戊",
+          "3": "己",
+          "5": "辛",
+          "7": "癸",
+          "8": "丁",
+          "1": "乙",
+          "6": "壬"
+        },
+        "heaven_plate": {
+          "4": [
+            {
+              "name": "天辅星",
+              "carried_stem": "庚",
+              "native_palace": 4
+            }
+          ],
+          "9": [
+            {
+              "name": "天英星",
+              "carried_stem": "丙",
+              "native_palace": 9
+            }
+          ],
+          "2": [
+            {
+              "name": "天芮星",
+              "carried_stem": "戊",
+              "native_palace": 2
+            }
+          ],
+          "3": [
+            {
+              "name": "天冲星",
+              "carried_stem": "己",
+              "native_palace": 3
+            }
+          ],
+          "5": [],
+          "7": [
+            {
+              "name": "天柱星",
+              "carried_stem": "癸",
+              "native_palace": 7
+            }
+          ],
+          "8": [
+            {
+              "name": "天任星",
+              "carried_stem": "丁",
+              "native_palace": 8
+            }
+          ],
+          "1": [
+            {
+              "name": "天蓬星",
+              "carried_stem": "乙",
+              "native_palace": 1
+            }
+          ],
+          "6": [
+            {
+              "name": "天心星",
+              "carried_stem": "壬",
+              "native_palace": 6
+            }
+          ]
+        },
+        "doors": {
+          "4": "杜门",
+          "9": "景门",
+          "2": "死门",
+          "3": "伤门",
+          "5": null,
+          "7": "惊门",
+          "8": "生门",
+          "1": "休门",
+          "6": "开门"
+        },
+        "deities": {
+          "4": "螣蛇",
+          "9": "太阴",
+          "2": "六合",
+          "3": "值符",
+          "5": null,
+          "7": "白虎",
+          "8": "九天",
+          "1": "九地",
+          "6": "玄武"
+        },
+        "center_original_palace": 5,
+        "center_native_stem": "辛",
+        "center_actual_hosted_star_palace": null,
+        "center_hosting_not_filled_from_ambiguous_prefix": true,
+        "complete_source_table_transcribed": true,
+        "calendar_recomputed": false,
+        "engine_verified": false,
+        "voids": null,
+        "horse": null,
+        "unreported_facts_not_filled": true
+      },
+      "chief_positions_from_table": {
+        "chief_star_actual_layout_palace": 3,
+        "chief_door_actual_layout_palace": 3,
+        "chief_star_original_counted_palace": 3,
+        "chief_star_host_palace_as_metadata": null,
+        "chief_door_original_counted_palace": 3,
+        "chief_door_host_palace_as_metadata": null,
+        "scope": "original_row_primary_named_star_and_door_only",
+        "center_original_and_actual_host_not_conflated": true
+      },
+      "unresolved_fields": [
+        "calendar/solar-term/four-pillars recomputation",
+        "timezone and casting location absent from source metadata",
+        "specific calendar bureau method not supplied",
+        "full void and horse placements not tabulated",
+        "prefix marker plate/extra-star semantics not fully named by source table",
+        "author analysis and allegations are source reports, not independently verified facts"
+      ],
+      "table_earth_stem_integrity": {
+        "distinct_primary_earth_stem_count": 9,
+        "preserve_duplicate_or_missing_primary_stems_without_repair": true
+      }
+    },
+    {
+      "case_number": 2,
+      "title": "母亲测女儿婚事",
+      "source_lines": [
+        80,
+        149
+      ],
+      "table_header": {
+        "line": 111,
+        "raw_line": "宫位      八神    门位      星位"
+      },
+      "source_rows": [
+        {
+          "line": 112,
+          "palace": 4,
+          "palace_cell": "巽四宫",
+          "deity_cell": "合",
+          "door_cell": "休壬",
+          "star_cell": "蓬丙",
+          "raw_line": "巽四宫    合      休壬      蓬丙",
+          "interpretation": {
+            "door": "休门",
+            "deity": "六合",
+            "primary_star": "天蓬星",
+            "primary_heaven_stem": "壬",
+            "earth_stem": "丙",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 113,
+          "palace": 9,
+          "palace_cell": "离九宫",
+          "deity_cell": "虎",
+          "door_cell": "生庚",
+          "star_cell": "任辛",
+          "raw_line": "离九宫    虎      生庚      任辛",
+          "interpretation": {
+            "door": "生门",
+            "deity": "白虎",
+            "primary_star": "天任星",
+            "primary_heaven_stem": "庚",
+            "earth_stem": "辛",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 114,
+          "palace": 2,
+          "palace_cell": "坤二宫",
+          "deity_cell": "武",
+          "door_cell": "伤丁",
+          "star_cell": "冲癸",
+          "raw_line": "坤二宫    武      伤丁      冲癸",
+          "interpretation": {
+            "door": "伤门",
+            "deity": "玄武",
+            "primary_star": "天冲星",
+            "primary_heaven_stem": "丁",
+            "earth_stem": "癸",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 115,
+          "palace": 3,
+          "palace_cell": "震三宫",
+          "deity_cell": "阴",
+          "door_cell": "开戊",
+          "star_cell": "心丁",
+          "raw_line": "震三宫    阴      开戊      心丁",
+          "interpretation": {
+            "door": "开门",
+            "deity": "太阴",
+            "primary_star": "天心星",
+            "primary_heaven_stem": "戊",
+            "earth_stem": "丁",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 116,
+          "palace": 5,
+          "palace_cell": "中五宫",
+          "deity_cell": "—",
+          "door_cell": "乙",
+          "star_cell": "—",
+          "raw_line": "中五宫    —       乙         —",
+          "interpretation": {
+            "earth_stem": "乙",
+            "native_center_stem": true,
+            "actual_heaven_stars_in_center": [],
+            "status": "curator_representation_of_native_center_record_not_extra_actual_landing",
+            "original_does_not_label_cell_plate": true
+          }
+        },
+        {
+          "line": 117,
+          "palace": 7,
+          "palace_cell": "兑七宫",
+          "deity_cell": "地",
+          "door_cell": "杜丙",
+          "star_cell": "辅己",
+          "raw_line": "兑七宫    地      杜丙      辅己",
+          "interpretation": {
+            "door": "杜门",
+            "deity": "九地",
+            "primary_star": "天辅星",
+            "primary_heaven_stem": "丙",
+            "earth_stem": "己",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 118,
+          "palace": 8,
+          "palace_cell": "艮八宫",
+          "deity_cell": "蛇",
+          "door_cell": "惊己",
+          "star_cell": "柱庚",
+          "raw_line": "艮八宫    蛇      惊己      柱庚",
+          "interpretation": {
+            "door": "惊门",
+            "deity": "螣蛇",
+            "primary_star": "天柱星",
+            "primary_heaven_stem": "己",
+            "earth_stem": "庚",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 119,
+          "palace": 1,
+          "palace_cell": "坎一宫",
+          "deity_cell": "符",
+          "door_cell": "乙死癸",
+          "star_cell": "芮壬",
+          "raw_line": "坎一宫    符      乙死癸    芮壬",
+          "interpretation": {
+            "door": "死门",
+            "deity": "值符",
+            "primary_star": "天芮星",
+            "primary_heaven_stem": "癸",
+            "earth_stem": "壬",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "乙",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 120,
+          "palace": 6,
+          "palace_cell": "乾六宫",
+          "deity_cell": "天",
+          "door_cell": "景辛",
+          "star_cell": "英戊",
+          "raw_line": "乾六宫    天      景辛      英戊",
+          "interpretation": {
+            "door": "景门",
+            "deity": "九天",
+            "primary_star": "天英星",
+            "primary_heaven_stem": "辛",
+            "earth_stem": "戊",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        }
+      ],
+      "explicit_metadata": {
+        "source_lines": [
+          93,
+          107
+        ],
+        "source_quote": "起局时间：1996年5月31日晚上8点30分\n年干支：丙子\n月干支：癸巳\n日干支：戊辰\n时干支：壬戌\n旬首：甲寅\n遁法：阳遁\n局数：6局\n值符：天芮星\n值符落宫：坎1宫\n值使：死门\n值使落宫：坎1宫\n\n女方出生年：1970年庚戌年\n男方出生年：1964年甲辰年",
+        "datetime_text": "1996年5月31日晚上8点30分",
+        "civil_date_as_written": "1996-05-31",
+        "local_clock_as_written": "20:30",
+        "datetime_precision": "minute_naive_no_timezone",
+        "timezone": null,
+        "location_for_casting": null,
+        "four_pillars": {
+          "year": "丙子",
+          "month": "癸巳",
+          "day": "戊辰",
+          "hour": "壬戌"
+        },
+        "xun_head": "甲寅",
+        "dun": "阳遁",
+        "bureau": 6,
+        "casting_method_as_written": null,
+        "chief_star": "天芮星",
+        "chief_star_landing_palace_as_metadata": 1,
+        "chief_star_original_counted_palace": 1,
+        "chief_star_host_palace_as_metadata": null,
+        "chief_star_actual_layout_palace_as_metadata": 1,
+        "chief_door": "死门",
+        "chief_door_landing_palace_as_metadata": 1,
+        "chief_door_original_counted_palace": 1,
+        "chief_door_host_palace_as_metadata": null,
+        "chief_door_actual_layout_palace_as_metadata": 1,
+        "calendar_recomputed": false,
+        "method_not_silently_inherited_from_another_case": true
+      },
+      "column_convention_evidence": [
+        {
+          "line": 125,
+          "source_quote": "（1）甲寅旬中子、丑空，今乙奇逢空亡，临死门，在坎1宫正好冲克庚所落9宫。李惠女儿年命为庚，临生门，时令已到巳月，时干壬所在巽4宫当令，因此，这对乙、庚关系不可能代表李惠女儿刚刚谈恋爱的状况。",
+          "scope": "Later author analysis may audit source interpretation but is not a pre-forecast input"
+        },
+        {
+          "line": 131,
+          "source_quote": "（2）年干为父母，年干丙在兑7宫克时干、六合所在巽4宫。",
+          "scope": "Later author analysis may audit source interpretation but is not a pre-forecast input"
+        },
+        {
+          "line": 135,
+          "source_quote": "李惠说：“是呀！我和她爸都说她，自己一个姑娘家，干嘛要找一个比自己大六岁又离过婚的男人呢！而且这个人个子又矮，去美国留学不按期回国，学校对他有意见，不让他上课（年干、天辅星克该男人年命甲辰壬所在4宫，壬在4宫为入墓和六仪击刑，壬+丙为水蛇入火，官灾刑禁，络绎不绝），他只得自己开了一个工艺美术店，靠卖画为生（庚临生门）。”",
+          "scope": "Later author analysis may audit source interpretation but is not a pre-forecast input"
+        },
+        {
+          "line": 137,
+          "source_quote": "（3）男命甲辰壬在4宫，生女命庚9宫。",
+          "scope": "Later author analysis may audit source interpretation but is not a pre-forecast input"
+        },
+        {
+          "line": 143,
+          "source_quote": "（4）虽然乙克庚，但时干为所问之事，时干壬临吉门休门，休门又生宫，天蓬星也生宫，又上乘六合吉神，六合主婚姻；年命甲辰壬又生年命庚。巳月火旺，时干当令；年干丙处死地。",
+          "scope": "Later author analysis may audit source interpretation but is not a pre-forecast input"
+        }
+      ],
+      "explicit_author_positions": [
+        {
+          "line": 125,
+          "symbol_kind": "heaven_stem",
+          "symbol": "乙",
+          "palace": 1,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（1）甲寅旬中子、丑空，今乙奇逢空亡，临死门，在坎1宫正好冲克庚所落9宫。李惠女儿年命为庚，临生门，时令已到巳月，时干壬所在巽4宫当令，因此，这对乙、庚关系不可能代表李惠女儿刚刚谈恋爱的状况。",
+          "table_consistency": "literal_prefix_only_plate_meaning_not_assigned",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 125,
+          "symbol_kind": "heaven_stem",
+          "symbol": "庚",
+          "palace": 9,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（1）甲寅旬中子、丑空，今乙奇逢空亡，临死门，在坎1宫正好冲克庚所落9宫。李惠女儿年命为庚，临生门，时令已到巳月，时干壬所在巽4宫当令，因此，这对乙、庚关系不可能代表李惠女儿刚刚谈恋爱的状况。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 125,
+          "symbol_kind": "heaven_stem",
+          "symbol": "壬",
+          "palace": 4,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（1）甲寅旬中子、丑空，今乙奇逢空亡，临死门，在坎1宫正好冲克庚所落9宫。李惠女儿年命为庚，临生门，时令已到巳月，时干壬所在巽4宫当令，因此，这对乙、庚关系不可能代表李惠女儿刚刚谈恋爱的状况。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 131,
+          "symbol_kind": "heaven_stem",
+          "symbol": "丙",
+          "palace": 7,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（2）年干为父母，年干丙在兑7宫克时干、六合所在巽4宫。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 131,
+          "symbol_kind": "heaven_stem",
+          "symbol": "壬",
+          "palace": 4,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（2）年干为父母，年干丙在兑7宫克时干、六合所在巽4宫。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 131,
+          "symbol_kind": "deity",
+          "symbol": "六合",
+          "palace": 4,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（2）年干为父母，年干丙在兑7宫克时干、六合所在巽4宫。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 135,
+          "symbol_kind": "heaven_stem",
+          "symbol": "壬",
+          "palace": 4,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "李惠说：“是呀！我和她爸都说她，自己一个姑娘家，干嘛要找一个比自己大六岁又离过婚的男人呢！而且这个人个子又矮，去美国留学不按期回国，学校对他有意见，不让他上课（年干、天辅星克该男人年命甲辰壬所在4宫，壬在4宫为入墓和六仪击刑，壬+丙为水蛇入火，官灾刑禁，络绎不绝），他只得自己开了一个工艺美术店，靠卖画为生（庚临生门）。”",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 137,
+          "symbol_kind": "heaven_stem",
+          "symbol": "壬",
+          "palace": 4,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（3）男命甲辰壬在4宫，生女命庚9宫。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 137,
+          "symbol_kind": "heaven_stem",
+          "symbol": "庚",
+          "palace": 9,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（3）男命甲辰壬在4宫，生女命庚9宫。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        }
+      ],
+      "explicit_author_overlays": [
+        {
+          "line": 135,
+          "palace": 4,
+          "heaven_stem": "壬",
+          "earth_stem": "丙",
+          "source_quote": "李惠说：“是呀！我和她爸都说她，自己一个姑娘家，干嘛要找一个比自己大六岁又离过婚的男人呢！而且这个人个子又矮，去美国留学不按期回国，学校对他有意见，不让他上课（年干、天辅星克该男人年命甲辰壬所在4宫，壬在4宫为入墓和六仪击刑，壬+丙为水蛇入火，官灾刑禁，络绎不绝），他只得自己开了一个工艺美术店，靠卖画为生（庚临生门）。”",
+          "explicit_author_statement": true,
+          "table_consistency": "directly_consistent_with_primary_or_literal_heaven_prefix",
+          "claim_not_silently_replaced_by_table": true
+        }
+      ],
+      "source_projection_gold": {
+        "basis": "Independently manually transcribed original tokens expanded with prior user-supplied names; no engine generated expectations",
+        "palaces": {
+          "4": {
+            "palace": 4,
+            "earth_stem": "丙",
+            "heaven_stem": "壬",
+            "door": "休门",
+            "star": "天蓬星",
+            "deity": "六合",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "9": {
+            "palace": 9,
+            "earth_stem": "辛",
+            "heaven_stem": "庚",
+            "door": "生门",
+            "star": "天任星",
+            "deity": "白虎",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "2": {
+            "palace": 2,
+            "earth_stem": "癸",
+            "heaven_stem": "丁",
+            "door": "伤门",
+            "star": "天冲星",
+            "deity": "玄武",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "3": {
+            "palace": 3,
+            "earth_stem": "丁",
+            "heaven_stem": "戊",
+            "door": "开门",
+            "star": "天心星",
+            "deity": "太阴",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "5": {
+            "palace": 5,
+            "earth_stem": "乙",
+            "door": null,
+            "star": null,
+            "deity": null,
+            "heaven_stem": null,
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "7": {
+            "palace": 7,
+            "earth_stem": "己",
+            "heaven_stem": "丙",
+            "door": "杜门",
+            "star": "天辅星",
+            "deity": "九地",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "8": {
+            "palace": 8,
+            "earth_stem": "庚",
+            "heaven_stem": "己",
+            "door": "惊门",
+            "star": "天柱星",
+            "deity": "螣蛇",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "1": {
+            "palace": 1,
+            "earth_stem": "壬",
+            "heaven_stem": "癸",
+            "door": "死门",
+            "star": "天芮星",
+            "deity": "值符",
+            "heaven_prefix_marker": "乙",
+            "star_prefix_marker": null
+          },
+          "6": {
+            "palace": 6,
+            "earth_stem": "戊",
+            "heaven_stem": "辛",
+            "door": "景门",
+            "star": "天英星",
+            "deity": "九天",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          }
+        },
+        "prefix_policy": "literal markers only; neither star-prefix nor door-prefix creates an unqualified additional actual star or stem"
+      },
+      "manual_transcription_gold": {
+        "basis": "Independent source table transcription only. Eight primary named stars are literal abbreviation expansions. Prefix markers remain unresolved and no extra 天禽 is synthesized.",
+        "representation_status": "curator_interpretation_not_original_literal_json",
+        "palaces": {
+          "4": {
+            "earth_stem": "丙",
+            "heaven_stars": [
+              {
+                "name": "天蓬星",
+                "carried_stem": "壬",
+                "native_palace": 1
+              }
+            ],
+            "door": "休门",
+            "deity": "六合",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "9": {
+            "earth_stem": "辛",
+            "heaven_stars": [
+              {
+                "name": "天任星",
+                "carried_stem": "庚",
+                "native_palace": 8
+              }
+            ],
+            "door": "生门",
+            "deity": "白虎",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "2": {
+            "earth_stem": "癸",
+            "heaven_stars": [
+              {
+                "name": "天冲星",
+                "carried_stem": "丁",
+                "native_palace": 3
+              }
+            ],
+            "door": "伤门",
+            "deity": "玄武",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "3": {
+            "earth_stem": "丁",
+            "heaven_stars": [
+              {
+                "name": "天心星",
+                "carried_stem": "戊",
+                "native_palace": 6
+              }
+            ],
+            "door": "开门",
+            "deity": "太阴",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "5": {
+            "earth_stem": "乙",
+            "heaven_stars": [],
+            "door": null,
+            "deity": null,
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "7": {
+            "earth_stem": "己",
+            "heaven_stars": [
+              {
+                "name": "天辅星",
+                "carried_stem": "丙",
+                "native_palace": 4
+              }
+            ],
+            "door": "杜门",
+            "deity": "九地",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "8": {
+            "earth_stem": "庚",
+            "heaven_stars": [
+              {
+                "name": "天柱星",
+                "carried_stem": "己",
+                "native_palace": 7
+              }
+            ],
+            "door": "惊门",
+            "deity": "螣蛇",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "1": {
+            "earth_stem": "壬",
+            "heaven_stars": [
+              {
+                "name": "天芮星",
+                "carried_stem": "癸",
+                "native_palace": 2
+              }
+            ],
+            "door": "死门",
+            "deity": "值符",
+            "heaven_prefix_raw": "乙",
+            "star_prefix_raw": ""
+          },
+          "6": {
+            "earth_stem": "戊",
+            "heaven_stars": [
+              {
+                "name": "天英星",
+                "carried_stem": "辛",
+                "native_palace": 9
+              }
+            ],
+            "door": "景门",
+            "deity": "九天",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        "earth_plate": {
+          "4": "丙",
+          "9": "辛",
+          "2": "癸",
+          "3": "丁",
+          "5": "乙",
+          "7": "己",
+          "8": "庚",
+          "1": "壬",
+          "6": "戊"
+        },
+        "heaven_plate": {
+          "4": [
+            {
+              "name": "天蓬星",
+              "carried_stem": "壬",
+              "native_palace": 1
+            }
+          ],
+          "9": [
+            {
+              "name": "天任星",
+              "carried_stem": "庚",
+              "native_palace": 8
+            }
+          ],
+          "2": [
+            {
+              "name": "天冲星",
+              "carried_stem": "丁",
+              "native_palace": 3
+            }
+          ],
+          "3": [
+            {
+              "name": "天心星",
+              "carried_stem": "戊",
+              "native_palace": 6
+            }
+          ],
+          "5": [],
+          "7": [
+            {
+              "name": "天辅星",
+              "carried_stem": "丙",
+              "native_palace": 4
+            }
+          ],
+          "8": [
+            {
+              "name": "天柱星",
+              "carried_stem": "己",
+              "native_palace": 7
+            }
+          ],
+          "1": [
+            {
+              "name": "天芮星",
+              "carried_stem": "癸",
+              "native_palace": 2
+            }
+          ],
+          "6": [
+            {
+              "name": "天英星",
+              "carried_stem": "辛",
+              "native_palace": 9
+            }
+          ]
+        },
+        "doors": {
+          "4": "休门",
+          "9": "生门",
+          "2": "伤门",
+          "3": "开门",
+          "5": null,
+          "7": "杜门",
+          "8": "惊门",
+          "1": "死门",
+          "6": "景门"
+        },
+        "deities": {
+          "4": "六合",
+          "9": "白虎",
+          "2": "玄武",
+          "3": "太阴",
+          "5": null,
+          "7": "九地",
+          "8": "螣蛇",
+          "1": "值符",
+          "6": "九天"
+        },
+        "center_original_palace": 5,
+        "center_native_stem": "乙",
+        "center_actual_hosted_star_palace": null,
+        "center_hosting_not_filled_from_ambiguous_prefix": true,
+        "complete_source_table_transcribed": true,
+        "calendar_recomputed": false,
+        "engine_verified": false,
+        "voids": null,
+        "horse": null,
+        "unreported_facts_not_filled": true
+      },
+      "chief_positions_from_table": {
+        "chief_star_actual_layout_palace": 1,
+        "chief_door_actual_layout_palace": 1,
+        "chief_star_original_counted_palace": 1,
+        "chief_star_host_palace_as_metadata": null,
+        "chief_door_original_counted_palace": 1,
+        "chief_door_host_palace_as_metadata": null,
+        "scope": "original_row_primary_named_star_and_door_only",
+        "center_original_and_actual_host_not_conflated": true
+      },
+      "unresolved_fields": [
+        "calendar/solar-term/four-pillars recomputation",
+        "timezone and casting location absent from source metadata",
+        "specific calendar bureau method not supplied",
+        "full void and horse placements not tabulated",
+        "prefix marker plate/extra-star semantics not fully named by source table",
+        "author analysis and allegations are source reports, not independently verified facts"
+      ],
+      "table_earth_stem_integrity": {
+        "distinct_primary_earth_stem_count": 9,
+        "preserve_duplicate_or_missing_primary_stems_without_repair": true
+      }
+    },
+    {
+      "case_number": 3,
+      "title": "杜新会测男青年离婚",
+      "source_lines": [
+        152,
+        213
+      ],
+      "table_header": {
+        "line": 187,
+        "raw_line": "宫位      八神    门位      星位"
+      },
+      "source_rows": [
+        {
+          "line": 188,
+          "palace": 4,
+          "palace_cell": "巽四宫",
+          "deity_cell": "蛇",
+          "door_cell": "杜己",
+          "star_cell": "柱丙",
+          "raw_line": "巽四宫    蛇      杜己      柱丙",
+          "interpretation": {
+            "door": "杜门",
+            "deity": "螣蛇",
+            "primary_star": "天柱星",
+            "primary_heaven_stem": "己",
+            "earth_stem": "丙",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 189,
+          "palace": 9,
+          "palace_cell": "离九宫",
+          "deity_cell": "阴",
+          "door_cell": "景戊",
+          "star_cell": "心辛",
+          "raw_line": "离九宫    阴      景戊      心辛",
+          "interpretation": {
+            "door": "景门",
+            "deity": "太阴",
+            "primary_star": "天心星",
+            "primary_heaven_stem": "戊",
+            "earth_stem": "辛",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 190,
+          "palace": 2,
+          "palace_cell": "坤二宫",
+          "deity_cell": "合",
+          "door_cell": "死壬",
+          "star_cell": "乙蓬辛",
+          "raw_line": "坤二宫    合      死壬      乙蓬辛",
+          "interpretation": {
+            "door": "死门",
+            "deity": "六合",
+            "primary_star": "天蓬星",
+            "primary_heaven_stem": "壬",
+            "earth_stem": "辛",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": "乙"
+          }
+        },
+        {
+          "line": 191,
+          "palace": 3,
+          "palace_cell": "震三宫",
+          "deity_cell": "符",
+          "door_cell": "乙伤癸",
+          "star_cell": "芮丁",
+          "raw_line": "震三宫    符      乙伤癸    芮丁",
+          "interpretation": {
+            "door": "伤门",
+            "deity": "值符",
+            "primary_star": "天芮星",
+            "primary_heaven_stem": "癸",
+            "earth_stem": "丁",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "乙",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 192,
+          "palace": 5,
+          "palace_cell": "中五宫",
+          "deity_cell": "—",
+          "door_cell": "乙",
+          "star_cell": "—",
+          "raw_line": "中五宫    —       乙         —",
+          "interpretation": {
+            "earth_stem": "乙",
+            "native_center_stem": true,
+            "actual_heaven_stars_in_center": [],
+            "status": "curator_representation_of_native_center_record_not_extra_actual_landing",
+            "original_does_not_label_cell_plate": true
+          }
+        },
+        {
+          "line": 193,
+          "palace": 7,
+          "palace_cell": "兑七宫",
+          "deity_cell": "虎",
+          "door_cell": "惊庚",
+          "star_cell": "任己",
+          "raw_line": "兑七宫    虎      惊庚      任己",
+          "interpretation": {
+            "door": "惊门",
+            "deity": "白虎",
+            "primary_star": "天任星",
+            "primary_heaven_stem": "庚",
+            "earth_stem": "己",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 194,
+          "palace": 8,
+          "palace_cell": "艮八宫",
+          "deity_cell": "天",
+          "door_cell": "生辛",
+          "star_cell": "英庚",
+          "raw_line": "艮八宫    天      生辛      英庚",
+          "interpretation": {
+            "door": "生门",
+            "deity": "九天",
+            "primary_star": "天英星",
+            "primary_heaven_stem": "辛",
+            "earth_stem": "庚",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 195,
+          "palace": 1,
+          "palace_cell": "坎一宫",
+          "deity_cell": "地",
+          "door_cell": "休丙",
+          "star_cell": "辅壬",
+          "raw_line": "坎一宫    地      休丙      辅壬",
+          "interpretation": {
+            "door": "休门",
+            "deity": "九地",
+            "primary_star": "天辅星",
+            "primary_heaven_stem": "丙",
+            "earth_stem": "壬",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 196,
+          "palace": 6,
+          "palace_cell": "乾六宫",
+          "deity_cell": "武",
+          "door_cell": "开丁",
+          "star_cell": "冲戊",
+          "raw_line": "乾六宫    武      开丁      冲戊",
+          "interpretation": {
+            "door": "开门",
+            "deity": "玄武",
+            "primary_star": "天冲星",
+            "primary_heaven_stem": "丁",
+            "earth_stem": "戊",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        }
+      ],
+      "explicit_metadata": {
+        "source_lines": [
+          171,
+          183
+        ],
+        "source_quote": "起局时间：1996年3月27日上午9点30分\n年干支：丙子\n月干支：辛卯\n日干支：癸亥\n时干支：丁巳\n旬首：甲寅\n遁法：阳遁\n局数：6局\n值符：天芮星\n值符落宫：震3宫\n值使：死门\n值使落宫：中5宫寄坤2宫\n原书说明：值使死门伏吟",
+        "datetime_text": "1996年3月27日上午9点30分",
+        "civil_date_as_written": "1996-03-27",
+        "local_clock_as_written": "09:30",
+        "datetime_precision": "minute_naive_no_timezone",
+        "timezone": null,
+        "location_for_casting": null,
+        "four_pillars": {
+          "year": "丙子",
+          "month": "辛卯",
+          "day": "癸亥",
+          "hour": "丁巳"
+        },
+        "xun_head": "甲寅",
+        "dun": "阳遁",
+        "bureau": 6,
+        "casting_method_as_written": null,
+        "chief_star": "天芮星",
+        "chief_star_landing_palace_as_metadata": 3,
+        "chief_star_original_counted_palace": 3,
+        "chief_star_host_palace_as_metadata": null,
+        "chief_star_actual_layout_palace_as_metadata": 3,
+        "chief_door": "死门",
+        "chief_door_landing_palace_as_metadata": 5,
+        "chief_door_original_counted_palace": 5,
+        "chief_door_host_palace_as_metadata": 2,
+        "chief_door_actual_layout_palace_as_metadata": 2,
+        "calendar_recomputed": false,
+        "method_not_silently_inherited_from_another_case": true
+      },
+      "column_convention_evidence": [
+        {
+          "line": 201,
+          "source_quote": "（1）值使死门落坤2宫伏吟无气，上乘六合，六合主婚姻，下临死门，必有婚灾，壬加癸主幼女奸淫，家有丑声；测婚以乙庚代表夫妇双方，乙庚落3、7对冲之宫，冲则散，又乙奇为其妻落震3宫，癸加丁为蛇夭矫凶格，7宫庚加己为刑格；又天盘乙奇落3宫为回归乙卯正位，故据此断他离了婚，爱人回了娘家。",
+          "scope": "Later author analysis may audit source interpretation but is not a pre-forecast input"
+        },
+        {
+          "line": 203,
+          "source_quote": "（2）乙奇为其妻，落震3宫，正值卯月最旺之时，庚金休囚无力被反侮，所以断他妻子先提出离婚，地盘日干癸和乙奇均在坤二宫，上乘死门，坤宫正当秋季，所以断他们从去年秋天开始闹矛盾。春分后乙奇、伤门最旺，所以断近期离婚。",
+          "scope": "Later author analysis may audit source interpretation but is not a pre-forecast input"
+        },
+        {
+          "line": 205,
+          "source_quote": "（3）丁奇为离婚证书，又是时干，代表现在所测主要之事，落乾6宫，逢开门，开门为法官，所以断已被批准离婚；上乘玄武，为私下协议离婚，不愿让人知道。",
+          "scope": "Later author analysis may audit source interpretation but is not a pre-forecast input"
+        },
+        {
+          "line": 207,
+          "source_quote": "丁下所临之干为应期，丁下临戊（甲），故断3月18日甲寅日离婚。",
+          "scope": "Later author analysis may audit source interpretation but is not a pre-forecast input"
+        },
+        {
+          "line": 209,
+          "source_quote": "戊又代表钱财，所以断为钱财争执而离婚。天盘戊落离9宫，子午相冲，故为九千元钱的事而闹矛盾。",
+          "scope": "Later author analysis may audit source interpretation but is not a pre-forecast input"
+        },
+        {
+          "line": 211,
+          "source_quote": "（4）地盘戊为主，为求测人小吴所分得之财，落6宫，故断六千元，上临丁为证券票据，上乘玄武为投机证券，故为邮票。",
+          "scope": "Later author analysis may audit source interpretation but is not a pre-forecast input"
+        }
+      ],
+      "explicit_author_positions": [
+        {
+          "line": 201,
+          "symbol_kind": "door",
+          "symbol": "死门",
+          "palace": 2,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（1）值使死门落坤2宫伏吟无气，上乘六合，六合主婚姻，下临死门，必有婚灾，壬加癸主幼女奸淫，家有丑声；测婚以乙庚代表夫妇双方，乙庚落3、7对冲之宫，冲则散，又乙奇为其妻落震3宫，癸加丁为蛇夭矫凶格，7宫庚加己为刑格；又天盘乙奇落3宫为回归乙卯正位，故据此断他离了婚，爱人回了娘家。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 201,
+          "symbol_kind": "deity",
+          "symbol": "六合",
+          "palace": 2,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（1）值使死门落坤2宫伏吟无气，上乘六合，六合主婚姻，下临死门，必有婚灾，壬加癸主幼女奸淫，家有丑声；测婚以乙庚代表夫妇双方，乙庚落3、7对冲之宫，冲则散，又乙奇为其妻落震3宫，癸加丁为蛇夭矫凶格，7宫庚加己为刑格；又天盘乙奇落3宫为回归乙卯正位，故据此断他离了婚，爱人回了娘家。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 201,
+          "symbol_kind": "heaven_stem",
+          "symbol": "乙",
+          "palace": 3,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（1）值使死门落坤2宫伏吟无气，上乘六合，六合主婚姻，下临死门，必有婚灾，壬加癸主幼女奸淫，家有丑声；测婚以乙庚代表夫妇双方，乙庚落3、7对冲之宫，冲则散，又乙奇为其妻落震3宫，癸加丁为蛇夭矫凶格，7宫庚加己为刑格；又天盘乙奇落3宫为回归乙卯正位，故据此断他离了婚，爱人回了娘家。",
+          "table_consistency": "literal_prefix_only_plate_meaning_not_assigned",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 201,
+          "symbol_kind": "heaven_stem",
+          "symbol": "庚",
+          "palace": 7,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（1）值使死门落坤2宫伏吟无气，上乘六合，六合主婚姻，下临死门，必有婚灾，壬加癸主幼女奸淫，家有丑声；测婚以乙庚代表夫妇双方，乙庚落3、7对冲之宫，冲则散，又乙奇为其妻落震3宫，癸加丁为蛇夭矫凶格，7宫庚加己为刑格；又天盘乙奇落3宫为回归乙卯正位，故据此断他离了婚，爱人回了娘家。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 203,
+          "symbol_kind": "heaven_stem",
+          "symbol": "乙",
+          "palace": 3,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（2）乙奇为其妻，落震3宫，正值卯月最旺之时，庚金休囚无力被反侮，所以断他妻子先提出离婚，地盘日干癸和乙奇均在坤二宫，上乘死门，坤宫正当秋季，所以断他们从去年秋天开始闹矛盾。春分后乙奇、伤门最旺，所以断近期离婚。",
+          "table_consistency": "literal_prefix_only_plate_meaning_not_assigned",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 203,
+          "symbol_kind": "earth_stem",
+          "symbol": "癸",
+          "palace": 2,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（2）乙奇为其妻，落震3宫，正值卯月最旺之时，庚金休囚无力被反侮，所以断他妻子先提出离婚，地盘日干癸和乙奇均在坤二宫，上乘死门，坤宫正当秋季，所以断他们从去年秋天开始闹矛盾。春分后乙奇、伤门最旺，所以断近期离婚。",
+          "table_consistency": "inconsistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 203,
+          "symbol_kind": "earth_stem",
+          "symbol": "乙",
+          "palace": 2,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（2）乙奇为其妻，落震3宫，正值卯月最旺之时，庚金休囚无力被反侮，所以断他妻子先提出离婚，地盘日干癸和乙奇均在坤二宫，上乘死门，坤宫正当秋季，所以断他们从去年秋天开始闹矛盾。春分后乙奇、伤门最旺，所以断近期离婚。",
+          "table_consistency": "literal_prefix_only_plate_meaning_not_assigned",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 205,
+          "symbol_kind": "heaven_stem",
+          "symbol": "丁",
+          "palace": 6,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（3）丁奇为离婚证书，又是时干，代表现在所测主要之事，落乾6宫，逢开门，开门为法官，所以断已被批准离婚；上乘玄武，为私下协议离婚，不愿让人知道。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 209,
+          "symbol_kind": "heaven_stem",
+          "symbol": "戊",
+          "palace": 9,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "戊又代表钱财，所以断为钱财争执而离婚。天盘戊落离9宫，子午相冲，故为九千元钱的事而闹矛盾。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 211,
+          "symbol_kind": "earth_stem",
+          "symbol": "戊",
+          "palace": 6,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（4）地盘戊为主，为求测人小吴所分得之财，落6宫，故断六千元，上临丁为证券票据，上乘玄武为投机证券，故为邮票。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        }
+      ],
+      "explicit_author_overlays": [
+        {
+          "line": 201,
+          "palace": 2,
+          "heaven_stem": "壬",
+          "earth_stem": "癸",
+          "source_quote": "（1）值使死门落坤2宫伏吟无气，上乘六合，六合主婚姻，下临死门，必有婚灾，壬加癸主幼女奸淫，家有丑声；测婚以乙庚代表夫妇双方，乙庚落3、7对冲之宫，冲则散，又乙奇为其妻落震3宫，癸加丁为蛇夭矫凶格，7宫庚加己为刑格；又天盘乙奇落3宫为回归乙卯正位，故据此断他离了婚，爱人回了娘家。",
+          "explicit_author_statement": true,
+          "table_consistency": "inconsistent_with_primary_source_cells",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 201,
+          "palace": 3,
+          "heaven_stem": "癸",
+          "earth_stem": "丁",
+          "source_quote": "（1）值使死门落坤2宫伏吟无气，上乘六合，六合主婚姻，下临死门，必有婚灾，壬加癸主幼女奸淫，家有丑声；测婚以乙庚代表夫妇双方，乙庚落3、7对冲之宫，冲则散，又乙奇为其妻落震3宫，癸加丁为蛇夭矫凶格，7宫庚加己为刑格；又天盘乙奇落3宫为回归乙卯正位，故据此断他离了婚，爱人回了娘家。",
+          "explicit_author_statement": true,
+          "table_consistency": "directly_consistent_with_primary_or_literal_heaven_prefix",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 201,
+          "palace": 7,
+          "heaven_stem": "庚",
+          "earth_stem": "己",
+          "source_quote": "（1）值使死门落坤2宫伏吟无气，上乘六合，六合主婚姻，下临死门，必有婚灾，壬加癸主幼女奸淫，家有丑声；测婚以乙庚代表夫妇双方，乙庚落3、7对冲之宫，冲则散，又乙奇为其妻落震3宫，癸加丁为蛇夭矫凶格，7宫庚加己为刑格；又天盘乙奇落3宫为回归乙卯正位，故据此断他离了婚，爱人回了娘家。",
+          "explicit_author_statement": true,
+          "table_consistency": "directly_consistent_with_primary_or_literal_heaven_prefix",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 207,
+          "palace": 6,
+          "heaven_stem": "丁",
+          "earth_stem": "戊",
+          "source_quote": "丁下所临之干为应期，丁下临戊（甲），故断3月18日甲寅日离婚。",
+          "explicit_author_statement": true,
+          "table_consistency": "directly_consistent_with_primary_or_literal_heaven_prefix",
+          "claim_not_silently_replaced_by_table": true
+        }
+      ],
+      "source_projection_gold": {
+        "basis": "Independently manually transcribed original tokens expanded with prior user-supplied names; no engine generated expectations",
+        "palaces": {
+          "4": {
+            "palace": 4,
+            "earth_stem": "丙",
+            "heaven_stem": "己",
+            "door": "杜门",
+            "star": "天柱星",
+            "deity": "螣蛇",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "9": {
+            "palace": 9,
+            "earth_stem": "辛",
+            "heaven_stem": "戊",
+            "door": "景门",
+            "star": "天心星",
+            "deity": "太阴",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "2": {
+            "palace": 2,
+            "earth_stem": "辛",
+            "heaven_stem": "壬",
+            "door": "死门",
+            "star": "天蓬星",
+            "deity": "六合",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": "乙"
+          },
+          "3": {
+            "palace": 3,
+            "earth_stem": "丁",
+            "heaven_stem": "癸",
+            "door": "伤门",
+            "star": "天芮星",
+            "deity": "值符",
+            "heaven_prefix_marker": "乙",
+            "star_prefix_marker": null
+          },
+          "5": {
+            "palace": 5,
+            "earth_stem": "乙",
+            "door": null,
+            "star": null,
+            "deity": null,
+            "heaven_stem": null,
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "7": {
+            "palace": 7,
+            "earth_stem": "己",
+            "heaven_stem": "庚",
+            "door": "惊门",
+            "star": "天任星",
+            "deity": "白虎",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "8": {
+            "palace": 8,
+            "earth_stem": "庚",
+            "heaven_stem": "辛",
+            "door": "生门",
+            "star": "天英星",
+            "deity": "九天",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "1": {
+            "palace": 1,
+            "earth_stem": "壬",
+            "heaven_stem": "丙",
+            "door": "休门",
+            "star": "天辅星",
+            "deity": "九地",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "6": {
+            "palace": 6,
+            "earth_stem": "戊",
+            "heaven_stem": "丁",
+            "door": "开门",
+            "star": "天冲星",
+            "deity": "玄武",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          }
+        },
+        "prefix_policy": "literal markers only; neither star-prefix nor door-prefix creates an unqualified additional actual star or stem"
+      },
+      "manual_transcription_gold": {
+        "basis": "Independent source table transcription only. Eight primary named stars are literal abbreviation expansions. Prefix markers remain unresolved and no extra 天禽 is synthesized.",
+        "representation_status": "curator_interpretation_not_original_literal_json",
+        "palaces": {
+          "4": {
+            "earth_stem": "丙",
+            "heaven_stars": [
+              {
+                "name": "天柱星",
+                "carried_stem": "己",
+                "native_palace": 7
+              }
+            ],
+            "door": "杜门",
+            "deity": "螣蛇",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "9": {
+            "earth_stem": "辛",
+            "heaven_stars": [
+              {
+                "name": "天心星",
+                "carried_stem": "戊",
+                "native_palace": 6
+              }
+            ],
+            "door": "景门",
+            "deity": "太阴",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "2": {
+            "earth_stem": "辛",
+            "heaven_stars": [
+              {
+                "name": "天蓬星",
+                "carried_stem": "壬",
+                "native_palace": 1
+              }
+            ],
+            "door": "死门",
+            "deity": "六合",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": "乙"
+          },
+          "3": {
+            "earth_stem": "丁",
+            "heaven_stars": [
+              {
+                "name": "天芮星",
+                "carried_stem": "癸",
+                "native_palace": 2
+              }
+            ],
+            "door": "伤门",
+            "deity": "值符",
+            "heaven_prefix_raw": "乙",
+            "star_prefix_raw": ""
+          },
+          "5": {
+            "earth_stem": "乙",
+            "heaven_stars": [],
+            "door": null,
+            "deity": null,
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "7": {
+            "earth_stem": "己",
+            "heaven_stars": [
+              {
+                "name": "天任星",
+                "carried_stem": "庚",
+                "native_palace": 8
+              }
+            ],
+            "door": "惊门",
+            "deity": "白虎",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "8": {
+            "earth_stem": "庚",
+            "heaven_stars": [
+              {
+                "name": "天英星",
+                "carried_stem": "辛",
+                "native_palace": 9
+              }
+            ],
+            "door": "生门",
+            "deity": "九天",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "1": {
+            "earth_stem": "壬",
+            "heaven_stars": [
+              {
+                "name": "天辅星",
+                "carried_stem": "丙",
+                "native_palace": 4
+              }
+            ],
+            "door": "休门",
+            "deity": "九地",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "6": {
+            "earth_stem": "戊",
+            "heaven_stars": [
+              {
+                "name": "天冲星",
+                "carried_stem": "丁",
+                "native_palace": 3
+              }
+            ],
+            "door": "开门",
+            "deity": "玄武",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        "earth_plate": {
+          "4": "丙",
+          "9": "辛",
+          "2": "辛",
+          "3": "丁",
+          "5": "乙",
+          "7": "己",
+          "8": "庚",
+          "1": "壬",
+          "6": "戊"
+        },
+        "heaven_plate": {
+          "4": [
+            {
+              "name": "天柱星",
+              "carried_stem": "己",
+              "native_palace": 7
+            }
+          ],
+          "9": [
+            {
+              "name": "天心星",
+              "carried_stem": "戊",
+              "native_palace": 6
+            }
+          ],
+          "2": [
+            {
+              "name": "天蓬星",
+              "carried_stem": "壬",
+              "native_palace": 1
+            }
+          ],
+          "3": [
+            {
+              "name": "天芮星",
+              "carried_stem": "癸",
+              "native_palace": 2
+            }
+          ],
+          "5": [],
+          "7": [
+            {
+              "name": "天任星",
+              "carried_stem": "庚",
+              "native_palace": 8
+            }
+          ],
+          "8": [
+            {
+              "name": "天英星",
+              "carried_stem": "辛",
+              "native_palace": 9
+            }
+          ],
+          "1": [
+            {
+              "name": "天辅星",
+              "carried_stem": "丙",
+              "native_palace": 4
+            }
+          ],
+          "6": [
+            {
+              "name": "天冲星",
+              "carried_stem": "丁",
+              "native_palace": 3
+            }
+          ]
+        },
+        "doors": {
+          "4": "杜门",
+          "9": "景门",
+          "2": "死门",
+          "3": "伤门",
+          "5": null,
+          "7": "惊门",
+          "8": "生门",
+          "1": "休门",
+          "6": "开门"
+        },
+        "deities": {
+          "4": "螣蛇",
+          "9": "太阴",
+          "2": "六合",
+          "3": "值符",
+          "5": null,
+          "7": "白虎",
+          "8": "九天",
+          "1": "九地",
+          "6": "玄武"
+        },
+        "center_original_palace": 5,
+        "center_native_stem": "乙",
+        "center_actual_hosted_star_palace": null,
+        "center_hosting_not_filled_from_ambiguous_prefix": true,
+        "complete_source_table_transcribed": true,
+        "calendar_recomputed": false,
+        "engine_verified": false,
+        "voids": null,
+        "horse": null,
+        "unreported_facts_not_filled": true
+      },
+      "chief_positions_from_table": {
+        "chief_star_actual_layout_palace": 3,
+        "chief_door_actual_layout_palace": 2,
+        "chief_star_original_counted_palace": 3,
+        "chief_star_host_palace_as_metadata": null,
+        "chief_door_original_counted_palace": 5,
+        "chief_door_host_palace_as_metadata": 2,
+        "scope": "original_row_primary_named_star_and_door_only",
+        "center_original_and_actual_host_not_conflated": true
+      },
+      "unresolved_fields": [
+        "calendar/solar-term/four-pillars recomputation",
+        "timezone and casting location absent from source metadata",
+        "specific calendar bureau method not supplied",
+        "full void and horse placements not tabulated",
+        "prefix marker plate/extra-star semantics not fully named by source table",
+        "author analysis and allegations are source reports, not independently verified facts"
+      ],
+      "table_earth_stem_integrity": {
+        "distinct_primary_earth_stem_count": 8,
+        "preserve_duplicate_or_missing_primary_stems_without_repair": true
+      }
+    },
+    {
+      "case_number": 4,
+      "title": "中年妇女测婚",
+      "source_lines": [
+        216,
+        285
+      ],
+      "table_header": {
+        "line": 247,
+        "raw_line": "宫位      八神    门位      星位"
+      },
+      "source_rows": [
+        {
+          "line": 248,
+          "palace": 4,
+          "palace_cell": "巽四宫",
+          "deity_cell": "武",
+          "door_cell": "生丙",
+          "star_cell": "柱己",
+          "raw_line": "巽四宫    武      生丙      柱己",
+          "interpretation": {
+            "door": "生门",
+            "deity": "玄武",
+            "primary_star": "天柱星",
+            "primary_heaven_stem": "丙",
+            "earth_stem": "己",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 249,
+          "palace": 9,
+          "palace_cell": "离九宫",
+          "deity_cell": "虎",
+          "door_cell": "伤乙",
+          "star_cell": "心癸",
+          "raw_line": "离九宫    虎      伤乙      心癸",
+          "interpretation": {
+            "door": "伤门",
+            "deity": "白虎",
+            "primary_star": "天心星",
+            "primary_heaven_stem": "乙",
+            "earth_stem": "癸",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 250,
+          "palace": 2,
+          "palace_cell": "坤二宫",
+          "deity_cell": "合",
+          "door_cell": "杜壬",
+          "star_cell": "蓬辛",
+          "raw_line": "坤二宫    合      杜壬      蓬辛",
+          "interpretation": {
+            "door": "杜门",
+            "deity": "六合",
+            "primary_star": "天蓬星",
+            "primary_heaven_stem": "壬",
+            "earth_stem": "辛",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 251,
+          "palace": 3,
+          "palace_cell": "震三宫",
+          "deity_cell": "地",
+          "door_cell": "戊休辛",
+          "star_cell": "芮庚",
+          "raw_line": "震三宫    地      戊休辛    芮庚",
+          "interpretation": {
+            "door": "休门",
+            "deity": "九地",
+            "primary_star": "天芮星",
+            "primary_heaven_stem": "辛",
+            "earth_stem": "庚",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "戊",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 252,
+          "palace": 5,
+          "palace_cell": "中五宫",
+          "deity_cell": "—",
+          "door_cell": "戊",
+          "star_cell": "—",
+          "raw_line": "中五宫    —       戊         —",
+          "interpretation": {
+            "earth_stem": "戊",
+            "native_center_stem": true,
+            "actual_heaven_stars_in_center": [],
+            "status": "curator_representation_of_native_center_record_not_extra_actual_landing",
+            "original_does_not_label_cell_plate": true
+          }
+        },
+        {
+          "line": 253,
+          "palace": 7,
+          "palace_cell": "兑七宫",
+          "deity_cell": "阴",
+          "door_cell": "景丁",
+          "star_cell": "任丙",
+          "raw_line": "兑七宫    阴      景丁      任丙",
+          "interpretation": {
+            "door": "景门",
+            "deity": "太阴",
+            "primary_star": "天任星",
+            "primary_heaven_stem": "丁",
+            "earth_stem": "丙",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 254,
+          "palace": 8,
+          "palace_cell": "艮八宫",
+          "deity_cell": "天",
+          "door_cell": "开癸",
+          "star_cell": "英丁",
+          "raw_line": "艮八宫    天      开癸      英丁",
+          "interpretation": {
+            "door": "开门",
+            "deity": "九天",
+            "primary_star": "天英星",
+            "primary_heaven_stem": "癸",
+            "earth_stem": "丁",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 255,
+          "palace": 1,
+          "palace_cell": "坎一宫",
+          "deity_cell": "符",
+          "door_cell": "惊己",
+          "star_cell": "辅壬",
+          "raw_line": "坎一宫    符      惊己      辅壬",
+          "interpretation": {
+            "door": "惊门",
+            "deity": "值符",
+            "primary_star": "天辅星",
+            "primary_heaven_stem": "己",
+            "earth_stem": "壬",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 256,
+          "palace": 6,
+          "palace_cell": "乾六宫",
+          "deity_cell": "蛇",
+          "door_cell": "死庚",
+          "star_cell": "冲乙",
+          "raw_line": "乾六宫    蛇      死庚      冲乙",
+          "interpretation": {
+            "door": "死门",
+            "deity": "螣蛇",
+            "primary_star": "天冲星",
+            "primary_heaven_stem": "庚",
+            "earth_stem": "乙",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        }
+      ],
+      "explicit_metadata": {
+        "source_lines": [
+          229,
+          243
+        ],
+        "source_quote": "起局时间：1997年12月4日中午12点40分\n年干支：丁丑\n月干支：辛亥\n日干支：庚辰\n时干支：壬午\n旬首：甲戌\n遁法：阴遁\n局数：5局\n值符：天辅星\n值符落宫：坎1宫\n值使：杜门\n值使落宫：中5宫寄坤2宫\n\n女方出生年：1951年辛卯年\n男方出生年：1952年壬辰年",
+        "datetime_text": "1997年12月4日中午12点40分",
+        "civil_date_as_written": "1997-12-04",
+        "local_clock_as_written": "12:40",
+        "datetime_precision": "minute_naive_no_timezone",
+        "timezone": null,
+        "location_for_casting": null,
+        "four_pillars": {
+          "year": "丁丑",
+          "month": "辛亥",
+          "day": "庚辰",
+          "hour": "壬午"
+        },
+        "xun_head": "甲戌",
+        "dun": "阴遁",
+        "bureau": 5,
+        "casting_method_as_written": null,
+        "chief_star": "天辅星",
+        "chief_star_landing_palace_as_metadata": 1,
+        "chief_star_original_counted_palace": 1,
+        "chief_star_host_palace_as_metadata": null,
+        "chief_star_actual_layout_palace_as_metadata": 1,
+        "chief_door": "杜门",
+        "chief_door_landing_palace_as_metadata": 5,
+        "chief_door_original_counted_palace": 5,
+        "chief_door_host_palace_as_metadata": 2,
+        "chief_door_actual_layout_palace_as_metadata": 2,
+        "calendar_recomputed": false,
+        "method_not_silently_inherited_from_another_case": true
+      },
+      "column_convention_evidence": [
+        {
+          "line": 261,
+          "source_quote": "（1）测婚首先看乙、庚，乙为女方，庚为男方。今乙奇在离9宫临伤门，克乾6宫之庚，时干壬临杜门、六合，又逢空亡，壬+辛名为螣蛇相缠，纵得吉门也不能安，若有谋望，被人欺瞒。",
+          "scope": "Later author analysis may audit source interpretation but is not a pre-forecast input"
+        },
+        {
+          "line": 267,
+          "source_quote": "（2）日干为赵小姐。时干壬为丈夫，在坤2宫，生兑7宫丁奇；又庚为丈夫，刑克地盘乙奇，与兑7宫丁奇比和；兑7宫丁奇又下临第三者男人丙奇。壬生丁，丁壬合又为淫荡之合。",
+          "scope": "Later author analysis may audit source interpretation but is not a pre-forecast input"
+        },
+        {
+          "line": 273,
+          "source_quote": "（3）日干庚为赵小姐，临死门；乙奇临伤门、白虎；乙克庚，庚刑乙。但时干壬生日干庚。",
+          "scope": "Later author analysis may audit source interpretation but is not a pre-forecast input"
+        },
+        {
+          "line": 279,
+          "source_quote": "（4）赵小姐年命辛在震3宫，直克丈夫年命壬所在的坤2宫，六合又逢空亡。1998年寅、卯月木旺，冲克坤宫之土。",
+          "scope": "Later author analysis may audit source interpretation but is not a pre-forecast input"
+        }
+      ],
+      "explicit_author_positions": [
+        {
+          "line": 261,
+          "symbol_kind": "heaven_stem",
+          "symbol": "乙",
+          "palace": 9,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（1）测婚首先看乙、庚，乙为女方，庚为男方。今乙奇在离9宫临伤门，克乾6宫之庚，时干壬临杜门、六合，又逢空亡，壬+辛名为螣蛇相缠，纵得吉门也不能安，若有谋望，被人欺瞒。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 261,
+          "symbol_kind": "heaven_stem",
+          "symbol": "庚",
+          "palace": 6,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（1）测婚首先看乙、庚，乙为女方，庚为男方。今乙奇在离9宫临伤门，克乾6宫之庚，时干壬临杜门、六合，又逢空亡，壬+辛名为螣蛇相缠，纵得吉门也不能安，若有谋望，被人欺瞒。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 267,
+          "symbol_kind": "heaven_stem",
+          "symbol": "壬",
+          "palace": 2,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（2）日干为赵小姐。时干壬为丈夫，在坤2宫，生兑7宫丁奇；又庚为丈夫，刑克地盘乙奇，与兑7宫丁奇比和；兑7宫丁奇又下临第三者男人丙奇。壬生丁，丁壬合又为淫荡之合。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 267,
+          "symbol_kind": "heaven_stem",
+          "symbol": "丁",
+          "palace": 7,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（2）日干为赵小姐。时干壬为丈夫，在坤2宫，生兑7宫丁奇；又庚为丈夫，刑克地盘乙奇，与兑7宫丁奇比和；兑7宫丁奇又下临第三者男人丙奇。壬生丁，丁壬合又为淫荡之合。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 267,
+          "symbol_kind": "earth_stem",
+          "symbol": "丙",
+          "palace": 7,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（2）日干为赵小姐。时干壬为丈夫，在坤2宫，生兑7宫丁奇；又庚为丈夫，刑克地盘乙奇，与兑7宫丁奇比和；兑7宫丁奇又下临第三者男人丙奇。壬生丁，丁壬合又为淫荡之合。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 279,
+          "symbol_kind": "heaven_stem",
+          "symbol": "辛",
+          "palace": 3,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（4）赵小姐年命辛在震3宫，直克丈夫年命壬所在的坤2宫，六合又逢空亡。1998年寅、卯月木旺，冲克坤宫之土。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 279,
+          "symbol_kind": "heaven_stem",
+          "symbol": "壬",
+          "palace": 2,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（4）赵小姐年命辛在震3宫，直克丈夫年命壬所在的坤2宫，六合又逢空亡。1998年寅、卯月木旺，冲克坤宫之土。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        }
+      ],
+      "explicit_author_overlays": [
+        {
+          "line": 261,
+          "palace": 2,
+          "heaven_stem": "壬",
+          "earth_stem": "辛",
+          "source_quote": "（1）测婚首先看乙、庚，乙为女方，庚为男方。今乙奇在离9宫临伤门，克乾6宫之庚，时干壬临杜门、六合，又逢空亡，壬+辛名为螣蛇相缠，纵得吉门也不能安，若有谋望，被人欺瞒。",
+          "explicit_author_statement": true,
+          "table_consistency": "directly_consistent_with_primary_or_literal_heaven_prefix",
+          "claim_not_silently_replaced_by_table": true
+        }
+      ],
+      "source_projection_gold": {
+        "basis": "Independently manually transcribed original tokens expanded with prior user-supplied names; no engine generated expectations",
+        "palaces": {
+          "4": {
+            "palace": 4,
+            "earth_stem": "己",
+            "heaven_stem": "丙",
+            "door": "生门",
+            "star": "天柱星",
+            "deity": "玄武",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "9": {
+            "palace": 9,
+            "earth_stem": "癸",
+            "heaven_stem": "乙",
+            "door": "伤门",
+            "star": "天心星",
+            "deity": "白虎",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "2": {
+            "palace": 2,
+            "earth_stem": "辛",
+            "heaven_stem": "壬",
+            "door": "杜门",
+            "star": "天蓬星",
+            "deity": "六合",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "3": {
+            "palace": 3,
+            "earth_stem": "庚",
+            "heaven_stem": "辛",
+            "door": "休门",
+            "star": "天芮星",
+            "deity": "九地",
+            "heaven_prefix_marker": "戊",
+            "star_prefix_marker": null
+          },
+          "5": {
+            "palace": 5,
+            "earth_stem": "戊",
+            "door": null,
+            "star": null,
+            "deity": null,
+            "heaven_stem": null,
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "7": {
+            "palace": 7,
+            "earth_stem": "丙",
+            "heaven_stem": "丁",
+            "door": "景门",
+            "star": "天任星",
+            "deity": "太阴",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "8": {
+            "palace": 8,
+            "earth_stem": "丁",
+            "heaven_stem": "癸",
+            "door": "开门",
+            "star": "天英星",
+            "deity": "九天",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "1": {
+            "palace": 1,
+            "earth_stem": "壬",
+            "heaven_stem": "己",
+            "door": "惊门",
+            "star": "天辅星",
+            "deity": "值符",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "6": {
+            "palace": 6,
+            "earth_stem": "乙",
+            "heaven_stem": "庚",
+            "door": "死门",
+            "star": "天冲星",
+            "deity": "螣蛇",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          }
+        },
+        "prefix_policy": "literal markers only; neither star-prefix nor door-prefix creates an unqualified additional actual star or stem"
+      },
+      "manual_transcription_gold": {
+        "basis": "Independent source table transcription only. Eight primary named stars are literal abbreviation expansions. Prefix markers remain unresolved and no extra 天禽 is synthesized.",
+        "representation_status": "curator_interpretation_not_original_literal_json",
+        "palaces": {
+          "4": {
+            "earth_stem": "己",
+            "heaven_stars": [
+              {
+                "name": "天柱星",
+                "carried_stem": "丙",
+                "native_palace": 7
+              }
+            ],
+            "door": "生门",
+            "deity": "玄武",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "9": {
+            "earth_stem": "癸",
+            "heaven_stars": [
+              {
+                "name": "天心星",
+                "carried_stem": "乙",
+                "native_palace": 6
+              }
+            ],
+            "door": "伤门",
+            "deity": "白虎",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "2": {
+            "earth_stem": "辛",
+            "heaven_stars": [
+              {
+                "name": "天蓬星",
+                "carried_stem": "壬",
+                "native_palace": 1
+              }
+            ],
+            "door": "杜门",
+            "deity": "六合",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "3": {
+            "earth_stem": "庚",
+            "heaven_stars": [
+              {
+                "name": "天芮星",
+                "carried_stem": "辛",
+                "native_palace": 2
+              }
+            ],
+            "door": "休门",
+            "deity": "九地",
+            "heaven_prefix_raw": "戊",
+            "star_prefix_raw": ""
+          },
+          "5": {
+            "earth_stem": "戊",
+            "heaven_stars": [],
+            "door": null,
+            "deity": null,
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "7": {
+            "earth_stem": "丙",
+            "heaven_stars": [
+              {
+                "name": "天任星",
+                "carried_stem": "丁",
+                "native_palace": 8
+              }
+            ],
+            "door": "景门",
+            "deity": "太阴",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "8": {
+            "earth_stem": "丁",
+            "heaven_stars": [
+              {
+                "name": "天英星",
+                "carried_stem": "癸",
+                "native_palace": 9
+              }
+            ],
+            "door": "开门",
+            "deity": "九天",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "1": {
+            "earth_stem": "壬",
+            "heaven_stars": [
+              {
+                "name": "天辅星",
+                "carried_stem": "己",
+                "native_palace": 4
+              }
+            ],
+            "door": "惊门",
+            "deity": "值符",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "6": {
+            "earth_stem": "乙",
+            "heaven_stars": [
+              {
+                "name": "天冲星",
+                "carried_stem": "庚",
+                "native_palace": 3
+              }
+            ],
+            "door": "死门",
+            "deity": "螣蛇",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        "earth_plate": {
+          "4": "己",
+          "9": "癸",
+          "2": "辛",
+          "3": "庚",
+          "5": "戊",
+          "7": "丙",
+          "8": "丁",
+          "1": "壬",
+          "6": "乙"
+        },
+        "heaven_plate": {
+          "4": [
+            {
+              "name": "天柱星",
+              "carried_stem": "丙",
+              "native_palace": 7
+            }
+          ],
+          "9": [
+            {
+              "name": "天心星",
+              "carried_stem": "乙",
+              "native_palace": 6
+            }
+          ],
+          "2": [
+            {
+              "name": "天蓬星",
+              "carried_stem": "壬",
+              "native_palace": 1
+            }
+          ],
+          "3": [
+            {
+              "name": "天芮星",
+              "carried_stem": "辛",
+              "native_palace": 2
+            }
+          ],
+          "5": [],
+          "7": [
+            {
+              "name": "天任星",
+              "carried_stem": "丁",
+              "native_palace": 8
+            }
+          ],
+          "8": [
+            {
+              "name": "天英星",
+              "carried_stem": "癸",
+              "native_palace": 9
+            }
+          ],
+          "1": [
+            {
+              "name": "天辅星",
+              "carried_stem": "己",
+              "native_palace": 4
+            }
+          ],
+          "6": [
+            {
+              "name": "天冲星",
+              "carried_stem": "庚",
+              "native_palace": 3
+            }
+          ]
+        },
+        "doors": {
+          "4": "生门",
+          "9": "伤门",
+          "2": "杜门",
+          "3": "休门",
+          "5": null,
+          "7": "景门",
+          "8": "开门",
+          "1": "惊门",
+          "6": "死门"
+        },
+        "deities": {
+          "4": "玄武",
+          "9": "白虎",
+          "2": "六合",
+          "3": "九地",
+          "5": null,
+          "7": "太阴",
+          "8": "九天",
+          "1": "值符",
+          "6": "螣蛇"
+        },
+        "center_original_palace": 5,
+        "center_native_stem": "戊",
+        "center_actual_hosted_star_palace": null,
+        "center_hosting_not_filled_from_ambiguous_prefix": true,
+        "complete_source_table_transcribed": true,
+        "calendar_recomputed": false,
+        "engine_verified": false,
+        "voids": null,
+        "horse": null,
+        "unreported_facts_not_filled": true
+      },
+      "chief_positions_from_table": {
+        "chief_star_actual_layout_palace": 1,
+        "chief_door_actual_layout_palace": 2,
+        "chief_star_original_counted_palace": 1,
+        "chief_star_host_palace_as_metadata": null,
+        "chief_door_original_counted_palace": 5,
+        "chief_door_host_palace_as_metadata": 2,
+        "scope": "original_row_primary_named_star_and_door_only",
+        "center_original_and_actual_host_not_conflated": true
+      },
+      "unresolved_fields": [
+        "calendar/solar-term/four-pillars recomputation",
+        "timezone and casting location absent from source metadata",
+        "specific calendar bureau method not supplied",
+        "full void and horse placements not tabulated",
+        "prefix marker plate/extra-star semantics not fully named by source table",
+        "author analysis and allegations are source reports, not independently verified facts"
+      ],
+      "table_earth_stem_integrity": {
+        "distinct_primary_earth_stem_count": 9,
+        "preserve_duplicate_or_missing_primary_stems_without_repair": true
+      }
+    },
+    {
+      "case_number": 5,
+      "title": "第三者测婚",
+      "source_lines": [
+        288,
+        352
+      ],
+      "table_header": {
+        "line": 316,
+        "raw_line": "宫位      八神    门位      星位"
+      },
+      "source_rows": [
+        {
+          "line": 317,
+          "palace": 4,
+          "palace_cell": "巽四宫",
+          "deity_cell": "符",
+          "door_cell": "死庚",
+          "star_cell": "英丁",
+          "raw_line": "巽四宫    符      死庚      英丁",
+          "interpretation": {
+            "door": "死门",
+            "deity": "值符",
+            "primary_star": "天英星",
+            "primary_heaven_stem": "庚",
+            "earth_stem": "丁",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 318,
+          "palace": 9,
+          "palace_cell": "离九宫",
+          "deity_cell": "蛇",
+          "door_cell": "丙惊壬",
+          "star_cell": "芮庚",
+          "raw_line": "离九宫    蛇      丙惊壬    芮庚",
+          "interpretation": {
+            "door": "惊门",
+            "deity": "螣蛇",
+            "primary_star": "天芮星",
+            "primary_heaven_stem": "壬",
+            "earth_stem": "庚",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "丙",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 319,
+          "palace": 2,
+          "palace_cell": "坤二宫",
+          "deity_cell": "阴",
+          "door_cell": "开戊",
+          "star_cell": "柱壬",
+          "raw_line": "坤二宫    阴      开戊      柱壬",
+          "interpretation": {
+            "door": "开门",
+            "deity": "太阴",
+            "primary_star": "天柱星",
+            "primary_heaven_stem": "戊",
+            "earth_stem": "壬",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 320,
+          "palace": 3,
+          "palace_cell": "震三宫",
+          "deity_cell": "天",
+          "door_cell": "景丁",
+          "star_cell": "辅癸",
+          "raw_line": "震三宫    天      景丁      辅癸",
+          "interpretation": {
+            "door": "景门",
+            "deity": "九天",
+            "primary_star": "天辅星",
+            "primary_heaven_stem": "丁",
+            "earth_stem": "癸",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 321,
+          "palace": 5,
+          "palace_cell": "中五宫",
+          "deity_cell": "—",
+          "door_cell": "丙",
+          "star_cell": "—",
+          "raw_line": "中五宫    —       丙         —",
+          "interpretation": {
+            "earth_stem": "丙",
+            "native_center_stem": true,
+            "actual_heaven_stars_in_center": [],
+            "status": "curator_representation_of_native_center_record_not_extra_actual_landing",
+            "original_does_not_label_cell_plate": true
+          }
+        },
+        {
+          "line": 322,
+          "palace": 7,
+          "palace_cell": "兑七宫",
+          "deity_cell": "合",
+          "door_cell": "休乙",
+          "star_cell": "心戊",
+          "raw_line": "兑七宫    合      休乙      心戊",
+          "interpretation": {
+            "door": "休门",
+            "deity": "六合",
+            "primary_star": "天心星",
+            "primary_heaven_stem": "乙",
+            "earth_stem": "戊",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 323,
+          "palace": 8,
+          "palace_cell": "艮八宫",
+          "deity_cell": "地",
+          "door_cell": "杜癸",
+          "star_cell": "冲己",
+          "raw_line": "艮八宫    地      杜癸      冲己",
+          "interpretation": {
+            "door": "杜门",
+            "deity": "九地",
+            "primary_star": "天冲星",
+            "primary_heaven_stem": "癸",
+            "earth_stem": "己",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 324,
+          "palace": 1,
+          "palace_cell": "坎一宫",
+          "deity_cell": "武",
+          "door_cell": "伤己",
+          "star_cell": "任辛",
+          "raw_line": "坎一宫    武      伤己      任辛",
+          "interpretation": {
+            "door": "伤门",
+            "deity": "玄武",
+            "primary_star": "天任星",
+            "primary_heaven_stem": "己",
+            "earth_stem": "辛",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 325,
+          "palace": 6,
+          "palace_cell": "乾六宫",
+          "deity_cell": "虎",
+          "door_cell": "生辛",
+          "star_cell": "蓬乙",
+          "raw_line": "乾六宫    虎      生辛      蓬乙",
+          "interpretation": {
+            "door": "生门",
+            "deity": "白虎",
+            "primary_star": "天蓬星",
+            "primary_heaven_stem": "辛",
+            "earth_stem": "乙",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        }
+      ],
+      "explicit_metadata": {
+        "source_lines": [
+          299,
+          312
+        ],
+        "source_quote": "起局时间：1996年12月29日晚上9点45分\n年干支：丙子\n月干支：庚子\n日干支：庚子\n时干支：丁亥\n旬首：甲申\n遁法：阳遁\n局数：7局\n值符：天英星\n值符落宫：巽4宫\n值使：景门\n值使落宫：震3宫\n\n求测女子出生年：1972年壬子年",
+        "datetime_text": "1996年12月29日晚上9点45分",
+        "civil_date_as_written": "1996-12-29",
+        "local_clock_as_written": "21:45",
+        "datetime_precision": "minute_naive_no_timezone",
+        "timezone": null,
+        "location_for_casting": null,
+        "four_pillars": {
+          "year": "丙子",
+          "month": "庚子",
+          "day": "庚子",
+          "hour": "丁亥"
+        },
+        "xun_head": "甲申",
+        "dun": "阳遁",
+        "bureau": 7,
+        "casting_method_as_written": null,
+        "chief_star": "天英星",
+        "chief_star_landing_palace_as_metadata": 4,
+        "chief_star_original_counted_palace": 4,
+        "chief_star_host_palace_as_metadata": null,
+        "chief_star_actual_layout_palace_as_metadata": 4,
+        "chief_door": "景门",
+        "chief_door_landing_palace_as_metadata": 3,
+        "chief_door_original_counted_palace": 3,
+        "chief_door_host_palace_as_metadata": null,
+        "chief_door_actual_layout_palace_as_metadata": 3,
+        "calendar_recomputed": false,
+        "method_not_silently_inherited_from_another_case": true
+      },
+      "column_convention_evidence": [
+        {
+          "line": 330,
+          "source_quote": "（1）日干庚在4宫，时干丁在5宫，二者比和。庚为丈夫，丁为第三者女人。庚+丁为亭亭之格，因私匿起官司。丁+癸雀投江，口舌官司。景门为值使，景+伤主姻亲小口口舌。景门又带暗庚，庚+丁又为时格。",
+          "scope": "Later author analysis may audit source interpretation but is not a pre-forecast input"
+        },
+        {
+          "line": 336,
+          "source_quote": "（2）庚为男方，上乘值符，临死门；乙奇为其妻在兑7宫，临天心星、休门、六合，乙+戊利阴害阳。乙克庚，又克丁。",
+          "scope": "Later author analysis may audit source interpretation but is not a pre-forecast input"
+        },
+        {
+          "line": 342,
+          "source_quote": "（3）女子年命壬在离9宫，与第三者男人丙同宫，壬下又临庚，壬+庚为太白擒蛇格；庚在4宫临死门，又生9宫之壬。",
+          "scope": "Later author analysis may audit source interpretation but is not a pre-forecast input"
+        },
+        {
+          "line": 348,
+          "source_quote": "（4）日、时均在内盘，庚+丁又为时格，景门为值使在3宫，快则三十天，慢则三个月左右。又乾6宫辛+乙虎猖狂，家败人亡。",
+          "scope": "Later author analysis may audit source interpretation but is not a pre-forecast input"
+        }
+      ],
+      "explicit_author_positions": [
+        {
+          "line": 330,
+          "symbol_kind": "heaven_stem",
+          "symbol": "庚",
+          "palace": 4,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（1）日干庚在4宫，时干丁在5宫，二者比和。庚为丈夫，丁为第三者女人。庚+丁为亭亭之格，因私匿起官司。丁+癸雀投江，口舌官司。景门为值使，景+伤主姻亲小口口舌。景门又带暗庚，庚+丁又为时格。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 330,
+          "symbol_kind": "heaven_stem",
+          "symbol": "丁",
+          "palace": 5,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（1）日干庚在4宫，时干丁在5宫，二者比和。庚为丈夫，丁为第三者女人。庚+丁为亭亭之格，因私匿起官司。丁+癸雀投江，口舌官司。景门为值使，景+伤主姻亲小口口舌。景门又带暗庚，庚+丁又为时格。",
+          "table_consistency": "inconsistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 336,
+          "symbol_kind": "heaven_stem",
+          "symbol": "乙",
+          "palace": 7,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（2）庚为男方，上乘值符，临死门；乙奇为其妻在兑7宫，临天心星、休门、六合，乙+戊利阴害阳。乙克庚，又克丁。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 336,
+          "symbol_kind": "star",
+          "symbol": "天心星",
+          "palace": 7,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（2）庚为男方，上乘值符，临死门；乙奇为其妻在兑7宫，临天心星、休门、六合，乙+戊利阴害阳。乙克庚，又克丁。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 336,
+          "symbol_kind": "door",
+          "symbol": "休门",
+          "palace": 7,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（2）庚为男方，上乘值符，临死门；乙奇为其妻在兑7宫，临天心星、休门、六合，乙+戊利阴害阳。乙克庚，又克丁。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 336,
+          "symbol_kind": "deity",
+          "symbol": "六合",
+          "palace": 7,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（2）庚为男方，上乘值符，临死门；乙奇为其妻在兑7宫，临天心星、休门、六合，乙+戊利阴害阳。乙克庚，又克丁。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 342,
+          "symbol_kind": "heaven_stem",
+          "symbol": "壬",
+          "palace": 9,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（3）女子年命壬在离9宫，与第三者男人丙同宫，壬下又临庚，壬+庚为太白擒蛇格；庚在4宫临死门，又生9宫之壬。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 342,
+          "symbol_kind": "heaven_stem",
+          "symbol": "庚",
+          "palace": 4,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（3）女子年命壬在离9宫，与第三者男人丙同宫，壬下又临庚，壬+庚为太白擒蛇格；庚在4宫临死门，又生9宫之壬。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 348,
+          "symbol_kind": "door",
+          "symbol": "景门",
+          "palace": 3,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（4）日、时均在内盘，庚+丁又为时格，景门为值使在3宫，快则三十天，慢则三个月左右。又乾6宫辛+乙虎猖狂，家败人亡。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        }
+      ],
+      "explicit_author_overlays": [
+        {
+          "line": 330,
+          "palace": 4,
+          "heaven_stem": "庚",
+          "earth_stem": "丁",
+          "source_quote": "（1）日干庚在4宫，时干丁在5宫，二者比和。庚为丈夫，丁为第三者女人。庚+丁为亭亭之格，因私匿起官司。丁+癸雀投江，口舌官司。景门为值使，景+伤主姻亲小口口舌。景门又带暗庚，庚+丁又为时格。",
+          "explicit_author_statement": true,
+          "table_consistency": "directly_consistent_with_primary_or_literal_heaven_prefix",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 330,
+          "palace": 3,
+          "heaven_stem": "丁",
+          "earth_stem": "癸",
+          "source_quote": "（1）日干庚在4宫，时干丁在5宫，二者比和。庚为丈夫，丁为第三者女人。庚+丁为亭亭之格，因私匿起官司。丁+癸雀投江，口舌官司。景门为值使，景+伤主姻亲小口口舌。景门又带暗庚，庚+丁又为时格。",
+          "explicit_author_statement": true,
+          "table_consistency": "directly_consistent_with_primary_or_literal_heaven_prefix",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 336,
+          "palace": 7,
+          "heaven_stem": "乙",
+          "earth_stem": "戊",
+          "source_quote": "（2）庚为男方，上乘值符，临死门；乙奇为其妻在兑7宫，临天心星、休门、六合，乙+戊利阴害阳。乙克庚，又克丁。",
+          "explicit_author_statement": true,
+          "table_consistency": "directly_consistent_with_primary_or_literal_heaven_prefix",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 342,
+          "palace": 9,
+          "heaven_stem": "壬",
+          "earth_stem": "庚",
+          "source_quote": "（3）女子年命壬在离9宫，与第三者男人丙同宫，壬下又临庚，壬+庚为太白擒蛇格；庚在4宫临死门，又生9宫之壬。",
+          "explicit_author_statement": true,
+          "table_consistency": "directly_consistent_with_primary_or_literal_heaven_prefix",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 348,
+          "palace": 6,
+          "heaven_stem": "辛",
+          "earth_stem": "乙",
+          "source_quote": "（4）日、时均在内盘，庚+丁又为时格，景门为值使在3宫，快则三十天，慢则三个月左右。又乾6宫辛+乙虎猖狂，家败人亡。",
+          "explicit_author_statement": true,
+          "table_consistency": "directly_consistent_with_primary_or_literal_heaven_prefix",
+          "claim_not_silently_replaced_by_table": true
+        }
+      ],
+      "source_projection_gold": {
+        "basis": "Independently manually transcribed original tokens expanded with prior user-supplied names; no engine generated expectations",
+        "palaces": {
+          "4": {
+            "palace": 4,
+            "earth_stem": "丁",
+            "heaven_stem": "庚",
+            "door": "死门",
+            "star": "天英星",
+            "deity": "值符",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "9": {
+            "palace": 9,
+            "earth_stem": "庚",
+            "heaven_stem": "壬",
+            "door": "惊门",
+            "star": "天芮星",
+            "deity": "螣蛇",
+            "heaven_prefix_marker": "丙",
+            "star_prefix_marker": null
+          },
+          "2": {
+            "palace": 2,
+            "earth_stem": "壬",
+            "heaven_stem": "戊",
+            "door": "开门",
+            "star": "天柱星",
+            "deity": "太阴",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "3": {
+            "palace": 3,
+            "earth_stem": "癸",
+            "heaven_stem": "丁",
+            "door": "景门",
+            "star": "天辅星",
+            "deity": "九天",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "5": {
+            "palace": 5,
+            "earth_stem": "丙",
+            "door": null,
+            "star": null,
+            "deity": null,
+            "heaven_stem": null,
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "7": {
+            "palace": 7,
+            "earth_stem": "戊",
+            "heaven_stem": "乙",
+            "door": "休门",
+            "star": "天心星",
+            "deity": "六合",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "8": {
+            "palace": 8,
+            "earth_stem": "己",
+            "heaven_stem": "癸",
+            "door": "杜门",
+            "star": "天冲星",
+            "deity": "九地",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "1": {
+            "palace": 1,
+            "earth_stem": "辛",
+            "heaven_stem": "己",
+            "door": "伤门",
+            "star": "天任星",
+            "deity": "玄武",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "6": {
+            "palace": 6,
+            "earth_stem": "乙",
+            "heaven_stem": "辛",
+            "door": "生门",
+            "star": "天蓬星",
+            "deity": "白虎",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          }
+        },
+        "prefix_policy": "literal markers only; neither star-prefix nor door-prefix creates an unqualified additional actual star or stem"
+      },
+      "manual_transcription_gold": {
+        "basis": "Independent source table transcription only. Eight primary named stars are literal abbreviation expansions. Prefix markers remain unresolved and no extra 天禽 is synthesized.",
+        "representation_status": "curator_interpretation_not_original_literal_json",
+        "palaces": {
+          "4": {
+            "earth_stem": "丁",
+            "heaven_stars": [
+              {
+                "name": "天英星",
+                "carried_stem": "庚",
+                "native_palace": 9
+              }
+            ],
+            "door": "死门",
+            "deity": "值符",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "9": {
+            "earth_stem": "庚",
+            "heaven_stars": [
+              {
+                "name": "天芮星",
+                "carried_stem": "壬",
+                "native_palace": 2
+              }
+            ],
+            "door": "惊门",
+            "deity": "螣蛇",
+            "heaven_prefix_raw": "丙",
+            "star_prefix_raw": ""
+          },
+          "2": {
+            "earth_stem": "壬",
+            "heaven_stars": [
+              {
+                "name": "天柱星",
+                "carried_stem": "戊",
+                "native_palace": 7
+              }
+            ],
+            "door": "开门",
+            "deity": "太阴",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "3": {
+            "earth_stem": "癸",
+            "heaven_stars": [
+              {
+                "name": "天辅星",
+                "carried_stem": "丁",
+                "native_palace": 4
+              }
+            ],
+            "door": "景门",
+            "deity": "九天",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "5": {
+            "earth_stem": "丙",
+            "heaven_stars": [],
+            "door": null,
+            "deity": null,
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "7": {
+            "earth_stem": "戊",
+            "heaven_stars": [
+              {
+                "name": "天心星",
+                "carried_stem": "乙",
+                "native_palace": 6
+              }
+            ],
+            "door": "休门",
+            "deity": "六合",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "8": {
+            "earth_stem": "己",
+            "heaven_stars": [
+              {
+                "name": "天冲星",
+                "carried_stem": "癸",
+                "native_palace": 3
+              }
+            ],
+            "door": "杜门",
+            "deity": "九地",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "1": {
+            "earth_stem": "辛",
+            "heaven_stars": [
+              {
+                "name": "天任星",
+                "carried_stem": "己",
+                "native_palace": 8
+              }
+            ],
+            "door": "伤门",
+            "deity": "玄武",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "6": {
+            "earth_stem": "乙",
+            "heaven_stars": [
+              {
+                "name": "天蓬星",
+                "carried_stem": "辛",
+                "native_palace": 1
+              }
+            ],
+            "door": "生门",
+            "deity": "白虎",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        "earth_plate": {
+          "4": "丁",
+          "9": "庚",
+          "2": "壬",
+          "3": "癸",
+          "5": "丙",
+          "7": "戊",
+          "8": "己",
+          "1": "辛",
+          "6": "乙"
+        },
+        "heaven_plate": {
+          "4": [
+            {
+              "name": "天英星",
+              "carried_stem": "庚",
+              "native_palace": 9
+            }
+          ],
+          "9": [
+            {
+              "name": "天芮星",
+              "carried_stem": "壬",
+              "native_palace": 2
+            }
+          ],
+          "2": [
+            {
+              "name": "天柱星",
+              "carried_stem": "戊",
+              "native_palace": 7
+            }
+          ],
+          "3": [
+            {
+              "name": "天辅星",
+              "carried_stem": "丁",
+              "native_palace": 4
+            }
+          ],
+          "5": [],
+          "7": [
+            {
+              "name": "天心星",
+              "carried_stem": "乙",
+              "native_palace": 6
+            }
+          ],
+          "8": [
+            {
+              "name": "天冲星",
+              "carried_stem": "癸",
+              "native_palace": 3
+            }
+          ],
+          "1": [
+            {
+              "name": "天任星",
+              "carried_stem": "己",
+              "native_palace": 8
+            }
+          ],
+          "6": [
+            {
+              "name": "天蓬星",
+              "carried_stem": "辛",
+              "native_palace": 1
+            }
+          ]
+        },
+        "doors": {
+          "4": "死门",
+          "9": "惊门",
+          "2": "开门",
+          "3": "景门",
+          "5": null,
+          "7": "休门",
+          "8": "杜门",
+          "1": "伤门",
+          "6": "生门"
+        },
+        "deities": {
+          "4": "值符",
+          "9": "螣蛇",
+          "2": "太阴",
+          "3": "九天",
+          "5": null,
+          "7": "六合",
+          "8": "九地",
+          "1": "玄武",
+          "6": "白虎"
+        },
+        "center_original_palace": 5,
+        "center_native_stem": "丙",
+        "center_actual_hosted_star_palace": null,
+        "center_hosting_not_filled_from_ambiguous_prefix": true,
+        "complete_source_table_transcribed": true,
+        "calendar_recomputed": false,
+        "engine_verified": false,
+        "voids": null,
+        "horse": null,
+        "unreported_facts_not_filled": true
+      },
+      "chief_positions_from_table": {
+        "chief_star_actual_layout_palace": 4,
+        "chief_door_actual_layout_palace": 3,
+        "chief_star_original_counted_palace": 4,
+        "chief_star_host_palace_as_metadata": null,
+        "chief_door_original_counted_palace": 3,
+        "chief_door_host_palace_as_metadata": null,
+        "scope": "original_row_primary_named_star_and_door_only",
+        "center_original_and_actual_host_not_conflated": true
+      },
+      "unresolved_fields": [
+        "calendar/solar-term/four-pillars recomputation",
+        "timezone and casting location absent from source metadata",
+        "specific calendar bureau method not supplied",
+        "full void and horse placements not tabulated",
+        "prefix marker plate/extra-star semantics not fully named by source table",
+        "author analysis and allegations are source reports, not independently verified facts"
+      ],
+      "table_earth_stem_integrity": {
+        "distinct_primary_earth_stem_count": 9,
+        "preserve_duplicate_or_missing_primary_stems_without_repair": true
+      }
+    },
+    {
+      "case_number": 6,
+      "title": "妻子测丈夫外遇",
+      "source_lines": [
+        355,
+        423
+      ],
+      "table_header": {
+        "line": 403,
+        "raw_line": "宫位      八神    门位      星位"
+      },
+      "source_rows": [
+        {
+          "line": 404,
+          "palace": 4,
+          "palace_cell": "巽四宫",
+          "deity_cell": "地",
+          "door_cell": "景庚",
+          "star_cell": "辅庚",
+          "raw_line": "巽四宫    地      景庚      辅庚",
+          "interpretation": {
+            "door": "景门",
+            "deity": "九地",
+            "primary_star": "天辅星",
+            "primary_heaven_stem": "庚",
+            "earth_stem": "庚",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 405,
+          "palace": 9,
+          "palace_cell": "离九宫",
+          "deity_cell": "天",
+          "door_cell": "死丙",
+          "star_cell": "英丙",
+          "raw_line": "离九宫    天      死丙      英丙",
+          "interpretation": {
+            "door": "死门",
+            "deity": "九天",
+            "primary_star": "天英星",
+            "primary_heaven_stem": "丙",
+            "earth_stem": "丙",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 406,
+          "palace": 2,
+          "palace_cell": "坤二宫",
+          "deity_cell": "符",
+          "door_cell": "辛惊戊",
+          "star_cell": "辛芮戊",
+          "raw_line": "坤二宫    符      辛惊戊    辛芮戊",
+          "interpretation": {
+            "door": "惊门",
+            "deity": "值符",
+            "primary_star": "天芮星",
+            "primary_heaven_stem": "戊",
+            "earth_stem": "戊",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "辛",
+            "star_prefix_raw": "辛"
+          }
+        },
+        {
+          "line": 407,
+          "palace": 3,
+          "palace_cell": "震三宫",
+          "deity_cell": "武",
+          "door_cell": "杜己",
+          "star_cell": "冲己",
+          "raw_line": "震三宫    武      杜己      冲己",
+          "interpretation": {
+            "door": "杜门",
+            "deity": "玄武",
+            "primary_star": "天冲星",
+            "primary_heaven_stem": "己",
+            "earth_stem": "己",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 408,
+          "palace": 5,
+          "palace_cell": "中五宫",
+          "deity_cell": "—",
+          "door_cell": "辛",
+          "star_cell": "—",
+          "raw_line": "中五宫    —       辛         —",
+          "interpretation": {
+            "earth_stem": "辛",
+            "native_center_stem": true,
+            "actual_heaven_stars_in_center": [],
+            "status": "curator_representation_of_native_center_record_not_extra_actual_landing",
+            "original_does_not_label_cell_plate": true
+          }
+        },
+        {
+          "line": 409,
+          "palace": 7,
+          "palace_cell": "兑七宫",
+          "deity_cell": "蛇",
+          "door_cell": "开癸",
+          "star_cell": "柱癸",
+          "raw_line": "兑七宫    蛇      开癸      柱癸",
+          "interpretation": {
+            "door": "开门",
+            "deity": "螣蛇",
+            "primary_star": "天柱星",
+            "primary_heaven_stem": "癸",
+            "earth_stem": "癸",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 410,
+          "palace": 8,
+          "palace_cell": "艮八宫",
+          "deity_cell": "虎",
+          "door_cell": "伤丁",
+          "star_cell": "任丁",
+          "raw_line": "艮八宫    虎      伤丁      任丁",
+          "interpretation": {
+            "door": "伤门",
+            "deity": "白虎",
+            "primary_star": "天任星",
+            "primary_heaven_stem": "丁",
+            "earth_stem": "丁",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 411,
+          "palace": 1,
+          "palace_cell": "坎一宫",
+          "deity_cell": "合",
+          "door_cell": "生乙",
+          "star_cell": "蓬乙",
+          "raw_line": "坎一宫    合      生乙      蓬乙",
+          "interpretation": {
+            "door": "生门",
+            "deity": "六合",
+            "primary_star": "天蓬星",
+            "primary_heaven_stem": "乙",
+            "earth_stem": "乙",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        {
+          "line": 412,
+          "palace": 6,
+          "palace_cell": "乾六宫",
+          "deity_cell": "阴",
+          "door_cell": "休壬",
+          "star_cell": "心壬",
+          "raw_line": "乾六宫    阴      休壬      心壬",
+          "interpretation": {
+            "door": "休门",
+            "deity": "太阴",
+            "primary_star": "天心星",
+            "primary_heaven_stem": "壬",
+            "earth_stem": "壬",
+            "status": "curator_interpretation_source_abbreviations_expanded",
+            "door_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        }
+      ],
+      "explicit_metadata": {
+        "source_lines": [
+          384,
+          399
+        ],
+        "source_quote": "起局时间：1998年4月22日下午1点30分\n年干支：戊寅\n月干支：丙辰\n日干支：己亥\n时干支：辛未\n旬首：甲子\n遁法：阳遁\n局数：2局\n值符：天芮星\n值符落宫：中5宫寄坤2宫\n值使：死门\n值使落宫：离9宫\n\n丈夫出生年：1948年戊子年\n妻子出生年：1947年丁亥年\n第三者女人出生年：1953年癸巳年",
+        "datetime_text": "1998年4月22日下午1点30分",
+        "civil_date_as_written": "1998-04-22",
+        "local_clock_as_written": "13:30",
+        "datetime_precision": "minute_naive_no_timezone",
+        "timezone": null,
+        "location_for_casting": null,
+        "four_pillars": {
+          "year": "戊寅",
+          "month": "丙辰",
+          "day": "己亥",
+          "hour": "辛未"
+        },
+        "xun_head": "甲子",
+        "dun": "阳遁",
+        "bureau": 2,
+        "casting_method_as_written": null,
+        "chief_star": "天芮星",
+        "chief_star_landing_palace_as_metadata": 5,
+        "chief_star_original_counted_palace": 5,
+        "chief_star_host_palace_as_metadata": 2,
+        "chief_star_actual_layout_palace_as_metadata": 2,
+        "chief_door": "死门",
+        "chief_door_landing_palace_as_metadata": 9,
+        "chief_door_original_counted_palace": 9,
+        "chief_door_host_palace_as_metadata": null,
+        "chief_door_actual_layout_palace_as_metadata": 9,
+        "calendar_recomputed": false,
+        "method_not_silently_inherited_from_another_case": true
+      },
+      "column_convention_evidence": [
+        {
+          "line": 417,
+          "source_quote": "（1）乙为妻子在坎1宫，庚为丈夫在巽4宫，二者相生，乙奇又临六合，庚临九地主长久，怎么能离婚呢？",
+          "scope": "Later author analysis may audit source interpretation but is not a pre-forecast input"
+        },
+        {
+          "line": 419,
+          "source_quote": "（2）丈夫1948年生，年命戊子，在坤2宫伏吟；妻子1947年生，年命丁亥，在艮8宫伏吟。二宫虽然对冲，有矛盾，但毕竟均属土，又有比和之意。伏吟主不动之象。所以说，不会离婚。",
+          "scope": "Later author analysis may audit source interpretation but is not a pre-forecast input"
+        },
+        {
+          "line": 421,
+          "source_quote": "（3）丁为第三者女人，在艮8宫为入墓，临伤门、白虎，丁壬合，壬为其丈夫，在乾6宫逢空亡，故而断其死了丈夫，为寡居。",
+          "scope": "Later author analysis may audit source interpretation but is not a pre-forecast input"
+        },
+        {
+          "line": 423,
+          "source_quote": "（4）第三者女人1953年生，年命癸巳，落兑7宫，癸+癸天网四张，上乘螣蛇主瘦高，临开门为有公职，又为开放性女人。江苏女士丈夫年命戊在2宫，生兑宫，自然是追求她，但戊癸合为无情之合。又丙在9宫生8宫之丁，丙为第三者男人，又逢旺相，所以断追她的男人很多。",
+          "scope": "Later author analysis may audit source interpretation but is not a pre-forecast input"
+        }
+      ],
+      "explicit_author_positions": [
+        {
+          "line": 417,
+          "symbol_kind": "heaven_stem",
+          "symbol": "乙",
+          "palace": 1,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（1）乙为妻子在坎1宫，庚为丈夫在巽4宫，二者相生，乙奇又临六合，庚临九地主长久，怎么能离婚呢？",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 417,
+          "symbol_kind": "heaven_stem",
+          "symbol": "庚",
+          "palace": 4,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（1）乙为妻子在坎1宫，庚为丈夫在巽4宫，二者相生，乙奇又临六合，庚临九地主长久，怎么能离婚呢？",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 417,
+          "symbol_kind": "deity",
+          "symbol": "六合",
+          "palace": 1,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（1）乙为妻子在坎1宫，庚为丈夫在巽4宫，二者相生，乙奇又临六合，庚临九地主长久，怎么能离婚呢？",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 417,
+          "symbol_kind": "deity",
+          "symbol": "九地",
+          "palace": 4,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（1）乙为妻子在坎1宫，庚为丈夫在巽4宫，二者相生，乙奇又临六合，庚临九地主长久，怎么能离婚呢？",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 419,
+          "symbol_kind": "heaven_stem",
+          "symbol": "戊",
+          "palace": 2,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（2）丈夫1948年生，年命戊子，在坤2宫伏吟；妻子1947年生，年命丁亥，在艮8宫伏吟。二宫虽然对冲，有矛盾，但毕竟均属土，又有比和之意。伏吟主不动之象。所以说，不会离婚。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 419,
+          "symbol_kind": "heaven_stem",
+          "symbol": "丁",
+          "palace": 8,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（2）丈夫1948年生，年命戊子，在坤2宫伏吟；妻子1947年生，年命丁亥，在艮8宫伏吟。二宫虽然对冲，有矛盾，但毕竟均属土，又有比和之意。伏吟主不动之象。所以说，不会离婚。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 421,
+          "symbol_kind": "heaven_stem",
+          "symbol": "丁",
+          "palace": 8,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（3）丁为第三者女人，在艮8宫为入墓，临伤门、白虎，丁壬合，壬为其丈夫，在乾6宫逢空亡，故而断其死了丈夫，为寡居。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 421,
+          "symbol_kind": "heaven_stem",
+          "symbol": "壬",
+          "palace": 6,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（3）丁为第三者女人，在艮8宫为入墓，临伤门、白虎，丁壬合，壬为其丈夫，在乾6宫逢空亡，故而断其死了丈夫，为寡居。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 423,
+          "symbol_kind": "heaven_stem",
+          "symbol": "癸",
+          "palace": 7,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（4）第三者女人1953年生，年命癸巳，落兑7宫，癸+癸天网四张，上乘螣蛇主瘦高，临开门为有公职，又为开放性女人。江苏女士丈夫年命戊在2宫，生兑宫，自然是追求她，但戊癸合为无情之合。又丙在9宫生8宫之丁，丙为第三者男人，又逢旺相，所以断追她的男人很多。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 423,
+          "symbol_kind": "heaven_stem",
+          "symbol": "戊",
+          "palace": 2,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（4）第三者女人1953年生，年命癸巳，落兑7宫，癸+癸天网四张，上乘螣蛇主瘦高，临开门为有公职，又为开放性女人。江苏女士丈夫年命戊在2宫，生兑宫，自然是追求她，但戊癸合为无情之合。又丙在9宫生8宫之丁，丙为第三者男人，又逢旺相，所以断追她的男人很多。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 423,
+          "symbol_kind": "heaven_stem",
+          "symbol": "丙",
+          "palace": 9,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（4）第三者女人1953年生，年命癸巳，落兑7宫，癸+癸天网四张，上乘螣蛇主瘦高，临开门为有公职，又为开放性女人。江苏女士丈夫年命戊在2宫，生兑宫，自然是追求她，但戊癸合为无情之合。又丙在9宫生8宫之丁，丙为第三者男人，又逢旺相，所以断追她的男人很多。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        },
+        {
+          "line": 423,
+          "symbol_kind": "heaven_stem",
+          "symbol": "丁",
+          "palace": 8,
+          "position_scope": "author_explicit_claim",
+          "source_quote": "（4）第三者女人1953年生，年命癸巳，落兑7宫，癸+癸天网四张，上乘螣蛇主瘦高，临开门为有公职，又为开放性女人。江苏女士丈夫年命戊在2宫，生兑宫，自然是追求她，但戊癸合为无情之合。又丙在9宫生8宫之丁，丙为第三者男人，又逢旺相，所以断追她的男人很多。",
+          "table_consistency": "directly_consistent_with_primary_source_cell",
+          "claim_not_silently_replaced_by_table": true
+        }
+      ],
+      "explicit_author_overlays": [
+        {
+          "line": 423,
+          "palace": 7,
+          "heaven_stem": "癸",
+          "earth_stem": "癸",
+          "source_quote": "（4）第三者女人1953年生，年命癸巳，落兑7宫，癸+癸天网四张，上乘螣蛇主瘦高，临开门为有公职，又为开放性女人。江苏女士丈夫年命戊在2宫，生兑宫，自然是追求她，但戊癸合为无情之合。又丙在9宫生8宫之丁，丙为第三者男人，又逢旺相，所以断追她的男人很多。",
+          "explicit_author_statement": true,
+          "table_consistency": "directly_consistent_with_primary_or_literal_heaven_prefix",
+          "claim_not_silently_replaced_by_table": true
+        }
+      ],
+      "source_projection_gold": {
+        "basis": "Independently manually transcribed original tokens expanded with prior user-supplied names; no engine generated expectations",
+        "palaces": {
+          "4": {
+            "palace": 4,
+            "earth_stem": "庚",
+            "heaven_stem": "庚",
+            "door": "景门",
+            "star": "天辅星",
+            "deity": "九地",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "9": {
+            "palace": 9,
+            "earth_stem": "丙",
+            "heaven_stem": "丙",
+            "door": "死门",
+            "star": "天英星",
+            "deity": "九天",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "2": {
+            "palace": 2,
+            "earth_stem": "戊",
+            "heaven_stem": "戊",
+            "door": "惊门",
+            "star": "天芮星",
+            "deity": "值符",
+            "heaven_prefix_marker": "辛",
+            "star_prefix_marker": "辛"
+          },
+          "3": {
+            "palace": 3,
+            "earth_stem": "己",
+            "heaven_stem": "己",
+            "door": "杜门",
+            "star": "天冲星",
+            "deity": "玄武",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "5": {
+            "palace": 5,
+            "earth_stem": "辛",
+            "door": null,
+            "star": null,
+            "deity": null,
+            "heaven_stem": null,
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "7": {
+            "palace": 7,
+            "earth_stem": "癸",
+            "heaven_stem": "癸",
+            "door": "开门",
+            "star": "天柱星",
+            "deity": "螣蛇",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "8": {
+            "palace": 8,
+            "earth_stem": "丁",
+            "heaven_stem": "丁",
+            "door": "伤门",
+            "star": "天任星",
+            "deity": "白虎",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "1": {
+            "palace": 1,
+            "earth_stem": "乙",
+            "heaven_stem": "乙",
+            "door": "生门",
+            "star": "天蓬星",
+            "deity": "六合",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          },
+          "6": {
+            "palace": 6,
+            "earth_stem": "壬",
+            "heaven_stem": "壬",
+            "door": "休门",
+            "star": "天心星",
+            "deity": "太阴",
+            "heaven_prefix_marker": null,
+            "star_prefix_marker": null
+          }
+        },
+        "prefix_policy": "literal markers only; neither star-prefix nor door-prefix creates an unqualified additional actual star or stem"
+      },
+      "manual_transcription_gold": {
+        "basis": "Independent source table transcription only. Eight primary named stars are literal abbreviation expansions. Prefix markers remain unresolved and no extra 天禽 is synthesized.",
+        "representation_status": "curator_interpretation_not_original_literal_json",
+        "palaces": {
+          "4": {
+            "earth_stem": "庚",
+            "heaven_stars": [
+              {
+                "name": "天辅星",
+                "carried_stem": "庚",
+                "native_palace": 4
+              }
+            ],
+            "door": "景门",
+            "deity": "九地",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "9": {
+            "earth_stem": "丙",
+            "heaven_stars": [
+              {
+                "name": "天英星",
+                "carried_stem": "丙",
+                "native_palace": 9
+              }
+            ],
+            "door": "死门",
+            "deity": "九天",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "2": {
+            "earth_stem": "戊",
+            "heaven_stars": [
+              {
+                "name": "天芮星",
+                "carried_stem": "戊",
+                "native_palace": 2
+              }
+            ],
+            "door": "惊门",
+            "deity": "值符",
+            "heaven_prefix_raw": "辛",
+            "star_prefix_raw": "辛"
+          },
+          "3": {
+            "earth_stem": "己",
+            "heaven_stars": [
+              {
+                "name": "天冲星",
+                "carried_stem": "己",
+                "native_palace": 3
+              }
+            ],
+            "door": "杜门",
+            "deity": "玄武",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "5": {
+            "earth_stem": "辛",
+            "heaven_stars": [],
+            "door": null,
+            "deity": null,
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "7": {
+            "earth_stem": "癸",
+            "heaven_stars": [
+              {
+                "name": "天柱星",
+                "carried_stem": "癸",
+                "native_palace": 7
+              }
+            ],
+            "door": "开门",
+            "deity": "螣蛇",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "8": {
+            "earth_stem": "丁",
+            "heaven_stars": [
+              {
+                "name": "天任星",
+                "carried_stem": "丁",
+                "native_palace": 8
+              }
+            ],
+            "door": "伤门",
+            "deity": "白虎",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "1": {
+            "earth_stem": "乙",
+            "heaven_stars": [
+              {
+                "name": "天蓬星",
+                "carried_stem": "乙",
+                "native_palace": 1
+              }
+            ],
+            "door": "生门",
+            "deity": "六合",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          },
+          "6": {
+            "earth_stem": "壬",
+            "heaven_stars": [
+              {
+                "name": "天心星",
+                "carried_stem": "壬",
+                "native_palace": 6
+              }
+            ],
+            "door": "休门",
+            "deity": "太阴",
+            "heaven_prefix_raw": "",
+            "star_prefix_raw": ""
+          }
+        },
+        "earth_plate": {
+          "4": "庚",
+          "9": "丙",
+          "2": "戊",
+          "3": "己",
+          "5": "辛",
+          "7": "癸",
+          "8": "丁",
+          "1": "乙",
+          "6": "壬"
+        },
+        "heaven_plate": {
+          "4": [
+            {
+              "name": "天辅星",
+              "carried_stem": "庚",
+              "native_palace": 4
+            }
+          ],
+          "9": [
+            {
+              "name": "天英星",
+              "carried_stem": "丙",
+              "native_palace": 9
+            }
+          ],
+          "2": [
+            {
+              "name": "天芮星",
+              "carried_stem": "戊",
+              "native_palace": 2
+            }
+          ],
+          "3": [
+            {
+              "name": "天冲星",
+              "carried_stem": "己",
+              "native_palace": 3
+            }
+          ],
+          "5": [],
+          "7": [
+            {
+              "name": "天柱星",
+              "carried_stem": "癸",
+              "native_palace": 7
+            }
+          ],
+          "8": [
+            {
+              "name": "天任星",
+              "carried_stem": "丁",
+              "native_palace": 8
+            }
+          ],
+          "1": [
+            {
+              "name": "天蓬星",
+              "carried_stem": "乙",
+              "native_palace": 1
+            }
+          ],
+          "6": [
+            {
+              "name": "天心星",
+              "carried_stem": "壬",
+              "native_palace": 6
+            }
+          ]
+        },
+        "doors": {
+          "4": "景门",
+          "9": "死门",
+          "2": "惊门",
+          "3": "杜门",
+          "5": null,
+          "7": "开门",
+          "8": "伤门",
+          "1": "生门",
+          "6": "休门"
+        },
+        "deities": {
+          "4": "九地",
+          "9": "九天",
+          "2": "值符",
+          "3": "玄武",
+          "5": null,
+          "7": "螣蛇",
+          "8": "白虎",
+          "1": "六合",
+          "6": "太阴"
+        },
+        "center_original_palace": 5,
+        "center_native_stem": "辛",
+        "center_actual_hosted_star_palace": null,
+        "center_hosting_not_filled_from_ambiguous_prefix": true,
+        "complete_source_table_transcribed": true,
+        "calendar_recomputed": false,
+        "engine_verified": false,
+        "voids": null,
+        "horse": null,
+        "unreported_facts_not_filled": true
+      },
+      "chief_positions_from_table": {
+        "chief_star_actual_layout_palace": 2,
+        "chief_door_actual_layout_palace": 9,
+        "chief_star_original_counted_palace": 5,
+        "chief_star_host_palace_as_metadata": 2,
+        "chief_door_original_counted_palace": 9,
+        "chief_door_host_palace_as_metadata": null,
+        "scope": "original_row_primary_named_star_and_door_only",
+        "center_original_and_actual_host_not_conflated": true
+      },
+      "unresolved_fields": [
+        "calendar/solar-term/four-pillars recomputation",
+        "timezone and casting location absent from source metadata",
+        "specific calendar bureau method not supplied",
+        "full void and horse placements not tabulated",
+        "prefix marker plate/extra-star semantics not fully named by source table",
+        "author analysis and allegations are source reports, not independently verified facts"
+      ],
+      "table_earth_stem_integrity": {
+        "distinct_primary_earth_stem_count": 9,
+        "preserve_duplicate_or_missing_primary_stems_without_repair": true
+      }
+    }
+  ],
+  "issues": [
+    {
+      "key": "case1_star_prefix_without_door_prefix",
+      "case_number": 1,
+      "source_lines": [
+        50,
+        52
+      ],
+      "source_quote": "坤二宫    合      死戊      辛芮戊",
+      "kind": "representation_ambiguity",
+      "detail": "Original 坤2 row has 死戊 and 辛芮戊; central earth stem 辛 is independently given at5. The star-cell prefix 辛 has no explicitly named layer and the door cell has no heavenly prefix. Preserve no door prefix in projection; do not manufacture heavenly 天禽辛 from the star prefix or 伏吟 expectation."
+    },
+    {
+      "key": "case3_earth_kun_primary_xin_vs_author_gui",
+      "case_number": 3,
+      "source_lines": [
+        190,
+        203
+      ],
+      "source_quotes": [
+        "坤二宫    合      死壬      乙蓬辛",
+        "（1）值使死门落坤2宫伏吟无气，上乘六合，六合主婚姻，下临死门，必有婚灾，壬加癸主幼女奸淫，家有丑声；测婚以乙庚代表夫妇双方，乙庚落3、7对冲之宫，冲则散，又乙奇为其妻落震3宫，癸加丁为蛇夭矫凶格，7宫庚加己为刑格；又天盘乙奇落3宫为回归乙卯正位，故据此断他离了婚，爱人回了娘家。",
+        "（2）乙奇为其妻，落震3宫，正值卯月最旺之时，庚金休囚无力被反侮，所以断他妻子先提出离婚，地盘日干癸和乙奇均在坤二宫，上乘死门，坤宫正当秋季，所以断他们从去年秋天开始闹矛盾。春分后乙奇、伤门最旺，所以断近期离婚。"
+      ],
+      "kind": "internal_source_discrepancy",
+      "detail": "Original table 坤2 has star cell 乙蓬辛 so primary earth stem is 辛, also appearing at离9. The table consequently has8 distinct primary earth stems and lacks癸. Author says 壬加癸 at坤2 and 地盘日干癸和乙奇均在坤2. Preserve raw table 辛 and separate author 癸 claims; no substitution and no gold deduced from a casting engine."
+    },
+    {
+      "key": "case3_star_prefix_location_is_not_actual_second_heaven_stem",
+      "case_number": 3,
+      "source_lines": [
+        190,
+        203
+      ],
+      "source_quotes": [
+        "坤二宫    合      死壬      乙蓬辛",
+        "（2）乙奇为其妻，落震3宫，正值卯月最旺之时，庚金休囚无力被反侮，所以断他妻子先提出离婚，地盘日干癸和乙奇均在坤二宫，上乘死门，坤宫正当秋季，所以断他们从去年秋天开始闹矛盾。春分后乙奇、伤门最旺，所以断近期离婚。"
+      ],
+      "kind": "prefix_layer_scope",
+      "detail": "坤2 star-cell prefix乙 is not a named actual heavenly stem; actual天盘乙 is represented by震3 door prefix乙. Author 地盘乙奇在坤2 may explain earth-hosted layer but does not authorize arbitrary star-prefix expansion. Keep these plate scopes distinct."
+    },
+    {
+      "key": "case3_center_chief_door_explicit_host",
+      "case_number": 3,
+      "source_lines": [
+        166,
+        196
+      ],
+      "source_quotes": [
+        "丙子年辛卯月癸亥日丁巳时，阳遁6局，甲寅旬，天芮星为值符落3宫，死门为值使落5宫寄2宫伏吟。",
+        "值使落宫：中5宫寄坤2宫",
+        "坤二宫    合      死壬      乙蓬辛"
+      ],
+      "kind": "engine_coverage_limit_not_source_error",
+      "detail": "Source chief door original/counting location is5, explicitly hosted at2, table死门2. Current paper method returns NotCovered for final center5 door. Do not parse notation digits by first/last digit alone or replace original5 with2; retain original5 and host2 separately."
+    },
+    {
+      "key": "case4_center_chief_door_explicit_host",
+      "case_number": 4,
+      "source_lines": [
+        224,
+        256
+      ],
+      "source_quotes": [
+        "丁丑年辛亥月庚辰日壬午时，阴遁5局，甲戌旬，天辅星为值符落1宫，杜门为值使落5宫。",
+        "值使落宫：中5宫寄坤2宫",
+        "坤二宫    合      杜壬      蓬辛"
+      ],
+      "kind": "engine_coverage_limit_not_source_error",
+      "detail": "Narrative says杜门值使落5, metadata spells中5宫寄坤2, source table杜门在2. Counted/native5 and actualhost2 differ and are both retained. Current code coverage must be separately reported."
+    },
+    {
+      "key": "case5_hour_stem_five_vs_table_three",
+      "case_number": 5,
+      "source_lines": [
+        320,
+        330
+      ],
+      "source_quotes": [
+        "震三宫    天      景丁      辅癸",
+        "（1）日干庚在4宫，时干丁在5宫，二者比和。庚为丈夫，丁为第三者女人。庚+丁为亭亭之格，因私匿起官司。丁+癸雀投江，口舌官司。景门为值使，景+伤主姻亲小口口舌。景门又带暗庚，庚+丁又为时格。"
+      ],
+      "kind": "internal_source_discrepancy",
+      "detail": "Analysis says 时干丁在5宫，二者比和, but source table has景丁 at震3 and central earth stem丙. Keep source claim丁5 and table primary heaven丁3 distinct, do not silently correct to3 or rewrite比和. Its same paragraph 丁加癸 matches table震3."
+    },
+    {
+      "key": "case5_forecast_marriage_year_differs_reported_year",
+      "case_number": 5,
+      "source_lines": [
+        350,
+        352
+      ],
+      "source_quotes": [
+        "据此，杜新会说：“时间不会太久，他们家庭就发生变故，快则三十天，慢则三个月，他就能离婚，明年四五月你们就能结婚。”",
+        "后来杜新会得知，1997年1月3日（乙巳日），即测后第五天，青年女子所恋的这个男经理家中就发生一场尖锐冲突，妻子用酒瓶打伤丈夫右脸，到医院缝合二十六针，右眼差一点被扎瞎。从此，男方更有了离婚的理由。一个月后就离了婚，1998年五月同这个青年女子结了婚。"
+      ],
+      "kind": "prediction_outcome_not_equivalent",
+      "detail": "Cast is1996-12-29; 明年四五月 means forecast1997Apr/May. Later report explicitly says1998五月结婚. Preserve original relative forecast and reported date, not score exact marriage timing as a match or repair1998 into1997. Divorce/violent incident reports are separate targets."
+    },
+    {
+      "key": "case6_one_supplied_chart_two_consultations",
+      "case_number": 6,
+      "source_lines": [
+        355,
+        423
+      ],
+      "source_quotes": [
+        "我根据奇门格局，告知主要是其丈夫有外遇，这个第三者女人看你丈夫有钱，逼他离婚，以便与她结合。但只要你坚持不离，一方面主动关怀体贴丈夫，不要闹、不要往外推，要主动往回拉，让丈夫体会结发夫妻的温暖和恩爱；一方面采取持久战的战术，过一段就会好转，丈夫与那女人就会逐步疏远。你们不会离婚的。",
+        "1998年4月22日为投资建新项目，夫妻二人又发生分歧。妻子开车亲自前来石家庄找我，下午1点30分到我家，在问了投资意见后，又一次问我：“我们夫妻俩会不会离婚？我丈夫有时还跟那个女人偷偷来往。”",
+        "戊寅年丙辰月己亥日辛未时，甲子旬，阳2局。天芮星为值符落5宫寄2宫，死门为值使落9宫。"
+      ],
+      "kind": "multi_event_missing_original_chart",
+      "detail": "One continuous family story contains initial1997 consultation with no given chart/time and follow-up1998-04-22 13:30 with one supplied table. Save multiple events/consultation boundaries; count exactly one supplied chart, do not synthesize missing1997 chart."
+    },
+    {
+      "key": "case6_chief_star_native_five_host_two",
+      "case_number": 6,
+      "source_lines": [
+        379,
+        406
+      ],
+      "source_quotes": [
+        "戊寅年丙辰月己亥日辛未时，甲子旬，阳2局。天芮星为值符落5宫寄2宫，死门为值使落9宫。",
+        "值符落宫：中5宫寄坤2宫",
+        "坤二宫    符      辛惊戊    辛芮戊"
+      ],
+      "kind": "native_host_location_distinction",
+      "detail": "Metadata says 天芮值符落5寄2, primary named天芮 actual table position2. Keep original/counting5 and actualhost2, never count separate actual stars at5 and2 or compare the first digit5 against actuallayout2."
+    },
+    {
+      "key": "case6_duplicate_prefix_markers_do_not_double_count",
+      "case_number": 6,
+      "source_lines": [
+        406,
+        408
+      ],
+      "source_quote": "坤二宫    符      辛惊戊    辛芮戊",
+      "kind": "representation_ambiguity",
+      "detail": "辛 appears before both 惊戊 and 芮戊 at2 while center native record is辛5. Preserve both literal prefixes. Star prefix does not create a third star or two actual天禽; source-only projection need not name extra star semantics."
+    },
+    {
+      "key": "case4_same_stem_different_roles",
+      "case_number": 4,
+      "source_lines": [
+        267,
+        273
+      ],
+      "source_quotes": [
+        "（2）日干为赵小姐。时干壬为丈夫，在坤2宫，生兑7宫丁奇；又庚为丈夫，刑克地盘乙奇，与兑7宫丁奇比和；兑7宫丁奇又下临第三者男人丙奇。壬生丁，丁壬合又为淫荡之合。",
+        "（3）日干庚为赵小姐，临死门；乙奇临伤门、白虎；乙克庚，庚刑乙。但时干壬生日干庚。"
+      ],
+      "kind": "role_scope",
+      "detail": "Author uses generic庚=husband while日干庚=赵小姐 herself, and时干壬=husband. These are explicitly different representational roles sharing symbols; no globally unique symbol-to-person binding or contradiction repair allowed."
+    },
+    {
+      "key": "all_late_analyses_not_pre_forecast",
+      "case_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "kind": "chronological_evidence_boundary",
+      "detail": "Later narrated analyses and after-report explanations may audit source chart but are not automatically available to the initial predictor. Example2 L149 is explicit post-result timing explanation; example3 L164–213 is retrospective author exposition after dialogue/feedback."
+    },
+    {
+      "key": "all_source_allegations_and_outcomes_are_reports",
+      "case_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "kind": "attribution_and_independent_confirmation",
+      "detail": "Claims about infidelity, sexuality, widowhood, conduct, violence, injury and outcomes are attributed original author/participant reports. No independent verification, modern diagnosis, relationship certainty, moral truth or prediction-accuracy claim is created from source preservation."
+    },
+    {
+      "key": "whole_table_not_independent_full_chart_verification",
+      "case_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "kind": "validation_scope",
+      "detail": "Full nine-palace rows preserved does not establish calendar/bureau method, solar terms/timezone, full voids/horse, extra-prefix semantics, author inferences or real-world accuracy. Any explicit source vs paper-method comparison reports narrow matching/mismatching/not-covered separately."
+    }
+  ],
+  "verification": {
+    "manual_source_rows_match_exact_original_tokens": true,
+    "original_raw_rows_and_spacing_retained": true,
+    "all6_nine_palace_sets": true,
+    "any_engine_run_to_generate_expected_data": false,
+    "any_calendar_recomputation": false,
+    "any_claim_of_professional_accuracy": false,
+    "any_independent_confirmation_of_author_outcomes": false,
+    "all_source_row_and_claim_checks": {
+      "source_row_token_checks": 216,
+      "primary_projection_field_checks": 246,
+      "explicit_author_position_claims": 54,
+      "author_positions_directly_consistent": 48,
+      "author_position_inconsistencies": 2,
+      "author_positions_prefix_only_ambiguous": 4,
+      "explicit_author_overlay_claims": 12,
+      "author_overlays_directly_consistent": 11,
+      "author_overlay_inconsistencies": 1
+    },
+    "source_inconsistencies_preserved_not_failed_import": true,
+    "primary_name_uniqueness_each_chart": true
+  }
+}

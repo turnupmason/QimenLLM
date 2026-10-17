@@ -1,8 +1,8 @@
 # QimenLLM
 
-古籍知识、确定性计算、完整案例与可替换语言模型结合的研究工程。**当前累计接收《神奇之门》六份章级输入、7个完整历史故事（本轮6个疾病案例）；支持符号计算、来源候选检查、案例阅读和原盘投影对照。独立公历起盘、正式用神激活、专业问事及模型训练尚未完成。**
+古籍知识、确定性计算、完整案例与可替换语言模型结合的研究工程。**当前累计接收《神奇之门》七份章级输入、13个完整故事/14事件/13已给原盘（本轮6个婚恋故事）；支持符号计算、来源候选检查、案例阅读和原盘投影对照。独立公历起盘、正式用神激活、专业问事及模型训练尚未完成。**
 
-执行约束见 [AGENTS](AGENTS.md)，[完整用户总指令](docs/user_instructions/master_spec_2026-10-17.txt)，[当前进度](docs/STATUS.md)，[首章入库报告](docs/ingestion/SHENQI_CHAPTER01.md)、[第二份报告](docs/ingestion/SHENQI_CHAPTER02.md)、[第四、五章报告](docs/ingestion/SHENQI_CHAPTERS0405.md)、[应用概述报告](docs/ingestion/SHENQI_APPLICATION_OVERVIEW.md)、[疾病案例报告](docs/ingestion/SHENQI_HEALTH.md)。没有读取或继承旧项目。
+执行约束见 [AGENTS](AGENTS.md)，[完整用户总指令](docs/user_instructions/master_spec_2026-10-17.txt)，[当前进度](docs/STATUS.md)，[首章入库报告](docs/ingestion/SHENQI_CHAPTER01.md)、[第二份报告](docs/ingestion/SHENQI_CHAPTER02.md)、[第四、五章报告](docs/ingestion/SHENQI_CHAPTERS0405.md)、[应用概述报告](docs/ingestion/SHENQI_APPLICATION_OVERVIEW.md)、[疾病案例报告](docs/ingestion/SHENQI_HEALTH.md)、[婚恋案例报告](docs/ingestion/SHENQI_MARRIAGE.md)。没有读取或继承旧项目。
 
 ## 运行与恢复
 
@@ -24,6 +24,7 @@ PYTHONPATH=src python3 -m qimenllm calculate inner_outer --args '{"dun":"阳遁"
 PYTHONPATH=src python3 -m qimenllm rule-candidates --domain health --context '{"target_relationship":"self"}'
 PYTHONPATH=src python3 -m qimenllm case case-b3dd6097c4186c79d3b834cef63cad5cf7f195da0d7946de4495c1184b3e6459 --view before_prediction
 PYTHONPATH=src python3 -m qimenllm cases --chapter-key health-prediction
+PYTHONPATH=src python3 -m qimenllm cases --chapter-key marriage-prediction
 # 用目录返回的实际case_id/chart_id读取；明确比较方法才进行符号对照
 # PYTHONPATH=src python3 -m qimenllm case-chart CASE_ID CHART_ID --comparison-method shenqi_ch2_paper_v1
 PYTHONPATH=src python3 -m qimenllm ask '我最近想换工作'
@@ -35,10 +36,10 @@ PYTHONPATH=src python3 -m qimenllm ask '我最近想换工作'
 
 ```sh
 PYTHONPATH=src python3 -m qimenllm serve --port 8765
-PYTHONPATH=src python3 scripts/smoke_api.py --chapter01 --chapter02 --chapters0405 --application-overview --health
+PYTHONPATH=src python3 scripts/smoke_api.py --chapter01 --chapter02 --chapters0405 --application-overview --health --marriage
 ```
 
-只监听127.0.0.1。GET /health；POST /v1/ask：`{"text":"问题"}`；/v1/learn：`{"term":"符头"}`；/v1/calculate：`{"operation":"earth_plate","args":{"dun":"阳遁","bureau":3}}`。POST /v1/reference为 `{"family":"stem_responses","filters":{"heaven_stem":"戊","earth_stem":"丙"}}`。POST /v1/rule-candidates为 `{"context":{"target_relationship":"self"},"domain":"health"}`；POST /v1/case为 `{"case_id":"已导入case_id","view":"before_prediction"}` 或full。候选检查不是专业激活，事前视图不含结果。POST /v1/cases为 `{"chapter_key":"health-prediction"}`，/v1/case-chart为 `{"case_id":"实际ID","chart_id":"实际ID","comparison_method":"shenqi_ch2_paper_v1"}`，比较方法可省略，仅读原盘。不把源表投影/对照当临床或专业问事结论。没有维护写路由，不是公众服务器。
+只监听127.0.0.1。GET /health；POST /v1/ask：`{"text":"问题"}`；/v1/learn：`{"term":"符头"}`；/v1/calculate：`{"operation":"earth_plate","args":{"dun":"阳遁","bureau":3}}`。POST /v1/reference为 `{"family":"stem_responses","filters":{"heaven_stem":"戊","earth_stem":"丙"}}`。POST /v1/rule-candidates为 `{"context":{"target_relationship":"self"},"domain":"health"}`；POST /v1/case为 `{"case_id":"已导入case_id","view":"before_prediction"}` 或full。候选检查不是专业激活，事前视图不含结果。POST /v1/cases为 `{"chapter_key":"health-prediction"}`，/v1/case-chart为 `{"case_id":"实际ID","chart_id":"实际ID","comparison_method":"shenqi_ch2_paper_v1"}`，比较方法可省略，仅读原盘。婚恋目录用chapter_key=marriage-prediction；事件可能未提供盘，须按events[].chart_ids选择。不把源表投影/对照当临床或专业问事结论。没有维护写路由，不是公众服务器。
 
 问事只通过QimenService.ask，教学计算通过QimenService.calculate；CLI/API/集成测试共用核心模块，实际运行查询数据库。符号转盘可生成同一不可变Chart，标symbolic_verified而非engine_verified；不靠模型记忆补全。显式提供casting_method及context条件时ask也调用相同计算器，但仍不启用专业断案。
 
@@ -48,7 +49,7 @@ src/qimenllm/按knowledge/casting/retrieval/rules/cases/reasoning/models/verific
 
 data/qimenllm.sqlite3是本地运行库，raw_books是原字节镜像，二者不直接入Git。**实际原文字节与全部权威表**保存在data/snapshots/current，可恢复；整理和来源测试在data/structured/shenqi，来源与验收在data/provenance。schema v1见src/qimenllm/knowledge/migrations/001_initial.sql及[SCHEMA](docs/SCHEMA.md)。
 
-累计304个上下文块、39编译符号族、185疑点/边界、16符号教学例；58当前候选对应61历史条，正式角色rules仍0。7完整历史故事/7事件/7原盘、91记录/138证据，作者反馈非独立确认；本轮54行病盘原表完整保存，5盘所列字段对照吻合、1中五门细则未覆盖，训练任务0。217个有向参考键保留原句和条件，详见[覆盖](docs/KNOWLEDGE_COVERAGE.md)。
+累计313个上下文块、39编译符号族、208来源边界、16符号教学例；69当前候选对应72历史条，正式角色rules仍0。13完整故事/14事件/13已给原盘、182记录/288证据；缺盘不造，作者反馈非独立确认。本轮4盘所列字段一致/2中五门未覆盖，原文与表内差异照存，训练任务0。217个有向参考键保留原句和条件，详见[覆盖](docs/KNOWLEDGE_COVERAGE.md)。
 
 ## 每次更新同步GitHub
 
@@ -60,6 +61,7 @@ PYTHONPATH=src python3 scripts/import_shenqi_chapter02.py
 PYTHONPATH=src python3 scripts/import_shenqi_chapters0405.py
 PYTHONPATH=src python3 scripts/import_shenqi_application_overview.py
 PYTHONPATH=src python3 scripts/import_shenqi_health.py
+PYTHONPATH=src python3 scripts/import_shenqi_marriage.py
 PYTHONPATH=src python3 -m qimenllm export-snapshot
 PYTHONPATH=src python3 -m qimenllm sync --message 'Update project and source data'
 ```
