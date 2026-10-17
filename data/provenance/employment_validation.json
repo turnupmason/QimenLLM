@@ -1,0 +1,277 @@
+{
+  "date_utc": "2026-10-17",
+  "previous_commit": "e85bdcaddc4e7b7e77ee019d330a8c31f98cc543",
+  "source": {
+    "input_kind": "inline_chat_text",
+    "serialized_message_encoding": "UTF-8",
+    "serialized_message_newlines": "LF",
+    "external_uploaded_file_hash_claimed": false,
+    "message_sha256": "f29974870ede762aa4fd3370bb7554f031d45d6b79f993d5e673ad1cd453af67",
+    "message_bytes": 22434,
+    "message_path": "data/provenance/uploads/f29974870ede762aa4fd3370bb7554f031d45d6b79f993d5e673ad1cd453af67.utf8",
+    "excluded_instruction_prefix": "下一个： ",
+    "source_byte_start": 13,
+    "source_byte_end": 22434,
+    "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+    "source_bytes": 22421,
+    "source_characters": 8573,
+    "source_lines": 550,
+    "trailing_newline": false,
+    "source_path": "work/employment/source.txt",
+    "confirmation": {
+      "source_acceptance": "confirmed",
+      "source_facts_user_confirmed": true,
+      "verification_basis": "user_attestation",
+      "user_declares_independent_verification": true,
+      "system_performed_independent_verification": false,
+      "declaration_source": "docs/user_instructions/source_confirmation_2026-10-17.txt",
+      "confirmation_policy": "user-supplied-source-confirmation-v1",
+      "scope": "supplied_source_and_explicitly_reported_facts",
+      "source_owner": "current_project_user"
+    }
+  },
+  "data_version": "7b97a500-e6ed-41d5-bb58-00fd9a7496a2",
+  "snapshot_manifest_sha256": "af1b5f703f56d6d25bfc8672a7da935f3199f8ce80268ca815eb89cb778241f4",
+  "schema_migration": false,
+  "all_sources_confirmed": 10,
+  "added": {
+    "contexts": 14,
+    "reference_datasets": 12,
+    "reference_rows": 42,
+    "general_reference_rows": 21,
+    "printed_case_analysis_steps": 20,
+    "separate_postfeedback_commentaries": 1,
+    "technical_boundaries": 21,
+    "concepts": 128,
+    "cases": 5,
+    "families": 5,
+    "events": 6,
+    "charts": 5,
+    "records": 101,
+    "evidence_links": 163,
+    "current_candidates": 27,
+    "candidate_history": 27,
+    "compiled_families": 0,
+    "formal_rules": 0,
+    "training_tasks": 0
+  },
+  "structured_hashes": {
+    "employment_cases.json": "3866bce99822d9f1ead0056a46a970980c0811e8cff671b553d74b24359d39e6",
+    "employment_chart_gold.json": "aea2fd34b91588ff9e05d8af68876ee85669b4273da841887a44359c764f072c",
+    "employment_curated.json": "3e2e8217e82dc2709316ad0cf14b212aac52209bc6a55a5ad269c849166d18be",
+    "employment_rule_candidates.json": "7f6833d0035ec1a9170ee46c52a231d4a6b286b09d5f45c7b1d6f70b0576f133",
+    "employment_selection_gold.json": "4f06fa5c7124be9e4299dc756034a98ab74d0c23f6344f5c85a0dfcc3e319701"
+  },
+  "raw_message_hash_verified": true,
+  "raw_body_slice_hash_verified": true,
+  "manifest_sha256": "ddeb467e2a52e0ade34c98a4aa49245991dafe1ecebc59b27ac4d99579ad2ae5",
+  "totals": {
+    "data_versions": 45,
+    "books": 1,
+    "chapters": 10,
+    "raw_documents": 10,
+    "chapter_revisions": 10,
+    "source_reviews": 17,
+    "source_spans": 1634,
+    "methods": 19,
+    "concepts": 1835,
+    "concept_links": 0,
+    "knowledge_items": 808,
+    "rules": 0,
+    "rule_conditions": 0,
+    "rule_disagreements": 0,
+    "event_families": 28,
+    "cases": 29,
+    "events": 31,
+    "case_events": 31,
+    "charts": 29,
+    "case_records": 475,
+    "evidence_links": 796,
+    "dataset_releases": 0,
+    "split_assignments": 0,
+    "training_tasks": 0,
+    "task_inputs": 0,
+    "source_selection_candidate": 136,
+    "compiled_dataset": 39,
+    "source_quality_issue": 267,
+    "context_group": 350,
+    "worked_example": 16,
+    "datasets": 123,
+    "current_candidates": 129,
+    "data_version": "7b97a500-e6ed-41d5-bb58-00fd9a7496a2"
+  },
+  "tests": {
+    "command": "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+    "environment": "cloud Linux; Python 3.12.14",
+    "passed": 259,
+    "failed": 0,
+    "chapter_tests": 23,
+    "previous_tests": 236,
+    "independent_source_rows": 45,
+    "source_cell_checks": 180,
+    "condition_gold_variants": 256,
+    "condition_gold_are_independent_predictions": false
+  },
+  "http": {
+    "command": "PYTHONPATH=src python3 scripts/smoke_api.py --chapter01 --chapter02 --chapters0405 --application-overview --health --marriage --pregnancy --exam --employment",
+    "requests": 91,
+    "passed": true,
+    "listener_closed": true
+  },
+  "audit": {
+    "ok": true,
+    "errors": [],
+    "counts": {
+      "books": 1,
+      "chapters": 10,
+      "raw_documents": 10,
+      "knowledge_items": 808,
+      "rules": 0,
+      "cases": 29,
+      "events": 31,
+      "charts": 29,
+      "training_tasks": 0
+    },
+    "data_version": "7b97a500-e6ed-41d5-bb58-00fd9a7496a2"
+  },
+  "recovery": {
+    "old_authoritative_rows_preserved": 5081,
+    "old_raw_files_preserved": 9,
+    "schema_unchanged": true,
+    "snapshot_files_byte_identical": 36,
+    "restored_case_views": 58,
+    "restored_source_charts": 29,
+    "candidate_query_restored_identical": true,
+    "data_version": "7b97a500-e6ed-41d5-bb58-00fd9a7496a2",
+    "manifest_sha256": "af1b5f703f56d6d25bfc8672a7da935f3199f8ce80268ca815eb89cb778241f4"
+  },
+  "packaging": {
+    "ok": true,
+    "loaded_from": "isolated_wheel_install",
+    "case_count": 5,
+    "chart_count": 5,
+    "condition_query": true,
+    "confirmed_sources": true,
+    "professional_ask": "blocked"
+  },
+  "wheel_sha256": "fc8d31abc2f9b467e2eeb56db6f94c35023405c919dcbf7a5dde28adb5b850f0",
+  "packaging_commands": [
+    "python3 -m pip wheel . --no-deps --no-build-isolation --no-index --wheel-dir artifacts/employment/wheels",
+    "python3 -m pip install --no-deps --no-index --target work/employment/installed artifacts/employment/wheels/qimenllm-0.1.0-py3-none-any.whl",
+    "PYTHONPATH=/workspace/QimenLLM/work/employment/installed python3 /workspace/QimenLLM/work/employment/verify_install.py"
+  ],
+  "data_replay": {
+    "command": "PYTHONPATH=src python3 scripts/import_shenqi_employment.py --local-only",
+    "source_duplicate": true,
+    "case_additions": 0,
+    "curation_additions": 0,
+    "candidate_additions": 0
+  },
+  "source_chart_comparisons": [
+    {
+      "case_number": 1,
+      "status": "matches",
+      "checked_fields": 47,
+      "differences": [],
+      "source_rejected": false
+    },
+    {
+      "case_number": 2,
+      "status": "matches",
+      "checked_fields": 47,
+      "differences": [],
+      "source_rejected": false
+    },
+    {
+      "case_number": 3,
+      "status": "matches",
+      "checked_fields": 47,
+      "differences": [],
+      "source_rejected": false
+    },
+    {
+      "case_number": 4,
+      "status": "mismatch",
+      "checked_fields": 47,
+      "differences": [
+        {
+          "path": "palaces.9.heaven_stem",
+          "source_value": "己",
+          "computed_value": "壬",
+          "matches": false
+        },
+        {
+          "path": "palaces.9.heaven_prefix_marker",
+          "source_value": "壬",
+          "computed_value": "己",
+          "matches": false
+        }
+      ],
+      "source_rejected": false
+    },
+    {
+      "case_number": 5,
+      "status": "matches",
+      "checked_fields": 47,
+      "differences": [],
+      "source_rejected": false
+    }
+  ],
+  "before_prediction_records": [
+    [
+      4
+    ],
+    [
+      5
+    ],
+    [
+      2
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3
+    ]
+  ],
+  "old_authoritative_rows_modified": 0,
+  "old_raw_files_modified": 0,
+  "previous_gold_modified": false,
+  "frozen_split_changes": false,
+  "pre_import_corrections": [
+    {
+      "kind": "gold_issue_source_citation",
+      "issue_key": "case1_and4_literal_tianqin_primary_names_never_rewritten_to_tianrui",
+      "old_lines": [
+        50,
+        64
+      ],
+      "corrected_lines": [
+        49,
+        63
+      ],
+      "reason": "Cite actual casting and named chief-star line rather than blank line/chief palace line; raw source and gold chart fields unchanged"
+    }
+  ],
+  "development_test_assertion_corrections": [
+    "Known 甲午旬 is not the later actual 甲午日; compare explicit outcome text.",
+    "Author role selections are preserved within author_reasoning payloads, not a dedicated role_selection kind.",
+    "Use the actual source pronoun 他儿子 in the source lookup.",
+    "Candidate residences are originally known background; structured prospective payload remains restricted.",
+    "Select outcome kind rather than later Zhang commentary when checking repeated rank wording."
+  ],
+  "final_test_failures": [],
+  "model_experiments": null,
+  "professional_prediction_completed": false,
+  "limitations": [
+    "Chat fingerprints cover the visible UTF-8/LF message serialization; no uploaded-file hash is asserted.",
+    "Given-symbol comparison does not validate independent calendar, all hosted-star semantics or actual forecasts.",
+    "The transfer chart retains two literal hosted-stem comparison mismatches; no source or expectation was changed.",
+    "Candidates remain reference-only; formal ask queries SQL but does not invoke a professional model.",
+    "Case1 predicted 辰/巳 day and actual 甲午 day 己巳 hour remain separate.",
+    "Five transfer forecasts contain only one supplied chart; later missing charts are not invented.",
+    "Case5 only predicted top two; actual full ranking and later commentary are not pre-event evidence."
+  ],
+  "remote_acceptance": "Verify pushed main SHA/blob and all four Ubuntu/macOS x Python3.11/3.12 jobs; GitHub Actions and work/github-sync.json store final remote evidence."
+}

@@ -71,3 +71,5 @@ PYTHONPATH=src python3 scripts/import_shenqi_chapters0405.py
 怀孕分娩由scripts/import_shenqi_pregnancy.py按确切SHA重放，技术键pregnancy-childbirth、排序9不推印刷章号。保存12完整块、6故事/5家族/6事件/6原盘、99记录、180证据、14候选及18候选历史。星名条件使用已给基础表全称，4条rev1保留并追加rev2；完整事件家族防拆分。68独立条件期望与54原行gold分别验证；程序对照差异不拒收原书。新用户资料默认confirmed，仍不从确认声明推断缺失结局、自动执行医学建议或现实准确率。
 
 求学考试以scripts/import_shenqi_exam.py按精确SHA重放，技术键education-examinations/排序10不推印刷章号。11语境块、5完整故事/5事件/5原盘、93记录、165证据、19参考候选/116独立条件期望；同事件多轮不拆出额外结果样本，估分与年命后知不能回填。五种方法隔离。字节与输入同文幂等，默认confirmed；实际交付必须完整导出、测试、push、核对远端及四CI。报告ingestion/SHENQI_EXAM.md。
+
+工作就业以scripts/import_shenqi_employment.py重放，技术键work-employment/排序11。输入为可见聊天序列化，先核对父消息f2997487…及13:22434正文切片，再核对正文7a677644…；不声称附件原始哈希。14块/42参考条、5故事/6事件/5原盘、101记录/163证据、27参考候选及256条件变体。保留旧盘续断、再测缺盘和后置点评；原文确认与携干复算差异分别记录。默认confirmed与同步GitHub不变，--local-only仅分步维护；最终完整导出、测试、push及四CI验证。报告ingestion/SHENQI_EMPLOYMENT.md。

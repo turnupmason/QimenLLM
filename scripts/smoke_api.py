@@ -21,10 +21,12 @@ def main():
     parser.add_argument('--marriage',action='store_true',help='Check marriage consultations, source tables and conditional query integration')
     parser.add_argument('--pregnancy',action='store_true',help='Check confirmed pregnancy cases, shared family and source chart comparisons')
     parser.add_argument('--exam',action='store_true',help='Check examination cases, source charts and conditional methods')
+    parser.add_argument('--employment',action='store_true',help='Check employment narratives, multi-event gaps and source conditions')
     args=parser.parse_args()
     results=[]
     pregnancy_cases={};pregnancy_charts={}
     exam_cases={};exam_charts={}
+    employment_cases={};employment_charts={}
     with make_server('127.0.0.1',0,create_app(QimenService(args.db)),handler_class=PrivateRequestHandler) as server:
         worker=threading.Thread(target=lambda:server.serve_forever(poll_interval=0.01),daemon=True)
         worker.start()
@@ -120,6 +122,25 @@ def main():
                         'method':'shenqi_exam_ordinary_v1'},'inspected'),
                     ('POST','/v1/ask',{'text':'求学考试来源条件集成检查','domain':'education_examinations',
                         'context':context,'method_id':'shenqi_exam_ordinary_v1'},'blocked')])
+            if args.employment:
+                catalog=QimenService(args.db).cases('work-employment')
+                assert catalog['total']==5,catalog
+                checks.append(('POST','/v1/cases',{'chapter_key':'work-employment'},'sources_found'))
+                for number,case in enumerate(catalog['cases'],1):
+                    cid=case['case_id'];employment_cases[cid]=number
+                    checks.extend([('POST','/v1/case',{'case_id':cid,'view':view},None)
+                                   for view in ('full','before_prediction')])
+                    charts=[chart for event in case['events'] for chart in event['chart_ids']]
+                    assert len(charts)==1,case
+                    chart_id=charts[0];employment_charts[chart_id]=number
+                    checks.append(('POST','/v1/case-chart',{'case_id':cid,'chart_id':chart_id,
+                        'comparison_method':'shenqi_ch2_paper_v1'},'projected'))
+                context={'analysis_context':'civil_work_unit','position_type':'civil','work_door':'开门'}
+                checks.extend([
+                    ('POST','/v1/rule-candidates',{'context':context,'domain':'work_employment',
+                        'method':'shenqi_employment_civil_v1'},'inspected'),
+                    ('POST','/v1/ask',{'text':'工作就业来源条件集成检查','domain':'work_employment',
+                        'context':context,'method_id':'shenqi_employment_civil_v1'},'blocked')])
             for method,path,payload,expected in checks:
                 client=http.client.HTTPConnection('127.0.0.1',server.server_port,timeout=5)
                 try:
@@ -154,6 +175,7 @@ def main():
                         assert result['role_bindings']==[] and result['sources'],result
                     if path=='/v1/rule-candidates':
                         key={'marriage':'marriage_general_female_party',
+                             'work_employment':'employment_civil_work_open',
                              'education_examinations':'exam_self_day_stem',
                              'pregnancy_childbirth':'pregnancy_kun_star_mother_fetus'}.get(
                                  payload.get('domain'),'health_self_patient')
@@ -161,7 +183,17 @@ def main():
                                    for r in result['candidates']),result
                         assert result['role_bindings']==[],result
                     if path=='/v1/case':
-                        if payload['case_id'] in exam_cases:
+                        if payload['case_id'] in employment_cases:
+                            number=employment_cases[payload['case_id']]
+                            assert result['source_confirmation']['source_facts_user_confirmed'],result
+                            if payload['view']=='before_prediction':
+                                assert [len(e['records']) for e in result['events']]==[[4],[5],[2],[3,2],[3]][number-1],result
+                                assert 'outcome_confirmation' not in result,result
+                            elif number==4:
+                                first,later=result['events']
+                                assert len(first['charts'])==1 and later['charts']==[],result
+                                assert first['family_id']==later['family_id'],result
+                        elif payload['case_id'] in exam_cases:
                             number=exam_cases[payload['case_id']]
                             assert result['source_confirmation']['source_facts_user_confirmed'],result
                             event=result['events'][0]
@@ -189,10 +221,12 @@ def main():
                             if payload['view']=='before_prediction':
                                 assert result['events'][0]['charts']==[] and '星箭爆炸' not in json.dumps(result,ensure_ascii=False),result
                     if path=='/v1/cases':
-                        assert result['total']==(5 if payload.get('chapter_key')=='education-examinations' else 6),result
+                        assert result['total']==(5 if payload.get('chapter_key') in ('education-examinations','work-employment') else 6),result
                     if path=='/v1/case-chart':
                         assert result['chart_id']==payload['chart_id'] and len(result['palaces'])==9,result
-                        if payload['chart_id'] in exam_charts:
+                        if payload['chart_id'] in employment_charts:
+                            assert result['comparison']['status']==('mismatch' if employment_charts[payload['chart_id']]==4 else 'matches'),result
+                        elif payload['chart_id'] in exam_charts:
                             assert result['comparison']['status']=='matches',result
                         elif payload['chart_id'] in pregnancy_charts:
                             expected_comparison='mismatch' if pregnancy_charts[payload['chart_id']]==3 else 'matches'

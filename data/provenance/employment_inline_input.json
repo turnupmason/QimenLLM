@@ -1,0 +1,18 @@
+{
+  "input_kind": "inline_chat_text",
+  "serialized_message_encoding": "UTF-8",
+  "serialized_message_newlines": "LF",
+  "external_uploaded_file_hash_claimed": false,
+  "message_sha256": "f29974870ede762aa4fd3370bb7554f031d45d6b79f993d5e673ad1cd453af67",
+  "message_bytes": 22434,
+  "message_path": "data/provenance/uploads/f29974870ede762aa4fd3370bb7554f031d45d6b79f993d5e673ad1cd453af67.utf8",
+  "excluded_instruction_prefix": "下一个： ",
+  "source_byte_start": 13,
+  "source_byte_end": 22434,
+  "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+  "source_bytes": 22421,
+  "source_characters": 8573,
+  "source_lines": 550,
+  "trailing_newline": false,
+  "source_path": "work/employment/source.txt"
+}

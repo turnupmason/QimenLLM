@@ -131,3 +131,9 @@ pregnancy installer、source hash投影、cases与候选复用原正式service/C
 education-examinations沿既有importer → exam installer/case importer/candidate installer → SQLite → QimenService → CLI/API，无问事旁路。19参考候选五方法隔离，source_stage合同保护预测payload；本人日干/父母时干/兼看年命由实际条件区分。case5同事件多轮，后置盘/分析及新增出生年无初断读取权限。
 
 EXAM_SHA注册相同四列表只读约定，独立45行gold验证投影；原盘与界面使用同ID，比较盘另ID，值符原5寄2双字段比较。before各3/2/3/6/9条，人物说话者与明确outcome归类在新案首次入库前审查，不覆写旧行或放宽通用结果白名单。9源最新确认沿source_confirmation统一读取，schema仍v1；专业模型/历法全链未完成。
+
+## 工作就业的增量接线
+
+inline message → 显式正文切片及双SHA核验 → import_chapter → employment installer/cases/candidates → SQLite → 既有QimenService/CLI/API。14完整语境与27参考候选不增加专业问事旁路，ask真实查询但仍不绑定或调用模型。5故事/6事件/5盘，范荣同事件复用旧盘，杜案两事件同族只首盘；source-stage合同及保守事前视图继续隔离后验资料。
+
+EMPLOYMENT_SHA只注册已审读表格投影，原盘同ID、比较盘另ID；独立45行gold未由引擎生成。调动盘两个携干字段差异不触发原文更改或来源拒收。消息父载体进入provenance，正文快照可独立恢复；schema仍v1。学习阅读与事前预测权限分开，训练/公众产品未完成。

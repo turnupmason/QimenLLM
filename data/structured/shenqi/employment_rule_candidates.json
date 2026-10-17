@@ -1,0 +1,1777 @@
+{
+  "schema_version": "source_selection_candidates_v1",
+  "title": "工作就业预测",
+  "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+  "source_byte_count": 22421,
+  "source_line_count": 550,
+  "candidate_count": 27,
+  "candidate_record_count": 27,
+  "candidates": [
+    {
+      "key": "employment_civil_work_open",
+      "domain": "work_employment",
+      "scope": "civil_work_unit",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "work_employment"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "civil_work_unit"
+        },
+        {
+          "field": "position_type",
+          "op": "eq",
+          "value": "civil"
+        },
+        {
+          "field": "work_door",
+          "op": "eq",
+          "value": "开门"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_employment_civil_v1"
+      },
+      "source_lines": [
+        8
+      ],
+      "source_quote": "一般以开门代表文职工作及单位，以杜门代表武职工作及单位。以年干代表上级领导，以值符代表顶头上司，以月干代表同事，以日干代表求测之人，以时干代表下级或单位职工群众。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "一般以开门为文职工作及单位；个案具体单位映射另存。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "开门"
+        ],
+        "semantic_role": "civil_work_and_unit",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "employment_military_work_du",
+      "domain": "work_employment",
+      "scope": "military_work_unit",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "work_employment"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "military_work_unit"
+        },
+        {
+          "field": "position_type",
+          "op": "eq",
+          "value": "military"
+        },
+        {
+          "field": "work_door",
+          "op": "eq",
+          "value": "杜门"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_employment_military_v1"
+      },
+      "source_lines": [
+        8
+      ],
+      "source_quote": "一般以开门代表文职工作及单位，以杜门代表武职工作及单位。以年干代表上级领导，以值符代表顶头上司，以月干代表同事，以日干代表求测之人，以时干代表下级或单位职工群众。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "武职单位角色，不与退役官长口径或文职互换。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "杜门"
+        ],
+        "semantic_role": "military_work_and_unit",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "employment_hierarchy_roles",
+      "domain": "work_employment",
+      "scope": "employment_hierarchy_roles",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "work_employment"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "employment_hierarchy_roles"
+        },
+        {
+          "field": "role_perspective",
+          "op": "eq",
+          "value": "general_employment_hierarchy"
+        },
+        {
+          "field": "case_specific_role_override",
+          "op": "eq",
+          "value": false
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_employment_hierarchy_v1"
+      },
+      "source_lines": [
+        8
+      ],
+      "source_quote": "一般以开门代表文职工作及单位，以杜门代表武职工作及单位。以年干代表上级领导，以值符代表顶头上司，以月干代表同事，以日干代表求测之人，以时干代表下级或单位职工群众。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "年干上级、值符顶头、月干同事、日干问者、时干下级群众；案例另释不得混用。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "年干",
+          "值符",
+          "月干",
+          "日干",
+          "时干"
+        ],
+        "semantic_role": "employment_hierarchy",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "employment_asker_day_stem",
+      "domain": "work_employment",
+      "scope": "employment_asker_self",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "work_employment"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "employment_asker_self"
+        },
+        {
+          "field": "subject_is_asker",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "day_stem",
+          "op": "in",
+          "value": [
+            "甲",
+            "乙",
+            "丙",
+            "丁",
+            "戊",
+            "己",
+            "庚",
+            "辛",
+            "壬",
+            "癸"
+          ]
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_employment_hierarchy_v1"
+      },
+      "source_lines": [
+        8
+      ],
+      "source_quote": "一般以开门代表文职工作及单位，以杜门代表武职工作及单位。以年干代表上级领导，以值符代表顶头上司，以月干代表同事，以日干代表求测之人，以时干代表下级或单位职工群众。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "日干是求测之人，不将代问者的日干自动绑定成被问子女。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "日干"
+        ],
+        "semantic_role": "asker_self",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "employment_birth_year_person",
+      "domain": "work_employment",
+      "scope": "employment_person_birth_year",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "work_employment"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "employment_person_birth_year"
+        },
+        {
+          "field": "person_perspective",
+          "op": "eq",
+          "value": "birth_year"
+        },
+        {
+          "field": "birth_year_stem",
+          "op": "in",
+          "value": [
+            "甲",
+            "乙",
+            "丙",
+            "丁",
+            "戊",
+            "己",
+            "庚",
+            "辛",
+            "壬",
+            "癸"
+          ]
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_employment_recruitment_v1"
+      },
+      "source_lines": [
+        10
+      ],
+      "source_quote": "日干或年命落宫旺相，又得吉门吉格吉神者，表示自身条件好，得天时地利；再得开门或杜门相生，则求职得官顺利；如果日干或年命克开门或杜门，经过努力，也能得到工作或官职；如果自身不得天时地利，又受开门或杜门冲克者，必然得不到官职或工作。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "日干或年命并列观察视角；出生年干不是问时年干，不宣称唯一。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "年命"
+        ],
+        "semantic_role": "person_birth_year",
+        "binding_kind": "source_candidate",
+        "supplementary": true,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "employment_recruitment_supported",
+      "domain": "work_employment",
+      "scope": "recruitment_favorable_supported",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "work_employment"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "recruitment_favorable_supported"
+        },
+        {
+          "field": "work_scope_and_door",
+          "op": "in",
+          "value": [
+            "civil_open",
+            "military_du"
+          ]
+        },
+        {
+          "field": "person_perspective",
+          "op": "in",
+          "value": [
+            "day_stem",
+            "birth_year"
+          ]
+        },
+        {
+          "field": "person_palace_strength",
+          "op": "eq",
+          "value": "旺相"
+        },
+        {
+          "field": "has_auspicious_door",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "has_auspicious_pattern",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "has_auspicious_deity",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "work_door_generates_person",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_employment_recruitment_v1"
+      },
+      "source_lines": [
+        10
+      ],
+      "source_quote": "日干或年命落宫旺相，又得吉门吉格吉神者，表示自身条件好，得天时地利；再得开门或杜门相生，则求职得官顺利；如果日干或年命克开门或杜门，经过努力，也能得到工作或官职；如果自身不得天时地利，又受开门或杜门冲克者，必然得不到官职或工作。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "旺相、吉门吉格吉神和门生本人全部检查；输入条件匹配不是独立盘面验证。",
+        "work_scope_and_door只接受civil_open=文职开门、military_du=武职杜门成对枚举；不是独立布尔声称门与职务匹配。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "source_interpretation": "求职得官顺利"
+    },
+    {
+      "key": "employment_recruitment_person_controls",
+      "domain": "work_employment",
+      "scope": "recruitment_favorable_person_controls",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "work_employment"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "recruitment_favorable_person_controls"
+        },
+        {
+          "field": "work_scope_and_door",
+          "op": "in",
+          "value": [
+            "civil_open",
+            "military_du"
+          ]
+        },
+        {
+          "field": "person_perspective",
+          "op": "in",
+          "value": [
+            "day_stem",
+            "birth_year"
+          ]
+        },
+        {
+          "field": "person_palace_strength",
+          "op": "eq",
+          "value": "旺相"
+        },
+        {
+          "field": "has_auspicious_door",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "has_auspicious_pattern",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "has_auspicious_deity",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "person_controls_work_door",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_employment_recruitment_v1"
+      },
+      "source_lines": [
+        10
+      ],
+      "source_quote": "日干或年命落宫旺相，又得吉门吉格吉神者，表示自身条件好，得天时地利；再得开门或杜门相生，则求职得官顺利；如果日干或年命克开门或杜门，经过努力，也能得到工作或官职；如果自身不得天时地利，又受开门或杜门冲克者，必然得不到官职或工作。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "本人克工作门，非门克本人；保留本段自身好条件的完整上下文。",
+        "work_scope_and_door只接受civil_open=文职开门、military_du=武职杜门成对枚举；不是独立布尔声称门与职务匹配。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "source_interpretation": "经过努力也能得到工作或官职"
+    },
+    {
+      "key": "employment_recruitment_adverse",
+      "domain": "work_employment",
+      "scope": "recruitment_adverse_controlled",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "work_employment"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "recruitment_adverse_controlled"
+        },
+        {
+          "field": "work_scope_and_door",
+          "op": "in",
+          "value": [
+            "civil_open",
+            "military_du"
+          ]
+        },
+        {
+          "field": "person_perspective",
+          "op": "in",
+          "value": [
+            "day_stem",
+            "birth_year"
+          ]
+        },
+        {
+          "field": "person_has_time_and_place_advantage",
+          "op": "eq",
+          "value": false
+        },
+        {
+          "field": "work_door_to_person_relation",
+          "op": "in",
+          "value": [
+            "冲",
+            "克"
+          ]
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_employment_recruitment_v1"
+      },
+      "source_lines": [
+        10
+      ],
+      "source_quote": "日干或年命落宫旺相，又得吉门吉格吉神者，表示自身条件好，得天时地利；再得开门或杜门相生，则求职得官顺利；如果日干或年命克开门或杜门，经过努力，也能得到工作或官职；如果自身不得天时地利，又受开门或杜门冲克者，必然得不到官职或工作。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "不得天时地利且工作门冲克自身的联合条件，未知不判满足。",
+        "work_scope_and_door只接受civil_open=文职开门、military_du=武职杜门成对枚举；不是独立布尔声称门与职务匹配。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "source_interpretation": "原文称得不到官职或工作"
+    },
+    {
+      "key": "employment_promotion_support",
+      "domain": "work_employment",
+      "scope": "promotion_supported",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "work_employment"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "promotion_supported"
+        },
+        {
+          "field": "promotion_type",
+          "op": "in",
+          "value": [
+            "position",
+            "professional_title"
+          ]
+        },
+        {
+          "field": "timing_review_recorded",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "location_review_recorded",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "human_relations_review_recorded",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "self_conditions_and_luck_review_recorded",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "self_conditions_good",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "year_stem_generates_person",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "zhifu_generates_person",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "open_door_generates_person",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_employment_promotion_v1"
+      },
+      "source_lines": [
+        12
+      ],
+      "source_quote": "能否晋升职务、职称也是如此。一看天时，二看地利，三看人和，四看自身条件和运气。自身条件好，又得年干、值符、开门相生者，必然能晋升，反之则不能。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "四面考察和自身条件、三方生本人；不从原文反之补出每一单项缺失即失败的逆规则。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "source_interpretation": "原文称能晋升"
+    },
+    {
+      "key": "employment_civil_demotion",
+      "domain": "work_employment",
+      "scope": "civil_demotion",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "work_employment"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "civil_demotion"
+        },
+        {
+          "field": "position_type",
+          "op": "eq",
+          "value": "civil"
+        },
+        {
+          "field": "work_door",
+          "op": "eq",
+          "value": "开门"
+        },
+        {
+          "field": "work_door_controls_selected_role",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_employment_office_changes_v1"
+      },
+      "source_lines": [
+        14
+      ],
+      "source_quote": "开门克用神，文官降调。杜门克用神，武官降职。反吟主调任，空亡必革职，入墓不但降罚，还会招来罪戾。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "开门克用神，文官降调；用神须在实际问事中另有合法依据。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "source_interpretation": "文官降调"
+    },
+    {
+      "key": "employment_military_demotion",
+      "domain": "work_employment",
+      "scope": "military_demotion",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "work_employment"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "military_demotion"
+        },
+        {
+          "field": "position_type",
+          "op": "eq",
+          "value": "military"
+        },
+        {
+          "field": "work_door",
+          "op": "eq",
+          "value": "杜门"
+        },
+        {
+          "field": "work_door_controls_selected_role",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_employment_office_changes_v1"
+      },
+      "source_lines": [
+        14
+      ],
+      "source_quote": "开门克用神，文官降调。杜门克用神，武官降职。反吟主调任，空亡必革职，入墓不但降罚，还会招来罪戾。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "杜门克用神，武官降职；不能将本人克门混入。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "source_interpretation": "武官降职"
+    },
+    {
+      "key": "employment_fanyin_transfer",
+      "domain": "work_employment",
+      "scope": "office_fanyin_transfer",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "work_employment"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "office_fanyin_transfer"
+        },
+        {
+          "field": "office_change_context",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "observed_subject_identified",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "observed_state",
+          "op": "eq",
+          "value": "反吟"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_employment_office_changes_v1"
+      },
+      "source_lines": [
+        14
+      ],
+      "source_quote": "开门克用神，文官降调。杜门克用神，武官降职。反吟主调任，空亡必革职，入墓不但降罚，还会招来罪戾。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "本句未明确统一观察主体或盘层；必须显式注明所看对象，不扩大成任意符号触发。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "source_interpretation": "主调任"
+    },
+    {
+      "key": "employment_void_dismissal",
+      "domain": "work_employment",
+      "scope": "office_void_dismissal",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "work_employment"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "office_void_dismissal"
+        },
+        {
+          "field": "office_change_context",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "observed_subject_identified",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "observed_state",
+          "op": "eq",
+          "value": "空亡"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_employment_office_changes_v1"
+      },
+      "source_lines": [
+        14
+      ],
+      "source_quote": "开门克用神，文官降调。杜门克用神，武官降职。反吟主调任，空亡必革职，入墓不但降罚，还会招来罪戾。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "本句未明确统一观察主体或盘层；必须显式注明所看对象，不扩大成任意符号触发。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "source_interpretation": "原文称必革职"
+    },
+    {
+      "key": "employment_tomb_penalty",
+      "domain": "work_employment",
+      "scope": "office_tomb_penalty",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "work_employment"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "office_tomb_penalty"
+        },
+        {
+          "field": "office_change_context",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "observed_subject_identified",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "observed_state",
+          "op": "eq",
+          "value": "入墓"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_employment_office_changes_v1"
+      },
+      "source_lines": [
+        14
+      ],
+      "source_quote": "开门克用神，文官降调。杜门克用神，武官降职。反吟主调任，空亡必革职，入墓不但降罚，还会招来罪戾。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "本句未明确统一观察主体或盘层；必须显式注明所看对象，不扩大成任意符号触发。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "source_interpretation": "原文称降罚并招罪戾"
+    },
+    {
+      "key": "employment_hierarchy_opposition",
+      "domain": "work_employment",
+      "scope": "employment_opposition_from_hierarchy",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "work_employment"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "employment_opposition_from_hierarchy"
+        },
+        {
+          "field": "role_perspective",
+          "op": "eq",
+          "value": "general_employment_hierarchy"
+        },
+        {
+          "field": "opposition_source",
+          "op": "in",
+          "value": [
+            "太岁",
+            "值符",
+            "月干",
+            "时干"
+          ]
+        },
+        {
+          "field": "source_controls_person",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "case_specific_role_override",
+          "op": "eq",
+          "value": false
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_employment_hierarchy_v1"
+      },
+      "source_lines": [
+        16
+      ],
+      "source_quote": "太岁来克，上级领导不喜；值符来克，顶头上司不爱；月干来克，同事参劾；时干来克，下边群众告状。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "太岁上级、值符顶头、月干同事、时干群众来克；本案任务解释另存；方向不得颠倒。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "source_interpretation": {
+        "太岁": "上级领导不喜",
+        "值符": "顶头上司不爱",
+        "月干": "同事参劾",
+        "时干": "下边群众告状"
+      }
+    },
+    {
+      "key": "employment_official_character_analogy",
+      "domain": "work_employment",
+      "scope": "official_character_source_analogy",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "work_employment"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "official_character_source_analogy"
+        },
+        {
+          "field": "official_star",
+          "op": "eq",
+          "value": "开门"
+        },
+        {
+          "field": "star_over_open_door",
+          "op": "in",
+          "value": [
+            "天辅星",
+            "天任星",
+            "天心星",
+            "天禽星",
+            "天冲星",
+            "天英星",
+            "天芮星",
+            "天柱星",
+            "天蓬星"
+          ]
+        },
+        {
+          "field": "use_mode",
+          "op": "eq",
+          "value": "historical_source_study"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_employment_character_analogy_v1"
+      },
+      "source_lines": [
+        18,
+        19,
+        20
+      ],
+      "source_quote": "又以开门为官星，以其所临九星为人品。如开门上乘吉星为好人，凶星为恶人。\n\n临天辅星文雅，天任星慈祥，天心星正直，天禽星忠厚，天冲星风厉，天英星昏烈，天芮星贪毒，天柱星奸诈，天蓬星大恶。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "仅传统类象学习；不是九星固定事实或对现代人的道德判定。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "开门",
+          "所临九星"
+        ],
+        "semantic_role": "source_official_character_analogy",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      },
+      "source_interpretation": {
+        "天辅星": "文雅",
+        "天任星": "慈祥",
+        "天心星": "正直",
+        "天禽星": "忠厚",
+        "天冲星": "风厉",
+        "天英星": "昏烈",
+        "天芮星": "贪毒",
+        "天柱星": "奸诈",
+        "天蓬星": "大恶"
+      }
+    },
+    {
+      "key": "employment_retirement_roles",
+      "domain": "work_employment",
+      "scope": "military_retirement_roles",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "work_employment"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "military_retirement_roles"
+        },
+        {
+          "field": "person_category",
+          "op": "in",
+          "value": [
+            "military_cadre",
+            "soldier"
+          ]
+        },
+        {
+          "field": "request_type",
+          "op": "in",
+          "value": [
+            "military_transfer",
+            "military_retirement"
+          ]
+        },
+        {
+          "field": "commander_door",
+          "op": "eq",
+          "value": "杜门"
+        },
+        {
+          "field": "retiree_symbol",
+          "op": "eq",
+          "value": "日干"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_employment_military_retirement_v1"
+      },
+      "source_lines": [
+        22
+      ],
+      "source_quote": "军队干部和士兵转业或退役，可以杜门为官长，以日干为退役之人。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "限军队干部士兵转业退役，杜门官长，日干退役人。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "杜门",
+          "日干"
+        ],
+        "semantic_role": "military_commander_and_retiree",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "employment_retirement_du_generates",
+      "domain": "work_employment",
+      "scope": "military_retirement_du_generates",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "work_employment"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "military_retirement_du_generates"
+        },
+        {
+          "field": "person_category",
+          "op": "in",
+          "value": [
+            "military_cadre",
+            "soldier"
+          ]
+        },
+        {
+          "field": "request_type",
+          "op": "in",
+          "value": [
+            "military_transfer",
+            "military_retirement"
+          ]
+        },
+        {
+          "field": "du_to_day_stem_relation",
+          "op": "eq",
+          "value": "生"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_employment_military_retirement_v1"
+      },
+      "source_lines": [
+        24
+      ],
+      "source_quote": "如果杜门生日干，主工作需要，领导有意留你，不准转业或退役。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "杜门生本人是留用、不准退，不能反向为准退。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "source_interpretation": "工作需要、领导有意留你，不准转业或退役"
+    },
+    {
+      "key": "employment_retirement_du_controls",
+      "domain": "work_employment",
+      "scope": "military_retirement_du_controls",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "work_employment"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "military_retirement_du_controls"
+        },
+        {
+          "field": "person_category",
+          "op": "in",
+          "value": [
+            "military_cadre",
+            "soldier"
+          ]
+        },
+        {
+          "field": "request_type",
+          "op": "in",
+          "value": [
+            "military_transfer",
+            "military_retirement"
+          ]
+        },
+        {
+          "field": "du_to_day_stem_relation",
+          "op": "eq",
+          "value": "克"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_employment_military_retirement_v1"
+      },
+      "source_lines": [
+        26
+      ],
+      "source_quote": "如果杜门克日干，则准退。比和者，也准退。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "官长杜门克日干的方向，准退。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "source_interpretation": "准退"
+    },
+    {
+      "key": "employment_retirement_du_equal",
+      "domain": "work_employment",
+      "scope": "military_retirement_du_equal",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "work_employment"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "military_retirement_du_equal"
+        },
+        {
+          "field": "person_category",
+          "op": "in",
+          "value": [
+            "military_cadre",
+            "soldier"
+          ]
+        },
+        {
+          "field": "request_type",
+          "op": "in",
+          "value": [
+            "military_transfer",
+            "military_retirement"
+          ]
+        },
+        {
+          "field": "du_to_day_stem_relation",
+          "op": "eq",
+          "value": "比和"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_employment_military_retirement_v1"
+      },
+      "source_lines": [
+        26
+      ],
+      "source_quote": "如果杜门克日干，则准退。比和者，也准退。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "杜门与日干比和也准退，不漏比和途径。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "source_interpretation": "准退"
+    },
+    {
+      "key": "employment_retirement_qinglong_escape",
+      "domain": "work_employment",
+      "scope": "military_retirement_qinglong_escape",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "work_employment"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "military_retirement_qinglong_escape"
+        },
+        {
+          "field": "person_category",
+          "op": "in",
+          "value": [
+            "military_cadre",
+            "soldier"
+          ]
+        },
+        {
+          "field": "request_type",
+          "op": "in",
+          "value": [
+            "military_transfer",
+            "military_retirement"
+          ]
+        },
+        {
+          "field": "pattern_on_day_stem",
+          "op": "eq",
+          "value": "青龙逃走"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_employment_military_retirement_v1"
+      },
+      "source_lines": [
+        28
+      ],
+      "source_quote": "如果日干乘青龙逃走或荧入白者，必退役；如果乘白入荧、虎猖狂者，则不可退。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "条件是日干所乘，不是盘中任意宫的格；荧入白/白入荧正反不可混。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "source_interpretation": "必退役"
+    },
+    {
+      "key": "employment_retirement_ying_into_white",
+      "domain": "work_employment",
+      "scope": "military_retirement_ying_into_white",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "work_employment"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "military_retirement_ying_into_white"
+        },
+        {
+          "field": "person_category",
+          "op": "in",
+          "value": [
+            "military_cadre",
+            "soldier"
+          ]
+        },
+        {
+          "field": "request_type",
+          "op": "in",
+          "value": [
+            "military_transfer",
+            "military_retirement"
+          ]
+        },
+        {
+          "field": "pattern_on_day_stem",
+          "op": "eq",
+          "value": "荧入白"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_employment_military_retirement_v1"
+      },
+      "source_lines": [
+        28
+      ],
+      "source_quote": "如果日干乘青龙逃走或荧入白者，必退役；如果乘白入荧、虎猖狂者，则不可退。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "条件是日干所乘，不是盘中任意宫的格；荧入白/白入荧正反不可混。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "source_interpretation": "必退役"
+    },
+    {
+      "key": "employment_retirement_white_into_ying",
+      "domain": "work_employment",
+      "scope": "military_retirement_white_into_ying",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "work_employment"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "military_retirement_white_into_ying"
+        },
+        {
+          "field": "person_category",
+          "op": "in",
+          "value": [
+            "military_cadre",
+            "soldier"
+          ]
+        },
+        {
+          "field": "request_type",
+          "op": "in",
+          "value": [
+            "military_transfer",
+            "military_retirement"
+          ]
+        },
+        {
+          "field": "pattern_on_day_stem",
+          "op": "eq",
+          "value": "白入荧"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_employment_military_retirement_v1"
+      },
+      "source_lines": [
+        28
+      ],
+      "source_quote": "如果日干乘青龙逃走或荧入白者，必退役；如果乘白入荧、虎猖狂者，则不可退。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "条件是日干所乘，不是盘中任意宫的格；荧入白/白入荧正反不可混。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "source_interpretation": "不可退"
+    },
+    {
+      "key": "employment_retirement_tiger_rampant",
+      "domain": "work_employment",
+      "scope": "military_retirement_tiger_rampant",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "work_employment"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "military_retirement_tiger_rampant"
+        },
+        {
+          "field": "person_category",
+          "op": "in",
+          "value": [
+            "military_cadre",
+            "soldier"
+          ]
+        },
+        {
+          "field": "request_type",
+          "op": "in",
+          "value": [
+            "military_transfer",
+            "military_retirement"
+          ]
+        },
+        {
+          "field": "pattern_on_day_stem",
+          "op": "eq",
+          "value": "虎猖狂"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_employment_military_retirement_v1"
+      },
+      "source_lines": [
+        28
+      ],
+      "source_quote": "如果日干乘青龙逃走或荧入白者，必退役；如果乘白入荧、虎猖狂者，则不可退。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "条件是日干所乘，不是盘中任意宫的格；荧入白/白入荧正反不可混。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "source_interpretation": "不可退"
+    },
+    {
+      "key": "employment_retirement_snake",
+      "domain": "work_employment",
+      "scope": "military_retirement_snake",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "work_employment"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "military_retirement_snake"
+        },
+        {
+          "field": "person_category",
+          "op": "in",
+          "value": [
+            "military_cadre",
+            "soldier"
+          ]
+        },
+        {
+          "field": "request_type",
+          "op": "in",
+          "value": [
+            "military_transfer",
+            "military_retirement"
+          ]
+        },
+        {
+          "field": "pattern_on_day_stem",
+          "op": "eq",
+          "value": "螣蛇夭矫"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_employment_military_retirement_v1"
+      },
+      "source_lines": [
+        30
+      ],
+      "source_quote": "如果日干临螣蛇夭矫，则可能有官司缠身，欲退不能。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "保留可能官司措辞，日干条件不省略。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "source_interpretation": "可能有官司缠身，欲退不能"
+    },
+    {
+      "key": "employment_retirement_great_pattern",
+      "domain": "work_employment",
+      "scope": "military_retirement_great_pattern",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "work_employment"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "military_retirement_great_pattern"
+        },
+        {
+          "field": "person_category",
+          "op": "in",
+          "value": [
+            "military_cadre",
+            "soldier"
+          ]
+        },
+        {
+          "field": "request_type",
+          "op": "in",
+          "value": [
+            "military_transfer",
+            "military_retirement"
+          ]
+        },
+        {
+          "field": "observed_inauspicious_pattern",
+          "op": "eq",
+          "value": "大格"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_employment_military_retirement_v1"
+      },
+      "source_lines": [
+        32
+      ],
+      "source_quote": "如果见大格或雀投江凶格，则可能被辞职。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "只说可能被辞职，不改必然或主动准退；本句未强写日干乘，不从上一句擅自补。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "source_interpretation": "可能被辞职"
+    },
+    {
+      "key": "employment_retirement_bird_river",
+      "domain": "work_employment",
+      "scope": "military_retirement_bird_river",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "work_employment"
+        },
+        {
+          "field": "analysis_context",
+          "op": "eq",
+          "value": "military_retirement_bird_river"
+        },
+        {
+          "field": "person_category",
+          "op": "in",
+          "value": [
+            "military_cadre",
+            "soldier"
+          ]
+        },
+        {
+          "field": "request_type",
+          "op": "in",
+          "value": [
+            "military_transfer",
+            "military_retirement"
+          ]
+        },
+        {
+          "field": "observed_inauspicious_pattern",
+          "op": "eq",
+          "value": "雀投江"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_employment_military_retirement_v1"
+      },
+      "source_lines": [
+        32
+      ],
+      "source_quote": "如果见大格或雀投江凶格，则可能被辞职。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "只说可能被辞职，不改必然或主动准退；本句未强写日干乘，不从上一句擅自补。"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "source_interpretation": "可能被辞职"
+    }
+  ],
+  "historical_candidates": [],
+  "scope": "First-section supplied methods only; case seating, particular ministry mappings, task interpretation and residence-based election ranking are preserved exclusively as complete case methods.",
+  "source_acceptance": "confirmed",
+  "formal_role_rules_created": 0
+}

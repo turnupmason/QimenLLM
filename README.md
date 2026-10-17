@@ -1,8 +1,8 @@
 # QimenLLM
 
-古籍知识、确定性计算、完整案例与可替换语言模型结合的研究工程。**当前累计接收《神奇之门》九份章级输入、24个完整故事/25事件/24已给原盘（本轮5个求学考试故事）；支持符号计算、来源候选检查、案例阅读和原盘投影对照。独立公历起盘、正式用神激活、专业问事及模型训练尚未完成。**
+古籍知识、确定性计算、完整案例与可替换语言模型结合的研究工程。**当前累计接收《神奇之门》十份章级输入、29个完整故事/31事件/29已给原盘（本轮5个工作就业故事）；支持符号计算、来源候选检查、案例阅读和原盘投影对照。独立公历起盘、正式用神激活、专业问事及模型训练尚未完成。**
 
-用户已统一确认既往及未来提供的资料与历史事实，并声明已独立确认。维护导入默认confirmed，不再请求原文二次确认；确认依据与程序复算、模型评估分开记录，详见[现行来源政策](docs/KNOWLEDGE_POLICY.md)及[本轮求学考试报告](docs/ingestion/SHENQI_EXAM.md)。
+用户已统一确认既往及未来提供的资料与历史事实，并声明已独立确认。维护导入默认confirmed，不再请求原文二次确认；确认依据与程序复算、模型评估分开记录，详见[现行来源政策](docs/KNOWLEDGE_POLICY.md)及[本轮工作就业报告](docs/ingestion/SHENQI_EMPLOYMENT.md)。
 
 执行约束见 [AGENTS](AGENTS.md)，[完整用户总指令](docs/user_instructions/master_spec_2026-10-17.txt)，[当前进度](docs/STATUS.md)，[首章入库报告](docs/ingestion/SHENQI_CHAPTER01.md)、[第二份报告](docs/ingestion/SHENQI_CHAPTER02.md)、[第四、五章报告](docs/ingestion/SHENQI_CHAPTERS0405.md)、[应用概述报告](docs/ingestion/SHENQI_APPLICATION_OVERVIEW.md)、[疾病案例报告](docs/ingestion/SHENQI_HEALTH.md)、[婚恋案例报告](docs/ingestion/SHENQI_MARRIAGE.md)。没有读取或继承旧项目。
 
@@ -27,6 +27,7 @@ PYTHONPATH=src python3 -m qimenllm rule-candidates --domain health --context '{"
 PYTHONPATH=src python3 -m qimenllm case case-b3dd6097c4186c79d3b834cef63cad5cf7f195da0d7946de4495c1184b3e6459 --view before_prediction
 PYTHONPATH=src python3 -m qimenllm cases --chapter-key health-prediction
 PYTHONPATH=src python3 -m qimenllm cases --chapter-key marriage-prediction
+PYTHONPATH=src python3 -m qimenllm cases --chapter-key work-employment
 # 用目录返回的实际case_id/chart_id读取；明确比较方法才进行符号对照
 # PYTHONPATH=src python3 -m qimenllm case-chart CASE_ID CHART_ID --comparison-method shenqi_ch2_paper_v1
 PYTHONPATH=src python3 -m qimenllm ask '我最近想换工作'
@@ -38,7 +39,7 @@ PYTHONPATH=src python3 -m qimenllm ask '我最近想换工作'
 
 ```sh
 PYTHONPATH=src python3 -m qimenllm serve --port 8765
-PYTHONPATH=src python3 scripts/smoke_api.py --chapter01 --chapter02 --chapters0405 --application-overview --health --marriage --pregnancy --exam
+PYTHONPATH=src python3 scripts/smoke_api.py --chapter01 --chapter02 --chapters0405 --application-overview --health --marriage --pregnancy --exam --employment
 ```
 
 只监听127.0.0.1。GET /health；POST /v1/ask：`{"text":"问题"}`；/v1/learn：`{"term":"符头"}`；/v1/calculate：`{"operation":"earth_plate","args":{"dun":"阳遁","bureau":3}}`。POST /v1/reference为 `{"family":"stem_responses","filters":{"heaven_stem":"戊","earth_stem":"丙"}}`。POST /v1/rule-candidates为 `{"context":{"target_relationship":"self"},"domain":"health"}`；POST /v1/case为 `{"case_id":"已导入case_id","view":"before_prediction"}` 或full。候选检查不是专业激活，事前视图不含结果。POST /v1/cases为 `{"chapter_key":"health-prediction"}`，/v1/case-chart为 `{"case_id":"实际ID","chart_id":"实际ID","comparison_method":"shenqi_ch2_paper_v1"}`，比较方法可省略，仅读原盘。婚恋目录用chapter_key=marriage-prediction；事件可能未提供盘，须按events[].chart_ids选择。不把源表投影/对照当临床或专业问事结论。没有维护写路由，不是公众服务器。
@@ -51,7 +52,7 @@ src/qimenllm/按knowledge/casting/retrieval/rules/cases/reasoning/models/verific
 
 data/qimenllm.sqlite3是本地运行库，raw_books是原字节镜像，二者不直接入Git。**实际原文字节与全部权威表**保存在data/snapshots/current，可恢复；整理和来源测试在data/structured/shenqi，来源与验收在data/provenance。schema v1见src/qimenllm/knowledge/migrations/001_initial.sql及[SCHEMA](docs/SCHEMA.md)。
 
-累计336个上下文块、39编译符号族、246来源/技术边界、16符号教学例；102当前候选对应109不可变历史条，正式角色rules仍0。24完整故事/23家族/25事件/24已给原盘、374记录/633证据；缺盘不造。作者已写反馈按用户声明确认；未记载结果不补。本轮5盘所列236字段一致，原文保留，训练任务0。217个旧有向参考键仍保留原句和条件，详见[覆盖](docs/KNOWLEDGE_COVERAGE.md)。
+累计350个上下文块、39编译符号族、267来源/技术边界、16符号教学例；129当前候选对应136不可变历史条，正式角色rules仍0。29完整故事/28家族/31事件/29已给原盘、475记录/796证据；缺盘不造。作者已写反馈按用户声明确认；未记载结果不补。本轮5盘235字段比较，4盘一致、调动盘2处携干差异保留，训练任务0。217个旧有向参考键仍保留原句和条件，详见[覆盖](docs/KNOWLEDGE_COVERAGE.md)。
 
 ## 每次更新同步GitHub
 
@@ -66,8 +67,9 @@ PYTHONPATH=src python3 scripts/import_shenqi_health.py
 PYTHONPATH=src python3 scripts/import_shenqi_marriage.py
 PYTHONPATH=src python3 scripts/import_shenqi_pregnancy.py
 PYTHONPATH=src python3 scripts/import_shenqi_exam.py
+PYTHONPATH=src python3 scripts/import_shenqi_employment.py
 PYTHONPATH=src python3 -m qimenllm export-snapshot
 PYTHONPATH=src python3 -m qimenllm sync --message 'Update project and source data'
 ```
 
-各章重放脚本只接受对应上传的确切哈希，重放不重复入库；新章/修订另走导入。当前云会话若命令行API受限，Codex通过连接器核实私有状态，再正常Git HTTPS推送并核对远端；pending不算完成。维护和恢复见[GITHUB_SYNC](docs/GITHUB_SYNC.md)、[IMPORT_PROTOCOL](docs/IMPORT_PROTOCOL.md)。不提交密钥、私人问事或模型权重，不公开分发原书。
+各章重放脚本只接受对应已给原文的确切哈希（本次内联聊天另验父消息及正文切片），重放不重复入库；新章/修订另走导入。当前云会话若命令行API受限，Codex通过连接器核实私有状态，再正常Git HTTPS推送并核对远端；pending不算完成。维护和恢复见[GITHUB_SYNC](docs/GITHUB_SYNC.md)、[IMPORT_PROTOCOL](docs/IMPORT_PROTOCOL.md)。不提交密钥、私人问事或模型权重，不公开分发原书。

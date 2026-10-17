@@ -1,0 +1,2159 @@
+{
+  "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+  "source_byte_count": 22421,
+  "source_line_count": 550,
+  "chapter_title": "工作就业预测",
+  "chapter_key_suggestion": "work-employment",
+  "printed_chapter_number": null,
+  "sections": [
+    {
+      "key": "section_01",
+      "title": "第一节 取用判断经验",
+      "line_start": 1,
+      "line_end": 35
+    },
+    {
+      "key": "section_02",
+      "title": "第二节 实例解析（5例）",
+      "line_start": 36,
+      "line_end": 550
+    }
+  ],
+  "groups": [
+    {
+      "key": "employment_title_and_section_01",
+      "title": "工作就业预测：章题与第一节",
+      "category": "commentary",
+      "line_start": 1,
+      "line_end": 5,
+      "attribution": "本章叙述者；例1杜新会、张顺良初看及张志春复核，例3张顺良，例4杜新会自述，例5尚瓴吉及张志春按语分别归属",
+      "summary": "保留章题和节题；没有印刷章号。",
+      "concepts": [
+        "工作就业预测",
+        "取用判断经验"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 1,
+        "line_end": 5,
+        "byte_start": 0,
+        "byte_end": 51
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "employment_scope_and_roles",
+      "title": "工作就业：范围、文武单位和人物层级",
+      "category": "role",
+      "line_start": 6,
+      "line_end": 9,
+      "attribution": "本章叙述者；例1杜新会、张顺良初看及张志春复核，例3张顺良，例4杜新会自述，例5尚瓴吉及张志春按语分别归属",
+      "summary": "完整范围及一般角色映射，不以年龄推关系；开杜的文武口径与年值月日时层级分开。",
+      "concepts": [
+        "毕业分配",
+        "求职就业",
+        "竞争上岗",
+        "晋升职称",
+        "官职升降",
+        "工作调动",
+        "开门",
+        "杜门",
+        "年干",
+        "值符",
+        "月干",
+        "日干",
+        "时干"
+      ],
+      "dataset": {
+        "key": "employment_scope_and_roles_reference",
+        "rows": [
+          {
+            "key": "employment_scope",
+            "analysis_focus": "工作领域范围，非单一就业子类",
+            "source_lines": [
+              6,
+              6
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 6,
+              "line_end": 6,
+              "byte_start": 51,
+              "byte_end": 172
+            },
+            "source_quote": "工作就业预测，包括毕业分配、求职就业、竞争上岗、晋升职称、官职升降、工作调动等。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_employment_method_reference",
+            "method_scope": "shenqi_employment_first_section_reference_v1",
+            "subtypes": [
+              "毕业分配",
+              "求职就业",
+              "竞争上岗",
+              "晋升职称",
+              "官职升降",
+              "工作调动"
+            ]
+          },
+          {
+            "key": "employment_civil_military_doors",
+            "analysis_focus": "文职开门、武职杜门分别指工作及单位",
+            "source_lines": [
+              8,
+              8
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 8,
+              "line_end": 8,
+              "byte_start": 173,
+              "byte_end": 417
+            },
+            "source_quote": "一般以开门代表文职工作及单位，以杜门代表武职工作及单位。以年干代表上级领导，以值符代表顶头上司，以月干代表同事，以日干代表求测之人，以时干代表下级或单位职工群众。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_employment_method_reference",
+            "method_scope": "shenqi_employment_first_section_reference_v1",
+            "role_candidates": [
+              {
+                "condition": "文职工作及单位",
+                "role": "工作/单位",
+                "symbol": "开门"
+              },
+              {
+                "condition": "武职工作及单位",
+                "role": "工作/单位",
+                "symbol": "杜门"
+              }
+            ],
+            "technical_boundary": "一般以，不强制将每个案例每家具体单位都套作相同门；例2外经部生门只属原案。"
+          },
+          {
+            "key": "employment_hierarchy_roles",
+            "analysis_focus": "年干上级、值符顶头上司、月干同事、日干本人、时干下级群众",
+            "source_lines": [
+              8,
+              8
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 8,
+              "line_end": 8,
+              "byte_start": 173,
+              "byte_end": 417
+            },
+            "source_quote": "一般以开门代表文职工作及单位，以杜门代表武职工作及单位。以年干代表上级领导，以值符代表顶头上司，以月干代表同事，以日干代表求测之人，以时干代表下级或单位职工群众。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_employment_method_reference",
+            "method_scope": "shenqi_employment_first_section_reference_v1",
+            "role_candidates": [
+              {
+                "role": "上级领导",
+                "symbol": "年干"
+              },
+              {
+                "role": "顶头上司",
+                "symbol": "值符"
+              },
+              {
+                "role": "同事",
+                "symbol": "月干"
+              },
+              {
+                "role": "求测之人",
+                "symbol": "日干"
+              },
+              {
+                "role": "下级或单位职工群众",
+                "symbol": "时干"
+              }
+            ],
+            "technical_boundary": "年干不是出生年干；问者本人不等于代问对象，案例具体语境可另取。"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 6,
+        "line_end": 9,
+        "byte_start": 51,
+        "byte_end": 418
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "employment_recruitment_complete",
+      "title": "求职得官：自身条件与有向生克",
+      "category": "analysis",
+      "line_start": 10,
+      "line_end": 11,
+      "attribution": "本章叙述者；例1杜新会、张顺良初看及张志春复核，例3张顺良，例4杜新会自述，例5尚瓴吉及张志春按语分别归属",
+      "summary": "保持有利条件、相生、本人克门、失时地并受门冲克四类语境；不将任一单项视作通用结论。",
+      "concepts": [
+        "日干",
+        "年命",
+        "旺相",
+        "吉门",
+        "吉格",
+        "吉神",
+        "开门",
+        "杜门",
+        "天时",
+        "地利",
+        "相生",
+        "冲克"
+      ],
+      "dataset": {
+        "key": "employment_recruitment_complete_reference",
+        "rows": [
+          {
+            "key": "employment_person_day_or_birth_year",
+            "analysis_focus": "日干或年命作为自身落宫观察视角",
+            "source_lines": [
+              10,
+              10
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 10,
+              "line_end": 10,
+              "byte_start": 418,
+              "byte_end": 761
+            },
+            "source_quote": "日干或年命落宫旺相，又得吉门吉格吉神者，表示自身条件好，得天时地利；再得开门或杜门相生，则求职得官顺利；如果日干或年命克开门或杜门，经过努力，也能得到工作或官职；如果自身不得天时地利，又受开门或杜门冲克者，必然得不到官职或工作。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_employment_method_reference",
+            "method_scope": "shenqi_employment_first_section_reference_v1",
+            "role_candidates": [
+              {
+                "symbol": "日干",
+                "role": "本人"
+              },
+              {
+                "symbol": "年命",
+                "role": "本人",
+                "alternative_or_supplementary": true
+              }
+            ],
+            "technical_boundary": "原文写或，不编为唯一强制方法；年命需已知出生年，不与问时年干相混。"
+          },
+          {
+            "key": "employment_favorable_supported",
+            "analysis_focus": "自身旺相、吉门吉格吉神，加开门或杜门相生的联合条件",
+            "source_lines": [
+              10,
+              10
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 10,
+              "line_end": 10,
+              "byte_start": 418,
+              "byte_end": 761
+            },
+            "source_quote": "日干或年命落宫旺相，又得吉门吉格吉神者，表示自身条件好，得天时地利；再得开门或杜门相生，则求职得官顺利；如果日干或年命克开门或杜门，经过努力，也能得到工作或官职；如果自身不得天时地利，又受开门或杜门冲克者，必然得不到官职或工作。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_employment_method_reference",
+            "method_scope": "shenqi_employment_first_section_reference_v1",
+            "required_conditions": [
+              "日干或年命落宫旺相",
+              "得吉门",
+              "得吉格",
+              "得吉神",
+              "所选文职开门或武职杜门生自身"
+            ],
+            "relation_direction": "开门/杜门落宫 -> 生 -> 日干/年命落宫",
+            "author_interpretation": "求职得官顺利"
+          },
+          {
+            "key": "employment_favorable_controls",
+            "analysis_focus": "自身条件段落中本人克工作门的努力取得途径",
+            "source_lines": [
+              10,
+              10
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 10,
+              "line_end": 10,
+              "byte_start": 418,
+              "byte_end": 761
+            },
+            "source_quote": "日干或年命落宫旺相，又得吉门吉格吉神者，表示自身条件好，得天时地利；再得开门或杜门相生，则求职得官顺利；如果日干或年命克开门或杜门，经过努力，也能得到工作或官职；如果自身不得天时地利，又受开门或杜门冲克者，必然得不到官职或工作。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_employment_method_reference",
+            "method_scope": "shenqi_employment_first_section_reference_v1",
+            "required_conditions": [
+              "日干或年命落宫旺相",
+              "得吉门吉格吉神",
+              "日干或年命克相应开门或杜门"
+            ],
+            "relation_direction": "日干/年命落宫 -> 克 -> 开门/杜门落宫",
+            "author_interpretation": "经过努力，也能得到工作或官职",
+            "technical_boundary": "保留本段自身条件好的上下文；不反向写成工作门克本人也得官。"
+          },
+          {
+            "key": "employment_unfavorable_and_controlled",
+            "analysis_focus": "自身不得天时地利且受工作门冲克的联合条件",
+            "source_lines": [
+              10,
+              10
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 10,
+              "line_end": 10,
+              "byte_start": 418,
+              "byte_end": 761
+            },
+            "source_quote": "日干或年命落宫旺相，又得吉门吉格吉神者，表示自身条件好，得天时地利；再得开门或杜门相生，则求职得官顺利；如果日干或年命克开门或杜门，经过努力，也能得到工作或官职；如果自身不得天时地利，又受开门或杜门冲克者，必然得不到官职或工作。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_employment_method_reference",
+            "method_scope": "shenqi_employment_first_section_reference_v1",
+            "required_conditions": [
+              "自身不得天时地利",
+              "相应开门或杜门冲克自身"
+            ],
+            "relation_direction": "开门/杜门落宫 -> 冲/克 -> 自身落宫",
+            "author_interpretation": "原文断得不到官职或工作"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 10,
+        "line_end": 11,
+        "byte_start": 418,
+        "byte_end": 762
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "employment_promotion_complete",
+      "title": "晋升：四面考察与三方支持",
+      "category": "analysis",
+      "line_start": 12,
+      "line_end": 13,
+      "attribution": "本章叙述者；例1杜新会、张顺良初看及张志春复核，例3张顺良，例4杜新会自述，例5尚瓴吉及张志春按语分别归属",
+      "summary": "晋升职务、职称完整条件与原文反面概括并存，不替代具体盘面事实。",
+      "concepts": [
+        "晋升",
+        "职务",
+        "职称",
+        "天时",
+        "地利",
+        "人和",
+        "自身条件",
+        "年干",
+        "值符",
+        "开门"
+      ],
+      "dataset": {
+        "key": "employment_promotion_complete_reference",
+        "rows": [
+          {
+            "key": "employment_promotion_complete",
+            "analysis_focus": "晋升职务职称的天时地利人和、自身和三方相生条件",
+            "source_lines": [
+              12,
+              12
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 12,
+              "line_end": 12,
+              "byte_start": 762,
+              "byte_end": 976
+            },
+            "source_quote": "能否晋升职务、职称也是如此。一看天时，二看地利，三看人和，四看自身条件和运气。自身条件好，又得年干、值符、开门相生者，必然能晋升，反之则不能。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_employment_method_reference",
+            "method_scope": "shenqi_employment_first_section_reference_v1",
+            "required_conditions": [
+              "天时",
+              "地利",
+              "人和",
+              "自身条件和运气",
+              "自身条件好",
+              "年干相生自身",
+              "值符相生自身",
+              "开门相生自身"
+            ],
+            "relation_direction": "年干/值符/开门 -> 生 -> 自身",
+            "author_interpretation": "自身条件好又得三方相生者能晋升，原书并说反之则不能",
+            "technical_boundary": "只保留原书概括，反之不展开为未给的唯一布尔逆命题；不能把任一项缺失自动判不晋升。"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 12,
+        "line_end": 13,
+        "byte_start": 762,
+        "byte_end": 977
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "employment_demotion_transfer_complete",
+      "title": "降调、调任、革职与入墓：对象和方法范围",
+      "category": "analysis",
+      "line_start": 14,
+      "line_end": 15,
+      "attribution": "本章叙述者；例1杜新会、张顺良初看及张志春复核，例3张顺良，例4杜新会自述，例5尚瓴吉及张志春按语分别归属",
+      "summary": "开门文官/杜门武官有向克用神；反吟空亡入墓条文保留未明确主体，不自行扩大。",
+      "concepts": [
+        "开门",
+        "杜门",
+        "用神",
+        "反吟",
+        "空亡",
+        "入墓",
+        "文官",
+        "武官",
+        "降职",
+        "调任",
+        "革职"
+      ],
+      "dataset": {
+        "key": "employment_demotion_transfer_complete_reference",
+        "rows": [
+          {
+            "key": "employment_civil_demote",
+            "analysis_focus": "开门克用神的文官降调",
+            "source_lines": [
+              14,
+              14
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 14,
+              "line_end": 14,
+              "byte_start": 977,
+              "byte_end": 1122
+            },
+            "source_quote": "开门克用神，文官降调。杜门克用神，武官降职。反吟主调任，空亡必革职，入墓不但降罚，还会招来罪戾。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_employment_method_reference",
+            "method_scope": "shenqi_employment_first_section_reference_v1",
+            "required_conditions": [
+              "文官语境",
+              "开门克用神"
+            ],
+            "relation_direction": "开门 -> 克 -> 用神",
+            "author_interpretation": "文官降调"
+          },
+          {
+            "key": "employment_military_demote",
+            "analysis_focus": "杜门克用神的武官降职",
+            "source_lines": [
+              14,
+              14
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 14,
+              "line_end": 14,
+              "byte_start": 977,
+              "byte_end": 1122
+            },
+            "source_quote": "开门克用神，文官降调。杜门克用神，武官降职。反吟主调任，空亡必革职，入墓不但降罚，还会招来罪戾。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_employment_method_reference",
+            "method_scope": "shenqi_employment_first_section_reference_v1",
+            "required_conditions": [
+              "武官语境",
+              "杜门克用神"
+            ],
+            "relation_direction": "杜门 -> 克 -> 用神",
+            "author_interpretation": "武官降职"
+          },
+          {
+            "key": "employment_fanyin_transfer",
+            "analysis_focus": "反吟主调任，须明确所看主体",
+            "source_lines": [
+              14,
+              14
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 14,
+              "line_end": 14,
+              "byte_start": 977,
+              "byte_end": 1122
+            },
+            "source_quote": "开门克用神，文官降调。杜门克用神，武官降职。反吟主调任，空亡必革职，入墓不但降罚，还会招来罪戾。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_employment_method_reference",
+            "method_scope": "shenqi_employment_first_section_reference_v1",
+            "required_conditions": [
+              "官职工作升降语境",
+              "所看对象已明确",
+              "所看对象反吟"
+            ],
+            "author_interpretation": "主调任",
+            "technical_boundary": "本句未细指定反吟盘层或唯一主体，不自行补为所有反吟一律调任。"
+          },
+          {
+            "key": "employment_void_dismissal",
+            "analysis_focus": "空亡革职，保留原文未细指定主体的范围",
+            "source_lines": [
+              14,
+              14
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 14,
+              "line_end": 14,
+              "byte_start": 977,
+              "byte_end": 1122
+            },
+            "source_quote": "开门克用神，文官降调。杜门克用神，武官降职。反吟主调任，空亡必革职，入墓不但降罚，还会招来罪戾。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_employment_method_reference",
+            "method_scope": "shenqi_employment_first_section_reference_v1",
+            "required_conditions": [
+              "官职工作升降语境",
+              "所看对象已明确",
+              "所看对象空亡"
+            ],
+            "author_interpretation": "原文称空亡必革职",
+            "technical_boundary": "未指定本句空亡的统一主体，不编为任何宫空亡即革职。"
+          },
+          {
+            "key": "employment_tomb_penalty",
+            "analysis_focus": "入墓降罚及罪戾原文",
+            "source_lines": [
+              14,
+              14
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 14,
+              "line_end": 14,
+              "byte_start": 977,
+              "byte_end": 1122
+            },
+            "source_quote": "开门克用神，文官降调。杜门克用神，武官降职。反吟主调任，空亡必革职，入墓不但降罚，还会招来罪戾。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_employment_method_reference",
+            "method_scope": "shenqi_employment_first_section_reference_v1",
+            "required_conditions": [
+              "官职工作升降语境",
+              "所看对象已明确",
+              "所看对象入墓"
+            ],
+            "author_interpretation": "原文称不但降罚还会招来罪戾",
+            "technical_boundary": "传统条文，不产生现代违法认定或个人人身断言。"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 14,
+        "line_end": 15,
+        "byte_start": 977,
+        "byte_end": 1123
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "employment_opposition_sources",
+      "title": "工作层级：来克来源和人物对应",
+      "category": "analysis",
+      "line_start": 16,
+      "line_end": 17,
+      "attribution": "本章叙述者；例1杜新会、张顺良初看及张志春复核，例3张顺良，例4杜新会自述，例5尚瓴吉及张志春按语分别归属",
+      "summary": "四种来克有不同人物来源；不可交换方向，不以例4任务解释反推本节所有时干。",
+      "concepts": [
+        "太岁",
+        "值符",
+        "月干",
+        "时干",
+        "上级领导",
+        "顶头上司",
+        "同事",
+        "下级",
+        "来克"
+      ],
+      "dataset": {
+        "key": "employment_opposition_sources_reference",
+        "rows": [
+          {
+            "key": "employment_opposition_sources",
+            "analysis_focus": "太岁、值符、月干、时干来克的四个来源分别解释",
+            "source_lines": [
+              16,
+              16
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 16,
+              "line_end": 16,
+              "byte_start": 1123,
+              "byte_end": 1262
+            },
+            "source_quote": "太岁来克，上级领导不喜；值符来克，顶头上司不爱；月干来克，同事参劾；时干来克，下边群众告状。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_employment_method_reference",
+            "method_scope": "shenqi_employment_first_section_reference_v1",
+            "relation_direction": "太岁/值符/月干/时干 -> 克 -> 求测主体",
+            "interpretation_by_source": {
+              "太岁": "上级领导不喜",
+              "值符": "顶头上司不爱",
+              "月干": "同事参劾",
+              "时干": "下边群众告状"
+            },
+            "technical_boundary": "是本节层级语境，不覆盖例4时干为工作任务的具体解释。"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 16,
+        "line_end": 17,
+        "byte_start": 1123,
+        "byte_end": 1263
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "employment_character_analogy_complete",
+      "title": "开门官星与九星人品类象",
+      "category": "analogy",
+      "line_start": 18,
+      "line_end": 21,
+      "attribution": "本章叙述者；例1杜新会、张顺良初看及张志春复核，例3张顺良，例4杜新会自述，例5尚瓴吉及张志春按语分别归属",
+      "summary": "完整九星原词保留，人品类象与固定五行属性及现代人品断言区别。",
+      "concepts": [
+        "开门",
+        "官星",
+        "天辅星",
+        "天任星",
+        "天心星",
+        "天禽星",
+        "天冲星",
+        "天英星",
+        "天芮星",
+        "天柱星",
+        "天蓬星",
+        "人品类象"
+      ],
+      "dataset": {
+        "key": "employment_character_analogy_complete_reference",
+        "rows": [
+          {
+            "key": "employment_official_star_analogy",
+            "analysis_focus": "开门官星所临九星的人品传统类象，完整保留九项",
+            "source_lines": [
+              18,
+              20
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 18,
+              "line_end": 20,
+              "byte_start": 1263,
+              "byte_end": 1536
+            },
+            "source_quote": "又以开门为官星，以其所临九星为人品。如开门上乘吉星为好人，凶星为恶人。\n\n临天辅星文雅，天任星慈祥，天心星正直，天禽星忠厚，天冲星风厉，天英星昏烈，天芮星贪毒，天柱星奸诈，天蓬星大恶。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_character_analogy_reference",
+            "method_scope": "shenqi_employment_character_analogy_v1",
+            "role_candidates": [
+              {
+                "symbol": "开门",
+                "role": "官星"
+              }
+            ],
+            "star_analogies": {
+              "天辅星": "文雅",
+              "天任星": "慈祥",
+              "天心星": "正直",
+              "天禽星": "忠厚",
+              "天冲星": "风厉",
+              "天英星": "昏烈",
+              "天芮星": "贪毒",
+              "天柱星": "奸诈",
+              "天蓬星": "大恶"
+            },
+            "technical_boundary": "保存为来源传统人品类象，非星体固定属性，不自动给当代真实人物贴好坏、道德或犯罪标签。"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 18,
+        "line_end": 21,
+        "byte_start": 1263,
+        "byte_end": 1537
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "employment_military_retirement_complete",
+      "title": "军人转业退役：角色、生克与反向格局",
+      "category": "role",
+      "line_start": 22,
+      "line_end": 35,
+      "attribution": "本章叙述者；例1杜新会、张顺良初看及张志春复核，例3张顺良，例4杜新会自述，例5尚瓴吉及张志春按语分别归属",
+      "summary": "以军队干部士兵及转业退役为前提；杜生不准、杜克或比和准，日干所乘成对格局正反分别保留。",
+      "concepts": [
+        "军队干部",
+        "士兵",
+        "转业",
+        "退役",
+        "杜门",
+        "日干",
+        "青龙逃走",
+        "荧入白",
+        "白入荧",
+        "虎猖狂",
+        "螣蛇夭矫",
+        "大格",
+        "雀投江"
+      ],
+      "dataset": {
+        "key": "employment_military_retirement_complete_reference",
+        "rows": [
+          {
+            "key": "employment_retirement_roles",
+            "analysis_focus": "军队干部士兵转业退役：官长杜门、退役本人日干",
+            "source_lines": [
+              22,
+              22
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 22,
+              "line_end": 22,
+              "byte_start": 1537,
+              "byte_end": 1628
+            },
+            "source_quote": "军队干部和士兵转业或退役，可以杜门为官长，以日干为退役之人。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_employment_method_reference",
+            "method_scope": "shenqi_employment_military_retirement_v1",
+            "role_candidates": [
+              {
+                "symbol": "杜门",
+                "role": "官长"
+              },
+              {
+                "symbol": "日干",
+                "role": "退役之人"
+              }
+            ],
+            "required_conditions": [
+              "军队干部或士兵",
+              "转业或退役问事"
+            ]
+          },
+          {
+            "key": "employment_retirement_generation",
+            "analysis_focus": "杜门生本人：工作需要、领导留人而不准退",
+            "source_lines": [
+              24,
+              24
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 24,
+              "line_end": 24,
+              "byte_start": 1629,
+              "byte_end": 1717
+            },
+            "source_quote": "如果杜门生日干，主工作需要，领导有意留你，不准转业或退役。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_employment_method_reference",
+            "method_scope": "shenqi_employment_first_section_reference_v1",
+            "relation_direction": "杜门 -> 生 -> 日干",
+            "author_interpretation": "不准转业或退役"
+          },
+          {
+            "key": "employment_retirement_control_or_equal",
+            "analysis_focus": "杜门克日干或比和，两途均准退",
+            "source_lines": [
+              26,
+              26
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 26,
+              "line_end": 26,
+              "byte_start": 1718,
+              "byte_end": 1779
+            },
+            "source_quote": "如果杜门克日干，则准退。比和者，也准退。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_employment_method_reference",
+            "method_scope": "shenqi_employment_first_section_reference_v1",
+            "relation_direction": "杜门 -> 克/比和 -> 日干",
+            "author_interpretation": "准退"
+          },
+          {
+            "key": "employment_retirement_opposed_pattern_pairs",
+            "analysis_focus": "日干青龙逃走/荧入白准退；白入荧/虎猖狂不可退",
+            "source_lines": [
+              28,
+              28
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 28,
+              "line_end": 28,
+              "byte_start": 1780,
+              "byte_end": 1889
+            },
+            "source_quote": "如果日干乘青龙逃走或荧入白者，必退役；如果乘白入荧、虎猖狂者，则不可退。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_employment_method_reference",
+            "method_scope": "shenqi_employment_first_section_reference_v1",
+            "required_conditions": [
+              "日干乘相应格局",
+              "转业或退役语境"
+            ],
+            "interpretation_by_pattern": {
+              "青龙逃走": "必退役",
+              "荧入白": "必退役",
+              "白入荧": "不可退",
+              "虎猖狂": "不可退"
+            },
+            "technical_boundary": "荧入白与白入荧不能颠倒，条件是日干乘，不是盘中任意格局即触发。"
+          },
+          {
+            "key": "employment_retirement_snake_entanglement",
+            "analysis_focus": "日干临螣蛇夭矫的官司可能与欲退不能",
+            "source_lines": [
+              30,
+              30
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 30,
+              "line_end": 30,
+              "byte_start": 1890,
+              "byte_end": 1963
+            },
+            "source_quote": "如果日干临螣蛇夭矫，则可能有官司缠身，欲退不能。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_employment_method_reference",
+            "method_scope": "shenqi_employment_first_section_reference_v1",
+            "required_conditions": [
+              "日干临螣蛇夭矫"
+            ],
+            "author_interpretation": "可能有官司缠身，欲退不能",
+            "technical_boundary": "保留可能，不改成已发生官司。"
+          },
+          {
+            "key": "employment_retirement_possible_dismissal",
+            "analysis_focus": "大格或雀投江凶格，原文只说可能被辞职",
+            "source_lines": [
+              32,
+              32
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 32,
+              "line_end": 32,
+              "byte_start": 1964,
+              "byte_end": 2022
+            },
+            "source_quote": "如果见大格或雀投江凶格，则可能被辞职。\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "traditional_employment_method_reference",
+            "method_scope": "shenqi_employment_first_section_reference_v1",
+            "required_conditions": [
+              "见大格或雀投江凶格"
+            ],
+            "author_interpretation": "可能被辞职",
+            "technical_boundary": "不把可能改成必然，不把被辞职等同主动准退。"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 22,
+        "line_end": 35,
+        "byte_start": 1537,
+        "byte_end": 2025
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "employment_section_02_title",
+      "title": "第二节 实例解析（5例）",
+      "category": "commentary",
+      "line_start": 36,
+      "line_end": 38,
+      "attribution": "本章叙述者；例1杜新会、张顺良初看及张志春复核，例3张顺良，例4杜新会自述，例5尚瓴吉及张志春按语分别归属",
+      "summary": "实例节题原样保留。",
+      "concepts": [
+        "实例解析"
+      ],
+      "dataset": null,
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 36,
+        "line_end": 38,
+        "byte_start": 2025,
+        "byte_end": 2060
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "employment_case_01_complete",
+      "title": "完整案例1：测毕业分配",
+      "category": "analysis",
+      "line_start": 39,
+      "line_end": 106,
+      "attribution": "本章叙述者；例1杜新会、张顺良初看及张志春复核，例3张顺良，例4杜新会自述，例5尚瓴吉及张志春按语分别归属",
+      "summary": "完整故事与原书盘、对话、显式原编号分析、应期、反馈及续断完整关联；特殊方法不自动推广。",
+      "concepts": [
+        "工作就业",
+        "测毕业分配",
+        "原书盘",
+        "用神",
+        "有向生克",
+        "应期",
+        "反馈",
+        "续断"
+      ],
+      "dataset": {
+        "key": "employment_case_01_complete_reference",
+        "rows": [
+          {
+            "key": "employment_case_01_author_step_1",
+            "analysis_focus": "餐桌东南巽4取方位、开门壬庚移荡及宣传大单位贵人",
+            "source_lines": [
+              86,
+              89
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 86,
+              "line_end": 89,
+              "byte_start": 3646,
+              "byte_end": 4151
+            },
+            "source_quote": "（1）以巽4宫断，正逢开门，开门主工作、主单位，壬主流动、变动，壬+庚，对冲乾6宫为庚+壬，均为移荡格，主工作变动，正是毕业分配之事。\n\n西北逢杜门，闭塞不通，东南临开门，当分配到其家东南方向的单位；巽为风，主教化，开门为公开，当为宣传部门，地盘为庚，当为大单位；阳遁4宫主内主近，单位应当是石家庄的单位；乘天心吉星，太阴吉神，主有贵人暗中相助。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "employment_case_01",
+            "step_number": 1,
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "完整来源上下文供阅读；记录级时间隔离另存，禁止整段含反馈/后评直接作预测前训练输入。",
+            "attributed_forecaster": "杜新会、张顺良据座位初断；张志春饭后复核"
+          },
+          {
+            "key": "employment_case_01_author_step_2",
+            "analysis_focus": "年日同丙、景门理工和年干学校坎水生开门巽木",
+            "source_lines": [
+              90,
+              91
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 90,
+              "line_end": 91,
+              "byte_start": 4151,
+              "byte_end": 4445
+            },
+            "source_quote": "（2）年干与日干同为丙火，落坎一宫，逢景门，说明该生学的是理工科，丙加乙为“日月并行”，公私谋为皆吉利；又上乘九天吉神；年干丙为学校，为领导，所落坎一宫之水，生开门落宫之木，说明毕业分配比较顺利。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "employment_case_01",
+            "step_number": 2,
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "完整来源上下文供阅读；记录级时间隔离另存，禁止整段含反馈/后评直接作预测前训练输入。",
+            "attributed_forecaster": "杜新会、张顺良据座位初断；张志春饭后复核"
+          },
+          {
+            "key": "employment_case_01_author_step_3",
+            "analysis_focus": "值使死门反吟之不利与值符、寅月木旺土死证据权衡",
+            "source_lines": [
+              92,
+              95
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 92,
+              "line_end": 95,
+              "byte_start": 4445,
+              "byte_end": 4742
+            },
+            "source_quote": "（3）虽然死门为值使落8宫反吟，主不顺，但上乘值符，千灾万祸化为尘；又时令在寅月，木旺，土死，死门落宫虽然与日干、开门落宫相克，但不起作用。\n\n所以断，毕业分配虽然有难度，但会有贵人帮忙，能够比较满意。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "employment_case_01",
+            "step_number": 3,
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "完整来源上下文供阅读；记录级时间隔离另存，禁止整段含反馈/后评直接作预测前训练输入。",
+            "attributed_forecaster": "杜新会、张顺良据座位初断；张志春饭后复核"
+          },
+          {
+            "key": "employment_case_01_author_step_4",
+            "analysis_focus": "辰巳空、反吟内盘近快与本月辰巳应期",
+            "source_lines": [
+              96,
+              98
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 96,
+              "line_end": 98,
+              "byte_start": 4742,
+              "byte_end": 4945
+            },
+            "source_quote": "（4）甲午旬中辰、巳空，现在开门落空亡之地，星门反吟主做事成败易分、速度快，开门落4宫为内盘也主近主快，所以应该以本月辰日或巳日为应期。\n\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "employment_case_01",
+            "step_number": 4,
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "完整来源上下文供阅读；记录级时间隔离另存，禁止整段含反馈/后评直接作预测前训练输入。",
+            "attributed_forecaster": "杜新会、张顺良据座位初断；张志春饭后复核"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 39,
+        "line_end": 106,
+        "byte_start": 2060,
+        "byte_end": 5266
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "employment_case_02_complete",
+      "title": "完整案例2：母测子毕业分配",
+      "category": "analysis",
+      "line_start": 107,
+      "line_end": 199,
+      "attribution": "本章叙述者；例1杜新会、张顺良初看及张志春复核，例3张顺良，例4杜新会自述，例5尚瓴吉及张志春按语分别归属",
+      "summary": "完整故事与原书盘、对话、显式原编号分析、应期、反馈及续断完整关联；特殊方法不自动推广。",
+      "concepts": [
+        "工作就业",
+        "母测子毕业分配",
+        "原书盘",
+        "用神",
+        "有向生克",
+        "应期",
+        "反馈",
+        "续断"
+      ],
+      "dataset": {
+        "key": "employment_case_02_complete_reference",
+        "rows": [
+          {
+            "key": "employment_case_02_author_step_1",
+            "analysis_focus": "时干庚子、年命甲寅癸并参",
+            "source_lines": [
+              156,
+              159
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 156,
+              "line_end": 159,
+              "byte_start": 6765,
+              "byte_end": 6991
+            },
+            "source_quote": "（1）以时干庚代表她儿子，落坎1宫，临死门，正发愁不知怎么办好。\n\n又以年命甲寅癸代表她儿子，癸落巽4宫，下临太岁丙，又临天心吉星，休门吉门，说明运气不错。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "employment_case_02",
+            "step_number": 1,
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "完整来源上下文供阅读；记录级时间隔离另存，禁止整段含反馈/后评直接作预测前训练输入。",
+            "attributed_forecaster": "张志春初断及11月25日旧盘续断"
+          },
+          {
+            "key": "employment_case_02_author_step_2",
+            "analysis_focus": "开门外交部、生门外经部的原案选择，时干生克与年命关系",
+            "source_lines": [
+              160,
+              165
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 160,
+              "line_end": 165,
+              "byte_start": 6991,
+              "byte_end": 7306
+            },
+            "source_quote": "（2）以开门所落3宫为外交部，时干庚在1宫，生3宫，说明其子想去外交部。\n\n以生门所落9宫为外经部，时干庚1宫克之，说明能去成；特别是年命癸在巽4宫，生外经部所在9宫，说明还是去外经部为好。\n\n年命癸与外交部所在3宫只是比和。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "employment_case_02",
+            "step_number": 2,
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "完整来源上下文供阅读；记录级时间隔离另存，禁止整段含反馈/后评直接作预测前训练输入。",
+            "attributed_forecaster": "张志春初断及11月25日旧盘续断"
+          },
+          {
+            "key": "employment_case_02_author_step_3",
+            "analysis_focus": "日时内外主慢、反吟快且反复",
+            "source_lines": [
+              166,
+              168
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 166,
+              "line_end": 168,
+              "byte_start": 7306,
+              "byte_end": 7445
+            },
+            "source_quote": "（3）日干乙在内盘，时干庚在外盘，一内一外主慢；虽然九星反吟主应期快，但也主事情可能有反复。\n\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "employment_case_02",
+            "step_number": 3,
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "完整来源上下文供阅读；记录级时间隔离另存，禁止整段含反馈/后评直接作预测前训练输入。",
+            "attributed_forecaster": "张志春初断及11月25日旧盘续断"
+          },
+          {
+            "key": "employment_case_02_author_step_4",
+            "analysis_focus": "11月25日反馈后旧盘续断：月干同学克子、年干学校生子",
+            "source_lines": [
+              179,
+              180
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 179,
+              "line_end": 180,
+              "byte_start": 8092,
+              "byte_end": 8231
+            },
+            "source_quote": "（4）月干戊为同事同学，在艮8宫，克时干庚所在坎1宫；但年干为学校，年干丙在乾6宫，生时干庚1宫。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "employment_case_02",
+            "step_number": 4,
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "完整来源上下文供阅读；记录级时间隔离另存，禁止整段含反馈/后评直接作预测前训练输入。",
+            "attributed_forecaster": "张志春初断及11月25日旧盘续断"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 107,
+        "line_end": 199,
+        "byte_start": 5266,
+        "byte_end": 8855
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "employment_case_03_complete",
+      "title": "完整案例3：测革职",
+      "category": "analysis",
+      "line_start": 200,
+      "line_end": 266,
+      "attribution": "本章叙述者；例1杜新会、张顺良初看及张志春复核，例3张顺良，例4杜新会自述，例5尚瓴吉及张志春按语分别归属",
+      "summary": "完整故事与原书盘、对话、显式原编号分析、应期、反馈及续断完整关联；特殊方法不自动推广。",
+      "concepts": [
+        "工作就业",
+        "测革职",
+        "原书盘",
+        "用神",
+        "有向生克",
+        "应期",
+        "反馈",
+        "续断"
+      ],
+      "dataset": {
+        "key": "employment_case_03_complete_reference",
+        "rows": [
+          {
+            "key": "employment_case_03_author_step_1",
+            "analysis_focus": "日干值使坎空、惊门口舌虎猖狂、九天变动",
+            "source_lines": [
+              242,
+              247
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 242,
+              "line_end": 247,
+              "byte_start": 9981,
+              "byte_end": 10208
+            },
+            "source_quote": "（1）日干戊与值使惊门同落1宫，逢空亡之地，恐有免职、革职之忧。\n\n惊门主官司口舌，辛加乙为虎猖狂凶格，必然有官司牵连，工作不顺。\n\n上乘九天，也主变动之象。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "employment_case_03",
+            "step_number": 1,
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "完整来源上下文供阅读；记录级时间隔离另存，禁止整段含反馈/后评直接作预测前训练输入。",
+            "attributed_forecaster": "张顺良"
+          },
+          {
+            "key": "employment_case_03_author_step_2",
+            "analysis_focus": "开门值符艮克坎、杜门坤克坎及地盘白虎",
+            "source_lines": [
+              248,
+              251
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 248,
+              "line_end": 251,
+              "byte_start": 10208,
+              "byte_end": 10491
+            },
+            "source_quote": "（2）开门为工作为单位与值符同落8宫，克日干和值使门落宫，领导对你必然不满意。\n\n又杜门主部队、保密机关，杜门落坤2宫，也克日干和值使门落宫，又杜门克宫被迫，地盘日干戊上乘白虎，难免有命案牵连。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "employment_case_03",
+            "step_number": 2,
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "完整来源上下文供阅读；记录级时间隔离另存，禁止整段含反馈/后评直接作预测前训练输入。",
+            "attributed_forecaster": "张顺良"
+          },
+          {
+            "key": "employment_case_03_author_step_3",
+            "analysis_focus": "值符开门杜门同克本人，升降有向关系",
+            "source_lines": [
+              252,
+              255
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 252,
+              "line_end": 255,
+              "byte_start": 10491,
+              "byte_end": 10649
+            },
+            "source_quote": "（3）值符、开门落宫生日干落宫则升，克日干落宫则降。\n\n今开门、值符、杜门落宫均克日干落宫，所以必然被降职。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "employment_case_03",
+            "step_number": 3,
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "完整来源上下文供阅读；记录级时间隔离另存，禁止整段含反馈/后评直接作预测前训练输入。",
+            "attributed_forecaster": "张顺良"
+          },
+          {
+            "key": "employment_case_03_author_step_4",
+            "analysis_focus": "立春后开门填实应期",
+            "source_lines": [
+              256,
+              257
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 256,
+              "line_end": 257,
+              "byte_start": 10649,
+              "byte_end": 10742
+            },
+            "source_quote": "（4）降职时间，今开门落空亡之地，立春以后开门填实之日为应期。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "employment_case_03",
+            "step_number": 4,
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "完整来源上下文供阅读；记录级时间隔离另存，禁止整段含反馈/后评直接作预测前训练输入。",
+            "attributed_forecaster": "张顺良"
+          },
+          {
+            "key": "employment_case_03_author_step_5",
+            "analysis_focus": "月日同戊及地盘2宫，同事多人降职",
+            "source_lines": [
+              258,
+              259
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 258,
+              "line_end": 259,
+              "byte_start": 10742,
+              "byte_end": 10874
+            },
+            "source_quote": "（5）又月干戊为同事，与日干戊同宫，所以被降职者不止你一人，还会有1～2人（戊在地盘2宫）。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "employment_case_03",
+            "step_number": 5,
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "完整来源上下文供阅读；记录级时间隔离另存，禁止整段含反馈/后评直接作预测前训练输入。",
+            "attributed_forecaster": "张顺良"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 200,
+        "line_end": 266,
+        "byte_start": 8855,
+        "byte_end": 11040
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "employment_case_04_complete",
+      "title": "完整案例4：杜新会自测工作调动",
+      "category": "analysis",
+      "line_start": 267,
+      "line_end": 374,
+      "attribution": "本章叙述者；例1杜新会、张顺良初看及张志春复核，例3张顺良，例4杜新会自述，例5尚瓴吉及张志春按语分别归属",
+      "summary": "完整故事与原书盘、对话、显式原编号分析、应期、反馈及续断完整关联；特殊方法不自动推广。",
+      "concepts": [
+        "工作就业",
+        "杜新会自测工作调动",
+        "原书盘",
+        "用神",
+        "有向生克",
+        "应期",
+        "反馈",
+        "续断"
+      ],
+      "dataset": {
+        "key": "employment_case_04_complete_reference",
+        "rows": [
+          {
+            "key": "employment_case_04_author_step_1",
+            "analysis_focus": "日干丁与开门冲、空刑，年命太岁领导同事及任务多证据综合",
+            "source_lines": [
+              351,
+              366
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 351,
+              "line_end": 366,
+              "byte_start": 14776,
+              "byte_end": 15615
+            },
+            "source_quote": "（1）怎么断出工作要调动的呢？调动好不好呢？\n\n日干丁奇为我自己落坤2宫，开门为工作单位落艮8宫与日干落宫对冲，冲则调动，艮宫旬空，天盘庚为六仪击刑，主我要辞职。\n\n调了好不好呢？\n\n日干丁奇落坤二宫，丁奇又为年干、为太岁，也为我的年命，临太岁百灾消除，大吉大利。\n\n值符为领导，月干为壬为同事，同落离9宫属火，生日干坤宫土，必是调动后对我有利。\n\n再看日干宫中的螣蛇主预测，杜门主技术，天柱星主说教，说明我的预测技术要得到发挥。\n\n当然，时干乙加辛也主调动，逢生门主为财利而调动。\n\n但时干克日干，我经过认真分析认为：时干主工作任务，克日干主工作任务重，事实证明这一判断是正确的。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "employment_case_04",
+            "step_number": 1,
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "完整来源上下文供阅读；记录级时间隔离另存，禁止整段含反馈/后评直接作预测前训练输入。",
+            "attributed_forecaster": "杜新会自述，结果后讲解首次盘"
+          },
+          {
+            "key": "employment_case_04_author_step_2",
+            "analysis_focus": "坤宫当令与未月冲实开门旬空两项应期依据",
+            "source_lines": [
+              367,
+              372
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 367,
+              "line_end": 372,
+              "byte_start": 15615,
+              "byte_end": 15907
+            },
+            "source_quote": "（2）为什么应在未月呢？\n\n一是当前日干丁落坤宫正处于沐浴、冠带状态，须待到未月日干落宫当令时最旺，那时我才能有力量调动；\n\n二是开门工作在艮八宫正旬空，待到未月才能冲实，冲实为应期，所以断未月调成。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "employment_case_04",
+            "step_number": 2,
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "完整来源上下文供阅读；记录级时间隔离另存，禁止整段含反馈/后评直接作预测前训练输入。",
+            "attributed_forecaster": "杜新会自述，结果后讲解首次盘"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 267,
+        "line_end": 374,
+        "byte_start": 11040,
+        "byte_end": 15909
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    },
+    {
+      "key": "employment_case_05_complete",
+      "title": "完整案例5：河南省林州市学员尚瓴吉测选举例",
+      "category": "analysis",
+      "line_start": 375,
+      "line_end": 550,
+      "attribution": "本章叙述者；例1杜新会、张顺良初看及张志春复核，例3张顺良，例4杜新会自述，例5尚瓴吉及张志春按语分别归属",
+      "summary": "完整故事与原书盘、对话、显式原编号分析、应期、反馈及续断完整关联；特殊方法不自动推广。",
+      "concepts": [
+        "工作就业",
+        "河南省林州市学员尚瓴吉测选举例",
+        "原书盘",
+        "用神",
+        "有向生克",
+        "应期",
+        "反馈",
+        "续断",
+        "空间方位",
+        "居住方位",
+        "旺相休囚",
+        "学员初断",
+        "张志春按"
+      ],
+      "dataset": {
+        "key": "employment_case_05_complete_reference",
+        "rows": [
+          {
+            "key": "employment_case_05_author_step_1",
+            "analysis_focus": "尚明吉坤2：月旺、星囚、门泄及列格",
+            "source_lines": [
+              450,
+              465
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 450,
+              "line_end": 465,
+              "byte_start": 18831,
+              "byte_end": 19279
+            },
+            "source_quote": "（1）尚明吉居坤2宫，旺于月建，又上乘值符天蓬星，同时小值符又为吉神。\n\n但天蓬盗星临囚地，惊门又泄坤2宫之力。\n\n再看格局：\n\n壬加戊为小蛇化龙，男人发达，女人产婴童；\n\n壬加辛为螣蛇相缠，纵得吉门，亦不能安宁，若有谋望，被人欺瞒；\n\n惊加死主因宅中怪异而生是非，凶；\n\n惊加戊主损财，信阻；\n\n惊加辛主女人成讼，凶。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "employment_case_05",
+            "step_number": 1,
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "完整来源上下文供阅读；记录级时间隔离另存，禁止整段含反馈/后评直接作预测前训练输入。",
+            "attributed_forecaster": "尚瓴吉学员初断，张志春按语为结果后点评"
+          },
+          {
+            "key": "employment_case_05_author_step_2",
+            "analysis_focus": "尚文才巽4：月囚、星神金克宫、门泄及列格",
+            "source_lines": [
+              466,
+              475
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 466,
+              "line_end": 475,
+              "byte_start": 19279,
+              "byte_end": 19591
+            },
+            "source_quote": "（2）尚文才居巽4宫，囚于月建，上乘天柱凶星，又上乘太阴之神，皆属金，皆克巽宫之木。\n\n而景门又泄巽木。\n\n丙加己为火悖入刑，囚人刑杖，文书不行，吉门得吉，凶门转凶；\n\n景加杜主失脱文书，散财后平；\n\n景加己主官司牵连。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "employment_case_05",
+            "step_number": 2,
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "完整来源上下文供阅读；记录级时间隔离另存，禁止整段含反馈/后评直接作预测前训练输入。",
+            "attributed_forecaster": "尚瓴吉学员初断，张志春按语为结果后点评"
+          },
+          {
+            "key": "employment_case_05_author_step_3",
+            "analysis_focus": "张相如震3：月囚、芮禽当令、木助及列格",
+            "source_lines": [
+              476,
+              489
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 476,
+              "line_end": 489,
+              "byte_start": 19591,
+              "byte_end": 19995
+            },
+            "source_quote": "（3）张相如居震3宫，囚于月建，上乘天芮、天禽土星（相于月建），但六合、杜门、震3宫皆属木，囚于月建。\n\n又辛加庚为白虎出力，凶；\n\n戊加庚为值符飞宫，凶；\n\n杜加伤主兄弟相争，破财不利；\n\n杜加辛主打伤人，词讼，男人小口凶；\n\n杜加戊主谋事不成，密处求财得；\n\n杜加庚主因女人讼狱被刑。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "employment_case_05",
+            "step_number": 3,
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "完整来源上下文供阅读；记录级时间隔离另存，禁止整段含反馈/后评直接作预测前训练输入。",
+            "attributed_forecaster": "尚瓴吉学员初断，张志春按语为结果后点评"
+          },
+          {
+            "key": "employment_case_05_author_step_4",
+            "analysis_focus": "尚用成坎1：月死、星废、旺土门克宫及列格",
+            "source_lines": [
+              490,
+              497
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 490,
+              "line_end": 497,
+              "byte_start": 19995,
+              "byte_end": 20285
+            },
+            "source_quote": "（4）尚用成居坎1宫，死于月建，上乘天辅吉星，但天辅星处废地，玄武虽助坎宫之水，但生门之旺土克坎1宫，所谓吉门克宫吉不就。\n\n又己加壬为地网高张，凶；\n\n生加休主阴人处求谋财利，吉；\n\n生加壬主遗失后得。\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "employment_case_05",
+            "step_number": 4,
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "完整来源上下文供阅读；记录级时间隔离另存，禁止整段含反馈/后评直接作预测前训练输入。",
+            "attributed_forecaster": "尚瓴吉学员初断，张志春按语为结果后点评"
+          },
+          {
+            "key": "employment_case_05_author_step_5",
+            "analysis_focus": "尚耀坤乾6：月相、九地旺、天冲囚及列格",
+            "source_lines": [
+              498,
+              508
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 498,
+              "line_end": 508,
+              "byte_start": 20285,
+              "byte_end": 20572
+            },
+            "source_quote": "（5）尚耀坤居乾6宫，相于月建，有后劲；九地旺于月建；天冲吉星为木，处囚地。\n\n又休加开主大吉；\n\n休加庚，文书词讼先结后解；\n\n休加乙，求谋重，不得，求轻可得。\n\n庚+乙为太白逢星，退吉进凶，谋为不利。\n\n\n",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "case_specific_printed_analysis_context",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "employment_case_05",
+            "step_number": 5,
+            "generalization_status": "not_compiled_as_general_rule",
+            "chronology_policy": "完整来源上下文供阅读；记录级时间隔离另存，禁止整段含反馈/后评直接作预测前训练输入。",
+            "attributed_forecaster": "尚瓴吉学员初断，张志春按语为结果后点评"
+          },
+          {
+            "key": "employment_case_05_zhang_post_result_commentary",
+            "analysis_focus": "结果后张志春按语：以时间空间旺衰重排五人、删繁取月建纲领",
+            "source_lines": [
+              530,
+              550
+            ],
+            "source_pointer": {
+              "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+              "line_start": 530,
+              "line_end": 550,
+              "byte_start": 20956,
+              "byte_end": 22421
+            },
+            "source_quote": "张志春按：\n\n这是一则十分典型的实例，充分显示了奇门预测的优长之处和实用价值。\n\n奇门遁甲是一个时空数理模型，其中最主要因素有二：一是时间，二是空间。\n\n这一实例是按空间方位卦宫来占断，根据某一特定时间内，用神落宫的旺相休囚来占断。\n\n虽然学员尚瓴吉第一次用奇门，在占断上还很幼稚，列举断词过于繁琐，但大方向和要领，他是抓住了，所以测得很准确。\n\n其实，这一实例的判断，既然是以空间方位即用神落宫的旺相休囚而定名次，只比较各宫旺相休囚就行了。\n\n尚耀坤居西北乾宫，乾宫临戌、亥二月，今月建戌，乾宫正在当令之月，又日建酉金，乾属金，又当申时，所以该宫此时最旺，自然得票第一。\n\n尚明吉在西南坤宫，坤属土，戌月为土，也为当令，但日、时为金，泄其旺气，所以第二。\n\n张相如在震3宫，尚文才在巽4宫，二者均属木，戌月土旺，木处囚地，日、时为金均克木，二人状态差不多。\n\n但3宫天芮、天禽当令，六合、杜门为木又助其宫势；4宫天柱、太阴属金，均克宫木，景门为火又泄木气，况且戌月，乾宫金旺，冲克巽4宫，所以3宫张相如第三，4宫尚文才第四。\n\n尚用成居坎1宫，死于月建，月建为纲，是判断旺相休囚的关键，所以他得票最少，名居最后。",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false,
+            "source_confirmed_by_user": true,
+            "knowledge_kind": "post_result_author_commentary",
+            "method_scope": "only_this_complete_source_case",
+            "case_key": "employment_case_05",
+            "after_result": true,
+            "not_part_of_student_pre_prediction": true,
+            "generalization_status": "not_compiled_as_general_rule",
+            "attributed_forecaster": "张志春",
+            "technical_boundary": "学员事前仅预测前二名；三至五名在反馈及结果后点评中，不倒填学员事前排名。"
+          }
+        ]
+      },
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 375,
+        "line_end": 550,
+        "byte_start": 15909,
+        "byte_end": 22421
+      },
+      "status": "structured_reference_only",
+      "source_confirmed_by_user": true
+    }
+  ],
+  "quality_issues": [
+    {
+      "key": "employment_no_printed_number",
+      "line_start": 1,
+      "line_end": 4,
+      "kind": "source_scope",
+      "detail": "未给印刷章号。",
+      "handling": "work-employment/sequence11仅工程键和排序，不反推印刷章号。",
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 1,
+        "line_end": 4,
+        "byte_start": 0,
+        "byte_end": 50
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "employment_units_and_hierarchy_context",
+      "line_start": 8,
+      "line_end": 8,
+      "kind": "method_scope",
+      "detail": "文职开门、武职杜门与年值月日时一般层级。",
+      "handling": "问者和代问对象、当前年干和出生年干分开；案例另取法只归原案。",
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 8,
+        "line_end": 8,
+        "byte_start": 173,
+        "byte_end": 417
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "employment_combined_favorable_conditions",
+      "line_start": 10,
+      "line_end": 10,
+      "kind": "condition_scope",
+      "detail": "有利条件与正反生克在同段。",
+      "handling": "完整保留旺相及吉门吉格吉神；本人克门与门克本人方向不交换；未知条件不默认真。",
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 10,
+        "line_end": 10,
+        "byte_start": 418,
+        "byte_end": 761
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "employment_promotion_reverse_not_boolean_completion",
+      "line_start": 12,
+      "line_end": 12,
+      "kind": "condition_scope",
+      "detail": "原文以四方面和自身条件加三方相生断晋升，末称反之。",
+      "handling": "不以某个未知项或单项否命题构造原书未给的完整逆规则。",
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 12,
+        "line_end": 12,
+        "byte_start": 762,
+        "byte_end": 976
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "employment_demotion_unidentified_subject",
+      "line_start": 14,
+      "line_end": 14,
+      "kind": "condition_scope",
+      "detail": "反吟、空亡、入墓本句未细指哪个主体和盘层。",
+      "handling": "保留原句，条件检索需显式观察对象；不编成任意宫空即可革职。",
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 14,
+        "line_end": 14,
+        "byte_start": 977,
+        "byte_end": 1122
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "employment_character_analogy_attribution",
+      "line_start": 18,
+      "line_end": 20,
+      "kind": "product_scope",
+      "detail": "开门官星临九星的人品传统用词。",
+      "handling": "全九项原词存原书类象；不升级为固定属性或对当代人自动道德/犯罪评判。",
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 18,
+        "line_end": 20,
+        "byte_start": 1263,
+        "byte_end": 1536
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "employment_retirement_direction_and_modal",
+      "line_start": 22,
+      "line_end": 32,
+      "kind": "method_scope",
+      "detail": "军队转退役角色、生克、格局及可能被辞职。",
+      "handling": "杜生不准、杜克或比和准；荧入白/白入荧正反、日干条件与可能措辞分别保存。",
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 22,
+        "line_end": 32,
+        "byte_start": 1537,
+        "byte_end": 2022
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "employment_case1_seating_method",
+      "line_start": 82,
+      "line_end": 92,
+      "kind": "case_method_scope",
+      "detail": "初看按学生餐桌东南方位，后由张志春审局。",
+      "handling": "席位法只关联本案；不变通为所有问工作者都按座位。",
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 82,
+        "line_end": 92,
+        "byte_start": 3433,
+        "byte_end": 4652
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "employment_case1_timing_and_result_difference",
+      "line_start": 96,
+      "line_end": 103,
+      "kind": "timing_scope",
+      "detail": "预测本月辰日或巳日，反馈初九甲午日己巳时签约，八月工作。",
+      "handling": "两者分别逐字保存；不把原应期改成甲午日，不把签约与正式上岗合为一天。",
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 96,
+        "line_end": 103,
+        "byte_start": 4742,
+        "byte_end": 5263
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "employment_case2_specific_units",
+      "line_start": 156,
+      "line_end": 166,
+      "kind": "case_method_scope",
+      "detail": "母问子以时干和甲寅癸年命并参，外交部开门、外经部生门。",
+      "handling": "保留原案身份与单位映射；不编为所有父母代问工作通用时干或所有外经单位通用生门。",
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 156,
+        "line_end": 166,
+        "byte_start": 6765,
+        "byte_end": 7443
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "employment_case2_late_feedback",
+      "line_start": 173,
+      "line_end": 196,
+      "kind": "temporal_scope",
+      "detail": "11月25日排名降至第八、旧盘续断同学与学校支持，年底确定、次年暑期到岗。",
+      "handling": "不得把后知竞争同学细节提前给11月4日初断；续断继续引用原11月4日盘，不造11月25日新盘。",
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 173,
+        "line_end": 196,
+        "byte_start": 7668,
+        "byte_end": 8852
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "employment_case3_reported_dismissals",
+      "line_start": 242,
+      "line_end": 263,
+      "kind": "outcome_scope",
+      "detail": "原断1至2同事，反馈免本人及一副主任和一处长，立春后寅月月底。",
+      "handling": "原断范围与三人反馈分开；不补文件日、姓名或未写官司最终结局。",
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 242,
+        "line_end": 263,
+        "byte_start": 9981,
+        "byte_end": 11037
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "employment_case4_retrospective_source",
+      "line_start": 269,
+      "line_end": 374,
+      "kind": "temporal_scope",
+      "detail": "杜新会故事先记调动过程与结果，后解释首次盘。",
+      "handling": "首测4月15日及初断时间、6月1日再测与7月28日结果按记录时间隔离，后置盘解释不整块前置。",
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 269,
+        "line_end": 374,
+        "byte_start": 11081,
+        "byte_end": 15909
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "employment_case4_five_forecasts_only_one_chart",
+      "line_start": 303,
+      "line_end": 317,
+      "kind": "source_scope",
+      "detail": "明写共预测五次，本章仅给首次盘；6月1日再测只记结论。",
+      "handling": "只建一张已给盘，不补其余四盘或每盘日期。",
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 303,
+        "line_end": 317,
+        "byte_start": 13340,
+        "byte_end": 14062
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "employment_case4_hour_task_role",
+      "line_start": 359,
+      "line_end": 365,
+      "kind": "case_method_scope",
+      "detail": "本案时干解释为工作任务，克日干解释为任务重。",
+      "handling": "保留个案证据取舍，不覆盖第一节时干下级群众的一般口径。",
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 359,
+        "line_end": 365,
+        "byte_start": 15156,
+        "byte_end": 15614
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "employment_case4_month_stem_jia_hidden_ren",
+      "line_start": 317,
+      "line_end": 365,
+      "kind": "technical_validation_scope",
+      "detail": "四柱月为甲辰，分析写月干壬并指同事。",
+      "handling": "原文并存保留，按本案甲辰壬的六仪语境记录，不无依据改为别的月干。",
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 317,
+        "line_end": 365,
+        "byte_start": 13950,
+        "byte_end": 15614
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "employment_case5_student_scientific_claim",
+      "line_start": 377,
+      "line_end": 403,
+      "kind": "attribution_scope",
+      "detail": "学员称奇门科学性得到证明，且比较六爻。",
+      "handling": "完整归学员信中观点；不是系统现实预测科学效度测试或对其他方法的独立检验。",
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 377,
+        "line_end": 403,
+        "byte_start": 15968,
+        "byte_end": 17428
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "employment_case5_residence_method",
+      "line_start": 442,
+      "line_end": 446,
+      "kind": "case_method_scope",
+      "detail": "五人按居住本村方位入五宫。",
+      "handling": "保留本事件住所空间角色，不按姓氏亲属强造六亲，不推广成普遍选举取用法。",
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 442,
+        "line_end": 446,
+        "byte_start": 18380,
+        "byte_end": 18807
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "employment_case5_pre_prediction_only_top_two",
+      "line_start": 509,
+      "line_end": 550,
+      "kind": "temporal_scope",
+      "detail": "学员事前明写只求第一第二；反馈有五名，后有张志春五名比较。",
+      "handling": "事前两名、事后五名反馈和作者后评分别存，不让后评冒充学员全排名预测。",
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 509,
+        "line_end": 550,
+        "byte_start": 20572,
+        "byte_end": 22421
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "employment_case5_no_vote_numbers",
+      "line_start": 512,
+      "line_end": 524,
+      "kind": "outcome_scope",
+      "detail": "只给名次和得票最多，没有各人票数。",
+      "handling": "仅保存五个名次，不生成票数、百分比或差距。",
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 512,
+        "line_end": 524,
+        "byte_start": 20680,
+        "byte_end": 20840
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    },
+    {
+      "key": "employment_calendar_and_recalculation",
+      "line_start": 408,
+      "line_end": 439,
+      "kind": "technical_validation_scope",
+      "detail": "给时辰、四柱、霜降上元和原书盘，没有完整时区换日说明。",
+      "handling": "已确认原文不依赖软件独立公历复算；源盘和另建符号比较盘分开。",
+      "source_pointer": {
+        "source_sha256": "7a677644dcf41da4d360814a9847f07e014ae202524a9c56012a3838e6073853",
+        "line_start": 408,
+        "line_end": 439,
+        "byte_start": 17474,
+        "byte_end": 18378
+      },
+      "source_confirmed_by_user": true,
+      "source_acceptance": "confirmed",
+      "manual_source_reconfirmation_required": false
+    }
+  ],
+  "worked_examples": [],
+  "source_review_status": "confirmed_by_user_submission",
+  "source_confirmed_by_user": true,
+  "manual_source_reconfirmation_required": false,
+  "compilation_scope": "Context-complete supplied reference methods only; no new deterministic dataset, activated professional role, model training or independent outcome accuracy created.",
+  "coverage_policy": "Fourteen primary groups partition all 550 supplied lines; general methods remain context-complete and each of five historical narratives is preserved whole. Twenty printed case-analysis contexts plus distinct post-result Zhang commentary are nested within complete stories.",
+  "case_handoff": {
+    "case_count": 5,
+    "complete_case_keys": [
+      "employment_case_01",
+      "employment_case_02",
+      "employment_case_03",
+      "employment_case_04",
+      "employment_case_05"
+    ],
+    "complete_case_ranges": [
+      [
+        39,
+        106
+      ],
+      [
+        107,
+        199
+      ],
+      [
+        200,
+        266
+      ],
+      [
+        267,
+        374
+      ],
+      [
+        375,
+        550
+      ]
+    ],
+    "recorded_original_chart_count": 5,
+    "complete_story_completeness": "complete_as_supplied",
+    "printed_analysis_step_counts": [
+      4,
+      4,
+      5,
+      2,
+      5
+    ],
+    "post_result_author_commentary_count": 1,
+    "historical_cases_not_counted_as_teaching_worked_examples": true,
+    "case_records_owned_by": "separate_case_import_agents"
+  },
+  "engineering_missing_information_policy": {
+    "source_policy": "User-supplied material confirmed on submission; no second source review.",
+    "technical_policy": "No invented missing charts, dates, independent verification, vote totals, future knowledge or implied method generalization."
+  },
+  "source_scope": "Only supplied current 550-line chapter; no external, plugin, model-memory or previous-project book/case content.",
+  "dataset_summary": {
+    "reference_families": 12,
+    "general_conditional_reference_rows": 21,
+    "case_specific_author_steps": 20,
+    "post_result_commentary_rows": 1,
+    "reference_rows_total": 42,
+    "compiled_families": 0,
+    "formal_role_rules": 0,
+    "training_tasks": 0
+  }
+}
