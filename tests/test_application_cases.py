@@ -13,7 +13,7 @@ from qimenllm.knowledge.db import connect, digest
 from qimenllm.knowledge.importer import ImportConflict, import_chapter
 from qimenllm.knowledge.integrity import audit
 from qimenllm.knowledge.snapshot import export_snapshot, restore_snapshot
-from support import DatabaseTest
+from support import DatabaseTest, case_content_text
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -117,7 +117,7 @@ class ApplicationCaseTests(DatabaseTest):
         for record in event['records']:
             self.assertNotIn('payload', record)
             self.assertNotIn('chart_id', record)
-        serialized = json.dumps(view, ensure_ascii=False)
+        serialized = case_content_text(view)
         for forbidden in ('发射不成功','星箭爆炸','死6人','伤23人','1.6亿美元','天牢华盖','休囚','反悔'):
             self.assertNotIn(forbidden, serialized)
 

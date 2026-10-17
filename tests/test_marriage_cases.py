@@ -19,7 +19,7 @@ from qimenllm.knowledge.integrity import audit
 from qimenllm.knowledge.snapshot import export_snapshot,restore_snapshot
 from qimenllm.reasoning.service import QimenService
 from qimenllm.rules.candidates import install_candidates
-from support import DatabaseTest
+from support import DatabaseTest,case_content_text
 from test_runtime import request,CapturingFixtureModel
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -132,13 +132,13 @@ class MarriageCaseTests(DatabaseTest):
         self.assertIn('中5宫寄坤2宫',p['source_metadata']['值符落宫'])
 
     def test_mother_son_first_request_does_not_know_traits_or_rejection_feedback(self):
-        text=json.dumps(self.case(1,'before_prediction'),ensure_ascii=False)
+        text=case_content_text(self.case(1,'before_prediction'))
         for forbidden in ('一米五六','正规大学','被动得很','一心在学习','谈了二次就吹了'):
             self.assertNotIn(forbidden,text)
         self.assertIn('刚谈了一个对象',text)
 
     def test_daughter_birth_years_known_but_prior_divorce_and_opposition_not_known(self):
-        text=json.dumps(self.case(2,'before_prediction'),ensure_ascii=False)
+        text=case_content_text(self.case(2,'before_prediction'))
         self.assertIn('1970',text);self.assertIn('1964',text)
         for forbidden in ('妻子跟他离了婚','不赞成','父母拗不过','丁壬合','美国'):
             self.assertNotIn(forbidden,text)
@@ -147,7 +147,7 @@ class MarriageCaseTests(DatabaseTest):
         self.assertIn(r['knowledge_phase'],('post_feedback','unknown'))
 
     def test_existing_divorce_reconstruction_not_future_forecast_or_preloaded_history(self):
-        before=json.dumps(self.case(3,'before_prediction'),ensure_ascii=False)
+        before=case_content_text(self.case(3,'before_prediction'))
         for later in ('离了婚','钢琴','九千','六千','三千九百','邮票'):
             self.assertNotIn(later,before)
         records=self.case(3)['events'][0]['records']
@@ -155,7 +155,7 @@ class MarriageCaseTests(DatabaseTest):
         self.assertTrue(any('3月18日' in r['text'] and r['kind']=='feedback' for r in records))
 
     def test_womans_day_geng_role_does_not_get_rewritten_as_male(self):
-        before=json.dumps(self.case(4,'before_prediction'),ensure_ascii=False)
+        before=case_content_text(self.case(4,'before_prediction'))
         for later in ('经常夜不回家','二十年','2月27日','胳摔骨折'):
             self.assertNotIn(later,before)
         full=json.dumps(self.case(4),ensure_ascii=False)
@@ -164,14 +164,14 @@ class MarriageCaseTests(DatabaseTest):
         self.assertIn('胳摔骨折',full)
 
     def test_unknown_initial_topic_and_forecast_year_miss_are_explicit(self):
-        before=json.dumps(self.case(5,'before_prediction'),ensure_ascii=False)
+        before=case_content_text(self.case(5,'before_prediction'))
         for later in ('第三者','副经理','二十六针','1998年五月'):
             self.assertNotIn(later,before)
         records=self.case(5)['events'][0]['records']
         forecast=next(r for r in records if r['source']['text'].startswith('据此，杜新会说：“时间不会'))
         feedback=next(r for r in records if r['text'].startswith('后来杜新会得知'))
         self.assertEqual(forecast['payload']['predicted_marriage_year_from_context'],1997)
-        self.assertNotIn('1998',json.dumps(forecast['payload'],ensure_ascii=False))
+        self.assertNotIn('1998',case_content_text(forecast['payload']))
         self.assertTrue(feedback['payload']['marriage_year_differs_from_forecast'])
         self.assertEqual(feedback['payload']['milestones'][-1]['year'],1998)
 
@@ -186,7 +186,7 @@ class MarriageCaseTests(DatabaseTest):
         before=self.case(6,'before_prediction')
         self.assertEqual(len(before['events']),2)
         for e in before['events']:
-            self.assertNotIn('寡妇',json.dumps(e,ensure_ascii=False))
+            self.assertNotIn('寡妇',case_content_text(e))
 
     def test_fifty_two_independent_conditional_gold_and_no_real_role_activation(self):
         self.assertEqual(len(self.selection_gold['selection_cases']),52)

@@ -18,7 +18,7 @@ from qimenllm.knowledge.health import install_health
 from qimenllm.knowledge.integrity import audit
 from qimenllm.knowledge.snapshot import export_snapshot,restore_snapshot
 from qimenllm.reasoning.service import QimenService
-from support import DatabaseTest
+from support import DatabaseTest,case_content_text
 from test_runtime import request
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -117,7 +117,7 @@ class HealthCaseTests(DatabaseTest):
         self.assertEqual(self.chart(2)['palaces']['2']['door'],'死门')
 
     def test_first_diagnosis_cannot_see_later_birth_year_confirmation_or_survival_target(self):
-        before=self.original(1,'before_prediction');text=json.dumps(before,ensure_ascii=False)
+        before=self.original(1,'before_prediction');text=case_content_text(before)
         self.assertEqual(len(before['events'][0]['records']),4)
         for forbidden in ('结肠癌','1991','1943','1997','再活五年','reasoning-2'):
             self.assertNotIn(forbidden,text)
@@ -128,7 +128,7 @@ class HealthCaseTests(DatabaseTest):
         self.assertFalse(any(r['kind']=='outcome' for r in full['records']))
 
     def test_father_disease_hospital_and_death_reports_are_after_prediction(self):
-        before=self.original(2,'before_prediction');text=json.dumps(before,ensure_ascii=False)
+        before=self.original(2,'before_prediction');text=case_content_text(before)
         self.assertIn('1921',text)
         for forbidden in ('食道癌','八厘米','9月13日','9月7日','梅核气','丁未日'):
             self.assertNotIn(forbidden,text)
@@ -139,7 +139,7 @@ class HealthCaseTests(DatabaseTest):
         self.assertFalse(self.original(2)['outcome_independently_verified'])
 
     def test_nephew_initial_accident_known_but_later_feedback_and_discharge_hidden(self):
-        text=json.dumps(self.original(3,'before_prediction'),ensure_ascii=False)
+        text=case_content_text(self.original(3,'before_prediction'))
         for known in ('电工','摔伤','手术','1975'):self.assertIn(known,text)
         for later in ('尾椎骨','大小便失禁','拆线','5月20日','丙辰'):self.assertNotIn(later,text)
         records=self.original(3)['events'][0]['records']
@@ -150,7 +150,7 @@ class HealthCaseTests(DatabaseTest):
         self.assertEqual(sum(r['kind']=='outcome' for r in records),1)
 
     def test_aunt_predictor_and_postmortem_feedback_do_not_become_initial_input(self):
-        before=self.original(4,'before_prediction');text=json.dumps(before,ensure_ascii=False)
+        before=self.original(4,'before_prediction');text=case_content_text(before)
         self.assertIn('王建国',text)
         for later in ('脑溢血','昏迷不醒','5月26日','癸亥日壬子时'):self.assertNotIn(later,text)
         background=self.original(4)['events'][0]['background']
@@ -158,17 +158,30 @@ class HealthCaseTests(DatabaseTest):
         self.assertTrue(background['predictor_distinct_from_narrator'])
 
     def test_live_diagnosis_and_travel_feedback_not_prospective_medical_proof(self):
-        before=json.dumps(self.original(5,'before_prediction'),ensure_ascii=False)
+        before=case_content_text(self.original(5,'before_prediction'))
         for later in ('糖尿病','脂肪肝','1989','脑囊肿'):self.assertNotIn(later,before)
         fifth=self.original(5)['events'][0]['background']
         self.assertTrue(fifth['not_a_prospective_prediction_of_future_disease_outcome'])
-        before=json.dumps(self.original(6,'before_prediction'),ensure_ascii=False)
+        before=case_content_text(self.original(6,'before_prediction'))
         self.assertIn('肾炎',before)
         for later in ('1998年3月','已经稳定了','心脏病'):self.assertNotIn(later,before)
         full=self.original(6);self.assertFalse(full['outcome_independently_verified'])
         final=full['events'][0]['records'][-1]
         self.assertEqual(final['knowledge_phase'],'post_feedback')
         self.assertIn('已经稳定了',final['text'])
+
+    def test_pre_prediction_assertion_handles_original_ci_source_id_collision(self):
+        before=self.original(1,'before_prediction')
+        # The exact opaque ID from macOS/Python 3.11 run 39046797275.
+        collision='span-43a2315a84b68c425eb3e38ab559e78fe2eac199155022a22e4ca78404c805b2'
+        before['events'][0]['records'][0]['source']['source_id']=collision
+        self.assertIn('1991',json.dumps(before,ensure_ascii=False))
+        self.assertNotIn('1991',case_content_text(before))
+        self.assertEqual([r['sequence'] for r in before['events'][0]['records']],[0,1,2,3])
+        # A real future year under an unexpected content path must still fail
+        # the same content-absence check; do not whitelist whole subtrees.
+        before['events'][0]['background']={'unexpected_feedback_year':1991}
+        self.assertIn('1991',case_content_text(before))
 
     def test_prefix_markers_are_retained_without_fabricated_stars_or_times(self):
         for number,palace,prefix in ((1,8,'庚'),(2,2,'庚'),(3,3,'丙'),(4,9,'丁'),(5,3,'辛'),(6,2,'丙')):

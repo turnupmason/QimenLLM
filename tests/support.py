@@ -1,9 +1,50 @@
 """Neutral engineering fixtures only. These are not Qimen rules or historical cases."""
 import tempfile
 import unittest
+import json
+import re
 from pathlib import Path
 from qimenllm.knowledge.db import initialize, connect
 from qimenllm.knowledge.importer import import_chapter
+
+
+# Audited case-inspection metadata only. Unknown keys and malformed identities
+# must remain searchable, including inside unexpected payload/background fields.
+_UUID = r'[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}'
+_HEX = r'[0-9a-f]{64}'
+_OPAQUE_CASE_FIELDS = {
+    'case_id': rf'case-{_HEX}',
+    'event_id': rf'event-{_HEX}',
+    'family_id': rf'family-{_HEX}',
+    'record_id': rf'record-{_HEX}',
+    'chart_id': rf'chart-{_HEX}',
+    'source_id': rf'(?:span-{_HEX}|{_UUID})',
+    'revision_id': _UUID,
+    'data_version': _UUID,
+    'source_sha256': _HEX,
+    'content_sha256': _HEX,
+    'sha256': _HEX,
+}
+
+
+def case_content_text(value):
+    """Serialize all case content without mistaking opaque IDs for evidence.
+
+    Keep every dictionary key and all non-opaque values, including numeric
+    leaves, source text/locators and unexpected nested content. This is a test
+    assertion projection, not a runtime filter or a semantic leak detector.
+    Structure, chronology and identity assertions remain separate.
+    """
+    def project(item):
+        if isinstance(item, dict):
+            return {key: ('<opaque identity>' if isinstance(child, str)
+                    and key in _OPAQUE_CASE_FIELDS
+                    and re.fullmatch(_OPAQUE_CASE_FIELDS[key], child)
+                    else project(child)) for key, child in item.items()}
+        if isinstance(item, list):
+            return [project(child) for child in item]
+        return item
+    return json.dumps(project(value), ensure_ascii=False)
 
 
 class DatabaseTest(unittest.TestCase):

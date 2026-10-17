@@ -3,6 +3,7 @@ on: [push, pull_request]
 jobs:
   stdlib-tests:
     strategy:
+      fail-fast: false
       matrix:
         os: [ubuntu-latest, macos-latest]
         python: ['3.11', '3.12']

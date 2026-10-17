@@ -2,6 +2,16 @@
 
 更新：2026-10-17。累计《神奇之门》七份章级输入，本轮《恋爱婚姻预测》两节六个完整故事。marriage-prediction为技术键，排序8不推印刷章号；旧原文与导入键保留。用户总章程及AGENTS持续有效，未使用旧工程、插件、网络古籍或新外部资料。
 
+## CI 修复（2026-10-17）
+
+用户报告 Actions run 39046797275 失败。已取得远端日志：macOS/Python 3.11 的疾病例1防泄漏测试把整个JSON中的随机source_id摘要片段`1991`当作出生年证据，176项中1项误报；另外3个job被默认fail-fast取消（其unittest步骤实际成功）。这是测试评分缺陷，没有证据表明原文或运行时发生信息泄漏。此前“176项通过”指本地运行，不代表该次远端通过。
+
+统一案例内容断言只排除明确字段且格式匹配的UUID/摘要标识值，仍扫描所有键、非标识值、数字、原文、locator及意外嵌套字段；已知年份也不能由ID冒充。保留原有时序、来源和结构检查。新增6项辅助函数回归及1项实际疾病事前视图的原ID碰撞复现；矩阵增加fail-fast:false，四环境独立完成，不忽略失败。
+
+实际执行：`PYTHONPATH=src python3 -m unittest discover -s tests -v`，Linux/Python 3.12.14 **183项通过、0失败**；疾病专项16项通过。`python3 -m qimenllm audit`与`export-snapshot`（均设PYTHONPATH=src）通过，快照文件无差异。数据版本仍ec317e3d-b24d-4cd9-83c0-4dfed96857fb，schema v1无迁移；没有修改src、原文、整理、gold、训练测试分组或正式调用链。没有模型实验。
+
+本次推送的远端验收要求：新main SHA对应的push运行中，Ubuntu/macOS × Python 3.11/3.12四项均completed/success；本地通过不能替代远端。远端逐项结果保存在该提交的GitHub Actions，最终同步SHA/运行链接同时记录于本地work/github-sync.json；失败不以重试成功掩盖。本次故障说明见docs/CI_RANDOM_ID_INCIDENT.md，知识/案例覆盖与未完成能力不变。
+
 Phase 1资料/参考知识、Phase 2符号计算/条件检查和Phase 3案例管理增量推进；保存数据库、故事或计算通过不等于模型掌握或现实预测有效。没有训练、模型实验或公众部署。
 
 ## 本轮实际成果
