@@ -33,7 +33,7 @@ class ChapterCaseCoverageTests(unittest.TestCase):
 
     def test_duplicate_subtasks_or_multiple_event_views_count_as_one_family(self):
         meta = copy.deepcopy(ORIGINAL)
-        k = 'education-examinations'
+        k = 'work-employment'
         meta['family_assignments']['case-family-unique'] = 'test'
         row = case(k, 'case-family-unique', 'test')
         # Same source case/review emitted as many task rows: 1 family only.
@@ -61,7 +61,7 @@ class ChapterCaseCoverageTests(unittest.TestCase):
         meta = copy.deepcopy(ORIGINAL)
         meta['chapter_coverage']['new-user-topic'] = {
             'title': '新增预测专题', 'modes': {'initial': 2},
-            'task_counts': {'train': 1, 'test': 1}
+            'task_counts': {'train': 1, 'test': 1, 'validation': 1}
         }
         meta['family_assignments'].update({'new-family-test':'test','new-family-val':'validation'})
         topics = case_chapters(meta['chapter_coverage'])
@@ -84,6 +84,7 @@ class ChapterCaseCoverageTests(unittest.TestCase):
         new = suggest_split_for_new_family(meta, 'education-examinations','brand-new-event')
         self.assertEqual(new['split'], 'test')
         meta['family_assignments']['sample-sealed'] = 'test'
+        meta['chapter_coverage']['education-examinations']['task_counts']['test'] = 1
         next_one = suggest_split_for_new_family(meta,'education-examinations','brand-new-event',
                                                  [case('education-examinations','sample-sealed','test')])
         self.assertEqual(next_one['split'],'validation')
