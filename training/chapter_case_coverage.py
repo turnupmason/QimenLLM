@@ -63,8 +63,10 @@ def evaluate_case_family_coverage(release, reviewed_cases=()):
     results = {}
     for chapter in sorted(categories):
         counts = {s: len(grouped[chapter][s]) for s in SPLITS}
-        eligible_validation = counts['validation']
-        eligible_final_test = counts['test']
+        # Reviewed evidence alone cannot manufacture a held-out category: the
+        # candidate release must actually carry at least one task in that split.
+        eligible_validation = (counts['validation'] if coverage[chapter]['task_counts'].get('validation', 0) else 0)
+        eligible_final_test = (counts['test'] if coverage[chapter]['task_counts'].get('test', 0) else 0)
         results[chapter] = {
             'title': coverage[chapter]['title'],
             'verified_review_metadata_validation_families': eligible_validation,
