@@ -28,7 +28,7 @@ class TrainingDoctorTests(unittest.TestCase):
             f = Path(d) / 'dummy.bin'; f.write_bytes(b'sample')
             m = Path(d) / 'manifest.json'
             import hashlib, json
-            m.write_text(json.dumps({'revision': doctor.PINNED, 'local_path': d,
+            m.write_text(json.dumps({'revision': doctor.PINNED, 'repo': 'mlx-community/Qwen3.8-27B-4bit', 'local_path': d,
                                     'files': {'dummy.bin': {'sha256': hashlib.sha256(b'sample').hexdigest()}}}))
             self.assertFalse(doctor.model_report(m)['verified'])
             self.assertTrue(doctor.model_report(m, True)['verified'])
