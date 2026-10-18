@@ -85,11 +85,12 @@ def model_report(manifest_path, verify_hashes=False):
             if h.hexdigest() != expected.get('sha256'):
                 mismatch.append(name)
     revision_ok = manifest.get('revision') == PINNED
-    return {'status': 'ok' if revision_ok and files and not missing and not mismatch else 'blocked',
+    repo_ok = manifest.get('repo') == 'mlx-community/Qwen3.8-27B-4bit'
+    return {'status': 'ok' if revision_ok and repo_ok and files and not missing and not mismatch else 'blocked',
             'revision': manifest.get('revision'), 'expected_revision': PINNED,
-            'revision_match': revision_ok, 'declared_files': len(files), 'present_files': checked,
+            'revision_match': revision_ok, 'repo_match': repo_ok, 'declared_files': len(files), 'present_files': checked,
             'missing_files': missing, 'hash_mismatches': mismatch,
-            'verified': bool(revision_ok and files and not missing and not mismatch and verify_hashes),
+            'verified': bool(revision_ok and repo_ok and files and not missing and not mismatch and verify_hashes),
             'hash_check_performed': verify_hashes}
 
 
@@ -100,6 +101,8 @@ def report(manifest_path=None, verify_hashes=False):
     git_head = command(['git', '-C', str(ROOT), 'rev-parse', 'HEAD'])
     status = command(['git', '-C', str(ROOT), 'status', '--porcelain'])
     gpu = command(['nvidia-smi', '--query-gpu=name,memory.total,memory.free,driver_version', '--format=csv,noheader,nounits'])
+    torch_probe = command([sys.executable, '-c', 'import json,torch;print(json.dumps({"cuda":torch.cuda.is_available(),"mps":torch.backends.mps.is_available()}))'], timeout=25) if packages['torch'] else {'available': False}
+    mlx_probe = command([sys.executable, '-c', 'import json,mlx.core as mx;print(json.dumps({"metal":bool(mx.metal.is_available())}))'], timeout=25) if packages['mlx'] else {'available': False}
     probe = {'operating_system': platform.system(), 'os_release': platform.release(),
              'architecture': platform.machine(), 'python': platform.python_version(),
              'cpu_count': os.cpu_count(), 'memory_total_bytes': mem,
@@ -108,7 +111,7 @@ def report(manifest_path=None, verify_hashes=False):
              'git_lfs': command(['git', 'lfs', 'version']),
              'git_head': git_head.get('stdout') if git_head.get('returncode') == 0 else None,
              'git_worktree_clean': status.get('returncode') == 0 and not status.get('stdout'),
-             'packages': packages, 'nvidia_smi': gpu,
+             'packages': packages, 'nvidia_smi': gpu, 'torch_accelerator': torch_probe, 'mlx_metal': mlx_probe,
              'metal_capable_host': platform.system() == 'Darwin' and platform.machine() == 'arm64',
              'mlx_installed': importlib.util.find_spec('mlx') is not None,
              'torch_installed': importlib.util.find_spec('torch') is not None,
