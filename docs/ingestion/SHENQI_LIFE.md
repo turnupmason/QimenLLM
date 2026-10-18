@@ -35,3 +35,6 @@ scripts/import_shenqi_life.py复用import_chapter → install_curated → import
 本章22专项及全量414回归实际通过、0失败/错误，含API五盘/CLI五案、已知结果后验测隔离、反馈范围/错断/有限分支、引文作用域、未知条件不激活、旧行/幂等/拒改/快照恢复。远端精确SHA四CI按STATUS及data/provenance/life_validation.json实际验收，未完成不冒称成功。旧25权威表所有旧行逐字段保留、19旧原文逐字节不变；46文件快照恢复再导出一致。无schema迁移、新目录或workflow增删；旧source/cases/curation/gold和总指令不改。
 
 累计20章级输入、97故事/93家族/104事件/102来源原盘、1549记录/1872证据，1087知识项/2480概念/29方法；498语境块/333技术边界/194当前候选/201历史候选，39编译符号族不变。正式rules/训练任务/冻结release仍0。
+
+
+远端内容验收：`0b5396459a9a4bc87ac142d8424299354bec5845` 已核对main一致、345文件blob匹配；[Actions 39082231552](https://github.com/turnupmason/QimenLLM/actions/runs/39082231552) 的Ubuntu/macOS × Python3.11/3.12四job全部success，四份日志均实际Ran 414 tests / OK。通过已连接GitHub接口非强制更新，未增删workflow。这里记录已实际验收的内容提交；本验收文档后续提交本身仍须按精确新SHA另查四CI，不以旧CI替代。
