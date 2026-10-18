@@ -8,13 +8,16 @@ import argparse
 from collections import Counter, defaultdict
 import json
 from pathlib import Path
+import sys
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT/'training'))
+from chapter_case_coverage import evaluate_case_family_coverage, require_minimum_case_coverage
 SPLITS = ('train', 'validation', 'development', 'test')
 SOURCE_ONLY = {'reference_reading', 'source_reading'}
 
 
-def matrix(manifest, records=None):
+def matrix(manifest, records=None, reviewed_case_families=None):
     if (manifest.get('release_id') != 'shenqi-book-method-curriculum-v1'
             or manifest.get('frozen') is not True):
         raise ValueError('Only the frozen book-method curriculum may be audited')
@@ -105,7 +108,12 @@ def matrix(manifest, records=None):
         'all_chapter_professional_pass': False,
         'independent_real_world_accuracy': None,
     }
-    return {'summary': summary, 'chapters': items}
+    case_evidence = evaluate_case_family_coverage(manifest, reviewed_case_families or [])
+    if reviewed_case_families is None:
+        case_evidence['source_case_review_metadata_supplied'] = False
+    else:
+        case_evidence['source_case_review_metadata_supplied'] = True
+    return {'summary': summary, 'chapters': items, 'case_family_gate': case_evidence}
 
 
 def main():
@@ -113,6 +121,8 @@ def main():
     p.add_argument('--manifest', type=Path, default=ROOT/'data/splits/book_method_curriculum_v1.json')
     p.add_argument('--report', type=Path, help='Completed model generation report, if present')
     p.add_argument('--output', type=Path, help='Write new JSON file, never overwrite')
+    p.add_argument('--reviewed-case-families', type=Path, help='Candidate freeze review metadata only; never model test answers')
+    p.add_argument('--require-minimum', action='store_true', help='Fail when any case chapter lacks an eligible unseen validation or final test family')
     args = p.parse_args()
     meta = json.loads(args.manifest.read_bytes())
     records = None
@@ -121,7 +131,12 @@ def main():
         if report.get('test_accessed') is not False or report.get('status') != 'generation_complete_not_semantic_acceptance':
             raise ValueError('Untrusted, incomplete or unsealed generation report')
         records = report['records']
-    result = matrix(meta, records)
+    reviewed = None if args.reviewed_case_families is None else json.loads(args.reviewed_case_families.read_bytes())
+    if args.require_minimum:
+        if reviewed is None:
+            p.error('--require-minimum needs independently reviewed case-family metadata')
+        require_minimum_case_coverage(meta, reviewed)
+    result = matrix(meta, records, reviewed)
     body = json.dumps(result, ensure_ascii=False, indent=2) + '\n'
     if args.output:
         args.output.parent.mkdir(parents=True, exist_ok=True)
