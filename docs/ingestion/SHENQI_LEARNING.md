@@ -24,3 +24,5 @@ PYTHONPATH=src python3 -m unittest discover -s tests -v
 10专项通过：新原字节与双侧引用、3988全文比对、14旧语境真实解析、未重复方法/实体/案盘/候选/训练、2注释参考标志和原字面、真实CLI/WSGI/学习与确认、幂等及坏源/坏关联拒绝、旧行审计、精确快照恢复、篇次/接收排序与3家族真实关联/教学条件。全量`PYTHONPATH=src python3 -m unittest discover -s tests -v`实际479项通过、0失败/错误；精确SHA四CI随后按实测补录。
 
 版本5b8798d1-d3bd-4393-b8b8-f07552fc4bdf，manifest SHA256 cb587698b63189caa0d6dee6defd1d090e42cf7547c7839ad5afe12e21d68b05。25表旧行逐字段全部保留、24旧源逐字节一致、51文件快照恢复再导出一致。累计25来源、1179知识项/3270片段、552语境（含来源对应）/369边界；2674索引/32方法/39编译族、98故事/94家族/106事件/104来源盘记录、1579记录/1902证据、196当前候选/203历史不变。正式rules/训练/release0；无schema、目录或workflow增删，旧source/curation/cases/gold/验收报告及用户总指令保留。历史workflow审查见SHENQI_TRAVEL.md。不由同文新增来源宣称全书收齐、模型掌握或现实准确率。
+
+远端内容验收：`ec82f26b2da4ca6d23bb6ce425592c04760952fc` 已核对main一致、392文件blob匹配；[Actions 39085624927](https://github.com/turnupmason/QimenLLM/actions/runs/39085624927) 的Ubuntu/macOS × Python3.11/3.12四job全部success，四份日志均实际Ran 479 tests / OK。通过已连接GitHub接口非强制更新，未增删workflow。这里记录实际验收的内容提交；本验收文档提交自身须按精确新SHA另查四CI，不以旧CI替代。

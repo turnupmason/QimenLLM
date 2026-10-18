@@ -32,3 +32,5 @@ TXT11761 UTF-8原字节/4039字符/51行LF，末尾LF；SHA256 10db674c708186c64
 10专项通过：原字节/双侧引用、3988字符全文比对、14旧语境在库、无重复实体/方法/案盘/候选/训练、参考标志及原字面、真实learn/reference/CLI/WSGI、重放及坏新源/旧关联拒绝、旧行审计、精确恢复、附录一先后二次序与3旧家族真实关联/教学条件。全量`PYTHONPATH=src python3 -m unittest discover -s tests -v`实际479项通过、0失败/错误；精确SHA四CI按实测记入data/provenance/learning_validation.json；pending不当完成。
 
 原有学习接口可读取新整篇与旧关系，问事/排盘/metrics未改，无schema迁移、新目录或workflow增删；tests.yml保留，历史解释见ingestion/SHENQI_TRAVEL.md。详见ingestion/SHENQI_LEARNING.md。独立历法、正式问事/应期、训练和现实准确率、公众Web仍未完成，不由收到同篇精校源推全书齐备或模型掌握。
+
+远端内容验收：`ec82f26b2da4ca6d23bb6ce425592c04760952fc` 已核对main一致、392文件blob匹配；[Actions 39085624927](https://github.com/turnupmason/QimenLLM/actions/runs/39085624927) 的Ubuntu/macOS × Python3.11/3.12四job全部success，四份日志均实际Ran 479 tests / OK。通过已连接GitHub接口非强制更新，未增删workflow。这里记录实际验收的内容提交；本验收文档提交自身须按精确新SHA另查四CI，不以旧CI替代。

@@ -193,7 +193,64 @@
     "real_world_predictive_accuracy": null
   },
   "github_sync": {
-    "status": "pending"
+    "status": "verified",
+    "repository_private": true,
+    "method": "connected_github_git_data_api",
+    "branch": "main",
+    "force": false,
+    "accepted_content_sha": "ec82f26b2da4ca6d23bb6ce425592c04760952fc",
+    "verified_blob_count": 392,
+    "workflow_added_or_deleted": false,
+    "ci": {
+      "run_id": 39085624927,
+      "url": "https://github.com/turnupmason/QimenLLM/actions/runs/39085624927",
+      "head_sha": "ec82f26b2da4ca6d23bb6ce425592c04760952fc",
+      "status": "completed",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "id": 117551451793,
+          "name": "stdlib-tests (ubuntu-latest, 3.11)",
+          "status": "completed",
+          "conclusion": "success",
+          "log_evidence": [
+            "2026-10-18T01:13:58.0237823Z Ran 479 tests in 91.318s",
+            "2026-10-18T01:13:58.0238905Z OK"
+          ]
+        },
+        {
+          "id": 117551451932,
+          "name": "stdlib-tests (macos-latest, 3.11)",
+          "status": "completed",
+          "conclusion": "success",
+          "log_evidence": [
+            "2026-10-18T01:13:23.0266270Z Ran 479 tests in 56.289s",
+            "2026-10-18T01:13:23.0266470Z OK"
+          ]
+        },
+        {
+          "id": 117551451977,
+          "name": "stdlib-tests (macos-latest, 3.12)",
+          "status": "completed",
+          "conclusion": "success",
+          "log_evidence": [
+            "2026-10-18T01:13:32.1371720Z Ran 479 tests in 63.502s",
+            "2026-10-18T01:13:32.1371870Z OK"
+          ]
+        },
+        {
+          "id": 117551452084,
+          "name": "stdlib-tests (ubuntu-latest, 3.12)",
+          "status": "completed",
+          "conclusion": "success",
+          "log_evidence": [
+            "2026-10-18T01:13:57.7988755Z Ran 479 tests in 91.112s",
+            "2026-10-18T01:13:57.7989401Z OK"
+          ]
+        }
+      ]
+    },
+    "scope": "Accepted content commit; subsequent acceptance-document commit needs its own exact-head CI check."
   },
   "development_failures": [],
   "cumulative_context_groups": 552,
