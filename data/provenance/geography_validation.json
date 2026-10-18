@@ -1,0 +1,175 @@
+{
+  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+  "source_byte_count": 10912,
+  "source_line_count": 81,
+  "source_file": "神奇之门_地理环境预测_精校完整版.txt",
+  "verification_basis": "user_attestation",
+  "system_performed_independent_verification": false,
+  "printed_chapter_number": 15,
+  "stories": 2,
+  "events": 3,
+  "charts": 2,
+  "source_palaces": 18,
+  "new_families": 2,
+  "records": 30,
+  "context_groups": 8,
+  "technical_boundaries": 7,
+  "reference_candidates": 3,
+  "case2_two_targets_one_family_and_only_second_target_has_chart": true,
+  "case1_immediate_confirmation_limited_to_budget_and_funding": true,
+  "last_line_as_supplied": "吴先生于是佩服得五体投地，慨叹不已。\n",
+  "schema_migration": false,
+  "formal_rules_added": 0,
+  "training_tasks_added": 0,
+  "snapshot": {
+    "data_version": "94f52e84-d394-4d82-9b38-f779acbd8d22",
+    "snapshot": "data/snapshots/current",
+    "counts": {
+      "data_versions": 90,
+      "books": 1,
+      "chapters": 19,
+      "raw_documents": 19,
+      "chapter_revisions": 19,
+      "source_reviews": 26,
+      "source_spans": 2959,
+      "methods": 28,
+      "concepts": 2429,
+      "concept_links": 0,
+      "knowledge_items": 1059,
+      "rules": 0,
+      "rule_conditions": 0,
+      "rule_disagreements": 0,
+      "event_families": 88,
+      "cases": 92,
+      "events": 99,
+      "case_events": 99,
+      "charts": 97,
+      "case_records": 1407,
+      "evidence_links": 1730,
+      "dataset_releases": 0,
+      "split_assignments": 0,
+      "training_tasks": 0,
+      "task_inputs": 0
+    },
+    "manifest_sha256": "d3b012494126d66e9f35131960a80344f39172686b42bdf0eaa4e1645acbddbc"
+  },
+  "old_rows_preserved": {
+    "rule_conditions": {
+      "old": 0,
+      "new": 0
+    },
+    "concept_links": {
+      "old": 0,
+      "new": 0
+    },
+    "case_events": {
+      "old": 96,
+      "new": 99
+    },
+    "data_versions": {
+      "old": 85,
+      "new": 90
+    },
+    "case_records": {
+      "old": 1377,
+      "new": 1407
+    },
+    "rule_disagreements": {
+      "old": 0,
+      "new": 0
+    },
+    "training_tasks": {
+      "old": 0,
+      "new": 0
+    },
+    "evidence_links": {
+      "old": 1700,
+      "new": 1730
+    },
+    "chapter_revisions": {
+      "old": 18,
+      "new": 19
+    },
+    "knowledge_items": {
+      "old": 1041,
+      "new": 1059
+    },
+    "methods": {
+      "old": 27,
+      "new": 28
+    },
+    "event_families": {
+      "old": 86,
+      "new": 88
+    },
+    "raw_documents": {
+      "old": 18,
+      "new": 19
+    },
+    "cases": {
+      "old": 90,
+      "new": 92
+    },
+    "task_inputs": {
+      "old": 0,
+      "new": 0
+    },
+    "source_spans": {
+      "old": 2906,
+      "new": 2959
+    },
+    "concepts": {
+      "old": 2410,
+      "new": 2429
+    },
+    "events": {
+      "old": 96,
+      "new": 99
+    },
+    "rules": {
+      "old": 0,
+      "new": 0
+    },
+    "split_assignments": {
+      "old": 0,
+      "new": 0
+    },
+    "charts": {
+      "old": 95,
+      "new": 97
+    },
+    "chapters": {
+      "old": 18,
+      "new": 19
+    },
+    "books": {
+      "old": 1,
+      "new": 1
+    },
+    "source_reviews": {
+      "old": 25,
+      "new": 26
+    },
+    "dataset_releases": {
+      "old": 0,
+      "new": 0
+    }
+  },
+  "old_raw_documents_preserved": 18,
+  "remote_base_sha": "2a0e6c0f9c0ed6a33c08937bb7563cbcf8c17b5f",
+  "github_sync": {
+    "status": "pending"
+  },
+  "workflow_added": false,
+  "workflow_deleted": false,
+  "local_regression": {
+    "command": "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+    "tests": 392,
+    "failures": 0,
+    "errors": 0,
+    "new_chapter_tests": 17
+  },
+  "snapshot_roundtrip": "byte_identical",
+  "api_original_charts": 2,
+  "cli_cases": 2
+}

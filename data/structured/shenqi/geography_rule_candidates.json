@@ -1,0 +1,189 @@
+{
+  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+  "source_byte_count": 10912,
+  "source_line_count": 81,
+  "schema_version": "source_selection_candidates_v1",
+  "title": "地理环境预测",
+  "candidate_count": 3,
+  "candidate_record_count": 3,
+  "candidates": [
+    {
+      "key": "geography_person_residence",
+      "domain": "geography_environment",
+      "scope": "person_residence",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "geography_environment"
+        },
+        {
+          "field": "geography_subtype",
+          "op": "eq",
+          "value": "person_residence"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_geography_person_residence_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_geography_reference_v1"
+      },
+      "source_lines": [
+        9
+      ],
+      "source_quote": "预测地理环境，一般以日干为人，以时干为住宅。时干临三奇吉门吉星吉神吉格乘旺相来生日干，则为最佳住宅，此居住环境对人最为有利。如果时干不临三奇吉门，但临吉星吉神吉格乘旺相来生日干宫，也为较好住宅。如果时干所临有吉有凶，则为一般住宅。如果时干临凶门、凶星、凶神、凶格，又来克日干宫，自然就是大凶之宅了。具体吉凶，再根据星、门、宫等的生克关系来具体分析。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "按完整原段保存人物/住宅/阳宅/阴宅语境及生克旺衰条件，不无条件混用",
+        "仅来源参考，未知条件不默认满足，不自动生成居住、建筑或墓地专业结论"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "日干",
+          "时干",
+          "三奇",
+          "吉门",
+          "吉星",
+          "吉神",
+          "吉格"
+        ],
+        "semantic_role": "person_residence",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "geography_living_residence",
+      "domain": "geography_environment",
+      "scope": "living_residence",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "geography_environment"
+        },
+        {
+          "field": "geography_subtype",
+          "op": "eq",
+          "value": "living_residence"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_geography_living_residence_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_geography_reference_v1"
+      },
+      "source_lines": [
+        10
+      ],
+      "source_quote": "测阳宅，一般以生门为房屋，以死门为地皮(宅基),再以其旺相休囚，与日干的生克关系来判断其优劣。又以值符为新宅，以值使为旧宅。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "按完整原段保存人物/住宅/阳宅/阴宅语境及生克旺衰条件，不无条件混用",
+        "仅来源参考，未知条件不默认满足，不自动生成居住、建筑或墓地专业结论"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "生门",
+          "死门",
+          "日干",
+          "值符",
+          "值使"
+        ],
+        "semantic_role": "living_residence",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "geography_burial_site",
+      "domain": "geography_environment",
+      "scope": "burial_site",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "geography_environment"
+        },
+        {
+          "field": "geography_subtype",
+          "op": "eq",
+          "value": "burial_site"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_geography_burial_site_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_geography_reference_v1"
+      },
+      "source_lines": [
+        11
+      ],
+      "source_quote": "测阴宅，一般以死门为用神，死门落宫地盘为死者，天盘为生者，吉神吉星又得三奇，上下相生者吉，凶神凶星不得奇且上下相克者凶，天盘克地盘，对死者不利，地盘克天盘，对生者不利。再者，死门落二、五、八、九宫为吉，落六、七宫次吉，落一、三、四宫不吉。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "按完整原段保存人物/住宅/阳宅/阴宅语境及生克旺衰条件，不无条件混用",
+        "仅来源参考，未知条件不默认满足，不自动生成居住、建筑或墓地专业结论"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "死门",
+          "天盘",
+          "地盘",
+          "三奇"
+        ],
+        "semantic_role": "burial_site",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    }
+  ]
+}

@@ -16,4 +16,4 @@
 
 运行：`PYTHONPATH=src python3 -m unittest discover -s tests -v`。
 资料/案例规则见 KNOWLEDGE_POLICY / CASE_POLICY；架构与迁移见 ARCHITECTURE / SCHEMA；评估见 EVALUATION_PROTOCOL；设备与远程接入见 HARDWARE。
-当前已接收《神奇之门》18份章级输入，累计90故事/86家族/96事件/95原盘。天时气象本轮5故事/5事件/5原盘、36过程记录；第四例同体育第五例起局语境，共原有家族，新增4家族；源SHA256 6093f9a89bd2eb889c392242892528a9022c6d9565f74be8912e2a8724663697。第一例同段预测/结果精确分句；六爻三法不补图；揭牌时段与全天结果、风与风级分别保存。共盘辅庚/铺庚各按源保留，不覆盖体育旧数据。沿import_shenqi_weather.py、snapshot和QimenService接续，无schema迁移或workflow增删，正式rules/训练0。最高总指令见docs/user_instructions/master_spec_reaffirmed_2026-10-17.txt，旧原件保留；不重置Phase0。进度以STATUS为准，历史验收报告不覆盖。
+当前已接收《神奇之门》19份章级输入，累计92故事/88家族/99事件/97原盘。地理环境本轮2故事/2家族/3事件/2盘、30过程记录；第二故事两处墓地目标同家族，先考题无原盘且方法未明，不补图。第十五章是原印刷标题，sequence20仅接收排序；源SHA256 c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1。第一例专家意见先已公开、八亿预算/资金缺口有限反馈与2001开业/十四亿未报结局分开；第二例省略号与佩服反应保留，不补作者内部推理或墓地最终结果。沿import_shenqi_geography.py、snapshot和QimenService接续，无schema迁移或workflow增删，正式rules/训练0。最高总指令见docs/user_instructions/master_spec_reaffirmed_2026-10-17.txt，旧原件保留；不重置Phase0。进度以STATUS为准，历史验收报告不覆盖。

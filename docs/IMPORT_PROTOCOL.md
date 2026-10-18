@@ -128,3 +128,14 @@ PYTHONPATH=src python3 scripts/import_shenqi_weather.py --restore-base --db work
 ```
 
 目标库须不存在；已含本章的快照重放幂等。脚本复用既有import_chapter/install_curated/import_cases/install_candidates；CLI/WSGI沿QimenService读取。第四例要求体育章既有家族共组；两来源盘及辅庚/铺庚变体分别保存，不改旧manifest/gold，不跨事件挂evidence_link。local-only仅维护暂存，最终需审计、导出、全量回归、核实私有仓库、非强制更新main、逐blob和精确SHA四CI；不新增章级workflow。详见ingestion/SHENQI_WEATHER.md。
+
+
+## 地理环境增量重放
+
+10912原字节/81行，确切SHA见data/provenance/geography_source_audit.json，uploads/SQLite BLOB/snapshot raw完整保存。chapter_key=geography-environment，sequence20仅接收排序，源文印刷标题第十五章。既有快照恢复到新库重放：
+
+```sh
+PYTHONPATH=src python3 scripts/import_shenqi_geography.py --restore-base --db work/geography.sqlite3 --raw-dir work/geography-raw --local-only
+```
+
+目标库须不存在；已含本章的快照重放幂等。沿现有import_chapter/install_curated/import_cases/install_candidates和QimenService/CLI/WSGI。第二故事两个事件同家族，前题无盘、后题一盘；不能把后题盘挂前题或补图。原文未报结局/内部推理不补，旧source/cases/curation/gold不改。local-only仅维护暂存；最终需完整审计、快照、全量回归、核实私有仓库、非强制更新main、精确SHA逐blob和四CI，不新增章级workflow。见ingestion/SHENQI_GEOGRAPHY.md。

@@ -22,6 +22,7 @@ CRIMINAL_SHA='289465c220a0701545b9f093b4b91d041d600a4c9da67bf58e33a10ece0f0ea9'
 LITIGATION_SHA='a0cf2a05700bfb832420d3318b2982d25f6150e7a5c5e8c5ecc1ae07f5c810d2'
 SPORTS_SHA='784f49224b8a540850dde469a0fe720d23ee4ab551fa9600dca6137eb4fb5a2b'
 WEATHER_SHA='6093f9a89bd2eb889c392242892528a9022c6d9565f74be8912e2a8724663697'
+GEOGRAPHY_SHA='c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1'
 PROJECTION='shenqi_health_table_projection_v1'
 SOURCE_POLICIES={HEALTH_SHA:PROJECTION,MARRIAGE_SHA:'shenqi_marriage_table_projection_v1',
                  PREGNANCY_SHA:'shenqi_pregnancy_table_projection_v1',
@@ -34,7 +35,8 @@ SOURCE_POLICIES={HEALTH_SHA:PROJECTION,MARRIAGE_SHA:'shenqi_marriage_table_proje
                  CRIMINAL_SHA:'shenqi_criminal_unicode_grid_projection_v1',
                  LITIGATION_SHA:'shenqi_litigation_unicode_grid_projection_v1',
                  SPORTS_SHA:'shenqi_sports_unicode_grid_projection_v1',
-                 WEATHER_SHA:'shenqi_weather_unicode_grid_projection_v1'}
+                 WEATHER_SHA:'shenqi_weather_unicode_grid_projection_v1',
+                 GEOGRAPHY_SHA:'shenqi_geography_unicode_grid_projection_v1'}
 NUMERALS=dict(zip('一二三四五六七八九',range(1,10)))
 
 
@@ -75,7 +77,7 @@ def project_chart(db,case_id,chart_id):
     stems={r['stem'] for r in families['stem_attributes']['payload']['dataset']['rows']}
     source_lines=text.splitlines(keepends=True); start_line=raw[:row['byte_start']].count(b'\n')+1
     grid_sources={}
-    if row['sha256'] in (TRAVEL_SHA,LOST_SHA,CRIMINAL_SHA,LITIGATION_SHA,SPORTS_SHA,WEATHER_SHA):
+    if row['sha256'] in (TRAVEL_SHA,LOST_SHA,CRIMINAL_SHA,LITIGATION_SHA,SPORTS_SHA,WEATHER_SHA,GEOGRAPHY_SHA):
         # Read literal grid cells in place. Synthetic rows are local projection
         # inputs only; their citations retain all three exact Unicode source lines.
         lines=[]
@@ -88,7 +90,7 @@ def project_chart(db,case_id,chart_id):
                 header=cells[0][column].strip()
                 if ((row['sha256'] in (LOST_SHA,CRIMINAL_SHA) and header=='中五宫  中宫')
                         or (row['sha256'] in (LITIGATION_SHA,SPORTS_SHA) and header=='中五宫')
-                        or (row['sha256']==WEATHER_SHA and header=='中五宫   原盘中宫')):
+                        or (row['sha256'] in (WEATHER_SHA,GEOGRAPHY_SHA) and header=='中五宫   原盘中宫')):
                     label,deity='中五宫','—'
                 else:
                     label,deity=header.split('八神：')

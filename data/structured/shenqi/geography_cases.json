@@ -1,0 +1,1466 @@
+{
+  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+  "source_byte_count": 10912,
+  "source_line_count": 81,
+  "temporal_payload_contract": "source-stage-v1",
+  "cases": [
+    {
+      "case_key": "geography-case-01",
+      "title": "实例一：选最佳建筑方案",
+      "completeness": "confirmed_complete",
+      "source_ranges": [
+        [
+          15,
+          50
+        ]
+      ],
+      "source_selectors": [
+        {
+          "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+          "line_start": 15,
+          "line_end": 50,
+          "byte_start": 1672,
+          "byte_end": 7179,
+          "source_quote": "实例一：选最佳建筑方案\n\n1997年8月下旬，中国第五届易学堪舆学术研讨会在山东省蓬莱市举行。8月27日中午，天津市大都市房地产有限公司王老板携带“北方国际金融中心”开发建设的三种设计图纸，邀请与会的主要专家学者到中国工商银行培训中心，就三种设计方案发表意见，帮助他选择最佳建筑方案。\n会诊的专家有：中国易学堪舆研究院院长、天津大学建筑系教授亢亮先生，中国易学堪舆研究院副院长王来滨、李德雄，理事孙景浩，中国“万物十字定律”创建者巫露平先生等。我和我的学生、山东东营市国际经济技术合作公司总经理姜国胜也忝列其中。\n王老板及其工作人员将“北方国际金融中心”三种规划方案的设计图纸一一展示在桌子上，征询这些地理专家的意见。王来滨、孙景浩、李德雄、亢亮等专家，从形势、理气、三元九运、玄空飞星等各个角度，先后发表了自己的意见，经过讨论，最后一致倾向于第三种方案，认为五十层(一百八十米)的主楼建在东北艮位最佳，其他方面，再做一些调整即可。\n最后，亢亮教授说：“今天，研究奇门遁甲的专家张志春先生也来了，请他从奇门的角度也给看一下吧。”\n我说：“好吧!”\n于是让我的学生姜国胜把事先已经起好的奇门格局拿出来，摆在了桌上：\n丁丑年戊申月辛丑日甲午时，阴遁4局，天蓬星为值符，休门为值使。\n\n九宫盘面：\n┌───────────────────────────┬───────────────────────────┬───────────────────────────┐\n│巽四宫   八神：武          │离九宫   八神：虎          │坤二宫   八神：合          │\n│门位：杜戊                 │门位：景壬                 │门位：死庚                 │\n│星位：辅戊                 │星位：英壬                 │星位：芮庚                 │\n├───────────────────────────┼───────────────────────────┼───────────────────────────┤\n│震三宫   八神：地          │中五宫   原盘中宫          │兑七宫   八神：阴          │\n│门位：伤己                 │原盘单字：乙               │门位：惊丁                 │\n│星位：冲己                 │                           │星位：柱丁                 │\n├───────────────────────────┼───────────────────────────┼───────────────────────────┤\n│艮八宫   八神：天          │坎一宫   八神：符          │乾六宫   八神：蛇          │\n│门位：生癸                 │门位：休辛                 │门位：开丙                 │\n│星位：任癸                 │星位：蓬辛                 │星位：心丙                 │\n└───────────────────────────┴───────────────────────────┴───────────────────────────┘\n\n我说：“勘察地理，当然必须到现场，但是如果学了奇门，一者可以与实际勘察情况对照校核，帮助判断；二者人未去，不看现场、不看图纸，判断意见也可以事先拿出；三者，奇门还可以帮助我们判断一些肉眼看不到的地磁场、生物场、微波等状况。\n“比如，这个北方国际金融中心的主楼建在什么方位好，各位专家根据堪舆学的各种理论，发表了许多高见，最后都倾向于建在东北艮位。这个时辰的奇门遁甲格局上早已显示出来：生门为房屋，九天主高大，今生门、九天均落东北艮位，与各位专家的意见完全一致。”\n说到这里，各位专家和天津大都市房地产有限公司的王老板都翘首把目光投向姜国胜事先已经写好的奇门格局上。\n接着，我对王老板说：“各位专家从地理学角度发表了许多高见。我根据奇门格局，再从其他方面谈点意见：\n“其一，日时同宫，太岁生助，这个事能成；但大局伏吟，时间很长，这个事进度快不了。”\n“其二，这个项目您从1995年就开始策划，起码要到2001年才能开业。”\n“其三，这个项目最少投资得八个亿，完全建成可能得十四个亿，但现在资金不到位，一时半时难以运作。对不对?”\n王老板惊奇地说：“对，对。这个项目规划上报的就是投资八个亿，但现在资金还没有着落。”\n身为吉林大学哲学系高才生的王老板，看奇门遁甲预测得如此准确，当天晚上，又专门把我请到中国工商银行总行培训中心，就这个项目的具体实施运作，征询我的意见。\n会后，王老板还参加了我办的奇门学术研讨班，业余时间跟我学习奇门遁甲。从此，这个项目几乎每进展一步，都要事先征询我的意见。\n\n"
+        }
+      ],
+      "family": {
+        "family_key": "shenqi-geography-case-01-family",
+        "description": "实例一：选最佳建筑方案：同一完整故事的现场问答、多目标事件、反馈与后续叙述同组"
+      },
+      "events": [
+        {
+          "event_key": "geography-case-01-event-1",
+          "chronology_status": "ordered",
+          "background": {
+            "initial_inquiry_as_written": "1997年8月下旬，中国第五届易学堪舆学术研讨会在山东省蓬莱市举行。8月27日中午，天津市大都市房地产有限公司王老板携带“北方国际金融中心”开发建设的三种设计图纸，邀请与会的主要专家学者到中国工商银行培训中心，就三种设计方案发表意见，帮助他选择最佳建筑方案。\n",
+            "source_confirmation": "user_attestation",
+            "whole_background_not_prediction_input": true
+          },
+          "prediction_input_policy": {
+            "mode": "first_forecast_only_conservative",
+            "contract": "source-stage-v1",
+            "unrestricted_background_withheld": true,
+            "unknown_explanations_withheld": true
+          },
+          "charts": [
+            {
+              "chart_key": "geography-case-01-chart-1",
+              "source_lines": [
+                26,
+                38
+              ],
+              "source_or_engine": "original",
+              "casting_method": null,
+              "method_version": null,
+              "input_datetime": null,
+              "timezone": null,
+              "location": null,
+              "validation_status": "original_unparsed",
+              "payload": {
+                "chart_role": "source_original_nine_palace_grid",
+                "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                "raw_chart_text": "┌───────────────────────────┬───────────────────────────┬───────────────────────────┐\n│巽四宫   八神：武          │离九宫   八神：虎          │坤二宫   八神：合          │\n│门位：杜戊                 │门位：景壬                 │门位：死庚                 │\n│星位：辅戊                 │星位：英壬                 │星位：芮庚                 │\n├───────────────────────────┼───────────────────────────┼───────────────────────────┤\n│震三宫   八神：地          │中五宫   原盘中宫          │兑七宫   八神：阴          │\n│门位：伤己                 │原盘单字：乙               │门位：惊丁                 │\n│星位：冲己                 │                           │星位：柱丁                 │\n├───────────────────────────┼───────────────────────────┼───────────────────────────┤\n│艮八宫   八神：天          │坎一宫   八神：符          │乾六宫   八神：蛇          │\n│门位：生癸                 │门位：休辛                 │门位：开丙                 │\n│星位：任癸                 │星位：蓬辛                 │星位：心丙                 │\n└───────────────────────────┴───────────────────────────┴───────────────────────────┘\n",
+                "source_table_rows": [
+                  {
+                    "source_lines": [
+                      27,
+                      29
+                    ],
+                    "source_selector": {
+                      "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                      "line_start": 27,
+                      "line_end": 29,
+                      "byte_start": 3520,
+                      "byte_end": 3853,
+                      "source_quote": "│巽四宫   八神：武          │离九宫   八神：虎          │坤二宫   八神：合          │\n│门位：杜戊                 │门位：景壬                 │门位：死庚                 │\n│星位：辅戊                 │星位：英壬                 │星位：芮庚                 │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "巽四宫",
+                      "武",
+                      "杜戊",
+                      "辅戊"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      27,
+                      29
+                    ],
+                    "source_selector": {
+                      "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                      "line_start": 27,
+                      "line_end": 29,
+                      "byte_start": 3520,
+                      "byte_end": 3853,
+                      "source_quote": "│巽四宫   八神：武          │离九宫   八神：虎          │坤二宫   八神：合          │\n│门位：杜戊                 │门位：景壬                 │门位：死庚                 │\n│星位：辅戊                 │星位：英壬                 │星位：芮庚                 │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "离九宫",
+                      "虎",
+                      "景壬",
+                      "英壬"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      27,
+                      29
+                    ],
+                    "source_selector": {
+                      "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                      "line_start": 27,
+                      "line_end": 29,
+                      "byte_start": 3520,
+                      "byte_end": 3853,
+                      "source_quote": "│巽四宫   八神：武          │离九宫   八神：虎          │坤二宫   八神：合          │\n│门位：杜戊                 │门位：景壬                 │门位：死庚                 │\n│星位：辅戊                 │星位：英壬                 │星位：芮庚                 │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "坤二宫",
+                      "合",
+                      "死庚",
+                      "芮庚"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      31,
+                      33
+                    ],
+                    "source_selector": {
+                      "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                      "line_start": 31,
+                      "line_end": 33,
+                      "byte_start": 4109,
+                      "byte_end": 4438,
+                      "source_quote": "│震三宫   八神：地          │中五宫   原盘中宫          │兑七宫   八神：阴          │\n│门位：伤己                 │原盘单字：乙               │门位：惊丁                 │\n│星位：冲己                 │                           │星位：柱丁                 │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "震三宫",
+                      "地",
+                      "伤己",
+                      "冲己"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      31,
+                      33
+                    ],
+                    "source_selector": {
+                      "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                      "line_start": 31,
+                      "line_end": 33,
+                      "byte_start": 4109,
+                      "byte_end": 4438,
+                      "source_quote": "│震三宫   八神：地          │中五宫   原盘中宫          │兑七宫   八神：阴          │\n│门位：伤己                 │原盘单字：乙               │门位：惊丁                 │\n│星位：冲己                 │                           │星位：柱丁                 │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "中五宫",
+                      "—",
+                      "乙",
+                      "—"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      31,
+                      33
+                    ],
+                    "source_selector": {
+                      "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                      "line_start": 31,
+                      "line_end": 33,
+                      "byte_start": 4109,
+                      "byte_end": 4438,
+                      "source_quote": "│震三宫   八神：地          │中五宫   原盘中宫          │兑七宫   八神：阴          │\n│门位：伤己                 │原盘单字：乙               │门位：惊丁                 │\n│星位：冲己                 │                           │星位：柱丁                 │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "兑七宫",
+                      "阴",
+                      "惊丁",
+                      "柱丁"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      35,
+                      37
+                    ],
+                    "source_selector": {
+                      "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                      "line_start": 35,
+                      "line_end": 37,
+                      "byte_start": 4694,
+                      "byte_end": 5027,
+                      "source_quote": "│艮八宫   八神：天          │坎一宫   八神：符          │乾六宫   八神：蛇          │\n│门位：生癸                 │门位：休辛                 │门位：开丙                 │\n│星位：任癸                 │星位：蓬辛                 │星位：心丙                 │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "艮八宫",
+                      "天",
+                      "生癸",
+                      "任癸"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      35,
+                      37
+                    ],
+                    "source_selector": {
+                      "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                      "line_start": 35,
+                      "line_end": 37,
+                      "byte_start": 4694,
+                      "byte_end": 5027,
+                      "source_quote": "│艮八宫   八神：天          │坎一宫   八神：符          │乾六宫   八神：蛇          │\n│门位：生癸                 │门位：休辛                 │门位：开丙                 │\n│星位：任癸                 │星位：蓬辛                 │星位：心丙                 │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "坎一宫",
+                      "符",
+                      "休辛",
+                      "蓬辛"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      35,
+                      37
+                    ],
+                    "source_selector": {
+                      "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                      "line_start": 35,
+                      "line_end": 37,
+                      "byte_start": 4694,
+                      "byte_end": 5027,
+                      "source_quote": "│艮八宫   八神：天          │坎一宫   八神：符          │乾六宫   八神：蛇          │\n│门位：生癸                 │门位：休辛                 │门位：开丙                 │\n│星位：任癸                 │星位：蓬辛                 │星位：心丙                 │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "乾六宫",
+                      "蛇",
+                      "开丙",
+                      "心丙"
+                    ]
+                  }
+                ],
+                "source_chart_metadata": {
+                  "casting_description": "丁丑年戊申月辛丑日甲午时，阴遁4局，天蓬星为值符，休门为值使。",
+                  "casting_basis_as_written": "prepared_chart_displayed_at_design_consultation",
+                  "caster_as_written": "姜国胜展示事先已起格局，起局者未另外明说"
+                },
+                "source_presentation_stage": "source_order",
+                "calendar_recomputed": false
+              }
+            }
+          ],
+          "records": [
+            {
+              "record_key": "geography-case-01-line-17",
+              "sequence": 0,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                17,
+                17
+              ],
+              "text": "1997年8月下旬，中国第五届易学堪舆学术研讨会在山东省蓬莱市举行。8月27日中午，天津市大都市房地产有限公司王老板携带“北方国际金融中心”开发建设的三种设计图纸，邀请与会的主要专家学者到中国工商银行培训中心，就三种设计方案发表意见，帮助他选择最佳建筑方案。\n",
+              "chart_key": "geography-case-01-chart-1",
+              "speaker": "张志春/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_context",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 17,
+                  "line_end": 17,
+                  "byte_start": 1707,
+                  "byte_end": 2079,
+                  "source_quote": "1997年8月下旬，中国第五届易学堪舆学术研讨会在山东省蓬莱市举行。8月27日中午，天津市大都市房地产有限公司王老板携带“北方国际金融中心”开发建设的三种设计图纸，邀请与会的主要专家学者到中国工商银行培训中心，就三种设计方案发表意见，帮助他选择最佳建筑方案。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "geography-case-01-line-18",
+              "sequence": 1,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                18,
+                18
+              ],
+              "text": "会诊的专家有：中国易学堪舆研究院院长、天津大学建筑系教授亢亮先生，中国易学堪舆研究院副院长王来滨、李德雄，理事孙景浩，中国“万物十字定律”创建者巫露平先生等。我和我的学生、山东东营市国际经济技术合作公司总经理姜国胜也忝列其中。\n",
+              "chart_key": "geography-case-01-chart-1",
+              "speaker": "张志春/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_context",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 18,
+                  "line_end": 18,
+                  "byte_start": 2079,
+                  "byte_end": 2419,
+                  "source_quote": "会诊的专家有：中国易学堪舆研究院院长、天津大学建筑系教授亢亮先生，中国易学堪舆研究院副院长王来滨、李德雄，理事孙景浩，中国“万物十字定律”创建者巫露平先生等。我和我的学生、山东东营市国际经济技术合作公司总经理姜国胜也忝列其中。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "geography-case-01-line-19",
+              "sequence": 2,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                19,
+                19
+              ],
+              "text": "王老板及其工作人员将“北方国际金融中心”三种规划方案的设计图纸一一展示在桌子上，征询这些地理专家的意见。王来滨、孙景浩、李德雄、亢亮等专家，从形势、理气、三元九运、玄空飞星等各个角度，先后发表了自己的意见，经过讨论，最后一致倾向于第三种方案，认为五十层(一百八十米)的主楼建在东北艮位最佳，其他方面，再做一些调整即可。\n",
+              "chart_key": "geography-case-01-chart-1",
+              "speaker": "张志春/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_context",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 19,
+                  "line_end": 19,
+                  "byte_start": 2419,
+                  "byte_end": 2893,
+                  "source_quote": "王老板及其工作人员将“北方国际金融中心”三种规划方案的设计图纸一一展示在桌子上，征询这些地理专家的意见。王来滨、孙景浩、李德雄、亢亮等专家，从形势、理气、三元九运、玄空飞星等各个角度，先后发表了自己的意见，经过讨论，最后一致倾向于第三种方案，认为五十层(一百八十米)的主楼建在东北艮位最佳，其他方面，再做一些调整即可。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "already_known_expert_consensus": true,
+                "not_blind_qimen_validation": true
+              }
+            },
+            {
+              "record_key": "geography-case-01-line-20",
+              "sequence": 3,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                20,
+                20
+              ],
+              "text": "最后，亢亮教授说：“今天，研究奇门遁甲的专家张志春先生也来了，请他从奇门的角度也给看一下吧。”\n",
+              "chart_key": "geography-case-01-chart-1",
+              "speaker": "张志春/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_context",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 20,
+                  "line_end": 20,
+                  "byte_start": 2893,
+                  "byte_end": 3035,
+                  "source_quote": "最后，亢亮教授说：“今天，研究奇门遁甲的专家张志春先生也来了，请他从奇门的角度也给看一下吧。”\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "geography-case-01-line-21",
+              "sequence": 4,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                21,
+                21
+              ],
+              "text": "我说：“好吧!”\n",
+              "chart_key": "geography-case-01-chart-1",
+              "speaker": "张志春/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_context",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 21,
+                  "line_end": 21,
+                  "byte_start": 3035,
+                  "byte_end": 3058,
+                  "source_quote": "我说：“好吧!”\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "geography-case-01-line-22",
+              "sequence": 5,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                22,
+                22
+              ],
+              "text": "于是让我的学生姜国胜把事先已经起好的奇门格局拿出来，摆在了桌上：\n",
+              "chart_key": "geography-case-01-chart-1",
+              "speaker": "张志春/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_context",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 22,
+                  "line_end": 22,
+                  "byte_start": 3058,
+                  "byte_end": 3155,
+                  "source_quote": "于是让我的学生姜国胜把事先已经起好的奇门格局拿出来，摆在了桌上：\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "geography-case-01-line-23",
+              "sequence": 6,
+              "kind": "dialogue",
+              "knowledge_phase": "unknown",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                23,
+                23
+              ],
+              "text": "丁丑年戊申月辛丑日甲午时，阴遁4局，天蓬星为值符，休门为值使。\n",
+              "chart_key": "geography-case-01-chart-1",
+              "speaker": "张志春/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "source_narrative",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 23,
+                  "line_end": 23,
+                  "byte_start": 3155,
+                  "byte_end": 3247,
+                  "source_quote": "丁丑年戊申月辛丑日甲午时，阴遁4局，天蓬星为值符，休门为值使。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "geography-case-01-line-40",
+              "sequence": 7,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                40,
+                40
+              ],
+              "text": "我说：“勘察地理，当然必须到现场，但是如果学了奇门，一者可以与实际勘察情况对照校核，帮助判断；二者人未去，不看现场、不看图纸，判断意见也可以事先拿出；三者，奇门还可以帮助我们判断一些肉眼看不到的地磁场、生物场、微波等状况。\n",
+              "chart_key": "geography-case-01-chart-1",
+              "speaker": "张志春/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_commentary_or_chart_interpretation",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 40,
+                  "line_end": 40,
+                  "byte_start": 5284,
+                  "byte_end": 5618,
+                  "source_quote": "我说：“勘察地理，当然必须到现场，但是如果学了奇门，一者可以与实际勘察情况对照校核，帮助判断；二者人未去，不看现场、不看图纸，判断意见也可以事先拿出；三者，奇门还可以帮助我们判断一些肉眼看不到的地磁场、生物场、微波等状况。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "author_claim_not_instrument_measurement": true
+              }
+            },
+            {
+              "record_key": "geography-case-01-line-41",
+              "sequence": 8,
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                41,
+                41
+              ],
+              "text": "“比如，这个北方国际金融中心的主楼建在什么方位好，各位专家根据堪舆学的各种理论，发表了许多高见，最后都倾向于建在东北艮位。这个时辰的奇门遁甲格局上早已显示出来：生门为房屋，九天主高大，今生门、九天均落东北艮位，与各位专家的意见完全一致。”\n",
+              "chart_key": "geography-case-01-chart-1",
+              "speaker": "张志春/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "author_explicit_commentary_or_chart_interpretation",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 41,
+                  "line_end": 41,
+                  "byte_start": 5618,
+                  "byte_end": 5976,
+                  "source_quote": "“比如，这个北方国际金融中心的主楼建在什么方位好，各位专家根据堪舆学的各种理论，发表了许多高见，最后都倾向于建在东北艮位。这个时辰的奇门遁甲格局上早已显示出来：生门为房屋，九天主高大，今生门、九天均落东北艮位，与各位专家的意见完全一致。”\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "geography-case-01-line-42",
+              "sequence": 9,
+              "kind": "dialogue",
+              "knowledge_phase": "unknown",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                42,
+                42
+              ],
+              "text": "说到这里，各位专家和天津大都市房地产有限公司的王老板都翘首把目光投向姜国胜事先已经写好的奇门格局上。\n",
+              "chart_key": "geography-case-01-chart-1",
+              "speaker": "张志春/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "source_narrative",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 42,
+                  "line_end": 42,
+                  "byte_start": 5976,
+                  "byte_end": 6127,
+                  "source_quote": "说到这里，各位专家和天津大都市房地产有限公司的王老板都翘首把目光投向姜国胜事先已经写好的奇门格局上。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "geography-case-01-line-43",
+              "sequence": 10,
+              "kind": "prediction",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                43,
+                43
+              ],
+              "text": "接着，我对王老板说：“各位专家从地理学角度发表了许多高见。我根据奇门格局，再从其他方面谈点意见：\n",
+              "chart_key": "geography-case-01-chart-1",
+              "speaker": "张志春/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "original_forecast",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 43,
+                  "line_end": 43,
+                  "byte_start": 6127,
+                  "byte_end": 6272,
+                  "source_quote": "接着，我对王老板说：“各位专家从地理学角度发表了许多高见。我根据奇门格局，再从其他方面谈点意见：\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "geography-case-01-line-44",
+              "sequence": 11,
+              "kind": "prediction",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                44,
+                44
+              ],
+              "text": "“其一，日时同宫，太岁生助，这个事能成；但大局伏吟，时间很长，这个事进度快不了。”\n",
+              "chart_key": "geography-case-01-chart-1",
+              "speaker": "张志春/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "original_forecast",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 44,
+                  "line_end": 44,
+                  "byte_start": 6272,
+                  "byte_end": 6396,
+                  "source_quote": "“其一，日时同宫，太岁生助，这个事能成；但大局伏吟，时间很长，这个事进度快不了。”\n"
+                },
+                "original_step_number": 1,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "geography-case-01-line-45",
+              "sequence": 12,
+              "kind": "timing",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                45,
+                45
+              ],
+              "text": "“其二，这个项目您从1995年就开始策划，起码要到2001年才能开业。”\n",
+              "chart_key": "geography-case-01-chart-1",
+              "speaker": "张志春/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "original_forecast",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 45,
+                  "line_end": 45,
+                  "byte_start": 6396,
+                  "byte_end": 6489,
+                  "source_quote": "“其二，这个项目您从1995年就开始策划，起码要到2001年才能开业。”\n"
+                },
+                "original_step_number": 2,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "geography-case-01-line-46",
+              "sequence": 13,
+              "kind": "prediction",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                46,
+                46
+              ],
+              "text": "“其三，这个项目最少投资得八个亿，完全建成可能得十四个亿，但现在资金不到位，一时半时难以运作。对不对?”\n",
+              "chart_key": "geography-case-01-chart-1",
+              "speaker": "张志春/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "original_forecast",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 46,
+                  "line_end": 46,
+                  "byte_start": 6489,
+                  "byte_end": 6644,
+                  "source_quote": "“其三，这个项目最少投资得八个亿，完全建成可能得十四个亿，但现在资金不到位，一时半时难以运作。对不对?”\n"
+                },
+                "original_step_number": 3,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "geography-case-01-line-47",
+              "sequence": 14,
+              "kind": "feedback",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                47,
+                47
+              ],
+              "text": "王老板惊奇地说：“对，对。这个项目规划上报的就是投资八个亿，但现在资金还没有着落。”\n",
+              "chart_key": "geography-case-01-chart-1",
+              "speaker": "王老板",
+              "reported_at": null,
+              "payload": {
+                "record_role": "reported_immediate_budget_and_funding_confirmation",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 47,
+                  "line_end": 47,
+                  "byte_start": 6644,
+                  "byte_end": 6771,
+                  "source_quote": "王老板惊奇地说：“对，对。这个项目规划上报的就是投资八个亿，但现在资金还没有着落。”\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "confirmation_scope": [
+                  "reported_budget_8yi",
+                  "funding_not_in_place"
+                ],
+                "not_individually_confirmed": [
+                  "planning_start_1995",
+                  "opening_2001_or_later",
+                  "possible_total_14yi",
+                  "actual_completed_building"
+                ]
+              }
+            },
+            {
+              "record_key": "geography-case-01-line-48",
+              "sequence": 15,
+              "kind": "continuation",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                48,
+                48
+              ],
+              "text": "身为吉林大学哲学系高才生的王老板，看奇门遁甲预测得如此准确，当天晚上，又专门把我请到中国工商银行总行培训中心，就这个项目的具体实施运作，征询我的意见。\n",
+              "chart_key": "geography-case-01-chart-1",
+              "speaker": "张志春/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "later_consultations_mentioned_without_details",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 48,
+                  "line_end": 48,
+                  "byte_start": 6771,
+                  "byte_end": 6997,
+                  "source_quote": "身为吉林大学哲学系高才生的王老板，看奇门遁甲预测得如此准确，当天晚上，又专门把我请到中国工商银行总行培训中心，就这个项目的具体实施运作，征询我的意见。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "geography-case-01-line-49",
+              "sequence": 16,
+              "kind": "continuation",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                49,
+                49
+              ],
+              "text": "会后，王老板还参加了我办的奇门学术研讨班，业余时间跟我学习奇门遁甲。从此，这个项目几乎每进展一步，都要事先征询我的意见。\n",
+              "chart_key": "geography-case-01-chart-1",
+              "speaker": "张志春/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "later_consultations_mentioned_without_details",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 49,
+                  "line_end": 49,
+                  "byte_start": 6997,
+                  "byte_end": 7178,
+                  "source_quote": "会后，王老板还参加了我办的奇门学术研讨班，业余时间跟我学习奇门遁甲。从此，这个项目几乎每进展一步，都要事先征询我的意见。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            }
+          ],
+          "evidence_links": []
+        }
+      ]
+    },
+    {
+      "case_key": "geography-case-02",
+      "title": "实例二：“地理虽好，但你不能用”",
+      "completeness": "confirmed_complete",
+      "source_ranges": [
+        [
+          51,
+          81
+        ]
+      ],
+      "source_selectors": [
+        {
+          "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+          "line_start": 51,
+          "line_end": 81,
+          "byte_start": 7179,
+          "byte_end": 10912,
+          "source_quote": "实例二：“地理虽好，但你不能用”\n\n河北省周易研究会高级堪舆师王庆丰，跟我学习奇门以后，如虎添翼。1998年春天，广东深圳一带有的单位和个人请他去勘察地理环境。因经人介绍，初次见他，对他的学术水平还不太信任，因而由当地一位年已七十三岁的老风水师吴先生陪同。\n吴先生先拿一癸山丁向墓地考王庆丰。吴先生画了墓地的形势图，王庆丰看了一下说：“这个墓地家的儿子，如果不在银行工作，就是他家自己有钱，钱的数目得论亿计算。”\n这位吴先生笑着说：“说得对。这家的三儿子是本地工商银行行长，自然要掌握上亿元的资金。”\n吴先生又说：“我用二十多年的时间，为自己在山上找了一块墓地，是辛山乙向兼戌、辰分金，你看怎么样?”说着，又画了一个地形图。\n王庆丰在他画图同时，起了一个奇门格局。\n时间是1998年3月5日19点20分，干支历为戊寅年甲寅月辛亥日戊戌时，阳遁1局，甲午旬，天辅星为值符落1宫，杜门为值使落8宫。\n\n九宫盘面：\n┌───────────────────────────┬───────────────────────────┬───────────────────────────┐\n│巽四宫   八神：合          │离九宫   八神：虎          │坤二宫   八神：武          │\n│门位：死丁                 │门位：惊癸                 │门位：开戊                 │\n│星位：柱辛                 │星位：心乙                 │星位：蓬己                 │\n├───────────────────────────┼───────────────────────────┼───────────────────────────┤\n│震三宫   八神：阴          │中五宫   原盘中宫          │兑七宫   八神：地          │\n│门位：壬景己               │原盘单字：壬               │门位：休丙                 │\n│星位：芮庚                 │                           │星位：任丁                 │\n├───────────────────────────┼───────────────────────────┼───────────────────────────┤\n│艮八宫   八神：蛇          │坎一宫   八神：符          │乾六宫   八神：天          │\n│门位：杜乙                 │门位：伤辛                 │门位：生庚                 │\n│星位：英丙                 │星位：辅戊                 │星位：冲癸                 │\n└───────────────────────────┴───────────────────────────┴───────────────────────────┘\n\n王庆丰看了看吴先生画的地形图，又看看奇门格局，说道：\n“你选的这块地理，气势宏大，秀丽中带刚建，确实很好。但是太好了，你不能用。”\n吴先生问：“为什么?”\n王庆丰说：“这块地方已经被前辈高人……你得不到。”\n王庆丰说到这里，吴先生惊讶得非同小可，说道：“王老师，您又没有到现场实地勘察，您怎么知道的?”\n王庆丰指指奇门格局：“这上边都有呢!”\n吴先生于是佩服得五体投地，慨叹不已。\n"
+        }
+      ],
+      "family": {
+        "family_key": "shenqi-geography-case-02-family",
+        "description": "实例二：“地理虽好，但你不能用”：同一完整故事的现场问答、多目标事件、反馈与后续叙述同组"
+      },
+      "events": [
+        {
+          "event_key": "geography-case-02-event-1",
+          "chronology_status": "ordered",
+          "background": {
+            "initial_inquiry_as_written": "河北省周易研究会高级堪舆师王庆丰，跟我学习奇门以后，如虎添翼。1998年春天，广东深圳一带有的单位和个人请他去勘察地理环境。因经人介绍，初次见他，对他的学术水平还不太信任，因而由当地一位年已七十三岁的老风水师吴先生陪同。\n吴先生先拿一癸山丁向墓地考王庆丰。吴先生画了墓地的形势图，王庆丰看了一下说：“这个墓地家的儿子，如果不在银行工作，就是他家自己有钱，钱的数目得论亿计算。”\n",
+            "source_confirmation": "user_attestation",
+            "whole_background_not_prediction_input": true,
+            "source_target": "first_gui_mountain_ding_facing_burial_site_family_test",
+            "casting_method_not_explicit": true
+          },
+          "prediction_input_policy": {
+            "mode": "first_forecast_only_conservative",
+            "contract": "source-stage-v1",
+            "unrestricted_background_withheld": true,
+            "unknown_explanations_withheld": true
+          },
+          "charts": [],
+          "records": [
+            {
+              "record_key": "geography-case-02-line-53",
+              "sequence": 0,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                53,
+                53
+              ],
+              "text": "河北省周易研究会高级堪舆师王庆丰，跟我学习奇门以后，如虎添翼。1998年春天，广东深圳一带有的单位和个人请他去勘察地理环境。因经人介绍，初次见他，对他的学术水平还不太信任，因而由当地一位年已七十三岁的老风水师吴先生陪同。\n",
+              "chart_key": null,
+              "speaker": "王庆丰/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_context",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 53,
+                  "line_end": 53,
+                  "byte_start": 7229,
+                  "byte_end": 7552,
+                  "source_quote": "河北省周易研究会高级堪舆师王庆丰，跟我学习奇门以后，如虎添翼。1998年春天，广东深圳一带有的单位和个人请他去勘察地理环境。因经人介绍，初次见他，对他的学术水平还不太信任，因而由当地一位年已七十三岁的老风水师吴先生陪同。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "geography-case-02-line-54",
+              "sequence": 1,
+              "kind": "prediction",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                54,
+                54
+              ],
+              "text": "吴先生先拿一癸山丁向墓地考王庆丰。吴先生画了墓地的形势图，王庆丰看了一下说：“这个墓地家的儿子，如果不在银行工作，就是他家自己有钱，钱的数目得论亿计算。”\n",
+              "chart_key": null,
+              "speaker": "王庆丰",
+              "reported_at": null,
+              "payload": {
+                "record_role": "original_source_statement",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 54,
+                  "line_end": 54,
+                  "byte_start": 7552,
+                  "byte_end": 7784,
+                  "source_quote": "吴先生先拿一癸山丁向墓地考王庆丰。吴先生画了墓地的形势图，王庆丰看了一下说：“这个墓地家的儿子，如果不在银行工作，就是他家自己有钱，钱的数目得论亿计算。”\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "source_statement_segments": [
+                  {
+                    "record_role": "first_burial_site_test_context",
+                    "knowledge_phase": "pre_prediction",
+                    "text": "吴先生先拿一癸山丁向墓地考王庆丰。吴先生画了墓地的形势图，",
+                    "byte_start": 7552,
+                    "byte_end": 7639
+                  },
+                  {
+                    "record_role": "family_finance_or_bank_work_forecast",
+                    "knowledge_phase": "prediction",
+                    "text": "王庆丰看了一下说：“这个墓地家的儿子，如果不在银行工作，就是他家自己有钱，钱的数目得论亿计算。”\n",
+                    "byte_start": 7639,
+                    "byte_end": 7784
+                  }
+                ],
+                "method_not_explicitly_stated_as_qimen": true,
+                "full_chart_and_topographic_diagram_not_provided": true
+              }
+            },
+            {
+              "record_key": "geography-case-02-line-55",
+              "sequence": 2,
+              "kind": "feedback",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                55,
+                55
+              ],
+              "text": "这位吴先生笑着说：“说得对。这家的三儿子是本地工商银行行长，自然要掌握上亿元的资金。”\n",
+              "chart_key": null,
+              "speaker": "吴先生（55、79直接引语；81原叙述）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "immediate_feedback_or_reaction",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 55,
+                  "line_end": 55,
+                  "byte_start": 7784,
+                  "byte_end": 7914,
+                  "source_quote": "这位吴先生笑着说：“说得对。这家的三儿子是本地工商银行行长，自然要掌握上亿元的资金。”\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "confirmation_scope": "Third son is local ICBC branch head managing funds; not proof the family personally owns that sum"
+              }
+            }
+          ],
+          "evidence_links": []
+        },
+        {
+          "event_key": "geography-case-02-event-2",
+          "chronology_status": "ordered",
+          "background": {
+            "initial_inquiry_as_written": "吴先生又说：“我用二十多年的时间，为自己在山上找了一块墓地，是辛山乙向兼戌、辰分金，你看怎么样?”说着，又画了一个地形图。\n",
+            "source_confirmation": "user_attestation",
+            "whole_background_not_prediction_input": true,
+            "source_target": "wu_own_xin_mountain_yi_facing_burial_site",
+            "preceding_event_key": "geography-case-02-event-1"
+          },
+          "prediction_input_policy": {
+            "mode": "first_forecast_only_conservative",
+            "contract": "source-stage-v1",
+            "unrestricted_background_withheld": true,
+            "unknown_explanations_withheld": true
+          },
+          "charts": [
+            {
+              "chart_key": "geography-case-02-chart-1",
+              "source_lines": [
+                61,
+                73
+              ],
+              "source_or_engine": "original",
+              "casting_method": null,
+              "method_version": null,
+              "input_datetime": null,
+              "timezone": null,
+              "location": null,
+              "validation_status": "original_unparsed",
+              "payload": {
+                "chart_role": "source_original_nine_palace_grid",
+                "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                "raw_chart_text": "┌───────────────────────────┬───────────────────────────┬───────────────────────────┐\n│巽四宫   八神：合          │离九宫   八神：虎          │坤二宫   八神：武          │\n│门位：死丁                 │门位：惊癸                 │门位：开戊                 │\n│星位：柱辛                 │星位：心乙                 │星位：蓬己                 │\n├───────────────────────────┼───────────────────────────┼───────────────────────────┤\n│震三宫   八神：阴          │中五宫   原盘中宫          │兑七宫   八神：地          │\n│门位：壬景己               │原盘单字：壬               │门位：休丙                 │\n│星位：芮庚                 │                           │星位：任丁                 │\n├───────────────────────────┼───────────────────────────┼───────────────────────────┤\n│艮八宫   八神：蛇          │坎一宫   八神：符          │乾六宫   八神：天          │\n│门位：杜乙                 │门位：伤辛                 │门位：生庚                 │\n│星位：英丙                 │星位：辅戊                 │星位：冲癸                 │\n└───────────────────────────┴───────────────────────────┴───────────────────────────┘\n",
+                "source_table_rows": [
+                  {
+                    "source_lines": [
+                      62,
+                      64
+                    ],
+                    "source_selector": {
+                      "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                      "line_start": 62,
+                      "line_end": 64,
+                      "byte_start": 8594,
+                      "byte_end": 8927,
+                      "source_quote": "│巽四宫   八神：合          │离九宫   八神：虎          │坤二宫   八神：武          │\n│门位：死丁                 │门位：惊癸                 │门位：开戊                 │\n│星位：柱辛                 │星位：心乙                 │星位：蓬己                 │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "巽四宫",
+                      "合",
+                      "死丁",
+                      "柱辛"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      62,
+                      64
+                    ],
+                    "source_selector": {
+                      "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                      "line_start": 62,
+                      "line_end": 64,
+                      "byte_start": 8594,
+                      "byte_end": 8927,
+                      "source_quote": "│巽四宫   八神：合          │离九宫   八神：虎          │坤二宫   八神：武          │\n│门位：死丁                 │门位：惊癸                 │门位：开戊                 │\n│星位：柱辛                 │星位：心乙                 │星位：蓬己                 │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "离九宫",
+                      "虎",
+                      "惊癸",
+                      "心乙"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      62,
+                      64
+                    ],
+                    "source_selector": {
+                      "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                      "line_start": 62,
+                      "line_end": 64,
+                      "byte_start": 8594,
+                      "byte_end": 8927,
+                      "source_quote": "│巽四宫   八神：合          │离九宫   八神：虎          │坤二宫   八神：武          │\n│门位：死丁                 │门位：惊癸                 │门位：开戊                 │\n│星位：柱辛                 │星位：心乙                 │星位：蓬己                 │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "坤二宫",
+                      "武",
+                      "开戊",
+                      "蓬己"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      66,
+                      68
+                    ],
+                    "source_selector": {
+                      "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                      "line_start": 66,
+                      "line_end": 68,
+                      "byte_start": 9183,
+                      "byte_end": 9513,
+                      "source_quote": "│震三宫   八神：阴          │中五宫   原盘中宫          │兑七宫   八神：地          │\n│门位：壬景己               │原盘单字：壬               │门位：休丙                 │\n│星位：芮庚                 │                           │星位：任丁                 │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "震三宫",
+                      "阴",
+                      "壬景己",
+                      "芮庚"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      66,
+                      68
+                    ],
+                    "source_selector": {
+                      "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                      "line_start": 66,
+                      "line_end": 68,
+                      "byte_start": 9183,
+                      "byte_end": 9513,
+                      "source_quote": "│震三宫   八神：阴          │中五宫   原盘中宫          │兑七宫   八神：地          │\n│门位：壬景己               │原盘单字：壬               │门位：休丙                 │\n│星位：芮庚                 │                           │星位：任丁                 │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "中五宫",
+                      "—",
+                      "壬",
+                      "—"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      66,
+                      68
+                    ],
+                    "source_selector": {
+                      "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                      "line_start": 66,
+                      "line_end": 68,
+                      "byte_start": 9183,
+                      "byte_end": 9513,
+                      "source_quote": "│震三宫   八神：阴          │中五宫   原盘中宫          │兑七宫   八神：地          │\n│门位：壬景己               │原盘单字：壬               │门位：休丙                 │\n│星位：芮庚                 │                           │星位：任丁                 │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "兑七宫",
+                      "地",
+                      "休丙",
+                      "任丁"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      70,
+                      72
+                    ],
+                    "source_selector": {
+                      "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                      "line_start": 70,
+                      "line_end": 72,
+                      "byte_start": 9769,
+                      "byte_end": 10102,
+                      "source_quote": "│艮八宫   八神：蛇          │坎一宫   八神：符          │乾六宫   八神：天          │\n│门位：杜乙                 │门位：伤辛                 │门位：生庚                 │\n│星位：英丙                 │星位：辅戊                 │星位：冲癸                 │\n"
+                    },
+                    "grid_column": 1,
+                    "cells": [
+                      "艮八宫",
+                      "蛇",
+                      "杜乙",
+                      "英丙"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      70,
+                      72
+                    ],
+                    "source_selector": {
+                      "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                      "line_start": 70,
+                      "line_end": 72,
+                      "byte_start": 9769,
+                      "byte_end": 10102,
+                      "source_quote": "│艮八宫   八神：蛇          │坎一宫   八神：符          │乾六宫   八神：天          │\n│门位：杜乙                 │门位：伤辛                 │门位：生庚                 │\n│星位：英丙                 │星位：辅戊                 │星位：冲癸                 │\n"
+                    },
+                    "grid_column": 2,
+                    "cells": [
+                      "坎一宫",
+                      "符",
+                      "伤辛",
+                      "辅戊"
+                    ]
+                  },
+                  {
+                    "source_lines": [
+                      70,
+                      72
+                    ],
+                    "source_selector": {
+                      "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                      "line_start": 70,
+                      "line_end": 72,
+                      "byte_start": 9769,
+                      "byte_end": 10102,
+                      "source_quote": "│艮八宫   八神：蛇          │坎一宫   八神：符          │乾六宫   八神：天          │\n│门位：杜乙                 │门位：伤辛                 │门位：生庚                 │\n│星位：英丙                 │星位：辅戊                 │星位：冲癸                 │\n"
+                    },
+                    "grid_column": 3,
+                    "cells": [
+                      "乾六宫",
+                      "天",
+                      "生庚",
+                      "冲癸"
+                    ]
+                  }
+                ],
+                "source_chart_metadata": {
+                  "casting_description": "时间是1998年3月5日19点20分，干支历为戊寅年甲寅月辛亥日戊戌时，阳遁1局，甲午旬，天辅星为值符落1宫，杜门为值使落8宫。",
+                  "casting_basis_as_written": "during_wu_drawing_own_burial_site",
+                  "caster_as_written": "王庆丰"
+                },
+                "source_presentation_stage": "source_order",
+                "calendar_recomputed": false
+              }
+            }
+          ],
+          "records": [
+            {
+              "record_key": "geography-case-02-line-56",
+              "sequence": 0,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                56,
+                56
+              ],
+              "text": "吴先生又说：“我用二十多年的时间，为自己在山上找了一块墓地，是辛山乙向兼戌、辰分金，你看怎么样?”说着，又画了一个地形图。\n",
+              "chart_key": "geography-case-02-chart-1",
+              "speaker": "王庆丰/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_context",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 56,
+                  "line_end": 56,
+                  "byte_start": 7914,
+                  "byte_end": 8096,
+                  "source_quote": "吴先生又说：“我用二十多年的时间，为自己在山上找了一块墓地，是辛山乙向兼戌、辰分金，你看怎么样?”说着，又画了一个地形图。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "geography-case-02-line-57",
+              "sequence": 1,
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                57,
+                57
+              ],
+              "text": "王庆丰在他画图同时，起了一个奇门格局。\n",
+              "chart_key": "geography-case-02-chart-1",
+              "speaker": "王庆丰/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "initial_known_context",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 57,
+                  "line_end": 57,
+                  "byte_start": 8096,
+                  "byte_end": 8154,
+                  "source_quote": "王庆丰在他画图同时，起了一个奇门格局。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "geography-case-02-line-58",
+              "sequence": 2,
+              "kind": "dialogue",
+              "knowledge_phase": "unknown",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                58,
+                58
+              ],
+              "text": "时间是1998年3月5日19点20分，干支历为戊寅年甲寅月辛亥日戊戌时，阳遁1局，甲午旬，天辅星为值符落1宫，杜门为值使落8宫。\n",
+              "chart_key": "geography-case-02-chart-1",
+              "speaker": "王庆丰/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "source_narrative",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 58,
+                  "line_end": 58,
+                  "byte_start": 8154,
+                  "byte_end": 8321,
+                  "source_quote": "时间是1998年3月5日19点20分，干支历为戊寅年甲寅月辛亥日戊戌时，阳遁1局，甲午旬，天辅星为值符落1宫，杜门为值使落8宫。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "geography-case-02-line-75",
+              "sequence": 3,
+              "kind": "dialogue",
+              "knowledge_phase": "unknown",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                75,
+                75
+              ],
+              "text": "王庆丰看了看吴先生画的地形图，又看看奇门格局，说道：\n",
+              "chart_key": "geography-case-02-chart-1",
+              "speaker": "王庆丰/原书叙述",
+              "reported_at": null,
+              "payload": {
+                "record_role": "source_narrative",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 75,
+                  "line_end": 75,
+                  "byte_start": 10359,
+                  "byte_end": 10438,
+                  "source_quote": "王庆丰看了看吴先生画的地形图，又看看奇门格局，说道：\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "geography-case-02-line-76",
+              "sequence": 4,
+              "kind": "prediction",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                76,
+                76
+              ],
+              "text": "“你选的这块地理，气势宏大，秀丽中带刚建，确实很好。但是太好了，你不能用。”\n",
+              "chart_key": "geography-case-02-chart-1",
+              "speaker": "王庆丰",
+              "reported_at": null,
+              "payload": {
+                "record_role": "original_source_statement",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 76,
+                  "line_end": 76,
+                  "byte_start": 10438,
+                  "byte_end": 10553,
+                  "source_quote": "“你选的这块地理，气势宏大，秀丽中带刚建，确实很好。但是太好了，你不能用。”\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "internal_reasoning_not_explicit_in_source": true
+              }
+            },
+            {
+              "record_key": "geography-case-02-line-77",
+              "sequence": 5,
+              "kind": "dialogue",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                77,
+                77
+              ],
+              "text": "吴先生问：“为什么?”\n",
+              "chart_key": "geography-case-02-chart-1",
+              "speaker": "吴先生",
+              "reported_at": null,
+              "payload": {
+                "record_role": "followup_question_or_chart_reference",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 77,
+                  "line_end": 77,
+                  "byte_start": 10553,
+                  "byte_end": 10585,
+                  "source_quote": "吴先生问：“为什么?”\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "geography-case-02-line-78",
+              "sequence": 6,
+              "kind": "prediction",
+              "knowledge_phase": "prediction",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                78,
+                78
+              ],
+              "text": "王庆丰说：“这块地方已经被前辈高人……你得不到。”\n",
+              "chart_key": "geography-case-02-chart-1",
+              "speaker": "王庆丰",
+              "reported_at": null,
+              "payload": {
+                "record_role": "original_source_statement",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 78,
+                  "line_end": 78,
+                  "byte_start": 10585,
+                  "byte_end": 10661,
+                  "source_quote": "王庆丰说：“这块地方已经被前辈高人……你得不到。”\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "internal_reasoning_not_explicit_in_source": true,
+                "ellipsis_preserved_without_completion": true
+              }
+            },
+            {
+              "record_key": "geography-case-02-line-79",
+              "sequence": 7,
+              "kind": "feedback",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                79,
+                79
+              ],
+              "text": "王庆丰说到这里，吴先生惊讶得非同小可，说道：“王老师，您又没有到现场实地勘察，您怎么知道的?”\n",
+              "chart_key": "geography-case-02-chart-1",
+              "speaker": "吴先生（55、79直接引语；81原叙述）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "immediate_feedback_or_reaction",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 79,
+                  "line_end": 79,
+                  "byte_start": 10661,
+                  "byte_end": 10801,
+                  "source_quote": "王庆丰说到这里，吴先生惊讶得非同小可，说道：“王老师，您又没有到现场实地勘察，您怎么知道的?”\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "reaction_only_not_explicit_grave_possession_or_eventual_use_confirmation": true
+              }
+            },
+            {
+              "record_key": "geography-case-02-line-80",
+              "sequence": 8,
+              "kind": "dialogue",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                80,
+                80
+              ],
+              "text": "王庆丰指指奇门格局：“这上边都有呢!”\n",
+              "chart_key": "geography-case-02-chart-1",
+              "speaker": "王庆丰",
+              "reported_at": null,
+              "payload": {
+                "record_role": "followup_question_or_chart_reference",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 80,
+                  "line_end": 80,
+                  "byte_start": 10801,
+                  "byte_end": 10857,
+                  "source_quote": "王庆丰指指奇门格局：“这上边都有呢!”\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false
+              }
+            },
+            {
+              "record_key": "geography-case-02-line-81",
+              "sequence": 9,
+              "kind": "feedback",
+              "knowledge_phase": "post_feedback",
+              "explicitness": "author_explicit",
+              "source_lines": [
+                81,
+                81
+              ],
+              "text": "吴先生于是佩服得五体投地，慨叹不已。\n",
+              "chart_key": "geography-case-02-chart-1",
+              "speaker": "吴先生（55、79直接引语；81原叙述）",
+              "reported_at": null,
+              "payload": {
+                "record_role": "immediate_feedback_or_reaction",
+                "source_selector": {
+                  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+                  "line_start": 81,
+                  "line_end": 81,
+                  "byte_start": 10857,
+                  "byte_end": 10912,
+                  "source_quote": "吴先生于是佩服得五体投地，慨叹不已。\n"
+                },
+                "original_step_number": null,
+                "interpretation_scope": "author_source_only",
+                "engine_verified": false,
+                "reaction_only_not_explicit_grave_possession_or_eventual_use_confirmation": true
+              }
+            }
+          ],
+          "evidence_links": []
+        }
+      ]
+    }
+  ]
+}

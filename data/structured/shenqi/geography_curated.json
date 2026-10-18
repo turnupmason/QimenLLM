@@ -1,0 +1,518 @@
+{
+  "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+  "source_byte_count": 10912,
+  "source_line_count": 81,
+  "chapter_title": "地理环境预测",
+  "chapter_key_suggestion": "geography-environment",
+  "printed_chapter_number": 15,
+  "groups": [
+    {
+      "key": "geography_heading",
+      "title": "第十五章",
+      "category": "commentary",
+      "line_start": 1,
+      "line_end": 6,
+      "attribution": "张志春（第一例明确具名）；王庆丰（第二例）；引述观点与原叙述分别保存",
+      "summary": "整块原文；一般条件、现场已有专家意见、作者原断、有限当场反馈和未明结局分开，不补作者未写推理",
+      "concepts": [],
+      "dataset": {
+        "key": "geography_heading_reference",
+        "rows": [
+          {
+            "key": "geography_heading_1",
+            "source_lines": [
+              1,
+              1
+            ],
+            "source_pointer": {
+              "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+              "line_start": 1,
+              "line_end": 1,
+              "byte_start": 0,
+              "byte_end": 13,
+              "source_quote": "第十五章\n"
+            },
+            "source_quote": "第十五章\n",
+            "method_scope": "shenqi_geography_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "geography_heading_3",
+            "source_lines": [
+              3,
+              3
+            ],
+            "source_pointer": {
+              "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+              "line_start": 3,
+              "line_end": 3,
+              "byte_start": 14,
+              "byte_end": 33,
+              "source_quote": "地理环境预测\n"
+            },
+            "source_quote": "地理环境预测\n",
+            "method_scope": "shenqi_geography_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "geography_heading_5",
+            "source_lines": [
+              5,
+              5
+            ],
+            "source_pointer": {
+              "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+              "line_start": 5,
+              "line_end": 5,
+              "byte_start": 34,
+              "byte_end": 63,
+              "source_quote": "第一节 取用判断经验\n"
+            },
+            "source_quote": "第一节 取用判断经验\n",
+            "method_scope": "shenqi_geography_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "geography_context",
+      "title": "人类的健康发展，离不开优良的地理环境，所谓“地灵人杰”是也。奇门遁甲由于是一个完整的时、空象数理模型，因此在用于预测，帮助人类选择最佳居住地",
+      "category": "commentary",
+      "line_start": 7,
+      "line_end": 8,
+      "attribution": "张志春（第一例明确具名）；王庆丰（第二例）；引述观点与原叙述分别保存",
+      "summary": "整块原文；一般条件、现场已有专家意见、作者原断、有限当场反馈和未明结局分开，不补作者未写推理",
+      "concepts": [],
+      "dataset": {
+        "key": "geography_context_reference",
+        "rows": [
+          {
+            "key": "geography_context_7",
+            "source_lines": [
+              7,
+              7
+            ],
+            "source_pointer": {
+              "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+              "line_start": 7,
+              "line_end": 7,
+              "byte_start": 64,
+              "byte_end": 479,
+              "source_quote": "人类的健康发展，离不开优良的地理环境，所谓“地灵人杰”是也。奇门遁甲由于是一个完整的时、空象数理模型，因此在用于预测，帮助人类选择最佳居住地理环境方面，比其他预测术更有优长之处。特别是一个堪舆师，如果再掌握了奇门遁甲，则如虎添翼，在为人们优选地理环境方面会做出更大更佳的贡献。\n"
+            },
+            "source_quote": "人类的健康发展，离不开优良的地理环境，所谓“地灵人杰”是也。奇门遁甲由于是一个完整的时、空象数理模型，因此在用于预测，帮助人类选择最佳居住地理环境方面，比其他预测术更有优长之处。特别是一个堪舆师，如果再掌握了奇门遁甲，则如虎添翼，在为人们优选地理环境方面会做出更大更佳的贡献。\n",
+            "method_scope": "shenqi_geography_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "geography_context_8",
+            "source_lines": [
+              8,
+              8
+            ],
+            "source_pointer": {
+              "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+              "line_start": 8,
+              "line_end": 8,
+              "byte_start": 479,
+              "byte_end": 579,
+              "source_quote": "古籍中在这方面有些记载，但并不多，需要我们在实践中进一步摸索探讨。\n"
+            },
+            "source_quote": "古籍中在这方面有些记载，但并不多，需要我们在实践中进一步摸索探讨。\n",
+            "method_scope": "shenqi_geography_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "geography_person_residence",
+      "title": "预测地理环境，一般以日干为人，以时干为住宅。时干临三奇吉门吉星吉神吉格乘旺相来生日干，则为最佳住宅，此居住环境对人最为有利。如果时干不临三奇",
+      "category": "role",
+      "line_start": 9,
+      "line_end": 9,
+      "attribution": "张志春（第一例明确具名）；王庆丰（第二例）；引述观点与原叙述分别保存",
+      "summary": "整块原文；一般条件、现场已有专家意见、作者原断、有限当场反馈和未明结局分开，不补作者未写推理",
+      "concepts": [
+        "日干",
+        "时干",
+        "三奇",
+        "旺相",
+        "生克"
+      ],
+      "dataset": {
+        "key": "geography_person_residence_reference",
+        "rows": [
+          {
+            "key": "geography_person_residence_9",
+            "source_lines": [
+              9,
+              9
+            ],
+            "source_pointer": {
+              "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+              "line_start": 9,
+              "line_end": 9,
+              "byte_start": 579,
+              "byte_end": 1102,
+              "source_quote": "预测地理环境，一般以日干为人，以时干为住宅。时干临三奇吉门吉星吉神吉格乘旺相来生日干，则为最佳住宅，此居住环境对人最为有利。如果时干不临三奇吉门，但临吉星吉神吉格乘旺相来生日干宫，也为较好住宅。如果时干所临有吉有凶，则为一般住宅。如果时干临凶门、凶星、凶神、凶格，又来克日干宫，自然就是大凶之宅了。具体吉凶，再根据星、门、宫等的生克关系来具体分析。\n"
+            },
+            "source_quote": "预测地理环境，一般以日干为人，以时干为住宅。时干临三奇吉门吉星吉神吉格乘旺相来生日干，则为最佳住宅，此居住环境对人最为有利。如果时干不临三奇吉门，但临吉星吉神吉格乘旺相来生日干宫，也为较好住宅。如果时干所临有吉有凶，则为一般住宅。如果时干临凶门、凶星、凶神、凶格，又来克日干宫，自然就是大凶之宅了。具体吉凶，再根据星、门、宫等的生克关系来具体分析。\n",
+            "method_scope": "shenqi_geography_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "geography_living_residence",
+      "title": "测阳宅，一般以生门为房屋，以死门为地皮(宅基),再以其旺相休囚，与日干的生克关系来判断其优劣。又以值符为新宅，以值使为旧宅。",
+      "category": "role",
+      "line_start": 10,
+      "line_end": 10,
+      "attribution": "张志春（第一例明确具名）；王庆丰（第二例）；引述观点与原叙述分别保存",
+      "summary": "整块原文；一般条件、现场已有专家意见、作者原断、有限当场反馈和未明结局分开，不补作者未写推理",
+      "concepts": [
+        "生门",
+        "死门",
+        "日干",
+        "值符",
+        "值使"
+      ],
+      "dataset": {
+        "key": "geography_living_residence_reference",
+        "rows": [
+          {
+            "key": "geography_living_residence_10",
+            "source_lines": [
+              10,
+              10
+            ],
+            "source_pointer": {
+              "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+              "line_start": 10,
+              "line_end": 10,
+              "byte_start": 1102,
+              "byte_end": 1283,
+              "source_quote": "测阳宅，一般以生门为房屋，以死门为地皮(宅基),再以其旺相休囚，与日干的生克关系来判断其优劣。又以值符为新宅，以值使为旧宅。\n"
+            },
+            "source_quote": "测阳宅，一般以生门为房屋，以死门为地皮(宅基),再以其旺相休囚，与日干的生克关系来判断其优劣。又以值符为新宅，以值使为旧宅。\n",
+            "method_scope": "shenqi_geography_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "geography_burial_site",
+      "title": "测阴宅，一般以死门为用神，死门落宫地盘为死者，天盘为生者，吉神吉星又得三奇，上下相生者吉，凶神凶星不得奇且上下相克者凶，天盘克地盘，对死者不",
+      "category": "role",
+      "line_start": 11,
+      "line_end": 12,
+      "attribution": "张志春（第一例明确具名）；王庆丰（第二例）；引述观点与原叙述分别保存",
+      "summary": "整块原文；一般条件、现场已有专家意见、作者原断、有限当场反馈和未明结局分开，不补作者未写推理",
+      "concepts": [
+        "死门",
+        "天盘",
+        "地盘",
+        "三奇",
+        "生克"
+      ],
+      "dataset": {
+        "key": "geography_burial_site_reference",
+        "rows": [
+          {
+            "key": "geography_burial_site_11",
+            "source_lines": [
+              11,
+              11
+            ],
+            "source_pointer": {
+              "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+              "line_start": 11,
+              "line_end": 11,
+              "byte_start": 1283,
+              "byte_end": 1641,
+              "source_quote": "测阴宅，一般以死门为用神，死门落宫地盘为死者，天盘为生者，吉神吉星又得三奇，上下相生者吉，凶神凶星不得奇且上下相克者凶，天盘克地盘，对死者不利，地盘克天盘，对生者不利。再者，死门落二、五、八、九宫为吉，落六、七宫次吉，落一、三、四宫不吉。\n"
+            },
+            "source_quote": "测阴宅，一般以死门为用神，死门落宫地盘为死者，天盘为生者，吉神吉星又得三奇，上下相生者吉，凶神凶星不得奇且上下相克者凶，天盘克地盘，对死者不利，地盘克天盘，对生者不利。再者，死门落二、五、八、九宫为吉，落六、七宫次吉，落一、三、四宫不吉。\n",
+            "method_scope": "shenqi_geography_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "geography_case_heading",
+      "title": "第二节 实例解析(2例)",
+      "category": "commentary",
+      "line_start": 13,
+      "line_end": 14,
+      "attribution": "张志春（第一例明确具名）；王庆丰（第二例）；引述观点与原叙述分别保存",
+      "summary": "整块原文；一般条件、现场已有专家意见、作者原断、有限当场反馈和未明结局分开，不补作者未写推理",
+      "concepts": [],
+      "dataset": {
+        "key": "geography_case_heading_reference",
+        "rows": [
+          {
+            "key": "geography_case_heading_13",
+            "source_lines": [
+              13,
+              13
+            ],
+            "source_pointer": {
+              "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+              "line_start": 13,
+              "line_end": 13,
+              "byte_start": 1642,
+              "byte_end": 1671,
+              "source_quote": "第二节 实例解析(2例)\n"
+            },
+            "source_quote": "第二节 实例解析(2例)\n",
+            "method_scope": "shenqi_geography_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "geography_case_01",
+      "title": "实例一：选最佳建筑方案",
+      "category": "analysis",
+      "line_start": 15,
+      "line_end": 50,
+      "attribution": "张志春（第一例明确具名）；王庆丰（第二例）；引述观点与原叙述分别保存",
+      "summary": "整块原文；一般条件、现场已有专家意见、作者原断、有限当场反馈和未明结局分开，不补作者未写推理",
+      "concepts": [
+        "生门",
+        "九天",
+        "伏吟",
+        "太岁"
+      ],
+      "dataset": {
+        "key": "geography_case_01_reference",
+        "rows": [
+          {
+            "key": "geography_case_01_40",
+            "source_lines": [
+              40,
+              40
+            ],
+            "source_pointer": {
+              "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+              "line_start": 40,
+              "line_end": 40,
+              "byte_start": 5284,
+              "byte_end": 5618,
+              "source_quote": "我说：“勘察地理，当然必须到现场，但是如果学了奇门，一者可以与实际勘察情况对照校核，帮助判断；二者人未去，不看现场、不看图纸，判断意见也可以事先拿出；三者，奇门还可以帮助我们判断一些肉眼看不到的地磁场、生物场、微波等状况。\n"
+            },
+            "source_quote": "我说：“勘察地理，当然必须到现场，但是如果学了奇门，一者可以与实际勘察情况对照校核，帮助判断；二者人未去，不看现场、不看图纸，判断意见也可以事先拿出；三者，奇门还可以帮助我们判断一些肉眼看不到的地磁场、生物场、微波等状况。\n",
+            "method_scope": "shenqi_geography_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "geography_case_01_41",
+            "source_lines": [
+              41,
+              41
+            ],
+            "source_pointer": {
+              "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+              "line_start": 41,
+              "line_end": 41,
+              "byte_start": 5618,
+              "byte_end": 5976,
+              "source_quote": "“比如，这个北方国际金融中心的主楼建在什么方位好，各位专家根据堪舆学的各种理论，发表了许多高见，最后都倾向于建在东北艮位。这个时辰的奇门遁甲格局上早已显示出来：生门为房屋，九天主高大，今生门、九天均落东北艮位，与各位专家的意见完全一致。”\n"
+            },
+            "source_quote": "“比如，这个北方国际金融中心的主楼建在什么方位好，各位专家根据堪舆学的各种理论，发表了许多高见，最后都倾向于建在东北艮位。这个时辰的奇门遁甲格局上早已显示出来：生门为房屋，九天主高大，今生门、九天均落东北艮位，与各位专家的意见完全一致。”\n",
+            "method_scope": "shenqi_geography_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "geography_case_01_44",
+            "source_lines": [
+              44,
+              44
+            ],
+            "source_pointer": {
+              "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+              "line_start": 44,
+              "line_end": 44,
+              "byte_start": 6272,
+              "byte_end": 6396,
+              "source_quote": "“其一，日时同宫，太岁生助，这个事能成；但大局伏吟，时间很长，这个事进度快不了。”\n"
+            },
+            "source_quote": "“其一，日时同宫，太岁生助，这个事能成；但大局伏吟，时间很长，这个事进度快不了。”\n",
+            "method_scope": "shenqi_geography_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "geography_case_01_45",
+            "source_lines": [
+              45,
+              45
+            ],
+            "source_pointer": {
+              "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+              "line_start": 45,
+              "line_end": 45,
+              "byte_start": 6396,
+              "byte_end": 6489,
+              "source_quote": "“其二，这个项目您从1995年就开始策划，起码要到2001年才能开业。”\n"
+            },
+            "source_quote": "“其二，这个项目您从1995年就开始策划，起码要到2001年才能开业。”\n",
+            "method_scope": "shenqi_geography_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "geography_case_01_46",
+            "source_lines": [
+              46,
+              46
+            ],
+            "source_pointer": {
+              "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+              "line_start": 46,
+              "line_end": 46,
+              "byte_start": 6489,
+              "byte_end": 6644,
+              "source_quote": "“其三，这个项目最少投资得八个亿，完全建成可能得十四个亿，但现在资金不到位，一时半时难以运作。对不对?”\n"
+            },
+            "source_quote": "“其三，这个项目最少投资得八个亿，完全建成可能得十四个亿，但现在资金不到位，一时半时难以运作。对不对?”\n",
+            "method_scope": "shenqi_geography_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "geography_case_02",
+      "title": "实例二：“地理虽好，但你不能用”",
+      "category": "analysis",
+      "line_start": 51,
+      "line_end": 81,
+      "attribution": "张志春（第一例明确具名）；王庆丰（第二例）；引述观点与原叙述分别保存",
+      "summary": "整块原文；一般条件、现场已有专家意见、作者原断、有限当场反馈和未明结局分开，不补作者未写推理",
+      "concepts": [],
+      "dataset": {
+        "key": "geography_case_02_reference",
+        "rows": [
+          {
+            "key": "geography_case_02_76",
+            "source_lines": [
+              76,
+              76
+            ],
+            "source_pointer": {
+              "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+              "line_start": 76,
+              "line_end": 76,
+              "byte_start": 10438,
+              "byte_end": 10553,
+              "source_quote": "“你选的这块地理，气势宏大，秀丽中带刚建，确实很好。但是太好了，你不能用。”\n"
+            },
+            "source_quote": "“你选的这块地理，气势宏大，秀丽中带刚建，确实很好。但是太好了，你不能用。”\n",
+            "method_scope": "shenqi_geography_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "geography_case_02_78",
+            "source_lines": [
+              78,
+              78
+            ],
+            "source_pointer": {
+              "source_sha256": "c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1",
+              "line_start": 78,
+              "line_end": 78,
+              "byte_start": 10585,
+              "byte_end": 10661,
+              "source_quote": "王庆丰说：“这块地方已经被前辈高人……你得不到。”\n"
+            },
+            "source_quote": "王庆丰说：“这块地方已经被前辈高人……你得不到。”\n",
+            "method_scope": "shenqi_geography_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    }
+  ],
+  "quality_issues": [
+    {
+      "key": "traditional_claims_not_independent_measurements",
+      "line_start": 7,
+      "line_end": 11,
+      "description": "优良环境/时空象数等是原书观点与传统角色条件，不宣称已独立测得居住健康效应或地理优劣"
+    },
+    {
+      "key": "case1_expert_consensus_known_before_qimen_statement",
+      "line_start": 19,
+      "line_end": 41,
+      "description": "多名专家先已倾向第三方案/东北艮位；奇门一致不作为不知道专家答案的盲断验证。图纸只被叙述，原文件无设计图，不补造"
+    },
+    {
+      "key": "case1_magnetic_field_claim_is_author_statement",
+      "line_start": 40,
+      "line_end": 40,
+      "description": "地磁场、生物场、微波等为作者所说，不升级为系统测量结果或现代科学验证"
+    },
+    {
+      "key": "case1_limited_immediate_confirmation",
+      "line_start": 44,
+      "line_end": 49,
+      "description": "47仅确认申报投资八亿、资金没着落；1995策划/2001起码开业/可能十四亿/最终建成未逐项报告。后续征询仅概括不补问测盘"
+    },
+    {
+      "key": "case2_two_targets_one_story_and_family",
+      "line_start": 53,
+      "line_end": 58,
+      "description": "先癸山丁向墓地及其家庭情况小考、再吴先生自己辛山乙向墓地为两事件同家族；仅后者提供一张奇门盘，前者方法未明，不补盘或地形图"
+    },
+    {
+      "key": "case2_method_and_internal_reasoning_not_explicit",
+      "line_start": 54,
+      "line_end": 81,
+      "description": "作者未给第二例逐项宫位分析，保存实际断语而不反推内部推理；王庆丰同名不与走失章节不同事件合并"
+    },
+    {
+      "key": "case2_ellipsis_and_reaction_scope",
+      "line_start": 76,
+      "line_end": 81,
+      "description": "前辈高人……按省略号原字保存，不补占用/下葬等未写内容。惊讶佩服仅当场反应，不等于墓地权属或最终能否使用获客观证明"
+    }
+  ],
+  "worked_examples": []
+}
