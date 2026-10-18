@@ -94,6 +94,27 @@ def model_report(manifest_path, verify_hashes=False):
             'hash_check_performed': verify_hashes}
 
 
+def discover_model_manifest():
+    work = ROOT / 'work'
+    if not work.is_dir():
+        return None, 0
+    candidates = []
+    for file in work.rglob('*.json'):
+        if not any(word in file.name.lower() for word in ('model', 'qwen', 'manifest')):
+            continue
+        try:
+            if file.stat().st_size > 250_000:
+                continue
+            value = json.loads(file.read_text(encoding='utf-8'))
+            if (isinstance(value, dict) and value.get('repo') == 'mlx-community/Qwen3.8-27B-4bit'
+                    and value.get('revision') == PINNED and value.get('local_path')
+                    and isinstance(value.get('files'), dict) and value['files']):
+                candidates.append(file)
+        except (OSError, ValueError):
+            continue
+    return (candidates[0] if len(candidates) == 1 else None), len(candidates)
+
+
 def current_book_state():
     work = ROOT / 'work'
     def read_status(rel, *keys):
@@ -152,7 +173,9 @@ def main():
     p.add_argument('--verify-model', action='store_true', help='SHA256 all listed model files; can take time')
     p.add_argument('--output', type=Path, help='Write private JSON report to work/ or another local path')
     a = p.parse_args()
-    value = report(a.model_manifest, a.verify_model)
+    manifest, discovered = discover_model_manifest() if a.model_manifest is None else (a.model_manifest, None)
+    value = report(manifest, a.verify_model)
+    value['automatic_model_manifests_found'] = discovered
     content = json.dumps(value, ensure_ascii=False, indent=2) + '\n'
     if a.output:
         a.output.parent.mkdir(parents=True, exist_ok=True)
