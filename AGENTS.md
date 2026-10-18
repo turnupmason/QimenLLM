@@ -16,4 +16,4 @@
 
 运行：`PYTHONPATH=src python3 -m unittest discover -s tests -v`。
 资料/案例规则见 KNOWLEDGE_POLICY / CASE_POLICY；架构与迁移见 ARCHITECTURE / SCHEMA；评估见 EVALUATION_PROTOCOL；设备与远程接入见 HARDWARE。
-当前已接收《神奇之门》23份章级输入，累计98故事/94家族/106事件/104来源盘记录。本轮复合附录源SHA256 df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340，48021原字节/276行/CRLF；三篇附录加前带准确率/后记排版变体，旧文不覆盖。30语境/18边界/2来源候选；卢圣湘、尚瓴吉、赵国葆三摘要关联原家族，不重复建案。现场纪实1完整故事、两目标同家族，同一图因event FK保存2引用，不说两独立盘；原图列位残缺，raw和gold片段保留，case-chart=not_covered，不复算补图。初断官讼被否定、本人车祸续断、部分三千元反馈/会后两死三伤、后置解释和2000按语不前泄。作者拆补/时家排宫/寄坤/天盘八神主张与学习时间条件保留，不改旧算法或角色绑定。沿既有import_shenqi_appendix.py、curation/cases/candidates/snapshot与service，正式rules/训练0，无schema、目录或workflow增删。最高总指令与旧章数据保留，进度以STATUS为准。
+当前已接收《神奇之门》24份章级来源输入，累计98故事/94家族/106事件/104来源盘记录。本轮附录二精校源SHA256 b9f8fc44d2174f54cc962ed31dd794262cb1d54a1e6060fcdf279570e8abb716，7221字节/2495字符/17行LF。与此前复合附录140–171行去空白和155页眉后2478字符完全一致，独立存源、关联原5语境，不覆盖旧CRLF原文，不增人物索引、方法、理论、案例、盘或候选。保留代表人物之断尾，不按精校文件名补字。通过现有import_chapter/add_annotations新增1来源对应语境及1来源边界，不注册重复方法、不编译规则。正式rules/训练0，既有schema、目录、workflow、旧gold和用户总指令不改。进度及验收见STATUS与ingestion/SHENQI_BIOGRAPHY.md。

@@ -1,0 +1,194 @@
+{
+  "source_sha256": "b9f8fc44d2174f54cc962ed31dd794262cb1d54a1e6060fcdf279570e8abb716",
+  "source_byte_count": 7221,
+  "source_line_count": 17,
+  "source_file": "神奇之门_附录二_从编辑作家到易学专家_精校完整版.txt",
+  "verification_basis": "user_attestation",
+  "system_performed_independent_verification": false,
+  "context_groups": 1,
+  "technical_boundaries": 1,
+  "new_substantive_articles": 0,
+  "new_concepts": 0,
+  "new_methods": 0,
+  "historical_cases_added": 0,
+  "events_added": 0,
+  "charts_added": 0,
+  "rule_candidates_added": 0,
+  "project_empirical_accuracy": null,
+  "comparison": {
+    "policy": "remove_whitespace_and_only_explicit_old_printed_header_for_comparison",
+    "excluded_old_source_lines": [
+      155
+    ],
+    "normalized_equal": true,
+    "normalized_character_count": 2478,
+    "normalized_sha256": "1b455d3f6d0c5166107b6fdf546af00ace1935ba03bd16f45aeadb68b2c40192",
+    "lexical_differences": []
+  },
+  "schema_migration": false,
+  "default_casting_method_changed": false,
+  "formal_rules_added": 0,
+  "training_tasks_added": 0,
+  "snapshot": {
+    "data_version": "cd6ca5ad-6fa3-449a-bc51-9de45014fde3",
+    "snapshot": "data/snapshots/current",
+    "counts": {
+      "data_versions": 108,
+      "books": 1,
+      "chapters": 24,
+      "raw_documents": 24,
+      "chapter_revisions": 24,
+      "source_reviews": 31,
+      "source_spans": 3267,
+      "methods": 32,
+      "concepts": 2674,
+      "concept_links": 0,
+      "knowledge_items": 1177,
+      "rules": 0,
+      "rule_conditions": 0,
+      "rule_disagreements": 0,
+      "event_families": 94,
+      "cases": 98,
+      "events": 106,
+      "case_events": 106,
+      "charts": 104,
+      "case_records": 1579,
+      "evidence_links": 1902,
+      "dataset_releases": 0,
+      "split_assignments": 0,
+      "training_tasks": 0,
+      "task_inputs": 0
+    },
+    "manifest_sha256": "ea4e35b1f02ad682b312abcda2276dca9f51cd25aba4e5b1884cde961dd71d48"
+  },
+  "old_rows_preserved": {
+    "rule_conditions": {
+      "old": 0,
+      "new": 0
+    },
+    "concept_links": {
+      "old": 0,
+      "new": 0
+    },
+    "case_events": {
+      "old": 106,
+      "new": 106
+    },
+    "data_versions": {
+      "old": 106,
+      "new": 108
+    },
+    "case_records": {
+      "old": 1579,
+      "new": 1579
+    },
+    "rule_disagreements": {
+      "old": 0,
+      "new": 0
+    },
+    "training_tasks": {
+      "old": 0,
+      "new": 0
+    },
+    "evidence_links": {
+      "old": 1902,
+      "new": 1902
+    },
+    "chapter_revisions": {
+      "old": 23,
+      "new": 24
+    },
+    "knowledge_items": {
+      "old": 1175,
+      "new": 1177
+    },
+    "methods": {
+      "old": 32,
+      "new": 32
+    },
+    "event_families": {
+      "old": 94,
+      "new": 94
+    },
+    "raw_documents": {
+      "old": 23,
+      "new": 24
+    },
+    "cases": {
+      "old": 98,
+      "new": 98
+    },
+    "task_inputs": {
+      "old": 0,
+      "new": 0
+    },
+    "source_spans": {
+      "old": 3264,
+      "new": 3267
+    },
+    "concepts": {
+      "old": 2674,
+      "new": 2674
+    },
+    "events": {
+      "old": 106,
+      "new": 106
+    },
+    "rules": {
+      "old": 0,
+      "new": 0
+    },
+    "split_assignments": {
+      "old": 0,
+      "new": 0
+    },
+    "charts": {
+      "old": 104,
+      "new": 104
+    },
+    "chapters": {
+      "old": 23,
+      "new": 24
+    },
+    "books": {
+      "old": 1,
+      "new": 1
+    },
+    "source_reviews": {
+      "old": 30,
+      "new": 31
+    },
+    "dataset_releases": {
+      "old": 0,
+      "new": 0
+    }
+  },
+  "old_raw_documents_byte_identical": 23,
+  "snapshot_files": 50,
+  "snapshot_roundtrip_byte_identical": true,
+  "integrity_audit_ok": true,
+  "base_main_sha": "6bb43ec15528266cbdb34d7f870549e5db34ff04",
+  "full_regression": {
+    "status": "passed",
+    "tests": 469,
+    "failures": 0,
+    "errors": 0,
+    "focused_tests": 9,
+    "command": "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+    "python": "3.12.2",
+    "platform": "Darwin",
+    "actual_cli_and_wsgi_read": true,
+    "substantive_tables_unchanged": true,
+    "normalized_full_article_equal": true,
+    "normalized_characters": 2478,
+    "professional_correctness": null,
+    "real_world_predictive_accuracy": null
+  },
+  "github_sync": {
+    "status": "pending"
+  },
+  "development_failures": [],
+  "cumulative_context_groups": 551,
+  "cumulative_quality_records": 368,
+  "cumulative_compiled_datasets": 39
+}

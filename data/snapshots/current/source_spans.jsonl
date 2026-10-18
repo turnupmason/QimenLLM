@@ -17,6 +17,7 @@
 {"byte_end":19857,"byte_start":0,"locator":"full chapter","revision_id":"d47ca150-e510-4893-9f5a-ee052590a53e","source_id":"d8eb38f7-d6a0-4d19-85f7-3b507253a2ba"}
 {"byte_end":56047,"byte_start":0,"locator":"full chapter","revision_id":"8eb26736-dd49-4b0c-acda-4e90c0317a92","source_id":"e5df3745-7a58-4842-9f6d-a179ab394c4c"}
 {"byte_end":32020,"byte_start":0,"locator":"full chapter","revision_id":"f3f954a3-4cd7-41c4-834b-6b6f2dec15d1","source_id":"e69752fd-9a1f-4277-a935-d5c8e3c1ca5a"}
+{"byte_end":7221,"byte_start":0,"locator":"full chapter","revision_id":"e86b04b0-c4f3-4a81-8dab-3cd9f1f31c20","source_id":"ee72afe0-8670-4bc9-92b8-2ea2491647bf"}
 {"byte_end":22354,"byte_start":0,"locator":"full chapter","revision_id":"042b2b75-405e-4487-b7ba-cba197eff874","source_id":"ef4dd33f-1394-473a-a354-f46cb55455c4"}
 {"byte_end":30547,"byte_start":0,"locator":"full chapter","revision_id":"b82d1ba0-9d73-4214-98a5-a9baf91e9fd3","source_id":"f0e74b6b-ea5a-4049-8132-8b19c8183b98"}
 {"byte_end":10912,"byte_start":0,"locator":"full chapter","revision_id":"994284a5-84ce-43cd-811e-e4a095ed0dd7","source_id":"f5da8c37-b3a7-4e2a-903a-b018c829f3c2"}
@@ -518,6 +519,7 @@
 {"byte_end":21700,"byte_start":21527,"locator":"case:life-case-02:record:life-case-02-line-154","revision_id":"a3ea7aca-f17f-4acd-873c-21164d1247af","source_id":"span-28fe38e60223b3567d425a633f5336679093e04917932d6d6c64604689606eb3"}
 {"byte_end":13580,"byte_start":13369,"locator":"case:pregnancy-wang-haiyan19970207:record:pregnancy-wang-haiyan19970207-sex-evidence-conflict","revision_id":"64410636-64c7-462c-be85-53db3f6df748","source_id":"span-290abe3c667a2115b264b8e68741b1e10fbd2b1499c38944abb924613a0000a1"}
 {"byte_end":14347,"byte_start":14193,"locator":"case:pregnancy-wang-haiyan19970207:record:pregnancy-wang-haiyan19970207-five-not-meet-not-necessarily-adverse","revision_id":"64410636-64c7-462c-be85-53db3f6df748","source_id":"span-29129fd2c7d81f8a9a12ffb8a2a89536ee5709fd6d71787f4e96a1650c248a43"}
+{"byte_end":7221,"byte_start":0,"locator":"附录二精校来源完整语境；输入行1–17","revision_id":"e86b04b0-c4f3-4a81-8dab-3cd9f1f31c20","source_id":"span-292903bd7bb61c8043aa33a4a9e6d44de09b383fdc985acb86e556b108deb3e8"}
 {"byte_end":15918,"byte_start":15214,"locator":"case:pregnancy-wang-jianguo19980324:record:pregnancy-wang-jianguo19980324-original-chart-block","revision_id":"64410636-64c7-462c-be85-53db3f6df748","source_id":"span-2938f640610e31effef231d96b1869e9493612ae765d08617f4b321fdf3462de"}
 {"byte_end":8426,"byte_start":8157,"locator":"case:travel-case-02:record:travel-case-02-line-81","revision_id":"cd68c4a0-f340-4fc3-a773-a14bb864783e","source_id":"span-293abd8f1694e6c06549ebe23bfacdc9ef36c88a1a4589dff0a08122d29e1e18"}
 {"byte_end":18254,"byte_start":17765,"locator":"例二：丙子戊戌与立秋下元阴八；输入行 335–344","revision_id":"042b2b75-405e-4487-b7ba-cba197eff874","source_id":"span-293b5a8d4065d04c8af1653eca78e49881043f7f36d0d1c32230ecc3c84535fe"}
@@ -2048,6 +2050,7 @@
 {"byte_end":15206,"byte_start":14928,"locator":"case:sqzm-health-case-05-ruan-live-diagnosis:record:health05-analysis-2","revision_id":"ace9a660-c17e-470f-b65f-27d0a30d1774","source_id":"span-a0d7c9357cbac0e8e24b28a8578aafc7c7bbb324824585a55f4d33f9b2211f1b"}
 {"byte_end":45241,"byte_start":45174,"locator":"case:business-case-12:record:business-case-12-event-1-record-011","revision_id":"8eb26736-dd49-4b0c-acda-4e90c0317a92","source_id":"span-a0ee67608eed49feb660f88eb01a1b6e57930f25d733c702a2453525c9204fe2"}
 {"byte_end":17568,"byte_start":13176,"locator":"case:criminal-case-03:narrative:0","revision_id":"98373804-f235-4ec1-a688-2240ca7edfff","source_id":"span-a0eef45153045e18bd441ed7a812842e8219db3d4e0b18a4db6f6a76325fdc31"}
+{"byte_end":7221,"byte_start":0,"locator":"source_quality_issue biography_clean_source_scope；输入行1–17","revision_id":"e86b04b0-c4f3-4a81-8dab-3cd9f1f31c20","source_id":"span-a0ef6868bd01c72e2f5e973c6817c2f4dc4f47ff475d7b08642493904688059e"}
 {"byte_end":6999,"byte_start":6866,"locator":"case:criminal-case-01:record:criminal-case-01-line-62","revision_id":"98373804-f235-4ec1-a688-2240ca7edfff","source_id":"span-a109afe89e5b51e1f8939727968d2e486c9a4cd9b4582cfd90082d996252aeab"}
 {"byte_end":8855,"byte_start":5266,"locator":"完整案例2：母测子毕业分配；输入行 107–199","revision_id":"9258ae01-bb77-43a9-9ecc-13aebcee638d","source_id":"span-a10f74bcf36e7f4c4185a48e7eb6b83447bcd8b65b8515ce9fd4d4c1028a17ce"}
 {"byte_end":20309,"byte_start":20216,"locator":"case:life-case-02:record:life-case-02-line-144","revision_id":"a3ea7aca-f17f-4acd-873c-21164d1247af","source_id":"span-a115fa9c779bded20edda6d39c6d70fdace34371648a54b442ebc6a0ad49e912"}

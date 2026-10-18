@@ -162,3 +162,7 @@ PYTHONPATH=src python3 scripts/import_shenqi_life.py --restore-base --db work/li
 ## 附录复合源重放
 
 `PYTHONPATH=src python3 scripts/import_shenqi_appendix.py` 校验SHA256 df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340、48021字节/276行，沿import_chapter/install_curated/import_cases/install_candidates保存appendix-bundle/排序24。一份原附件包含重叠准确率/后记与三附录，不拆改源字节；appendix_source_links.json记录两旧文与三旧案对应，运行时语境亦含相同来源关系。新现场一故事两目标同家族、原图两event引用但同一个source_diagram_id。原图字面gold不冒称九宫gold；source_chart保持未覆盖，全文可读。新设备restore-snapshot后重放幂等，原CRLF变LF会拒绝；全量测试/审计/私有main和四CI要求保持。
+
+## 附录二精校来源重放
+
+`PYTHONPATH=src python3 scripts/import_shenqi_biography.py` 校验本次SHA256 b9f8fc44d2174f54cc962ed31dd794262cb1d54a1e6060fcdf279570e8abb716、7221字节/17行，将新LF附件按appendix-biography-clean/排序25保存。先核验旧复合源完整SHA和片段字节，再核验仅去空白与155页眉后同文；随后使用既有import_chapter/add_annotations保存来源对应语境及边界。没有新方法不调用install_curated注册重复方法，也不导case/candidate。`reference biography_clean_source_reference --filters '{}'` 可读新整篇，learn精校来源可查旧5语境关系。坏源/坏关联拒绝、重放幂等、旧行/快照/全量/远端四CI要求保持。

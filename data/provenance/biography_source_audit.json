@@ -1,0 +1,32 @@
+{
+  "source_sha256": "b9f8fc44d2174f54cc962ed31dd794262cb1d54a1e6060fcdf279570e8abb716",
+  "source_byte_count": 7221,
+  "source_line_count": 17,
+  "source_file": "神奇之门_附录二_从编辑作家到易学专家_精校完整版.txt",
+  "verification_basis": "user_attestation",
+  "system_performed_independent_verification": false,
+  "context_groups": 1,
+  "technical_boundaries": 1,
+  "new_substantive_articles": 0,
+  "new_concepts": 0,
+  "new_methods": 0,
+  "historical_cases_added": 0,
+  "events_added": 0,
+  "charts_added": 0,
+  "rule_candidates_added": 0,
+  "project_empirical_accuracy": null,
+  "comparison": {
+    "policy": "remove_whitespace_and_only_explicit_old_printed_header_for_comparison",
+    "excluded_old_source_lines": [
+      155
+    ],
+    "normalized_equal": true,
+    "normalized_character_count": 2478,
+    "normalized_sha256": "1b455d3f6d0c5166107b6fdf546af00ace1935ba03bd16f45aeadb68b2c40192",
+    "lexical_differences": []
+  },
+  "schema_migration": false,
+  "default_casting_method_changed": false,
+  "formal_rules_added": 0,
+  "training_tasks_added": 0
+}
