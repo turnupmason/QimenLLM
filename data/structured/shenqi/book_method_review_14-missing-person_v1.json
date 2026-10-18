@@ -1,0 +1,2994 @@
+{
+  "schema": "book-method-semantic-review-v1",
+  "source_data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "reviewed_by": "Codex source-grounded semantic curation",
+  "rows": [
+    {
+      "case": 1,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "逐句审读问测背景和四柱元数据；未把后面的反馈、作者纠错或未知结局当首次已知。",
+      "known_source_window_review": "逐句审读问测背景和四柱元数据；未把后面的反馈、作者纠错或未知结局当首次已知。",
+      "known": [
+        {
+          "record_id": "record-4af45209623388eb01b446002f062cbcd64e9c89b6e6ce63fe4b955cb84bca26",
+          "source_id": "span-fec244ef11a37f622ccb4dda649a21c97e0fcb40dba2dfe3f9881d9af4ae25d0",
+          "sha256": "2b33c42f47afd5364c9dfa75c70e755aa0cb04675304b6b2f22bcaf0dacf63df",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-b3980b44a8a6d24ca4a72bebd6a72e25faeeb2d9ac6f1b33a37ee90745c88f75",
+          "source_id": "span-40a537a36a3d657e5ebc0ab971c1d2da3b14210858705c0addcbd6091ef05c46",
+          "sha256": "06260591235a957078dc4a1ea14d64001f646aad170be003e76e9ffe9f3ea586",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-dc0ce530eae4382f3314f150bbf427d30b490518baa19f9132e3e1f8d97a907e",
+          "source_id": "span-6f7f8e0c498c5125415a97ee437ece564bf17511f17fd13330a1898b9b20422a",
+          "sha256": "0d4d6277e4b68f0d306d6974e4b6a96224b66ea5f9069625796e619ef7f5fbe7",
+          "sequence": 2
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "missing": "如果以走失时间起局，一般以日干为用神",
+        "direction": "如果走失之人是有意潜逃，杜门落宫则可能是其躲藏方向",
+        "return": "用神休囚，又临伤、景、死、惊四门者，则有消息"
+      },
+      "chart_index": 0,
+      "provided_roles": [
+        "按本例问测关系与起局时间取法，兼年命，不由年龄自动绑定"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-b2ad2e34581741b5fa38374c32eae9cd993d4df05731dbaac6d2f9fdfde83a22",
+              "source_id": "span-7272dccf3d2f253a75c9e92f6986cbd7e670c147241538787d36b3d5992dccac",
+              "sha256": "7ba485ec28d1844d76553d52741667e3c6864b007170022568524558e5101802",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-0981a7f45e6c8b8cb28adec97abbe47a62646f2361ce56f53b4742e2e26f4771",
+              "source_id": "span-9f3b71fc2527347074ba24c51460be083672c15667cdbb0644973baf6e2d1a5a",
+              "sha256": "d22f7cae8bc5cad76179369db50a7ace7bbc95cd31888cc4f93c0f025f579e97",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-36fdac79b6e171ba3f8adc7831a0ecb5104549501ff84e83570a4e1c52936237",
+              "source_id": "span-0bfe518b32a9afc3aa9a0062b8f74088bae8b0f6dc8c560bfd3e3799cf8ea523",
+              "sha256": "1dfdfc0287e05fd5f4bccccdb4f801662493e9cca15ab11034b12f2eb8208b45",
+              "sequence": 6
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "弟问兄按本例月干己看同辈兄长，兼时干己及作者所给辛巳年命；伤门另看船只。不能把失踪时局的日干法混入问时局，出生年若用于分析须明确由作者前提给出。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ],
+            "bindings": [
+              {
+                "role": "失踪兄长",
+                "symbol": "月干己，兼时干己",
+                "condition": "本例弟问兄问时法"
+              },
+              {
+                "role": "船只",
+                "symbol": "伤门",
+                "condition": "水库人船失踪两个目标分开"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-b2ad2e34581741b5fa38374c32eae9cd993d4df05731dbaac6d2f9fdfde83a22",
+              "source_id": "span-7272dccf3d2f253a75c9e92f6986cbd7e670c147241538787d36b3d5992dccac",
+              "sha256": "7ba485ec28d1844d76553d52741667e3c6864b007170022568524558e5101802",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-0981a7f45e6c8b8cb28adec97abbe47a62646f2361ce56f53b4742e2e26f4771",
+              "source_id": "span-9f3b71fc2527347074ba24c51460be083672c15667cdbb0644973baf6e2d1a5a",
+              "sha256": "d22f7cae8bc5cad76179369db50a7ace7bbc95cd31888cc4f93c0f025f579e97",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-36fdac79b6e171ba3f8adc7831a0ecb5104549501ff84e83570a4e1c52936237",
+              "source_id": "span-0bfe518b32a9afc3aa9a0062b8f74088bae8b0f6dc8c560bfd3e3799cf8ea523",
+              "sha256": "1dfdfc0287e05fd5f4bccccdb4f801662493e9cca15ab11034b12f2eb8208b45",
+              "sequence": 6
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "己乾六天辅生门白虎、辛巽四死门、伤门坎一玄武照源；吉门吉星和凶象需按时令权衡，不能按单符下断。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ]
+          },
+          "facts": [
+            [
+              6,
+              "heaven_stem"
+            ],
+            [
+              6,
+              "star"
+            ],
+            [
+              6,
+              "door"
+            ],
+            [
+              6,
+              "deity"
+            ],
+            [
+              4,
+              "heaven_stem"
+            ],
+            [
+              4,
+              "door"
+            ],
+            [
+              1,
+              "door"
+            ],
+            [
+              1,
+              "deity"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-b2ad2e34581741b5fa38374c32eae9cd993d4df05731dbaac6d2f9fdfde83a22",
+              "source_id": "span-7272dccf3d2f253a75c9e92f6986cbd7e670c147241538787d36b3d5992dccac",
+              "sha256": "7ba485ec28d1844d76553d52741667e3c6864b007170022568524558e5101802",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-0981a7f45e6c8b8cb28adec97abbe47a62646f2361ce56f53b4742e2e26f4771",
+              "source_id": "span-9f3b71fc2527347074ba24c51460be083672c15667cdbb0644973baf6e2d1a5a",
+              "sha256": "d22f7cae8bc5cad76179369db50a7ace7bbc95cd31888cc4f93c0f025f579e97",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-06d4bef20c17f1549689bd4fcb74953a1e1e4e50b94ee6328fe196c751599f7c",
+              "source_id": "span-e8a7866271e3fb4883d48d8e2b513cc5dafcda8788d7bb840701bdbac896f759",
+              "sha256": "2581d32b27fd731831ce7ae1b0993ec7f0b9f666f0be397117695a4ad50cbb64",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-36fdac79b6e171ba3f8adc7831a0ecb5104549501ff84e83570a4e1c52936237",
+              "source_id": "span-0bfe518b32a9afc3aa9a0062b8f74088bae8b0f6dc8c560bfd3e3799cf8ea523",
+              "sha256": "1dfdfc0287e05fd5f4bccccdb4f801662493e9cca15ab11034b12f2eb8208b45",
+              "sequence": 6
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-b2ad2e34581741b5fa38374c32eae9cd993d4df05731dbaac6d2f9fdfde83a22",
+              "source_id": "span-7272dccf3d2f253a75c9e92f6986cbd7e670c147241538787d36b3d5992dccac",
+              "sha256": "7ba485ec28d1844d76553d52741667e3c6864b007170022568524558e5101802",
+              "sequence": 3,
+              "quote": "月干己为用神，时干也为己，落乾6宫"
+            },
+            {
+              "record_id": "record-b2ad2e34581741b5fa38374c32eae9cd993d4df05731dbaac6d2f9fdfde83a22",
+              "source_id": "span-7272dccf3d2f253a75c9e92f6986cbd7e670c147241538787d36b3d5992dccac",
+              "sha256": "7ba485ec28d1844d76553d52741667e3c6864b007170022568524558e5101802",
+              "sequence": 3,
+              "quote": "丑月土旺木囚"
+            },
+            {
+              "record_id": "record-0981a7f45e6c8b8cb28adec97abbe47a62646f2361ce56f53b4742e2e26f4771",
+              "source_id": "span-9f3b71fc2527347074ba24c51460be083672c15667cdbb0644973baf6e2d1a5a",
+              "sha256": "d22f7cae8bc5cad76179369db50a7ace7bbc95cd31888cc4f93c0f025f579e97",
+              "sequence": 4,
+              "quote": "其兄刘德顺生于1941年，年柱辛巳"
+            },
+            {
+              "record_id": "record-0981a7f45e6c8b8cb28adec97abbe47a62646f2361ce56f53b4742e2e26f4771",
+              "source_id": "span-9f3b71fc2527347074ba24c51460be083672c15667cdbb0644973baf6e2d1a5a",
+              "sha256": "d22f7cae8bc5cad76179369db50a7ace7bbc95cd31888cc4f93c0f025f579e97",
+              "sequence": 4,
+              "quote": "年命辛落巽4宫为入墓"
+            },
+            {
+              "record_id": "record-36fdac79b6e171ba3f8adc7831a0ecb5104549501ff84e83570a4e1c52936237",
+              "source_id": "span-0bfe518b32a9afc3aa9a0062b8f74088bae8b0f6dc8c560bfd3e3799cf8ea523",
+              "sha256": "1dfdfc0287e05fd5f4bccccdb4f801662493e9cca15ab11034b12f2eb8208b45",
+              "sequence": 6,
+              "quote": "伤门为船只，落坎1宫，又上乘玄武"
+            }
+          ],
+          "answer": {
+            "explanation": "作者在水库人船失踪背景下比较月己吉门吉星却月令不助、白虎与己辛格，再给定辛巳年命太岁冲、墓空死门等，作溺水凶断，并另以伤门玄武看船。这里是作者历史判断，不是可用于现实生死确认的证据；打捞经过尚未知。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ]
+          }
+        },
+        {
+          "type": "timing_analysis",
+          "targets": [
+            {
+              "record_id": "record-21e8e8470f5477fbee9e13ef0c2f94788f0c1c9d8c15676b0d72d1d0ec3392fc",
+              "source_id": "span-c6993f002129221e1eb6b4bd802138ed4d3894bd064a0dd86300ea038fe99e79",
+              "sha256": "f48534f073b2d3628fe420fc35147e497af30f88f5d6cbaf9ed64ff3702c61db",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-110f0bf9f0b279210d36c13f99f8c96a97513ab36c24f4487ed2bc835c9490eb",
+              "source_id": "span-51523f7489b96e8c76065b51d123b83d2281e7610571d827aee64668fa40f9ff",
+              "sha256": "b0194c341c8b4868aff131cfa89be2e180346a15d8002831232564e5f46ba352",
+              "sequence": 8
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-21e8e8470f5477fbee9e13ef0c2f94788f0c1c9d8c15676b0d72d1d0ec3392fc",
+              "source_id": "span-c6993f002129221e1eb6b4bd802138ed4d3894bd064a0dd86300ea038fe99e79",
+              "sha256": "f48534f073b2d3628fe420fc35147e497af30f88f5d6cbaf9ed64ff3702c61db",
+              "sequence": 7,
+              "quote": "九星反吟，主速度快"
+            },
+            {
+              "record_id": "record-21e8e8470f5477fbee9e13ef0c2f94788f0c1c9d8c15676b0d72d1d0ec3392fc",
+              "source_id": "span-c6993f002129221e1eb6b4bd802138ed4d3894bd064a0dd86300ea038fe99e79",
+              "sha256": "f48534f073b2d3628fe420fc35147e497af30f88f5d6cbaf9ed64ff3702c61db",
+              "sequence": 7,
+              "quote": "甲午辛入墓，冲开之日为应期"
+            }
+          ],
+          "answer": {
+            "explanation": "原例由九星反吟和内盘看快，年命入墓待冲，用子午冲报1月16壬子有消息。消息、找到尸体和失踪死亡的具体时刻不能合为同一应期。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ],
+            "methods": [
+              "反吟内盘取快",
+              "墓待冲开"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-87f19eef166a53eac668afe9bf976fdcfd0f35bf0a595f1e4cf554dd0644fb1f",
+      "event_id": "event-1c4a90ac0249bc686a1292492faad767bf222ccfe7b7f105a71a2853b91df207",
+      "family_id": "family-12315fa92bbffd043cdc459aa77ba210c1e211906935d5512463990cbb6a34e4",
+      "chart_id": "chart-f6cf3bf858508bf9bea0257c297598c5b38c31f61f200731dcb9968ef959759c",
+      "chapter": "14-missing-person",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 2,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "逐句审读问测背景和四柱元数据；未把后面的反馈、作者纠错或未知结局当首次已知。",
+      "known_source_window_review": "逐句审读问测背景和四柱元数据；未把后面的反馈、作者纠错或未知结局当首次已知。",
+      "known": [
+        {
+          "record_id": "record-cff768223955473780240b101b8a65501131b9bb7b96ab36f11116cb27d95c07",
+          "source_id": "span-009aaf76887d054300a8f79e826d2e243bb30e8e3b9de408b96e68c412e69000",
+          "sha256": "9d48a95b907237bb8239d5b206170b924756d4d09547120e440b188dd351ed20",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-e644bd760dc141e3bf13104c00439dc2b5e288287714ac40a2c0d9ae0e96c3a6",
+          "source_id": "span-78a3dbb37f024a17c0dfe6574333a90f3e04d848dd227139f1a1aa877bea3800",
+          "sha256": "7926003ef20eeaa96cb1e6bd214e2a73066a513fe2fd93bb305ae77cdb62213d",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-6ebe85703673ae33d168dc59540007154193b71eb2e054bad09789d9567e7cce",
+          "source_id": "span-2637a96f9cae20808e50705fce7142528984d1588ae808bf05b0184b8fe44653",
+          "sha256": "e74d2b6599eb408f8817572a7861984e181ce4894b2cec7c62c50bb8b883db0c",
+          "sequence": 2
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "missing": "如果以走失时间起局，一般以日干为用神",
+        "direction": "如果走失之人是有意潜逃，杜门落宫则可能是其躲藏方向",
+        "return": "用神休囚，又临伤、景、死、惊四门者，则有消息"
+      },
+      "chart_index": 1,
+      "provided_roles": [
+        "按本例问测关系与起局时间取法，兼年命，不由年龄自动绑定"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-e32550d9a2a2589e1c0739cfc6ee013f68cc29cdaa1f11e13e350655381e6e6b",
+              "source_id": "span-f1432f8625cd2a83ceb00235c2ec99f6d4b12854f2f1d5f9b9668ff8fbe03eb8",
+              "sha256": "b682432ed137ff341ec999687a8712578ada470642cecf3b3fd04e4a2df4a1e5",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-78205a479e648be7ab3f84eebfe843f66f914628d43749104c274d09c3376e91",
+              "source_id": "span-158534ef7b20d1dd10015e8b17a2b2af3cd78285f5231174f4783e02711ad254",
+              "sha256": "c051cb7c423a5b9e1522db2538cf6672a5092e5917275deaf1cd3aa1062549d2",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-7ed89b1bdbc9c5b9310c3ffb6088107212e50abbca419955125ced7a7065c1f3",
+              "source_id": "span-bde5d4390d7690557c068d37fc21a7602bff5677de73328e5cc25204d445c7d0",
+              "sha256": "3b15edc266c17bc4dc77879f72486695ddc801a15ec9d101ac89386c805ff6d2",
+              "sequence": 6
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "问时局以时戊看朋友之子，并兼已知1982壬戌年命；日干不因为走失主题自动代表孩子。杜门躲藏方向与六合起走方向须与起局依据分开。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ],
+            "bindings": [
+              {
+                "role": "走失学生",
+                "symbol": "时干戊、年命壬",
+                "condition": "问时局朋友之子及出生年已知"
+              },
+              {
+                "role": "有意出走躲藏方向",
+                "symbol": "杜门",
+                "condition": "与六合出走方向分开"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-e32550d9a2a2589e1c0739cfc6ee013f68cc29cdaa1f11e13e350655381e6e6b",
+              "source_id": "span-f1432f8625cd2a83ceb00235c2ec99f6d4b12854f2f1d5f9b9668ff8fbe03eb8",
+              "sha256": "b682432ed137ff341ec999687a8712578ada470642cecf3b3fd04e4a2df4a1e5",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-78205a479e648be7ab3f84eebfe843f66f914628d43749104c274d09c3376e91",
+              "source_id": "span-158534ef7b20d1dd10015e8b17a2b2af3cd78285f5231174f4783e02711ad254",
+              "sha256": "c051cb7c423a5b9e1522db2538cf6672a5092e5917275deaf1cd3aa1062549d2",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-6b1db9d8b31b45d2c65117430753b40854a56e446e79cc00e724f0a2499311e9",
+              "source_id": "span-134a4eec5c5333bd702f8357833452f48c329b22b4dc087ba4446e299ead9599",
+              "sha256": "aeb645b3bf9a7671dc598c934328ce6a1793ad7940a82627822214260015c77e",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-7ed89b1bdbc9c5b9310c3ffb6088107212e50abbca419955125ced7a7065c1f3",
+              "source_id": "span-bde5d4390d7690557c068d37fc21a7602bff5677de73328e5cc25204d445c7d0",
+              "sha256": "3b15edc266c17bc4dc77879f72486695ddc801a15ec9d101ac89386c805ff6d2",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-144bde2b24b395146a6711130dd2f85ed3a9965baa2822c43331fbdb3da6b02c",
+              "source_id": "span-422778edd63ec57cb0b7ad4106a6db659de5f7894a5cd1b5e0b6e464015347a0",
+              "sha256": "97a58762cabe7c4b4bf382597694a292d3d5574e7a0e1760ede41d582906ddda",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-a39e6afc17a3059123372055a9f2998b065a0ea26adfb8fc6b3ef5ecbd938b80",
+              "source_id": "span-dd570122ffc3f6c195c4a85f1aad05ecb86eee8daf517c9f4ed39348440f8911",
+              "sha256": "4ffe41b4e66ecb7304cc2ed1bca552d086016cf5e4cc9d8393c0678562c81e4c",
+              "sequence": 8
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "问时阴六盘戊乾六值符生门、壬坤二开门与艮八杜门照源，不与另一阳九盘混写。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ]
+          },
+          "facts": [
+            [
+              6,
+              "heaven_stem"
+            ],
+            [
+              6,
+              "deity"
+            ],
+            [
+              6,
+              "door"
+            ],
+            [
+              2,
+              "heaven_stem"
+            ],
+            [
+              2,
+              "door"
+            ],
+            [
+              8,
+              "door"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-e32550d9a2a2589e1c0739cfc6ee013f68cc29cdaa1f11e13e350655381e6e6b",
+              "source_id": "span-f1432f8625cd2a83ceb00235c2ec99f6d4b12854f2f1d5f9b9668ff8fbe03eb8",
+              "sha256": "b682432ed137ff341ec999687a8712578ada470642cecf3b3fd04e4a2df4a1e5",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-78205a479e648be7ab3f84eebfe843f66f914628d43749104c274d09c3376e91",
+              "source_id": "span-158534ef7b20d1dd10015e8b17a2b2af3cd78285f5231174f4783e02711ad254",
+              "sha256": "c051cb7c423a5b9e1522db2538cf6672a5092e5917275deaf1cd3aa1062549d2",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-6b1db9d8b31b45d2c65117430753b40854a56e446e79cc00e724f0a2499311e9",
+              "source_id": "span-134a4eec5c5333bd702f8357833452f48c329b22b4dc087ba4446e299ead9599",
+              "sha256": "aeb645b3bf9a7671dc598c934328ce6a1793ad7940a82627822214260015c77e",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-7ed89b1bdbc9c5b9310c3ffb6088107212e50abbca419955125ced7a7065c1f3",
+              "source_id": "span-bde5d4390d7690557c068d37fc21a7602bff5677de73328e5cc25204d445c7d0",
+              "sha256": "3b15edc266c17bc4dc77879f72486695ddc801a15ec9d101ac89386c805ff6d2",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-144bde2b24b395146a6711130dd2f85ed3a9965baa2822c43331fbdb3da6b02c",
+              "source_id": "span-422778edd63ec57cb0b7ad4106a6db659de5f7894a5cd1b5e0b6e464015347a0",
+              "sha256": "97a58762cabe7c4b4bf382597694a292d3d5574e7a0e1760ede41d582906ddda",
+              "sequence": 7
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-e32550d9a2a2589e1c0739cfc6ee013f68cc29cdaa1f11e13e350655381e6e6b",
+              "source_id": "span-f1432f8625cd2a83ceb00235c2ec99f6d4b12854f2f1d5f9b9668ff8fbe03eb8",
+              "sha256": "b682432ed137ff341ec999687a8712578ada470642cecf3b3fd04e4a2df4a1e5",
+              "sequence": 3,
+              "quote": "时干戊落乾6宫，逢空亡"
+            },
+            {
+              "record_id": "record-6b1db9d8b31b45d2c65117430753b40854a56e446e79cc00e724f0a2499311e9",
+              "source_id": "span-134a4eec5c5333bd702f8357833452f48c329b22b4dc087ba4446e299ead9599",
+              "sha256": "aeb645b3bf9a7671dc598c934328ce6a1793ad7940a82627822214260015c77e",
+              "sequence": 5,
+              "quote": "年命壬在坤2宫，为长生之地，逢开门吉门，太阴吉神"
+            },
+            {
+              "record_id": "record-7ed89b1bdbc9c5b9310c3ffb6088107212e50abbca419955125ced7a7065c1f3",
+              "source_id": "span-bde5d4390d7690557c068d37fc21a7602bff5677de73328e5cc25204d445c7d0",
+              "sha256": "3b15edc266c17bc4dc77879f72486695ddc801a15ec9d101ac89386c805ff6d2",
+              "sequence": 6,
+              "quote": "杜门与马星均在艮8宫"
+            },
+            {
+              "record_id": "record-144bde2b24b395146a6711130dd2f85ed3a9965baa2822c43331fbdb3da6b02c",
+              "source_id": "span-422778edd63ec57cb0b7ad4106a6db659de5f7894a5cd1b5e0b6e464015347a0",
+              "sha256": "97a58762cabe7c4b4bf382597694a292d3d5574e7a0e1760ede41d582906ddda",
+              "sequence": 7,
+              "quote": "九星伏吟主慢"
+            }
+          ],
+          "answer": {
+            "explanation": "问时盘作者从乾六空亡提出外走和西北城市，年命开门太阴等支持在外平安，同时用开生门不思归、伏吟慢等判断短期不回；杜门马星另给最终东北线索。方向含可能变化，不能把后来天津结果硬改为初断唯一方向。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ]
+          }
+        },
+        {
+          "type": "timing_analysis",
+          "targets": [
+            {
+              "record_id": "record-a39e6afc17a3059123372055a9f2998b065a0ea26adfb8fc6b3ef5ecbd938b80",
+              "source_id": "span-dd570122ffc3f6c195c4a85f1aad05ecb86eee8daf517c9f4ed39348440f8911",
+              "sha256": "4ffe41b4e66ecb7304cc2ed1bca552d086016cf5e4cc9d8393c0678562c81e4c",
+              "sequence": 8
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-a39e6afc17a3059123372055a9f2998b065a0ea26adfb8fc6b3ef5ecbd938b80",
+              "source_id": "span-dd570122ffc3f6c195c4a85f1aad05ecb86eee8daf517c9f4ed39348440f8911",
+              "sha256": "4ffe41b4e66ecb7304cc2ed1bca552d086016cf5e4cc9d8393c0678562c81e4c",
+              "sequence": 8,
+              "quote": "甲子旬中戌亥空，今时干临值符逢空"
+            }
+          ],
+          "answer": {
+            "explanation": "问时盘以甲子旬戌亥空、时干临符空亡待填实，给戌月即原述阴历九月范围；不是从天津接回具体日反推。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ],
+            "methods": [
+              "用神值符旬空待填实"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-4a1e47ae84392ffab33451a16b24d08bf2c20995300103b9979cf7e1d1c6d7bc",
+      "event_id": "event-b6203192bed4ad1db49283166d5589aca118a0d1b5c0a3d47820fae5195b83b0",
+      "family_id": "family-742130d54da32fba329e2e3f9a455b0784e9327c00eceb57479e7799bd24de07",
+      "chart_id": "chart-aa9db982a42f617e4aa126627ebe10b5ce1d0a608e3fd31507dfb97ce0d7fb26",
+      "chapter": "14-missing-person",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 2,
+      "stage": "departure_time_comparison",
+      "mode": "continuation",
+      "source_prediction_window_review": "逐句审读问测背景和四柱元数据；未把后面的反馈、作者纠错或未知结局当首次已知。",
+      "known_source_window_review": "逐句审读问测背景和四柱元数据；未把后面的反馈、作者纠错或未知结局当首次已知。",
+      "known": [
+        {
+          "record_id": "record-cff768223955473780240b101b8a65501131b9bb7b96ab36f11116cb27d95c07",
+          "source_id": "span-009aaf76887d054300a8f79e826d2e243bb30e8e3b9de408b96e68c412e69000",
+          "sha256": "9d48a95b907237bb8239d5b206170b924756d4d09547120e440b188dd351ed20",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-e644bd760dc141e3bf13104c00439dc2b5e288287714ac40a2c0d9ae0e96c3a6",
+          "source_id": "span-78a3dbb37f024a17c0dfe6574333a90f3e04d848dd227139f1a1aa877bea3800",
+          "sha256": "7926003ef20eeaa96cb1e6bd214e2a73066a513fe2fd93bb305ae77cdb62213d",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-6ebe85703673ae33d168dc59540007154193b71eb2e054bad09789d9567e7cce",
+          "source_id": "span-2637a96f9cae20808e50705fce7142528984d1588ae808bf05b0184b8fe44653",
+          "sha256": "e74d2b6599eb408f8817572a7861984e181ce4894b2cec7c62c50bb8b883db0c",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-e32550d9a2a2589e1c0739cfc6ee013f68cc29cdaa1f11e13e350655381e6e6b",
+          "source_id": "span-f1432f8625cd2a83ceb00235c2ec99f6d4b12854f2f1d5f9b9668ff8fbe03eb8",
+          "sha256": "b682432ed137ff341ec999687a8712578ada470642cecf3b3fd04e4a2df4a1e5",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-78205a479e648be7ab3f84eebfe843f66f914628d43749104c274d09c3376e91",
+          "source_id": "span-158534ef7b20d1dd10015e8b17a2b2af3cd78285f5231174f4783e02711ad254",
+          "sha256": "c051cb7c423a5b9e1522db2538cf6672a5092e5917275deaf1cd3aa1062549d2",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-6b1db9d8b31b45d2c65117430753b40854a56e446e79cc00e724f0a2499311e9",
+          "source_id": "span-134a4eec5c5333bd702f8357833452f48c329b22b4dc087ba4446e299ead9599",
+          "sha256": "aeb645b3bf9a7671dc598c934328ce6a1793ad7940a82627822214260015c77e",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-7ed89b1bdbc9c5b9310c3ffb6088107212e50abbca419955125ced7a7065c1f3",
+          "source_id": "span-bde5d4390d7690557c068d37fc21a7602bff5677de73328e5cc25204d445c7d0",
+          "sha256": "3b15edc266c17bc4dc77879f72486695ddc801a15ec9d101ac89386c805ff6d2",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-144bde2b24b395146a6711130dd2f85ed3a9965baa2822c43331fbdb3da6b02c",
+          "source_id": "span-422778edd63ec57cb0b7ad4106a6db659de5f7894a5cd1b5e0b6e464015347a0",
+          "sha256": "97a58762cabe7c4b4bf382597694a292d3d5574e7a0e1760ede41d582906ddda",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-a39e6afc17a3059123372055a9f2998b065a0ea26adfb8fc6b3ef5ecbd938b80",
+          "source_id": "span-dd570122ffc3f6c195c4a85f1aad05ecb86eee8daf517c9f4ed39348440f8911",
+          "sha256": "4ffe41b4e66ecb7304cc2ed1bca552d086016cf5e4cc9d8393c0678562c81e4c",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-b714b742f13f0313ecd3d5b960f53f234781c14d2531b9eb946f990ce2e12b5d",
+          "source_id": "span-b8d79b38fb6410296fc099d3080a891123676073fa2824ab3320b263cb57fe75",
+          "sha256": "a691cbc4e81373af20887c953ced79c70e258fe477432187067d2fea41c473e0",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-0bd2e6a09d8096ea7563b296f54eb05b46398c5d11262c62519a3e23ce4f1498",
+          "source_id": "span-1ebebe00bf6a21cf4f3e87d9b213531a676885a5ac2e8d3d838c69b450f46414",
+          "sha256": "5a2120e632658428e6b841e8ef2cb47b25a456926d3c15de0869b41c648d633f",
+          "sequence": 10
+        }
+      ],
+      "cutoff": 11,
+      "rules": {
+        "missing": "如果以走失时间起局，一般以日干为用神",
+        "direction": "如果走失之人是有意潜逃，杜门落宫则可能是其躲藏方向",
+        "return": "用神休囚，又临伤、景、死、惊四门者，则有消息"
+      },
+      "chart_index": 0,
+      "provided_roles": [
+        "按本例问测关系与起局时间取法，兼年命，不由年龄自动绑定"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-46266ea0a046f11fe733fca4a4db83700b189ce9aec29aca56ea8e451d511982",
+              "source_id": "span-3852dfcbfba199cb2bff7f4c8d47c3e46478cf004668f155bc763bcb00c9a6ff",
+              "sha256": "86282bbcff0a328c52f274316c35bae0a7f8a527a8260dc48417e60fd5e23933",
+              "sequence": 11
+            },
+            {
+              "record_id": "record-263377b729bf01daa9325ec4c614fa04a49e090499fb1e64acdd4d87d5d5922f",
+              "source_id": "span-fefa102b28d1c27e59d7d8350c635023a8e38582f672055f3ede32fc0a4e3a2d",
+              "sha256": "5ff40458154299c09f84afb2059f13ec6e653a02bcceb571cc1529cc42407fb0",
+              "sequence": 12
+            },
+            {
+              "record_id": "record-791e57a06cbe40489014a6f32c818e259ec477eacd7c7e1d5a5a610805f36eba",
+              "source_id": "span-905b5c398b3abcc46985a3856671fd4c4ad08a502d69f8176553147f5e8e7e26",
+              "sha256": "874d291c0214cbb64cfcc4a78d7be81f515ab773f6b8f59f27ec16865fc79027",
+              "sequence": 13
+            },
+            {
+              "record_id": "record-834407dc0f0a726a7a437dc9673bf1e274b34c4d32196a9bc2f6a283c67dfc87",
+              "source_id": "span-caf0e2083a6c72f3e0dfe6a59ce2fac527932cb69d753841d8e0a33316a8420c",
+              "sha256": "1e4e149f35b45370c8c74337a6321c787b6404db254c0e3fbf7bb116237a7775",
+              "sequence": 14
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "对照走失时间的阳九局，改以日干甲戌己为走失者，再兼年命壬；不能沿问时盘时戊角色不变。作者因走失时刻来自回忆，最终以问时盘为主，保留时间可靠性的理由。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ],
+            "bindings": [
+              {
+                "role": "走失者",
+                "symbol": "日干甲戌己、兼年命壬",
+                "condition": "此为走失时间局，与问时局不同"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-46266ea0a046f11fe733fca4a4db83700b189ce9aec29aca56ea8e451d511982",
+              "source_id": "span-3852dfcbfba199cb2bff7f4c8d47c3e46478cf004668f155bc763bcb00c9a6ff",
+              "sha256": "86282bbcff0a328c52f274316c35bae0a7f8a527a8260dc48417e60fd5e23933",
+              "sequence": 11
+            },
+            {
+              "record_id": "record-263377b729bf01daa9325ec4c614fa04a49e090499fb1e64acdd4d87d5d5922f",
+              "source_id": "span-fefa102b28d1c27e59d7d8350c635023a8e38582f672055f3ede32fc0a4e3a2d",
+              "sha256": "5ff40458154299c09f84afb2059f13ec6e653a02bcceb571cc1529cc42407fb0",
+              "sequence": 12
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "走失时阳九盘己离九与年命壬乾六、乾宫惊门九天照源，不能复制问时阴六的戊乾六字段。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ]
+          },
+          "facts": [
+            [
+              9,
+              "heaven_stem"
+            ],
+            [
+              9,
+              "door"
+            ],
+            [
+              6,
+              "heaven_stem"
+            ],
+            [
+              6,
+              "door"
+            ],
+            [
+              6,
+              "deity"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-46266ea0a046f11fe733fca4a4db83700b189ce9aec29aca56ea8e451d511982",
+              "source_id": "span-3852dfcbfba199cb2bff7f4c8d47c3e46478cf004668f155bc763bcb00c9a6ff",
+              "sha256": "86282bbcff0a328c52f274316c35bae0a7f8a527a8260dc48417e60fd5e23933",
+              "sequence": 11
+            },
+            {
+              "record_id": "record-263377b729bf01daa9325ec4c614fa04a49e090499fb1e64acdd4d87d5d5922f",
+              "source_id": "span-fefa102b28d1c27e59d7d8350c635023a8e38582f672055f3ede32fc0a4e3a2d",
+              "sha256": "5ff40458154299c09f84afb2059f13ec6e653a02bcceb571cc1529cc42407fb0",
+              "sequence": 12
+            },
+            {
+              "record_id": "record-791e57a06cbe40489014a6f32c818e259ec477eacd7c7e1d5a5a610805f36eba",
+              "source_id": "span-905b5c398b3abcc46985a3856671fd4c4ad08a502d69f8176553147f5e8e7e26",
+              "sha256": "874d291c0214cbb64cfcc4a78d7be81f515ab773f6b8f59f27ec16865fc79027",
+              "sequence": 13
+            },
+            {
+              "record_id": "record-834407dc0f0a726a7a437dc9673bf1e274b34c4d32196a9bc2f6a283c67dfc87",
+              "source_id": "span-caf0e2083a6c72f3e0dfe6a59ce2fac527932cb69d753841d8e0a33316a8420c",
+              "sha256": "1e4e149f35b45370c8c74337a6321c787b6404db254c0e3fbf7bb116237a7775",
+              "sequence": 14
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-46266ea0a046f11fe733fca4a4db83700b189ce9aec29aca56ea8e451d511982",
+              "source_id": "span-3852dfcbfba199cb2bff7f4c8d47c3e46478cf004668f155bc763bcb00c9a6ff",
+              "sha256": "86282bbcff0a328c52f274316c35bae0a7f8a527a8260dc48417e60fd5e23933",
+              "sequence": 11,
+              "quote": "日干甲戌己落9宫，与时干己同宫比和"
+            },
+            {
+              "record_id": "record-46266ea0a046f11fe733fca4a4db83700b189ce9aec29aca56ea8e451d511982",
+              "source_id": "span-3852dfcbfba199cb2bff7f4c8d47c3e46478cf004668f155bc763bcb00c9a6ff",
+              "sha256": "86282bbcff0a328c52f274316c35bae0a7f8a527a8260dc48417e60fd5e23933",
+              "sequence": 11,
+              "quote": "午月火旺金死水囚"
+            },
+            {
+              "record_id": "record-791e57a06cbe40489014a6f32c818e259ec477eacd7c7e1d5a5a610805f36eba",
+              "source_id": "span-905b5c398b3abcc46985a3856671fd4c4ad08a502d69f8176553147f5e8e7e26",
+              "sha256": "874d291c0214cbb64cfcc4a78d7be81f515ab773f6b8f59f27ec16865fc79027",
+              "sequence": 13,
+              "quote": "日、时、年命均在外盘"
+            }
+          ],
+          "answer": {
+            "explanation": "走失时盘用日时同宫旺相、月令制凶和年命吉象支持能回，外盘与年命空又作慢；方向线索南方和西北并列，不删除与主盘不同的方向。此是两种时间依据的对照，后来六次预测未供盘，不能补造。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-4a1e47ae84392ffab33451a16b24d08bf2c20995300103b9979cf7e1d1c6d7bc",
+      "event_id": "event-b6203192bed4ad1db49283166d5589aca118a0d1b5c0a3d47820fae5195b83b0",
+      "family_id": "family-742130d54da32fba329e2e3f9a455b0784e9327c00eceb57479e7799bd24de07",
+      "chart_id": "chart-527f5e5d1b9b1972a55219d7aad84c808dd0610778dbdf2f6059a0d586ffe5b7",
+      "chapter": "14-missing-person",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 3,
+      "stage": "first",
+      "mode": "retrospective",
+      "source_prediction_window_review": "逐句审读问测背景和四柱元数据；未把后面的反馈、作者纠错或未知结局当首次已知。",
+      "known_source_window_review": "逐句审读问测背景和四柱元数据；未把后面的反馈、作者纠错或未知结局当首次已知。",
+      "known": [
+        {
+          "record_id": "record-49de55fa5691f9745c5fdbb4efca98287d98032ab94b6e1d3d32084389835674",
+          "source_id": "span-eda645cc0c7c115ef251d69b2b718d7c1aa30fe8640060e94e4895f0dd554c99",
+          "sha256": "ab870652b28e48a2bbf8fba56392a6470cee3dd922201a8e98e7c3569a9f7e0c",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-6331a832f15b4e5ede55e556ec03eac7bfab348402ff509d5bfc2721c452a453",
+          "source_id": "span-6a8eb22781f3d73766c3cedc8cea04fdf1996a4e5ecd1fe888f52d71a8c411d1",
+          "sha256": "b16eef5244bd11c78ddccc0fa195a974ed3136ff5c0cbf63d193a2f561caecf9",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-988f9de04da6c4cea9e9a0777638958e7a68e1965929958ed0c75493480e67a3",
+          "source_id": "span-68c10f741fd631c088ab4f88f284bea76b014f33488c10bc28852b69d927064e",
+          "sha256": "4e22e839089b32c202a566f3fe8f4f46eabc69be9d043ea916e6043716df6635",
+          "sequence": 2
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "missing": "如果以走失时间起局，一般以日干为用神",
+        "direction": "如果走失之人是有意潜逃，杜门落宫则可能是其躲藏方向",
+        "return": "用神休囚，又临伤、景、死、惊四门者，则有消息"
+      },
+      "chart_index": 0,
+      "provided_roles": [
+        "按本例问测关系与起局时间取法，兼年命，不由年龄自动绑定"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-51d262e855384d5edf6af7a392500b5f6f484ff00c8e680936958eb888bda9c5",
+              "source_id": "span-dae02d85cb34c0448a580921ef95513623beb1763da3d6d8df0db27a2001e20c",
+              "sha256": "6019ea434ea2ce5139827147a41bf7f1599fa93d33da919dc66d647f65dcffca",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-db1a657fa97182ce90963fd21959b490f312ac91bc087998a1416fbe3a2fd5a8",
+              "source_id": "span-dea25f37c5b1e233c7a1da55cc3eb7e4baa10da84a1b6b661a90b07a5eee4e59",
+              "sha256": "ae0ed96db5c06436d70e875f1378cd31adac1c4493ace2e15439795feabfcaec",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-55219f1e2c046be15b984ab6640bb821594b04d55e9f8d636c93f6301bb01ef6",
+              "source_id": "span-85dc8dfea809c9a4ae445e93c82ad3bbe40ac97f673ca1ec4775c06c6ad3894a",
+              "sha256": "4f81ef17c2c3bfe59d95ffc665c36938a5553ad39814a618ee152d1bab67bce9",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "源文明确是事后对照出走时间盘，日干己看出走者、丁巳年命兼看本人，杜门为有意躲避方向；不能把事后“时间准确”评语改为事前已知或初断结果。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ],
+            "bindings": [
+              {
+                "role": "出走者",
+                "symbol": "日干己、年命丁",
+                "condition": "出走时间盘，事后复盘"
+              },
+              {
+                "role": "躲藏方向",
+                "symbol": "杜门",
+                "condition": "已知有意出走语境"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-51d262e855384d5edf6af7a392500b5f6f484ff00c8e680936958eb888bda9c5",
+              "source_id": "span-dae02d85cb34c0448a580921ef95513623beb1763da3d6d8df0db27a2001e20c",
+              "sha256": "6019ea434ea2ce5139827147a41bf7f1599fa93d33da919dc66d647f65dcffca",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-db1a657fa97182ce90963fd21959b490f312ac91bc087998a1416fbe3a2fd5a8",
+              "source_id": "span-dea25f37c5b1e233c7a1da55cc3eb7e4baa10da84a1b6b661a90b07a5eee4e59",
+              "sha256": "ae0ed96db5c06436d70e875f1378cd31adac1c4493ace2e15439795feabfcaec",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-55219f1e2c046be15b984ab6640bb821594b04d55e9f8d636c93f6301bb01ef6",
+              "source_id": "span-85dc8dfea809c9a4ae445e93c82ad3bbe40ac97f673ca1ec4775c06c6ad3894a",
+              "sha256": "4f81ef17c2c3bfe59d95ffc665c36938a5553ad39814a618ee152d1bab67bce9",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-1e7a391aaa0708ac3f9b8de848d93a7cb41a6619300e28520ac42192aca27ef1",
+              "source_id": "span-8903f2e4a154f7c72459355626526449f06b53f104c9b7d7dcb94aedcd5e3de7",
+              "sha256": "4a52b6374f0c1ac9aeb37c9ec667f0c85c3af538046f6932b335d17e7c4463ec",
+              "sequence": 6
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "己坎一死门天柱、丁离九六合、杜门兑七、开门震三照源；绝地凶格的字面与整体是否危险分开。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ]
+          },
+          "facts": [
+            [
+              1,
+              "heaven_stem"
+            ],
+            [
+              1,
+              "door"
+            ],
+            [
+              1,
+              "star"
+            ],
+            [
+              9,
+              "heaven_stem"
+            ],
+            [
+              9,
+              "deity"
+            ],
+            [
+              7,
+              "door"
+            ],
+            [
+              3,
+              "door"
+            ]
+          ]
+        },
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-51d262e855384d5edf6af7a392500b5f6f484ff00c8e680936958eb888bda9c5",
+              "source_id": "span-dae02d85cb34c0448a580921ef95513623beb1763da3d6d8df0db27a2001e20c",
+              "sha256": "6019ea434ea2ce5139827147a41bf7f1599fa93d33da919dc66d647f65dcffca",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-db1a657fa97182ce90963fd21959b490f312ac91bc087998a1416fbe3a2fd5a8",
+              "source_id": "span-dea25f37c5b1e233c7a1da55cc3eb7e4baa10da84a1b6b661a90b07a5eee4e59",
+              "sha256": "ae0ed96db5c06436d70e875f1378cd31adac1c4493ace2e15439795feabfcaec",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-55219f1e2c046be15b984ab6640bb821594b04d55e9f8d636c93f6301bb01ef6",
+              "source_id": "span-85dc8dfea809c9a4ae445e93c82ad3bbe40ac97f673ca1ec4775c06c6ad3894a",
+              "sha256": "4f81ef17c2c3bfe59d95ffc665c36938a5553ad39814a618ee152d1bab67bce9",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-1e7a391aaa0708ac3f9b8de848d93a7cb41a6619300e28520ac42192aca27ef1",
+              "source_id": "span-8903f2e4a154f7c72459355626526449f06b53f104c9b7d7dcb94aedcd5e3de7",
+              "sha256": "4a52b6374f0c1ac9aeb37c9ec667f0c85c3af538046f6932b335d17e7c4463ec",
+              "sequence": 6
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-51d262e855384d5edf6af7a392500b5f6f484ff00c8e680936958eb888bda9c5",
+              "source_id": "span-dae02d85cb34c0448a580921ef95513623beb1763da3d6d8df0db27a2001e20c",
+              "sha256": "6019ea434ea2ce5139827147a41bf7f1599fa93d33da919dc66d647f65dcffca",
+              "sequence": 3,
+              "quote": "死门虽然克宫，但在寅月，木旺土死"
+            },
+            {
+              "record_id": "record-51d262e855384d5edf6af7a392500b5f6f484ff00c8e680936958eb888bda9c5",
+              "source_id": "span-dae02d85cb34c0448a580921ef95513623beb1763da3d6d8df0db27a2001e20c",
+              "sha256": "6019ea434ea2ce5139827147a41bf7f1599fa93d33da919dc66d647f65dcffca",
+              "sequence": 3,
+              "quote": "天柱星虽然落入旺宫，但休于月令"
+            },
+            {
+              "record_id": "record-db1a657fa97182ce90963fd21959b490f312ac91bc087998a1416fbe3a2fd5a8",
+              "source_id": "span-dea25f37c5b1e233c7a1da55cc3eb7e4baa10da84a1b6b661a90b07a5eee4e59",
+              "sha256": "ae0ed96db5c06436d70e875f1378cd31adac1c4493ace2e15439795feabfcaec",
+              "sequence": 4,
+              "quote": "年命丁落离9宫为临官禄地"
+            },
+            {
+              "record_id": "record-1e7a391aaa0708ac3f9b8de848d93a7cb41a6619300e28520ac42192aca27ef1",
+              "source_id": "span-8903f2e4a154f7c72459355626526449f06b53f104c9b7d7dcb94aedcd5e3de7",
+              "sha256": "4a52b6374f0c1ac9aeb37c9ec667f0c85c3af538046f6932b335d17e7c4463ec",
+              "sequence": 6,
+              "quote": "没有庚格"
+            }
+          ],
+          "answer": {
+            "explanation": "已知女生回来后的作者纠错：不能见己绝地、死门天柱就说已死；寅月木旺土死、天柱休囚及走失门类特殊经验可反制凶象，丁年命长生吉门六合支持平安。杜门西方及值使三宫、出空壬戌另作方向应期，全部标为事后解释，不回填到4月11问测。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-000ec3e2e85e8de3d12a100b4c8cf7555e906a8f46ed3ef2ee5badf1ce753b34",
+      "event_id": "event-5b2a3a8d13289e159d5719592646899f896f4fe9bcbf4dd8d6d9bbd3735a9ff6",
+      "family_id": "family-4db5e46e6eb8f7bfc07973b4f6086fa85de405a49ccd92c0d67ec627b0ac242c",
+      "chart_id": "chart-9aeb843583f7759ca528c5542de9c19bc640ce50d0212e6e6c728aeac03f07cc",
+      "chapter": "14-missing-person",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 4,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "逐句审读问测背景和四柱元数据；未把后面的反馈、作者纠错或未知结局当首次已知。",
+      "known_source_window_review": "逐句审读问测背景和四柱元数据；未把后面的反馈、作者纠错或未知结局当首次已知。",
+      "known": [
+        {
+          "record_id": "record-9adfb1f8f69868944fd81fe3fb57547d791f17888bd388d279fa1c1df1e470b1",
+          "source_id": "span-e72cbc8318b39be34973f031799c41e02f5e11afcb46a9c34d9cb21fef3444cd",
+          "sha256": "f751f58858bfd2d1ea591d7a75d253f401ed2bc0db45c35e32c5d230ffe6db46",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-cfa6fe9afd1010ed7d56ab0ad3c906a34b454973c1d6c619ebcad4ca658367cd",
+          "source_id": "span-aa1c1acdeb43f236433c29b1b226c69126d444e3e61d3921daab2d2ea9624eb0",
+          "sha256": "36c694bafc89d99d71ac992237588435eb3342f2700dcb4a826ef8f2f3d10300",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-27f457db6f808e3059344e34440670cbefd2ba351be8d98b16f0db60a6e6604e",
+          "source_id": "span-6b570456bd5eea303b8c2349c9196aad4c5440d2d1146be2040d40ae71233a64",
+          "sha256": "e27331090818c7bead8f605990fa3e25f3a160a9e3550e7efb3fe1badf5de520",
+          "sequence": 2
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "missing": "如果以走失时间起局，一般以日干为用神",
+        "direction": "如果走失之人是有意潜逃，杜门落宫则可能是其躲藏方向",
+        "return": "用神休囚，又临伤、景、死、惊四门者，则有消息"
+      },
+      "chart_index": 0,
+      "provided_roles": [
+        "按本例问测关系与起局时间取法，兼年命，不由年龄自动绑定"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-ed35650279229f377b6ff524fb02a339f48615f628a5043d37a65c5b393366fd",
+              "source_id": "span-75348d592c46547b5f546b30fdccf5091b46ca3a7cbbcdf88072e749491112d5",
+              "sha256": "a9c5bcad3667a598f7be0374880d3db6f11aa01198f5e28d88c9eb1d6655326f",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-8de904bd7be6d3fabafa4cc65c170420e8e8f61221bfd0f6a3373783d30b4398",
+              "source_id": "span-5db55c3175ec2e3a61c5506b5608d93c0f45d54e3bdc364a7039078d68bdbfa8",
+              "sha256": "bcd4ad0ed00803d005a54ce021246cb29344af790b7337cd3f7a55b11a6d56fd",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-6096ef744cb938a76c0577c9a7a803ceddda29bbce44cf56eedfa6fd960bcc5d",
+              "source_id": "span-ba6878214ac979dc0414ab63149efe3fc8e744f14b0339eacc1090521717ee95",
+              "sha256": "dcf220d72f32326a03d9426a9266c4082965589c354e838c9f6fdd7323fe34c1",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "本例时干乙看被抱走孩子，天蓬看案犯，侦破还审杜门格与反吟等。人物角色来自本案取法，不把一岁年龄本身当所有案件通用绑定规则。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ],
+            "bindings": [
+              {
+                "role": "失踪孩子",
+                "symbol": "时干乙",
+                "condition": "本例问测口径"
+              },
+              {
+                "role": "案犯",
+                "symbol": "天蓬星",
+                "condition": "本例拐骗方法，未获身份确认"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-ed35650279229f377b6ff524fb02a339f48615f628a5043d37a65c5b393366fd",
+              "source_id": "span-75348d592c46547b5f546b30fdccf5091b46ca3a7cbbcdf88072e749491112d5",
+              "sha256": "a9c5bcad3667a598f7be0374880d3db6f11aa01198f5e28d88c9eb1d6655326f",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-8de904bd7be6d3fabafa4cc65c170420e8e8f61221bfd0f6a3373783d30b4398",
+              "source_id": "span-5db55c3175ec2e3a61c5506b5608d93c0f45d54e3bdc364a7039078d68bdbfa8",
+              "sha256": "bcd4ad0ed00803d005a54ce021246cb29344af790b7337cd3f7a55b11a6d56fd",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-6096ef744cb938a76c0577c9a7a803ceddda29bbce44cf56eedfa6fd960bcc5d",
+              "source_id": "span-ba6878214ac979dc0414ab63149efe3fc8e744f14b0339eacc1090521717ee95",
+              "sha256": "dcf220d72f32326a03d9426a9266c4082965589c354e838c9f6fdd7323fe34c1",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "乙巽四景门天心白虎、天蓬离九六合、兑七庚丙照表；案犯性别人数是作者推断，不是盘面事实。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ]
+          },
+          "facts": [
+            [
+              4,
+              "heaven_stem"
+            ],
+            [
+              4,
+              "door"
+            ],
+            [
+              4,
+              "star"
+            ],
+            [
+              4,
+              "deity"
+            ],
+            [
+              9,
+              "star"
+            ],
+            [
+              9,
+              "deity"
+            ],
+            [
+              7,
+              "heaven_stem"
+            ],
+            [
+              7,
+              "earth_stem"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-ed35650279229f377b6ff524fb02a339f48615f628a5043d37a65c5b393366fd",
+              "source_id": "span-75348d592c46547b5f546b30fdccf5091b46ca3a7cbbcdf88072e749491112d5",
+              "sha256": "a9c5bcad3667a598f7be0374880d3db6f11aa01198f5e28d88c9eb1d6655326f",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-8de904bd7be6d3fabafa4cc65c170420e8e8f61221bfd0f6a3373783d30b4398",
+              "source_id": "span-5db55c3175ec2e3a61c5506b5608d93c0f45d54e3bdc364a7039078d68bdbfa8",
+              "sha256": "bcd4ad0ed00803d005a54ce021246cb29344af790b7337cd3f7a55b11a6d56fd",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-6096ef744cb938a76c0577c9a7a803ceddda29bbce44cf56eedfa6fd960bcc5d",
+              "source_id": "span-ba6878214ac979dc0414ab63149efe3fc8e744f14b0339eacc1090521717ee95",
+              "sha256": "dcf220d72f32326a03d9426a9266c4082965589c354e838c9f6fdd7323fe34c1",
+              "sequence": 5
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-ed35650279229f377b6ff524fb02a339f48615f628a5043d37a65c5b393366fd",
+              "source_id": "span-75348d592c46547b5f546b30fdccf5091b46ca3a7cbbcdf88072e749491112d5",
+              "sha256": "a9c5bcad3667a598f7be0374880d3db6f11aa01198f5e28d88c9eb1d6655326f",
+              "sequence": 3,
+              "quote": "以时干乙为用神，落巽4宫"
+            },
+            {
+              "record_id": "record-ed35650279229f377b6ff524fb02a339f48615f628a5043d37a65c5b393366fd",
+              "source_id": "span-75348d592c46547b5f546b30fdccf5091b46ca3a7cbbcdf88072e749491112d5",
+              "sha256": "a9c5bcad3667a598f7be0374880d3db6f11aa01198f5e28d88c9eb1d6655326f",
+              "sequence": 3,
+              "quote": "亥月木旺金休"
+            },
+            {
+              "record_id": "record-8de904bd7be6d3fabafa4cc65c170420e8e8f61221bfd0f6a3373783d30b4398",
+              "source_id": "span-5db55c3175ec2e3a61c5506b5608d93c0f45d54e3bdc364a7039078d68bdbfa8",
+              "sha256": "bcd4ad0ed00803d005a54ce021246cb29344af790b7337cd3f7a55b11a6d56fd",
+              "sequence": 4,
+              "quote": "天蓬星落离9宫，上乘六合"
+            },
+            {
+              "record_id": "record-6096ef744cb938a76c0577c9a7a803ceddda29bbce44cf56eedfa6fd960bcc5d",
+              "source_id": "span-ba6878214ac979dc0414ab63149efe3fc8e744f14b0339eacc1090521717ee95",
+              "sha256": "dcf220d72f32326a03d9426a9266c4082965589c354e838c9f6fdd7323fe34c1",
+              "sequence": 5,
+              "quote": "杜门逢格，丙克庚，又加上九星反吟"
+            },
+            {
+              "record_id": "record-6096ef744cb938a76c0577c9a7a803ceddda29bbce44cf56eedfa6fd960bcc5d",
+              "source_id": "span-ba6878214ac979dc0414ab63149efe3fc8e744f14b0339eacc1090521717ee95",
+              "sha256": "dcf220d72f32326a03d9426a9266c4082965589c354e838c9f6fdd7323fe34c1",
+              "sequence": 5,
+              "quote": "兑七宫庚+丙为年格"
+            }
+          ],
+          "answer": {
+            "explanation": "作者把时乙外盘东南作为方向，景门易找、天心与月令制白虎作人员平安一面；天蓬六合等提出多人作案倾向，再以杜门格、反吟和庚丙年格支持可破。应同时保留伤门白虎值使不克天蓬的反证；次日送回与案犯身份未开放。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-99e5d7b77d9880042106cce4c60b434f34205f782492f0a46b28b2e255e65610",
+      "event_id": "event-e425fc0f557667fd3e3d6abbe7e756a2774c525891aefedef4cf3567139eeb55",
+      "family_id": "family-4e07877a876ef919b876e39a8ab5dfadacaa19a746877ac242c592369e5a6bfe",
+      "chart_id": "chart-49606737a013c8f334359c02091755e0ba4a1375092d298c426c7b0f99ff46bb",
+      "chapter": "14-missing-person",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 5,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "逐句审读问测背景和四柱元数据；未把后面的反馈、作者纠错或未知结局当首次已知。",
+      "known_source_window_review": "逐句审读问测背景和四柱元数据；未把后面的反馈、作者纠错或未知结局当首次已知。",
+      "known": [
+        {
+          "record_id": "record-618d05422537b017962a48a1c903fb850931b48c12f088b15ff525d14dd62a1f",
+          "source_id": "span-6ffd189cbbc94fc1782c5e0dab1fff82c36fd54c90b72811b80f6f42c89379b4",
+          "sha256": "ee80b5a63404f2d0e87f6a7403ac8b37c27d902efde473f2d161ddf912e7f92e",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-8df2be0095e9248a7b452a277e4e5c2967f79036ae5e3df7482efb36f116c025",
+          "source_id": "span-3d638604e34e143cb59f187b504a79d3ed52b611e3c3db43b8fbad6800d89aa9",
+          "sha256": "e4b4f737688444ad2c9e33ed0251d17b56571cbaddef0b18f6c8906e6734de23",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-0810fd758e2c1609d75f1115833a928b0120b20844d0c427291a8a437351b7b2",
+          "source_id": "span-89cb4c019fa8a24983a1aec1c2f957be96c16e9dc79bffbcabd758ca8caedd0e",
+          "sha256": "8095969b31f1785da448795d3825774335708af0f789dc5078df80ff36c8b03b",
+          "sequence": 2
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "missing": "如果以走失时间起局，一般以日干为用神",
+        "direction": "如果走失之人是有意潜逃，杜门落宫则可能是其躲藏方向",
+        "return": "用神休囚，又临伤、景、死、惊四门者，则有消息"
+      },
+      "chart_index": 0,
+      "provided_roles": [
+        "按本例问测关系与起局时间取法，兼年命，不由年龄自动绑定"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-aa7d58395a0a5ebe70c372ad0f6abff55a524e9201009eec12166614159ea7c6",
+              "source_id": "span-a63181f9a91d1784a35a5f95ced2a235bd683b15d930f2ec9e1552296b802586",
+              "sha256": "3cccb49a9c09633c5577b0870c163ad4d9d52b6aae704efd1b180ffe9aab5ae1",
+              "sequence": 3
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "本例按问时取时干壬看所问女儿，兼看已知戊午年命。这里只学习角色，不把原作者后面承认的错误凶断作为应学习的正确预测。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ],
+            "bindings": [
+              {
+                "role": "离家女儿",
+                "symbol": "时干壬、兼年命戊",
+                "condition": "问时局、本例代问关系及出生年已知"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-aa7d58395a0a5ebe70c372ad0f6abff55a524e9201009eec12166614159ea7c6",
+              "source_id": "span-a63181f9a91d1784a35a5f95ced2a235bd683b15d930f2ec9e1552296b802586",
+              "sha256": "3cccb49a9c09633c5577b0870c163ad4d9d52b6aae704efd1b180ffe9aab5ae1",
+              "sequence": 3
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "壬巽四死门、天禽相关星及九地，年命戊兑七按原表；墓库击刑含义不得直接包装成“人死”的字面结论。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ]
+          },
+          "facts": [
+            [
+              4,
+              "heaven_stem"
+            ],
+            [
+              4,
+              "door"
+            ],
+            [
+              4,
+              "star"
+            ],
+            [
+              4,
+              "deity"
+            ],
+            [
+              7,
+              "heaven_stem"
+            ]
+          ]
+        }
+      ],
+      "case_id": "case-41a68ebd451cfde6d08c5c85c8d63a344b4342646939c95f5269499e357fc803",
+      "event_id": "event-fa3eb010ae66f56df1aa39119d0c46dffb6338115a1deb65cf3c0298e2e4f326",
+      "family_id": "family-da7cc73015634d4bd69e085860258ce0010fb162773e4c2c32e3d58a03d408dc",
+      "chart_id": "chart-0e24c494041b811ea9dcaafb7b5a0882e8831f2d70f42d5a4828dc66d9f740a8",
+      "chapter": "14-missing-person",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 5,
+      "stage": "author_error_correction",
+      "mode": "retrospective",
+      "source_prediction_window_review": "逐句审读问测背景和四柱元数据；未把后面的反馈、作者纠错或未知结局当首次已知。",
+      "known_source_window_review": "逐句审读问测背景和四柱元数据；未把后面的反馈、作者纠错或未知结局当首次已知。",
+      "known": [
+        {
+          "record_id": "record-618d05422537b017962a48a1c903fb850931b48c12f088b15ff525d14dd62a1f",
+          "source_id": "span-6ffd189cbbc94fc1782c5e0dab1fff82c36fd54c90b72811b80f6f42c89379b4",
+          "sha256": "ee80b5a63404f2d0e87f6a7403ac8b37c27d902efde473f2d161ddf912e7f92e",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-8df2be0095e9248a7b452a277e4e5c2967f79036ae5e3df7482efb36f116c025",
+          "source_id": "span-3d638604e34e143cb59f187b504a79d3ed52b611e3c3db43b8fbad6800d89aa9",
+          "sha256": "e4b4f737688444ad2c9e33ed0251d17b56571cbaddef0b18f6c8906e6734de23",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-0810fd758e2c1609d75f1115833a928b0120b20844d0c427291a8a437351b7b2",
+          "source_id": "span-89cb4c019fa8a24983a1aec1c2f957be96c16e9dc79bffbcabd758ca8caedd0e",
+          "sha256": "8095969b31f1785da448795d3825774335708af0f789dc5078df80ff36c8b03b",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-aa7d58395a0a5ebe70c372ad0f6abff55a524e9201009eec12166614159ea7c6",
+          "source_id": "span-a63181f9a91d1784a35a5f95ced2a235bd683b15d930f2ec9e1552296b802586",
+          "sha256": "3cccb49a9c09633c5577b0870c163ad4d9d52b6aae704efd1b180ffe9aab5ae1",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-53ecfbd1aa010c1644a545a5f4d5064de4e1e14dcfe5fa6ec8dfe22cbfd18790",
+          "source_id": "span-bea887ef7902eb8230e0f3ef76465268e30fb09712b852e2cbfe8cc4380eb603",
+          "sha256": "6b64b1f26517832dfaa1920f14cc90b62f35a683624c81d786a05be1da5b31b7",
+          "sequence": 4
+        }
+      ],
+      "cutoff": 5,
+      "rules": {
+        "missing": "如果以走失时间起局，一般以日干为用神",
+        "direction": "如果走失之人是有意潜逃，杜门落宫则可能是其躲藏方向",
+        "return": "用神休囚，又临伤、景、死、惊四门者，则有消息"
+      },
+      "chart_index": 0,
+      "provided_roles": [
+        "按本例问测关系与起局时间取法，兼年命，不由年龄自动绑定"
+      ],
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-24390f679fefb63bcc4be2c453cf34cad3318dec95726e91e9866ddc56a285e8",
+              "source_id": "span-fda59e5f783dfe458102c2c092e0adee9d0ff76f4112181fd1301abc6fccefa9",
+              "sha256": "876d1fe7028bec8850e3591793142e2b432b5efed0e3cc86b90359ebc86b8422",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-bda85c8234b11ca6cc31b4a1c1c679563ef50ed7933c680ed23bcaf52ea3d5d7",
+              "source_id": "span-232979e666998adcfec53d53d2e2fe21a79d4045001216458f63661f67949146",
+              "sha256": "8de5a2f087b4ad86eb77b14ed43ebb8e8b9c56ff88169f9738645b8dd0808695",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-95142eac62daf00a0b58ed50dd06e1d3a7ff2e1bbb0761eaab59ae279dd8bfb6",
+              "source_id": "span-0f53fde62caa667a3b6d428a40707be19999659827607af9003c74a38695d90d",
+              "sha256": "e794f6ba764ffae4a0b402a7fce77e2c81ccc2c2b52f34c8563d825fda3bf795",
+              "sequence": 7
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-24390f679fefb63bcc4be2c453cf34cad3318dec95726e91e9866ddc56a285e8",
+              "source_id": "span-fda59e5f783dfe458102c2c092e0adee9d0ff76f4112181fd1301abc6fccefa9",
+              "sha256": "876d1fe7028bec8850e3591793142e2b432b5efed0e3cc86b90359ebc86b8422",
+              "sequence": 5,
+              "quote": "死门落4宫受克，又卯月木旺土死"
+            },
+            {
+              "record_id": "record-24390f679fefb63bcc4be2c453cf34cad3318dec95726e91e9866ddc56a285e8",
+              "source_id": "span-fda59e5f783dfe458102c2c092e0adee9d0ff76f4112181fd1301abc6fccefa9",
+              "sha256": "876d1fe7028bec8850e3591793142e2b432b5efed0e3cc86b90359ebc86b8422",
+              "sequence": 5,
+              "quote": "壬入辰库，又辰辰自刑"
+            },
+            {
+              "record_id": "record-bda85c8234b11ca6cc31b4a1c1c679563ef50ed7933c680ed23bcaf52ea3d5d7",
+              "source_id": "span-232979e666998adcfec53d53d2e2fe21a79d4045001216458f63661f67949146",
+              "sha256": "8de5a2f087b4ad86eb77b14ed43ebb8e8b9c56ff88169f9738645b8dd0808695",
+              "sequence": 6,
+              "quote": "年命戊落兑7宫，临休门吉门"
+            },
+            {
+              "record_id": "record-95142eac62daf00a0b58ed50dd06e1d3a7ff2e1bbb0761eaab59ae279dd8bfb6",
+              "source_id": "span-0f53fde62caa667a3b6d428a40707be19999659827607af9003c74a38695d90d",
+              "sha256": "e794f6ba764ffae4a0b402a7fce77e2c81ccc2c2b52f34c8563d825fda3bf795",
+              "sequence": 7,
+              "quote": "时干在内盘，日干在外盘，一内一外主慢"
+            }
+          ],
+          "answer": {
+            "explanation": "作者已说明原先“难找回”的判断断错，本题学习其纠错依据：木旺土死、死门受克与吉星反制，辰库自刑九地看躲藏；戊年命休门及戊丁、丁壬合看朋友羁留，再以值使宫数和庚下戊日解释归期。实际藏放地与返回日尚未输入，不将事后纠错冒称原初就断对。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-41a68ebd451cfde6d08c5c85c8d63a344b4342646939c95f5269499e357fc803",
+      "event_id": "event-fa3eb010ae66f56df1aa39119d0c46dffb6338115a1deb65cf3c0298e2e4f326",
+      "family_id": "family-da7cc73015634d4bd69e085860258ce0010fb162773e4c2c32e3d58a03d408dc",
+      "chart_id": "chart-0e24c494041b811ea9dcaafb7b5a0882e8831f2d70f42d5a4828dc66d9f740a8",
+      "chapter": "14-missing-person",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 6,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "逐句审读问测背景和四柱元数据；未把后面的反馈、作者纠错或未知结局当首次已知。",
+      "known_source_window_review": "逐句审读问测背景和四柱元数据；未把后面的反馈、作者纠错或未知结局当首次已知。",
+      "known": [
+        {
+          "record_id": "record-604abb33cc211de7f3480e96fc0e68dfc165887fb17ebe32f7be393e6e4a042b",
+          "source_id": "span-304b60b737be479be191cd67f7f1da270b2572c841e25486a2d9c49473d50b67",
+          "sha256": "0267479d1e907768e2bddf28796517da4ddb892b99b4ccbd23fe470d1031181e",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-83f03946fd45bd0da3cdb7d95a3c16ca6bb79b755d8ebe67c3c5f88017479f02",
+          "source_id": "span-1c0d08e9f08681f250b6a5fc3266f7b8aeab2fb0f6bbc0850dd45f2ea75f36c6",
+          "sha256": "f0a3b4e4d945f66ca9ce43aed52489be8aa2dc66e8e5b05024804655edce84fe",
+          "sequence": 2
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "missing": "如果以走失时间起局，一般以日干为用神",
+        "direction": "如果走失之人是有意潜逃，杜门落宫则可能是其躲藏方向",
+        "return": "用神休囚，又临伤、景、死、惊四门者，则有消息"
+      },
+      "chart_index": 0,
+      "provided_roles": [
+        "按本例问测关系与起局时间取法，兼年命，不由年龄自动绑定"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-85227ddbff92c88c7b3a36cece5ed3f71a3d55968b7347fb010fcd6fc50c3b1c",
+              "source_id": "span-c6b86ae5edc5766a34b9f0094a7c8c777d7cb6634ae627c188b748343609a186",
+              "sha256": "fe5defaea418ec6f03ce4ff91bc5d5bb6f51681839b5dc3ce17783f5fc6405d4",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-4d1a1b23cdcf9e32dba5f628e0e5935240baac48ef959de85e11b5d3aa375e41",
+              "source_id": "span-92038c9fea0f2e31d91aae375b8b6f276960cc8d669630b874fd1d9975162b06",
+              "sha256": "b62f6db441d54c6bd597d9bc883dae5534235db36992b5eac23e1e0b074a92cb",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-b39389d01471ce1032172480ece4ada2673c4fc6460c733a4dad6dfd345183d8",
+              "source_id": "span-14473f7663772b9474e136d32750b8af5d216c8ba38c89efdbcc9b2dc80bc1f5",
+              "sha256": "ac5fe075c5ec6a525f04d5887b098f6fc80d1c9553e631464eb0ce07bb1689e8",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "叔父问侄按时干己取侄，六合走失方向、丁奇书信分别看；不是用叔父年干替代侄子，也不把方向宫和音信宫当同一件事。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ],
+            "bindings": [
+              {
+                "role": "侄子",
+                "symbol": "时干己",
+                "condition": "本例叔问侄问时法"
+              },
+              {
+                "role": "走失方向、音信",
+                "symbol": "六合、丁奇",
+                "condition": "分别分析"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-4d1a1b23cdcf9e32dba5f628e0e5935240baac48ef959de85e11b5d3aa375e41",
+              "source_id": "span-92038c9fea0f2e31d91aae375b8b6f276960cc8d669630b874fd1d9975162b06",
+              "sha256": "b62f6db441d54c6bd597d9bc883dae5534235db36992b5eac23e1e0b074a92cb",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-b39389d01471ce1032172480ece4ada2673c4fc6460c733a4dad6dfd345183d8",
+              "source_id": "span-14473f7663772b9474e136d32750b8af5d216c8ba38c89efdbcc9b2dc80bc1f5",
+              "sha256": "ac5fe075c5ec6a525f04d5887b098f6fc80d1c9553e631464eb0ce07bb1689e8",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-a4670283a5087d7b069b85afd9743c51382b553203ec5d397d7423e758d73e8c",
+              "source_id": "span-fe45c7167512b9d3dd9fdd3a0a36800f323001d91241026dec9c631844f87c0f",
+              "sha256": "5623a6e504481f0db8539901fb39f38b3b1e590fbe42be6ba072608f9462be7b",
+              "sequence": 6
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "己兑七六合开门天任，丁乾六，巽四庚癸按表。来信和本人回家日期分别推断，不能互换。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ]
+          },
+          "facts": [
+            [
+              7,
+              "heaven_stem"
+            ],
+            [
+              7,
+              "deity"
+            ],
+            [
+              7,
+              "door"
+            ],
+            [
+              7,
+              "star"
+            ],
+            [
+              6,
+              "heaven_stem"
+            ],
+            [
+              4,
+              "heaven_stem"
+            ],
+            [
+              4,
+              "earth_stem"
+            ]
+          ]
+        },
+        {
+          "type": "timing_analysis",
+          "targets": [
+            {
+              "record_id": "record-b39389d01471ce1032172480ece4ada2673c4fc6460c733a4dad6dfd345183d8",
+              "source_id": "span-14473f7663772b9474e136d32750b8af5d216c8ba38c89efdbcc9b2dc80bc1f5",
+              "sha256": "ac5fe075c5ec6a525f04d5887b098f6fc80d1c9553e631464eb0ce07bb1689e8",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-a4670283a5087d7b069b85afd9743c51382b553203ec5d397d7423e758d73e8c",
+              "source_id": "span-fe45c7167512b9d3dd9fdd3a0a36800f323001d91241026dec9c631844f87c0f",
+              "sha256": "5623a6e504481f0db8539901fb39f38b3b1e590fbe42be6ba072608f9462be7b",
+              "sequence": 6
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-b39389d01471ce1032172480ece4ada2673c4fc6460c733a4dad6dfd345183d8",
+              "source_id": "span-14473f7663772b9474e136d32750b8af5d216c8ba38c89efdbcc9b2dc80bc1f5",
+              "sha256": "ac5fe075c5ec6a525f04d5887b098f6fc80d1c9553e631464eb0ce07bb1689e8",
+              "sequence": 5,
+              "quote": "丁奇为书信，落乾六宫空亡之地"
+            },
+            {
+              "record_id": "record-b39389d01471ce1032172480ece4ada2673c4fc6460c733a4dad6dfd345183d8",
+              "source_id": "span-14473f7663772b9474e136d32750b8af5d216c8ba38c89efdbcc9b2dc80bc1f5",
+              "sha256": "ac5fe075c5ec6a525f04d5887b098f6fc80d1c9553e631464eb0ce07bb1689e8",
+              "sequence": 5,
+              "quote": "地盘丁奇上乘之干(震3宫)丙日或壬日应有书信到"
+            },
+            {
+              "record_id": "record-a4670283a5087d7b069b85afd9743c51382b553203ec5d397d7423e758d73e8c",
+              "source_id": "span-fe45c7167512b9d3dd9fdd3a0a36800f323001d91241026dec9c631844f87c0f",
+              "sha256": "5623a6e504481f0db8539901fb39f38b3b1e590fbe42be6ba072608f9462be7b",
+              "sequence": 6,
+              "quote": "巽4宫庚+癸"
+            }
+          ],
+          "answer": {
+            "explanation": "书信看丁空亡及地丁上乘丙/壬，作者提出丙或壬日可有信；本人归期另用巽四庚癸格取癸日。来信与归来两目标分开，原初9月8壬寅与9日癸卯预测和反馈仍另存，不把一个日期统一覆盖二者。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ],
+            "methods": [
+              "丁奇音信及地盘上乘干",
+              "庚格取归日"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-9525ab650b082cc58b06d15f863ce7dbdae2b9480c77991d3394f348c6486d62",
+      "event_id": "event-a85dd70c31bddc13bb11f62de451a86373cd0d34818cf8f1d387f9dd0630d6b2",
+      "family_id": "family-e60175312fb8ab60e3096b38e058ef2ca16ba6de9a97b74dd8dd5997a5ff41de",
+      "chart_id": "chart-ff3333508edbc9cb388450648c516d3e6c841563ff8859504382646fbb62e731",
+      "chapter": "14-missing-person",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 7,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "逐句审读问测背景和四柱元数据；未把后面的反馈、作者纠错或未知结局当首次已知。",
+      "known_source_window_review": "逐句审读问测背景和四柱元数据；未把后面的反馈、作者纠错或未知结局当首次已知。",
+      "known": [
+        {
+          "record_id": "record-aaaa46bda51448f80e8f277fae238ebc91a0df974b0a52cc83d1c7ee5de659bd",
+          "source_id": "span-880c5337103dcd659b4358d454f3a240e65de91859e19834c8b656e8beb63a6f",
+          "sha256": "e06ace631e77a996f4ff2088407dcfabc7de196bc5865a2a22b81dfeeede5d40",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-c83911a0ac9a608a76b053060b33e72a535876cbd395a36779457005346a1230",
+          "source_id": "span-5dbc0a6829d14498be5d5511dac0d51b1e9d6e014c519f983589f1dd73ce7c08",
+          "sha256": "fd96791bc4cafa299c06a840896bded987da48145f580086622c88760d7bf9fd",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-f80fabfa45b460506c65f82d9eba8edd0cbf136a42ab7ca8fb2ef80fb5982d41",
+          "source_id": "span-50f890af1efcff817fe2c850dd317f75c0b3b675c2657a38f533cb690db806a5",
+          "sha256": "8de4f33201987a6b5033cb270d4978d6b03ed3e6543cac1fae2a0552dfeb54de",
+          "sequence": 2
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "missing": "如果以走失时间起局，一般以日干为用神",
+        "direction": "如果走失之人是有意潜逃，杜门落宫则可能是其躲藏方向",
+        "return": "用神休囚，又临伤、景、死、惊四门者，则有消息"
+      },
+      "chart_index": 0,
+      "provided_roles": [
+        "按本例问测关系与起局时间取法，兼年命，不由年龄自动绑定"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-a6425b7af68d2a2d0ac87fd206bda30f3d6606a3083065581c1d971f0c9f8ea7",
+              "source_id": "span-4f14f21048df73fb7de7eb90d11d22788a39e09fce5c64e500f4d7bb9b169a7e",
+              "sha256": "98081a5e675b1cc08eecd2ac73fb0ec8d0d0fa80fb9294211aaac168d795e9b7",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-1f38a9053c0825a3a5bc37ad9aca2daf1fb614cd38c1717d0dbbd44e3fff5a59",
+              "source_id": "span-ea09150a306f3e5f818593eac2d9fd5f78c18d1f480c1a21f5d08248851b94ed",
+              "sha256": "e83585062d2639c819cbbd614c8122206d88378338d650725338f4ba1e10c4d2",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-227b62e1c40631165a0aed522f2b67391801db7ad0c72c89421c16b5e0a72c58",
+              "source_id": "span-c3d010c0e9b1349d5786cc6e7f86b9e8a70a84a50d92057b482e8e9d6ecbacd5",
+              "sha256": "e668a7780aac1de79a9efd1e101132fc0b4f1714a1d27633e95f1ce199a76cd8",
+              "sequence": 8
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "本例虽按失踪时间起局，作者实际取时干乙失踪者、天蓬案犯。应记录这一实际口径与章中一般失踪时取日干的差别，不悄悄将原例改成日干。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ],
+            "bindings": [
+              {
+                "role": "失踪女孩",
+                "symbol": "时干乙",
+                "condition": "本例实际口径，区别一般失踪时局日干法"
+              },
+              {
+                "role": "案犯",
+                "symbol": "天蓬星",
+                "condition": "本例犯罪分析视角"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-a6425b7af68d2a2d0ac87fd206bda30f3d6606a3083065581c1d971f0c9f8ea7",
+              "source_id": "span-4f14f21048df73fb7de7eb90d11d22788a39e09fce5c64e500f4d7bb9b169a7e",
+              "sha256": "98081a5e675b1cc08eecd2ac73fb0ec8d0d0fa80fb9294211aaac168d795e9b7",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-b03ede2ee7a0365b89d8cd2c29f8da8dd15bb776dd78ba882873977265007e53",
+              "source_id": "span-e6a27038d4cea21cbac1173bd3019806bd3acca712cde3bfca2cfa295dcbbe82",
+              "sha256": "087498ffe94eea6b0943b651908df1f188edb7f0d42d14928eeef852cb2290a0",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-a0b965698c2123aa711b6b2bd6dd6f1ddc0568100eeca365bb3e435a346e0fcf",
+              "source_id": "span-db7e0b72b051a6d6bd676c78b28504e46368aa7ec63aab8cbec7c1fbc90aa719",
+              "sha256": "84f1dc8dda7708d867cf0b72e2faea7adca5b5c01bc9130680a787f2d8ad933d",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-1f38a9053c0825a3a5bc37ad9aca2daf1fb614cd38c1717d0dbbd44e3fff5a59",
+              "source_id": "span-ea09150a306f3e5f818593eac2d9fd5f78c18d1f480c1a21f5d08248851b94ed",
+              "sha256": "e83585062d2639c819cbbd614c8122206d88378338d650725338f4ba1e10c4d2",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-227b62e1c40631165a0aed522f2b67391801db7ad0c72c89421c16b5e0a72c58",
+              "source_id": "span-c3d010c0e9b1349d5786cc6e7f86b9e8a70a84a50d92057b482e8e9d6ecbacd5",
+              "sha256": "e668a7780aac1de79a9efd1e101132fc0b4f1714a1d27633e95f1ce199a76cd8",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-0f12d825b182934ecfebbedf71290470de0525f801c334440b1d9293fcc2eaa6",
+              "source_id": "span-3300a5224731d10a7404e89bc82221bafa0a531593e0feda7ccd9ed404c4ceb5",
+              "sha256": "f3f5c52a162c2acb6d974f01dfa63f21b10c8adfbfd11f34bc655b0a2b0d8b20",
+              "sequence": 9
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "乙兑七死门白虎，天蓬离九杜门，坎一庚己按表。凶断、案犯人数和尸体位置均为作者判断而非字面事实。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ]
+          },
+          "facts": [
+            [
+              7,
+              "heaven_stem"
+            ],
+            [
+              7,
+              "door"
+            ],
+            [
+              7,
+              "deity"
+            ],
+            [
+              9,
+              "star"
+            ],
+            [
+              9,
+              "door"
+            ],
+            [
+              1,
+              "heaven_stem"
+            ],
+            [
+              1,
+              "earth_stem"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-a6425b7af68d2a2d0ac87fd206bda30f3d6606a3083065581c1d971f0c9f8ea7",
+              "source_id": "span-4f14f21048df73fb7de7eb90d11d22788a39e09fce5c64e500f4d7bb9b169a7e",
+              "sha256": "98081a5e675b1cc08eecd2ac73fb0ec8d0d0fa80fb9294211aaac168d795e9b7",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-b03ede2ee7a0365b89d8cd2c29f8da8dd15bb776dd78ba882873977265007e53",
+              "source_id": "span-e6a27038d4cea21cbac1173bd3019806bd3acca712cde3bfca2cfa295dcbbe82",
+              "sha256": "087498ffe94eea6b0943b651908df1f188edb7f0d42d14928eeef852cb2290a0",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-a0b965698c2123aa711b6b2bd6dd6f1ddc0568100eeca365bb3e435a346e0fcf",
+              "source_id": "span-db7e0b72b051a6d6bd676c78b28504e46368aa7ec63aab8cbec7c1fbc90aa719",
+              "sha256": "84f1dc8dda7708d867cf0b72e2faea7adca5b5c01bc9130680a787f2d8ad933d",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-1f38a9053c0825a3a5bc37ad9aca2daf1fb614cd38c1717d0dbbd44e3fff5a59",
+              "source_id": "span-ea09150a306f3e5f818593eac2d9fd5f78c18d1f480c1a21f5d08248851b94ed",
+              "sha256": "e83585062d2639c819cbbd614c8122206d88378338d650725338f4ba1e10c4d2",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-c4d659153b77986874c835a4aa9367603509f861d7059115e55e413f96db166b",
+              "source_id": "span-d7fabe252605541934cd7f2e46eae0e13ca8816f904cbe7d892d9e54fb3f079a",
+              "sha256": "977cbcedf32912214ff623490b5bfb9ff4e09b99965d113bd6cac6a0fb109d65",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-227b62e1c40631165a0aed522f2b67391801db7ad0c72c89421c16b5e0a72c58",
+              "source_id": "span-c3d010c0e9b1349d5786cc6e7f86b9e8a70a84a50d92057b482e8e9d6ecbacd5",
+              "sha256": "e668a7780aac1de79a9efd1e101132fc0b4f1714a1d27633e95f1ce199a76cd8",
+              "sequence": 8
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-a0b965698c2123aa711b6b2bd6dd6f1ddc0568100eeca365bb3e435a346e0fcf",
+              "source_id": "span-db7e0b72b051a6d6bd676c78b28504e46368aa7ec63aab8cbec7c1fbc90aa719",
+              "sha256": "84f1dc8dda7708d867cf0b72e2faea7adca5b5c01bc9130680a787f2d8ad933d",
+              "sequence": 5,
+              "quote": "时干乙落兑宫为绝地，乙+壬为日奇入地"
+            },
+            {
+              "record_id": "record-a0b965698c2123aa711b6b2bd6dd6f1ddc0568100eeca365bb3e435a346e0fcf",
+              "source_id": "span-db7e0b72b051a6d6bd676c78b28504e46368aa7ec63aab8cbec7c1fbc90aa719",
+              "sha256": "84f1dc8dda7708d867cf0b72e2faea7adca5b5c01bc9130680a787f2d8ad933d",
+              "sequence": 5,
+              "quote": "未月死门旺相"
+            },
+            {
+              "record_id": "record-1f38a9053c0825a3a5bc37ad9aca2daf1fb614cd38c1717d0dbbd44e3fff5a59",
+              "source_id": "span-ea09150a306f3e5f818593eac2d9fd5f78c18d1f480c1a21f5d08248851b94ed",
+              "sha256": "e83585062d2639c819cbbd614c8122206d88378338d650725338f4ba1e10c4d2",
+              "sequence": 6,
+              "quote": "天蓬(杀人犯)所落离宫之克"
+            },
+            {
+              "record_id": "record-227b62e1c40631165a0aed522f2b67391801db7ad0c72c89421c16b5e0a72c58",
+              "source_id": "span-c3d010c0e9b1349d5786cc6e7f86b9e8a70a84a50d92057b482e8e9d6ecbacd5",
+              "sha256": "e668a7780aac1de79a9efd1e101132fc0b4f1714a1d27633e95f1ce199a76cd8",
+              "sequence": 8,
+              "quote": "未月土旺，天蓬星落离宫为被囚之象"
+            }
+          ],
+          "answer": {
+            "explanation": "作者结合时乙兑七近西、绝地与死门月旺白虎、天蓬克用神等提出被害倾向；又以天蓬囚、杜门庚格九地等判断可破。人数四与二百米是源中推断，需要保留非唯一数理含义，不把最后找到的事实当先验。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ]
+          }
+        },
+        {
+          "type": "timing_analysis",
+          "targets": [
+            {
+              "record_id": "record-0f12d825b182934ecfebbedf71290470de0525f801c334440b1d9293fcc2eaa6",
+              "source_id": "span-3300a5224731d10a7404e89bc82221bafa0a531593e0feda7ccd9ed404c4ceb5",
+              "sha256": "f3f5c52a162c2acb6d974f01dfa63f21b10c8adfbfd11f34bc655b0a2b0d8b20",
+              "sequence": 9
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-0f12d825b182934ecfebbedf71290470de0525f801c334440b1d9293fcc2eaa6",
+              "source_id": "span-3300a5224731d10a7404e89bc82221bafa0a531593e0feda7ccd9ed404c4ceb5",
+              "sha256": "f3f5c52a162c2acb6d974f01dfa63f21b10c8adfbfd11f34bc655b0a2b0d8b20",
+              "sequence": 9,
+              "quote": "九星反吟，发案快，破案快"
+            },
+            {
+              "record_id": "record-0f12d825b182934ecfebbedf71290470de0525f801c334440b1d9293fcc2eaa6",
+              "source_id": "span-3300a5224731d10a7404e89bc82221bafa0a531593e0feda7ccd9ed404c4ceb5",
+              "sha256": "f3f5c52a162c2acb6d974f01dfa63f21b10c8adfbfd11f34bc655b0a2b0d8b20",
+              "sequence": 9,
+              "quote": "逢日格(坎1宫庚+己)"
+            },
+            {
+              "record_id": "record-0f12d825b182934ecfebbedf71290470de0525f801c334440b1d9293fcc2eaa6",
+              "source_id": "span-3300a5224731d10a7404e89bc82221bafa0a531593e0feda7ccd9ed404c4ceb5",
+              "sha256": "f3f5c52a162c2acb6d974f01dfa63f21b10c8adfbfd11f34bc655b0a2b0d8b20",
+              "sequence": 9,
+              "quote": "时干乙所在地盘上临之干壬日为应期"
+            }
+          ],
+          "answer": {
+            "explanation": "原例用反吟主快、己巳问测日逢庚己日格看当日进展，又按地盘时乙上壬取8月9壬申找人破案。今日进展与最终破案两层分开，8月10回电话不应误写成预测应期。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ],
+            "methods": [
+              "日格取进展",
+              "地盘用神上乘干取最终应日"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-3d0c131e4950ef020bc7d27e4017cc6d9adf838560fdf4dcfbeeacc2019588dc",
+      "event_id": "event-cfe12e11cc85bca3fec123e96e46bfdaf19aea0bf3b100f2751a683909478124",
+      "family_id": "family-a370274b6a3c5f9b970e9844fb38c301db10a3f961cd9a77b11e290cc3b60edf",
+      "chart_id": "chart-9bc47b3c23a166d1ec9d14cf93fed4e8b73a4e199764009c6ee68935c6928efc",
+      "chapter": "14-missing-person",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 8,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "逐句审读问测背景和四柱元数据；未把后面的反馈、作者纠错或未知结局当首次已知。",
+      "known_source_window_review": "逐句审读问测背景和四柱元数据；未把后面的反馈、作者纠错或未知结局当首次已知。",
+      "known": [
+        {
+          "record_id": "record-c6b23cb46885366bef214f0fe46d964c0c57d23aab547a8399b557c15c7a372d",
+          "source_id": "span-2be4ba0cb34846005514cc90e4a21875b565fe46151a99a9fa1f177799e82992",
+          "sha256": "cbdaf5e431eb92077a0b1c8db94a2e3a69dcaa82a163171543c93cc127d82db3",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-bbd6c613058af795a042c6f90fbf81fb75ac20c663371d5bc63a1d01bbf3767f",
+          "source_id": "span-c1009ef3b4bf9bc1f55b2448831c50e1eba677bd27f7d44a755d9d8dcb4b3839",
+          "sha256": "3fa1ab34dfc9854816d3b9f6ae2002c219c75971b76261c566932267ac457fb2",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-12e44e68034b38047367ebfa07ead070964d062e6f87c7fce85f4e2a00fa0181",
+          "source_id": "span-201264867d885c060d7f94b2143461609c759ebd2d295d26772078c75d407965",
+          "sha256": "11d09ceaf3c0668f3e157604416e73427d36d837f20e36591c4bc23ec8fb0a7a",
+          "sequence": 2
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "missing": "如果以走失时间起局，一般以日干为用神",
+        "direction": "如果走失之人是有意潜逃，杜门落宫则可能是其躲藏方向",
+        "return": "用神休囚，又临伤、景、死、惊四门者，则有消息"
+      },
+      "chart_index": 0,
+      "provided_roles": [
+        "按本例问测关系与起局时间取法，兼年命，不由年龄自动绑定"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-d57f1d1292348f6281ffae1b332edd8a89ae66fef968c16397b066b6cc785f6b",
+              "source_id": "span-863ff974e464186845eb2edea5f9747814ec458c5a06b6c2408515f0ad1bbac6",
+              "sha256": "dbf04c62126a6aa880fb19e3487b866db9bea991f0ad89b3d11c2e5f057ab924",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-4b71cc5d499b3e3012268be6be2378337950384d785b7d8b6fa337327883b3ea",
+              "source_id": "span-8ac55ab25e77764972170d46444a83b2eb9cd6c2659d002a172fa42721670370",
+              "sha256": "14436703093918e8279e1bba4ae8dff6a108ca8de5f0662fc01872471822ed48",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-1655247428b82b0a957ade25d28a8aa2d9157e9265fb89be7b32dfe9b046ef7b",
+              "source_id": "span-325ff3940cbf7c456e9821396e790cacc61300f41fd9fb311ec1c3368890843a",
+              "sha256": "4ff60ee71c6d9caba1999d6abddda141d3dbe4b9dec6518d3d5ff145baeb1ae3",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "此例按出走时间取日乙外甥，六合看开始方向、杜门看躲藏、丁奇看音信；与按问时取时干的小辈法分开。不能把年龄十五当独立绑定依据。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ],
+            "bindings": [
+              {
+                "role": "出走者",
+                "symbol": "日干乙",
+                "condition": "本例出走时间局"
+              },
+              {
+                "role": "方向、躲藏、音信",
+                "symbol": "六合、杜门、丁奇",
+                "condition": "三种信息分开"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-d57f1d1292348f6281ffae1b332edd8a89ae66fef968c16397b066b6cc785f6b",
+              "source_id": "span-863ff974e464186845eb2edea5f9747814ec458c5a06b6c2408515f0ad1bbac6",
+              "sha256": "dbf04c62126a6aa880fb19e3487b866db9bea991f0ad89b3d11c2e5f057ab924",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-4b71cc5d499b3e3012268be6be2378337950384d785b7d8b6fa337327883b3ea",
+              "source_id": "span-8ac55ab25e77764972170d46444a83b2eb9cd6c2659d002a172fa42721670370",
+              "sha256": "14436703093918e8279e1bba4ae8dff6a108ca8de5f0662fc01872471822ed48",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-1655247428b82b0a957ade25d28a8aa2d9157e9265fb89be7b32dfe9b046ef7b",
+              "source_id": "span-325ff3940cbf7c456e9821396e790cacc61300f41fd9fb311ec1c3368890843a",
+              "sha256": "4ff60ee71c6d9caba1999d6abddda141d3dbe4b9dec6518d3d5ff145baeb1ae3",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-454f7f3f6e75267df0e87f1be1749f2b098de1995d5664772c30848713b2bdaa",
+              "source_id": "span-3c9822275512e9c3aad301b6b1d39ee6158d2f12218af91a02578c06a9f7703e",
+              "sha256": "23db11f797004f01dbbdd2670e56ef093a6d65cb1591226ade9cce234da14744",
+              "sequence": 6
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "乙巽四休门玄武、六合坤二、艮八惊门、离九丁照源；天地盘及六合空后的对宫不改表。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ]
+          },
+          "facts": [
+            [
+              4,
+              "heaven_stem"
+            ],
+            [
+              4,
+              "door"
+            ],
+            [
+              4,
+              "deity"
+            ],
+            [
+              2,
+              "deity"
+            ],
+            [
+              8,
+              "door"
+            ],
+            [
+              9,
+              "heaven_stem"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-d57f1d1292348f6281ffae1b332edd8a89ae66fef968c16397b066b6cc785f6b",
+              "source_id": "span-863ff974e464186845eb2edea5f9747814ec458c5a06b6c2408515f0ad1bbac6",
+              "sha256": "dbf04c62126a6aa880fb19e3487b866db9bea991f0ad89b3d11c2e5f057ab924",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-4b71cc5d499b3e3012268be6be2378337950384d785b7d8b6fa337327883b3ea",
+              "source_id": "span-8ac55ab25e77764972170d46444a83b2eb9cd6c2659d002a172fa42721670370",
+              "sha256": "14436703093918e8279e1bba4ae8dff6a108ca8de5f0662fc01872471822ed48",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-1655247428b82b0a957ade25d28a8aa2d9157e9265fb89be7b32dfe9b046ef7b",
+              "source_id": "span-325ff3940cbf7c456e9821396e790cacc61300f41fd9fb311ec1c3368890843a",
+              "sha256": "4ff60ee71c6d9caba1999d6abddda141d3dbe4b9dec6518d3d5ff145baeb1ae3",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-725c2e60f9a7e978fdc78c36f643ae600a3ef28313a195b02e960fd92cabd0b5",
+              "source_id": "span-d190fea477c98dbae057c59dcb4949ca1ecbe0b88e28e32ff9ccc854dce0a8cf",
+              "sha256": "6253148e73e175f5b91b8412397e5130da58924b99b766a90ba494d9866b658b",
+              "sequence": 7
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-d57f1d1292348f6281ffae1b332edd8a89ae66fef968c16397b066b6cc785f6b",
+              "source_id": "span-863ff974e464186845eb2edea5f9747814ec458c5a06b6c2408515f0ad1bbac6",
+              "sha256": "dbf04c62126a6aa880fb19e3487b866db9bea991f0ad89b3d11c2e5f057ab924",
+              "sequence": 3,
+              "quote": "日干乙奇落4宫为沐浴冠带之地"
+            },
+            {
+              "record_id": "record-4b71cc5d499b3e3012268be6be2378337950384d785b7d8b6fa337327883b3ea",
+              "source_id": "span-8ac55ab25e77764972170d46444a83b2eb9cd6c2659d002a172fa42721670370",
+              "sha256": "14436703093918e8279e1bba4ae8dff6a108ca8de5f0662fc01872471822ed48",
+              "sequence": 4,
+              "quote": "六合落坤2宫逢空亡，则看对冲之宫"
+            },
+            {
+              "record_id": "record-4b71cc5d499b3e3012268be6be2378337950384d785b7d8b6fa337327883b3ea",
+              "source_id": "span-8ac55ab25e77764972170d46444a83b2eb9cd6c2659d002a172fa42721670370",
+              "sha256": "14436703093918e8279e1bba4ae8dff6a108ca8de5f0662fc01872471822ed48",
+              "sequence": 4,
+              "quote": "杜门所在兑宫逢空"
+            },
+            {
+              "record_id": "record-1655247428b82b0a957ade25d28a8aa2d9157e9265fb89be7b32dfe9b046ef7b",
+              "source_id": "span-325ff3940cbf7c456e9821396e790cacc61300f41fd9fb311ec1c3368890843a",
+              "sha256": "4ff60ee71c6d9caba1999d6abddda141d3dbe4b9dec6518d3d5ff145baeb1ae3",
+              "sequence": 5,
+              "quote": "丁奇落离宫为临官之地，临生门，上乘白虎"
+            }
+          ],
+          "answer": {
+            "explanation": "作者由日乙吉门及月令、六合空看对宫东北远方，再把戊癸合、惊伤杜等解释为有人或公安性质收留而非真克，丁音信有助。后来的商场警卫与公安并非完全同一机构，不能把反馈改为完全等同的“公安送回”。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ]
+          }
+        },
+        {
+          "type": "timing_analysis",
+          "targets": [
+            {
+              "record_id": "record-454f7f3f6e75267df0e87f1be1749f2b098de1995d5664772c30848713b2bdaa",
+              "source_id": "span-3c9822275512e9c3aad301b6b1d39ee6158d2f12218af91a02578c06a9f7703e",
+              "sha256": "23db11f797004f01dbbdd2670e56ef093a6d65cb1591226ade9cce234da14744",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-725c2e60f9a7e978fdc78c36f643ae600a3ef28313a195b02e960fd92cabd0b5",
+              "source_id": "span-d190fea477c98dbae057c59dcb4949ca1ecbe0b88e28e32ff9ccc854dce0a8cf",
+              "sha256": "6253148e73e175f5b91b8412397e5130da58924b99b766a90ba494d9866b658b",
+              "sequence": 7
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-454f7f3f6e75267df0e87f1be1749f2b098de1995d5664772c30848713b2bdaa",
+              "source_id": "span-3c9822275512e9c3aad301b6b1d39ee6158d2f12218af91a02578c06a9f7703e",
+              "sha256": "23db11f797004f01dbbdd2670e56ef093a6d65cb1591226ade9cce234da14744",
+              "sequence": 6,
+              "quote": "日干乙长生在午，丁下临壬，丁壬合"
+            }
+          ],
+          "answer": {
+            "explanation": "作者用日乙长生午、丁下壬及丁壬合取壬午10月12，给11不回12归的范围。电话通知日和送回日另记，不拿后来的11日电话当12日归来预测误差为零的所有事件成绩。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ],
+            "methods": [
+              "长生支与音信宫干合取归日"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-25dbb19e38eaa8d44c833d256146344faa713d9b3fe6b368bfffd53f606ffd6e",
+      "event_id": "event-b8f0bad61d478b3149517b6f502912f2c90ed806aadd35367fcb1efcc39b3175",
+      "family_id": "family-86acd5970889e0e2011221641a3d08caed1168542635ee98595f046ae5022548",
+      "chart_id": "chart-ff3418b4a0f8f9cd742644c63d55701d952e386f84a06b28ae250d7e2fe380a2",
+      "chapter": "14-missing-person",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 9,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "逐句审读问测背景和四柱元数据；未把后面的反馈、作者纠错或未知结局当首次已知。",
+      "known_source_window_review": "逐句审读问测背景和四柱元数据；未把后面的反馈、作者纠错或未知结局当首次已知。",
+      "known": [
+        {
+          "record_id": "record-82b9c33ddfd8f2edc43207822f4b3a1a60d9f58a6f7aef7e833c129ecf7c331c",
+          "source_id": "span-b5c0d9b41e6f0c6528ad740afb95c8500d3b5cb5dc7c036d624f542839e9746c",
+          "sha256": "db8ecaeca7bd17a5b625e6e503ea4e692922a29c6c0ebc38ebab4fd17ad40a64",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-406de13493d4b440b514353c634d126a42c629254a2e891c65a5895280a1521d",
+          "source_id": "span-883e963853c96b858ec80b8b022c45571910a6386d4b21f0b2d58935e0f392b3",
+          "sha256": "9627e7293d7792383dae7f785ab81c633786754ae590cea21fff021ab16d9977",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-3ea66060af609bc8e5bbee5460af1699e65656c78edd7418f5f84f92c69160a7",
+          "source_id": "span-d1027d6b662299d91493b0d17de5098a6dc8d2b094413efa861e7b73494d9574",
+          "sha256": "0db392ab7a60e75a1a23458ca72cba3a4761aa45813efb7f66ded868a2d85c09",
+          "sequence": 2
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "missing": "如果以走失时间起局，一般以日干为用神",
+        "direction": "如果走失之人是有意潜逃，杜门落宫则可能是其躲藏方向",
+        "return": "用神休囚，又临伤、景、死、惊四门者，则有消息"
+      },
+      "chart_index": 0,
+      "provided_roles": [
+        "按本例问测关系与起局时间取法，兼年命，不由年龄自动绑定"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-2591ecc4eeeacc596f7db516988ff4e763fb7fe7518ec8e55044e723060ab094",
+              "source_id": "span-226a4cd935765805691f40adb42c6d7c83b91174dd69e6ebd5c7b52dc7cd8327",
+              "sha256": "d4299a84b7d1638274d8899fa1580742a84a4476fd0715ece5b97dbf19e87bb9",
+              "sequence": 3
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "问时局作者先以时辛看外甥女，兼已知丙辰年命。这里只学习实际取用并核对来源，后面明确被承认错误的被害凶断不能当正确结论训练。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ],
+            "bindings": [
+              {
+                "role": "失踪外甥女",
+                "symbol": "时干辛、兼年命丙",
+                "condition": "本例问时及出生年已知"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-2591ecc4eeeacc596f7db516988ff4e763fb7fe7518ec8e55044e723060ab094",
+              "source_id": "span-226a4cd935765805691f40adb42c6d7c83b91174dd69e6ebd5c7b52dc7cd8327",
+              "sha256": "d4299a84b7d1638274d8899fa1580742a84a4476fd0715ece5b97dbf19e87bb9",
+              "sequence": 3
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "辛巽四天柱死门玄武，丙震三按原盘。入墓还是入库及月令强弱属于需要另审的判断。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ]
+          },
+          "facts": [
+            [
+              4,
+              "heaven_stem"
+            ],
+            [
+              4,
+              "star"
+            ],
+            [
+              4,
+              "door"
+            ],
+            [
+              4,
+              "deity"
+            ],
+            [
+              3,
+              "heaven_stem"
+            ]
+          ]
+        }
+      ],
+      "case_id": "case-07f860fe820305525ffba961a2369f8b6ff1fead46bf85c2da26dabb5d003ec6",
+      "event_id": "event-dc0fd4cdaab0e1e442e24b7e8a973d3752680ef375e8a9dbb8dae4c93470a8ea",
+      "family_id": "family-f018bbbf8250fd6ae4eac2bb729ceada706c6e76da0a6f3b0cbb1a17cfa6a2f6",
+      "chart_id": "chart-c5c032a8c537771b89ec9fbee3bb864712698ee9793dc9ca53196c26afa67893",
+      "chapter": "14-missing-person",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 9,
+      "stage": "author_error_correction",
+      "mode": "retrospective",
+      "source_prediction_window_review": "逐句审读问测背景和四柱元数据；未把后面的反馈、作者纠错或未知结局当首次已知。",
+      "known_source_window_review": "逐句审读问测背景和四柱元数据；未把后面的反馈、作者纠错或未知结局当首次已知。",
+      "known": [
+        {
+          "record_id": "record-82b9c33ddfd8f2edc43207822f4b3a1a60d9f58a6f7aef7e833c129ecf7c331c",
+          "source_id": "span-b5c0d9b41e6f0c6528ad740afb95c8500d3b5cb5dc7c036d624f542839e9746c",
+          "sha256": "db8ecaeca7bd17a5b625e6e503ea4e692922a29c6c0ebc38ebab4fd17ad40a64",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-406de13493d4b440b514353c634d126a42c629254a2e891c65a5895280a1521d",
+          "source_id": "span-883e963853c96b858ec80b8b022c45571910a6386d4b21f0b2d58935e0f392b3",
+          "sha256": "9627e7293d7792383dae7f785ab81c633786754ae590cea21fff021ab16d9977",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-3ea66060af609bc8e5bbee5460af1699e65656c78edd7418f5f84f92c69160a7",
+          "source_id": "span-d1027d6b662299d91493b0d17de5098a6dc8d2b094413efa861e7b73494d9574",
+          "sha256": "0db392ab7a60e75a1a23458ca72cba3a4761aa45813efb7f66ded868a2d85c09",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-2591ecc4eeeacc596f7db516988ff4e763fb7fe7518ec8e55044e723060ab094",
+          "source_id": "span-226a4cd935765805691f40adb42c6d7c83b91174dd69e6ebd5c7b52dc7cd8327",
+          "sha256": "d4299a84b7d1638274d8899fa1580742a84a4476fd0715ece5b97dbf19e87bb9",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-dd0fbb19f4bd2c951574b591c3185d96db5f5a39f31fb403fc71d933125a6f6d",
+          "source_id": "span-59c1fdd711f9f941b6790dd55d16d89c3430f94a48550a207f518989a94a1ed6",
+          "sha256": "d1ac902dd77a8753067581f1dad96ec538c38b1b48f4b678c63ca2163def8469",
+          "sequence": 4
+        }
+      ],
+      "cutoff": 5,
+      "rules": {
+        "missing": "如果以走失时间起局，一般以日干为用神",
+        "direction": "如果走失之人是有意潜逃，杜门落宫则可能是其躲藏方向",
+        "return": "用神休囚，又临伤、景、死、惊四门者，则有消息"
+      },
+      "chart_index": 0,
+      "provided_roles": [
+        "按本例问测关系与起局时间取法，兼年命，不由年龄自动绑定"
+      ],
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-efb18531e9d178bf7d68db1099e9df78845f78e00e6a4158ec2ad75dc73d77b5",
+              "source_id": "span-93c105c3b3bfb70c63e2fb487b1910c6c1e4634dd1c07c42c10c18181af17e6b",
+              "sha256": "d15395fec90ac0da0663fb7fcf4c6be8b1489138849f1c4af24dfc5fff6210b4",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-fd89a766e906d7a1e5c094946c231fd8995961251e0161808f1a930b0e95dc8a",
+              "source_id": "span-d34edd538ff66128bf2f90ebae32645c68b765ef1bd81cadb93fdc935cb297c1",
+              "sha256": "f891f55401e4fbdb3a85081cca784e627e0fa348a7662c287a5773bc6e66b1d2",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-5353251a16085f7c87a62ee035613f94c64d58caeec406517b78d8e9414c7ef4",
+              "source_id": "span-01548147e53feb885496b9d6518c48991dfc9ccd911f6e9ae2957c7dc5daf546",
+              "sha256": "aa7bd6b43a4e7bf6f33a3027e18e991fc10bef5c2c485143a0f84e0bd498c667",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-6956ce3306ab580774c2fe5f7fda3b1ecbc1d55af63200715aa1e129292c73f8",
+              "source_id": "span-b96acd989f1bcc119a9ee3c8436c30b2713958bfa5f0942ca486d3a147924b28",
+              "sha256": "3bb4cd87214417746ef96d5a69692fa3a00d7aba83290b89a3f270b54ff44aaf",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-570ac1ff6641d59db158a5edea7f2d230d56329d9ba0b01d3b5c96e117a48253",
+              "source_id": "span-315a2064567802aa24edab2a08031e5d9263f582a73c60b3901cf74d0533179b",
+              "sha256": "82fa7627d140b67e9aa5e1056b04d240f85bc3b21b43a270beed3d3248b3a867",
+              "sequence": 9
+            },
+            {
+              "record_id": "record-5cc54b87f447897b95b7971d277e035bc06516cdc4ef7a1125feb16145ed3451",
+              "source_id": "span-fdcd997eb7ba34722bac920b80585fe8d7a05569432fbcad11f0835b36de0d88",
+              "sha256": "e68f5436abfdb402df8f6b1a93cccaaac520c96cadffb902d8cd9ce95e29ab2c",
+              "sequence": 10
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-efb18531e9d178bf7d68db1099e9df78845f78e00e6a4158ec2ad75dc73d77b5",
+              "source_id": "span-93c105c3b3bfb70c63e2fb487b1910c6c1e4634dd1c07c42c10c18181af17e6b",
+              "sha256": "d15395fec90ac0da0663fb7fcf4c6be8b1489138849f1c4af24dfc5fff6210b4",
+              "sequence": 5,
+              "quote": "辰月土生金，时干辛应为入辰库，不为墓"
+            },
+            {
+              "record_id": "record-efb18531e9d178bf7d68db1099e9df78845f78e00e6a4158ec2ad75dc73d77b5",
+              "source_id": "span-93c105c3b3bfb70c63e2fb487b1910c6c1e4634dd1c07c42c10c18181af17e6b",
+              "sha256": "d15395fec90ac0da0663fb7fcf4c6be8b1489138849f1c4af24dfc5fff6210b4",
+              "sequence": 5,
+              "quote": "辰月乙木9天、癸水3天、戊土18天"
+            },
+            {
+              "record_id": "record-fd89a766e906d7a1e5c094946c231fd8995961251e0161808f1a930b0e95dc8a",
+              "source_id": "span-d34edd538ff66128bf2f90ebae32645c68b765ef1bd81cadb93fdc935cb297c1",
+              "sha256": "f891f55401e4fbdb3a85081cca784e627e0fa348a7662c287a5773bc6e66b1d2",
+              "sequence": 6,
+              "quote": "杜门在艮8宫逢空，空则看对冲之宫"
+            },
+            {
+              "record_id": "record-6956ce3306ab580774c2fe5f7fda3b1ecbc1d55af63200715aa1e129292c73f8",
+              "source_id": "span-b96acd989f1bcc119a9ee3c8436c30b2713958bfa5f0942ca486d3a147924b28",
+              "sha256": "3bb4cd87214417746ef96d5a69692fa3a00d7aba83290b89a3f270b54ff44aaf",
+              "sequence": 8,
+              "quote": "太岁戊落宫又生时干和年命落宫"
+            },
+            {
+              "record_id": "record-570ac1ff6641d59db158a5edea7f2d230d56329d9ba0b01d3b5c96e117a48253",
+              "source_id": "span-315a2064567802aa24edab2a08031e5d9263f582a73c60b3901cf74d0533179b",
+              "sha256": "82fa7627d140b67e9aa5e1056b04d240f85bc3b21b43a270beed3d3248b3a867",
+              "sequence": 9,
+              "quote": "值使生门落6宫"
+            }
+          ],
+          "answer": {
+            "explanation": "作者承认初断错后，重新区分辛在辰月得生为库而非墓、子午冲及清明初乙木当令导致凶门星无力；再用杜门空看对宫、年命与太岁生助、信息宫与长辈发现线索解释人可回。六十天左右的口径须注明起算：问时是4月5，失踪是2月28，不能事后混换来让六十天自动应验。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-07f860fe820305525ffba961a2369f8b6ff1fead46bf85c2da26dabb5d003ec6",
+      "event_id": "event-dc0fd4cdaab0e1e442e24b7e8a973d3752680ef375e8a9dbb8dae4c93470a8ea",
+      "family_id": "family-f018bbbf8250fd6ae4eac2bb729ceada706c6e76da0a6f3b0cbb1a17cfa6a2f6",
+      "chart_id": "chart-c5c032a8c537771b89ec9fbee3bb864712698ee9793dc9ca53196c26afa67893",
+      "chapter": "14-missing-person",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 10,
+      "stage": "first",
+      "mode": "retrospective",
+      "source_prediction_window_review": "逐句审读问测背景和四柱元数据；未把后面的反馈、作者纠错或未知结局当首次已知。",
+      "known_source_window_review": "逐句审读问测背景和四柱元数据；未把后面的反馈、作者纠错或未知结局当首次已知。",
+      "known": [
+        {
+          "record_id": "record-dc778dcf72b16e65fc7837bbc28d65e561dbcdab45e0f4f858a056ac4fea36ca",
+          "source_id": "span-aa9bfbb1811c3af099bc0a946023f3db6efa7d6d5f64d2445d7f3805b441eb1b",
+          "sha256": "54c1576f41b1551df1111ff6ac1b924e3e00d246ab0cfd97b73650f787edff0a",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-3a9bfb7972a47232bc1e1b655dbffe4f34283c2a062cdd0659cec57aa60acf8f",
+          "source_id": "span-a774e8ea1091752d6f21fe75763024cc9d96c88ecbb195ae00f988d1468a38f9",
+          "sha256": "7e89982eef0d00443ff1a98945f04d311058cc8faa71d9f3857fd6fa8c1f7231",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-4275d2612b0d5ef7d88a77d2e1faac1ba1da7c91b79ae458bc78721445d335a8",
+          "source_id": "span-0d680c4446164f8de9b7441249089ad3a66135c7f639a0b37c86e2dd27e51329",
+          "sha256": "5d5f2765afdf21c2922c0a34f4173c97bd4f3162c2b2c402f323a6f9a8458ed5",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-986d96ad905a7db0e94fc06d17cdf50e2df0d1702bab0d3682ac93aed2bb2858",
+          "source_id": "span-10886add184d5204725c4c88d78c81177e532c1c02cbc2c6539f17043c19f5c0",
+          "sha256": "7d4e59134f38d50eedd769ab74a51f63c182bedd256d81935aae78c3c844aed4",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-eefed877e4d0c7d1791e1070572e81de0cd584c0e374bea4e8f3b50d806e7a4f",
+          "source_id": "span-8518fab2c2c3e5d6dd0c5d78b4917732fee5742af89279e5b11078f2d9f9beea",
+          "sha256": "c98dc83a7af0b72f1e4bbd9f68c98d8603e555c8eb8042bbabf5789d7408ef00",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-99973ce8dd80d6777c58aaf4635806e7e8b8cb2e86fc353d316137221d8aea41",
+          "source_id": "span-b59b63ed3a4cc486675fdb88d97d606658a81b131ffbfd2622b094ebd46dbb3b",
+          "sha256": "94af6c29a805b982ee1c19939ca12b81d6751fec079141f5afdf716acec056a5",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-417f28fc23f69c26a3b778a8a9fca6829601f1b014027883a7a61740faf87295",
+          "source_id": "span-42e02d9aee856a5b5f21f4c00bdb4008a6aa0de61a6a47c623cb3a6604e970ba",
+          "sha256": "7fb0a5d261dd91c7a69fdb906d61601431e12109e909e8c7fb07e727602bb6e3",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-6b1c4b54b8d7f340f6bc62c36adeb3f16a02cae588f5d291d51b5225c18a42f9",
+          "source_id": "span-456ebe3cf8341d1a4cf9b01bde4b3c3fc0c03eb77e38ffaeb63292be6ae935eb",
+          "sha256": "1744a12e335d94a8ca90812f1589b5a540ebc4cd310e30f10338ee1c8b776a06",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-b10a2f0f132eff5d5963fd96cecec8702d33bee41f96d61dfd85e95593a277d5",
+          "source_id": "span-e938f9622f6225ff1dffbe4ebe74344009f2f06d4bd83052f81197dedf4142c4",
+          "sha256": "8b82fe85569e1d49045ad366d56df037398c57359473abf71c3123af431bc1ff",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-f9570522e7600ba511ed3eb6cf1b2b429f41bec4ecbdddeb5d32ce9dcb4af4ae",
+          "source_id": "span-418f8492bc9106d27fe083d76f9ebf5c321916440f981260d2365bc6d1f8bf9d",
+          "sha256": "9e0389aec13fb693c6e0cf5c3e6cf47c297fb5ebbc92b8364e60bc4f419e4588",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-28243fcb1664f7bec637d1323667b8eb7d80412454c704fd2786c776aa94c466",
+          "source_id": "span-4fd777b3e6b56cfa233ed8ba3ec31a24b1688d2a6446b382133a2dda4ccf1f98",
+          "sha256": "92f2ea1d7d80125c0b9b3852ec5b40c0c0d5f3499da884c0a76c000edd362c59",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-3195d976a6ddfb5d8a1d440cb8dbee2388f6e1cf54a495e9d42eca6e90609c22",
+          "source_id": "span-6b48dfd4e9f948656c2f4b99ca0d68889c4b24e9513cefd00bf28a4383c2a7a5",
+          "sha256": "b4277f4547cecb6d9c3a547e3df8cdccb9b37f7a954287498b0661c48cb981e6",
+          "sequence": 11
+        }
+      ],
+      "cutoff": 12,
+      "rules": {
+        "missing": "如果以走失时间起局，一般以日干为用神",
+        "direction": "如果走失之人是有意潜逃，杜门落宫则可能是其躲藏方向",
+        "return": "用神休囚，又临伤、景、死、惊四门者，则有消息"
+      },
+      "chart_index": 0,
+      "provided_roles": [
+        "按本例问测关系与起局时间取法，兼年命，不由年龄自动绑定"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-0b9befd5b9a358cd2440c726d45df9d7e554fa0d20a4a3f46b0448021a6d7687",
+              "source_id": "span-e0ead9dc6b012678c36eb8d588e7df987c4949a7560bf2f8e8f5d5fe8f9a9c2a",
+              "sha256": "7d14d10856b34cf3904b2569c76637f13307b6ed8ed0aabfa7bb5b595d5f156e",
+              "sequence": 12
+            },
+            {
+              "record_id": "record-25c282ffe89dd36bb9127e08fafae9d1ef8cfe50e5a7742ce3004cf949fcb09b",
+              "source_id": "span-5830b3071d2fed9c304b7fc985f27e271fd2bb91bcbbaeea5968f7a855980b01",
+              "sha256": "8f9564b644b220178c309fa1a14a4b7e91543479ce7136dd8885e94639e93ef5",
+              "sequence": 13
+            },
+            {
+              "record_id": "record-9729325708c110b69e6305c1881953df552ba26f59b1b5246d2994e682d1a4ce",
+              "source_id": "span-d990feb15b168fba557f139b325589965aa8459a66660157621a6f8f308d4683",
+              "sha256": "5cb61cff639ba78769a94898c7f240f7669d4c03aa03ffa61fa18eed41110e5d",
+              "sequence": 14
+            },
+            {
+              "record_id": "record-591f92e055059dfff3d90005af4eec971c23e8b383d4c700e94b280d7db42ecd",
+              "source_id": "span-005b85d7c7d180a98f98511308fa921f5d1c5fc16a919b7a5b098dbf856b212b",
+              "sha256": "04c5ee9359f4a9c76743da809bfab569966b30e4ca3d5ae3ca58e64406046825",
+              "sequence": 15
+            },
+            {
+              "record_id": "record-ae3f1fe3a4aeaea3a58f36aae40c98dfec14c25933383bffb561a3f88050808e",
+              "source_id": "span-5003804d8a03b6c9f8066444c93c85ff8fe76d655dd2ef72ae121d4ba26eedf0",
+              "sha256": "8f8114aef7bfac796185dfcb9e24eaff3a2998737bba1fbe656e663535faad00",
+              "sequence": 16
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "已知初断未应与死亡反馈后的研讨，作者认为朋友妻应取月己并兼年命丁，时辛事项不能成为唯一人物口径；伤门车辆、景门道路分别分析。不得因后来结局就改写原学员已正确选月干。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ],
+            "bindings": [
+              {
+                "role": "女司机",
+                "symbol": "月干己、年命丁",
+                "condition": "作者事后研讨的朋友妻关系口径"
+              },
+              {
+                "role": "所问事、车、路",
+                "symbol": "时干辛、伤门、景门",
+                "condition": "与人物视角分开"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-0b9befd5b9a358cd2440c726d45df9d7e554fa0d20a4a3f46b0448021a6d7687",
+              "source_id": "span-e0ead9dc6b012678c36eb8d588e7df987c4949a7560bf2f8e8f5d5fe8f9a9c2a",
+              "sha256": "7d14d10856b34cf3904b2569c76637f13307b6ed8ed0aabfa7bb5b595d5f156e",
+              "sequence": 12
+            },
+            {
+              "record_id": "record-25c282ffe89dd36bb9127e08fafae9d1ef8cfe50e5a7742ce3004cf949fcb09b",
+              "source_id": "span-5830b3071d2fed9c304b7fc985f27e271fd2bb91bcbbaeea5968f7a855980b01",
+              "sha256": "8f9564b644b220178c309fa1a14a4b7e91543479ce7136dd8885e94639e93ef5",
+              "sequence": 13
+            },
+            {
+              "record_id": "record-9729325708c110b69e6305c1881953df552ba26f59b1b5246d2994e682d1a4ce",
+              "source_id": "span-d990feb15b168fba557f139b325589965aa8459a66660157621a6f8f308d4683",
+              "sha256": "5cb61cff639ba78769a94898c7f240f7669d4c03aa03ffa61fa18eed41110e5d",
+              "sequence": 14
+            },
+            {
+              "record_id": "record-591f92e055059dfff3d90005af4eec971c23e8b383d4c700e94b280d7db42ecd",
+              "source_id": "span-005b85d7c7d180a98f98511308fa921f5d1c5fc16a919b7a5b098dbf856b212b",
+              "sha256": "04c5ee9359f4a9c76743da809bfab569966b30e4ca3d5ae3ca58e64406046825",
+              "sequence": 15
+            },
+            {
+              "record_id": "record-ae3f1fe3a4aeaea3a58f36aae40c98dfec14c25933383bffb561a3f88050808e",
+              "source_id": "span-5003804d8a03b6c9f8066444c93c85ff8fe76d655dd2ef72ae121d4ba26eedf0",
+              "sha256": "8f8114aef7bfac796185dfcb9e24eaff3a2998737bba1fbe656e663535faad00",
+              "sequence": 16
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "时辛离九、月己坎一死门、丁艮八天蓬、伤门坤二、景门乾六白虎照源。不把原初吉门吉星遮掉，也不把吉门存在当整体安全。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ]
+          },
+          "facts": [
+            [
+              9,
+              "heaven_stem"
+            ],
+            [
+              1,
+              "heaven_stem"
+            ],
+            [
+              1,
+              "door"
+            ],
+            [
+              8,
+              "heaven_stem"
+            ],
+            [
+              8,
+              "star"
+            ],
+            [
+              2,
+              "door"
+            ],
+            [
+              6,
+              "door"
+            ],
+            [
+              6,
+              "deity"
+            ]
+          ]
+        },
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-0b9befd5b9a358cd2440c726d45df9d7e554fa0d20a4a3f46b0448021a6d7687",
+              "source_id": "span-e0ead9dc6b012678c36eb8d588e7df987c4949a7560bf2f8e8f5d5fe8f9a9c2a",
+              "sha256": "7d14d10856b34cf3904b2569c76637f13307b6ed8ed0aabfa7bb5b595d5f156e",
+              "sequence": 12
+            },
+            {
+              "record_id": "record-25c282ffe89dd36bb9127e08fafae9d1ef8cfe50e5a7742ce3004cf949fcb09b",
+              "source_id": "span-5830b3071d2fed9c304b7fc985f27e271fd2bb91bcbbaeea5968f7a855980b01",
+              "sha256": "8f9564b644b220178c309fa1a14a4b7e91543479ce7136dd8885e94639e93ef5",
+              "sequence": 13
+            },
+            {
+              "record_id": "record-9729325708c110b69e6305c1881953df552ba26f59b1b5246d2994e682d1a4ce",
+              "source_id": "span-d990feb15b168fba557f139b325589965aa8459a66660157621a6f8f308d4683",
+              "sha256": "5cb61cff639ba78769a94898c7f240f7669d4c03aa03ffa61fa18eed41110e5d",
+              "sequence": 14
+            },
+            {
+              "record_id": "record-591f92e055059dfff3d90005af4eec971c23e8b383d4c700e94b280d7db42ecd",
+              "source_id": "span-005b85d7c7d180a98f98511308fa921f5d1c5fc16a919b7a5b098dbf856b212b",
+              "sha256": "04c5ee9359f4a9c76743da809bfab569966b30e4ca3d5ae3ca58e64406046825",
+              "sequence": 15
+            },
+            {
+              "record_id": "record-ae3f1fe3a4aeaea3a58f36aae40c98dfec14c25933383bffb561a3f88050808e",
+              "source_id": "span-5003804d8a03b6c9f8066444c93c85ff8fe76d655dd2ef72ae121d4ba26eedf0",
+              "sha256": "8f8114aef7bfac796185dfcb9e24eaff3a2998737bba1fbe656e663535faad00",
+              "sequence": 16
+            },
+            {
+              "record_id": "record-bb85912e4ef3f5c54ed3432da9c8aee39530b306ed2cf69e67062e8fcce5491b",
+              "source_id": "span-abf1ebeec92025e4e008fe5c0cacb3ed791e27c78b6d531eb08c33773069a3e9",
+              "sha256": "4007f2ec305afaf2b2dfa3c361afd90d1f94a055dde05e27bc5bcfa18a87da59",
+              "sequence": 17
+            },
+            {
+              "record_id": "record-cfe6c3c887e4d558424bf9310ef03626cb5ce759ae01f194a45282f13b288481",
+              "source_id": "span-2beaed554c647773cf31a7ffc7c8d7d67b2e54fa113dbd3c6b35dc7910603b09",
+              "sha256": "1deb50c1b67a6ecada755b92dc834ccce75be2373df558741f4a03302903f400",
+              "sequence": 18
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-0b9befd5b9a358cd2440c726d45df9d7e554fa0d20a4a3f46b0448021a6d7687",
+              "source_id": "span-e0ead9dc6b012678c36eb8d588e7df987c4949a7560bf2f8e8f5d5fe8f9a9c2a",
+              "sha256": "7d14d10856b34cf3904b2569c76637f13307b6ed8ed0aabfa7bb5b595d5f156e",
+              "sequence": 12,
+              "quote": "酉月天辅星休囚无力"
+            },
+            {
+              "record_id": "record-25c282ffe89dd36bb9127e08fafae9d1ef8cfe50e5a7742ce3004cf949fcb09b",
+              "source_id": "span-5830b3071d2fed9c304b7fc985f27e271fd2bb91bcbbaeea5968f7a855980b01",
+              "sha256": "8f9564b644b220178c309fa1a14a4b7e91543479ce7136dd8885e94639e93ef5",
+              "sequence": 13,
+              "quote": "朋友之妻，应以月干为用神"
+            },
+            {
+              "record_id": "record-9729325708c110b69e6305c1881953df552ba26f59b1b5246d2994e682d1a4ce",
+              "source_id": "span-d990feb15b168fba557f139b325589965aa8459a66660157621a6f8f308d4683",
+              "sha256": "5cb61cff639ba78769a94898c7f240f7669d4c03aa03ffa61fa18eed41110e5d",
+              "sequence": 14,
+              "quote": "酉月金旺火囚，为墓不为库"
+            },
+            {
+              "record_id": "record-591f92e055059dfff3d90005af4eec971c23e8b383d4c700e94b280d7db42ecd",
+              "source_id": "span-005b85d7c7d180a98f98511308fa921f5d1c5fc16a919b7a5b098dbf856b212b",
+              "sha256": "04c5ee9359f4a9c76743da809bfab569966b30e4ca3d5ae3ca58e64406046825",
+              "sequence": 15,
+              "quote": "艮8宫逢空，空则看对冲之宫"
+            },
+            {
+              "record_id": "record-ae3f1fe3a4aeaea3a58f36aae40c98dfec14c25933383bffb561a3f88050808e",
+              "source_id": "span-5003804d8a03b6c9f8066444c93c85ff8fe76d655dd2ef72ae121d4ba26eedf0",
+              "sha256": "8f8114aef7bfac796185dfcb9e24eaff3a2998737bba1fbe656e663535faad00",
+              "sequence": 16,
+              "quote": "景门落乾6宫也为入墓"
+            }
+          ],
+          "answer": {
+            "explanation": "研讨针对初断错：天辅休囚、生门不思归、月己绝地门迫，年命丁酉月墓非库又空，叠加车、路凶象等反驳仅凭吉神平安。10月15被害是作者事后“估计”，发现尸体19日是反馈事实，两者不可混为已核实死亡时刻。宫数远近、午日冲尸的解释也不能冒充原初预测。",
+            "citations": [
+              "chart",
+              "context",
+              "missing",
+              "direction",
+              "return"
+            ],
+            "uncertainties": [
+              "问时局与走失时局、初断与事后纠错分别记录；无独立现实生死或寻人效力验证。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-47877ff3c6908a4f1f5feb5ee7bf3250b42fb9b546363e3a97446a28142587a2",
+      "event_id": "event-024a09f3c56106aae46dfeab464e454d9a388f2f8f9d5b1ef670054e68747b6b",
+      "family_id": "family-3216b07e6f1b36cd59414b2c1df0b0e23aa2ac83ff7b474c07d38bf9b98b3cca",
+      "chart_id": "chart-b009b957a1b1088d9631be7a8ed97d74af6627f2052c1152acf0f57ec0e782a3",
+      "chapter": "14-missing-person",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    }
+  ]
+}

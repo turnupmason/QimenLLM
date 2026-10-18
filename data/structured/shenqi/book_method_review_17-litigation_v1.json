@@ -1,0 +1,1602 @@
+{
+  "schema": "book-method-semantic-review-v1",
+  "source_data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "reviewed_by": "Codex source-grounded semantic curation",
+  "rows": [
+    {
+      "case": 1,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "问测背景与unknown四柱逐句开放；首断、反馈、作者批评分开，不能用已知结果证明错误取用。",
+      "known_source_window_review": "问测背景与unknown四柱逐句开放；首断、反馈、作者批评分开，不能用已知结果证明错误取用。",
+      "known": [
+        {
+          "record_id": "record-65b1b59867b6d96231d12a0216a6e6c2fc08bc8de166a55f86932a25b2c6cf6f",
+          "source_id": "span-df421ff922ce9da50d3496282781d8eb89775373f1504502eb21957356eafb89",
+          "sha256": "c30dd8f83d0cb02adedf5de00d378920ac78bd69e5549801d8bb874a5de97e4a",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-8586c778ab1ecd95549cb6710caf0a3dd34cdf746fed82c0b684fabc04528a99",
+          "source_id": "span-c4a9fad313d06f6ec60f129b7781dcc6e48512e96df82c647d27016dffdee44d",
+          "sha256": "eac4e97809cb5fe05089fba1a1d9bc7f73d0977755813da742a62c12a797b9eb",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-ce7268c7f9b5cee3f4d3040fd41d25b25ffda39faaaf408751eef741c533099d",
+          "source_id": "span-e47826342a4b00e1a6452a4693e74b8158a940fb0d6ee12a2c301f379359a5e6",
+          "sha256": "49053dc07f49588ac3cb45e5bbdfcf6a4fa415a0d07b90d1513828b8b54ea645",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-aa2e9e74a28ac34d9a9d616ef5ca5be3bf525658c6a002cf04cefa239f08d5cf",
+          "source_id": "span-59480b415b524ecf9a9329c39a39c8503eea4996621c2c60ef1e5977272e1f9b",
+          "sha256": "f32e3f766af056ff7045c46dbbd1e41a96a2479129bcf6894666cc704442dd55",
+          "sequence": 3
+        }
+      ],
+      "cutoff": 4,
+      "rules": {
+        "law": "一般以值符为原告，以天乙",
+        "court": "以开门为法官，以六合为证人证据，以景门为诉状"
+      },
+      "provided_roles": [
+        "按本例亲属、原被告、法院与证据角色分别绑定"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-f1ae978fcd0c197106632fe44669774acba2923c68ee1f598931cbba0e2c5e24",
+              "source_id": "span-17d8a38ae085085e48e26b191f4b4483506b610b7aed31b6a05c2dce542b7bf1",
+              "sha256": "1b05d7764f18fadbeff2cde9bb133078e2ba37a4bacd662db8f39786f562824b",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-abb786e3635b7d593fe6732d964246f066d5d3d8a3ffe66fb9c0e36489df86c0",
+              "source_id": "span-5f57a12f6ab2213fed3286b06d1e79d99d63875bcd6142d3c238d9ba29d97ea3",
+              "sha256": "6d2cb217f57fe40ea60aae69049b095669057d7322b7f69447e47f71032ddb67",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-9a8cb7df1517cdcceddc2a8611f57194fb471581463cc84e5b8cccd521896e34",
+              "source_id": "span-59961ca50182c7c1cc8ab77d2b3b89f223705a190145ea3662619c17694a6486",
+              "sha256": "47e0e879fba178c141930cde8639353c130800208a694bcf8a284c4809341341",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-54228032712b60adf8143befd311da46ef00e9fdac38a1290480e1abecd0b0a7",
+              "source_id": "span-83466f56fda6238fbc2e65042d514a2a7bc985d5fe69a141ac7ba7ec665984a2",
+              "sha256": "dda510421126ed1871013f78c45f610939e550230220c79b4e5bc9d86bb97d8f",
+              "sequence": 7
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "女问父按本例年干乙看父，日丁看求测人，开门检察院/法官、景门举报信分别看。被传讯是已知事实，不把其他案的天乙被告法机械代替父女关系取法。",
+            "citations": [
+              "chart",
+              "context",
+              "law",
+              "court"
+            ],
+            "uncertainties": [
+              "这是历史传统诉讼方法复现，不构成法律意见、证据或真实胜诉保证。"
+            ],
+            "bindings": [
+              {
+                "role": "父亲、女求测者",
+                "symbol": "年干乙、日干丁",
+                "condition": "女问父本例亲属口径"
+              },
+              {
+                "role": "检察机关、举报信",
+                "symbol": "开门、景门",
+                "condition": "司法机构与文书分开"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-f1ae978fcd0c197106632fe44669774acba2923c68ee1f598931cbba0e2c5e24",
+              "source_id": "span-17d8a38ae085085e48e26b191f4b4483506b610b7aed31b6a05c2dce542b7bf1",
+              "sha256": "1b05d7764f18fadbeff2cde9bb133078e2ba37a4bacd662db8f39786f562824b",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-abb786e3635b7d593fe6732d964246f066d5d3d8a3ffe66fb9c0e36489df86c0",
+              "source_id": "span-5f57a12f6ab2213fed3286b06d1e79d99d63875bcd6142d3c238d9ba29d97ea3",
+              "sha256": "6d2cb217f57fe40ea60aae69049b095669057d7322b7f69447e47f71032ddb67",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-9a8cb7df1517cdcceddc2a8611f57194fb471581463cc84e5b8cccd521896e34",
+              "source_id": "span-59961ca50182c7c1cc8ab77d2b3b89f223705a190145ea3662619c17694a6486",
+              "sha256": "47e0e879fba178c141930cde8639353c130800208a694bcf8a284c4809341341",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-54228032712b60adf8143befd311da46ef00e9fdac38a1290480e1abecd0b0a7",
+              "source_id": "span-83466f56fda6238fbc2e65042d514a2a7bc985d5fe69a141ac7ba7ec665984a2",
+              "sha256": "dda510421126ed1871013f78c45f610939e550230220c79b4e5bc9d86bb97d8f",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-163828fdcd22489a239146f4fbca80f664513c51fae95c617158617c885fc8a5",
+              "source_id": "span-fedf4f9eeb3933b1d12f0583b7aacb0950d798f40fbc75673b03b0a377f2a6d1",
+              "sha256": "6ec6df3cbbff71a68c18ff42b001a4a5de61a239ad9f7761aa78519c3cad401e",
+              "sequence": 8
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "乙乾六下庚生门、天庚离九、景门震三、开门丁坤二照表；举报真假不由空亡字段直接当调查事实。",
+            "citations": [
+              "chart",
+              "context",
+              "law",
+              "court"
+            ],
+            "uncertainties": [
+              "这是历史传统诉讼方法复现，不构成法律意见、证据或真实胜诉保证。"
+            ]
+          },
+          "facts": [
+            [
+              6,
+              "heaven_stem"
+            ],
+            [
+              6,
+              "earth_stem"
+            ],
+            [
+              6,
+              "door"
+            ],
+            [
+              9,
+              "heaven_stem"
+            ],
+            [
+              3,
+              "door"
+            ],
+            [
+              2,
+              "door"
+            ],
+            [
+              2,
+              "heaven_stem"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-f1ae978fcd0c197106632fe44669774acba2923c68ee1f598931cbba0e2c5e24",
+              "source_id": "span-17d8a38ae085085e48e26b191f4b4483506b610b7aed31b6a05c2dce542b7bf1",
+              "sha256": "1b05d7764f18fadbeff2cde9bb133078e2ba37a4bacd662db8f39786f562824b",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-abb786e3635b7d593fe6732d964246f066d5d3d8a3ffe66fb9c0e36489df86c0",
+              "source_id": "span-5f57a12f6ab2213fed3286b06d1e79d99d63875bcd6142d3c238d9ba29d97ea3",
+              "sha256": "6d2cb217f57fe40ea60aae69049b095669057d7322b7f69447e47f71032ddb67",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-9a8cb7df1517cdcceddc2a8611f57194fb471581463cc84e5b8cccd521896e34",
+              "source_id": "span-59961ca50182c7c1cc8ab77d2b3b89f223705a190145ea3662619c17694a6486",
+              "sha256": "47e0e879fba178c141930cde8639353c130800208a694bcf8a284c4809341341",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-54228032712b60adf8143befd311da46ef00e9fdac38a1290480e1abecd0b0a7",
+              "source_id": "span-83466f56fda6238fbc2e65042d514a2a7bc985d5fe69a141ac7ba7ec665984a2",
+              "sha256": "dda510421126ed1871013f78c45f610939e550230220c79b4e5bc9d86bb97d8f",
+              "sequence": 7
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-f1ae978fcd0c197106632fe44669774acba2923c68ee1f598931cbba0e2c5e24",
+              "source_id": "span-17d8a38ae085085e48e26b191f4b4483506b610b7aed31b6a05c2dce542b7bf1",
+              "sha256": "1b05d7764f18fadbeff2cde9bb133078e2ba37a4bacd662db8f39786f562824b",
+              "sequence": 4,
+              "quote": "年干乙为其父，落乾6宫"
+            },
+            {
+              "record_id": "record-abb786e3635b7d593fe6732d964246f066d5d3d8a3ffe66fb9c0e36489df86c0",
+              "source_id": "span-5f57a12f6ab2213fed3286b06d1e79d99d63875bcd6142d3c238d9ba29d97ea3",
+              "sha256": "6d2cb217f57fe40ea60aae69049b095669057d7322b7f69447e47f71032ddb67",
+              "sequence": 5,
+              "quote": "天盘庚落离.9宫"
+            },
+            {
+              "record_id": "record-9a8cb7df1517cdcceddc2a8611f57194fb471581463cc84e5b8cccd521896e34",
+              "source_id": "span-59961ca50182c7c1cc8ab77d2b3b89f223705a190145ea3662619c17694a6486",
+              "sha256": "47e0e879fba178c141930cde8639353c130800208a694bcf8a284c4809341341",
+              "sequence": 6,
+              "quote": "景门为举报信，落震3宫为空亡之地"
+            },
+            {
+              "record_id": "record-54228032712b60adf8143befd311da46ef00e9fdac38a1290480e1abecd0b0a7",
+              "source_id": "span-83466f56fda6238fbc2e65042d514a2a7bc985d5fe69a141ac7ba7ec665984a2",
+              "sha256": "dda510421126ed1871013f78c45f610939e550230220c79b4e5bc9d86bb97d8f",
+              "sequence": 7,
+              "quote": "开门为法官，为检察院，落坤2宫"
+            }
+          ],
+          "answer": {
+            "explanation": "作者把父乙墓刑作被关押象、地庚与天庚等作同单位举报倾向，景门空解释举报不足，再用开门与求测人比和且生父宫支持能放出。尚未获知父亲职位及实际处理结果，不能把推断当刑事事实。",
+            "citations": [
+              "chart",
+              "context",
+              "law",
+              "court"
+            ],
+            "uncertainties": [
+              "这是历史传统诉讼方法复现，不构成法律意见、证据或真实胜诉保证。"
+            ]
+          }
+        },
+        {
+          "type": "timing_analysis",
+          "targets": [
+            {
+              "record_id": "record-163828fdcd22489a239146f4fbca80f664513c51fae95c617158617c885fc8a5",
+              "source_id": "span-fedf4f9eeb3933b1d12f0583b7aacb0950d798f40fbc75673b03b0a377f2a6d1",
+              "sha256": "6ec6df3cbbff71a68c18ff42b001a4a5de61a239ad9f7761aa78519c3cad401e",
+              "sequence": 8
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-163828fdcd22489a239146f4fbca80f664513c51fae95c617158617c885fc8a5",
+              "source_id": "span-fedf4f9eeb3933b1d12f0583b7aacb0950d798f40fbc75673b03b0a377f2a6d1",
+              "sha256": "6ec6df3cbbff71a68c18ff42b001a4a5de61a239ad9f7761aa78519c3cad401e",
+              "sequence": 8,
+              "quote": "地盘乙奇在3宫，上临六仪丙与己"
+            },
+            {
+              "record_id": "record-163828fdcd22489a239146f4fbca80f664513c51fae95c617158617c885fc8a5",
+              "source_id": "span-fedf4f9eeb3933b1d12f0583b7aacb0950d798f40fbc75673b03b0a377f2a6d1",
+              "sha256": "6ec6df3cbbff71a68c18ff42b001a4a5de61a239ad9f7761aa78519c3cad401e",
+              "sequence": 8,
+              "quote": "阳遁3宫为内盘，主快"
+            }
+          ],
+          "answer": {
+            "explanation": "本例用地盘年干乙上乘丙与己作候选日，再以内盘主快择己日。释放日期与女儿前一天去说明情况不是同一目标，不能并成一个应期。",
+            "citations": [
+              "chart",
+              "context",
+              "law",
+              "court"
+            ],
+            "uncertainties": [
+              "这是历史传统诉讼方法复现，不构成法律意见、证据或真实胜诉保证。"
+            ],
+            "methods": [
+              "地盘用神上乘干与内盘快慢取日"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-842818d6f605c7a5199a24c3cfed93002a361a2519e462190d59c9dbc059244a",
+      "event_id": "event-cb14e2db1e5a13776bea3ac1ba23ed8976df1f33cefa925bd7b8ff46d92d546b",
+      "family_id": "family-7742c087df4583b9d3917dd9667dd7a3e3d3108a66aaa4c7470e0ae5aef4d01b",
+      "chart_id": "chart-f725ef17d87bdd952be6a14767eb9dbbac2a4ba323fb001be451e4d24c482098",
+      "chapter": "17-litigation",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 2,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "问测背景与unknown四柱逐句开放；首断、反馈、作者批评分开，不能用已知结果证明错误取用。",
+      "known_source_window_review": "问测背景与unknown四柱逐句开放；首断、反馈、作者批评分开，不能用已知结果证明错误取用。",
+      "known": [
+        {
+          "record_id": "record-0980b8cd7570faa6bd317b7acb2e44d5cf21526985cdbf857b576adada6ff5a3",
+          "source_id": "span-86950244155313eea77c51f498d42ef39ad0c01256b590298c494a9254dc31a5",
+          "sha256": "849fad550825339e7f2f79324c8e0ec46fdbf8c37e1810f96b2166df813266ca",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-ef5891aa4b3e1aa9b976eb38a12746390fe944020784c6c0252dc054b6c39b3c",
+          "source_id": "span-a5d690f63898bbfc6f1e74ebd8645f3f46a9e8617526b308cbaea883277117e3",
+          "sha256": "3aef9c9b63c27e79d5805553d009f2c65ca50113c29ad5cde1c4a0bed695535c",
+          "sequence": 1
+        }
+      ],
+      "cutoff": 2,
+      "rules": {
+        "law": "一般以值符为原告，以天乙",
+        "court": "以开门为法官，以六合为证人证据，以景门为诉状"
+      },
+      "provided_roles": [
+        "按本例亲属、原被告、法院与证据角色分别绑定"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-9067f44c617712f079063506b7c9539a91c198469f220dc25d5b3502610735c3",
+              "source_id": "span-79f7910c58df46452316eba2a73cf44fd688499d39290fd8d1ae9e7545988f88",
+              "sha256": "08ad19f5043b5f5783a49d08d04c11ca3abca9bad4b5dcc7384becea9b1e20fd",
+              "sequence": 2
+            },
+            {
+              "record_id": "record-5cca8dfb464f02dfd0f1a3bc7bc4a115dbd58561db4d594180585496ff10e4c5",
+              "source_id": "span-c0cb280811d70f2dfbed45cbf219d3d1e5aaf1fbe3bac68db3cae5557dc5d197",
+              "sha256": "59f38163536c17797e5c2aca9dd6895300a08e3ebba78e4e08ae8b858eaca9fc",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-3f42bfe2f60b68278e6761f1fd8d5e7328f09bc241c09d57690daf370d156343",
+              "source_id": "span-d7971289ca99251478019244dea18e0cd758f08225e2042a4e669c6739701dcb",
+              "sha256": "7dc61838af47cc5c66946328f87429270b367ee9d64555150aa6ad8bf9d3e976",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-05c0f0e64fd0009c6a8d1d64aab684ee2c87276d0b8e264bdb147f502824a246",
+              "source_id": "span-8a4b2c1b7a1931e99bbbb2aaa0fc8d35b5cd0d98a0dead164f80ded03307ecc4",
+              "sha256": "ae1db64649e8dac6afb90095fe4d6c2a292f21d1a0d9770193998b2768ff8f21",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "同事代问以月戊看被拘留张某，另以甲午辛看犯罪处分视角，开门法官及值符领导分别比较。不能把月戊财象直接当已证实经济犯罪。",
+            "citations": [
+              "chart",
+              "context",
+              "law",
+              "court"
+            ],
+            "uncertainties": [
+              "这是历史传统诉讼方法复现，不构成法律意见、证据或真实胜诉保证。"
+            ],
+            "bindings": [
+              {
+                "role": "同事张某",
+                "symbol": "月干戊",
+                "condition": "同辈代问本例口径"
+              },
+              {
+                "role": "处分视角、机关领导",
+                "symbol": "甲午辛；开门、值符",
+                "condition": "与人物月干分开"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-9067f44c617712f079063506b7c9539a91c198469f220dc25d5b3502610735c3",
+              "source_id": "span-79f7910c58df46452316eba2a73cf44fd688499d39290fd8d1ae9e7545988f88",
+              "sha256": "08ad19f5043b5f5783a49d08d04c11ca3abca9bad4b5dcc7384becea9b1e20fd",
+              "sequence": 2
+            },
+            {
+              "record_id": "record-5cca8dfb464f02dfd0f1a3bc7bc4a115dbd58561db4d594180585496ff10e4c5",
+              "source_id": "span-c0cb280811d70f2dfbed45cbf219d3d1e5aaf1fbe3bac68db3cae5557dc5d197",
+              "sha256": "59f38163536c17797e5c2aca9dd6895300a08e3ebba78e4e08ae8b858eaca9fc",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-3f42bfe2f60b68278e6761f1fd8d5e7328f09bc241c09d57690daf370d156343",
+              "source_id": "span-d7971289ca99251478019244dea18e0cd758f08225e2042a4e669c6739701dcb",
+              "sha256": "7dc61838af47cc5c66946328f87429270b367ee9d64555150aa6ad8bf9d3e976",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-05c0f0e64fd0009c6a8d1d64aab684ee2c87276d0b8e264bdb147f502824a246",
+              "source_id": "span-8a4b2c1b7a1931e99bbbb2aaa0fc8d35b5cd0d98a0dead164f80ded03307ecc4",
+              "sha256": "ae1db64649e8dac6afb90095fe4d6c2a292f21d1a0d9770193998b2768ff8f21",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "戊坤二天蓬惊门值符、辛坎一生门六合、巽四丁按源；金额和判刑不是表格字面。",
+            "citations": [
+              "chart",
+              "context",
+              "law",
+              "court"
+            ],
+            "uncertainties": [
+              "这是历史传统诉讼方法复现，不构成法律意见、证据或真实胜诉保证。"
+            ]
+          },
+          "facts": [
+            [
+              2,
+              "heaven_stem"
+            ],
+            [
+              2,
+              "star"
+            ],
+            [
+              2,
+              "door"
+            ],
+            [
+              2,
+              "deity"
+            ],
+            [
+              1,
+              "heaven_stem"
+            ],
+            [
+              1,
+              "door"
+            ],
+            [
+              1,
+              "deity"
+            ],
+            [
+              4,
+              "heaven_stem"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-9067f44c617712f079063506b7c9539a91c198469f220dc25d5b3502610735c3",
+              "source_id": "span-79f7910c58df46452316eba2a73cf44fd688499d39290fd8d1ae9e7545988f88",
+              "sha256": "08ad19f5043b5f5783a49d08d04c11ca3abca9bad4b5dcc7384becea9b1e20fd",
+              "sequence": 2
+            },
+            {
+              "record_id": "record-5cca8dfb464f02dfd0f1a3bc7bc4a115dbd58561db4d594180585496ff10e4c5",
+              "source_id": "span-c0cb280811d70f2dfbed45cbf219d3d1e5aaf1fbe3bac68db3cae5557dc5d197",
+              "sha256": "59f38163536c17797e5c2aca9dd6895300a08e3ebba78e4e08ae8b858eaca9fc",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-3f42bfe2f60b68278e6761f1fd8d5e7328f09bc241c09d57690daf370d156343",
+              "source_id": "span-d7971289ca99251478019244dea18e0cd758f08225e2042a4e669c6739701dcb",
+              "sha256": "7dc61838af47cc5c66946328f87429270b367ee9d64555150aa6ad8bf9d3e976",
+              "sequence": 4
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-9067f44c617712f079063506b7c9539a91c198469f220dc25d5b3502610735c3",
+              "source_id": "span-79f7910c58df46452316eba2a73cf44fd688499d39290fd8d1ae9e7545988f88",
+              "sha256": "08ad19f5043b5f5783a49d08d04c11ca3abca9bad4b5dcc7384becea9b1e20fd",
+              "sequence": 2,
+              "quote": "月干戊落坤2宫"
+            },
+            {
+              "record_id": "record-5cca8dfb464f02dfd0f1a3bc7bc4a115dbd58561db4d594180585496ff10e4c5",
+              "source_id": "span-c0cb280811d70f2dfbed45cbf219d3d1e5aaf1fbe3bac68db3cae5557dc5d197",
+              "sha256": "59f38163536c17797e5c2aca9dd6895300a08e3ebba78e4e08ae8b858eaca9fc",
+              "sequence": 3,
+              "quote": "辛落1宫，正逢地盘戊"
+            },
+            {
+              "record_id": "record-5cca8dfb464f02dfd0f1a3bc7bc4a115dbd58561db4d594180585496ff10e4c5",
+              "source_id": "span-c0cb280811d70f2dfbed45cbf219d3d1e5aaf1fbe3bac68db3cae5557dc5d197",
+              "sha256": "59f38163536c17797e5c2aca9dd6895300a08e3ebba78e4e08ae8b858eaca9fc",
+              "sequence": 3,
+              "quote": "4宫地盘辛上又逢丁奇，不逢壬、癸天罗地网"
+            },
+            {
+              "record_id": "record-3f42bfe2f60b68278e6761f1fd8d5e7328f09bc241c09d57690daf370d156343",
+              "source_id": "span-d7971289ca99251478019244dea18e0cd758f08225e2042a4e669c6739701dcb",
+              "sha256": "7dc61838af47cc5c66946328f87429270b367ee9d64555150aa6ad8bf9d3e976",
+              "sequence": 4,
+              "quote": "天蓬星在子月正当旺相之时"
+            }
+          ],
+          "answer": {
+            "explanation": "作者以月戊天蓬及格局解释钱财拘留，同时以辛临吉门星神、地辛上丁、不逢壬癸网罗及机关宫相生，区分需破财与不至判刑。2万或2.5万是源中范围，后来交2.5万不能倒填成唯一原预测数。",
+            "citations": [
+              "chart",
+              "context",
+              "law",
+              "court"
+            ],
+            "uncertainties": [
+              "这是历史传统诉讼方法复现，不构成法律意见、证据或真实胜诉保证。"
+            ]
+          }
+        },
+        {
+          "type": "timing_analysis",
+          "targets": [
+            {
+              "record_id": "record-05c0f0e64fd0009c6a8d1d64aab684ee2c87276d0b8e264bdb147f502824a246",
+              "source_id": "span-8a4b2c1b7a1931e99bbbb2aaa0fc8d35b5cd0d98a0dead164f80ded03307ecc4",
+              "sha256": "ae1db64649e8dac6afb90095fe4d6c2a292f21d1a0d9770193998b2768ff8f21",
+              "sequence": 5
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-05c0f0e64fd0009c6a8d1d64aab684ee2c87276d0b8e264bdb147f502824a246",
+              "source_id": "span-8a4b2c1b7a1931e99bbbb2aaa0fc8d35b5cd0d98a0dead164f80ded03307ecc4",
+              "sha256": "ae1db64649e8dac6afb90095fe4d6c2a292f21d1a0d9770193998b2768ff8f21",
+              "sequence": 5,
+              "quote": "甲午辛下临之干为戊，子午相冲"
+            }
+          ],
+          "answer": {
+            "explanation": "作者取甲午辛下戊及子午冲，报戊子月放出；12月29甲午日的精确日属于反馈，不能说原文已事前报准该日。",
+            "citations": [
+              "chart",
+              "context",
+              "law",
+              "court"
+            ],
+            "uncertainties": [
+              "这是历史传统诉讼方法复现，不构成法律意见、证据或真实胜诉保证。"
+            ],
+            "methods": [
+              "罪人符号下临干及冲取月份"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-80d7ba7cee60e3ae20c1d8db4402cb9d454689e3a44322173c179abb805deafe",
+      "event_id": "event-395fc0eb406c6c99624dc86af6774e40d407a5bed7b92865962b53d0d0c4d7ae",
+      "family_id": "family-6877139d2993c8aac3d55a679a2c1003945f62cc71c5a252096097806cfe5bad",
+      "chart_id": "chart-b8164e1d68f2b28a2b9efe38234c8753d9ca6678582c5240b42d0428651ffac0",
+      "chapter": "17-litigation",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 3,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "问测背景与unknown四柱逐句开放；首断、反馈、作者批评分开，不能用已知结果证明错误取用。",
+      "known_source_window_review": "问测背景与unknown四柱逐句开放；首断、反馈、作者批评分开，不能用已知结果证明错误取用。",
+      "known": [
+        {
+          "record_id": "record-51374fe053ad0d5bdcf33f55183d0f5a009c77702469d39e1a25c6d073cf0cda",
+          "source_id": "span-2a15f461df73129e9f603df4710951c615cebd9b7af09e3108aaf4f0f7970d74",
+          "sha256": "416c69795265fb43ef2aba8976396a95328edc521756744f5e442d17749f55c1",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-10a542a08c2de41ad11b80e2e5e090fb6fd39f2ecf3b5a9926a86f75810fe664",
+          "source_id": "span-8428c6ce336ee8acc54d2f2ec0dd45c1257b6d9a90daa21a5a1b2f5f686f615a",
+          "sha256": "28e349dff0f95f2aa46df47d2b6238b85468ed75135e62b8f84ad270034e73a6",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-a742613a5a3456b9f0e096f8da6c0e6cb4ec70505c2359c68fe9bbc78ea03f55",
+          "source_id": "span-4c4a5a8a618f319e126f6cce1e553401802cf327a51967c9e1741be0493b4616",
+          "sha256": "e921e7d28c4f1798656106262873a9d9cf93622122b8b1f10b6137b2519631e2",
+          "sequence": 3
+        }
+      ],
+      "cutoff": 4,
+      "rules": {
+        "law": "一般以值符为原告，以天乙",
+        "court": "以开门为法官，以六合为证人证据，以景门为诉状"
+      },
+      "provided_roles": [
+        "按本例亲属、原被告、法院与证据角色分别绑定"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-414d245737e865d93ab7f4a40121a86e80075e8fad83b79b8ccc75089e0973c3",
+              "source_id": "span-6ad628dc34a1b2a6ee0e55668347d0e87bb373775bba998b357c33d518caa594",
+              "sha256": "21aae7b39eeb094462802828e8d63f50033ae407ea53366425eaabf0543c7fc6",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-5935be786e09fb05cc8554aaf175ec21211338fb53bba44320fc9b0667db60f8",
+              "source_id": "span-1487506546a2031af96ace961e7a2a8d6a38f4d2c50ab7cf9a11ba1398d9bb48",
+              "sha256": "be5901145f6e72c0c5809464ec40bd71ef37f14ed38e4aee70674a6e94084c11",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-cf9d7244bc759594488168c7c83160e1313c5e5c0106c7cb51f67de3b50215b0",
+              "source_id": "span-cc7f17036ca0a7a6810e5c8de907ee2b1b14e5d6fa533185176119080095529b",
+              "sha256": "b852cff1892bfab38defe181b664ea68b8ac3fc94c7485feb4e20becc1516f50",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-024de1d19181ea952143797408de425afaa25f366e928048096dc349311a53b5",
+              "source_id": "span-e3a16e6554c788d9b51c9aac1191b4a94c8d65ccaf16d4fb0c29184b513eba12",
+              "sha256": "c617b4893f5c45f9979ba574629290a0604984d668e7b5c1b70edbc211e79045",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-fb335e0453386d815f9daf2c853575458cb63b33e12c56580c05e239d5deaea6",
+              "source_id": "span-028cb2f337b7dd9a45f8a5e95cd911d85726bbbcd72c59d4588f4f5922d209b2",
+              "sha256": "8e3da3ad74dcb55834fdb6f5a8f398b849051d82d10dd026d6727e0b23a6fb70",
+              "sequence": 8
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "房管部门为原告取值符，张公司被告取值符下地盘星天芮所对应的天乙，开门法院、六合证据、景门诉状、惊门律师各列。不能把乙奇直接当被告。",
+            "citations": [
+              "chart",
+              "context",
+              "law",
+              "court"
+            ],
+            "uncertainties": [
+              "这是历史传统诉讼方法复现，不构成法律意见、证据或真实胜诉保证。"
+            ],
+            "bindings": [
+              {
+                "role": "原告房管、被告公司",
+                "symbol": "值符、天乙天芮",
+                "condition": "本例诉讼一般法"
+              },
+              {
+                "role": "法院、证据、诉状、律师",
+                "symbol": "开门、六合、景门、惊门",
+                "condition": "四种角色分开"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-414d245737e865d93ab7f4a40121a86e80075e8fad83b79b8ccc75089e0973c3",
+              "source_id": "span-6ad628dc34a1b2a6ee0e55668347d0e87bb373775bba998b357c33d518caa594",
+              "sha256": "21aae7b39eeb094462802828e8d63f50033ae407ea53366425eaabf0543c7fc6",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-5935be786e09fb05cc8554aaf175ec21211338fb53bba44320fc9b0667db60f8",
+              "source_id": "span-1487506546a2031af96ace961e7a2a8d6a38f4d2c50ab7cf9a11ba1398d9bb48",
+              "sha256": "be5901145f6e72c0c5809464ec40bd71ef37f14ed38e4aee70674a6e94084c11",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-cf9d7244bc759594488168c7c83160e1313c5e5c0106c7cb51f67de3b50215b0",
+              "source_id": "span-cc7f17036ca0a7a6810e5c8de907ee2b1b14e5d6fa533185176119080095529b",
+              "sha256": "b852cff1892bfab38defe181b664ea68b8ac3fc94c7485feb4e20becc1516f50",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-024de1d19181ea952143797408de425afaa25f366e928048096dc349311a53b5",
+              "source_id": "span-e3a16e6554c788d9b51c9aac1191b4a94c8d65ccaf16d4fb0c29184b513eba12",
+              "sha256": "c617b4893f5c45f9979ba574629290a0604984d668e7b5c1b70edbc211e79045",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-fb335e0453386d815f9daf2c853575458cb63b33e12c56580c05e239d5deaea6",
+              "source_id": "span-028cb2f337b7dd9a45f8a5e95cd911d85726bbbcd72c59d4588f4f5922d209b2",
+              "sha256": "8e3da3ad74dcb55834fdb6f5a8f398b849051d82d10dd026d6727e0b23a6fb70",
+              "sequence": 8
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "值符坤二、天芮生门兑七、开门戊离九、惊门巽四按原表。三十九万已在问题中告知，不算模型预测数字。",
+            "citations": [
+              "chart",
+              "context",
+              "law",
+              "court"
+            ],
+            "uncertainties": [
+              "这是历史传统诉讼方法复现，不构成法律意见、证据或真实胜诉保证。"
+            ]
+          },
+          "facts": [
+            [
+              2,
+              "deity"
+            ],
+            [
+              7,
+              "star"
+            ],
+            [
+              7,
+              "door"
+            ],
+            [
+              9,
+              "door"
+            ],
+            [
+              9,
+              "heaven_stem"
+            ],
+            [
+              4,
+              "door"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-414d245737e865d93ab7f4a40121a86e80075e8fad83b79b8ccc75089e0973c3",
+              "source_id": "span-6ad628dc34a1b2a6ee0e55668347d0e87bb373775bba998b357c33d518caa594",
+              "sha256": "21aae7b39eeb094462802828e8d63f50033ae407ea53366425eaabf0543c7fc6",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-5935be786e09fb05cc8554aaf175ec21211338fb53bba44320fc9b0667db60f8",
+              "source_id": "span-1487506546a2031af96ace961e7a2a8d6a38f4d2c50ab7cf9a11ba1398d9bb48",
+              "sha256": "be5901145f6e72c0c5809464ec40bd71ef37f14ed38e4aee70674a6e94084c11",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-cf9d7244bc759594488168c7c83160e1313c5e5c0106c7cb51f67de3b50215b0",
+              "source_id": "span-cc7f17036ca0a7a6810e5c8de907ee2b1b14e5d6fa533185176119080095529b",
+              "sha256": "b852cff1892bfab38defe181b664ea68b8ac3fc94c7485feb4e20becc1516f50",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-024de1d19181ea952143797408de425afaa25f366e928048096dc349311a53b5",
+              "source_id": "span-e3a16e6554c788d9b51c9aac1191b4a94c8d65ccaf16d4fb0c29184b513eba12",
+              "sha256": "c617b4893f5c45f9979ba574629290a0604984d668e7b5c1b70edbc211e79045",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-fb335e0453386d815f9daf2c853575458cb63b33e12c56580c05e239d5deaea6",
+              "source_id": "span-028cb2f337b7dd9a45f8a5e95cd911d85726bbbcd72c59d4588f4f5922d209b2",
+              "sha256": "8e3da3ad74dcb55834fdb6f5a8f398b849051d82d10dd026d6727e0b23a6fb70",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-524d77288c80c1a242970824001435b66c0bfe1afa15c23fae0ce998de4c88b2",
+              "source_id": "span-2b4c115d311a6b24c91d7d3e20a9080c86e9b37dbc05f1d6b4eb34d1bc193543",
+              "sha256": "d8d0f88a6b34feecd3956aeee94a447d67f58659d0ff467d5ee53c1b3024da2c",
+              "sequence": 9
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-5935be786e09fb05cc8554aaf175ec21211338fb53bba44320fc9b0667db60f8",
+              "source_id": "span-1487506546a2031af96ace961e7a2a8d6a38f4d2c50ab7cf9a11ba1398d9bb48",
+              "sha256": "be5901145f6e72c0c5809464ec40bd71ef37f14ed38e4aee70674a6e94084c11",
+              "sequence": 5,
+              "quote": "值符落坤2宫生天乙所落兑7宫"
+            },
+            {
+              "record_id": "record-5935be786e09fb05cc8554aaf175ec21211338fb53bba44320fc9b0667db60f8",
+              "source_id": "span-1487506546a2031af96ace961e7a2a8d6a38f4d2c50ab7cf9a11ba1398d9bb48",
+              "sha256": "be5901145f6e72c0c5809464ec40bd71ef37f14ed38e4aee70674a6e94084c11",
+              "sequence": 5,
+              "quote": "开门为法院落离9宫，生值符宫，克天乙宫"
+            },
+            {
+              "record_id": "record-cf9d7244bc759594488168c7c83160e1313c5e5c0106c7cb51f67de3b50215b0",
+              "source_id": "span-cc7f17036ca0a7a6810e5c8de907ee2b1b14e5d6fa533185176119080095529b",
+              "sha256": "b852cff1892bfab38defe181b664ea68b8ac3fc94c7485feb4e20becc1516f50",
+              "sequence": 6,
+              "quote": "景门、六合均逢空亡"
+            },
+            {
+              "record_id": "record-fb335e0453386d815f9daf2c853575458cb63b33e12c56580c05e239d5deaea6",
+              "source_id": "span-028cb2f337b7dd9a45f8a5e95cd911d85726bbbcd72c59d4588f4f5922d209b2",
+              "sha256": "8e3da3ad74dcb55834fdb6f5a8f398b849051d82d10dd026d6727e0b23a6fb70",
+              "sequence": 8,
+              "quote": "惊门为律师，在巽4宫"
+            }
+          ],
+          "answer": {
+            "explanation": "作者比较原告生被告有求和意、法院生原告克被告意味着判决不利，但景门六合空又提示原告诉证不足，因而主张调解。约17万元及搬离是其判断；后面16万加费约17万需分项，不能把每项费用都说成原先逐项给出。东南座位建议是历史咨询，不作现实诉讼成功保证。",
+            "citations": [
+              "chart",
+              "context",
+              "law",
+              "court"
+            ],
+            "uncertainties": [
+              "这是历史传统诉讼方法复现，不构成法律意见、证据或真实胜诉保证。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-deb05ed0b5f1c7b259885be2a5c8f1094359e61237fa1aff957f48d5050e1ee5",
+      "event_id": "event-36e48632bc4644a95194a16a8e2116c5f96016ede8133d3c5d237869848eb058",
+      "family_id": "family-593eebe6566c635d479b3ac0b767c4cc1d5b77f17c959c72d38058c60ec24455",
+      "chart_id": "chart-0b5ab2991aca8d2196f41421ce2f23e937bd001573d7c445fdcf8af76a7a2b9f",
+      "chapter": "17-litigation",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 4,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "问测背景与unknown四柱逐句开放；首断、反馈、作者批评分开，不能用已知结果证明错误取用。",
+      "known_source_window_review": "问测背景与unknown四柱逐句开放；首断、反馈、作者批评分开，不能用已知结果证明错误取用。",
+      "known": [
+        {
+          "record_id": "record-c5773d374e2d92991d7c95acc9b33bde43eb1f9fc1a04d250039c2c548dd049f",
+          "source_id": "span-7326f36f1b37bc365ac4635de5b00c9d2a533f65c143f8d008228e59bb69ee4a",
+          "sha256": "f0d056aac33e476bc9465fcfbb871f710a003dc77b04b1574d8038b9be49f679",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-0778b00f5cfec77c91a008472f5093528f72c08b976aba9622a197be1c29f697",
+          "source_id": "span-1c9ef4434e4501fecb007853de08c9bd6f10a4299c1366a54b34b37b9be67122",
+          "sha256": "f7036e37d2d4e3da5b33f1fa4b6b49a704d6b585f434fcdb05be8695d6e7a56e",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-1bf995f21d1a6c819897162149dce43f29aadbe9ecfde95fdc5f183f3042d8c3",
+          "source_id": "span-5e5cbc5738a159e4b32d5ddb6e07d0020ad3efcaae6fedf77b95211cf5e29434",
+          "sha256": "25beed5b84fd163eae86aa6655df65ff9fbd43f30b96f9d26886cdce0f6c7c68",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-aef8140e9076a7a5003621820cfd9927b442648a59847a1ab269a73ef20ade64",
+          "source_id": "span-37d5d8d2562d5e1a26b12a98b5acfcc24dd9a6ddb26fbaf8b03f486765e41130",
+          "sha256": "7cb76c2be1c5423c096ba83183ecef766dc62c28a7f44fe50e643fed2bd39d12",
+          "sequence": 3
+        }
+      ],
+      "cutoff": 4,
+      "rules": {
+        "law": "一般以值符为原告，以天乙",
+        "court": "以开门为法官，以六合为证人证据，以景门为诉状"
+      },
+      "provided_roles": [
+        "按本例亲属、原被告、法院与证据角色分别绑定"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-513da205725f85774f3f1cd744b3a2fee150b8399802753ae263c3a8bbd7add9",
+              "source_id": "span-2cdb7efe7936071388b157f6e29ba88300b0c87e87a3be54312318849d8a350a",
+              "sha256": "39099988ae66a257053bc0120da18cccec8bd4d577996ffd10113926499f2066",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-707e47982ce919ff29c9294a86d62e4d261beb4c6d6adc2e1bafe4652f18cea9",
+              "source_id": "span-97cdef53de6a37d61185ac4c544a95666f4b64e7ad87d2d2dd51b6b7fda8cc3c",
+              "sha256": "87a07432a9c80b05565b4448bf10914a40842cbbe352f879af3bcab896ba0429",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-766d1941a0a0b70a701fdabcb448b80b5f5b188ba6b80a27fc9c5c20aa762065",
+              "source_id": "span-64482af3f04973dbe262e8ddd4528c41cb3d25c8fa2a45dc421d6bf7e32ea84d",
+              "sha256": "2488eb4a5d82c60261e2daa90128400adbdbb923c91b7e49c3925e6b64b49172",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-ef9daeec750166b75e87f7bf02a5b67ad44165eeca1a3bb6082c84b80820c48c",
+              "source_id": "span-6c6093b6afcb81723513738e23c4039eb6a4660195939c96b28551b8e27a7fbd",
+              "sha256": "81e26e89bee5089e1589720da4a38fc283e5f104d969e501d77627894877485f",
+              "sequence": 7
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "同一男孩被抱走案的后续审理，本例值符原告、天乙天芮被告、开门法官惊门律师；不把一男一女对应庚乙直接当已经认定拐卖动机。此故事与走失章验证案相关，新批次排除其训练样本，旧家族不改。",
+            "citations": [
+              "chart",
+              "context",
+              "law",
+              "court"
+            ],
+            "uncertainties": [
+              "这是历史传统诉讼方法复现，不构成法律意见、证据或真实胜诉保证。"
+            ],
+            "bindings": [
+              {
+                "role": "原告、被告",
+                "symbol": "值符、天乙天芮",
+                "condition": "本例诉讼法，关联旧走失案"
+              },
+              {
+                "role": "法官、律师",
+                "symbol": "开门、惊门",
+                "condition": "分工不同"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-513da205725f85774f3f1cd744b3a2fee150b8399802753ae263c3a8bbd7add9",
+              "source_id": "span-2cdb7efe7936071388b157f6e29ba88300b0c87e87a3be54312318849d8a350a",
+              "sha256": "39099988ae66a257053bc0120da18cccec8bd4d577996ffd10113926499f2066",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-707e47982ce919ff29c9294a86d62e4d261beb4c6d6adc2e1bafe4652f18cea9",
+              "source_id": "span-97cdef53de6a37d61185ac4c544a95666f4b64e7ad87d2d2dd51b6b7fda8cc3c",
+              "sha256": "87a07432a9c80b05565b4448bf10914a40842cbbe352f879af3bcab896ba0429",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-766d1941a0a0b70a701fdabcb448b80b5f5b188ba6b80a27fc9c5c20aa762065",
+              "source_id": "span-64482af3f04973dbe262e8ddd4528c41cb3d25c8fa2a45dc421d6bf7e32ea84d",
+              "sha256": "2488eb4a5d82c60261e2daa90128400adbdbb923c91b7e49c3925e6b64b49172",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-ef9daeec750166b75e87f7bf02a5b67ad44165eeca1a3bb6082c84b80820c48c",
+              "source_id": "span-6c6093b6afcb81723513738e23c4039eb6a4660195939c96b28551b8e27a7fbd",
+              "sha256": "81e26e89bee5089e1589720da4a38fc283e5f104d969e501d77627894877485f",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-49ecca84ee2966a293af514132ea7803797daab8bb23cf8d8af29a2e8a29ad26",
+              "source_id": "span-987c3e35a2b96390fd6b882e5dd4e267c13e320c26f6d37bf0d62da6bcc10694",
+              "sha256": "8fe7bbb1497e0151edddb282c45d70891477a1257859554f0e7eb1d704e9d572",
+              "sequence": 8
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "坤二值符、乾六天芮与主干庚/乙前缀/地辛、艮八开门、坎一惊门按源，前缀不可丢掉。",
+            "citations": [
+              "chart",
+              "context",
+              "law",
+              "court"
+            ],
+            "uncertainties": [
+              "这是历史传统诉讼方法复现，不构成法律意见、证据或真实胜诉保证。"
+            ]
+          },
+          "facts": [
+            [
+              2,
+              "deity"
+            ],
+            [
+              6,
+              "star"
+            ],
+            [
+              6,
+              "heaven_stem"
+            ],
+            [
+              6,
+              "heaven_prefix_marker"
+            ],
+            [
+              6,
+              "earth_stem"
+            ],
+            [
+              8,
+              "door"
+            ],
+            [
+              1,
+              "door"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-513da205725f85774f3f1cd744b3a2fee150b8399802753ae263c3a8bbd7add9",
+              "source_id": "span-2cdb7efe7936071388b157f6e29ba88300b0c87e87a3be54312318849d8a350a",
+              "sha256": "39099988ae66a257053bc0120da18cccec8bd4d577996ffd10113926499f2066",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-707e47982ce919ff29c9294a86d62e4d261beb4c6d6adc2e1bafe4652f18cea9",
+              "source_id": "span-97cdef53de6a37d61185ac4c544a95666f4b64e7ad87d2d2dd51b6b7fda8cc3c",
+              "sha256": "87a07432a9c80b05565b4448bf10914a40842cbbe352f879af3bcab896ba0429",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-766d1941a0a0b70a701fdabcb448b80b5f5b188ba6b80a27fc9c5c20aa762065",
+              "source_id": "span-64482af3f04973dbe262e8ddd4528c41cb3d25c8fa2a45dc421d6bf7e32ea84d",
+              "sha256": "2488eb4a5d82c60261e2daa90128400adbdbb923c91b7e49c3925e6b64b49172",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-ef9daeec750166b75e87f7bf02a5b67ad44165eeca1a3bb6082c84b80820c48c",
+              "source_id": "span-6c6093b6afcb81723513738e23c4039eb6a4660195939c96b28551b8e27a7fbd",
+              "sha256": "81e26e89bee5089e1589720da4a38fc283e5f104d969e501d77627894877485f",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-49ecca84ee2966a293af514132ea7803797daab8bb23cf8d8af29a2e8a29ad26",
+              "source_id": "span-987c3e35a2b96390fd6b882e5dd4e267c13e320c26f6d37bf0d62da6bcc10694",
+              "sha256": "8fe7bbb1497e0151edddb282c45d70891477a1257859554f0e7eb1d704e9d572",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-fe40d2fb53865bdefff1b891231cb1ba3c8bba3da4977fd25a2e942079eaa543",
+              "source_id": "span-f0f93b8b4848dd958bfe243f8b339757eebb91133fc10119d21b367eb6ccf02f",
+              "sha256": "f5256cf4909773346adb1214af884135f59a3ca8f4931c0b88b8c13507ddc678",
+              "sequence": 9
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-513da205725f85774f3f1cd744b3a2fee150b8399802753ae263c3a8bbd7add9",
+              "source_id": "span-2cdb7efe7936071388b157f6e29ba88300b0c87e87a3be54312318849d8a350a",
+              "sha256": "39099988ae66a257053bc0120da18cccec8bd4d577996ffd10113926499f2066",
+              "sequence": 4,
+              "quote": "原告生被告，原告又逢空亡"
+            },
+            {
+              "record_id": "record-707e47982ce919ff29c9294a86d62e4d261beb4c6d6adc2e1bafe4652f18cea9",
+              "source_id": "span-97cdef53de6a37d61185ac4c544a95666f4b64e7ad87d2d2dd51b6b7fda8cc3c",
+              "sha256": "87a07432a9c80b05565b4448bf10914a40842cbbe352f879af3bcab896ba0429",
+              "sequence": 5,
+              "quote": "乙+辛为龙逃走格"
+            },
+            {
+              "record_id": "record-766d1941a0a0b70a701fdabcb448b80b5f5b188ba6b80a27fc9c5c20aa762065",
+              "source_id": "span-64482af3f04973dbe262e8ddd4528c41cb3d25c8fa2a45dc421d6bf7e32ea84d",
+              "sha256": "2488eb4a5d82c60261e2daa90128400adbdbb923c91b7e49c3925e6b64b49172",
+              "sequence": 6,
+              "quote": "开门为法官，在艮8宫为入墓"
+            },
+            {
+              "record_id": "record-ef9daeec750166b75e87f7bf02a5b67ad44165eeca1a3bb6082c84b80820c48c",
+              "source_id": "span-6c6093b6afcb81723513738e23c4039eb6a4660195939c96b28551b8e27a7fbd",
+              "sha256": "81e26e89bee5089e1589720da4a38fc283e5f104d969e501d77627894877485f",
+              "sequence": 7,
+              "quote": "惊门为律师，落坎一宫"
+            },
+            {
+              "record_id": "record-49ecca84ee2966a293af514132ea7803797daab8bb23cf8d8af29a2e8a29ad26",
+              "source_id": "span-987c3e35a2b96390fd6b882e5dd4e267c13e320c26f6d37bf0d62da6bcc10694",
+              "sha256": "8fe7bbb1497e0151edddb282c45d70891477a1257859554f0e7eb1d704e9d572",
+              "sequence": 8,
+              "quote": "开门虽上乘白虎，但不逢庚"
+            }
+          ],
+          "answer": {
+            "explanation": "作者由原告生被告且空、被告乙辛兼囚禁与释放象、法官宫生被告及律师关系，提出可能不当庭判、调解赔偿后缓刑。开门入墓被结合案情解释量刑疑难，并未照“法官糊涂”字面断人；具体赔一万与二年缓三年在后来反馈，不能前置。",
+            "citations": [
+              "chart",
+              "context",
+              "law",
+              "court"
+            ],
+            "uncertainties": [
+              "这是历史传统诉讼方法复现，不构成法律意见、证据或真实胜诉保证。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-405d8fe297401efc0210237a2bf0d70b183dd3a3eacc7cc334ce4d04a69d26cf",
+      "event_id": "event-bd89407e3ce0805137793dea2fd3b6af3b8787c5656fdc88a98645938f4131f4",
+      "family_id": "family-47f75d3976795c0d19038d9392d04783dd547fbb81bd558a77afbe8315bf44c2",
+      "chart_id": "chart-625f6a34ef365ba24148133e041d23d15122b9398afc69fc5f7ad510e622b7b5",
+      "chapter": "17-litigation",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 5,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "问测背景与unknown四柱逐句开放；首断、反馈、作者批评分开，不能用已知结果证明错误取用。",
+      "known_source_window_review": "问测背景与unknown四柱逐句开放；首断、反馈、作者批评分开，不能用已知结果证明错误取用。",
+      "known": [
+        {
+          "record_id": "record-bac8294b95d22ec5f5a7817e8f4264699ce6d11fb9d04943c1ad0d4cb5d78923",
+          "source_id": "span-c9af9f030e46eb2fa30acfec5e89d5650b32ec3a8c61e8d27733d627f93226fe",
+          "sha256": "f43d35b78681b78e220ba15fe09470477d26493d36f07099cc1698cea773f567",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-45f12f38d7a87d8d38f61607f68bd092e98ef33bb0ad1672159a1e2bf0c7f7c5",
+          "source_id": "span-b4e7a15dde9ca8cfe1f7a7dd22e449d001cbfa80e2e03e96fb2f8c8b7037fd31",
+          "sha256": "db0c6eda6053fde494c06fc5cdb2f2103bd220bc9e61e45590dcc6c9c0b51754",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-290ec71044a03517ba0fb278e90d21192752775a6980ed79cbcfb7f44063d0aa",
+          "source_id": "span-fc90b65a0aeab4930b4e9f5433c1de1abcd05d1927b363a51aa84bb3f4e2b126",
+          "sha256": "7308013020606ee02dcc0c19cbfce2580047abc9da16bf040a5a741734037fa1",
+          "sequence": 2
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "law": "一般以值符为原告，以天乙",
+        "court": "以开门为法官，以六合为证人证据，以景门为诉状"
+      },
+      "provided_roles": [
+        "按本例亲属、原被告、法院与证据角色分别绑定"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-55c75253fed67aab2f6c004c4c2d9012fb2c49d6521c45b360f412f0b2dd6876",
+              "source_id": "span-e65720e5bfcc9cda17fcb5eaea63edcbe4a80e17ff88700de9ed17a12ae052be",
+              "sha256": "914d6940f384c5d3a350c133ac9f375c918e03dc01f1c0e6ede048d4b71d9182",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-90f2643ebb89127e33e4908cc0468146520c4bf94b01c779ac62882a837b3cec",
+              "source_id": "span-caa564c508d12648d619fc64d96bb468151e6cd44b5cf80419ae330cd985d5b5",
+              "sha256": "cb5b4ec75500e0538c496bc336d1144d3dca35ce814a18f59eaf1ca9ed6b1959",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-bc1bce795698ef359874cfe745209e030e2fd8aa9b19c0feee0e78a27b89762a",
+              "source_id": "span-498f9f3ba4ef21aeae9c31fa86dd4a762e41e2cd634192a99941d7b62db2ebce",
+              "sha256": "cdcf8fb006cd49e81e8994cfb7dc43248b095be702b7724dec90554a132d9be8",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "本人问灾，日丁本人、时辛事项、戊钱财分别看。开头没有具体诉讼角色信息，不将后来“乙被告”的错误取法当第一轮正确绑定。",
+            "citations": [
+              "chart",
+              "context",
+              "law",
+              "court"
+            ],
+            "uncertainties": [
+              "这是历史传统诉讼方法复现，不构成法律意见、证据或真实胜诉保证。"
+            ],
+            "bindings": [
+              {
+                "role": "求测者、事项、钱财",
+                "symbol": "日干丁、时干辛、甲子戊",
+                "condition": "本例初问吉凶"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-55c75253fed67aab2f6c004c4c2d9012fb2c49d6521c45b360f412f0b2dd6876",
+              "source_id": "span-e65720e5bfcc9cda17fcb5eaea63edcbe4a80e17ff88700de9ed17a12ae052be",
+              "sha256": "914d6940f384c5d3a350c133ac9f375c918e03dc01f1c0e6ede048d4b71d9182",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-90f2643ebb89127e33e4908cc0468146520c4bf94b01c779ac62882a837b3cec",
+              "source_id": "span-caa564c508d12648d619fc64d96bb468151e6cd44b5cf80419ae330cd985d5b5",
+              "sha256": "cb5b4ec75500e0538c496bc336d1144d3dca35ce814a18f59eaf1ca9ed6b1959",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-bc1bce795698ef359874cfe745209e030e2fd8aa9b19c0feee0e78a27b89762a",
+              "source_id": "span-498f9f3ba4ef21aeae9c31fa86dd4a762e41e2cd634192a99941d7b62db2ebce",
+              "sha256": "cdcf8fb006cd49e81e8994cfb7dc43248b095be702b7724dec90554a132d9be8",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "丁坤二开门白虎、辛艮八杜门照表；已知身体受伤是在下一轮反馈，不能在这题当先验。",
+            "citations": [
+              "chart",
+              "context",
+              "law",
+              "court"
+            ],
+            "uncertainties": [
+              "这是历史传统诉讼方法复现，不构成法律意见、证据或真实胜诉保证。"
+            ]
+          },
+          "facts": [
+            [
+              2,
+              "heaven_stem"
+            ],
+            [
+              2,
+              "door"
+            ],
+            [
+              2,
+              "deity"
+            ],
+            [
+              8,
+              "heaven_stem"
+            ],
+            [
+              8,
+              "door"
+            ]
+          ]
+        }
+      ],
+      "case_id": "case-5b9217acf0d3c19410d8ba81171c9a1752b5d7200e409d8881635c957ac8646f",
+      "event_id": "event-4665743eaf32901a510ae72f6c1a740fad86c0e3a1aa6314d907d92047695cdc",
+      "family_id": "family-815bc11976c26d6f1240b5e252de460e1623d18bc1a6c51c953463c5137bd269",
+      "chart_id": "chart-a71048eb6fda9aefe086e925b4cc0cb6d52aeae96efe0fb3d58e84a7e44c08cd",
+      "chapter": "17-litigation",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 5,
+      "stage": "wrong_role_critique",
+      "mode": "retrospective",
+      "source_prediction_window_review": "问测背景与unknown四柱逐句开放；首断、反馈、作者批评分开，不能用已知结果证明错误取用。",
+      "known_source_window_review": "问测背景与unknown四柱逐句开放；首断、反馈、作者批评分开，不能用已知结果证明错误取用。",
+      "known": [
+        {
+          "record_id": "record-bac8294b95d22ec5f5a7817e8f4264699ce6d11fb9d04943c1ad0d4cb5d78923",
+          "source_id": "span-c9af9f030e46eb2fa30acfec5e89d5650b32ec3a8c61e8d27733d627f93226fe",
+          "sha256": "f43d35b78681b78e220ba15fe09470477d26493d36f07099cc1698cea773f567",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-45f12f38d7a87d8d38f61607f68bd092e98ef33bb0ad1672159a1e2bf0c7f7c5",
+          "source_id": "span-b4e7a15dde9ca8cfe1f7a7dd22e449d001cbfa80e2e03e96fb2f8c8b7037fd31",
+          "sha256": "db0c6eda6053fde494c06fc5cdb2f2103bd220bc9e61e45590dcc6c9c0b51754",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-290ec71044a03517ba0fb278e90d21192752775a6980ed79cbcfb7f44063d0aa",
+          "source_id": "span-fc90b65a0aeab4930b4e9f5433c1de1abcd05d1927b363a51aa84bb3f4e2b126",
+          "sha256": "7308013020606ee02dcc0c19cbfce2580047abc9da16bf040a5a741734037fa1",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-55c75253fed67aab2f6c004c4c2d9012fb2c49d6521c45b360f412f0b2dd6876",
+          "source_id": "span-e65720e5bfcc9cda17fcb5eaea63edcbe4a80e17ff88700de9ed17a12ae052be",
+          "sha256": "914d6940f384c5d3a350c133ac9f375c918e03dc01f1c0e6ede048d4b71d9182",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-90f2643ebb89127e33e4908cc0468146520c4bf94b01c779ac62882a837b3cec",
+          "source_id": "span-caa564c508d12648d619fc64d96bb468151e6cd44b5cf80419ae330cd985d5b5",
+          "sha256": "cb5b4ec75500e0538c496bc336d1144d3dca35ce814a18f59eaf1ca9ed6b1959",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-bc1bce795698ef359874cfe745209e030e2fd8aa9b19c0feee0e78a27b89762a",
+          "source_id": "span-498f9f3ba4ef21aeae9c31fa86dd4a762e41e2cd634192a99941d7b62db2ebce",
+          "sha256": "cdcf8fb006cd49e81e8994cfb7dc43248b095be702b7724dec90554a132d9be8",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-778414cccfb5fb4a4acf1f56e41e0e4feb8c3c5e469e81f0ef67b08de2db5d20",
+          "source_id": "span-d3cd744abdb4b30bac2040e050dda4669f773edeab0ac9301d2d2992d395b83b",
+          "sha256": "b6b81f1e14babed953baea193e6c3bff37dc88ae49426a8502eacbaaec33cb3e",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-1115f5f9fda6a02091fe551489d3238a494ed5dd6c98b424dd64166ea3f27be2",
+          "source_id": "span-c637da135570218ded6b68baa978addac7850165b923d4cc2daeb58dab22a61c",
+          "sha256": "8da248776b9bde9bce8a3996aa85b71065c73ab08d8b9ecba0eb48d814d7c144",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-197db6de4983b9878761db829f04e47472eb0d2d88a585de71a8b16a7a2e0729",
+          "source_id": "span-f81d0db03885ad8ee7ab0eaeab770456655384a1649438ce301b5e99265eb0ad",
+          "sha256": "aeb4387d8f7d2aa8b9a6b13d8ba349acc0e7e0f798285d126cafedc5590c7bb0",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-799bd3666222367660cbb6f7cb5e578602d87dc28c46d313367d4dc310a632b2",
+          "source_id": "span-84025b269eadb76a6ca5a5b38f314f4bd7cf89f4d6583e743421eb9e2bfb58de",
+          "sha256": "5ae968b3fa6d280e18fc2b78be7f1ad97d0413960d3aabf9de00cbbb2369782d",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-84e456155429798ec051d95ba8280b2e93468442d26c6b2e376800c0243dc19d",
+          "source_id": "span-2f5634c20aa03031d3bc1b70a3e9df086a026e98c0864ce4c890759f4cf15da2",
+          "sha256": "8b3e58c20526c127a2747ab437d4565910f4b695a979df7f4080f6df6e944d1a",
+          "sequence": 10
+        }
+      ],
+      "cutoff": 11,
+      "rules": {
+        "law": "一般以值符为原告，以天乙",
+        "court": "以开门为法官，以六合为证人证据，以景门为诉状"
+      },
+      "provided_roles": [
+        "按本例亲属、原被告、法院与证据角色分别绑定"
+      ],
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-57cf3bf154c42910a7ef683f254f498e84d0032b830119320c70a4a24723a51c",
+              "source_id": "span-3dac2904a7e265c9317f221fc3325523dbed63b0015983cb02c5b710e05fbba0",
+              "sha256": "96f28cd026a1ea20667e1b696cfc86673e03806589a4a754b77aa7887ac73adb",
+              "sequence": 11
+            },
+            {
+              "record_id": "record-d68bc0ac9dc684395b98af08bb4505fb5cf727e20f5761fce26c78b265ed3537",
+              "source_id": "span-2ae8a245661e2a8fcb6463f67852f5937f81129872c391fefa3c81e40fb5a22f",
+              "sha256": "17bb07051af6cf175207f021e1f8883de77f2a23f3d60f052271d748945741f8",
+              "sequence": 12
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "作者在已知裁决后批评学员取乙为被告、断必输并不成立，也指出值使生门被告法在此例关系不符；按其主张天乙天任为被告，原被告同宫、法院比和冲，解释各自医药费与还债的公平处理。学员结果方向近似并不能证明原取用正确，不能只奖励“赢了”而忽略方法错误。",
+            "citations": [
+              "chart",
+              "context",
+              "law",
+              "court"
+            ],
+            "uncertainties": [
+              "这是历史传统诉讼方法复现，不构成法律意见、证据或真实胜诉保证。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-5b9217acf0d3c19410d8ba81171c9a1752b5d7200e409d8881635c957ac8646f",
+      "event_id": "event-4665743eaf32901a510ae72f6c1a740fad86c0e3a1aa6314d907d92047695cdc",
+      "family_id": "family-815bc11976c26d6f1240b5e252de460e1623d18bc1a6c51c953463c5137bd269",
+      "chart_id": "chart-a71048eb6fda9aefe086e925b4cc0cb6d52aeae96efe0fb3d58e84a7e44c08cd",
+      "chapter": "17-litigation",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 6,
+      "stage": "first",
+      "mode": "retrospective",
+      "source_prediction_window_review": "问测背景与unknown四柱逐句开放；首断、反馈、作者批评分开，不能用已知结果证明错误取用。",
+      "known_source_window_review": "问测背景与unknown四柱逐句开放；首断、反馈、作者批评分开，不能用已知结果证明错误取用。",
+      "known": [
+        {
+          "record_id": "record-f872e74310a176e30d54ad424b19b6f69153013b9bd744eb48a4bba14136069d",
+          "source_id": "span-e1c461876fa71f04817a82afdb2913e728d588b9c8ae133ced48a7801d51a116",
+          "sha256": "6598f38440c7528213a1817b03195026e61041e0310d00dc05423b500fe74c90",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-fb150f315ba147d57385e0e36ab02b3e0be4293fcca50914d57acabbf024505f",
+          "source_id": "span-70efd917074d04502464a8ec236017f5fc10119a02552019182f9d89316dd997",
+          "sha256": "d167fdb6e5c5cd7eba531ed631beac46a2d72eb6ed3918a7d1dfc489eae57b1c",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-dbb782368eb62aa8eca05a160721726a5f818d5313581dd67208623f19423b99",
+          "source_id": "span-62c849478277093d06d3c4037a68ce33cac37b765bf7420cf8c169c701baa681",
+          "sha256": "15786229f1466426b6a493df2021aa896fad1905c231560d57b38371fa345117",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-8bb3019d7adaa46933741ec59632bbd15687f7fc34c9abd75b8d6f93a13074ef",
+          "source_id": "span-75fec24a10d6829e3ae8346ac3724a16af486a618aaf6be13738e1584f66bf43",
+          "sha256": "ded014c8701ce77101ec91018acec5bc865034f6f206df0c51125c6173ed0f54",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-89ddfb73729682e35220097f8c0fa7455e997489ee57bb4241621a8da62dacd1",
+          "source_id": "span-c32a071ca8ca14f1f6185db9f2e88b5b02298cf28d1ccab7a77e6d4ca3f23367",
+          "sha256": "738a49d7ec70dd72b473c483e34db1bef460da1ddabf533cfe4558064e36c061",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-5992d544acf5801dec2a021ea1151de55067ea31efa1ff51e5380c74352de74d",
+          "source_id": "span-38015e231a5601618518161a407097f4b22a04d533732ec68e92681d0a0664eb",
+          "sha256": "5c3a9a89a3164aef2405ecf10538b2fb336c93daba2ba7d8c033d9e4880172c3",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-abb9e1d0658c16fa05f75d61ebd3f35bccf32c33a896273a5afa1de5a8f4880b",
+          "source_id": "span-4ac20d9f053db069fdac864d1c220b9b70e81cc741eedc2617c3d2bee1040b9b",
+          "sha256": "2ec0b4447ddf53cc9d672334be6afc24c2197c3da78791ed9a16d045a23ff7ca",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-dd7bb340b0b753da6fc5733218752dcdeaec5bff652285ea296acbd7b001b198",
+          "source_id": "span-105c0d6080f548af1c1dcff0b21e415a32952e6f48f23cf1d841b6aee1baccfe",
+          "sha256": "d17b7ca5566e5d6e1ce898bdfb8decce82f0ddd37ecd7c120ea2cb14fa391891",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-6c03e074660febc66e8d65cb71dc65573d7769f08f1ee7012cda8d3c2c1256ac",
+          "source_id": "span-d77e987f9dd3e5f0ba3989987df3d678e035acc2e41fed42623b327f1ef0d441",
+          "sha256": "9d595df35d0692eb20c8c9e65cbb82337e4bfab11512614971d4b6b7ad0d1bef",
+          "sequence": 8
+        }
+      ],
+      "cutoff": 10,
+      "rules": {
+        "law": "一般以值符为原告，以天乙",
+        "court": "以开门为法官，以六合为证人证据，以景门为诉状"
+      },
+      "provided_roles": [
+        "按本例亲属、原被告、法院与证据角色分别绑定"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-efe6d1be5b3732d46bd7cf7dc506d6d593b719c39c32ebe14427d3e7d7a37a93",
+              "source_id": "span-ff77403e028eb94adda415a4776ca32a34f5963b9f83961604ae5a42eebf90ba",
+              "sha256": "c8ba8a0629859333e4971d6de1de155b70b591c0750299bf8cc13d6a5e60f049",
+              "sequence": 10
+            },
+            {
+              "record_id": "record-840f732b75fec746a1796af2efcbebf7d2d99d771546eb7b2d1781a3544003e0",
+              "source_id": "span-cd15c2095fd309767173b031035d03c70ac70e9651fdbbf1899c02e4c1e0ea3a",
+              "sha256": "8d78acf99b9f4114a0a47c2a08589b948097e94cdb4dd1b08720fffaf4c0f702",
+              "sequence": 12
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "劳动纠纷来源复盘中，值符老李原告、天乙天冲厂长被告、开门仲裁机关，日丙本人、时丁事项。不能把仲裁机关直接说成法院，也不能把“原告胜”与最终撤诉调解强行合成判决胜诉。",
+            "citations": [
+              "chart",
+              "context",
+              "law",
+              "court"
+            ],
+            "uncertainties": [
+              "这是历史传统诉讼方法复现，不构成法律意见、证据或真实胜诉保证。"
+            ],
+            "bindings": [
+              {
+                "role": "老李、厂长、仲裁机关",
+                "symbol": "值符、天乙天冲、开门",
+                "condition": "本例劳动仲裁角色"
+              },
+              {
+                "role": "本人、事项主客",
+                "symbol": "日干丙、时干丁及其天地盘",
+                "condition": "策略视角另列"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-efe6d1be5b3732d46bd7cf7dc506d6d593b719c39c32ebe14427d3e7d7a37a93",
+              "source_id": "span-ff77403e028eb94adda415a4776ca32a34f5963b9f83961604ae5a42eebf90ba",
+              "sha256": "c8ba8a0629859333e4971d6de1de155b70b591c0750299bf8cc13d6a5e60f049",
+              "sequence": 10
+            },
+            {
+              "record_id": "record-840f732b75fec746a1796af2efcbebf7d2d99d771546eb7b2d1781a3544003e0",
+              "source_id": "span-cd15c2095fd309767173b031035d03c70ac70e9651fdbbf1899c02e4c1e0ea3a",
+              "sha256": "8d78acf99b9f4114a0a47c2a08589b948097e94cdb4dd1b08720fffaf4c0f702",
+              "sequence": 12
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "值符开门震三、天冲丁下丙坤二、日丙坎一按表；原文壬寄坤的说明与各主干分开，不擅改字段。",
+            "citations": [
+              "chart",
+              "context",
+              "law",
+              "court"
+            ],
+            "uncertainties": [
+              "这是历史传统诉讼方法复现，不构成法律意见、证据或真实胜诉保证。"
+            ]
+          },
+          "facts": [
+            [
+              3,
+              "deity"
+            ],
+            [
+              3,
+              "door"
+            ],
+            [
+              2,
+              "star"
+            ],
+            [
+              2,
+              "heaven_stem"
+            ],
+            [
+              2,
+              "earth_stem"
+            ],
+            [
+              1,
+              "heaven_stem"
+            ]
+          ]
+        },
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-efe6d1be5b3732d46bd7cf7dc506d6d593b719c39c32ebe14427d3e7d7a37a93",
+              "source_id": "span-ff77403e028eb94adda415a4776ca32a34f5963b9f83961604ae5a42eebf90ba",
+              "sha256": "c8ba8a0629859333e4971d6de1de155b70b591c0750299bf8cc13d6a5e60f049",
+              "sequence": 10
+            },
+            {
+              "record_id": "record-840f732b75fec746a1796af2efcbebf7d2d99d771546eb7b2d1781a3544003e0",
+              "source_id": "span-cd15c2095fd309767173b031035d03c70ac70e9651fdbbf1899c02e4c1e0ea3a",
+              "sha256": "8d78acf99b9f4114a0a47c2a08589b948097e94cdb4dd1b08720fffaf4c0f702",
+              "sequence": 12
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-efe6d1be5b3732d46bd7cf7dc506d6d593b719c39c32ebe14427d3e7d7a37a93",
+              "source_id": "span-ff77403e028eb94adda415a4776ca32a34f5963b9f83961604ae5a42eebf90ba",
+              "sha256": "c8ba8a0629859333e4971d6de1de155b70b591c0750299bf8cc13d6a5e60f049",
+              "sequence": 10,
+              "quote": "值符为原告，开门为仲裁机关，同落震3官属木"
+            },
+            {
+              "record_id": "record-efe6d1be5b3732d46bd7cf7dc506d6d593b719c39c32ebe14427d3e7d7a37a93",
+              "source_id": "span-ff77403e028eb94adda415a4776ca32a34f5963b9f83961604ae5a42eebf90ba",
+              "sha256": "c8ba8a0629859333e4971d6de1de155b70b591c0750299bf8cc13d6a5e60f049",
+              "sequence": 10,
+              "quote": "天乙天冲星为被告落坤二宫属土"
+            },
+            {
+              "record_id": "record-840f732b75fec746a1796af2efcbebf7d2d99d771546eb7b2d1781a3544003e0",
+              "source_id": "span-cd15c2095fd309767173b031035d03c70ac70e9651fdbbf1899c02e4c1e0ea3a",
+              "sha256": "8d78acf99b9f4114a0a47c2a08589b948097e94cdb4dd1b08720fffaf4c0f702",
+              "sequence": 12,
+              "quote": "天盘丁奇为客，地盘丁奇为主"
+            },
+            {
+              "record_id": "record-840f732b75fec746a1796af2efcbebf7d2d99d771546eb7b2d1781a3544003e0",
+              "source_id": "span-cd15c2095fd309767173b031035d03c70ac70e9651fdbbf1899c02e4c1e0ea3a",
+              "sha256": "8d78acf99b9f4114a0a47c2a08589b948097e94cdb4dd1b08720fffaf4c0f702",
+              "sequence": 12,
+              "quote": "从时干、日干上看，均利主"
+            }
+          ],
+          "answer": {
+            "explanation": "已知处分争议与和解撤诉后复盘，作者以原告仲裁宫克被告宫说明对老李有利，又分别比较日时天地盘主克客，选择等对方主动、见好收的历史策略。结果是撤诉、撤处分及补发款等协商处理，不应统一标为法院判决胜诉，更不能据主客符号作现实法律保证。",
+            "citations": [
+              "chart",
+              "context",
+              "law",
+              "court"
+            ],
+            "uncertainties": [
+              "这是历史传统诉讼方法复现，不构成法律意见、证据或真实胜诉保证。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-39d214819044fc65ceb2b312c58f14e189e2c732b554748a6b55d962f24dee84",
+      "event_id": "event-6536abeffed4b3fa0c105174d29c44cc233b81a4ee3426e9541625a63c9808e4",
+      "family_id": "family-23c42fb26da8d1954e07acb1569f92e13e8a68587f3d39d4d293b737c69542c9",
+      "chart_id": "chart-e5fa813e7a5b94e37036e9140c7e78b3356a5bf9f3801cfb9d8e0071bda3ce27",
+      "chapter": "17-litigation",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    }
+  ]
+}

@@ -1,0 +1,1066 @@
+{
+  "schema": "book-method-semantic-review-v1",
+  "source_data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "reviewed_by": "Codex source-grounded semantic curation",
+  "rows": [
+    {
+      "case": 1,
+      "stage": "first_weather",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "逐句审读天气目标、起局时间和给定星门干条件；不把其他六爻结果或后来实际天气提前提供。",
+      "known_source_window_review": "逐句审读天气目标、起局时间和给定星门干条件；不把其他六爻结果或后来实际天气提前提供。",
+      "known": [
+        {
+          "record_id": "record-27cd287cf3d59004af10eef42ade90c928ebd4ee87633c78ae4e209f60add57e",
+          "source_id": "span-d961983d47242aef56a90fada6100d0711a28de9908c334480e4f3177b88717c",
+          "sha256": "42bf5feb5b489766bdb195a93568c1db70891b433f39be9cf0915cf22845331e",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-6106908610c61d7f90797546d317b596820c408f67e8232bfb7f27d2cb173ceb",
+          "source_id": "span-38818a1939ccbddbccd3d6bab210d3b77953e3eabf9b1468ea22fcbe78001c22",
+          "sha256": "20cbd59106a059efe5d3ae4a0510312696474ecfb5e5c2627d2bb182c280282d",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-a21b1736e9b7a923bb72be1565203beacae7155476539e3c6cabded028d43299",
+          "source_id": "span-7ec75d5561406b65dee8622231b17867da501e29c61d30770c7e8c10173b44dd",
+          "sha256": "53d4d6e5045d00a22c0681f870f855ac439c9698df94434b257645aea07a11e4",
+          "sequence": 2
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "weather": "预测天气，以九星为主，兼看天干、八门、八神及其落宫状况",
+        "rain": "天蓬、天柱如果不乘壬癸水神，即使游于一三七宫，也不下雨"
+      },
+      "provided_roles": [
+        "天英晴、天柱雨师、天蓬水、天辅风，兼壬癸与门神"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-3d6652895e2cad20791acbf8c7e0c9a117a8565bebbb774c9da4030e2e1662d9",
+              "source_id": "span-62ebe5a583ba0c1cb1b36c61bd2a2a8db2c2e4f0077ea02687e098e2de2aab17",
+              "sha256": "e7c367a77c35aa64a9168cc2abc174b1383d8f6593b16ea4e77322ad62c37515",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-201c9453d9170311ee9d65c8949227c9929284a88e73458e2eec14f6f5c25342",
+              "source_id": "span-15349fc27a6497467944450b56684fc22a80a4de4a553463ed1bc60c99a65cd6",
+              "sha256": "80a65801fd7298ed261ed4985877554b3faa250a73b3d82a2bf221e9c4421e32",
+              "sequence": 4
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "天气题以九星为主，天柱雨师、天蓬水神与是否带壬癸，天英晴象另比，不能用日干求测人来代替天气用神。这里按预定8月3用事时起局，不把7月26问时混成同一盘。",
+            "citations": [
+              "chart",
+              "context",
+              "weather",
+              "rain"
+            ],
+            "uncertainties": [
+              "原文说明未将天气列入现代研究项目；这里学习历史方法，不作现代天气预报效果证明。"
+            ],
+            "bindings": [
+              {
+                "role": "晴、雨、水",
+                "symbol": "天英、天柱、天蓬",
+                "condition": "天气星法，兼壬癸条件"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-3d6652895e2cad20791acbf8c7e0c9a117a8565bebbb774c9da4030e2e1662d9",
+              "source_id": "span-62ebe5a583ba0c1cb1b36c61bd2a2a8db2c2e4f0077ea02687e098e2de2aab17",
+              "sha256": "e7c367a77c35aa64a9168cc2abc174b1383d8f6593b16ea4e77322ad62c37515",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-201c9453d9170311ee9d65c8949227c9929284a88e73458e2eec14f6f5c25342",
+              "source_id": "span-15349fc27a6497467944450b56684fc22a80a4de4a553463ed1bc60c99a65cd6",
+              "sha256": "80a65801fd7298ed261ed4985877554b3faa250a73b3d82a2bf221e9c4421e32",
+              "sequence": 4
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "天柱震三、天蓬离九、天英坎一及休门玄武按源；不能单见雨师在震宫就断下雨。",
+            "citations": [
+              "chart",
+              "context",
+              "weather",
+              "rain"
+            ],
+            "uncertainties": [
+              "原文说明未将天气列入现代研究项目；这里学习历史方法，不作现代天气预报效果证明。"
+            ]
+          },
+          "facts": [
+            [
+              3,
+              "star"
+            ],
+            [
+              9,
+              "star"
+            ],
+            [
+              1,
+              "star"
+            ],
+            [
+              1,
+              "door"
+            ],
+            [
+              1,
+              "deity"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-3d6652895e2cad20791acbf8c7e0c9a117a8565bebbb774c9da4030e2e1662d9",
+              "source_id": "span-62ebe5a583ba0c1cb1b36c61bd2a2a8db2c2e4f0077ea02687e098e2de2aab17",
+              "sha256": "e7c367a77c35aa64a9168cc2abc174b1383d8f6593b16ea4e77322ad62c37515",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-201c9453d9170311ee9d65c8949227c9929284a88e73458e2eec14f6f5c25342",
+              "source_id": "span-15349fc27a6497467944450b56684fc22a80a4de4a553463ed1bc60c99a65cd6",
+              "sha256": "80a65801fd7298ed261ed4985877554b3faa250a73b3d82a2bf221e9c4421e32",
+              "sequence": 4
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-3d6652895e2cad20791acbf8c7e0c9a117a8565bebbb774c9da4030e2e1662d9",
+              "source_id": "span-62ebe5a583ba0c1cb1b36c61bd2a2a8db2c2e4f0077ea02687e098e2de2aab17",
+              "sha256": "e7c367a77c35aa64a9168cc2abc174b1383d8f6593b16ea4e77322ad62c37515",
+              "sequence": 3,
+              "quote": "天柱星为雨师，虽落入震3宫，但不带壬、癸"
+            },
+            {
+              "record_id": "record-3d6652895e2cad20791acbf8c7e0c9a117a8565bebbb774c9da4030e2e1662d9",
+              "source_id": "span-62ebe5a583ba0c1cb1b36c61bd2a2a8db2c2e4f0077ea02687e098e2de2aab17",
+              "sha256": "e7c367a77c35aa64a9168cc2abc174b1383d8f6593b16ea4e77322ad62c37515",
+              "sequence": 3,
+              "quote": "天蓬星为水神，落入离9宫，也不带壬、癸"
+            },
+            {
+              "record_id": "record-201c9453d9170311ee9d65c8949227c9929284a88e73458e2eec14f6f5c25342",
+              "source_id": "span-15349fc27a6497467944450b56684fc22a80a4de4a553463ed1bc60c99a65cd6",
+              "sha256": "80a65801fd7298ed261ed4985877554b3faa250a73b3d82a2bf221e9c4421e32",
+              "sequence": 4,
+              "quote": "天英星落入坎宫，火入水乡，又临玄武、休门之水"
+            }
+          ],
+          "answer": {
+            "explanation": "作者先检天柱天蓬都不带壬癸而缺降雨条件，再看天英虽得时却落坎水、休门玄武，故提出无雨而可能阴。后面整日无雨及9点半仪式实际经过尚未开放，不能用成事反馈支持初断。",
+            "citations": [
+              "chart",
+              "context",
+              "weather",
+              "rain"
+            ],
+            "uncertainties": [
+              "原文说明未将天气列入现代研究项目；这里学习历史方法，不作现代天气预报效果证明。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-32daa0de0ee1dad256fc6df500e460514f9fbe42b07518b0c9d3fb63596f3234",
+      "event_id": "event-3b0c675d43e02f8c2c44826faf0815fdd771ff81a62966c89685b267bb8c7fd4",
+      "family_id": "family-927d0a75bf1eabf95452c4331fda1b9a7fc1f2b37a90620ff0325b68fdfe4bb5",
+      "chart_id": "chart-e3ac29caf1845aedfc8b8bb689d4671df7072a160576c78c5bb093ab5b0fd9da",
+      "chapter": "19-weather-prediction",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 2,
+      "stage": "first_weather",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "逐句审读天气目标、起局时间和给定星门干条件；不把其他六爻结果或后来实际天气提前提供。",
+      "known_source_window_review": "逐句审读天气目标、起局时间和给定星门干条件；不把其他六爻结果或后来实际天气提前提供。",
+      "known": [
+        {
+          "record_id": "record-822c689623e95d037939e1862f9400e48120c4886d03fdeb4a3692bba1bbad4a",
+          "source_id": "span-7ec8d896885dac29bbb494827cf4c04ab11bea24f47825e54ab37458976ff280",
+          "sha256": "b0db377a4870bc7364c858637365e452b500d7dd5455070c8cc658cb3e308a25",
+          "sequence": 0,
+          "quote": "1994年5月份，我在石家庄举办周易讲习班，主要研究六爻预测，5月4日至10日要赴河南参加老子国际学术研讨会，到5月11日才能重新上课。为了让学员亲自体验一下周易的预测功能，我在5月3日晚上讲课时，当场作了一项实验，这就是提前8天，预测5月11日的天气状况。"
+        },
+        {
+          "record_id": "record-b2dfe534eac482687ced28a6f256d7070d50401f16053457dbe7cda5da093802",
+          "source_id": "span-45bf517f8188890b5a58b189d0d9171acf0dfaf7fe0bf33a939119fe516a0923",
+          "sha256": "0550708f89deb432f6748810757daa351a6d631a626de51ced6ec7dbb8192aa6",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-31ebd62a4d61fe38b819df5c7481356230e86f430a786c303034d030eaacfad9",
+          "source_id": "span-9f6eadffc7de98eebc796e2f74f978262c3cc15449c3575ab01d566360a3b1ac",
+          "sha256": "63e585267bcdbb09b8c59bdc7c1ec02d6ac65a98c067c70f5363c6fa87a00eec",
+          "sequence": 2
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "weather": "预测天气，以九星为主，兼看天干、八门、八神及其落宫状况",
+        "rain": "天蓬、天柱如果不乘壬癸水神，即使游于一三七宫，也不下雨"
+      },
+      "provided_roles": [
+        "天英晴、天柱雨师、天蓬水、天辅风，兼壬癸与门神"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-4509731a380b7c2f82032d305042f25dac7c416bdc9127f0f6034b603d1e75e0",
+              "source_id": "span-5001d91f7202c6b823846d50d85740eab8b0e8c1e3785c55012fa956e4f8f306",
+              "sha256": "e77e58cb7cddd7288b833f1a12b45f4c7ebb86ae4224cd5b1d4aef27d56cb2da",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-9b0d3c2af73f1cb488ca3ead56ca62c9d47cd8b5dc537db57bbd3bc846dd391c",
+              "source_id": "span-9d6c59b2ba40dac8532d3cf843887d3c1de22ecaf69ab8a498d96b6e5d5ab82b",
+              "sha256": "ab7dbcdc3799b0a80e5f97490073975fc01e677466053258bb69f078e8f8fd69",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-d8486c24b82ca9f53f66ab0d7a5c86530bebfbe5f2a23c00092967855b189ef6",
+              "source_id": "span-bfc9db6695d933e9fd448bea88aecab0838f8752220b76d8890e2f1ebc2aa320",
+              "sha256": "b00bc359907bf057694b383cc0b297ef620a27ad5b41c9d97d426909ed37c22f",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "本题只研究按5月3问时奇门对5月11天气的判断：天英与景门晴、天柱天蓬雨、壬癸水与天辅风分别比较，不把同晚三个六爻卦结论当奇门输入或独立三例。",
+            "citations": [
+              "chart",
+              "context",
+              "weather",
+              "rain"
+            ],
+            "uncertainties": [
+              "原文说明未将天气列入现代研究项目；这里学习历史方法，不作现代天气预报效果证明。"
+            ],
+            "bindings": [
+              {
+                "role": "晴、雨、风",
+                "symbol": "天英景门；天柱天蓬壬癸；天辅",
+                "condition": "奇门天气法，不混其他占法结论"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-4509731a380b7c2f82032d305042f25dac7c416bdc9127f0f6034b603d1e75e0",
+              "source_id": "span-5001d91f7202c6b823846d50d85740eab8b0e8c1e3785c55012fa956e4f8f306",
+              "sha256": "e77e58cb7cddd7288b833f1a12b45f4c7ebb86ae4224cd5b1d4aef27d56cb2da",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-9b0d3c2af73f1cb488ca3ead56ca62c9d47cd8b5dc537db57bbd3bc846dd391c",
+              "source_id": "span-9d6c59b2ba40dac8532d3cf843887d3c1de22ecaf69ab8a498d96b6e5d5ab82b",
+              "sha256": "ab7dbcdc3799b0a80e5f97490073975fc01e677466053258bb69f078e8f8fd69",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-d8486c24b82ca9f53f66ab0d7a5c86530bebfbe5f2a23c00092967855b189ef6",
+              "source_id": "span-bfc9db6695d933e9fd448bea88aecab0838f8752220b76d8890e2f1ebc2aa320",
+              "sha256": "b00bc359907bf057694b383cc0b297ef620a27ad5b41c9d97d426909ed37c22f",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "天英兑七乙、景门坎一、壬离九、癸与天辅坤二照表；未来日期月令与旬空填实是另给条件，不是独立校历。",
+            "citations": [
+              "chart",
+              "context",
+              "weather",
+              "rain"
+            ],
+            "uncertainties": [
+              "原文说明未将天气列入现代研究项目；这里学习历史方法，不作现代天气预报效果证明。"
+            ]
+          },
+          "facts": [
+            [
+              7,
+              "star"
+            ],
+            [
+              7,
+              "heaven_stem"
+            ],
+            [
+              1,
+              "door"
+            ],
+            [
+              9,
+              "heaven_stem"
+            ],
+            [
+              2,
+              "heaven_stem"
+            ],
+            [
+              2,
+              "star"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-4509731a380b7c2f82032d305042f25dac7c416bdc9127f0f6034b603d1e75e0",
+              "source_id": "span-5001d91f7202c6b823846d50d85740eab8b0e8c1e3785c55012fa956e4f8f306",
+              "sha256": "e77e58cb7cddd7288b833f1a12b45f4c7ebb86ae4224cd5b1d4aef27d56cb2da",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-9b0d3c2af73f1cb488ca3ead56ca62c9d47cd8b5dc537db57bbd3bc846dd391c",
+              "source_id": "span-9d6c59b2ba40dac8532d3cf843887d3c1de22ecaf69ab8a498d96b6e5d5ab82b",
+              "sha256": "ab7dbcdc3799b0a80e5f97490073975fc01e677466053258bb69f078e8f8fd69",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-d8486c24b82ca9f53f66ab0d7a5c86530bebfbe5f2a23c00092967855b189ef6",
+              "source_id": "span-bfc9db6695d933e9fd448bea88aecab0838f8752220b76d8890e2f1ebc2aa320",
+              "sha256": "b00bc359907bf057694b383cc0b297ef620a27ad5b41c9d97d426909ed37c22f",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-d7877237bbf1382754b2b8ac82d60a0d2d108a52d283b69132edf6e063c9edf3",
+              "source_id": "span-db18ee606067b33ea5105eba306f8c9e2cdcad56a9efd818815b60c7d4dc43be",
+              "sha256": "3b3642711d77b90b36364bd5b4323d077598e1d194fc37f0378f5e7683cf3ce9",
+              "sequence": 6
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-4509731a380b7c2f82032d305042f25dac7c416bdc9127f0f6034b603d1e75e0",
+              "source_id": "span-5001d91f7202c6b823846d50d85740eab8b0e8c1e3785c55012fa956e4f8f306",
+              "sha256": "e77e58cb7cddd7288b833f1a12b45f4c7ebb86ae4224cd5b1d4aef27d56cb2da",
+              "sequence": 3,
+              "quote": "天英星为火神，主晴，落7宫"
+            },
+            {
+              "record_id": "record-4509731a380b7c2f82032d305042f25dac7c416bdc9127f0f6034b603d1e75e0",
+              "source_id": "span-5001d91f7202c6b823846d50d85740eab8b0e8c1e3785c55012fa956e4f8f306",
+              "sha256": "e77e58cb7cddd7288b833f1a12b45f4c7ebb86ae4224cd5b1d4aef27d56cb2da",
+              "sequence": 3,
+              "quote": "5月11日为己巳月丁酉日"
+            },
+            {
+              "record_id": "record-9b0d3c2af73f1cb488ca3ead56ca62c9d47cd8b5dc537db57bbd3bc846dd391c",
+              "source_id": "span-9d6c59b2ba40dac8532d3cf843887d3c1de22ecaf69ab8a498d96b6e5d5ab82b",
+              "sha256": "ab7dbcdc3799b0a80e5f97490073975fc01e677466053258bb69f078e8f8fd69",
+              "sequence": 4,
+              "quote": "巳月火旺水囚"
+            },
+            {
+              "record_id": "record-d8486c24b82ca9f53f66ab0d7a5c86530bebfbe5f2a23c00092967855b189ef6",
+              "source_id": "span-bfc9db6695d933e9fd448bea88aecab0838f8752220b76d8890e2f1ebc2aa320",
+              "sha256": "b00bc359907bf057694b383cc0b297ef620a27ad5b41c9d97d426909ed37c22f",
+              "sequence": 5,
+              "quote": "甲寅癸主小雨，落坤2宫为入墓受制"
+            },
+            {
+              "record_id": "record-d8486c24b82ca9f53f66ab0d7a5c86530bebfbe5f2a23c00092967855b189ef6",
+              "source_id": "span-bfc9db6695d933e9fd448bea88aecab0838f8752220b76d8890e2f1ebc2aa320",
+              "sha256": "b00bc359907bf057694b383cc0b297ef620a27ad5b41c9d97d426909ed37c22f",
+              "sequence": 5,
+              "quote": "天辅星主风，落坤2宫为入墓"
+            }
+          ],
+          "answer": {
+            "explanation": "作者以天英得木生、到巳月当令并酉日填实支持晴，再检景门火及雨师水受制、水干受制、风星入墓，给当日晴、早晚可能云。所引5月11酉日是来源条件，原文未给逐小时观测，不扩写成新天气数据。",
+            "citations": [
+              "chart",
+              "context",
+              "weather",
+              "rain"
+            ],
+            "uncertainties": [
+              "原文说明未将天气列入现代研究项目；这里学习历史方法，不作现代天气预报效果证明。"
+            ]
+          }
+        }
+      ],
+      "known_subquotes": {
+        "0": "1994年5月份，我在石家庄举办周易讲习班，主要研究六爻预测，5月4日至10日要赴河南参加老子国际学术研讨会，到5月11日才能重新上课。为了让学员亲自体验一下周易的预测功能，我在5月3日晚上讲课时，当场作了一项实验，这就是提前8天，预测5月11日的天气状况。"
+      },
+      "case_id": "case-79ac973e4894351bd15ca06a2b6bd23fd87d2cdaf8b0dd96968e113ae758f64c",
+      "event_id": "event-f853ec28d2d92bf234f79e4a3314d459986d01a8ff70ac363459e4d63ed99dd7",
+      "family_id": "family-528251b4325d4290b16affec2a2c5294828e84b69722c633576f0cdca244dc68",
+      "chart_id": "chart-a6b45bb2b88edd25bc68e86230a1ecb4a93373d550519673bd1113fd7a2c7690",
+      "chapter": "19-weather-prediction",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 3,
+      "stage": "first_weather",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "逐句审读天气目标、起局时间和给定星门干条件；不把其他六爻结果或后来实际天气提前提供。",
+      "known_source_window_review": "逐句审读天气目标、起局时间和给定星门干条件；不把其他六爻结果或后来实际天气提前提供。",
+      "known": [
+        {
+          "record_id": "record-a4f156b3619448ca13ab61bca451ce580f8579b281a6722775890d433a52938d",
+          "source_id": "span-efdf13515dbe25d43fe489c71f3022f7ef571f4f34e3e677ff251a54d509e43b",
+          "sha256": "be60f8917421af784ab3c4ba0225a372e64137d32dc787bb711ddcbdb64c097b",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-e227cbc729e961d574556639435ff53e175c4278626ce0a1f26ac155aa3da979",
+          "source_id": "span-7a255f173b8f63621cfe1ffc9042de57cfa0faa777949a4f5186f6b5079c2c7c",
+          "sha256": "0f4499bee9666ec576d1a0b7c60e0fb91f80e076c12d4890460e82140cf4a726",
+          "sequence": 1
+        }
+      ],
+      "cutoff": 2,
+      "rules": {
+        "weather": "预测天气，以九星为主，兼看天干、八门、八神及其落宫状况",
+        "rain": "天蓬、天柱如果不乘壬癸水神，即使游于一三七宫，也不下雨"
+      },
+      "provided_roles": [
+        "天英晴、天柱雨师、天蓬水、天辅风，兼壬癸与门神"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-e2911de3146fdaf1229f5f996eaa3b6824aa609c2a7fc58f5dd7af24ef2a59f3",
+              "source_id": "span-ed242e45827b053365e9538e12c987b9518c95f7909adad4850db6ef1eddea24",
+              "sha256": "abcec1b04bc6f9b0e95c1fa93c4b964612d3a5412d25fed432bdd8adde09bfe1",
+              "sequence": 2
+            },
+            {
+              "record_id": "record-000648638523f85381f478806a8f8772d69b025367d32f5bf9b99a925308aa38",
+              "source_id": "span-f33c8fa22d44cb25e32ceaffdf470b3f338d1d0b7bb7ab581c028b8a94d86224",
+              "sha256": "d5eb835aee1c81b1f8ff21205e3cbaa2e6d6930d335f0462521063fb9c3cbf96",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-4f171820feeb5959484dcaaed2844826921683ecb1a8164d679f4bf7b04deed0",
+              "source_id": "span-2f772e52091864a1f5f5225cdc075423c483fd9326ba49fe481f0aea9624f510",
+              "sha256": "8b2d703a220aa0106cddc7f593195c2b6008c4daa1dce9b30e7f0429a042e0a4",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-786ad43d2598ab58a0ba9e2d4b4d6983160ac66965d1dcb738b93d057810757a",
+              "source_id": "span-e5936279a3e9cbea5971ef41aa4f15bedeed214505e22807e5d5fd61cbaf8a45",
+              "sha256": "147d3f527fb36c30c513cfa8d13e3bc307879fb035b26ddc5151f0f9a17b0c32",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "按揭牌用事时间看天气：壬水、天蓬与天柱雨象，乙巳时泄制水和天英晴象作变化比较。不是把整天有雨无雨当一个不分时段的标签。",
+            "citations": [
+              "chart",
+              "context",
+              "weather",
+              "rain"
+            ],
+            "uncertainties": [
+              "原文说明未将天气列入现代研究项目；这里学习历史方法，不作现代天气预报效果证明。"
+            ],
+            "bindings": [
+              {
+                "role": "雨水与晴",
+                "symbol": "壬、天蓬、天柱；天英",
+                "condition": "用事时段天气对照"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-e2911de3146fdaf1229f5f996eaa3b6824aa609c2a7fc58f5dd7af24ef2a59f3",
+              "source_id": "span-ed242e45827b053365e9538e12c987b9518c95f7909adad4850db6ef1eddea24",
+              "sha256": "abcec1b04bc6f9b0e95c1fa93c4b964612d3a5412d25fed432bdd8adde09bfe1",
+              "sequence": 2
+            },
+            {
+              "record_id": "record-000648638523f85381f478806a8f8772d69b025367d32f5bf9b99a925308aa38",
+              "source_id": "span-f33c8fa22d44cb25e32ceaffdf470b3f338d1d0b7bb7ab581c028b8a94d86224",
+              "sha256": "d5eb835aee1c81b1f8ff21205e3cbaa2e6d6930d335f0462521063fb9c3cbf96",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-4f171820feeb5959484dcaaed2844826921683ecb1a8164d679f4bf7b04deed0",
+              "source_id": "span-2f772e52091864a1f5f5225cdc075423c483fd9326ba49fe481f0aea9624f510",
+              "sha256": "8b2d703a220aa0106cddc7f593195c2b6008c4daa1dce9b30e7f0429a042e0a4",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-786ad43d2598ab58a0ba9e2d4b4d6983160ac66965d1dcb738b93d057810757a",
+              "source_id": "span-e5936279a3e9cbea5971ef41aa4f15bedeed214505e22807e5d5fd61cbaf8a45",
+              "sha256": "147d3f527fb36c30c513cfa8d13e3bc307879fb035b26ddc5151f0f9a17b0c32",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "壬艮八开门、兑七天蓬玄武、震三天英、离九天柱按源；时段前后推演不改成另张未提供全盘。",
+            "citations": [
+              "chart",
+              "context",
+              "weather",
+              "rain"
+            ],
+            "uncertainties": [
+              "原文说明未将天气列入现代研究项目；这里学习历史方法，不作现代天气预报效果证明。"
+            ]
+          },
+          "facts": [
+            [
+              8,
+              "heaven_stem"
+            ],
+            [
+              8,
+              "door"
+            ],
+            [
+              7,
+              "star"
+            ],
+            [
+              7,
+              "deity"
+            ],
+            [
+              3,
+              "star"
+            ],
+            [
+              9,
+              "star"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-e2911de3146fdaf1229f5f996eaa3b6824aa609c2a7fc58f5dd7af24ef2a59f3",
+              "source_id": "span-ed242e45827b053365e9538e12c987b9518c95f7909adad4850db6ef1eddea24",
+              "sha256": "abcec1b04bc6f9b0e95c1fa93c4b964612d3a5412d25fed432bdd8adde09bfe1",
+              "sequence": 2
+            },
+            {
+              "record_id": "record-000648638523f85381f478806a8f8772d69b025367d32f5bf9b99a925308aa38",
+              "source_id": "span-f33c8fa22d44cb25e32ceaffdf470b3f338d1d0b7bb7ab581c028b8a94d86224",
+              "sha256": "d5eb835aee1c81b1f8ff21205e3cbaa2e6d6930d335f0462521063fb9c3cbf96",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-4f171820feeb5959484dcaaed2844826921683ecb1a8164d679f4bf7b04deed0",
+              "source_id": "span-2f772e52091864a1f5f5225cdc075423c483fd9326ba49fe481f0aea9624f510",
+              "sha256": "8b2d703a220aa0106cddc7f593195c2b6008c4daa1dce9b30e7f0429a042e0a4",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-786ad43d2598ab58a0ba9e2d4b4d6983160ac66965d1dcb738b93d057810757a",
+              "source_id": "span-e5936279a3e9cbea5971ef41aa4f15bedeed214505e22807e5d5fd61cbaf8a45",
+              "sha256": "147d3f527fb36c30c513cfa8d13e3bc307879fb035b26ddc5151f0f9a17b0c32",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-a3f555902fd621d04987379d97335d90b7b28636eeaff5d1985d7818f15c9d62",
+              "source_id": "span-3133b878a57f577e4e20ea769eff32b87d93e26dc9a336de0e03834f191eccf4",
+              "sha256": "ad15409319644e0a56d82543025075c731e393295785ea430d0fd2f015b3dcae",
+              "sequence": 6
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-e2911de3146fdaf1229f5f996eaa3b6824aa609c2a7fc58f5dd7af24ef2a59f3",
+              "source_id": "span-ed242e45827b053365e9538e12c987b9518c95f7909adad4850db6ef1eddea24",
+              "sha256": "abcec1b04bc6f9b0e95c1fa93c4b964612d3a5412d25fed432bdd8adde09bfe1",
+              "sequence": 2,
+              "quote": "天蓬星主水，落入兑7宫得生，又临玄武"
+            },
+            {
+              "record_id": "record-000648638523f85381f478806a8f8772d69b025367d32f5bf9b99a925308aa38",
+              "source_id": "span-f33c8fa22d44cb25e32ceaffdf470b3f338d1d0b7bb7ab581c028b8a94d86224",
+              "sha256": "d5eb835aee1c81b1f8ff21205e3cbaa2e6d6930d335f0462521063fb9c3cbf96",
+              "sequence": 3,
+              "quote": "乙巳时，乙木泄壬水，巳火也制水"
+            },
+            {
+              "record_id": "record-4f171820feeb5959484dcaaed2844826921683ecb1a8164d679f4bf7b04deed0",
+              "source_id": "span-2f772e52091864a1f5f5225cdc075423c483fd9326ba49fe481f0aea9624f510",
+              "sha256": "8b2d703a220aa0106cddc7f593195c2b6008c4daa1dce9b30e7f0429a042e0a4",
+              "sequence": 4,
+              "quote": "天英星为火神，主晴"
+            },
+            {
+              "record_id": "record-786ad43d2598ab58a0ba9e2d4b4d6983160ac66965d1dcb738b93d057810757a",
+              "source_id": "span-e5936279a3e9cbea5971ef41aa4f15bedeed214505e22807e5d5fd61cbaf8a45",
+              "sha256": "147d3f527fb36c30c513cfa8d13e3bc307879fb035b26ddc5151f0f9a17b0c32",
+              "sequence": 5,
+              "quote": "天柱星为雨师，不落一、三、七宫，却落离9宫"
+            }
+          ],
+          "answer": {
+            "explanation": "作者承认壬日、蓬星得生玄武与辰时水库刑有雨信息，又以乙巳泄制水、天英震宫得生及天柱离火受制，判断9点后雨停或转小而可办仪式。实际10点又下大雨说明预测目标须限定仪式时段，不应笼统记为全天无雨命中。",
+            "citations": [
+              "chart",
+              "context",
+              "weather",
+              "rain"
+            ],
+            "uncertainties": [
+              "原文说明未将天气列入现代研究项目；这里学习历史方法，不作现代天气预报效果证明。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-82e074e0cf047090c8a76bba680c10cb39315cf0ed59b4080c5659c5a5556a60",
+      "event_id": "event-f785d1530a7343fc70d46e618cafc72608ae8325579745047106a014b05b5db6",
+      "family_id": "family-88ef2d196e1d21b82f5e74f12776ee8cafe256e6d7cebf15a4939e18527fc62f",
+      "chart_id": "chart-e56f5e99914eef6b4ff6518d9d81f006db055f484e97f7028ee52a25d4b2aa12",
+      "chapter": "19-weather-prediction",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 4,
+      "stage": "first_weather",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "逐句审读天气目标、起局时间和给定星门干条件；不把其他六爻结果或后来实际天气提前提供。",
+      "known_source_window_review": "逐句审读天气目标、起局时间和给定星门干条件；不把其他六爻结果或后来实际天气提前提供。",
+      "known": [
+        {
+          "record_id": "record-93a8ceca8799bc52795fd630a7fd662894cea660e42e13545eae31840808ad92",
+          "source_id": "span-50a93fea781a4415e99e29313f6065300a64cfaea75e4f9c6b287c05e6073e01",
+          "sha256": "828db8499cfd22220e3333f0a807b6ad0f26fe689acb716a071b6bd938f7925b",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-fc7369f560e75d147f0f683d65001ac4867b9129100fba35ead9590ed09488ed",
+          "source_id": "span-ade3f3f10c09baefc1cd693b4419f0136bca74c1a173a16c4d831473bb1cffb6",
+          "sha256": "396f1bba23033937d5c36e45924bea53b15ce38f33dbf3a42b063ce29ee4974e",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-63818d06bffcf90115eae871dd2cb69815af3345854d83432b4081d08fc20c16",
+          "source_id": "span-e9f5e17ff3fe93a1d50ad4020d50c5311051427f61050dc98e8704998871a65a",
+          "sha256": "6b961dfa997e4680cb6308a72581ca6534dd9fda38dddcac35af23ae1cd1977a",
+          "sequence": 2
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "weather": "预测天气，以九星为主，兼看天干、八门、八神及其落宫状况",
+        "rain": "天蓬、天柱如果不乘壬癸水神，即使游于一三七宫，也不下雨"
+      },
+      "provided_roles": [
+        "天英晴、天柱雨师、天蓬水、天辅风，兼壬癸与门神"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-b6709eebd61ca29a8ea5a257424976665a4b520a67f76781b3c8f61b93fecc8b",
+              "source_id": "span-a14d311469b671272d5a2862bacdfc1dd775c138bc712159ecf56ed50f405afc",
+              "sha256": "53b66ee16683f354a4987d7393fb4d5611ae64ca5f39a5b87689750b477070ff",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-469bc5a2a7183f00360b7609e9dd85115ed1ad21529f51453fadd5cc51054c44",
+              "source_id": "span-48a38e49df5650f7d0b5bae90f699e14dc3828d7f4dff645897a141e0f51b7ba",
+              "sha256": "c6ccd36489c693b0e2b354e328dbdfd821762066495ee42ca3efaf887e4b8328",
+              "sequence": 4
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "同一问时原盘从球赛切换到天气，应换天气角色而不重造盘：天蓬水、天柱雨师、癸小雨、天辅与伤门风。它与体育半决赛已是同一冻结家族，不能算两个独立验证家族。",
+            "citations": [
+              "chart",
+              "context",
+              "weather",
+              "rain"
+            ],
+            "uncertainties": [
+              "原文说明未将天气列入现代研究项目；这里学习历史方法，不作现代天气预报效果证明。"
+            ],
+            "bindings": [
+              {
+                "role": "水雨、风",
+                "symbol": "天蓬、天柱、癸；天辅、伤门",
+                "condition": "天气问题，沿源中同一盘"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-b6709eebd61ca29a8ea5a257424976665a4b520a67f76781b3c8f61b93fecc8b",
+              "source_id": "span-a14d311469b671272d5a2862bacdfc1dd775c138bc712159ecf56ed50f405afc",
+              "sha256": "53b66ee16683f354a4987d7393fb4d5611ae64ca5f39a5b87689750b477070ff",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-469bc5a2a7183f00360b7609e9dd85115ed1ad21529f51453fadd5cc51054c44",
+              "source_id": "span-48a38e49df5650f7d0b5bae90f699e14dc3828d7f4dff645897a141e0f51b7ba",
+              "sha256": "c6ccd36489c693b0e2b354e328dbdfd821762066495ee42ca3efaf887e4b8328",
+              "sequence": 4
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "天蓬艮八、天柱乾六壬癸太阴、癸坎一、天辅离九伤门照源；不能把球赛角色继续当雨神。",
+            "citations": [
+              "chart",
+              "context",
+              "weather",
+              "rain"
+            ],
+            "uncertainties": [
+              "原文说明未将天气列入现代研究项目；这里学习历史方法，不作现代天气预报效果证明。"
+            ]
+          },
+          "facts": [
+            [
+              8,
+              "star"
+            ],
+            [
+              6,
+              "star"
+            ],
+            [
+              6,
+              "heaven_stem"
+            ],
+            [
+              6,
+              "earth_stem"
+            ],
+            [
+              6,
+              "deity"
+            ],
+            [
+              1,
+              "heaven_stem"
+            ],
+            [
+              9,
+              "star"
+            ],
+            [
+              9,
+              "door"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-b6709eebd61ca29a8ea5a257424976665a4b520a67f76781b3c8f61b93fecc8b",
+              "source_id": "span-a14d311469b671272d5a2862bacdfc1dd775c138bc712159ecf56ed50f405afc",
+              "sha256": "53b66ee16683f354a4987d7393fb4d5611ae64ca5f39a5b87689750b477070ff",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-469bc5a2a7183f00360b7609e9dd85115ed1ad21529f51453fadd5cc51054c44",
+              "source_id": "span-48a38e49df5650f7d0b5bae90f699e14dc3828d7f4dff645897a141e0f51b7ba",
+              "sha256": "c6ccd36489c693b0e2b354e328dbdfd821762066495ee42ca3efaf887e4b8328",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-f9a16b3588879157f6c7ea8c49228ebe7b5d3655a5d687e50fa5de81cfef5347",
+              "source_id": "span-9ebadaa77b2c441c5def00686147bbea6a8715fd1f89f8cf5a6bf86cde7bcb0b",
+              "sha256": "b725aadaba7193f9c81e9b61abbd2fc0ad8e5e6df6c6e2f6d0570e476e2b33a6",
+              "sequence": 5
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-b6709eebd61ca29a8ea5a257424976665a4b520a67f76781b3c8f61b93fecc8b",
+              "source_id": "span-a14d311469b671272d5a2862bacdfc1dd775c138bc712159ecf56ed50f405afc",
+              "sha256": "53b66ee16683f354a4987d7393fb4d5611ae64ca5f39a5b87689750b477070ff",
+              "sequence": 3,
+              "quote": "天柱雨师落6宫，而且带壬、癸"
+            },
+            {
+              "record_id": "record-b6709eebd61ca29a8ea5a257424976665a4b520a67f76781b3c8f61b93fecc8b",
+              "source_id": "span-a14d311469b671272d5a2862bacdfc1dd775c138bc712159ecf56ed50f405afc",
+              "sha256": "53b66ee16683f354a4987d7393fb4d5611ae64ca5f39a5b87689750b477070ff",
+              "sequence": 3,
+              "quote": "因死门为土，克水"
+            },
+            {
+              "record_id": "record-b6709eebd61ca29a8ea5a257424976665a4b520a67f76781b3c8f61b93fecc8b",
+              "source_id": "span-a14d311469b671272d5a2862bacdfc1dd775c138bc712159ecf56ed50f405afc",
+              "sha256": "53b66ee16683f354a4987d7393fb4d5611ae64ca5f39a5b87689750b477070ff",
+              "sequence": 3,
+              "quote": "癸主小雨，落入坎1宫"
+            },
+            {
+              "record_id": "record-469bc5a2a7183f00360b7609e9dd85115ed1ad21529f51453fadd5cc51054c44",
+              "source_id": "span-48a38e49df5650f7d0b5bae90f699e14dc3828d7f4dff645897a141e0f51b7ba",
+              "sha256": "c6ccd36489c693b0e2b354e328dbdfd821762066495ee42ca3efaf887e4b8328",
+              "sequence": 4,
+              "quote": "天辅星主风，落离9宫旺相，伤门也主风"
+            }
+          ],
+          "answer": {
+            "explanation": "天蓬虽受制且不带水干，作者另检乾六天柱带壬癸得金生、太阴云以及癸坎旺，认为有小雨但受死门土制不大；天辅与伤门旺又提示风。原例报三四级风，而反馈仅说有风，不能补成已观测精确风级。",
+            "citations": [
+              "chart",
+              "context",
+              "weather",
+              "rain"
+            ],
+            "uncertainties": [
+              "原文说明未将天气列入现代研究项目；这里学习历史方法，不作现代天气预报效果证明。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-4c9167e5865158db0e16e1ef0a6702fee49c1b234ef117ad530bbee3f920fac2",
+      "event_id": "event-ecf6ddb1806678843affee3d6378fe4526c3f56593b335bcfcc0e093ff718608",
+      "family_id": "family-f284e5b0a84170015100d4169bead84ba4ed5a6133eaae3036376241dc6c0e53",
+      "chart_id": "chart-3ed8dacbf93af268439b7fdb9dce010886c21e2edd34d1af65807d7da9ca10ae",
+      "chapter": "19-weather-prediction",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 5,
+      "stage": "first_weather",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "逐句审读天气目标、起局时间和给定星门干条件；不把其他六爻结果或后来实际天气提前提供。",
+      "known_source_window_review": "逐句审读天气目标、起局时间和给定星门干条件；不把其他六爻结果或后来实际天气提前提供。",
+      "known": [
+        {
+          "record_id": "record-9ee966730c77103fe789c5253bcd98d5e6a7cd2aec504d47e3b90636e7fcc8de",
+          "source_id": "span-80a33cb17d0562c6665eae31349afbd660c474b75ac40a30bab82d9c965686ff",
+          "sha256": "1f9606931c4c276b0c3c2633debaa138286975d1ee40cdfe372d48a791ba24ef",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-106f39d30193d88f4ee695e1b416a2242d705be74e410317df0c5dc6b34e35e1",
+          "source_id": "span-d6997490a8836c90d4729249f52533cf65a12c3e5efdc1557363d738a315b2bf",
+          "sha256": "4ad50474a7f108d77507ed6c418f0810692b8dcb8830e312bbe1a642415a5a5a",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-6c6f812d48ac65c3a2135f841ba441dea1dd9d9cb4c09bda2a1efc2d1cd2b665",
+          "source_id": "span-26188e0ede8c43e0b3600cb218cb67036d9f288820fab8f788bb6780fbf57724",
+          "sha256": "1446b3eada218ac4e7d87327d2ea0ef85dd597cf495d5d0e3850a76121c8214e",
+          "sequence": 2
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "weather": "预测天气，以九星为主，兼看天干、八门、八神及其落宫状况",
+        "rain": "天蓬、天柱如果不乘壬癸水神，即使游于一三七宫，也不下雨"
+      },
+      "provided_roles": [
+        "天英晴、天柱雨师、天蓬水、天辅风，兼壬癸与门神"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-4d67adbc66fced49be58f486962ce8ad9ad385fa5afc72e2af160cf580cd129e",
+              "source_id": "span-a95e87955c22879e1552098324699ba104ce98ebf54de560d5b5b928279fcb2a",
+              "sha256": "6b65c04f1e1e00374d1048d1d755b6fdea712c5f6c3b2ab2a883e9f2d3607080",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-bc2299e71345a45fd36252990dbe5728f1a835d7ecc0b8abfca66655a7ca347f",
+              "source_id": "span-dfbd1002c8b8f7b0933ee98a70b8006fc01f2292314769e7bc540597045dd953",
+              "sha256": "9b89cf8637231a46461995e2eb3d5b5dd6dd8f4bfc5c6c740b46c06e39688802",
+              "sequence": 4
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "本例按次日仪式用事时盘，用天柱天蓬与所乘壬癸审降水、天英休门审云晴、白虎风象。不能把7月27问时另造盘或用日干人物法替代天气法。",
+            "citations": [
+              "chart",
+              "context",
+              "weather",
+              "rain"
+            ],
+            "uncertainties": [
+              "原文说明未将天气列入现代研究项目；这里学习历史方法，不作现代天气预报效果证明。"
+            ],
+            "bindings": [
+              {
+                "role": "降水、云晴、风",
+                "symbol": "天柱天蓬壬癸；天英休门；白虎",
+                "condition": "次日用事时间天气法"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-4d67adbc66fced49be58f486962ce8ad9ad385fa5afc72e2af160cf580cd129e",
+              "source_id": "span-a95e87955c22879e1552098324699ba104ce98ebf54de560d5b5b928279fcb2a",
+              "sha256": "6b65c04f1e1e00374d1048d1d755b6fdea712c5f6c3b2ab2a883e9f2d3607080",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-bc2299e71345a45fd36252990dbe5728f1a835d7ecc0b8abfca66655a7ca347f",
+              "source_id": "span-dfbd1002c8b8f7b0933ee98a70b8006fc01f2292314769e7bc540597045dd953",
+              "sha256": "9b89cf8637231a46461995e2eb3d5b5dd6dd8f4bfc5c6c740b46c06e39688802",
+              "sequence": 4
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "天柱震三、天蓬离九景门、天英坎一休门及癸坤二白虎按表；墓受制等解释与直接字段分开。",
+            "citations": [
+              "chart",
+              "context",
+              "weather",
+              "rain"
+            ],
+            "uncertainties": [
+              "原文说明未将天气列入现代研究项目；这里学习历史方法，不作现代天气预报效果证明。"
+            ]
+          },
+          "facts": [
+            [
+              3,
+              "star"
+            ],
+            [
+              9,
+              "star"
+            ],
+            [
+              9,
+              "door"
+            ],
+            [
+              1,
+              "star"
+            ],
+            [
+              1,
+              "door"
+            ],
+            [
+              2,
+              "heaven_stem"
+            ],
+            [
+              2,
+              "deity"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-4d67adbc66fced49be58f486962ce8ad9ad385fa5afc72e2af160cf580cd129e",
+              "source_id": "span-a95e87955c22879e1552098324699ba104ce98ebf54de560d5b5b928279fcb2a",
+              "sha256": "6b65c04f1e1e00374d1048d1d755b6fdea712c5f6c3b2ab2a883e9f2d3607080",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-bc2299e71345a45fd36252990dbe5728f1a835d7ecc0b8abfca66655a7ca347f",
+              "source_id": "span-dfbd1002c8b8f7b0933ee98a70b8006fc01f2292314769e7bc540597045dd953",
+              "sha256": "9b89cf8637231a46461995e2eb3d5b5dd6dd8f4bfc5c6c740b46c06e39688802",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-9d0ab18c1c08425b4e02663e0dc4af67e8505bf7c064d17e1635607ee6093aa5",
+              "source_id": "span-6516ec228f7bcfa4704d6a012e0e59147cc4656d48c6154c8d3ffed4c8189029",
+              "sha256": "8d4437cee60be72159fc6a67e5659a5eef33c465a6bb8566204c72c7085e5fcb",
+              "sequence": 5
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-4d67adbc66fced49be58f486962ce8ad9ad385fa5afc72e2af160cf580cd129e",
+              "source_id": "span-a95e87955c22879e1552098324699ba104ce98ebf54de560d5b5b928279fcb2a",
+              "sha256": "6b65c04f1e1e00374d1048d1d755b6fdea712c5f6c3b2ab2a883e9f2d3607080",
+              "sequence": 3,
+              "quote": "天柱星为雨师虽落震3宫，但不带壬、癸"
+            },
+            {
+              "record_id": "record-4d67adbc66fced49be58f486962ce8ad9ad385fa5afc72e2af160cf580cd129e",
+              "source_id": "span-a95e87955c22879e1552098324699ba104ce98ebf54de560d5b5b928279fcb2a",
+              "sha256": "6b65c04f1e1e00374d1048d1d755b6fdea712c5f6c3b2ab2a883e9f2d3607080",
+              "sequence": 3,
+              "quote": "天蓬星带壬，却落离9宫，而且临景门"
+            },
+            {
+              "record_id": "record-4d67adbc66fced49be58f486962ce8ad9ad385fa5afc72e2af160cf580cd129e",
+              "source_id": "span-a95e87955c22879e1552098324699ba104ce98ebf54de560d5b5b928279fcb2a",
+              "sha256": "6b65c04f1e1e00374d1048d1d755b6fdea712c5f6c3b2ab2a883e9f2d3607080",
+              "sequence": 3,
+              "quote": "天英星主晴，却落入坎宫"
+            },
+            {
+              "record_id": "record-bc2299e71345a45fd36252990dbe5728f1a835d7ecc0b8abfca66655a7ca347f",
+              "source_id": "span-dfbd1002c8b8f7b0933ee98a70b8006fc01f2292314769e7bc540597045dd953",
+              "sha256": "9b89cf8637231a46461995e2eb3d5b5dd6dd8f4bfc5c6c740b46c06e39688802",
+              "sequence": 4,
+              "quote": "癸落2宫，为入墓，受土克"
+            }
+          ],
+          "answer": {
+            "explanation": "作者将天柱不带水、天蓬带壬却火宫受泄，与时癸坤墓受克相合，提出不雨；天英落水乡临水门不作晴，白虎作风，故给阴云小风。问测目标是9点半至10点半，后来全天描述另存，不能擅添降雨量和风速数值。",
+            "citations": [
+              "chart",
+              "context",
+              "weather",
+              "rain"
+            ],
+            "uncertainties": [
+              "原文说明未将天气列入现代研究项目；这里学习历史方法，不作现代天气预报效果证明。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-7fc07aa27ff6d7ee95d117f282c310657f48316faf352eacf9c7e9f12fe7a389",
+      "event_id": "event-1131106c7df65449d9066454b2fb4f09c78da9a2e21dcb6f43f6deda62333cff",
+      "family_id": "family-3e25f98854ab93609f12a4f4fc4595d163af88e7fc481747d0be26d5774f86f3",
+      "chart_id": "chart-d6234782beed46c599b393dba3e15a041ab4a7fdbb707bdee929fe550b4048c8",
+      "chapter": "19-weather-prediction",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    }
+  ]
+}

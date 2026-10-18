@@ -1,0 +1,1746 @@
+{
+  "schema": "book-method-semantic-review-v1",
+  "source_data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "reviewed_by": "Codex source-grounded semantic curation",
+  "rows": [
+    {
+      "case": 1,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "问测及起局元数据逐句审读，主客依据、时辰转换与结果口径分开。",
+      "known_source_window_review": "问测及起局元数据逐句审读，主客依据、时辰转换与结果口径分开。",
+      "known": [
+        {
+          "record_id": "record-dc5db7e1d450fee29fbf2bfa246725cefa380828dc0f78caef23204a864f42ac",
+          "source_id": "span-ee9ed2a62291904557956a81c28adc493b53c16c7ca36450b2b69189cbbc960f",
+          "sha256": "a0ed8f4a304fb3235bc71c007bd0fac2787c8ae8a7b57637a73c7cd90b4f3e0e",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-f05e205067a509d8b06aac3e6583840c3e8f2137e84931dbb7258167a8be6cee",
+          "source_id": "span-0cd4e049c66a1dd6200a2f910825f6b3045eab2caf7e8894fbf3177c103c8990",
+          "sha256": "fcf66b40f367ad6a819f965f662646510239340f55f6f94dea417081f0e98f46",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-939eeaea24871014d47454f2e40ef180a289bc0998baca6f316cac4c54d20add",
+          "source_id": "span-0cb9736cd965f5c4bab79cfd1f86d6b2183d8092f634f8f4fd6e717f46651e44",
+          "sha256": "30e11fd5ad31b51fb5e693d76b1a66f71f1cac32646d0a77c557d149d7bb2657",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-00c1fe7c98ed24ee1f0a3e48804b10c486cd6387b6954d7ce8546d509021efd9",
+          "source_id": "span-7e5c7cb188f7c803278ea2932a64d24f86d2b7ed6fc9e2c05e6b96c0db7857e6",
+          "sha256": "bdd93a0f38a4756a6f4f48c191240fa1add942e0632152c08c9bbf9ee05cd61d",
+          "sequence": 3
+        }
+      ],
+      "cutoff": 4,
+      "rules": {
+        "sport": "一般以值符为裁判，以日干或时干为运动员"
+      },
+      "provided_roles": [
+        "天地盘主客分开，值符裁判、景门指导、辛金牌为不同视角"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-7471ed0311d8ffb585bce923ec3306bb0f4a7089dad254906eee6052b97c71ce",
+              "source_id": "span-8570966156513584765b3dbbfe2415694246e465ee60151378f4469c203552bd",
+              "sha256": "2dbd3380f7d3f7ab6e7c76cbdc673e9bb2555373d645912349b5c6cc976c41a8",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-763a9431862c29cb2d97d4b159b45b8af2f41c3df3a3c7a81a8b9ed5231fc7a2",
+              "source_id": "span-ea742e344b05108845e06b6a98f035faa8c1a27cf19a35063b3429bf0943cd9a",
+              "sha256": "ca9496ed76c2810ca84930c36943374f0e52d077e648c838d7df5c7736dacf51",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-47427c13f06d96fcad947544f4a8fdc0ae37eda8ac54942e26e3f0200846bf40",
+              "source_id": "span-91abd954776ff191f0daf5fe0472c35b6f3cb3210cadb6a08424f195b07b08cb",
+              "sha256": "272088a5ea0e2ee1b4cf84df4ac027313d2d2f1c85805ab9a38473a40dd2d69e",
+              "sequence": 6
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "本例中国主队取地盘时壬、韩国客队取天盘时壬，值符裁判、景门技术指导、辛金牌分开。不是一切中国队都作主，须按本例赛事场地语境说明。",
+            "citations": [
+              "chart",
+              "context",
+              "sport"
+            ],
+            "uncertainties": [
+              "胜负、时间、比分、金牌数分别评分；给定主客和传统旺衰不等于客观比赛效力验证。"
+            ],
+            "bindings": [
+              {
+                "role": "中国主队、韩国客队",
+                "symbol": "地盘时干壬、天盘时干壬",
+                "condition": "本例在中国举行的主客法"
+              },
+              {
+                "role": "裁判、指导、金牌",
+                "symbol": "值符、景门、辛",
+                "condition": "不同判断视角"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-7471ed0311d8ffb585bce923ec3306bb0f4a7089dad254906eee6052b97c71ce",
+              "source_id": "span-8570966156513584765b3dbbfe2415694246e465ee60151378f4469c203552bd",
+              "sha256": "2dbd3380f7d3f7ab6e7c76cbdc673e9bb2555373d645912349b5c6cc976c41a8",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-763a9431862c29cb2d97d4b159b45b8af2f41c3df3a3c7a81a8b9ed5231fc7a2",
+              "source_id": "span-ea742e344b05108845e06b6a98f035faa8c1a27cf19a35063b3429bf0943cd9a",
+              "sha256": "ca9496ed76c2810ca84930c36943374f0e52d077e648c838d7df5c7736dacf51",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-47427c13f06d96fcad947544f4a8fdc0ae37eda8ac54942e26e3f0200846bf40",
+              "source_id": "span-91abd954776ff191f0daf5fe0472c35b6f3cb3210cadb6a08424f195b07b08cb",
+              "sha256": "272088a5ea0e2ee1b4cf84df4ac027313d2d2f1c85805ab9a38473a40dd2d69e",
+              "sequence": 6
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "地壬艮八值符天英景门、天壬兑七，地辛兑七和天辛巽四照源，不能因同干把主客当同宫。",
+            "citations": [
+              "chart",
+              "context",
+              "sport"
+            ],
+            "uncertainties": [
+              "胜负、时间、比分、金牌数分别评分；给定主客和传统旺衰不等于客观比赛效力验证。"
+            ]
+          },
+          "facts": [
+            [
+              8,
+              "earth_stem"
+            ],
+            [
+              8,
+              "deity"
+            ],
+            [
+              8,
+              "star"
+            ],
+            [
+              8,
+              "door"
+            ],
+            [
+              7,
+              "heaven_stem"
+            ],
+            [
+              7,
+              "earth_stem"
+            ],
+            [
+              4,
+              "heaven_stem"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-7471ed0311d8ffb585bce923ec3306bb0f4a7089dad254906eee6052b97c71ce",
+              "source_id": "span-8570966156513584765b3dbbfe2415694246e465ee60151378f4469c203552bd",
+              "sha256": "2dbd3380f7d3f7ab6e7c76cbdc673e9bb2555373d645912349b5c6cc976c41a8",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-763a9431862c29cb2d97d4b159b45b8af2f41c3df3a3c7a81a8b9ed5231fc7a2",
+              "source_id": "span-ea742e344b05108845e06b6a98f035faa8c1a27cf19a35063b3429bf0943cd9a",
+              "sha256": "ca9496ed76c2810ca84930c36943374f0e52d077e648c838d7df5c7736dacf51",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-47427c13f06d96fcad947544f4a8fdc0ae37eda8ac54942e26e3f0200846bf40",
+              "source_id": "span-91abd954776ff191f0daf5fe0472c35b6f3cb3210cadb6a08424f195b07b08cb",
+              "sha256": "272088a5ea0e2ee1b4cf84df4ac027313d2d2f1c85805ab9a38473a40dd2d69e",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-8997d0d7bef4621690ed8b0bc6e888585dd5bfe369413cd733ba3ab0dd4b58a0",
+              "source_id": "span-1457bf01917318532ef8b23af232b4db3fe090cbbd9b45964a854240a050265d",
+              "sha256": "1b4c762c58a0439c68edc51fd16e33bdd60fd81ddd9eae496ca0365c25d0f09a",
+              "sequence": 7
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-7471ed0311d8ffb585bce923ec3306bb0f4a7089dad254906eee6052b97c71ce",
+              "source_id": "span-8570966156513584765b3dbbfe2415694246e465ee60151378f4469c203552bd",
+              "sha256": "2dbd3380f7d3f7ab6e7c76cbdc673e9bb2555373d645912349b5c6cc976c41a8",
+              "sequence": 4,
+              "quote": "地盘时干壬为主队，为中国女子乒乓球队，在艮8宫"
+            },
+            {
+              "record_id": "record-763a9431862c29cb2d97d4b159b45b8af2f41c3df3a3c7a81a8b9ed5231fc7a2",
+              "source_id": "span-ea742e344b05108845e06b6a98f035faa8c1a27cf19a35063b3429bf0943cd9a",
+              "sha256": "ca9496ed76c2810ca84930c36943374f0e52d077e648c838d7df5c7736dacf51",
+              "sequence": 5,
+              "quote": "天盘时干壬为客队，为韩国女子乒乓球队，落兑宫"
+            },
+            {
+              "record_id": "record-47427c13f06d96fcad947544f4a8fdc0ae37eda8ac54942e26e3f0200846bf40",
+              "source_id": "span-91abd954776ff191f0daf5fe0472c35b6f3cb3210cadb6a08424f195b07b08cb",
+              "sha256": "272088a5ea0e2ee1b4cf84df4ac027313d2d2f1c85805ab9a38473a40dd2d69e",
+              "sequence": 6,
+              "quote": "地盘辛在兑7宫属金，天盘辛落巽4宫属木"
+            }
+          ],
+          "answer": {
+            "explanation": "主队虽要看门星宫关系，但作者强调月令火生艮土、裁判与技术指导有利；客队门星亦生宫，仍受巳月火旺金死制约。金牌辛天地宫关系作为第三视角支持主队胜，不把韩国强象删去。后来3:0是反馈，原断只说夺冠。",
+            "citations": [
+              "chart",
+              "context",
+              "sport"
+            ],
+            "uncertainties": [
+              "胜负、时间、比分、金牌数分别评分；给定主客和传统旺衰不等于客观比赛效力验证。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-60d72c817d82eb4566c918c2af264cbeea84e5267666111916ecd4cb5f8eaac5",
+      "event_id": "event-b6e84edca8ea9232ca90506d9be550d53a0fa43d676272625ee6bc9abe25048f",
+      "family_id": "family-84192cb63c9a21057b0b1e2d98611c77b2638c9736fcc389e08dd24207dc342f",
+      "chart_id": "chart-e5b42b50b9dd0be1049764103be0cc11eb7a5b355ba703fe13d294b47db11299",
+      "chapter": "18-sports-competition",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 2,
+      "stage": "yihai_followup",
+      "mode": "continuation",
+      "source_prediction_window_review": "问测及起局元数据逐句审读，主客依据、时辰转换与结果口径分开。",
+      "known_source_window_review": "问测及起局元数据逐句审读，主客依据、时辰转换与结果口径分开。",
+      "known": [
+        {
+          "record_id": "record-78966c6b870b766a760572862e877aba4e197cda3d5cc14266652e077d8a1013",
+          "source_id": "span-3f8c51dbdb9ff75e4a81f2f54402bb747fe5c1061796ebca69008da613850606",
+          "sha256": "168291f266e541dfe575069ac54bea44c11db9d94257005131943f54c71a7f9b",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-8a5f15e14d36cb33fc06668716f9234429e8c520586dfed86d9645fe5412ea7d",
+          "source_id": "span-115fe4f30673346ab0ce0d3ebaafb45284a6b099693bae96574c85da54250a13",
+          "sha256": "4db27da38d83f9c12f0d891452ceb1126a843cf490b54638103176b668704f21",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-0020810f278bfd632636ee894a25dbe1d18946f3221f3c42a0324a338dfea085",
+          "source_id": "span-065464c91ac197de2d4b4af300d35753e60faef951df2c8da26e3a07702d6f90",
+          "sha256": "ae1139e16c6c8c31f15a291b45463647a4697ffb40359966862f456b98a49211",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-772daf4085c05eaeb944dccc8f321b84e9f7cdd6ed451ab69f941d506dbd9430",
+          "source_id": "span-447d92a9ca1eb45fa18f40a28241179d7c36c64465b10237c8f8d77e135a22b8",
+          "sha256": "3a1403b07feae9dbb7a7cbc7bbb24f03959b8295fb6ada3c8edd577385e45c21",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-827071099a047e57a3c345457193c69e1cb48fabee1464775e4339694d1229e5",
+          "source_id": "span-e8ff5a7deeaa373842b79bf78177390b7aca3c772621ea6e9aa05bf5bf495cca",
+          "sha256": "adfa81a6ddf59398aac92ba39a11dbd55c9a1f6eb7e1f5c98af19e7c41fe43ba",
+          "sequence": 4
+        }
+      ],
+      "cutoff": 5,
+      "rules": {
+        "sport": "一般以值符为裁判，以日干或时干为运动员"
+      },
+      "provided_roles": [
+        "天地盘主客分开，值符裁判、景门指导、辛金牌为不同视角"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-d175ba5e6103aa5f83fbf0ac03304f43ac7f1783813f4a9f2d04e70c3d25b7a3",
+              "source_id": "span-0ae824f7c9b679a17774d33ef25740029366e9d7edd4f77330f7658354cced9c",
+              "sha256": "215572f5885a9f4e82b9e65b3e14d29165218488b51ccaa62c66f75b05b75b41",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-39ebe44f170e6834f34af49656f09a301975783ebd08e30b08c9225df15c587d",
+              "source_id": "span-b8e29a5cef54b90c93b01de8cf3128b561b536ee348c69e888a7c888a4c74706",
+              "sha256": "f7ea531521611683ddae6e1ef15c680b7a922e148a32cebb239b52101d830f81",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-2d3588260ecef42730d8f675077235a83ccc8c8f252c5c2dacb71a411e12e062",
+              "source_id": "span-837155a5f0dc928682ec41333f17fc865c8bf58d420ed031b7f2f1ce5b32d19b",
+              "sha256": "0b1adc97012c8edd7a23748a3a782f06681ee5562f9bf9d642d54bb306bb1e33",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-e9decf689ec05c72b6753f1abd256e265ce0000c5db81b78f07689a7b42b57f5",
+              "source_id": "span-35c7bf03e086f1f2c4c019c5f8c8b78df0fcda2ce61930a8bb62521365def42d",
+              "sha256": "001b8eefe99428d6ef6f87e9048fc01f2f9398f66b0be0fee481f4aa835dc13f",
+              "sequence": 8
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "初看甲戌伏吟不分胜负后，原例明确另看乙亥时，本题只用已提供的乙亥盘：地乙中国、天乙瑞典，辛金牌与景门指导分开。未提供完整的甲戌盘不重造。",
+            "citations": [
+              "chart",
+              "context",
+              "sport"
+            ],
+            "uncertainties": [
+              "胜负、时间、比分、金牌数分别评分；给定主客和传统旺衰不等于客观比赛效力验证。"
+            ],
+            "bindings": [
+              {
+                "role": "中国、瑞典",
+                "symbol": "地盘时干乙、天盘时干乙",
+                "condition": "乙亥时的主客法"
+              },
+              {
+                "role": "金牌、指导",
+                "symbol": "辛、景门",
+                "condition": "与时干队伍分开"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-d175ba5e6103aa5f83fbf0ac03304f43ac7f1783813f4a9f2d04e70c3d25b7a3",
+              "source_id": "span-0ae824f7c9b679a17774d33ef25740029366e9d7edd4f77330f7658354cced9c",
+              "sha256": "215572f5885a9f4e82b9e65b3e14d29165218488b51ccaa62c66f75b05b75b41",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-39ebe44f170e6834f34af49656f09a301975783ebd08e30b08c9225df15c587d",
+              "source_id": "span-b8e29a5cef54b90c93b01de8cf3128b561b536ee348c69e888a7c888a4c74706",
+              "sha256": "f7ea531521611683ddae6e1ef15c680b7a922e148a32cebb239b52101d830f81",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-2d3588260ecef42730d8f675077235a83ccc8c8f252c5c2dacb71a411e12e062",
+              "source_id": "span-837155a5f0dc928682ec41333f17fc865c8bf58d420ed031b7f2f1ce5b32d19b",
+              "sha256": "0b1adc97012c8edd7a23748a3a782f06681ee5562f9bf9d642d54bb306bb1e33",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-e9decf689ec05c72b6753f1abd256e265ce0000c5db81b78f07689a7b42b57f5",
+              "source_id": "span-35c7bf03e086f1f2c4c019c5f8c8b78df0fcda2ce61930a8bb62521365def42d",
+              "sha256": "001b8eefe99428d6ef6f87e9048fc01f2f9398f66b0be0fee481f4aa835dc13f",
+              "sequence": 8
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "乙亥盘地乙离九值符开门，天乙巽四惊门九天、景门艮八按源，不能将甲戌同宫伏吟字段拼进来。",
+            "citations": [
+              "chart",
+              "context",
+              "sport"
+            ],
+            "uncertainties": [
+              "胜负、时间、比分、金牌数分别评分；给定主客和传统旺衰不等于客观比赛效力验证。"
+            ]
+          },
+          "facts": [
+            [
+              9,
+              "earth_stem"
+            ],
+            [
+              9,
+              "deity"
+            ],
+            [
+              9,
+              "door"
+            ],
+            [
+              4,
+              "heaven_stem"
+            ],
+            [
+              4,
+              "door"
+            ],
+            [
+              4,
+              "deity"
+            ],
+            [
+              8,
+              "door"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-d175ba5e6103aa5f83fbf0ac03304f43ac7f1783813f4a9f2d04e70c3d25b7a3",
+              "source_id": "span-0ae824f7c9b679a17774d33ef25740029366e9d7edd4f77330f7658354cced9c",
+              "sha256": "215572f5885a9f4e82b9e65b3e14d29165218488b51ccaa62c66f75b05b75b41",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-39ebe44f170e6834f34af49656f09a301975783ebd08e30b08c9225df15c587d",
+              "source_id": "span-b8e29a5cef54b90c93b01de8cf3128b561b536ee348c69e888a7c888a4c74706",
+              "sha256": "f7ea531521611683ddae6e1ef15c680b7a922e148a32cebb239b52101d830f81",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-2d3588260ecef42730d8f675077235a83ccc8c8f252c5c2dacb71a411e12e062",
+              "source_id": "span-837155a5f0dc928682ec41333f17fc865c8bf58d420ed031b7f2f1ce5b32d19b",
+              "sha256": "0b1adc97012c8edd7a23748a3a782f06681ee5562f9bf9d642d54bb306bb1e33",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-e9decf689ec05c72b6753f1abd256e265ce0000c5db81b78f07689a7b42b57f5",
+              "source_id": "span-35c7bf03e086f1f2c4c019c5f8c8b78df0fcda2ce61930a8bb62521365def42d",
+              "sha256": "001b8eefe99428d6ef6f87e9048fc01f2f9398f66b0be0fee481f4aa835dc13f",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-1467f42c0b6c4898335e53ca2aefb0da3e4667bf5f78c584874c3d910ad7f9ea",
+              "source_id": "span-508162f2dc34d3099312e706fa615fd985a3ef9f9021a37a2344c4b3826331f2",
+              "sha256": "bf42183e9758697dbc029daba353f4aa50627de0049dcd8469dad84e0a6e50f0",
+              "sequence": 9
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-d175ba5e6103aa5f83fbf0ac03304f43ac7f1783813f4a9f2d04e70c3d25b7a3",
+              "source_id": "span-0ae824f7c9b679a17774d33ef25740029366e9d7edd4f77330f7658354cced9c",
+              "sha256": "215572f5885a9f4e82b9e65b3e14d29165218488b51ccaa62c66f75b05b75b41",
+              "sequence": 5,
+              "quote": "地盘时干乙为主队，为中国男队，在离9宫"
+            },
+            {
+              "record_id": "record-39ebe44f170e6834f34af49656f09a301975783ebd08e30b08c9225df15c587d",
+              "source_id": "span-b8e29a5cef54b90c93b01de8cf3128b561b536ee348c69e888a7c888a4c74706",
+              "sha256": "f7ea531521611683ddae6e1ef15c680b7a922e148a32cebb239b52101d830f81",
+              "sequence": 6,
+              "quote": "天盘时干乙落4宫"
+            },
+            {
+              "record_id": "record-39ebe44f170e6834f34af49656f09a301975783ebd08e30b08c9225df15c587d",
+              "source_id": "span-b8e29a5cef54b90c93b01de8cf3128b561b536ee348c69e888a7c888a4c74706",
+              "sha256": "f7ea531521611683ddae6e1ef15c680b7a922e148a32cebb239b52101d830f81",
+              "sequence": 6,
+              "quote": "4宫木生9宫火"
+            },
+            {
+              "record_id": "record-e9decf689ec05c72b6753f1abd256e265ce0000c5db81b78f07689a7b42b57f5",
+              "source_id": "span-35c7bf03e086f1f2c4c019c5f8c8b78df0fcda2ce61930a8bb62521365def42d",
+              "sha256": "001b8eefe99428d6ef6f87e9048fc01f2f9398f66b0be0fee481f4aa835dc13f",
+              "sequence": 8,
+              "quote": "景门为技术指导，落艮8宫，与主队落宫相生"
+            }
+          ],
+          "answer": {
+            "explanation": "乙亥盘作者比较主队得地得时、客队宫生主宫而门神克客宫；金牌辛两宫虽比和仍比较星神门，景门又生主克客，因而倾向中国艰苦取胜。初盘只判断甲戌时难分，实际9点50和3:2尚未知，不把总结果倒推成原先已报比分。",
+            "citations": [
+              "chart",
+              "context",
+              "sport"
+            ],
+            "uncertainties": [
+              "胜负、时间、比分、金牌数分别评分；给定主客和传统旺衰不等于客观比赛效力验证。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-302aabf8ca053df5882186fa7ba93bff7f24cd583cd4a95ae66f96a7a12fb794",
+      "event_id": "event-ce7ee9c87b5eebc2a3f482eb9cd2cccfdbd2c1f8f5e71d431fc04ba1a9b43fa3",
+      "family_id": "family-dd36aa29cc3de349ca009c15b3cae79f6f6d4c60a43a042688a91690f8810dc8",
+      "chart_id": "chart-07df6e79e9e6ac9dba9260fc3258baf2d9feb7d681b1c450889a796b64e4d4ec",
+      "chapter": "18-sports-competition",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 3,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "问测及起局元数据逐句审读，主客依据、时辰转换与结果口径分开。",
+      "known_source_window_review": "问测及起局元数据逐句审读，主客依据、时辰转换与结果口径分开。",
+      "known": [
+        {
+          "record_id": "record-98e65c03fa5a0c8e50af5370e259fa60303c73581d4bed6df0770c99f4737946",
+          "source_id": "span-3d5f74ede58e79d1198e77a4b65e594f494f9a831e7dacc151457678b44ca413",
+          "sha256": "4f66b9ead04344645d584149bd436bdc6d7a83def2b28e5afa0629c13c17f210",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-b88338112c46d6f05cb703a1541eca2b22add80e7c362558f56b24f837840f66",
+          "source_id": "span-763e61f05f4e7928336c4dea976ad76aead4a89c12cf2a3071dacaa2dff95af4",
+          "sha256": "f90dc7d003fe0b591aa1450c53dabcd8ca91943d9ac4492e9784da04768592c5",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-611b6bb125dea08023bf3cf8a5474a93f24700762c4f979ffe1b54fc43a8c8b2",
+          "source_id": "span-0ba97d40851d519ddc17929ab1f9d4bb53f4b725fc0f5cedef04b33f4d7c0819",
+          "sha256": "c0eee50faa9e6e4d4740a74e49c52c4e44ab9f67a511b837a4f73fdb2e6c73b6",
+          "sequence": 2
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "sport": "一般以值符为裁判，以日干或时干为运动员"
+      },
+      "provided_roles": [
+        "天地盘主客分开，值符裁判、景门指导、辛金牌为不同视角"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-abb3a663690e872c14796d1bbbcc3aec5debb19b6c61906bae81a596a2c00d38",
+              "source_id": "span-0a90c761eb8199edc4fc18ebb8182fafbca686b02710950a2f828e8431519713",
+              "sha256": "96270c49cbc9295912ecb00adec440a93cb37802b8c69f7c91ee1332b5ab64e6",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-54a34a8ed8b0d943c39669f778a036d70465938b37b171e5f1af8abec4e8787a",
+              "source_id": "span-cfb40540731b9ee340cf52bd67fcbb7b1974181adf33f0617306dca7fbeb5b71",
+              "sha256": "788635083faf7842a49d8b95e52a70af170d90843f758f3632b907c654d219bd",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-3c2fd613618808ddfaf1739107c00ba280f1d1cd4d89a9bc0cae996ba2ba5eff",
+              "source_id": "span-58529ba792b39f28e928d53e62beab4a638ac4b47bafd5d66575148286b4ab63",
+              "sha256": "bb24bf315051a806e14f254090c642523b78150aa4a640d20c409f92fa58a72a",
+              "sequence": 9
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "两人同为中国选手不能硬分主客；作者按113/114先试地盘三四、再试对应八门、最后取三宫天冲与四宫天辅代表选手。应记录取法探索及各次不明显，不声称号码唯一必然决定用神。",
+            "citations": [
+              "chart",
+              "context",
+              "sport"
+            ],
+            "uncertainties": [
+              "胜负、时间、比分、金牌数分别评分；给定主客和传统旺衰不等于客观比赛效力验证。"
+            ],
+            "bindings": [
+              {
+                "role": "孔令辉、刘国良（最终星法）",
+                "symbol": "天冲星、天辅星",
+                "condition": "作者按113/114尾数三四及明星视角选择，非通用唯一规则"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-53647ca72645dbc519ef5183cf88d4c59be2e5fa2316aad20e0a65083a6c2276",
+              "source_id": "span-34e86992a541fbc1151ee316e1bae8de02d3a9756a4c465abfe07bf24fee00ea",
+              "sha256": "531dc39bc7b2d180fbe210dd4f9e4f3ebc5df528809f63e97400b1cc494c29b5",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-a69ef889fb1a6f1b7e430caa9ec4707ca773cacae03be6b5c7a403093b49c9ae",
+              "source_id": "span-c0413e5dd76917b55ba3aacabca206171a2a5033110415397820141e51697108",
+              "sha256": "13fe531057455d9238cb6493ab04a292d00e38f56cb1e2e899d909822fef27e3",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-df4333dbb4ecdaa74d0c4a281dae76e96ef229c4cfd5069960a0778d61eb6e1a",
+              "source_id": "span-3fbc1b82380156e7994c0c7a45dac027b86d463cfdadf3aef040adbec61ab1c0",
+              "sha256": "095e43a67b58b925a1dee2cdfb4f0a9a5841f5f1bba0becb95743a64805c6aa7",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-beb91f88b6fe6e0c57dfcdc5f70dcc56403cae4008bfdbda633c33c89e197af1",
+              "source_id": "span-b6e283e04052474dec2b75c1a7a975347fb6e15b0e1a3db18477cd931803dd73",
+              "sha256": "aad7a85802f8445bc72c9ee159b898a69b3cd3867d58e412e2ac5942ea1c1dde",
+              "sequence": 10
+            },
+            {
+              "record_id": "record-47082e3ef5c8a9466d7300161e7af7a7df8eadf741bd4e19ef76a9dd16b6e0f1",
+              "source_id": "span-9acfa77e216256add908647a2b70c639b652ac98afb926bc6d02e6b2f448b345",
+              "sha256": "f169d896eb7854dac9a5fc3fb23dceab32888f3e658ecf3b34661c0ddf21b010",
+              "sequence": 11
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "地盘宫法的三四、门法伤门兑七杜门乾六、最终天冲坤二天辅兑七分别照源，不混成同一宫位比较。",
+            "citations": [
+              "chart",
+              "context",
+              "sport"
+            ],
+            "uncertainties": [
+              "胜负、时间、比分、金牌数分别评分；给定主客和传统旺衰不等于客观比赛效力验证。"
+            ]
+          },
+          "facts": [
+            [
+              3,
+              "heaven_stem"
+            ],
+            [
+              4,
+              "heaven_stem"
+            ],
+            [
+              7,
+              "door"
+            ],
+            [
+              6,
+              "door"
+            ],
+            [
+              2,
+              "star"
+            ],
+            [
+              7,
+              "star"
+            ],
+            [
+              2,
+              "door"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-53647ca72645dbc519ef5183cf88d4c59be2e5fa2316aad20e0a65083a6c2276",
+              "source_id": "span-34e86992a541fbc1151ee316e1bae8de02d3a9756a4c465abfe07bf24fee00ea",
+              "sha256": "531dc39bc7b2d180fbe210dd4f9e4f3ebc5df528809f63e97400b1cc494c29b5",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-a69ef889fb1a6f1b7e430caa9ec4707ca773cacae03be6b5c7a403093b49c9ae",
+              "source_id": "span-c0413e5dd76917b55ba3aacabca206171a2a5033110415397820141e51697108",
+              "sha256": "13fe531057455d9238cb6493ab04a292d00e38f56cb1e2e899d909822fef27e3",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-df4333dbb4ecdaa74d0c4a281dae76e96ef229c4cfd5069960a0778d61eb6e1a",
+              "source_id": "span-3fbc1b82380156e7994c0c7a45dac027b86d463cfdadf3aef040adbec61ab1c0",
+              "sha256": "095e43a67b58b925a1dee2cdfb4f0a9a5841f5f1bba0becb95743a64805c6aa7",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-f4500fcf36ec1aea6b30e92993fa9a61a20205c316cb8225f9bc2b61f9155e62",
+              "source_id": "span-db27ea418212b05cb804a70daca40081b9dd700d25041b23b788e0676a4ef5cb",
+              "sha256": "bcbb2f142b1343c4c461097a6b8db752aec5a243be3086cf4a99c386ca1e9e29",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-3c2fd613618808ddfaf1739107c00ba280f1d1cd4d89a9bc0cae996ba2ba5eff",
+              "source_id": "span-58529ba792b39f28e928d53e62beab4a638ac4b47bafd5d66575148286b4ab63",
+              "sha256": "bb24bf315051a806e14f254090c642523b78150aa4a640d20c409f92fa58a72a",
+              "sequence": 9
+            },
+            {
+              "record_id": "record-beb91f88b6fe6e0c57dfcdc5f70dcc56403cae4008bfdbda633c33c89e197af1",
+              "source_id": "span-b6e283e04052474dec2b75c1a7a975347fb6e15b0e1a3db18477cd931803dd73",
+              "sha256": "aad7a85802f8445bc72c9ee159b898a69b3cd3867d58e412e2ac5942ea1c1dde",
+              "sequence": 10
+            },
+            {
+              "record_id": "record-47082e3ef5c8a9466d7300161e7af7a7df8eadf741bd4e19ef76a9dd16b6e0f1",
+              "source_id": "span-9acfa77e216256add908647a2b70c639b652ac98afb926bc6d02e6b2f448b345",
+              "sha256": "f169d896eb7854dac9a5fc3fb23dceab32888f3e658ecf3b34661c0ddf21b010",
+              "sequence": 11
+            },
+            {
+              "record_id": "record-c7a9cbf6fb914370fc917161c3e7c9956b3cc10095d45234ade0eccf1369a003",
+              "source_id": "span-24e9be31a8369bc00701b3f94aa59260161031169d285d01dbf08392e9b9a99c",
+              "sha256": "3779a36302b3ee39d74a933e0a231903b8940888ca10cf74a7648f70b36673e3",
+              "sequence": 12
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-f4500fcf36ec1aea6b30e92993fa9a61a20205c316cb8225f9bc2b61f9155e62",
+              "source_id": "span-db27ea418212b05cb804a70daca40081b9dd700d25041b23b788e0676a4ef5cb",
+              "sha256": "bcbb2f142b1343c4c461097a6b8db752aec5a243be3086cf4a99c386ca1e9e29",
+              "sequence": 8,
+              "quote": "二门落宫比和，又均为反吟"
+            },
+            {
+              "record_id": "record-3c2fd613618808ddfaf1739107c00ba280f1d1cd4d89a9bc0cae996ba2ba5eff",
+              "source_id": "span-58529ba792b39f28e928d53e62beab4a638ac4b47bafd5d66575148286b4ab63",
+              "sha256": "bb24bf315051a806e14f254090c642523b78150aa4a640d20c409f92fa58a72a",
+              "sequence": 9,
+              "quote": "以3宫的天冲星为孔令辉，以4宫的天辅星为刘国良"
+            },
+            {
+              "record_id": "record-beb91f88b6fe6e0c57dfcdc5f70dcc56403cae4008bfdbda633c33c89e197af1",
+              "source_id": "span-b6e283e04052474dec2b75c1a7a975347fb6e15b0e1a3db18477cd931803dd73",
+              "sha256": "aad7a85802f8445bc72c9ee159b898a69b3cd3867d58e412e2ac5942ea1c1dde",
+              "sequence": 10,
+              "quote": "天冲星落坤2宫"
+            },
+            {
+              "record_id": "record-47082e3ef5c8a9466d7300161e7af7a7df8eadf741bd4e19ef76a9dd16b6e0f1",
+              "source_id": "span-9acfa77e216256add908647a2b70c639b652ac98afb926bc6d02e6b2f448b345",
+              "sha256": "f169d896eb7854dac9a5fc3fb23dceab32888f3e658ecf3b34661c0ddf21b010",
+              "sequence": 11,
+              "quote": "天辅星落兑7宫"
+            },
+            {
+              "record_id": "record-c7a9cbf6fb914370fc917161c3e7c9956b3cc10095d45234ade0eccf1369a003",
+              "source_id": "span-24e9be31a8369bc00701b3f94aa59260161031169d285d01dbf08392e9b9a99c",
+              "sha256": "3779a36302b3ee39d74a933e0a231903b8940888ca10cf74a7648f70b36673e3",
+              "sequence": 12,
+              "quote": "四月火旺，生助孔令辉所落坤2宫之土，克制刘国良所落兑7宫之金"
+            }
+          ],
+          "answer": {
+            "explanation": "作者承认宫数法和八门法胜负不清，最终比较号码对应星的实际落宫格局，再以巳月火生坤土、克兑金权衡，倾向孔令辉。门星吉凶与月令都要保留；这反映探索性选择，不能用后来胜负给前三次方法都算正确。原断未报3:2。",
+            "citations": [
+              "chart",
+              "context",
+              "sport"
+            ],
+            "uncertainties": [
+              "胜负、时间、比分、金牌数分别评分；给定主客和传统旺衰不等于客观比赛效力验证。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-f29df215e46ee4e12f98954d2bd7ed6517b73e305ab5b9ac7d1099ec2ff64ee2",
+      "event_id": "event-46717cc35fdecad53eddc8b41c6a240ded514e812f711ffde7fabb1f36d902e0",
+      "family_id": "family-b74167c99addb9d15053995a9206b36a718bd27ece78453a116707ff1a5e7eb9",
+      "chart_id": "chart-716a66cff20831311f348997c5826d9c0dfc5dd70944cec69ef8094e35d8096b",
+      "chapter": "18-sports-competition",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 4,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "问测及起局元数据逐句审读，主客依据、时辰转换与结果口径分开。",
+      "known_source_window_review": "问测及起局元数据逐句审读，主客依据、时辰转换与结果口径分开。",
+      "known": [
+        {
+          "record_id": "record-4386a530510667cd2ad88ed132f65c24ed8deea6df480136c18a0a5d69541930",
+          "source_id": "span-264f815e1da7fe27ff13756edb072830ed749260691af764bb9644d1de6b8d6b",
+          "sha256": "a6b0c59945cb49a3682582449c0ef07776a7513fe4e874c6ac77f858ad4495f4",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-fd0f8f95340b54f4c7661e7758d50649c348cc688c015baeb0747b82ee043452",
+          "source_id": "span-b410e548ac82551cba0aab1395793bbebbe6e58e8e20f7bc603873fa31d299b9",
+          "sha256": "1a471391038434b39058ba59b6b1c07fe689f8f0e1f197dd4b6d96b6e6c31733",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-3357fd5d1cfedd39d83e9ff7617e7292a705b448673f7f9cbc5e1c603ce51acc",
+          "source_id": "span-95f886293b76157fb2b2cd57b4652be637cb0baceec73c264dcf67cdbaad4d50",
+          "sha256": "6a9b2a9957fc21e468f81d10c259222616f536243c382b4b2c5c7733d6c461d7",
+          "sequence": 2
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "sport": "一般以值符为裁判，以日干或时干为运动员"
+      },
+      "provided_roles": [
+        "天地盘主客分开，值符裁判、景门指导、辛金牌为不同视角"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-b5e71a24b30a8b6e41f2d1a07bef983522ef9a93b78301f85645f6314d124fd9",
+              "source_id": "span-43ae4ea3a062e99d8cc0881d0b3e6fc6ca33a153d0c9f927407762646908d186",
+              "sha256": "ae630e386bf20d0541940f42a5f8750e47ff3a1eb186c3fef0a061074a7ce408",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-86ed1700b33567b4858701bba903ccc0b3f96fb78dace7850e264aa88260b002",
+              "source_id": "span-cc4c1fbf1fa049d4c527bd23a87cac970b679b382ae96ac9350fa07a4da4a479",
+              "sha256": "9f28c39181688b56bbe4530e5b5f435295ef08e6010592c6bd2be21975906c7c",
+              "sequence": 4
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "本例按地盘时干看中国队，辛作金牌，再按辛所落宫取数；不能把一、六直接宣称唯一是16。",
+            "citations": [
+              "chart",
+              "context",
+              "sport"
+            ],
+            "uncertainties": [
+              "胜负、时间、比分、金牌数分别评分；给定主客和传统旺衰不等于客观比赛效力验证。"
+            ],
+            "bindings": [
+              {
+                "role": "中国队",
+                "symbol": "地盘时干",
+                "condition": "本例主方口径"
+              },
+              {
+                "role": "金牌",
+                "symbol": "辛",
+                "condition": "数量目标"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-b5e71a24b30a8b6e41f2d1a07bef983522ef9a93b78301f85645f6314d124fd9",
+              "source_id": "span-43ae4ea3a062e99d8cc0881d0b3e6fc6ca33a153d0c9f927407762646908d186",
+              "sha256": "ae630e386bf20d0541940f42a5f8750e47ff3a1eb186c3fef0a061074a7ce408",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-86ed1700b33567b4858701bba903ccc0b3f96fb78dace7850e264aa88260b002",
+              "source_id": "span-cc4c1fbf1fa049d4c527bd23a87cac970b679b382ae96ac9350fa07a4da4a479",
+              "sha256": "9f28c39181688b56bbe4530e5b5f435295ef08e6010592c6bd2be21975906c7c",
+              "sequence": 4
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "坎一地时己上辛、开门天任值符按表；一六数可有多种数量解释，不是字面“16枚”。",
+            "citations": [
+              "chart",
+              "context",
+              "sport"
+            ],
+            "uncertainties": [
+              "胜负、时间、比分、金牌数分别评分；给定主客和传统旺衰不等于客观比赛效力验证。"
+            ]
+          },
+          "facts": [
+            [
+              1,
+              "earth_stem"
+            ],
+            [
+              1,
+              "heaven_stem"
+            ],
+            [
+              1,
+              "door"
+            ],
+            [
+              1,
+              "star"
+            ],
+            [
+              1,
+              "deity"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-b5e71a24b30a8b6e41f2d1a07bef983522ef9a93b78301f85645f6314d124fd9",
+              "source_id": "span-43ae4ea3a062e99d8cc0881d0b3e6fc6ca33a153d0c9f927407762646908d186",
+              "sha256": "ae630e386bf20d0541940f42a5f8750e47ff3a1eb186c3fef0a061074a7ce408",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-86ed1700b33567b4858701bba903ccc0b3f96fb78dace7850e264aa88260b002",
+              "source_id": "span-cc4c1fbf1fa049d4c527bd23a87cac970b679b382ae96ac9350fa07a4da4a479",
+              "sha256": "9f28c39181688b56bbe4530e5b5f435295ef08e6010592c6bd2be21975906c7c",
+              "sequence": 4
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-b5e71a24b30a8b6e41f2d1a07bef983522ef9a93b78301f85645f6314d124fd9",
+              "source_id": "span-43ae4ea3a062e99d8cc0881d0b3e6fc6ca33a153d0c9f927407762646908d186",
+              "sha256": "ae630e386bf20d0541940f42a5f8750e47ff3a1eb186c3fef0a061074a7ce408",
+              "sequence": 3,
+              "quote": "地盘时干为中国队，在坎1宫，上乘辛"
+            },
+            {
+              "record_id": "record-86ed1700b33567b4858701bba903ccc0b3f96fb78dace7850e264aa88260b002",
+              "source_id": "span-cc4c1fbf1fa049d4c527bd23a87cac970b679b382ae96ac9350fa07a4da4a479",
+              "sha256": "9f28c39181688b56bbe4530e5b5f435295ef08e6010592c6bd2be21975906c7c",
+              "sequence": 4,
+              "quote": "金牌辛落1宫，坎宫属水，主一、六数"
+            }
+          ],
+          "answer": {
+            "explanation": "作者从主队与辛同宫、开门吉神并存天任克宫，认为有困难但能开局；坎水一六数给10或16枚两个候选。实际16枚只能说明落在作者给出的范围，不能回写为唯一精确事前预测。",
+            "citations": [
+              "chart",
+              "context",
+              "sport"
+            ],
+            "uncertainties": [
+              "胜负、时间、比分、金牌数分别评分；给定主客和传统旺衰不等于客观比赛效力验证。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-2d48dfbf2fc3afae29cd3e792c8cafe3715e7c98994c42e1e9a4d1c12eae96bb",
+      "event_id": "event-1e460e1d33d890efc229ca2c9c26c63894ea6df93b7c84010bf4945f755c9de9",
+      "family_id": "family-e0d1734ffd95c1265d4ca0bd97b8f28a9f72a52f6aa3953651225cbaaaba12d6",
+      "chart_id": "chart-128be24963e34b07eb571145dfe580bffda01388bc0fa4b3e5b5d9944de6af1d",
+      "chapter": "18-sports-competition",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 5,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "问测及起局元数据逐句审读，主客依据、时辰转换与结果口径分开。",
+      "known_source_window_review": "问测及起局元数据逐句审读，主客依据、时辰转换与结果口径分开。",
+      "known": [
+        {
+          "record_id": "record-4e1b0f6b2f5549ba1fbf1b49bafe033bce1a223b6341e0630f7656bdf4634cd1",
+          "source_id": "span-f60e4be4036b0e5b43938199d9be5a20437d039291a7d3136d97c2ac1788eca9",
+          "sha256": "67948b5b06af62e9dac65fabe44b38c7294ef9623aa4e065b43cb803df3b3340",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-f89f3c217975b028ec3c4968274be88437b134a883ba19cfb506ce7703425288",
+          "source_id": "span-9509b361512ec2d21a3b674f05b56c70570d098b650cfcf1a59755384462e613",
+          "sha256": "1acea6af27f17e2a856188618ec4527889367ad2a4c45fcc5b0ec887bdf121e3",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-215defb9fc52cd2b45445409b703fd47258a9a4f4f9d19812c3cc80b2cd51a25",
+          "source_id": "span-fa47835b7f11ffd294497f407930a8c80dd1f3c79fda96bb3c07f20a343f9c54",
+          "sha256": "0e73df77712d79a3a05f7ce36b8c14e6b0267c8e7f4d1b7feb064520b6c1ded1",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-eb2dce6b03d0cadb6a80ad01a34f76ee0bcae2c79108964b0341ccd3d74905a4",
+          "source_id": "span-d0cd5aafee04521a3cf576f9d823ccda81aa1953bdc1901c506197bbc7c62701",
+          "sha256": "6b961dfa997e4680cb6308a72581ca6534dd9fda38dddcac35af23ae1cd1977a",
+          "sequence": 3
+        }
+      ],
+      "cutoff": 4,
+      "rules": {
+        "sport": "一般以值符为裁判，以日干或时干为运动员"
+      },
+      "provided_roles": [
+        "天地盘主客分开，值符裁判、景门指导、辛金牌为不同视角"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-7f95f91980304a8dd2e023474c2012ba189786236d679b434beda29f56fe9264",
+              "source_id": "span-6187cf3325751ec6f64d33c725a5ec8e5e87bc33bfc25dab1aa8828480740a4b",
+              "sha256": "c6da12595b29101a0735bc503ed3222b9a2e6f51c6816ef4cbec69e4af009a7b",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-c268e7eddba299873ecac5e30e48cd3127f9a07c86e16354465014613c7333b8",
+              "source_id": "span-1d6ad27dd795391f3760f50d558f92a76a5c34415ede19c60f1aa8dff4f5b033",
+              "sha256": "a1559d43559d7285e9c40e8617a96d698c20b0fbda3f677094cd5bb4c56ec5c6",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-f75b6456e1b1823589f492b29c9a37ed5f41365e84a42ad80872df4ad343fa85",
+              "source_id": "span-874b81787806bc758d82d78359158462cb1b98979e30d43670666d03f59bff4c",
+              "sha256": "6cff5e976e81797c32bf3f1de2faeb55b91b26879c4912f246e8bfe917ff01be",
+              "sequence": 6
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "比赛在法国，两队均非东道主，作者另按远来客取巴西为客、荷兰相对近为主；地辛荷兰、天辛巴西。这个主客是本例选择，不能误写荷兰是赛事官方主队。",
+            "citations": [
+              "chart",
+              "context",
+              "sport"
+            ],
+            "uncertainties": [
+              "胜负、时间、比分、金牌数分别评分；给定主客和传统旺衰不等于客观比赛效力验证。"
+            ],
+            "bindings": [
+              {
+                "role": "本例主方荷兰、客方巴西",
+                "symbol": "地盘时干辛、天盘时干辛",
+                "condition": "相对距离远近法，非东道主身份"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-c268e7eddba299873ecac5e30e48cd3127f9a07c86e16354465014613c7333b8",
+              "source_id": "span-1d6ad27dd795391f3760f50d558f92a76a5c34415ede19c60f1aa8dff4f5b033",
+              "sha256": "a1559d43559d7285e9c40e8617a96d698c20b0fbda3f677094cd5bb4c56ec5c6",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-f75b6456e1b1823589f492b29c9a37ed5f41365e84a42ad80872df4ad343fa85",
+              "source_id": "span-874b81787806bc758d82d78359158462cb1b98979e30d43670666d03f59bff4c",
+              "sha256": "6cff5e976e81797c32bf3f1de2faeb55b91b26879c4912f246e8bfe917ff01be",
+              "sequence": 6
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "地辛艮八蓬开符，天辛震三任休九天按源。土五木三的比分解释不等于常规进球观测。",
+            "citations": [
+              "chart",
+              "context",
+              "sport"
+            ],
+            "uncertainties": [
+              "胜负、时间、比分、金牌数分别评分；给定主客和传统旺衰不等于客观比赛效力验证。"
+            ]
+          },
+          "facts": [
+            [
+              8,
+              "earth_stem"
+            ],
+            [
+              8,
+              "star"
+            ],
+            [
+              8,
+              "door"
+            ],
+            [
+              8,
+              "deity"
+            ],
+            [
+              3,
+              "heaven_stem"
+            ],
+            [
+              3,
+              "star"
+            ],
+            [
+              3,
+              "door"
+            ],
+            [
+              3,
+              "deity"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-7f95f91980304a8dd2e023474c2012ba189786236d679b434beda29f56fe9264",
+              "source_id": "span-6187cf3325751ec6f64d33c725a5ec8e5e87bc33bfc25dab1aa8828480740a4b",
+              "sha256": "c6da12595b29101a0735bc503ed3222b9a2e6f51c6816ef4cbec69e4af009a7b",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-c268e7eddba299873ecac5e30e48cd3127f9a07c86e16354465014613c7333b8",
+              "source_id": "span-1d6ad27dd795391f3760f50d558f92a76a5c34415ede19c60f1aa8dff4f5b033",
+              "sha256": "a1559d43559d7285e9c40e8617a96d698c20b0fbda3f677094cd5bb4c56ec5c6",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-f75b6456e1b1823589f492b29c9a37ed5f41365e84a42ad80872df4ad343fa85",
+              "source_id": "span-874b81787806bc758d82d78359158462cb1b98979e30d43670666d03f59bff4c",
+              "sha256": "6cff5e976e81797c32bf3f1de2faeb55b91b26879c4912f246e8bfe917ff01be",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-1346c6bc46698a7905ca6900505c4905e55233de4569f99866370f3bad24da60",
+              "source_id": "span-7bdab5a71d3c185072aa3f8f92bb4820f7912f477b99ad1ca9f7e56d6e0e4d34",
+              "sha256": "cb29edd789e47e2766204e2c6ad215f6e78c4c443b502ecf2f7fee83b0152263",
+              "sequence": 7
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-c268e7eddba299873ecac5e30e48cd3127f9a07c86e16354465014613c7333b8",
+              "source_id": "span-1d6ad27dd795391f3760f50d558f92a76a5c34415ede19c60f1aa8dff4f5b033",
+              "sha256": "a1559d43559d7285e9c40e8617a96d698c20b0fbda3f677094cd5bb4c56ec5c6",
+              "sequence": 5,
+              "quote": "地盘时干辛为主队，代表荷兰队，在艮8宫"
+            },
+            {
+              "record_id": "record-c268e7eddba299873ecac5e30e48cd3127f9a07c86e16354465014613c7333b8",
+              "source_id": "span-1d6ad27dd795391f3760f50d558f92a76a5c34415ede19c60f1aa8dff4f5b033",
+              "sha256": "a1559d43559d7285e9c40e8617a96d698c20b0fbda3f677094cd5bb4c56ec5c6",
+              "sequence": 5,
+              "quote": "蓬星为水受宫之克，又受月令未土之克"
+            },
+            {
+              "record_id": "record-f75b6456e1b1823589f492b29c9a37ed5f41365e84a42ad80872df4ad343fa85",
+              "source_id": "span-874b81787806bc758d82d78359158462cb1b98979e30d43670666d03f59bff4c",
+              "sha256": "6cff5e976e81797c32bf3f1de2faeb55b91b26879c4912f246e8bfe917ff01be",
+              "sequence": 6,
+              "quote": "天盘时干辛为客队，代表巴西队，在震3宫"
+            },
+            {
+              "record_id": "record-f75b6456e1b1823589f492b29c9a37ed5f41365e84a42ad80872df4ad343fa85",
+              "source_id": "span-874b81787806bc758d82d78359158462cb1b98979e30d43670666d03f59bff4c",
+              "sha256": "6cff5e976e81797c32bf3f1de2faeb55b91b26879c4912f246e8bfe917ff01be",
+              "sequence": 6,
+              "quote": "震木克艮土，客克主"
+            }
+          ],
+          "answer": {
+            "explanation": "作者对双方门星神均有有利不利，最终强调月令使艮蓬受制、震木客克艮土而倾向巴西，取5与3作比分可能值。尚未获知常规1:1、加时及点球结果，不能预知把比分范围解释成哪一阶段。",
+            "citations": [
+              "chart",
+              "context",
+              "sport"
+            ],
+            "uncertainties": [
+              "胜负、时间、比分、金牌数分别评分；给定主客和传统旺衰不等于客观比赛效力验证。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-9ff7e074b8fca7fb92b2cc750a61d053f527928fdd3f5ffe991592830bc58f55",
+      "event_id": "event-6805cc9a7d292fc78810dbc6f73d5ad80e202b8111e427b45d4a30abbd4cfed3",
+      "family_id": "family-f284e5b0a84170015100d4169bead84ba4ed5a6133eaae3036376241dc6c0e53",
+      "chart_id": "chart-55ecfd94f3577d2622565e30735e8fa87c1e639fec5f8314b6aacce038f6170c",
+      "chapter": "18-sports-competition",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 5,
+      "stage": "score_unit_critique",
+      "mode": "source_reading",
+      "source_prediction_window_review": "问测及起局元数据逐句审读，主客依据、时辰转换与结果口径分开。",
+      "known_source_window_review": "问测及起局元数据逐句审读，主客依据、时辰转换与结果口径分开。",
+      "known": [
+        {
+          "record_id": "record-4e1b0f6b2f5549ba1fbf1b49bafe033bce1a223b6341e0630f7656bdf4634cd1",
+          "source_id": "span-f60e4be4036b0e5b43938199d9be5a20437d039291a7d3136d97c2ac1788eca9",
+          "sha256": "67948b5b06af62e9dac65fabe44b38c7294ef9623aa4e065b43cb803df3b3340",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-f89f3c217975b028ec3c4968274be88437b134a883ba19cfb506ce7703425288",
+          "source_id": "span-9509b361512ec2d21a3b674f05b56c70570d098b650cfcf1a59755384462e613",
+          "sha256": "1acea6af27f17e2a856188618ec4527889367ad2a4c45fcc5b0ec887bdf121e3",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-215defb9fc52cd2b45445409b703fd47258a9a4f4f9d19812c3cc80b2cd51a25",
+          "source_id": "span-fa47835b7f11ffd294497f407930a8c80dd1f3c79fda96bb3c07f20a343f9c54",
+          "sha256": "0e73df77712d79a3a05f7ce36b8c14e6b0267c8e7f4d1b7feb064520b6c1ded1",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-eb2dce6b03d0cadb6a80ad01a34f76ee0bcae2c79108964b0341ccd3d74905a4",
+          "source_id": "span-d0cd5aafee04521a3cf576f9d823ccda81aa1953bdc1901c506197bbc7c62701",
+          "sha256": "6b961dfa997e4680cb6308a72581ca6534dd9fda38dddcac35af23ae1cd1977a",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-7f95f91980304a8dd2e023474c2012ba189786236d679b434beda29f56fe9264",
+          "source_id": "span-6187cf3325751ec6f64d33c725a5ec8e5e87bc33bfc25dab1aa8828480740a4b",
+          "sha256": "c6da12595b29101a0735bc503ed3222b9a2e6f51c6816ef4cbec69e4af009a7b",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-c268e7eddba299873ecac5e30e48cd3127f9a07c86e16354465014613c7333b8",
+          "source_id": "span-1d6ad27dd795391f3760f50d558f92a76a5c34415ede19c60f1aa8dff4f5b033",
+          "sha256": "a1559d43559d7285e9c40e8617a96d698c20b0fbda3f677094cd5bb4c56ec5c6",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-f75b6456e1b1823589f492b29c9a37ed5f41365e84a42ad80872df4ad343fa85",
+          "source_id": "span-874b81787806bc758d82d78359158462cb1b98979e30d43670666d03f59bff4c",
+          "sha256": "6cff5e976e81797c32bf3f1de2faeb55b91b26879c4912f246e8bfe917ff01be",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-1346c6bc46698a7905ca6900505c4905e55233de4569f99866370f3bad24da60",
+          "source_id": "span-7bdab5a71d3c185072aa3f8f92bb4820f7912f477b99ad1ca9f7e56d6e0e4d34",
+          "sha256": "cb29edd789e47e2766204e2c6ad215f6e78c4c443b502ecf2f7fee83b0152263",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-7080f3c982d8c111f95a3119a2496388169807631c0b936d2de81a51b200c1e8",
+          "source_id": "span-43f68b4459049e51b04e5913149986cc39e0f8c8061a635434fde8a89c1df377",
+          "sha256": "f631791d8d5dae831c784941fd1542d5fc2f08e332dcdaeaf6dacca64d988150",
+          "sequence": 8
+        }
+      ],
+      "cutoff": 9,
+      "rules": {
+        "sport": "一般以值符为裁判，以日干或时干为运动员"
+      },
+      "provided_roles": [
+        "天地盘主客分开，值符裁判、景门指导、辛金牌为不同视角"
+      ],
+      "tasks": [
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-7080f3c982d8c111f95a3119a2496388169807631c0b936d2de81a51b200c1e8",
+              "source_id": "span-43f68b4459049e51b04e5913149986cc39e0f8c8061a635434fde8a89c1df377",
+              "sha256": "f631791d8d5dae831c784941fd1542d5fc2f08e332dcdaeaf6dacca64d988150",
+              "sequence": 8
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "已给反馈中常规90分钟1:1、加时仍1:1，原书把最后点球决胜写作5:3。复盘必须分清常规比分、点球或合并记分口径；不能将原来的5:3直接记为常规时间精确比分命中。胜方正确和比分计量是否一致分别验收。",
+            "citations": [
+              "chart",
+              "context",
+              "sport"
+            ],
+            "uncertainties": [
+              "胜负、时间、比分、金牌数分别评分；给定主客和传统旺衰不等于客观比赛效力验证。"
+            ]
+          }
+        }
+      ],
+      "source_reading_review": "本条结果记录混有多阶段比分；完整作为已知阅读材料，目标仅为度量口径批判，不是预测标签。",
+      "case_id": "case-9ff7e074b8fca7fb92b2cc750a61d053f527928fdd3f5ffe991592830bc58f55",
+      "event_id": "event-6805cc9a7d292fc78810dbc6f73d5ad80e202b8111e427b45d4a30abbd4cfed3",
+      "family_id": "family-f284e5b0a84170015100d4169bead84ba4ed5a6133eaae3036376241dc6c0e53",
+      "chart_id": "chart-55ecfd94f3577d2622565e30735e8fa87c1e639fec5f8314b6aacce038f6170c",
+      "chapter": "18-sports-competition",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 6,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "问测及起局元数据逐句审读，主客依据、时辰转换与结果口径分开。",
+      "known_source_window_review": "问测及起局元数据逐句审读，主客依据、时辰转换与结果口径分开。",
+      "known": [
+        {
+          "record_id": "record-f7b98998c9f7dc2cfc219016f5f90253f4d128cfa940760657dfd08405e93adc",
+          "source_id": "span-19a9158d4f402c26fb48dd15642838e7145e420db225d26366e34e34252a14a3",
+          "sha256": "d597ff235cd202c147be6f0eb665897f913307e9c5e734896cb73eff6cd015bb",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-b53ba4a704e138794fe68718ba9634d5b94c470e6cacfea1ddf16f3fda01e99c",
+          "source_id": "span-411612d151fccafd05ade84054b40bc324c9a73c9a8f713f35dbf7ec62815976",
+          "sha256": "09050a4af5dccbdb06aeae509cb1db7282a15f5db19f4cca911b89f164abf482",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-95d5684dfa354e423513fd63d3bece870eb7fa758066faabe1c9ed07b06ea26c",
+          "source_id": "span-914caa913eafdc71c4d6b7db8c01c437e6cb413c1f6dd87baf1cde3786c29bde",
+          "sha256": "1151a9b00d93ce46b389a4195e2d26148f5c00b9660d60c8118f3329ea4fb894",
+          "sequence": 2
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "sport": "一般以值符为裁判，以日干或时干为运动员"
+      },
+      "provided_roles": [
+        "天地盘主客分开，值符裁判、景门指导、辛金牌为不同视角"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-01466195bcd48b9117776fc4239344296f9a2ece0fa9c87fab9119f8fcca26c1",
+              "source_id": "span-eb25a51a78b7b28db1adc8ee9e602684e925d5ac6201413bc386516b3877268f",
+              "sha256": "8627e0e1006b6a178172c9a5cf3f7379b0c0edfcaa7988e214e55e53043e739d",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-9cb22f3a76ca1e71d93ae6b83e5d5067a86ada5abbb300cad9a7f6dde2890cbc",
+              "source_id": "span-b750677c82e74ef5fd5fdd7e581ea99972a4856ea58dc7efbc7b75a6810553c5",
+              "sha256": "5a62da176ee84e438a5c1a17f6a88ca2416a5dc02325129b8b039e4421eb1727",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-b05ea4f277fd03e28acd12127ab964a481e82369efe821506b0ca6051df6b95b",
+              "source_id": "span-f959616c13b1740b9b60f31575df5fe9efaf9b331d9621d5b0842a5453b1dc14",
+              "sha256": "9a17f8446fe2c7c6dd1760ade1af225731b4ae5340062c98eb5737f2d724b18a",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "法国东道主取地盘时壬，克罗地亚客取天盘时壬，裁判值符另看。本例原学员判胜方错，不能把那条错误结论作正确综合目标。",
+            "citations": [
+              "chart",
+              "context",
+              "sport"
+            ],
+            "uncertainties": [
+              "胜负、时间、比分、金牌数分别评分；给定主客和传统旺衰不等于客观比赛效力验证。"
+            ],
+            "bindings": [
+              {
+                "role": "法国主队、克罗地亚客队",
+                "symbol": "地盘时干壬、天盘时干壬",
+                "condition": "东道主主客法"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-01466195bcd48b9117776fc4239344296f9a2ece0fa9c87fab9119f8fcca26c1",
+              "source_id": "span-eb25a51a78b7b28db1adc8ee9e602684e925d5ac6201413bc386516b3877268f",
+              "sha256": "8627e0e1006b6a178172c9a5cf3f7379b0c0edfcaa7988e214e55e53043e739d",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-9cb22f3a76ca1e71d93ae6b83e5d5067a86ada5abbb300cad9a7f6dde2890cbc",
+              "source_id": "span-b750677c82e74ef5fd5fdd7e581ea99972a4856ea58dc7efbc7b75a6810553c5",
+              "sha256": "5a62da176ee84e438a5c1a17f6a88ca2416a5dc02325129b8b039e4421eb1727",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-b05ea4f277fd03e28acd12127ab964a481e82369efe821506b0ca6051df6b95b",
+              "source_id": "span-f959616c13b1740b9b60f31575df5fe9efaf9b331d9621d5b0842a5453b1dc14",
+              "sha256": "9a17f8446fe2c7c6dd1760ade1af225731b4ae5340062c98eb5737f2d724b18a",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "地壬兑七上庚、伤门值符，天壬坎一景门九地按表；主宫生客宫并不自动覆盖月令与天地干关系。",
+            "citations": [
+              "chart",
+              "context",
+              "sport"
+            ],
+            "uncertainties": [
+              "胜负、时间、比分、金牌数分别评分；给定主客和传统旺衰不等于客观比赛效力验证。"
+            ]
+          },
+          "facts": [
+            [
+              7,
+              "earth_stem"
+            ],
+            [
+              7,
+              "heaven_stem"
+            ],
+            [
+              7,
+              "door"
+            ],
+            [
+              7,
+              "deity"
+            ],
+            [
+              1,
+              "heaven_stem"
+            ],
+            [
+              1,
+              "door"
+            ],
+            [
+              1,
+              "deity"
+            ]
+          ]
+        }
+      ],
+      "case_id": "case-eb02f42ba99f7f74d1b91b09f0615eb4627ba26badd972d4a54c7d6709f0464f",
+      "event_id": "event-a432691784f9a0c419312d3b5b8bb17612ddc6ebc69e26b81680a65be0b819d0",
+      "family_id": "family-683a74c454cb2804fc8ae61b8af4bffd995a7852d5f0b3221bc9cad03ea2f971",
+      "chart_id": "chart-66ae492189f40e85c1ff01da20c047d9df3a0fd3f17a2b657e0bddad43f005aa",
+      "chapter": "18-sports-competition",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 6,
+      "stage": "wrong_winner_critique",
+      "mode": "source_reading",
+      "source_prediction_window_review": "问测及起局元数据逐句审读，主客依据、时辰转换与结果口径分开。",
+      "known_source_window_review": "问测及起局元数据逐句审读，主客依据、时辰转换与结果口径分开。",
+      "known": [
+        {
+          "record_id": "record-f7b98998c9f7dc2cfc219016f5f90253f4d128cfa940760657dfd08405e93adc",
+          "source_id": "span-19a9158d4f402c26fb48dd15642838e7145e420db225d26366e34e34252a14a3",
+          "sha256": "d597ff235cd202c147be6f0eb665897f913307e9c5e734896cb73eff6cd015bb",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-b53ba4a704e138794fe68718ba9634d5b94c470e6cacfea1ddf16f3fda01e99c",
+          "source_id": "span-411612d151fccafd05ade84054b40bc324c9a73c9a8f713f35dbf7ec62815976",
+          "sha256": "09050a4af5dccbdb06aeae509cb1db7282a15f5db19f4cca911b89f164abf482",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-95d5684dfa354e423513fd63d3bece870eb7fa758066faabe1c9ed07b06ea26c",
+          "source_id": "span-914caa913eafdc71c4d6b7db8c01c437e6cb413c1f6dd87baf1cde3786c29bde",
+          "sha256": "1151a9b00d93ce46b389a4195e2d26148f5c00b9660d60c8118f3329ea4fb894",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-01466195bcd48b9117776fc4239344296f9a2ece0fa9c87fab9119f8fcca26c1",
+          "source_id": "span-eb25a51a78b7b28db1adc8ee9e602684e925d5ac6201413bc386516b3877268f",
+          "sha256": "8627e0e1006b6a178172c9a5cf3f7379b0c0edfcaa7988e214e55e53043e739d",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-9cb22f3a76ca1e71d93ae6b83e5d5067a86ada5abbb300cad9a7f6dde2890cbc",
+          "source_id": "span-b750677c82e74ef5fd5fdd7e581ea99972a4856ea58dc7efbc7b75a6810553c5",
+          "sha256": "5a62da176ee84e438a5c1a17f6a88ca2416a5dc02325129b8b039e4421eb1727",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-b05ea4f277fd03e28acd12127ab964a481e82369efe821506b0ca6051df6b95b",
+          "source_id": "span-f959616c13b1740b9b60f31575df5fe9efaf9b331d9621d5b0842a5453b1dc14",
+          "sha256": "9a17f8446fe2c7c6dd1760ade1af225731b4ae5340062c98eb5737f2d724b18a",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-de8f1a3c885b8c405a8f93d73e9677eaf088ef251944c28065158234bb4e400e",
+          "source_id": "span-854e27dc6601a4c905297b6d36e39da1e3ec0b4408cfa1c224749c46a8eb43a5",
+          "sha256": "fa39159982f3fb56f5aa8fb6df53de3788e9bad29868bca563543ff933b4789e",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-6d053fd9b70aa580efebe47433450dd8d0ff70d405ed947bd78533565478869f",
+          "source_id": "span-a29074169f6825746fb9eca1d06971b3bdbc643e955af2f6f28182043eb11ae0",
+          "sha256": "72674c06c7c54f6083e29f977ac274eeac8d41fd5be51a8723808d8cd9ebc028",
+          "sequence": 7
+        }
+      ],
+      "cutoff": 8,
+      "rules": {
+        "sport": "一般以值符为裁判，以日干或时干为运动员"
+      },
+      "provided_roles": [
+        "天地盘主客分开，值符裁判、景门指导、辛金牌为不同视角"
+      ],
+      "tasks": [
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-6d053fd9b70aa580efebe47433450dd8d0ff70d405ed947bd78533565478869f",
+              "source_id": "span-a29074169f6825746fb9eca1d06971b3bdbc643e955af2f6f28182043eb11ae0",
+              "sha256": "72674c06c7c54f6083e29f977ac274eeac8d41fd5be51a8723808d8cd9ebc028",
+              "sequence": 7
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "反馈明确法国主队胜2:1，而原断客胜，故胜方错误，比分数字相同也不能抵消。作者事后补看未土生兑金、克坎水，以及地时壬上庚为客生主、天时壬下己为主克客，说明原先漏了哪些比较层次。要保留这是后置纠错，不能说原初已看全。",
+            "citations": [
+              "chart",
+              "context",
+              "sport"
+            ],
+            "uncertainties": [
+              "胜负、时间、比分、金牌数分别评分；给定主客和传统旺衰不等于客观比赛效力验证。"
+            ]
+          }
+        }
+      ],
+      "source_reading_review": "唯一结果记录同时含实际结果和作者纠错；全文已知后做来源阅读，不计首断正确。",
+      "case_id": "case-eb02f42ba99f7f74d1b91b09f0615eb4627ba26badd972d4a54c7d6709f0464f",
+      "event_id": "event-a432691784f9a0c419312d3b5b8bb17612ddc6ebc69e26b81680a65be0b819d0",
+      "family_id": "family-683a74c454cb2804fc8ae61b8af4bffd995a7852d5f0b3221bc9cad03ea2f971",
+      "chart_id": "chart-66ae492189f40e85c1ff01da20c047d9df3a0fd3f17a2b657e0bddad43f005aa",
+      "chapter": "18-sports-competition",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 7,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "问测及起局元数据逐句审读，主客依据、时辰转换与结果口径分开。",
+      "known_source_window_review": "问测及起局元数据逐句审读，主客依据、时辰转换与结果口径分开。",
+      "known": [
+        {
+          "record_id": "record-f0c988bfd5368ac9f59c024328b164c4c5389f9d8186a14248c30fa0a91913cb",
+          "source_id": "span-5091c687b856ee3fb92176d1b8be6abf7dc2066405b4ca5a769d23ea479e885f",
+          "sha256": "3deef96f3a55b0d9454637d4e9823339dcf1797b87546b6201399dc26199fd2a",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-3ea2e5ffbec037912536bebac99940bb0b87e5d0eb4ef0167d8e25de213b3612",
+          "source_id": "span-5434b8205c4e16a129abc40f20df384aaeeb22423902ee55fa7bd3d39fb93049",
+          "sha256": "01695df605601deed9a9770a216d4ac2457a2491f2e5f3179502a25d129cece7",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-ac8e507c79f37e01ad07d8450967948bc2fb9a2570f2b09e42b7d3e7c6d89c21",
+          "source_id": "span-20b27a5167d7969e5446f148d960345eb54c0ea2da2c0cfb95c95db87a32c461",
+          "sha256": "6faf77af91f731c085287576a485e292a10126c72ddde757a2148464ac8a9fd4",
+          "sequence": 2
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "sport": "一般以值符为裁判，以日干或时干为运动员"
+      },
+      "provided_roles": [
+        "天地盘主客分开，值符裁判、景门指导、辛金牌为不同视角"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-34bf3b2b18abeedb1182d02e37e3a1aff6c8c2bbd5c9904925b3c11ddb24ba00",
+              "source_id": "span-b95dc2db7db44ebb398b3e1afc00d3443b0903f5ce30b30e4aeca63c374dd5d0",
+              "sha256": "c06f9e04295f81340ba10e6171c2e8d3699d29ba21716c133245f93803e83b2e",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-573dc032d46693ec6890f36695baf8c3681e12a4e7fa58d4c62ff3b0a49fd03e",
+              "source_id": "span-84db85bef7b06c99cb12728b200f7a941381b124cc877d26e772089d8109afd5",
+              "sha256": "ed4162b80b07d3e5cc7ad315065990ecda9b427af4f4396b61e4f2d928154180",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-02343ff11f3aa66ca772f64b2b905b89582fe2a103327a21711bba13551330e7",
+              "source_id": "span-c6bc2ce93091a1bbaa4417405340312b112d43ecf3be5c34bceb14b7c5852be9",
+              "sha256": "a328cf6ce9e47b2b261535bb804e0bc02c2fe1aa9de3921b4d7bd20d5087227d",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-1ff0200564277c5048246e1ebed5d5f5032c86368bd06ca77857a890bcca06ff",
+              "source_id": "span-524cef9555029af6bf50722f0b80b947dfc0a8ad0efc178ddb6bf9d210835d6a",
+              "sha256": "a155b7305720469c421c9893a5cf920e3323567007398ddcfe11e2e6b7498348",
+              "sequence": 8
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "法国东道主为主取地盘时丙，巴西客取天盘时丙；辛金牌再独立比较。新闻给的是预计比赛，不能把赛后冠军信息当已知。",
+            "citations": [
+              "chart",
+              "context",
+              "sport"
+            ],
+            "uncertainties": [
+              "胜负、时间、比分、金牌数分别评分；给定主客和传统旺衰不等于客观比赛效力验证。"
+            ],
+            "bindings": [
+              {
+                "role": "法国主队、巴西客队",
+                "symbol": "地盘时干丙、天盘时干丙",
+                "condition": "东道主主客法"
+              },
+              {
+                "role": "金牌",
+                "symbol": "辛",
+                "condition": "作为另一比较视角"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-573dc032d46693ec6890f36695baf8c3681e12a4e7fa58d4c62ff3b0a49fd03e",
+              "source_id": "span-84db85bef7b06c99cb12728b200f7a941381b124cc877d26e772089d8109afd5",
+              "sha256": "ed4162b80b07d3e5cc7ad315065990ecda9b427af4f4396b61e4f2d928154180",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-02343ff11f3aa66ca772f64b2b905b89582fe2a103327a21711bba13551330e7",
+              "source_id": "span-c6bc2ce93091a1bbaa4417405340312b112d43ecf3be5c34bceb14b7c5852be9",
+              "sha256": "a328cf6ce9e47b2b261535bb804e0bc02c2fe1aa9de3921b4d7bd20d5087227d",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-2806073050ec2aa054eaa627fd2dde2681e53c8b259e82fab7cea1f9e8c78550",
+              "source_id": "span-188c7dd8e91bc5aa2f8c6b1cfcd317370cb637303cd071b6a99b0606442e346b",
+              "sha256": "5cfebbb6a359e7b3240f23879fcc35f9f6b33a7a8132db1c3ebdd9e3ffce9997",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-1ff0200564277c5048246e1ebed5d5f5032c86368bd06ca77857a890bcca06ff",
+              "source_id": "span-524cef9555029af6bf50722f0b80b947dfc0a8ad0efc178ddb6bf9d210835d6a",
+              "sha256": "a155b7305720469c421c9893a5cf920e3323567007398ddcfe11e2e6b7498348",
+              "sequence": 8
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "地丙兑七休门值符、天丙震三景门白虎、地辛坤二及天辛艮八照源。星盘与地盘本位星的比较层次须标清。",
+            "citations": [
+              "chart",
+              "context",
+              "sport"
+            ],
+            "uncertainties": [
+              "胜负、时间、比分、金牌数分别评分；给定主客和传统旺衰不等于客观比赛效力验证。"
+            ]
+          },
+          "facts": [
+            [
+              7,
+              "earth_stem"
+            ],
+            [
+              7,
+              "door"
+            ],
+            [
+              7,
+              "deity"
+            ],
+            [
+              3,
+              "heaven_stem"
+            ],
+            [
+              3,
+              "door"
+            ],
+            [
+              3,
+              "deity"
+            ],
+            [
+              2,
+              "earth_stem"
+            ],
+            [
+              8,
+              "heaven_stem"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-34bf3b2b18abeedb1182d02e37e3a1aff6c8c2bbd5c9904925b3c11ddb24ba00",
+              "source_id": "span-b95dc2db7db44ebb398b3e1afc00d3443b0903f5ce30b30e4aeca63c374dd5d0",
+              "sha256": "c06f9e04295f81340ba10e6171c2e8d3699d29ba21716c133245f93803e83b2e",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-573dc032d46693ec6890f36695baf8c3681e12a4e7fa58d4c62ff3b0a49fd03e",
+              "source_id": "span-84db85bef7b06c99cb12728b200f7a941381b124cc877d26e772089d8109afd5",
+              "sha256": "ed4162b80b07d3e5cc7ad315065990ecda9b427af4f4396b61e4f2d928154180",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-02343ff11f3aa66ca772f64b2b905b89582fe2a103327a21711bba13551330e7",
+              "source_id": "span-c6bc2ce93091a1bbaa4417405340312b112d43ecf3be5c34bceb14b7c5852be9",
+              "sha256": "a328cf6ce9e47b2b261535bb804e0bc02c2fe1aa9de3921b4d7bd20d5087227d",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-254a24ba610d978766d5d811f58d54751d2ea4a0b455dddcb0709d8d1b80814c",
+              "source_id": "span-2b74248567c206b24799b699b1801cf62e5229e7395333953e2f6a302a2dab10",
+              "sha256": "5999bbc309ad66d3862eb701359fdde5920d9407a8069ca0c8c60e0291e763fc",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-2806073050ec2aa054eaa627fd2dde2681e53c8b259e82fab7cea1f9e8c78550",
+              "source_id": "span-188c7dd8e91bc5aa2f8c6b1cfcd317370cb637303cd071b6a99b0606442e346b",
+              "sha256": "5cfebbb6a359e7b3240f23879fcc35f9f6b33a7a8132db1c3ebdd9e3ffce9997",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-1ff0200564277c5048246e1ebed5d5f5032c86368bd06ca77857a890bcca06ff",
+              "source_id": "span-524cef9555029af6bf50722f0b80b947dfc0a8ad0efc178ddb6bf9d210835d6a",
+              "sha256": "a155b7305720469c421c9893a5cf920e3323567007398ddcfe11e2e6b7498348",
+              "sequence": 8
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-573dc032d46693ec6890f36695baf8c3681e12a4e7fa58d4c62ff3b0a49fd03e",
+              "source_id": "span-84db85bef7b06c99cb12728b200f7a941381b124cc877d26e772089d8109afd5",
+              "sha256": "ed4162b80b07d3e5cc7ad315065990ecda9b427af4f4396b61e4f2d928154180",
+              "sequence": 4,
+              "quote": "地盘时干丙为主队，落兑7宫"
+            },
+            {
+              "record_id": "record-02343ff11f3aa66ca772f64b2b905b89582fe2a103327a21711bba13551330e7",
+              "source_id": "span-c6bc2ce93091a1bbaa4417405340312b112d43ecf3be5c34bceb14b7c5852be9",
+              "sha256": "a328cf6ce9e47b2b261535bb804e0bc02c2fe1aa9de3921b4d7bd20d5087227d",
+              "sequence": 5,
+              "quote": "天盘时干丙为客队，落震3宫"
+            },
+            {
+              "record_id": "record-254a24ba610d978766d5d811f58d54751d2ea4a0b455dddcb0709d8d1b80814c",
+              "source_id": "span-2b74248567c206b24799b699b1801cf62e5229e7395333953e2f6a302a2dab10",
+              "sha256": "5999bbc309ad66d3862eb701359fdde5920d9407a8069ca0c8c60e0291e763fc",
+              "sequence": 6,
+              "quote": "未月，兑7宫之金旺相，直冲克震3宫休囚之木"
+            },
+            {
+              "record_id": "record-1ff0200564277c5048246e1ebed5d5f5032c86368bd06ca77857a890bcca06ff",
+              "source_id": "span-524cef9555029af6bf50722f0b80b947dfc0a8ad0efc178ddb6bf9d210835d6a",
+              "sha256": "a155b7305720469c421c9893a5cf920e3323567007398ddcfe11e2e6b7498348",
+              "sequence": 8,
+              "quote": "地盘辛在坤2宫，生助兑7宫主队"
+            }
+          ],
+          "answer": {
+            "explanation": "作者以主队宫吉门神、未月兑金旺而冲克震木，兼地盘星与辛金牌的主客生克，倾向法国胜并给3:0。与前一半决赛同比分而错胜方的例子分开，不只照抄金克木；实际3:0反馈仍未知。",
+            "citations": [
+              "chart",
+              "context",
+              "sport"
+            ],
+            "uncertainties": [
+              "胜负、时间、比分、金牌数分别评分；给定主客和传统旺衰不等于客观比赛效力验证。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-b460c5504cc2043ea582903147b552a773ccb150716a0797f4cdba89da90c923",
+      "event_id": "event-849b45da25586707ad51730836065e74b546b7fc41831e459692b8eff7bb2875",
+      "family_id": "family-6f85e17bb0c9451ae224ba07b33e2931dc13c379154948f31b323ab626da3c80",
+      "chart_id": "chart-4cf4a3a42dddb05462321eb6a166c9379d2c4c7165b57508b858abfa85285647",
+      "chapter": "18-sports-competition",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    }
+  ]
+}

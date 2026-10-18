@@ -1,0 +1,1665 @@
+{
+  "schema": "book-method-semantic-review-v1",
+  "source_data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "reviewed_by": "Codex source-grounded semantic curation",
+  "rows": [
+    {
+      "case": 1,
+      "stage": "after_disclosed_history",
+      "mode": "retrospective",
+      "known": [
+        {
+          "record_id": "record-917348d29955bb79619409f9d53a89d2eb1e2841cd6f9ea8e3787469b7522ca4",
+          "source_id": "span-5ce11cfc53ea58fa4e632f2f6db7951f15007ac7d6a3b1f03a0b3729889d73c4",
+          "sha256": "8f8538acc7af1b4722d95a135b8a0f45c120ca5635d224135014e799b0bac21b",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-d444cbf2e7de4d58fc3df09b1676c27dd907ed0baa0f8e3fced2b91670d0215a",
+          "source_id": "span-ae507189d43d07d4b79dd224bdb71cb723053e1ce4b513eb4f85022f3e3e905d",
+          "sha256": "3aee17cbf649b52e3c239584afd64eb1e7697d3ca3548e2202511fa94e34adc0",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-66bb27617873be79bd3d929381970c9db8eadd7d398262035ab9744eacf7ba4c",
+          "source_id": "span-fcd629e0aabaec37ff9fc4acacf5d01501455e75df0af5b7bfa86dd5eeeba4ad",
+          "sha256": "c8fe5eb359f48f189bc1f187c6fc5bbb741682db76b027452f4f0953b3516dab",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-7fbcf4d6f2539d7bcd8ef155b36e4dc4683dbd6daa6f5cf41d83654a8a3427f0",
+          "source_id": "span-339745735106feb825be6bc444e53a7362ea3aa6d7ce47b2803ec99719131e0f",
+          "sha256": "fabef766554c8aed5cbd2d23112555552a50690014bd6ddf31f7e2c151da068d",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-3972d7b68856d545a6e32e3a52c0d8a90f2b27519d774f797bd0f5fc677b8115",
+          "source_id": "span-b5b17ab0a05b653740eecd8487c10b70dca32d2c7c8b690092b91fc5c1d34c35",
+          "sha256": "ef0cb7e3d6a0d6a34f272ef081da0144cc4e91c76e21a2a44933adfb20fd4855",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-afeecb0a07771d09f0db853b2b625dcc4df0ed6d8cdd0950f403fc487e129b58",
+          "source_id": "span-e8216216a76aae798cf2f9c5d393bbc4cb8aa3d923c1154cbc3d351f683433bb",
+          "sha256": "a33cd3828bf9a99e35494c106ec43d014769e6b1b9f92d724eacd033a8a19689",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-57b9ae76eb394e559157ff21c32457b0a8b034face9a2d71e21827a65a09db99",
+          "source_id": "span-1d37829be6df360c08f629c274979d3b9077f8d33cc0cbb3a9953af7404fff09",
+          "sha256": "c5657ec4110810a9b1b729216d0f72ee7081a1237ab16bc384b755e70784370c",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-177dc89647b9da146ef5e19caa851eb72151287918e6a1df0fa16b7b4bd0101c",
+          "source_id": "span-ca60cfff1a9d7c8d0d931d02a97f4cec083f0d73b3fe8bb8d319e94656a52fff",
+          "sha256": "35dff1af8e9e496f5c2b050cf70b7f26ddd700712183fc62ccc2768d179c4c96",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-fccfb14028485a2e75c30a56ff29f1bec60750931a0cceb09e804e6eebee9463",
+          "source_id": "span-667bcf9540c843b4948d83a73e0857bc7612954ee9eba004fe3c7c4332d58308",
+          "sha256": "f92898bf24131c094710dca504d962fd7f02e5c193444602c77742f63698eaa2",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-b573be82402adcd3591b130293c5b365b1b037f5c1d712f6bc165c01ec02f8c5",
+          "source_id": "span-2f7f8c026c6fa391870f2758e2a5366b022464994c99902edde5534c4839a096",
+          "sha256": "e93e905003c114eeaa50f200fa8724d598070a439cf48cc733296c379b18256f",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-0e2f0713ab5e22942d182e30618554c1b1e96f954c779220449820d8ee976f83",
+          "source_id": "span-c7f1ee0a9206e7c933217c582e8636180b7c1bc066e14497d83f16b8b9c9483d",
+          "sha256": "6ff4ac30b682f3577f68c7ede4208f57f874b035ef832639042e44d2d89d684c",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-3affd157e73ba736d12e71faea036c382dc98e9a89868094aa579b591bb43efa",
+          "source_id": "span-10dd8626a3b030f7cf1dab0b5260ff57d2d54c03280384e970d35d40d5c56934",
+          "sha256": "965bfe353062bea84a5447f9de0d47e92549eafc7a49472b05177a864fd97fad",
+          "sequence": 12
+        },
+        {
+          "record_id": "record-04763932e504e964f799b8e2c8b95fcc6e714b9d4f2674d86d113412a492937d",
+          "source_id": "span-3cbc19d256392d47f19a81fdeafc4b356702fe49a143e1986e877a9462a3f3bc",
+          "sha256": "7d465474b79ae50fa8dc74dccb7730404dd4af060fb4518c622ed9f16d9e8843",
+          "sequence": 13
+        }
+      ],
+      "cutoff": 14,
+      "rules": {
+        "illness": "预测疾病以九星中的天芮星为疾病的主要代表符号",
+        "doctor": "又以天心星和乙奇为医生和医药的代表符号"
+      },
+      "provided_roles": [
+        "日干壬为求测人",
+        "天芮为病星",
+        "天心与乙奇为医药"
+      ],
+      "tasks": [
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-590cf20444c0b3e0a2ea5c01648b5e922d185dc086100fa811500e1efbe263b5",
+              "source_id": "span-ab50871d8956114fd6c4a869648202717f63215df7b7c2dc79f06de1c0c995c4",
+              "sha256": "9c2a0a1ce08f5aff5e1af9713ef0a146e4ff927288f05e68ec11763a83c0f863",
+              "sequence": 14
+            },
+            {
+              "record_id": "record-e115e63528bcfb9d608d744310270532b652e8ae737d23cb76c71d805b78ba37",
+              "source_id": "span-bf2512768bf8f96d99acfcd9a5d7b82322ce0811041fb747628bf597289d590e",
+              "sha256": "d4a22a4e0291fd00a909513222df0b271503bbafd8fffeee6070676938dfb66f",
+              "sequence": 17
+            },
+            {
+              "record_id": "record-0a67b5521b3e2c87fd14606767d93cb4ac32498d2631a0fc83d0c9b7d990c192",
+              "source_id": "span-ca0a6cc475b8b17fa1ea05377f48b9e85ce4020e154e19a943eda7d48fd442f5",
+              "sha256": "9d8046ebb8a0e6b2f490d726c75281a46239dcade61bebbb6afbb75914eba53a",
+              "sequence": 18
+            }
+          ],
+          "facts": [
+            [
+              8,
+              "star"
+            ],
+            [
+              8,
+              "earth_stem"
+            ],
+            [
+              8,
+              "heaven_stem"
+            ],
+            [
+              7,
+              "door"
+            ],
+            [
+              7,
+              "deity"
+            ],
+            [
+              3,
+              "heaven_stem"
+            ],
+            [
+              4,
+              "star"
+            ]
+          ],
+          "answer": {
+            "explanation": "原表艮八天芮、地盘癸与天盘乙及前缀庚分开；兑七开门白虎、震三壬与巽四天心按字面读取，不把这些字面事实直接当确诊。",
+            "citations": [
+              "chart",
+              "context",
+              "illness",
+              "doctor"
+            ],
+            "uncertainties": [
+              "这里复现原作者的传统方法，给定条件未经独立复算，不作现代医学结论。"
+            ]
+          },
+          "conditions": []
+        },
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-590cf20444c0b3e0a2ea5c01648b5e922d185dc086100fa811500e1efbe263b5",
+              "source_id": "span-ab50871d8956114fd6c4a869648202717f63215df7b7c2dc79f06de1c0c995c4",
+              "sha256": "9c2a0a1ce08f5aff5e1af9713ef0a146e4ff927288f05e68ec11763a83c0f863",
+              "sequence": 14
+            },
+            {
+              "record_id": "record-88aca942756ebf58d82855e942a1b523fbc804ccfed6443ca1add3d6b0fe866e",
+              "source_id": "span-7ae14417e4dc26d805d2a0e527d82176bbf32f1aa2e3c819deab93b1eb506723",
+              "sha256": "e926f1f77666508549fbe3849a61a101dc9e92455e8063eb7a4542ff07c9fb29",
+              "sequence": 15
+            },
+            {
+              "record_id": "record-a99b29235c2d164066863066e5dc1f0e644262ee7fda027e0f90c54938e73ce9",
+              "source_id": "span-58a9db880e0e1f0ab4f6312d9c78c430d88f659e9eb05bc7de024cb8d5b60e17",
+              "sha256": "ac057ce16ccef25a007d3581aac2b482e790dcb64d88bb35e07689a7a38ecc2b",
+              "sequence": 16
+            },
+            {
+              "record_id": "record-e115e63528bcfb9d608d744310270532b652e8ae737d23cb76c71d805b78ba37",
+              "source_id": "span-bf2512768bf8f96d99acfcd9a5d7b82322ce0811041fb747628bf597289d590e",
+              "sha256": "d4a22a4e0291fd00a909513222df0b271503bbafd8fffeee6070676938dfb66f",
+              "sequence": 17
+            },
+            {
+              "record_id": "record-0a67b5521b3e2c87fd14606767d93cb4ac32498d2631a0fc83d0c9b7d990c192",
+              "source_id": "span-ca0a6cc475b8b17fa1ea05377f48b9e85ce4020e154e19a943eda7d48fd442f5",
+              "sha256": "9d8046ebb8a0e6b2f490d726c75281a46239dcade61bebbb6afbb75914eba53a",
+              "sequence": 18
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-590cf20444c0b3e0a2ea5c01648b5e922d185dc086100fa811500e1efbe263b5",
+              "source_id": "span-ab50871d8956114fd6c4a869648202717f63215df7b7c2dc79f06de1c0c995c4",
+              "sha256": "9c2a0a1ce08f5aff5e1af9713ef0a146e4ff927288f05e68ec11763a83c0f863",
+              "sequence": 14,
+              "quote": "病星天芮落艮8宫"
+            },
+            {
+              "record_id": "record-590cf20444c0b3e0a2ea5c01648b5e922d185dc086100fa811500e1efbe263b5",
+              "source_id": "span-ab50871d8956114fd6c4a869648202717f63215df7b7c2dc79f06de1c0c995c4",
+              "sha256": "9c2a0a1ce08f5aff5e1af9713ef0a146e4ff927288f05e68ec11763a83c0f863",
+              "sequence": 14,
+              "quote": "时干戊落7宫，逢开门，上乘白虎"
+            },
+            {
+              "record_id": "record-88aca942756ebf58d82855e942a1b523fbc804ccfed6443ca1add3d6b0fe866e",
+              "source_id": "span-7ae14417e4dc26d805d2a0e527d82176bbf32f1aa2e3c819deab93b1eb506723",
+              "sha256": "e926f1f77666508549fbe3849a61a101dc9e92455e8063eb7a4542ff07c9fb29",
+              "sequence": 15,
+              "quote": "1991年，太岁辛未冲动艮八宫病星"
+            },
+            {
+              "record_id": "record-e115e63528bcfb9d608d744310270532b652e8ae737d23cb76c71d805b78ba37",
+              "source_id": "span-bf2512768bf8f96d99acfcd9a5d7b82322ce0811041fb747628bf597289d590e",
+              "sha256": "d4a22a4e0291fd00a909513222df0b271503bbafd8fffeee6070676938dfb66f",
+              "sequence": 17,
+              "quote": "天心星主医生、医药，落4宫为木，克8宫之土"
+            },
+            {
+              "record_id": "record-0a67b5521b3e2c87fd14606767d93cb4ac32498d2631a0fc83d0c9b7d990c192",
+              "source_id": "span-ca0a6cc475b8b17fa1ea05377f48b9e85ce4020e154e19a943eda7d48fd442f5",
+              "sha256": "9d8046ebb8a0e6b2f490d726c75281a46239dcade61bebbb6afbb75914eba53a",
+              "sequence": 18,
+              "quote": "日干壬为求测之人，落震3宫"
+            }
+          ],
+          "answer": {
+            "explanation": "已知结肠手术、1991年12月和癸未年命后，作者回看艮八病星、时干开门白虎说明肠胃刑伤，又用1991辛未冲动病星及年命入墓解释手术年；医生乙奇、天心与日干制病星被用于恢复判断。这是反馈后的原例复盘，不能把出生年、手术年月回填到第一次断病。1997关口及其后寿期只是作者当时说法，未提供后续生存验证。",
+            "citations": [
+              "chart",
+              "context",
+              "illness",
+              "doctor"
+            ],
+            "uncertainties": [
+              "这里复现原作者的传统方法，给定条件未经独立复算，不作现代医学结论。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-dc6238a5f749af624ffd54792af8ced4823aa751485a93eda74bb58d9e00e6d0",
+      "event_id": "event-eb4aebe82fb7e80c2baa5e77ae8f12ee372e508a4f035b7242c715c68b56997d",
+      "family_id": "family-c9bcb94ab437b9f8056e28baf4f79fd165843706102ad2ea1bc9980eae3ab2e5",
+      "chart_id": "chart-7e3661e1a8e78fa7798e6a536e65bf80ca0d2f95fde7ea542d95c25d72b5a136",
+      "chapter": "07-health-prediction",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 2,
+      "stage": "initial",
+      "mode": "initial",
+      "known": [
+        {
+          "record_id": "record-4c65f9628795bb29a4d821267da2ac97959d1220a5d62175ebe26f6a59f56e9e",
+          "source_id": "span-72ea9b0535c7c6fb22fd35bbbaccac44916c4320cbcdb52cebd0ec20e79b79e9",
+          "sha256": "3270f56701bb46b6935eae35603e51d2e445f054fbc529f53d8b828d4d11b306",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-ee2a0a36f74fe81ae0f0ec213a16e6393b3ff88532baae1b19ff4b32d92997c1",
+          "source_id": "span-397078bd3edf3209b22df697bb5d2b62b4c5faefcc50d6e91a02d0c3505b7ca9",
+          "sha256": "9e133ed4c2932c128101924f253f7f5cf45056b713806369919d3bb1b073e6b9",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-083adb11a860d56334cb448177f9056dab37cf4d1c5b1da6a5bb20b1ba639394",
+          "source_id": "span-771c2d16bca4adbd9cf6207ce89bf6506f2d9bde346b0ee0b7dd4571a16fd0d3",
+          "sha256": "7573dc67c675fd674c87811823e849b5a3008f0b49f46dfe84bb896f868d41df",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-ac1f34e791fefc73d193057bb9ad5226a81ccfcf0a69183292b95d83203df371",
+          "source_id": "span-84efb1929992d60cea89a68d75675be0e0f57529ea9a78507851843a15927539",
+          "sha256": "443d347344545f4cce7fef794102d09be967049ddd96ae68470eb22dbb56be56",
+          "sequence": 3
+        }
+      ],
+      "cutoff": 5,
+      "rules": {
+        "illness": "预测疾病以九星中的天芮星为疾病的主要代表符号",
+        "doctor": "又以天心星和乙奇为医生和医药的代表符号"
+      },
+      "provided_roles": [
+        "父病：年干丙、乾宫与年命辛三个视角分别用",
+        "天芮为病、天心与乙为医药"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-05be1d64b7f7e05eb694fafc317235d7d75d62187fcb252d817aa7f37a6ea6d3",
+              "source_id": "span-02abf8788a40412a7470579a8698a652907ab937146a92831f4ca2c4912782f6",
+              "sha256": "b6c4b3d6b45e028da6ddad81aa67900977b12837ad5b74d56c4d2a0b06116a23",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-233b6eeadc3540cdc496caa24821cb4a6d82ad8d8486459979ccc4d3367a34da",
+              "source_id": "span-ca7b13e9b3937e427a5b24d08849123ce8d623a6257f60e2b51dc06f5a0c29ba",
+              "sha256": "bb62abf78eb0378604fff3194428834d529f945ff3753c480ad986de311a1b5d",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-73627b8bbe52d018baabdcc284be2602b27e545c667f06df3dd7a548c54ade3e",
+              "source_id": "span-6a9f4303591ad0091c2fcd4914a977f8f895d657cc900b532540f94e86b7068b",
+              "sha256": "b45b66f3b9441df4d2cc635e760c6385633580ab25caf5c38702bfce8dc7e0c9",
+              "sequence": 7
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "问测人是女儿，问的是父病。本例用年干丙代表长辈，兼看乾宫父象和父亲辛酉年命，不能拿女儿日干直接替代父亲，也不能只因七十五岁就自动选择用神。天芮为病，天心与乙奇为医药。",
+            "citations": [
+              "chart",
+              "context",
+              "illness",
+              "doctor"
+            ],
+            "uncertainties": [
+              "这里复现原作者的传统方法，给定条件未经独立复算，不作现代医学结论。"
+            ],
+            "bindings": [
+              {
+                "role": "父亲（本例长辈口径）",
+                "symbol": "年干丙",
+                "condition": "女问父病，本例兼看乾宫与辛酉年命"
+              },
+              {
+                "role": "病象",
+                "symbol": "天芮星",
+                "condition": "疾病方法"
+              },
+              {
+                "role": "医药",
+                "symbol": "天心星、乙奇",
+                "condition": "分别比较与病星宫关系"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-05be1d64b7f7e05eb694fafc317235d7d75d62187fcb252d817aa7f37a6ea6d3",
+              "source_id": "span-02abf8788a40412a7470579a8698a652907ab937146a92831f4ca2c4912782f6",
+              "sha256": "b6c4b3d6b45e028da6ddad81aa67900977b12837ad5b74d56c4d2a0b06116a23",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-233b6eeadc3540cdc496caa24821cb4a6d82ad8d8486459979ccc4d3367a34da",
+              "source_id": "span-ca7b13e9b3937e427a5b24d08849123ce8d623a6257f60e2b51dc06f5a0c29ba",
+              "sha256": "bb62abf78eb0378604fff3194428834d529f945ff3753c480ad986de311a1b5d",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-73627b8bbe52d018baabdcc284be2602b27e545c667f06df3dd7a548c54ade3e",
+              "source_id": "span-6a9f4303591ad0091c2fcd4914a977f8f895d657cc900b532540f94e86b7068b",
+              "sha256": "b45b66f3b9441df4d2cc635e760c6385633580ab25caf5c38702bfce8dc7e0c9",
+              "sequence": 7
+            }
+          ],
+          "facts": [
+            [
+              2,
+              "star"
+            ],
+            [
+              2,
+              "door"
+            ],
+            [
+              6,
+              "star"
+            ],
+            [
+              8,
+              "heaven_stem"
+            ],
+            [
+              9,
+              "heaven_stem"
+            ],
+            [
+              4,
+              "heaven_stem"
+            ]
+          ],
+          "answer": {
+            "explanation": "病星在坤二而医药视角分别在乾六与艮八；年干丙在离九，年命辛在巽四。庚的寄宫前缀与主干癸要分清，不自行补空亡。",
+            "citations": [
+              "chart",
+              "context",
+              "illness",
+              "doctor"
+            ],
+            "uncertainties": [
+              "这里复现原作者的传统方法，给定条件未经独立复算，不作现代医学结论。"
+            ]
+          },
+          "conditions": []
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-05be1d64b7f7e05eb694fafc317235d7d75d62187fcb252d817aa7f37a6ea6d3",
+              "source_id": "span-02abf8788a40412a7470579a8698a652907ab937146a92831f4ca2c4912782f6",
+              "sha256": "b6c4b3d6b45e028da6ddad81aa67900977b12837ad5b74d56c4d2a0b06116a23",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-233b6eeadc3540cdc496caa24821cb4a6d82ad8d8486459979ccc4d3367a34da",
+              "source_id": "span-ca7b13e9b3937e427a5b24d08849123ce8d623a6257f60e2b51dc06f5a0c29ba",
+              "sha256": "bb62abf78eb0378604fff3194428834d529f945ff3753c480ad986de311a1b5d",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-73627b8bbe52d018baabdcc284be2602b27e545c667f06df3dd7a548c54ade3e",
+              "source_id": "span-6a9f4303591ad0091c2fcd4914a977f8f895d657cc900b532540f94e86b7068b",
+              "sha256": "b45b66f3b9441df4d2cc635e760c6385633580ab25caf5c38702bfce8dc7e0c9",
+              "sequence": 7
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-05be1d64b7f7e05eb694fafc317235d7d75d62187fcb252d817aa7f37a6ea6d3",
+              "source_id": "span-02abf8788a40412a7470579a8698a652907ab937146a92831f4ca2c4912782f6",
+              "sha256": "b6c4b3d6b45e028da6ddad81aa67900977b12837ad5b74d56c4d2a0b06116a23",
+              "sequence": 5,
+              "quote": "天芮星为病神，落坤2宫，为旺相"
+            },
+            {
+              "record_id": "record-05be1d64b7f7e05eb694fafc317235d7d75d62187fcb252d817aa7f37a6ea6d3",
+              "source_id": "span-02abf8788a40412a7470579a8698a652907ab937146a92831f4ca2c4912782f6",
+              "sha256": "b6c4b3d6b45e028da6ddad81aa67900977b12837ad5b74d56c4d2a0b06116a23",
+              "sequence": 5,
+              "quote": "死门临庚多为癌症"
+            },
+            {
+              "record_id": "record-05be1d64b7f7e05eb694fafc317235d7d75d62187fcb252d817aa7f37a6ea6d3",
+              "source_id": "span-02abf8788a40412a7470579a8698a652907ab937146a92831f4ca2c4912782f6",
+              "sha256": "b6c4b3d6b45e028da6ddad81aa67900977b12837ad5b74d56c4d2a0b06116a23",
+              "sequence": 5,
+              "quote": "逢空亡"
+            },
+            {
+              "record_id": "record-233b6eeadc3540cdc496caa24821cb4a6d82ad8d8486459979ccc4d3367a34da",
+              "source_id": "span-ca7b13e9b3937e427a5b24d08849123ce8d623a6257f60e2b51dc06f5a0c29ba",
+              "sha256": "bb62abf78eb0378604fff3194428834d529f945ff3753c480ad986de311a1b5d",
+              "sequence": 6,
+              "quote": "天心星落6宫，乙奇在8宫，均不能克天芮星落宫"
+            },
+            {
+              "record_id": "record-73627b8bbe52d018baabdcc284be2602b27e545c667f06df3dd7a548c54ade3e",
+              "source_id": "span-6a9f4303591ad0091c2fcd4914a977f8f895d657cc900b532540f94e86b7068b",
+              "sha256": "b45b66f3b9441df4d2cc635e760c6385633580ab25caf5c38702bfce8dc7e0c9",
+              "sequence": 7,
+              "quote": "年干丙为用神"
+            },
+            {
+              "record_id": "record-73627b8bbe52d018baabdcc284be2602b27e545c667f06df3dd7a548c54ade3e",
+              "source_id": "span-6a9f4303591ad0091c2fcd4914a977f8f895d657cc900b532540f94e86b7068b",
+              "sha256": "b45b66f3b9441df4d2cc635e760c6385633580ab25caf5c38702bfce8dc7e0c9",
+              "sequence": 7,
+              "quote": "年命辛落巽四宫，为入墓"
+            }
+          ],
+          "answer": {
+            "explanation": "作者把坤二病星、死门及所报凶格看作消化系统重病，又认为医药宫不能制病。父象年干、乾宫及年命分别出现不利条件，因而作严重预后判断。这里保留多视角及其前提；医院食道癌诊断尚未在这轮获知，不能当输入，也不能把作者的必死判断当医学结论。",
+            "citations": [
+              "chart",
+              "context",
+              "illness",
+              "doctor"
+            ],
+            "uncertainties": [
+              "这里复现原作者的传统方法，给定条件未经独立复算，不作现代医学结论。"
+            ]
+          }
+        },
+        {
+          "type": "timing_analysis",
+          "targets": [
+            {
+              "record_id": "record-be2745cdf6e0d21e34bc5d2c74d08e0021c94d622b8102c55fd911fc2c4a841d",
+              "source_id": "span-c056c65785707c458b78c10591bb2f274eec38d7700e30894c5a6b17f2c9f180",
+              "sha256": "feb5fddd2fef01f5e3f85234393fdddfd52960283731f002111d5709d68cb8e1",
+              "sequence": 8
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-be2745cdf6e0d21e34bc5d2c74d08e0021c94d622b8102c55fd911fc2c4a841d",
+              "source_id": "span-c056c65785707c458b78c10591bb2f274eec38d7700e30894c5a6b17f2c9f180",
+              "sha256": "feb5fddd2fef01f5e3f85234393fdddfd52960283731f002111d5709d68cb8e1",
+              "sequence": 8,
+              "quote": "阴遁，年干丙、病神天芮均在内盘"
+            },
+            {
+              "record_id": "record-be2745cdf6e0d21e34bc5d2c74d08e0021c94d622b8102c55fd911fc2c4a841d",
+              "source_id": "span-c056c65785707c458b78c10591bb2f274eec38d7700e30894c5a6b17f2c9f180",
+              "sha256": "feb5fddd2fef01f5e3f85234393fdddfd52960283731f002111d5709d68cb8e1",
+              "sequence": 8,
+              "quote": "年命辛在外盘"
+            },
+            {
+              "record_id": "record-be2745cdf6e0d21e34bc5d2c74d08e0021c94d622b8102c55fd911fc2c4a841d",
+              "source_id": "span-c056c65785707c458b78c10591bb2f274eec38d7700e30894c5a6b17f2c9f180",
+              "sha256": "feb5fddd2fef01f5e3f85234393fdddfd52960283731f002111d5709d68cb8e1",
+              "sequence": 8,
+              "quote": "星门伏吟也主慢"
+            },
+            {
+              "record_id": "record-be2745cdf6e0d21e34bc5d2c74d08e0021c94d622b8102c55fd911fc2c4a841d",
+              "source_id": "span-c056c65785707c458b78c10591bb2f274eec38d7700e30894c5a6b17f2c9f180",
+              "sha256": "feb5fddd2fef01f5e3f85234393fdddfd52960283731f002111d5709d68cb8e1",
+              "sequence": 8,
+              "quote": "年干丙死于酉月、墓于戌月"
+            },
+            {
+              "record_id": "record-be2745cdf6e0d21e34bc5d2c74d08e0021c94d622b8102c55fd911fc2c4a841d",
+              "source_id": "span-c056c65785707c458b78c10591bb2f274eec38d7700e30894c5a6b17f2c9f180",
+              "sha256": "feb5fddd2fef01f5e3f85234393fdddfd52960283731f002111d5709d68cb8e1",
+              "sequence": 8,
+              "quote": "午午自刑，刑以合为应期，午未合"
+            }
+          ],
+          "answer": {
+            "explanation": "本例先比较内盘主快与年命外盘、伏吟主慢两类相反信息，再用年干丙的酉死戌墓选择月份，甲午辛午午自刑依刑以合应、午未合取未日，给出酉月或戌月未日。不是从后来9月7日反馈倒推唯一日期。",
+            "citations": [
+              "chart",
+              "context",
+              "illness",
+              "doctor"
+            ],
+            "uncertainties": [
+              "这里复现原作者的传统方法，给定条件未经独立复算，不作现代医学结论。"
+            ],
+            "methods": [
+              "内外盘及伏吟比较快慢",
+              "长生死墓月份与刑合应日"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-d4a7467f0ad1461d2278b7c571bef9ea2a826d5e112e2018dec7d55abc9a71a5",
+      "event_id": "event-a8375e8b7144a6efddd92e97e02c29216574739dd8a12ef11a14fb0b7bf81359",
+      "family_id": "family-fef18431d85e768be83e4cfd6ca62cedeb319dc2d4217a4e4673752c816d6f9a",
+      "chart_id": "chart-d09a1e33b1f6b17cb26cc2cf9f9e5f12e9388a88a4ca45dce055cae0ac879e37",
+      "chapter": "07-health-prediction",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 3,
+      "stage": "initial",
+      "mode": "initial",
+      "known": [
+        {
+          "record_id": "record-a1c283b3fd31abbe09afdca16976ee62fd80d0c38ce90d5c69253f7d1901df24",
+          "source_id": "span-c1831f76006f9bc6d60002e010fe1ad2286f4efcaf5f2b6a1b37c3aa8886b0de",
+          "sha256": "0de844dc796121c85e842ccc299a349ab87f9b68ce73f21c24ea3692c7cdfa93",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-43a77667130163ccbc291a937ef6b1f4548f943ec5f9101683fc8c0974a53dda",
+          "source_id": "span-caa58811dc73eedec5983c54f50d72c7e54e91a7507cc7f2e6c60ceaba145666",
+          "sha256": "10e019325a10eec545fe7ae8aca73abba2c0228c34f3a34bac9b5140bb63d940",
+          "sequence": 1
+        }
+      ],
+      "cutoff": 2,
+      "rules": {
+        "illness": "预测疾病以九星中的天芮星为疾病的主要代表符号",
+        "doctor": "又以天心星和乙奇为医生和医药的代表符号"
+      },
+      "provided_roles": [
+        "叔问侄：本例时干丙、乙卯年命分开"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-05536bc39bbd9c4f8aa2c2d4cc551ac265f4f178918f9ee54c26bb2418fac6e5",
+              "source_id": "span-bee8e313d32ff45d499d11c8b75fef5ac2b33882356656fbb78fdc00999690fa",
+              "sha256": "5b61d0789d2eb3a8be1e53a071293803b721705b03687397844f642bac5dfc57",
+              "sequence": 2
+            },
+            {
+              "record_id": "record-7627da2d2fb1250d7cc46dcd0c30f508995fffa3b0e477e56a158a4c8ddf023e",
+              "source_id": "span-ea9f050f832bd7e0914c88d386d9f6ebfcffadb5d0d6b9124d1f5d306b99c8fc",
+              "sha256": "3ab46f697aaec66e4a38d68c2434c79cde349cc52fc90adc9b8c08c64233a9cf",
+              "sequence": 3
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "叔叔代问1975年出生的侄子，本例先以时干丙看侄子，再兼看乙卯年命。天芮作为病星；时干与年命口径分别保存，不把询问者当伤者。",
+            "citations": [
+              "chart",
+              "context",
+              "illness",
+              "doctor"
+            ],
+            "uncertainties": [
+              "这里复现原作者的传统方法，给定条件未经独立复算，不作现代医学结论。"
+            ],
+            "bindings": [
+              {
+                "role": "侄子",
+                "symbol": "时干丙",
+                "condition": "本例叔问侄口径"
+              },
+              {
+                "role": "侄子年命",
+                "symbol": "乙",
+                "condition": "已给1975年出生"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-05536bc39bbd9c4f8aa2c2d4cc551ac265f4f178918f9ee54c26bb2418fac6e5",
+              "source_id": "span-bee8e313d32ff45d499d11c8b75fef5ac2b33882356656fbb78fdc00999690fa",
+              "sha256": "5b61d0789d2eb3a8be1e53a071293803b721705b03687397844f642bac5dfc57",
+              "sequence": 2
+            },
+            {
+              "record_id": "record-7627da2d2fb1250d7cc46dcd0c30f508995fffa3b0e477e56a158a4c8ddf023e",
+              "source_id": "span-ea9f050f832bd7e0914c88d386d9f6ebfcffadb5d0d6b9124d1f5d306b99c8fc",
+              "sha256": "3ab46f697aaec66e4a38d68c2434c79cde349cc52fc90adc9b8c08c64233a9cf",
+              "sequence": 3
+            }
+          ],
+          "facts": [
+            [
+              3,
+              "heaven_stem"
+            ],
+            [
+              3,
+              "star"
+            ],
+            [
+              9,
+              "heaven_stem"
+            ],
+            [
+              9,
+              "door"
+            ],
+            [
+              9,
+              "deity"
+            ]
+          ],
+          "answer": {
+            "explanation": "从原表核对时干丙在震三及天芮，年命乙在离九临伤门九天。原文泌尿等解释不是盘面直接写出的器官诊断。",
+            "citations": [
+              "chart",
+              "context",
+              "illness",
+              "doctor"
+            ],
+            "uncertainties": [
+              "这里复现原作者的传统方法，给定条件未经独立复算，不作现代医学结论。"
+            ]
+          },
+          "conditions": []
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-05536bc39bbd9c4f8aa2c2d4cc551ac265f4f178918f9ee54c26bb2418fac6e5",
+              "source_id": "span-bee8e313d32ff45d499d11c8b75fef5ac2b33882356656fbb78fdc00999690fa",
+              "sha256": "5b61d0789d2eb3a8be1e53a071293803b721705b03687397844f642bac5dfc57",
+              "sequence": 2
+            },
+            {
+              "record_id": "record-7627da2d2fb1250d7cc46dcd0c30f508995fffa3b0e477e56a158a4c8ddf023e",
+              "source_id": "span-ea9f050f832bd7e0914c88d386d9f6ebfcffadb5d0d6b9124d1f5d306b99c8fc",
+              "sha256": "3ab46f697aaec66e4a38d68c2434c79cde349cc52fc90adc9b8c08c64233a9cf",
+              "sequence": 3
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-05536bc39bbd9c4f8aa2c2d4cc551ac265f4f178918f9ee54c26bb2418fac6e5",
+              "source_id": "span-bee8e313d32ff45d499d11c8b75fef5ac2b33882356656fbb78fdc00999690fa",
+              "sha256": "5b61d0789d2eb3a8be1e53a071293803b721705b03687397844f642bac5dfc57",
+              "sequence": 2,
+              "quote": "时干丙为他侄子，落震3宫，与病星天芮同宫"
+            },
+            {
+              "record_id": "record-05536bc39bbd9c4f8aa2c2d4cc551ac265f4f178918f9ee54c26bb2418fac6e5",
+              "source_id": "span-bee8e313d32ff45d499d11c8b75fef5ac2b33882356656fbb78fdc00999690fa",
+              "sha256": "5b61d0789d2eb3a8be1e53a071293803b721705b03687397844f642bac5dfc57",
+              "sequence": 2,
+              "quote": "天芮星临壬、癸，又在内盘"
+            },
+            {
+              "record_id": "record-7627da2d2fb1250d7cc46dcd0c30f508995fffa3b0e477e56a158a4c8ddf023e",
+              "source_id": "span-ea9f050f832bd7e0914c88d386d9f6ebfcffadb5d0d6b9124d1f5d306b99c8fc",
+              "sha256": "3ab46f697aaec66e4a38d68c2434c79cde349cc52fc90adc9b8c08c64233a9cf",
+              "sequence": 3,
+              "quote": "年命乙落离九宫，乙+庚为日奇被刑凶格，又临伤门、九天"
+            }
+          ],
+          "answer": {
+            "explanation": "作者由时干丙与天芮同在震三提出腰部病伤，以天芮临壬癸且在内盘解释泌尿影响；再从乙年命、伤门九天及乙庚格组织高处跌伤判断。尾椎伤和大小便失禁尚在下一轮才被告知，不能提前称为已知。",
+            "citations": [
+              "chart",
+              "context",
+              "illness",
+              "doctor"
+            ],
+            "uncertainties": [
+              "这里复现原作者的传统方法，给定条件未经独立复算，不作现代医学结论。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-37a08549bba6a899758b833ae7cdbebdac389a7044013eaa96e1ae14b4ca90be",
+      "event_id": "event-f88d63afe52e39f227080cc107881363fe5d7c386e475946b55bf35fe3289d2a",
+      "family_id": "family-f48a7d16e9dc300bb5e7fe9b998de26d83d4aa7985502886f8776fa6322e01ad",
+      "chart_id": "chart-0d9a9c2099126046a2897de4db25cd69e7ae5ec2753d1657b7bf42890bc7d997",
+      "chapter": "07-health-prediction",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 3,
+      "stage": "after_injury_feedback",
+      "mode": "continuation",
+      "known": [
+        {
+          "record_id": "record-a1c283b3fd31abbe09afdca16976ee62fd80d0c38ce90d5c69253f7d1901df24",
+          "source_id": "span-c1831f76006f9bc6d60002e010fe1ad2286f4efcaf5f2b6a1b37c3aa8886b0de",
+          "sha256": "0de844dc796121c85e842ccc299a349ab87f9b68ce73f21c24ea3692c7cdfa93",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-43a77667130163ccbc291a937ef6b1f4548f943ec5f9101683fc8c0974a53dda",
+          "source_id": "span-caa58811dc73eedec5983c54f50d72c7e54e91a7507cc7f2e6c60ceaba145666",
+          "sha256": "10e019325a10eec545fe7ae8aca73abba2c0228c34f3a34bac9b5140bb63d940",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-05536bc39bbd9c4f8aa2c2d4cc551ac265f4f178918f9ee54c26bb2418fac6e5",
+          "source_id": "span-bee8e313d32ff45d499d11c8b75fef5ac2b33882356656fbb78fdc00999690fa",
+          "sha256": "5b61d0789d2eb3a8be1e53a071293803b721705b03687397844f642bac5dfc57",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-7627da2d2fb1250d7cc46dcd0c30f508995fffa3b0e477e56a158a4c8ddf023e",
+          "source_id": "span-ea9f050f832bd7e0914c88d386d9f6ebfcffadb5d0d6b9124d1f5d306b99c8fc",
+          "sha256": "3ab46f697aaec66e4a38d68c2434c79cde349cc52fc90adc9b8c08c64233a9cf",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-39caf69d4bc95bf361c1b1e6d2210f329ea658a525049f07a1c912e445c59b5b",
+          "source_id": "span-09c95361114a1b31698799af49875f65fce03c3f10ffcb250175e60744a2a16b",
+          "sha256": "ecbff49a8ae0227ae79490e701f6dcf861551f4f812017d944cdb0dc5a1971fd",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-692a3c5fae26131e8d7f0fd4e8acd46e279f061a142699f91bcaa044e9b9013a",
+          "source_id": "span-2683fc67dba3007747b58528e8f57582592738a58486ff5706d8340ed089382c",
+          "sha256": "d136808bb791aab97e260a99e27678afa8a2e678f0bf7264e084535fde4153d0",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-0b0b214448c34679fbee181f907a76996b0e3ab500557358d3ef913e80cbe15a",
+          "source_id": "span-637e13bf873a27cdb0c94183ccc5a35a9c6d972f29e686fa977e19b3346d620e",
+          "sha256": "9a369208cae587886fc90f29222e353f715ef17cfb596e1f90a499f0c05c6f6e",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-7bba84ea0edc41bf75e390a9e4a45fe8a2dd30fc6ffdd5ad169b6e35d5119616",
+          "source_id": "span-cee1849a46f6974610ac8ce25581a79f779573ea15d67b8b377caae89ed2aa4e",
+          "sha256": "4b6ee38c26836dcb4f6512366c4b19971cee3d2ff7a002e2a1fe754d2e965a2c",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-cef9bc49a0235ab44d43dbddbbed453649d74e90789d84552d8096e563916fb5",
+          "source_id": "span-2ce88082629f4fe8c1ffb90e0bc57f03122390755e96071e3d9181fd0c2ef100",
+          "sha256": "67a387f1b925c53e08bfa480613190de447073a4154f96c7893229aa3ed2d750",
+          "sequence": 8
+        }
+      ],
+      "cutoff": 9,
+      "rules": {
+        "illness": "预测疾病以九星中的天芮星为疾病的主要代表符号",
+        "doctor": "又以天心星和乙奇为医生和医药的代表符号"
+      },
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-b60843a4dd539bb2d3bd4201eac356dd3b2ed5229ef8ff5b98235ed004477742",
+              "source_id": "span-20b72caa75ade70b88fc867085abe183cc7939f01756cc7fae863f08738d5508",
+              "sha256": "032983f35253cd0eb2ee2dc1e11bb7587868d9c4de906f74f4d3d0a723cae4be",
+              "sequence": 9
+            },
+            {
+              "record_id": "record-e9a865994b1080d83314b3bc06dbb5050f33542a12bfadf2c289bda27704801c",
+              "source_id": "span-b9e0cbb94ac9595935c93624ec4f6d8af7b7911289e97401e11bc87677f86f6e",
+              "sha256": "375cb87e46910a5fe5eba6449973b87f33a69506955cefa3abab81f6d56b932a",
+              "sequence": 10
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-b60843a4dd539bb2d3bd4201eac356dd3b2ed5229ef8ff5b98235ed004477742",
+              "source_id": "span-20b72caa75ade70b88fc867085abe183cc7939f01756cc7fae863f08738d5508",
+              "sha256": "032983f35253cd0eb2ee2dc1e11bb7587868d9c4de906f74f4d3d0a723cae4be",
+              "sequence": 9,
+              "quote": "甲午旬中辰、巳空"
+            },
+            {
+              "record_id": "record-b60843a4dd539bb2d3bd4201eac356dd3b2ed5229ef8ff5b98235ed004477742",
+              "source_id": "span-20b72caa75ade70b88fc867085abe183cc7939f01756cc7fae863f08738d5508",
+              "sha256": "032983f35253cd0eb2ee2dc1e11bb7587868d9c4de906f74f4d3d0a723cae4be",
+              "sequence": 9,
+              "quote": "生门在四宫逢空亡"
+            },
+            {
+              "record_id": "record-b60843a4dd539bb2d3bd4201eac356dd3b2ed5229ef8ff5b98235ed004477742",
+              "source_id": "span-20b72caa75ade70b88fc867085abe183cc7939f01756cc7fae863f08738d5508",
+              "sha256": "032983f35253cd0eb2ee2dc1e11bb7587868d9c4de906f74f4d3d0a723cae4be",
+              "sequence": 9,
+              "quote": "地盘乙奇在乾六宫为入墓"
+            }
+          ],
+          "answer": {
+            "explanation": "新增已知是电杆跌落、尾椎伤和大小便失禁，作者沿原盘继续取应期：甲午旬辰巳空、生门巽四空及地盘乙乾六入墓，采用填实、生门冲死门及出墓口径，提出5月19丙辰至20丁巳、最晚20日出院。不能把后来拆线反馈作为已经发生的治疗结果。",
+            "citations": [
+              "chart",
+              "context",
+              "illness",
+              "doctor"
+            ],
+            "uncertainties": [
+              "这里复现原作者的传统方法，给定条件未经独立复算，不作现代医学结论。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-37a08549bba6a899758b833ae7cdbebdac389a7044013eaa96e1ae14b4ca90be",
+      "event_id": "event-f88d63afe52e39f227080cc107881363fe5d7c386e475946b55bf35fe3289d2a",
+      "family_id": "family-f48a7d16e9dc300bb5e7fe9b998de26d83d4aa7985502886f8776fa6322e01ad",
+      "chart_id": "chart-0d9a9c2099126046a2897de4db25cd69e7ae5ec2753d1657b7bf42890bc7d997",
+      "chapter": "07-health-prediction",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 4,
+      "stage": "initial",
+      "mode": "initial",
+      "known": [
+        {
+          "record_id": "record-26311dfe8fc4048e7e3858eb625e6ab39201da20a60aad6d4e9e141dc403077e",
+          "source_id": "span-fae05794985d0f1dcac0b1015994e1c3199f7d200cb68e9f6f3fba24c188cfea",
+          "sha256": "9e1017327a647d5dcd0455b27567d14888a538ece8d0e2ed757845a1beed350d",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-313e9254007760fbb5bc3acae2e740975b27c651b5f47fbf1f3b598d0743f113",
+          "source_id": "span-0ed0d18369994a6bb0db98e84b2b8343209e6fc6adb6d452569d7d8e78933fe4",
+          "sha256": "632a31efe19a157616da1bdb7f752010b017b7dd71433aed2dd41954886128a6",
+          "sequence": 1
+        }
+      ],
+      "cutoff": 2,
+      "rules": {
+        "illness": "预测疾病以九星中的天芮星为疾病的主要代表符号",
+        "doctor": "又以天心星和乙奇为医生和医药的代表符号"
+      },
+      "provided_roles": [
+        "姨母为长辈：年干丙兼看坤宫；天芮为病、天心乙为医药"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-4f1bbc5d9f0cf33a6f2abfd0446a5b564792d92ee8f7f41384a361097c5fbb20",
+              "source_id": "span-b6827d12f3ca3501218dadcb572de561ae653a300511d1fad048a6ecfa9b17f6",
+              "sha256": "68005ce86e772701c8944e82385e933c5e004bfc7907a5035bd690e95bfc982b",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-401bfc7bb6c9de5b92bb166e9fe3f04cef2477a60a02bf3cbb2c75b07854c695",
+              "source_id": "span-6a788d149095cf79f18369944c4066112d39f54ab0e011f05bc57478712cc1a7",
+              "sha256": "002a10660da792ee084fac91469531a97bed93d0d251ea76d07a0d070bf8e5b0",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-4669bc8492df073cc14d58ecb30804b2f3431e8239cf9a11eda89501d712d15e",
+              "source_id": "span-2bd856ad44da630d7cf1283c0ddf56e63bfe68f3e997b2584f811554810831e7",
+              "sha256": "5a00d5271cbdc1b6e8ba56c46cce0678a7bc53eb27e9e4585b5e3349a66162c1",
+              "sequence": 6
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "冯春萍问姨母病，本例按长辈取年干丙，并另取坤宫、乙奇的女象视角；病星与医药符号分开，不把代问人的日干直接当姨母。",
+            "citations": [
+              "chart",
+              "context",
+              "illness",
+              "doctor"
+            ],
+            "uncertainties": [
+              "这里复现原作者的传统方法，给定条件未经独立复算，不作现代医学结论。"
+            ],
+            "bindings": [
+              {
+                "role": "姨母",
+                "symbol": "年干丙",
+                "condition": "本例以长辈取年干，兼看坤宫女象"
+              },
+              {
+                "role": "病与医药",
+                "symbol": "天芮；天心星、乙奇",
+                "condition": "分别比较，不合并为同一符号"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-088ab3f775364aa94f29357cb39b1e3fc95b7bd8de9c63f64dead6e2965de9fb",
+              "source_id": "span-9a2b2499a17801a324d093d3b1fd8f73949248fe275e23d8db23ed73d06b0687",
+              "sha256": "ca0d229e636aced46b0d406250a925b70ffe499bbec1c7fed5b0c02210a98813",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-4f1bbc5d9f0cf33a6f2abfd0446a5b564792d92ee8f7f41384a361097c5fbb20",
+              "source_id": "span-b6827d12f3ca3501218dadcb572de561ae653a300511d1fad048a6ecfa9b17f6",
+              "sha256": "68005ce86e772701c8944e82385e933c5e004bfc7907a5035bd690e95bfc982b",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-401bfc7bb6c9de5b92bb166e9fe3f04cef2477a60a02bf3cbb2c75b07854c695",
+              "source_id": "span-6a788d149095cf79f18369944c4066112d39f54ab0e011f05bc57478712cc1a7",
+              "sha256": "002a10660da792ee084fac91469531a97bed93d0d251ea76d07a0d070bf8e5b0",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-4669bc8492df073cc14d58ecb30804b2f3431e8239cf9a11eda89501d712d15e",
+              "source_id": "span-2bd856ad44da630d7cf1283c0ddf56e63bfe68f3e997b2584f811554810831e7",
+              "sha256": "5a00d5271cbdc1b6e8ba56c46cce0678a7bc53eb27e9e4585b5e3349a66162c1",
+              "sequence": 6
+            }
+          ],
+          "facts": [
+            [
+              9,
+              "star"
+            ],
+            [
+              9,
+              "door"
+            ],
+            [
+              7,
+              "heaven_stem"
+            ],
+            [
+              2,
+              "door"
+            ],
+            [
+              6,
+              "earth_stem"
+            ]
+          ],
+          "answer": {
+            "explanation": "核对病星天芮在离九及伤门，年干丙在兑七、地盘丙在乾六，坤二杜门；门宫、击刑和墓的含义另属解释。",
+            "citations": [
+              "chart",
+              "context",
+              "illness",
+              "doctor"
+            ],
+            "uncertainties": [
+              "这里复现原作者的传统方法，给定条件未经独立复算，不作现代医学结论。"
+            ]
+          },
+          "conditions": []
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-abb4c73d4ed730d9e4bd1cbe9dca39294bd0d79dfc6dee58ab85bad1a6b0f112",
+              "source_id": "span-c5c6b619d3d4b46d5b8a9812f56c62695a7e0464f5b35e69acdda29460c6b11e",
+              "sha256": "cbf309096661d6bb3b5fa14e23d8a3bf5a08d7ad8c106173d25dc3b67f62d037",
+              "sequence": 2
+            },
+            {
+              "record_id": "record-088ab3f775364aa94f29357cb39b1e3fc95b7bd8de9c63f64dead6e2965de9fb",
+              "source_id": "span-9a2b2499a17801a324d093d3b1fd8f73949248fe275e23d8db23ed73d06b0687",
+              "sha256": "ca0d229e636aced46b0d406250a925b70ffe499bbec1c7fed5b0c02210a98813",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-4f1bbc5d9f0cf33a6f2abfd0446a5b564792d92ee8f7f41384a361097c5fbb20",
+              "source_id": "span-b6827d12f3ca3501218dadcb572de561ae653a300511d1fad048a6ecfa9b17f6",
+              "sha256": "68005ce86e772701c8944e82385e933c5e004bfc7907a5035bd690e95bfc982b",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-401bfc7bb6c9de5b92bb166e9fe3f04cef2477a60a02bf3cbb2c75b07854c695",
+              "source_id": "span-6a788d149095cf79f18369944c4066112d39f54ab0e011f05bc57478712cc1a7",
+              "sha256": "002a10660da792ee084fac91469531a97bed93d0d251ea76d07a0d070bf8e5b0",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-4669bc8492df073cc14d58ecb30804b2f3431e8239cf9a11eda89501d712d15e",
+              "source_id": "span-2bd856ad44da630d7cf1283c0ddf56e63bfe68f3e997b2584f811554810831e7",
+              "sha256": "5a00d5271cbdc1b6e8ba56c46cce0678a7bc53eb27e9e4585b5e3349a66162c1",
+              "sequence": 6
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-abb4c73d4ed730d9e4bd1cbe9dca39294bd0d79dfc6dee58ab85bad1a6b0f112",
+              "source_id": "span-c5c6b619d3d4b46d5b8a9812f56c62695a7e0464f5b35e69acdda29460c6b11e",
+              "sha256": "cbf309096661d6bb3b5fa14e23d8a3bf5a08d7ad8c106173d25dc3b67f62d037",
+              "sequence": 2,
+              "quote": "时干丙克日干庚，为五不遇时"
+            },
+            {
+              "record_id": "record-088ab3f775364aa94f29357cb39b1e3fc95b7bd8de9c63f64dead6e2965de9fb",
+              "source_id": "span-9a2b2499a17801a324d093d3b1fd8f73949248fe275e23d8db23ed73d06b0687",
+              "sha256": "ca0d229e636aced46b0d406250a925b70ffe499bbec1c7fed5b0c02210a98813",
+              "sequence": 3,
+              "quote": "病星天芮落入离9宫，在外盘为头部"
+            },
+            {
+              "record_id": "record-088ab3f775364aa94f29357cb39b1e3fc95b7bd8de9c63f64dead6e2965de9fb",
+              "source_id": "span-9a2b2499a17801a324d093d3b1fd8f73949248fe275e23d8db23ed73d06b0687",
+              "sha256": "ca0d229e636aced46b0d406250a925b70ffe499bbec1c7fed5b0c02210a98813",
+              "sequence": 3,
+              "quote": "丁奇、玄武主血液"
+            },
+            {
+              "record_id": "record-4f1bbc5d9f0cf33a6f2abfd0446a5b564792d92ee8f7f41384a361097c5fbb20",
+              "source_id": "span-b6827d12f3ca3501218dadcb572de561ae653a300511d1fad048a6ecfa9b17f6",
+              "sha256": "68005ce86e772701c8944e82385e933c5e004bfc7907a5035bd690e95bfc982b",
+              "sequence": 4,
+              "quote": "丙落7宫为死地"
+            },
+            {
+              "record_id": "record-401bfc7bb6c9de5b92bb166e9fe3f04cef2477a60a02bf3cbb2c75b07854c695",
+              "source_id": "span-6a788d149095cf79f18369944c4066112d39f54ab0e011f05bc57478712cc1a7",
+              "sha256": "002a10660da792ee084fac91469531a97bed93d0d251ea76d07a0d070bf8e5b0",
+              "sequence": 5,
+              "quote": "坤宫杜门克宫"
+            },
+            {
+              "record_id": "record-4669bc8492df073cc14d58ecb30804b2f3431e8239cf9a11eda89501d712d15e",
+              "source_id": "span-2bd856ad44da630d7cf1283c0ddf56e63bfe68f3e997b2584f811554810831e7",
+              "sha256": "5a00d5271cbdc1b6e8ba56c46cce0678a7bc53eb27e9e4585b5e3349a66162c1",
+              "sequence": 6,
+              "quote": "天心星、乙奇为医生、医药，均不克病星"
+            }
+          ],
+          "answer": {
+            "explanation": "原例把五不遇、离九病星受生及伤门血象、长辈年干与坤宫不利、医药不能制病等组合，提出脑部血病和危重预后。每个给定条件按作者口径保留，不能只凭一个凶符就下结论，也未将随后死亡反馈提前输入。",
+            "citations": [
+              "chart",
+              "context",
+              "illness",
+              "doctor"
+            ],
+            "uncertainties": [
+              "这里复现原作者的传统方法，给定条件未经独立复算，不作现代医学结论。"
+            ]
+          }
+        },
+        {
+          "type": "timing_analysis",
+          "targets": [
+            {
+              "record_id": "record-a044e10fd26e83b4f39fe26a8922b64b9db16b52978c0c0f90b155680b007da0",
+              "source_id": "span-6052acd75cfe57b9f1220a47308eb870efb890a7c2c60b704f879fe3797351f6",
+              "sha256": "b70b07731034d1b5d47ce4ab30d503bb4c9acd6a9e9e02d5cc43b698290fbac0",
+              "sequence": 7
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-a044e10fd26e83b4f39fe26a8922b64b9db16b52978c0c0f90b155680b007da0",
+              "source_id": "span-6052acd75cfe57b9f1220a47308eb870efb890a7c2c60b704f879fe3797351f6",
+              "sha256": "b70b07731034d1b5d47ce4ab30d503bb4c9acd6a9e9e02d5cc43b698290fbac0",
+              "sequence": 7,
+              "quote": "值使休门落3宫"
+            },
+            {
+              "record_id": "record-a044e10fd26e83b4f39fe26a8922b64b9db16b52978c0c0f90b155680b007da0",
+              "source_id": "span-6052acd75cfe57b9f1220a47308eb870efb890a7c2c60b704f879fe3797351f6",
+              "sha256": "b70b07731034d1b5d47ce4ab30d503bb4c9acd6a9e9e02d5cc43b698290fbac0",
+              "sequence": 7,
+              "quote": "值使门所临之干为应期，休门临癸"
+            }
+          ],
+          "answer": {
+            "explanation": "作者以值使休门震三取三天以内，再以值使所临癸取癸日，报5月26癸亥为关口。这是源中给出的两步应期口径，尚未收到凌晨子时去世的反馈。",
+            "citations": [
+              "chart",
+              "context",
+              "illness",
+              "doctor"
+            ],
+            "uncertainties": [
+              "这里复现原作者的传统方法，给定条件未经独立复算，不作现代医学结论。"
+            ],
+            "methods": [
+              "值使宫数取近限",
+              "值使所临干取应日"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-ee43a8baa22671f2d32e08b9464d07c71208258d7e566b0b0b2bdf46c3bf3646",
+      "event_id": "event-901114deae3af40ddcbb889b8b6aa06911f5fcc00b05dfc55210356e0a3950b5",
+      "family_id": "family-27876c692920159296ac3455c61ad5b1f97883e9b44ec51603e50bef1e13c4e1",
+      "chart_id": "chart-1fbe0cb06b763964751c44906bbb992c35408cc30bbf6883c689598c58e42329",
+      "chapter": "07-health-prediction",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 5,
+      "stage": "initial",
+      "mode": "initial",
+      "known": [
+        {
+          "record_id": "record-886d323ec845107951946f8d48f0e109b125d5effddb4293ac2dc1d52c4dfe36",
+          "source_id": "span-ca36e7ea5ccffc64b16bbb64117aec5117090d7ba51e0520961f071bf1a1ac22",
+          "sha256": "0a469fac5b6e0d48a7cdcd2e7b6acbf03ee537a6413e6376e5a3340151033ce4",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-ddff7a1925b6107f2a91809a446f8bebd896e23e3280ecf7c18cb2633a3d53f7",
+          "source_id": "span-3af672ff3dd9e610913abd3f899e4249959cc0028477dd5cdf9f148e3b03b380",
+          "sha256": "c6e3f3ea48ce7a0f04d64ca2393abe079c2a12832b4c83828ed5b94b566167f9",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-7a25e517f1ca9305cf08f8794fcabec81999f1a223e88fdb5f9e8d3459b5b0c6",
+          "source_id": "span-82ba0acdcef7e9d9149c433da2c2f55bcecd1e0feaae26eb59d42402b09799ab",
+          "sha256": "f328b8e6062e3fcce7c187fcce9b99d60cd1fcd91fce972c9e265b4d03689805",
+          "sequence": 2
+        }
+      ],
+      "cutoff": 5,
+      "rules": {
+        "illness": "预测疾病以九星中的天芮星为疾病的主要代表符号",
+        "doctor": "又以天心星和乙奇为医生和医药的代表符号"
+      },
+      "provided_roles": [
+        "日干癸为问测者，时干庚也看所问疾病，天芮病星"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-fd56a6d7a3f70e64be963659fbbe07795c782742081b548afc244db9f36098a7",
+              "source_id": "span-9c9e537f73c599a2b06288c98e5cd29c68e748cedd2cf97fa45a958635857270",
+              "sha256": "0d5e9b4d50dc5ec013b0014cfc6a25112e4bb26823084f275f20fbc980b0590c",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-4f4e46ef3ca4ff4965e6cc77f9fc0c5aefc0190d5048f1c689019cad4be6733c",
+              "source_id": "span-a0d7c9357cbac0e8e24b28a8578aafc7c7bbb324824585a55f4d33f9b2211f1b",
+              "sha256": "b8dbe12b1c7fe57708f1b72486dab689dc8aec0ec4e1fb8aa9dbf3b27f1e6806",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-72f5bd02b3d6e71f9e070aa8b0b13b7485a06b8da4f986632caee87275250961",
+              "source_id": "span-1e69272a955f0928827cebfe7eecbb058e94b4126b4be9f1080c776a8ebe6910",
+              "sha256": "ee186d2c9bd30a36a207f3dba3d95cadb00ad8dc6f685d53e6258968cc5893f6",
+              "sequence": 7
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "阮长生本人问病，日干癸看问测者总体状态，天芮看病象，时干庚另看所问疾病；天心与乙奇看医药。不能据外表高壮就判定无病。",
+            "citations": [
+              "chart",
+              "context",
+              "illness",
+              "doctor"
+            ],
+            "uncertainties": [
+              "这里复现原作者的传统方法，给定条件未经独立复算，不作现代医学结论。"
+            ],
+            "bindings": [
+              {
+                "role": "问测者",
+                "symbol": "日干癸",
+                "condition": "本人求测"
+              },
+              {
+                "role": "病象",
+                "symbol": "天芮星、时干庚",
+                "condition": "本例主要病星和所问事项视角"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-fd56a6d7a3f70e64be963659fbbe07795c782742081b548afc244db9f36098a7",
+              "source_id": "span-9c9e537f73c599a2b06288c98e5cd29c68e748cedd2cf97fa45a958635857270",
+              "sha256": "0d5e9b4d50dc5ec013b0014cfc6a25112e4bb26823084f275f20fbc980b0590c",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-4f4e46ef3ca4ff4965e6cc77f9fc0c5aefc0190d5048f1c689019cad4be6733c",
+              "source_id": "span-a0d7c9357cbac0e8e24b28a8578aafc7c7bbb324824585a55f4d33f9b2211f1b",
+              "sha256": "b8dbe12b1c7fe57708f1b72486dab689dc8aec0ec4e1fb8aa9dbf3b27f1e6806",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-72f5bd02b3d6e71f9e070aa8b0b13b7485a06b8da4f986632caee87275250961",
+              "source_id": "span-1e69272a955f0928827cebfe7eecbb058e94b4126b4be9f1080c776a8ebe6910",
+              "sha256": "ee186d2c9bd30a36a207f3dba3d95cadb00ad8dc6f685d53e6258968cc5893f6",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-7da7a99cd2078fa3c1a5fe57b5d3678501936081d8236dbd2563ac087123252f",
+              "source_id": "span-4defdc3a05900d41c57b89da54b766164206090f2f200b8e904684ae6a89564c",
+              "sha256": "82c56ef356ee0dbcb51c09b320581ce72e71de52737f16fc60773e7a9c46ad66",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-8dce6e9dc7978080149ebbfbbdb9d406c61a0353ab906e9a3f387cfaaf236d4f",
+              "source_id": "span-f0d3a1a150747a286f07d0ba997b29016567a645352439a1b0944d6c5e20bf12",
+              "sha256": "3d3b789fcd3cfaac2cb5ff412326f9e99d10f62b32da134dbb9a95d34709c9ec",
+              "sequence": 9
+            },
+            {
+              "record_id": "record-07e607b7c352937375a81b14bb6cca85ebee48d5396fdc1ac2ffc03ee736193d",
+              "source_id": "span-da848acb4fd3f798af15c367cfae5c9c209e9f5792cb2289c62c85ea525eaba9",
+              "sha256": "477e12831e8f509510300518d7f8dd0da32b0dd10e8c903d0d21e57ee15e18a3",
+              "sequence": 10
+            }
+          ],
+          "facts": [
+            [
+              6,
+              "heaven_stem"
+            ],
+            [
+              6,
+              "door"
+            ],
+            [
+              6,
+              "star"
+            ],
+            [
+              3,
+              "star"
+            ],
+            [
+              3,
+              "deity"
+            ],
+            [
+              9,
+              "heaven_stem"
+            ]
+          ],
+          "answer": {
+            "explanation": "原盘日干癸、伤门天冲在乾六，天芮玄武在震三，时干庚在离九。诸器官类象和车祸判断须另给来源条件，不是盘面字面。",
+            "citations": [
+              "chart",
+              "context",
+              "illness",
+              "doctor"
+            ],
+            "uncertainties": [
+              "这里复现原作者的传统方法，给定条件未经独立复算，不作现代医学结论。"
+            ]
+          },
+          "conditions": []
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-fd56a6d7a3f70e64be963659fbbe07795c782742081b548afc244db9f36098a7",
+              "source_id": "span-9c9e537f73c599a2b06288c98e5cd29c68e748cedd2cf97fa45a958635857270",
+              "sha256": "0d5e9b4d50dc5ec013b0014cfc6a25112e4bb26823084f275f20fbc980b0590c",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-4f4e46ef3ca4ff4965e6cc77f9fc0c5aefc0190d5048f1c689019cad4be6733c",
+              "source_id": "span-a0d7c9357cbac0e8e24b28a8578aafc7c7bbb324824585a55f4d33f9b2211f1b",
+              "sha256": "b8dbe12b1c7fe57708f1b72486dab689dc8aec0ec4e1fb8aa9dbf3b27f1e6806",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-72f5bd02b3d6e71f9e070aa8b0b13b7485a06b8da4f986632caee87275250961",
+              "source_id": "span-1e69272a955f0928827cebfe7eecbb058e94b4126b4be9f1080c776a8ebe6910",
+              "sha256": "ee186d2c9bd30a36a207f3dba3d95cadb00ad8dc6f685d53e6258968cc5893f6",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-7da7a99cd2078fa3c1a5fe57b5d3678501936081d8236dbd2563ac087123252f",
+              "source_id": "span-4defdc3a05900d41c57b89da54b766164206090f2f200b8e904684ae6a89564c",
+              "sha256": "82c56ef356ee0dbcb51c09b320581ce72e71de52737f16fc60773e7a9c46ad66",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-8dce6e9dc7978080149ebbfbbdb9d406c61a0353ab906e9a3f387cfaaf236d4f",
+              "source_id": "span-f0d3a1a150747a286f07d0ba997b29016567a645352439a1b0944d6c5e20bf12",
+              "sha256": "3d3b789fcd3cfaac2cb5ff412326f9e99d10f62b32da134dbb9a95d34709c9ec",
+              "sequence": 9
+            },
+            {
+              "record_id": "record-07e607b7c352937375a81b14bb6cca85ebee48d5396fdc1ac2ffc03ee736193d",
+              "source_id": "span-da848acb4fd3f798af15c367cfae5c9c209e9f5792cb2289c62c85ea525eaba9",
+              "sha256": "477e12831e8f509510300518d7f8dd0da32b0dd10e8c903d0d21e57ee15e18a3",
+              "sequence": 10
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-fd56a6d7a3f70e64be963659fbbe07795c782742081b548afc244db9f36098a7",
+              "source_id": "span-9c9e537f73c599a2b06288c98e5cd29c68e748cedd2cf97fa45a958635857270",
+              "sha256": "0d5e9b4d50dc5ec013b0014cfc6a25112e4bb26823084f275f20fbc980b0590c",
+              "sequence": 5,
+              "quote": "日干癸在乾6宫为帝旺之地"
+            },
+            {
+              "record_id": "record-4f4e46ef3ca4ff4965e6cc77f9fc0c5aefc0190d5048f1c689019cad4be6733c",
+              "source_id": "span-a0d7c9357cbac0e8e24b28a8578aafc7c7bbb324824585a55f4d33f9b2211f1b",
+              "sha256": "b8dbe12b1c7fe57708f1b72486dab689dc8aec0ec4e1fb8aa9dbf3b27f1e6806",
+              "sequence": 6,
+              "quote": "病星天芮落入震3宫，上乘玄武"
+            },
+            {
+              "record_id": "record-4f4e46ef3ca4ff4965e6cc77f9fc0c5aefc0190d5048f1c689019cad4be6733c",
+              "source_id": "span-a0d7c9357cbac0e8e24b28a8578aafc7c7bbb324824585a55f4d33f9b2211f1b",
+              "sha256": "b8dbe12b1c7fe57708f1b72486dab689dc8aec0ec4e1fb8aa9dbf3b27f1e6806",
+              "sequence": 6,
+              "quote": "天芮星临丁，丁主心脏"
+            },
+            {
+              "record_id": "record-72f5bd02b3d6e71f9e070aa8b0b13b7485a06b8da4f986632caee87275250961",
+              "source_id": "span-1e69272a955f0928827cebfe7eecbb058e94b4126b4be9f1080c776a8ebe6910",
+              "sha256": "ee186d2c9bd30a36a207f3dba3d95cadb00ad8dc6f685d53e6258968cc5893f6",
+              "sequence": 7,
+              "quote": "时干庚落离9宫，上乘六合"
+            },
+            {
+              "record_id": "record-7da7a99cd2078fa3c1a5fe57b5d3678501936081d8236dbd2563ac087123252f",
+              "source_id": "span-4defdc3a05900d41c57b89da54b766164206090f2f200b8e904684ae6a89564c",
+              "sha256": "82c56ef356ee0dbcb51c09b320581ce72e71de52737f16fc60773e7a9c46ad66",
+              "sequence": 8,
+              "quote": "伤门在乾6宫，伤门主车辆，主伤灾，又临天冲星"
+            },
+            {
+              "record_id": "record-07e607b7c352937375a81b14bb6cca85ebee48d5396fdc1ac2ffc03ee736193d",
+              "source_id": "span-da848acb4fd3f798af15c367cfae5c9c209e9f5792cb2289c62c85ea525eaba9",
+              "sha256": "477e12831e8f509510300518d7f8dd0da32b0dd10e8c903d0d21e57ee15e18a3",
+              "sequence": 10,
+              "quote": "病星天芮和死门落3宫本身就受宫木之克"
+            }
+          ],
+          "answer": {
+            "explanation": "作者逐项从天芮丁癸、震肝胆、时干及头象、乾六伤门天冲和坎水道等组织多病与旧伤倾向；最后又以日干旺相制病星、病星与死门受宫木制及医药相伴，保留“有暗疾而整体尚可”的反向权衡。不能把随后高血压、脑囊肿及糖尿病等反馈当作首断已经给出的精确病名。",
+            "citations": [
+              "chart",
+              "context",
+              "illness",
+              "doctor"
+            ],
+            "uncertainties": [
+              "这里复现原作者的传统方法，给定条件未经独立复算，不作现代医学结论。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-3e554b89430de76587487514d493fbcabee6782d5876f67db8dcdc858aa07b80",
+      "event_id": "event-81a43050529e834fee16c5299ba7c63154f2398dc3b0a852c81b1448b568f17e",
+      "family_id": "family-dedb7f590087454464cae79b33654a438ae442a3dd2c11f441d52d50d12ce49a",
+      "chart_id": "chart-04d92a926d383f31994164d31084abb8c6079c6f5d2913d330aad4f00485482d",
+      "chapter": "07-health-prediction",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 6,
+      "stage": "initial",
+      "mode": "initial",
+      "known": [
+        {
+          "record_id": "record-e0cb1a9644390c5a77a503c623324cad812f9a0fc3b19eeda625c0915c98e418",
+          "source_id": "span-e015f50c2a04c7e42138902147ee70889c9427b5401e70c2d447aa76e456ad15",
+          "sha256": "5d233ef99f2d76fa83e02a56f3104cfe2f147c977320896f1353203892a7f0d9",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-1a1987c5817f2ac3187657cb2de8a42dd25cfee4aa189518da8adc5f841cf9ed",
+          "source_id": "span-01eb1804a9a42de58200ba90f28d955a947576290ad3a61cc4e6b16c6721dc05",
+          "sha256": "66cb1eb625ced6648235b92942227b10b8f7ba2a7f762b1c70633a434a6ab8c1",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-8c89a1d46d2952796bd485774c7de55a2e030382c2278229f798ccba82602404",
+          "source_id": "span-a63439d61450ce08975b3b0b9b6d4ae45abf8668df77ab4a20b42f01ed9f4b5b",
+          "sha256": "024b0e796caa495da4e8ebbde534b47a5e72d2b90b91ea89366da9338f8a2861",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-ac162c4f6789f6867d9d54359a14636f7bb1306bfb03055490019eb343f996c0",
+          "source_id": "span-c9982a329941137d1ab862e57ae078ce7f195b840f2276b76fe63b460cb3ee2a",
+          "sha256": "85b1e4a3cdbfcf1fd6674ea843894b29caf14d7c1462bd1b6004042026f8f07f",
+          "sequence": 3
+        }
+      ],
+      "cutoff": 4,
+      "rules": {
+        "illness": "预测疾病以九星中的天芮星为疾病的主要代表符号",
+        "doctor": "又以天心星和乙奇为医生和医药的代表符号"
+      },
+      "provided_roles": [
+        "天芮病、天心与乙为医生医药；时干癸兼看病"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-68d11ca870d64198b04a313be0af82df3a6689dca63ccb5feb8d675f94dcb320",
+              "source_id": "span-a81401d8f63e4baadfdec0e9839283dc3cf45ad40f2eb391ef99fc91da6e4a51",
+              "sha256": "75730e042a02c7a25a2a1775538139f54902a1d535366eb0ec72765206d9fdb5",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-00eaf7adab5fbddf0902e91c1c582332a2768a3f5acff28061efbd65dfbaa6b6",
+              "source_id": "span-e2585860ef872899f38676cb9fa96156102cd8683d5604f11339fa3d1c843aef",
+              "sha256": "e0f2cedb272fe01044bb4af6e3a7e3a82714420b15d8f5bdd541c3bd65969b5d",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-d1d56fcf9708dd0af0c91dbcea4d177010921a37079816457b4af716f3050711",
+              "source_id": "span-4833150b28f2a409d59c78b317440452837d01c691bed6b4421053d70520b108",
+              "sha256": "cf2a197d9a8ae504f7d23692eb26ff8d72970ce13b3eb6cacb9b58fbeffc3984",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-82f719265db333445390fff5dcd861dd40fd2c56fc6d1a2e291172f3ea300648",
+              "source_id": "span-d3599cf03867c726a3f3adb1495661b0c53fbf2ccce3d9932b8bcf85846aef98",
+              "sha256": "c21adb8d44477210d61eba9b90510525c53c94f7903a14fcc3f7f0c6802a6c23",
+              "sequence": 7
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "丈夫代问妻子是否外出求医，本例主要比较天芮病星与天心、乙奇医药，以及所问事项时干癸；另用主客和伏吟评估行动，不因报刊赞誉就认定治疗有效。",
+            "citations": [
+              "chart",
+              "context",
+              "illness",
+              "doctor"
+            ],
+            "uncertainties": [
+              "这里复现原作者的传统方法，给定条件未经独立复算，不作现代医学结论。"
+            ],
+            "bindings": [
+              {
+                "role": "疾病",
+                "symbol": "天芮星，兼时干癸",
+                "condition": "本例疾病与所问事项口径"
+              },
+              {
+                "role": "医生医药",
+                "symbol": "天心星、乙奇",
+                "condition": "比较落宫关系并核对来源条件"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-68d11ca870d64198b04a313be0af82df3a6689dca63ccb5feb8d675f94dcb320",
+              "source_id": "span-a81401d8f63e4baadfdec0e9839283dc3cf45ad40f2eb391ef99fc91da6e4a51",
+              "sha256": "75730e042a02c7a25a2a1775538139f54902a1d535366eb0ec72765206d9fdb5",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-d1d56fcf9708dd0af0c91dbcea4d177010921a37079816457b4af716f3050711",
+              "source_id": "span-4833150b28f2a409d59c78b317440452837d01c691bed6b4421053d70520b108",
+              "sha256": "cf2a197d9a8ae504f7d23692eb26ff8d72970ce13b3eb6cacb9b58fbeffc3984",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-82f719265db333445390fff5dcd861dd40fd2c56fc6d1a2e291172f3ea300648",
+              "source_id": "span-d3599cf03867c726a3f3adb1495661b0c53fbf2ccce3d9932b8bcf85846aef98",
+              "sha256": "c21adb8d44477210d61eba9b90510525c53c94f7903a14fcc3f7f0c6802a6c23",
+              "sequence": 7
+            }
+          ],
+          "facts": [
+            [
+              2,
+              "star"
+            ],
+            [
+              2,
+              "deity"
+            ],
+            [
+              6,
+              "star"
+            ],
+            [
+              6,
+              "deity"
+            ],
+            [
+              3,
+              "heaven_stem"
+            ]
+          ],
+          "answer": {
+            "explanation": "核对坤二天芮六合、乾六天心玄武及震三癸；伏吟、入墓和宣传真假不是表格本身的字面结论。",
+            "citations": [
+              "chart",
+              "context",
+              "illness",
+              "doctor"
+            ],
+            "uncertainties": [
+              "这里复现原作者的传统方法，给定条件未经独立复算，不作现代医学结论。"
+            ]
+          },
+          "conditions": []
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-68d11ca870d64198b04a313be0af82df3a6689dca63ccb5feb8d675f94dcb320",
+              "source_id": "span-a81401d8f63e4baadfdec0e9839283dc3cf45ad40f2eb391ef99fc91da6e4a51",
+              "sha256": "75730e042a02c7a25a2a1775538139f54902a1d535366eb0ec72765206d9fdb5",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-00eaf7adab5fbddf0902e91c1c582332a2768a3f5acff28061efbd65dfbaa6b6",
+              "source_id": "span-e2585860ef872899f38676cb9fa96156102cd8683d5604f11339fa3d1c843aef",
+              "sha256": "e0f2cedb272fe01044bb4af6e3a7e3a82714420b15d8f5bdd541c3bd65969b5d",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-d1d56fcf9708dd0af0c91dbcea4d177010921a37079816457b4af716f3050711",
+              "source_id": "span-4833150b28f2a409d59c78b317440452837d01c691bed6b4421053d70520b108",
+              "sha256": "cf2a197d9a8ae504f7d23692eb26ff8d72970ce13b3eb6cacb9b58fbeffc3984",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-82f719265db333445390fff5dcd861dd40fd2c56fc6d1a2e291172f3ea300648",
+              "source_id": "span-d3599cf03867c726a3f3adb1495661b0c53fbf2ccce3d9932b8bcf85846aef98",
+              "sha256": "c21adb8d44477210d61eba9b90510525c53c94f7903a14fcc3f7f0c6802a6c23",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-4b25165c138f1077eee9197d74a62a43094925ed92c7ca73993318eb809596ea",
+              "source_id": "span-e31fcc4ff83e60f3552359cd514593dc4a001a793013f56f7edd868f332e84e2",
+              "sha256": "d34897e302e054205c1a78735ce44e511366e91488c147e5383f16c0967b8553",
+              "sequence": 9
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-68d11ca870d64198b04a313be0af82df3a6689dca63ccb5feb8d675f94dcb320",
+              "source_id": "span-a81401d8f63e4baadfdec0e9839283dc3cf45ad40f2eb391ef99fc91da6e4a51",
+              "sha256": "75730e042a02c7a25a2a1775538139f54902a1d535366eb0ec72765206d9fdb5",
+              "sequence": 4,
+              "quote": "天芮病星在坤2宫伏吟，上乘六合"
+            },
+            {
+              "record_id": "record-00eaf7adab5fbddf0902e91c1c582332a2768a3f5acff28061efbd65dfbaa6b6",
+              "source_id": "span-e2585860ef872899f38676cb9fa96156102cd8683d5604f11339fa3d1c843aef",
+              "sha256": "e0f2cedb272fe01044bb4af6e3a7e3a82714420b15d8f5bdd541c3bd65969b5d",
+              "sequence": 5,
+              "quote": "子月水旺土囚"
+            },
+            {
+              "record_id": "record-d1d56fcf9708dd0af0c91dbcea4d177010921a37079816457b4af716f3050711",
+              "source_id": "span-4833150b28f2a409d59c78b317440452837d01c691bed6b4421053d70520b108",
+              "sha256": "cf2a197d9a8ae504f7d23692eb26ff8d72970ce13b3eb6cacb9b58fbeffc3984",
+              "sequence": 6,
+              "quote": "天心星、乙奇为医生正处外盘西北方位，但上乘玄武"
+            },
+            {
+              "record_id": "record-d1d56fcf9708dd0af0c91dbcea4d177010921a37079816457b4af716f3050711",
+              "source_id": "span-4833150b28f2a409d59c78b317440452837d01c691bed6b4421053d70520b108",
+              "sha256": "cf2a197d9a8ae504f7d23692eb26ff8d72970ce13b3eb6cacb9b58fbeffc3984",
+              "sequence": 6,
+              "quote": "乙奇入墓"
+            },
+            {
+              "record_id": "record-82f719265db333445390fff5dcd861dd40fd2c56fc6d1a2e291172f3ea300648",
+              "source_id": "span-d3599cf03867c726a3f3adb1495661b0c53fbf2ccce3d9932b8bcf85846aef98",
+              "sha256": "c21adb8d44477210d61eba9b90510525c53c94f7903a14fcc3f7f0c6802a6c23",
+              "sequence": 7,
+              "quote": "星、门伏吟利主不利客"
+            }
+          ],
+          "answer": {
+            "explanation": "作者从病星与时干及月令判断病并不重，再把医药在西北而临玄武、乙奇入墓且不能制病，与伏吟利主不利客合看，反对远赴西安。重点是治疗条件与行动两组证据，不能将随后报社人员的治疗经历或妻子好转提前当佐证。",
+            "citations": [
+              "chart",
+              "context",
+              "illness",
+              "doctor"
+            ],
+            "uncertainties": [
+              "这里复现原作者的传统方法，给定条件未经独立复算，不作现代医学结论。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-c8d1e05c9761ccb9c63887c16b5d2abe61996a335a83c184e8321a42df804896",
+      "event_id": "event-f10966a29a047283bb97083445b33ab62e8a82e0ed7f04b518baa74330a23056",
+      "family_id": "family-f7bc530b6552ee7d75b66d256984602029e80e33d2355b4f07fb1beb1344c34b",
+      "chart_id": "chart-1040e4bb3e9bb8f3ca122758275177a07b8fe0bf438ae96461b251362177ea89",
+      "chapter": "07-health-prediction",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    }
+  ]
+}

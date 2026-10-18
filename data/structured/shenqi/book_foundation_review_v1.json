@@ -1,0 +1,759 @@
+{
+  "schema": "book-foundation-semantic-review-v1",
+  "source_data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "reviewed_by": "Codex source-grounded semantic curation",
+  "rows": [
+    {
+      "key": "chapter01-15-1",
+      "chapter": "chapter-01",
+      "document_sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+      "revision_id": "8f4e8998-0cb6-43d6-917e-ba5b88220024",
+      "byte_start": 3066,
+      "byte_end": 4340,
+      "excerpt_sha256": "762ebf651c020d21f404e00b662289cf4b61a9ccf9474abcf0764b00f0025693",
+      "line_start": 15,
+      "line_end": 19,
+      "question": "六甲如何由六仪代表？是否随局改变？",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "甲子戊、甲戌己、甲申庚、甲午辛、甲辰壬、甲寅癸是此处的固定对应，不随具体阴阳遁局改变。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "这是作者给出的传统对应，不等于已完成全部排盘复算。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "chapter01-20-2",
+      "chapter": "chapter-01",
+      "document_sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+      "revision_id": "8f4e8998-0cb6-43d6-917e-ba5b88220024",
+      "byte_start": 4340,
+      "byte_end": 6693,
+      "excerpt_sha256": "c114a6f6c8903154c8b8ed37b74fd5ce338f7216a8a016455f4a1b5af9186a6a",
+      "line_start": 20,
+      "line_end": 32,
+      "question": "九干的固定顺序是什么？为何不能理解成有绝对队首的直线？",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "顺序为戊己庚辛壬癸丁丙乙，首尾相接，乙与戊相邻；原文用连环布阵说明，并非固定首尾的一字行军队列。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "军事起源的论述属于原作者解释。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "chapter01-33-3",
+      "chapter": "chapter-01",
+      "document_sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+      "revision_id": "8f4e8998-0cb6-43d6-917e-ba5b88220024",
+      "byte_start": 6693,
+      "byte_end": 7925,
+      "excerpt_sha256": "d21f29f23b5091f072808b1e1eea2b627f60fdd9e5035dc5b8b350418123e933",
+      "line_start": 33,
+      "line_end": 40,
+      "question": "固定九干序列在阴阳遁怎样使用？局数依据什么？",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "固定戊己庚辛壬癸丁丙乙序列，阳遁按宫数递增、阴遁按宫数递减布置并循环；甲子戊在几宫即几局。原文顺逆三奇的说法还涉及乙丙丁正常干序，不能因此改变固定序列。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "本题未给实际日期与节气，不能据此确定某时用局。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "chapter01-212-4",
+      "chapter": "chapter-01",
+      "document_sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+      "revision_id": "8f4e8998-0cb6-43d6-917e-ba5b88220024",
+      "byte_start": 26932,
+      "byte_end": 28462,
+      "excerpt_sha256": "afc10e6b441f550e37d1f6edb7524935a076e9691d80a3cf14324bf90952ec9c",
+      "line_start": 212,
+      "line_end": 220,
+      "question": "上中下元的地支分类能直接套任意一天吗？",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "应先定位甲或己日的符头。符头支子午卯酉为上元，寅申巳亥为中元，辰戌丑未为下元；不能把任意非符头日的地支直接当成元头分类。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "需另有实际日干支、节气及所选定局方法。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "chapter01-243-5",
+      "chapter": "chapter-01",
+      "document_sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+      "revision_id": "8f4e8998-0cb6-43d6-917e-ba5b88220024",
+      "byte_start": 31871,
+      "byte_end": 34297,
+      "excerpt_sha256": "bbda3a4fb05004007b5397030c8723abe555a0d2c33a1f7623fb28b768eb9699",
+      "line_start": 243,
+      "line_end": 256,
+      "question": "拆补与按交节时刻连续六十时辰的方法能混用吗？",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "不能混用。拆补仍以甲己符头划元，可出现残上、中、下、补上；文中另一方法从实际交节启用上元，满六十时辰换中元再下元，并处理下元取舍。同一时刻可能用不同局，比较须隔离方法。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "哪种实际预测更好，原文要求大量实践验证。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "chapter01-443-6",
+      "chapter": "chapter-01",
+      "document_sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+      "revision_id": "8f4e8998-0cb6-43d6-917e-ba5b88220024",
+      "byte_start": 62544,
+      "byte_end": 63120,
+      "excerpt_sha256": "44deb16a620d13da44b62dd5d805121475b7b66d3d46a50e77ffde45d5aec7ee",
+      "line_start": 443,
+      "line_end": 445,
+      "question": "所引神盘两种运行法有何区别？能否视作同一算法？",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "一种每时小值符追随大值符，按阴阳遁顺序排其余七神；另一种每旬即十时辰才移动一宫，又称地盘八神。应声明选法，不能拼接为同一算法。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "此段没有给出第二法全部初始化条件。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "chapter02-90-7",
+      "chapter": "chapter-02",
+      "document_sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+      "revision_id": "042b2b75-405e-4487-b7ba-cba197eff874",
+      "byte_start": 3600,
+      "byte_end": 4052,
+      "excerpt_sha256": "699921d25a339bd6555a91ac3b9cf92fe2c3d71fed703f76d33f313cbe5b8497",
+      "line_start": 90,
+      "line_end": 109,
+      "question": "子、午、亥时对应哪些钟表时段？能否据此自动解决时区和换日？",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "原表子时23点至1点，午时11至13点，亥时21至23点，每时辰两小时。此表只给钟表对应，不能自行补出时区、夏令时、真太阳时或子时换日约定。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "边界时刻、历法与时间标准须另行明确。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "chapter02-144-8",
+      "chapter": "chapter-02",
+      "document_sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+      "revision_id": "042b2b75-405e-4487-b7ba-cba197eff874",
+      "byte_start": 6423,
+      "byte_end": 8082,
+      "excerpt_sha256": "58bc7c3282ca8b06b1491598bf64ea1420761c56b7761fdf10ed102453db14cb",
+      "line_start": 144,
+      "line_end": 164,
+      "question": "阳二壬戌例中值符、值使如何落宫？分开解释两种运动依据。",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "原例甲寅癸旬首在地盘七宫，天柱为值符、惊门为值使。壬在地盘六宫，值符随时干使天柱到六；值使从寅七宫按阳遁顺数，卯八辰九巳一午二未三申四酉五戌六，惊门也到六，依据不同。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "阳二与干支是原文给定，未独立换算历法。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "chapter02-186-9",
+      "chapter": "chapter-02",
+      "document_sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+      "revision_id": "042b2b75-405e-4487-b7ba-cba197eff874",
+      "byte_start": 9886,
+      "byte_end": 12328,
+      "excerpt_sha256": "4fca7ca6db4ca473ad9df66102769c50d468901cdbec90760f985234a9986a0f",
+      "line_start": 186,
+      "line_end": 218,
+      "question": "概括纸上起局的数据依赖顺序，并说明首步是否提供完整历法算法。",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "先阳历转干支，再节气与元定局、画宫格、布地盘、找旬首及其隐仪、定值符值使、值符随时干携仪转星、排其余星、值使随时宫排门、八神追符按阳顺阴逆排。第一步提出换算要求，并未在本段展开完整历法算法。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "写出十步骤不等于已经通过日期、时区与所有盘面复算。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "chapter04-253-10",
+      "chapter": "chapter-04",
+      "document_sha256": "15ce23c3fff0c9d3a48b595ee3bbf115d0c1e98a64ce1efc88bdb27e67eab22a",
+      "revision_id": "56d50b82-0814-4464-8879-8e9d9ccc4568",
+      "byte_start": 17312,
+      "byte_end": 18359,
+      "excerpt_sha256": "f0df0c666b31273f9be725e8d700e17d4fe5353091dc489393618981b03017fc",
+      "line_start": 253,
+      "line_end": 264,
+      "question": "此段足以填完整十二长生表吗？列甲乙墓绝说明保留范围。",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "本段明确逐干给长生、帝旺、死、墓、绝五阶段；甲墓未绝申，乙墓戌绝酉。可以保存明列五阶段，不能以记忆补齐其余七阶段并声称均有此段来源。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "未明列阶段保持未知；阴阳干方向也须保留。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "chapter04-329-11",
+      "chapter": "chapter-04",
+      "document_sha256": "15ce23c3fff0c9d3a48b595ee3bbf115d0c1e98a64ce1efc88bdb27e67eab22a",
+      "revision_id": "56d50b82-0814-4464-8879-8e9d9ccc4568",
+      "byte_start": 24936,
+      "byte_end": 26474,
+      "excerpt_sha256": "dcb36cf95d8aceda0b589821e3b2743810f4ea821b1f5fd190ab91c1ade88b7e",
+      "line_start": 329,
+      "line_end": 347,
+      "question": "三吉门是否对任何事情都吉？原文怎样限制？",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "开休生一般称吉，死惊伤一般称凶，杜景中平；仍须结合临宫与旺相休囚及问事语境。文中伤门适于搏斗讨债捉贼，死门用于丧葬打猎等，说明一般吉凶不能替代具体事项的适用判断。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "这里只复述传统取法，不构成现实行为效果保证。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "chapter04-351-12",
+      "chapter": "chapter-04",
+      "document_sha256": "15ce23c3fff0c9d3a48b595ee3bbf115d0c1e98a64ce1efc88bdb27e67eab22a",
+      "revision_id": "56d50b82-0814-4464-8879-8e9d9ccc4568",
+      "byte_start": 26519,
+      "byte_end": 27303,
+      "excerpt_sha256": "5690530b9f9ec286fcd85a24a9f5f173be9f418c727453ad0a828bf147745996",
+      "line_start": 351,
+      "line_end": 356,
+      "question": "开门本宫、五行及落震与落离的原文标签是什么？",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "开门本宫西北乾，五行金；原文居震宫为迫，居离宫受制，居艮宫入墓。应按指定门与宫读取有向关系，不把所有受克与克宫叫成同一标签。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "不从吉门名称直接推出具体事件必吉。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "chapter04-451-13",
+      "chapter": "chapter-04",
+      "document_sha256": "15ce23c3fff0c9d3a48b595ee3bbf115d0c1e98a64ce1efc88bdb27e67eab22a",
+      "revision_id": "56d50b82-0814-4464-8879-8e9d9ccc4568",
+      "byte_start": 37917,
+      "byte_end": 42946,
+      "excerpt_sha256": "bbf6461143ea6b592963e6255bc5779eb2d76488914f2c4d4ab56e1b45ab6276",
+      "line_start": 451,
+      "line_end": 478,
+      "question": "九星月建五关系怎样命名？为何不能套普通五行生我为旺？",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "作者选法为我生月建旺、同行相、月建生我废、我克月建休、月建克我囚。天蓬水星亥子相，寅卯旺，巳午休，申酉废，辰未戌丑囚。此处用废而非死，不能换成地上五行同一套状态。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "后文兼用落宫影响作解释，执行时须分清月建与落宫条件；传统病理例释不是现代医学结论。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "chapter05-3-14",
+      "chapter": "chapter-05",
+      "document_sha256": "e153de133f4c5b6c325361ff30a572e782becbb245bb471599d678bb6349679d",
+      "revision_id": "39be9f51-5d0e-40a2-842e-f5f4db728f76",
+      "byte_start": 39,
+      "byte_end": 482,
+      "excerpt_sha256": "8408cd9f1cf812103169a800d6aea637fbba89d5eecefb74c4fe74ee3e3f05a0",
+      "line_start": 3,
+      "line_end": 6,
+      "question": "十干克应要怎样保存盘层方向，甲如何处理？",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "应区分天盘干与地盘干的相遇，天盘在前、地盘在后，不把甲隐六仪直接改成甲木参加另一套克应。甲以对应六仪为代表查看。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "本题没有具体盘，不能据此自动激活某一格局。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "chapter05-187-15",
+      "chapter": "chapter-05",
+      "document_sha256": "e153de133f4c5b6c325361ff30a572e782becbb245bb471599d678bb6349679d",
+      "revision_id": "39be9f51-5d0e-40a2-842e-f5f4db728f76",
+      "byte_start": 12563,
+      "byte_end": 12682,
+      "excerpt_sha256": "6e2838815e8b42d859b13d426c46aa88502eac17228d8594a568a376991ed793",
+      "line_start": 187,
+      "line_end": 190,
+      "question": "八门克应中的三类组合为何要区分？",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "原文列门加门、门加三奇六仪、门加宫；第二参与者类型不同，应分别保存和引用。不能把门加门直接改成门加宫，也不能在没有说明时给第二个门补造盘层。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "本段未具体指定每种组合的全部执行条件。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "chapter05-517-16",
+      "chapter": "chapter-05",
+      "document_sha256": "e153de133f4c5b6c325361ff30a572e782becbb245bb471599d678bb6349679d",
+      "revision_id": "39be9f51-5d0e-40a2-842e-f5f4db728f76",
+      "byte_start": 22709,
+      "byte_end": 24397,
+      "excerpt_sha256": "1e964055e2969e7b959b8cbded621478462d6c5523c0eb5fcc10e7032833fb2a",
+      "line_start": 517,
+      "line_end": 526,
+      "question": "三奇得使六对干组合是否无条件吉？作者对矛盾如何处理？",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "候选为乙加己或辛、丙加戊或庚、丁加壬或癸。作者指出其中四组另属凶格，提出值使门与这些格局同宫的初步解释，且明确还需大量实践验证，不能把六对干组合全部编成无条件吉。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "值使同宫是否成立需具体盘及方法；作者初步意见不等于验证后的规则。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "chapter05-681-17",
+      "chapter": "chapter-05",
+      "document_sha256": "e153de133f4c5b6c325361ff30a572e782becbb245bb471599d678bb6349679d",
+      "revision_id": "39be9f51-5d0e-40a2-842e-f5f4db728f76",
+      "byte_start": 34091,
+      "byte_end": 34811,
+      "excerpt_sha256": "858dc34e39f416a1bf7e643838d2fb45546278d431309f0655c5e84dc12bd6e4",
+      "line_start": 681,
+      "line_end": 696,
+      "question": "时干入墓能否只看任意干落某宫？说明原文例子的完整条件。",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "应保留用事完整时干支、天盘时干和地盘落宫。原例丙戌时丙到乾六、壬辰时壬到巽四、癸未时癸到坤二、戊戌时戊到乾六、己丑时己到艮八、丁丑时丁到艮八，不能丢掉时干身份与时间条件。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "未给实际时柱、落宫时条件未知，不能判成立。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "chapter05-755-18",
+      "chapter": "chapter-05",
+      "document_sha256": "e153de133f4c5b6c325361ff30a572e782becbb245bb471599d678bb6349679d",
+      "revision_id": "39be9f51-5d0e-40a2-842e-f5f4db728f76",
+      "byte_start": 39986,
+      "byte_end": 40935,
+      "excerpt_sha256": "de14c2e7e92e1f289a1e047a9d6c9d44ef02493cfa68c6bacc289fdb32b70bad",
+      "line_start": 755,
+      "line_end": 761,
+      "question": "五不遇时需什么条件？是否可以引用成所有结果必凶？",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "须时干克日干且阳克阳或阴克阴，原文如甲日庚午时、乙日辛巳时。原文先有强烈避用说法，随后又说事多不顺但不一定都凶，仍看格局、星门吉凶，应同时保留此限定。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "不能仅有五行相克便忽略同阴阳条件，也不能把后段限定删掉。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "accuracy-13-19",
+      "chapter": "accuracy-assessment",
+      "document_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+      "revision_id": "72304d43-bef0-4e8e-849b-c62bc0e17348",
+      "byte_start": 2698,
+      "byte_end": 3677,
+      "excerpt_sha256": "c05ae911b8f237c41b619e0ca5bde7bfa313939cc8d8f4a190c6a887dc0147a4",
+      "line_start": 13,
+      "line_end": 18,
+      "question": "百分之七八十有哪两个口径？能否直接作为本项目模型准确率？",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "一是百人或百事中约七八十判准，二是一人多事的部分事项或一事的部分程度达到约七八成，分母和标准不同。都是作者初步经验陈述，不能合并成同一统计值，更不是当前模型的实测准确率。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "没有逐条独立评测分母、预注册标准与全部失败记录。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "accuracy-19-20",
+      "chapter": "accuracy-assessment",
+      "document_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+      "revision_id": "72304d43-bef0-4e8e-849b-c62bc0e17348",
+      "byte_start": 3677,
+      "byte_end": 5435,
+      "excerpt_sha256": "0233cf66b0ad19f3bf46bfe84c551ae004f77494d9cd082b21340f467fddb191",
+      "line_start": 19,
+      "line_end": 24,
+      "question": "为什么不能从本书选录案例直接估算真实准确率？",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "作者承认有错断、完全相反案例，也明确将完全测不准或错的例子略去不写。选录不是完整连续样本，含出版选择偏差；训练复现这些案例不能推出真实总体预测准确率。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "需另建前瞻、独立记录的评估。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "accuracy-25-21",
+      "chapter": "accuracy-assessment",
+      "document_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+      "revision_id": "72304d43-bef0-4e8e-849b-c62bc0e17348",
+      "byte_start": 5435,
+      "byte_end": 7309,
+      "excerpt_sha256": "e8bec27388a272e8aa06bc132aca61401d12d5b016abf627097541b867057ba4",
+      "line_start": 25,
+      "line_end": 32,
+      "question": "原文列了哪些错误来源？怎样对应排查层次？",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "操作者不熟、疲劳、看错断错甚至排错盘；定局、八神、旺衰、中五寄宫、格局取用等方法分歧；以及理论模型科学性尚待研究。可分别排查输入与盘、方法选择、读盘和判断，不能把所有失败都归为训练轮数不足。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "本段列原因不是证明哪种方法已取得统计优势。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "accuracy-33-22",
+      "chapter": "accuracy-assessment",
+      "document_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+      "revision_id": "72304d43-bef0-4e8e-849b-c62bc0e17348",
+      "byte_start": 7309,
+      "byte_end": 8654,
+      "excerpt_sha256": "9846428b0294278860d356195b6a322e4258ca2a0e1e8bab14ecfcb4eed997b9",
+      "line_start": 33,
+      "line_end": 36,
+      "question": "同一时刻是否足以决定所有问事？作者对提问语境怎样说明？",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "原文承认同一时辰有千千万万事情、提问时刻有偶然性，强调当事人或关系密切者专为具体事项问测的语境。应保留人物关系、明确问题与取时依据，不能以同一时刻替代具体事件信息。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "准确率高低仍是作者经验说法，未给受控数据证明。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "afterword-3-23",
+      "chapter": "afterword",
+      "document_sha256": "ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb",
+      "revision_id": "3fc2f03d-a1c4-40b7-9b27-d30aaa523305",
+      "byte_start": 8,
+      "byte_end": 1010,
+      "excerpt_sha256": "832d2a08145c5f6c93998aa16f79084ccd98919b0cb6103c26c8aea47f92193f",
+      "line_start": 3,
+      "line_end": 6,
+      "question": "后记的1993年6月指哪本书？能否作为本书出版日期？",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "1993年6月作家出版社出版的是此前《未知之门》。接着作者说明《神奇之门》的研究宗旨，不能把前一本书的年月迁移为本书出版日期。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "所选段未提供《神奇之门》确切出版日。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "afterword-15-24",
+      "chapter": "afterword",
+      "document_sha256": "ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb",
+      "revision_id": "3fc2f03d-a1c4-40b7-9b27-d30aaa523305",
+      "byte_start": 3777,
+      "byte_end": 5285,
+      "excerpt_sha256": "105cd98a56796d1cf11c64494467c4b2c216e7dc353617ea0ac4f5f0a536594e",
+      "line_start": 15,
+      "line_end": 21,
+      "question": "后记如何限定研究成熟度和实例来源？署名有日期吗？",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "作者自称研究极其初步、幼稚、不成熟并欢迎批评；感谢同仁启发及提供实例，但没有在这里把每人逐案配给。末署张志春于石家庄，未写日期，不能补造。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "致谢不等于已独立核验全部案例或能逐案确定提供者。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "biography-1-25",
+      "chapter": "appendix-biography-clean",
+      "document_sha256": "b9f8fc44d2174f54cc962ed31dd794262cb1d54a1e6060fcdf279570e8abb716",
+      "revision_id": "e86b04b0-c4f3-4a81-8dab-3cd9f1f31c20",
+      "byte_start": 0,
+      "byte_end": 1433,
+      "excerpt_sha256": "e300596b4dff4912e0b0fef67fe9f0705fd13cfb2d1a539f2ea71279fb71c484",
+      "line_start": 1,
+      "line_end": 9,
+      "question": "附录二传记是谁写的？1996会议与访谈是什么时序？",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "标题为从编辑、作家到易学专家，副题记张志春，署宛北布衣。开篇记1996年12月4日会议，再叙1997年岁尾访问，不能当成张志春本人在同一日写的自传。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "这是所供传记的历史叙述，未外查当代职务。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "biography-11-26",
+      "chapter": "appendix-biography-clean",
+      "document_sha256": "b9f8fc44d2174f54cc962ed31dd794262cb1d54a1e6060fcdf279570e8abb716",
+      "revision_id": "e86b04b0-c4f3-4a81-8dab-3cd9f1f31c20",
+      "byte_start": 1434,
+      "byte_end": 7038,
+      "excerpt_sha256": "ae6255afc42aa9c05cebb94049339b0e1d5c860be32de5d2b3c0d0ef8281ec34",
+      "line_start": 11,
+      "line_end": 15,
+      "question": "传记中的编辑经历、名人录与赞誉可否当预测准确率证据？",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "文章叙述从文学编辑、史学进入易学研究及1990年编辑相关著作的经历，并有赞誉和名人录信息。这些是作者生平与评价资料，不能替代带分母、盲测和反馈的预测能力验证。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "文中提及其他书名不授权导入其正文或算法。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "learning-11-27",
+      "chapter": "appendix-learning-clean",
+      "document_sha256": "10db674c708186c6408c9d38228b066456ed71adb6e5939e2e1102e2a2df15ef",
+      "revision_id": "a6ef6876-6256-40f5-9028-69593d81bdc0",
+      "byte_start": 1206,
+      "byte_end": 4524,
+      "excerpt_sha256": "cad9fd928d0414e796a1cd631f028d58a89e8f20f9964b1a2ba957d4ff33e2cb",
+      "line_start": 11,
+      "line_end": 27,
+      "question": "学习附录列哪四难，各自主要缺口是什么？",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "定局难在超神接气置闰及方法分歧；起局难在多门派、寄宫神盘差异及根本规律不清；断卦难在要领步骤与案例解析不足；定应期更难在系统经验与具体实例缺少。应分层补足，不能把会起局等同会专业断案。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "这是作者对当时教材状况的评述。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "learning-31-28",
+      "chapter": "appendix-learning-clean",
+      "document_sha256": "10db674c708186c6408c9d38228b066456ed71adb6e5939e2e1102e2a2df15ef",
+      "revision_id": "a6ef6876-6256-40f5-9028-69593d81bdc0",
+      "byte_start": 5334,
+      "byte_end": 7283,
+      "excerpt_sha256": "6a004fd12ffed572467b86cf7d28ab6c619403197e15b687c4562569690a7805",
+      "line_start": 31,
+      "line_end": 39,
+      "question": "作者推荐的方法组合和教学目标是什么？五十分钟是否代表模型训练轮数？",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "三原则化繁为简、去伪存真、规范统一；目标思路明确、有章可循、学用相连。作者推广拆补定局、时家排宫、中五寄坤二、天盘八神。五十分钟针对已有基础者学起局的教学说法，与机器学习epoch没有对应关系。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "所述准确率和教学效果是原作者经验报告；不同门派不能混编。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "demo-1-29",
+      "chapter": "appendix-demo-clean",
+      "document_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+      "revision_id": "137464cf-4386-4918-8487-e0936f78d8ee",
+      "byte_start": 0,
+      "byte_end": 559,
+      "excerpt_sha256": "80925da30a49567cae92c4af400ddd7522ec8074c00df195132a2e141abc619c",
+      "line_start": 1,
+      "line_end": 9,
+      "question": "现场纪实署名与所记会议时间是什么？这算新增独立预测案例吗？",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "署杜新会，记1998年9月15至18日安阳第九届周易与现代化国际研讨会。这是同一现场故事的精校独立来源，标题与会议资料不能算新增预测事件。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "会议日期不直接替代具体起局时刻，也不证明预测结局。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    },
+    {
+      "key": "demo-87-30",
+      "chapter": "appendix-demo-clean",
+      "document_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+      "revision_id": "137464cf-4386-4918-8487-e0936f78d8ee",
+      "byte_start": 9710,
+      "byte_end": 9991,
+      "excerpt_sha256": "1fce32cb2c9621ad86f161c3d5ce777f6bd9e173508e7c20c09f12ec0a80ec64",
+      "line_start": 87,
+      "line_end": 91,
+      "question": "此处九宫表被怎样标注？可否把重排当新原图或独立复算？",
+      "answer": {
+        "task_type": "source_knowledge",
+        "explanation": "该段先给当晚所报时间与盘信息，随后明确九宫盘面根据提供的文字原盘重排。因此是所供文字的重排表示，不是新纸本扫描、独立排盘验证或新历史事件。",
+        "citations": [
+          "source"
+        ],
+        "uncertainties": [
+          "所报干支、白露上元阴九等未在本题独立历算。"
+        ]
+      },
+      "mode": "reference_reading",
+      "split": "train",
+      "review_note": "逐条阅读所选原文后人工编写；限定资料理解，不作为未见案例预测或现实准确率。"
+    }
+  ],
+  "learning_case_quotations_excluded": true,
+  "independent_forecasting_tasks": 0
+}

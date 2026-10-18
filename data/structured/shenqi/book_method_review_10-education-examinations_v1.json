@@ -1,0 +1,1626 @@
+{
+  "schema": "book-method-semantic-review-v1",
+  "source_data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "reviewed_by": "Codex source-grounded semantic curation",
+  "rows": [
+    {
+      "case": 1,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "逐段审读首断与反馈顺序；unknown的作者方法段只作为给定前提的来源练习，不提升为独立事前事实。",
+      "known": [
+        {
+          "record_id": "record-0cd756d60c934a34aec2f4a139ca5b7823053c43ad92b415ddc4014cddb0d2d4",
+          "source_id": "span-f1d1125908f49dda8fe82c2bd5ac2ea279132f3e6d86248e1593dd0409c4f27d",
+          "sha256": "c32a03b3e0098b425708f0f8c82d49a531c9a1ba5c7f981ff406b1b75db1d238",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-1499697432aae57116fe554794125983f9b58c06878639d3ac21669a9cf15fd4",
+          "source_id": "span-36ce000f8d2b1b396c8ea1eebbdf6267bd34277d2b253561dad45a7473f524b1",
+          "sha256": "62c49c47df57397fd7e63a650299aae2f015aaf98237b536362a1c2bbbd404ae",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-1efec65d0f6f9169a2ab2865063089c144c47741ddfba52912c61e030492eaa9",
+          "source_id": "span-639832336dd13ab2781567bd6120df291e4b3a05cb2d3ce8e8d61f9e0b787386",
+          "sha256": "c8e3f572bf818ca5f35c4c8f0d4bbfb5ea3df4e77ceed82f0e359a0c7e895933",
+          "sequence": 2
+        }
+      ],
+      "cutoff": 4,
+      "rules": {
+        "exam": "如果是父母求测子女考学情况，则以时干为考生",
+        "paper": "以丁奇为文章，以景门为试卷"
+      },
+      "provided_roles": [
+        "父问子：时干丙，文章丁、考卷景门、考试院天辅、学校年干"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-172e84e1eefd334e9999ff89342be77a174afa358c42f88883eced0e6120fcae",
+              "source_id": "span-31354c9b7f6f695ab798ffd41c313be55a38f9e589ba4477b0a809a8cadd53f5",
+              "sha256": "6eecd216d3b4f8585b3053c63c903fa7d2b12ed04853d07cbdd8d96f06739d1a",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-f668952b01eb0ed2961c44b3d4acfc799342960bbc29408671c5b4bdddf473ba",
+              "source_id": "span-1d11837448c698b93351ce2b97d0e218a0377ec544fee9109c8187c7357d0920",
+              "sha256": "73467faac735c2a7eb6918b5a7ed1fa26761301d496280e796174e2dfdacb9e0",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "父问子用时干丙看考生，丁奇看文章、景门看试卷，天辅考试院和值符监考分别比较。儿子丁巳出生尚未告知，不提前拿丁年命替代时干。",
+            "citations": [
+              "chart",
+              "context",
+              "exam",
+              "paper"
+            ],
+            "uncertainties": [
+              "考试、升学、诉讼和应期口径逐项区分；作者叙述不等于独立效果验证。"
+            ],
+            "bindings": [
+              {
+                "role": "考生",
+                "symbol": "时干丙",
+                "condition": "父代问子"
+              },
+              {
+                "role": "文章、考卷",
+                "symbol": "丁奇、景门",
+                "condition": "与考生角色分开"
+              },
+              {
+                "role": "考试院、监考",
+                "symbol": "天辅、值符",
+                "condition": "不混为学校年干"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-172e84e1eefd334e9999ff89342be77a174afa358c42f88883eced0e6120fcae",
+              "source_id": "span-31354c9b7f6f695ab798ffd41c313be55a38f9e589ba4477b0a809a8cadd53f5",
+              "sha256": "6eecd216d3b4f8585b3053c63c903fa7d2b12ed04853d07cbdd8d96f06739d1a",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-f668952b01eb0ed2961c44b3d4acfc799342960bbc29408671c5b4bdddf473ba",
+              "source_id": "span-1d11837448c698b93351ce2b97d0e218a0377ec544fee9109c8187c7357d0920",
+              "sha256": "73467faac735c2a7eb6918b5a7ed1fa26761301d496280e796174e2dfdacb9e0",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "丙艮八临死门九天，丁兑七，景门坎一，天辅离九。死门这项不利必须与宫比和、旺相等作者条件分开权衡。",
+            "citations": [
+              "chart",
+              "context",
+              "exam",
+              "paper"
+            ],
+            "uncertainties": [
+              "考试、升学、诉讼和应期口径逐项区分；作者叙述不等于独立效果验证。"
+            ]
+          },
+          "facts": [
+            [
+              8,
+              "heaven_stem"
+            ],
+            [
+              8,
+              "door"
+            ],
+            [
+              8,
+              "deity"
+            ],
+            [
+              7,
+              "heaven_stem"
+            ],
+            [
+              1,
+              "door"
+            ],
+            [
+              9,
+              "star"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-172e84e1eefd334e9999ff89342be77a174afa358c42f88883eced0e6120fcae",
+              "source_id": "span-31354c9b7f6f695ab798ffd41c313be55a38f9e589ba4477b0a809a8cadd53f5",
+              "sha256": "6eecd216d3b4f8585b3053c63c903fa7d2b12ed04853d07cbdd8d96f06739d1a",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-f668952b01eb0ed2961c44b3d4acfc799342960bbc29408671c5b4bdddf473ba",
+              "source_id": "span-1d11837448c698b93351ce2b97d0e218a0377ec544fee9109c8187c7357d0920",
+              "sha256": "73467faac735c2a7eb6918b5a7ed1fa26761301d496280e796174e2dfdacb9e0",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-836779e35fb6e6a0448141e12ee09ab1e648244c95fb34b496f3f3101bbecc21",
+              "source_id": "span-fb182c73fd5361acce31b6be148370db0a86b3bd9ef8fca24817425ef81154a3",
+              "sha256": "8c4a903ac95b899c936f90b2a70aad1de8d1f033bc452b246d4f7850d00431b9",
+              "sequence": 6
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-172e84e1eefd334e9999ff89342be77a174afa358c42f88883eced0e6120fcae",
+              "source_id": "span-31354c9b7f6f695ab798ffd41c313be55a38f9e589ba4477b0a809a8cadd53f5",
+              "sha256": "6eecd216d3b4f8585b3053c63c903fa7d2b12ed04853d07cbdd8d96f06739d1a",
+              "sequence": 4,
+              "quote": "未月8宫旺相，丙+戊鸟跌穴吉格"
+            },
+            {
+              "record_id": "record-172e84e1eefd334e9999ff89342be77a174afa358c42f88883eced0e6120fcae",
+              "source_id": "span-31354c9b7f6f695ab798ffd41c313be55a38f9e589ba4477b0a809a8cadd53f5",
+              "sha256": "6eecd216d3b4f8585b3053c63c903fa7d2b12ed04853d07cbdd8d96f06739d1a",
+              "sequence": 4,
+              "quote": "虽临死门，但与宫比和"
+            },
+            {
+              "record_id": "record-f668952b01eb0ed2961c44b3d4acfc799342960bbc29408671c5b4bdddf473ba",
+              "source_id": "span-1d11837448c698b93351ce2b97d0e218a0377ec544fee9109c8187c7357d0920",
+              "sha256": "73467faac735c2a7eb6918b5a7ed1fa26761301d496280e796174e2dfdacb9e0",
+              "sequence": 5,
+              "quote": "天辅星为考试院，生助时干丙"
+            },
+            {
+              "record_id": "record-f668952b01eb0ed2961c44b3d4acfc799342960bbc29408671c5b4bdddf473ba",
+              "source_id": "span-1d11837448c698b93351ce2b97d0e218a0377ec544fee9109c8187c7357d0920",
+              "sha256": "73467faac735c2a7eb6918b5a7ed1fa26761301d496280e796174e2dfdacb9e0",
+              "sequence": 5,
+              "quote": "丁奇为文章，落兑7宫长生之地，受时干丙所生"
+            }
+          ],
+          "answer": {
+            "explanation": "作者在父代问口径下比较时干丙旺相、丙戊及九天，与死门宫比和，再审天辅生考生、丁奇受生及景门虽弱得值符天心，判断总分七百中六百以上。此时估分620与出生年都尚未透露，不能拿它们支撑首次分数判断。",
+            "citations": [
+              "chart",
+              "context",
+              "exam",
+              "paper"
+            ],
+            "uncertainties": [
+              "考试、升学、诉讼和应期口径逐项区分；作者叙述不等于独立效果验证。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-5c4545470e1bce7abf5746c6d55c0b2e75a5e57b4f4d31cf3594fa7530fb55f3",
+      "event_id": "event-5f6620cde3351b6fb265fc772ffcad3ac94147453243f9288671660b8f419189",
+      "family_id": "family-7eea06457816b727d5cc5bd452cb63e7305123f99267ec427869f2fad4ee5413",
+      "chart_id": "chart-74b86650ee93f7126bbefd878e899e57e2612ebebb77c90aff03e2923eea60c3",
+      "chapter": "10-education-examinations",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 1,
+      "stage": "birth_year_disclosed",
+      "mode": "continuation",
+      "known": [
+        {
+          "record_id": "record-0cd756d60c934a34aec2f4a139ca5b7823053c43ad92b415ddc4014cddb0d2d4",
+          "source_id": "span-f1d1125908f49dda8fe82c2bd5ac2ea279132f3e6d86248e1593dd0409c4f27d",
+          "sha256": "c32a03b3e0098b425708f0f8c82d49a531c9a1ba5c7f981ff406b1b75db1d238",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-1499697432aae57116fe554794125983f9b58c06878639d3ac21669a9cf15fd4",
+          "source_id": "span-36ce000f8d2b1b396c8ea1eebbdf6267bd34277d2b253561dad45a7473f524b1",
+          "sha256": "62c49c47df57397fd7e63a650299aae2f015aaf98237b536362a1c2bbbd404ae",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-1efec65d0f6f9169a2ab2865063089c144c47741ddfba52912c61e030492eaa9",
+          "source_id": "span-639832336dd13ab2781567bd6120df291e4b3a05cb2d3ce8e8d61f9e0b787386",
+          "sha256": "c8e3f572bf818ca5f35c4c8f0d4bbfb5ea3df4e77ceed82f0e359a0c7e895933",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-172e84e1eefd334e9999ff89342be77a174afa358c42f88883eced0e6120fcae",
+          "source_id": "span-31354c9b7f6f695ab798ffd41c313be55a38f9e589ba4477b0a809a8cadd53f5",
+          "sha256": "6eecd216d3b4f8585b3053c63c903fa7d2b12ed04853d07cbdd8d96f06739d1a",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-f668952b01eb0ed2961c44b3d4acfc799342960bbc29408671c5b4bdddf473ba",
+          "source_id": "span-1d11837448c698b93351ce2b97d0e218a0377ec544fee9109c8187c7357d0920",
+          "sha256": "73467faac735c2a7eb6918b5a7ed1fa26761301d496280e796174e2dfdacb9e0",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-836779e35fb6e6a0448141e12ee09ab1e648244c95fb34b496f3f3101bbecc21",
+          "source_id": "span-fb182c73fd5361acce31b6be148370db0a86b3bd9ef8fca24817425ef81154a3",
+          "sha256": "8c4a903ac95b899c936f90b2a70aad1de8d1f033bc452b246d4f7850d00431b9",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-334a3562c736cfe5141cb70f6d5680950e7e8850063dd961f7843c25ae9232fc",
+          "source_id": "span-c87b655d31104c3140f78ae9bee44af0ab964352da622b7bf0840c56b92484fc",
+          "sha256": "6fe367416e85e38a89dd51bfe42c73b9ce8c8b73a50e428567e7c57a29cabd02",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-547a8cafb6b1b1a93f38cf4797cc1e6ec2aeca08949d4131cbc982673b7b72f1",
+          "source_id": "span-45396678505f2f91a9e91d88ad890715cc93eab558ea7c9ae856ce9a7a617c8c",
+          "sha256": "c57f235754769c614c2966b6579cf20a24f6070e0bf49784f292e00ac6e01327",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-f5b230f264bbc76140cae5972f11acec3655be58c07c340e236f988ef9c1b9df",
+          "source_id": "span-0f8bc1e537e5e6f7e4ee0180f324288c2faee48ceb212793499a329a8d02e757",
+          "sha256": "8f1c0cbfa6c031cc7d9d172ebbdd9c4b13e0eda2136434ad8ee656fd19d5b410",
+          "sequence": 9
+        }
+      ],
+      "cutoff": 10,
+      "rules": {
+        "exam": "如果是父母求测子女考学情况，则以时干为考生",
+        "paper": "以丁奇为文章，以景门为试卷"
+      },
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-66439360f3d521ea6ea380cb2f559e35dfb4c1fbbb95bca1d11318fc06d0740f",
+              "source_id": "span-accb18b438f92c4354cbc00c838c38625c3d83c9f882f22180574a71cfbb06f8",
+              "sha256": "9224dd3b7d36fcefeea1f4d771d4b42f4ea19a4bef95295ed6dd64e93718aa9c",
+              "sequence": 10
+            },
+            {
+              "record_id": "record-7c09f805bc9758e19bbdb5c5e1ac9b3ce49e9f48984cac6397ec2e1244a540e7",
+              "source_id": "span-68e8d752127c211e247f2eab70118f847b77423004136274f934509a83f27970",
+              "sha256": "7946aedc1b05553a220e54eaa56e72bb2ff995feda3ad19e21aaf8609f627929",
+              "sequence": 11
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-66439360f3d521ea6ea380cb2f559e35dfb4c1fbbb95bca1d11318fc06d0740f",
+              "source_id": "span-accb18b438f92c4354cbc00c838c38625c3d83c9f882f22180574a71cfbb06f8",
+              "sha256": "9224dd3b7d36fcefeea1f4d771d4b42f4ea19a4bef95295ed6dd64e93718aa9c",
+              "sequence": 10,
+              "quote": "年命丁在兑7宫，为长生之地，但临天芮病星，又临伤门"
+            },
+            {
+              "record_id": "record-66439360f3d521ea6ea380cb2f559e35dfb4c1fbbb95bca1d11318fc06d0740f",
+              "source_id": "span-accb18b438f92c4354cbc00c838c38625c3d83c9f882f22180574a71cfbb06f8",
+              "sha256": "9224dd3b7d36fcefeea1f4d771d4b42f4ea19a4bef95295ed6dd64e93718aa9c",
+              "sequence": 10,
+              "quote": "年干为学校，临死门"
+            }
+          ],
+          "answer": {
+            "explanation": "估分620和丁巳出生是新增信息，作者沿原盘加看年命丁兑七及年干丙艮八学校，结合死门地理无机物、医药类象提出东北方向及地理物理医学方向，同时提出身体倾向。清华录取与专业实际选择尚未开放，不能以结果反证推荐。",
+            "citations": [
+              "chart",
+              "context",
+              "exam",
+              "paper"
+            ],
+            "uncertainties": [
+              "考试、升学、诉讼和应期口径逐项区分；作者叙述不等于独立效果验证。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-5c4545470e1bce7abf5746c6d55c0b2e75a5e57b4f4d31cf3594fa7530fb55f3",
+      "event_id": "event-5f6620cde3351b6fb265fc772ffcad3ac94147453243f9288671660b8f419189",
+      "family_id": "family-7eea06457816b727d5cc5bd452cb63e7305123f99267ec427869f2fad4ee5413",
+      "chart_id": "chart-74b86650ee93f7126bbefd878e899e57e2612ebebb77c90aff03e2923eea60c3",
+      "chapter": "10-education-examinations",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 2,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "逐段审读首断与反馈顺序；unknown的作者方法段只作为给定前提的来源练习，不提升为独立事前事实。",
+      "known": [
+        {
+          "record_id": "record-201a6f61e19fcc81d7984d07b916a4758cb867d02e7420c5c443638617af5af1",
+          "source_id": "span-e096b63aa0e08def254e2c292802f112fc28acac81a0282c94e61e3e52d1abed",
+          "sha256": "448f366ca5ab488b9aebced44e84f3ab85149bc4d81b88621edd1419e8caa450",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-bff757f5ccb3e96c169294fef578db3d5bc788bcd037d3de421d3a49bca3ea1e",
+          "source_id": "span-aaf938f6e743e30025cb10b191430b336a0da19c0e3a397ee42204257528e522",
+          "sha256": "22bdb860a2d9cccd40845202490d8e12308b6b2628e3ab9d805e126f6176a0e2",
+          "sequence": 1
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "exam": "如果是父母求测子女考学情况，则以时干为考生",
+        "paper": "以丁奇为文章，以景门为试卷"
+      },
+      "provided_roles": [
+        "时干己儿子、丁文章"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-9ecc64c5fe0b7ac0dfadbe07a51327e50eb320337719befc5ff26763b557358a",
+              "source_id": "span-a7b2a3e4b29ba3a660e86a423bbdda670c20e6a96ffc7c2707177b5496a97956",
+              "sha256": "b86a27530f406414e7f60a3eda053dd5f3ea18b8304d888f90369266860cb95f",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-3b79647d8ad073f821f511cd8bb42f4cd9815d4307c8ab4195d231010f170a87",
+              "source_id": "span-ab7526ad83f5e0c19d3d5ce56475df66ccfcbd06a8052cc576e702939112b896",
+              "sha256": "87c32367e6a0e12690ff07e41f79213d13c02c3908e9c53094c9b6cff0816e0f",
+              "sequence": 4
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "母问子以时干己看考生、丁奇看文章。日干也为己并不将母子合为一个人物；乙卯出生尚未披露，不能先按乙年命分析。",
+            "citations": [
+              "chart",
+              "context",
+              "exam",
+              "paper"
+            ],
+            "uncertainties": [
+              "考试、升学、诉讼和应期口径逐项区分；作者叙述不等于独立效果验证。"
+            ],
+            "bindings": [
+              {
+                "role": "考生儿子",
+                "symbol": "时干己",
+                "condition": "母代问子"
+              },
+              {
+                "role": "文章",
+                "symbol": "丁奇",
+                "condition": "与时干人物分开"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-9ecc64c5fe0b7ac0dfadbe07a51327e50eb320337719befc5ff26763b557358a",
+              "source_id": "span-a7b2a3e4b29ba3a660e86a423bbdda670c20e6a96ffc7c2707177b5496a97956",
+              "sha256": "b86a27530f406414e7f60a3eda053dd5f3ea18b8304d888f90369266860cb95f",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-3b79647d8ad073f821f511cd8bb42f4cd9815d4307c8ab4195d231010f170a87",
+              "source_id": "span-ab7526ad83f5e0c19d3d5ce56475df66ccfcbd06a8052cc576e702939112b896",
+              "sha256": "87c32367e6a0e12690ff07e41f79213d13c02c3908e9c53094c9b6cff0816e0f",
+              "sequence": 4
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "己乾六死门，坎一丁前缀、天芮惊门白虎按表；丁不改为主干辛。",
+            "citations": [
+              "chart",
+              "context",
+              "exam",
+              "paper"
+            ],
+            "uncertainties": [
+              "考试、升学、诉讼和应期口径逐项区分；作者叙述不等于独立效果验证。"
+            ]
+          },
+          "facts": [
+            [
+              6,
+              "heaven_stem"
+            ],
+            [
+              6,
+              "door"
+            ],
+            [
+              1,
+              "heaven_prefix_marker"
+            ],
+            [
+              1,
+              "star"
+            ],
+            [
+              1,
+              "door"
+            ],
+            [
+              1,
+              "deity"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-9ecc64c5fe0b7ac0dfadbe07a51327e50eb320337719befc5ff26763b557358a",
+              "source_id": "span-a7b2a3e4b29ba3a660e86a423bbdda670c20e6a96ffc7c2707177b5496a97956",
+              "sha256": "b86a27530f406414e7f60a3eda053dd5f3ea18b8304d888f90369266860cb95f",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-3b79647d8ad073f821f511cd8bb42f4cd9815d4307c8ab4195d231010f170a87",
+              "source_id": "span-ab7526ad83f5e0c19d3d5ce56475df66ccfcbd06a8052cc576e702939112b896",
+              "sha256": "87c32367e6a0e12690ff07e41f79213d13c02c3908e9c53094c9b6cff0816e0f",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-f9632c2971e560aba54de476c083c64ce24158cafbf5bf36021d12bc3dc9a246",
+              "source_id": "span-cedae496f9e2a21adb9fd1f165e5c10d4fa994c9e95bdc7e0ef0cdc4a054f17d",
+              "sha256": "fe4f6367da6ca05e29dd016d7bc0f6995413b2033c55bad9d7e656908bedf9de",
+              "sequence": 5
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-9ecc64c5fe0b7ac0dfadbe07a51327e50eb320337719befc5ff26763b557358a",
+              "source_id": "span-a7b2a3e4b29ba3a660e86a423bbdda670c20e6a96ffc7c2707177b5496a97956",
+              "sha256": "b86a27530f406414e7f60a3eda053dd5f3ea18b8304d888f90369266860cb95f",
+              "sequence": 3,
+              "quote": "时干己为其儿子，为考生。落乾6宫为胎养之地，临死门，逢空亡"
+            },
+            {
+              "record_id": "record-3b79647d8ad073f821f511cd8bb42f4cd9815d4307c8ab4195d231010f170a87",
+              "source_id": "span-ab7526ad83f5e0c19d3d5ce56475df66ccfcbd06a8052cc576e702939112b896",
+              "sha256": "87c32367e6a0e12690ff07e41f79213d13c02c3908e9c53094c9b6cff0816e0f",
+              "sequence": 4,
+              "quote": "丁下又遇庚，为文书阻隔"
+            }
+          ],
+          "answer": {
+            "explanation": "作者从时干己死门空亡及己丙格、丁奇入水乡遇庚与天芮惊门白虎，提出体弱与平常成绩不理想的判断。后面家长确认体弱和学习不佳仍未知，不能拿确认当输入。",
+            "citations": [
+              "chart",
+              "context",
+              "exam",
+              "paper"
+            ],
+            "uncertainties": [
+              "考试、升学、诉讼和应期口径逐项区分；作者叙述不等于独立效果验证。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-f2dbe3bc8bbd5ff7018cc66b4fb989a094d4648e16d1883d18bf638099c3c121",
+      "event_id": "event-579ce7e0d67154f1ee33b0d481abfd069bf6d573971908504803c5a190885863",
+      "family_id": "family-b662735d6b06215f968234f32c9d7e848b0d4c723829f0b5f7c7078f920c52fc",
+      "chart_id": "chart-95d1d4a9f5da848cff8efe40c93307a77af61d34e6b85cbf50f42f66627bb54a",
+      "chapter": "10-education-examinations",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 2,
+      "stage": "birth_year_known",
+      "mode": "continuation",
+      "known": [
+        {
+          "record_id": "record-201a6f61e19fcc81d7984d07b916a4758cb867d02e7420c5c443638617af5af1",
+          "source_id": "span-e096b63aa0e08def254e2c292802f112fc28acac81a0282c94e61e3e52d1abed",
+          "sha256": "448f366ca5ab488b9aebced44e84f3ab85149bc4d81b88621edd1419e8caa450",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-bff757f5ccb3e96c169294fef578db3d5bc788bcd037d3de421d3a49bca3ea1e",
+          "source_id": "span-aaf938f6e743e30025cb10b191430b336a0da19c0e3a397ee42204257528e522",
+          "sha256": "22bdb860a2d9cccd40845202490d8e12308b6b2628e3ab9d805e126f6176a0e2",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-9ecc64c5fe0b7ac0dfadbe07a51327e50eb320337719befc5ff26763b557358a",
+          "source_id": "span-a7b2a3e4b29ba3a660e86a423bbdda670c20e6a96ffc7c2707177b5496a97956",
+          "sha256": "b86a27530f406414e7f60a3eda053dd5f3ea18b8304d888f90369266860cb95f",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-3b79647d8ad073f821f511cd8bb42f4cd9815d4307c8ab4195d231010f170a87",
+          "source_id": "span-ab7526ad83f5e0c19d3d5ce56475df66ccfcbd06a8052cc576e702939112b896",
+          "sha256": "87c32367e6a0e12690ff07e41f79213d13c02c3908e9c53094c9b6cff0816e0f",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-f9632c2971e560aba54de476c083c64ce24158cafbf5bf36021d12bc3dc9a246",
+          "source_id": "span-cedae496f9e2a21adb9fd1f165e5c10d4fa994c9e95bdc7e0ef0cdc4a054f17d",
+          "sha256": "fe4f6367da6ca05e29dd016d7bc0f6995413b2033c55bad9d7e656908bedf9de",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-d962670a9cf0369c8e8d0c630e791c1484eea6f96ebe55c7ff545dceefac96d4",
+          "source_id": "span-39441ffade4a0d3ba0885b8eb3fa5ad688ab7d7905dba3c243c03fd16ec24c93",
+          "sha256": "fbb31522d8a37b42783f23bf0eb8c941297928c4ab94e6b965421e52a6aeba91",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-22fd5f638e5446b122224fa91af5d41abd6b256e9d45e5de21cea1dc0e39047d",
+          "source_id": "span-f7e996d4a98c704674f343c050d50c7c13dc4df323426b59c96363e66703e5e2",
+          "sha256": "f7bd93b0297f566593cffdb02d8aa8b981372cb8ab237e2aa0539b8455a7f0a6",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-6b1de4904aa5f2c012c061859a26ae0b52b449fdeb35d16f79c9b046edbe154b",
+          "source_id": "span-9f045115af4e0fb3b475882ab145c50d41dc449391b78f549504ef5a31f9ce5d",
+          "sha256": "68af9c86a88f950ed2edecfb08e50de9be9f42ea4ce157f94e774ddff680ec0f",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-96d305f5c75bb52eaff41dd5e783db2a30eba7f4223751bc523bf38049407455",
+          "source_id": "span-3926d9d94758804428c217f0c981dd2ea92ba3e3fbf981ffae8648fc39b4aa4f",
+          "sha256": "cb03546e10eecb14afc5ccd97ccad186e4a88e00bfb8d0f46561083b8acb58eb",
+          "sequence": 9
+        }
+      ],
+      "cutoff": 10,
+      "rules": {
+        "exam": "如果是父母求测子女考学情况，则以时干为考生",
+        "paper": "以丁奇为文章，以景门为试卷"
+      },
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-5855774a1780b9b7a5e99b273d8afe92dfe97ebf102898391a9801b01316cc49",
+              "source_id": "span-5914d842b5e6b9941eb2d27c94d68031e2e38e8aaae672f7adbe8471b5837576",
+              "sha256": "2fa751dd2c95e561874d8e1ff53f98fb5df21da63ec307c5723052fa9b81f861",
+              "sequence": 10
+            },
+            {
+              "record_id": "record-6c67a206d2e35bfdd98e1116e34b1efed2397ddc4cd6d547b8bf7d6298dc6cb1",
+              "source_id": "span-a19ede4eb826123470f07898a63cb67183de4306e88984771fd0e6252face591",
+              "sha256": "6c0036101e697f71f591141ab6f7cde85179702f6111c7f3baa386dc6a7c0e15",
+              "sequence": 11
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-5855774a1780b9b7a5e99b273d8afe92dfe97ebf102898391a9801b01316cc49",
+              "source_id": "span-5914d842b5e6b9941eb2d27c94d68031e2e38e8aaae672f7adbe8471b5837576",
+              "sha256": "2fa751dd2c95e561874d8e1ff53f98fb5df21da63ec307c5723052fa9b81f861",
+              "sequence": 10,
+              "quote": "年命乙在艮8宫，虽为帝旺之地，但受年干丙之克"
+            },
+            {
+              "record_id": "record-5855774a1780b9b7a5e99b273d8afe92dfe97ebf102898391a9801b01316cc49",
+              "source_id": "span-5914d842b5e6b9941eb2d27c94d68031e2e38e8aaae672f7adbe8471b5837576",
+              "sha256": "2fa751dd2c95e561874d8e1ff53f98fb5df21da63ec307c5723052fa9b81f861",
+              "sequence": 10,
+              "quote": "值符生年命，年命又生天辅，乙下又临戊"
+            }
+          ],
+          "answer": {
+            "explanation": "家长已确认体弱学习弱并补乙卯年命。作者比较乙年命虽帝旺却受学校年干克，与值符生年命、年命生天辅及乙下戊的有利面，区分靠分数上正规大学与自费上学，判断后者更可能。四百多分的结局尚不知。",
+            "citations": [
+              "chart",
+              "context",
+              "exam",
+              "paper"
+            ],
+            "uncertainties": [
+              "考试、升学、诉讼和应期口径逐项区分；作者叙述不等于独立效果验证。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-f2dbe3bc8bbd5ff7018cc66b4fb989a094d4648e16d1883d18bf638099c3c121",
+      "event_id": "event-579ce7e0d67154f1ee33b0d481abfd069bf6d573971908504803c5a190885863",
+      "family_id": "family-b662735d6b06215f968234f32c9d7e848b0d4c723829f0b5f7c7078f920c52fc",
+      "chart_id": "chart-95d1d4a9f5da848cff8efe40c93307a77af61d34e6b85cbf50f42f66627bb54a",
+      "chapter": "10-education-examinations",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 3,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "逐段审读首断与反馈顺序；unknown的作者方法段只作为给定前提的来源练习，不提升为独立事前事实。",
+      "known": [
+        {
+          "record_id": "record-426b5567deb4937ed721fe0bc3c75ca8fc0338ec269c10af11deb65ac6afc2a6",
+          "source_id": "span-1426d3065d37b51e939ed17f6fadd1a4fab6535407421a0f82b75ed8830f3cca",
+          "sha256": "294620371e847bacb1961906041bb624a3ed3854cbc5b561a5477db5a5208ca0",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-c825a2c0d6c82cd3eda2c6a6378a6ae6dff3f7ad956fdf8675f090bda718195b",
+          "source_id": "span-e3ac00feec427af948fec77c9444c2b7e8c0bd8fbec0796867867840fb0cfdc6",
+          "sha256": "c02e4a94b27280a3a8a6d7e2551af6c9d1157870c059e26adee07bda86e50122",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-c552d24976300604af1d2971dde0d915f92ce55992d5c889bf02fed757ee58ea",
+          "source_id": "span-730ba321cf403e95a539fcf49edfebf43126f1703eca0969efc3845869cfbe7a",
+          "sha256": "56d90c7abf9a56494f104ae4955293f44063f37ba2099a75b27b9eb6c1fa5e81",
+          "sequence": 2
+        }
+      ],
+      "cutoff": 4,
+      "rules": {
+        "exam": "如果是父母求测子女考学情况，则以时干为考生",
+        "paper": "以丁奇为文章，以景门为试卷"
+      },
+      "provided_roles": [
+        "年命丁与时干庚子、日干壬父，丁另为文章"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-3179edc76c15046a778201c9c444ae0f2de7d7954b0aec7c3a18b5206b893a68",
+              "source_id": "span-9e9a731424ca3eba1154d7d75f4d24825a068cadbb6b66c702073008fbf38590",
+              "sha256": "73281b08ce93fef7657a4e005de3eda44b3f9245dac6d72c404b15f1090d0c88",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-90d506887cdff1b7ae9103d253d245f657c276a66a8682e9428718d829bbb919",
+              "source_id": "span-74ac2aa6eb489a8506c0fb01f33dcabafddfd674967d3c97a47833506c247bbb",
+              "sha256": "c53a2253dc073fad376d67163aea2e347234ae56f8926104bd661ee941a8c5d5",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-513091e79f7d773b1e5a1e5f982fa31341923cb19ccff9da3e724cd728c00847",
+              "source_id": "span-c7267955fed5ec90569379dc0351f912d4c2b2cdf92af815aff8072c4dd0f0c1",
+              "sha256": "633f4ad2c84032b7fb551f1321ce909fcccab6457c09a175eaaa98a70dcfeaeb",
+              "sequence": 11
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "父代问已知丁巳年子，可看时干庚和年命丁；丁奇另为文章，日干壬在本例为父。角色同干的多重含义分别标注，不能因丁又是文章便混淆父子。",
+            "citations": [
+              "chart",
+              "context",
+              "exam",
+              "paper"
+            ],
+            "uncertainties": [
+              "考试、升学、诉讼和应期口径逐项区分；作者叙述不等于独立效果验证。"
+            ],
+            "bindings": [
+              {
+                "role": "儿子",
+                "symbol": "时干庚、年命丁",
+                "condition": "父代问且出生年已知"
+              },
+              {
+                "role": "父亲",
+                "symbol": "日干壬",
+                "condition": "本例问测主体"
+              },
+              {
+                "role": "文章",
+                "symbol": "丁奇",
+                "condition": "与年命丁视角分开"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-3179edc76c15046a778201c9c444ae0f2de7d7954b0aec7c3a18b5206b893a68",
+              "source_id": "span-9e9a731424ca3eba1154d7d75f4d24825a068cadbb6b66c702073008fbf38590",
+              "sha256": "73281b08ce93fef7657a4e005de3eda44b3f9245dac6d72c404b15f1090d0c88",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-90d506887cdff1b7ae9103d253d245f657c276a66a8682e9428718d829bbb919",
+              "source_id": "span-74ac2aa6eb489a8506c0fb01f33dcabafddfd674967d3c97a47833506c247bbb",
+              "sha256": "c53a2253dc073fad376d67163aea2e347234ae56f8926104bd661ee941a8c5d5",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-b354e667819ddeb95224f7676739082e1c2c3bba396e745119adbc103ae4ae1c",
+              "source_id": "span-867d34a8674d65bbe54b7e2536c2a0a7d25c9095acb1fefab6582c8284272ac5",
+              "sha256": "5e7b1de571c2199fc0c32ea23e6113608254501f7b05993bc2a57c7ede4469a9",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-513091e79f7d773b1e5a1e5f982fa31341923cb19ccff9da3e724cd728c00847",
+              "source_id": "span-c7267955fed5ec90569379dc0351f912d4c2b2cdf92af815aff8072c4dd0f0c1",
+              "sha256": "633f4ad2c84032b7fb551f1321ce909fcccab6457c09a175eaaa98a70dcfeaeb",
+              "sequence": 11
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "丁兑七伤门、庚乾六杜门、丙离九前缀、壬坎一从原盘读取；不能把学校年干丙前缀写成离九主干。",
+            "citations": [
+              "chart",
+              "context",
+              "exam",
+              "paper"
+            ],
+            "uncertainties": [
+              "考试、升学、诉讼和应期口径逐项区分；作者叙述不等于独立效果验证。"
+            ]
+          },
+          "facts": [
+            [
+              7,
+              "heaven_stem"
+            ],
+            [
+              7,
+              "door"
+            ],
+            [
+              6,
+              "heaven_stem"
+            ],
+            [
+              6,
+              "door"
+            ],
+            [
+              9,
+              "heaven_prefix_marker"
+            ],
+            [
+              1,
+              "heaven_stem"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-3179edc76c15046a778201c9c444ae0f2de7d7954b0aec7c3a18b5206b893a68",
+              "source_id": "span-9e9a731424ca3eba1154d7d75f4d24825a068cadbb6b66c702073008fbf38590",
+              "sha256": "73281b08ce93fef7657a4e005de3eda44b3f9245dac6d72c404b15f1090d0c88",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-613d7d86e7a3777e225e610bc867d7f98c16b8d7ab1a6a299db148afe2b6e8a7",
+              "source_id": "span-00c1e53c221cdcd44020d3dabaa0f5e126158e74ce33f313d935f6b715a000eb",
+              "sha256": "f48df22749ec1bacdba4cddde510f5be211d2d52db1b37cfd7c807139ad353b0",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-90d506887cdff1b7ae9103d253d245f657c276a66a8682e9428718d829bbb919",
+              "source_id": "span-74ac2aa6eb489a8506c0fb01f33dcabafddfd674967d3c97a47833506c247bbb",
+              "sha256": "c53a2253dc073fad376d67163aea2e347234ae56f8926104bd661ee941a8c5d5",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-479cfdb023c5b6a3da4a4246148572ea8f9d7169af0198cda8b5b930a3d1dd04",
+              "source_id": "span-cafda705a5b2c463acf694e50406ddebfb03f7a600045788da381c6e6894f71a",
+              "sha256": "83a95ac904179ed384f376e558e40928fbf081a9d842c84f81be983b9e3cdab8",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-b354e667819ddeb95224f7676739082e1c2c3bba396e745119adbc103ae4ae1c",
+              "source_id": "span-867d34a8674d65bbe54b7e2536c2a0a7d25c9095acb1fefab6582c8284272ac5",
+              "sha256": "5e7b1de571c2199fc0c32ea23e6113608254501f7b05993bc2a57c7ede4469a9",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-16836e295fe0df66948a89d13992f8c6205a8c0c5f06399b2a6c1788a11289fe",
+              "source_id": "span-43ffdb13a3c4ec86f1b8293bc984fe1ba49454a433d5bafa75d4444fd998bdb1",
+              "sha256": "03c32faa0b14aa54f237f3a4fd8ecda17f130c8121bc706072096f9bb9ba5b47",
+              "sequence": 9
+            },
+            {
+              "record_id": "record-071dd4c3708d3eab09aab3f02f6b53c3105c058ad4eb7566ac646f8c12ca4456",
+              "source_id": "span-98d1da78f9e9601c8429a6a55eaed22187703444fc90c5c90f9c45b4a0427421",
+              "sha256": "9cc426c1d6970cebcfec07f79f693922ff64d2a249f381c403513d330ce15429",
+              "sequence": 10
+            },
+            {
+              "record_id": "record-513091e79f7d773b1e5a1e5f982fa31341923cb19ccff9da3e724cd728c00847",
+              "source_id": "span-c7267955fed5ec90569379dc0351f912d4c2b2cdf92af815aff8072c4dd0f0c1",
+              "sha256": "633f4ad2c84032b7fb551f1321ce909fcccab6457c09a175eaaa98a70dcfeaeb",
+              "sequence": 11
+            },
+            {
+              "record_id": "record-9237100470359ba8958c68ab1d8e1cdaf65c0badbb2345cfbeb6779d34301e9f",
+              "source_id": "span-397a72194ee8ed6448b7690392dd4dee33d37c8022fe78ed75e4571d8379bf3a",
+              "sha256": "0c8a62fc9ab957a9a6ea350a72143f62064701c548328ed0f349de8fc1a1b197",
+              "sequence": 12
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-90d506887cdff1b7ae9103d253d245f657c276a66a8682e9428718d829bbb919",
+              "source_id": "span-74ac2aa6eb489a8506c0fb01f33dcabafddfd674967d3c97a47833506c247bbb",
+              "sha256": "c53a2253dc073fad376d67163aea2e347234ae56f8926104bd661ee941a8c5d5",
+              "sequence": 6,
+              "quote": "庚加丁，星奇受刑，临杜门不吉"
+            },
+            {
+              "record_id": "record-90d506887cdff1b7ae9103d253d245f657c276a66a8682e9428718d829bbb919",
+              "source_id": "span-74ac2aa6eb489a8506c0fb01f33dcabafddfd674967d3c97a47833506c247bbb",
+              "sha256": "c53a2253dc073fad376d67163aea2e347234ae56f8926104bd661ee941a8c5d5",
+              "sequence": 6,
+              "quote": "整个局是八门反吟局"
+            },
+            {
+              "record_id": "record-b354e667819ddeb95224f7676739082e1c2c3bba396e745119adbc103ae4ae1c",
+              "source_id": "span-867d34a8674d65bbe54b7e2536c2a0a7d25c9095acb1fefab6582c8284272ac5",
+              "sha256": "5e7b1de571c2199fc0c32ea23e6113608254501f7b05993bc2a57c7ede4469a9",
+              "sequence": 8,
+              "quote": "年干丙为大学在9宫，克丁奇和时干落宫"
+            },
+            {
+              "record_id": "record-16836e295fe0df66948a89d13992f8c6205a8c0c5f06399b2a6c1788a11289fe",
+              "source_id": "span-43ffdb13a3c4ec86f1b8293bc984fe1ba49454a433d5bafa75d4444fd998bdb1",
+              "sha256": "03c32faa0b14aa54f237f3a4fd8ecda17f130c8121bc706072096f9bb9ba5b47",
+              "sequence": 9,
+              "quote": "丁奇、时干克考试院天辅星落宫"
+            },
+            {
+              "record_id": "record-513091e79f7d773b1e5a1e5f982fa31341923cb19ccff9da3e724cd728c00847",
+              "source_id": "span-c7267955fed5ec90569379dc0351f912d4c2b2cdf92af815aff8072c4dd0f0c1",
+              "sha256": "633f4ad2c84032b7fb551f1321ce909fcccab6457c09a175eaaa98a70dcfeaeb",
+              "sequence": 11,
+              "quote": "日干为其父亲"
+            }
+          ],
+          "answer": {
+            "explanation": "作者用丁癸、伤杜及反吟等判断分数和常规录取不利，再保留时干/丁克天辅、父亲日干与学校及考试院、财助文章等正面信息，区别“分数不佳”和“通过父亲努力自费入学”。427与418分及石家庄大学结果尚未知，不能当初断依据。",
+            "citations": [
+              "chart",
+              "context",
+              "exam",
+              "paper"
+            ],
+            "uncertainties": [
+              "考试、升学、诉讼和应期口径逐项区分；作者叙述不等于独立效果验证。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-1eedc064bf1d23f7c887a29741c668a4ae8aa1aed5631420b65719fa3c1d0029",
+      "event_id": "event-a803063c4ae8caeedbb2f760d12ce3c2315bc86ebd23e07c359ee9b525aecb64",
+      "family_id": "family-cfb49bc5e6cfbaf348d17663409479a7d86e77478830dcb52589171665b86431",
+      "chart_id": "chart-9788a1392e0bd4b9d762c0d250d52094b203234abfa7933a0efa3ff48788712e",
+      "chapter": "10-education-examinations",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 4,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "逐段审读首断与反馈顺序；unknown的作者方法段只作为给定前提的来源练习，不提升为独立事前事实。",
+      "known": [
+        {
+          "record_id": "record-1a2649c51a0f3bbe0dbb477f86b45cc75ad4b4dbe1593b0483173a284ae2902d",
+          "source_id": "span-c741e983fc7c6b43f4368d7d96894dedadc2e7add093302811196d143ec970af",
+          "sha256": "7a59dca28250734be93297c970151f92c4dfb289936932067ebe273a3d151bda",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-f2c2762ad66b8746a2c08608177e1623fa070063d4b222902354881ae0dd8c0d",
+          "source_id": "span-607b3cff70592142e314b5793fb9ceff899f1898871ef86f66d63fe79dec17d8",
+          "sha256": "0a7be0851659810b30e6d2104ffb7cab8868c5ab10fb020d9157c3027aec08d0",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-74e8c3df835ad62a91d1eddc7fe9250012169e327cc09c93971e1418653c47ed",
+          "source_id": "span-43be21f2ede6fe3d933aaf00733fa119222089ff44d071d9e292579a1b1195d5",
+          "sha256": "1269245bdda6c7ba4ae8f3aa9b196741f8201f189dae83f713790d02f1e013d2",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-f5e3dec1d497eb249ea81dd81c0c488d5c8ea9f0ba529fb76047f1539e199969",
+          "source_id": "span-5e4829cdbb6c3aa1b98da1b9b5f5aaface0b537e0e3f2d50255fb70b4e3ef451",
+          "sha256": "5854119c399c3e5906f0dbff7ae1f9325964eb6fd314be20953f9d0ea196a76d",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-6bd7b66ae8aa4b5570f1ecdaaa3357be59046ff2115ba310a14ceedce4946e06",
+          "source_id": "span-774f0f85dfb61beb503bd0c59285e55c04f9bd5d4bb8294e78d4a47ebbb4b4c8",
+          "sha256": "c926a87202625837485f3cdf0d1dd9e041ce4dacf9ef3b001c63284c9d0d239e",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-ec9e76d11a663a2130f983a58eec1159a266bf4c7c273d3dbcac98f00c685cf1",
+          "source_id": "span-3e2aa486043fb7e894bef5618a09d1fc178c71d947b979165c73b3d5b82a8fed",
+          "sha256": "58d691fad0437f620f0b4ba40b40b58a0750ce64e4cd1093802aa079782c9302",
+          "sequence": 6
+        }
+      ],
+      "cutoff": 7,
+      "rules": {
+        "exam": "如果是父母求测子女考学情况，则以时干为考生",
+        "paper": "以丁奇为文章，以景门为试卷"
+      },
+      "provided_roles": [
+        "本人日干甲辰壬，丁文章景门答卷，年干学校天辅考试院"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-9154b2922d9fccfbefbb2d216c904f471ce27b5a1507bfd8d073f8adeb06ff46",
+              "source_id": "span-771659d6e644c9d897835f06c7b49298591ba7553785f6fb2d28b648245f7b21",
+              "sha256": "bfb9c3b79bfced083f4b955067b2503b2f9c27a94e30572faf83f59d0761ac75",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-1b80620e70662716e6c524d23d6105b78d350747dab6a27accef924a3bdee5e2",
+              "source_id": "span-e3828ef8d594800b0321085ff0d11c631f034c47091db6656be6882d466e524f",
+              "sha256": "9ad3a2344657d40f3bcb2b478bffb232db631149bf764e2c741afb1361c935d9",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-2d081b98464ca8ab2f1b0d6c5083b4c154a91dbb2289d5f3ee90575541245754",
+              "source_id": "span-2f768e196495fc7181242e4b3611f631d69dcbb197594446336b6ba6a3f2104c",
+              "sha256": "f6de513247b3774b8da6883c9ef7f22c3f3aeed70f61ab179271f0daa1191fe1",
+              "sequence": 9
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "金美含本人问次年考博，以日干甲辰壬看本人，文章丁、答卷景门，学校年干丙与考试院天辅分开。本人求测不能沿父母代问规则只取时干。",
+            "citations": [
+              "chart",
+              "context",
+              "exam",
+              "paper"
+            ],
+            "uncertainties": [
+              "考试、升学、诉讼和应期口径逐项区分；作者叙述不等于独立效果验证。"
+            ],
+            "bindings": [
+              {
+                "role": "考生本人",
+                "symbol": "日干甲辰壬",
+                "condition": "本人考博求测"
+              },
+              {
+                "role": "文章、答卷",
+                "symbol": "丁奇、景门",
+                "condition": "学习成绩视角"
+              },
+              {
+                "role": "学校、考试院",
+                "symbol": "年干丙、天辅",
+                "condition": "不同机构口径"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-9154b2922d9fccfbefbb2d216c904f471ce27b5a1507bfd8d073f8adeb06ff46",
+              "source_id": "span-771659d6e644c9d897835f06c7b49298591ba7553785f6fb2d28b648245f7b21",
+              "sha256": "bfb9c3b79bfced083f4b955067b2503b2f9c27a94e30572faf83f59d0761ac75",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-1b80620e70662716e6c524d23d6105b78d350747dab6a27accef924a3bdee5e2",
+              "source_id": "span-e3828ef8d594800b0321085ff0d11c631f034c47091db6656be6882d466e524f",
+              "sha256": "9ad3a2344657d40f3bcb2b478bffb232db631149bf764e2c741afb1361c935d9",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-2d081b98464ca8ab2f1b0d6c5083b4c154a91dbb2289d5f3ee90575541245754",
+              "source_id": "span-2f768e196495fc7181242e4b3611f631d69dcbb197594446336b6ba6a3f2104c",
+              "sha256": "f6de513247b3774b8da6883c9ef7f22c3f3aeed70f61ab179271f0daa1191fe1",
+              "sequence": 9
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "壬乾六伤门天柱、丁兑七前缀、艮八景门玄武及离九丙天辅按表；旺相和空亡另外给定。",
+            "citations": [
+              "chart",
+              "context",
+              "exam",
+              "paper"
+            ],
+            "uncertainties": [
+              "考试、升学、诉讼和应期口径逐项区分；作者叙述不等于独立效果验证。"
+            ]
+          },
+          "facts": [
+            [
+              6,
+              "heaven_stem"
+            ],
+            [
+              6,
+              "door"
+            ],
+            [
+              6,
+              "star"
+            ],
+            [
+              7,
+              "heaven_prefix_marker"
+            ],
+            [
+              8,
+              "door"
+            ],
+            [
+              8,
+              "deity"
+            ],
+            [
+              9,
+              "heaven_stem"
+            ],
+            [
+              9,
+              "star"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-9154b2922d9fccfbefbb2d216c904f471ce27b5a1507bfd8d073f8adeb06ff46",
+              "source_id": "span-771659d6e644c9d897835f06c7b49298591ba7553785f6fb2d28b648245f7b21",
+              "sha256": "bfb9c3b79bfced083f4b955067b2503b2f9c27a94e30572faf83f59d0761ac75",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-1b80620e70662716e6c524d23d6105b78d350747dab6a27accef924a3bdee5e2",
+              "source_id": "span-e3828ef8d594800b0321085ff0d11c631f034c47091db6656be6882d466e524f",
+              "sha256": "9ad3a2344657d40f3bcb2b478bffb232db631149bf764e2c741afb1361c935d9",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-2d081b98464ca8ab2f1b0d6c5083b4c154a91dbb2289d5f3ee90575541245754",
+              "source_id": "span-2f768e196495fc7181242e4b3611f631d69dcbb197594446336b6ba6a3f2104c",
+              "sha256": "f6de513247b3774b8da6883c9ef7f22c3f3aeed70f61ab179271f0daa1191fe1",
+              "sequence": 9
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-9154b2922d9fccfbefbb2d216c904f471ce27b5a1507bfd8d073f8adeb06ff46",
+              "source_id": "span-771659d6e644c9d897835f06c7b49298591ba7553785f6fb2d28b648245f7b21",
+              "sha256": "bfb9c3b79bfced083f4b955067b2503b2f9c27a94e30572faf83f59d0761ac75",
+              "sequence": 7,
+              "quote": "日干甲辰壬和时干壬虽然同落乾6宫为临官禄地"
+            },
+            {
+              "record_id": "record-9154b2922d9fccfbefbb2d216c904f471ce27b5a1507bfd8d073f8adeb06ff46",
+              "source_id": "span-771659d6e644c9d897835f06c7b49298591ba7553785f6fb2d28b648245f7b21",
+              "sha256": "bfb9c3b79bfced083f4b955067b2503b2f9c27a94e30572faf83f59d0761ac75",
+              "sequence": 7,
+              "quote": "逢空亡"
+            },
+            {
+              "record_id": "record-1b80620e70662716e6c524d23d6105b78d350747dab6a27accef924a3bdee5e2",
+              "source_id": "span-e3828ef8d594800b0321085ff0d11c631f034c47091db6656be6882d466e524f",
+              "sha256": "9ad3a2344657d40f3bcb2b478bffb232db631149bf764e2c741afb1361c935d9",
+              "sequence": 8,
+              "quote": "丁奇为考生文章，在兑7宫为长生之地，丁+壬为吉格"
+            },
+            {
+              "record_id": "record-2d081b98464ca8ab2f1b0d6c5083b4c154a91dbb2289d5f3ee90575541245754",
+              "source_id": "span-2f768e196495fc7181242e4b3611f631d69dcbb197594446336b6ba6a3f2104c",
+              "sha256": "f6de513247b3774b8da6883c9ef7f22c3f3aeed70f61ab179271f0daa1191fe1",
+              "sequence": 9,
+              "quote": "年干丙为学校，天辅星为考试院，二者均在离9宫"
+            }
+          ],
+          "answer": {
+            "explanation": "作者并列本人壬临官旺相却空亡、文章丁长生吉格却临天芮、答卷景门临天蓬玄武及学校考试院克考生等，判断这次考博不利。应把次年这一目标与未来更远年份分开；不能据后来另一年考上改写本轮目标。",
+            "citations": [
+              "chart",
+              "context",
+              "exam",
+              "paper"
+            ],
+            "uncertainties": [
+              "考试、升学、诉讼和应期口径逐项区分；作者叙述不等于独立效果验证。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-e3e071482aa5e18af02ef00b25698d4850559ab1e32e3b4884967a98ede1c601",
+      "event_id": "event-dedfd3fd5c0d0e5a56e290ec146f85e484f8868ccce1f6abd1b25892d1e39cc9",
+      "family_id": "family-8fa0416995b0c6b2059c4eec1d4f399757e4d9655aea698f12ae1629a0402a13",
+      "chart_id": "chart-17e94d42a56a2c1749e24df442d659ea99062d3271691475ed78220bc9e244ec",
+      "chapter": "10-education-examinations",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 5,
+      "stage": "after_letters_and_results",
+      "mode": "retrospective",
+      "known": [
+        {
+          "record_id": "record-42fc13c5a19d2c1d79349dd3400d583e6733d7e3f499fe759d5b1278a7fc237b",
+          "source_id": "span-02b2b92f443c28ec1fdc873e96eed3798773ed293a90d520558bddc20329789e",
+          "sha256": "e1296fcde4cc49c53a6756a64218f9c1053cd6535e23b5572d8d755b31a3cb9d",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-94b0040e6a952efab8a936dfb00f244b19bcf8e27d0e07273a66b129ce4f9a1d",
+          "source_id": "span-ed3b740084f8e6a0a03d6a4655f9e42131d900773f54b3ca8da6cf7822698327",
+          "sha256": "c8f8b9e978120a818064b5f43e4b04419fd2ad5a329c97313bb3ba4fca8b897f",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-98b6518261b959bef02685a3e8149e395b42cd9a277f7dbd9b09c8b36338745c",
+          "source_id": "span-faa3b2082807a61061ed0f4be62da9ea8ef84333880a20305cd4878fa10688f6",
+          "sha256": "8b6c3cbe38205b907b6ac6b91fc9358afd6df7569b66120de941df373e2794ed",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-11b2996b41aadfd94c7620ba0044aec3a1ec08b110460238b72974e94597cbf0",
+          "source_id": "span-b0d293a48fccfa28b383b34b7c5041605553daf0ced16712894920997fb89098",
+          "sha256": "70c48fc8c9501c7e307cb3247e43b6bc3f0d00e1c6e8c234d17a3eea5f8a42a7",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-28b74c6f6260dee356c298f3a349de3f4edb21e82c718ae672a44ecfb7cc4008",
+          "source_id": "span-4c2295c1eabb61b82a7ea421a04c21234493d911313511edc2a2e383dd0b766c",
+          "sha256": "cc34338507f925d69934252320134654da272df836109704a708487603cec690",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-68bc7476676a73a61cc71aeb566aafe899935396967569b54b5c34321986c496",
+          "source_id": "span-bf52e98ab9563143ceb8ac23b49a639d150548a7187ffd641859eb56e4e03c65",
+          "sha256": "19b82534423643a479b68a32839add1566106de9f727a23c9cb43b896f635183",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-88b00ca5642119b2527683bdca2b8e443f738fabcd47159c77e8860bf8a9b0fe",
+          "source_id": "span-1fb0760a872d2f49e2054a82b31d53e8f55904ecb838bb3e1149bd11fac361c9",
+          "sha256": "b630e0229639f8c20e385c16f7a6b414c5da2d2c8f2bd48f6d45329f68f374b0",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-3ae7cf0c49bff5681488402f990947d5a23887925bf22cff9db114a36063cc2e",
+          "source_id": "span-9ddee34d0a4ca01b5866432a85058491a94abaa2e0618b3921ac79e8b4de2f13",
+          "sha256": "14cd2ea705394fd0b6bd9a7eeb21098af9cd6a03212336e842de92665b673423",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-f1ab529fe4573b09a812eeda3bc3f002da9364643a40cdfb7144343fa7a8c029",
+          "source_id": "span-e5a02693954fdcb32762c2f08c1c684a03e9aecc4a13a084302703490935c8c9",
+          "sha256": "67a5376830e013c1d574b16a7032732aa82396ff4395819b65d4395f76b29e41",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-ee684372b69c2f64e47dd0f934e6f9f329634b519f7deff416b8970c65126060",
+          "source_id": "span-5c707ede4539d69a2c7017da208ccb24e565f840730bb9cf2a0b2628abf1026f",
+          "sha256": "7c6af5e4531a93762938b9cf5187a14bb4f48f06240a4e6ebd6bd2edf2603e99",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-02c11310b57678ccd6b710db9635571b64e6241648a22a61f08f97c6f72c27cc",
+          "source_id": "span-97c60803ceb4e641ba9448d8cae08dcb1528d93d5babc10abb07b3fcb699c949",
+          "sha256": "628c4349d50ab02fa7d48e119387dde6931e463d0184675755af1a37a27661d2",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-42770da6de008325900fc008a6ccddefa9a08ba8058104bfe1e84cbd314a2fdd",
+          "source_id": "span-49f41140886594e1ff029fffb3b92c1be01d1aa2114963dbb085406dca4591c5",
+          "sha256": "2f9cf353c9ce025f71e61c6a298532b52b78cd719412cc6c38e5b9ec60cc878c",
+          "sequence": 11
+        },
+        {
+          "record_id": "record-4eac9a48ba09cfd89f40bf7b0f67018fcdfb08315d09a9b0e82768855de52883",
+          "source_id": "span-07d29c1594e5f97b4b2f1fd2c68cbc2d327224bb06c755fbd1331019548da0ac",
+          "sha256": "13cbda1e687a6c6c9b27bbfb48d06ba0ee2904946bceb32052777054f6bfcc78",
+          "sequence": 12
+        },
+        {
+          "record_id": "record-a23eb0ee53b5b03cb4fa1718788012a08b5de98bba918bef60281832a9ec5b1c",
+          "source_id": "span-fca2de1d8e288a72aa0bebc7943c5ee970ea9d027fade5303938be6298003ad9",
+          "sha256": "f5a85f7f3f0fca1d4acd8e0fdb0065d2ec7d349dddd4ab9529ec4d9a9eacc466",
+          "sequence": 13
+        },
+        {
+          "record_id": "record-ccd7f7bd52060e3e3791b2300603a1e7673eec90b15fd44e84e4efe80fbc61ca",
+          "source_id": "span-ece4645fe50dd334582bf0569dae292c03a94f2896a87c1402009bb9b81f1b8b",
+          "sha256": "ef71690e46ce8ea7bef4c0c641e3bdbb288d716a3a548bce1055c5554cfe2850",
+          "sequence": 14
+        },
+        {
+          "record_id": "record-c1dd6dff3c1a7d06bef5af589e79e59ada9cb2fb039da581d7b69c2c76d9bfe1",
+          "source_id": "span-298365bd4e183b2cefb4104a3d3b59761aa8c518cb1d8f680565023e5d1b52e9",
+          "sha256": "fdf534579f5e37e9b620951cab86c1b2b9af34be736867ff7c88f0e4791d8b59",
+          "sequence": 15
+        },
+        {
+          "record_id": "record-422ebc5fc93999bc6ab01c0d762adeb11c813fd98cf3a8b77b4daebf8307cf72",
+          "source_id": "span-78e5b56344854cc3930f217e4d416e530308b7ee2499be022ac0fc038702b30c",
+          "sha256": "fdd1aa8ea45860aac124d6f640ea750be81d61fa7108da3bb6ce1d85c10b1e37",
+          "sequence": 16
+        },
+        {
+          "record_id": "record-4f419af6bd57f2f1d2684b5087a1cec8f58d4c52b260a5537dc741a8870768dc",
+          "source_id": "span-7b021b5900f7f7e285398fc25b3774bc2b00af254b19b67e85e1de72744fd7ec",
+          "sha256": "6d8bcc7183d92f093270af1dbf3c77a3a933bc1ce50bdecdbcbcf1d3f1243d92",
+          "sequence": 17
+        },
+        {
+          "record_id": "record-035f05900805ae45fcbf31c7891098a26723619ac24b5b5a19c359a59b1f96e2",
+          "source_id": "span-a42f74ef49162eed4d7ee9f10790364cae0f0d102ec2d359cf3a7ecfb039ee98",
+          "sha256": "0a6657227054609ad0ebb9105f3cb250d1fc5bd032a6dd1b0261143a189209aa",
+          "sequence": 18
+        },
+        {
+          "record_id": "record-5d2373213bcc343dee20e04c05c15431f00bdb777f48b91fbfa80e82a8ccb9ca",
+          "source_id": "span-e843e2787e8471d7aa48acbb2946b9e708547c3aa7d69240ff164a276402e99a",
+          "sha256": "bc8c000d378dea3643ec839bdb66bffaf278d96405104758596ce59045f0c653",
+          "sequence": 19
+        },
+        {
+          "record_id": "record-ca81ac2cc9101648cf73bbd3ed8577fd035660a7a32cc3b8189c5ae2ed80080b",
+          "source_id": "span-e790a9b4343b0d1de2f9b09ce87d09f0bc7d46840822879026a4b7cf1460cf0c",
+          "sha256": "1095fcf62087140944e61b44a12b7e47b920a3981ade067a6ea518a2f035c972",
+          "sequence": 20
+        },
+        {
+          "record_id": "record-79898397e0f2dd1bba083097921c535482e0b0a4c94e5e75c2cf5c5300c451e2",
+          "source_id": "span-f041ac695e040a2ae15833f089e34a1a33cac6baee07aa59c79eee825568da59",
+          "sha256": "8aee2c0d9c9f7640cce4d3013bab42ca9c840907d3a96285781345d3a7bbf56d",
+          "sequence": 21
+        },
+        {
+          "record_id": "record-a96f9f8aa8d7dfca41a7c3df4510e49fa581491fcc92a97f5e21d8c927960713",
+          "source_id": "span-900c367e3bbf73284404af966794b5fa83bd1c2b27bb3ac8206182ebd1cfbeb2",
+          "sha256": "e4b843a79c5463b6d19dcda97cbdc8f899383c875264c0d377aa8cac657d4a78",
+          "sequence": 22
+        },
+        {
+          "record_id": "record-8d1194609fb69072e70663a97f094b3bf7d05b6daa9ece0f3fe22f9091d57b33",
+          "source_id": "span-3c33c2db4ff47922fc89f1ce7bfeadabbe4555d7ad0507d4dfeb75cccd8ca9fb",
+          "sha256": "0143f5f1d50b7389fa5e7a74b4036400be5ee1671b2cb8c5d8d461b8e38fcd3d",
+          "sequence": 23
+        },
+        {
+          "record_id": "record-c09dfac67164bb639f9d40a9bb7e61d7d4793d4bf2178070235e09571b31ffd1",
+          "source_id": "span-889aa9219336386142b634f9b1ef7bfb5e4973795c35cffde75cdbf3b2d1e7a2",
+          "sha256": "f0e229efb7afd9a7f2fa42c34b2f47ed1afc8199cc0f0a0667d062fe5278fda9",
+          "sequence": 24
+        },
+        {
+          "record_id": "record-a38afff0b72a41d6b2ac8d7e8dc4470612d49aa623573b2c04d7b459a8ff0cc2",
+          "source_id": "span-ff10b0a1a77358873ed46cfc963a8e4b5619bd7bd41a810bd235b06dd88f0f1e",
+          "sha256": "8a3ff527c99920de696f213d17e93db97c251afcaaf30c9cbd583156bbae3591",
+          "sequence": 25
+        },
+        {
+          "record_id": "record-8e4b526f56a5fdb70d4fcf8fd9e072ee36d97f2e0ea1ab16341b10896b85cf72",
+          "source_id": "span-dae2edbb37bc2ab273b0b4008dfdc03a77de6507cdf475583416eac42219977e",
+          "sha256": "996855f19bf97cde42bc94b1b811d69ccc55fc256a57a913e3650fd140121516",
+          "sequence": 26
+        },
+        {
+          "record_id": "record-e77c0e72cad8f86fb40499b7dd6ce7bf401adbe07e1eb3cd83142618581a9126",
+          "source_id": "span-0dd7550ae7881ec47a025a3fac50483fffb2affe9927495a243835c004d9dce7",
+          "sha256": "15ab288df2149aa143e6f42ea6c0d461913d760e4e573ddf0a2561bcfe3209c7",
+          "sequence": 27
+        },
+        {
+          "record_id": "record-68d2f296098b5ca5b9362d2d0aef43d6452d413f6cebd7469ade5487aca1930a",
+          "source_id": "span-051bb35221db0c56700571556e6b1b814d6558918f5e1b94fabf6be7444c8d75",
+          "sha256": "46ce598bfbfebda95c211b1ff731af30dd82e87b859c88506e75054e2bc0ffdb",
+          "sequence": 28
+        },
+        {
+          "record_id": "record-13fe0fc372d2de45f6cde9ec39553b408071ef64af94e393d6c9f4e9901b5549",
+          "source_id": "span-9bc9272982d68c9322264c5dfb23ee3ced351281524f23c8e83d8cc62b1b5649",
+          "sha256": "6972d58855198c21dea549d377b858ec49065008cb4bf4af22b22a782d1cb5d7",
+          "sequence": 29
+        }
+      ],
+      "cutoff": 31,
+      "rules": {
+        "exam": "如果是父母求测子女考学情况，则以时干为考生",
+        "paper": "以丁奇为文章，以景门为试卷"
+      },
+      "provided_roles": [
+        "时干癸及己年命女儿、六合证据、丁与天辅考试中心、值符原告天乙被告开门法院"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-47240a122e7919dbc74c981aeee9124cc7b249e16a0f444e6420292d9589f28b",
+              "source_id": "span-2f56b116396a946a3a3448d8082b7fa2226aebeecf8641825f629cc3fa8d2bcf",
+              "sha256": "cbb4b9f8959a80d71715c8e36b868e1a9ab72af66a8d3e8dd040812e3d59cb13",
+              "sequence": 31
+            },
+            {
+              "record_id": "record-a05abadcc3cbfcd66ea4175dadecb3a69235d92ff3e4ae177a5b461e2f443f12",
+              "source_id": "span-ae75c49c3e4681521f90b55b6d64c17d8ad4da055ecdcc0082aca736010f618e",
+              "sha256": "4a5be78987c382edcd7b0a9a7b079ad7dbe5a8833d9d032ff6b3e1dbf5aad2cf",
+              "sequence": 32
+            },
+            {
+              "record_id": "record-39e1e365325fc337097f358a89c62e3ee3f7342c1428a190ed6ba28021fa7530",
+              "source_id": "span-576074dda2279066b025198d3de495a6266b9aa12c4682db0563bdd74d38c0f8",
+              "sha256": "eb0fed746fb0658d30a2cf4ae8045f617556bf4c2c20781185ef140bd6aed469",
+              "sequence": 33
+            },
+            {
+              "record_id": "record-d1e43842c1e52ab0bc0499a9a93b853315d165653444571bb240287b92e57219",
+              "source_id": "span-71b9c6d53ac4e048b6317d5244daad2707910e18d8bdd2f15a0f1d67b7291688",
+              "sha256": "b42d2570074f87909eeae443d9ce2c28159086977f6cd7e4ee3bab8f5abc2d7b",
+              "sequence": 34
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "本题是反馈已知后的作者来源复盘。考试看时干癸与己年命女儿、丁文章和天辅；诉讼另看值符原告、天乙被告、开门法院，六合为证据。不能把考试中心、法院、考生三者混成同一个角色。",
+            "citations": [
+              "chart",
+              "context",
+              "exam",
+              "paper"
+            ],
+            "uncertainties": [
+              "考试、升学、诉讼和应期口径逐项区分；作者叙述不等于独立效果验证。"
+            ],
+            "bindings": [
+              {
+                "role": "女儿考生",
+                "symbol": "时干癸、年命己",
+                "condition": "父代问兼已知年命"
+              },
+              {
+                "role": "原告、被告、法院",
+                "symbol": "值符、天乙、开门",
+                "condition": "诉讼方法单列"
+              },
+              {
+                "role": "证据",
+                "symbol": "六合",
+                "condition": "本例证据视角"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-47240a122e7919dbc74c981aeee9124cc7b249e16a0f444e6420292d9589f28b",
+              "source_id": "span-2f56b116396a946a3a3448d8082b7fa2226aebeecf8641825f629cc3fa8d2bcf",
+              "sha256": "cbb4b9f8959a80d71715c8e36b868e1a9ab72af66a8d3e8dd040812e3d59cb13",
+              "sequence": 31
+            },
+            {
+              "record_id": "record-a05abadcc3cbfcd66ea4175dadecb3a69235d92ff3e4ae177a5b461e2f443f12",
+              "source_id": "span-ae75c49c3e4681521f90b55b6d64c17d8ad4da055ecdcc0082aca736010f618e",
+              "sha256": "4a5be78987c382edcd7b0a9a7b079ad7dbe5a8833d9d032ff6b3e1dbf5aad2cf",
+              "sequence": 32
+            },
+            {
+              "record_id": "record-39e1e365325fc337097f358a89c62e3ee3f7342c1428a190ed6ba28021fa7530",
+              "source_id": "span-576074dda2279066b025198d3de495a6266b9aa12c4682db0563bdd74d38c0f8",
+              "sha256": "eb0fed746fb0658d30a2cf4ae8045f617556bf4c2c20781185ef140bd6aed469",
+              "sequence": 33
+            },
+            {
+              "record_id": "record-d1e43842c1e52ab0bc0499a9a93b853315d165653444571bb240287b92e57219",
+              "source_id": "span-71b9c6d53ac4e048b6317d5244daad2707910e18d8bdd2f15a0f1d67b7291688",
+              "sha256": "b42d2570074f87909eeae443d9ce2c28159086977f6cd7e4ee3bab8f5abc2d7b",
+              "sequence": 34
+            },
+            {
+              "record_id": "record-798ccedca4d27738cf4685e18663c3365cdb7d686a0ddd8c12ccfe949c111d79",
+              "source_id": "span-4e924a72de8415b60b3244435b34d2a922fadedd8cb5caea650d06a1e6815d5b",
+              "sha256": "63046bc3a5e20fd5c53231cc7bd45a64bb01a589a8bad90907c671bf76e75ea2",
+              "sequence": 35
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "癸离九前缀、己巽四、震三六合天辅丁、乾六开门按原表读取。出生年和后续结果只在本复盘阶段已知，不是初断输入。",
+            "citations": [
+              "chart",
+              "context",
+              "exam",
+              "paper"
+            ],
+            "uncertainties": [
+              "考试、升学、诉讼和应期口径逐项区分；作者叙述不等于独立效果验证。"
+            ]
+          },
+          "facts": [
+            [
+              9,
+              "heaven_prefix_marker"
+            ],
+            [
+              4,
+              "heaven_stem"
+            ],
+            [
+              3,
+              "deity"
+            ],
+            [
+              3,
+              "star"
+            ],
+            [
+              3,
+              "heaven_stem"
+            ],
+            [
+              6,
+              "door"
+            ]
+          ]
+        },
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-47240a122e7919dbc74c981aeee9124cc7b249e16a0f444e6420292d9589f28b",
+              "source_id": "span-2f56b116396a946a3a3448d8082b7fa2226aebeecf8641825f629cc3fa8d2bcf",
+              "sha256": "cbb4b9f8959a80d71715c8e36b868e1a9ab72af66a8d3e8dd040812e3d59cb13",
+              "sequence": 31
+            },
+            {
+              "record_id": "record-a05abadcc3cbfcd66ea4175dadecb3a69235d92ff3e4ae177a5b461e2f443f12",
+              "source_id": "span-ae75c49c3e4681521f90b55b6d64c17d8ad4da055ecdcc0082aca736010f618e",
+              "sha256": "4a5be78987c382edcd7b0a9a7b079ad7dbe5a8833d9d032ff6b3e1dbf5aad2cf",
+              "sequence": 32
+            },
+            {
+              "record_id": "record-39e1e365325fc337097f358a89c62e3ee3f7342c1428a190ed6ba28021fa7530",
+              "source_id": "span-576074dda2279066b025198d3de495a6266b9aa12c4682db0563bdd74d38c0f8",
+              "sha256": "eb0fed746fb0658d30a2cf4ae8045f617556bf4c2c20781185ef140bd6aed469",
+              "sequence": 33
+            },
+            {
+              "record_id": "record-d1e43842c1e52ab0bc0499a9a93b853315d165653444571bb240287b92e57219",
+              "source_id": "span-71b9c6d53ac4e048b6317d5244daad2707910e18d8bdd2f15a0f1d67b7291688",
+              "sha256": "b42d2570074f87909eeae443d9ce2c28159086977f6cd7e4ee3bab8f5abc2d7b",
+              "sequence": 34
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-47240a122e7919dbc74c981aeee9124cc7b249e16a0f444e6420292d9589f28b",
+              "source_id": "span-2f56b116396a946a3a3448d8082b7fa2226aebeecf8641825f629cc3fa8d2bcf",
+              "sha256": "cbb4b9f8959a80d71715c8e36b868e1a9ab72af66a8d3e8dd040812e3d59cb13",
+              "sequence": 31,
+              "quote": "值符为原告，天乙为被告"
+            },
+            {
+              "record_id": "record-47240a122e7919dbc74c981aeee9124cc7b249e16a0f444e6420292d9589f28b",
+              "source_id": "span-2f56b116396a946a3a3448d8082b7fa2226aebeecf8641825f629cc3fa8d2bcf",
+              "sha256": "cbb4b9f8959a80d71715c8e36b868e1a9ab72af66a8d3e8dd040812e3d59cb13",
+              "sequence": 31,
+              "quote": "被告离火克法院乾金"
+            },
+            {
+              "record_id": "record-a05abadcc3cbfcd66ea4175dadecb3a69235d92ff3e4ae177a5b461e2f443f12",
+              "source_id": "span-ae75c49c3e4681521f90b55b6d64c17d8ad4da055ecdcc0082aca736010f618e",
+              "sha256": "4a5be78987c382edcd7b0a9a7b079ad7dbe5a8833d9d032ff6b3e1dbf5aad2cf",
+              "sequence": 32,
+              "quote": "戊为月干，地盘戊落坎1宫，戊上逢庚为月格"
+            },
+            {
+              "record_id": "record-39e1e365325fc337097f358a89c62e3ee3f7342c1428a190ed6ba28021fa7530",
+              "source_id": "span-576074dda2279066b025198d3de495a6266b9aa12c4682db0563bdd74d38c0f8",
+              "sha256": "eb0fed746fb0658d30a2cf4ae8045f617556bf4c2c20781185ef140bd6aed469",
+              "sequence": 33,
+              "quote": "六合为证据落震三宫属木，时干癸为其女儿，落离9宫属火"
+            },
+            {
+              "record_id": "record-d1e43842c1e52ab0bc0499a9a93b853315d165653444571bb240287b92e57219",
+              "source_id": "span-71b9c6d53ac4e048b6317d5244daad2707910e18d8bdd2f15a0f1d67b7291688",
+              "sha256": "b42d2570074f87909eeae443d9ce2c28159086977f6cd7e4ee3bab8f5abc2d7b",
+              "sequence": 34,
+              "quote": "丁奇为太岁，天辅星为考试中心，二者均落震3宫"
+            }
+          ],
+          "answer": {
+            "explanation": "作者在已知申诉结果后解释：诉讼伏吟及法院受被告克不利起诉；录取人员月格兼吉星吉门作善意怀疑；六合证据生考生而伏吟作未收集；丁太岁与天辅生考生支持以材料申诉。把这四种依据和角色分开，不能用已录取事实充当预测时的证据。",
+            "citations": [
+              "chart",
+              "context",
+              "exam",
+              "paper"
+            ],
+            "uncertainties": [
+              "考试、升学、诉讼和应期口径逐项区分；作者叙述不等于独立效果验证。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        },
+        {
+          "type": "timing_analysis",
+          "targets": [
+            {
+              "record_id": "record-798ccedca4d27738cf4685e18663c3365cdb7d686a0ddd8c12ccfe949c111d79",
+              "source_id": "span-4e924a72de8415b60b3244435b34d2a922fadedd8cb5caea650d06a1e6815d5b",
+              "sha256": "63046bc3a5e20fd5c53231cc7bd45a64bb01a589a8bad90907c671bf76e75ea2",
+              "sequence": 35
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-798ccedca4d27738cf4685e18663c3365cdb7d686a0ddd8c12ccfe949c111d79",
+              "source_id": "span-4e924a72de8415b60b3244435b34d2a922fadedd8cb5caea650d06a1e6815d5b",
+              "sha256": "63046bc3a5e20fd5c53231cc7bd45a64bb01a589a8bad90907c671bf76e75ea2",
+              "sequence": 35,
+              "quote": "年命己落旺宫，下临太岁"
+            },
+            {
+              "record_id": "record-798ccedca4d27738cf4685e18663c3365cdb7d686a0ddd8c12ccfe949c111d79",
+              "source_id": "span-4e924a72de8415b60b3244435b34d2a922fadedd8cb5caea650d06a1e6815d5b",
+              "sha256": "63046bc3a5e20fd5c53231cc7bd45a64bb01a589a8bad90907c671bf76e75ea2",
+              "sequence": 35,
+              "quote": "现四宫旬空，须待填实、逢冲之日月为应期"
+            },
+            {
+              "record_id": "record-798ccedca4d27738cf4685e18663c3365cdb7d686a0ddd8c12ccfe949c111d79",
+              "source_id": "span-4e924a72de8415b60b3244435b34d2a922fadedd8cb5caea650d06a1e6815d5b",
+              "sha256": "63046bc3a5e20fd5c53231cc7bd45a64bb01a589a8bad90907c671bf76e75ea2",
+              "sequence": 35,
+              "quote": "日干丁在外盘，时干癸在内盘，一内一外，又八门伏吟"
+            }
+          ],
+          "answer": {
+            "explanation": "原例将年命己在巽四旬空、日时一内一外及八门伏吟主迟，与戌月冲实巽四联系，报阳历10月7号以后。这里已有后续记录，仅复盘原方法；“九月份”须按原叙述节气月口径说明，不能当农历初一即到期。",
+            "citations": [
+              "chart",
+              "context",
+              "exam",
+              "paper"
+            ],
+            "uncertainties": [
+              "考试、升学、诉讼和应期口径逐项区分；作者叙述不等于独立效果验证。"
+            ],
+            "methods": [
+              "空亡逢冲实",
+              "内外盘与伏吟取迟、节气月界"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-f8183a1538d30dfebd86ea800a2601cf1f9601eaae64c2608d615bb49946e67b",
+      "event_id": "event-35e0bea2fc8292d3a229536ad71509698dbf0f8b8bf44f61c5531d60a4aa6541",
+      "family_id": "family-937e983190f950e6d7b47826b8e3f2fb7b9d91aac4809aabdf70691b6d66d762",
+      "chart_id": "chart-e09ae7f483ebf20826d46b1d5666788ed75e944e88f4f8175eab27ec5f3d5940",
+      "chapter": "10-education-examinations",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    }
+  ]
+}

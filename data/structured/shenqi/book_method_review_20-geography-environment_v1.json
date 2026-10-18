@@ -1,0 +1,347 @@
+{
+  "schema": "book-method-semantic-review-v1",
+  "source_data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "reviewed_by": "Codex source-grounded semantic curation",
+  "rows": [
+    {
+      "case": 1,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "已逐句区分方案专家意见、作者判断、资金反馈；不将已听到的方案结论视为独立盲判。",
+      "known_source_window_review": "已逐句区分方案专家意见、作者判断、资金反馈；不将已听到的方案结论视为独立盲判。",
+      "known": [
+        {
+          "record_id": "record-a43b9c0f58e89c1ae51a2bd6ef14266be1839c2fab9f42e4cd13dd02a6a90e4e",
+          "source_id": "span-50a66c84bcc6b17519b1baaf8479d8afc97caea0c629d60b24b203087af96f7b",
+          "sha256": "b3778f6e52a67dbdead89273e8575bd220062142d49b76e153babe9ea92a7307",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-9e9ca6d2b734ae82d705388b2573dcfb2ece99c8417e39143a458019198d89c4",
+          "source_id": "span-e2109445fe14b2d5eb63b79b223cd330678355ee46522435060bb32989d51094",
+          "sha256": "c90fec67cd79db7f162bc7294944c48c4a415b7324bd41e25fbff226f3367f7a",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-a1b72fb8ccefd808619f11532ad9d6b1529c4a3938f9c4e79ea28fece0aa3f86",
+          "source_id": "span-a6f9f51064d173b7638daf14b818457ffc86a8855e7bf1ed61a38394debab14c",
+          "sha256": "f7fa87a2eb4265bdd04c4bb91a7ec6d3d2ca05860df31af3620c8b6956c94821",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-35bcddfaff1a97f3dbb9a0440db57fa8f7013d688f036bdccd98c8932dd08eac",
+          "source_id": "span-dc090998ee67c10eac98638d0f78e7011bef8a260654646b2e6b56a928ead697",
+          "sha256": "3d36fad8f9ec23506b618b28b325063d890ea275dd4887946cccd764fa3096b7",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-2e55761b3bf02a5bf8e6258c3273b8705cbe434c35c103ec51031e4bbe9578c0",
+          "source_id": "span-bd77d1baa52f3a39c1cd66f52faa5937016dd9ae70fde1ed7124a1af392b841c",
+          "sha256": "d46b61b4dc8240bf48f92f6266c1218f28e7090e7ff8923298804660cba01b15",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-114f8005e1a34583fc610a0e2ba482cb193a889a9379f61ccb6b5cb97cc02167",
+          "source_id": "span-22bcab69c83b0e26bb5b1242c203e087a82878bcc37ef47b14365dcd36a8f98f",
+          "sha256": "0474f7e0de70bb0b4a001a96d9b0f644a29f371ed2a74441a70b363aff95de5a",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-f8e853c1f3c4840fc5204987717e98781df31bd16500d62db52ec6c6cd4bb235",
+          "source_id": "span-a761a20605467a8775e4a8a41ba7e042e0165fa76de3b195f00a5a7f425274d6",
+          "sha256": "d210a45b32968db9c6cdaca841e43dc72ffbaded01ffd9ef7452de1236312cb9",
+          "sequence": 6
+        }
+      ],
+      "cutoff": 7,
+      "rules": {
+        "geo": "预测地理环境，一般以日干为人，以时干为住宅",
+        "building": "测阳宅，一般以生门为房屋，以死门为地皮"
+      },
+      "provided_roles": [
+        "本例生门房屋、九天高大；日时事体、太岁另论"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-c3f267627720001ac6271c2e7135c4cddc74622fef28f0ede512111a7e38b6f7",
+              "source_id": "span-e4ef4607658bc8a156df3545eda11f364c2f71a99b8b731a8dfba960ef739fa4",
+              "sha256": "f73bc9787be2a25c35addd36cc4089896dd533fdc1fdedec3bb5fc8bef0fbb33",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-a5e2152dd1d5f0bb5830da6c28be83c8ca5786efad60994fa03a5260fc0a867d",
+              "source_id": "span-d322b4a8733374747b706b3ff37b71049376f07d868b846da1a45206ed8ce465",
+              "sha256": "8ee952714fafef9ffc41bc159803b5f6e4bf95ab02cb821937d3913512a0c64e",
+              "sequence": 11
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "本例选高层主楼方位，作者取生门为房屋、九天高大，另用日时和太岁看项目。专家已在已知背景选择东北艮位，所以本题是方法解释，不能当作者未听意见前的独立正确选址。",
+            "citations": [
+              "chart",
+              "context",
+              "geo",
+              "building"
+            ],
+            "uncertainties": [
+              "原文未提供的现场测量、地磁生物场数据或完整推导均不补造；传统判断不是物理测量结论。"
+            ],
+            "bindings": [
+              {
+                "role": "房屋、高层",
+                "symbol": "生门、九天",
+                "condition": "本例主楼方案语境"
+              },
+              {
+                "role": "项目",
+                "symbol": "日干、时干及太岁关系",
+                "condition": "与方位选择分开"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-c3f267627720001ac6271c2e7135c4cddc74622fef28f0ede512111a7e38b6f7",
+              "source_id": "span-e4ef4607658bc8a156df3545eda11f364c2f71a99b8b731a8dfba960ef739fa4",
+              "sha256": "f73bc9787be2a25c35addd36cc4089896dd533fdc1fdedec3bb5fc8bef0fbb33",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-a5e2152dd1d5f0bb5830da6c28be83c8ca5786efad60994fa03a5260fc0a867d",
+              "source_id": "span-d322b4a8733374747b706b3ff37b71049376f07d868b846da1a45206ed8ce465",
+              "sha256": "8ee952714fafef9ffc41bc159803b5f6e4bf95ab02cb821937d3913512a0c64e",
+              "sequence": 11
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "原盘生门、九天均在艮八，保留为字面事实。没有由此测得实际地磁场或工程安全参数。",
+            "citations": [
+              "chart",
+              "context",
+              "geo",
+              "building"
+            ],
+            "uncertainties": [
+              "原文未提供的现场测量、地磁生物场数据或完整推导均不补造；传统判断不是物理测量结论。"
+            ]
+          },
+          "facts": [
+            [
+              8,
+              "door"
+            ],
+            [
+              8,
+              "deity"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-c3f267627720001ac6271c2e7135c4cddc74622fef28f0ede512111a7e38b6f7",
+              "source_id": "span-e4ef4607658bc8a156df3545eda11f364c2f71a99b8b731a8dfba960ef739fa4",
+              "sha256": "f73bc9787be2a25c35addd36cc4089896dd533fdc1fdedec3bb5fc8bef0fbb33",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-a5e2152dd1d5f0bb5830da6c28be83c8ca5786efad60994fa03a5260fc0a867d",
+              "source_id": "span-d322b4a8733374747b706b3ff37b71049376f07d868b846da1a45206ed8ce465",
+              "sha256": "8ee952714fafef9ffc41bc159803b5f6e4bf95ab02cb821937d3913512a0c64e",
+              "sequence": 11
+            },
+            {
+              "record_id": "record-bee6c0600421bd2db5b269a4b17139eaa1d181b40d78f2ed9a524847bdaf3295",
+              "source_id": "span-e321a8dd93774d4320a70ac9457728fc41a27535c8212b1ca55c80008046fbcf",
+              "sha256": "58478f3a0b3f018cd320f4a191089b3b850d0d57cd0092daddd8ab810d781e62",
+              "sequence": 12
+            },
+            {
+              "record_id": "record-d118fd888756e96e57680df6ac0a7cf7ed55f65daf0215437fcf25f9ed431b58",
+              "source_id": "span-0dfc54ee1d09ef79bdf9ece75b0f29fd7cfb1de9d933bc93d8987fda76e4a5a8",
+              "sha256": "8991b58b0754569265569b9c8f26fcc9a70f9a0c4c0c40ed109024c37ffa0ac2",
+              "sequence": 13
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-c3f267627720001ac6271c2e7135c4cddc74622fef28f0ede512111a7e38b6f7",
+              "source_id": "span-e4ef4607658bc8a156df3545eda11f364c2f71a99b8b731a8dfba960ef739fa4",
+              "sha256": "f73bc9787be2a25c35addd36cc4089896dd533fdc1fdedec3bb5fc8bef0fbb33",
+              "sequence": 8,
+              "quote": "生门为房屋，九天主高大"
+            },
+            {
+              "record_id": "record-c3f267627720001ac6271c2e7135c4cddc74622fef28f0ede512111a7e38b6f7",
+              "source_id": "span-e4ef4607658bc8a156df3545eda11f364c2f71a99b8b731a8dfba960ef739fa4",
+              "sha256": "f73bc9787be2a25c35addd36cc4089896dd533fdc1fdedec3bb5fc8bef0fbb33",
+              "sequence": 8,
+              "quote": "生门、九天均落东北艮位"
+            },
+            {
+              "record_id": "record-a5e2152dd1d5f0bb5830da6c28be83c8ca5786efad60994fa03a5260fc0a867d",
+              "source_id": "span-d322b4a8733374747b706b3ff37b71049376f07d868b846da1a45206ed8ce465",
+              "sha256": "8ee952714fafef9ffc41bc159803b5f6e4bf95ab02cb821937d3913512a0c64e",
+              "sequence": 11,
+              "quote": "日时同宫，太岁生助"
+            },
+            {
+              "record_id": "record-a5e2152dd1d5f0bb5830da6c28be83c8ca5786efad60994fa03a5260fc0a867d",
+              "source_id": "span-d322b4a8733374747b706b3ff37b71049376f07d868b846da1a45206ed8ce465",
+              "sha256": "8ee952714fafef9ffc41bc159803b5f6e4bf95ab02cb821937d3913512a0c64e",
+              "sequence": 11,
+              "quote": "大局伏吟"
+            }
+          ],
+          "answer": {
+            "explanation": "作者用艮位生门九天呼应此前专家方案，日时同宫太岁助认为可成，但伏吟提示进度慢；另给2001开业和8至14亿投资说法。实际规划8亿及资金未着落在下一轮确认，尚不能当输入；源中未展开金额与开业年的逐步推导，不能自行编成确定算法。",
+            "citations": [
+              "chart",
+              "context",
+              "geo",
+              "building"
+            ],
+            "uncertainties": [
+              "原文未提供的现场测量、地磁生物场数据或完整推导均不补造；传统判断不是物理测量结论。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-b3edf9b54b6680cdbc4840ae4551d6276da6c560172364848cc15c102bdf1dc3",
+      "event_id": "event-a24f00fd545101f74e2e9d540d3ca2fd79623ffee9e001a080d2a68a9a082490",
+      "family_id": "family-c6c2d3305907728d59a020e907e1546598ac2f2cf94d4dc7859b466e8a7b32ad",
+      "chart_id": "chart-d035420fb61f578412437604523607e3f49231d500ea0f58c8d5b6b0f20d2556",
+      "chapter": "20-geography-environment",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 2,
+      "event": 1,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "已逐句区分方案专家意见、作者判断、资金反馈；不将已听到的方案结论视为独立盲判。",
+      "known_source_window_review": "已逐句区分方案专家意见、作者判断、资金反馈；不将已听到的方案结论视为独立盲判。",
+      "known": [
+        {
+          "record_id": "record-03ad02324c81e2c5fc7a66d7fcc4566616d2c553964cefa6bc251487bfe7728c",
+          "source_id": "span-71aa5535f90cc66f8129b83e17d24191856677d4edcc7fadfbe84bff6b124e3d",
+          "sha256": "9b58cc6140749cd9385bbba5041ab88398a77cb76c99e8193fea5ebc91c41bbc",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-85b6f8861dd5fa2d738c660607de1aca743222dcfa815f6b0fcfc0150accc7bb",
+          "source_id": "span-75327f3d277b8d0a995dcc458c963015cd84190c58d7fe77dede40a62e4fbc01",
+          "sha256": "a21d2882a2d935cbc64cd6ad6bb0854d9d92ad16925536ca7544884156e94d85",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-7e475ae64e77f565d6e9ea527fd0cd838de144322cbb089cec242fac0429bef9",
+          "source_id": "span-46a698be839d38831da46d65a6ae83e12ce18a699e3325533a33d9fee48a4858",
+          "sha256": "cfc81ca08bab2dd55bd22bd435306cc8ad5689351c8e588b0b7035487247708f",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-ad912e902ca04f4ae65175efb32a1a7e0ed283162f057f633d6f11b932457e32",
+          "source_id": "span-fdfb26d4b9fee6798fa11dfd7e001cafa8ffef1ba6cb4894dffbc982311cda94",
+          "sha256": "5ab5aecaf9c758534e68b1d482ab9573cbdb19cc5c21a420cc57517b574eea43",
+          "sequence": 3
+        }
+      ],
+      "cutoff": 4,
+      "rules": {
+        "geo": "预测地理环境，一般以日干为人，以时干为住宅",
+        "building": "测阳宅，一般以生门为房屋，以死门为地皮"
+      },
+      "provided_roles": [
+        "仅原盘字面读取；作者未展开本例具体取用和推导"
+      ],
+      "tasks": [
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-ffcf8ceeaea726616459298cde17fba3486bb0a1ed3e81cf74efa969a1360b65",
+              "source_id": "span-77ac0cbac0dece8ec8624adb414781c38d564ecd2af9f2dc22b727e8de0f0a51",
+              "sha256": "e381c03ed66280c013ff54e511bbd8958e4549954028b835d39b3834d92eef77",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-c68041129e5037358028a8d2d97224c52411fdf0d0f86a858d7d8ddd5159e6d7",
+              "source_id": "span-859ecd5c13d73f09d791b05e9e442f8a23fc53dd1323db3f34a0233a87f5b20b",
+              "sha256": "9038b5306978416f2174fd9d066e1df8fc8c42ddb53e1fa6729102e7e4311741",
+              "sequence": 6
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "核对源报值符天辅坎一和值使杜门艮八的原表字段；不能据一般阴宅条文就冒称作者在这例明确用了某个未写用神。",
+            "citations": [
+              "chart",
+              "context",
+              "geo",
+              "building"
+            ],
+            "uncertainties": [
+              "原文未提供的现场测量、地磁生物场数据或完整推导均不补造；传统判断不是物理测量结论。"
+            ]
+          },
+          "facts": [
+            [
+              1,
+              "star"
+            ],
+            [
+              8,
+              "door"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-ffcf8ceeaea726616459298cde17fba3486bb0a1ed3e81cf74efa969a1360b65",
+              "source_id": "span-77ac0cbac0dece8ec8624adb414781c38d564ecd2af9f2dc22b727e8de0f0a51",
+              "sha256": "e381c03ed66280c013ff54e511bbd8958e4549954028b835d39b3834d92eef77",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-c68041129e5037358028a8d2d97224c52411fdf0d0f86a858d7d8ddd5159e6d7",
+              "source_id": "span-859ecd5c13d73f09d791b05e9e442f8a23fc53dd1323db3f34a0233a87f5b20b",
+              "sha256": "9038b5306978416f2174fd9d066e1df8fc8c42ddb53e1fa6729102e7e4311741",
+              "sequence": 6
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "源文只有“地理很好但不能用、已被前辈高人……”的断语，未展开具体符号和比较步骤。应说明材料不足以复原完整推理，不补造占地者身份、仪式或物理机制；对方后来惊讶佩服也不是独立测量或完整验证。另一个癸山丁向考题未供盘，不克隆本盘。",
+            "citations": [
+              "chart",
+              "context",
+              "geo",
+              "building"
+            ],
+            "uncertainties": [
+              "原文未提供的现场测量、地磁生物场数据或完整推导均不补造；传统判断不是物理测量结论。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-aef7e114a1920df5a02b7804bb64610c6ef4af39c502716dd5c784fdcf28efe5",
+      "event_id": "event-072ee812b228fa34b3333e350fa176dfb4865202eb29cf00900606ff75b5f97c",
+      "family_id": "family-8e1af827ce5370de4874d9ac50ea0be099e52c06e434abf3175a1a1ee914249c",
+      "chart_id": "chart-893d9128b9889d3159912f52b51e92f8450551d770e0a218e05f75545568fc7c",
+      "chapter": "20-geography-environment",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    }
+  ]
+}

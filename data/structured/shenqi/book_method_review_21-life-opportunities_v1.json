@@ -1,0 +1,3694 @@
+{
+  "schema": "book-method-semantic-review-v1",
+  "source_data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "reviewed_by": "Codex source-grounded semantic curation",
+  "rows": [
+    {
+      "case": 1,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known_source_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known": [
+        {
+          "record_id": "record-e4a89b28e5abc91b261a12692ea97b0f00ac4a452d06d03a39b1c5feb557873f",
+          "source_id": "span-dc8f288a8b66e3f5f77514c0c155842f8c9558b6961892d1d7ac6825f767b7ef",
+          "sha256": "d311a2515ac8667e3735d1a96e2a3535edf2efff93543829ed5aef7dc4d6bc01",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-f98bd5776092b799d37012c7d1b8403cf655397279f851c1f4147e6cd33d3970",
+          "source_id": "span-b3b4d4431b4bb84729fad0d682a4f211dcdbf0c6e9cf1b902dd2bf8b86af1ff0",
+          "sha256": "36c694bafc89d99d71ac992237588435eb3342f2700dcb4a826ef8f2f3d10300",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-6fc88dbd03f0c72b638843ee1f40245c051da6de372a4ce2830b58262b8c0231",
+          "source_id": "span-137999ee4eed4691cbefacdbc65c0bedce9c6c4a6f0a633830f2ca0fd828c580",
+          "sha256": "1a560e0b7ecd129129851ea8e9eee0997b917728b53d746537825b8d9b099fc4",
+          "sequence": 2
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "life": "一般以日干落宫为本人，在家庭，以年干为父母，以月干为兄弟姐妹，以时干为子女",
+        "recent": "凡预测一个人近期机遇和行运，可以通过问测时间的奇门格局进行分析",
+        "limits": "对古人的经验，只可参考，不能拘泥"
+      },
+      "provided_roles": [
+        "本人日干，家庭与社会角色按本轮问题选择，不由年龄替代人物关系"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-2e79cba17d4bdbbea625becf6188c5ef8e13e81cb6a3df1eae3f75f118c745e8",
+              "source_id": "span-776ec3f413f47fd6b05d92e156ed28783b084e37066507e48248eeac5712f64e",
+              "sha256": "1d05aa158e49c492d06cb85232fd09ff187b4db8805cab1efeafeaa3a1804141",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-c0c4599f5fa4e998617d448bd6a55c2184d7ea3b3bd25eb64f024ccef85ff15e",
+              "source_id": "span-4eae61d2dcf3d10a92cc4ad1e02f48996aa082c2f2a9ab7bf397b96405f99199",
+              "sha256": "93e6c11bf19af9cedeb5dead9c17447f5a8d92773f8cabc8a15613f1bd3b1ce2",
+              "sequence": 4
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "本人问近况按问时盘取日乙，时辛事项；源中五不遇与反吟作近期背景，但不能仅凭它们就忽略本人旺相与吉格。家庭六亲还未逐项问，不预先当作已经获知事实。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ],
+            "bindings": [
+              {
+                "role": "洪先生、事项",
+                "symbol": "日干乙、时干辛",
+                "condition": "本人问近期机遇的问时盘"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-2e79cba17d4bdbbea625becf6188c5ef8e13e81cb6a3df1eae3f75f118c745e8",
+              "source_id": "span-776ec3f413f47fd6b05d92e156ed28783b084e37066507e48248eeac5712f64e",
+              "sha256": "1d05aa158e49c492d06cb85232fd09ff187b4db8805cab1efeafeaa3a1804141",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-c0c4599f5fa4e998617d448bd6a55c2184d7ea3b3bd25eb64f024ccef85ff15e",
+              "source_id": "span-4eae61d2dcf3d10a92cc4ad1e02f48996aa082c2f2a9ab7bf397b96405f99199",
+              "sha256": "93e6c11bf19af9cedeb5dead9c17447f5a8d92773f8cabc8a15613f1bd3b1ce2",
+              "sequence": 4
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "日乙艮八天心死门白虎、时辛乾六照源；本人能力吉象与临死门不快不是同一个字面字段。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ]
+          },
+          "facts": [
+            [
+              8,
+              "heaven_stem"
+            ],
+            [
+              8,
+              "star"
+            ],
+            [
+              8,
+              "door"
+            ],
+            [
+              8,
+              "deity"
+            ],
+            [
+              6,
+              "heaven_stem"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-2e79cba17d4bdbbea625becf6188c5ef8e13e81cb6a3df1eae3f75f118c745e8",
+              "source_id": "span-776ec3f413f47fd6b05d92e156ed28783b084e37066507e48248eeac5712f64e",
+              "sha256": "1d05aa158e49c492d06cb85232fd09ff187b4db8805cab1efeafeaa3a1804141",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-c0c4599f5fa4e998617d448bd6a55c2184d7ea3b3bd25eb64f024ccef85ff15e",
+              "source_id": "span-4eae61d2dcf3d10a92cc4ad1e02f48996aa082c2f2a9ab7bf397b96405f99199",
+              "sha256": "93e6c11bf19af9cedeb5dead9c17447f5a8d92773f8cabc8a15613f1bd3b1ce2",
+              "sequence": 4
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-2e79cba17d4bdbbea625becf6188c5ef8e13e81cb6a3df1eae3f75f118c745e8",
+              "source_id": "span-776ec3f413f47fd6b05d92e156ed28783b084e37066507e48248eeac5712f64e",
+              "sha256": "1d05aa158e49c492d06cb85232fd09ff187b4db8805cab1efeafeaa3a1804141",
+              "sequence": 3,
+              "quote": "时干辛克日干乙，为五不遇时"
+            },
+            {
+              "record_id": "record-2e79cba17d4bdbbea625becf6188c5ef8e13e81cb6a3df1eae3f75f118c745e8",
+              "source_id": "span-776ec3f413f47fd6b05d92e156ed28783b084e37066507e48248eeac5712f64e",
+              "sha256": "1d05aa158e49c492d06cb85232fd09ff187b4db8805cab1efeafeaa3a1804141",
+              "sequence": 3,
+              "quote": "八门反吟"
+            },
+            {
+              "record_id": "record-c0c4599f5fa4e998617d448bd6a55c2184d7ea3b3bd25eb64f024ccef85ff15e",
+              "source_id": "span-4eae61d2dcf3d10a92cc4ad1e02f48996aa082c2f2a9ab7bf397b96405f99199",
+              "sha256": "93e6c11bf19af9cedeb5dead9c17447f5a8d92773f8cabc8a15613f1bd3b1ce2",
+              "sequence": 4,
+              "quote": "日干乙为本人，落艮8宫为帝旺"
+            },
+            {
+              "record_id": "record-c0c4599f5fa4e998617d448bd6a55c2184d7ea3b3bd25eb64f024ccef85ff15e",
+              "source_id": "span-4eae61d2dcf3d10a92cc4ad1e02f48996aa082c2f2a9ab7bf397b96405f99199",
+              "sha256": "93e6c11bf19af9cedeb5dead9c17447f5a8d92773f8cabc8a15613f1bd3b1ce2",
+              "sequence": 4,
+              "quote": "乙+丁为奇仪相佐吉格，临天心吉星"
+            }
+          ],
+          "answer": {
+            "explanation": "作者同时看五不遇反吟不顺和日乙帝旺、乙丁吉格天心等，提出事业上升、有文书宣传工作与副职倾向。求测背景已说来学习奇门，不能把识别他来学奇门当盲断；具体宣传部副部长是下一轮才确认的职位。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-01c8e6298f0608f7acb72af2731bd791f0b0e2fd1c846705e17e8fe6aa234aee",
+      "event_id": "event-ae49ea8ddb11be63617af0292654aac48a025eea25d6b4dbe6c3cc2809ba4c28",
+      "family_id": "family-aedc1d8abdd4a82ef02e83c3e7d49e68b0407d9cf512d4407115f3d2ab2997e7",
+      "chart_id": "chart-5b1f759c6715255abdd1995e618e357b69304183d04ff0a35c21e617e6443f14",
+      "chapter": "21-life-opportunities",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 1,
+      "stage": "concealed_study",
+      "mode": "continuation",
+      "source_prediction_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known_source_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known": [
+        {
+          "record_id": "record-e4a89b28e5abc91b261a12692ea97b0f00ac4a452d06d03a39b1c5feb557873f",
+          "source_id": "span-dc8f288a8b66e3f5f77514c0c155842f8c9558b6961892d1d7ac6825f767b7ef",
+          "sha256": "d311a2515ac8667e3735d1a96e2a3535edf2efff93543829ed5aef7dc4d6bc01",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-f98bd5776092b799d37012c7d1b8403cf655397279f851c1f4147e6cd33d3970",
+          "source_id": "span-b3b4d4431b4bb84729fad0d682a4f211dcdbf0c6e9cf1b902dd2bf8b86af1ff0",
+          "sha256": "36c694bafc89d99d71ac992237588435eb3342f2700dcb4a826ef8f2f3d10300",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-6fc88dbd03f0c72b638843ee1f40245c051da6de372a4ce2830b58262b8c0231",
+          "source_id": "span-137999ee4eed4691cbefacdbc65c0bedce9c6c4a6f0a633830f2ca0fd828c580",
+          "sha256": "1a560e0b7ecd129129851ea8e9eee0997b917728b53d746537825b8d9b099fc4",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-2e79cba17d4bdbbea625becf6188c5ef8e13e81cb6a3df1eae3f75f118c745e8",
+          "source_id": "span-776ec3f413f47fd6b05d92e156ed28783b084e37066507e48248eeac5712f64e",
+          "sha256": "1d05aa158e49c492d06cb85232fd09ff187b4db8805cab1efeafeaa3a1804141",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-c0c4599f5fa4e998617d448bd6a55c2184d7ea3b3bd25eb64f024ccef85ff15e",
+          "source_id": "span-4eae61d2dcf3d10a92cc4ad1e02f48996aa082c2f2a9ab7bf397b96405f99199",
+          "sha256": "93e6c11bf19af9cedeb5dead9c17447f5a8d92773f8cabc8a15613f1bd3b1ce2",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-66d6a557b64b9871c1381715915baa3ea58dd0077ed5f6a555ccae724d8174d1",
+          "source_id": "span-9c992b85f466d0bfdada1cda9bc870327864909bcf2abff01830f2b6b54425fd",
+          "sha256": "f6e1b555decec3eb977b88e114a35943c5ef610790a0b3b106bea9e5266cf767",
+          "sequence": 5
+        }
+      ],
+      "cutoff": 6,
+      "rules": {
+        "life": "一般以日干落宫为本人，在家庭，以年干为父母，以月干为兄弟姐妹，以时干为子女",
+        "recent": "凡预测一个人近期机遇和行运，可以通过问测时间的奇门格局进行分析",
+        "limits": "对古人的经验，只可参考，不能拘泥"
+      },
+      "provided_roles": [
+        "本人日干，家庭与社会角色按本轮问题选择，不由年龄替代人物关系"
+      ],
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-974b755fa9e47b8c52ac7d665f30efd4d222a33d630a97d24e26ad3ad9a9e87b",
+              "source_id": "span-9e0af80a7d0167ed4e0b3c0d1319f59d5ef2d5e9398ec638863c20f233ab8f78",
+              "sha256": "a31088f72a7ce8a2b581ad5c13c0f3bf9c94c6953fc88eca35b5c072ee2c9b90",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-4abd524f36c1ddbf6bf8ed494c9e6ac3ecfbf8df61ff75ad7c599dfa1ecb1eea",
+              "source_id": "span-0740973fa9b737eb41dc57f14abd992a71a1142656f476f6331e0d329d48e905",
+              "sha256": "3b0b10c913704cbe36968e0de1af75d2b4dfbf88c64f1dab365ea3878dad5a8d",
+              "sequence": 7
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-974b755fa9e47b8c52ac7d665f30efd4d222a33d630a97d24e26ad3ad9a9e87b",
+              "source_id": "span-9e0af80a7d0167ed4e0b3c0d1319f59d5ef2d5e9398ec638863c20f233ab8f78",
+              "sha256": "a31088f72a7ce8a2b581ad5c13c0f3bf9c94c6953fc88eca35b5c072ee2c9b90",
+              "sequence": 6,
+              "quote": "地盘日干在乾6宫"
+            },
+            {
+              "record_id": "record-974b755fa9e47b8c52ac7d665f30efd4d222a33d630a97d24e26ad3ad9a9e87b",
+              "source_id": "span-9e0af80a7d0167ed4e0b3c0d1319f59d5ef2d5e9398ec638863c20f233ab8f78",
+              "sha256": "a31088f72a7ce8a2b581ad5c13c0f3bf9c94c6953fc88eca35b5c072ee2c9b90",
+              "sequence": 6,
+              "quote": "上乘天芮星，天芮星为病星，又为学艺之人，临杜门"
+            }
+          ],
+          "answer": {
+            "explanation": "职位已确认后，作者沿原盘用地乙乾六墓、病星与杜门的保密躲藏象，追问是否以看病为名瞒领导来学奇门。具体请假理由尚未给出，不能作为初次职业判断输入。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-01c8e6298f0608f7acb72af2731bd791f0b0e2fd1c846705e17e8fe6aa234aee",
+      "event_id": "event-ae49ea8ddb11be63617af0292654aac48a025eea25d6b4dbe6c3cc2809ba4c28",
+      "family_id": "family-aedc1d8abdd4a82ef02e83c3e7d49e68b0407d9cf512d4407115f3d2ab2997e7",
+      "chart_id": "chart-5b1f759c6715255abdd1995e618e357b69304183d04ff0a35c21e617e6443f14",
+      "chapter": "21-life-opportunities",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 1,
+      "stage": "father",
+      "mode": "continuation",
+      "source_prediction_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known_source_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known": [
+        {
+          "record_id": "record-e4a89b28e5abc91b261a12692ea97b0f00ac4a452d06d03a39b1c5feb557873f",
+          "source_id": "span-dc8f288a8b66e3f5f77514c0c155842f8c9558b6961892d1d7ac6825f767b7ef",
+          "sha256": "d311a2515ac8667e3735d1a96e2a3535edf2efff93543829ed5aef7dc4d6bc01",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-f98bd5776092b799d37012c7d1b8403cf655397279f851c1f4147e6cd33d3970",
+          "source_id": "span-b3b4d4431b4bb84729fad0d682a4f211dcdbf0c6e9cf1b902dd2bf8b86af1ff0",
+          "sha256": "36c694bafc89d99d71ac992237588435eb3342f2700dcb4a826ef8f2f3d10300",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-6fc88dbd03f0c72b638843ee1f40245c051da6de372a4ce2830b58262b8c0231",
+          "source_id": "span-137999ee4eed4691cbefacdbc65c0bedce9c6c4a6f0a633830f2ca0fd828c580",
+          "sha256": "1a560e0b7ecd129129851ea8e9eee0997b917728b53d746537825b8d9b099fc4",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-2e79cba17d4bdbbea625becf6188c5ef8e13e81cb6a3df1eae3f75f118c745e8",
+          "source_id": "span-776ec3f413f47fd6b05d92e156ed28783b084e37066507e48248eeac5712f64e",
+          "sha256": "1d05aa158e49c492d06cb85232fd09ff187b4db8805cab1efeafeaa3a1804141",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-c0c4599f5fa4e998617d448bd6a55c2184d7ea3b3bd25eb64f024ccef85ff15e",
+          "source_id": "span-4eae61d2dcf3d10a92cc4ad1e02f48996aa082c2f2a9ab7bf397b96405f99199",
+          "sha256": "93e6c11bf19af9cedeb5dead9c17447f5a8d92773f8cabc8a15613f1bd3b1ce2",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-66d6a557b64b9871c1381715915baa3ea58dd0077ed5f6a555ccae724d8174d1",
+          "source_id": "span-9c992b85f466d0bfdada1cda9bc870327864909bcf2abff01830f2b6b54425fd",
+          "sha256": "f6e1b555decec3eb977b88e114a35943c5ef610790a0b3b106bea9e5266cf767",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-974b755fa9e47b8c52ac7d665f30efd4d222a33d630a97d24e26ad3ad9a9e87b",
+          "source_id": "span-9e0af80a7d0167ed4e0b3c0d1319f59d5ef2d5e9398ec638863c20f233ab8f78",
+          "sha256": "a31088f72a7ce8a2b581ad5c13c0f3bf9c94c6953fc88eca35b5c072ee2c9b90",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-4abd524f36c1ddbf6bf8ed494c9e6ac3ecfbf8df61ff75ad7c599dfa1ecb1eea",
+          "source_id": "span-0740973fa9b737eb41dc57f14abd992a71a1142656f476f6331e0d329d48e905",
+          "sha256": "3b0b10c913704cbe36968e0de1af75d2b4dfbf88c64f1dab365ea3878dad5a8d",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-8468076b5058164feddb7b4dbce4e5978d8daa5286adf5b2be34a315b3a5e72b",
+          "source_id": "span-4ed1d19a22282d4b18650e6213197111e7212b310fe86a5f9312684b2396bb00",
+          "sha256": "576b150cd9d7dbd9a56e7036c4a2c93f67a7e2efee95b388152f27d8e76d9fdd",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-2043ba9b1f000dcab39ddab8e5affbdb10fd0c8017a578a590d9e74584d577ec",
+          "source_id": "span-a8db41a136a859de361e67a78224d95252cb110beb0786c363cde7dc62d7aa92",
+          "sha256": "b6678fa581d3f031f8a5da07769caea28a8f903440ed9d40911ef1d56eaf5f44",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-6be6865cf2c444d0d77c0363dc07baa6f2b531622e9c54aab5ca759e4743e6d3",
+          "source_id": "span-2a747c6e1f6e08f6a2eb989890446a022c70f5faeab0be2fc2cf4cb8269548b2",
+          "sha256": "be20907cd710ce78d5098d0f2573e39b104a317e7faac3d0808e437d31d2bed8",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-553ac11ffc35ce8c14891a2f3ece3cd3cae96e5453533af4533ddbcf5b8fe8bd",
+          "source_id": "span-2807cf23de0cb963584235248e90253e80ef753f535d8ab02d69f980b2e520cb",
+          "sha256": "546bca1868fd65e68c493c5fe7f0170a42d779951d91c6acd32eb6b27c60587e",
+          "sequence": 11
+        }
+      ],
+      "cutoff": 12,
+      "rules": {
+        "life": "一般以日干落宫为本人，在家庭，以年干为父母，以月干为兄弟姐妹，以时干为子女",
+        "recent": "凡预测一个人近期机遇和行运，可以通过问测时间的奇门格局进行分析",
+        "limits": "对古人的经验，只可参考，不能拘泥"
+      },
+      "provided_roles": [
+        "本人日干，家庭与社会角色按本轮问题选择，不由年龄替代人物关系"
+      ],
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-8693c96e89aa9caea94cf1d52ab2d0e29ffa9d023313dd56c3a294d7179f6c21",
+              "source_id": "span-2cd5979486f52f43e7a79ae305d992538c5df1d2e2a275be0b4868b3c3fad071",
+              "sha256": "50256e54e7440c96f6209562d686cca3463d84a0fde52d067f3b67c15ce6a3a2",
+              "sequence": 12
+            },
+            {
+              "record_id": "record-eefcc300c55f513d2078679cae8b971a4108023fcc0c8e9a0b68e6f03561fd9f",
+              "source_id": "span-95e8f58acc028695067ddbf9ed002e2295e04696c37338645c5e6ccd51b2e533",
+              "sha256": "e4a158b1e5c091b0925021e4c126774e86bb90621de0dd00be8e49ef8b84d04a",
+              "sequence": 13
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-8693c96e89aa9caea94cf1d52ab2d0e29ffa9d023313dd56c3a294d7179f6c21",
+              "source_id": "span-2cd5979486f52f43e7a79ae305d992538c5df1d2e2a275be0b4868b3c3fad071",
+              "sha256": "50256e54e7440c96f6209562d686cca3463d84a0fde52d067f3b67c15ce6a3a2",
+              "sequence": 12,
+              "quote": "年干为父母，年干丙为阳为父，落坎1宫"
+            }
+          ],
+          "answer": {
+            "explanation": "已确认本人病伤后，作者转换到父亲角色，年干丙阳作父，落坎水、破军与景门受制，提出父亲可能已故。1984这一实际年份尚未告知，不能提前列为本轮已知或自称原断了十二年前。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-01c8e6298f0608f7acb72af2731bd791f0b0e2fd1c846705e17e8fe6aa234aee",
+      "event_id": "event-ae49ea8ddb11be63617af0292654aac48a025eea25d6b4dbe6c3cc2809ba4c28",
+      "family_id": "family-aedc1d8abdd4a82ef02e83c3e7d49e68b0407d9cf512d4407115f3d2ab2997e7",
+      "chart_id": "chart-5b1f759c6715255abdd1995e618e357b69304183d04ff0a35c21e617e6443f14",
+      "chapter": "21-life-opportunities",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 1,
+      "stage": "mother",
+      "mode": "continuation",
+      "source_prediction_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known_source_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known": [
+        {
+          "record_id": "record-e4a89b28e5abc91b261a12692ea97b0f00ac4a452d06d03a39b1c5feb557873f",
+          "source_id": "span-dc8f288a8b66e3f5f77514c0c155842f8c9558b6961892d1d7ac6825f767b7ef",
+          "sha256": "d311a2515ac8667e3735d1a96e2a3535edf2efff93543829ed5aef7dc4d6bc01",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-f98bd5776092b799d37012c7d1b8403cf655397279f851c1f4147e6cd33d3970",
+          "source_id": "span-b3b4d4431b4bb84729fad0d682a4f211dcdbf0c6e9cf1b902dd2bf8b86af1ff0",
+          "sha256": "36c694bafc89d99d71ac992237588435eb3342f2700dcb4a826ef8f2f3d10300",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-6fc88dbd03f0c72b638843ee1f40245c051da6de372a4ce2830b58262b8c0231",
+          "source_id": "span-137999ee4eed4691cbefacdbc65c0bedce9c6c4a6f0a633830f2ca0fd828c580",
+          "sha256": "1a560e0b7ecd129129851ea8e9eee0997b917728b53d746537825b8d9b099fc4",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-2e79cba17d4bdbbea625becf6188c5ef8e13e81cb6a3df1eae3f75f118c745e8",
+          "source_id": "span-776ec3f413f47fd6b05d92e156ed28783b084e37066507e48248eeac5712f64e",
+          "sha256": "1d05aa158e49c492d06cb85232fd09ff187b4db8805cab1efeafeaa3a1804141",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-c0c4599f5fa4e998617d448bd6a55c2184d7ea3b3bd25eb64f024ccef85ff15e",
+          "source_id": "span-4eae61d2dcf3d10a92cc4ad1e02f48996aa082c2f2a9ab7bf397b96405f99199",
+          "sha256": "93e6c11bf19af9cedeb5dead9c17447f5a8d92773f8cabc8a15613f1bd3b1ce2",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-66d6a557b64b9871c1381715915baa3ea58dd0077ed5f6a555ccae724d8174d1",
+          "source_id": "span-9c992b85f466d0bfdada1cda9bc870327864909bcf2abff01830f2b6b54425fd",
+          "sha256": "f6e1b555decec3eb977b88e114a35943c5ef610790a0b3b106bea9e5266cf767",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-974b755fa9e47b8c52ac7d665f30efd4d222a33d630a97d24e26ad3ad9a9e87b",
+          "source_id": "span-9e0af80a7d0167ed4e0b3c0d1319f59d5ef2d5e9398ec638863c20f233ab8f78",
+          "sha256": "a31088f72a7ce8a2b581ad5c13c0f3bf9c94c6953fc88eca35b5c072ee2c9b90",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-4abd524f36c1ddbf6bf8ed494c9e6ac3ecfbf8df61ff75ad7c599dfa1ecb1eea",
+          "source_id": "span-0740973fa9b737eb41dc57f14abd992a71a1142656f476f6331e0d329d48e905",
+          "sha256": "3b0b10c913704cbe36968e0de1af75d2b4dfbf88c64f1dab365ea3878dad5a8d",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-8468076b5058164feddb7b4dbce4e5978d8daa5286adf5b2be34a315b3a5e72b",
+          "source_id": "span-4ed1d19a22282d4b18650e6213197111e7212b310fe86a5f9312684b2396bb00",
+          "sha256": "576b150cd9d7dbd9a56e7036c4a2c93f67a7e2efee95b388152f27d8e76d9fdd",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-2043ba9b1f000dcab39ddab8e5affbdb10fd0c8017a578a590d9e74584d577ec",
+          "source_id": "span-a8db41a136a859de361e67a78224d95252cb110beb0786c363cde7dc62d7aa92",
+          "sha256": "b6678fa581d3f031f8a5da07769caea28a8f903440ed9d40911ef1d56eaf5f44",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-6be6865cf2c444d0d77c0363dc07baa6f2b531622e9c54aab5ca759e4743e6d3",
+          "source_id": "span-2a747c6e1f6e08f6a2eb989890446a022c70f5faeab0be2fc2cf4cb8269548b2",
+          "sha256": "be20907cd710ce78d5098d0f2573e39b104a317e7faac3d0808e437d31d2bed8",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-553ac11ffc35ce8c14891a2f3ece3cd3cae96e5453533af4533ddbcf5b8fe8bd",
+          "source_id": "span-2807cf23de0cb963584235248e90253e80ef753f535d8ab02d69f980b2e520cb",
+          "sha256": "546bca1868fd65e68c493c5fe7f0170a42d779951d91c6acd32eb6b27c60587e",
+          "sequence": 11
+        },
+        {
+          "record_id": "record-8693c96e89aa9caea94cf1d52ab2d0e29ffa9d023313dd56c3a294d7179f6c21",
+          "source_id": "span-2cd5979486f52f43e7a79ae305d992538c5df1d2e2a275be0b4868b3c3fad071",
+          "sha256": "50256e54e7440c96f6209562d686cca3463d84a0fde52d067f3b67c15ce6a3a2",
+          "sequence": 12
+        },
+        {
+          "record_id": "record-eefcc300c55f513d2078679cae8b971a4108023fcc0c8e9a0b68e6f03561fd9f",
+          "source_id": "span-95e8f58acc028695067ddbf9ed002e2295e04696c37338645c5e6ccd51b2e533",
+          "sha256": "e4a158b1e5c091b0925021e4c126774e86bb90621de0dd00be8e49ef8b84d04a",
+          "sequence": 13
+        },
+        {
+          "record_id": "record-e59e4f1f924f17ed59a66cf53ab58d853c1f76816f2780cbf9d0778a0b6583a7",
+          "source_id": "span-2612e5d3ae12a8a0c9ffd4886da0c8b8e0f374afccc226c0fee7aa695a1a0cc6",
+          "sha256": "ef7af125c50386d1a9af50b7e6bbb8b4670677b43e5b830c7637212341934db2",
+          "sequence": 14
+        }
+      ],
+      "cutoff": 15,
+      "rules": {
+        "life": "一般以日干落宫为本人，在家庭，以年干为父母，以月干为兄弟姐妹，以时干为子女",
+        "recent": "凡预测一个人近期机遇和行运，可以通过问测时间的奇门格局进行分析",
+        "limits": "对古人的经验，只可参考，不能拘泥"
+      },
+      "provided_roles": [
+        "本人日干，家庭与社会角色按本轮问题选择，不由年龄替代人物关系"
+      ],
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-49dfe0488b69ec2242d0309d480924d99d97acee37cfb885a306188d88814bcc",
+              "source_id": "span-b5da1c7da19d1531765226d71fe32cd7ff6df8200a32dfad5484f6362b1bc1fc",
+              "sha256": "21ee37b854260d4deaa8f29749c2a4b426475ac6dcf08f7743c64e897b69a518",
+              "sequence": 15
+            },
+            {
+              "record_id": "record-2126a2b93f3fa0501cf2ee8db958c1613d8b3a16a9728b53b7ff6485811c3e3a",
+              "source_id": "span-3d9ca0da7a8f2ab3de257ad820e7eddea1057d46dea6f954cf0912611ef55fbe",
+              "sha256": "7458d707b403d28a9fb6edfd042702b880a6d3b560f5e6f5b985564c235aa9ff",
+              "sequence": 16
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-49dfe0488b69ec2242d0309d480924d99d97acee37cfb885a306188d88814bcc",
+              "source_id": "span-b5da1c7da19d1531765226d71fe32cd7ff6df8200a32dfad5484f6362b1bc1fc",
+              "sha256": "21ee37b854260d4deaa8f29749c2a4b426475ac6dcf08f7743c64e897b69a518",
+              "sequence": 15,
+              "quote": "丙辛合，辛为其母，辛落乾6宫，临天芮病星"
+            }
+          ],
+          "answer": {
+            "explanation": "父亲丙已确定后，按丙辛合取辛作其妻即母亲，再看辛乾六病星提出母尚在而身体不佳。这个母亲绑定来自相合关系，不是把本人时辛事项或同辈月干混为母亲。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-01c8e6298f0608f7acb72af2731bd791f0b0e2fd1c846705e17e8fe6aa234aee",
+      "event_id": "event-ae49ea8ddb11be63617af0292654aac48a025eea25d6b4dbe6c3cc2809ba4c28",
+      "family_id": "family-aedc1d8abdd4a82ef02e83c3e7d49e68b0407d9cf512d4407115f3d2ab2997e7",
+      "chart_id": "chart-5b1f759c6715255abdd1995e618e357b69304183d04ff0a35c21e617e6443f14",
+      "chapter": "21-life-opportunities",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 1,
+      "stage": "siblings_and_mother",
+      "mode": "continuation",
+      "source_prediction_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known_source_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known": [
+        {
+          "record_id": "record-e4a89b28e5abc91b261a12692ea97b0f00ac4a452d06d03a39b1c5feb557873f",
+          "source_id": "span-dc8f288a8b66e3f5f77514c0c155842f8c9558b6961892d1d7ac6825f767b7ef",
+          "sha256": "d311a2515ac8667e3735d1a96e2a3535edf2efff93543829ed5aef7dc4d6bc01",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-f98bd5776092b799d37012c7d1b8403cf655397279f851c1f4147e6cd33d3970",
+          "source_id": "span-b3b4d4431b4bb84729fad0d682a4f211dcdbf0c6e9cf1b902dd2bf8b86af1ff0",
+          "sha256": "36c694bafc89d99d71ac992237588435eb3342f2700dcb4a826ef8f2f3d10300",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-6fc88dbd03f0c72b638843ee1f40245c051da6de372a4ce2830b58262b8c0231",
+          "source_id": "span-137999ee4eed4691cbefacdbc65c0bedce9c6c4a6f0a633830f2ca0fd828c580",
+          "sha256": "1a560e0b7ecd129129851ea8e9eee0997b917728b53d746537825b8d9b099fc4",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-2e79cba17d4bdbbea625becf6188c5ef8e13e81cb6a3df1eae3f75f118c745e8",
+          "source_id": "span-776ec3f413f47fd6b05d92e156ed28783b084e37066507e48248eeac5712f64e",
+          "sha256": "1d05aa158e49c492d06cb85232fd09ff187b4db8805cab1efeafeaa3a1804141",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-c0c4599f5fa4e998617d448bd6a55c2184d7ea3b3bd25eb64f024ccef85ff15e",
+          "source_id": "span-4eae61d2dcf3d10a92cc4ad1e02f48996aa082c2f2a9ab7bf397b96405f99199",
+          "sha256": "93e6c11bf19af9cedeb5dead9c17447f5a8d92773f8cabc8a15613f1bd3b1ce2",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-66d6a557b64b9871c1381715915baa3ea58dd0077ed5f6a555ccae724d8174d1",
+          "source_id": "span-9c992b85f466d0bfdada1cda9bc870327864909bcf2abff01830f2b6b54425fd",
+          "sha256": "f6e1b555decec3eb977b88e114a35943c5ef610790a0b3b106bea9e5266cf767",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-974b755fa9e47b8c52ac7d665f30efd4d222a33d630a97d24e26ad3ad9a9e87b",
+          "source_id": "span-9e0af80a7d0167ed4e0b3c0d1319f59d5ef2d5e9398ec638863c20f233ab8f78",
+          "sha256": "a31088f72a7ce8a2b581ad5c13c0f3bf9c94c6953fc88eca35b5c072ee2c9b90",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-4abd524f36c1ddbf6bf8ed494c9e6ac3ecfbf8df61ff75ad7c599dfa1ecb1eea",
+          "source_id": "span-0740973fa9b737eb41dc57f14abd992a71a1142656f476f6331e0d329d48e905",
+          "sha256": "3b0b10c913704cbe36968e0de1af75d2b4dfbf88c64f1dab365ea3878dad5a8d",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-8468076b5058164feddb7b4dbce4e5978d8daa5286adf5b2be34a315b3a5e72b",
+          "source_id": "span-4ed1d19a22282d4b18650e6213197111e7212b310fe86a5f9312684b2396bb00",
+          "sha256": "576b150cd9d7dbd9a56e7036c4a2c93f67a7e2efee95b388152f27d8e76d9fdd",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-2043ba9b1f000dcab39ddab8e5affbdb10fd0c8017a578a590d9e74584d577ec",
+          "source_id": "span-a8db41a136a859de361e67a78224d95252cb110beb0786c363cde7dc62d7aa92",
+          "sha256": "b6678fa581d3f031f8a5da07769caea28a8f903440ed9d40911ef1d56eaf5f44",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-6be6865cf2c444d0d77c0363dc07baa6f2b531622e9c54aab5ca759e4743e6d3",
+          "source_id": "span-2a747c6e1f6e08f6a2eb989890446a022c70f5faeab0be2fc2cf4cb8269548b2",
+          "sha256": "be20907cd710ce78d5098d0f2573e39b104a317e7faac3d0808e437d31d2bed8",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-553ac11ffc35ce8c14891a2f3ece3cd3cae96e5453533af4533ddbcf5b8fe8bd",
+          "source_id": "span-2807cf23de0cb963584235248e90253e80ef753f535d8ab02d69f980b2e520cb",
+          "sha256": "546bca1868fd65e68c493c5fe7f0170a42d779951d91c6acd32eb6b27c60587e",
+          "sequence": 11
+        },
+        {
+          "record_id": "record-8693c96e89aa9caea94cf1d52ab2d0e29ffa9d023313dd56c3a294d7179f6c21",
+          "source_id": "span-2cd5979486f52f43e7a79ae305d992538c5df1d2e2a275be0b4868b3c3fad071",
+          "sha256": "50256e54e7440c96f6209562d686cca3463d84a0fde52d067f3b67c15ce6a3a2",
+          "sequence": 12
+        },
+        {
+          "record_id": "record-eefcc300c55f513d2078679cae8b971a4108023fcc0c8e9a0b68e6f03561fd9f",
+          "source_id": "span-95e8f58acc028695067ddbf9ed002e2295e04696c37338645c5e6ccd51b2e533",
+          "sha256": "e4a158b1e5c091b0925021e4c126774e86bb90621de0dd00be8e49ef8b84d04a",
+          "sequence": 13
+        },
+        {
+          "record_id": "record-e59e4f1f924f17ed59a66cf53ab58d853c1f76816f2780cbf9d0778a0b6583a7",
+          "source_id": "span-2612e5d3ae12a8a0c9ffd4886da0c8b8e0f374afccc226c0fee7aa695a1a0cc6",
+          "sha256": "ef7af125c50386d1a9af50b7e6bbb8b4670677b43e5b830c7637212341934db2",
+          "sequence": 14
+        },
+        {
+          "record_id": "record-49dfe0488b69ec2242d0309d480924d99d97acee37cfb885a306188d88814bcc",
+          "source_id": "span-b5da1c7da19d1531765226d71fe32cd7ff6df8200a32dfad5484f6362b1bc1fc",
+          "sha256": "21ee37b854260d4deaa8f29749c2a4b426475ac6dcf08f7743c64e897b69a518",
+          "sequence": 15
+        },
+        {
+          "record_id": "record-2126a2b93f3fa0501cf2ee8db958c1613d8b3a16a9728b53b7ff6485811c3e3a",
+          "source_id": "span-3d9ca0da7a8f2ab3de257ad820e7eddea1057d46dea6f954cf0912611ef55fbe",
+          "sha256": "7458d707b403d28a9fb6edfd042702b880a6d3b560f5e6f5b985564c235aa9ff",
+          "sequence": 16
+        },
+        {
+          "record_id": "record-e1f509918e4dfb304b7608e6dff23b7f56f6e0aa4ea1e538159c328a29b99dbc",
+          "source_id": "span-097e843fcabc1d6fae0506788506abfdb187075915730dc9443fc6ac88ad57e5",
+          "sha256": "9c5c91b5705063202a7447c26da12195605a1cbacdbdc98eb49757464aef5051",
+          "sequence": 17
+        },
+        {
+          "record_id": "record-dc159ff6ac6dcb52a712191b8b388ed387c922caa40bfbe2bc5a4ccd4461796b",
+          "source_id": "span-2f9039f359f80c583a14042dc3419822376b42ec08d6a9037fd7fc953e3828ea",
+          "sha256": "cae5a4a705acfb359ba71aa3e2aff4287327436cb92ff3d0c65da270b28ca3d9",
+          "sequence": 18
+        },
+        {
+          "record_id": "record-a8db072bc5161675ec5d0a5c3c1199d096d24dfac2b48d4263d6679046c637ec",
+          "source_id": "span-592f4ed2fe532c39d78fc48fea926d9d3429f7cfacea6b3c15ff59ca689f3cb2",
+          "sha256": "0d94c1e6ad4d5d9a1724812448db74c230f07adbb7def68e8add33da5c99924b",
+          "sequence": 19
+        }
+      ],
+      "cutoff": 20,
+      "rules": {
+        "life": "一般以日干落宫为本人，在家庭，以年干为父母，以月干为兄弟姐妹，以时干为子女",
+        "recent": "凡预测一个人近期机遇和行运，可以通过问测时间的奇门格局进行分析",
+        "limits": "对古人的经验，只可参考，不能拘泥"
+      },
+      "provided_roles": [
+        "本人日干，家庭与社会角色按本轮问题选择，不由年龄替代人物关系"
+      ],
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-fde1f1ac1c7ec9f80921ae32f6897bfb1dddb7f57b7b3c7816590e5c057a3f63",
+              "source_id": "span-0959afcb74a6a47d0c4815c01e09477b61c0195ef33d79f6dd8bdd79e7e23ba0",
+              "sha256": "bcc646053c362b9136c289e4d2a397dc4382a17aca9577fd498b30c3b868753b",
+              "sequence": 20
+            },
+            {
+              "record_id": "record-792e61a960fa3b89aa8c71c8aaf7a23dc82a179f1ace18e3cfb9e112b820862c",
+              "source_id": "span-69beb224076767d3798f84f775c95bad5ae7a039da583249e5c0b16d9b97d800",
+              "sha256": "53ff3175e410c28bbd0d1a99ef0925c63c6625d2832c9b3c990bd8e36ef1e7f8",
+              "sequence": 21
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-fde1f1ac1c7ec9f80921ae32f6897bfb1dddb7f57b7b3c7816590e5c057a3f63",
+              "source_id": "span-0959afcb74a6a47d0c4815c01e09477b61c0195ef33d79f6dd8bdd79e7e23ba0",
+              "sha256": "bcc646053c362b9136c289e4d2a397dc4382a17aca9577fd498b30c3b868753b",
+              "sequence": 20,
+              "quote": "甲子戊为资本为钱财"
+            },
+            {
+              "record_id": "record-fde1f1ac1c7ec9f80921ae32f6897bfb1dddb7f57b7b3c7816590e5c057a3f63",
+              "source_id": "span-0959afcb74a6a47d0c4815c01e09477b61c0195ef33d79f6dd8bdd79e7e23ba0",
+              "sha256": "bcc646053c362b9136c289e4d2a397dc4382a17aca9577fd498b30c3b868753b",
+              "sequence": 20,
+              "quote": "戊+乙为青龙和会吉格"
+            },
+            {
+              "record_id": "record-fde1f1ac1c7ec9f80921ae32f6897bfb1dddb7f57b7b3c7816590e5c057a3f63",
+              "source_id": "span-0959afcb74a6a47d0c4815c01e09477b61c0195ef33d79f6dd8bdd79e7e23ba0",
+              "sha256": "bcc646053c362b9136c289e4d2a397dc4382a17aca9577fd498b30c3b868753b",
+              "sequence": 20,
+              "quote": "辛与戊同宫"
+            }
+          ],
+          "answer": {
+            "explanation": "兄弟姐妹人数反馈已知后，作者用月戊兼资本钱财及戊乙格、母辛与戊同宫，提出兄弟姐妹经商与母亲同住的倾向。月干兄弟和戊资本是两个视角；不能把前面六个左右与实际原七今五改写为精确人数全中。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-01c8e6298f0608f7acb72af2731bd791f0b0e2fd1c846705e17e8fe6aa234aee",
+      "event_id": "event-ae49ea8ddb11be63617af0292654aac48a025eea25d6b4dbe6c3cc2809ba4c28",
+      "family_id": "family-aedc1d8abdd4a82ef02e83c3e7d49e68b0407d9cf512d4407115f3d2ab2997e7",
+      "chart_id": "chart-5b1f759c6715255abdd1995e618e357b69304183d04ff0a35c21e617e6443f14",
+      "chapter": "21-life-opportunities",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 1,
+      "stage": "spouse",
+      "mode": "continuation",
+      "source_prediction_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known_source_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known": [
+        {
+          "record_id": "record-e4a89b28e5abc91b261a12692ea97b0f00ac4a452d06d03a39b1c5feb557873f",
+          "source_id": "span-dc8f288a8b66e3f5f77514c0c155842f8c9558b6961892d1d7ac6825f767b7ef",
+          "sha256": "d311a2515ac8667e3735d1a96e2a3535edf2efff93543829ed5aef7dc4d6bc01",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-f98bd5776092b799d37012c7d1b8403cf655397279f851c1f4147e6cd33d3970",
+          "source_id": "span-b3b4d4431b4bb84729fad0d682a4f211dcdbf0c6e9cf1b902dd2bf8b86af1ff0",
+          "sha256": "36c694bafc89d99d71ac992237588435eb3342f2700dcb4a826ef8f2f3d10300",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-6fc88dbd03f0c72b638843ee1f40245c051da6de372a4ce2830b58262b8c0231",
+          "source_id": "span-137999ee4eed4691cbefacdbc65c0bedce9c6c4a6f0a633830f2ca0fd828c580",
+          "sha256": "1a560e0b7ecd129129851ea8e9eee0997b917728b53d746537825b8d9b099fc4",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-2e79cba17d4bdbbea625becf6188c5ef8e13e81cb6a3df1eae3f75f118c745e8",
+          "source_id": "span-776ec3f413f47fd6b05d92e156ed28783b084e37066507e48248eeac5712f64e",
+          "sha256": "1d05aa158e49c492d06cb85232fd09ff187b4db8805cab1efeafeaa3a1804141",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-c0c4599f5fa4e998617d448bd6a55c2184d7ea3b3bd25eb64f024ccef85ff15e",
+          "source_id": "span-4eae61d2dcf3d10a92cc4ad1e02f48996aa082c2f2a9ab7bf397b96405f99199",
+          "sha256": "93e6c11bf19af9cedeb5dead9c17447f5a8d92773f8cabc8a15613f1bd3b1ce2",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-66d6a557b64b9871c1381715915baa3ea58dd0077ed5f6a555ccae724d8174d1",
+          "source_id": "span-9c992b85f466d0bfdada1cda9bc870327864909bcf2abff01830f2b6b54425fd",
+          "sha256": "f6e1b555decec3eb977b88e114a35943c5ef610790a0b3b106bea9e5266cf767",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-974b755fa9e47b8c52ac7d665f30efd4d222a33d630a97d24e26ad3ad9a9e87b",
+          "source_id": "span-9e0af80a7d0167ed4e0b3c0d1319f59d5ef2d5e9398ec638863c20f233ab8f78",
+          "sha256": "a31088f72a7ce8a2b581ad5c13c0f3bf9c94c6953fc88eca35b5c072ee2c9b90",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-4abd524f36c1ddbf6bf8ed494c9e6ac3ecfbf8df61ff75ad7c599dfa1ecb1eea",
+          "source_id": "span-0740973fa9b737eb41dc57f14abd992a71a1142656f476f6331e0d329d48e905",
+          "sha256": "3b0b10c913704cbe36968e0de1af75d2b4dfbf88c64f1dab365ea3878dad5a8d",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-8468076b5058164feddb7b4dbce4e5978d8daa5286adf5b2be34a315b3a5e72b",
+          "source_id": "span-4ed1d19a22282d4b18650e6213197111e7212b310fe86a5f9312684b2396bb00",
+          "sha256": "576b150cd9d7dbd9a56e7036c4a2c93f67a7e2efee95b388152f27d8e76d9fdd",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-2043ba9b1f000dcab39ddab8e5affbdb10fd0c8017a578a590d9e74584d577ec",
+          "source_id": "span-a8db41a136a859de361e67a78224d95252cb110beb0786c363cde7dc62d7aa92",
+          "sha256": "b6678fa581d3f031f8a5da07769caea28a8f903440ed9d40911ef1d56eaf5f44",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-6be6865cf2c444d0d77c0363dc07baa6f2b531622e9c54aab5ca759e4743e6d3",
+          "source_id": "span-2a747c6e1f6e08f6a2eb989890446a022c70f5faeab0be2fc2cf4cb8269548b2",
+          "sha256": "be20907cd710ce78d5098d0f2573e39b104a317e7faac3d0808e437d31d2bed8",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-553ac11ffc35ce8c14891a2f3ece3cd3cae96e5453533af4533ddbcf5b8fe8bd",
+          "source_id": "span-2807cf23de0cb963584235248e90253e80ef753f535d8ab02d69f980b2e520cb",
+          "sha256": "546bca1868fd65e68c493c5fe7f0170a42d779951d91c6acd32eb6b27c60587e",
+          "sequence": 11
+        },
+        {
+          "record_id": "record-8693c96e89aa9caea94cf1d52ab2d0e29ffa9d023313dd56c3a294d7179f6c21",
+          "source_id": "span-2cd5979486f52f43e7a79ae305d992538c5df1d2e2a275be0b4868b3c3fad071",
+          "sha256": "50256e54e7440c96f6209562d686cca3463d84a0fde52d067f3b67c15ce6a3a2",
+          "sequence": 12
+        },
+        {
+          "record_id": "record-eefcc300c55f513d2078679cae8b971a4108023fcc0c8e9a0b68e6f03561fd9f",
+          "source_id": "span-95e8f58acc028695067ddbf9ed002e2295e04696c37338645c5e6ccd51b2e533",
+          "sha256": "e4a158b1e5c091b0925021e4c126774e86bb90621de0dd00be8e49ef8b84d04a",
+          "sequence": 13
+        },
+        {
+          "record_id": "record-e59e4f1f924f17ed59a66cf53ab58d853c1f76816f2780cbf9d0778a0b6583a7",
+          "source_id": "span-2612e5d3ae12a8a0c9ffd4886da0c8b8e0f374afccc226c0fee7aa695a1a0cc6",
+          "sha256": "ef7af125c50386d1a9af50b7e6bbb8b4670677b43e5b830c7637212341934db2",
+          "sequence": 14
+        },
+        {
+          "record_id": "record-49dfe0488b69ec2242d0309d480924d99d97acee37cfb885a306188d88814bcc",
+          "source_id": "span-b5da1c7da19d1531765226d71fe32cd7ff6df8200a32dfad5484f6362b1bc1fc",
+          "sha256": "21ee37b854260d4deaa8f29749c2a4b426475ac6dcf08f7743c64e897b69a518",
+          "sequence": 15
+        },
+        {
+          "record_id": "record-2126a2b93f3fa0501cf2ee8db958c1613d8b3a16a9728b53b7ff6485811c3e3a",
+          "source_id": "span-3d9ca0da7a8f2ab3de257ad820e7eddea1057d46dea6f954cf0912611ef55fbe",
+          "sha256": "7458d707b403d28a9fb6edfd042702b880a6d3b560f5e6f5b985564c235aa9ff",
+          "sequence": 16
+        },
+        {
+          "record_id": "record-e1f509918e4dfb304b7608e6dff23b7f56f6e0aa4ea1e538159c328a29b99dbc",
+          "source_id": "span-097e843fcabc1d6fae0506788506abfdb187075915730dc9443fc6ac88ad57e5",
+          "sha256": "9c5c91b5705063202a7447c26da12195605a1cbacdbdc98eb49757464aef5051",
+          "sequence": 17
+        },
+        {
+          "record_id": "record-dc159ff6ac6dcb52a712191b8b388ed387c922caa40bfbe2bc5a4ccd4461796b",
+          "source_id": "span-2f9039f359f80c583a14042dc3419822376b42ec08d6a9037fd7fc953e3828ea",
+          "sha256": "cae5a4a705acfb359ba71aa3e2aff4287327436cb92ff3d0c65da270b28ca3d9",
+          "sequence": 18
+        },
+        {
+          "record_id": "record-a8db072bc5161675ec5d0a5c3c1199d096d24dfac2b48d4263d6679046c637ec",
+          "source_id": "span-592f4ed2fe532c39d78fc48fea926d9d3429f7cfacea6b3c15ff59ca689f3cb2",
+          "sha256": "0d94c1e6ad4d5d9a1724812448db74c230f07adbb7def68e8add33da5c99924b",
+          "sequence": 19
+        },
+        {
+          "record_id": "record-fde1f1ac1c7ec9f80921ae32f6897bfb1dddb7f57b7b3c7816590e5c057a3f63",
+          "source_id": "span-0959afcb74a6a47d0c4815c01e09477b61c0195ef33d79f6dd8bdd79e7e23ba0",
+          "sha256": "bcc646053c362b9136c289e4d2a397dc4382a17aca9577fd498b30c3b868753b",
+          "sequence": 20
+        },
+        {
+          "record_id": "record-792e61a960fa3b89aa8c71c8aaf7a23dc82a179f1ace18e3cfb9e112b820862c",
+          "source_id": "span-69beb224076767d3798f84f775c95bad5ae7a039da583249e5c0b16d9b97d800",
+          "sha256": "53ff3175e410c28bbd0d1a99ef0925c63c6625d2832c9b3c990bd8e36ef1e7f8",
+          "sequence": 21
+        },
+        {
+          "record_id": "record-47f00c77dc9ca7a2eaf9662886e611823e25e318e237627003306160083d73a2",
+          "source_id": "span-61d2a6e78be650fe708e51cd12683785c6f15577dc7e4694e509e0008d96f532",
+          "sha256": "e43217c8031f2a44ae6bd121c7e1cd1dbade04f892effcea34838d185315f1ef",
+          "sequence": 22
+        },
+        {
+          "record_id": "record-b5b010841a7aca8b9ace6a9219898aecef97b63549f44da50d70071dc4c4b222",
+          "source_id": "span-51e29eab585ba581dac18484c7db26de887c4a24cbdbe79dcca41180b5669309",
+          "sha256": "649052113373c0a5b17e5dbbf84f7df7508c741e35f144e441622908235becf4",
+          "sequence": 23
+        },
+        {
+          "record_id": "record-35cf98d7da91e7ebc2aa14e849e15ddfbbfec9284738349f60be2bebaf38eec9",
+          "source_id": "span-44232abe67534417e83416a06fcfca41becfb55c8fa0d603e7a061f0cc0617ea",
+          "sha256": "23b74c940b6745a014ed9ffb24320a69ca6fade25061b112ee5abfb080fe3182",
+          "sequence": 24
+        }
+      ],
+      "cutoff": 25,
+      "rules": {
+        "life": "一般以日干落宫为本人，在家庭，以年干为父母，以月干为兄弟姐妹，以时干为子女",
+        "recent": "凡预测一个人近期机遇和行运，可以通过问测时间的奇门格局进行分析",
+        "limits": "对古人的经验，只可参考，不能拘泥"
+      },
+      "provided_roles": [
+        "本人日干，家庭与社会角色按本轮问题选择，不由年龄替代人物关系"
+      ],
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-791e1534baed29e850a38d63769f651c9097d288abced2381bc3c865c9f42107",
+              "source_id": "span-275b762128ea9b765cdb28d04a5c8f77fc3d36fbc516b7137e3548f58861d287",
+              "sha256": "639750a2836469053b1a8d486c1601c149048823833fe6414fe0cbf35f0f0448",
+              "sequence": 25
+            },
+            {
+              "record_id": "record-c9a437848a6f99889938fd48e508c2951ed3f5042b356263a0ebf3b1f64df4e9",
+              "source_id": "span-65d41f8329a5f142c4027e3a2d6760a8e838bbeb4b10a8dceea363757aaef360",
+              "sha256": "f14f4b89ca6e20cc4aa4abd6293070fc8301be984d1244b9176b2b4c49142ac2",
+              "sequence": 26
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-791e1534baed29e850a38d63769f651c9097d288abced2381bc3c865c9f42107",
+              "source_id": "span-275b762128ea9b765cdb28d04a5c8f77fc3d36fbc516b7137e3548f58861d287",
+              "sha256": "639750a2836469053b1a8d486c1601c149048823833fe6414fe0cbf35f0f0448",
+              "sequence": 25,
+              "quote": "乙为日干，乙庚合，庚则为其妻"
+            },
+            {
+              "record_id": "record-791e1534baed29e850a38d63769f651c9097d288abced2381bc3c865c9f42107",
+              "source_id": "span-275b762128ea9b765cdb28d04a5c8f77fc3d36fbc516b7137e3548f58861d287",
+              "sha256": "639750a2836469053b1a8d486c1601c149048823833fe6414fe0cbf35f0f0448",
+              "sequence": 25,
+              "quote": "庚落离9宫，临天冲吉星，休门吉门，上乘螣蛇"
+            }
+          ],
+          "answer": {
+            "explanation": "已问过子女后转换配偶，日乙相合庚作妻，离九天冲休门螣蛇及庚生符、生乙用于性格工作与关系解释。妻子县政府收发具体职位仍在下一反馈才确认，不当已知事实；不把一般庚男象覆盖本例庚妻的相合干法。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-01c8e6298f0608f7acb72af2731bd791f0b0e2fd1c846705e17e8fe6aa234aee",
+      "event_id": "event-ae49ea8ddb11be63617af0292654aac48a025eea25d6b4dbe6c3cc2809ba4c28",
+      "family_id": "family-aedc1d8abdd4a82ef02e83c3e7d49e68b0407d9cf512d4407115f3d2ab2997e7",
+      "chart_id": "chart-5b1f759c6715255abdd1995e618e357b69304183d04ff0a35c21e617e6443f14",
+      "chapter": "21-life-opportunities",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 1,
+      "stage": "leader",
+      "mode": "continuation",
+      "source_prediction_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known_source_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known": [
+        {
+          "record_id": "record-e4a89b28e5abc91b261a12692ea97b0f00ac4a452d06d03a39b1c5feb557873f",
+          "source_id": "span-dc8f288a8b66e3f5f77514c0c155842f8c9558b6961892d1d7ac6825f767b7ef",
+          "sha256": "d311a2515ac8667e3735d1a96e2a3535edf2efff93543829ed5aef7dc4d6bc01",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-f98bd5776092b799d37012c7d1b8403cf655397279f851c1f4147e6cd33d3970",
+          "source_id": "span-b3b4d4431b4bb84729fad0d682a4f211dcdbf0c6e9cf1b902dd2bf8b86af1ff0",
+          "sha256": "36c694bafc89d99d71ac992237588435eb3342f2700dcb4a826ef8f2f3d10300",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-6fc88dbd03f0c72b638843ee1f40245c051da6de372a4ce2830b58262b8c0231",
+          "source_id": "span-137999ee4eed4691cbefacdbc65c0bedce9c6c4a6f0a633830f2ca0fd828c580",
+          "sha256": "1a560e0b7ecd129129851ea8e9eee0997b917728b53d746537825b8d9b099fc4",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-2e79cba17d4bdbbea625becf6188c5ef8e13e81cb6a3df1eae3f75f118c745e8",
+          "source_id": "span-776ec3f413f47fd6b05d92e156ed28783b084e37066507e48248eeac5712f64e",
+          "sha256": "1d05aa158e49c492d06cb85232fd09ff187b4db8805cab1efeafeaa3a1804141",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-c0c4599f5fa4e998617d448bd6a55c2184d7ea3b3bd25eb64f024ccef85ff15e",
+          "source_id": "span-4eae61d2dcf3d10a92cc4ad1e02f48996aa082c2f2a9ab7bf397b96405f99199",
+          "sha256": "93e6c11bf19af9cedeb5dead9c17447f5a8d92773f8cabc8a15613f1bd3b1ce2",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-66d6a557b64b9871c1381715915baa3ea58dd0077ed5f6a555ccae724d8174d1",
+          "source_id": "span-9c992b85f466d0bfdada1cda9bc870327864909bcf2abff01830f2b6b54425fd",
+          "sha256": "f6e1b555decec3eb977b88e114a35943c5ef610790a0b3b106bea9e5266cf767",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-974b755fa9e47b8c52ac7d665f30efd4d222a33d630a97d24e26ad3ad9a9e87b",
+          "source_id": "span-9e0af80a7d0167ed4e0b3c0d1319f59d5ef2d5e9398ec638863c20f233ab8f78",
+          "sha256": "a31088f72a7ce8a2b581ad5c13c0f3bf9c94c6953fc88eca35b5c072ee2c9b90",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-4abd524f36c1ddbf6bf8ed494c9e6ac3ecfbf8df61ff75ad7c599dfa1ecb1eea",
+          "source_id": "span-0740973fa9b737eb41dc57f14abd992a71a1142656f476f6331e0d329d48e905",
+          "sha256": "3b0b10c913704cbe36968e0de1af75d2b4dfbf88c64f1dab365ea3878dad5a8d",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-8468076b5058164feddb7b4dbce4e5978d8daa5286adf5b2be34a315b3a5e72b",
+          "source_id": "span-4ed1d19a22282d4b18650e6213197111e7212b310fe86a5f9312684b2396bb00",
+          "sha256": "576b150cd9d7dbd9a56e7036c4a2c93f67a7e2efee95b388152f27d8e76d9fdd",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-2043ba9b1f000dcab39ddab8e5affbdb10fd0c8017a578a590d9e74584d577ec",
+          "source_id": "span-a8db41a136a859de361e67a78224d95252cb110beb0786c363cde7dc62d7aa92",
+          "sha256": "b6678fa581d3f031f8a5da07769caea28a8f903440ed9d40911ef1d56eaf5f44",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-6be6865cf2c444d0d77c0363dc07baa6f2b531622e9c54aab5ca759e4743e6d3",
+          "source_id": "span-2a747c6e1f6e08f6a2eb989890446a022c70f5faeab0be2fc2cf4cb8269548b2",
+          "sha256": "be20907cd710ce78d5098d0f2573e39b104a317e7faac3d0808e437d31d2bed8",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-553ac11ffc35ce8c14891a2f3ece3cd3cae96e5453533af4533ddbcf5b8fe8bd",
+          "source_id": "span-2807cf23de0cb963584235248e90253e80ef753f535d8ab02d69f980b2e520cb",
+          "sha256": "546bca1868fd65e68c493c5fe7f0170a42d779951d91c6acd32eb6b27c60587e",
+          "sequence": 11
+        },
+        {
+          "record_id": "record-8693c96e89aa9caea94cf1d52ab2d0e29ffa9d023313dd56c3a294d7179f6c21",
+          "source_id": "span-2cd5979486f52f43e7a79ae305d992538c5df1d2e2a275be0b4868b3c3fad071",
+          "sha256": "50256e54e7440c96f6209562d686cca3463d84a0fde52d067f3b67c15ce6a3a2",
+          "sequence": 12
+        },
+        {
+          "record_id": "record-eefcc300c55f513d2078679cae8b971a4108023fcc0c8e9a0b68e6f03561fd9f",
+          "source_id": "span-95e8f58acc028695067ddbf9ed002e2295e04696c37338645c5e6ccd51b2e533",
+          "sha256": "e4a158b1e5c091b0925021e4c126774e86bb90621de0dd00be8e49ef8b84d04a",
+          "sequence": 13
+        },
+        {
+          "record_id": "record-e59e4f1f924f17ed59a66cf53ab58d853c1f76816f2780cbf9d0778a0b6583a7",
+          "source_id": "span-2612e5d3ae12a8a0c9ffd4886da0c8b8e0f374afccc226c0fee7aa695a1a0cc6",
+          "sha256": "ef7af125c50386d1a9af50b7e6bbb8b4670677b43e5b830c7637212341934db2",
+          "sequence": 14
+        },
+        {
+          "record_id": "record-49dfe0488b69ec2242d0309d480924d99d97acee37cfb885a306188d88814bcc",
+          "source_id": "span-b5da1c7da19d1531765226d71fe32cd7ff6df8200a32dfad5484f6362b1bc1fc",
+          "sha256": "21ee37b854260d4deaa8f29749c2a4b426475ac6dcf08f7743c64e897b69a518",
+          "sequence": 15
+        },
+        {
+          "record_id": "record-2126a2b93f3fa0501cf2ee8db958c1613d8b3a16a9728b53b7ff6485811c3e3a",
+          "source_id": "span-3d9ca0da7a8f2ab3de257ad820e7eddea1057d46dea6f954cf0912611ef55fbe",
+          "sha256": "7458d707b403d28a9fb6edfd042702b880a6d3b560f5e6f5b985564c235aa9ff",
+          "sequence": 16
+        },
+        {
+          "record_id": "record-e1f509918e4dfb304b7608e6dff23b7f56f6e0aa4ea1e538159c328a29b99dbc",
+          "source_id": "span-097e843fcabc1d6fae0506788506abfdb187075915730dc9443fc6ac88ad57e5",
+          "sha256": "9c5c91b5705063202a7447c26da12195605a1cbacdbdc98eb49757464aef5051",
+          "sequence": 17
+        },
+        {
+          "record_id": "record-dc159ff6ac6dcb52a712191b8b388ed387c922caa40bfbe2bc5a4ccd4461796b",
+          "source_id": "span-2f9039f359f80c583a14042dc3419822376b42ec08d6a9037fd7fc953e3828ea",
+          "sha256": "cae5a4a705acfb359ba71aa3e2aff4287327436cb92ff3d0c65da270b28ca3d9",
+          "sequence": 18
+        },
+        {
+          "record_id": "record-a8db072bc5161675ec5d0a5c3c1199d096d24dfac2b48d4263d6679046c637ec",
+          "source_id": "span-592f4ed2fe532c39d78fc48fea926d9d3429f7cfacea6b3c15ff59ca689f3cb2",
+          "sha256": "0d94c1e6ad4d5d9a1724812448db74c230f07adbb7def68e8add33da5c99924b",
+          "sequence": 19
+        },
+        {
+          "record_id": "record-fde1f1ac1c7ec9f80921ae32f6897bfb1dddb7f57b7b3c7816590e5c057a3f63",
+          "source_id": "span-0959afcb74a6a47d0c4815c01e09477b61c0195ef33d79f6dd8bdd79e7e23ba0",
+          "sha256": "bcc646053c362b9136c289e4d2a397dc4382a17aca9577fd498b30c3b868753b",
+          "sequence": 20
+        },
+        {
+          "record_id": "record-792e61a960fa3b89aa8c71c8aaf7a23dc82a179f1ace18e3cfb9e112b820862c",
+          "source_id": "span-69beb224076767d3798f84f775c95bad5ae7a039da583249e5c0b16d9b97d800",
+          "sha256": "53ff3175e410c28bbd0d1a99ef0925c63c6625d2832c9b3c990bd8e36ef1e7f8",
+          "sequence": 21
+        },
+        {
+          "record_id": "record-47f00c77dc9ca7a2eaf9662886e611823e25e318e237627003306160083d73a2",
+          "source_id": "span-61d2a6e78be650fe708e51cd12683785c6f15577dc7e4694e509e0008d96f532",
+          "sha256": "e43217c8031f2a44ae6bd121c7e1cd1dbade04f892effcea34838d185315f1ef",
+          "sequence": 22
+        },
+        {
+          "record_id": "record-b5b010841a7aca8b9ace6a9219898aecef97b63549f44da50d70071dc4c4b222",
+          "source_id": "span-51e29eab585ba581dac18484c7db26de887c4a24cbdbe79dcca41180b5669309",
+          "sha256": "649052113373c0a5b17e5dbbf84f7df7508c741e35f144e441622908235becf4",
+          "sequence": 23
+        },
+        {
+          "record_id": "record-35cf98d7da91e7ebc2aa14e849e15ddfbbfec9284738349f60be2bebaf38eec9",
+          "source_id": "span-44232abe67534417e83416a06fcfca41becfb55c8fa0d603e7a061f0cc0617ea",
+          "sha256": "23b74c940b6745a014ed9ffb24320a69ca6fade25061b112ee5abfb080fe3182",
+          "sequence": 24
+        },
+        {
+          "record_id": "record-791e1534baed29e850a38d63769f651c9097d288abced2381bc3c865c9f42107",
+          "source_id": "span-275b762128ea9b765cdb28d04a5c8f77fc3d36fbc516b7137e3548f58861d287",
+          "sha256": "639750a2836469053b1a8d486c1601c149048823833fe6414fe0cbf35f0f0448",
+          "sequence": 25
+        },
+        {
+          "record_id": "record-c9a437848a6f99889938fd48e508c2951ed3f5042b356263a0ebf3b1f64df4e9",
+          "source_id": "span-65d41f8329a5f142c4027e3a2d6760a8e838bbeb4b10a8dceea363757aaef360",
+          "sha256": "f14f4b89ca6e20cc4aa4abd6293070fc8301be984d1244b9176b2b4c49142ac2",
+          "sequence": 26
+        },
+        {
+          "record_id": "record-cc8af7918f1c31d5560d9a4cc91f06b130cca239772b503c28aefb6e3e20b9fc",
+          "source_id": "span-c70bbb5fbafd1d8d7f3bd25a57a5f1ba44bea6b9af80f844a0cd99ca2c6c48f8",
+          "sha256": "5dcea0de6f238359d0cc70030e091bfff68c10ae6d1e6cc0006120cbcee8ea90",
+          "sequence": 27
+        }
+      ],
+      "cutoff": 28,
+      "rules": {
+        "life": "一般以日干落宫为本人，在家庭，以年干为父母，以月干为兄弟姐妹，以时干为子女",
+        "recent": "凡预测一个人近期机遇和行运，可以通过问测时间的奇门格局进行分析",
+        "limits": "对古人的经验，只可参考，不能拘泥"
+      },
+      "provided_roles": [
+        "本人日干，家庭与社会角色按本轮问题选择，不由年龄替代人物关系"
+      ],
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-2be905eeb99f33afd5df4b486a041411a6c39e8b9e195d5f84267c673c292136",
+              "source_id": "span-9e132586654b9bd479082b87c46af36e162f8cd8d58d4bcc9eefaca43428b149",
+              "sha256": "3a9f7e21de664d2d5e8f509fba254e6d7bccec879c8f59efc4b605ff13a123bc",
+              "sequence": 28
+            },
+            {
+              "record_id": "record-d831ea188397529acb9fb54c1fb942f05a3634d9c08d186dba1e007c184a4186",
+              "source_id": "span-30b2eafccf0c125f6297c00bfd50e542374db08eabb2d5a5cb0d3fa5fa1a9998",
+              "sha256": "7d1c9605f1e59aa21d050f1af1ebbb71632e0b38a6e75fccd031329fba8295b3",
+              "sequence": 29
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-2be905eeb99f33afd5df4b486a041411a6c39e8b9e195d5f84267c673c292136",
+              "source_id": "span-9e132586654b9bd479082b87c46af36e162f8cd8d58d4bcc9eefaca43428b149",
+              "sha256": "3a9f7e21de664d2d5e8f509fba254e6d7bccec879c8f59efc4b605ff13a123bc",
+              "sequence": 28,
+              "quote": "值符为领导，落坤2宫逢空亡"
+            },
+            {
+              "record_id": "record-2be905eeb99f33afd5df4b486a041411a6c39e8b9e195d5f84267c673c292136",
+              "source_id": "span-9e132586654b9bd479082b87c46af36e162f8cd8d58d4bcc9eefaca43428b149",
+              "sha256": "3a9f7e21de664d2d5e8f509fba254e6d7bccec879c8f59efc4b605ff13a123bc",
+              "sequence": 28,
+              "quote": "年干为领导，落坎1宫火入水乡"
+            }
+          ],
+          "answer": {
+            "explanation": "源中再转社会关系，以值符领导空亡、八门反吟及年干坎宫火入水乡，追问一把手是否外出并将调动。上党校一年和结业不回的议论仍属下一反馈；不能回填成初问本人近况的背景。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-01c8e6298f0608f7acb72af2731bd791f0b0e2fd1c846705e17e8fe6aa234aee",
+      "event_id": "event-ae49ea8ddb11be63617af0292654aac48a025eea25d6b4dbe6c3cc2809ba4c28",
+      "family_id": "family-aedc1d8abdd4a82ef02e83c3e7d49e68b0407d9cf512d4407115f3d2ab2997e7",
+      "chart_id": "chart-5b1f759c6715255abdd1995e618e357b69304183d04ff0a35c21e617e6443f14",
+      "chapter": "21-life-opportunities",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 2,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known_source_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known": [
+        {
+          "record_id": "record-7539e42b1e0258a06e5a4b703225db3ea61b24bf2dedd93986d3587c70bdca3f",
+          "source_id": "span-a6bc2ea75d090bd51538de8ed68acaee83d5f340038a3eb8f01a984ba5defa8f",
+          "sha256": "14090fcbba5b8f9210677e939e1bd5c19262270bcb2f2c5cb1a565bb36e172d3",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-e998b06a6d84050e83633819276f3edabf6baff2f31b36a161208a8459c42d7f",
+          "source_id": "span-ecc9baf000333c9e476d37e30f3a6ae4586fd1c091d97f922da9da6da844e539",
+          "sha256": "6776acc861d7990bd2285938fa3d7c182794b0e017b9c37d3be8c962bc58b95b",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-fd7129b9d668fdab273139656091f227a459ffd3a50bb7f47d2495f7876863ab",
+          "source_id": "span-16963f3e1b2d4e1fa3be23c1da429e42c48bcf751719bd78ff3244ffb759f8d5",
+          "sha256": "876b3ec63019cffee01a93c62cbc8624abf2fc97cbee00c910a1765a3d1733c1",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-2ab4989be8e1ec68ffbc0091c47b4297ad87edb2a58a5baa19813b376c269d87",
+          "source_id": "span-4f2f137cb6bcbf4bd8e6685742bba735dcb0bf59232df19c266b907ad939bcaf",
+          "sha256": "ca6956a2cee68564c5df0dd7138e0914b911b21d4ed2c02d15a1e0704ebb4d06",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-af63c1ef61ca137af5f886c11be864c8e27e49e19d1bd7718a1baebde2b9faee",
+          "source_id": "span-9dab4b7b9c2248a0553efe4b9f6b4de2a6294de0f4ed619f24dfacc720af8453",
+          "sha256": "9f4c0ecfaab23598c54f4cca48267dcdf3c1245ee8f73d0f43c830dd5ab2a29c",
+          "sequence": 4
+        }
+      ],
+      "cutoff": 5,
+      "rules": {
+        "life": "一般以日干落宫为本人，在家庭，以年干为父母，以月干为兄弟姐妹，以时干为子女",
+        "recent": "凡预测一个人近期机遇和行运，可以通过问测时间的奇门格局进行分析",
+        "limits": "对古人的经验，只可参考，不能拘泥"
+      },
+      "provided_roles": [
+        "本人日干，家庭与社会角色按本轮问题选择，不由年龄替代人物关系"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-0949af1c4da8f21a0b8db9383cfe5d3fae8f023ac55e9d721d2ecfbf50ad54a1",
+              "source_id": "span-65324a237854e5163c68376105ac3023a6cb2e426a137a1f87eac7f9a8bf3dbd",
+              "sha256": "dfb9aa85deb571d87366998c66d8b9f25e021226a1da7a4787f4f9d466a94e4c",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "本人担心年内灾病，用日辛本人兼己丑年命，病星死门与之比较；己丑出生是原作者分析中所给条件，不当原问题已经明言。被别人说要死是背景恐惧，不是现实结论。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ],
+            "bindings": [
+              {
+                "role": "汪女士",
+                "symbol": "日干辛、兼年命己",
+                "condition": "问时近期问题，年命使用须注明来源给定"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-0949af1c4da8f21a0b8db9383cfe5d3fae8f023ac55e9d721d2ecfbf50ad54a1",
+              "source_id": "span-65324a237854e5163c68376105ac3023a6cb2e426a137a1f87eac7f9a8bf3dbd",
+              "sha256": "dfb9aa85deb571d87366998c66d8b9f25e021226a1da7a4787f4f9d466a94e4c",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "日辛在坎一前缀，主干丁、天芮原字与作者称天禽的寄星口径分开；己艮八生门按源，不能把辛改为坎一主干。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ]
+          },
+          "facts": [
+            [
+              1,
+              "heaven_prefix_marker"
+            ],
+            [
+              1,
+              "heaven_stem"
+            ],
+            [
+              1,
+              "star"
+            ],
+            [
+              1,
+              "door"
+            ],
+            [
+              1,
+              "deity"
+            ],
+            [
+              8,
+              "heaven_stem"
+            ],
+            [
+              8,
+              "door"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-0949af1c4da8f21a0b8db9383cfe5d3fae8f023ac55e9d721d2ecfbf50ad54a1",
+              "source_id": "span-65324a237854e5163c68376105ac3023a6cb2e426a137a1f87eac7f9a8bf3dbd",
+              "sha256": "dfb9aa85deb571d87366998c66d8b9f25e021226a1da7a4787f4f9d466a94e4c",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-46244fd91024cb8e499b53b53e2d903408972f2342b90b2277072323ad773d5b",
+              "source_id": "span-544de9d2fda68bf70e35cd5dec4ec272c1257286a871a31c4ffd89fc5a692364",
+              "sha256": "03191ca68f9a9c1b55ed129c29fd4b6a6dfaddcab7447a449ab119e049e5abeb",
+              "sequence": 6
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-0949af1c4da8f21a0b8db9383cfe5d3fae8f023ac55e9d721d2ecfbf50ad54a1",
+              "source_id": "span-65324a237854e5163c68376105ac3023a6cb2e426a137a1f87eac7f9a8bf3dbd",
+              "sha256": "dfb9aa85deb571d87366998c66d8b9f25e021226a1da7a4787f4f9d466a94e4c",
+              "sequence": 5,
+              "quote": "日干辛为汪女士，落坎1宫为长生之地"
+            },
+            {
+              "record_id": "record-0949af1c4da8f21a0b8db9383cfe5d3fae8f023ac55e9d721d2ecfbf50ad54a1",
+              "source_id": "span-65324a237854e5163c68376105ac3023a6cb2e426a137a1f87eac7f9a8bf3dbd",
+              "sha256": "dfb9aa85deb571d87366998c66d8b9f25e021226a1da7a4787f4f9d466a94e4c",
+              "sequence": 5,
+              "quote": "年命己(汪女士1949年己丑年生)落艮8宫，逢生门"
+            },
+            {
+              "record_id": "record-0949af1c4da8f21a0b8db9383cfe5d3fae8f023ac55e9d721d2ecfbf50ad54a1",
+              "source_id": "span-65324a237854e5163c68376105ac3023a6cb2e426a137a1f87eac7f9a8bf3dbd",
+              "sha256": "dfb9aa85deb571d87366998c66d8b9f25e021226a1da7a4787f4f9d466a94e4c",
+              "sequence": 5,
+              "quote": "克天芮病星落宫，又冲克死门"
+            }
+          ],
+          "answer": {
+            "explanation": "作者从日辛长生、休门太阴与奇仪，年命己生门且克病星冲死门等，反对年初他人绝对死断，并从年命与戊提出财务工作倾向。这里复现原作者判断，不作现实死亡排除或医学保证；财务工作在下一轮才确认。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-3f5bd69c19807861162f3dae2de2d5b171199a2714e37bd15088f89d33c65b2e",
+      "event_id": "event-e7e418966dec99373ff7ea7bb9a3f72022c45153fa0b354443b709e01ae50f99",
+      "family_id": "family-8fc64773a16c951fb9e808b55162729a3a6aa56ff0fda4a74df1648265a0ee30",
+      "chart_id": "chart-cbcaceb55a2d0c529ed034a85cdf4e32a6bc853c9077e8d36baa8c2a97eeb961",
+      "chapter": "21-life-opportunities",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 2,
+      "stage": "litigation",
+      "mode": "continuation",
+      "source_prediction_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known_source_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known": [
+        {
+          "record_id": "record-7539e42b1e0258a06e5a4b703225db3ea61b24bf2dedd93986d3587c70bdca3f",
+          "source_id": "span-a6bc2ea75d090bd51538de8ed68acaee83d5f340038a3eb8f01a984ba5defa8f",
+          "sha256": "14090fcbba5b8f9210677e939e1bd5c19262270bcb2f2c5cb1a565bb36e172d3",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-e998b06a6d84050e83633819276f3edabf6baff2f31b36a161208a8459c42d7f",
+          "source_id": "span-ecc9baf000333c9e476d37e30f3a6ae4586fd1c091d97f922da9da6da844e539",
+          "sha256": "6776acc861d7990bd2285938fa3d7c182794b0e017b9c37d3be8c962bc58b95b",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-fd7129b9d668fdab273139656091f227a459ffd3a50bb7f47d2495f7876863ab",
+          "source_id": "span-16963f3e1b2d4e1fa3be23c1da429e42c48bcf751719bd78ff3244ffb759f8d5",
+          "sha256": "876b3ec63019cffee01a93c62cbc8624abf2fc97cbee00c910a1765a3d1733c1",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-2ab4989be8e1ec68ffbc0091c47b4297ad87edb2a58a5baa19813b376c269d87",
+          "source_id": "span-4f2f137cb6bcbf4bd8e6685742bba735dcb0bf59232df19c266b907ad939bcaf",
+          "sha256": "ca6956a2cee68564c5df0dd7138e0914b911b21d4ed2c02d15a1e0704ebb4d06",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-af63c1ef61ca137af5f886c11be864c8e27e49e19d1bd7718a1baebde2b9faee",
+          "source_id": "span-9dab4b7b9c2248a0553efe4b9f6b4de2a6294de0f4ed619f24dfacc720af8453",
+          "sha256": "9f4c0ecfaab23598c54f4cca48267dcdf3c1245ee8f73d0f43c830dd5ab2a29c",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-0949af1c4da8f21a0b8db9383cfe5d3fae8f023ac55e9d721d2ecfbf50ad54a1",
+          "source_id": "span-65324a237854e5163c68376105ac3023a6cb2e426a137a1f87eac7f9a8bf3dbd",
+          "sha256": "dfb9aa85deb571d87366998c66d8b9f25e021226a1da7a4787f4f9d466a94e4c",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-46244fd91024cb8e499b53b53e2d903408972f2342b90b2277072323ad773d5b",
+          "source_id": "span-544de9d2fda68bf70e35cd5dec4ec272c1257286a871a31c4ffd89fc5a692364",
+          "sha256": "03191ca68f9a9c1b55ed129c29fd4b6a6dfaddcab7447a449ab119e049e5abeb",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-2e0bfc6d8aa100d9b94c20ae337c96765556455c8da981d870e7c72ed3f55765",
+          "source_id": "span-171e9a9008d308fb2223f48a1b59f369912dbe77426027cd29e7096739162f5f",
+          "sha256": "e7efdedd55817089b55ce5635fd8d1f24da9bcb54373cda288d7768170957dda",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-f93a186fd91458f3ced78c5b9fbbb21407a39fbb80f7b9831e5d3a826eb9c64b",
+          "source_id": "span-6bd4f920bf603c9484c783d984cbe380b66ececf67d657ade57874febd0a808a",
+          "sha256": "440901043d39215c36b898c6e9ca7d5ce488a35928d18a8e16902c427d480d28",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-5d0b0dd5290d0db090313b8ef4952adb78a247ed96056931c1bc224e9890c143",
+          "source_id": "span-4af12253c85858189feb158ba223f8d0bbe2f62479c67c560d09dfd93482f62a",
+          "sha256": "7d04f059a6b5cbed9fada217f30a212093d6e41e3134afe74f5abaefd9b2ceed",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-0bf4efccf376399a4c93b43ad48aa0dc7269ce8779ba6dd46b9b05c33fe9732b",
+          "source_id": "span-eb3486ec5db0bf4d2c04ba5721a4726eec7eeb9b4c47fc75a14b49b497649cb2",
+          "sha256": "8e21bf78cca69565b31ce64d436f6e227c5f274a3c215320135b480bc5370f8c",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-f9234ee875340eda2230e391fe3367e863e94a01722fb394e134b337bdab431f",
+          "source_id": "span-a5eec2b8454b747d54a464a2b5be3bd1fe4b1bdf7b64c905dbce11a5d5f01d0e",
+          "sha256": "1716a1a87ffb4f7dad9b0ec260b04da84ecd98c1de6eb4abf700c97d5fa334c1",
+          "sequence": 11
+        },
+        {
+          "record_id": "record-585debee0f0a26422906d84bbfd0b4149efc1dc9d5cf2d8e02e1c892972510cd",
+          "source_id": "span-9c32a7ea70babcc7ec3ac258c97e5a768971340bfe6d04b47956d0f35f11c635",
+          "sha256": "2903271520dced7a456a4b9646b8c38f049bfd7cbd874247c9547989af9a209d",
+          "sequence": 12
+        },
+        {
+          "record_id": "record-7cf84bdd368932d5e713ad1ef0bb1a52441e6ee715685ef9f4926c10de59a41a",
+          "source_id": "span-7810fa3f4b335d56ad72eed881f8d3b0160172f1ed03410e767cbda2ad2ae855",
+          "sha256": "09074ba6e538078f897a12a1f8fcd40b93d4a10ffa66f222b6d7427d060178fe",
+          "sequence": 13
+        },
+        {
+          "record_id": "record-8d5e3b744bf0cea2f7440d84674c99f47e882929e1b3c9b5af0509499a524763",
+          "source_id": "span-4d16fe270e85af364d9f9443dd0debe8369828caa0b73457014cca355658427f",
+          "sha256": "eac1a722e4b940286bb6a8ddf999991b1a5a6027b1bd2086028f3fdaf5c9f529",
+          "sequence": 14
+        },
+        {
+          "record_id": "record-150519656bf25ddf2c971f2025ab673eb10260a5a54670e1a0649dd9ca1ab66d",
+          "source_id": "span-403f5e35351b4a36b74b2432860c0f3ded553b8332431fc9310cc80081f9ec38",
+          "sha256": "a11c22d9edd540529f7da09b0f34479cab131644cea2c2025aabbe91606deb5d",
+          "sequence": 15
+        }
+      ],
+      "cutoff": 16,
+      "rules": {
+        "life": "一般以日干落宫为本人，在家庭，以年干为父母，以月干为兄弟姐妹，以时干为子女",
+        "recent": "凡预测一个人近期机遇和行运，可以通过问测时间的奇门格局进行分析",
+        "limits": "对古人的经验，只可参考，不能拘泥"
+      },
+      "provided_roles": [
+        "本人日干，家庭与社会角色按本轮问题选择，不由年龄替代人物关系"
+      ],
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-9f3f68e903f11df2aae780576c1ff62b8a96b54cfaee6fd6a424ac0c0b64afbd",
+              "source_id": "span-505e8eb57ba5ad16323062ec9d977accd12b765082bf1d00ce001017819f2a73",
+              "sha256": "696ac0312da3cb5c63cab3ee25c8fc01c9e6b7c589ecedeb5381830e6bec1609",
+              "sequence": 16
+            },
+            {
+              "record_id": "record-34a7431b751e80dbacfa822a9bc305aeb5fe90e6162fc02f139a8b3f76aa477a",
+              "source_id": "span-787daafe9bb525808df9478ab0b4a335984fa64aadcee19d5a659dd1eb5e686a",
+              "sha256": "dbdee6ac83443c073b5a001ed72cffa282810100e6c24c4d823fee942b7d30f8",
+              "sequence": 17
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-9f3f68e903f11df2aae780576c1ff62b8a96b54cfaee6fd6a424ac0c0b64afbd",
+              "source_id": "span-505e8eb57ba5ad16323062ec9d977accd12b765082bf1d00ce001017819f2a73",
+              "sha256": "696ac0312da3cb5c63cab3ee25c8fc01c9e6b7c589ecedeb5381830e6bec1609",
+              "sequence": 16,
+              "quote": "值符为原告，在震3宫属木"
+            },
+            {
+              "record_id": "record-9f3f68e903f11df2aae780576c1ff62b8a96b54cfaee6fd6a424ac0c0b64afbd",
+              "source_id": "span-505e8eb57ba5ad16323062ec9d977accd12b765082bf1d00ce001017819f2a73",
+              "sha256": "696ac0312da3cb5c63cab3ee25c8fc01c9e6b7c589ecedeb5381830e6bec1609",
+              "sequence": 16,
+              "quote": "天冲星为天乙为被告，在坤2宫属土"
+            },
+            {
+              "record_id": "record-9f3f68e903f11df2aae780576c1ff62b8a96b54cfaee6fd6a424ac0c0b64afbd",
+              "source_id": "span-505e8eb57ba5ad16323062ec9d977accd12b765082bf1d00ce001017819f2a73",
+              "sha256": "696ac0312da3cb5c63cab3ee25c8fc01c9e6b7c589ecedeb5381830e6bec1609",
+              "sequence": 16,
+              "quote": "天乙上乘玄武、临死门，生助开门落宫"
+            }
+          ],
+          "answer": {
+            "explanation": "她已经确认有财物官司并是原告，作者此时才绑定值符震三原告、天乙天冲坤二被告，以木克土看胜诉方向，又保留被告生开门等执行困难。不能把胜诉、实际追回本金与利息当同一成功标签。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-3f5bd69c19807861162f3dae2de2d5b171199a2714e37bd15088f89d33c65b2e",
+      "event_id": "event-e7e418966dec99373ff7ea7bb9a3f72022c45153fa0b354443b709e01ae50f99",
+      "family_id": "family-8fc64773a16c951fb9e808b55162729a3a6aa56ff0fda4a74df1648265a0ee30",
+      "chart_id": "chart-cbcaceb55a2d0c529ed034a85cdf4e32a6bc853c9077e8d36baa8c2a97eeb961",
+      "chapter": "21-life-opportunities",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 2,
+      "stage": "spouse",
+      "mode": "continuation",
+      "source_prediction_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known_source_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known": [
+        {
+          "record_id": "record-7539e42b1e0258a06e5a4b703225db3ea61b24bf2dedd93986d3587c70bdca3f",
+          "source_id": "span-a6bc2ea75d090bd51538de8ed68acaee83d5f340038a3eb8f01a984ba5defa8f",
+          "sha256": "14090fcbba5b8f9210677e939e1bd5c19262270bcb2f2c5cb1a565bb36e172d3",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-e998b06a6d84050e83633819276f3edabf6baff2f31b36a161208a8459c42d7f",
+          "source_id": "span-ecc9baf000333c9e476d37e30f3a6ae4586fd1c091d97f922da9da6da844e539",
+          "sha256": "6776acc861d7990bd2285938fa3d7c182794b0e017b9c37d3be8c962bc58b95b",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-fd7129b9d668fdab273139656091f227a459ffd3a50bb7f47d2495f7876863ab",
+          "source_id": "span-16963f3e1b2d4e1fa3be23c1da429e42c48bcf751719bd78ff3244ffb759f8d5",
+          "sha256": "876b3ec63019cffee01a93c62cbc8624abf2fc97cbee00c910a1765a3d1733c1",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-2ab4989be8e1ec68ffbc0091c47b4297ad87edb2a58a5baa19813b376c269d87",
+          "source_id": "span-4f2f137cb6bcbf4bd8e6685742bba735dcb0bf59232df19c266b907ad939bcaf",
+          "sha256": "ca6956a2cee68564c5df0dd7138e0914b911b21d4ed2c02d15a1e0704ebb4d06",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-af63c1ef61ca137af5f886c11be864c8e27e49e19d1bd7718a1baebde2b9faee",
+          "source_id": "span-9dab4b7b9c2248a0553efe4b9f6b4de2a6294de0f4ed619f24dfacc720af8453",
+          "sha256": "9f4c0ecfaab23598c54f4cca48267dcdf3c1245ee8f73d0f43c830dd5ab2a29c",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-0949af1c4da8f21a0b8db9383cfe5d3fae8f023ac55e9d721d2ecfbf50ad54a1",
+          "source_id": "span-65324a237854e5163c68376105ac3023a6cb2e426a137a1f87eac7f9a8bf3dbd",
+          "sha256": "dfb9aa85deb571d87366998c66d8b9f25e021226a1da7a4787f4f9d466a94e4c",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-46244fd91024cb8e499b53b53e2d903408972f2342b90b2277072323ad773d5b",
+          "source_id": "span-544de9d2fda68bf70e35cd5dec4ec272c1257286a871a31c4ffd89fc5a692364",
+          "sha256": "03191ca68f9a9c1b55ed129c29fd4b6a6dfaddcab7447a449ab119e049e5abeb",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-2e0bfc6d8aa100d9b94c20ae337c96765556455c8da981d870e7c72ed3f55765",
+          "source_id": "span-171e9a9008d308fb2223f48a1b59f369912dbe77426027cd29e7096739162f5f",
+          "sha256": "e7efdedd55817089b55ce5635fd8d1f24da9bcb54373cda288d7768170957dda",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-f93a186fd91458f3ced78c5b9fbbb21407a39fbb80f7b9831e5d3a826eb9c64b",
+          "source_id": "span-6bd4f920bf603c9484c783d984cbe380b66ececf67d657ade57874febd0a808a",
+          "sha256": "440901043d39215c36b898c6e9ca7d5ce488a35928d18a8e16902c427d480d28",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-5d0b0dd5290d0db090313b8ef4952adb78a247ed96056931c1bc224e9890c143",
+          "source_id": "span-4af12253c85858189feb158ba223f8d0bbe2f62479c67c560d09dfd93482f62a",
+          "sha256": "7d04f059a6b5cbed9fada217f30a212093d6e41e3134afe74f5abaefd9b2ceed",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-0bf4efccf376399a4c93b43ad48aa0dc7269ce8779ba6dd46b9b05c33fe9732b",
+          "source_id": "span-eb3486ec5db0bf4d2c04ba5721a4726eec7eeb9b4c47fc75a14b49b497649cb2",
+          "sha256": "8e21bf78cca69565b31ce64d436f6e227c5f274a3c215320135b480bc5370f8c",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-f9234ee875340eda2230e391fe3367e863e94a01722fb394e134b337bdab431f",
+          "source_id": "span-a5eec2b8454b747d54a464a2b5be3bd1fe4b1bdf7b64c905dbce11a5d5f01d0e",
+          "sha256": "1716a1a87ffb4f7dad9b0ec260b04da84ecd98c1de6eb4abf700c97d5fa334c1",
+          "sequence": 11
+        },
+        {
+          "record_id": "record-585debee0f0a26422906d84bbfd0b4149efc1dc9d5cf2d8e02e1c892972510cd",
+          "source_id": "span-9c32a7ea70babcc7ec3ac258c97e5a768971340bfe6d04b47956d0f35f11c635",
+          "sha256": "2903271520dced7a456a4b9646b8c38f049bfd7cbd874247c9547989af9a209d",
+          "sequence": 12
+        },
+        {
+          "record_id": "record-7cf84bdd368932d5e713ad1ef0bb1a52441e6ee715685ef9f4926c10de59a41a",
+          "source_id": "span-7810fa3f4b335d56ad72eed881f8d3b0160172f1ed03410e767cbda2ad2ae855",
+          "sha256": "09074ba6e538078f897a12a1f8fcd40b93d4a10ffa66f222b6d7427d060178fe",
+          "sequence": 13
+        },
+        {
+          "record_id": "record-8d5e3b744bf0cea2f7440d84674c99f47e882929e1b3c9b5af0509499a524763",
+          "source_id": "span-4d16fe270e85af364d9f9443dd0debe8369828caa0b73457014cca355658427f",
+          "sha256": "eac1a722e4b940286bb6a8ddf999991b1a5a6027b1bd2086028f3fdaf5c9f529",
+          "sequence": 14
+        },
+        {
+          "record_id": "record-150519656bf25ddf2c971f2025ab673eb10260a5a54670e1a0649dd9ca1ab66d",
+          "source_id": "span-403f5e35351b4a36b74b2432860c0f3ded553b8332431fc9310cc80081f9ec38",
+          "sha256": "a11c22d9edd540529f7da09b0f34479cab131644cea2c2025aabbe91606deb5d",
+          "sequence": 15
+        },
+        {
+          "record_id": "record-9f3f68e903f11df2aae780576c1ff62b8a96b54cfaee6fd6a424ac0c0b64afbd",
+          "source_id": "span-505e8eb57ba5ad16323062ec9d977accd12b765082bf1d00ce001017819f2a73",
+          "sha256": "696ac0312da3cb5c63cab3ee25c8fc01c9e6b7c589ecedeb5381830e6bec1609",
+          "sequence": 16
+        },
+        {
+          "record_id": "record-34a7431b751e80dbacfa822a9bc305aeb5fe90e6162fc02f139a8b3f76aa477a",
+          "source_id": "span-787daafe9bb525808df9478ab0b4a335984fa64aadcee19d5a659dd1eb5e686a",
+          "sha256": "dbdee6ac83443c073b5a001ed72cffa282810100e6c24c4d823fee942b7d30f8",
+          "sequence": 17
+        },
+        {
+          "record_id": "record-c42b7531c3201eb7aeba3956743ab70c42d84b8bc2550a97962c10f344dcb76e",
+          "source_id": "span-14e444ee266416acca6f7b154d858067b24b19ebe717e2466d484c0854fc1990",
+          "sha256": "075ebdde140f398c270121715f742e9e6207bd85ab7b3a7e4179acd3b64c5e3a",
+          "sequence": 18
+        },
+        {
+          "record_id": "record-0d4d2f501ade6eb42a660ac05558a5987d9fe3ae6a9f349e29e15c30c96ff47e",
+          "source_id": "span-3ea04e5340b156a977933c3deebcfab620446a44522c410ef99322b1a41d1bdb",
+          "sha256": "f473369711f039e0f060a45b5b067f3aa6f0b81b5b1c553f3f11bc3fa8865b75",
+          "sequence": 19
+        },
+        {
+          "record_id": "record-a3da766048b2673c4dd854fe2161571cb92c383382aab75884210488f4a8533c",
+          "source_id": "span-e36d82fd35ef9e5a5a1b48c639dd7eca4965f99230c73944c05a8a475868f518",
+          "sha256": "60a174c6d24052742dbe6d0ff3cc1eaf211037c65142c06f2a0f1728e7dd95bf",
+          "sequence": 20
+        },
+        {
+          "record_id": "record-1b80154e946e32633ca3f105b5bf5d9798039581a2a19535a3b6ccdde2aa670d",
+          "source_id": "span-a941a8c21b9bb151919ad1960cecd95bdc88951d39e6b39ffe6d07a163d85128",
+          "sha256": "b85d65c291d790dfb5c5ada6e28a1cb8d53acb80a7ee949b400794ef0b1a8d23",
+          "sequence": 21
+        },
+        {
+          "record_id": "record-5964b00da4e464f160a34fbf7252c6ae82c0a8b986e6225703499b38dc8618f5",
+          "source_id": "span-a0277271ef5ee4914e025d43e0f62bcd03b2d00800164a2ef661dc5143d7449f",
+          "sha256": "8573faf922eff49479b225ac3b3555b6cc3d61ee1a1cca104ce06e9b013e8c11",
+          "sequence": 22
+        },
+        {
+          "record_id": "record-74d5ff42e8518ef6393b2fe8506f088da5b2f4051562c401cc7ebe0dc27c2993",
+          "source_id": "span-ee6c432cdc5445de25dcfbc1f4c35ed77e66e1460695b44a8ecbedabb562cde1",
+          "sha256": "4d51247061a19802c26b2ebb4c35e6f1f211e314c152f173910c07d0ec189024",
+          "sequence": 23
+        }
+      ],
+      "cutoff": 24,
+      "rules": {
+        "life": "一般以日干落宫为本人，在家庭，以年干为父母，以月干为兄弟姐妹，以时干为子女",
+        "recent": "凡预测一个人近期机遇和行运，可以通过问测时间的奇门格局进行分析",
+        "limits": "对古人的经验，只可参考，不能拘泥"
+      },
+      "provided_roles": [
+        "本人日干，家庭与社会角色按本轮问题选择，不由年龄替代人物关系"
+      ],
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-d753c2973b3430dea8740315295fdc72145c285682a2776f76b6fe513b24e0fe",
+              "source_id": "span-7d6a0a77dd5630efdaa84b7633856330139cc78a58c757d66f0b47515d10e5d3",
+              "sha256": "555f77c88f2f62aa34e36b75351beee222854c82cb59d8b2135b8794fdaea6cb",
+              "sequence": 24
+            },
+            {
+              "record_id": "record-dcf206d78700f11262a0f32b0c62d613262f96e98f912acd3a8e91e944e52765",
+              "source_id": "span-db76a859c5cc5f3bdce94a111bb57b8535c480cff86060c344a935822d7b2912",
+              "sha256": "a122769fb637a313e8c4c02d9fc328d3a880421bafd7838328aaca9f78f61efc",
+              "sequence": 25
+            },
+            {
+              "record_id": "record-b5eaebb247e6b6e45218b59130edf1cfc2e66ae6edc7caa5b65c0173485b44a7",
+              "source_id": "span-e2fbed93105bad32e021004ef55eada4a6e54a02b2cef30088217043881f9f18",
+              "sha256": "77bbe17eeba5bfae7f7dec6e86c19b8f4665d542e00416da5ccd1d1de210dd05",
+              "sequence": 27
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-d753c2973b3430dea8740315295fdc72145c285682a2776f76b6fe513b24e0fe",
+              "source_id": "span-7d6a0a77dd5630efdaa84b7633856330139cc78a58c757d66f0b47515d10e5d3",
+              "sha256": "555f77c88f2f62aa34e36b75351beee222854c82cb59d8b2135b8794fdaea6cb",
+              "sequence": 24,
+              "quote": "日干为辛，丙辛合，以丙为丈夫"
+            },
+            {
+              "record_id": "record-d753c2973b3430dea8740315295fdc72145c285682a2776f76b6fe513b24e0fe",
+              "source_id": "span-7d6a0a77dd5630efdaa84b7633856330139cc78a58c757d66f0b47515d10e5d3",
+              "sha256": "555f77c88f2f62aa34e36b75351beee222854c82cb59d8b2135b8794fdaea6cb",
+              "sequence": 24,
+              "quote": "丙在巽4宫，临杜门，天蓬星，上乘九天"
+            }
+          ],
+          "answer": {
+            "explanation": "在她问夫妻关系后，按日辛合丙为丈夫，巽四杜门天蓬九天等与相合、乙庚视角解释丈夫职业、脾气和双方制约；本人同单位处长的实际反馈不提前放在这次推断前。不得拿男女性别的一般乙庚法取代本例相合干人物。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-3f5bd69c19807861162f3dae2de2d5b171199a2714e37bd15088f89d33c65b2e",
+      "event_id": "event-e7e418966dec99373ff7ea7bb9a3f72022c45153fa0b354443b709e01ae50f99",
+      "family_id": "family-8fc64773a16c951fb9e808b55162729a3a6aa56ff0fda4a74df1648265a0ee30",
+      "chart_id": "chart-cbcaceb55a2d0c529ed034a85cdf4e32a6bc853c9077e8d36baa8c2a97eeb961",
+      "chapter": "21-life-opportunities",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 2,
+      "stage": "son_departure",
+      "mode": "continuation",
+      "source_prediction_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known_source_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known": [
+        {
+          "record_id": "record-7539e42b1e0258a06e5a4b703225db3ea61b24bf2dedd93986d3587c70bdca3f",
+          "source_id": "span-a6bc2ea75d090bd51538de8ed68acaee83d5f340038a3eb8f01a984ba5defa8f",
+          "sha256": "14090fcbba5b8f9210677e939e1bd5c19262270bcb2f2c5cb1a565bb36e172d3",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-e998b06a6d84050e83633819276f3edabf6baff2f31b36a161208a8459c42d7f",
+          "source_id": "span-ecc9baf000333c9e476d37e30f3a6ae4586fd1c091d97f922da9da6da844e539",
+          "sha256": "6776acc861d7990bd2285938fa3d7c182794b0e017b9c37d3be8c962bc58b95b",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-fd7129b9d668fdab273139656091f227a459ffd3a50bb7f47d2495f7876863ab",
+          "source_id": "span-16963f3e1b2d4e1fa3be23c1da429e42c48bcf751719bd78ff3244ffb759f8d5",
+          "sha256": "876b3ec63019cffee01a93c62cbc8624abf2fc97cbee00c910a1765a3d1733c1",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-2ab4989be8e1ec68ffbc0091c47b4297ad87edb2a58a5baa19813b376c269d87",
+          "source_id": "span-4f2f137cb6bcbf4bd8e6685742bba735dcb0bf59232df19c266b907ad939bcaf",
+          "sha256": "ca6956a2cee68564c5df0dd7138e0914b911b21d4ed2c02d15a1e0704ebb4d06",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-af63c1ef61ca137af5f886c11be864c8e27e49e19d1bd7718a1baebde2b9faee",
+          "source_id": "span-9dab4b7b9c2248a0553efe4b9f6b4de2a6294de0f4ed619f24dfacc720af8453",
+          "sha256": "9f4c0ecfaab23598c54f4cca48267dcdf3c1245ee8f73d0f43c830dd5ab2a29c",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-0949af1c4da8f21a0b8db9383cfe5d3fae8f023ac55e9d721d2ecfbf50ad54a1",
+          "source_id": "span-65324a237854e5163c68376105ac3023a6cb2e426a137a1f87eac7f9a8bf3dbd",
+          "sha256": "dfb9aa85deb571d87366998c66d8b9f25e021226a1da7a4787f4f9d466a94e4c",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-46244fd91024cb8e499b53b53e2d903408972f2342b90b2277072323ad773d5b",
+          "source_id": "span-544de9d2fda68bf70e35cd5dec4ec272c1257286a871a31c4ffd89fc5a692364",
+          "sha256": "03191ca68f9a9c1b55ed129c29fd4b6a6dfaddcab7447a449ab119e049e5abeb",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-2e0bfc6d8aa100d9b94c20ae337c96765556455c8da981d870e7c72ed3f55765",
+          "source_id": "span-171e9a9008d308fb2223f48a1b59f369912dbe77426027cd29e7096739162f5f",
+          "sha256": "e7efdedd55817089b55ce5635fd8d1f24da9bcb54373cda288d7768170957dda",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-f93a186fd91458f3ced78c5b9fbbb21407a39fbb80f7b9831e5d3a826eb9c64b",
+          "source_id": "span-6bd4f920bf603c9484c783d984cbe380b66ececf67d657ade57874febd0a808a",
+          "sha256": "440901043d39215c36b898c6e9ca7d5ce488a35928d18a8e16902c427d480d28",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-5d0b0dd5290d0db090313b8ef4952adb78a247ed96056931c1bc224e9890c143",
+          "source_id": "span-4af12253c85858189feb158ba223f8d0bbe2f62479c67c560d09dfd93482f62a",
+          "sha256": "7d04f059a6b5cbed9fada217f30a212093d6e41e3134afe74f5abaefd9b2ceed",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-0bf4efccf376399a4c93b43ad48aa0dc7269ce8779ba6dd46b9b05c33fe9732b",
+          "source_id": "span-eb3486ec5db0bf4d2c04ba5721a4726eec7eeb9b4c47fc75a14b49b497649cb2",
+          "sha256": "8e21bf78cca69565b31ce64d436f6e227c5f274a3c215320135b480bc5370f8c",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-f9234ee875340eda2230e391fe3367e863e94a01722fb394e134b337bdab431f",
+          "source_id": "span-a5eec2b8454b747d54a464a2b5be3bd1fe4b1bdf7b64c905dbce11a5d5f01d0e",
+          "sha256": "1716a1a87ffb4f7dad9b0ec260b04da84ecd98c1de6eb4abf700c97d5fa334c1",
+          "sequence": 11
+        },
+        {
+          "record_id": "record-585debee0f0a26422906d84bbfd0b4149efc1dc9d5cf2d8e02e1c892972510cd",
+          "source_id": "span-9c32a7ea70babcc7ec3ac258c97e5a768971340bfe6d04b47956d0f35f11c635",
+          "sha256": "2903271520dced7a456a4b9646b8c38f049bfd7cbd874247c9547989af9a209d",
+          "sequence": 12
+        },
+        {
+          "record_id": "record-7cf84bdd368932d5e713ad1ef0bb1a52441e6ee715685ef9f4926c10de59a41a",
+          "source_id": "span-7810fa3f4b335d56ad72eed881f8d3b0160172f1ed03410e767cbda2ad2ae855",
+          "sha256": "09074ba6e538078f897a12a1f8fcd40b93d4a10ffa66f222b6d7427d060178fe",
+          "sequence": 13
+        },
+        {
+          "record_id": "record-8d5e3b744bf0cea2f7440d84674c99f47e882929e1b3c9b5af0509499a524763",
+          "source_id": "span-4d16fe270e85af364d9f9443dd0debe8369828caa0b73457014cca355658427f",
+          "sha256": "eac1a722e4b940286bb6a8ddf999991b1a5a6027b1bd2086028f3fdaf5c9f529",
+          "sequence": 14
+        },
+        {
+          "record_id": "record-150519656bf25ddf2c971f2025ab673eb10260a5a54670e1a0649dd9ca1ab66d",
+          "source_id": "span-403f5e35351b4a36b74b2432860c0f3ded553b8332431fc9310cc80081f9ec38",
+          "sha256": "a11c22d9edd540529f7da09b0f34479cab131644cea2c2025aabbe91606deb5d",
+          "sequence": 15
+        },
+        {
+          "record_id": "record-9f3f68e903f11df2aae780576c1ff62b8a96b54cfaee6fd6a424ac0c0b64afbd",
+          "source_id": "span-505e8eb57ba5ad16323062ec9d977accd12b765082bf1d00ce001017819f2a73",
+          "sha256": "696ac0312da3cb5c63cab3ee25c8fc01c9e6b7c589ecedeb5381830e6bec1609",
+          "sequence": 16
+        },
+        {
+          "record_id": "record-34a7431b751e80dbacfa822a9bc305aeb5fe90e6162fc02f139a8b3f76aa477a",
+          "source_id": "span-787daafe9bb525808df9478ab0b4a335984fa64aadcee19d5a659dd1eb5e686a",
+          "sha256": "dbdee6ac83443c073b5a001ed72cffa282810100e6c24c4d823fee942b7d30f8",
+          "sequence": 17
+        },
+        {
+          "record_id": "record-c42b7531c3201eb7aeba3956743ab70c42d84b8bc2550a97962c10f344dcb76e",
+          "source_id": "span-14e444ee266416acca6f7b154d858067b24b19ebe717e2466d484c0854fc1990",
+          "sha256": "075ebdde140f398c270121715f742e9e6207bd85ab7b3a7e4179acd3b64c5e3a",
+          "sequence": 18
+        },
+        {
+          "record_id": "record-0d4d2f501ade6eb42a660ac05558a5987d9fe3ae6a9f349e29e15c30c96ff47e",
+          "source_id": "span-3ea04e5340b156a977933c3deebcfab620446a44522c410ef99322b1a41d1bdb",
+          "sha256": "f473369711f039e0f060a45b5b067f3aa6f0b81b5b1c553f3f11bc3fa8865b75",
+          "sequence": 19
+        },
+        {
+          "record_id": "record-a3da766048b2673c4dd854fe2161571cb92c383382aab75884210488f4a8533c",
+          "source_id": "span-e36d82fd35ef9e5a5a1b48c639dd7eca4965f99230c73944c05a8a475868f518",
+          "sha256": "60a174c6d24052742dbe6d0ff3cc1eaf211037c65142c06f2a0f1728e7dd95bf",
+          "sequence": 20
+        },
+        {
+          "record_id": "record-1b80154e946e32633ca3f105b5bf5d9798039581a2a19535a3b6ccdde2aa670d",
+          "source_id": "span-a941a8c21b9bb151919ad1960cecd95bdc88951d39e6b39ffe6d07a163d85128",
+          "sha256": "b85d65c291d790dfb5c5ada6e28a1cb8d53acb80a7ee949b400794ef0b1a8d23",
+          "sequence": 21
+        },
+        {
+          "record_id": "record-5964b00da4e464f160a34fbf7252c6ae82c0a8b986e6225703499b38dc8618f5",
+          "source_id": "span-a0277271ef5ee4914e025d43e0f62bcd03b2d00800164a2ef661dc5143d7449f",
+          "sha256": "8573faf922eff49479b225ac3b3555b6cc3d61ee1a1cca104ce06e9b013e8c11",
+          "sequence": 22
+        },
+        {
+          "record_id": "record-74d5ff42e8518ef6393b2fe8506f088da5b2f4051562c401cc7ebe0dc27c2993",
+          "source_id": "span-ee6c432cdc5445de25dcfbc1f4c35ed77e66e1460695b44a8ecbedabb562cde1",
+          "sha256": "4d51247061a19802c26b2ebb4c35e6f1f211e314c152f173910c07d0ec189024",
+          "sequence": 23
+        },
+        {
+          "record_id": "record-d753c2973b3430dea8740315295fdc72145c285682a2776f76b6fe513b24e0fe",
+          "source_id": "span-7d6a0a77dd5630efdaa84b7633856330139cc78a58c757d66f0b47515d10e5d3",
+          "sha256": "555f77c88f2f62aa34e36b75351beee222854c82cb59d8b2135b8794fdaea6cb",
+          "sequence": 24
+        },
+        {
+          "record_id": "record-dcf206d78700f11262a0f32b0c62d613262f96e98f912acd3a8e91e944e52765",
+          "source_id": "span-db76a859c5cc5f3bdce94a111bb57b8535c480cff86060c344a935822d7b2912",
+          "sha256": "a122769fb637a313e8c4c02d9fc328d3a880421bafd7838328aaca9f78f61efc",
+          "sequence": 25
+        },
+        {
+          "record_id": "record-8691b2f932a7c3a6d7ad0264f3bd173aeafbe61be119b71c94e267ad0b75d60f",
+          "source_id": "span-89ba5a981f13db62810f520679f455484a8422e2ed36882f274cefcadee37fdd",
+          "sha256": "b0c72af27a799eda112f3f6df789ecffb82f10d388ffadb838dcefc94a58d28e",
+          "sequence": 26
+        },
+        {
+          "record_id": "record-b5eaebb247e6b6e45218b59130edf1cfc2e66ae6edc7caa5b65c0173485b44a7",
+          "source_id": "span-e2fbed93105bad32e021004ef55eada4a6e54a02b2cef30088217043881f9f18",
+          "sha256": "77bbe17eeba5bfae7f7dec6e86c19b8f4665d542e00416da5ccd1d1de210dd05",
+          "sequence": 27
+        },
+        {
+          "record_id": "record-9100e4e85919278e4b104593235a8bfe3a9e52807e58295dc329d32e9b5d6c6f",
+          "source_id": "span-852d64f33b9e000ce78753f0dae9382b72307868ed97524d0a9c8ce594c53752",
+          "sha256": "664acb78ebac9fc88d50b6a51afe41c82013813fa39959b05fc7e91d55ea5031",
+          "sequence": 28
+        },
+        {
+          "record_id": "record-2c91b282a5b251735ac5a87bf3c2fb94e13b161a4b157743599a20b7dc88c168",
+          "source_id": "span-6b5d380b4b58d6e697ed8433e03935c5ebdfa16935f43e9ffac8fbd70dc49635",
+          "sha256": "3d443771d8a6778a7b136ce314e6fd7c780d97705d96517c43c5d8f12d837476",
+          "sequence": 29
+        },
+        {
+          "record_id": "record-4aded62f9f4ae9357ca8b2bf8faa365f0b57597bbb35e5a95f79c35983845f93",
+          "source_id": "span-5f4433abddd778ee0e13e35b831137a3d095de55aedfddd3a10b1b28c2bc831d",
+          "sha256": "cbf42b079bcaccc634f091e43c6557d04ae4b1f23c5a972012d5f9759ad74e2f",
+          "sequence": 30
+        },
+        {
+          "record_id": "record-1857029f2a7a3e4fab19324c6049dcca51cd5dfab636ce10397b46bd639447d8",
+          "source_id": "span-87a08dffedf2373b726e35a6a8c702e999c51ceb75ca2dee0c969b7f8d365be3",
+          "sha256": "a406849fca99ad51c8bfc9febcc83308acdcb5a5d2666621e39eeecf85dbf191",
+          "sequence": 31
+        },
+        {
+          "record_id": "record-8cc8bea3b2105bce24ff4dc14863b667064a18ca78778c0494e72c9016b2165c",
+          "source_id": "span-60059c935e5f1fae6a6d3b6e85ce4f404906d2c25b52d29a8f96a363e5d552cd",
+          "sha256": "37c95faaf546c4530e9edf57a40e267520445f2099c35516e939a973b9cdfe61",
+          "sequence": 32
+        },
+        {
+          "record_id": "record-c8c16e332f2ae74bff1a230818e646e8defd99ac4f399a7b389911d1c94d4383",
+          "source_id": "span-31a8ccc5a0f4aa1fbec733ae4eb2a10889d6cbf58f325fdcc61da13b452219d8",
+          "sha256": "84a2963da6493ee23e5a9603d461babde51b8773976e2bb6ff7344acdcdff424",
+          "sequence": 33
+        },
+        {
+          "record_id": "record-e1e8f70417814b8a29a055dda13fafc26eef1e012b7e3e4f1a45dd0fe5c08be7",
+          "source_id": "span-70616dcae762cab304c89e39b0ab0892509b9cf09a3bb62dd2d2c8a31a58d5f8",
+          "sha256": "360b0defdccba54e78e288d6110a90bd01166b33b2383e577f5570a7bec6a738",
+          "sequence": 34
+        }
+      ],
+      "cutoff": 35,
+      "rules": {
+        "life": "一般以日干落宫为本人，在家庭，以年干为父母，以月干为兄弟姐妹，以时干为子女",
+        "recent": "凡预测一个人近期机遇和行运，可以通过问测时间的奇门格局进行分析",
+        "limits": "对古人的经验，只可参考，不能拘泥"
+      },
+      "provided_roles": [
+        "本人日干，家庭与社会角色按本轮问题选择，不由年龄替代人物关系"
+      ],
+      "tasks": [
+        {
+          "type": "timing_analysis",
+          "targets": [
+            {
+              "record_id": "record-609862e6c8b891a9cc1c453c0d971088bd0cb646c23ab996dd8869b67619c793",
+              "source_id": "span-f6f7ff36da219310970c6a1ecbc0a8da6ae65ffcf44afe034203bbe7336a7a45",
+              "sha256": "21f476c8b76fb49a5ddb30b0ffacbca0f2dcee2e128d9e275a48126e65997cf2",
+              "sequence": 35
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-609862e6c8b891a9cc1c453c0d971088bd0cb646c23ab996dd8869b67619c793",
+              "source_id": "span-f6f7ff36da219310970c6a1ecbc0a8da6ae65ffcf44afe034203bbe7336a7a45",
+              "sha256": "21f476c8b76fb49a5ddb30b0ffacbca0f2dcee2e128d9e275a48126e65997cf2",
+              "sequence": 35,
+              "quote": "巳酉丑马在亥"
+            }
+          ],
+          "answer": {
+            "explanation": "大儿子1970年庚戌及汽车技术问题已在本轮前告知，作者用巳酉丑马在亥，给亥月或亥日出发口径。下一反馈的7月31离家与8月1坐飞机是不同出发节点，不能事后挑一个把所有节点算精准。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ],
+            "methods": [
+              "马星所在支取月日"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-3f5bd69c19807861162f3dae2de2d5b171199a2714e37bd15088f89d33c65b2e",
+      "event_id": "event-e7e418966dec99373ff7ea7bb9a3f72022c45153fa0b354443b709e01ae50f99",
+      "family_id": "family-8fc64773a16c951fb9e808b55162729a3a6aa56ff0fda4a74df1648265a0ee30",
+      "chart_id": "chart-cbcaceb55a2d0c529ed034a85cdf4e32a6bc853c9077e8d36baa8c2a97eeb961",
+      "chapter": "21-life-opportunities",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 2,
+      "stage": "factory_question",
+      "mode": "continuation",
+      "source_prediction_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known_source_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known": [
+        {
+          "record_id": "record-7539e42b1e0258a06e5a4b703225db3ea61b24bf2dedd93986d3587c70bdca3f",
+          "source_id": "span-a6bc2ea75d090bd51538de8ed68acaee83d5f340038a3eb8f01a984ba5defa8f",
+          "sha256": "14090fcbba5b8f9210677e939e1bd5c19262270bcb2f2c5cb1a565bb36e172d3",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-e998b06a6d84050e83633819276f3edabf6baff2f31b36a161208a8459c42d7f",
+          "source_id": "span-ecc9baf000333c9e476d37e30f3a6ae4586fd1c091d97f922da9da6da844e539",
+          "sha256": "6776acc861d7990bd2285938fa3d7c182794b0e017b9c37d3be8c962bc58b95b",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-fd7129b9d668fdab273139656091f227a459ffd3a50bb7f47d2495f7876863ab",
+          "source_id": "span-16963f3e1b2d4e1fa3be23c1da429e42c48bcf751719bd78ff3244ffb759f8d5",
+          "sha256": "876b3ec63019cffee01a93c62cbc8624abf2fc97cbee00c910a1765a3d1733c1",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-2ab4989be8e1ec68ffbc0091c47b4297ad87edb2a58a5baa19813b376c269d87",
+          "source_id": "span-4f2f137cb6bcbf4bd8e6685742bba735dcb0bf59232df19c266b907ad939bcaf",
+          "sha256": "ca6956a2cee68564c5df0dd7138e0914b911b21d4ed2c02d15a1e0704ebb4d06",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-af63c1ef61ca137af5f886c11be864c8e27e49e19d1bd7718a1baebde2b9faee",
+          "source_id": "span-9dab4b7b9c2248a0553efe4b9f6b4de2a6294de0f4ed619f24dfacc720af8453",
+          "sha256": "9f4c0ecfaab23598c54f4cca48267dcdf3c1245ee8f73d0f43c830dd5ab2a29c",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-0949af1c4da8f21a0b8db9383cfe5d3fae8f023ac55e9d721d2ecfbf50ad54a1",
+          "source_id": "span-65324a237854e5163c68376105ac3023a6cb2e426a137a1f87eac7f9a8bf3dbd",
+          "sha256": "dfb9aa85deb571d87366998c66d8b9f25e021226a1da7a4787f4f9d466a94e4c",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-46244fd91024cb8e499b53b53e2d903408972f2342b90b2277072323ad773d5b",
+          "source_id": "span-544de9d2fda68bf70e35cd5dec4ec272c1257286a871a31c4ffd89fc5a692364",
+          "sha256": "03191ca68f9a9c1b55ed129c29fd4b6a6dfaddcab7447a449ab119e049e5abeb",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-2e0bfc6d8aa100d9b94c20ae337c96765556455c8da981d870e7c72ed3f55765",
+          "source_id": "span-171e9a9008d308fb2223f48a1b59f369912dbe77426027cd29e7096739162f5f",
+          "sha256": "e7efdedd55817089b55ce5635fd8d1f24da9bcb54373cda288d7768170957dda",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-f93a186fd91458f3ced78c5b9fbbb21407a39fbb80f7b9831e5d3a826eb9c64b",
+          "source_id": "span-6bd4f920bf603c9484c783d984cbe380b66ececf67d657ade57874febd0a808a",
+          "sha256": "440901043d39215c36b898c6e9ca7d5ce488a35928d18a8e16902c427d480d28",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-5d0b0dd5290d0db090313b8ef4952adb78a247ed96056931c1bc224e9890c143",
+          "source_id": "span-4af12253c85858189feb158ba223f8d0bbe2f62479c67c560d09dfd93482f62a",
+          "sha256": "7d04f059a6b5cbed9fada217f30a212093d6e41e3134afe74f5abaefd9b2ceed",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-0bf4efccf376399a4c93b43ad48aa0dc7269ce8779ba6dd46b9b05c33fe9732b",
+          "source_id": "span-eb3486ec5db0bf4d2c04ba5721a4726eec7eeb9b4c47fc75a14b49b497649cb2",
+          "sha256": "8e21bf78cca69565b31ce64d436f6e227c5f274a3c215320135b480bc5370f8c",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-f9234ee875340eda2230e391fe3367e863e94a01722fb394e134b337bdab431f",
+          "source_id": "span-a5eec2b8454b747d54a464a2b5be3bd1fe4b1bdf7b64c905dbce11a5d5f01d0e",
+          "sha256": "1716a1a87ffb4f7dad9b0ec260b04da84ecd98c1de6eb4abf700c97d5fa334c1",
+          "sequence": 11
+        },
+        {
+          "record_id": "record-585debee0f0a26422906d84bbfd0b4149efc1dc9d5cf2d8e02e1c892972510cd",
+          "source_id": "span-9c32a7ea70babcc7ec3ac258c97e5a768971340bfe6d04b47956d0f35f11c635",
+          "sha256": "2903271520dced7a456a4b9646b8c38f049bfd7cbd874247c9547989af9a209d",
+          "sequence": 12
+        },
+        {
+          "record_id": "record-7cf84bdd368932d5e713ad1ef0bb1a52441e6ee715685ef9f4926c10de59a41a",
+          "source_id": "span-7810fa3f4b335d56ad72eed881f8d3b0160172f1ed03410e767cbda2ad2ae855",
+          "sha256": "09074ba6e538078f897a12a1f8fcd40b93d4a10ffa66f222b6d7427d060178fe",
+          "sequence": 13
+        },
+        {
+          "record_id": "record-8d5e3b744bf0cea2f7440d84674c99f47e882929e1b3c9b5af0509499a524763",
+          "source_id": "span-4d16fe270e85af364d9f9443dd0debe8369828caa0b73457014cca355658427f",
+          "sha256": "eac1a722e4b940286bb6a8ddf999991b1a5a6027b1bd2086028f3fdaf5c9f529",
+          "sequence": 14
+        },
+        {
+          "record_id": "record-150519656bf25ddf2c971f2025ab673eb10260a5a54670e1a0649dd9ca1ab66d",
+          "source_id": "span-403f5e35351b4a36b74b2432860c0f3ded553b8332431fc9310cc80081f9ec38",
+          "sha256": "a11c22d9edd540529f7da09b0f34479cab131644cea2c2025aabbe91606deb5d",
+          "sequence": 15
+        },
+        {
+          "record_id": "record-9f3f68e903f11df2aae780576c1ff62b8a96b54cfaee6fd6a424ac0c0b64afbd",
+          "source_id": "span-505e8eb57ba5ad16323062ec9d977accd12b765082bf1d00ce001017819f2a73",
+          "sha256": "696ac0312da3cb5c63cab3ee25c8fc01c9e6b7c589ecedeb5381830e6bec1609",
+          "sequence": 16
+        },
+        {
+          "record_id": "record-34a7431b751e80dbacfa822a9bc305aeb5fe90e6162fc02f139a8b3f76aa477a",
+          "source_id": "span-787daafe9bb525808df9478ab0b4a335984fa64aadcee19d5a659dd1eb5e686a",
+          "sha256": "dbdee6ac83443c073b5a001ed72cffa282810100e6c24c4d823fee942b7d30f8",
+          "sequence": 17
+        },
+        {
+          "record_id": "record-c42b7531c3201eb7aeba3956743ab70c42d84b8bc2550a97962c10f344dcb76e",
+          "source_id": "span-14e444ee266416acca6f7b154d858067b24b19ebe717e2466d484c0854fc1990",
+          "sha256": "075ebdde140f398c270121715f742e9e6207bd85ab7b3a7e4179acd3b64c5e3a",
+          "sequence": 18
+        },
+        {
+          "record_id": "record-0d4d2f501ade6eb42a660ac05558a5987d9fe3ae6a9f349e29e15c30c96ff47e",
+          "source_id": "span-3ea04e5340b156a977933c3deebcfab620446a44522c410ef99322b1a41d1bdb",
+          "sha256": "f473369711f039e0f060a45b5b067f3aa6f0b81b5b1c553f3f11bc3fa8865b75",
+          "sequence": 19
+        },
+        {
+          "record_id": "record-a3da766048b2673c4dd854fe2161571cb92c383382aab75884210488f4a8533c",
+          "source_id": "span-e36d82fd35ef9e5a5a1b48c639dd7eca4965f99230c73944c05a8a475868f518",
+          "sha256": "60a174c6d24052742dbe6d0ff3cc1eaf211037c65142c06f2a0f1728e7dd95bf",
+          "sequence": 20
+        },
+        {
+          "record_id": "record-1b80154e946e32633ca3f105b5bf5d9798039581a2a19535a3b6ccdde2aa670d",
+          "source_id": "span-a941a8c21b9bb151919ad1960cecd95bdc88951d39e6b39ffe6d07a163d85128",
+          "sha256": "b85d65c291d790dfb5c5ada6e28a1cb8d53acb80a7ee949b400794ef0b1a8d23",
+          "sequence": 21
+        },
+        {
+          "record_id": "record-5964b00da4e464f160a34fbf7252c6ae82c0a8b986e6225703499b38dc8618f5",
+          "source_id": "span-a0277271ef5ee4914e025d43e0f62bcd03b2d00800164a2ef661dc5143d7449f",
+          "sha256": "8573faf922eff49479b225ac3b3555b6cc3d61ee1a1cca104ce06e9b013e8c11",
+          "sequence": 22
+        },
+        {
+          "record_id": "record-74d5ff42e8518ef6393b2fe8506f088da5b2f4051562c401cc7ebe0dc27c2993",
+          "source_id": "span-ee6c432cdc5445de25dcfbc1f4c35ed77e66e1460695b44a8ecbedabb562cde1",
+          "sha256": "4d51247061a19802c26b2ebb4c35e6f1f211e314c152f173910c07d0ec189024",
+          "sequence": 23
+        },
+        {
+          "record_id": "record-d753c2973b3430dea8740315295fdc72145c285682a2776f76b6fe513b24e0fe",
+          "source_id": "span-7d6a0a77dd5630efdaa84b7633856330139cc78a58c757d66f0b47515d10e5d3",
+          "sha256": "555f77c88f2f62aa34e36b75351beee222854c82cb59d8b2135b8794fdaea6cb",
+          "sequence": 24
+        },
+        {
+          "record_id": "record-dcf206d78700f11262a0f32b0c62d613262f96e98f912acd3a8e91e944e52765",
+          "source_id": "span-db76a859c5cc5f3bdce94a111bb57b8535c480cff86060c344a935822d7b2912",
+          "sha256": "a122769fb637a313e8c4c02d9fc328d3a880421bafd7838328aaca9f78f61efc",
+          "sequence": 25
+        },
+        {
+          "record_id": "record-8691b2f932a7c3a6d7ad0264f3bd173aeafbe61be119b71c94e267ad0b75d60f",
+          "source_id": "span-89ba5a981f13db62810f520679f455484a8422e2ed36882f274cefcadee37fdd",
+          "sha256": "b0c72af27a799eda112f3f6df789ecffb82f10d388ffadb838dcefc94a58d28e",
+          "sequence": 26
+        },
+        {
+          "record_id": "record-b5eaebb247e6b6e45218b59130edf1cfc2e66ae6edc7caa5b65c0173485b44a7",
+          "source_id": "span-e2fbed93105bad32e021004ef55eada4a6e54a02b2cef30088217043881f9f18",
+          "sha256": "77bbe17eeba5bfae7f7dec6e86c19b8f4665d542e00416da5ccd1d1de210dd05",
+          "sequence": 27
+        },
+        {
+          "record_id": "record-9100e4e85919278e4b104593235a8bfe3a9e52807e58295dc329d32e9b5d6c6f",
+          "source_id": "span-852d64f33b9e000ce78753f0dae9382b72307868ed97524d0a9c8ce594c53752",
+          "sha256": "664acb78ebac9fc88d50b6a51afe41c82013813fa39959b05fc7e91d55ea5031",
+          "sequence": 28
+        },
+        {
+          "record_id": "record-2c91b282a5b251735ac5a87bf3c2fb94e13b161a4b157743599a20b7dc88c168",
+          "source_id": "span-6b5d380b4b58d6e697ed8433e03935c5ebdfa16935f43e9ffac8fbd70dc49635",
+          "sha256": "3d443771d8a6778a7b136ce314e6fd7c780d97705d96517c43c5d8f12d837476",
+          "sequence": 29
+        },
+        {
+          "record_id": "record-4aded62f9f4ae9357ca8b2bf8faa365f0b57597bbb35e5a95f79c35983845f93",
+          "source_id": "span-5f4433abddd778ee0e13e35b831137a3d095de55aedfddd3a10b1b28c2bc831d",
+          "sha256": "cbf42b079bcaccc634f091e43c6557d04ae4b1f23c5a972012d5f9759ad74e2f",
+          "sequence": 30
+        },
+        {
+          "record_id": "record-1857029f2a7a3e4fab19324c6049dcca51cd5dfab636ce10397b46bd639447d8",
+          "source_id": "span-87a08dffedf2373b726e35a6a8c702e999c51ceb75ca2dee0c969b7f8d365be3",
+          "sha256": "a406849fca99ad51c8bfc9febcc83308acdcb5a5d2666621e39eeecf85dbf191",
+          "sequence": 31
+        },
+        {
+          "record_id": "record-8cc8bea3b2105bce24ff4dc14863b667064a18ca78778c0494e72c9016b2165c",
+          "source_id": "span-60059c935e5f1fae6a6d3b6e85ce4f404906d2c25b52d29a8f96a363e5d552cd",
+          "sha256": "37c95faaf546c4530e9edf57a40e267520445f2099c35516e939a973b9cdfe61",
+          "sequence": 32
+        },
+        {
+          "record_id": "record-c8c16e332f2ae74bff1a230818e646e8defd99ac4f399a7b389911d1c94d4383",
+          "source_id": "span-31a8ccc5a0f4aa1fbec733ae4eb2a10889d6cbf58f325fdcc61da13b452219d8",
+          "sha256": "84a2963da6493ee23e5a9603d461babde51b8773976e2bb6ff7344acdcdff424",
+          "sequence": 33
+        },
+        {
+          "record_id": "record-e1e8f70417814b8a29a055dda13fafc26eef1e012b7e3e4f1a45dd0fe5c08be7",
+          "source_id": "span-70616dcae762cab304c89e39b0ab0892509b9cf09a3bb62dd2d2c8a31a58d5f8",
+          "sha256": "360b0defdccba54e78e288d6110a90bd01166b33b2383e577f5570a7bec6a738",
+          "sequence": 34
+        },
+        {
+          "record_id": "record-609862e6c8b891a9cc1c453c0d971088bd0cb646c23ab996dd8869b67619c793",
+          "source_id": "span-f6f7ff36da219310970c6a1ecbc0a8da6ae65ffcf44afe034203bbe7336a7a45",
+          "sha256": "21f476c8b76fb49a5ddb30b0ffacbca0f2dcee2e128d9e275a48126e65997cf2",
+          "sequence": 35
+        },
+        {
+          "record_id": "record-ffa6aa457f44f5e06f9fedd9fe77c0238251d4fee619dd3c48454a25b894e29f",
+          "source_id": "span-a971f5e6ce7814fd491c47f680ab65308596263b573dfda77cb9cb4b3e3854a4",
+          "sha256": "b6e443c524f4bbf1eac20693fb21ca8ddb0a006cbf4f0160c91c312a7984e8c2",
+          "sequence": 36
+        },
+        {
+          "record_id": "record-02a6b85a581791dbcec320e2078e555828d6526070832577ec020d64db6696f5",
+          "source_id": "span-4eaee185410ca0e8eee5f7e999951bcbf287996710896086a00fbba2fcffde8b",
+          "sha256": "af9860d0a353660eeee74124f64bf112f3d5989dcb095a5c827ab1c04e76fcb8",
+          "sequence": 37
+        },
+        {
+          "record_id": "record-5b8cfdb777544b7121a308bcf7cdcbd60d8e4432bb65b258a56c540f5c532d5c",
+          "source_id": "span-240469b10e45fed069ad70eb9da630af67015102008da55e6d057a2b54f7b056",
+          "sha256": "85886b4c6deb2aefd8ad66b800dc7fb5f52f36f9cb9731d9fed231ee6cd3ffd5",
+          "sequence": 38
+        },
+        {
+          "record_id": "record-8ca5f5da837326c356fcac1da16a41c2b5a47d13314c1d99a0fe831431b033bc",
+          "source_id": "span-b181dce8bc0211323ba1be2187229e109516d5aae67e8796834fcce5354f156d",
+          "sha256": "7afb5210fde0b7c8d685479782afdc9a1511aad6eef5536099d7afcb4e9c4002",
+          "sequence": 39
+        },
+        {
+          "record_id": "record-3f227c2d611b80765dd416f15ba176727fd36612225655bcffab0ccc88e2f012",
+          "source_id": "span-5b604e805be41e7052eb0e34eeda216aa192e5c517acfd246c7de91ca9d67291",
+          "sha256": "2844b486e04080c2c3ed52ee5ee3a1cf33d856ab4125f94eb0fab49e2d6e4a37",
+          "sequence": 40
+        },
+        {
+          "record_id": "record-08fd43d8ab460dd380f85bdc0f595b291bbecf26057c0d126776f9febc8dd95a",
+          "source_id": "span-a115fa9c779bded20edda6d39c6d70fdace34371648a54b442ebc6a0ad49e912",
+          "sha256": "ab8fa14929ee4e918425eb79a3740c9748338de71deb0b5c697f78b3026bdf60",
+          "sequence": 41
+        },
+        {
+          "record_id": "record-cde004072a218811e212f2a2707fe046fd592de34eacceebc900076a7b9197c6",
+          "source_id": "span-6aff12f42bd8b1862b92fee64686138f9abafeabb74d1c9e09c3833dedee3533",
+          "sha256": "4c9bce6d957669bf0aee7feb60ca57d17ea779e2afc4136dca6b3a0cae017532",
+          "sequence": 42
+        },
+        {
+          "record_id": "record-23dc35a833b39bd69e6bc5b060be9cbbeae747369d1c4ab52e1819cb5eedd1d8",
+          "source_id": "span-0f6ea42053ae9cf9df9fd875dae849db7d5d2130deec3be203309144dbb642d0",
+          "sha256": "5e17a4886cb455313afc1c00d89eb3453111136a1d34f8e3c3f330105cb5b033",
+          "sequence": 43
+        },
+        {
+          "record_id": "record-9777c2d37477243a12cd6ed425a2bf949877c4dab160072db4d432cbfe95c55a",
+          "source_id": "span-8f304c4b1216495ef7588efa78fc5f9831f1e3286963e914f9ad72f84e3a2a6a",
+          "sha256": "b5e9d3b510d14d8fa08c04b97487378150131672e6ae68c16cd7bba14764f877",
+          "sequence": 44
+        },
+        {
+          "record_id": "record-5d06b2baa2bd4e2458e7397dc0f2280618d5456299b25af37df1115eea50cb8b",
+          "source_id": "span-f2091008e854f070d1d9b73651971e57142adbe792789fc0cf5123d3e8777e59",
+          "sha256": "93d72f36c6173155782082d93f14684a3f9f4b42ec26634715d279f2c9759f88",
+          "sequence": 45
+        },
+        {
+          "record_id": "record-63670d642ce3f24b23c979eb7e2d6eaadbd99028a6316bbc38b443293dc55f14",
+          "source_id": "span-b39198406ae507094477a636d7100a583f1e96dd7fefd86e798536918dd0a72d",
+          "sha256": "9d90dcbcc6784ef5e04876b835f978e8657374049fcb39e51fbf0917142e075a",
+          "sequence": 46
+        },
+        {
+          "record_id": "record-71a853d93bac36c6858b89a5c004e78c0f3ef7ca202398e2fc8f924a2a1659fd",
+          "source_id": "span-0dbe087776f9aa6b91701fbb512d7a2c2727a1e20501425eeb9c6481ed799804",
+          "sha256": "15db7c7d8f792ab6fe6985a4666eba5e37d152fd94659e41a3321af7a86dccd3",
+          "sequence": 47
+        },
+        {
+          "record_id": "record-6f9b8a0998978a79083d76ca0b04fa1e124cf54aefc846523002fc715c31d5a2",
+          "source_id": "span-2f62336b35bcca807f023457acc789a32e6b8bae076105b9c76ec4f42cface79",
+          "sha256": "c3f0cd92792def99d3216bb482acf136907926f3a4611f07ac7a06989d11f252",
+          "sequence": 48
+        },
+        {
+          "record_id": "record-f7ed3710332bb17729da241ad48a02787677bd3c6f9c87c1d1c1a1e71920227c",
+          "source_id": "span-6db5fc3422905da9318864f327f1b9b845e162513bf5670ad2568931c60cd7bb",
+          "sha256": "6bcb893cc79248c383fb4990c64bcb8e90622a763f6be82c581b9764b35dd823",
+          "sequence": 49
+        },
+        {
+          "record_id": "record-3f0d6880e8416d7c37b1d3187eafad311d48a31ae10f7c8488211ca195266545",
+          "source_id": "span-c9e2b3af1d00b51eee1cf296e185b20b5e73fa76330b86100a84b381f2e6c768",
+          "sha256": "fe3f4d2cfd44513374d62c4abf1be2558111df2e0d297ea68a8e136fefd67ac8",
+          "sequence": 50
+        },
+        {
+          "record_id": "record-096e38519d4589d17f26ab865df14fab8de20494ee142fcbf09795f841bd06e3",
+          "source_id": "span-28fe38e60223b3567d425a633f5336679093e04917932d6d6c64604689606eb3",
+          "sha256": "4f5fff5579126384b803f4f4d6010ef5479c58c4ba7d0efdb5c4ba6f9c18eb2b",
+          "sequence": 51
+        }
+      ],
+      "cutoff": 52,
+      "rules": {
+        "life": "一般以日干落宫为本人，在家庭，以年干为父母，以月干为兄弟姐妹，以时干为子女",
+        "recent": "凡预测一个人近期机遇和行运，可以通过问测时间的奇门格局进行分析",
+        "limits": "对古人的经验，只可参考，不能拘泥"
+      },
+      "provided_roles": [
+        "本人日干，家庭与社会角色按本轮问题选择，不由年龄替代人物关系"
+      ],
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-18e5d9bd77f2ec1f455211f8cea9193e6464d1d8e250d2fbe97f2ce0843d6dbb",
+              "source_id": "span-fdac0df1a5f97895804fc7a099f649c508cc54f60010a9ab0911411b15bb28f4",
+              "sha256": "68dbac62b3ed3dede2a12fc578bb38479840e3c5ee355d0cf7def58c4ce3e5ec",
+              "sequence": 52
+            },
+            {
+              "record_id": "record-075db303666e48e75efc9d797c952def0164c16c9449d096ef91a4dc3d5e3f41",
+              "source_id": "span-717ccb85fe02c2b153049f42e619330b57aa1df6395239e0793d8c2416e572b2",
+              "sha256": "e86498537322785dbad0fef54510f3d46bca8a83e19a0e80c0a21482ec39ac2d",
+              "sequence": 53
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-18e5d9bd77f2ec1f455211f8cea9193e6464d1d8e250d2fbe97f2ce0843d6dbb",
+              "source_id": "span-fdac0df1a5f97895804fc7a099f649c508cc54f60010a9ab0911411b15bb28f4",
+              "sha256": "68dbac62b3ed3dede2a12fc578bb38479840e3c5ee355d0cf7def58c4ce3e5ec",
+              "sequence": 52,
+              "quote": "时干克日干，时干又逢空亡"
+            },
+            {
+              "record_id": "record-18e5d9bd77f2ec1f455211f8cea9193e6464d1d8e250d2fbe97f2ce0843d6dbb",
+              "source_id": "span-fdac0df1a5f97895804fc7a099f649c508cc54f60010a9ab0911411b15bb28f4",
+              "sha256": "68dbac62b3ed3dede2a12fc578bb38479840e3c5ee355d0cf7def58c4ce3e5ec",
+              "sequence": 52,
+              "quote": "开门为用神，生日干宫、月干宫、年干宫，又上乘六合"
+            }
+          ],
+          "answer": {
+            "explanation": "在整轮家庭问答之后，最后转亲戚合办铁塔厂，作者改用开门工厂与时干事项，比时干克本人又空的不利，以及开门生多干宫、六合和金电类象的支持，给难度不小但可望戌亥办起。文中没有之后工厂结果，不补造成功反馈。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-3f5bd69c19807861162f3dae2de2d5b171199a2714e37bd15088f89d33c65b2e",
+      "event_id": "event-e7e418966dec99373ff7ea7bb9a3f72022c45153fa0b354443b709e01ae50f99",
+      "family_id": "family-8fc64773a16c951fb9e808b55162729a3a6aa56ff0fda4a74df1648265a0ee30",
+      "chart_id": "chart-cbcaceb55a2d0c529ed034a85cdf4e32a6bc853c9077e8d36baa8c2a97eeb961",
+      "chapter": "21-life-opportunities",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 3,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known_source_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known": [
+        {
+          "record_id": "record-f56af9f59715ecf8cc31c2ed22a14d7a20d0c730075fa36e57bf3a6d6c473e06",
+          "source_id": "span-db29e8bc060ed0a8abda6901bfcffe0c62d45bfec40a7e50888f20d4b3f60422",
+          "sha256": "d14f1c2742c0814a08a81bef317bb9635556166ed498581c6c0db96efbd77f80",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-d84359ceda8fc5417cc17db2b72b6710f6f5e78c22fcd11555af653f2d853df6",
+          "source_id": "span-bffa71fbb327395a17e75aa43fe32b6462412cd4cbcec8769cecfd2eb326df75",
+          "sha256": "429f0b6f84d265709007675c38704efc7626bd86731cc73d90a1eb94fab6b877",
+          "sequence": 1
+        }
+      ],
+      "cutoff": 2,
+      "rules": {
+        "life": "一般以日干落宫为本人，在家庭，以年干为父母，以月干为兄弟姐妹，以时干为子女",
+        "recent": "凡预测一个人近期机遇和行运，可以通过问测时间的奇门格局进行分析",
+        "limits": "对古人的经验，只可参考，不能拘泥"
+      },
+      "provided_roles": [
+        "本人日干，家庭与社会角色按本轮问题选择，不由年龄替代人物关系"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-7db9f005322e3874f5b2bf7c7af4feb72fe8d1e69e347b79b58ad741d40d75c7",
+              "source_id": "span-4f224f96e2d8492d8b65dbc99390f481c384b686962f6f982f905a4ea353d8d6",
+              "sha256": "77d3c31c7eea4d3235ea3498261011735646f7b27cf35684fc7cee6b79d86fe1",
+              "sequence": 2
+            },
+            {
+              "record_id": "record-c1b7efe4055eccb1722d2c45971a952c78dc147733ab044b14ca423198f1f557",
+              "source_id": "span-b49c7700cc51c8a459d5b846f69dc64aad989627e69f51388d601f279e12e5d6",
+              "sha256": "f0a4f43c335e07ee617547d7ae654b0320964c60a4e884740c6321c33e99d524",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-9b18f4321a6e661b8dbc1a659d368cb2436aac7b64a2eac720250eabd7b603bb",
+              "source_id": "span-0710ead39417af6f6647cd48b12aaebfd06b4a8e09776441c32e0afe4a7ee21d",
+              "sha256": "cb872482e82838621439dcfa579b50c108a43cb2162d9f5e882f115d07bb82d1",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-1a7b16f6a69082c5709539dda85dc073208e71cf28f7f624acd27d4b510d2263",
+              "source_id": "span-52e5a1d970c7d77a0c8df98e7438790b2ad5a949c98658c3a3b0f5f035fc9383",
+              "sha256": "58e9c2ce30d52986ae5d55d1aab3c45d456d4ad9984b93cccbb93ab8cd314d3f",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "赵某本人问全年灾祸，以日庚本人、时丙事项及作者给的丁酉年命分看。年局是正月初一问时局，不能混作出生局，年内时间目标也不能事后缩成已知初五。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ],
+            "bindings": [
+              {
+                "role": "赵某、事项",
+                "symbol": "日干庚、时干丙",
+                "condition": "全年问题的问时盘"
+              },
+              {
+                "role": "本人年命",
+                "symbol": "丁",
+                "condition": "作者另给1957丁酉资料后使用"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-c1b7efe4055eccb1722d2c45971a952c78dc147733ab044b14ca423198f1f557",
+              "source_id": "span-b49c7700cc51c8a459d5b846f69dc64aad989627e69f51388d601f279e12e5d6",
+              "sha256": "f0a4f43c335e07ee617547d7ae654b0320964c60a4e884740c6321c33e99d524",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-9b18f4321a6e661b8dbc1a659d368cb2436aac7b64a2eac720250eabd7b603bb",
+              "source_id": "span-0710ead39417af6f6647cd48b12aaebfd06b4a8e09776441c32e0afe4a7ee21d",
+              "sha256": "cb872482e82838621439dcfa579b50c108a43cb2162d9f5e882f115d07bb82d1",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-1a7b16f6a69082c5709539dda85dc073208e71cf28f7f624acd27d4b510d2263",
+              "source_id": "span-52e5a1d970c7d77a0c8df98e7438790b2ad5a949c98658c3a3b0f5f035fc9383",
+              "sha256": "58e9c2ce30d52986ae5d55d1aab3c45d456d4ad9984b93cccbb93ab8cd314d3f",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-85964ae997a900743a21f596f94a2886766a3fec262fcdc1f9a06fabf9ca0177",
+              "source_id": "span-4cb90e970fb9d31d3221d0c9bda39a81eedd5c9bf608226f94441f0202b8e717",
+              "sha256": "5e5acb732801c0e67c4e35a7015c082e8134ddb122c16912308f71989448ebf9",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-17e93b8a8a70ff129f17e6045360397efd755b5b41e3a0c156c2db3e7d119d86",
+              "source_id": "span-3fc82010d2f3567f4179faa502c484443aca240023de4cfde1dbb5e4b5c2749e",
+              "sha256": "121386a925a94ec9ef5aa970b83aaf2666a5d868f7c5a1a851eec917c98573ed",
+              "sequence": 7
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "日庚巽四伤门白虎天蓬、时丙震三、丁坎一及艮八休门按源；车祸、生死与实际时刻不属于表格字面。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ]
+          },
+          "facts": [
+            [
+              4,
+              "heaven_stem"
+            ],
+            [
+              4,
+              "door"
+            ],
+            [
+              4,
+              "deity"
+            ],
+            [
+              4,
+              "star"
+            ],
+            [
+              3,
+              "heaven_stem"
+            ],
+            [
+              1,
+              "heaven_stem"
+            ],
+            [
+              8,
+              "door"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-7db9f005322e3874f5b2bf7c7af4feb72fe8d1e69e347b79b58ad741d40d75c7",
+              "source_id": "span-4f224f96e2d8492d8b65dbc99390f481c384b686962f6f982f905a4ea353d8d6",
+              "sha256": "77d3c31c7eea4d3235ea3498261011735646f7b27cf35684fc7cee6b79d86fe1",
+              "sequence": 2
+            },
+            {
+              "record_id": "record-c1b7efe4055eccb1722d2c45971a952c78dc147733ab044b14ca423198f1f557",
+              "source_id": "span-b49c7700cc51c8a459d5b846f69dc64aad989627e69f51388d601f279e12e5d6",
+              "sha256": "f0a4f43c335e07ee617547d7ae654b0320964c60a4e884740c6321c33e99d524",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-9b18f4321a6e661b8dbc1a659d368cb2436aac7b64a2eac720250eabd7b603bb",
+              "source_id": "span-0710ead39417af6f6647cd48b12aaebfd06b4a8e09776441c32e0afe4a7ee21d",
+              "sha256": "cb872482e82838621439dcfa579b50c108a43cb2162d9f5e882f115d07bb82d1",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-1a7b16f6a69082c5709539dda85dc073208e71cf28f7f624acd27d4b510d2263",
+              "source_id": "span-52e5a1d970c7d77a0c8df98e7438790b2ad5a949c98658c3a3b0f5f035fc9383",
+              "sha256": "58e9c2ce30d52986ae5d55d1aab3c45d456d4ad9984b93cccbb93ab8cd314d3f",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-85964ae997a900743a21f596f94a2886766a3fec262fcdc1f9a06fabf9ca0177",
+              "source_id": "span-4cb90e970fb9d31d3221d0c9bda39a81eedd5c9bf608226f94441f0202b8e717",
+              "sha256": "5e5acb732801c0e67c4e35a7015c082e8134ddb122c16912308f71989448ebf9",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-17e93b8a8a70ff129f17e6045360397efd755b5b41e3a0c156c2db3e7d119d86",
+              "source_id": "span-3fc82010d2f3567f4179faa502c484443aca240023de4cfde1dbb5e4b5c2749e",
+              "sha256": "121386a925a94ec9ef5aa970b83aaf2666a5d868f7c5a1a851eec917c98573ed",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-55386f06d9bfb288af879a6d95fe3a0e08978ffcf6b429ace7a1a2c96b7199e3",
+              "source_id": "span-9deec0b5be4c48ad32da390bbe7ae1a1d4baedbff735c58f82ebe2c81f4217d0",
+              "sha256": "989d377140f8d504dc17db1b6e11096f6278ae12ddc89a7c33bf17692c717c65",
+              "sequence": 8
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-7db9f005322e3874f5b2bf7c7af4feb72fe8d1e69e347b79b58ad741d40d75c7",
+              "source_id": "span-4f224f96e2d8492d8b65dbc99390f481c384b686962f6f982f905a4ea353d8d6",
+              "sha256": "77d3c31c7eea4d3235ea3498261011735646f7b27cf35684fc7cee6b79d86fe1",
+              "sequence": 2,
+              "quote": "时干丙克日干庚，为五不遇时"
+            },
+            {
+              "record_id": "record-c1b7efe4055eccb1722d2c45971a952c78dc147733ab044b14ca423198f1f557",
+              "source_id": "span-b49c7700cc51c8a459d5b846f69dc64aad989627e69f51388d601f279e12e5d6",
+              "sha256": "f0a4f43c335e07ee617547d7ae654b0320964c60a4e884740c6321c33e99d524",
+              "sequence": 3,
+              "quote": "甲申庚落4宫为六仪击刑"
+            },
+            {
+              "record_id": "record-c1b7efe4055eccb1722d2c45971a952c78dc147733ab044b14ca423198f1f557",
+              "source_id": "span-b49c7700cc51c8a459d5b846f69dc64aad989627e69f51388d601f279e12e5d6",
+              "sha256": "f0a4f43c335e07ee617547d7ae654b0320964c60a4e884740c6321c33e99d524",
+              "sequence": 3,
+              "quote": "日干临凶门伤门，白虎凶神"
+            },
+            {
+              "record_id": "record-1a7b16f6a69082c5709539dda85dc073208e71cf28f7f624acd27d4b510d2263",
+              "source_id": "span-52e5a1d970c7d77a0c8df98e7438790b2ad5a949c98658c3a3b0f5f035fc9383",
+              "sha256": "58e9c2ce30d52986ae5d55d1aab3c45d456d4ad9984b93cccbb93ab8cd314d3f",
+              "sequence": 5,
+              "quote": "年命丁落坎1宫"
+            },
+            {
+              "record_id": "record-85964ae997a900743a21f596f94a2886766a3fec262fcdc1f9a06fabf9ca0177",
+              "source_id": "span-4cb90e970fb9d31d3221d0c9bda39a81eedd5c9bf608226f94441f0202b8e717",
+              "sha256": "5e5acb732801c0e67c4e35a7015c082e8134ddb122c16912308f71989448ebf9",
+              "sequence": 6,
+              "quote": "休门在8宫被制"
+            }
+          ],
+          "answer": {
+            "explanation": "作者把五不遇、日庚击刑大格及伤门白虎、事项火入天罗、年命与太岁支宫等组合，提出年内车祸破财风险；同时提到太阴休门等有利却被制的条件，不简化为单格必凶。具体初五发生伤亡仍未知，不作现实交通事故预报效力声明。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ]
+          }
+        },
+        {
+          "type": "timing_analysis",
+          "targets": [
+            {
+              "record_id": "record-f288b065bbfc627c8ecb7599752e79278a25672df4826680bb1c8e92b8c0bb37",
+              "source_id": "span-fd021332e3121ab8860088f06f8b06844d85bb3f2d7e93e606c1074b013f4635",
+              "sha256": "e57e744b7a99bee70e1d80cb92a5879539554c8f7e30cde023675e5c110d8a06",
+              "sequence": 10
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "原初只给农历正月、七月重点注意，明确太具体不好讲；虽然前文列马星寅及申酉空，未逐步展开完整年月算法，不能补造。后面初五之数的解释属于事后追加，不能当原初已报初五。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ],
+            "methods": [
+              "原文所给正月七月范围，具体推导未展开"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-ffec60ee3013caaff64bca3218527c9a0ce897774de68d4a5c6bd6a388fb8efd",
+      "event_id": "event-2564aebaabfe5e4209d85fabc869657e09c614243cbb8a05968cbfe80a8ad4ca",
+      "family_id": "family-1d6189ee604804b1e62b48bc91aaf22dc6be768d9f5018d13a5a5cf3d87506c2",
+      "chart_id": "chart-7868b524c466c2dcaf89c991f814523d18cbfe8c828c586284f79a1e6a15fb0f",
+      "chapter": "21-life-opportunities",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 3,
+      "stage": "post_accident_correction",
+      "mode": "retrospective",
+      "source_prediction_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known_source_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known": [
+        {
+          "record_id": "record-f56af9f59715ecf8cc31c2ed22a14d7a20d0c730075fa36e57bf3a6d6c473e06",
+          "source_id": "span-db29e8bc060ed0a8abda6901bfcffe0c62d45bfec40a7e50888f20d4b3f60422",
+          "sha256": "d14f1c2742c0814a08a81bef317bb9635556166ed498581c6c0db96efbd77f80",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-d84359ceda8fc5417cc17db2b72b6710f6f5e78c22fcd11555af653f2d853df6",
+          "source_id": "span-bffa71fbb327395a17e75aa43fe32b6462412cd4cbcec8769cecfd2eb326df75",
+          "sha256": "429f0b6f84d265709007675c38704efc7626bd86731cc73d90a1eb94fab6b877",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-7db9f005322e3874f5b2bf7c7af4feb72fe8d1e69e347b79b58ad741d40d75c7",
+          "source_id": "span-4f224f96e2d8492d8b65dbc99390f481c384b686962f6f982f905a4ea353d8d6",
+          "sha256": "77d3c31c7eea4d3235ea3498261011735646f7b27cf35684fc7cee6b79d86fe1",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-c1b7efe4055eccb1722d2c45971a952c78dc147733ab044b14ca423198f1f557",
+          "source_id": "span-b49c7700cc51c8a459d5b846f69dc64aad989627e69f51388d601f279e12e5d6",
+          "sha256": "f0a4f43c335e07ee617547d7ae654b0320964c60a4e884740c6321c33e99d524",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-9b18f4321a6e661b8dbc1a659d368cb2436aac7b64a2eac720250eabd7b603bb",
+          "source_id": "span-0710ead39417af6f6647cd48b12aaebfd06b4a8e09776441c32e0afe4a7ee21d",
+          "sha256": "cb872482e82838621439dcfa579b50c108a43cb2162d9f5e882f115d07bb82d1",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-1a7b16f6a69082c5709539dda85dc073208e71cf28f7f624acd27d4b510d2263",
+          "source_id": "span-52e5a1d970c7d77a0c8df98e7438790b2ad5a949c98658c3a3b0f5f035fc9383",
+          "sha256": "58e9c2ce30d52986ae5d55d1aab3c45d456d4ad9984b93cccbb93ab8cd314d3f",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-85964ae997a900743a21f596f94a2886766a3fec262fcdc1f9a06fabf9ca0177",
+          "source_id": "span-4cb90e970fb9d31d3221d0c9bda39a81eedd5c9bf608226f94441f0202b8e717",
+          "sha256": "5e5acb732801c0e67c4e35a7015c082e8134ddb122c16912308f71989448ebf9",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-17e93b8a8a70ff129f17e6045360397efd755b5b41e3a0c156c2db3e7d119d86",
+          "source_id": "span-3fc82010d2f3567f4179faa502c484443aca240023de4cfde1dbb5e4b5c2749e",
+          "sha256": "121386a925a94ec9ef5aa970b83aaf2666a5d868f7c5a1a851eec917c98573ed",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-55386f06d9bfb288af879a6d95fe3a0e08978ffcf6b429ace7a1a2c96b7199e3",
+          "source_id": "span-9deec0b5be4c48ad32da390bbe7ae1a1d4baedbff735c58f82ebe2c81f4217d0",
+          "sha256": "989d377140f8d504dc17db1b6e11096f6278ae12ddc89a7c33bf17692c717c65",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-bf30f5a4031bc6c7817697f48b6e0a45c84b45d3a657fad36c61e6e7b2de2bc6",
+          "source_id": "span-fb239014c8bdb644001627d348e86f4eb6dde1d8a6904f4037b015df1a659af1",
+          "sha256": "742331316b20914728c1b17b49da8183a533e58413f0ddba81d3a28e9d304e9e",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-f288b065bbfc627c8ecb7599752e79278a25672df4826680bb1c8e92b8c0bb37",
+          "source_id": "span-fd021332e3121ab8860088f06f8b06844d85bb3f2d7e93e606c1074b013f4635",
+          "sha256": "e57e744b7a99bee70e1d80cb92a5879539554c8f7e30cde023675e5c110d8a06",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-91cd7fd1248d0b7e42eeccff65997bd1d5d6f2fc6c6d5f58ee416a7a235f7b00",
+          "source_id": "span-2a4fec5fb7ba691e29ed322164ba5c1214b55e88fea585aba33c08ab06d31721",
+          "sha256": "35f2c854e031aa55936d55f517e2752acbef154b7a4e274ea3e2ebfba27d496f",
+          "sequence": 11
+        }
+      ],
+      "cutoff": 12,
+      "rules": {
+        "life": "一般以日干落宫为本人，在家庭，以年干为父母，以月干为兄弟姐妹，以时干为子女",
+        "recent": "凡预测一个人近期机遇和行运，可以通过问测时间的奇门格局进行分析",
+        "limits": "对古人的经验，只可参考，不能拘泥"
+      },
+      "provided_roles": [
+        "本人日干，家庭与社会角色按本轮问题选择，不由年龄替代人物关系"
+      ],
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-10d7c2c2e20cbbeef6e28c1eee2b72b3d7ca2047039d4b5ed71e0d49e2dfdcf7",
+              "source_id": "span-9e4c50e854815b52729d4fe913bc1326868c671a5d0551d040718de0bd77adfe",
+              "sha256": "da11bef752031052ece44455785093118b5695ae55b5ceb3d7ce48c70e8d9f7a",
+              "sequence": 12
+            },
+            {
+              "record_id": "record-b1dee4705c2baffabfce894178ab42a66eb39879d497421dde1c852b3d75f686",
+              "source_id": "span-38e935077a85217606e7d646e1f04231a584da20641bfadc5ec6b94c31665be6",
+              "sha256": "ea604d9e54ae6abff24ad4d26884de83b749e4dd4af882f5de61d3e6f6d5a2a4",
+              "sequence": 13
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-10d7c2c2e20cbbeef6e28c1eee2b72b3d7ca2047039d4b5ed71e0d49e2dfdcf7",
+              "source_id": "span-9e4c50e854815b52729d4fe913bc1326868c671a5d0551d040718de0bd77adfe",
+              "sha256": "da11bef752031052ece44455785093118b5695ae55b5ceb3d7ce48c70e8d9f7a",
+              "sequence": 12,
+              "quote": "日干、时干、年命均在内盘"
+            },
+            {
+              "record_id": "record-10d7c2c2e20cbbeef6e28c1eee2b72b3d7ca2047039d4b5ed71e0d49e2dfdcf7",
+              "source_id": "span-9e4c50e854815b52729d4fe913bc1326868c671a5d0551d040718de0bd77adfe",
+              "sha256": "da11bef752031052ece44455785093118b5695ae55b5ceb3d7ce48c70e8d9f7a",
+              "sequence": 12,
+              "quote": "景门为值使，值使落坤宫，坤宫主二、五、十数"
+            }
+          ],
+          "answer": {
+            "explanation": "已知初五事故后，作者承认没想到这么快，再补看日时年命内盘、值使景门坤宫二五十数及甲申当令等解释五天。要将原有正月七月范围与后添初五解释分开；“也许可避免”是反事实设想，不是已观察到的避免事故数据。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-ffec60ee3013caaff64bca3218527c9a0ce897774de68d4a5c6bd6a388fb8efd",
+      "event_id": "event-2564aebaabfe5e4209d85fabc869657e09c614243cbb8a05968cbfe80a8ad4ca",
+      "family_id": "family-1d6189ee604804b1e62b48bc91aaf22dc6be768d9f5018d13a5a5cf3d87506c2",
+      "chart_id": "chart-7868b524c466c2dcaf89c991f814523d18cbfe8c828c586284f79a1e6a15fb0f",
+      "chapter": "21-life-opportunities",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 4,
+      "stage": "first",
+      "mode": "retrospective",
+      "source_prediction_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known_source_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known": [
+        {
+          "record_id": "record-743cdf5d65ae44530ac54caa2ef7a685bafcc1d84fe58e70262b992d67e04ffb",
+          "source_id": "span-63dc5da12b3c8963e10680dfddd73caf243301a1f599bd3b6934c49ef79c4b35",
+          "sha256": "bd305cc96a62a3c9876c542b4e22e6cb2ba706cf4c8a9b9a3b925a16a0cbfc48",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-585e9acc2242ccf991b2c6b7fb755d0085d086673d52481cebdfdcf57b85d636",
+          "source_id": "span-c1ff3c901f32af956ebaac182fc1ca668b9476f859c7409625243590a8b974ab",
+          "sha256": "7e7854c49f39bdf59af1350b4f123422704937d4799587dd84af94bff65bf0ce",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-b432f73d98fd91be1f782790326762a9804b96bfae96a977d9fbaba5b314fa38",
+          "source_id": "span-ee9a235d1c7a179105263e3bb52e60aca659fa5666c5020e5ba0aa59c077adf0",
+          "sha256": "3622a9df958266123af43c7b4b861e464399663589d48f086dbf4c5f6f1d659d",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-2d9e1aa09438bafc1062a07f7b7b9883784fd4a5e0164eab22a875703015b2c3",
+          "source_id": "span-8707ffaa1dbed0be469fef36efaac841dcf94bb485648baa35e5bcded36e1a7f",
+          "sha256": "3c490e165fdc1541ad716c174c778d01b6558aea979dd1eda8bdf82cc15bf4d6",
+          "sequence": 3
+        }
+      ],
+      "cutoff": 4,
+      "rules": {
+        "life": "一般以日干落宫为本人，在家庭，以年干为父母，以月干为兄弟姐妹，以时干为子女",
+        "recent": "凡预测一个人近期机遇和行运，可以通过问测时间的奇门格局进行分析",
+        "limits": "对古人的经验，只可参考，不能拘泥"
+      },
+      "provided_roles": [
+        "本人日干，家庭与社会角色按本轮问题选择，不由年龄替代人物关系"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-a4a4d29337bee8ef4e1b58bd557c9710231b485c159446a3f9dcb2ac52d99a69",
+              "source_id": "span-18929d67adaf5468e0860b1a9f93e5d5f4782f7cb1d0437a5407f47fedee987d",
+              "sha256": "9b391ffff4a34ac6816aeba3f26c1c415e96896e2e5bad9a0f0576a815739b66",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-ca724e2ae7fc43b339d07ff453693240e2c7ced8addf7a16a0dfe2938b48e008",
+              "source_id": "span-2a174142b369880a60113e1e2012e5d1c71ab2d9f315ea1b40380ebafc5f97f8",
+              "sha256": "2dd80d38476b61acb071e2e2fbf72365846cf771b559764a20f6d0db20b62973",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-aadbf8fb1d0ec6003aba1ccfe92a52915a53e41560a2ed19467bb75cb27e1294",
+              "source_id": "span-ee1a812497658b4634cf4de4c31704f9aea4e001c416740cc0c4bc957e93c162",
+              "sha256": "a42f94bb56ade0cdc0132a69e9ff89d111516910a6388d8292a1aa7d7cce648f",
+              "sequence": 6
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "这是已知女儿溺水后的出生局验测，作者以日干甲午辛本人、丙年命、时丁事项解释，不能伪装为生前独立预测或以出生相同者均会溺亡作标签。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ],
+            "bindings": [
+              {
+                "role": "出生局本人",
+                "symbol": "日干甲午辛、年命丙",
+                "condition": "明确事后验测"
+              },
+              {
+                "role": "事项",
+                "symbol": "时干丁",
+                "condition": "与本人视角分开"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-a4a4d29337bee8ef4e1b58bd557c9710231b485c159446a3f9dcb2ac52d99a69",
+              "source_id": "span-18929d67adaf5468e0860b1a9f93e5d5f4782f7cb1d0437a5407f47fedee987d",
+              "sha256": "9b391ffff4a34ac6816aeba3f26c1c415e96896e2e5bad9a0f0576a815739b66",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-ca724e2ae7fc43b339d07ff453693240e2c7ced8addf7a16a0dfe2938b48e008",
+              "source_id": "span-2a174142b369880a60113e1e2012e5d1c71ab2d9f315ea1b40380ebafc5f97f8",
+              "sha256": "2dd80d38476b61acb071e2e2fbf72365846cf771b559764a20f6d0db20b62973",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-aadbf8fb1d0ec6003aba1ccfe92a52915a53e41560a2ed19467bb75cb27e1294",
+              "source_id": "span-ee1a812497658b4634cf4de4c31704f9aea4e001c416740cc0c4bc957e93c162",
+              "sha256": "a42f94bb56ade0cdc0132a69e9ff89d111516910a6388d8292a1aa7d7cce648f",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-f3c3282912e10912a680742e49cd7294844d0d609b204a89472b9ce120755c43",
+              "source_id": "span-f44d35635dc00ee5fc84e68f2fbee2c51b4ed7c69da0ea562e2e133fa277d09e",
+              "sha256": "e0da86282c92a149773cba41984baee726adf0ed9dc76af004616f75751ab565",
+              "sequence": 7
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "辛巽四天蓬惊门、丙震三、丁艮八玄武、杜门坎一按出生原盘，死亡具体年月与来源岁数另存不改历。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ]
+          },
+          "facts": [
+            [
+              4,
+              "heaven_stem"
+            ],
+            [
+              4,
+              "star"
+            ],
+            [
+              4,
+              "door"
+            ],
+            [
+              3,
+              "heaven_stem"
+            ],
+            [
+              8,
+              "heaven_stem"
+            ],
+            [
+              8,
+              "deity"
+            ],
+            [
+              1,
+              "door"
+            ]
+          ]
+        },
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-a4a4d29337bee8ef4e1b58bd557c9710231b485c159446a3f9dcb2ac52d99a69",
+              "source_id": "span-18929d67adaf5468e0860b1a9f93e5d5f4782f7cb1d0437a5407f47fedee987d",
+              "sha256": "9b391ffff4a34ac6816aeba3f26c1c415e96896e2e5bad9a0f0576a815739b66",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-ca724e2ae7fc43b339d07ff453693240e2c7ced8addf7a16a0dfe2938b48e008",
+              "source_id": "span-2a174142b369880a60113e1e2012e5d1c71ab2d9f315ea1b40380ebafc5f97f8",
+              "sha256": "2dd80d38476b61acb071e2e2fbf72365846cf771b559764a20f6d0db20b62973",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-aadbf8fb1d0ec6003aba1ccfe92a52915a53e41560a2ed19467bb75cb27e1294",
+              "source_id": "span-ee1a812497658b4634cf4de4c31704f9aea4e001c416740cc0c4bc957e93c162",
+              "sha256": "a42f94bb56ade0cdc0132a69e9ff89d111516910a6388d8292a1aa7d7cce648f",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-f3c3282912e10912a680742e49cd7294844d0d609b204a89472b9ce120755c43",
+              "source_id": "span-f44d35635dc00ee5fc84e68f2fbee2c51b4ed7c69da0ea562e2e133fa277d09e",
+              "sha256": "e0da86282c92a149773cba41984baee726adf0ed9dc76af004616f75751ab565",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-f771792a10fda7184248819f8a69674cfc8f55a07ff627f1a38c175ee01f7816",
+              "source_id": "span-498f239636bfc97d25e4682794c3f4fb792a22d2eab06fe8214e17a277a4e425",
+              "sha256": "42bcb996022ac4e68d7b1f3688ffb3b89fbb0869e26004daf79ca6c7207bd698",
+              "sequence": 8
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-a4a4d29337bee8ef4e1b58bd557c9710231b485c159446a3f9dcb2ac52d99a69",
+              "source_id": "span-18929d67adaf5468e0860b1a9f93e5d5f4782f7cb1d0437a5407f47fedee987d",
+              "sha256": "9b391ffff4a34ac6816aeba3f26c1c415e96896e2e5bad9a0f0576a815739b66",
+              "sequence": 4,
+              "quote": "日干甲午辛落巽4宫为墓地"
+            },
+            {
+              "record_id": "record-ca724e2ae7fc43b339d07ff453693240e2c7ced8addf7a16a0dfe2938b48e008",
+              "source_id": "span-2a174142b369880a60113e1e2012e5d1c71ab2d9f315ea1b40380ebafc5f97f8",
+              "sha256": "2dd80d38476b61acb071e2e2fbf72365846cf771b559764a20f6d0db20b62973",
+              "sequence": 5,
+              "quote": "年命丙落3宫"
+            },
+            {
+              "record_id": "record-aadbf8fb1d0ec6003aba1ccfe92a52915a53e41560a2ed19467bb75cb27e1294",
+              "source_id": "span-ee1a812497658b4634cf4de4c31704f9aea4e001c416740cc0c4bc957e93c162",
+              "sha256": "a42f94bb56ade0cdc0132a69e9ff89d111516910a6388d8292a1aa7d7cce648f",
+              "sequence": 6,
+              "quote": "时干丁落艮8宫为入墓"
+            },
+            {
+              "record_id": "record-f3c3282912e10912a680742e49cd7294844d0d609b204a89472b9ce120755c43",
+              "source_id": "span-f44d35635dc00ee5fc84e68f2fbee2c51b4ed7c69da0ea562e2e133fa277d09e",
+              "sha256": "e0da86282c92a149773cba41984baee726adf0ed9dc76af004616f75751ab565",
+              "sequence": 7,
+              "quote": "值使门落宫定应期"
+            }
+          ],
+          "answer": {
+            "explanation": "作者在已知结局后结合日辛空墓凶格、年丙死门白虎、时丁墓玄武及值使坎一六数，解释十一岁与丙子冲午。但他同时说明同出生时间者不可能都溺死，强调可能性与行动差异。不能把这种回顾性选数当已验证的儿童寿命预测，更不将原源虚岁直接改作实足年龄。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-dbc650b9331ca875e4a2720129c75ff408f4bbdd0ce284b93385ddaccb70d2a1",
+      "event_id": "event-37e1f0c2c04c53a5e697329f34d6a09e656091af02f2e4775dbf09842f046da4",
+      "family_id": "family-8d4b39a290be56e1266b3066f159274ac6ce1dc893ec815f4b4044d678770fc3",
+      "chart_id": "chart-62fc09f6a409a3f62c4086746deb0a7ab24dc219a8a6629d786662245a970202",
+      "chapter": "21-life-opportunities",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 5,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known_source_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known": [
+        {
+          "record_id": "record-7673011919c105cae506176c54ca4b79b0101ec39a6b16b4b6585ad769ce4eaa",
+          "source_id": "span-9ae2a6d0a591bed90c9a2c53fc08e8a63fb1a406d11613c3fa6f51ea09b745be",
+          "sha256": "d56898efc74799f7b7a8d7537d26ba14c1dde784e2df24596b90f66675b61905",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-fecb879b2f31fc66d72369da0dc7239c8aee1fbcbbddfe86bc89918681ec4f4c",
+          "source_id": "span-6b6ccd1f31860ebab4117a860f62a0a65b3d67ce9f0a5f62b90e5fe5dc33a18c",
+          "sha256": "55eda053622c51de8c2a98d9eb938480488681de6e04161f331f1dd5977307d8",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-01839fb752ac24546c8fc4f3c0d70141f5d70ff575d9e103938b5cb0ca34c265",
+          "source_id": "span-b5a476299711b87532c8b362d7c881a0b0ee34d97de89eb186d184f853e9a25d",
+          "sha256": "94e72f397ff5baefeac797794af95ea26f492f492c16466147740fe016a52af9",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-b58b3afed24d52788ebcb301d1993ca0b3aa65ee11946f6321281bf03344f17b",
+          "source_id": "span-67bd94e527984227e2a479f33a428a0305fa860e92ce4a67d40ebddd5dccb34b",
+          "sha256": "bb7adec8d4532ccb09c662c97b03d0fcd73093444767707db54ef96dd5e01f99",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-7b32d03c2f6c1c8130c0383b4076df6c069925d1bc409c8cb5647e96e12cf57d",
+          "source_id": "span-26c0bcde99102905e527e67e684d5af5a756b69d624ebd5d1c455230bb7d0832",
+          "sha256": "e435735a3b944f0214ff5a9f7087319213dd2bceb88f49e1f222bb32fc1336f1",
+          "sequence": 4
+        }
+      ],
+      "cutoff": 5,
+      "rules": {
+        "life": "一般以日干落宫为本人，在家庭，以年干为父母，以月干为兄弟姐妹，以时干为子女",
+        "recent": "凡预测一个人近期机遇和行运，可以通过问测时间的奇门格局进行分析",
+        "limits": "对古人的经验，只可参考，不能拘泥"
+      },
+      "provided_roles": [
+        "本人日干，家庭与社会角色按本轮问题选择，不由年龄替代人物关系"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-cd8fef97bd01eb0587e30bd90472090d27320985d496c2fa9b259e3f30b5cdff",
+              "source_id": "span-a3db122214e4398782329437f159c07aec03493a62b8e047cf0b6a34c9e5b08a",
+              "sha256": "ae1a1e07cf68237067c484313f8b4d6db0219015065af370e8f81176c5467cef",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "这轮用所报准确出生时刻看终身，按本章一般法可日干丙为本人；但本例正文没有逐步写出用神和各句推导，不能将一般法应用冒称作者明确逐步分析。欧洲医生身份已在背景中，不能当新预测命中。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ],
+            "bindings": [
+              {
+                "role": "本人（一般出生局口径）",
+                "symbol": "日干丙",
+                "condition": "本章一般法，原例未逐步说明"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-cd8fef97bd01eb0587e30bd90472090d27320985d496c2fa9b259e3f30b5cdff",
+              "source_id": "span-a3db122214e4398782329437f159c07aec03493a62b8e047cf0b6a34c9e5b08a",
+              "sha256": "ae1a1e07cf68237067c484313f8b4d6db0219015065af370e8f81176c5467cef",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "出生局丙兑七天英景门、辛乾六前缀、庚坤二值符按原表；不能据这些字面自动推演文凭或配偶国籍。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ]
+          },
+          "facts": [
+            [
+              7,
+              "heaven_stem"
+            ],
+            [
+              7,
+              "star"
+            ],
+            [
+              7,
+              "door"
+            ],
+            [
+              6,
+              "heaven_prefix_marker"
+            ],
+            [
+              2,
+              "heaven_stem"
+            ],
+            [
+              2,
+              "deity"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-cd8fef97bd01eb0587e30bd90472090d27320985d496c2fa9b259e3f30b5cdff",
+              "source_id": "span-a3db122214e4398782329437f159c07aec03493a62b8e047cf0b6a34c9e5b08a",
+              "sha256": "ae1a1e07cf68237067c484313f8b4d6db0219015065af370e8f81176c5467cef",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "作者这轮给性格、出生地及学历方向的断语，但没有展开各句所用盘面证据。已知欧洲定居和医生身份与尚未披露的杭州出生、北京医科大学毕业分开，不能补造详细推理或把已知身份算未见预测。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-d6ee2c00327c917de7d7e8c896b5b8ce1f87b7ff72c5dae5d5cb8d330508b5b3",
+      "event_id": "event-19f7c9ef9533f7966bd22f2876a828cb498d6b1000e8f48facd9721deb699568",
+      "family_id": "family-e6cf6886b3dfc5ce9e9e000e9532781f43676fdf8240353053728d6a012b88d7",
+      "chart_id": "chart-76cb8cb1daa59c2a9fe3bf99fadce0e5c432fc77d36eb689d2dd905907ca0a93",
+      "chapter": "21-life-opportunities",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 5,
+      "stage": "dialogue_error_audit",
+      "mode": "source_reading",
+      "source_prediction_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known_source_window_review": "问时与出生时、初次断语与逐轮新增关系信息分开；原文没写的推理不补为作者步骤。",
+      "known": [
+        {
+          "record_id": "record-7673011919c105cae506176c54ca4b79b0101ec39a6b16b4b6585ad769ce4eaa",
+          "source_id": "span-9ae2a6d0a591bed90c9a2c53fc08e8a63fb1a406d11613c3fa6f51ea09b745be",
+          "sha256": "d56898efc74799f7b7a8d7537d26ba14c1dde784e2df24596b90f66675b61905",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-fecb879b2f31fc66d72369da0dc7239c8aee1fbcbbddfe86bc89918681ec4f4c",
+          "source_id": "span-6b6ccd1f31860ebab4117a860f62a0a65b3d67ce9f0a5f62b90e5fe5dc33a18c",
+          "sha256": "55eda053622c51de8c2a98d9eb938480488681de6e04161f331f1dd5977307d8",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-01839fb752ac24546c8fc4f3c0d70141f5d70ff575d9e103938b5cb0ca34c265",
+          "source_id": "span-b5a476299711b87532c8b362d7c881a0b0ee34d97de89eb186d184f853e9a25d",
+          "sha256": "94e72f397ff5baefeac797794af95ea26f492f492c16466147740fe016a52af9",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-b58b3afed24d52788ebcb301d1993ca0b3aa65ee11946f6321281bf03344f17b",
+          "source_id": "span-67bd94e527984227e2a479f33a428a0305fa860e92ce4a67d40ebddd5dccb34b",
+          "sha256": "bb7adec8d4532ccb09c662c97b03d0fcd73093444767707db54ef96dd5e01f99",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-7b32d03c2f6c1c8130c0383b4076df6c069925d1bc409c8cb5647e96e12cf57d",
+          "source_id": "span-26c0bcde99102905e527e67e684d5af5a756b69d624ebd5d1c455230bb7d0832",
+          "sha256": "e435735a3b944f0214ff5a9f7087319213dd2bceb88f49e1f222bb32fc1336f1",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-cd8fef97bd01eb0587e30bd90472090d27320985d496c2fa9b259e3f30b5cdff",
+          "source_id": "span-a3db122214e4398782329437f159c07aec03493a62b8e047cf0b6a34c9e5b08a",
+          "sha256": "ae1a1e07cf68237067c484313f8b4d6db0219015065af370e8f81176c5467cef",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-5346a0c29fe9090dfe94968622cdf1acaa0b54a24e2b285ce1fbb9252a76081d",
+          "source_id": "span-8664ae64f28a9afbc812f1f36f2bbb762e0ad4a4441407cc90b98592588784ee",
+          "sha256": "1b4f29800ef68068d03a732093ab81b830b18cedcf6ee5b91a2b124b24b26377",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-cc04970ba6f3530f992d4c4a55f220ff727dab5e16f2bfcf1504a895d51afd9c",
+          "source_id": "span-34d94f925b462f31306d5407580ab60d14dedbde50f16993884e1c082a8a5476",
+          "sha256": "eaa8df133c08844645b5873934ed74d43d7866ca2f391c18f5d562fa04745aa2",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-3e076ef8c156ae152c89d774e1e34291753cd1f83f0b08b892bec7dec299b202",
+          "source_id": "span-23d6aea66abbfd7a50f91e84c054bc225317789f70dcce1dbdc3e42ef1fbbb0a",
+          "sha256": "9d06f38fef490771321d3dfab6167f3dc7e492f646da63ce712fe1cac0fb381c",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-08d14d33128d5a40e24b4d9ad44cb62a0998dd4d3a709d45f2a14762324de6b9",
+          "source_id": "span-42507b8ecf51aa67cc98928d04b31d3b9811f1a3649e24de5f69a9d30c2108cf",
+          "sha256": "7440941a15859e923de4ae39a2c0002dca3140892cf3e128d18175642c2ecc38",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-fa4d33a874612aea4485f671ab618e94c51d8ed2fb13a21166029d9467216d86",
+          "source_id": "span-6a273ea968da9bafb831ae76a4872b84b92c6b884a202dd7dccbfa481e26f087",
+          "sha256": "291268a25a534ddf092fa2aba31d48e67eb16b42a3ad3b2f5a116fa6bd6b64bb",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-92556c630d4ae4e5f884524d8e86e2c1064123f36b0782e7d97bd02f63928233",
+          "source_id": "span-baa8cb6ef76019c5c3cf990442d592bb6a6e6677620b3a03b401f8540004c74c",
+          "sha256": "0a12040a4f35184a5324bf2cf28509af75d1086e34736abbb16733cf46b37190",
+          "sequence": 11
+        },
+        {
+          "record_id": "record-a73e7d615eaf26136c2bd37e02522b0e8b0b1f9ec192553a56d2dba104f05bd6",
+          "source_id": "span-422606f4dc764525fa8fa24a6fdb4404347fde13864db3e0be59f44ee241dfff",
+          "sha256": "e4355ff5b7f40d797b5fafafa29177c2ea06ea439b85d1db7ca414f398d65428",
+          "sequence": 12
+        },
+        {
+          "record_id": "record-bdf6b449b1256719dce887e7b64e5b5c95991c93871baa4009406492c70205c5",
+          "source_id": "span-ddfb2b3b873f7cf7ac35495aa975b6b5aa79717b230a78ce2e1475a60bb6870f",
+          "sha256": "349654e82f46b88efdc87b25838630cafe26b7161a8666bcbdbca52d9c24be36",
+          "sequence": 13
+        },
+        {
+          "record_id": "record-598be7b703206dbc3068988d20786de34d379e2d121e337eb2b7b6e52240c979",
+          "source_id": "span-1b815a96a835d6871c3767d74a363c025ff811b763c8ed7456db194cdb2708ae",
+          "sha256": "96b11796678b18b62d4a136c15fdeefb4e3885194738579eb5e4b901be1fe257",
+          "sequence": 14
+        },
+        {
+          "record_id": "record-da4bb7419b1f8b4312fbbf6d2de9e49845e45532a9b57d22a4dad89cb41ef9e9",
+          "source_id": "span-897dd8c93795495c9ea8ec85e783a40cbe031230f2754a69d1260bda6a26b745",
+          "sha256": "a58405d30b72e554d94c078f98e967095a0670416684d904d357c1dd1b69185e",
+          "sequence": 15
+        },
+        {
+          "record_id": "record-19bc6204d0a657af73e4d73aad247adaf2f9e36e142b381052d855b9ad086bbe",
+          "source_id": "span-d923f191e02d670ef03c95d2d76a9162f9dd9884dbbcb1c61394fd9064fb9573",
+          "sha256": "9d74cdb7a73a107f685312a3e2bcdd0bf7f373d3e96282d33002f1db5e63b1c1",
+          "sequence": 16
+        },
+        {
+          "record_id": "record-4f2113fc320d91b0331c99b44f721068736b4f0ca7e93326248190ee8782f26d",
+          "source_id": "span-48a192a07dc7d2db7a950959b181941da2186b115762d5a2ee41cefe5dbcd784",
+          "sha256": "7616ef08299d36ef6c82cc74ca7431b046345f0604b29680443c7c0bb2018250",
+          "sequence": 17
+        },
+        {
+          "record_id": "record-70fd17e11556f870db341e27820ed4ba39ca3aee46711da23dcda0edc1e7969e",
+          "source_id": "span-73e81f79737f8875072070bce8e527fc35a34e2a33aeec9e72c6cb6f80ee272a",
+          "sha256": "7811bbf6a92a406884120fe04506830e54b133d6c3be5477841c91ff17f5c4cf",
+          "sequence": 18
+        },
+        {
+          "record_id": "record-0c289c0ad149ce0ebd3d50a1f4f557070604de98f30dff36177eae4f082da51d",
+          "source_id": "span-2301bf98d6174cc4b99a074a1359e4c36bfeccc156ca797d46e53b0741806789",
+          "sha256": "f043be58d9353030b3db41513cb10c2c802dcb4f24ba7de704d75a21817df0aa",
+          "sequence": 19
+        },
+        {
+          "record_id": "record-dbe9ad681d3d6aacadf81b63436e966a88e0c6ce46a182e437662a154c103b1f",
+          "source_id": "span-1209a837be4228ed04114dce537cc869eeea7aec9dc4d7ee2470eb11d684e59a",
+          "sha256": "d09bc8d077252e0dc719365a4d9fa92b72afc0b31935dfc68bf0ce9c2fad4b58",
+          "sequence": 20
+        },
+        {
+          "record_id": "record-63987bc0ac39bceaf5f14d1631074f8aa24c1e03a1af52ab9f7d76eb0f7c5a93",
+          "source_id": "span-a289eab28f8dfd5bb45ee3199261d98bea3091076f31f8d1502128b56075a529",
+          "sha256": "91102b2799370527c1598a15f15716f28bc60858f5766fa5b14d57b552ac033e",
+          "sequence": 21
+        },
+        {
+          "record_id": "record-7656e834907632673c162257b0ce8c286f3f81d35f30d245eff424496fa61904",
+          "source_id": "span-22de685eb7504c54eacbfa698ceb82aa88ad0b2ede9f79240e611cddb1d3bc28",
+          "sha256": "d667c2006db6b3fde39bb740598350a2067fec0d4c7eea8ac02abbd4f7c7faf4",
+          "sequence": 22
+        },
+        {
+          "record_id": "record-94e16115985088e187335793dabbff587c51a3e1d9ac6a771fa06c781805449a",
+          "source_id": "span-ce76596ca15440720dfecf926378fd056cb62bde1baef3f6857bde65db1d95af",
+          "sha256": "2e4307bbf5b8b0a06bd71934fe5644d9d7b21153832650662ab35e497c372c3e",
+          "sequence": 23
+        },
+        {
+          "record_id": "record-91d6666aca540cead97d9e37d9408ef9beb7b44cc890d3a7ca848630a3b80e62",
+          "source_id": "span-c67e73cfd2f2f906a7f546c7c0b9542ae260d9af0633a18c67e87607b93350d6",
+          "sha256": "1518268c716ff2fd534dfae887f7e89adca2568e89118fb0b02c3fca738944c6",
+          "sequence": 24
+        },
+        {
+          "record_id": "record-62f10c5a22de31447a3e5524528be3ee12af4e8defa5eff916aadd6f7d053070",
+          "source_id": "span-d9ea640baa057594c5614488be812e9a2fc0ece2d73d6bc8bd8976feadfd622d",
+          "sha256": "ff865e131124694b3e272926ed553b6192aad43235f100f7e749222bf4283949",
+          "sequence": 25
+        },
+        {
+          "record_id": "record-73aa96d2cbde3b082a1343e061eeca072a5659ce675be23e6fc49795b3f920ed",
+          "source_id": "span-3fee299269aa05de8ac15a9d89aa1aab356533a59d63fea49be6650a2fa78d2c",
+          "sha256": "130d4e80a2839963c4426bd939ef730972c51edd20f3e2d1e14af656ddad7038",
+          "sequence": 26
+        },
+        {
+          "record_id": "record-3c69c42b8ade2ac5b981f8b5d2ee5210ea62ddb2a8bf16a7a46a19ba8e3c8fe6",
+          "source_id": "span-5692c7abb9098acfc60904e18fc2dad61a073d12cfcbebdba2f0a687f100a781",
+          "sha256": "f105cb80a8c4fec211156e199a88d6b6343c03dc759661e5d709abe01cd5cdc2",
+          "sequence": 27
+        },
+        {
+          "record_id": "record-c6ed05516ac2a6d9da4545d7939882b52475bd20d09f64dda650bde23cdbd4c5",
+          "source_id": "span-d1cedcba4f9f4d6d60f686aa7ba6740671829df9177272fb3e57e4c452c340c1",
+          "sha256": "1dace5bd86c2622707a63716dd39dcf0f1452413fe3a25b70130113efdcf38a2",
+          "sequence": 28
+        },
+        {
+          "record_id": "record-2d177def7e11295702992659f7ec104e948866fc47dd4d276e1ea6e7481958dd",
+          "source_id": "span-e50f307d1733ec160972d2002b0467c1ce378d9f08be43e57a65882278b853fa",
+          "sha256": "d6f3c6303bebc43a5c684d714463ea0d9d080980a130ae7e540070499f9df720",
+          "sequence": 29
+        },
+        {
+          "record_id": "record-bbe2e0d97466f9a28b4132e1f3ca3111ad1260a5533dd191c47cc3cbde7fdd7e",
+          "source_id": "span-5096f0c12ca2b5f4d20472ae4866145716c0cb5ecdb465f62eaf77c777322a4f",
+          "sha256": "9c2577af532f2e138fa67c65f9190afe21a7e7109514625585fa57128df8048b",
+          "sequence": 30
+        },
+        {
+          "record_id": "record-741cfe83dad66de0f6d7bb54ef0c35a59c254172b6d2f75bb0c8505dc1bce40b",
+          "source_id": "span-c7e99aa66d37ce39b41f9252412a6461273e9d63e7ce04eee1761111c2523c0e",
+          "sha256": "ebe2cc5f0424245c8487e4307bb308507655a4a02135ae24072048d6066c74c2",
+          "sequence": 31
+        },
+        {
+          "record_id": "record-631bd34a1d5016ce10a634c5fdd5744072bcc9faf8edea26ff903486e947222f",
+          "source_id": "span-cfeffd793870669bb41f7b1495a4ea4eb61d7768c115f3fb32cc38927585f95b",
+          "sha256": "5e019aa25105c4f0b916b7397841ef68ca16d8b18bd3c38aef3fce1476fc8fe9",
+          "sequence": 32
+        }
+      ],
+      "cutoff": 33,
+      "rules": {
+        "life": "一般以日干落宫为本人，在家庭，以年干为父母，以月干为兄弟姐妹，以时干为子女",
+        "recent": "凡预测一个人近期机遇和行运，可以通过问测时间的奇门格局进行分析",
+        "limits": "对古人的经验，只可参考，不能拘泥"
+      },
+      "provided_roles": [
+        "本人日干，家庭与社会角色按本轮问题选择，不由年龄替代人物关系"
+      ],
+      "tasks": [
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-bdf6b449b1256719dce887e7b64e5b5c95991c93871baa4009406492c70205c5",
+              "source_id": "span-ddfb2b3b873f7cf7ac35495aa975b6b5aa79717b230a78ce2e1475a60bb6870f",
+              "sha256": "349654e82f46b88efdc87b25838630cafe26b7161a8666bcbdbca52d9c24be36",
+              "sequence": 13
+            },
+            {
+              "record_id": "record-598be7b703206dbc3068988d20786de34d379e2d121e337eb2b7b6e52240c979",
+              "source_id": "span-1b815a96a835d6871c3767d74a363c025ff811b763c8ed7456db194cdb2708ae",
+              "sha256": "96b11796678b18b62d4a136c15fdeefb4e3885194738579eb5e4b901be1fe257",
+              "sequence": 14
+            },
+            {
+              "record_id": "record-da4bb7419b1f8b4312fbbf6d2de9e49845e45532a9b57d22a4dad89cb41ef9e9",
+              "source_id": "span-897dd8c93795495c9ea8ec85e783a40cbe031230f2754a69d1260bda6a26b745",
+              "sha256": "a58405d30b72e554d94c078f98e967095a0670416684d904d357c1dd1b69185e",
+              "sequence": 15
+            },
+            {
+              "record_id": "record-19bc6204d0a657af73e4d73aad247adaf2f9e36e142b381052d855b9ad086bbe",
+              "source_id": "span-d923f191e02d670ef03c95d2d76a9162f9dd9884dbbcb1c61394fd9064fb9573",
+              "sha256": "9d74cdb7a73a107f685312a3e2bcdd0bf7f373d3e96282d33002f1db5e63b1c1",
+              "sequence": 16
+            },
+            {
+              "record_id": "record-4f2113fc320d91b0331c99b44f721068736b4f0ca7e93326248190ee8782f26d",
+              "source_id": "span-48a192a07dc7d2db7a950959b181941da2186b115762d5a2ee41cefe5dbcd784",
+              "sha256": "7616ef08299d36ef6c82cc74ca7431b046345f0604b29680443c7c0bb2018250",
+              "sequence": 17
+            },
+            {
+              "record_id": "record-70fd17e11556f870db341e27820ed4ba39ca3aee46711da23dcda0edc1e7969e",
+              "source_id": "span-73e81f79737f8875072070bce8e527fc35a34e2a33aeec9e72c6cb6f80ee272a",
+              "sha256": "7811bbf6a92a406884120fe04506830e54b133d6c3be5477841c91ff17f5c4cf",
+              "sequence": 18
+            },
+            {
+              "record_id": "record-dbe9ad681d3d6aacadf81b63436e966a88e0c6ce46a182e437662a154c103b1f",
+              "source_id": "span-1209a837be4228ed04114dce537cc869eeea7aec9dc4d7ee2470eb11d684e59a",
+              "sha256": "d09bc8d077252e0dc719365a4d9fa92b72afc0b31935dfc68bf0ce9c2fad4b58",
+              "sequence": 20
+            },
+            {
+              "record_id": "record-63987bc0ac39bceaf5f14d1631074f8aa24c1e03a1af52ab9f7d76eb0f7c5a93",
+              "source_id": "span-a289eab28f8dfd5bb45ee3199261d98bea3091076f31f8d1502128b56075a529",
+              "sha256": "91102b2799370527c1598a15f15716f28bc60858f5766fa5b14d57b552ac033e",
+              "sequence": 21
+            },
+            {
+              "record_id": "record-7656e834907632673c162257b0ce8c286f3f81d35f30d245eff424496fa61904",
+              "source_id": "span-22de685eb7504c54eacbfa698ceb82aa88ad0b2ede9f79240e611cddb1d3bc28",
+              "sha256": "d667c2006db6b3fde39bb740598350a2067fec0d4c7eea8ac02abbd4f7c7faf4",
+              "sequence": 22
+            },
+            {
+              "record_id": "record-94e16115985088e187335793dabbff587c51a3e1d9ac6a771fa06c781805449a",
+              "source_id": "span-ce76596ca15440720dfecf926378fd056cb62bde1baef3f6857bde65db1d95af",
+              "sha256": "2e4307bbf5b8b0a06bd71934fe5644d9d7b21153832650662ab35e497c372c3e",
+              "sequence": 23
+            },
+            {
+              "record_id": "record-91d6666aca540cead97d9e37d9408ef9beb7b44cc890d3a7ca848630a3b80e62",
+              "source_id": "span-c67e73cfd2f2f906a7f546c7c0b9542ae260d9af0633a18c67e87607b93350d6",
+              "sha256": "1518268c716ff2fd534dfae887f7e89adca2568e89118fb0b02c3fca738944c6",
+              "sequence": 24
+            },
+            {
+              "record_id": "record-bbe2e0d97466f9a28b4132e1f3ca3111ad1260a5533dd191c47cc3cbde7fdd7e",
+              "source_id": "span-5096f0c12ca2b5f4d20472ae4866145716c0cb5ecdb465f62eaf77c777322a4f",
+              "sha256": "9c2577af532f2e138fa67c65f9190afe21a7e7109514625585fa57128df8048b",
+              "sequence": 30
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "已提供完整对话后审读误差：丈夫死亡年份原报1994或1995而反馈1996，必须记应期错误；孩子先报可能三或二而实报二是范围性结果；未来五年事业及1999破财未附结果，保持未验证。后面由1930与1996冲克所作解释是得到年份后的追加，不得倒算原断正确。",
+            "citations": [
+              "chart",
+              "context",
+              "life",
+              "recent",
+              "limits"
+            ],
+            "uncertainties": [
+              "家庭角色、社会角色及出生局/问时局分别适用；原作者经验非确定命运或独立现实验证。"
+            ]
+          }
+        }
+      ],
+      "source_reading_review": "完整对话作为已知来源材料，比较原断、纠正与未验证未来，不是初断预测任务。",
+      "case_id": "case-d6ee2c00327c917de7d7e8c896b5b8ce1f87b7ff72c5dae5d5cb8d330508b5b3",
+      "event_id": "event-19f7c9ef9533f7966bd22f2876a828cb498d6b1000e8f48facd9721deb699568",
+      "family_id": "family-e6cf6886b3dfc5ce9e9e000e9532781f43676fdf8240353053728d6a012b88d7",
+      "chart_id": "chart-76cb8cb1daa59c2a9fe3bf99fadce0e5c432fc77d36eb689d2dd905907ca0a93",
+      "chapter": "21-life-opportunities",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    }
+  ]
+}

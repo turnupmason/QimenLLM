@@ -1,0 +1,1833 @@
+{
+  "schema": "book-method-semantic-review-v1",
+  "source_data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "reviewed_by": "Codex source-grounded semantic curation",
+  "rows": [
+    {
+      "case": 1,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "源中分析逐段在第一次结果反馈之前；unknown注释不改，以给定作者条件练习而非无辅助预测。",
+      "known": [
+        {
+          "record_id": "record-2d55edd635ddca442648e4798248078bfb63fbb47c333ecb330e1f5ccfb3ff4b",
+          "source_id": "span-573faca04d19bc2e840732be35763e45ce6e27e29ebabbd264269086ab2cd0a2",
+          "sha256": "c32a03b3e0098b425708f0f8c82d49a531c9a1ba5c7f981ff406b1b75db1d238",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-b6add5c56975397b95a77aaa47a6397d88232775a48096fa5f10a41ac679907a",
+          "source_id": "span-60c1b1fe6404528d032a2c21b639f79979b5a037b0877b616bf1d82ac0a583bf",
+          "sha256": "1eff59652e17f8fe9ffeea3969c279b5ba61a0ff6f563af15b64d55402a2d9eb",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-95e0ac2867de77b236b745b72c671c738752bacbf5dda166f262467fb21dd92d",
+          "source_id": "span-0750285f7cd3325500f7a937fec140714e7011b5280fe37a89ac01ef0f16a48f",
+          "sha256": "486703745ae38ad86d2463e8e97fa974fd4fe419f4c64db575a4c147440c6ce0",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-71d56d329bbc39a0e41cd2bb7e445dad843bc84459c0c27384225af8225e448b",
+          "source_id": "span-a53ec0c2be49cc8b108b12a06f4dc1187885553b5ac74002e63d726e89f19252",
+          "sha256": "e0a5f8099c24d2fa507c0777d65f2eda486368a210e41dbdffee33fe5ab81ce0",
+          "sequence": 3
+        }
+      ],
+      "cutoff": 5,
+      "rules": {
+        "work": "一般以开门代表文职工作及单位，以杜门代表武职工作及单位",
+        "people": "以年干代表上级领导，以值符代表顶头上司，以月干代表同事，以日干代表求测之人"
+      },
+      "provided_roles": [
+        "本例用学生座位巽四为空间用神，开门工作、年干学校"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-4ac883a207d0a94e5a818117b2d79557f37fe74ecabe74e2c6ecf73eed49e342",
+              "source_id": "span-748616c132d613cf651fe8e687c9596747a43aa6f769977b0e7bfa50946a8665",
+              "sha256": "96f826b13766b92548d3829ec5f8e755e3755fed9e6e2460207c7678d5101e29",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-e68b93cad410fa01c132343e2381bb832c4f5283b978b55a9f85c9872d7ab8a0",
+              "source_id": "span-a7040e603733c1dae9c14402d132415231731bc600e86c07aba3212ee035e581",
+              "sha256": "13f0cb707cb557b82a13ad331ff8102212a32a3eb942f5b9f805958491a24414",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-84619fc1be0d86d7f645ee1b5cc2228dd57aa373f57f9ac926627947079caef9",
+              "source_id": "span-8084c701876ee3756925aac3dd0d6b9be9d88798f18146159c22a21568d899f6",
+              "sha256": "c5c502bab266fffcac72cbba5b2e1c32078c2b6ff3657ad9e4b8e698a3cf4103",
+              "sequence": 8
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "这例先按学生当时坐在东南的方位取巽四宫，再在该宫看开门工作单位；年干丙另看学校/领导。不是所有毕业分配都取东南，也不是把学生年龄当人物关系。",
+            "citations": [
+              "chart",
+              "context",
+              "work",
+              "people"
+            ],
+            "uncertainties": [
+              "代问、空间方位、文武单位和工作事项视角按本例分别适用，不能互相替换。"
+            ],
+            "bindings": [
+              {
+                "role": "该学生的空间用神",
+                "symbol": "巽四宫",
+                "condition": "源中已明确当时东南座位"
+              },
+              {
+                "role": "工作单位",
+                "symbol": "开门",
+                "condition": "文职工作视角"
+              },
+              {
+                "role": "学校领导",
+                "symbol": "年干丙",
+                "condition": "本例另看年干"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-e68b93cad410fa01c132343e2381bb832c4f5283b978b55a9f85c9872d7ab8a0",
+              "source_id": "span-a7040e603733c1dae9c14402d132415231731bc600e86c07aba3212ee035e581",
+              "sha256": "13f0cb707cb557b82a13ad331ff8102212a32a3eb942f5b9f805958491a24414",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-84619fc1be0d86d7f645ee1b5cc2228dd57aa373f57f9ac926627947079caef9",
+              "source_id": "span-8084c701876ee3756925aac3dd0d6b9be9d88798f18146159c22a21568d899f6",
+              "sha256": "c5c502bab266fffcac72cbba5b2e1c32078c2b6ff3657ad9e4b8e698a3cf4103",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-2a49e865469f58d2927099b861ad0aa231e2ba44d4e83e1cb42a398728c2fc89",
+              "source_id": "span-57fcf5f93e6afd23fa85f227201b131e01d85df81f35e0b6e01bbded76b1f930",
+              "sha256": "b542fc31a2f35695c5a7c36819228c6a3ad0cb0ea5d1eca63c908efda8dfd5c8",
+              "sequence": 9
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "巽四壬开门天心太阴、乾六庚、坎一丙及艮八死门按原表；移荡格、空亡与月令不得自行补成引擎事实。",
+            "citations": [
+              "chart",
+              "context",
+              "work",
+              "people"
+            ],
+            "uncertainties": [
+              "代问、空间方位、文武单位和工作事项视角按本例分别适用，不能互相替换。"
+            ]
+          },
+          "facts": [
+            [
+              4,
+              "heaven_stem"
+            ],
+            [
+              4,
+              "door"
+            ],
+            [
+              4,
+              "star"
+            ],
+            [
+              4,
+              "deity"
+            ],
+            [
+              6,
+              "heaven_stem"
+            ],
+            [
+              1,
+              "heaven_stem"
+            ],
+            [
+              8,
+              "door"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-e68b93cad410fa01c132343e2381bb832c4f5283b978b55a9f85c9872d7ab8a0",
+              "source_id": "span-a7040e603733c1dae9c14402d132415231731bc600e86c07aba3212ee035e581",
+              "sha256": "13f0cb707cb557b82a13ad331ff8102212a32a3eb942f5b9f805958491a24414",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-84619fc1be0d86d7f645ee1b5cc2228dd57aa373f57f9ac926627947079caef9",
+              "source_id": "span-8084c701876ee3756925aac3dd0d6b9be9d88798f18146159c22a21568d899f6",
+              "sha256": "c5c502bab266fffcac72cbba5b2e1c32078c2b6ff3657ad9e4b8e698a3cf4103",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-2a49e865469f58d2927099b861ad0aa231e2ba44d4e83e1cb42a398728c2fc89",
+              "source_id": "span-57fcf5f93e6afd23fa85f227201b131e01d85df81f35e0b6e01bbded76b1f930",
+              "sha256": "b542fc31a2f35695c5a7c36819228c6a3ad0cb0ea5d1eca63c908efda8dfd5c8",
+              "sequence": 9
+            },
+            {
+              "record_id": "record-2b0a79a716e52fc2132982b41c6d26b39f74c8f581b3a599f5b0340b2aa6dffa",
+              "source_id": "span-409f526ce92a37c26a87e061b8ad3a0fa93c89aff548e57580b86d4174f274df",
+              "sha256": "3ca13bfa4410eb72d72165272e74d3d6c8c320c8b957b28c148e1c83a57f996e",
+              "sequence": 10
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-e68b93cad410fa01c132343e2381bb832c4f5283b978b55a9f85c9872d7ab8a0",
+              "source_id": "span-a7040e603733c1dae9c14402d132415231731bc600e86c07aba3212ee035e581",
+              "sha256": "13f0cb707cb557b82a13ad331ff8102212a32a3eb942f5b9f805958491a24414",
+              "sequence": 7,
+              "quote": "以巽4宫断，正逢开门，开门主工作、主单位"
+            },
+            {
+              "record_id": "record-e68b93cad410fa01c132343e2381bb832c4f5283b978b55a9f85c9872d7ab8a0",
+              "source_id": "span-a7040e603733c1dae9c14402d132415231731bc600e86c07aba3212ee035e581",
+              "sha256": "13f0cb707cb557b82a13ad331ff8102212a32a3eb942f5b9f805958491a24414",
+              "sequence": 7,
+              "quote": "西北逢杜门，闭塞不通，东南临开门"
+            },
+            {
+              "record_id": "record-84619fc1be0d86d7f645ee1b5cc2228dd57aa373f57f9ac926627947079caef9",
+              "source_id": "span-8084c701876ee3756925aac3dd0d6b9be9d88798f18146159c22a21568d899f6",
+              "sha256": "c5c502bab266fffcac72cbba5b2e1c32078c2b6ff3657ad9e4b8e698a3cf4103",
+              "sequence": 8,
+              "quote": "年干丙为学校，为领导，所落坎一宫之水，生开门落宫之木"
+            },
+            {
+              "record_id": "record-2a49e865469f58d2927099b861ad0aa231e2ba44d4e83e1cb42a398728c2fc89",
+              "source_id": "span-57fcf5f93e6afd23fa85f227201b131e01d85df81f35e0b6e01bbded76b1f930",
+              "sha256": "b542fc31a2f35695c5a7c36819228c6a3ad0cb0ea5d1eca63c908efda8dfd5c8",
+              "sequence": 9,
+              "quote": "时令在寅月，木旺，土死"
+            }
+          ],
+          "answer": {
+            "explanation": "作者由巽四开门与壬庚移荡解释毕业变动，比较乾六杜门闭塞和东南开门，再结合学校年干生工作宫及吉神星，判断虽有难度却可满意；值使死门反吟这一反证以月令与值符解释，不能只因吉神就删掉凶门。具体广播电视厅与签约日尚未知。",
+            "citations": [
+              "chart",
+              "context",
+              "work",
+              "people"
+            ],
+            "uncertainties": [
+              "代问、空间方位、文武单位和工作事项视角按本例分别适用，不能互相替换。"
+            ]
+          }
+        },
+        {
+          "type": "timing_analysis",
+          "targets": [
+            {
+              "record_id": "record-7100b97166513b6124188db0bc8a5f8add551970e741223e2ac58bb30eac47a2",
+              "source_id": "span-e4d6c5f52f459c44e17dcd780fd250bdcc42a0dfc5612a9e766de46197dccde1",
+              "sha256": "926ed4ba3533de8c653299797284345dd6beef1e3931b2a38015eb2e7d0eaf3b",
+              "sequence": 11
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-7100b97166513b6124188db0bc8a5f8add551970e741223e2ac58bb30eac47a2",
+              "source_id": "span-e4d6c5f52f459c44e17dcd780fd250bdcc42a0dfc5612a9e766de46197dccde1",
+              "sha256": "926ed4ba3533de8c653299797284345dd6beef1e3931b2a38015eb2e7d0eaf3b",
+              "sequence": 11,
+              "quote": "甲午旬中辰、巳空"
+            },
+            {
+              "record_id": "record-7100b97166513b6124188db0bc8a5f8add551970e741223e2ac58bb30eac47a2",
+              "source_id": "span-e4d6c5f52f459c44e17dcd780fd250bdcc42a0dfc5612a9e766de46197dccde1",
+              "sha256": "926ed4ba3533de8c653299797284345dd6beef1e3931b2a38015eb2e7d0eaf3b",
+              "sequence": 11,
+              "quote": "星门反吟主做事成败易分、速度快"
+            },
+            {
+              "record_id": "record-7100b97166513b6124188db0bc8a5f8add551970e741223e2ac58bb30eac47a2",
+              "source_id": "span-e4d6c5f52f459c44e17dcd780fd250bdcc42a0dfc5612a9e766de46197dccde1",
+              "sha256": "926ed4ba3533de8c653299797284345dd6beef1e3931b2a38015eb2e7d0eaf3b",
+              "sequence": 11,
+              "quote": "开门落4宫为内盘也主近主快"
+            }
+          ],
+          "answer": {
+            "explanation": "本例用开门巽四旬空待辰巳填实，配合反吟及内盘主快近，提出本月辰日或巳日。不能把后来的实际甲午签约日修成这一预测，预测范围与反馈另记。",
+            "citations": [
+              "chart",
+              "context",
+              "work",
+              "people"
+            ],
+            "uncertainties": [
+              "代问、空间方位、文武单位和工作事项视角按本例分别适用，不能互相替换。"
+            ],
+            "methods": [
+              "空亡填实日",
+              "反吟与内盘判断快近"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-be1da18582115ed03e38708a104b371ad3251fe2303288e8aff69bb00da8363d",
+      "event_id": "event-5dab8534b569f2b1f3339a737c1e5012009d25a9fc9edd5c42a43896d3148cd3",
+      "family_id": "family-289a7ced6ed50efe42b8f9ef5328d01a4ede0fb7a84a1e35dd0dd58a1aceb92a",
+      "chart_id": "chart-969722700cb622bb830926ac9e2324e17480721d00c66f27f42cba769ceff596",
+      "chapter": "11-work-employment",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 2,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "源中分析逐段在第一次结果反馈之前；unknown注释不改，以给定作者条件练习而非无辅助预测。",
+      "known": [
+        {
+          "record_id": "record-44405af96ab15a13252f232f8af342b92d7f292492a8bc1b2f2e421e183b4728",
+          "source_id": "span-fde75a616d213cc0c1a37fa31178949f879e7ff69651a445c5ffd08879d09d8a",
+          "sha256": "75dabfe75267f06eedf8677211fa47cfefa4240a6b80ea05064f9e8b04771c5e",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-26fad862fb7d3f926ac2e6d3a767bec81ab6464839d616fdabcc691efc867045",
+          "source_id": "span-e801ade2826debc974a0f2cd4bde830db04cfc5b1de246a915381221570493fd",
+          "sha256": "0610b031e3e0bcf222a36e4f90a43d04162fae5743983c9f504e19abc740410d",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-240f18625966568f842b97d158c9cc070903bbc6d112311852dfee9d37d06636",
+          "source_id": "span-58f33f4a6a9b64832950688518b28794cd2b995f1582093476cb626757d0eada",
+          "sha256": "b19c838f798ed63013bb2128f421980e01ed76a3e09622784a2529945b3f3238",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-bf8553bbf3c3157026ee10ae0deef6cb02446a293f3cb4c59da219d751da8b56",
+          "source_id": "span-332bd3c950390700d022bbaee921556bb990518ea9e0914e95c54149a2de0b10",
+          "sha256": "ef822d53656e4945fe366e3aec034b79def7dfd4f9f56202676275232b917908",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-57f5f496bce8ece4981315a860967a715a8eeba3a815c0013f805e4ab8eb8fa5",
+          "source_id": "span-e6ba1aebaf907b384bee8595e958c3d35a0bb2efa13331992690d918dd34ea51",
+          "sha256": "2f9b20babed9fa3218e2ab95f1d0ad7a2ef1118795ecbab729b4c251a115cae8",
+          "sequence": 4
+        }
+      ],
+      "cutoff": 6,
+      "rules": {
+        "work": "一般以开门代表文职工作及单位，以杜门代表武职工作及单位",
+        "people": "以年干代表上级领导，以值符代表顶头上司，以月干代表同事，以日干代表求测之人"
+      },
+      "provided_roles": [
+        "儿子时干庚与甲寅癸年命，外交开门、外经生门为本案映射"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-4eb25492c78e76af58e707bafc798ec4270d4fb40d6cbb549a1b0a9558ee6aee",
+              "source_id": "span-89e34157c9420c0daadc659243d3e1d429b69d28e07241868fa59436bf3bc6b1",
+              "sha256": "424e7b667dc60e753be112468ff7267428016fa5b0ddbfb0e06278de5cc4b81f",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-6bc6733b877177c866d55344abd1a7bc93e561d674221eae73eb5d64ec75c556",
+              "source_id": "span-e687545e45543412cdfd516bf8c332ee3916d7774031b9baf19b55d86ff47a3e",
+              "sha256": "59c126cd7ea5434dd5e7b23e5d010ea9914cc3b0d3b34083f2189cb644de04c8",
+              "sequence": 7
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "母问子择单位，本例以时干庚和已知甲寅癸年命看儿子，开门映射外交部、生门映射外经部。两个部门的对应是此案语境，不把生门永久当一切工作单位。",
+            "citations": [
+              "chart",
+              "context",
+              "work",
+              "people"
+            ],
+            "uncertainties": [
+              "代问、空间方位、文武单位和工作事项视角按本例分别适用，不能互相替换。"
+            ],
+            "bindings": [
+              {
+                "role": "儿子",
+                "symbol": "时干庚、年命甲寅癸",
+                "condition": "母代问且出生年已知"
+              },
+              {
+                "role": "外交部、外经部",
+                "symbol": "开门、生门",
+                "condition": "本例两个备选单位的语境映射"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-4eb25492c78e76af58e707bafc798ec4270d4fb40d6cbb549a1b0a9558ee6aee",
+              "source_id": "span-89e34157c9420c0daadc659243d3e1d429b69d28e07241868fa59436bf3bc6b1",
+              "sha256": "424e7b667dc60e753be112468ff7267428016fa5b0ddbfb0e06278de5cc4b81f",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-6bc6733b877177c866d55344abd1a7bc93e561d674221eae73eb5d64ec75c556",
+              "source_id": "span-e687545e45543412cdfd516bf8c332ee3916d7774031b9baf19b55d86ff47a3e",
+              "sha256": "59c126cd7ea5434dd5e7b23e5d010ea9914cc3b0d3b34083f2189cb644de04c8",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-89cbe73bb5c80c73d00af108ee32b2876b1454b2017d187dac704ff319bc0358",
+              "source_id": "span-afffcfdacff197185f7ef41ef870c7f59daaeb435d449bcfbfadab3f938a756f",
+              "sha256": "33f358ec3d21ce6c10ade3e2fa7c106b61fc62b6446aec913ebb3458d30585f0",
+              "sequence": 8
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "庚坎一死门、癸巽四天心，开门震三和生门离九按表。兴趣、可去成和适合程度是三种不同解释。",
+            "citations": [
+              "chart",
+              "context",
+              "work",
+              "people"
+            ],
+            "uncertainties": [
+              "代问、空间方位、文武单位和工作事项视角按本例分别适用，不能互相替换。"
+            ]
+          },
+          "facts": [
+            [
+              1,
+              "heaven_stem"
+            ],
+            [
+              1,
+              "door"
+            ],
+            [
+              4,
+              "heaven_stem"
+            ],
+            [
+              4,
+              "star"
+            ],
+            [
+              3,
+              "door"
+            ],
+            [
+              9,
+              "door"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-4eb25492c78e76af58e707bafc798ec4270d4fb40d6cbb549a1b0a9558ee6aee",
+              "source_id": "span-89e34157c9420c0daadc659243d3e1d429b69d28e07241868fa59436bf3bc6b1",
+              "sha256": "424e7b667dc60e753be112468ff7267428016fa5b0ddbfb0e06278de5cc4b81f",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-6bc6733b877177c866d55344abd1a7bc93e561d674221eae73eb5d64ec75c556",
+              "source_id": "span-e687545e45543412cdfd516bf8c332ee3916d7774031b9baf19b55d86ff47a3e",
+              "sha256": "59c126cd7ea5434dd5e7b23e5d010ea9914cc3b0d3b34083f2189cb644de04c8",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-89cbe73bb5c80c73d00af108ee32b2876b1454b2017d187dac704ff319bc0358",
+              "source_id": "span-afffcfdacff197185f7ef41ef870c7f59daaeb435d449bcfbfadab3f938a756f",
+              "sha256": "33f358ec3d21ce6c10ade3e2fa7c106b61fc62b6446aec913ebb3458d30585f0",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-872f131760ba314671432b50c5c6c40ac922a6f8ba22e7851d7703370bfcb495",
+              "source_id": "span-bba9db27dfd8f129f88ac6476ac5b1d154748211526013990dabd35ce446ea0f",
+              "sha256": "1b9a5d04de5e7f8580642542383fcce8dc9781b150a7573f8688044ee144b99d",
+              "sequence": 9
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-4eb25492c78e76af58e707bafc798ec4270d4fb40d6cbb549a1b0a9558ee6aee",
+              "source_id": "span-89e34157c9420c0daadc659243d3e1d429b69d28e07241868fa59436bf3bc6b1",
+              "sha256": "424e7b667dc60e753be112468ff7267428016fa5b0ddbfb0e06278de5cc4b81f",
+              "sequence": 6,
+              "quote": "年命甲寅癸代表她儿子，癸落巽4宫"
+            },
+            {
+              "record_id": "record-6bc6733b877177c866d55344abd1a7bc93e561d674221eae73eb5d64ec75c556",
+              "source_id": "span-e687545e45543412cdfd516bf8c332ee3916d7774031b9baf19b55d86ff47a3e",
+              "sha256": "59c126cd7ea5434dd5e7b23e5d010ea9914cc3b0d3b34083f2189cb644de04c8",
+              "sequence": 7,
+              "quote": "以开门所落3宫为外交部"
+            },
+            {
+              "record_id": "record-6bc6733b877177c866d55344abd1a7bc93e561d674221eae73eb5d64ec75c556",
+              "source_id": "span-e687545e45543412cdfd516bf8c332ee3916d7774031b9baf19b55d86ff47a3e",
+              "sha256": "59c126cd7ea5434dd5e7b23e5d010ea9914cc3b0d3b34083f2189cb644de04c8",
+              "sequence": 7,
+              "quote": "以生门所落9宫为外经部"
+            },
+            {
+              "record_id": "record-89cbe73bb5c80c73d00af108ee32b2876b1454b2017d187dac704ff319bc0358",
+              "source_id": "span-afffcfdacff197185f7ef41ef870c7f59daaeb435d449bcfbfadab3f938a756f",
+              "sha256": "33f358ec3d21ce6c10ade3e2fa7c106b61fc62b6446aec913ebb3458d30585f0",
+              "sequence": 8,
+              "quote": "日干乙在内盘，时干庚在外盘，一内一外主慢"
+            }
+          ],
+          "answer": {
+            "explanation": "作者区分儿子想去外交部（时干生开门宫）与更适合外经部（时干克生门宫、年命生该宫且仅比和外交宫）；年命吉象支持机会，但日时内外与星反吟提示慢和反复。后来排名被改的事实尚未知，不能先用来推荐找领导。",
+            "citations": [
+              "chart",
+              "context",
+              "work",
+              "people"
+            ],
+            "uncertainties": [
+              "代问、空间方位、文武单位和工作事项视角按本例分别适用，不能互相替换。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-8952fc5da57a570385241cce39c1f98d45b9ab8c333ff618c70e3890ebc4cf5d",
+      "event_id": "event-d2c24149f590d2bc4b475f519ed0406fa59f9c4d62292192dd5268151433bd37",
+      "family_id": "family-c87ac2bb301944d5311e9ff0a35986652e6633fed2f50d324bfd6c67f9ab132d",
+      "chart_id": "chart-a88e74c94a3ab106014c0f56abd64417de3544858affaa2c954e17b08635f506",
+      "chapter": "11-work-employment",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 2,
+      "stage": "ranking_disclosed",
+      "mode": "continuation",
+      "known": [
+        {
+          "record_id": "record-44405af96ab15a13252f232f8af342b92d7f292492a8bc1b2f2e421e183b4728",
+          "source_id": "span-fde75a616d213cc0c1a37fa31178949f879e7ff69651a445c5ffd08879d09d8a",
+          "sha256": "75dabfe75267f06eedf8677211fa47cfefa4240a6b80ea05064f9e8b04771c5e",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-26fad862fb7d3f926ac2e6d3a767bec81ab6464839d616fdabcc691efc867045",
+          "source_id": "span-e801ade2826debc974a0f2cd4bde830db04cfc5b1de246a915381221570493fd",
+          "sha256": "0610b031e3e0bcf222a36e4f90a43d04162fae5743983c9f504e19abc740410d",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-240f18625966568f842b97d158c9cc070903bbc6d112311852dfee9d37d06636",
+          "source_id": "span-58f33f4a6a9b64832950688518b28794cd2b995f1582093476cb626757d0eada",
+          "sha256": "b19c838f798ed63013bb2128f421980e01ed76a3e09622784a2529945b3f3238",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-bf8553bbf3c3157026ee10ae0deef6cb02446a293f3cb4c59da219d751da8b56",
+          "source_id": "span-332bd3c950390700d022bbaee921556bb990518ea9e0914e95c54149a2de0b10",
+          "sha256": "ef822d53656e4945fe366e3aec034b79def7dfd4f9f56202676275232b917908",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-57f5f496bce8ece4981315a860967a715a8eeba3a815c0013f805e4ab8eb8fa5",
+          "source_id": "span-e6ba1aebaf907b384bee8595e958c3d35a0bb2efa13331992690d918dd34ea51",
+          "sha256": "2f9b20babed9fa3218e2ab95f1d0ad7a2ef1118795ecbab729b4c251a115cae8",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-4eb25492c78e76af58e707bafc798ec4270d4fb40d6cbb549a1b0a9558ee6aee",
+          "source_id": "span-89e34157c9420c0daadc659243d3e1d429b69d28e07241868fa59436bf3bc6b1",
+          "sha256": "424e7b667dc60e753be112468ff7267428016fa5b0ddbfb0e06278de5cc4b81f",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-6bc6733b877177c866d55344abd1a7bc93e561d674221eae73eb5d64ec75c556",
+          "source_id": "span-e687545e45543412cdfd516bf8c332ee3916d7774031b9baf19b55d86ff47a3e",
+          "sha256": "59c126cd7ea5434dd5e7b23e5d010ea9914cc3b0d3b34083f2189cb644de04c8",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-89cbe73bb5c80c73d00af108ee32b2876b1454b2017d187dac704ff319bc0358",
+          "source_id": "span-afffcfdacff197185f7ef41ef870c7f59daaeb435d449bcfbfadab3f938a756f",
+          "sha256": "33f358ec3d21ce6c10ade3e2fa7c106b61fc62b6446aec913ebb3458d30585f0",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-872f131760ba314671432b50c5c6c40ac922a6f8ba22e7851d7703370bfcb495",
+          "source_id": "span-bba9db27dfd8f129f88ac6476ac5b1d154748211526013990dabd35ce446ea0f",
+          "sha256": "1b9a5d04de5e7f8580642542383fcce8dc9781b150a7573f8688044ee144b99d",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-000855820092ce0aeb8e599d0456b7d030cc55313d134be6619f13105d00b231",
+          "source_id": "span-ddbbdd160d0ef71a4822780ecd6aff215fdfa998c36e5b713a3ce5404c041631",
+          "sha256": "047af732c7ee60719c61e491388b95dd46aa756d169d9f2e1fb340d331e9b340",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-e38161c085583d1c634ff86638927d073c373c1a2330dbabd108d1ffdf323523",
+          "source_id": "span-8ed35602ce5a7554bce4cbd7a042eb52c8aa8cb237973c01e221f97b99173b52",
+          "sha256": "50a407a580932ffb15d4f24a4b7f4f9667848350e9f425331c513c9754df8ac2",
+          "sequence": 11
+        },
+        {
+          "record_id": "record-b08261cc40bdf735c0fd7d89da12d59a164821a17672f1d8786319fa6451f752",
+          "source_id": "span-a275cdca476442588e3d11ac5c0d2d195951b14fc35a7fb62e262e9cf59a9e94",
+          "sha256": "34e23fac242de50fc227eb03da5021680179b5a368dff679c02127561e61ad0c",
+          "sequence": 12
+        },
+        {
+          "record_id": "record-c33c828a0d05f6be1ffe22ce4357769778858a71ca604a3aad469e7b4d6216b4",
+          "source_id": "span-2b9791e33d1812fcdd231cc903790b553ba6c05ae1c72a1d2b43da2b860b5066",
+          "sha256": "d470c8d9d7409fc5155377210293e32155f7343b091d24da4a50652b0eb2e1da",
+          "sequence": 13
+        }
+      ],
+      "cutoff": 14,
+      "rules": {
+        "work": "一般以开门代表文职工作及单位，以杜门代表武职工作及单位",
+        "people": "以年干代表上级领导，以值符代表顶头上司，以月干代表同事，以日干代表求测之人"
+      },
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-133e707d0d477e21c1e9aa78bfe4ad5cdd78ad01f7d24dffb6ea82ff798d7bab",
+              "source_id": "span-f73b30341541f73054999af572911136caa1abfe6309133c6e89055cdb7f59a1",
+              "sha256": "adb07ad18c551f56d9ec14c83838ad8e8687dbd7db87467a757129d454a406a3",
+              "sequence": 14
+            },
+            {
+              "record_id": "record-b3a77a03bc85825f97774adc69825af657ac465a00d587d9fa23979a06d8b658",
+              "source_id": "span-2ab5098059ca69b4a3f49bd8b16d5e9c6b6a0eba0d60b90fe8ccfb56b77ef1b6",
+              "sha256": "68bbea4ce277a81c4a1b06d80f3c10fd2e3f2f0981af1a5c9064b4abbf2e2c7a",
+              "sequence": 15
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-133e707d0d477e21c1e9aa78bfe4ad5cdd78ad01f7d24dffb6ea82ff798d7bab",
+              "source_id": "span-f73b30341541f73054999af572911136caa1abfe6309133c6e89055cdb7f59a1",
+              "sha256": "adb07ad18c551f56d9ec14c83838ad8e8687dbd7db87467a757129d454a406a3",
+              "sequence": 14,
+              "quote": "月干戊为同事同学，在艮8宫，克时干庚所在坎1宫"
+            },
+            {
+              "record_id": "record-133e707d0d477e21c1e9aa78bfe4ad5cdd78ad01f7d24dffb6ea82ff798d7bab",
+              "source_id": "span-f73b30341541f73054999af572911136caa1abfe6309133c6e89055cdb7f59a1",
+              "sha256": "adb07ad18c551f56d9ec14c83838ad8e8687dbd7db87467a757129d454a406a3",
+              "sequence": 14,
+              "quote": "年干为学校，年干丙在乾6宫，生时干庚1宫"
+            }
+          ],
+          "answer": {
+            "explanation": "排名从第三改成第八是新增反馈，作者明确找回11月4日原盘，读月干同学宫克时干、学校年干生时干，解释竞争干扰与学校支持的可能。不能把这次反馈放回第一次择单位输入，也没有新起一张11月25日盘。其后找领导与最终分配结果仍未知。",
+            "citations": [
+              "chart",
+              "context",
+              "work",
+              "people"
+            ],
+            "uncertainties": [
+              "代问、空间方位、文武单位和工作事项视角按本例分别适用，不能互相替换。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-8952fc5da57a570385241cce39c1f98d45b9ab8c333ff618c70e3890ebc4cf5d",
+      "event_id": "event-d2c24149f590d2bc4b475f519ed0406fa59f9c4d62292192dd5268151433bd37",
+      "family_id": "family-c87ac2bb301944d5311e9ff0a35986652e6633fed2f50d324bfd6c67f9ab132d",
+      "chart_id": "chart-a88e74c94a3ab106014c0f56abd64417de3544858affaa2c954e17b08635f506",
+      "chapter": "11-work-employment",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 3,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "源中分析逐段在第一次结果反馈之前；unknown注释不改，以给定作者条件练习而非无辅助预测。",
+      "known": [
+        {
+          "record_id": "record-e25700a089942b0d1a550cd0267ac8835c4cb98c874937ccc3114c42b8437638",
+          "source_id": "span-cc5931f0bb897859e795bc546959e241a5df0834188bad6781efc10c05beaded",
+          "sha256": "f9f695e540642d2e8478856b2172ad3fdab105e94318027641a5d8cbdd02dc38",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-05355ca8e60886b5004fb0033c802cb05112363b61263086293d57a95a906096",
+          "source_id": "span-fd9f82f5f106a8d1caaa055683a3b9131a3a496bdf77dc984aac50b9fd1416ba",
+          "sha256": "cf9fa390b8fe5b748130c8d7b8c0ca96814e4b66b47c207e6216a8305b12cc8c",
+          "sequence": 1
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "work": "一般以开门代表文职工作及单位，以杜门代表武职工作及单位",
+        "people": "以年干代表上级领导，以值符代表顶头上司，以月干代表同事，以日干代表求测之人"
+      },
+      "provided_roles": [
+        "日戊求测军官、开工作单位值符上司、杜部队、月戊同事"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-b1c843e18abe5027d5687c6baae3b51f4490ac218b2ab9b90b06683df5cfa180",
+              "source_id": "span-714ea31ada130b636175dbb42a2bfd443dec9df6c2a63966258bd2fe5eeee4f4",
+              "sha256": "cbf5b7fbd2a9d0f659b1d6c3f3d82667eafd3fd31f069793e01e0103e2d96a51",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-9dca88c8c19e97b81d1c4a97f3c3a3995856e097b2520a27095bbb8241851919",
+              "source_id": "span-424e66ef41e128a102bae3abe617851adf9ad3edd3d95c29328e56196061a0e2",
+              "sha256": "90e3b15d5efdab0870060a0ecae2308f249f343e4742997285193891b34924c0",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-2ae6e8fe638e3c2643632eff76b190c315bd5dfe68bf74a547b8ae3b8d4c3143",
+              "source_id": "span-775c4c6e081c3b44f20126f52ab88a3f2ac86ac75cd1922f52ebb0fd7056fa51",
+              "sha256": "d2e4994d7e7e5f6199fe6d500eefbdfb885110e8d5915e430006888fff43bf4b",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-944b70e89ace63a03135a1e31191320bf6aab8c439a058e3bb4864fd32cf8932",
+              "source_id": "span-3c4d92cf1de2d9a3ec531b9a03e50168ff5604497920ff27c4e8c6275aca31aa",
+              "sha256": "1c52b422f8274da4592d1f312a622b0901ebd1b1d6517908f48d766814f5dd65",
+              "sequence": 7
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "军官本人问工作，日干戊代表本人，开门工作单位和值符领导、杜门部队机关分别比较，月干戊另为同事。日月同干不能简单合为同一人。",
+            "citations": [
+              "chart",
+              "context",
+              "work",
+              "people"
+            ],
+            "uncertainties": [
+              "代问、空间方位、文武单位和工作事项视角按本例分别适用，不能互相替换。"
+            ],
+            "bindings": [
+              {
+                "role": "军官本人",
+                "symbol": "日干戊",
+                "condition": "本人求测"
+              },
+              {
+                "role": "工作单位与部队",
+                "symbol": "开门、杜门",
+                "condition": "本案文武机构视角分别保存"
+              },
+              {
+                "role": "同事",
+                "symbol": "月干戊",
+                "condition": "与日干戊人物区分"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-b1c843e18abe5027d5687c6baae3b51f4490ac218b2ab9b90b06683df5cfa180",
+              "source_id": "span-714ea31ada130b636175dbb42a2bfd443dec9df6c2a63966258bd2fe5eeee4f4",
+              "sha256": "cbf5b7fbd2a9d0f659b1d6c3f3d82667eafd3fd31f069793e01e0103e2d96a51",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-9dca88c8c19e97b81d1c4a97f3c3a3995856e097b2520a27095bbb8241851919",
+              "source_id": "span-424e66ef41e128a102bae3abe617851adf9ad3edd3d95c29328e56196061a0e2",
+              "sha256": "90e3b15d5efdab0870060a0ecae2308f249f343e4742997285193891b34924c0",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-2ae6e8fe638e3c2643632eff76b190c315bd5dfe68bf74a547b8ae3b8d4c3143",
+              "source_id": "span-775c4c6e081c3b44f20126f52ab88a3f2ac86ac75cd1922f52ebb0fd7056fa51",
+              "sha256": "d2e4994d7e7e5f6199fe6d500eefbdfb885110e8d5915e430006888fff43bf4b",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-944b70e89ace63a03135a1e31191320bf6aab8c439a058e3bb4864fd32cf8932",
+              "source_id": "span-3c4d92cf1de2d9a3ec531b9a03e50168ff5604497920ff27c4e8c6275aca31aa",
+              "sha256": "1c52b422f8274da4592d1f312a622b0901ebd1b1d6517908f48d766814f5dd65",
+              "sequence": 7
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "日戊和值使惊门坎一，开门值符艮八，杜门及地戊坤二按原表。免职结局不能从表中文字直接读出。",
+            "citations": [
+              "chart",
+              "context",
+              "work",
+              "people"
+            ],
+            "uncertainties": [
+              "代问、空间方位、文武单位和工作事项视角按本例分别适用，不能互相替换。"
+            ]
+          },
+          "facts": [
+            [
+              1,
+              "heaven_stem"
+            ],
+            [
+              1,
+              "door"
+            ],
+            [
+              8,
+              "door"
+            ],
+            [
+              8,
+              "deity"
+            ],
+            [
+              2,
+              "door"
+            ],
+            [
+              2,
+              "earth_stem"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-b1c843e18abe5027d5687c6baae3b51f4490ac218b2ab9b90b06683df5cfa180",
+              "source_id": "span-714ea31ada130b636175dbb42a2bfd443dec9df6c2a63966258bd2fe5eeee4f4",
+              "sha256": "cbf5b7fbd2a9d0f659b1d6c3f3d82667eafd3fd31f069793e01e0103e2d96a51",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-9dca88c8c19e97b81d1c4a97f3c3a3995856e097b2520a27095bbb8241851919",
+              "source_id": "span-424e66ef41e128a102bae3abe617851adf9ad3edd3d95c29328e56196061a0e2",
+              "sha256": "90e3b15d5efdab0870060a0ecae2308f249f343e4742997285193891b34924c0",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-2ae6e8fe638e3c2643632eff76b190c315bd5dfe68bf74a547b8ae3b8d4c3143",
+              "source_id": "span-775c4c6e081c3b44f20126f52ab88a3f2ac86ac75cd1922f52ebb0fd7056fa51",
+              "sha256": "d2e4994d7e7e5f6199fe6d500eefbdfb885110e8d5915e430006888fff43bf4b",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-944b70e89ace63a03135a1e31191320bf6aab8c439a058e3bb4864fd32cf8932",
+              "source_id": "span-3c4d92cf1de2d9a3ec531b9a03e50168ff5604497920ff27c4e8c6275aca31aa",
+              "sha256": "1c52b422f8274da4592d1f312a622b0901ebd1b1d6517908f48d766814f5dd65",
+              "sequence": 7
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-b1c843e18abe5027d5687c6baae3b51f4490ac218b2ab9b90b06683df5cfa180",
+              "source_id": "span-714ea31ada130b636175dbb42a2bfd443dec9df6c2a63966258bd2fe5eeee4f4",
+              "sha256": "cbf5b7fbd2a9d0f659b1d6c3f3d82667eafd3fd31f069793e01e0103e2d96a51",
+              "sequence": 3,
+              "quote": "日干戊与值使惊门同落1宫，逢空亡之地"
+            },
+            {
+              "record_id": "record-9dca88c8c19e97b81d1c4a97f3c3a3995856e097b2520a27095bbb8241851919",
+              "source_id": "span-424e66ef41e128a102bae3abe617851adf9ad3edd3d95c29328e56196061a0e2",
+              "sha256": "90e3b15d5efdab0870060a0ecae2308f249f343e4742997285193891b34924c0",
+              "sequence": 4,
+              "quote": "开门为工作为单位与值符同落8宫，克日干和值使门落宫"
+            },
+            {
+              "record_id": "record-9dca88c8c19e97b81d1c4a97f3c3a3995856e097b2520a27095bbb8241851919",
+              "source_id": "span-424e66ef41e128a102bae3abe617851adf9ad3edd3d95c29328e56196061a0e2",
+              "sha256": "90e3b15d5efdab0870060a0ecae2308f249f343e4742997285193891b34924c0",
+              "sequence": 4,
+              "quote": "杜门主部队、保密机关，杜门落坤2宫，也克日干和值使门落宫"
+            },
+            {
+              "record_id": "record-944b70e89ace63a03135a1e31191320bf6aab8c439a058e3bb4864fd32cf8932",
+              "source_id": "span-3c4d92cf1de2d9a3ec531b9a03e50168ff5604497920ff27c4e8c6275aca31aa",
+              "sha256": "1c52b422f8274da4592d1f312a622b0901ebd1b1d6517908f48d766814f5dd65",
+              "sequence": 7,
+              "quote": "月干戊为同事，与日干戊同宫"
+            }
+          ],
+          "answer": {
+            "explanation": "作者比较日干值使空亡、惊门辛乙及上乘九天，与开门值符和杜门共同克日干的结构，提出降免职及牵连可能；月日戊同宫又作不止本人之象。不能把凶格当法律事实或把随后另两人免职提前输入。",
+            "citations": [
+              "chart",
+              "context",
+              "work",
+              "people"
+            ],
+            "uncertainties": [
+              "代问、空间方位、文武单位和工作事项视角按本例分别适用，不能互相替换。"
+            ]
+          }
+        },
+        {
+          "type": "timing_analysis",
+          "targets": [
+            {
+              "record_id": "record-ab16fa98dc25d7cd757d7c62355651744fc06f5f7417512d39718cf21d69dbb2",
+              "source_id": "span-e31d122d773bcb12906447f236abe53796e05bbd9c276053425d8b506bee6f17",
+              "sha256": "4dde63fba54edcec4f047056c3a629b0cbc58bc3c1038a7f3a7c3490a72d7863",
+              "sequence": 6
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-ab16fa98dc25d7cd757d7c62355651744fc06f5f7417512d39718cf21d69dbb2",
+              "source_id": "span-e31d122d773bcb12906447f236abe53796e05bbd9c276053425d8b506bee6f17",
+              "sha256": "4dde63fba54edcec4f047056c3a629b0cbc58bc3c1038a7f3a7c3490a72d7863",
+              "sequence": 6,
+              "quote": "开门落空亡之地，立春以后开门填实之日为应期"
+            }
+          ],
+          "answer": {
+            "explanation": "作者以开门所处空亡待填实，把范围定到立春以后；源文没有展开到唯一公历日，不可根据寅月底实际文件反馈伪造更精确应日。",
+            "citations": [
+              "chart",
+              "context",
+              "work",
+              "people"
+            ],
+            "uncertainties": [
+              "代问、空间方位、文武单位和工作事项视角按本例分别适用，不能互相替换。"
+            ],
+            "methods": [
+              "开门空亡待节令后填实"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-146dcedd8799e9c4442671fce44b08a64e34da63602d1a017febce2fa3073946",
+      "event_id": "event-5f23947c6700b7038642414040aca1527ffb87132000c12dcb168224fe85e4a0",
+      "family_id": "family-1eb03593f406aecdca274e6190641cc1bcf202cb28418838b8ff25e6e6c0b3a1",
+      "chart_id": "chart-e00526ec87cc73efddfb294050fe5fcd96c8393e13246eda96515cee5af2884d",
+      "chapter": "11-work-employment",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 4,
+      "event": 2,
+      "stage": "first_chart_retrospective",
+      "mode": "retrospective",
+      "known": [
+        {
+          "record_id": "record-500efbbf1ba3c31c4062acfd7a5a0b45f958424813d0bf93e796b1b964eaaf02",
+          "source_id": "span-57dd8d4de623bbd83b7757d07b5909353afa3a98c33e3f261ba0d5d47840f184",
+          "sha256": "cb3ffe9d89a5a1c5361c7c4f2640f5a74ecad1d989bfba65cdbde99231f3d92d",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-36217f92849940a107a524f7cebb0025223f46e531a43716e8d435dc81cf5b45",
+          "source_id": "span-695b032a652fdd33711c710165a7a412438798a3d9bc429cacd4feea5ffe0190",
+          "sha256": "7e7b2adf162f3cecc74164543082bf2b0981c2da466ae6802931d450260a0d56",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-e1bb24a4afc6007c20f1c73e67f1748256941b21f93fa881b5314b1668b7acab",
+          "source_id": "span-5b8f1006ada5e2ba5cb335e9069bb792eaedc7da598298b5b39ccee4e8013b26",
+          "sha256": "76d920d111d41c91b49d4f5f31470bf9aafe1a576fbf39d197e867ac5d55ce87",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-07ae9f766d0db23c632c67659a0e4a78deeb3bbae7ed17cf4ec5556e8e26dbe6",
+          "source_id": "span-43c5edd7879e0c1d9e676590b021e68b74178b606eddb3dc9b3ce404640e33f3",
+          "sha256": "618d0e8df1961b9de60383f51146ae10537acbb0c92dfc9b42210a2a53c02921",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-a242d6d168cc1e68c2b3b62e294bf12e2276a3b36e816e14cb63b1e83931285b",
+          "source_id": "span-0c940d952ae521100e10b2862b7a4264baa5c1f1571f85895e65223c12f51291",
+          "sha256": "80628eb033d5ec6c4c7e109888aed2db85bc83d16530810ea0f04b306e4b5905",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-dadf45d6587e9468db054e4be026053e1440a83e8a50ae646882d211eea92fdc",
+          "source_id": "span-a378e6575b512435c934ca8fccb09b66ab03874a58cd551c30b030b2b6f90eb4",
+          "sha256": "487461b8fa3c2e55643ed6b05e12a5c0c9581c0ef11f569041d269df638c2a0b",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-c740af992fd2a2eb28c6f44a48e98d5000b049516cc5da150a3ca189c709bf93",
+          "source_id": "span-b3f82329bcd6cbb93e309efb716747eb4a10d5f63de5996f0f3edde39c9172f9",
+          "sha256": "b1fcd8e657d4941408503df6473609450aa579709b597b6427cc7a58a8579791",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-41047912c8e7b6cd198699748cc816ae94f9455c94913eba94112df5738c64f8",
+          "source_id": "span-cf0f2c5a82550d6a2f07284ec64b7a8488b35fc2e6a277d901709123e7ab14d1",
+          "sha256": "46a589f167917bbc6999dd11ca29094cbb421a649ee1cc8825d896c7eb824dd4",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-bde7e44d12f57c3638e183791c98b0130da52bff4fc6fda282d8196043c9b213",
+          "source_id": "span-01785fdd74ad60831cac950ffd4771a63dfc8b567096e885773937fda0d7247c",
+          "sha256": "a1882a1a10ee00b40f6137fb5196fad90bfb9af24a4d2661d6c0ae7f0d452169",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-37ed955e9a4b5e77292af077b417e6f4ac4dc2e265cb9dd46b35e9e5a0dc8a5f",
+          "source_id": "span-8345c1191ff2d194b79aad52197abc5854eed49529130a9f9efd9bea85e10732",
+          "sha256": "7287a0e9abacc7e82712f42eb2c2a7e954ebae5176814cfcd65b4887b554c7ec",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-7f09c795f62ae16e52f51cdc8bc43e4cf99192f460b20b2ee70115f102de26ba",
+          "source_id": "span-d75d2feb10f422f098c15cdf2ab619fd45503658a43db7ee296e6471686e1c4b",
+          "sha256": "c6773ad570d0bde64ba0fdc2ad3c006bc9f1022ba5d69b6270153a7128b229dd",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-1dbe79a20220d809f2296c479098f2f499af27fe5e8dc8afea5d5da154990e73",
+          "source_id": "span-03253c1d067789f61490e22412c2b070f7cfb70f24bb5249af4446d0b3383adb",
+          "sha256": "05fb4cac09203134484419c93275108a326bc8607514f2d29521bafa94e234dc",
+          "sequence": 11
+        },
+        {
+          "record_id": "record-48c4e18aaa580bb788a60d72c60533a3ec3546e67bd72afa61b5e0773f175be6",
+          "source_id": "span-e0e79abe83932bf7b3275f99ba8f6d1ebcbe4d085734381fa780a3737f6f4790",
+          "sha256": "7f621fbbcc571eec00465fa69edfbceab9774ebb97904738ced9c9333e3098f9",
+          "sequence": 12
+        },
+        {
+          "record_id": "record-fae6f0392c3649d55c50a33a48d9cbc76ce13e6b86f962033225399df3101bc6",
+          "source_id": "span-6cbb43030796866bc6a15fa995cb54378693227f5c1286c905f1f3f5d574d780",
+          "sha256": "45bdb120712ff10a8868ea57f4bd8417c1fd9a7da208aa0d27e0b159615a769e",
+          "sequence": 13
+        },
+        {
+          "record_id": "record-c5c6a765f5b31a1f42d51bf8543575f266b81def6abe97dd3a8921c9c3d1c0cf",
+          "source_id": "span-b9aec12af22feaab5330e078aae6728d95dafe96134ca07f58ec59da5757b828",
+          "sha256": "190dce3395074db50bce7929f0a2d5e7b00bf3b8ec118c2ab80ced08f183e084",
+          "sequence": 14
+        },
+        {
+          "record_id": "record-6769c0550607d8631c33975cd5331b959354402abdf0897f4807c9a8b661a406",
+          "source_id": "span-cc21502bcb9fd69541716ee0c512af5fd06e74a76652874e8323f0455aa2ca49",
+          "sha256": "c8291ce9947282c21e64b5c062db357c11d919e6112e0e97917814d22bc9bb68",
+          "sequence": 15
+        },
+        {
+          "record_id": "record-e6278177e8c160a70048e1d75dcaa93b8a661b2f509a16cfb370738ffe41b286",
+          "source_id": "span-65d13b1f42c150639ee492854a9e4e6d0ab5d3aba77137f1276baf78f2aed5bb",
+          "sha256": "b7b6b5a1219161ad6e68fc6ad64e1636c7205bfa6ec798021ebabfcc68fb44ad",
+          "sequence": 16
+        }
+      ],
+      "cutoff": 18,
+      "rules": {
+        "work": "一般以开门代表文职工作及单位，以杜门代表武职工作及单位",
+        "people": "以年干代表上级领导，以值符代表顶头上司，以月干代表同事，以日干代表求测之人"
+      },
+      "provided_roles": [
+        "日干丁本人兼年命太岁、开门单位、值符领导、时干任务"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-bb3dbc9522c495ee56f4cd94c6811c14fd4ae2efef47c924f6bfe9cb7d585f1b",
+              "source_id": "span-f385d044625ccb457c31b915dfda1e64f065ac04d42d7db3785030da14ac0448",
+              "sha256": "1ed76970657b584ca43ffdd4fbc0279a436f80e5ac887f8fce3c6d676ebb636e",
+              "sequence": 18
+            },
+            {
+              "record_id": "record-4ad9c7058a367a130b57fee63c531832919aac9d22acb837d0c9195566b0fe40",
+              "source_id": "span-e5c122002c38bdc5efd075267b69f456f8303645825ccc1d698f0f88b57ac669",
+              "sha256": "b18f327c3525de6282599efb68ef1cec54058ecb91b5c672678af7db86c982bc",
+              "sequence": 20
+            },
+            {
+              "record_id": "record-d55e2331e59aea187aee5861914d3e43ab3d10e712fed5c3f79b0eeaf97f8193",
+              "source_id": "span-23ba27617d874ea300b8ed472e126440d52a1a29225bd300ee772a5342726570",
+              "sha256": "2f672cf88bdfd4df640982796294b68d5abbb8d7d6be1c5ce29f184ee4fc32a6",
+              "sequence": 21
+            },
+            {
+              "record_id": "record-2a4eff034bb1685df3087e528f763b3943a29ca2e764e65d0abad8d588ab4173",
+              "source_id": "span-921f5bb2305de06ab93fc3076da588595cf29f7de34c0561b7f9b0fe2c184f15",
+              "sha256": "5e901be4557e57b6d8d5486695580a8ab7780cce3fe5ebca87ff92d2ba9f2980",
+              "sequence": 23
+            },
+            {
+              "record_id": "record-cd67be054b15ec8ba0506035ce56796c4af5dc580a584452f4817917f020e1ba",
+              "source_id": "span-35c7627e0635d8e66dcb3feb110da45cdc0747be39e9e4537112230caf9db754",
+              "sha256": "c2edb606a29339a6f9484ba0d2fac52051c134658e81c138a0f8de2b359d87f4",
+              "sequence": 24
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "本题复盘第一次4月15日原盘，日干丁为本人，开门为工作单位；丁兼年干、年命需明确不同含义，值符为领导，时干另看工作任务。原文把月干写为壬，但四柱列甲辰月，应照源标出未解差异，不悄悄改历或改断语。",
+            "citations": [
+              "chart",
+              "context",
+              "work",
+              "people"
+            ],
+            "uncertainties": [
+              "代问、空间方位、文武单位和工作事项视角按本例分别适用，不能互相替换。"
+            ],
+            "bindings": [
+              {
+                "role": "本人",
+                "symbol": "日干丁（兼本例年命、年干）",
+                "condition": "同干多重视角注明"
+              },
+              {
+                "role": "工作单位、领导、任务",
+                "symbol": "开门、值符、时干",
+                "condition": "分别比较，不把时干克本人一概作凶"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-bb3dbc9522c495ee56f4cd94c6811c14fd4ae2efef47c924f6bfe9cb7d585f1b",
+              "source_id": "span-f385d044625ccb457c31b915dfda1e64f065ac04d42d7db3785030da14ac0448",
+              "sha256": "1ed76970657b584ca43ffdd4fbc0279a436f80e5ac887f8fce3c6d676ebb636e",
+              "sequence": 18
+            },
+            {
+              "record_id": "record-4ad9c7058a367a130b57fee63c531832919aac9d22acb837d0c9195566b0fe40",
+              "source_id": "span-e5c122002c38bdc5efd075267b69f456f8303645825ccc1d698f0f88b57ac669",
+              "sha256": "b18f327c3525de6282599efb68ef1cec54058ecb91b5c672678af7db86c982bc",
+              "sequence": 20
+            },
+            {
+              "record_id": "record-d55e2331e59aea187aee5861914d3e43ab3d10e712fed5c3f79b0eeaf97f8193",
+              "source_id": "span-23ba27617d874ea300b8ed472e126440d52a1a29225bd300ee772a5342726570",
+              "sha256": "2f672cf88bdfd4df640982796294b68d5abbb8d7d6be1c5ce29f184ee4fc32a6",
+              "sequence": 21
+            },
+            {
+              "record_id": "record-2a4eff034bb1685df3087e528f763b3943a29ca2e764e65d0abad8d588ab4173",
+              "source_id": "span-921f5bb2305de06ab93fc3076da588595cf29f7de34c0561b7f9b0fe2c184f15",
+              "sha256": "5e901be4557e57b6d8d5486695580a8ab7780cce3fe5ebca87ff92d2ba9f2980",
+              "sequence": 23
+            },
+            {
+              "record_id": "record-4cf8e155e7508a45ba4dc267c54f52fb5da9fd98ca61db85ff533f3600b39e67",
+              "source_id": "span-aaf2c088e6a50829128fa8e3742c4829b5bf50ed4a7cd6ea6b9c1092287fc93f",
+              "sha256": "4859e381e3ad35ac7924ca2b0d318ec1f6741940912ea3cd1850f09f9b94e8ff",
+              "sequence": 27
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "丁坤二杜门，艮八开门庚，离九值符，巽四乙照表；原文“五次”不是五张已提供原盘，不能复制出额外盘。",
+            "citations": [
+              "chart",
+              "context",
+              "work",
+              "people"
+            ],
+            "uncertainties": [
+              "代问、空间方位、文武单位和工作事项视角按本例分别适用，不能互相替换。"
+            ]
+          },
+          "facts": [
+            [
+              2,
+              "heaven_stem"
+            ],
+            [
+              2,
+              "door"
+            ],
+            [
+              8,
+              "door"
+            ],
+            [
+              8,
+              "heaven_stem"
+            ],
+            [
+              9,
+              "deity"
+            ],
+            [
+              4,
+              "heaven_stem"
+            ]
+          ]
+        },
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-bb3dbc9522c495ee56f4cd94c6811c14fd4ae2efef47c924f6bfe9cb7d585f1b",
+              "source_id": "span-f385d044625ccb457c31b915dfda1e64f065ac04d42d7db3785030da14ac0448",
+              "sha256": "1ed76970657b584ca43ffdd4fbc0279a436f80e5ac887f8fce3c6d676ebb636e",
+              "sequence": 18
+            },
+            {
+              "record_id": "record-4ad9c7058a367a130b57fee63c531832919aac9d22acb837d0c9195566b0fe40",
+              "source_id": "span-e5c122002c38bdc5efd075267b69f456f8303645825ccc1d698f0f88b57ac669",
+              "sha256": "b18f327c3525de6282599efb68ef1cec54058ecb91b5c672678af7db86c982bc",
+              "sequence": 20
+            },
+            {
+              "record_id": "record-d55e2331e59aea187aee5861914d3e43ab3d10e712fed5c3f79b0eeaf97f8193",
+              "source_id": "span-23ba27617d874ea300b8ed472e126440d52a1a29225bd300ee772a5342726570",
+              "sha256": "2f672cf88bdfd4df640982796294b68d5abbb8d7d6be1c5ce29f184ee4fc32a6",
+              "sequence": 21
+            },
+            {
+              "record_id": "record-989eb34f3e480d70743968cb8a83a120540d34c13e52c49afeb86ddb880f3cbe",
+              "source_id": "span-27ac0ac7b8e180c350496ebab4a46af7090e5be0e00422e7d491efe3ddc90ab6",
+              "sha256": "20b04f7105ce639da5b11346a557475a35791f34bc261c470c2205d961fd60a9",
+              "sequence": 22
+            },
+            {
+              "record_id": "record-2a4eff034bb1685df3087e528f763b3943a29ca2e764e65d0abad8d588ab4173",
+              "source_id": "span-921f5bb2305de06ab93fc3076da588595cf29f7de34c0561b7f9b0fe2c184f15",
+              "sha256": "5e901be4557e57b6d8d5486695580a8ab7780cce3fe5ebca87ff92d2ba9f2980",
+              "sequence": 23
+            },
+            {
+              "record_id": "record-cd67be054b15ec8ba0506035ce56796c4af5dc580a584452f4817917f020e1ba",
+              "source_id": "span-35c7627e0635d8e66dcb3feb110da45cdc0747be39e9e4537112230caf9db754",
+              "sha256": "c2edb606a29339a6f9484ba0d2fac52051c134658e81c138a0f8de2b359d87f4",
+              "sequence": 24
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-bb3dbc9522c495ee56f4cd94c6811c14fd4ae2efef47c924f6bfe9cb7d585f1b",
+              "source_id": "span-f385d044625ccb457c31b915dfda1e64f065ac04d42d7db3785030da14ac0448",
+              "sha256": "1ed76970657b584ca43ffdd4fbc0279a436f80e5ac887f8fce3c6d676ebb636e",
+              "sequence": 18,
+              "quote": "开门为工作单位落艮8宫与日干落宫对冲"
+            },
+            {
+              "record_id": "record-4ad9c7058a367a130b57fee63c531832919aac9d22acb837d0c9195566b0fe40",
+              "source_id": "span-e5c122002c38bdc5efd075267b69f456f8303645825ccc1d698f0f88b57ac669",
+              "sha256": "b18f327c3525de6282599efb68ef1cec54058ecb91b5c672678af7db86c982bc",
+              "sequence": 20,
+              "quote": "日干丁奇落坤二宫，丁奇又为年干、为太岁，也为我的年命"
+            },
+            {
+              "record_id": "record-d55e2331e59aea187aee5861914d3e43ab3d10e712fed5c3f79b0eeaf97f8193",
+              "source_id": "span-23ba27617d874ea300b8ed472e126440d52a1a29225bd300ee772a5342726570",
+              "sha256": "2f672cf88bdfd4df640982796294b68d5abbb8d7d6be1c5ce29f184ee4fc32a6",
+              "sequence": 21,
+              "quote": "值符为领导"
+            },
+            {
+              "record_id": "record-cd67be054b15ec8ba0506035ce56796c4af5dc580a584452f4817917f020e1ba",
+              "source_id": "span-35c7627e0635d8e66dcb3feb110da45cdc0747be39e9e4537112230caf9db754",
+              "sha256": "c2edb606a29339a6f9484ba0d2fac52051c134658e81c138a0f8de2b359d87f4",
+              "sequence": 24,
+              "quote": "时干主工作任务，克日干主工作任务重"
+            }
+          ],
+          "answer": {
+            "explanation": "作者在已有商调过程后用开门与日干对冲解释变动，以太岁同干、领导宫生本人解释调后有利，杜门天柱螣蛇看技术表达；时干克日干被解释为任务重而非必凶。此为第一次盘的回顾，不能将未提供的另外四盘臆造为证据。",
+            "citations": [
+              "chart",
+              "context",
+              "work",
+              "people"
+            ],
+            "uncertainties": [
+              "代问、空间方位、文武单位和工作事项视角按本例分别适用，不能互相替换。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        },
+        {
+          "type": "timing_analysis",
+          "targets": [
+            {
+              "record_id": "record-2c36998fbc4ab1ece55965d58976a064a30af9d1e48292cd3595ef772b038287",
+              "source_id": "span-bcfa67124e939861ec26d638433790dabad610c0e6ad19ab2827e424948d6fbc",
+              "sha256": "c28e5efcdd58440edb5a0fbf6c88ecc72ae4ab0e41e8aeca77a6aae94ae3aea6",
+              "sequence": 26
+            },
+            {
+              "record_id": "record-4cf8e155e7508a45ba4dc267c54f52fb5da9fd98ca61db85ff533f3600b39e67",
+              "source_id": "span-aaf2c088e6a50829128fa8e3742c4829b5bf50ed4a7cd6ea6b9c1092287fc93f",
+              "sha256": "4859e381e3ad35ac7924ca2b0d318ec1f6741940912ea3cd1850f09f9b94e8ff",
+              "sequence": 27
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-2c36998fbc4ab1ece55965d58976a064a30af9d1e48292cd3595ef772b038287",
+              "source_id": "span-bcfa67124e939861ec26d638433790dabad610c0e6ad19ab2827e424948d6fbc",
+              "sha256": "c28e5efcdd58440edb5a0fbf6c88ecc72ae4ab0e41e8aeca77a6aae94ae3aea6",
+              "sequence": 26,
+              "quote": "须待到未月日干落宫当令时最旺"
+            },
+            {
+              "record_id": "record-4cf8e155e7508a45ba4dc267c54f52fb5da9fd98ca61db85ff533f3600b39e67",
+              "source_id": "span-aaf2c088e6a50829128fa8e3742c4829b5bf50ed4a7cd6ea6b9c1092287fc93f",
+              "sha256": "4859e381e3ad35ac7924ca2b0d318ec1f6741940912ea3cd1850f09f9b94e8ff",
+              "sequence": 27,
+              "quote": "开门工作在艮八宫正旬空，待到未月才能冲实"
+            }
+          ],
+          "answer": {
+            "explanation": "原例以日干坤宫待未月当令最旺，兼开门艮八旬空待未月冲实，提出未月调成。保留这是回顾性解释及仅一张原盘的范围，不能把另一次6月1日复测当同盘新增计算。",
+            "citations": [
+              "chart",
+              "context",
+              "work",
+              "people"
+            ],
+            "uncertainties": [
+              "代问、空间方位、文武单位和工作事项视角按本例分别适用，不能互相替换。"
+            ],
+            "methods": [
+              "日干宫得令月份",
+              "开门旬空逢冲实"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-b78f14c43bb40d6a7cc2551de8c7cca5c973cfd4629f8f2e5b2a767b1e7c517a",
+      "event_id": "event-90430d46d4268626008bcc9ad040c7f6986f4e53474659f7e80903f6c6c65f50",
+      "family_id": "family-26624434404defb9412ddb5fbedcf83c13b4c403c503b4a387b47a3e5863741b",
+      "chart_id": "chart-c9634d5020eb1488ccd99e4c4a57d95bdeb4d9da4594a8871a36fbfef99162d8",
+      "chapter": "11-work-employment",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 5,
+      "stage": "spatial_election",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "源中分析逐段在第一次结果反馈之前；unknown注释不改，以给定作者条件练习而非无辅助预测。",
+      "known": [
+        {
+          "record_id": "record-5f38c622983b4434ac9c7fd13a1bd1ba09e6e69ba9ace6086330d58de54d3ccf",
+          "source_id": "span-ac095a84ce7c5396188965352672f6192c622d73358b01a55a5e7500e74bc332",
+          "sha256": "5b1f1c9ca3b708fc5a2db594ae32f9c2bf349fe61e8ff8496aea3800de59c73b",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-55cf75001284fb2e9d00b3d5104f43e637c713878c416f501d6e19a1081b981a",
+          "source_id": "span-ebb051c6c46ae870a6104387040a1892a103d34dd09cb2a270aeeee9d8d1938f",
+          "sha256": "06d0f64c73840ece840e6627d77fd5b4cd50848fa6f908b77f41589d344433d7",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-adb3658d3d8cb89387d969d9ae2dd66f3ef51d48916038a595f140cab1bfb30e",
+          "source_id": "span-dbec1e4dc1a71ad271c417ff6b63c918c597b384fb209f683cdcb2c8698513ea",
+          "sha256": "0537bdffa2d9d96d6b48d814b54456ed15129caa3ffc64c6c7bdb2f919fd1e25",
+          "sequence": 6
+        }
+      ],
+      "cutoff": 7,
+      "rules": {
+        "work": "一般以开门代表文职工作及单位，以杜门代表武职工作及单位",
+        "people": "以年干代表上级领导，以值符代表顶头上司，以月干代表同事，以日干代表求测之人"
+      },
+      "provided_roles": [
+        "尚明吉坤二、尚耀坤乾六、尚文才巽四、张相如震三、尚用成坎一（已给居住方位）"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-f796a69aac6f5962d28c77bcde940b18ad3aa04dc6494d209ce6a8a1e70fd695",
+              "source_id": "span-b18d4e061705ef60ecfe8aece2fbb5dbf3e4b1dd88e456e8a5bc74740b3d432e",
+              "sha256": "25d8edaf7f1958d9dc062184d20978e5c41165eec5a96b327bff6efc696b3224",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-52cba0375ae27695fa1f2679e25c28e044e72a231edd31084e6d0481001998f5",
+              "source_id": "span-602d871fbf474c4839fd9c6a1033911187f0ec319987fff22d84b8565352ad14",
+              "sha256": "5039b4cdcf0464ef9d2cd51837466a49761629a44fab78806df408012fa6d534",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-e00d6375422cf69a8ad7ee7ae2785aeb70020657996558c6ef6442c5689e2b3e",
+              "source_id": "span-639051bb2c84caa53ef23e6ab2ca163d811009c045a16dae1a3e7a0524a8f225",
+              "sha256": "44dec7e3e3a2a1bd4a6cbe010480c87894d4546259bfccb2e9472a992614aef7",
+              "sequence": 9
+            },
+            {
+              "record_id": "record-208f7b6057290b0d8a1cf89688ed00b756d866c3cf04d653ba9de1dca39aeae0",
+              "source_id": "span-8355f91f7904f1051d6ad840617fea4ef0e58fa61503d95b13da1de48e7f9803",
+              "sha256": "1afb3a76d49bd64862798fb6ade0b2e7370dd68b0b953f9a998ff5f4641abab9",
+              "sequence": 10
+            },
+            {
+              "record_id": "record-a146e687fb1db19e3dff2830ed56fc5f9e94a48026cbdc1ec9933d770b17ad7a",
+              "source_id": "span-b2ba9ccd2ca1479bdb9c0928db6716b6d5a7d066ff7d01b67871fbe5fecaa97e",
+              "sha256": "7ff57ab87ecb77296eefe46144b915dc600bf094aa878ef95c6fd565ccd8cb3d",
+              "sequence": 11
+            },
+            {
+              "record_id": "record-0a97a7ca82f2bed5036a12fd744a3e69513a2f975275389d7289269c1378ad01",
+              "source_id": "span-17e3b4051dc702be8becf40396e15c3401cf82578df1efe74457bfbd1cc3558d",
+              "sha256": "4066dc98f2b7afda9dbd68cd1cc80edf4eea6f147b72b7182a034e28537884ee",
+              "sequence": 12
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "本例按已给五人的居住方位绑定宫位：尚明吉坤二、尚耀坤乾六、尚文才巽四、张相如震三、尚用成坎一。不是按同姓、辈分或日时干硬分五人；比较各宫时令状态来排序。",
+            "citations": [
+              "chart",
+              "context",
+              "work",
+              "people"
+            ],
+            "uncertainties": [
+              "代问、空间方位、文武单位和工作事项视角按本例分别适用，不能互相替换。"
+            ],
+            "bindings": [
+              {
+                "role": "尚明吉",
+                "symbol": "坤二",
+                "condition": "已给居住方位"
+              },
+              {
+                "role": "尚耀坤",
+                "symbol": "乾六",
+                "condition": "已给居住方位"
+              },
+              {
+                "role": "尚文才",
+                "symbol": "巽四",
+                "condition": "已给居住方位"
+              },
+              {
+                "role": "张相如",
+                "symbol": "震三",
+                "condition": "已给居住方位"
+              },
+              {
+                "role": "尚用成",
+                "symbol": "坎一",
+                "condition": "已给居住方位"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-52cba0375ae27695fa1f2679e25c28e044e72a231edd31084e6d0481001998f5",
+              "source_id": "span-602d871fbf474c4839fd9c6a1033911187f0ec319987fff22d84b8565352ad14",
+              "sha256": "5039b4cdcf0464ef9d2cd51837466a49761629a44fab78806df408012fa6d534",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-e00d6375422cf69a8ad7ee7ae2785aeb70020657996558c6ef6442c5689e2b3e",
+              "source_id": "span-639051bb2c84caa53ef23e6ab2ca163d811009c045a16dae1a3e7a0524a8f225",
+              "sha256": "44dec7e3e3a2a1bd4a6cbe010480c87894d4546259bfccb2e9472a992614aef7",
+              "sequence": 9
+            },
+            {
+              "record_id": "record-208f7b6057290b0d8a1cf89688ed00b756d866c3cf04d653ba9de1dca39aeae0",
+              "source_id": "span-8355f91f7904f1051d6ad840617fea4ef0e58fa61503d95b13da1de48e7f9803",
+              "sha256": "1afb3a76d49bd64862798fb6ade0b2e7370dd68b0b953f9a998ff5f4641abab9",
+              "sequence": 10
+            },
+            {
+              "record_id": "record-a146e687fb1db19e3dff2830ed56fc5f9e94a48026cbdc1ec9933d770b17ad7a",
+              "source_id": "span-b2ba9ccd2ca1479bdb9c0928db6716b6d5a7d066ff7d01b67871fbe5fecaa97e",
+              "sha256": "7ff57ab87ecb77296eefe46144b915dc600bf094aa878ef95c6fd565ccd8cb3d",
+              "sequence": 11
+            },
+            {
+              "record_id": "record-0a97a7ca82f2bed5036a12fd744a3e69513a2f975275389d7289269c1378ad01",
+              "source_id": "span-17e3b4051dc702be8becf40396e15c3401cf82578df1efe74457bfbd1cc3558d",
+              "sha256": "4066dc98f2b7afda9dbd68cd1cc80edf4eea6f147b72b7182a034e28537884ee",
+              "sequence": 12
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "五个已绑宫位的神星门照原表提取；得票名次和月令旺衰另属判断，不能作为字面字段。",
+            "citations": [
+              "chart",
+              "context",
+              "work",
+              "people"
+            ],
+            "uncertainties": [
+              "代问、空间方位、文武单位和工作事项视角按本例分别适用，不能互相替换。"
+            ]
+          },
+          "facts": [
+            [
+              2,
+              "deity"
+            ],
+            [
+              6,
+              "door"
+            ],
+            [
+              6,
+              "deity"
+            ],
+            [
+              4,
+              "star"
+            ],
+            [
+              3,
+              "star"
+            ],
+            [
+              1,
+              "star"
+            ],
+            [
+              1,
+              "door"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-f796a69aac6f5962d28c77bcde940b18ad3aa04dc6494d209ce6a8a1e70fd695",
+              "source_id": "span-b18d4e061705ef60ecfe8aece2fbb5dbf3e4b1dd88e456e8a5bc74740b3d432e",
+              "sha256": "25d8edaf7f1958d9dc062184d20978e5c41165eec5a96b327bff6efc696b3224",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-52cba0375ae27695fa1f2679e25c28e044e72a231edd31084e6d0481001998f5",
+              "source_id": "span-602d871fbf474c4839fd9c6a1033911187f0ec319987fff22d84b8565352ad14",
+              "sha256": "5039b4cdcf0464ef9d2cd51837466a49761629a44fab78806df408012fa6d534",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-e00d6375422cf69a8ad7ee7ae2785aeb70020657996558c6ef6442c5689e2b3e",
+              "source_id": "span-639051bb2c84caa53ef23e6ab2ca163d811009c045a16dae1a3e7a0524a8f225",
+              "sha256": "44dec7e3e3a2a1bd4a6cbe010480c87894d4546259bfccb2e9472a992614aef7",
+              "sequence": 9
+            },
+            {
+              "record_id": "record-208f7b6057290b0d8a1cf89688ed00b756d866c3cf04d653ba9de1dca39aeae0",
+              "source_id": "span-8355f91f7904f1051d6ad840617fea4ef0e58fa61503d95b13da1de48e7f9803",
+              "sha256": "1afb3a76d49bd64862798fb6ade0b2e7370dd68b0b953f9a998ff5f4641abab9",
+              "sequence": 10
+            },
+            {
+              "record_id": "record-a146e687fb1db19e3dff2830ed56fc5f9e94a48026cbdc1ec9933d770b17ad7a",
+              "source_id": "span-b2ba9ccd2ca1479bdb9c0928db6716b6d5a7d066ff7d01b67871fbe5fecaa97e",
+              "sha256": "7ff57ab87ecb77296eefe46144b915dc600bf094aa878ef95c6fd565ccd8cb3d",
+              "sequence": 11
+            },
+            {
+              "record_id": "record-0a97a7ca82f2bed5036a12fd744a3e69513a2f975275389d7289269c1378ad01",
+              "source_id": "span-17e3b4051dc702be8becf40396e15c3401cf82578df1efe74457bfbd1cc3558d",
+              "sha256": "4066dc98f2b7afda9dbd68cd1cc80edf4eea6f147b72b7182a034e28537884ee",
+              "sequence": 12
+            },
+            {
+              "record_id": "record-6b875d86c35ce607b7a1d07cd45bf4ff40329795c3946d0324f253fd4150a22b",
+              "source_id": "span-69bba41b4b4bba7ce827ec21e5d3d774c9d86e6406c0ed2bf677938dd9832f6a",
+              "sha256": "e6f7ef197123d24e429db2b2b29990a07ece7f4f8e5e09e813b33b77a341f648",
+              "sequence": 13
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-52cba0375ae27695fa1f2679e25c28e044e72a231edd31084e6d0481001998f5",
+              "source_id": "span-602d871fbf474c4839fd9c6a1033911187f0ec319987fff22d84b8565352ad14",
+              "sha256": "5039b4cdcf0464ef9d2cd51837466a49761629a44fab78806df408012fa6d534",
+              "sequence": 8,
+              "quote": "尚明吉居坤2宫，旺于月建"
+            },
+            {
+              "record_id": "record-e00d6375422cf69a8ad7ee7ae2785aeb70020657996558c6ef6442c5689e2b3e",
+              "source_id": "span-639051bb2c84caa53ef23e6ab2ca163d811009c045a16dae1a3e7a0524a8f225",
+              "sha256": "44dec7e3e3a2a1bd4a6cbe010480c87894d4546259bfccb2e9472a992614aef7",
+              "sequence": 9,
+              "quote": "尚文才居巽4宫，囚于月建"
+            },
+            {
+              "record_id": "record-208f7b6057290b0d8a1cf89688ed00b756d866c3cf04d653ba9de1dca39aeae0",
+              "source_id": "span-8355f91f7904f1051d6ad840617fea4ef0e58fa61503d95b13da1de48e7f9803",
+              "sha256": "1afb3a76d49bd64862798fb6ade0b2e7370dd68b0b953f9a998ff5f4641abab9",
+              "sequence": 10,
+              "quote": "张相如居震3宫，囚于月建"
+            },
+            {
+              "record_id": "record-a146e687fb1db19e3dff2830ed56fc5f9e94a48026cbdc1ec9933d770b17ad7a",
+              "source_id": "span-b2ba9ccd2ca1479bdb9c0928db6716b6d5a7d066ff7d01b67871fbe5fecaa97e",
+              "sha256": "7ff57ab87ecb77296eefe46144b915dc600bf094aa878ef95c6fd565ccd8cb3d",
+              "sequence": 11,
+              "quote": "尚用成居坎1宫，死于月建"
+            },
+            {
+              "record_id": "record-0a97a7ca82f2bed5036a12fd744a3e69513a2f975275389d7289269c1378ad01",
+              "source_id": "span-17e3b4051dc702be8becf40396e15c3401cf82578df1efe74457bfbd1cc3558d",
+              "sha256": "4066dc98f2b7afda9dbd68cd1cc80edf4eea6f147b72b7182a034e28537884ee",
+              "sequence": 12,
+              "quote": "尚耀坤居乾6宫，相于月建，有后劲"
+            }
+          ],
+          "answer": {
+            "explanation": "学员从五方位宫的旺衰并列比较门星神和格局，最终只预测乾六尚耀坤第一、坤二尚明吉第二。应保留其他宫的正反信息与其只求前两名的目标；原文后面的完整五名排序属于反馈，不能说初断已完整排准五人。",
+            "citations": [
+              "chart",
+              "context",
+              "work",
+              "people"
+            ],
+            "uncertainties": [
+              "代问、空间方位、文武单位和工作事项视角按本例分别适用，不能互相替换。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-e621b85f5b3d60fe9f386c3e8886e4202e53dca882bc41f97e0171ef1fc81396",
+      "event_id": "event-291d5b41a9501ce1123aef19fb50fd349c057ab2fe647a8018ef84110c88e351",
+      "family_id": "family-25dcea5c28df7c8a0105220c877dc0b1862a829a03a3da9a92e63ae2dc71f0a5",
+      "chart_id": "chart-742564d9f48c57d8b35000414b97fb1212ea68c867b6a0079c58278631d7d4b3",
+      "chapter": "11-work-employment",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 5,
+      "stage": "author_method_critique",
+      "mode": "retrospective",
+      "known": [
+        {
+          "record_id": "record-79e65203ad202dc39327d2174b409605f299363f23390208088d2a4759929a28",
+          "source_id": "span-6a1b99a339d6d5264c36f780ee7e8b3285a5a6698e809c5841b2631b1f6bedf1",
+          "sha256": "a55a35ff64ed2d54d69584f368e971b19db260ceb5ab021f5f1d61471d5f5bbc",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-3626af5426a272708c3b11b903ccaba99e38d0a5426a7cceed0284a5cacea8ca",
+          "source_id": "span-5654d180fad4f439a3c6b6e4b8faab8e351f83d0fca2611e3209f82a47975871",
+          "sha256": "746beefddba0617ae68fee6924e1dd850ff42727e1e3689ecbdba2cfd7f270ce",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-5f38c622983b4434ac9c7fd13a1bd1ba09e6e69ba9ace6086330d58de54d3ccf",
+          "source_id": "span-ac095a84ce7c5396188965352672f6192c622d73358b01a55a5e7500e74bc332",
+          "sha256": "5b1f1c9ca3b708fc5a2db594ae32f9c2bf349fe61e8ff8496aea3800de59c73b",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-0822cfbb11aa4ea8abac04a957c4cab4027d68061b5a0b54261ac9d0201e911e",
+          "source_id": "span-a5e1467815c8c138d4b4996ee5eb59034dc7456db3c049b5df3aff7c8fa94f3e",
+          "sha256": "18287c5d9323c6df8442a1bfc9d0a7dc3d5041615d77a462a63b25f8ddcaa571",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-6406608759f4b785b59d68fdddcbf7728df70d64ceb2c97e16cd27e9b5461c49",
+          "source_id": "span-8d351a1ab3241a4d3e1e939e3e23c8504eb33e84ba0fd57202d7eb7975d33c0b",
+          "sha256": "90a1de88d8de14b445dd95e6f6e48806e505839fd4a2342c73c5bb2389ce2583",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-55cf75001284fb2e9d00b3d5104f43e637c713878c416f501d6e19a1081b981a",
+          "source_id": "span-ebb051c6c46ae870a6104387040a1892a103d34dd09cb2a270aeeee9d8d1938f",
+          "sha256": "06d0f64c73840ece840e6627d77fd5b4cd50848fa6f908b77f41589d344433d7",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-adb3658d3d8cb89387d969d9ae2dd66f3ef51d48916038a595f140cab1bfb30e",
+          "source_id": "span-dbec1e4dc1a71ad271c417ff6b63c918c597b384fb209f683cdcb2c8698513ea",
+          "sha256": "0537bdffa2d9d96d6b48d814b54456ed15129caa3ffc64c6c7bdb2f919fd1e25",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-f796a69aac6f5962d28c77bcde940b18ad3aa04dc6494d209ce6a8a1e70fd695",
+          "source_id": "span-b18d4e061705ef60ecfe8aece2fbb5dbf3e4b1dd88e456e8a5bc74740b3d432e",
+          "sha256": "25d8edaf7f1958d9dc062184d20978e5c41165eec5a96b327bff6efc696b3224",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-52cba0375ae27695fa1f2679e25c28e044e72a231edd31084e6d0481001998f5",
+          "source_id": "span-602d871fbf474c4839fd9c6a1033911187f0ec319987fff22d84b8565352ad14",
+          "sha256": "5039b4cdcf0464ef9d2cd51837466a49761629a44fab78806df408012fa6d534",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-e00d6375422cf69a8ad7ee7ae2785aeb70020657996558c6ef6442c5689e2b3e",
+          "source_id": "span-639051bb2c84caa53ef23e6ab2ca163d811009c045a16dae1a3e7a0524a8f225",
+          "sha256": "44dec7e3e3a2a1bd4a6cbe010480c87894d4546259bfccb2e9472a992614aef7",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-208f7b6057290b0d8a1cf89688ed00b756d866c3cf04d653ba9de1dca39aeae0",
+          "source_id": "span-8355f91f7904f1051d6ad840617fea4ef0e58fa61503d95b13da1de48e7f9803",
+          "sha256": "1afb3a76d49bd64862798fb6ade0b2e7370dd68b0b953f9a998ff5f4641abab9",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-a146e687fb1db19e3dff2830ed56fc5f9e94a48026cbdc1ec9933d770b17ad7a",
+          "source_id": "span-b2ba9ccd2ca1479bdb9c0928db6716b6d5a7d066ff7d01b67871fbe5fecaa97e",
+          "sha256": "7ff57ab87ecb77296eefe46144b915dc600bf094aa878ef95c6fd565ccd8cb3d",
+          "sequence": 11
+        },
+        {
+          "record_id": "record-0a97a7ca82f2bed5036a12fd744a3e69513a2f975275389d7289269c1378ad01",
+          "source_id": "span-17e3b4051dc702be8becf40396e15c3401cf82578df1efe74457bfbd1cc3558d",
+          "sha256": "4066dc98f2b7afda9dbd68cd1cc80edf4eea6f147b72b7182a034e28537884ee",
+          "sequence": 12
+        },
+        {
+          "record_id": "record-6b875d86c35ce607b7a1d07cd45bf4ff40329795c3946d0324f253fd4150a22b",
+          "source_id": "span-69bba41b4b4bba7ce827ec21e5d3d774c9d86e6406c0ed2bf677938dd9832f6a",
+          "sha256": "e6f7ef197123d24e429db2b2b29990a07ece7f4f8e5e09e813b33b77a341f648",
+          "sequence": 13
+        },
+        {
+          "record_id": "record-998885c5551d8ead8db520f7513cba1ea13b0573e8b937332fade1f1e366472a",
+          "source_id": "span-6eb3f4c9e9d0cc22e0f3fab3b73af02f03ca2a7a8204d63f1a50a8c6c503c405",
+          "sha256": "c4802a64a8be4c4ef9ce7884ccce50972f6ae13226caa31a6936e71818c3d1fd",
+          "sequence": 14
+        },
+        {
+          "record_id": "record-f51e6441bcb1853540042d2dfcf50f7851c0d8b15cdbaff59d76f1d6be0a805d",
+          "source_id": "span-58da1680a799fd8e5054ed5d39e7723f65c9d63d3b62b2918eff5809e3130b8a",
+          "sha256": "dc753e81528d3b839246828764939fa9edabde549869141badba4da123ad72e3",
+          "sequence": 15
+        },
+        {
+          "record_id": "record-1956b05aaa89e10d852857382b439620ae46c3fb1bfcf3efd8c6b9a6c79087da",
+          "source_id": "span-36f18888d6ecd9ec0da23d72fef960233cd4c34f99107e672065c12652712018",
+          "sha256": "72485c80846413a6f50ffcc598f580d670a73ea2c791261f4544599824822703",
+          "sequence": 16
+        },
+        {
+          "record_id": "record-612e1af82fc93aa69d64a98d03aec27b598c22772dde4a8d446cd9660a640906",
+          "source_id": "span-b9c2f973673f2c6c5693ac432fff6ae6f9c221c7c1fbd2d561028dbc418874d6",
+          "sha256": "7f822a542d48cd7f1680cfa39a51da98688c19c2017725ac2b1f727baa308849",
+          "sequence": 17
+        }
+      ],
+      "cutoff": 18,
+      "rules": {
+        "work": "一般以开门代表文职工作及单位，以杜门代表武职工作及单位",
+        "people": "以年干代表上级领导，以值符代表顶头上司，以月干代表同事，以日干代表求测之人"
+      },
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-95abddc59f31acafb69299efd8e8a85319d212e2a69ccbb90abd7a2c25bcda67",
+              "source_id": "span-04b8c44e6ba47da4aeff84e736f9362a5be7a86a6925055d59fad8f28cc2bc92",
+              "sha256": "b9a856d8d2f3b8626de85b519776a976e878160a005fa58f7204ed04cda04e6e",
+              "sequence": 18
+            },
+            {
+              "record_id": "record-d8627f0d2e2587119530d33ff4bb97ec9492a806f71a59d453bc48a8f95c2853",
+              "source_id": "span-01e5e1dd4bedb54427d06fa77514f846210b802520e5911853902bd2fd09ec1e",
+              "sha256": "2b7a2cbd7b5438d20ff2c466c07d209a26e0fd6b2dc5b10bd3bc850a1625ed09",
+              "sequence": 19
+            },
+            {
+              "record_id": "record-581257cc65218f50c6e7f273650291d4612efb513270a57a59177993f7d683ea",
+              "source_id": "span-8fb71426a05c79b5b7163d970ff68c7f579523afd26292395d8a03604a75cbae",
+              "sha256": "65bda1a2960eeeaf8ad30f9a48095e0852636c25616fc95e5c92a473addd5e99",
+              "sequence": 20
+            },
+            {
+              "record_id": "record-c4f8beced584b353501ccf8156cc9c319299db3def36912695681689366bd6ca",
+              "source_id": "span-1a878e619c65b04e80af7dc1462e7bdd8bb95e2ae679583f16c84d49c8b932fd",
+              "sha256": "0b9c6af1a95e8156b6f2f8dfd8e579dca1c6994efca4c7f3c2264b5569128d01",
+              "sequence": 21
+            },
+            {
+              "record_id": "record-a2eb5bacf8e8d76644379d2904b5ffbacd7320057844e3c802d9060c41df5a0c",
+              "source_id": "span-753403d7d0a8e530a583262530195c82602c73df939c3384522540456f5826f2",
+              "sha256": "14a9fab3040185f1a074160e83189eb684a1065928a8479e520487974c048fe0",
+              "sequence": 22
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-95abddc59f31acafb69299efd8e8a85319d212e2a69ccbb90abd7a2c25bcda67",
+              "source_id": "span-04b8c44e6ba47da4aeff84e736f9362a5be7a86a6925055d59fad8f28cc2bc92",
+              "sha256": "b9a856d8d2f3b8626de85b519776a976e878160a005fa58f7204ed04cda04e6e",
+              "sequence": 18,
+              "quote": "只比较各宫旺相休囚就行了"
+            },
+            {
+              "record_id": "record-d8627f0d2e2587119530d33ff4bb97ec9492a806f71a59d453bc48a8f95c2853",
+              "source_id": "span-01e5e1dd4bedb54427d06fa77514f846210b802520e5911853902bd2fd09ec1e",
+              "sha256": "2b7a2cbd7b5438d20ff2c466c07d209a26e0fd6b2dc5b10bd3bc850a1625ed09",
+              "sequence": 19,
+              "quote": "乾宫临戌、亥二月，今月建戌"
+            },
+            {
+              "record_id": "record-581257cc65218f50c6e7f273650291d4612efb513270a57a59177993f7d683ea",
+              "source_id": "span-8fb71426a05c79b5b7163d970ff68c7f579523afd26292395d8a03604a75cbae",
+              "sha256": "65bda1a2960eeeaf8ad30f9a48095e0852636c25616fc95e5c92a473addd5e99",
+              "sequence": 20,
+              "quote": "日、时为金，泄其旺气"
+            },
+            {
+              "record_id": "record-a2eb5bacf8e8d76644379d2904b5ffbacd7320057844e3c802d9060c41df5a0c",
+              "source_id": "span-753403d7d0a8e530a583262530195c82602c73df939c3384522540456f5826f2",
+              "sha256": "14a9fab3040185f1a074160e83189eb684a1065928a8479e520487974c048fe0",
+              "sequence": 22,
+              "quote": "月建为纲，是判断旺相休囚的关键"
+            }
+          ],
+          "answer": {
+            "explanation": "已有得票反馈后，作者认为学员断词繁琐，空间法应抓月建宫势：乾金得月日时旺居前，坤土得月但泄于金次之；震巽同木受克，再比较星神门扶抑区分三四；坎水死于月建末位。这是作者的事后简化复盘，不能把新增三四五名论证冒充学员初断。",
+            "citations": [
+              "chart",
+              "context",
+              "work",
+              "people"
+            ],
+            "uncertainties": [
+              "代问、空间方位、文武单位和工作事项视角按本例分别适用，不能互相替换。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-e621b85f5b3d60fe9f386c3e8886e4202e53dca882bc41f97e0171ef1fc81396",
+      "event_id": "event-291d5b41a9501ce1123aef19fb50fd349c057ab2fe647a8018ef84110c88e351",
+      "family_id": "family-25dcea5c28df7c8a0105220c877dc0b1862a829a03a3da9a92e63ae2dc71f0a5",
+      "chart_id": "chart-742564d9f48c57d8b35000414b97fb1212ea68c867b6a0079c58278631d7d4b3",
+      "chapter": "11-work-employment",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    }
+  ]
+}

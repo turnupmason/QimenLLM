@@ -1,0 +1,2087 @@
+{
+  "schema": "book-method-semantic-review-v1",
+  "source_data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "reviewed_by": "Codex source-grounded semantic curation",
+  "rows": [
+    {
+      "case": 1,
+      "stage": "first_method",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "已逐条审读源中问测、分析与第一次反馈的位置；unknown标签原样保留，本题明确给定作者前提，不声称独立事前复算。",
+      "known": [
+        {
+          "record_id": "record-54d37192aa27182c8f05539de182f3225fd888b6cabc7398c86d2bc3986ac568",
+          "source_id": "span-832409f9435f41ada863cddd0f3fa58236138c0d6612512e67a97a4f4cf83ba1",
+          "sha256": "98ccd51dd68a158dd5d49d4925773333132ed4a67155cfa6c9e9722de5cf7a3c",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-43354b2826b1e16b5528bc8162654d0e1fb991a0a19b7aa787c45291ce82ccdb",
+          "source_id": "span-c1f63078320016c4cf8a89669b1c6e4c1e1be2c50ee289fe0fda64e64548810e",
+          "sha256": "69df4ad68e7addcec34084f5d3db0b175896b001f375f02ac67df1393ed1cb1f",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-90ed9bba495c9212d1a6f844c4a78b861413cafdd2fb76c6b0226d80d246fa32",
+          "source_id": "span-783681bfce3031709d221218d05690ee2c4eb1a3a003954458a2d040b9b49ce1",
+          "sha256": "ff6bd38aac12fe59c713d2d8025b9ac6ac487f130d05eb993f964d8aee0dc438",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-8cf698615dc4a3a5f513176ed8c92513fdecf3674b52a9c6a31c8b6f25c7bc21",
+          "source_id": "span-d33afd710f76096bda8e9788b35bd3e6c720ce4caa6dee3271c088de7d60ca7e",
+          "sha256": "e4bbf7b0331497d833d95f0c28b45ee03e95cd6a5dcee97d1522f20da8d25273",
+          "sequence": 3
+        }
+      ],
+      "cutoff": 5,
+      "rules": {
+        "pregnancy": "以坤宫天芮星为母亲，以天盘临坤宫之星为胎儿",
+        "timing": "一般以坤宫对冲之宫天盘所临之干为应期"
+      },
+      "provided_roles": [
+        "日干求测、时干所求之子；坤天芮母、坤天盘星胎儿等另立视角"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-05ab4df0d052440d23aafe03c8ca4c8e3e63404690f9b375f7d28cfa248fb003",
+              "source_id": "span-dccaccbf947e30b2a98048f9eaa150b508ab3f3df2c63ec72cc8d9a18357d09c",
+              "sha256": "fdfb1416fd4ddde7d7da9de7054fe2182b0b46ee78299fffb878683f92239fbc",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-4c9aad68e1d66bfaaafc01bb4882be5a2ff26a5e4ed71aea795c7dc1b3d1017c",
+              "source_id": "span-e8469ecaec3e6a0c19dd7fb0541619bd077b6d6e53ba4559d19b95a30ea82029",
+              "sha256": "6fbf56fa4972cdc5d09fad185448611ca4a21bc8dd0f09102a2124e83f3b4178",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-b25d4cc87a8d8b04661c876925e43acf95fa59c4a06915e487e8213588337b50",
+              "source_id": "span-ae725b853557fdbf902f1b78c410ed4fc2c27772be2efc25b93d8fbc0cd079a8",
+              "sha256": "0f4e970a007dc0040b39b3405a073c4dcc4070154b14a7441173a2dfac3d220e",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-812c260b9c93dccbc38ccb427f93b1cc50b851e73c2e22766dde1030759bc026",
+              "source_id": "span-e60d03aeff6bbebc27ae50eeff818b6b2810afaea01333076b851424907930fb",
+              "sha256": "a0e332a2fb3efeb7e64caf0ccbb4814dcd4d8d378e6f1402f5ae541726a97eb2",
+              "sequence": 9
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "问的是尚未确定怀孕及何时怀孕；作者分别采用日干求测、时干所求之子，和坤宫/天芮母、坤宫天盘星胎儿等视角。六合另作胎儿与乙庚夫妻的辅助法，不将几种法强行并为一个符号。",
+            "citations": [
+              "chart",
+              "context",
+              "pregnancy",
+              "timing"
+            ],
+            "uncertainties": [
+              "原文传统孕产口径可相互矛盾，不视为现代医学结论；未提供的结果保持未知。"
+            ],
+            "bindings": [
+              {
+                "role": "求测主体",
+                "symbol": "日干己",
+                "condition": "本例日时法"
+              },
+              {
+                "role": "所求之子",
+                "symbol": "时干壬",
+                "condition": "尚未怀孕的问测口径"
+              },
+              {
+                "role": "母与胎儿",
+                "symbol": "天芮/坤宫，坤宫天盘星",
+                "condition": "另一孕产取法，单独解释"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-05ab4df0d052440d23aafe03c8ca4c8e3e63404690f9b375f7d28cfa248fb003",
+              "source_id": "span-dccaccbf947e30b2a98048f9eaa150b508ab3f3df2c63ec72cc8d9a18357d09c",
+              "sha256": "fdfb1416fd4ddde7d7da9de7054fe2182b0b46ee78299fffb878683f92239fbc",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-4c9aad68e1d66bfaaafc01bb4882be5a2ff26a5e4ed71aea795c7dc1b3d1017c",
+              "source_id": "span-e8469ecaec3e6a0c19dd7fb0541619bd077b6d6e53ba4559d19b95a30ea82029",
+              "sha256": "6fbf56fa4972cdc5d09fad185448611ca4a21bc8dd0f09102a2124e83f3b4178",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-b25d4cc87a8d8b04661c876925e43acf95fa59c4a06915e487e8213588337b50",
+              "source_id": "span-ae725b853557fdbf902f1b78c410ed4fc2c27772be2efc25b93d8fbc0cd079a8",
+              "sha256": "0f4e970a007dc0040b39b3405a073c4dcc4070154b14a7441173a2dfac3d220e",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-812c260b9c93dccbc38ccb427f93b1cc50b851e73c2e22766dde1030759bc026",
+              "source_id": "span-e60d03aeff6bbebc27ae50eeff818b6b2810afaea01333076b851424907930fb",
+              "sha256": "a0e332a2fb3efeb7e64caf0ccbb4814dcd4d8d378e6f1402f5ae541726a97eb2",
+              "sequence": 9
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "己乾六、壬震三、坤二天任伤门及艮八天芮六合照表；日时空亡的不同旬口径是作者说明，不能从未标注空亡的表直接当已算事实。",
+            "citations": [
+              "chart",
+              "context",
+              "pregnancy",
+              "timing"
+            ],
+            "uncertainties": [
+              "原文传统孕产口径可相互矛盾，不视为现代医学结论；未提供的结果保持未知。"
+            ]
+          },
+          "facts": [
+            [
+              6,
+              "heaven_stem"
+            ],
+            [
+              3,
+              "heaven_stem"
+            ],
+            [
+              2,
+              "star"
+            ],
+            [
+              2,
+              "door"
+            ],
+            [
+              8,
+              "star"
+            ],
+            [
+              8,
+              "deity"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-05ab4df0d052440d23aafe03c8ca4c8e3e63404690f9b375f7d28cfa248fb003",
+              "source_id": "span-dccaccbf947e30b2a98048f9eaa150b508ab3f3df2c63ec72cc8d9a18357d09c",
+              "sha256": "fdfb1416fd4ddde7d7da9de7054fe2182b0b46ee78299fffb878683f92239fbc",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-4c9aad68e1d66bfaaafc01bb4882be5a2ff26a5e4ed71aea795c7dc1b3d1017c",
+              "source_id": "span-e8469ecaec3e6a0c19dd7fb0541619bd077b6d6e53ba4559d19b95a30ea82029",
+              "sha256": "6fbf56fa4972cdc5d09fad185448611ca4a21bc8dd0f09102a2124e83f3b4178",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-965025cbdb55ea3f2b44049fd1203fc9a3240c3a229aaab2c281852ba547194e",
+              "source_id": "span-a7d579742c36d55198e56c01b0e121d2246d2786ba9763f0e67860e4ff02f7f5",
+              "sha256": "94e5021e0a6e50fe88f7092adbe89b7cf0e8ca0bc4480ecb2653412b376020ae",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-b25d4cc87a8d8b04661c876925e43acf95fa59c4a06915e487e8213588337b50",
+              "source_id": "span-ae725b853557fdbf902f1b78c410ed4fc2c27772be2efc25b93d8fbc0cd079a8",
+              "sha256": "0f4e970a007dc0040b39b3405a073c4dcc4070154b14a7441173a2dfac3d220e",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-812c260b9c93dccbc38ccb427f93b1cc50b851e73c2e22766dde1030759bc026",
+              "source_id": "span-e60d03aeff6bbebc27ae50eeff818b6b2810afaea01333076b851424907930fb",
+              "sha256": "a0e332a2fb3efeb7e64caf0ccbb4814dcd4d8d378e6f1402f5ae541726a97eb2",
+              "sequence": 9
+            },
+            {
+              "record_id": "record-3d156c566ee6397198929c2b91ad1d635b81e46b2bcb5582b50f3b9d5f339bb3",
+              "source_id": "span-26cc1b38d1189c3fb84b4fdcb7715f1378c9b98fcb40849e32f151d1794ee3c6",
+              "sha256": "3b15a3edb20cae9e616e43aaa774217e9db5bef118627c8f45cabb4437a29e14",
+              "sequence": 11
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-05ab4df0d052440d23aafe03c8ca4c8e3e63404690f9b375f7d28cfa248fb003",
+              "source_id": "span-dccaccbf947e30b2a98048f9eaa150b508ab3f3df2c63ec72cc8d9a18357d09c",
+              "sha256": "fdfb1416fd4ddde7d7da9de7054fe2182b0b46ee78299fffb878683f92239fbc",
+              "sequence": 5,
+              "quote": "日干己为求测之人，落乾6宫时干空亡之地"
+            },
+            {
+              "record_id": "record-4c9aad68e1d66bfaaafc01bb4882be5a2ff26a5e4ed71aea795c7dc1b3d1017c",
+              "source_id": "span-e8469ecaec3e6a0c19dd7fb0541619bd077b6d6e53ba4559d19b95a30ea82029",
+              "sha256": "6fbf56fa4972cdc5d09fad185448611ca4a21bc8dd0f09102a2124e83f3b4178",
+              "sequence": 6,
+              "quote": "时干壬落震3宫，临日干空亡之地"
+            },
+            {
+              "record_id": "record-b25d4cc87a8d8b04661c876925e43acf95fa59c4a06915e487e8213588337b50",
+              "source_id": "span-ae725b853557fdbf902f1b78c410ed4fc2c27772be2efc25b93d8fbc0cd079a8",
+              "sha256": "0f4e970a007dc0040b39b3405a073c4dcc4070154b14a7441173a2dfac3d220e",
+              "sequence": 8,
+              "quote": "今临天任阳星"
+            },
+            {
+              "record_id": "record-b25d4cc87a8d8b04661c876925e43acf95fa59c4a06915e487e8213588337b50",
+              "source_id": "span-ae725b853557fdbf902f1b78c410ed4fc2c27772be2efc25b93d8fbc0cd079a8",
+              "sha256": "0f4e970a007dc0040b39b3405a073c4dcc4070154b14a7441173a2dfac3d220e",
+              "sequence": 8,
+              "quote": "所临伤门也为阳门"
+            },
+            {
+              "record_id": "record-812c260b9c93dccbc38ccb427f93b1cc50b851e73c2e22766dde1030759bc026",
+              "source_id": "span-e60d03aeff6bbebc27ae50eeff818b6b2810afaea01333076b851424907930fb",
+              "sha256": "a0e332a2fb3efeb7e64caf0ccbb4814dcd4d8d378e6f1402f5ae541726a97eb2",
+              "sequence": 9,
+              "quote": "今落艮8宫，艮也主少男"
+            }
+          ],
+          "answer": {
+            "explanation": "作者先由日时落空的给定口径判断尚未怀孕，再分别取震长男、坤宫天任阳星伤门阳门、天芮落艮及乙庚六合等，形成偏向男胎的传统倾向。开头作者已说没有把握；多种象征一致也不能改为胎儿性别确定事实。此时未有正月怀孕反馈。",
+            "citations": [
+              "chart",
+              "context",
+              "pregnancy",
+              "timing"
+            ],
+            "uncertainties": [
+              "原文传统孕产口径可相互矛盾，不视为现代医学结论；未提供的结果保持未知。"
+            ]
+          }
+        },
+        {
+          "type": "timing_analysis",
+          "targets": [
+            {
+              "record_id": "record-9e597a32223b0106cea8e88df98e1b2c2f2bc52dc8671fca6f45178bf6004e5a",
+              "source_id": "span-482ba9d2c01d63371c043aac470bb627d6ecb4dfcc0f4482bd971509523a5e1e",
+              "sha256": "13db86dd21be582234bf00ca02fb517a86be0de5897aab76e4f25afc9e6e4380",
+              "sequence": 10
+            },
+            {
+              "record_id": "record-3d156c566ee6397198929c2b91ad1d635b81e46b2bcb5582b50f3b9d5f339bb3",
+              "source_id": "span-26cc1b38d1189c3fb84b4fdcb7715f1378c9b98fcb40849e32f151d1794ee3c6",
+              "sha256": "3b15a3edb20cae9e616e43aaa774217e9db5bef118627c8f45cabb4437a29e14",
+              "sequence": 11
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-9e597a32223b0106cea8e88df98e1b2c2f2bc52dc8671fca6f45178bf6004e5a",
+              "source_id": "span-482ba9d2c01d63371c043aac470bb627d6ecb4dfcc0f4482bd971509523a5e1e",
+              "sha256": "13db86dd21be582234bf00ca02fb517a86be0de5897aab76e4f25afc9e6e4380",
+              "sequence": 10,
+              "quote": "今艮8宫逢空，寅月填实，乙庚合"
+            }
+          ],
+          "answer": {
+            "explanation": "原例以艮八空亡在寅月填实及乙庚合，推到1996正月怀孕；这是填实与合的口径，不是从后续正月怀孕报道逆向确定。男胎判断和受孕月份分开验收。",
+            "citations": [
+              "chart",
+              "context",
+              "pregnancy",
+              "timing"
+            ],
+            "uncertainties": [
+              "原文传统孕产口径可相互矛盾，不视为现代医学结论；未提供的结果保持未知。"
+            ],
+            "methods": [
+              "空亡待填实",
+              "乙庚合结合月份"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-7371b7970fea9278c20e6cb4f723573b5de82c0e8e637ac18679f759d487097c",
+      "event_id": "event-30960df740e46b86e3e0ce5dc563f353f16d5bc6937ce1a5012f4c1be9b4d5cf",
+      "family_id": "family-46bf1f92c86b85f1c26b211b435a69dcd30f0fb2ec581a9393cbc82d7907c16a",
+      "chart_id": "chart-2212b60b1e5cf22f4ca8953ba43c3cd0679f2a2fd664c8c80d3fabb06bd2b1aa",
+      "chapter": "09-pregnancy-childbirth",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 2,
+      "stage": "before_hospital_date",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "已逐条审读源中问测、分析与第一次反馈的位置；unknown标签原样保留，本题明确给定作者前提，不声称独立事前复算。",
+      "known": [
+        {
+          "record_id": "record-e7e08f12ac4e697db3e8351d772edd838486ae7855baf5d6d0f98fce9ada08e5",
+          "source_id": "span-32c2e71f53f94ffa1cf42c69b923ff2b025a5a84c6850a5fd85cfa60b39fd023",
+          "sha256": "1b9db5c2e41d22b73e8f86475e12231589e766e78c20bc7ea2c142c0ea4ae0dd",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-f33a08f59ff2b33647e96edb6e55ad20e99885417bd79384885f167ff19beb52",
+          "source_id": "span-d7c0c53290d046b3895d1a460ec2dee87366c2316d8bdc04c0e50b01b73540a9",
+          "sha256": "b5a1e0a8e60092e17a553489924b9d4b621273c54cb97dd0f875d8840d83fda1",
+          "sequence": 1
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "pregnancy": "以坤宫天芮星为母亲，以天盘临坤宫之星为胎儿",
+        "timing": "一般以坤宫对冲之宫天盘所临之干为应期"
+      },
+      "provided_roles": [
+        "日干母时干子；坤产室地盘天芮产母天盘星胎儿；值符母六合胎儿不同法"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-dfeeff1736bf25ad876d6aec88acf559589e02630ae4c3b6438d887a5c77c1a2",
+              "source_id": "span-f4bef96b0ae638c26ba6bfd7fd6d683e4b2a79177fbb04f690a41732bcae4945",
+              "sha256": "6af73ffb72474ca0c648d6603b773904dae72c5ff96d2ae3f4322d36d6664157",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-7e4608e0c7a2e650a13ddfd2e239d2734f011e64404fdfde9d79e6d727ad345f",
+              "source_id": "span-e3dfc3878dcf03cebb01d3ed5d3000009c21f8128d23c13728f13ad2f9316acb",
+              "sha256": "58cefdc9f175e62229de2c6128858e7e61ebb1e9698ebbfe92a8b73f6ad2338f",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-553f0c5c5c6f045e3e59bba6890e86c705ad88f788d55a79278fec9f04478165",
+              "source_id": "span-4accbde9f949a60bc7c5525aa1a24ad75381f5694e1149066c25210b33f2f79f",
+              "sha256": "84c4917ed283ed6c43bf23650638d61901cbad4743e7cfd01fa36c7f726cd78e",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-e84a49166242619d9b0b475e08ca7e7677894132f6814e28ccd67d0874dd1661",
+              "source_id": "span-e6093dc9877e4155a8547a61504ae2f2b4fb4e81ec5f8157b2e6bb5ff7cb4bf9",
+              "sha256": "999c6d70feb923ce517442d406477f9bbdc64e68d5c49f0d3f23477bc3717599",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-555f89a05ad8beffd3f97f3f37f5608293eefa38357150dc8165cd2ebe551f2a",
+              "source_id": "span-40f7f080d545be4a45f984d0055e98cd844e1d379d4ddace6f9006fa6f39ce3f",
+              "sha256": "e16a3a28e56a2f82334b4527c77f22f405689ba1f9f0021937f3e80bede9fab0",
+              "sequence": 9
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "同一分娩问题存在日时法、坤宫天地星法、坤门胎儿法、值符六合法。应分别列条件与结果，不能用一致的平安判断掩盖男女判断相冲，也不能把产室、产母、胎儿任意交换。",
+            "citations": [
+              "chart",
+              "context",
+              "pregnancy",
+              "timing"
+            ],
+            "uncertainties": [
+              "原文传统孕产口径可相互矛盾，不视为现代医学结论；未提供的结果保持未知。"
+            ],
+            "bindings": [
+              {
+                "role": "母与子（日时法）",
+                "symbol": "日干己、时干壬",
+                "condition": "本例日时同宫比较"
+              },
+              {
+                "role": "产室/产母/胎儿",
+                "symbol": "坤宫/地盘天芮/坤宫天盘星",
+                "condition": "天地星法"
+              },
+              {
+                "role": "母与胎儿（另一法）",
+                "symbol": "值符、六合",
+                "condition": "与前法单独评估"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-dfeeff1736bf25ad876d6aec88acf559589e02630ae4c3b6438d887a5c77c1a2",
+              "source_id": "span-f4bef96b0ae638c26ba6bfd7fd6d683e4b2a79177fbb04f690a41732bcae4945",
+              "sha256": "6af73ffb72474ca0c648d6603b773904dae72c5ff96d2ae3f4322d36d6664157",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-7e4608e0c7a2e650a13ddfd2e239d2734f011e64404fdfde9d79e6d727ad345f",
+              "source_id": "span-e3dfc3878dcf03cebb01d3ed5d3000009c21f8128d23c13728f13ad2f9316acb",
+              "sha256": "58cefdc9f175e62229de2c6128858e7e61ebb1e9698ebbfe92a8b73f6ad2338f",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-553f0c5c5c6f045e3e59bba6890e86c705ad88f788d55a79278fec9f04478165",
+              "source_id": "span-4accbde9f949a60bc7c5525aa1a24ad75381f5694e1149066c25210b33f2f79f",
+              "sha256": "84c4917ed283ed6c43bf23650638d61901cbad4743e7cfd01fa36c7f726cd78e",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-e84a49166242619d9b0b475e08ca7e7677894132f6814e28ccd67d0874dd1661",
+              "source_id": "span-e6093dc9877e4155a8547a61504ae2f2b4fb4e81ec5f8157b2e6bb5ff7cb4bf9",
+              "sha256": "999c6d70feb923ce517442d406477f9bbdc64e68d5c49f0d3f23477bc3717599",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-555f89a05ad8beffd3f97f3f37f5608293eefa38357150dc8165cd2ebe551f2a",
+              "source_id": "span-40f7f080d545be4a45f984d0055e98cd844e1d379d4ddace6f9006fa6f39ce3f",
+              "sha256": "e16a3a28e56a2f82334b4527c77f22f405689ba1f9f0021937f3e80bede9fab0",
+              "sequence": 9
+            },
+            {
+              "record_id": "record-23655273dfea35c95d0507ab26685aa95dfe2f7e6ba3ecdc9b17eed450390966",
+              "source_id": "span-9406f3f37596a77bf1487bba31e0692050270807219aea93db1a7dd5d9ed1b62",
+              "sha256": "df7ece9f037345c1d2ba36ac49170497b8677cbd43eb3beaf7e260c3e47c9202",
+              "sequence": 11
+            },
+            {
+              "record_id": "record-9cb54dea6e320e8e1f979982b6d278f1d92d513f20b8383e8d356be82fe35d3b",
+              "source_id": "span-d316e7e309da7de26eac54545e9c0657c1eba26de61bcd6590a5aacfa1c63271",
+              "sha256": "3b02a1d84e20c7fa40f72e41afb02505bdeb7518e583f142379741f485f0f07a",
+              "sequence": 12
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "巽四己前缀与壬主干同宫，坤二天心惊门，震三六合，艮八庚照原表。不得把前缀己漏掉后声称日时不同宫。",
+            "citations": [
+              "chart",
+              "context",
+              "pregnancy",
+              "timing"
+            ],
+            "uncertainties": [
+              "原文传统孕产口径可相互矛盾，不视为现代医学结论；未提供的结果保持未知。"
+            ]
+          },
+          "facts": [
+            [
+              4,
+              "heaven_prefix_marker"
+            ],
+            [
+              4,
+              "heaven_stem"
+            ],
+            [
+              2,
+              "star"
+            ],
+            [
+              2,
+              "door"
+            ],
+            [
+              3,
+              "deity"
+            ],
+            [
+              8,
+              "heaven_stem"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-dfeeff1736bf25ad876d6aec88acf559589e02630ae4c3b6438d887a5c77c1a2",
+              "source_id": "span-f4bef96b0ae638c26ba6bfd7fd6d683e4b2a79177fbb04f690a41732bcae4945",
+              "sha256": "6af73ffb72474ca0c648d6603b773904dae72c5ff96d2ae3f4322d36d6664157",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-7e4608e0c7a2e650a13ddfd2e239d2734f011e64404fdfde9d79e6d727ad345f",
+              "source_id": "span-e3dfc3878dcf03cebb01d3ed5d3000009c21f8128d23c13728f13ad2f9316acb",
+              "sha256": "58cefdc9f175e62229de2c6128858e7e61ebb1e9698ebbfe92a8b73f6ad2338f",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-553f0c5c5c6f045e3e59bba6890e86c705ad88f788d55a79278fec9f04478165",
+              "source_id": "span-4accbde9f949a60bc7c5525aa1a24ad75381f5694e1149066c25210b33f2f79f",
+              "sha256": "84c4917ed283ed6c43bf23650638d61901cbad4743e7cfd01fa36c7f726cd78e",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-098ab1ae54e1a9e216ae8f3cf792e67c37fab51ab2d214659e439ad5bad7b384",
+              "source_id": "span-0d32840b1f492e0521c41860a24cfc8ed39f05a09da79aa0107e09997edc6c9e",
+              "sha256": "95ebf40eb2cfb71e41a8b17f28ad60f06dabfa10292ca1c25c6f6891ada1817f",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-d9b992a267390bd01f7bb2f3f5824f14c9a92717dfd6c93ba355cd9dacb6b291",
+              "source_id": "span-9d1c1cfcba48d92301f7bb248948d6b9f09dff82b8549dbb94ec57e48e65c33a",
+              "sha256": "90820d758f0f310e098fe4ea106596bd239b006f9facbc1a73e92b7c6a52f05c",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-e84a49166242619d9b0b475e08ca7e7677894132f6814e28ccd67d0874dd1661",
+              "source_id": "span-e6093dc9877e4155a8547a61504ae2f2b4fb4e81ec5f8157b2e6bb5ff7cb4bf9",
+              "sha256": "999c6d70feb923ce517442d406477f9bbdc64e68d5c49f0d3f23477bc3717599",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-555f89a05ad8beffd3f97f3f37f5608293eefa38357150dc8165cd2ebe551f2a",
+              "source_id": "span-40f7f080d545be4a45f984d0055e98cd844e1d379d4ddace6f9006fa6f39ce3f",
+              "sha256": "e16a3a28e56a2f82334b4527c77f22f405689ba1f9f0021937f3e80bede9fab0",
+              "sequence": 9
+            },
+            {
+              "record_id": "record-32ed97789e372e8bbf519f745d204fcf546dc7a7d8afc9d6d7dcbc9fcfa69475",
+              "source_id": "span-b390b0d2317d80fef6d7f0dc5349fe6987cf06b0fc5ec53722f378f06744aaa5",
+              "sha256": "228c2057bc7df9fe0312c14092916a6782758f9afdbf3d25750d21104603e860",
+              "sequence": 10
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-dfeeff1736bf25ad876d6aec88acf559589e02630ae4c3b6438d887a5c77c1a2",
+              "source_id": "span-f4bef96b0ae638c26ba6bfd7fd6d683e4b2a79177fbb04f690a41732bcae4945",
+              "sha256": "6af73ffb72474ca0c648d6603b773904dae72c5ff96d2ae3f4322d36d6664157",
+              "sequence": 3,
+              "quote": "日干己、时干壬均在4宫，二者同宫比和"
+            },
+            {
+              "record_id": "record-7e4608e0c7a2e650a13ddfd2e239d2734f011e64404fdfde9d79e6d727ad345f",
+              "source_id": "span-e3dfc3878dcf03cebb01d3ed5d3000009c21f8128d23c13728f13ad2f9316acb",
+              "sha256": "58cefdc9f175e62229de2c6128858e7e61ebb1e9698ebbfe92a8b73f6ad2338f",
+              "sequence": 4,
+              "quote": "今天芮星生天心星，天心星临亥月为旺相"
+            },
+            {
+              "record_id": "record-e84a49166242619d9b0b475e08ca7e7677894132f6814e28ccd67d0874dd1661",
+              "source_id": "span-e6093dc9877e4155a8547a61504ae2f2b4fb4e81ec5f8157b2e6bb5ff7cb4bf9",
+              "sha256": "999c6d70feb923ce517442d406477f9bbdc64e68d5c49f0d3f23477bc3717599",
+              "sequence": 8,
+              "quote": "天心星为阴星"
+            },
+            {
+              "record_id": "record-e84a49166242619d9b0b475e08ca7e7677894132f6814e28ccd67d0874dd1661",
+              "source_id": "span-e6093dc9877e4155a8547a61504ae2f2b4fb4e81ec5f8157b2e6bb5ff7cb4bf9",
+              "sha256": "999c6d70feb923ce517442d406477f9bbdc64e68d5c49f0d3f23477bc3717599",
+              "sequence": 8,
+              "quote": "今惊门为阴门"
+            },
+            {
+              "record_id": "record-555f89a05ad8beffd3f97f3f37f5608293eefa38357150dc8165cd2ebe551f2a",
+              "source_id": "span-40f7f080d545be4a45f984d0055e98cd844e1d379d4ddace6f9006fa6f39ce3f",
+              "sha256": "e16a3a28e56a2f82334b4527c77f22f405689ba1f9f0021937f3e80bede9fab0",
+              "sequence": 9,
+              "quote": "六合落震3宫"
+            }
+          ],
+          "answer": {
+            "explanation": "原例用日时同宫、天芮生天心及门星旺相、值符等支持顺产平安；男女方面，天心阴星、惊门阴门及巽宫偏女，六合震三又偏男，作者明确拿不准。正确复现应保留冲突，不能挑后来的男婴结果倒选唯一取法。",
+            "citations": [
+              "chart",
+              "context",
+              "pregnancy",
+              "timing"
+            ],
+            "uncertainties": [
+              "原文传统孕产口径可相互矛盾，不视为现代医学结论；未提供的结果保持未知。"
+            ]
+          }
+        },
+        {
+          "type": "timing_analysis",
+          "targets": [
+            {
+              "record_id": "record-23655273dfea35c95d0507ab26685aa95dfe2f7e6ba3ecdc9b17eed450390966",
+              "source_id": "span-9406f3f37596a77bf1487bba31e0692050270807219aea93db1a7dd5d9ed1b62",
+              "sha256": "df7ece9f037345c1d2ba36ac49170497b8677cbd43eb3beaf7e260c3e47c9202",
+              "sequence": 11
+            },
+            {
+              "record_id": "record-9cb54dea6e320e8e1f979982b6d278f1d92d513f20b8383e8d356be82fe35d3b",
+              "source_id": "span-d316e7e309da7de26eac54545e9c0657c1eba26de61bcd6590a5aacfa1c63271",
+              "sha256": "3b02a1d84e20c7fa40f72e41afb02505bdeb7518e583f142379741f485f0f07a",
+              "sequence": 12
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-23655273dfea35c95d0507ab26685aa95dfe2f7e6ba3ecdc9b17eed450390966",
+              "source_id": "span-9406f3f37596a77bf1487bba31e0692050270807219aea93db1a7dd5d9ed1b62",
+              "sha256": "df7ece9f037345c1d2ba36ac49170497b8677cbd43eb3beaf7e260c3e47c9202",
+              "sequence": 11,
+              "quote": "断产期一般以坤宫对冲之宫天盘所临之干为应期"
+            }
+          ],
+          "answer": {
+            "explanation": "第一次产期口径看坤宫对冲艮宫天盘庚，报11月19庚申；医院给出的21日尚未被告知，不能直接把第一次日期替换为21日。",
+            "citations": [
+              "chart",
+              "context",
+              "pregnancy",
+              "timing"
+            ],
+            "uncertainties": [
+              "原文传统孕产口径可相互矛盾，不视为现代医学结论；未提供的结果保持未知。"
+            ],
+            "methods": [
+              "坤宫对冲宫天盘干取应日"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-224ff955ae92d42a0846027b94c017d996d9456901d2dabc9b26ed9fecf0e432",
+      "event_id": "event-1d9d2b4da7bc6fddc84a43a517955702a39b42319e66b71515067343e681bebd",
+      "family_id": "family-46bf1f92c86b85f1c26b211b435a69dcd30f0fb2ec581a9393cbc82d7907c16a",
+      "chart_id": "chart-8f33b9616668d88a46270b0ae9f51bf383617eee0397d16337e34a9c6ea07c2c",
+      "chapter": "09-pregnancy-childbirth",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 2,
+      "stage": "hospital_due_date_known",
+      "mode": "continuation",
+      "known": [
+        {
+          "record_id": "record-e7e08f12ac4e697db3e8351d772edd838486ae7855baf5d6d0f98fce9ada08e5",
+          "source_id": "span-32c2e71f53f94ffa1cf42c69b923ff2b025a5a84c6850a5fd85cfa60b39fd023",
+          "sha256": "1b9db5c2e41d22b73e8f86475e12231589e766e78c20bc7ea2c142c0ea4ae0dd",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-f33a08f59ff2b33647e96edb6e55ad20e99885417bd79384885f167ff19beb52",
+          "source_id": "span-d7c0c53290d046b3895d1a460ec2dee87366c2316d8bdc04c0e50b01b73540a9",
+          "sha256": "b5a1e0a8e60092e17a553489924b9d4b621273c54cb97dd0f875d8840d83fda1",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-dfeeff1736bf25ad876d6aec88acf559589e02630ae4c3b6438d887a5c77c1a2",
+          "source_id": "span-f4bef96b0ae638c26ba6bfd7fd6d683e4b2a79177fbb04f690a41732bcae4945",
+          "sha256": "6af73ffb72474ca0c648d6603b773904dae72c5ff96d2ae3f4322d36d6664157",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-23655273dfea35c95d0507ab26685aa95dfe2f7e6ba3ecdc9b17eed450390966",
+          "source_id": "span-9406f3f37596a77bf1487bba31e0692050270807219aea93db1a7dd5d9ed1b62",
+          "sha256": "df7ece9f037345c1d2ba36ac49170497b8677cbd43eb3beaf7e260c3e47c9202",
+          "sequence": 11
+        },
+        {
+          "record_id": "record-9cb54dea6e320e8e1f979982b6d278f1d92d513f20b8383e8d356be82fe35d3b",
+          "source_id": "span-d316e7e309da7de26eac54545e9c0657c1eba26de61bcd6590a5aacfa1c63271",
+          "sha256": "3b02a1d84e20c7fa40f72e41afb02505bdeb7518e583f142379741f485f0f07a",
+          "sequence": 12
+        },
+        {
+          "record_id": "record-c8abe39bbdfe05a88f6461f792bba8e3853d5c761525ad61e1dc18761ec660a4",
+          "source_id": "span-def5ad3e8d4e7090698d1dec71bdb350375100c6c74dc9c582a0dcc4b1876846",
+          "sha256": "bba8a33701071defc86c79c4725e467e2e15366c977713c1a5f96c075e7eebe5",
+          "sequence": 13
+        }
+      ],
+      "cutoff": 14,
+      "rules": {
+        "pregnancy": "以坤宫天芮星为母亲，以天盘临坤宫之星为胎儿",
+        "timing": "一般以坤宫对冲之宫天盘所临之干为应期"
+      },
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-9a639070a4fb6b1b681e1b2bf3199ab0bbf1284bbb55c7069760252ffe94de47",
+              "source_id": "span-17f3c7226770c581505eb50c5611a630bf3855b33ab6cd27e30f84945ac44957",
+              "sha256": "3b810677c8797eb741e60ae3e241a7f18f0786f37df92a5bb6195783eea0e47b",
+              "sequence": 14
+            },
+            {
+              "record_id": "record-591dcc1309fc0868f59b1d56284e168eb705ab81a303a7495a7f0551790bb425",
+              "source_id": "span-d18b080f1da2104928d39a18ce3c71874e31ff36e99ec7e772d7165d7fc2c51a",
+              "sha256": "2a73a47b95edef0bf87a2ad454c1e043bcec63e7d96fc0233e0d4d59a06d12ef",
+              "sequence": 15
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-9a639070a4fb6b1b681e1b2bf3199ab0bbf1284bbb55c7069760252ffe94de47",
+              "source_id": "span-17f3c7226770c581505eb50c5611a630bf3855b33ab6cd27e30f84945ac44957",
+              "sha256": "3b810677c8797eb741e60ae3e241a7f18f0786f37df92a5bb6195783eea0e47b",
+              "sequence": 14,
+              "quote": "今己酉日为阴日，应看庚上之干"
+            },
+            {
+              "record_id": "record-9a639070a4fb6b1b681e1b2bf3199ab0bbf1284bbb55c7069760252ffe94de47",
+              "source_id": "span-17f3c7226770c581505eb50c5611a630bf3855b33ab6cd27e30f84945ac44957",
+              "sha256": "3b810677c8797eb741e60ae3e241a7f18f0786f37df92a5bb6195783eea0e47b",
+              "sequence": 14,
+              "quote": "正好戌日填实乾6宫之空亡，冲动巽4宫产妇天芮和时干壬"
+            }
+          ],
+          "answer": {
+            "explanation": "医院预产期21日是新增信息。作者在原盘改用己酉阴日看庚上之干，又以壬戌填实乾六空、冲动巽四产妇及壬，转定11月21壬戌。原文先说庚上己、再说庚上壬，两种表述照源保留为未展开之处，不擅改成一致的算法。男女依然明确拿不准，出生结果还未知。",
+            "citations": [
+              "chart",
+              "context",
+              "pregnancy",
+              "timing"
+            ],
+            "uncertainties": [
+              "原文传统孕产口径可相互矛盾，不视为现代医学结论；未提供的结果保持未知。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-224ff955ae92d42a0846027b94c017d996d9456901d2dabc9b26ed9fecf0e432",
+      "event_id": "event-1d9d2b4da7bc6fddc84a43a517955702a39b42319e66b71515067343e681bebd",
+      "family_id": "family-46bf1f92c86b85f1c26b211b435a69dcd30f0fb2ec581a9393cbc82d7907c16a",
+      "chart_id": "chart-8f33b9616668d88a46270b0ae9f51bf383617eee0397d16337e34a9c6ea07c2c",
+      "chapter": "09-pregnancy-childbirth",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 3,
+      "stage": "first_method",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "已逐条审读源中问测、分析与第一次反馈的位置；unknown标签原样保留，本题明确给定作者前提，不声称独立事前复算。",
+      "known": [
+        {
+          "record_id": "record-3d4fd6e47c521c6fa3e0f155162bfbcd6d535b122324e4c30025951e53280431",
+          "source_id": "span-e80798f7368b6f2931b5cbfc459ec1052ad6e758406a44710a0e48dd0b4e7539",
+          "sha256": "3f864915ab066a83573212b44f1170e32deb489d136469ad62a169d373cf4fe7",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-5fd2e4582ea537576f970e9c7dde6ef6c0d6bf1a0ee7829bba1af9bc1b7fa7cc",
+          "source_id": "span-110c6f555618bcedac9bb7e28a5280b92c2a0fd95d23b9a6ac7c2e037108db6f",
+          "sha256": "69e041405d8b59d16101a6457f9c882656618c531e87c4cdae6e94aae857c291",
+          "sequence": 1
+        }
+      ],
+      "cutoff": 5,
+      "rules": {
+        "pregnancy": "以坤宫天芮星为母亲，以天盘临坤宫之星为胎儿",
+        "timing": "一般以坤宫对冲之宫天盘所临之干为应期"
+      },
+      "provided_roles": [
+        "日干甲子戊求测、坤产室地芮产母天盘星胎儿"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-74835c46f859dbd65399089c6530a78e8e5e85da6401c7e2d3fb1e93434c38b5",
+              "source_id": "span-1621c46cd7fd43d111bb2ac5ede0adec3b7c295d5038d2481a64b5e6a2d116da",
+              "sha256": "9f652178ab56bce6d4889372b833da5c8317f19ff62778d1ab4dbe2572fc581e",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-3aee94907fc48d2521dd369ecaf5c2c72ca0ffa384a4c40336d436084a57a521",
+              "source_id": "span-b50ad0c3e14c19a6fa963adf3b96773c973371416352658266bec608b98b5893",
+              "sha256": "9fb43c2b835af37baf37e07080aa3f60cb60d957141e4ae1546f9d60d2fb3c7e",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-a70132e7a8598fd81f7d7428e06c379f37af4e6a8c1665ee895a61a9febc89ef",
+              "source_id": "span-0f3b3a32cf20fba46f962b323e1d0d62853124f892fbc25a1f9722e5596a8cdc",
+              "sha256": "f14b36d4d5f1c1378344cc753a10e463d36688eb0d2047e526e93b0aa7f0f1b5",
+              "sequence": 7
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "孕妇来问忧闷，作者结合大腹的已知外应转入产育，以日干甲子戊看问测者，另以坤产室、地盘天芮产母、坤天盘星胎儿及对冲宫天干应期。不能把对方未说明的结局当已知。",
+            "citations": [
+              "chart",
+              "context",
+              "pregnancy",
+              "timing"
+            ],
+            "uncertainties": [
+              "原文传统孕产口径可相互矛盾，不视为现代医学结论；未提供的结果保持未知。"
+            ],
+            "bindings": [
+              {
+                "role": "求测者",
+                "symbol": "日干甲子戊",
+                "condition": "本例日干口径"
+              },
+              {
+                "role": "产室、母、胎儿",
+                "symbol": "坤宫、地盘天芮、坤宫天盘星",
+                "condition": "已知妊娠外应下的产育取法"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-74835c46f859dbd65399089c6530a78e8e5e85da6401c7e2d3fb1e93434c38b5",
+              "source_id": "span-1621c46cd7fd43d111bb2ac5ede0adec3b7c295d5038d2481a64b5e6a2d116da",
+              "sha256": "9f652178ab56bce6d4889372b833da5c8317f19ff62778d1ab4dbe2572fc581e",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-a70132e7a8598fd81f7d7428e06c379f37af4e6a8c1665ee895a61a9febc89ef",
+              "source_id": "span-0f3b3a32cf20fba46f962b323e1d0d62853124f892fbc25a1f9722e5596a8cdc",
+              "sha256": "f14b36d4d5f1c1378344cc753a10e463d36688eb0d2047e526e93b0aa7f0f1b5",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-49ee719b9f85f6d76d601947eaedebbfe32fc58ee75af9c3dfc7ba873fc058c4",
+              "source_id": "span-6762b7df77b9cc058b1bf188824206e3f9fce20af12c33d107413a81cede16d1",
+              "sha256": "4f95fe7e23c55aa376ca92e3fcf553ae852db1a521fe245274428a8e18e46a3f",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-0a84d05e94d4c46531298cbc73a6bd08c4b391595c82ed9feaebb13e21a165b0",
+              "source_id": "span-fcf88817c475dc5b19be471cea9b4e063830a88aeb9d02800f5bd8a2e97a32b7",
+              "sha256": "991277af2e7f6f032d12118e9e268a35c9c2aa91df82030b7c7f06cf5071c2a9",
+              "sequence": 9
+            },
+            {
+              "record_id": "record-b8565003b8d5537a6f34da16fb2e5094b5cd43354675014bab6fc159cf6cf8ed",
+              "source_id": "span-f515ddca8f700ea60ed7e8b1dde585646fe55ab3919f30b071ea51d338cce969",
+              "sha256": "09796dc4fd43938d1032751d46da4ee3d6731d4679cd2d99bbaba05e15887f01",
+              "sequence": 10
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "兑七戊惊门螣蛇、坤二天芮太阴、艮八乙及乾六己从同一原表读取，不凭阴阳符号保证结果。",
+            "citations": [
+              "chart",
+              "context",
+              "pregnancy",
+              "timing"
+            ],
+            "uncertainties": [
+              "原文传统孕产口径可相互矛盾，不视为现代医学结论；未提供的结果保持未知。"
+            ]
+          },
+          "facts": [
+            [
+              7,
+              "heaven_stem"
+            ],
+            [
+              7,
+              "door"
+            ],
+            [
+              7,
+              "deity"
+            ],
+            [
+              2,
+              "star"
+            ],
+            [
+              2,
+              "deity"
+            ],
+            [
+              8,
+              "heaven_stem"
+            ],
+            [
+              6,
+              "heaven_stem"
+            ]
+          ]
+        },
+        {
+          "type": "timing_analysis",
+          "targets": [
+            {
+              "record_id": "record-b8565003b8d5537a6f34da16fb2e5094b5cd43354675014bab6fc159cf6cf8ed",
+              "source_id": "span-f515ddca8f700ea60ed7e8b1dde585646fe55ab3919f30b071ea51d338cce969",
+              "sha256": "09796dc4fd43938d1032751d46da4ee3d6731d4679cd2d99bbaba05e15887f01",
+              "sequence": 10
+            },
+            {
+              "record_id": "record-4711b9465e7be8469e133c6191ea2f931e651c8dec906e7720d32ae2f190fd4b",
+              "source_id": "span-a03a12e65fd3d6f4993eaa468901fa785fed63673c73b60e296c06177e8b8df7",
+              "sha256": "dcebdd728aa406b79369b056f7f924016c50f1b8c21a8b49365d26dbf13f66f9",
+              "sequence": 11
+            },
+            {
+              "record_id": "record-234d117a314a0a37cb20641633f853dbb8b80455ddb95119e97b5429f91e0a84",
+              "source_id": "span-d8b8a8efdf2871a783e2faa07359779a0ef8e8f4177ea3ce8a00d01e8d45fa0a",
+              "sha256": "88ade84e48aabaa6f7178dd9eb6fd9ec04d3e3a3e454792b86a7261e974960ec",
+              "sequence": 12
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-b8565003b8d5537a6f34da16fb2e5094b5cd43354675014bab6fc159cf6cf8ed",
+              "source_id": "span-f515ddca8f700ea60ed7e8b1dde585646fe55ab3919f30b071ea51d338cce969",
+              "sha256": "09796dc4fd43938d1032751d46da4ee3d6731d4679cd2d99bbaba05e15887f01",
+              "sequence": 10,
+              "quote": "坤宫对冲之宫天盘所得之干为乙"
+            },
+            {
+              "record_id": "record-4711b9465e7be8469e133c6191ea2f931e651c8dec906e7720d32ae2f190fd4b",
+              "source_id": "span-a03a12e65fd3d6f4993eaa468901fa785fed63673c73b60e296c06177e8b8df7",
+              "sha256": "dcebdd728aa406b79369b056f7f924016c50f1b8c21a8b49365d26dbf13f66f9",
+              "sequence": 11,
+              "quote": "今伏吟不动，辰戌相冲"
+            }
+          ],
+          "answer": {
+            "explanation": "作者以坤对宫艮八乙取次日乙丑，再由时干甲戌己与伏吟待冲、辰戌冲取辰时；二者合为次日上午7–9时。平安和女胎属于另外的判断，不能混作时间推导理由。",
+            "citations": [
+              "chart",
+              "context",
+              "pregnancy",
+              "timing"
+            ],
+            "uncertainties": [
+              "原文传统孕产口径可相互矛盾，不视为现代医学结论；未提供的结果保持未知。"
+            ],
+            "methods": [
+              "坤宫对冲宫干取日",
+              "伏吟待冲取时"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-e1290022bc14f9bc65222b790234b0d511defbf53ce94d7afddf29f6c8bea64e",
+      "event_id": "event-71f8f2d6a845f0c0bc2796442ced5497a4648675a6f8e1bc76c7bc3b6c33aac6",
+      "family_id": "family-515a6aa8fedb6a8dc5554669972a469db95a6a25b7e63df094613bfdcc0e7afe",
+      "chart_id": "chart-258321d84fd8eb52c353d4f5ff987be2eda1479d667bf80bc77a5f0ba0661268",
+      "chapter": "09-pregnancy-childbirth",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 4,
+      "stage": "first_method",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "已逐条审读源中问测、分析与第一次反馈的位置；unknown标签原样保留，本题明确给定作者前提，不声称独立事前复算。",
+      "known": [
+        {
+          "record_id": "record-33e5b3083d7639a6174975822f82bb12c6cff73b187aad933da05587380eeaf0",
+          "source_id": "span-aa331910a0f5bdf08d3d92d0e442b98178920f7a141e2cac680c1ec80fc7c194",
+          "sha256": "628d2a16740afd5162469c65ee3c8e6193236fcfbe85e40fd1385fe462cd14ac",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-7db231f74212be7df5a8ba71b2ca2f17abea75518cb3281bdac744b07f5ed69d",
+          "source_id": "span-510b53c7aa0f369de42a576280a2cc1d2c3a4318e54665203915ff36a6db1ce3",
+          "sha256": "90156070501b24684d1e692a8207e9f805bcaab5fe2b387fdde66255a95b2c9f",
+          "sequence": 1
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "pregnancy": "以坤宫天芮星为母亲，以天盘临坤宫之星为胎儿",
+        "timing": "一般以坤宫对冲之宫天盘所临之干为应期"
+      },
+      "provided_roles": [
+        "坤主妇与产室、丙日干儿子朋友辛合干其妻；时干丁孩子"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-c6dde785b590db3f754d129454237148fcafe335d6078b816743c75ccaf6f9ee",
+              "source_id": "span-8da86b2abd6922922db35c961da36349ca3c8144d6706b02bcab4c3a46a44136",
+              "sha256": "10c04d85183c3c39722daf5b17ccb8204fb4d5d83439d0c9b5d6dfbfd2c79a2e",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-5ab7695c5813679748d3f1be61eea5ab65ae3f97c4bfc73ac6cdb91e603ed0c8",
+              "source_id": "span-9487e0ea02fbcfa128ac4fb55d9cdf1c319851aa7f5975b2d4d3621c7fbbd517",
+              "sha256": "9fc7b064574a5833e439fac3618d0c83f36f4c9703924e1bb6f6159c6c10cc1b",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-e6a8d86cccad854fe89dd8ceb57b9b60765dfc6e7f1d6d26ad988e09ab637eaa",
+              "source_id": "span-3d42ccaf427a23a6500e5058b3895c47bd261c179b641924a2683a8005da2890",
+              "sha256": "074b019bf200ba6ad3ed8b04073982c31e360dc247ba19c4461b03633b09c955",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-070de087eeb950b263cef565577c2d8561d332144c0d5b9b403239a9531e4c2a",
+              "source_id": "span-a21ebc853efbdb8fe2fda824b4121fa88a1643914ca5358e35145d20131b7449",
+              "sha256": "9ecafc175956be4cc32ff7dc799c42a2a70ca8a11844db3f2845568ca4274bf2",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-b345567d601d041c8f0f5f2036602c656eb3a7537cb641ee07fcd3e5a8ebffa9",
+              "source_id": "span-89031a393fccd73cff1531d3efc375363150bcd38b79e4b3d8857e20966468c1",
+              "sha256": "9b9baa250f25ce56c46c63dfc877c0434d3b99aac8654bb5102c6063a7254c26",
+              "sequence": 9
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "代问早产，本例把坤宫主妇/产室与日干丙代表儿子朋友、丙辛合取妻的口径分开；时干丁另看孩子，坤天盘星和门另取胎儿。不可仅按问测人性别套用日干为孕妇。",
+            "citations": [
+              "chart",
+              "context",
+              "pregnancy",
+              "timing"
+            ],
+            "uncertainties": [
+              "原文传统孕产口径可相互矛盾，不视为现代医学结论；未提供的结果保持未知。"
+            ],
+            "bindings": [
+              {
+                "role": "朋友与其妻",
+                "symbol": "日干丙、合干辛",
+                "condition": "本例人物关系"
+              },
+              {
+                "role": "胎儿",
+                "symbol": "时干丁，另看坤宫星门",
+                "condition": "取法分别保留"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-c6dde785b590db3f754d129454237148fcafe335d6078b816743c75ccaf6f9ee",
+              "source_id": "span-8da86b2abd6922922db35c961da36349ca3c8144d6706b02bcab4c3a46a44136",
+              "sha256": "10c04d85183c3c39722daf5b17ccb8204fb4d5d83439d0c9b5d6dfbfd2c79a2e",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-5ab7695c5813679748d3f1be61eea5ab65ae3f97c4bfc73ac6cdb91e603ed0c8",
+              "source_id": "span-9487e0ea02fbcfa128ac4fb55d9cdf1c319851aa7f5975b2d4d3621c7fbbd517",
+              "sha256": "9fc7b064574a5833e439fac3618d0c83f36f4c9703924e1bb6f6159c6c10cc1b",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-e6a8d86cccad854fe89dd8ceb57b9b60765dfc6e7f1d6d26ad988e09ab637eaa",
+              "source_id": "span-3d42ccaf427a23a6500e5058b3895c47bd261c179b641924a2683a8005da2890",
+              "sha256": "074b019bf200ba6ad3ed8b04073982c31e360dc247ba19c4461b03633b09c955",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-070de087eeb950b263cef565577c2d8561d332144c0d5b9b403239a9531e4c2a",
+              "source_id": "span-a21ebc853efbdb8fe2fda824b4121fa88a1643914ca5358e35145d20131b7449",
+              "sha256": "9ecafc175956be4cc32ff7dc799c42a2a70ca8a11844db3f2845568ca4274bf2",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-51cb76360d8ce16cdc28be6327b1126d7ca281233d4bd99538524749302af5ff",
+              "source_id": "span-e0c6821f2eb9060867791d5671d5f52bbdbfe677168c90b6f29a9844950ab9d4",
+              "sha256": "5b8b96bbaced4e38498f19537f6f01779e0d5331e16e015567c9164d02af63ed",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-b345567d601d041c8f0f5f2036602c656eb3a7537cb641ee07fcd3e5a8ebffa9",
+              "source_id": "span-89031a393fccd73cff1531d3efc375363150bcd38b79e4b3d8857e20966468c1",
+              "sha256": "9b9baa250f25ce56c46c63dfc877c0434d3b99aac8654bb5102c6063a7254c26",
+              "sequence": 9
+            },
+            {
+              "record_id": "record-5329f2a3761946b55db5d1717ca7ee63fedf1cac94780042eb4ffca60fdb0cf0",
+              "source_id": "span-6af628bafb06c5138ac35bd0bf61d5269f95702223ce2aaadfe5189400fb69a3",
+              "sha256": "861544a7e4cb25d04e0c0d146c5d3a6124580be47109bb92d1c244a85fb723a5",
+              "sequence": 11
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "坤二丙与庚前缀、天蓬休门，离九辛，艮八丁，震三地盘戊照表；前缀与主干不能因源中丙庚凶格改写。",
+            "citations": [
+              "chart",
+              "context",
+              "pregnancy",
+              "timing"
+            ],
+            "uncertainties": [
+              "原文传统孕产口径可相互矛盾，不视为现代医学结论；未提供的结果保持未知。"
+            ]
+          },
+          "facts": [
+            [
+              2,
+              "heaven_stem"
+            ],
+            [
+              2,
+              "star_prefix_marker"
+            ],
+            [
+              2,
+              "star"
+            ],
+            [
+              2,
+              "door"
+            ],
+            [
+              9,
+              "heaven_stem"
+            ],
+            [
+              8,
+              "heaven_stem"
+            ],
+            [
+              3,
+              "earth_stem"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-c6dde785b590db3f754d129454237148fcafe335d6078b816743c75ccaf6f9ee",
+              "source_id": "span-8da86b2abd6922922db35c961da36349ca3c8144d6706b02bcab4c3a46a44136",
+              "sha256": "10c04d85183c3c39722daf5b17ccb8204fb4d5d83439d0c9b5d6dfbfd2c79a2e",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-5ab7695c5813679748d3f1be61eea5ab65ae3f97c4bfc73ac6cdb91e603ed0c8",
+              "source_id": "span-9487e0ea02fbcfa128ac4fb55d9cdf1c319851aa7f5975b2d4d3621c7fbbd517",
+              "sha256": "9fc7b064574a5833e439fac3618d0c83f36f4c9703924e1bb6f6159c6c10cc1b",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-e6a8d86cccad854fe89dd8ceb57b9b60765dfc6e7f1d6d26ad988e09ab637eaa",
+              "source_id": "span-3d42ccaf427a23a6500e5058b3895c47bd261c179b641924a2683a8005da2890",
+              "sha256": "074b019bf200ba6ad3ed8b04073982c31e360dc247ba19c4461b03633b09c955",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-070de087eeb950b263cef565577c2d8561d332144c0d5b9b403239a9531e4c2a",
+              "source_id": "span-a21ebc853efbdb8fe2fda824b4121fa88a1643914ca5358e35145d20131b7449",
+              "sha256": "9ecafc175956be4cc32ff7dc799c42a2a70ca8a11844db3f2845568ca4274bf2",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-51cb76360d8ce16cdc28be6327b1126d7ca281233d4bd99538524749302af5ff",
+              "source_id": "span-e0c6821f2eb9060867791d5671d5f52bbdbfe677168c90b6f29a9844950ab9d4",
+              "sha256": "5b8b96bbaced4e38498f19537f6f01779e0d5331e16e015567c9164d02af63ed",
+              "sequence": 7
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-c6dde785b590db3f754d129454237148fcafe335d6078b816743c75ccaf6f9ee",
+              "source_id": "span-8da86b2abd6922922db35c961da36349ca3c8144d6706b02bcab4c3a46a44136",
+              "sha256": "10c04d85183c3c39722daf5b17ccb8204fb4d5d83439d0c9b5d6dfbfd2c79a2e",
+              "sequence": 3,
+              "quote": "以坤宫为主妇，格局丙加庚为荧入太白"
+            },
+            {
+              "record_id": "record-5ab7695c5813679748d3f1be61eea5ab65ae3f97c4bfc73ac6cdb91e603ed0c8",
+              "source_id": "span-9487e0ea02fbcfa128ac4fb55d9cdf1c319851aa7f5975b2d4d3621c7fbbd517",
+              "sha256": "9fc7b064574a5833e439fac3618d0c83f36f4c9703924e1bb6f6159c6c10cc1b",
+              "sequence": 4,
+              "quote": "丙辛合，以辛为其妻，在离9宫为六仪击刑"
+            },
+            {
+              "record_id": "record-070de087eeb950b263cef565577c2d8561d332144c0d5b9b403239a9531e4c2a",
+              "source_id": "span-a21ebc853efbdb8fe2fda824b4121fa88a1643914ca5358e35145d20131b7449",
+              "sha256": "9ecafc175956be4cc32ff7dc799c42a2a70ca8a11844db3f2845568ca4274bf2",
+              "sequence": 6,
+              "quote": "休门、天蓬为胎儿，均受宫克"
+            },
+            {
+              "record_id": "record-51cb76360d8ce16cdc28be6327b1126d7ca281233d4bd99538524749302af5ff",
+              "source_id": "span-e0c6821f2eb9060867791d5671d5f52bbdbfe677168c90b6f29a9844950ab9d4",
+              "sha256": "5b8b96bbaced4e38498f19537f6f01779e0d5331e16e015567c9164d02af63ed",
+              "sequence": 7,
+              "quote": "辛下临丁为狱神得奇吉格"
+            },
+            {
+              "record_id": "record-51cb76360d8ce16cdc28be6327b1126d7ca281233d4bd99538524749302af5ff",
+              "source_id": "span-e0c6821f2eb9060867791d5671d5f52bbdbfe677168c90b6f29a9844950ab9d4",
+              "sha256": "5b8b96bbaced4e38498f19537f6f01779e0d5331e16e015567c9164d02af63ed",
+              "sequence": 7,
+              "quote": "天心星、乙奇为医生，正好临9宫和2宫"
+            }
+          ],
+          "answer": {
+            "explanation": "作者先由丙庚、辛击刑和坤宫胎象受克提出冲击早产及手术，又权衡辛丁、丙乙吉格与医药落宫，认为可及时顺利手术。男胎仅是星门等传统口径；坐车受冲击和剖腹的后续反馈尚未发生。",
+            "citations": [
+              "chart",
+              "context",
+              "pregnancy",
+              "timing"
+            ],
+            "uncertainties": [
+              "原文传统孕产口径可相互矛盾，不视为现代医学结论；未提供的结果保持未知。"
+            ]
+          }
+        },
+        {
+          "type": "timing_analysis",
+          "targets": [
+            {
+              "record_id": "record-b345567d601d041c8f0f5f2036602c656eb3a7537cb641ee07fcd3e5a8ebffa9",
+              "source_id": "span-89031a393fccd73cff1531d3efc375363150bcd38b79e4b3d8857e20966468c1",
+              "sha256": "9b9baa250f25ce56c46c63dfc877c0434d3b99aac8654bb5102c6063a7254c26",
+              "sequence": 9
+            },
+            {
+              "record_id": "record-b55fc6a7b4930cc15928656eca98968ccd6c9b6cac1a0c1884827e9082a30951",
+              "source_id": "span-1852a9fc4598169b02ef5280f13e87ada64dc779d276be0c2d0287a98bac8217",
+              "sha256": "232dbf84730ee68c7834148016baff34208284207bd555475d418240b3c98381",
+              "sequence": 10
+            },
+            {
+              "record_id": "record-5329f2a3761946b55db5d1717ca7ee63fedf1cac94780042eb4ffca60fdb0cf0",
+              "source_id": "span-6af628bafb06c5138ac35bd0bf61d5269f95702223ce2aaadfe5189400fb69a3",
+              "sha256": "861544a7e4cb25d04e0c0d146c5d3a6124580be47109bb92d1c244a85fb723a5",
+              "sequence": 11
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-b345567d601d041c8f0f5f2036602c656eb3a7537cb641ee07fcd3e5a8ebffa9",
+              "source_id": "span-89031a393fccd73cff1531d3efc375363150bcd38b79e4b3d8857e20966468c1",
+              "sha256": "9b9baa250f25ce56c46c63dfc877c0434d3b99aac8654bb5102c6063a7254c26",
+              "sequence": 9,
+              "quote": "丁为时干为孩子，在艮8宫为入库"
+            },
+            {
+              "record_id": "record-b55fc6a7b4930cc15928656eca98968ccd6c9b6cac1a0c1884827e9082a30951",
+              "source_id": "span-1852a9fc4598169b02ef5280f13e87ada64dc779d276be0c2d0287a98bac8217",
+              "sha256": "232dbf84730ee68c7834148016baff34208284207bd555475d418240b3c98381",
+              "sequence": 10,
+              "quote": "年干丁生时干戊，又上乘六合"
+            },
+            {
+              "record_id": "record-5329f2a3761946b55db5d1717ca7ee63fedf1cac94780042eb4ffca60fdb0cf0",
+              "source_id": "span-6af628bafb06c5138ac35bd0bf61d5269f95702223ce2aaadfe5189400fb69a3",
+              "sha256": "861544a7e4cb25d04e0c0d146c5d3a6124580be47109bb92d1c244a85fb723a5",
+              "sequence": 11,
+              "quote": "今3宫庚下之干为戊"
+            }
+          ],
+          "answer": {
+            "explanation": "作者先以丁入库和丁癸格不取当前酉时，再取戊戌时及主生关系，另用阳日庚下戊呼应戊时。关于戊时门星的说法属于原例的时间推演，不能把当前乾六盘改成开门天心；源中学员分析经作者加工的性质须保留。",
+            "citations": [
+              "chart",
+              "context",
+              "pregnancy",
+              "timing"
+            ],
+            "uncertainties": [
+              "原文传统孕产口径可相互矛盾，不视为现代医学结论；未提供的结果保持未知。"
+            ],
+            "methods": [
+              "时干入库与格局比较时辰",
+              "阳日庚下干取时"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-347187b085e69aa50b13dc19e914c5bb0823c438502dce4e1a2d4a3ef67cbdbd",
+      "event_id": "event-afe7840d0d3a2ecf27ac69037cce8c00d5b9ca7f4f92fe4b25e21cf1abeed0af",
+      "family_id": "family-28588ef24e3ccbeb7eb5ceaa649a366cecca535454b0b0c157d2cfb0e4ada77f",
+      "chart_id": "chart-0161cef0948cf36e13e91e88177ab19301dbe0fa5ba3dff6e6f244bddf7bc283",
+      "chapter": "09-pregnancy-childbirth",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 5,
+      "stage": "initial",
+      "mode": "initial",
+      "known": [
+        {
+          "record_id": "record-dc4b0cfc2afa9c1e3b4482cec01623774472aff84e64e8805e864ae964bc5704",
+          "source_id": "span-d76a5a3b41af579578ec4cdd985643de07335f3b9488093ca853bb41fa00d9e5",
+          "sha256": "98c9699c46793aefc05d0d4430ceab981c922fb863919ddcb18c013d86b461b0",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-b3a2bf66e9c476d736c0d9ad92a89581db22f7ab387140dee5e13548b6295a4e",
+          "source_id": "span-d90f57c038e3b59bcd410fadc154f17d65899d8470d710b01d9c9042a8f1714c",
+          "sha256": "d4eaf0984bf86c70e43a18f0f61d5d3583141101f1363e06165e4e7b07e2c82d",
+          "sequence": 1
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "pregnancy": "以坤宫天芮星为母亲，以天盘临坤宫之星为胎儿",
+        "timing": "一般以坤宫对冲之宫天盘所临之干为应期"
+      },
+      "provided_roles": [
+        "坤产室地芮母天柱胎、日庚母时丙子、值符母六合子分法"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-d772592061fd9272584b973c95a4714a8b40ac515825bfcb2acdcd661204d073",
+              "source_id": "span-724a93eed319262eb35fec95f86f77e02ab9a2b7c9a11850d2e54104ddf95ef6",
+              "sha256": "933a766eca907eca0d0f748f6abc581c022fd792aacb94b1f6ce5a45cd78cff6",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-e62abdebefaecea6871e58aef6592a20ef0d8cab80d835dfcebb0343bb36cb92",
+              "source_id": "span-e00a2eea5acfc31e7863b71ad9f207dbcd9fecca79760caaa9ee4760309c7329",
+              "sha256": "7adbacdc3a0bf75c6350bc5f1de27d4cb361bf9fbc2146a9b2c23f270da7af20",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-7d8a3dc1a10704de02e4c1da23ef15e83f91640b5624eadcfa79207f4d53f0fe",
+              "source_id": "span-711d1591ad7af34032a1f26246c77bf0181a65b2577c42d34129e98951a5e3dc",
+              "sha256": "ee046de0396c3298fab70246028632c141656cebc2e7be54930d76461b937317",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-ab197906b9ac3862fe6a455e3a0e6866dc27effbb8bfe6575a7667db9fce482e",
+              "source_id": "span-1ef5be2042b72060031738460675cbbe144cae40e4e36f3414dbb40656dc27e1",
+              "sha256": "884ae7df161da3b874679c09303f0bdb67bdb6a1de1e8726a869289314558436",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-12b087af8fedd83b39ee30d87b7d56f6a15a048e3bab1f2dc72e81b1b8542fd2",
+              "source_id": "span-290abe3c667a2115b264b8e68741b1e10fbd2b1499c38944abb924613a0000a1",
+              "sha256": "17aaa9d9db623710f7da6ea743383599bb3afb2e1d7c6150c546ae8cca495697",
+              "sequence": 8
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "本例同时展示坤宫天地星法、日庚母时丙子法、值符母六合子法。它们的吉凶与男女信息可能不一致，应分别保留，不能一见某宫相克就压倒所有视角。",
+            "citations": [
+              "chart",
+              "context",
+              "pregnancy",
+              "timing"
+            ],
+            "uncertainties": [
+              "原文传统孕产口径可相互矛盾，不视为现代医学结论；未提供的结果保持未知。"
+            ],
+            "bindings": [
+              {
+                "role": "母胎（天地星法）",
+                "symbol": "地盘天芮、坤宫天盘天柱",
+                "condition": "坤宫产室口径"
+              },
+              {
+                "role": "母胎（日时法）",
+                "symbol": "日干庚、时干丙",
+                "condition": "另立口径"
+              },
+              {
+                "role": "母胎（神法）",
+                "symbol": "值符、六合",
+                "condition": "与前两法单独比较"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-d772592061fd9272584b973c95a4714a8b40ac515825bfcb2acdcd661204d073",
+              "source_id": "span-724a93eed319262eb35fec95f86f77e02ab9a2b7c9a11850d2e54104ddf95ef6",
+              "sha256": "933a766eca907eca0d0f748f6abc581c022fd792aacb94b1f6ce5a45cd78cff6",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-e62abdebefaecea6871e58aef6592a20ef0d8cab80d835dfcebb0343bb36cb92",
+              "source_id": "span-e00a2eea5acfc31e7863b71ad9f207dbcd9fecca79760caaa9ee4760309c7329",
+              "sha256": "7adbacdc3a0bf75c6350bc5f1de27d4cb361bf9fbc2146a9b2c23f270da7af20",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-7d8a3dc1a10704de02e4c1da23ef15e83f91640b5624eadcfa79207f4d53f0fe",
+              "source_id": "span-711d1591ad7af34032a1f26246c77bf0181a65b2577c42d34129e98951a5e3dc",
+              "sha256": "ee046de0396c3298fab70246028632c141656cebc2e7be54930d76461b937317",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-ab197906b9ac3862fe6a455e3a0e6866dc27effbb8bfe6575a7667db9fce482e",
+              "source_id": "span-1ef5be2042b72060031738460675cbbe144cae40e4e36f3414dbb40656dc27e1",
+              "sha256": "884ae7df161da3b874679c09303f0bdb67bdb6a1de1e8726a869289314558436",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-12b087af8fedd83b39ee30d87b7d56f6a15a048e3bab1f2dc72e81b1b8542fd2",
+              "source_id": "span-290abe3c667a2115b264b8e68741b1e10fbd2b1499c38944abb924613a0000a1",
+              "sha256": "17aaa9d9db623710f7da6ea743383599bb3afb2e1d7c6150c546ae8cca495697",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-66262da1a3a5dc0f434b1c66317a915f50ee76c21a4edc736d32698456aadc02",
+              "source_id": "span-f071b1e19c96599d13f182c21e83ba45154ddc379f27d3c09ae638338488e7b0",
+              "sha256": "6d0aa5641f4d85a81ead98e4e415c3924c08602ab1168bfa9a85376993103344",
+              "sequence": 10
+            },
+            {
+              "record_id": "record-71f1af6df817b22339d2198243a6675bf11379f523119296c3a1c0e106628d93",
+              "source_id": "span-d2f5a95bd4d892fcfc1b2385be81895a09945cef01061c4d02d509bf5b818f8f",
+              "sha256": "b817c0145f70de9a3153973c14746cf9025068d3fa96d6055e83ef1e748736dc",
+              "sequence": 11
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "坤二天柱杜门乙、乾六庚、兑七丙、震三六合、艮八壬保持各层字面；男孩或平安不能直接从字段读取。",
+            "citations": [
+              "chart",
+              "context",
+              "pregnancy",
+              "timing"
+            ],
+            "uncertainties": [
+              "原文传统孕产口径可相互矛盾，不视为现代医学结论；未提供的结果保持未知。"
+            ]
+          },
+          "facts": [
+            [
+              2,
+              "star"
+            ],
+            [
+              2,
+              "door"
+            ],
+            [
+              2,
+              "heaven_stem"
+            ],
+            [
+              6,
+              "heaven_stem"
+            ],
+            [
+              7,
+              "heaven_stem"
+            ],
+            [
+              3,
+              "deity"
+            ],
+            [
+              8,
+              "heaven_stem"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-d772592061fd9272584b973c95a4714a8b40ac515825bfcb2acdcd661204d073",
+              "source_id": "span-724a93eed319262eb35fec95f86f77e02ab9a2b7c9a11850d2e54104ddf95ef6",
+              "sha256": "933a766eca907eca0d0f748f6abc581c022fd792aacb94b1f6ce5a45cd78cff6",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-e62abdebefaecea6871e58aef6592a20ef0d8cab80d835dfcebb0343bb36cb92",
+              "source_id": "span-e00a2eea5acfc31e7863b71ad9f207dbcd9fecca79760caaa9ee4760309c7329",
+              "sha256": "7adbacdc3a0bf75c6350bc5f1de27d4cb361bf9fbc2146a9b2c23f270da7af20",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-7d8a3dc1a10704de02e4c1da23ef15e83f91640b5624eadcfa79207f4d53f0fe",
+              "source_id": "span-711d1591ad7af34032a1f26246c77bf0181a65b2577c42d34129e98951a5e3dc",
+              "sha256": "ee046de0396c3298fab70246028632c141656cebc2e7be54930d76461b937317",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-ab197906b9ac3862fe6a455e3a0e6866dc27effbb8bfe6575a7667db9fce482e",
+              "source_id": "span-1ef5be2042b72060031738460675cbbe144cae40e4e36f3414dbb40656dc27e1",
+              "sha256": "884ae7df161da3b874679c09303f0bdb67bdb6a1de1e8726a869289314558436",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-5f5a134e843f32ff2686c9c80fdbc094d05c93f938529c5f64795687351925a9",
+              "source_id": "span-f7746a2c871982499ea1bf24bd2108b44fe513e2fa6e80e171fb408d8a1a0bf5",
+              "sha256": "414a26b53acbeb09bafae5b96e0d4d773148aa5e6ad3c429eace72aee34d6138",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-12b087af8fedd83b39ee30d87b7d56f6a15a048e3bab1f2dc72e81b1b8542fd2",
+              "source_id": "span-290abe3c667a2115b264b8e68741b1e10fbd2b1499c38944abb924613a0000a1",
+              "sha256": "17aaa9d9db623710f7da6ea743383599bb3afb2e1d7c6150c546ae8cca495697",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-03da9a422af8c03535d20529402b51776ce1d23a4a974c6a195915c08257490c",
+              "source_id": "span-0ec7d63b4608dc30faa264a37b7447f0d551b14f9dc01b0fc00b6da5b00b2e5f",
+              "sha256": "1047961091ebdf294140efe026ee332fccfbfbcd2702da025dd59b0395d27d8b",
+              "sequence": 9
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-d772592061fd9272584b973c95a4714a8b40ac515825bfcb2acdcd661204d073",
+              "source_id": "span-724a93eed319262eb35fec95f86f77e02ab9a2b7c9a11850d2e54104ddf95ef6",
+              "sha256": "933a766eca907eca0d0f748f6abc581c022fd792aacb94b1f6ce5a45cd78cff6",
+              "sequence": 3,
+              "quote": "天芮生天柱"
+            },
+            {
+              "record_id": "record-e62abdebefaecea6871e58aef6592a20ef0d8cab80d835dfcebb0343bb36cb92",
+              "source_id": "span-e00a2eea5acfc31e7863b71ad9f207dbcd9fecca79760caaa9ee4760309c7329",
+              "sha256": "7adbacdc3a0bf75c6350bc5f1de27d4cb361bf9fbc2146a9b2c23f270da7af20",
+              "sequence": 4,
+              "quote": "杜门落坤宫为入库，寅月杜门旺相"
+            },
+            {
+              "record_id": "record-ab197906b9ac3862fe6a455e3a0e6866dc27effbb8bfe6575a7667db9fce482e",
+              "source_id": "span-1ef5be2042b72060031738460675cbbe144cae40e4e36f3414dbb40656dc27e1",
+              "sha256": "884ae7df161da3b874679c09303f0bdb67bdb6a1de1e8726a869289314558436",
+              "sequence": 6,
+              "quote": "值符为产母，落乾6宫，六合为胎儿落震3宫"
+            },
+            {
+              "record_id": "record-5f5a134e843f32ff2686c9c80fdbc094d05c93f938529c5f64795687351925a9",
+              "source_id": "span-f7746a2c871982499ea1bf24bd2108b44fe513e2fa6e80e171fb408d8a1a0bf5",
+              "sha256": "414a26b53acbeb09bafae5b96e0d4d773148aa5e6ad3c429eace72aee34d6138",
+              "sequence": 7,
+              "quote": "寅月木旺金囚"
+            },
+            {
+              "record_id": "record-12b087af8fedd83b39ee30d87b7d56f6a15a048e3bab1f2dc72e81b1b8542fd2",
+              "source_id": "span-290abe3c667a2115b264b8e68741b1e10fbd2b1499c38944abb924613a0000a1",
+              "sha256": "17aaa9d9db623710f7da6ea743383599bb3afb2e1d7c6150c546ae8cca495697",
+              "sequence": 8,
+              "quote": "坤宫天盘为天柱星，为阴星；但杜门却为阳门"
+            }
+          ],
+          "answer": {
+            "explanation": "原例把母生胎、杜门入库而旺、日时比和等支持平安，与值符克六合的反证并列，再以月令木旺金囚及合解释克者无妨。男女信息阴阳相杂，学员最后选择值使休门震三偏男，不得删去矛盾证据伪装成一致结论。",
+            "citations": [
+              "chart",
+              "context",
+              "pregnancy",
+              "timing"
+            ],
+            "uncertainties": [
+              "原文传统孕产口径可相互矛盾，不视为现代医学结论；未提供的结果保持未知。"
+            ]
+          }
+        },
+        {
+          "type": "timing_analysis",
+          "targets": [
+            {
+              "record_id": "record-66262da1a3a5dc0f434b1c66317a915f50ee76c21a4edc736d32698456aadc02",
+              "source_id": "span-f071b1e19c96599d13f182c21e83ba45154ddc379f27d3c09ae638338488e7b0",
+              "sha256": "6d0aa5641f4d85a81ead98e4e415c3924c08602ab1168bfa9a85376993103344",
+              "sequence": 10
+            },
+            {
+              "record_id": "record-71f1af6df817b22339d2198243a6675bf11379f523119296c3a1c0e106628d93",
+              "source_id": "span-d2f5a95bd4d892fcfc1b2385be81895a09945cef01061c4d02d509bf5b818f8f",
+              "sha256": "b817c0145f70de9a3153973c14746cf9025068d3fa96d6055e83ef1e748736dc",
+              "sequence": 11
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-66262da1a3a5dc0f434b1c66317a915f50ee76c21a4edc736d32698456aadc02",
+              "source_id": "span-f071b1e19c96599d13f182c21e83ba45154ddc379f27d3c09ae638338488e7b0",
+              "sha256": "6d0aa5641f4d85a81ead98e4e415c3924c08602ab1168bfa9a85376993103344",
+              "sequence": 10,
+              "quote": "所临之干为壬"
+            },
+            {
+              "record_id": "record-71f1af6df817b22339d2198243a6675bf11379f523119296c3a1c0e106628d93",
+              "source_id": "span-d2f5a95bd4d892fcfc1b2385be81895a09945cef01061c4d02d509bf5b818f8f",
+              "sha256": "b817c0145f70de9a3153973c14746cf9025068d3fa96d6055e83ef1e748736dc",
+              "sequence": 11,
+              "quote": "值使休门落震3宫"
+            }
+          ],
+          "answer": {
+            "explanation": "作者用坤对宫艮八壬取壬日壬时，另由值使休门震三给三天内，两条应期口径均须报告，不能从后来的壬午壬寅反馈倒造推导。",
+            "citations": [
+              "chart",
+              "context",
+              "pregnancy",
+              "timing"
+            ],
+            "uncertainties": [
+              "原文传统孕产口径可相互矛盾，不视为现代医学结论；未提供的结果保持未知。"
+            ],
+            "methods": [
+              "坤宫对冲宫干取日时",
+              "值使宫数取时间上限"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-280bbb10405b701933060214cfb9a6109e5fd91b73cf89bdc3cc395a4b062fe3",
+      "event_id": "event-2e800815a83eabda63099a18749642e35ca48f6a569cd8b00de562f748af76ff",
+      "family_id": "family-e0c9f031682489f00111145198cecda3e9d6551b4c94b3e5c677ccd4363f3551",
+      "chart_id": "chart-f79cfe8f6778ef81ef13dee39e0890a1a9636a73f12d31f767ce907a11ddc3d4",
+      "chapter": "09-pregnancy-childbirth",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 5,
+      "stage": "after_reported_birth",
+      "mode": "retrospective",
+      "known": [
+        {
+          "record_id": "record-dc4b0cfc2afa9c1e3b4482cec01623774472aff84e64e8805e864ae964bc5704",
+          "source_id": "span-d76a5a3b41af579578ec4cdd985643de07335f3b9488093ca853bb41fa00d9e5",
+          "sha256": "98c9699c46793aefc05d0d4430ceab981c922fb863919ddcb18c013d86b461b0",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-b3a2bf66e9c476d736c0d9ad92a89581db22f7ab387140dee5e13548b6295a4e",
+          "source_id": "span-d90f57c038e3b59bcd410fadc154f17d65899d8470d710b01d9c9042a8f1714c",
+          "sha256": "d4eaf0984bf86c70e43a18f0f61d5d3583141101f1363e06165e4e7b07e2c82d",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-d772592061fd9272584b973c95a4714a8b40ac515825bfcb2acdcd661204d073",
+          "source_id": "span-724a93eed319262eb35fec95f86f77e02ab9a2b7c9a11850d2e54104ddf95ef6",
+          "sha256": "933a766eca907eca0d0f748f6abc581c022fd792aacb94b1f6ce5a45cd78cff6",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-e62abdebefaecea6871e58aef6592a20ef0d8cab80d835dfcebb0343bb36cb92",
+          "source_id": "span-e00a2eea5acfc31e7863b71ad9f207dbcd9fecca79760caaa9ee4760309c7329",
+          "sha256": "7adbacdc3a0bf75c6350bc5f1de27d4cb361bf9fbc2146a9b2c23f270da7af20",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-7d8a3dc1a10704de02e4c1da23ef15e83f91640b5624eadcfa79207f4d53f0fe",
+          "source_id": "span-711d1591ad7af34032a1f26246c77bf0181a65b2577c42d34129e98951a5e3dc",
+          "sha256": "ee046de0396c3298fab70246028632c141656cebc2e7be54930d76461b937317",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-ab197906b9ac3862fe6a455e3a0e6866dc27effbb8bfe6575a7667db9fce482e",
+          "source_id": "span-1ef5be2042b72060031738460675cbbe144cae40e4e36f3414dbb40656dc27e1",
+          "sha256": "884ae7df161da3b874679c09303f0bdb67bdb6a1de1e8726a869289314558436",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-5f5a134e843f32ff2686c9c80fdbc094d05c93f938529c5f64795687351925a9",
+          "source_id": "span-f7746a2c871982499ea1bf24bd2108b44fe513e2fa6e80e171fb408d8a1a0bf5",
+          "sha256": "414a26b53acbeb09bafae5b96e0d4d773148aa5e6ad3c429eace72aee34d6138",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-12b087af8fedd83b39ee30d87b7d56f6a15a048e3bab1f2dc72e81b1b8542fd2",
+          "source_id": "span-290abe3c667a2115b264b8e68741b1e10fbd2b1499c38944abb924613a0000a1",
+          "sha256": "17aaa9d9db623710f7da6ea743383599bb3afb2e1d7c6150c546ae8cca495697",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-03da9a422af8c03535d20529402b51776ce1d23a4a974c6a195915c08257490c",
+          "source_id": "span-0ec7d63b4608dc30faa264a37b7447f0d551b14f9dc01b0fc00b6da5b00b2e5f",
+          "sha256": "1047961091ebdf294140efe026ee332fccfbfbcd2702da025dd59b0395d27d8b",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-66262da1a3a5dc0f434b1c66317a915f50ee76c21a4edc736d32698456aadc02",
+          "source_id": "span-f071b1e19c96599d13f182c21e83ba45154ddc379f27d3c09ae638338488e7b0",
+          "sha256": "6d0aa5641f4d85a81ead98e4e415c3924c08602ab1168bfa9a85376993103344",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-71f1af6df817b22339d2198243a6675bf11379f523119296c3a1c0e106628d93",
+          "source_id": "span-d2f5a95bd4d892fcfc1b2385be81895a09945cef01061c4d02d509bf5b818f8f",
+          "sha256": "b817c0145f70de9a3153973c14746cf9025068d3fa96d6055e83ef1e748736dc",
+          "sequence": 11
+        },
+        {
+          "record_id": "record-10da3722411b462933d4568c63d72756f0972e94a7ff808dc0c2e9079f13ee1c",
+          "source_id": "span-7c1128cbf976128c112537810d27ea8eba0faa61b18df516ad611412f3399787",
+          "sha256": "96a7c554cb043e46e6210795f048119c1c4006c84d5e516d72fa5b42d7617e12",
+          "sequence": 12
+        },
+        {
+          "record_id": "record-65322f237eadd1ec16959fd4f7b175867b4bc2d9ea4c03a2d0658a1dcdbaa2fd",
+          "source_id": "span-dcaaeef4374ec848e46f6ccf13876d0b6fac6c80c6ef891380d19f14d70f78b5",
+          "sha256": "faf60021ee14d40be5a3191aca134f7bd734ca6ad14391b084cb1e2ac2e4b637",
+          "sequence": 13
+        }
+      ],
+      "cutoff": 14,
+      "rules": {
+        "pregnancy": "以坤宫天芮星为母亲，以天盘临坤宫之星为胎儿",
+        "timing": "一般以坤宫对冲之宫天盘所临之干为应期"
+      },
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-5e4061f40d6916ec8314cb190271b1d9b4b6fbddf9b7d4e62cb93d06f6e085d4",
+              "source_id": "span-7055b4b4d6673ea70ed2c3fd46e7d2e2a02a20868b6d8461e67f621131366164",
+              "sha256": "9bd4aafc0c62aa824917a364e6a1f868b901ac464bd743c1cdd1611ef4da0f94",
+              "sequence": 14
+            },
+            {
+              "record_id": "record-ae5e24cdd9e9ec5c0e7da43adbeca684e07d44ee9d1abbe05d3f7cb9df389ca3",
+              "source_id": "span-29129fd2c7d81f8a9a12ffb8a2a89536ee5709fd6d71787f4e96a1650c248a43",
+              "sha256": "f44f483e5e67062e0267a052816c1f9928a9a5904f38a650e1a472cb2145bf90",
+              "sequence": 15
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "已有顺产男婴反馈后，作者强调性别取法会出现矛盾、并不十分准确；本例虽为五不遇时却未应凶，因此必须比较用神与全局，不能见五不遇就凶断。保留这个方法限制，不把成功反馈用来删除原先的阴阳冲突。",
+            "citations": [
+              "chart",
+              "context",
+              "pregnancy",
+              "timing"
+            ],
+            "uncertainties": [
+              "原文传统孕产口径可相互矛盾，不视为现代医学结论；未提供的结果保持未知。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-280bbb10405b701933060214cfb9a6109e5fd91b73cf89bdc3cc395a4b062fe3",
+      "event_id": "event-2e800815a83eabda63099a18749642e35ca48f6a569cd8b00de562f748af76ff",
+      "family_id": "family-e0c9f031682489f00111145198cecda3e9d6551b4c94b3e5c677ccd4363f3551",
+      "chart_id": "chart-f79cfe8f6778ef81ef13dee39e0890a1a9636a73f12d31f767ce907a11ddc3d4",
+      "chapter": "09-pregnancy-childbirth",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 6,
+      "stage": "first_method",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "已逐条审读源中问测、分析与第一次反馈的位置；unknown标签原样保留，本题明确给定作者前提，不声称独立事前复算。",
+      "known": [
+        {
+          "record_id": "record-61161fcefd94f8e775b7b7e1bb05bda455b77a437ac56261c41903911c35b5ac",
+          "source_id": "span-ad2a149e8938fe535dfa54ae8d55e26129d75fd04a755a3a554eae41e51afda7",
+          "sha256": "acd7514a733270c773771cca155811291703752bad6353924ebab6a432ad6444",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-08bc5538ed3bdc7ac77ba4597cee8524b1d6a5a2d3fcbf2d70d988bb2687c4bd",
+          "source_id": "span-de946440fb64ce71a83ebfd8dc7a7b72f32bc8adfcc4631f5f94db65b76b8da9",
+          "sha256": "9ed45c2479b3bcd260814fd8af624d8a67ba133857e329900d1edc8c8e43e4dc",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-3506f8d615ae121620d6b1e2f9b378144c64ac93b2739279648395cd3ae1ac2c",
+          "source_id": "span-0568b8d6979b3f773fadf3f5a44a17a3090ed2233774ef6d51094cbe38bc9b78",
+          "sha256": "977b8f374bccf84cd87336b5b46bd7e35185a5f0344dd63ada15d4cc7b0a7314",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-d9d8e3b64aaabc32c15ec0400de5354f3e2fae7e024368e68b91b9b6a83a6053",
+          "source_id": "span-5d2cc810341c3df0bfc1e98ab69b49c7ed44f661698f89eff626cfaf751c14d7",
+          "sha256": "4f1bfb3ada3f4f6fcfcd82850d6b11c1af71f1a11ec80af0fa74c79d5e86b11d",
+          "sequence": 3
+        }
+      ],
+      "cutoff": 5,
+      "rules": {
+        "pregnancy": "以坤宫天芮星为母亲，以天盘临坤宫之星为胎儿",
+        "timing": "一般以坤宫对冲之宫天盘所临之干为应期"
+      },
+      "provided_roles": [
+        "时干丙胎儿、天芮产母、坤产室；值使检查者是本案另取法"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-291fde0af863e86d5cf2e119b807a1a733bddba93d066074b6f35fad73a1fe66",
+              "source_id": "span-40a06db8cad9f85e6d19fe9324ca241942895dd14edb8915a9aa51f6e86454cf",
+              "sha256": "c8a58fb0aa480bb373be702e39ae6fcd6994435926b98b611d4362ddbc2f9a04",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-d101ceca1e0dac7057bb586b3cefb9cdfbf30c93475a77e19ea04dd977b15e3d",
+              "source_id": "span-100445087597d6d783b99a95aa01ede4a448c1d4319673558a97fc15dba3134c",
+              "sha256": "8082c41fb618379a7259ba4abbfa43cc2ce3b126d8e8c8bec72a7f159a0f4611",
+              "sequence": 9
+            },
+            {
+              "record_id": "record-f32d2128802fed53ad6cdb0d2159212750edab08cf686cd320c220b15aa3f538",
+              "source_id": "span-b6b7f90cf5ed000771069fe1379f1dbb6f893bfe8005c5b8d1610e125d577323",
+              "sha256": "7b07cface6d4608b595c7ce23dff2adf4ebd5de5699e152484709f7de6820976",
+              "sequence": 13
+            },
+            {
+              "record_id": "record-704429f304142758141cee3053036e82412bef22a4a39caf95bed98a05ae71cb",
+              "source_id": "span-95ab251802db63eb3f74a320ea3380f74e1bde39d351582a6a6553f7bc71bde1",
+              "sha256": "273779d00bcf711541425f6f0c3ea72e5f11122e87ee2b69f03ccea807b31e8b",
+              "sequence": 15
+            },
+            {
+              "record_id": "record-bdc19028b6032b0fd63d6f1d50fc01595dd3c356e399adb31e3762845ac63fa3",
+              "source_id": "span-a06dc5622efaac857b39f8302d513cd2b15cb9106fb10adad6e5da5d23aa57d0",
+              "sha256": "afe4b8acd96c206a2c87895069c06e8497976de9c203e9340dad33f4e5e9953d",
+              "sequence": 16
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "已知医院提示疑似异常后，本例取时干丙为胎儿，坤为产室、天芮为产母；值使另被作者取作检查医师。不同视角及医院“怀疑”与确诊状态必须分开，不能据传统符号否定医疗检查。",
+            "citations": [
+              "chart",
+              "context",
+              "pregnancy",
+              "timing"
+            ],
+            "uncertainties": [
+              "原文传统孕产口径可相互矛盾，不视为现代医学结论；未提供的结果保持未知。"
+            ],
+            "bindings": [
+              {
+                "role": "胎儿",
+                "symbol": "时干丙",
+                "condition": "本例孕产事项口径"
+              },
+              {
+                "role": "产室与产母",
+                "symbol": "坤宫、天芮星",
+                "condition": "与时干胎儿口径分开"
+              },
+              {
+                "role": "检查者",
+                "symbol": "值使门",
+                "condition": "仅为本例作者另取视角"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-291fde0af863e86d5cf2e119b807a1a733bddba93d066074b6f35fad73a1fe66",
+              "source_id": "span-40a06db8cad9f85e6d19fe9324ca241942895dd14edb8915a9aa51f6e86454cf",
+              "sha256": "c8a58fb0aa480bb373be702e39ae6fcd6994435926b98b611d4362ddbc2f9a04",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-a391eb29eeb5539704c9482a7cab15de1dcdc973041a2c874727144cdccb7487",
+              "source_id": "span-0d196b22474cff7409b588b11d52c560c5220fc4f1079254508021d9fbd10cc5",
+              "sha256": "891ef9cec8b8aed35aa4e46cc81b45a2c5eb9020d68540870d3150c42431f185",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-d101ceca1e0dac7057bb586b3cefb9cdfbf30c93475a77e19ea04dd977b15e3d",
+              "source_id": "span-100445087597d6d783b99a95aa01ede4a448c1d4319673558a97fc15dba3134c",
+              "sha256": "8082c41fb618379a7259ba4abbfa43cc2ce3b126d8e8c8bec72a7f159a0f4611",
+              "sequence": 9
+            },
+            {
+              "record_id": "record-f32d2128802fed53ad6cdb0d2159212750edab08cf686cd320c220b15aa3f538",
+              "source_id": "span-b6b7f90cf5ed000771069fe1379f1dbb6f893bfe8005c5b8d1610e125d577323",
+              "sha256": "7b07cface6d4608b595c7ce23dff2adf4ebd5de5699e152484709f7de6820976",
+              "sequence": 13
+            },
+            {
+              "record_id": "record-704429f304142758141cee3053036e82412bef22a4a39caf95bed98a05ae71cb",
+              "source_id": "span-95ab251802db63eb3f74a320ea3380f74e1bde39d351582a6a6553f7bc71bde1",
+              "sha256": "273779d00bcf711541425f6f0c3ea72e5f11122e87ee2b69f03ccea807b31e8b",
+              "sequence": 15
+            },
+            {
+              "record_id": "record-bdc19028b6032b0fd63d6f1d50fc01595dd3c356e399adb31e3762845ac63fa3",
+              "source_id": "span-a06dc5622efaac857b39f8302d513cd2b15cb9106fb10adad6e5da5d23aa57d0",
+              "sha256": "afe4b8acd96c206a2c87895069c06e8497976de9c203e9340dad33f4e5e9953d",
+              "sequence": 16
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "乾六丙下丁、生门螣蛇；巽四死门、坤二天英与兑七天芮照原表。天英阴星与开门阳门的解释另作条件，不改表来消除矛盾。",
+            "citations": [
+              "chart",
+              "context",
+              "pregnancy",
+              "timing"
+            ],
+            "uncertainties": [
+              "原文传统孕产口径可相互矛盾，不视为现代医学结论；未提供的结果保持未知。"
+            ]
+          },
+          "facts": [
+            [
+              6,
+              "heaven_stem"
+            ],
+            [
+              6,
+              "earth_stem"
+            ],
+            [
+              6,
+              "door"
+            ],
+            [
+              6,
+              "deity"
+            ],
+            [
+              4,
+              "door"
+            ],
+            [
+              2,
+              "star"
+            ],
+            [
+              7,
+              "star"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-291fde0af863e86d5cf2e119b807a1a733bddba93d066074b6f35fad73a1fe66",
+              "source_id": "span-40a06db8cad9f85e6d19fe9324ca241942895dd14edb8915a9aa51f6e86454cf",
+              "sha256": "c8a58fb0aa480bb373be702e39ae6fcd6994435926b98b611d4362ddbc2f9a04",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-a391eb29eeb5539704c9482a7cab15de1dcdc973041a2c874727144cdccb7487",
+              "source_id": "span-0d196b22474cff7409b588b11d52c560c5220fc4f1079254508021d9fbd10cc5",
+              "sha256": "891ef9cec8b8aed35aa4e46cc81b45a2c5eb9020d68540870d3150c42431f185",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-fe2f97ddede049e97a4a63f938bb147866de3eac4a8837c7a16da7337ec37915",
+              "source_id": "span-57aa945a2728da11fa1e820d5fa935e1ad93638512278afc1b5ea0c3dcc84fd2",
+              "sha256": "07da82e7599d335cfbb9c3efcf9d00892961410a50fcad992ab387fad80753b2",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-a40f2c44787607873859c9028414a443e35da26e62767186d3fab089045ef1be",
+              "source_id": "span-ec7c335a85ab72e87128dc2438427e61d1796ebdd227979d11a34b223d271074",
+              "sha256": "4bc801adcac5b487593922c87fca6d49ecb9327b9d1d59602aa1e05e39a71e0c",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-d101ceca1e0dac7057bb586b3cefb9cdfbf30c93475a77e19ea04dd977b15e3d",
+              "source_id": "span-100445087597d6d783b99a95aa01ede4a448c1d4319673558a97fc15dba3134c",
+              "sha256": "8082c41fb618379a7259ba4abbfa43cc2ce3b126d8e8c8bec72a7f159a0f4611",
+              "sequence": 9
+            },
+            {
+              "record_id": "record-c05aac51bf044237f49a97960e2ee54046d4e4373d86f8757a9665404bae2253",
+              "source_id": "span-2dd650f6f28d44871353939ca96d3cba843554f99668883f787927b772b51b6d",
+              "sha256": "fbb2b83bfe9a07d184005d82da3795c6e0e25384a52a78962c0b054b254bfdbe",
+              "sequence": 11
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-291fde0af863e86d5cf2e119b807a1a733bddba93d066074b6f35fad73a1fe66",
+              "source_id": "span-40a06db8cad9f85e6d19fe9324ca241942895dd14edb8915a9aa51f6e86454cf",
+              "sha256": "c8a58fb0aa480bb373be702e39ae6fcd6994435926b98b611d4362ddbc2f9a04",
+              "sequence": 5,
+              "quote": "时干丙落乾6宫为入库"
+            },
+            {
+              "record_id": "record-a391eb29eeb5539704c9482a7cab15de1dcdc973041a2c874727144cdccb7487",
+              "source_id": "span-0d196b22474cff7409b588b11d52c560c5220fc4f1079254508021d9fbd10cc5",
+              "sha256": "891ef9cec8b8aed35aa4e46cc81b45a2c5eb9020d68540870d3150c42431f185",
+              "sequence": 6,
+              "quote": "时干临生门，丙下又临丁奇"
+            },
+            {
+              "record_id": "record-a391eb29eeb5539704c9482a7cab15de1dcdc973041a2c874727144cdccb7487",
+              "source_id": "span-0d196b22474cff7409b588b11d52c560c5220fc4f1079254508021d9fbd10cc5",
+              "sha256": "891ef9cec8b8aed35aa4e46cc81b45a2c5eb9020d68540870d3150c42431f185",
+              "sequence": 6,
+              "quote": "又得太岁所在坤宫生之，日干庚与之比和"
+            },
+            {
+              "record_id": "record-a40f2c44787607873859c9028414a443e35da26e62767186d3fab089045ef1be",
+              "source_id": "span-ec7c335a85ab72e87128dc2438427e61d1796ebdd227979d11a34b223d271074",
+              "sha256": "4bc801adcac5b487593922c87fca6d49ecb9327b9d1d59602aa1e05e39a71e0c",
+              "sequence": 8,
+              "quote": "上乘螣蛇主虚惊怪异"
+            },
+            {
+              "record_id": "record-d101ceca1e0dac7057bb586b3cefb9cdfbf30c93475a77e19ea04dd977b15e3d",
+              "source_id": "span-100445087597d6d783b99a95aa01ede4a448c1d4319673558a97fc15dba3134c",
+              "sha256": "8082c41fb618379a7259ba4abbfa43cc2ce3b126d8e8c8bec72a7f159a0f4611",
+              "sequence": 9,
+              "quote": "死门为值使落巽4宫，与时干丙所在乾宫对冲"
+            }
+          ],
+          "answer": {
+            "explanation": "作者由丙入库、生门、丙丁格与生助关系提出未见胎异倾向，并以螣蛇解释虚惊，再从值使和玄武辛怀疑检查可靠性。这些是历史作者的传统判断；已有B超“怀疑”是背景，未提供确认诊断，不能把奇门解释当检查替代或保证胎儿正常。",
+            "citations": [
+              "chart",
+              "context",
+              "pregnancy",
+              "timing"
+            ],
+            "uncertainties": [
+              "原文传统孕产口径可相互矛盾，不视为现代医学结论；未提供的结果保持未知。"
+            ]
+          }
+        },
+        {
+          "type": "timing_analysis",
+          "targets": [
+            {
+              "record_id": "record-d101ceca1e0dac7057bb586b3cefb9cdfbf30c93475a77e19ea04dd977b15e3d",
+              "source_id": "span-100445087597d6d783b99a95aa01ede4a448c1d4319673558a97fc15dba3134c",
+              "sha256": "8082c41fb618379a7259ba4abbfa43cc2ce3b126d8e8c8bec72a7f159a0f4611",
+              "sequence": 9
+            },
+            {
+              "record_id": "record-62ffa3549574f0e80d0c5e0df2e389f31bfb444cce6ccde5d3af6f73941c0988",
+              "source_id": "span-827884d1c1aa6a2bfb5429243142267d8b22b3e0a416a98c88f5bb9496ec5ae4",
+              "sha256": "795e4b2ee9bb66e634e28fc20edaba002b67ff78e437ec21634df95e1c7caa07",
+              "sequence": 10
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-d101ceca1e0dac7057bb586b3cefb9cdfbf30c93475a77e19ea04dd977b15e3d",
+              "source_id": "span-100445087597d6d783b99a95aa01ede4a448c1d4319673558a97fc15dba3134c",
+              "sha256": "8082c41fb618379a7259ba4abbfa43cc2ce3b126d8e8c8bec72a7f159a0f4611",
+              "sequence": 9,
+              "quote": "死门落4宫主4数"
+            }
+          ],
+          "answer": {
+            "explanation": "作者把死门巽四数与丙辰月辰冲戌库联系，建议十四天后复查；这是历史复查时间建议的来源，不能将后来半月复查结果倒填进当前输入。",
+            "citations": [
+              "chart",
+              "context",
+              "pregnancy",
+              "timing"
+            ],
+            "uncertainties": [
+              "原文传统孕产口径可相互矛盾，不视为现代医学结论；未提供的结果保持未知。"
+            ],
+            "methods": [
+              "宫数与跨月辰冲戌库组合"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-2421ad7bbb4c5b70db9d84dd2135c30b6b7e3f11b1086e0825465fcc1ce84864",
+      "event_id": "event-4c1e0289fc728e31f7ae15783bae175230b3c057036fc8e46fed3d9b753ea19f",
+      "family_id": "family-26fc333e3d670513c3b2676649885f10cab72fa61e4f4c011415705049847ec7",
+      "chart_id": "chart-c633be06b5f8e009f8a10faf50b9fe8ca41b66b3d58ba8b9d2341ac632e23c94",
+      "chapter": "09-pregnancy-childbirth",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    }
+  ]
+}

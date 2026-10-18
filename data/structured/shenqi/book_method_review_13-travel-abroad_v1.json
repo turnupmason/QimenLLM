@@ -1,0 +1,2991 @@
+{
+  "schema": "book-method-semantic-review-v1",
+  "source_data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "reviewed_by": "Codex source-grounded semantic curation",
+  "rows": [
+    {
+      "case": 1,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "所列unknown记录逐句为问测前背景、起局依据和四柱，不含反馈；不同问题与两次起盘分开。",
+      "known_source_window_review": "所列unknown记录逐句为问测前背景、起局依据和四柱，不含反馈；不同问题与两次起盘分开。",
+      "known": [
+        {
+          "record_id": "record-ee6485a799f3f53b6558d9daa196248d0994fd6213a0c41f3ca430dc3e36a5ec",
+          "source_id": "span-29b1bd9cfe46060a28218e7b4e0beced3bbe50e4902ac5c01ca9919848542295",
+          "sha256": "c679876597551fa068947537805d739438148bc419daf3a1a0cbfdd233327c21",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-0ad11c86bc27cb3f9f41f78160bb490311009bfe2535f7a8cf7b712317a312d2",
+          "source_id": "span-47e80e01a2adc2d4daf8f0a4f1d8bc53fe9abc7add985508820b8c63b92e18fc",
+          "sha256": "68ac097a42dc7caf30690a95b7e2d925f02d5179e6ef59efd61cc582bca632e6",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-46cf36601f2e2ca2821c300114457f8551290d4dba7ec2411e6baf80dbbbd7c4",
+          "source_id": "span-e690230395531921f7fd7a0fda678b0a36eb3d6a748314aaa05b9e8d200baf4f",
+          "sha256": "1f60ac5ecf3ecaea8be1763ced45a3fb606765dd62cb933d5c40ac9052133d7b",
+          "sequence": 2
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "travel": "出行出国，一般以日干落宫为出行之人",
+        "transport": "凡出行乘车，以景门所临之宫为道路，以伤门为车",
+        "flight": "如果坐飞机出行，可以九天所临之宫为航线，以开门为飞机"
+      },
+      "chart_index": 0,
+      "provided_roles": [
+        "按本例人物关系及交通方式选取，天地盘分别保留"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-4da519d883a760c4fa9f6ef52712b86a762d858f89cdbdbf585c41b8ecfd583b",
+              "source_id": "span-006aa20c11d3ad48758cda408932431f81f467b0e5666156f96f154c2f41b6c8",
+              "sha256": "0bf9420f475b57867a9093422b1e5c15dd69ad6d0862c8bf511dd3bfac7b8798",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-941e3bbee415653aa7b4d10386e5b4d3a8281fa6a16608e80c2004971b3bdc40",
+              "source_id": "span-cf71b36e78ffd864476395d18498c7388120eddd5e5fa8a214d523607b5b4828",
+              "sha256": "66c1f9b7d7991f28b3bba61e65a1a5144e3f28686aa6b3de9b25ba2455943aef",
+              "sequence": 4
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "本例以预定航班起飞时间起局，作者按兄弟同辈取月干己看其三兄，再看南北航向和开门飞机、九天航线。源文称“弟媳测兄”与开头关系表述不完全一致，保留原口径，不根据年龄改取年干。",
+            "citations": [
+              "chart",
+              "context",
+              "travel",
+              "transport",
+              "flight"
+            ],
+            "uncertainties": [
+              "出行途中、到达后工作、人物关系与不同起盘时间分别判断；不以一项凶格替代全局。"
+            ],
+            "bindings": [
+              {
+                "role": "出行三兄",
+                "symbol": "月干己",
+                "condition": "本例作者同辈取法，关系原字保留"
+              },
+              {
+                "role": "飞机、航线",
+                "symbol": "开门、九天",
+                "condition": "预定起飞时间局"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-4da519d883a760c4fa9f6ef52712b86a762d858f89cdbdbf585c41b8ecfd583b",
+              "source_id": "span-006aa20c11d3ad48758cda408932431f81f467b0e5666156f96f154c2f41b6c8",
+              "sha256": "0bf9420f475b57867a9093422b1e5c15dd69ad6d0862c8bf511dd3bfac7b8798",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-941e3bbee415653aa7b4d10386e5b4d3a8281fa6a16608e80c2004971b3bdc40",
+              "source_id": "span-cf71b36e78ffd864476395d18498c7388120eddd5e5fa8a214d523607b5b4828",
+              "sha256": "66c1f9b7d7991f28b3bba61e65a1a5144e3f28686aa6b3de9b25ba2455943aef",
+              "sequence": 4
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "月己坎一六合休门、离九九天、乾六开门按原盘；不把后来安全返回当起盘时已知。",
+            "citations": [
+              "chart",
+              "context",
+              "travel",
+              "transport",
+              "flight"
+            ],
+            "uncertainties": [
+              "出行途中、到达后工作、人物关系与不同起盘时间分别判断；不以一项凶格替代全局。"
+            ]
+          },
+          "facts": [
+            [
+              1,
+              "heaven_stem"
+            ],
+            [
+              1,
+              "deity"
+            ],
+            [
+              1,
+              "door"
+            ],
+            [
+              9,
+              "deity"
+            ],
+            [
+              6,
+              "door"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-4da519d883a760c4fa9f6ef52712b86a762d858f89cdbdbf585c41b8ecfd583b",
+              "source_id": "span-006aa20c11d3ad48758cda408932431f81f467b0e5666156f96f154c2f41b6c8",
+              "sha256": "0bf9420f475b57867a9093422b1e5c15dd69ad6d0862c8bf511dd3bfac7b8798",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-941e3bbee415653aa7b4d10386e5b4d3a8281fa6a16608e80c2004971b3bdc40",
+              "source_id": "span-cf71b36e78ffd864476395d18498c7388120eddd5e5fa8a214d523607b5b4828",
+              "sha256": "66c1f9b7d7991f28b3bba61e65a1a5144e3f28686aa6b3de9b25ba2455943aef",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-474b3dafce53752bdb6dc6b12586dc936fad0c647873923aa43ae60884ef22fd",
+              "source_id": "span-72a68e4fd051b468385b527735fd176e286f19fff4b57d8ae5209379d64f4f50",
+              "sha256": "eaa454d55d1741722501155e2cbc5c2cba6ee055a35b63d7cb45efde84823569",
+              "sequence": 5
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-4da519d883a760c4fa9f6ef52712b86a762d858f89cdbdbf585c41b8ecfd583b",
+              "source_id": "span-006aa20c11d3ad48758cda408932431f81f467b0e5666156f96f154c2f41b6c8",
+              "sha256": "0bf9420f475b57867a9093422b1e5c15dd69ad6d0862c8bf511dd3bfac7b8798",
+              "sequence": 3,
+              "quote": "月干己落坎1宫"
+            },
+            {
+              "record_id": "record-941e3bbee415653aa7b4d10386e5b4d3a8281fa6a16608e80c2004971b3bdc40",
+              "source_id": "span-cf71b36e78ffd864476395d18498c7388120eddd5e5fa8a214d523607b5b4828",
+              "sha256": "66c1f9b7d7991f28b3bba61e65a1a5144e3f28686aa6b3de9b25ba2455943aef",
+              "sequence": 4,
+              "quote": "由南到北"
+            },
+            {
+              "record_id": "record-941e3bbee415653aa7b4d10386e5b4d3a8281fa6a16608e80c2004971b3bdc40",
+              "source_id": "span-cf71b36e78ffd864476395d18498c7388120eddd5e5fa8a214d523607b5b4828",
+              "sha256": "66c1f9b7d7991f28b3bba61e65a1a5144e3f28686aa6b3de9b25ba2455943aef",
+              "sequence": 4,
+              "quote": "开门为飞机，生月干己"
+            },
+            {
+              "record_id": "record-941e3bbee415653aa7b4d10386e5b4d3a8281fa6a16608e80c2004971b3bdc40",
+              "source_id": "span-cf71b36e78ffd864476395d18498c7388120eddd5e5fa8a214d523607b5b4828",
+              "sha256": "66c1f9b7d7991f28b3bba61e65a1a5144e3f28686aa6b3de9b25ba2455943aef",
+              "sequence": 4,
+              "quote": "甲申旬中午未空"
+            }
+          ],
+          "answer": {
+            "explanation": "作者先看月干得休门六合，再比较南至北航向、星门伏吟天气稳定象及飞机宫生人，并把起飞后午未填实与吉神相接合看，判断途中安全。这是预定航班的历史方法判断，实际安全返回尚未输入。",
+            "citations": [
+              "chart",
+              "context",
+              "travel",
+              "transport",
+              "flight"
+            ],
+            "uncertainties": [
+              "出行途中、到达后工作、人物关系与不同起盘时间分别判断；不以一项凶格替代全局。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-90638797d4c4fa4b93aecc5529352f4f936ca90456e77693e2881fb5accfe1dc",
+      "event_id": "event-9bdab29b32aa5715bbbb14f1136f3f8dbe5a7e1319d069a708adb20b7cfe8827",
+      "family_id": "family-a844819a63c387a7c64608e6457e8103c48407d28b912f42d37b6ce6c7cfb5fc",
+      "chart_id": "chart-c0dcac8a5fd084cf4f00c73871ebe1f57efa9f9ec672c80cba0e3bcd9b7efb3f",
+      "chapter": "13-travel-abroad",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 2,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "所列unknown记录逐句为问测前背景、起局依据和四柱，不含反馈；不同问题与两次起盘分开。",
+      "known_source_window_review": "所列unknown记录逐句为问测前背景、起局依据和四柱，不含反馈；不同问题与两次起盘分开。",
+      "known": [
+        {
+          "record_id": "record-f67106bb332d3aeecd736ff71430c58e19f34bc687b745cd3f5f52a12bd150e2",
+          "source_id": "span-0b0f0496e69388319220ca947e67c64f9ed6e1d67bb3bb7e2e0dfde040fe5de6",
+          "sha256": "60538d4a5fdccd54a7e879091ab67dac4876a959da1735451db98a173b76824a",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-6133b9ae2e8935a935fc5bb2b2e0b8d4bb043ce74084e18869132a8801fa8f8a",
+          "source_id": "span-65f88536152a30a369026a6f0adf8b244e6bc88fb37b0206202b10bef97bb713",
+          "sha256": "dd766a8c4fb7bb65050e7d92e0dfa57666e9e371237588a19d0c81fc5587f6de",
+          "sequence": 1
+        }
+      ],
+      "cutoff": 2,
+      "rules": {
+        "travel": "出行出国，一般以日干落宫为出行之人",
+        "transport": "凡出行乘车，以景门所临之宫为道路，以伤门为车",
+        "flight": "如果坐飞机出行，可以九天所临之宫为航线，以开门为飞机"
+      },
+      "chart_index": 0,
+      "provided_roles": [
+        "按本例人物关系及交通方式选取，天地盘分别保留"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-3a3834501339f5439086155cd7f94f2ac3f5549c8d658946089c6717d51c1fe5",
+              "source_id": "span-f3eef109c02bc0476dabbf1704dc7dac664aa98a8fbcb0a31f5ba8a1ac9c9017",
+              "sha256": "67670d84fc04f8dbe52c7a98c0ae4f73cb62a693f072ca1a3df8e1cf894ec797",
+              "sequence": 2
+            },
+            {
+              "record_id": "record-a882cd064a6dcd9d6be637390f2f00eba2cc2f08e4e4f9c7acbcc20201d0885e",
+              "source_id": "span-293abd8f1694e6c06549ebe23bfacdc9ef36c88a1a4589dff0a08122d29e1e18",
+              "sha256": "f623a151298190c66409fd43e021563112f041790c8cd555fc8779a4bb17cb7e",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-9a581b6a815b7d4d26faaf96d62366bca733cdc177f6b366890d0c41b46dc465",
+              "source_id": "span-7f67a0debb49f6fe79641578a0019fa9458591775d3424fecf9ff7757febffc0",
+              "sha256": "f069a09aa08f4c1c84f1a936330ff935f43ddf3168532b5ccfecc18433d884c5",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-3b2000f2e549a6108edf11de24c13c51a66c6e8824130990ba905fe6f20a8096",
+              "source_id": "span-6958107162aeb9120e4f8f5e7915d3060bc5c47fa832f03af7b40b563615c68c",
+              "sha256": "1032d3763362a400ade4cb46ac97e5d9f4954aadd8957170a1ef758216c72298",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "本人出差，以日乙为出行者、时丙事项，目的地方位另看离九，交通法景门道路、伤门车，资本戊另为财务风险。不能只以目的地吉格代替整次出差判断。",
+            "citations": [
+              "chart",
+              "context",
+              "travel",
+              "transport",
+              "flight"
+            ],
+            "uncertainties": [
+              "出行途中、到达后工作、人物关系与不同起盘时间分别判断；不以一项凶格替代全局。"
+            ],
+            "bindings": [
+              {
+                "role": "出行人、事项",
+                "symbol": "日干乙、时干丙",
+                "condition": "本人问出差"
+              },
+              {
+                "role": "道路、车、资本",
+                "symbol": "景门、伤门、甲子戊",
+                "condition": "各风险目标分开"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-3a3834501339f5439086155cd7f94f2ac3f5549c8d658946089c6717d51c1fe5",
+              "source_id": "span-f3eef109c02bc0476dabbf1704dc7dac664aa98a8fbcb0a31f5ba8a1ac9c9017",
+              "sha256": "67670d84fc04f8dbe52c7a98c0ae4f73cb62a693f072ca1a3df8e1cf894ec797",
+              "sequence": 2
+            },
+            {
+              "record_id": "record-a882cd064a6dcd9d6be637390f2f00eba2cc2f08e4e4f9c7acbcc20201d0885e",
+              "source_id": "span-293abd8f1694e6c06549ebe23bfacdc9ef36c88a1a4589dff0a08122d29e1e18",
+              "sha256": "f623a151298190c66409fd43e021563112f041790c8cd555fc8779a4bb17cb7e",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-9a581b6a815b7d4d26faaf96d62366bca733cdc177f6b366890d0c41b46dc465",
+              "source_id": "span-7f67a0debb49f6fe79641578a0019fa9458591775d3424fecf9ff7757febffc0",
+              "sha256": "f069a09aa08f4c1c84f1a936330ff935f43ddf3168532b5ccfecc18433d884c5",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-3b2000f2e549a6108edf11de24c13c51a66c6e8824130990ba905fe6f20a8096",
+              "source_id": "span-6958107162aeb9120e4f8f5e7915d3060bc5c47fa832f03af7b40b563615c68c",
+              "sha256": "1032d3763362a400ade4cb46ac97e5d9f4954aadd8957170a1ef758216c72298",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "日乙坤二、时丙艮八，离九休门白虎、震三戊、坎一景门和兑七伤门照表，目的地与道路宫不合并。",
+            "citations": [
+              "chart",
+              "context",
+              "travel",
+              "transport",
+              "flight"
+            ],
+            "uncertainties": [
+              "出行途中、到达后工作、人物关系与不同起盘时间分别判断；不以一项凶格替代全局。"
+            ]
+          },
+          "facts": [
+            [
+              2,
+              "heaven_stem"
+            ],
+            [
+              8,
+              "heaven_stem"
+            ],
+            [
+              9,
+              "door"
+            ],
+            [
+              9,
+              "deity"
+            ],
+            [
+              3,
+              "heaven_stem"
+            ],
+            [
+              1,
+              "door"
+            ],
+            [
+              7,
+              "door"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-3a3834501339f5439086155cd7f94f2ac3f5549c8d658946089c6717d51c1fe5",
+              "source_id": "span-f3eef109c02bc0476dabbf1704dc7dac664aa98a8fbcb0a31f5ba8a1ac9c9017",
+              "sha256": "67670d84fc04f8dbe52c7a98c0ae4f73cb62a693f072ca1a3df8e1cf894ec797",
+              "sequence": 2
+            },
+            {
+              "record_id": "record-a882cd064a6dcd9d6be637390f2f00eba2cc2f08e4e4f9c7acbcc20201d0885e",
+              "source_id": "span-293abd8f1694e6c06549ebe23bfacdc9ef36c88a1a4589dff0a08122d29e1e18",
+              "sha256": "f623a151298190c66409fd43e021563112f041790c8cd555fc8779a4bb17cb7e",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-9a581b6a815b7d4d26faaf96d62366bca733cdc177f6b366890d0c41b46dc465",
+              "source_id": "span-7f67a0debb49f6fe79641578a0019fa9458591775d3424fecf9ff7757febffc0",
+              "sha256": "f069a09aa08f4c1c84f1a936330ff935f43ddf3168532b5ccfecc18433d884c5",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-3b2000f2e549a6108edf11de24c13c51a66c6e8824130990ba905fe6f20a8096",
+              "source_id": "span-6958107162aeb9120e4f8f5e7915d3060bc5c47fa832f03af7b40b563615c68c",
+              "sha256": "1032d3763362a400ade4cb46ac97e5d9f4954aadd8957170a1ef758216c72298",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-d9621cba5e38320b006272ba2397adf64bece12fa0f30a9cf2831df175705e06",
+              "source_id": "span-67fd5809555b1bb14e13e2c95dccc141feda4b7fa1516093bae7054d23b36c94",
+              "sha256": "f47a882e4588f2b95393c57deb6dd01add60de809c7850354083e79cde174ea7",
+              "sequence": 6
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-3a3834501339f5439086155cd7f94f2ac3f5549c8d658946089c6717d51c1fe5",
+              "source_id": "span-f3eef109c02bc0476dabbf1704dc7dac664aa98a8fbcb0a31f5ba8a1ac9c9017",
+              "sha256": "67670d84fc04f8dbe52c7a98c0ae4f73cb62a693f072ca1a3df8e1cf894ec797",
+              "sequence": 2,
+              "quote": "日干乙为出行之人，落坤2宫，为入墓、空亡之地"
+            },
+            {
+              "record_id": "record-3a3834501339f5439086155cd7f94f2ac3f5549c8d658946089c6717d51c1fe5",
+              "source_id": "span-f3eef109c02bc0476dabbf1704dc7dac664aa98a8fbcb0a31f5ba8a1ac9c9017",
+              "sha256": "67670d84fc04f8dbe52c7a98c0ae4f73cb62a693f072ca1a3df8e1cf894ec797",
+              "sequence": 2,
+              "quote": "八门反吟"
+            },
+            {
+              "record_id": "record-a882cd064a6dcd9d6be637390f2f00eba2cc2f08e4e4f9c7acbcc20201d0885e",
+              "source_id": "span-293abd8f1694e6c06549ebe23bfacdc9ef36c88a1a4589dff0a08122d29e1e18",
+              "sha256": "f623a151298190c66409fd43e021563112f041790c8cd555fc8779a4bb17cb7e",
+              "sequence": 3,
+              "quote": "所去南方为离9宫"
+            },
+            {
+              "record_id": "record-9a581b6a815b7d4d26faaf96d62366bca733cdc177f6b366890d0c41b46dc465",
+              "source_id": "span-7f67a0debb49f6fe79641578a0019fa9458591775d3424fecf9ff7757febffc0",
+              "sha256": "f069a09aa08f4c1c84f1a936330ff935f43ddf3168532b5ccfecc18433d884c5",
+              "sequence": 4,
+              "quote": "甲子戊为资本，落震3宫，六仪击刑"
+            },
+            {
+              "record_id": "record-3b2000f2e549a6108edf11de24c13c51a66c6e8824130990ba905fe6f20a8096",
+              "source_id": "span-6958107162aeb9120e4f8f5e7915d3060bc5c47fa832f03af7b40b563615c68c",
+              "sha256": "1032d3763362a400ade4cb46ac97e5d9f4954aadd8957170a1ef758216c72298",
+              "sequence": 5,
+              "quote": "景门落坎1宫"
+            }
+          ],
+          "answer": {
+            "explanation": "作者从人墓空、事项死门天蓬对冲、南方目的地门迫白虎空亡、资本击刑惊门，再加道路车宫不利，形成出差不顺、破财失物和交通事故倾向；同时保留道路宫值符对性命的有利解释。后来同伴失散和火车事故尚不知，不能前置。",
+            "citations": [
+              "chart",
+              "context",
+              "travel",
+              "transport",
+              "flight"
+            ],
+            "uncertainties": [
+              "出行途中、到达后工作、人物关系与不同起盘时间分别判断；不以一项凶格替代全局。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-47c198ac385cda942a508aebbe2b9b9e0ed0fee06031f4845d156ebd57e2f545",
+      "event_id": "event-3dcd35bbef6e755f6b78eb9711fda976c0e96203b7c805e07ba9ee1fe356f93b",
+      "family_id": "family-81b00fb8d2dbc9fdc2c1df492d11d35dd1c7025dc7b95790e12e10bf79b4f155",
+      "chart_id": "chart-7840a09d5168ad5a9c7c2ed60791fc8708ddd8011f398844de0b3cbf7bb3fc7c",
+      "chapter": "13-travel-abroad",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 3,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "所列unknown记录逐句为问测前背景、起局依据和四柱，不含反馈；不同问题与两次起盘分开。",
+      "known_source_window_review": "所列unknown记录逐句为问测前背景、起局依据和四柱，不含反馈；不同问题与两次起盘分开。",
+      "known": [
+        {
+          "record_id": "record-bb96f9dc1d4f1b0565be617e5510877754f310fe570c956ba5220fa78a874234",
+          "source_id": "span-deb946ed8ccecd0d0b91491e4439a2c736693799bdcec7442897e67110c9944d",
+          "sha256": "3ed87fa877455a7513949b7856e1bb3d7b529dda46df450eb656aeef55d38828",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-f61fe7bc0770d1e57f6b690b91349f23edd3c275e27ed5cdcb967acc988686f6",
+          "source_id": "span-006cbde2361226580fc7b31fcb68636d9812ff7098f6d59adb0ed7cbb2bee359",
+          "sha256": "b38f72a5f9c23d31e5538466d4e53402c6f69041daac3e2ec9de9f08da72ea36",
+          "sequence": 1
+        }
+      ],
+      "cutoff": 2,
+      "rules": {
+        "travel": "出行出国，一般以日干落宫为出行之人",
+        "transport": "凡出行乘车，以景门所临之宫为道路，以伤门为车",
+        "flight": "如果坐飞机出行，可以九天所临之宫为航线，以开门为飞机"
+      },
+      "chart_index": 0,
+      "provided_roles": [
+        "按本例人物关系及交通方式选取，天地盘分别保留"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-bc2f9c1234590388812bc2399d767d1ba9c087ea37a75b5e6bc35727aeb635a2",
+              "source_id": "span-c5ea192c62e77812b6e888474556924d09fbc0a219bd91e49d6ef384432cffe3",
+              "sha256": "876c9cd73ed7dad8cc8e1dec52ff19d3d3ae7c33f5dad85218d78093be3c0d18",
+              "sequence": 2
+            },
+            {
+              "record_id": "record-5966e1b50cde5296aedfb2fd4ed9d03f30d669f05ab50bc78821afb35bdcb171",
+              "source_id": "span-8ad607aa0a23d56c68b1533221df0200d430977f8c27895bf58cde849075d516",
+              "sha256": "03f9724b5392e807ed6c60ebe2fe0a164dd60706aaa51bc5b7cbe742741d9493",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-1d30bbe6f6917ca9e3dcc9b3af096b1315779e0cb73980262fc066e5dae81b73",
+              "source_id": "span-ca3180909edc15573057ca66b2a99143f656f8f9bb5475acd90d1195bfcd0fa2",
+              "sha256": "9a18c3f307b5dfcbdaafe7271ea650fd31e1fb048a732280df210548aece4eae",
+              "sequence": 4
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "战友代问按本例月干己看战友，去东北艮八、返途对宫坤二分开；景门道路、伤门车。不是直接把赵经理日干当白庆波本人。",
+            "citations": [
+              "chart",
+              "context",
+              "travel",
+              "transport",
+              "flight"
+            ],
+            "uncertainties": [
+              "出行途中、到达后工作、人物关系与不同起盘时间分别判断；不以一项凶格替代全局。"
+            ],
+            "bindings": [
+              {
+                "role": "战友",
+                "symbol": "月干己",
+                "condition": "同辈代问本例口径"
+              },
+              {
+                "role": "去程、返程、道路、车",
+                "symbol": "艮八、对宫坤二、景门、伤门",
+                "condition": "方向及交通目标分开"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-bc2f9c1234590388812bc2399d767d1ba9c087ea37a75b5e6bc35727aeb635a2",
+              "source_id": "span-c5ea192c62e77812b6e888474556924d09fbc0a219bd91e49d6ef384432cffe3",
+              "sha256": "876c9cd73ed7dad8cc8e1dec52ff19d3d3ae7c33f5dad85218d78093be3c0d18",
+              "sequence": 2
+            },
+            {
+              "record_id": "record-5966e1b50cde5296aedfb2fd4ed9d03f30d669f05ab50bc78821afb35bdcb171",
+              "source_id": "span-8ad607aa0a23d56c68b1533221df0200d430977f8c27895bf58cde849075d516",
+              "sha256": "03f9724b5392e807ed6c60ebe2fe0a164dd60706aaa51bc5b7cbe742741d9493",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-1d30bbe6f6917ca9e3dcc9b3af096b1315779e0cb73980262fc066e5dae81b73",
+              "source_id": "span-ca3180909edc15573057ca66b2a99143f656f8f9bb5475acd90d1195bfcd0fa2",
+              "sha256": "9a18c3f307b5dfcbdaafe7271ea650fd31e1fb048a732280df210548aece4eae",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-c2becb3f331e6e6e188153c70e1716f106d652f9a9473f8561aaf3f2eb5f0d58",
+              "source_id": "span-94175544f94245dd6f997d25bdcf54985618421b6b3956a735787530d1def1c3",
+              "sha256": "97ad1ece9f4ce112b40d87af85a9bd12722d26147cf851f220e62546dca54043",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "己艮八杜门六合、景门震三白虎、伤门坎一及返途坤二戊照表。去返方向不能与人车安全结论混为同一项。",
+            "citations": [
+              "chart",
+              "context",
+              "travel",
+              "transport",
+              "flight"
+            ],
+            "uncertainties": [
+              "出行途中、到达后工作、人物关系与不同起盘时间分别判断；不以一项凶格替代全局。"
+            ]
+          },
+          "facts": [
+            [
+              8,
+              "heaven_stem"
+            ],
+            [
+              8,
+              "door"
+            ],
+            [
+              8,
+              "deity"
+            ],
+            [
+              3,
+              "door"
+            ],
+            [
+              3,
+              "deity"
+            ],
+            [
+              1,
+              "door"
+            ],
+            [
+              2,
+              "heaven_stem"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-bc2f9c1234590388812bc2399d767d1ba9c087ea37a75b5e6bc35727aeb635a2",
+              "source_id": "span-c5ea192c62e77812b6e888474556924d09fbc0a219bd91e49d6ef384432cffe3",
+              "sha256": "876c9cd73ed7dad8cc8e1dec52ff19d3d3ae7c33f5dad85218d78093be3c0d18",
+              "sequence": 2
+            },
+            {
+              "record_id": "record-5966e1b50cde5296aedfb2fd4ed9d03f30d669f05ab50bc78821afb35bdcb171",
+              "source_id": "span-8ad607aa0a23d56c68b1533221df0200d430977f8c27895bf58cde849075d516",
+              "sha256": "03f9724b5392e807ed6c60ebe2fe0a164dd60706aaa51bc5b7cbe742741d9493",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-1d30bbe6f6917ca9e3dcc9b3af096b1315779e0cb73980262fc066e5dae81b73",
+              "source_id": "span-ca3180909edc15573057ca66b2a99143f656f8f9bb5475acd90d1195bfcd0fa2",
+              "sha256": "9a18c3f307b5dfcbdaafe7271ea650fd31e1fb048a732280df210548aece4eae",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-c2becb3f331e6e6e188153c70e1716f106d652f9a9473f8561aaf3f2eb5f0d58",
+              "source_id": "span-94175544f94245dd6f997d25bdcf54985618421b6b3956a735787530d1def1c3",
+              "sha256": "97ad1ece9f4ce112b40d87af85a9bd12722d26147cf851f220e62546dca54043",
+              "sequence": 5
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-bc2f9c1234590388812bc2399d767d1ba9c087ea37a75b5e6bc35727aeb635a2",
+              "source_id": "span-c5ea192c62e77812b6e888474556924d09fbc0a219bd91e49d6ef384432cffe3",
+              "sha256": "876c9cd73ed7dad8cc8e1dec52ff19d3d3ae7c33f5dad85218d78093be3c0d18",
+              "sequence": 2,
+              "quote": "月干己为战友，落艮8宫"
+            },
+            {
+              "record_id": "record-bc2f9c1234590388812bc2399d767d1ba9c087ea37a75b5e6bc35727aeb635a2",
+              "source_id": "span-c5ea192c62e77812b6e888474556924d09fbc0a219bd91e49d6ef384432cffe3",
+              "sha256": "876c9cd73ed7dad8cc8e1dec52ff19d3d3ae7c33f5dad85218d78093be3c0d18",
+              "sequence": 2,
+              "quote": "上乘六合"
+            },
+            {
+              "record_id": "record-5966e1b50cde5296aedfb2fd4ed9d03f30d669f05ab50bc78821afb35bdcb171",
+              "source_id": "span-8ad607aa0a23d56c68b1533221df0200d430977f8c27895bf58cde849075d516",
+              "sha256": "03f9724b5392e807ed6c60ebe2fe0a164dd60706aaa51bc5b7cbe742741d9493",
+              "sequence": 3,
+              "quote": "景门在震3宫，上乘白虎"
+            },
+            {
+              "record_id": "record-5966e1b50cde5296aedfb2fd4ed9d03f30d669f05ab50bc78821afb35bdcb171",
+              "source_id": "span-8ad607aa0a23d56c68b1533221df0200d430977f8c27895bf58cde849075d516",
+              "sha256": "03f9724b5392e807ed6c60ebe2fe0a164dd60706aaa51bc5b7cbe742741d9493",
+              "sequence": 3,
+              "quote": "出行人艮宫克坎宫"
+            },
+            {
+              "record_id": "record-1d30bbe6f6917ca9e3dcc9b3af096b1315779e0cb73980262fc066e5dae81b73",
+              "source_id": "span-ca3180909edc15573057ca66b2a99143f656f8f9bb5475acd90d1195bfcd0fa2",
+              "sha256": "9a18c3f307b5dfcbdaafe7271ea650fd31e1fb048a732280df210548aece4eae",
+              "sequence": 4,
+              "quote": "返途（从秦皇岛回石家庄）看坤宫"
+            }
+          ],
+          "answer": {
+            "explanation": "作者把月干六合与吉象保留为人员安全一面，又用杜门不利、道路白虎、人克车及返途坤宫凶格、死门白虎克返途宫，指向返途中车辆损伤可能。具体白色桑塔那右胎损失等后续事实未开放；人平安和车事故可以同时成立。",
+            "citations": [
+              "chart",
+              "context",
+              "travel",
+              "transport",
+              "flight"
+            ],
+            "uncertainties": [
+              "出行途中、到达后工作、人物关系与不同起盘时间分别判断；不以一项凶格替代全局。"
+            ]
+          }
+        },
+        {
+          "type": "timing_analysis",
+          "targets": [
+            {
+              "record_id": "record-faa6335b0ca9f3d27651cfa78066dedf7da59d47a62f571ee94ebb222dd460e9",
+              "source_id": "span-8cceab2f7d1ee69223c932b936d2aea095bdb8e8fcb53a86216fce4548f9ff04",
+              "sha256": "f557727c7ce12de146cc7fa70d75f92297fec0ef1edfbd17e2fd4fbb75a444c9",
+              "sequence": 6
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "原例用返途坤宫午未空、出空时为事故应期，提出己未日。这里只复现其条件与预测，不用实际事故地点金额反推更精确时刻。",
+            "citations": [
+              "chart",
+              "context",
+              "travel",
+              "transport",
+              "flight"
+            ],
+            "uncertainties": [
+              "出行途中、到达后工作、人物关系与不同起盘时间分别判断；不以一项凶格替代全局。"
+            ],
+            "methods": [
+              "返途宫空亡出空取日"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-021baaf3fb1e70e9276e280005e9a0aaf1fc507f91afa6ea7d16c5fa748439b8",
+      "event_id": "event-0dc48e4b9272ee08bfca721f4969a7098f2d83be3127116c3d3750d8b56fde94",
+      "family_id": "family-fbff487f123f88c48e773d54bdb90d21b8822f71b9099b6b9a5c981fa7d3e96f",
+      "chart_id": "chart-094fc9dbb4901f68162ba78e0ee9842f29ca26e4bf6a637c3fa6a3c9cf064113",
+      "chapter": "13-travel-abroad",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 4,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "所列unknown记录逐句为问测前背景、起局依据和四柱，不含反馈；不同问题与两次起盘分开。",
+      "known_source_window_review": "所列unknown记录逐句为问测前背景、起局依据和四柱，不含反馈；不同问题与两次起盘分开。",
+      "known": [
+        {
+          "record_id": "record-593f2ef4ba64fa618c70ad5725bc9e4cbecbd82f4f05d0d7a1f11fbb4a624154",
+          "source_id": "span-10bc39d9bee17b113f8900922d2515515763e2ebea82351972b2f97cfb17c849",
+          "sha256": "93478be34141dd8cb2f363e2e365b708d93dbab1c4364c6de30b2b9038244e27",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-a2b12af20fa7d6cc079e5e930f314a199c753919d19ad5c4f40f394e01bcc919",
+          "source_id": "span-5b76808e3f7a3da3a786a1e7aeb73976ffb518f3d2b32c3001a1f07280dcdea0",
+          "sha256": "ba98146e184d6ed5c1e5d570856298907fa936e2a0b56110980128b9bf092bcb",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-9b9ec57597ccaec3c49e95ebc99d7f2a8d0a7b42dee67726d92594073b37bbb0",
+          "source_id": "span-7e18658ddd16c565e5d563efa33582efa8cd7653edaa464f09bfe7c1e74acdaa",
+          "sha256": "4278891068a66ee0492a6430abd43d0712a92992948687bcdb24d9b2556fb698",
+          "sequence": 2
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "travel": "出行出国，一般以日干落宫为出行之人",
+        "transport": "凡出行乘车，以景门所临之宫为道路，以伤门为车",
+        "flight": "如果坐飞机出行，可以九天所临之宫为航线，以开门为飞机"
+      },
+      "chart_index": 0,
+      "provided_roles": [
+        "按本例人物关系及交通方式选取，天地盘分别保留"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-30bbec55baee9ba28b876fcbf9cf62849302400644ff2bd0cd7370f7b1401820",
+              "source_id": "span-6e91f84d49517a6b1f3f65eb59386b39051e7a5e0140f8549e6df6d58cef55a6",
+              "sha256": "82ddb5619fd47ecfc6d4302934c3ef2e028138e43d508201882b518642736985",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-7434559871c3785806a04fd95d25ac416736dee1a43d48a04f9018e2c3d9686a",
+              "source_id": "span-1937d38d369206f8a124fb0e4d01889e2e8e32cc3cbb96d1c8ba5b601a9041e0",
+              "sha256": "93c2332be83a7d2c91fa80ae9d36f4cbe46e3a0033c295499dc4435b456d0c03",
+              "sequence": 4
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "本人问出国安全，日乙人时癸事，所去意大利按西北乾宫另看。当前问题是途中安全与到达后的工作两目标，不将随后婚姻问答提前混进来。",
+            "citations": [
+              "chart",
+              "context",
+              "travel",
+              "transport",
+              "flight"
+            ],
+            "uncertainties": [
+              "出行途中、到达后工作、人物关系与不同起盘时间分别判断；不以一项凶格替代全局。"
+            ],
+            "bindings": [
+              {
+                "role": "出国者、事项",
+                "symbol": "日干乙、时干癸",
+                "condition": "本人出国求测"
+              },
+              {
+                "role": "目的地方位",
+                "symbol": "乾六西北",
+                "condition": "本例源中方位口径"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-30bbec55baee9ba28b876fcbf9cf62849302400644ff2bd0cd7370f7b1401820",
+              "source_id": "span-6e91f84d49517a6b1f3f65eb59386b39051e7a5e0140f8549e6df6d58cef55a6",
+              "sha256": "82ddb5619fd47ecfc6d4302934c3ef2e028138e43d508201882b518642736985",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-7434559871c3785806a04fd95d25ac416736dee1a43d48a04f9018e2c3d9686a",
+              "source_id": "span-1937d38d369206f8a124fb0e4d01889e2e8e32cc3cbb96d1c8ba5b601a9041e0",
+              "sha256": "93c2332be83a7d2c91fa80ae9d36f4cbe46e3a0033c295499dc4435b456d0c03",
+              "sequence": 4
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "离九乙与癸前缀、景门九天，乾六开门太阴照表。日时同宫不允许漏掉前缀后改判不同宫。",
+            "citations": [
+              "chart",
+              "context",
+              "travel",
+              "transport",
+              "flight"
+            ],
+            "uncertainties": [
+              "出行途中、到达后工作、人物关系与不同起盘时间分别判断；不以一项凶格替代全局。"
+            ]
+          },
+          "facts": [
+            [
+              9,
+              "heaven_stem"
+            ],
+            [
+              9,
+              "heaven_prefix_marker"
+            ],
+            [
+              9,
+              "door"
+            ],
+            [
+              9,
+              "deity"
+            ],
+            [
+              6,
+              "door"
+            ],
+            [
+              6,
+              "deity"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-30bbec55baee9ba28b876fcbf9cf62849302400644ff2bd0cd7370f7b1401820",
+              "source_id": "span-6e91f84d49517a6b1f3f65eb59386b39051e7a5e0140f8549e6df6d58cef55a6",
+              "sha256": "82ddb5619fd47ecfc6d4302934c3ef2e028138e43d508201882b518642736985",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-7434559871c3785806a04fd95d25ac416736dee1a43d48a04f9018e2c3d9686a",
+              "source_id": "span-1937d38d369206f8a124fb0e4d01889e2e8e32cc3cbb96d1c8ba5b601a9041e0",
+              "sha256": "93c2332be83a7d2c91fa80ae9d36f4cbe46e3a0033c295499dc4435b456d0c03",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-0d66b64a5a0426ca7135be74a2134b59abf0d78a97a747035232ae3b2e5ad952",
+              "source_id": "span-85aa7de8cfafa2228adbac8a1854be6085b0f366810cd0685496e858b563b3d9",
+              "sha256": "99170c81da0fa954e5aeeda5195134d5c63d7203237df805bf3bbea62e951142",
+              "sequence": 6
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-30bbec55baee9ba28b876fcbf9cf62849302400644ff2bd0cd7370f7b1401820",
+              "source_id": "span-6e91f84d49517a6b1f3f65eb59386b39051e7a5e0140f8549e6df6d58cef55a6",
+              "sha256": "82ddb5619fd47ecfc6d4302934c3ef2e028138e43d508201882b518642736985",
+              "sequence": 3,
+              "quote": "二者同落离9宫，临景门"
+            },
+            {
+              "record_id": "record-30bbec55baee9ba28b876fcbf9cf62849302400644ff2bd0cd7370f7b1401820",
+              "source_id": "span-6e91f84d49517a6b1f3f65eb59386b39051e7a5e0140f8549e6df6d58cef55a6",
+              "sha256": "82ddb5619fd47ecfc6d4302934c3ef2e028138e43d508201882b518642736985",
+              "sequence": 3,
+              "quote": "寅月木生火，旺相"
+            },
+            {
+              "record_id": "record-30bbec55baee9ba28b876fcbf9cf62849302400644ff2bd0cd7370f7b1401820",
+              "source_id": "span-6e91f84d49517a6b1f3f65eb59386b39051e7a5e0140f8549e6df6d58cef55a6",
+              "sha256": "82ddb5619fd47ecfc6d4302934c3ef2e028138e43d508201882b518642736985",
+              "sequence": 3,
+              "quote": "开门主工作，落乾宫伏吟，与日干落宫相克"
+            },
+            {
+              "record_id": "record-7434559871c3785806a04fd95d25ac416736dee1a43d48a04f9018e2c3d9686a",
+              "source_id": "span-1937d38d369206f8a124fb0e4d01889e2e8e32cc3cbb96d1c8ba5b601a9041e0",
+              "sha256": "93c2332be83a7d2c91fa80ae9d36f4cbe46e3a0033c295499dc4435b456d0c03",
+              "sequence": 4,
+              "quote": "今日干旺相克乾宫"
+            }
+          ],
+          "answer": {
+            "explanation": "作者以日时旺、九天飞机象和本人克目的宫且目的宫得开门太阴支持旅途安全；又以癸辛格及工作开门与本人相克提示到国外工作不如意。必须把路上安全与工作不顺分别报告，母亲半年后的来电尚未知。",
+            "citations": [
+              "chart",
+              "context",
+              "travel",
+              "transport",
+              "flight"
+            ],
+            "uncertainties": [
+              "出行途中、到达后工作、人物关系与不同起盘时间分别判断；不以一项凶格替代全局。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-b6d7c7589ab9cbaf715ab9c9b3aa3e26658c5851f81de474eb2af4e0911e7c90",
+      "event_id": "event-4dfd20d666d238a402e959fd184dc1dbf46eef55550413cdfcc6fae8f987c116",
+      "family_id": "family-7413efa178f538f869492db21e4c4aa6cf8552f4152a7edf4358b6f0da34a801",
+      "chart_id": "chart-2af794989f3c8892165f5c9e8f8e3d085f27d2a8d119866dc5a83411297b9647",
+      "chapter": "13-travel-abroad",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 4,
+      "stage": "mother_first_followup",
+      "mode": "continuation",
+      "source_prediction_window_review": "所列unknown记录逐句为问测前背景、起局依据和四柱，不含反馈；不同问题与两次起盘分开。",
+      "known_source_window_review": "所列unknown记录逐句为问测前背景、起局依据和四柱，不含反馈；不同问题与两次起盘分开。",
+      "known": [
+        {
+          "record_id": "record-593f2ef4ba64fa618c70ad5725bc9e4cbecbd82f4f05d0d7a1f11fbb4a624154",
+          "source_id": "span-10bc39d9bee17b113f8900922d2515515763e2ebea82351972b2f97cfb17c849",
+          "sha256": "93478be34141dd8cb2f363e2e365b708d93dbab1c4364c6de30b2b9038244e27",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-a2b12af20fa7d6cc079e5e930f314a199c753919d19ad5c4f40f394e01bcc919",
+          "source_id": "span-5b76808e3f7a3da3a786a1e7aeb73976ffb518f3d2b32c3001a1f07280dcdea0",
+          "sha256": "ba98146e184d6ed5c1e5d570856298907fa936e2a0b56110980128b9bf092bcb",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-9b9ec57597ccaec3c49e95ebc99d7f2a8d0a7b42dee67726d92594073b37bbb0",
+          "source_id": "span-7e18658ddd16c565e5d563efa33582efa8cd7653edaa464f09bfe7c1e74acdaa",
+          "sha256": "4278891068a66ee0492a6430abd43d0712a92992948687bcdb24d9b2556fb698",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-30bbec55baee9ba28b876fcbf9cf62849302400644ff2bd0cd7370f7b1401820",
+          "source_id": "span-6e91f84d49517a6b1f3f65eb59386b39051e7a5e0140f8549e6df6d58cef55a6",
+          "sha256": "82ddb5619fd47ecfc6d4302934c3ef2e028138e43d508201882b518642736985",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-7434559871c3785806a04fd95d25ac416736dee1a43d48a04f9018e2c3d9686a",
+          "source_id": "span-1937d38d369206f8a124fb0e4d01889e2e8e32cc3cbb96d1c8ba5b601a9041e0",
+          "sha256": "93c2332be83a7d2c91fa80ae9d36f4cbe46e3a0033c295499dc4435b456d0c03",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-7fad62c1112271c8e61d586f2168ff959516198dc20441b9587482ce4b252adc",
+          "source_id": "span-f525c7c0bcbfab6348a3361e0b2934982521c7e09a55e8487e0023e67eb5c3b3",
+          "sha256": "9a5c48e4a091513d0bc5c1bc939441e4362c8371887f5567866460a94d6cffb9",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-0d66b64a5a0426ca7135be74a2134b59abf0d78a97a747035232ae3b2e5ad952",
+          "source_id": "span-85aa7de8cfafa2228adbac8a1854be6085b0f366810cd0685496e858b563b3d9",
+          "sha256": "99170c81da0fa954e5aeeda5195134d5c63d7203237df805bf3bbea62e951142",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-fdeb75f4943112357060d29469501ef5fb445ab1dddfcef5a2db2be4df1c9d5c",
+          "source_id": "span-df8f745dccc3a3e48cee824ba739e60af5cb71c7c23f41218dde3aa5c9bf041b",
+          "sha256": "90731a522abbd1ffe1ed1d9f309da09afe27d9c73cd27d1feb52b02e9edf0b1e",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-f4e40ab9308267b3e5525f099d8eaf6adf3b2a6468ba509feca60382935d8c10",
+          "source_id": "span-a3012d313e58a546f71ce11995fd26758d4bc48b2d99fdfc1c50e892206b1f30",
+          "sha256": "337769fdda3c32f361d722500ee7f94519598dd5031b6fcd36fb83a734e3e659",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-335afc0123498c2b03a75cadfa0410e56b2430fab2ee43e1d75cc509291b4470",
+          "source_id": "span-53473350ea563ac51159bd0f6affeaf5800ef020c786e158655b1886eb7ec71a",
+          "sha256": "340f416b53fe1b775ee8fd8ad26408a717e85b1570345ed5950693462e1f6ec6",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-d446cf7d7f7ffebd3bb4803651fb06edf21d6d4f94a81ad2e95abf75b25e2471",
+          "source_id": "span-01f1845f8510773d0be95b583052dfad21e4075bc6bd9fc812552efa9ca16441",
+          "sha256": "271f3dea4be30c65b09b79c637f5215e9139ab8e874199fff8ac03596ca6623b",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-a6bbdee173a402dfa7ebdfa735d56ec2000bdbd9437cb3488e19e27eaa697a58",
+          "source_id": "span-bdf98da6159e13102ea752be163c5a35749bd7191e7b869f93aa1dc716fef739",
+          "sha256": "62bd3292b5ca1eb9c8a17b63ee4e4f00cf7fc01da05cdc9f776c83c656c7cf89",
+          "sequence": 11
+        },
+        {
+          "record_id": "record-ea175e6faf509bae14cd3aace1ecc118a4d1ad7d773518625c853a244e6317af",
+          "source_id": "span-dc361d35e0a1700388609b9ec64a4d558748eb014c18a7af037bdcdbf9d83294",
+          "sha256": "f43403262359879dce4b317b9bebc47757731a2c842a0ab203bbec710646fe50",
+          "sequence": 12
+        },
+        {
+          "record_id": "record-04011ae5c83125333ac01dc9471987273ea6aad3fd79b1fcf9c30ce90ecc2198",
+          "source_id": "span-c1a11182106dc4c631deb1a5b278b8c8501bc112ba9b6e919230da2870b87b85",
+          "sha256": "99c6f24aead343a6451bb5baa5fd0d781fd7c30698c178d19e9bf1cba8855496",
+          "sequence": 13
+        },
+        {
+          "record_id": "record-68787b16a79c1da27baffa4b92dc5f0266895be5e91f7d7b1bd1cca24b3f451f",
+          "source_id": "span-2112f4cb501c3cbe94b00e9e3dc370e7c1308e59779c457c7e95f3a0d827802b",
+          "sha256": "eb9afa246b98dbe4db15b4c84399910be8db8e6fd60bdf99b80190a48edeb8e2",
+          "sequence": 14
+        },
+        {
+          "record_id": "record-12b2dc9d335ba8b2f855713f6109288039d6fdaf6c5e55adbe47e642cddacfb7",
+          "source_id": "span-aec9c373a275521d410083ebb078e59e7117695715d71a95942f41ba366ceba7",
+          "sha256": "bcf66b300f71fc19c8d1fe405f919a0656177bbbfe88dcaa011fdee206167e24",
+          "sequence": 15
+        },
+        {
+          "record_id": "record-361090748263d5f4eeabe43718a8d0842ed965cf5a90abbb272e7afadda1884f",
+          "source_id": "span-b050d23ccc38913deaf1337f9fff7a8b92de2e27610ebf8b64efb0850e5e2b89",
+          "sha256": "6e7e31033f6c4aceca69c0560bfba83db937db3f41830e2f243c12c3a75901eb",
+          "sequence": 16
+        },
+        {
+          "record_id": "record-8e9b58044a5fe9fa012d767a29d177698a2af6b75097d90f5cb5a53ebc7572ec",
+          "source_id": "span-7b47369c5ee68cfe31f1d8d1e27e93c2dc464457750fd0b5e144dcfbd3d296e4",
+          "sha256": "875c7050e921fa23c59e2d1ed51f47a3d7209ee586a9cbbe983ac732990a6843",
+          "sequence": 17
+        }
+      ],
+      "cutoff": 18,
+      "rules": {
+        "travel": "出行出国，一般以日干落宫为出行之人",
+        "transport": "凡出行乘车，以景门所临之宫为道路，以伤门为车",
+        "flight": "如果坐飞机出行，可以九天所临之宫为航线，以开门为飞机"
+      },
+      "chart_index": 0,
+      "provided_roles": [
+        "按本例人物关系及交通方式选取，天地盘分别保留"
+      ],
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-587852d9d9baf64344f77ddbe9024fe70881feeffc6f5d6cfe88c46d33aedce8",
+              "source_id": "span-bbd468dd7717d8a4c92836fb4c06eb32e59d0b893c8570718511f13d0f3a3ace",
+              "sha256": "634fa6c2d05550de6ff08e1940be115880e8de58fc9381868e5bab0dde507b03",
+              "sequence": 18
+            },
+            {
+              "record_id": "record-5e93c26098913801138e1dbd0a9dc267e0c89a3e2b230887354dace30165f2e0",
+              "source_id": "span-741c70a57cb579f15b5642595aaaad6651f5ec0f2fcde2e26b0c046083cc2818",
+              "sha256": "46a036b716dc0119150f9d13acd5d2f1d5f44f59111211f5d283ce97101f4fa1",
+              "sequence": 19
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-587852d9d9baf64344f77ddbe9024fe70881feeffc6f5d6cfe88c46d33aedce8",
+              "source_id": "span-bbd468dd7717d8a4c92836fb4c06eb32e59d0b893c8570718511f13d0f3a3ace",
+              "sha256": "634fa6c2d05550de6ff08e1940be115880e8de58fc9381868e5bab0dde507b03",
+              "sequence": 18,
+              "quote": "天芮病神临日干乙、时干癸在离宫"
+            },
+            {
+              "record_id": "record-587852d9d9baf64344f77ddbe9024fe70881feeffc6f5d6cfe88c46d33aedce8",
+              "source_id": "span-bbd468dd7717d8a4c92836fb4c06eb32e59d0b893c8570718511f13d0f3a3ace",
+              "sha256": "634fa6c2d05550de6ff08e1940be115880e8de58fc9381868e5bab0dde507b03",
+              "sequence": 18,
+              "quote": "癸主妇科病"
+            }
+          ],
+          "answer": {
+            "explanation": "半年后母亲已说路上安全、在餐馆工作，作者明确找回出国前原盘，再用日时临病星及头面、癸妇科等类象作新增疾病判断。母亲下一句确认尚未知；复盘时间10月25日不是另起新盘。",
+            "citations": [
+              "chart",
+              "context",
+              "travel",
+              "transport",
+              "flight"
+            ],
+            "uncertainties": [
+              "出行途中、到达后工作、人物关系与不同起盘时间分别判断；不以一项凶格替代全局。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-b6d7c7589ab9cbaf715ab9c9b3aa3e26658c5851f81de474eb2af4e0911e7c90",
+      "event_id": "event-4dfd20d666d238a402e959fd184dc1dbf46eef55550413cdfcc6fae8f987c116",
+      "family_id": "family-7413efa178f538f869492db21e4c4aa6cf8552f4152a7edf4358b6f0da34a801",
+      "chart_id": "chart-2af794989f3c8892165f5c9e8f8e3d085f27d2a8d119866dc5a83411297b9647",
+      "chapter": "13-travel-abroad",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 4,
+      "stage": "father_disease",
+      "mode": "continuation",
+      "source_prediction_window_review": "所列unknown记录逐句为问测前背景、起局依据和四柱，不含反馈；不同问题与两次起盘分开。",
+      "known_source_window_review": "所列unknown记录逐句为问测前背景、起局依据和四柱，不含反馈；不同问题与两次起盘分开。",
+      "known": [
+        {
+          "record_id": "record-593f2ef4ba64fa618c70ad5725bc9e4cbecbd82f4f05d0d7a1f11fbb4a624154",
+          "source_id": "span-10bc39d9bee17b113f8900922d2515515763e2ebea82351972b2f97cfb17c849",
+          "sha256": "93478be34141dd8cb2f363e2e365b708d93dbab1c4364c6de30b2b9038244e27",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-a2b12af20fa7d6cc079e5e930f314a199c753919d19ad5c4f40f394e01bcc919",
+          "source_id": "span-5b76808e3f7a3da3a786a1e7aeb73976ffb518f3d2b32c3001a1f07280dcdea0",
+          "sha256": "ba98146e184d6ed5c1e5d570856298907fa936e2a0b56110980128b9bf092bcb",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-9b9ec57597ccaec3c49e95ebc99d7f2a8d0a7b42dee67726d92594073b37bbb0",
+          "source_id": "span-7e18658ddd16c565e5d563efa33582efa8cd7653edaa464f09bfe7c1e74acdaa",
+          "sha256": "4278891068a66ee0492a6430abd43d0712a92992948687bcdb24d9b2556fb698",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-30bbec55baee9ba28b876fcbf9cf62849302400644ff2bd0cd7370f7b1401820",
+          "source_id": "span-6e91f84d49517a6b1f3f65eb59386b39051e7a5e0140f8549e6df6d58cef55a6",
+          "sha256": "82ddb5619fd47ecfc6d4302934c3ef2e028138e43d508201882b518642736985",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-7434559871c3785806a04fd95d25ac416736dee1a43d48a04f9018e2c3d9686a",
+          "source_id": "span-1937d38d369206f8a124fb0e4d01889e2e8e32cc3cbb96d1c8ba5b601a9041e0",
+          "sha256": "93c2332be83a7d2c91fa80ae9d36f4cbe46e3a0033c295499dc4435b456d0c03",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-7fad62c1112271c8e61d586f2168ff959516198dc20441b9587482ce4b252adc",
+          "source_id": "span-f525c7c0bcbfab6348a3361e0b2934982521c7e09a55e8487e0023e67eb5c3b3",
+          "sha256": "9a5c48e4a091513d0bc5c1bc939441e4362c8371887f5567866460a94d6cffb9",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-0d66b64a5a0426ca7135be74a2134b59abf0d78a97a747035232ae3b2e5ad952",
+          "source_id": "span-85aa7de8cfafa2228adbac8a1854be6085b0f366810cd0685496e858b563b3d9",
+          "sha256": "99170c81da0fa954e5aeeda5195134d5c63d7203237df805bf3bbea62e951142",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-fdeb75f4943112357060d29469501ef5fb445ab1dddfcef5a2db2be4df1c9d5c",
+          "source_id": "span-df8f745dccc3a3e48cee824ba739e60af5cb71c7c23f41218dde3aa5c9bf041b",
+          "sha256": "90731a522abbd1ffe1ed1d9f309da09afe27d9c73cd27d1feb52b02e9edf0b1e",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-f4e40ab9308267b3e5525f099d8eaf6adf3b2a6468ba509feca60382935d8c10",
+          "source_id": "span-a3012d313e58a546f71ce11995fd26758d4bc48b2d99fdfc1c50e892206b1f30",
+          "sha256": "337769fdda3c32f361d722500ee7f94519598dd5031b6fcd36fb83a734e3e659",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-335afc0123498c2b03a75cadfa0410e56b2430fab2ee43e1d75cc509291b4470",
+          "source_id": "span-53473350ea563ac51159bd0f6affeaf5800ef020c786e158655b1886eb7ec71a",
+          "sha256": "340f416b53fe1b775ee8fd8ad26408a717e85b1570345ed5950693462e1f6ec6",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-d446cf7d7f7ffebd3bb4803651fb06edf21d6d4f94a81ad2e95abf75b25e2471",
+          "source_id": "span-01f1845f8510773d0be95b583052dfad21e4075bc6bd9fc812552efa9ca16441",
+          "sha256": "271f3dea4be30c65b09b79c637f5215e9139ab8e874199fff8ac03596ca6623b",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-a6bbdee173a402dfa7ebdfa735d56ec2000bdbd9437cb3488e19e27eaa697a58",
+          "source_id": "span-bdf98da6159e13102ea752be163c5a35749bd7191e7b869f93aa1dc716fef739",
+          "sha256": "62bd3292b5ca1eb9c8a17b63ee4e4f00cf7fc01da05cdc9f776c83c656c7cf89",
+          "sequence": 11
+        },
+        {
+          "record_id": "record-ea175e6faf509bae14cd3aace1ecc118a4d1ad7d773518625c853a244e6317af",
+          "source_id": "span-dc361d35e0a1700388609b9ec64a4d558748eb014c18a7af037bdcdbf9d83294",
+          "sha256": "f43403262359879dce4b317b9bebc47757731a2c842a0ab203bbec710646fe50",
+          "sequence": 12
+        },
+        {
+          "record_id": "record-04011ae5c83125333ac01dc9471987273ea6aad3fd79b1fcf9c30ce90ecc2198",
+          "source_id": "span-c1a11182106dc4c631deb1a5b278b8c8501bc112ba9b6e919230da2870b87b85",
+          "sha256": "99c6f24aead343a6451bb5baa5fd0d781fd7c30698c178d19e9bf1cba8855496",
+          "sequence": 13
+        },
+        {
+          "record_id": "record-68787b16a79c1da27baffa4b92dc5f0266895be5e91f7d7b1bd1cca24b3f451f",
+          "source_id": "span-2112f4cb501c3cbe94b00e9e3dc370e7c1308e59779c457c7e95f3a0d827802b",
+          "sha256": "eb9afa246b98dbe4db15b4c84399910be8db8e6fd60bdf99b80190a48edeb8e2",
+          "sequence": 14
+        },
+        {
+          "record_id": "record-12b2dc9d335ba8b2f855713f6109288039d6fdaf6c5e55adbe47e642cddacfb7",
+          "source_id": "span-aec9c373a275521d410083ebb078e59e7117695715d71a95942f41ba366ceba7",
+          "sha256": "bcf66b300f71fc19c8d1fe405f919a0656177bbbfe88dcaa011fdee206167e24",
+          "sequence": 15
+        },
+        {
+          "record_id": "record-361090748263d5f4eeabe43718a8d0842ed965cf5a90abbb272e7afadda1884f",
+          "source_id": "span-b050d23ccc38913deaf1337f9fff7a8b92de2e27610ebf8b64efb0850e5e2b89",
+          "sha256": "6e7e31033f6c4aceca69c0560bfba83db937db3f41830e2f243c12c3a75901eb",
+          "sequence": 16
+        },
+        {
+          "record_id": "record-8e9b58044a5fe9fa012d767a29d177698a2af6b75097d90f5cb5a53ebc7572ec",
+          "source_id": "span-7b47369c5ee68cfe31f1d8d1e27e93c2dc464457750fd0b5e144dcfbd3d296e4",
+          "sha256": "875c7050e921fa23c59e2d1ed51f47a3d7209ee586a9cbbe983ac732990a6843",
+          "sequence": 17
+        },
+        {
+          "record_id": "record-587852d9d9baf64344f77ddbe9024fe70881feeffc6f5d6cfe88c46d33aedce8",
+          "source_id": "span-bbd468dd7717d8a4c92836fb4c06eb32e59d0b893c8570718511f13d0f3a3ace",
+          "sha256": "634fa6c2d05550de6ff08e1940be115880e8de58fc9381868e5bab0dde507b03",
+          "sequence": 18
+        },
+        {
+          "record_id": "record-5e93c26098913801138e1dbd0a9dc267e0c89a3e2b230887354dace30165f2e0",
+          "source_id": "span-741c70a57cb579f15b5642595aaaad6651f5ec0f2fcde2e26b0c046083cc2818",
+          "sha256": "46a036b716dc0119150f9d13acd5d2f1d5f44f59111211f5d283ce97101f4fa1",
+          "sequence": 19
+        },
+        {
+          "record_id": "record-75d265c6087cf114f4a9f2ba2f610bb99542ba2a1b1db0f5acad2fb7f3376bc7",
+          "source_id": "span-d8e5a08172dddba1367e1879c0a990b8bff7b4fc47e889bbde6da8bc31437979",
+          "sha256": "f1a6374cf787f84c5a13deb7c62b867ea72af4bb5bac7ec80c3a4a054d86d0bd",
+          "sequence": 20
+        },
+        {
+          "record_id": "record-136e5987064469b46c998c390ac70fceba028bdca24875cbe527b33214790ba4",
+          "source_id": "span-46f12d088995519b61b9426e8ce5e3ce7466977297812ff979eac3f8a6bff5aa",
+          "sha256": "aa686b8ed51c730738d3390755a1e0f764e1b66e76af21d6570c9b46f7c04dba",
+          "sequence": 21
+        },
+        {
+          "record_id": "record-88b90691cfc4a2a69179ee3ed5d9c87c99ca6882d23f10851693f37ace0bb5a6",
+          "source_id": "span-b5a20c8b07b2aee3ba652cf8b0d57d3a35ba3c78beac0e1d014e016ac1e4191a",
+          "sha256": "370608f87a13674d13b9113badda6affece6d72b021cb47f6d8b324a507feeed",
+          "sequence": 22
+        }
+      ],
+      "cutoff": 23,
+      "rules": {
+        "travel": "出行出国，一般以日干落宫为出行之人",
+        "transport": "凡出行乘车，以景门所临之宫为道路，以伤门为车",
+        "flight": "如果坐飞机出行，可以九天所临之宫为航线，以开门为飞机"
+      },
+      "chart_index": 0,
+      "provided_roles": [
+        "按本例人物关系及交通方式选取，天地盘分别保留"
+      ],
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-f4d27946e4cfac6ee0fb58f7c0580ad00c7975b99b39801ff9f115ce18a00b0e",
+              "source_id": "span-e8eebc9f852f9d780d424f894cfa536cd66eb0cce204bc21237a72372e9f2295",
+              "sha256": "987d6427ea6a830fd33ab2b3e79075abf15bccc6f7119991557d0daab542ba48",
+              "sequence": 23
+            },
+            {
+              "record_id": "record-aa2c7f04e9de6008ddbae7ab658b957a2bea8265cae977e519d91c21b877f7f5",
+              "source_id": "span-c1232d69c1ccc6b2a83f8d8036c48984a00b27a91519298f263290cb4e20ddde",
+              "sha256": "970b967694117848761a8b3638f9962ae809d61f0f6c12b6be28857d0688507d",
+              "sequence": 24
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-f4d27946e4cfac6ee0fb58f7c0580ad00c7975b99b39801ff9f115ce18a00b0e",
+              "source_id": "span-e8eebc9f852f9d780d424f894cfa536cd66eb0cce204bc21237a72372e9f2295",
+              "sha256": "987d6427ea6a830fd33ab2b3e79075abf15bccc6f7119991557d0daab542ba48",
+              "sequence": 23,
+              "quote": "年干乙为父，居离宫"
+            },
+            {
+              "record_id": "record-f4d27946e4cfac6ee0fb58f7c0580ad00c7975b99b39801ff9f115ce18a00b0e",
+              "source_id": "span-e8eebc9f852f9d780d424f894cfa536cd66eb0cce204bc21237a72372e9f2295",
+              "sha256": "987d6427ea6a830fd33ab2b3e79075abf15bccc6f7119991557d0daab542ba48",
+              "sequence": 23,
+              "quote": "景门伏吟，景门主血，又主血的道路"
+            }
+          ],
+          "answer": {
+            "explanation": "母亲确认女儿病象并追问后，作者沿原盘改以年干乙看父，景门血路、病星等提出脑血栓倾向；这是另一人物的新轮次，不应把父病确认或发病年份提前送入本题。",
+            "citations": [
+              "chart",
+              "context",
+              "travel",
+              "transport",
+              "flight"
+            ],
+            "uncertainties": [
+              "出行途中、到达后工作、人物关系与不同起盘时间分别判断；不以一项凶格替代全局。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-b6d7c7589ab9cbaf715ab9c9b3aa3e26658c5851f81de474eb2af4e0911e7c90",
+      "event_id": "event-4dfd20d666d238a402e959fd184dc1dbf46eef55550413cdfcc6fae8f987c116",
+      "family_id": "family-7413efa178f538f869492db21e4c4aa6cf8552f4152a7edf4358b6f0da34a801",
+      "chart_id": "chart-2af794989f3c8892165f5c9e8f8e3d085f27d2a8d119866dc5a83411297b9647",
+      "chapter": "13-travel-abroad",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 4,
+      "stage": "father_first_year",
+      "mode": "continuation",
+      "source_prediction_window_review": "所列unknown记录逐句为问测前背景、起局依据和四柱，不含反馈；不同问题与两次起盘分开。",
+      "known_source_window_review": "所列unknown记录逐句为问测前背景、起局依据和四柱，不含反馈；不同问题与两次起盘分开。",
+      "known": [
+        {
+          "record_id": "record-593f2ef4ba64fa618c70ad5725bc9e4cbecbd82f4f05d0d7a1f11fbb4a624154",
+          "source_id": "span-10bc39d9bee17b113f8900922d2515515763e2ebea82351972b2f97cfb17c849",
+          "sha256": "93478be34141dd8cb2f363e2e365b708d93dbab1c4364c6de30b2b9038244e27",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-a2b12af20fa7d6cc079e5e930f314a199c753919d19ad5c4f40f394e01bcc919",
+          "source_id": "span-5b76808e3f7a3da3a786a1e7aeb73976ffb518f3d2b32c3001a1f07280dcdea0",
+          "sha256": "ba98146e184d6ed5c1e5d570856298907fa936e2a0b56110980128b9bf092bcb",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-9b9ec57597ccaec3c49e95ebc99d7f2a8d0a7b42dee67726d92594073b37bbb0",
+          "source_id": "span-7e18658ddd16c565e5d563efa33582efa8cd7653edaa464f09bfe7c1e74acdaa",
+          "sha256": "4278891068a66ee0492a6430abd43d0712a92992948687bcdb24d9b2556fb698",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-30bbec55baee9ba28b876fcbf9cf62849302400644ff2bd0cd7370f7b1401820",
+          "source_id": "span-6e91f84d49517a6b1f3f65eb59386b39051e7a5e0140f8549e6df6d58cef55a6",
+          "sha256": "82ddb5619fd47ecfc6d4302934c3ef2e028138e43d508201882b518642736985",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-7434559871c3785806a04fd95d25ac416736dee1a43d48a04f9018e2c3d9686a",
+          "source_id": "span-1937d38d369206f8a124fb0e4d01889e2e8e32cc3cbb96d1c8ba5b601a9041e0",
+          "sha256": "93c2332be83a7d2c91fa80ae9d36f4cbe46e3a0033c295499dc4435b456d0c03",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-7fad62c1112271c8e61d586f2168ff959516198dc20441b9587482ce4b252adc",
+          "source_id": "span-f525c7c0bcbfab6348a3361e0b2934982521c7e09a55e8487e0023e67eb5c3b3",
+          "sha256": "9a5c48e4a091513d0bc5c1bc939441e4362c8371887f5567866460a94d6cffb9",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-0d66b64a5a0426ca7135be74a2134b59abf0d78a97a747035232ae3b2e5ad952",
+          "source_id": "span-85aa7de8cfafa2228adbac8a1854be6085b0f366810cd0685496e858b563b3d9",
+          "sha256": "99170c81da0fa954e5aeeda5195134d5c63d7203237df805bf3bbea62e951142",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-fdeb75f4943112357060d29469501ef5fb445ab1dddfcef5a2db2be4df1c9d5c",
+          "source_id": "span-df8f745dccc3a3e48cee824ba739e60af5cb71c7c23f41218dde3aa5c9bf041b",
+          "sha256": "90731a522abbd1ffe1ed1d9f309da09afe27d9c73cd27d1feb52b02e9edf0b1e",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-f4e40ab9308267b3e5525f099d8eaf6adf3b2a6468ba509feca60382935d8c10",
+          "source_id": "span-a3012d313e58a546f71ce11995fd26758d4bc48b2d99fdfc1c50e892206b1f30",
+          "sha256": "337769fdda3c32f361d722500ee7f94519598dd5031b6fcd36fb83a734e3e659",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-335afc0123498c2b03a75cadfa0410e56b2430fab2ee43e1d75cc509291b4470",
+          "source_id": "span-53473350ea563ac51159bd0f6affeaf5800ef020c786e158655b1886eb7ec71a",
+          "sha256": "340f416b53fe1b775ee8fd8ad26408a717e85b1570345ed5950693462e1f6ec6",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-d446cf7d7f7ffebd3bb4803651fb06edf21d6d4f94a81ad2e95abf75b25e2471",
+          "source_id": "span-01f1845f8510773d0be95b583052dfad21e4075bc6bd9fc812552efa9ca16441",
+          "sha256": "271f3dea4be30c65b09b79c637f5215e9139ab8e874199fff8ac03596ca6623b",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-a6bbdee173a402dfa7ebdfa735d56ec2000bdbd9437cb3488e19e27eaa697a58",
+          "source_id": "span-bdf98da6159e13102ea752be163c5a35749bd7191e7b869f93aa1dc716fef739",
+          "sha256": "62bd3292b5ca1eb9c8a17b63ee4e4f00cf7fc01da05cdc9f776c83c656c7cf89",
+          "sequence": 11
+        },
+        {
+          "record_id": "record-ea175e6faf509bae14cd3aace1ecc118a4d1ad7d773518625c853a244e6317af",
+          "source_id": "span-dc361d35e0a1700388609b9ec64a4d558748eb014c18a7af037bdcdbf9d83294",
+          "sha256": "f43403262359879dce4b317b9bebc47757731a2c842a0ab203bbec710646fe50",
+          "sequence": 12
+        },
+        {
+          "record_id": "record-04011ae5c83125333ac01dc9471987273ea6aad3fd79b1fcf9c30ce90ecc2198",
+          "source_id": "span-c1a11182106dc4c631deb1a5b278b8c8501bc112ba9b6e919230da2870b87b85",
+          "sha256": "99c6f24aead343a6451bb5baa5fd0d781fd7c30698c178d19e9bf1cba8855496",
+          "sequence": 13
+        },
+        {
+          "record_id": "record-68787b16a79c1da27baffa4b92dc5f0266895be5e91f7d7b1bd1cca24b3f451f",
+          "source_id": "span-2112f4cb501c3cbe94b00e9e3dc370e7c1308e59779c457c7e95f3a0d827802b",
+          "sha256": "eb9afa246b98dbe4db15b4c84399910be8db8e6fd60bdf99b80190a48edeb8e2",
+          "sequence": 14
+        },
+        {
+          "record_id": "record-12b2dc9d335ba8b2f855713f6109288039d6fdaf6c5e55adbe47e642cddacfb7",
+          "source_id": "span-aec9c373a275521d410083ebb078e59e7117695715d71a95942f41ba366ceba7",
+          "sha256": "bcf66b300f71fc19c8d1fe405f919a0656177bbbfe88dcaa011fdee206167e24",
+          "sequence": 15
+        },
+        {
+          "record_id": "record-361090748263d5f4eeabe43718a8d0842ed965cf5a90abbb272e7afadda1884f",
+          "source_id": "span-b050d23ccc38913deaf1337f9fff7a8b92de2e27610ebf8b64efb0850e5e2b89",
+          "sha256": "6e7e31033f6c4aceca69c0560bfba83db937db3f41830e2f243c12c3a75901eb",
+          "sequence": 16
+        },
+        {
+          "record_id": "record-8e9b58044a5fe9fa012d767a29d177698a2af6b75097d90f5cb5a53ebc7572ec",
+          "source_id": "span-7b47369c5ee68cfe31f1d8d1e27e93c2dc464457750fd0b5e144dcfbd3d296e4",
+          "sha256": "875c7050e921fa23c59e2d1ed51f47a3d7209ee586a9cbbe983ac732990a6843",
+          "sequence": 17
+        },
+        {
+          "record_id": "record-587852d9d9baf64344f77ddbe9024fe70881feeffc6f5d6cfe88c46d33aedce8",
+          "source_id": "span-bbd468dd7717d8a4c92836fb4c06eb32e59d0b893c8570718511f13d0f3a3ace",
+          "sha256": "634fa6c2d05550de6ff08e1940be115880e8de58fc9381868e5bab0dde507b03",
+          "sequence": 18
+        },
+        {
+          "record_id": "record-5e93c26098913801138e1dbd0a9dc267e0c89a3e2b230887354dace30165f2e0",
+          "source_id": "span-741c70a57cb579f15b5642595aaaad6651f5ec0f2fcde2e26b0c046083cc2818",
+          "sha256": "46a036b716dc0119150f9d13acd5d2f1d5f44f59111211f5d283ce97101f4fa1",
+          "sequence": 19
+        },
+        {
+          "record_id": "record-75d265c6087cf114f4a9f2ba2f610bb99542ba2a1b1db0f5acad2fb7f3376bc7",
+          "source_id": "span-d8e5a08172dddba1367e1879c0a990b8bff7b4fc47e889bbde6da8bc31437979",
+          "sha256": "f1a6374cf787f84c5a13deb7c62b867ea72af4bb5bac7ec80c3a4a054d86d0bd",
+          "sequence": 20
+        },
+        {
+          "record_id": "record-136e5987064469b46c998c390ac70fceba028bdca24875cbe527b33214790ba4",
+          "source_id": "span-46f12d088995519b61b9426e8ce5e3ce7466977297812ff979eac3f8a6bff5aa",
+          "sha256": "aa686b8ed51c730738d3390755a1e0f764e1b66e76af21d6570c9b46f7c04dba",
+          "sequence": 21
+        },
+        {
+          "record_id": "record-88b90691cfc4a2a69179ee3ed5d9c87c99ca6882d23f10851693f37ace0bb5a6",
+          "source_id": "span-b5a20c8b07b2aee3ba652cf8b0d57d3a35ba3c78beac0e1d014e016ac1e4191a",
+          "sha256": "370608f87a13674d13b9113badda6affece6d72b021cb47f6d8b324a507feeed",
+          "sequence": 22
+        },
+        {
+          "record_id": "record-f4d27946e4cfac6ee0fb58f7c0580ad00c7975b99b39801ff9f115ce18a00b0e",
+          "source_id": "span-e8eebc9f852f9d780d424f894cfa536cd66eb0cce204bc21237a72372e9f2295",
+          "sha256": "987d6427ea6a830fd33ab2b3e79075abf15bccc6f7119991557d0daab542ba48",
+          "sequence": 23
+        },
+        {
+          "record_id": "record-aa2c7f04e9de6008ddbae7ab658b957a2bea8265cae977e519d91c21b877f7f5",
+          "source_id": "span-c1232d69c1ccc6b2a83f8d8036c48984a00b27a91519298f263290cb4e20ddde",
+          "sha256": "970b967694117848761a8b3638f9962ae809d61f0f6c12b6be28857d0688507d",
+          "sequence": 24
+        },
+        {
+          "record_id": "record-a253d5dd2e57fd2257864f3e04c4c7bb3d4f3c41cdd10b21cb7766f329c1ef53",
+          "source_id": "span-874592349654093395ee91fab699cb3048a4800387fe152696e437a3d1c53083",
+          "sha256": "8d767964425fde6c76e93f66fd12926b577249e4c52e61f76662f7bd183c233c",
+          "sequence": 25
+        },
+        {
+          "record_id": "record-63ee940727051748b4374c3e04e40153b1e33eaaa54ab16331c0f738a2435a0b",
+          "source_id": "span-b7253d8ccd171e088aee9a5f1fd78333f88b49da705d034bcb9c14dae293f93d",
+          "sha256": "356e7b997011a52134a1e8c977464ce8fa41af6924277dcc5a3614685fdfcff7",
+          "sequence": 26
+        },
+        {
+          "record_id": "record-eb56fd5800766688607732055a1135d4af353b345fee49eab81dcab6e6c02e8b",
+          "source_id": "span-33b7e0d766b22233402871ecc39e527173832aaae514056ae48c70b28f44d7d3",
+          "sha256": "38fc9b33d322c98ccf25d0b5b5bd344a4c16fd6bf60e23919f79495f52e34d84",
+          "sequence": 27
+        }
+      ],
+      "cutoff": 28,
+      "rules": {
+        "travel": "出行出国，一般以日干落宫为出行之人",
+        "transport": "凡出行乘车，以景门所临之宫为道路，以伤门为车",
+        "flight": "如果坐飞机出行，可以九天所临之宫为航线，以开门为飞机"
+      },
+      "chart_index": 0,
+      "provided_roles": [
+        "按本例人物关系及交通方式选取，天地盘分别保留"
+      ],
+      "tasks": [
+        {
+          "type": "timing_analysis",
+          "targets": [
+            {
+              "record_id": "record-02a6b3f8d70c10a01db35dca97ac7a744556b55887e941225551c300710f072c",
+              "source_id": "span-e67bf278e9c95a3d50b95fea4cca56db5366c3ce4eb46ddaa04c596dd550b8e3",
+              "sha256": "476bb3e59bcf15ee67396c8f5e8382c7482959adf60c8977dfa6a70986e0f958",
+              "sequence": 28
+            },
+            {
+              "record_id": "record-15d0bddb93da7118e265bc05ec3758b1ab6f3a091d5bb8ebc3e3978509ca48c7",
+              "source_id": "span-e5688de7c88a3a1443662bf8e5efc0ec03b9493100726921d650f00865931ea1",
+              "sha256": "bc621f7aa4b100db8d8f38eaa56398af8c9495293b73840b2f4ebbbb43438149",
+              "sequence": 29
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-02a6b3f8d70c10a01db35dca97ac7a744556b55887e941225551c300710f072c",
+              "source_id": "span-e67bf278e9c95a3d50b95fea4cca56db5366c3ce4eb46ddaa04c596dd550b8e3",
+              "sha256": "476bb3e59bcf15ee67396c8f5e8382c7482959adf60c8977dfa6a70986e0f958",
+              "sequence": 28,
+              "quote": "地盘癸上临之干为应期"
+            },
+            {
+              "record_id": "record-02a6b3f8d70c10a01db35dca97ac7a744556b55887e941225551c300710f072c",
+              "source_id": "span-e67bf278e9c95a3d50b95fea4cca56db5366c3ce4eb46ddaa04c596dd550b8e3",
+              "sha256": "476bb3e59bcf15ee67396c8f5e8382c7482959adf60c8977dfa6a70986e0f958",
+              "sequence": 28,
+              "quote": "癸在地盘坤宫，为外，为四维，主时间长"
+            }
+          ],
+          "answer": {
+            "explanation": "父病已确认，但年份还被作者要求暂不告知。本轮按地盘癸外盘四维主时间长、地癸上己取己年，提出1989己巳，值符作不太重。不能把下一轮“对，还有第二次”提前当判断成功。",
+            "citations": [
+              "chart",
+              "context",
+              "travel",
+              "transport",
+              "flight"
+            ],
+            "uncertainties": [
+              "出行途中、到达后工作、人物关系与不同起盘时间分别判断；不以一项凶格替代全局。"
+            ],
+            "methods": [
+              "地盘事项干上乘干取年"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-b6d7c7589ab9cbaf715ab9c9b3aa3e26658c5851f81de474eb2af4e0911e7c90",
+      "event_id": "event-4dfd20d666d238a402e959fd184dc1dbf46eef55550413cdfcc6fae8f987c116",
+      "family_id": "family-7413efa178f538f869492db21e4c4aa6cf8552f4152a7edf4358b6f0da34a801",
+      "chart_id": "chart-2af794989f3c8892165f5c9e8f8e3d085f27d2a8d119866dc5a83411297b9647",
+      "chapter": "13-travel-abroad",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 4,
+      "stage": "father_second_year",
+      "mode": "continuation",
+      "source_prediction_window_review": "所列unknown记录逐句为问测前背景、起局依据和四柱，不含反馈；不同问题与两次起盘分开。",
+      "known_source_window_review": "所列unknown记录逐句为问测前背景、起局依据和四柱，不含反馈；不同问题与两次起盘分开。",
+      "known": [
+        {
+          "record_id": "record-593f2ef4ba64fa618c70ad5725bc9e4cbecbd82f4f05d0d7a1f11fbb4a624154",
+          "source_id": "span-10bc39d9bee17b113f8900922d2515515763e2ebea82351972b2f97cfb17c849",
+          "sha256": "93478be34141dd8cb2f363e2e365b708d93dbab1c4364c6de30b2b9038244e27",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-a2b12af20fa7d6cc079e5e930f314a199c753919d19ad5c4f40f394e01bcc919",
+          "source_id": "span-5b76808e3f7a3da3a786a1e7aeb73976ffb518f3d2b32c3001a1f07280dcdea0",
+          "sha256": "ba98146e184d6ed5c1e5d570856298907fa936e2a0b56110980128b9bf092bcb",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-9b9ec57597ccaec3c49e95ebc99d7f2a8d0a7b42dee67726d92594073b37bbb0",
+          "source_id": "span-7e18658ddd16c565e5d563efa33582efa8cd7653edaa464f09bfe7c1e74acdaa",
+          "sha256": "4278891068a66ee0492a6430abd43d0712a92992948687bcdb24d9b2556fb698",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-30bbec55baee9ba28b876fcbf9cf62849302400644ff2bd0cd7370f7b1401820",
+          "source_id": "span-6e91f84d49517a6b1f3f65eb59386b39051e7a5e0140f8549e6df6d58cef55a6",
+          "sha256": "82ddb5619fd47ecfc6d4302934c3ef2e028138e43d508201882b518642736985",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-7434559871c3785806a04fd95d25ac416736dee1a43d48a04f9018e2c3d9686a",
+          "source_id": "span-1937d38d369206f8a124fb0e4d01889e2e8e32cc3cbb96d1c8ba5b601a9041e0",
+          "sha256": "93c2332be83a7d2c91fa80ae9d36f4cbe46e3a0033c295499dc4435b456d0c03",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-7fad62c1112271c8e61d586f2168ff959516198dc20441b9587482ce4b252adc",
+          "source_id": "span-f525c7c0bcbfab6348a3361e0b2934982521c7e09a55e8487e0023e67eb5c3b3",
+          "sha256": "9a5c48e4a091513d0bc5c1bc939441e4362c8371887f5567866460a94d6cffb9",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-0d66b64a5a0426ca7135be74a2134b59abf0d78a97a747035232ae3b2e5ad952",
+          "source_id": "span-85aa7de8cfafa2228adbac8a1854be6085b0f366810cd0685496e858b563b3d9",
+          "sha256": "99170c81da0fa954e5aeeda5195134d5c63d7203237df805bf3bbea62e951142",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-fdeb75f4943112357060d29469501ef5fb445ab1dddfcef5a2db2be4df1c9d5c",
+          "source_id": "span-df8f745dccc3a3e48cee824ba739e60af5cb71c7c23f41218dde3aa5c9bf041b",
+          "sha256": "90731a522abbd1ffe1ed1d9f309da09afe27d9c73cd27d1feb52b02e9edf0b1e",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-f4e40ab9308267b3e5525f099d8eaf6adf3b2a6468ba509feca60382935d8c10",
+          "source_id": "span-a3012d313e58a546f71ce11995fd26758d4bc48b2d99fdfc1c50e892206b1f30",
+          "sha256": "337769fdda3c32f361d722500ee7f94519598dd5031b6fcd36fb83a734e3e659",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-335afc0123498c2b03a75cadfa0410e56b2430fab2ee43e1d75cc509291b4470",
+          "source_id": "span-53473350ea563ac51159bd0f6affeaf5800ef020c786e158655b1886eb7ec71a",
+          "sha256": "340f416b53fe1b775ee8fd8ad26408a717e85b1570345ed5950693462e1f6ec6",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-d446cf7d7f7ffebd3bb4803651fb06edf21d6d4f94a81ad2e95abf75b25e2471",
+          "source_id": "span-01f1845f8510773d0be95b583052dfad21e4075bc6bd9fc812552efa9ca16441",
+          "sha256": "271f3dea4be30c65b09b79c637f5215e9139ab8e874199fff8ac03596ca6623b",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-a6bbdee173a402dfa7ebdfa735d56ec2000bdbd9437cb3488e19e27eaa697a58",
+          "source_id": "span-bdf98da6159e13102ea752be163c5a35749bd7191e7b869f93aa1dc716fef739",
+          "sha256": "62bd3292b5ca1eb9c8a17b63ee4e4f00cf7fc01da05cdc9f776c83c656c7cf89",
+          "sequence": 11
+        },
+        {
+          "record_id": "record-ea175e6faf509bae14cd3aace1ecc118a4d1ad7d773518625c853a244e6317af",
+          "source_id": "span-dc361d35e0a1700388609b9ec64a4d558748eb014c18a7af037bdcdbf9d83294",
+          "sha256": "f43403262359879dce4b317b9bebc47757731a2c842a0ab203bbec710646fe50",
+          "sequence": 12
+        },
+        {
+          "record_id": "record-04011ae5c83125333ac01dc9471987273ea6aad3fd79b1fcf9c30ce90ecc2198",
+          "source_id": "span-c1a11182106dc4c631deb1a5b278b8c8501bc112ba9b6e919230da2870b87b85",
+          "sha256": "99c6f24aead343a6451bb5baa5fd0d781fd7c30698c178d19e9bf1cba8855496",
+          "sequence": 13
+        },
+        {
+          "record_id": "record-68787b16a79c1da27baffa4b92dc5f0266895be5e91f7d7b1bd1cca24b3f451f",
+          "source_id": "span-2112f4cb501c3cbe94b00e9e3dc370e7c1308e59779c457c7e95f3a0d827802b",
+          "sha256": "eb9afa246b98dbe4db15b4c84399910be8db8e6fd60bdf99b80190a48edeb8e2",
+          "sequence": 14
+        },
+        {
+          "record_id": "record-12b2dc9d335ba8b2f855713f6109288039d6fdaf6c5e55adbe47e642cddacfb7",
+          "source_id": "span-aec9c373a275521d410083ebb078e59e7117695715d71a95942f41ba366ceba7",
+          "sha256": "bcf66b300f71fc19c8d1fe405f919a0656177bbbfe88dcaa011fdee206167e24",
+          "sequence": 15
+        },
+        {
+          "record_id": "record-361090748263d5f4eeabe43718a8d0842ed965cf5a90abbb272e7afadda1884f",
+          "source_id": "span-b050d23ccc38913deaf1337f9fff7a8b92de2e27610ebf8b64efb0850e5e2b89",
+          "sha256": "6e7e31033f6c4aceca69c0560bfba83db937db3f41830e2f243c12c3a75901eb",
+          "sequence": 16
+        },
+        {
+          "record_id": "record-8e9b58044a5fe9fa012d767a29d177698a2af6b75097d90f5cb5a53ebc7572ec",
+          "source_id": "span-7b47369c5ee68cfe31f1d8d1e27e93c2dc464457750fd0b5e144dcfbd3d296e4",
+          "sha256": "875c7050e921fa23c59e2d1ed51f47a3d7209ee586a9cbbe983ac732990a6843",
+          "sequence": 17
+        },
+        {
+          "record_id": "record-587852d9d9baf64344f77ddbe9024fe70881feeffc6f5d6cfe88c46d33aedce8",
+          "source_id": "span-bbd468dd7717d8a4c92836fb4c06eb32e59d0b893c8570718511f13d0f3a3ace",
+          "sha256": "634fa6c2d05550de6ff08e1940be115880e8de58fc9381868e5bab0dde507b03",
+          "sequence": 18
+        },
+        {
+          "record_id": "record-5e93c26098913801138e1dbd0a9dc267e0c89a3e2b230887354dace30165f2e0",
+          "source_id": "span-741c70a57cb579f15b5642595aaaad6651f5ec0f2fcde2e26b0c046083cc2818",
+          "sha256": "46a036b716dc0119150f9d13acd5d2f1d5f44f59111211f5d283ce97101f4fa1",
+          "sequence": 19
+        },
+        {
+          "record_id": "record-75d265c6087cf114f4a9f2ba2f610bb99542ba2a1b1db0f5acad2fb7f3376bc7",
+          "source_id": "span-d8e5a08172dddba1367e1879c0a990b8bff7b4fc47e889bbde6da8bc31437979",
+          "sha256": "f1a6374cf787f84c5a13deb7c62b867ea72af4bb5bac7ec80c3a4a054d86d0bd",
+          "sequence": 20
+        },
+        {
+          "record_id": "record-136e5987064469b46c998c390ac70fceba028bdca24875cbe527b33214790ba4",
+          "source_id": "span-46f12d088995519b61b9426e8ce5e3ce7466977297812ff979eac3f8a6bff5aa",
+          "sha256": "aa686b8ed51c730738d3390755a1e0f764e1b66e76af21d6570c9b46f7c04dba",
+          "sequence": 21
+        },
+        {
+          "record_id": "record-88b90691cfc4a2a69179ee3ed5d9c87c99ca6882d23f10851693f37ace0bb5a6",
+          "source_id": "span-b5a20c8b07b2aee3ba652cf8b0d57d3a35ba3c78beac0e1d014e016ac1e4191a",
+          "sha256": "370608f87a13674d13b9113badda6affece6d72b021cb47f6d8b324a507feeed",
+          "sequence": 22
+        },
+        {
+          "record_id": "record-f4d27946e4cfac6ee0fb58f7c0580ad00c7975b99b39801ff9f115ce18a00b0e",
+          "source_id": "span-e8eebc9f852f9d780d424f894cfa536cd66eb0cce204bc21237a72372e9f2295",
+          "sha256": "987d6427ea6a830fd33ab2b3e79075abf15bccc6f7119991557d0daab542ba48",
+          "sequence": 23
+        },
+        {
+          "record_id": "record-aa2c7f04e9de6008ddbae7ab658b957a2bea8265cae977e519d91c21b877f7f5",
+          "source_id": "span-c1232d69c1ccc6b2a83f8d8036c48984a00b27a91519298f263290cb4e20ddde",
+          "sha256": "970b967694117848761a8b3638f9962ae809d61f0f6c12b6be28857d0688507d",
+          "sequence": 24
+        },
+        {
+          "record_id": "record-a253d5dd2e57fd2257864f3e04c4c7bb3d4f3c41cdd10b21cb7766f329c1ef53",
+          "source_id": "span-874592349654093395ee91fab699cb3048a4800387fe152696e437a3d1c53083",
+          "sha256": "8d767964425fde6c76e93f66fd12926b577249e4c52e61f76662f7bd183c233c",
+          "sequence": 25
+        },
+        {
+          "record_id": "record-63ee940727051748b4374c3e04e40153b1e33eaaa54ab16331c0f738a2435a0b",
+          "source_id": "span-b7253d8ccd171e088aee9a5f1fd78333f88b49da705d034bcb9c14dae293f93d",
+          "sha256": "356e7b997011a52134a1e8c977464ce8fa41af6924277dcc5a3614685fdfcff7",
+          "sequence": 26
+        },
+        {
+          "record_id": "record-eb56fd5800766688607732055a1135d4af353b345fee49eab81dcab6e6c02e8b",
+          "source_id": "span-33b7e0d766b22233402871ecc39e527173832aaae514056ae48c70b28f44d7d3",
+          "sha256": "38fc9b33d322c98ccf25d0b5b5bd344a4c16fd6bf60e23919f79495f52e34d84",
+          "sequence": 27
+        },
+        {
+          "record_id": "record-02a6b3f8d70c10a01db35dca97ac7a744556b55887e941225551c300710f072c",
+          "source_id": "span-e67bf278e9c95a3d50b95fea4cca56db5366c3ce4eb46ddaa04c596dd550b8e3",
+          "sha256": "476bb3e59bcf15ee67396c8f5e8382c7482959adf60c8977dfa6a70986e0f958",
+          "sequence": 28
+        },
+        {
+          "record_id": "record-15d0bddb93da7118e265bc05ec3758b1ab6f3a091d5bb8ebc3e3978509ca48c7",
+          "source_id": "span-e5688de7c88a3a1443662bf8e5efc0ec03b9493100726921d650f00865931ea1",
+          "sha256": "bc621f7aa4b100db8d8f38eaa56398af8c9495293b73840b2f4ebbbb43438149",
+          "sequence": 29
+        },
+        {
+          "record_id": "record-70a1d589d8a841cf1c637f0f6b2a408204db4f4a93db12f8d7aba2de07ecce4a",
+          "source_id": "span-586baaef5c7e0914dd77988adcc5a1285c7d4f6d60667852e057e401ad769c77",
+          "sha256": "dc692473b61eb407c67d89744f19ee9b86463f7dd9f5610b8eedd4106ff91a0d",
+          "sequence": 30
+        },
+        {
+          "record_id": "record-0c70db1c9176d794fa1c5873b1e266cedfded071763a740584b13d3dad932370",
+          "source_id": "span-be46b5ec5c00ce5ce67b9af6c7088f53dc98adde4fa5e2de109aacccf270e0f4",
+          "sha256": "ffed469717edcd560787d5bf8494f9258c9f7dd04a581aa00493f135493b876e",
+          "sequence": 31
+        }
+      ],
+      "cutoff": 32,
+      "rules": {
+        "travel": "出行出国，一般以日干落宫为出行之人",
+        "transport": "凡出行乘车，以景门所临之宫为道路，以伤门为车",
+        "flight": "如果坐飞机出行，可以九天所临之宫为航线，以开门为飞机"
+      },
+      "chart_index": 0,
+      "provided_roles": [
+        "按本例人物关系及交通方式选取，天地盘分别保留"
+      ],
+      "tasks": [
+        {
+          "type": "timing_analysis",
+          "targets": [
+            {
+              "record_id": "record-6822a302405a141f6d0046ce8fd520652a50b17ede69eeafd02e6404a5e8266a",
+              "source_id": "span-141a7005ee47c867406482c55127aa84ee75ce22153260b8a2cc80379cf194ee",
+              "sha256": "70f70f8c3b468c0cd7f97ba9b3ea37053fd54190a96ad5b6c062e1823b92523a",
+              "sequence": 32
+            },
+            {
+              "record_id": "record-0aa68ad3c5eac3cde3f7439179db5bba14a680eced8b78b4030cf8105e5dab87",
+              "source_id": "span-0340db424b2359e8f5a1fcfe538aac1addb2e6f91fecbf7976fcf7e40f404522",
+              "sha256": "ccc3ce737ee44b75b9e95b1b9129512b507c4a2da06be4fe391467b79cbb44bd",
+              "sequence": 33
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-6822a302405a141f6d0046ce8fd520652a50b17ede69eeafd02e6404a5e8266a",
+              "source_id": "span-141a7005ee47c867406482c55127aa84ee75ce22153260b8a2cc80379cf194ee",
+              "sha256": "70f70f8c3b468c0cd7f97ba9b3ea37053fd54190a96ad5b6c062e1823b92523a",
+              "sequence": 32,
+              "quote": "庚为病凶，在坎宫与离宫对冲"
+            },
+            {
+              "record_id": "record-6822a302405a141f6d0046ce8fd520652a50b17ede69eeafd02e6404a5e8266a",
+              "source_id": "span-141a7005ee47c867406482c55127aa84ee75ce22153260b8a2cc80379cf194ee",
+              "sha256": "70f70f8c3b468c0cd7f97ba9b3ea37053fd54190a96ad5b6c062e1823b92523a",
+              "sequence": 32,
+              "quote": "庚下临壬为应期"
+            }
+          ],
+          "answer": {
+            "explanation": "在已确认1989并新增还有一次之后，作者沿同盘用庚病凶、坎离冲克及庚下壬，提出1990庚午年壬午月。这一段是续断而非第一次就预知两次发病年份。",
+            "citations": [
+              "chart",
+              "context",
+              "travel",
+              "transport",
+              "flight"
+            ],
+            "uncertainties": [
+              "出行途中、到达后工作、人物关系与不同起盘时间分别判断；不以一项凶格替代全局。"
+            ],
+            "methods": [
+              "病凶宫冲克与所临干取年月"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-b6d7c7589ab9cbaf715ab9c9b3aa3e26658c5851f81de474eb2af4e0911e7c90",
+      "event_id": "event-4dfd20d666d238a402e959fd184dc1dbf46eef55550413cdfcc6fae8f987c116",
+      "family_id": "family-7413efa178f538f869492db21e4c4aa6cf8552f4152a7edf4358b6f0da34a801",
+      "chart_id": "chart-2af794989f3c8892165f5c9e8f8e3d085f27d2a8d119866dc5a83411297b9647",
+      "chapter": "13-travel-abroad",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 4,
+      "stage": "mother_disease",
+      "mode": "continuation",
+      "source_prediction_window_review": "所列unknown记录逐句为问测前背景、起局依据和四柱，不含反馈；不同问题与两次起盘分开。",
+      "known_source_window_review": "所列unknown记录逐句为问测前背景、起局依据和四柱，不含反馈；不同问题与两次起盘分开。",
+      "known": [
+        {
+          "record_id": "record-593f2ef4ba64fa618c70ad5725bc9e4cbecbd82f4f05d0d7a1f11fbb4a624154",
+          "source_id": "span-10bc39d9bee17b113f8900922d2515515763e2ebea82351972b2f97cfb17c849",
+          "sha256": "93478be34141dd8cb2f363e2e365b708d93dbab1c4364c6de30b2b9038244e27",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-a2b12af20fa7d6cc079e5e930f314a199c753919d19ad5c4f40f394e01bcc919",
+          "source_id": "span-5b76808e3f7a3da3a786a1e7aeb73976ffb518f3d2b32c3001a1f07280dcdea0",
+          "sha256": "ba98146e184d6ed5c1e5d570856298907fa936e2a0b56110980128b9bf092bcb",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-9b9ec57597ccaec3c49e95ebc99d7f2a8d0a7b42dee67726d92594073b37bbb0",
+          "source_id": "span-7e18658ddd16c565e5d563efa33582efa8cd7653edaa464f09bfe7c1e74acdaa",
+          "sha256": "4278891068a66ee0492a6430abd43d0712a92992948687bcdb24d9b2556fb698",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-30bbec55baee9ba28b876fcbf9cf62849302400644ff2bd0cd7370f7b1401820",
+          "source_id": "span-6e91f84d49517a6b1f3f65eb59386b39051e7a5e0140f8549e6df6d58cef55a6",
+          "sha256": "82ddb5619fd47ecfc6d4302934c3ef2e028138e43d508201882b518642736985",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-7434559871c3785806a04fd95d25ac416736dee1a43d48a04f9018e2c3d9686a",
+          "source_id": "span-1937d38d369206f8a124fb0e4d01889e2e8e32cc3cbb96d1c8ba5b601a9041e0",
+          "sha256": "93c2332be83a7d2c91fa80ae9d36f4cbe46e3a0033c295499dc4435b456d0c03",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-7fad62c1112271c8e61d586f2168ff959516198dc20441b9587482ce4b252adc",
+          "source_id": "span-f525c7c0bcbfab6348a3361e0b2934982521c7e09a55e8487e0023e67eb5c3b3",
+          "sha256": "9a5c48e4a091513d0bc5c1bc939441e4362c8371887f5567866460a94d6cffb9",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-0d66b64a5a0426ca7135be74a2134b59abf0d78a97a747035232ae3b2e5ad952",
+          "source_id": "span-85aa7de8cfafa2228adbac8a1854be6085b0f366810cd0685496e858b563b3d9",
+          "sha256": "99170c81da0fa954e5aeeda5195134d5c63d7203237df805bf3bbea62e951142",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-fdeb75f4943112357060d29469501ef5fb445ab1dddfcef5a2db2be4df1c9d5c",
+          "source_id": "span-df8f745dccc3a3e48cee824ba739e60af5cb71c7c23f41218dde3aa5c9bf041b",
+          "sha256": "90731a522abbd1ffe1ed1d9f309da09afe27d9c73cd27d1feb52b02e9edf0b1e",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-f4e40ab9308267b3e5525f099d8eaf6adf3b2a6468ba509feca60382935d8c10",
+          "source_id": "span-a3012d313e58a546f71ce11995fd26758d4bc48b2d99fdfc1c50e892206b1f30",
+          "sha256": "337769fdda3c32f361d722500ee7f94519598dd5031b6fcd36fb83a734e3e659",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-335afc0123498c2b03a75cadfa0410e56b2430fab2ee43e1d75cc509291b4470",
+          "source_id": "span-53473350ea563ac51159bd0f6affeaf5800ef020c786e158655b1886eb7ec71a",
+          "sha256": "340f416b53fe1b775ee8fd8ad26408a717e85b1570345ed5950693462e1f6ec6",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-d446cf7d7f7ffebd3bb4803651fb06edf21d6d4f94a81ad2e95abf75b25e2471",
+          "source_id": "span-01f1845f8510773d0be95b583052dfad21e4075bc6bd9fc812552efa9ca16441",
+          "sha256": "271f3dea4be30c65b09b79c637f5215e9139ab8e874199fff8ac03596ca6623b",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-a6bbdee173a402dfa7ebdfa735d56ec2000bdbd9437cb3488e19e27eaa697a58",
+          "source_id": "span-bdf98da6159e13102ea752be163c5a35749bd7191e7b869f93aa1dc716fef739",
+          "sha256": "62bd3292b5ca1eb9c8a17b63ee4e4f00cf7fc01da05cdc9f776c83c656c7cf89",
+          "sequence": 11
+        },
+        {
+          "record_id": "record-ea175e6faf509bae14cd3aace1ecc118a4d1ad7d773518625c853a244e6317af",
+          "source_id": "span-dc361d35e0a1700388609b9ec64a4d558748eb014c18a7af037bdcdbf9d83294",
+          "sha256": "f43403262359879dce4b317b9bebc47757731a2c842a0ab203bbec710646fe50",
+          "sequence": 12
+        },
+        {
+          "record_id": "record-04011ae5c83125333ac01dc9471987273ea6aad3fd79b1fcf9c30ce90ecc2198",
+          "source_id": "span-c1a11182106dc4c631deb1a5b278b8c8501bc112ba9b6e919230da2870b87b85",
+          "sha256": "99c6f24aead343a6451bb5baa5fd0d781fd7c30698c178d19e9bf1cba8855496",
+          "sequence": 13
+        },
+        {
+          "record_id": "record-68787b16a79c1da27baffa4b92dc5f0266895be5e91f7d7b1bd1cca24b3f451f",
+          "source_id": "span-2112f4cb501c3cbe94b00e9e3dc370e7c1308e59779c457c7e95f3a0d827802b",
+          "sha256": "eb9afa246b98dbe4db15b4c84399910be8db8e6fd60bdf99b80190a48edeb8e2",
+          "sequence": 14
+        },
+        {
+          "record_id": "record-12b2dc9d335ba8b2f855713f6109288039d6fdaf6c5e55adbe47e642cddacfb7",
+          "source_id": "span-aec9c373a275521d410083ebb078e59e7117695715d71a95942f41ba366ceba7",
+          "sha256": "bcf66b300f71fc19c8d1fe405f919a0656177bbbfe88dcaa011fdee206167e24",
+          "sequence": 15
+        },
+        {
+          "record_id": "record-361090748263d5f4eeabe43718a8d0842ed965cf5a90abbb272e7afadda1884f",
+          "source_id": "span-b050d23ccc38913deaf1337f9fff7a8b92de2e27610ebf8b64efb0850e5e2b89",
+          "sha256": "6e7e31033f6c4aceca69c0560bfba83db937db3f41830e2f243c12c3a75901eb",
+          "sequence": 16
+        },
+        {
+          "record_id": "record-8e9b58044a5fe9fa012d767a29d177698a2af6b75097d90f5cb5a53ebc7572ec",
+          "source_id": "span-7b47369c5ee68cfe31f1d8d1e27e93c2dc464457750fd0b5e144dcfbd3d296e4",
+          "sha256": "875c7050e921fa23c59e2d1ed51f47a3d7209ee586a9cbbe983ac732990a6843",
+          "sequence": 17
+        },
+        {
+          "record_id": "record-587852d9d9baf64344f77ddbe9024fe70881feeffc6f5d6cfe88c46d33aedce8",
+          "source_id": "span-bbd468dd7717d8a4c92836fb4c06eb32e59d0b893c8570718511f13d0f3a3ace",
+          "sha256": "634fa6c2d05550de6ff08e1940be115880e8de58fc9381868e5bab0dde507b03",
+          "sequence": 18
+        },
+        {
+          "record_id": "record-5e93c26098913801138e1dbd0a9dc267e0c89a3e2b230887354dace30165f2e0",
+          "source_id": "span-741c70a57cb579f15b5642595aaaad6651f5ec0f2fcde2e26b0c046083cc2818",
+          "sha256": "46a036b716dc0119150f9d13acd5d2f1d5f44f59111211f5d283ce97101f4fa1",
+          "sequence": 19
+        },
+        {
+          "record_id": "record-75d265c6087cf114f4a9f2ba2f610bb99542ba2a1b1db0f5acad2fb7f3376bc7",
+          "source_id": "span-d8e5a08172dddba1367e1879c0a990b8bff7b4fc47e889bbde6da8bc31437979",
+          "sha256": "f1a6374cf787f84c5a13deb7c62b867ea72af4bb5bac7ec80c3a4a054d86d0bd",
+          "sequence": 20
+        },
+        {
+          "record_id": "record-136e5987064469b46c998c390ac70fceba028bdca24875cbe527b33214790ba4",
+          "source_id": "span-46f12d088995519b61b9426e8ce5e3ce7466977297812ff979eac3f8a6bff5aa",
+          "sha256": "aa686b8ed51c730738d3390755a1e0f764e1b66e76af21d6570c9b46f7c04dba",
+          "sequence": 21
+        },
+        {
+          "record_id": "record-88b90691cfc4a2a69179ee3ed5d9c87c99ca6882d23f10851693f37ace0bb5a6",
+          "source_id": "span-b5a20c8b07b2aee3ba652cf8b0d57d3a35ba3c78beac0e1d014e016ac1e4191a",
+          "sha256": "370608f87a13674d13b9113badda6affece6d72b021cb47f6d8b324a507feeed",
+          "sequence": 22
+        },
+        {
+          "record_id": "record-f4d27946e4cfac6ee0fb58f7c0580ad00c7975b99b39801ff9f115ce18a00b0e",
+          "source_id": "span-e8eebc9f852f9d780d424f894cfa536cd66eb0cce204bc21237a72372e9f2295",
+          "sha256": "987d6427ea6a830fd33ab2b3e79075abf15bccc6f7119991557d0daab542ba48",
+          "sequence": 23
+        },
+        {
+          "record_id": "record-aa2c7f04e9de6008ddbae7ab658b957a2bea8265cae977e519d91c21b877f7f5",
+          "source_id": "span-c1232d69c1ccc6b2a83f8d8036c48984a00b27a91519298f263290cb4e20ddde",
+          "sha256": "970b967694117848761a8b3638f9962ae809d61f0f6c12b6be28857d0688507d",
+          "sequence": 24
+        },
+        {
+          "record_id": "record-a253d5dd2e57fd2257864f3e04c4c7bb3d4f3c41cdd10b21cb7766f329c1ef53",
+          "source_id": "span-874592349654093395ee91fab699cb3048a4800387fe152696e437a3d1c53083",
+          "sha256": "8d767964425fde6c76e93f66fd12926b577249e4c52e61f76662f7bd183c233c",
+          "sequence": 25
+        },
+        {
+          "record_id": "record-63ee940727051748b4374c3e04e40153b1e33eaaa54ab16331c0f738a2435a0b",
+          "source_id": "span-b7253d8ccd171e088aee9a5f1fd78333f88b49da705d034bcb9c14dae293f93d",
+          "sha256": "356e7b997011a52134a1e8c977464ce8fa41af6924277dcc5a3614685fdfcff7",
+          "sequence": 26
+        },
+        {
+          "record_id": "record-eb56fd5800766688607732055a1135d4af353b345fee49eab81dcab6e6c02e8b",
+          "source_id": "span-33b7e0d766b22233402871ecc39e527173832aaae514056ae48c70b28f44d7d3",
+          "sha256": "38fc9b33d322c98ccf25d0b5b5bd344a4c16fd6bf60e23919f79495f52e34d84",
+          "sequence": 27
+        },
+        {
+          "record_id": "record-02a6b3f8d70c10a01db35dca97ac7a744556b55887e941225551c300710f072c",
+          "source_id": "span-e67bf278e9c95a3d50b95fea4cca56db5366c3ce4eb46ddaa04c596dd550b8e3",
+          "sha256": "476bb3e59bcf15ee67396c8f5e8382c7482959adf60c8977dfa6a70986e0f958",
+          "sequence": 28
+        },
+        {
+          "record_id": "record-15d0bddb93da7118e265bc05ec3758b1ab6f3a091d5bb8ebc3e3978509ca48c7",
+          "source_id": "span-e5688de7c88a3a1443662bf8e5efc0ec03b9493100726921d650f00865931ea1",
+          "sha256": "bc621f7aa4b100db8d8f38eaa56398af8c9495293b73840b2f4ebbbb43438149",
+          "sequence": 29
+        },
+        {
+          "record_id": "record-70a1d589d8a841cf1c637f0f6b2a408204db4f4a93db12f8d7aba2de07ecce4a",
+          "source_id": "span-586baaef5c7e0914dd77988adcc5a1285c7d4f6d60667852e057e401ad769c77",
+          "sha256": "dc692473b61eb407c67d89744f19ee9b86463f7dd9f5610b8eedd4106ff91a0d",
+          "sequence": 30
+        },
+        {
+          "record_id": "record-0c70db1c9176d794fa1c5873b1e266cedfded071763a740584b13d3dad932370",
+          "source_id": "span-be46b5ec5c00ce5ce67b9af6c7088f53dc98adde4fa5e2de109aacccf270e0f4",
+          "sha256": "ffed469717edcd560787d5bf8494f9258c9f7dd04a581aa00493f135493b876e",
+          "sequence": 31
+        },
+        {
+          "record_id": "record-6822a302405a141f6d0046ce8fd520652a50b17ede69eeafd02e6404a5e8266a",
+          "source_id": "span-141a7005ee47c867406482c55127aa84ee75ce22153260b8a2cc80379cf194ee",
+          "sha256": "70f70f8c3b468c0cd7f97ba9b3ea37053fd54190a96ad5b6c062e1823b92523a",
+          "sequence": 32
+        },
+        {
+          "record_id": "record-0aa68ad3c5eac3cde3f7439179db5bba14a680eced8b78b4030cf8105e5dab87",
+          "source_id": "span-0340db424b2359e8f5a1fcfe538aac1addb2e6f91fecbf7976fcf7e40f404522",
+          "sha256": "ccc3ce737ee44b75b9e95b1b9129512b507c4a2da06be4fe391467b79cbb44bd",
+          "sequence": 33
+        },
+        {
+          "record_id": "record-c97a4fb06b38cf53665702c1a8840175ec732244a4000bfe8c39e4a1028e1058",
+          "source_id": "span-cae5e2bb248233970bdd8b3ddff1e1ca2881fc9e77de4d465acd4efef96324da",
+          "sha256": "79e200f018fb0d6f5f022665960c020c6136e9042eb2c69bd08c650232120498",
+          "sequence": 34
+        },
+        {
+          "record_id": "record-867a1685f017a20f9960aff3a81b1c9d43aeb44e53a1dad658d13e9d07fc0567",
+          "source_id": "span-ece227c3e0f5035b317e12bf4c26e0dc52bc26c3da674f16b54a7f218231194d",
+          "sha256": "45fc96d5cb72ca3b8f29843c63bb05a36bd1517740597418eb36932b76d6293d",
+          "sequence": 35
+        }
+      ],
+      "cutoff": 36,
+      "rules": {
+        "travel": "出行出国，一般以日干落宫为出行之人",
+        "transport": "凡出行乘车，以景门所临之宫为道路，以伤门为车",
+        "flight": "如果坐飞机出行，可以九天所临之宫为航线，以开门为飞机"
+      },
+      "chart_index": 0,
+      "provided_roles": [
+        "按本例人物关系及交通方式选取，天地盘分别保留"
+      ],
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-bc16e341764eaffce36f7702f00404b1041903c1b49f2c5bb15c50f90b50255c",
+              "source_id": "span-cf819931f6db971f79fb1e9e4ebc669d133edd7e749d4429a46416024824ee3b",
+              "sha256": "57af620214d116544c2369c56e2a671498133c4880d22637d15d49d787be518d",
+              "sequence": 36
+            },
+            {
+              "record_id": "record-d5275a5c977563ff84bda408b6e1ca054c73995e975d68260332b515dc3eb516",
+              "source_id": "span-3ca97e4d58d8bdda9d9adf9d85e7eeccc9e9c524f0d53160789ed71d0138e569",
+              "sha256": "3b3bfaebac90fb83431466db63bab32b1322ceb4033ac181e9cd36f72de8cd08",
+              "sequence": 37
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-bc16e341764eaffce36f7702f00404b1041903c1b49f2c5bb15c50f90b50255c",
+              "source_id": "span-cf819931f6db971f79fb1e9e4ebc669d133edd7e749d4429a46416024824ee3b",
+              "sha256": "57af620214d116544c2369c56e2a671498133c4880d22637d15d49d787be518d",
+              "sequence": 36,
+              "quote": "乙为父，乙庚合，庚为其妻"
+            },
+            {
+              "record_id": "record-bc16e341764eaffce36f7702f00404b1041903c1b49f2c5bb15c50f90b50255c",
+              "source_id": "span-cf819931f6db971f79fb1e9e4ebc669d133edd7e749d4429a46416024824ee3b",
+              "sha256": "57af620214d116544c2369c56e2a671498133c4880d22637d15d49d787be518d",
+              "sequence": 36,
+              "quote": "庚落坎宫，庚下临壬"
+            }
+          ],
+          "answer": {
+            "explanation": "在前面信息已获确认后，作者从乙父与乙庚合转取庚为其妻即郭女士母亲，再按坎宫壬水系统及休门格局提出母亲妇科倾向。角色必须明确新绑定；后面的子宫下垂具体反馈尚未开放，也不作医学诊断。",
+            "citations": [
+              "chart",
+              "context",
+              "travel",
+              "transport",
+              "flight"
+            ],
+            "uncertainties": [
+              "出行途中、到达后工作、人物关系与不同起盘时间分别判断；不以一项凶格替代全局。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-b6d7c7589ab9cbaf715ab9c9b3aa3e26658c5851f81de474eb2af4e0911e7c90",
+      "event_id": "event-4dfd20d666d238a402e959fd184dc1dbf46eef55550413cdfcc6fae8f987c116",
+      "family_id": "family-7413efa178f538f869492db21e4c4aa6cf8552f4152a7edf4358b6f0da34a801",
+      "chart_id": "chart-2af794989f3c8892165f5c9e8f8e3d085f27d2a8d119866dc5a83411297b9647",
+      "chapter": "13-travel-abroad",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 5,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "所列unknown记录逐句为问测前背景、起局依据和四柱，不含反馈；不同问题与两次起盘分开。",
+      "known_source_window_review": "所列unknown记录逐句为问测前背景、起局依据和四柱，不含反馈；不同问题与两次起盘分开。",
+      "known": [
+        {
+          "record_id": "record-d1bf14944ce77d5ac44a2577277e6ef84668b1e68ea8034704a9dd95487e4746",
+          "source_id": "span-dd34363eceab7bd52af79d30174cb527172e2838755ed28bc1317fd772bde1ab",
+          "sha256": "4ec399681227d5c8da8f8e6b12d71ebc01c309bd29342e2bf3af4b17e29883be",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-7a9fafa8cf7b45c225d1e7b808293459de67c05011c85e37e53f21d1913bbb02",
+          "source_id": "span-90e11b7cfd5eed65c825f28e0236250cdbcf995764f1dc8f16a6e6662e075e0d",
+          "sha256": "6a66a7bcfad035f56511a5f12b8e34415553f6f233f479bd4705d41845d30b89",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-a1d3c61d5be60c1024690426c8e69b08ee187bb018835b2630e97242bdb2f4c0",
+          "source_id": "span-cbff396aa7b55cbacb835b001d11cf34790933640993964113f55b0b95de97c6",
+          "sha256": "bb41d58000b6d822dd1344587a9c1c70f9acbc21a05cdc03ff350221d9854877",
+          "sequence": 2
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "travel": "出行出国，一般以日干落宫为出行之人",
+        "transport": "凡出行乘车，以景门所临之宫为道路，以伤门为车",
+        "flight": "如果坐飞机出行，可以九天所临之宫为航线，以开门为飞机"
+      },
+      "chart_index": 0,
+      "provided_roles": [
+        "按本例人物关系及交通方式选取，天地盘分别保留"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-bbfd9ac1bc407982d425099464d26b520071abe37530511ab310e7d94b99f005",
+              "source_id": "span-3d04f51c666fe74269d62d553a7dd6302e0dc44978f5aa745d2250a17c9f4415",
+              "sha256": "fb871f8d21fb62c0bba44303c215a6b23162f1e40793465328453101f60d4b8d",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-c587d7ea2b6606d5dbde2f06bf6fa94797dfdb5861d3047f12fc90b9ec860468",
+              "source_id": "span-361123b0248aa6bb836a0ec6473dfe0b1644c26b3f5c22ca259c2eb1728fd966",
+              "sha256": "9e5c2bc13f0e39469abad7be1cb70b52f05cc7423dd2d33ac9d9b73436ec4f49",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-c897da545b86f76ca52e4403593af8c09507449219581f24085438c288d0dc2e",
+              "source_id": "span-3ebfebddc79c1c88950519dfc5dcbbddeb0fea70497221eaeaa37f0e88530836",
+              "sha256": "a96685b617fd1008a69d1bea1d907b031c42632c93c394c7f75b5ca7591b77f4",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-9f5875a838fbdc9249abc17dfa02c71e9e06323b58ce6a0bbcc8235ac2cb3f4b",
+              "source_id": "span-2cc60986fe51dcade382d7800bd6d6dd74efd862972beb1b63b3e8bba5fe3796",
+              "sha256": "f78c2d7c692485138dc1bf093383764cbc64bb51c4875b519fcd2460de24d3d9",
+              "sequence": 6
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "小郑问妻儿出游，本例按日戊合干癸取妻，不把朋友关系月干法机械套入所有人物；西南坤宫目的地、景门道路伤门车和时辛事项另列。",
+            "citations": [
+              "chart",
+              "context",
+              "travel",
+              "transport",
+              "flight"
+            ],
+            "uncertainties": [
+              "出行途中、到达后工作、人物关系与不同起盘时间分别判断；不以一项凶格替代全局。"
+            ],
+            "bindings": [
+              {
+                "role": "小郑妻子",
+                "symbol": "日干戊所合癸",
+                "condition": "本例配偶相合干法"
+              },
+              {
+                "role": "目的地、道路、车辆、事项",
+                "symbol": "坤宫、景门、伤门、时干辛",
+                "condition": "分别评估"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-bbfd9ac1bc407982d425099464d26b520071abe37530511ab310e7d94b99f005",
+              "source_id": "span-3d04f51c666fe74269d62d553a7dd6302e0dc44978f5aa745d2250a17c9f4415",
+              "sha256": "fb871f8d21fb62c0bba44303c215a6b23162f1e40793465328453101f60d4b8d",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-c587d7ea2b6606d5dbde2f06bf6fa94797dfdb5861d3047f12fc90b9ec860468",
+              "source_id": "span-361123b0248aa6bb836a0ec6473dfe0b1644c26b3f5c22ca259c2eb1728fd966",
+              "sha256": "9e5c2bc13f0e39469abad7be1cb70b52f05cc7423dd2d33ac9d9b73436ec4f49",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-c897da545b86f76ca52e4403593af8c09507449219581f24085438c288d0dc2e",
+              "source_id": "span-3ebfebddc79c1c88950519dfc5dcbbddeb0fea70497221eaeaa37f0e88530836",
+              "sha256": "a96685b617fd1008a69d1bea1d907b031c42632c93c394c7f75b5ca7591b77f4",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-9f5875a838fbdc9249abc17dfa02c71e9e06323b58ce6a0bbcc8235ac2cb3f4b",
+              "source_id": "span-2cc60986fe51dcade382d7800bd6d6dd74efd862972beb1b63b3e8bba5fe3796",
+              "sha256": "f78c2d7c692485138dc1bf093383764cbc64bb51c4875b519fcd2460de24d3d9",
+              "sequence": 6
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "癸巽四芮死，坤二开门、震三景门、坎一伤门、艮八辛照表，不把计划旅游等同实际成行。",
+            "citations": [
+              "chart",
+              "context",
+              "travel",
+              "transport",
+              "flight"
+            ],
+            "uncertainties": [
+              "出行途中、到达后工作、人物关系与不同起盘时间分别判断；不以一项凶格替代全局。"
+            ]
+          },
+          "facts": [
+            [
+              4,
+              "heaven_stem"
+            ],
+            [
+              4,
+              "star"
+            ],
+            [
+              4,
+              "door"
+            ],
+            [
+              2,
+              "door"
+            ],
+            [
+              3,
+              "door"
+            ],
+            [
+              1,
+              "door"
+            ],
+            [
+              8,
+              "heaven_stem"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-bbfd9ac1bc407982d425099464d26b520071abe37530511ab310e7d94b99f005",
+              "source_id": "span-3d04f51c666fe74269d62d553a7dd6302e0dc44978f5aa745d2250a17c9f4415",
+              "sha256": "fb871f8d21fb62c0bba44303c215a6b23162f1e40793465328453101f60d4b8d",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-c587d7ea2b6606d5dbde2f06bf6fa94797dfdb5861d3047f12fc90b9ec860468",
+              "source_id": "span-361123b0248aa6bb836a0ec6473dfe0b1644c26b3f5c22ca259c2eb1728fd966",
+              "sha256": "9e5c2bc13f0e39469abad7be1cb70b52f05cc7423dd2d33ac9d9b73436ec4f49",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-c897da545b86f76ca52e4403593af8c09507449219581f24085438c288d0dc2e",
+              "source_id": "span-3ebfebddc79c1c88950519dfc5dcbbddeb0fea70497221eaeaa37f0e88530836",
+              "sha256": "a96685b617fd1008a69d1bea1d907b031c42632c93c394c7f75b5ca7591b77f4",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-9f5875a838fbdc9249abc17dfa02c71e9e06323b58ce6a0bbcc8235ac2cb3f4b",
+              "source_id": "span-2cc60986fe51dcade382d7800bd6d6dd74efd862972beb1b63b3e8bba5fe3796",
+              "sha256": "f78c2d7c692485138dc1bf093383764cbc64bb51c4875b519fcd2460de24d3d9",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-96ac2b7ca16d3c3fddab7484d0052ddd9d5cd138a478ae24854aa3cc602d644b",
+              "source_id": "span-9da9db39ceb87d74790a65621dda5ebc30da8dc398daf5d6fcf99677c640e500",
+              "sha256": "5848a9e7075aeb2b4dbf7804eafed14f2f6c5ac5eeb29bf562e9d4ad0a7c3b2c",
+              "sequence": 7
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-bbfd9ac1bc407982d425099464d26b520071abe37530511ab310e7d94b99f005",
+              "source_id": "span-3d04f51c666fe74269d62d553a7dd6302e0dc44978f5aa745d2250a17c9f4415",
+              "sha256": "fb871f8d21fb62c0bba44303c215a6b23162f1e40793465328453101f60d4b8d",
+              "sequence": 3,
+              "quote": "癸落巽4宫临天芮凶星、死门凶门"
+            },
+            {
+              "record_id": "record-c587d7ea2b6606d5dbde2f06bf6fa94797dfdb5861d3047f12fc90b9ec860468",
+              "source_id": "span-361123b0248aa6bb836a0ec6473dfe0b1644c26b3f5c22ca259c2eb1728fd966",
+              "sha256": "9e5c2bc13f0e39469abad7be1cb70b52f05cc7423dd2d33ac9d9b73436ec4f49",
+              "sequence": 4,
+              "quote": "未月坤宫当令，木难以克土"
+            },
+            {
+              "record_id": "record-c897da545b86f76ca52e4403593af8c09507449219581f24085438c288d0dc2e",
+              "source_id": "span-3ebfebddc79c1c88950519dfc5dcbbddeb0fea70497221eaeaa37f0e88530836",
+              "sha256": "a96685b617fd1008a69d1bea1d907b031c42632c93c394c7f75b5ca7591b77f4",
+              "sequence": 5,
+              "quote": "伤门在坎1宫逢空亡"
+            },
+            {
+              "record_id": "record-9f5875a838fbdc9249abc17dfa02c71e9e06323b58ce6a0bbcc8235ac2cb3f4b",
+              "source_id": "span-2cc60986fe51dcade382d7800bd6d6dd74efd862972beb1b63b3e8bba5fe3796",
+              "sha256": "f78c2d7c692485138dc1bf093383764cbc64bb51c4875b519fcd2460de24d3d9",
+              "sequence": 6,
+              "quote": "时干辛落艮8宫，逢杜门"
+            }
+          ],
+          "answer": {
+            "explanation": "作者比较妻子宫凶格与值符的正反，目的坤宫虽得门星神却月旺难克并为癸墓，再审道路、车辆空和时辛杜门空，建议取消并估车辆安排难成。次日雨和无车尚未知；不能拿取消后的平安当“若去必出事故”的验证。",
+            "citations": [
+              "chart",
+              "context",
+              "travel",
+              "transport",
+              "flight"
+            ],
+            "uncertainties": [
+              "出行途中、到达后工作、人物关系与不同起盘时间分别判断；不以一项凶格替代全局。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-c02fb6ee86f1438b3f6c93f6a77edb3b357b836054330fde1a512d65a9bc5f1f",
+      "event_id": "event-6a9c85a3944ca93980392ac211ad3b71578c9b084abfc103809e5dd20bb95cd9",
+      "family_id": "family-d19a67ab9d2d3530a4f43bd5c7a3259d0eb7825e30057542b2947b392c91ab84",
+      "chart_id": "chart-2d946831cea40857884d20f577c5e9a6bef9f1c1ed38e2536d3f256653806604",
+      "chapter": "13-travel-abroad",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 6,
+      "stage": "first",
+      "mode": "source_conditioned",
+      "source_prediction_window_review": "所列unknown记录逐句为问测前背景、起局依据和四柱，不含反馈；不同问题与两次起盘分开。",
+      "known_source_window_review": "所列unknown记录逐句为问测前背景、起局依据和四柱，不含反馈；不同问题与两次起盘分开。",
+      "known": [
+        {
+          "record_id": "record-29023d9844fc3147a6315fecb5a6f398c0243d731c19999bf03b843bd9dde1c4",
+          "source_id": "span-1d76da30101867455e2b13368de60beee23afa16e4f5db885613a589a262a09c",
+          "sha256": "cb69ccc1da2eeaf183222c4d1709ef9421d990b8502786c75e545ed96da973f2",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-0c865364ccc3f6cedc62afa6612496d8410e06fdb4b47e4dd9ae16b1b0bfb49e",
+          "source_id": "span-6a16cea4d48c0c375e41989e44020fcddde0abfd652c7e6d7bb51e4b2c931b95",
+          "sha256": "6a66a7bcfad035f56511a5f12b8e34415553f6f233f479bd4705d41845d30b89",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-88b417c46f9b3bccb94a8994bba552350576dbd753e6513812628ddaaada0a6b",
+          "source_id": "span-9d6ce7c25e9eb827d88d33c37139b5552ce36d2439ff064e778108fb53c985f0",
+          "sha256": "5e9d004307599981b83b222b6f65e8e803e4d5749fbad9bfd6f68e4ecddf8b6a",
+          "sequence": 2
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "travel": "出行出国，一般以日干落宫为出行之人",
+        "transport": "凡出行乘车，以景门所临之宫为道路，以伤门为车",
+        "flight": "如果坐飞机出行，可以九天所临之宫为航线，以开门为飞机"
+      },
+      "chart_index": 0,
+      "provided_roles": [
+        "按本例人物关系及交通方式选取，天地盘分别保留"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-3a0e194c5362803189c3f1baadbefa7d37db6c49a225731675a52979ef19d241",
+              "source_id": "span-89e38c978c372141d1edeb30a1b90951e5da1990058c03c914552c4a1136f1af",
+              "sha256": "7034c8d4b4aefc8fc7cf3874e5360cbd3fcc882b32d5f0d4c10f9adf29356dde",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-3c86b21b7043be0eadcae5fb66e2c555f04419206c0412d70d072493f183ba16",
+              "source_id": "span-fb62e7282b6f2dd9f6fc12ad047ae64dfee2ff199f5951281bc67f594089878c",
+              "sha256": "aa3e4af673c505141afdda4ce979c97c6dd1078dc73bc9edddf87f00073afca6",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-5a342039bb717f1b08b40d8b61c4437ea4a09e94540c59aa59ee2452e23ad81e",
+              "source_id": "span-0b11d248ba88a707ba14b0e5ce7f4077e5ef5972463cb5e7db7281d48e81c5e4",
+              "sha256": "7c518a9ede1dbe786383926e656aad6044ffa9eb2983e38caccb83bd30dfdb22",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "电话问考察先用问时盘日己本人、时乙事项及西北目的地比较；出发日开门下地干另取，不把稍后给出的航班申时先放进当前输入。",
+            "citations": [
+              "chart",
+              "context",
+              "travel",
+              "transport",
+              "flight"
+            ],
+            "uncertainties": [
+              "出行途中、到达后工作、人物关系与不同起盘时间分别判断；不以一项凶格替代全局。"
+            ],
+            "bindings": [
+              {
+                "role": "考察者、事项",
+                "symbol": "日干己、时干乙",
+                "condition": "电话问时局"
+              },
+              {
+                "role": "目的地",
+                "symbol": "乾六西北",
+                "condition": "德国相对出发地的本例口径"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-3a0e194c5362803189c3f1baadbefa7d37db6c49a225731675a52979ef19d241",
+              "source_id": "span-89e38c978c372141d1edeb30a1b90951e5da1990058c03c914552c4a1136f1af",
+              "sha256": "7034c8d4b4aefc8fc7cf3874e5360cbd3fcc882b32d5f0d4c10f9adf29356dde",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-3c86b21b7043be0eadcae5fb66e2c555f04419206c0412d70d072493f183ba16",
+              "source_id": "span-fb62e7282b6f2dd9f6fc12ad047ae64dfee2ff199f5951281bc67f594089878c",
+              "sha256": "aa3e4af673c505141afdda4ce979c97c6dd1078dc73bc9edddf87f00073afca6",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-5a342039bb717f1b08b40d8b61c4437ea4a09e94540c59aa59ee2452e23ad81e",
+              "source_id": "span-0b11d248ba88a707ba14b0e5ce7f4077e5ef5972463cb5e7db7281d48e81c5e4",
+              "sha256": "7c518a9ede1dbe786383926e656aad6044ffa9eb2983e38caccb83bd30dfdb22",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "问时盘己兑七天禽休门，乙乾六生门、坤二开门下壬照源；寄星和主星原字不能丢。",
+            "citations": [
+              "chart",
+              "context",
+              "travel",
+              "transport",
+              "flight"
+            ],
+            "uncertainties": [
+              "出行途中、到达后工作、人物关系与不同起盘时间分别判断；不以一项凶格替代全局。"
+            ]
+          },
+          "facts": [
+            [
+              7,
+              "heaven_stem"
+            ],
+            [
+              7,
+              "star"
+            ],
+            [
+              7,
+              "door"
+            ],
+            [
+              6,
+              "heaven_stem"
+            ],
+            [
+              6,
+              "door"
+            ],
+            [
+              2,
+              "door"
+            ],
+            [
+              2,
+              "earth_stem"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-3a0e194c5362803189c3f1baadbefa7d37db6c49a225731675a52979ef19d241",
+              "source_id": "span-89e38c978c372141d1edeb30a1b90951e5da1990058c03c914552c4a1136f1af",
+              "sha256": "7034c8d4b4aefc8fc7cf3874e5360cbd3fcc882b32d5f0d4c10f9adf29356dde",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-3c86b21b7043be0eadcae5fb66e2c555f04419206c0412d70d072493f183ba16",
+              "source_id": "span-fb62e7282b6f2dd9f6fc12ad047ae64dfee2ff199f5951281bc67f594089878c",
+              "sha256": "aa3e4af673c505141afdda4ce979c97c6dd1078dc73bc9edddf87f00073afca6",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-5a342039bb717f1b08b40d8b61c4437ea4a09e94540c59aa59ee2452e23ad81e",
+              "source_id": "span-0b11d248ba88a707ba14b0e5ce7f4077e5ef5972463cb5e7db7281d48e81c5e4",
+              "sha256": "7c518a9ede1dbe786383926e656aad6044ffa9eb2983e38caccb83bd30dfdb22",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-8587c6479e3030be3996da84994c19da8ec176bb4ebb640c99f8f390bab42c42",
+              "source_id": "span-981347b424133ea28ae9c6b13447f91b138461a994de22615bfb64ed6099c09f",
+              "sha256": "7d5b4aa1f4e5b3bf456b072b88e564df89c399e1ff94ab1b2402f858fde830d4",
+              "sequence": 6
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-3a0e194c5362803189c3f1baadbefa7d37db6c49a225731675a52979ef19d241",
+              "source_id": "span-89e38c978c372141d1edeb30a1b90951e5da1990058c03c914552c4a1136f1af",
+              "sha256": "7034c8d4b4aefc8fc7cf3874e5360cbd3fcc882b32d5f0d4c10f9adf29356dde",
+              "sequence": 3,
+              "quote": "日干己为求测之人，落兑7宫，为长生之位"
+            },
+            {
+              "record_id": "record-3c86b21b7043be0eadcae5fb66e2c555f04419206c0412d70d072493f183ba16",
+              "source_id": "span-fb62e7282b6f2dd9f6fc12ad047ae64dfee2ff199f5951281bc67f594089878c",
+              "sha256": "aa3e4af673c505141afdda4ce979c97c6dd1078dc73bc9edddf87f00073afca6",
+              "sequence": 4,
+              "quote": "日干与时干，所去方向比和"
+            },
+            {
+              "record_id": "record-5a342039bb717f1b08b40d8b61c4437ea4a09e94540c59aa59ee2452e23ad81e",
+              "source_id": "span-0b11d248ba88a707ba14b0e5ce7f4077e5ef5972463cb5e7db7281d48e81c5e4",
+              "sha256": "7c518a9ede1dbe786383926e656aad6044ffa9eb2983e38caccb83bd30dfdb22",
+              "sequence": 5,
+              "quote": "开门在坤2宫，下临地盘之干为壬"
+            }
+          ],
+          "answer": {
+            "explanation": "问时盘作者以日己长生吉门吉神及目的地方位与本人比和支持总体顺利，但日干兼病星提示身体问题。6月24出发与开门下壬呼应单列为出发日，不把后来延误或感冒反馈当当前依据。",
+            "citations": [
+              "chart",
+              "context",
+              "travel",
+              "transport",
+              "flight"
+            ],
+            "uncertainties": [
+              "出行途中、到达后工作、人物关系与不同起盘时间分别判断；不以一项凶格替代全局。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-f3b7e2023426b56d387e8a1bebc5ffaa5924101426d8cabc8f13fdbf92cc288a",
+      "event_id": "event-957db63e215a7ed50ca445c16165d775a79a9044a9f40e2dd3be9c2aa4b6907b",
+      "family_id": "family-c32bcd393b02f696a0f49b6ca93ea2d16e3da4e326839d55b2741b9fcc6a6b45",
+      "chart_id": "chart-28f85acbeda6230a7f853e799d3bb05cfbaf3bce17d4ce57d633e7f0acc4d477",
+      "chapter": "13-travel-abroad",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 6,
+      "stage": "planned_departure_recast",
+      "mode": "continuation",
+      "source_prediction_window_review": "所列unknown记录逐句为问测前背景、起局依据和四柱，不含反馈；不同问题与两次起盘分开。",
+      "known_source_window_review": "所列unknown记录逐句为问测前背景、起局依据和四柱，不含反馈；不同问题与两次起盘分开。",
+      "known": [
+        {
+          "record_id": "record-29023d9844fc3147a6315fecb5a6f398c0243d731c19999bf03b843bd9dde1c4",
+          "source_id": "span-1d76da30101867455e2b13368de60beee23afa16e4f5db885613a589a262a09c",
+          "sha256": "cb69ccc1da2eeaf183222c4d1709ef9421d990b8502786c75e545ed96da973f2",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-0c865364ccc3f6cedc62afa6612496d8410e06fdb4b47e4dd9ae16b1b0bfb49e",
+          "source_id": "span-6a16cea4d48c0c375e41989e44020fcddde0abfd652c7e6d7bb51e4b2c931b95",
+          "sha256": "6a66a7bcfad035f56511a5f12b8e34415553f6f233f479bd4705d41845d30b89",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-88b417c46f9b3bccb94a8994bba552350576dbd753e6513812628ddaaada0a6b",
+          "source_id": "span-9d6ce7c25e9eb827d88d33c37139b5552ce36d2439ff064e778108fb53c985f0",
+          "sha256": "5e9d004307599981b83b222b6f65e8e803e4d5749fbad9bfd6f68e4ecddf8b6a",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-3a0e194c5362803189c3f1baadbefa7d37db6c49a225731675a52979ef19d241",
+          "source_id": "span-89e38c978c372141d1edeb30a1b90951e5da1990058c03c914552c4a1136f1af",
+          "sha256": "7034c8d4b4aefc8fc7cf3874e5360cbd3fcc882b32d5f0d4c10f9adf29356dde",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-3c86b21b7043be0eadcae5fb66e2c555f04419206c0412d70d072493f183ba16",
+          "source_id": "span-fb62e7282b6f2dd9f6fc12ad047ae64dfee2ff199f5951281bc67f594089878c",
+          "sha256": "aa3e4af673c505141afdda4ce979c97c6dd1078dc73bc9edddf87f00073afca6",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-5a342039bb717f1b08b40d8b61c4437ea4a09e94540c59aa59ee2452e23ad81e",
+          "source_id": "span-0b11d248ba88a707ba14b0e5ce7f4077e5ef5972463cb5e7db7281d48e81c5e4",
+          "sha256": "7c518a9ede1dbe786383926e656aad6044ffa9eb2983e38caccb83bd30dfdb22",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-8587c6479e3030be3996da84994c19da8ec176bb4ebb640c99f8f390bab42c42",
+          "source_id": "span-981347b424133ea28ae9c6b13447f91b138461a994de22615bfb64ed6099c09f",
+          "sha256": "7d5b4aa1f4e5b3bf456b072b88e564df89c399e1ff94ab1b2402f858fde830d4",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-869ca99c460a36172a5364bcac611574ef6304eef96e747f2ec9c58461ef6b7e",
+          "source_id": "span-69f4bc2e0afa316bdc38208948ce563d9285a155ffa8da060e843acd29499eb1",
+          "sha256": "3071f73d7bb3ad2bb4f56c9dad14f79c272a3d4c220d78a16f31bdc4d9ac9fd8",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-1c8c9036b1329c1b0e8ca69ff524f1f281eb633c4ffeac2b1a99805285bdbff0",
+          "source_id": "span-bd942437c6ae1283346314e570cb364f8c97b712a7a520cd5b76e9c33dc747ba",
+          "sha256": "760c26a82a8f7416b4a6d23a8ba05565b51b01abe62c9f1f83b1cf0b996cdb07",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-50f23684797a29857dc4b4bec200b0d74a4e5988ae7a7eafeed46f421e23ec18",
+          "source_id": "span-a5efc38682cdb57641b0c8116b11fd0933c7e235d344192baa0ba66bf7a312aa",
+          "sha256": "8c8741740a5f5b3a12847b0736187f90c64d3e04e3bf484f246be7ceb5cb827c",
+          "sequence": 9
+        }
+      ],
+      "cutoff": 10,
+      "rules": {
+        "travel": "出行出国，一般以日干落宫为出行之人",
+        "transport": "凡出行乘车，以景门所临之宫为道路，以伤门为车",
+        "flight": "如果坐飞机出行，可以九天所临之宫为航线，以开门为飞机"
+      },
+      "chart_index": 1,
+      "provided_roles": [
+        "按本例人物关系及交通方式选取，天地盘分别保留"
+      ],
+      "tasks": [
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-f3c11ff6915748d7f38972b33e581974d8db560021cf640224f57a55b02e7e9e",
+              "source_id": "span-261d8d3be1966b13659395c15d728cb820aad6154243a2c007a9228e278a8111",
+              "sha256": "f653312baf7c40dfed4080ff874edc85ae21427dab9b19e23464cc61cceaa605",
+              "sequence": 10
+            },
+            {
+              "record_id": "record-495577fad8686762168b524c622fdf70793cfaddebe154c4743c9dc12a25ef91",
+              "source_id": "span-aafd3a4e60990f347e60a997860daba68267a6b5d5892fb787bdf9fe9ecc26d8",
+              "sha256": "320885ee9b5c47f6451d9bd997bc2fcd20f0193b61c84fb528c3f4e8b35a1a3c",
+              "sequence": 11
+            },
+            {
+              "record_id": "record-19d9623c70f161fe25a8f6345b2a58e3a6e3fe3f9f80f20aa627806183dfad75",
+              "source_id": "span-f8354517930f844b72aa0e7e50a22711f883a176aec45c15b3cb80bd606ccefa",
+              "sha256": "5dc876bb7274f5b532dc56ec718181ad7e96d9ae9d75ac87d2fe278f531d9728",
+              "sequence": 12
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "这题使用另起的6月24戊申起飞盘：日壬乾六芮惊、九天开门坎一天柱，地壬坤二上庚；不可与6月21问时盘字段拼接。",
+            "citations": [
+              "chart",
+              "context",
+              "travel",
+              "transport",
+              "flight"
+            ],
+            "uncertainties": [
+              "出行途中、到达后工作、人物关系与不同起盘时间分别判断；不以一项凶格替代全局。"
+            ]
+          },
+          "facts": [
+            [
+              6,
+              "heaven_stem"
+            ],
+            [
+              6,
+              "star"
+            ],
+            [
+              6,
+              "door"
+            ],
+            [
+              1,
+              "deity"
+            ],
+            [
+              1,
+              "door"
+            ],
+            [
+              1,
+              "star"
+            ],
+            [
+              2,
+              "earth_stem"
+            ],
+            [
+              2,
+              "heaven_stem"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-f3c11ff6915748d7f38972b33e581974d8db560021cf640224f57a55b02e7e9e",
+              "source_id": "span-261d8d3be1966b13659395c15d728cb820aad6154243a2c007a9228e278a8111",
+              "sha256": "f653312baf7c40dfed4080ff874edc85ae21427dab9b19e23464cc61cceaa605",
+              "sequence": 10
+            },
+            {
+              "record_id": "record-495577fad8686762168b524c622fdf70793cfaddebe154c4743c9dc12a25ef91",
+              "source_id": "span-aafd3a4e60990f347e60a997860daba68267a6b5d5892fb787bdf9fe9ecc26d8",
+              "sha256": "320885ee9b5c47f6451d9bd997bc2fcd20f0193b61c84fb528c3f4e8b35a1a3c",
+              "sequence": 11
+            },
+            {
+              "record_id": "record-19d9623c70f161fe25a8f6345b2a58e3a6e3fe3f9f80f20aa627806183dfad75",
+              "source_id": "span-f8354517930f844b72aa0e7e50a22711f883a176aec45c15b3cb80bd606ccefa",
+              "sha256": "5dc876bb7274f5b532dc56ec718181ad7e96d9ae9d75ac87d2fe278f531d9728",
+              "sequence": 12
+            },
+            {
+              "record_id": "record-8716aded7a70015136c2b3e69d34a9cbd362fa0899c3bc9c6c91ebd5a8e83341",
+              "source_id": "span-74df42e155e26ad7738f4510edaefa302fa74970446b1d670c71f4fc12e3fcb4",
+              "sha256": "4501de8862ffe2186587d6390c6bb2efbd66e6bc22a2d07869cdee8c9d016806",
+              "sequence": 13
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-f3c11ff6915748d7f38972b33e581974d8db560021cf640224f57a55b02e7e9e",
+              "source_id": "span-261d8d3be1966b13659395c15d728cb820aad6154243a2c007a9228e278a8111",
+              "sha256": "f653312baf7c40dfed4080ff874edc85ae21427dab9b19e23464cc61cceaa605",
+              "sequence": 10,
+              "quote": "时干戊克日干壬，为五不遇时"
+            },
+            {
+              "record_id": "record-495577fad8686762168b524c622fdf70793cfaddebe154c4743c9dc12a25ef91",
+              "source_id": "span-aafd3a4e60990f347e60a997860daba68267a6b5d5892fb787bdf9fe9ecc26d8",
+              "sha256": "320885ee9b5c47f6451d9bd997bc2fcd20f0193b61c84fb528c3f4e8b35a1a3c",
+              "sequence": 11,
+              "quote": "日干壬落乾6宫"
+            },
+            {
+              "record_id": "record-19d9623c70f161fe25a8f6345b2a58e3a6e3fe3f9f80f20aa627806183dfad75",
+              "source_id": "span-f8354517930f844b72aa0e7e50a22711f883a176aec45c15b3cb80bd606ccefa",
+              "sha256": "5dc876bb7274f5b532dc56ec718181ad7e96d9ae9d75ac87d2fe278f531d9728",
+              "sequence": 12,
+              "quote": "九天、开门均落坎1宫，与日干宫相生"
+            },
+            {
+              "record_id": "record-19d9623c70f161fe25a8f6345b2a58e3a6e3fe3f9f80f20aa627806183dfad75",
+              "source_id": "span-f8354517930f844b72aa0e7e50a22711f883a176aec45c15b3cb80bd606ccefa",
+              "sha256": "5dc876bb7274f5b532dc56ec718181ad7e96d9ae9d75ac87d2fe278f531d9728",
+              "sequence": 12,
+              "quote": "地盘日干壬在坤2宫，上临庚"
+            }
+          ],
+          "answer": {
+            "explanation": "听到具体航班后，作者另起预定出发时辰盘，用戊克壬五不遇、本人病星惊门、飞机航线虽相生却天柱及阻隔格，提示出发不顺和身体。新盘合法来自源中明确重起，而不是每次追问都重起；延到酉时与实际雷雨的后知解释尚未开放。",
+            "citations": [
+              "chart",
+              "context",
+              "travel",
+              "transport",
+              "flight"
+            ],
+            "uncertainties": [
+              "出行途中、到达后工作、人物关系与不同起盘时间分别判断；不以一项凶格替代全局。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-f3b7e2023426b56d387e8a1bebc5ffaa5924101426d8cabc8f13fdbf92cc288a",
+      "event_id": "event-957db63e215a7ed50ca445c16165d775a79a9044a9f40e2dd3be9c2aa4b6907b",
+      "family_id": "family-c32bcd393b02f696a0f49b6ca93ea2d16e3da4e326839d55b2741b9fcc6a6b45",
+      "chart_id": "chart-860668268817f37b8260e36c47da93d905fd0f7cfe14a8bfc21f09069a5fcbe0",
+      "chapter": "13-travel-abroad",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 6,
+      "stage": "weather_after_feedback",
+      "mode": "retrospective",
+      "source_prediction_window_review": "所列unknown记录逐句为问测前背景、起局依据和四柱，不含反馈；不同问题与两次起盘分开。",
+      "known_source_window_review": "所列unknown记录逐句为问测前背景、起局依据和四柱，不含反馈；不同问题与两次起盘分开。",
+      "known": [
+        {
+          "record_id": "record-29023d9844fc3147a6315fecb5a6f398c0243d731c19999bf03b843bd9dde1c4",
+          "source_id": "span-1d76da30101867455e2b13368de60beee23afa16e4f5db885613a589a262a09c",
+          "sha256": "cb69ccc1da2eeaf183222c4d1709ef9421d990b8502786c75e545ed96da973f2",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-0c865364ccc3f6cedc62afa6612496d8410e06fdb4b47e4dd9ae16b1b0bfb49e",
+          "source_id": "span-6a16cea4d48c0c375e41989e44020fcddde0abfd652c7e6d7bb51e4b2c931b95",
+          "sha256": "6a66a7bcfad035f56511a5f12b8e34415553f6f233f479bd4705d41845d30b89",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-88b417c46f9b3bccb94a8994bba552350576dbd753e6513812628ddaaada0a6b",
+          "source_id": "span-9d6ce7c25e9eb827d88d33c37139b5552ce36d2439ff064e778108fb53c985f0",
+          "sha256": "5e9d004307599981b83b222b6f65e8e803e4d5749fbad9bfd6f68e4ecddf8b6a",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-3a0e194c5362803189c3f1baadbefa7d37db6c49a225731675a52979ef19d241",
+          "source_id": "span-89e38c978c372141d1edeb30a1b90951e5da1990058c03c914552c4a1136f1af",
+          "sha256": "7034c8d4b4aefc8fc7cf3874e5360cbd3fcc882b32d5f0d4c10f9adf29356dde",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-3c86b21b7043be0eadcae5fb66e2c555f04419206c0412d70d072493f183ba16",
+          "source_id": "span-fb62e7282b6f2dd9f6fc12ad047ae64dfee2ff199f5951281bc67f594089878c",
+          "sha256": "aa3e4af673c505141afdda4ce979c97c6dd1078dc73bc9edddf87f00073afca6",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-5a342039bb717f1b08b40d8b61c4437ea4a09e94540c59aa59ee2452e23ad81e",
+          "source_id": "span-0b11d248ba88a707ba14b0e5ce7f4077e5ef5972463cb5e7db7281d48e81c5e4",
+          "sha256": "7c518a9ede1dbe786383926e656aad6044ffa9eb2983e38caccb83bd30dfdb22",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-8587c6479e3030be3996da84994c19da8ec176bb4ebb640c99f8f390bab42c42",
+          "source_id": "span-981347b424133ea28ae9c6b13447f91b138461a994de22615bfb64ed6099c09f",
+          "sha256": "7d5b4aa1f4e5b3bf456b072b88e564df89c399e1ff94ab1b2402f858fde830d4",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-869ca99c460a36172a5364bcac611574ef6304eef96e747f2ec9c58461ef6b7e",
+          "source_id": "span-69f4bc2e0afa316bdc38208948ce563d9285a155ffa8da060e843acd29499eb1",
+          "sha256": "3071f73d7bb3ad2bb4f56c9dad14f79c272a3d4c220d78a16f31bdc4d9ac9fd8",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-1c8c9036b1329c1b0e8ca69ff524f1f281eb633c4ffeac2b1a99805285bdbff0",
+          "source_id": "span-bd942437c6ae1283346314e570cb364f8c97b712a7a520cd5b76e9c33dc747ba",
+          "sha256": "760c26a82a8f7416b4a6d23a8ba05565b51b01abe62c9f1f83b1cf0b996cdb07",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-50f23684797a29857dc4b4bec200b0d74a4e5988ae7a7eafeed46f421e23ec18",
+          "source_id": "span-a5efc38682cdb57641b0c8116b11fd0933c7e235d344192baa0ba66bf7a312aa",
+          "sha256": "8c8741740a5f5b3a12847b0736187f90c64d3e04e3bf484f246be7ceb5cb827c",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-f3c11ff6915748d7f38972b33e581974d8db560021cf640224f57a55b02e7e9e",
+          "source_id": "span-261d8d3be1966b13659395c15d728cb820aad6154243a2c007a9228e278a8111",
+          "sha256": "f653312baf7c40dfed4080ff874edc85ae21427dab9b19e23464cc61cceaa605",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-495577fad8686762168b524c622fdf70793cfaddebe154c4743c9dc12a25ef91",
+          "source_id": "span-aafd3a4e60990f347e60a997860daba68267a6b5d5892fb787bdf9fe9ecc26d8",
+          "sha256": "320885ee9b5c47f6451d9bd997bc2fcd20f0193b61c84fb528c3f4e8b35a1a3c",
+          "sequence": 11
+        },
+        {
+          "record_id": "record-19d9623c70f161fe25a8f6345b2a58e3a6e3fe3f9f80f20aa627806183dfad75",
+          "source_id": "span-f8354517930f844b72aa0e7e50a22711f883a176aec45c15b3cb80bd606ccefa",
+          "sha256": "5dc876bb7274f5b532dc56ec718181ad7e96d9ae9d75ac87d2fe278f531d9728",
+          "sequence": 12
+        },
+        {
+          "record_id": "record-8716aded7a70015136c2b3e69d34a9cbd362fa0899c3bc9c6c91ebd5a8e83341",
+          "source_id": "span-74df42e155e26ad7738f4510edaefa302fa74970446b1d670c71f4fc12e3fcb4",
+          "sha256": "4501de8862ffe2186587d6390c6bb2efbd66e6bc22a2d07869cdee8c9d016806",
+          "sequence": 13
+        },
+        {
+          "record_id": "record-974f72ef325f4548525f20407c4a0086ddf7ef084381217621b1a8db9bd1e912",
+          "source_id": "span-464d9305a14bc6d5f8ee09ea8017b0ce49902ff7255902f60710093143478efe",
+          "sha256": "e732f9cfbf8977bfd9f445df4854a24f0bbdbc82660b28f2013d06641ac76cc5",
+          "sequence": 14
+        }
+      ],
+      "cutoff": 15,
+      "rules": {
+        "travel": "出行出国，一般以日干落宫为出行之人",
+        "transport": "凡出行乘车，以景门所临之宫为道路，以伤门为车",
+        "flight": "如果坐飞机出行，可以九天所临之宫为航线，以开门为飞机"
+      },
+      "chart_index": 1,
+      "provided_roles": [
+        "按本例人物关系及交通方式选取，天地盘分别保留"
+      ],
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-dd0acf8f4487510f29fcd7a957861a2d61769039b9e498a2b66cf5341ac8e733",
+              "source_id": "span-7b5d652b1142b8942a5e808fe6939c53b238a9eeaff3e212820c1f25a83d5586",
+              "sha256": "b494197b47573046874df523c3df64767771fae12b0ae21f3b87e2827686bc6e",
+              "sequence": 15
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "实际反馈是出访总体顺利、小病及申时延到酉时，作者承认雷雨象当时没细看；随后以天柱壬癸水象及星宫相克解释雨。不能把这份后置天气分析算成先前已预测雷雨，也不把实际酉时改写为预定申时盘。",
+            "citations": [
+              "chart",
+              "context",
+              "travel",
+              "transport",
+              "flight"
+            ],
+            "uncertainties": [
+              "出行途中、到达后工作、人物关系与不同起盘时间分别判断；不以一项凶格替代全局。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-f3b7e2023426b56d387e8a1bebc5ffaa5924101426d8cabc8f13fdbf92cc288a",
+      "event_id": "event-957db63e215a7ed50ca445c16165d775a79a9044a9f40e2dd3be9c2aa4b6907b",
+      "family_id": "family-c32bcd393b02f696a0f49b6ca93ea2d16e3da4e326839d55b2741b9fcc6a6b45",
+      "chart_id": "chart-860668268817f37b8260e36c47da93d905fd0f7cfe14a8bfc21f09069a5fcbe0",
+      "chapter": "13-travel-abroad",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    }
+  ]
+}

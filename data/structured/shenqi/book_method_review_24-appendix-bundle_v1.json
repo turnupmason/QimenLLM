@@ -1,0 +1,351 @@
+{
+  "schema": "book-method-semantic-review-v1",
+  "source_data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "reviewed_by": "Codex source-grounded semantic curation",
+  "rows": [
+    {
+      "mode": "source_reading",
+      "source_reading_review": "明确的资料阅读/反馈后复盘：原书仅局部盘，不能补全或当独立全盘首断。",
+      "source_limit_review": "明确的资料阅读/反馈后复盘：原书仅局部盘，不能补全或当独立全盘首断。",
+      "rules": {},
+      "provided_roles": [],
+      "case": 1,
+      "event": 1,
+      "stage": "car_accident_posthoc",
+      "known": [
+        {
+          "record_id": "record-9a4c144a0b06090d652dda1a1b53af3e41c1a276d6804ce5ebf3ff1b9ef812fd",
+          "source_id": "span-9919270c23887461db56904ba0aafb2107f0db27c3241b050b6d8b1dec9c3d85",
+          "sha256": "f5d5fec3ec5e1ff7f6981bfe6a87b20a0078dd39c9cc48d2e367e6aedd57c8f9",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-bd83d13603e35c8a318813da4e2f4248c15bcf4092faf377aa7e658ea6ba7f9a",
+          "source_id": "span-4e695c1643a08204470b00da5f965b6edb033129c175123f7f3632ecb1b6dbb7",
+          "sha256": "f4b215429f1091d8772c125d0ab2451c0bf5f25c49aff7a254cc57cbbb1b55c3",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-43859735bee01ac30e44a0a37b88f14ccf3d5ff9d15ca709da929532626c7370",
+          "source_id": "span-0050b21e9689faaf8936582c95c1d32a5f20528c194ac834412395d94a6f50b8",
+          "sha256": "26700827ec349c424b7fabc28982077aa0f0b1f4b1b229c0642ada53c47c551b",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-ccbe16304c40844c37c84c2bc796f81f99994f57fc614c488a01cc8dfc760d8f",
+          "source_id": "span-050c6a49651604ddcd7e42ba3e2efee2b9f169f76c315844fadc7ed04f16da51",
+          "sha256": "d629fbe4bc4ad055662e5642ac2458a5f99c1cf73fba7f5daa72e3bcd38b0863",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-4df58e057557726b74d10c9df0c5dc805a1a9b3c588f8ee344bdf2d5fda399d0",
+          "source_id": "span-798b19e357ff17cb6716b6aad4795931a3624d14c46eb5ae7739d94e858ae354",
+          "sha256": "e206a92534e1e101e8c6ee5747eb5f9092c00850a3f8b881bb9d493aadc83534",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-31528a063a2be4b7c332778cde14878610bc802e0a66c16cac3c177ce5965766",
+          "source_id": "span-de372dbc9b7a5d32bde9a95adfaf0fb55953ec02a5a58788edd0e8355c5a1c91",
+          "sha256": "64ee1d12b17c21d5192ef9a4678a3790014015eb4cd8ad2a28e77a3cf42b2516",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-7a7e3a239d029af6be6cf58048e04e350d12d8d5abc1b23e06322ab9f1a6a00d",
+          "source_id": "span-c75288850fdee09c0d3c09bbbcbab230be6b3abb2a8eaf1d52bf69912eb56d0e",
+          "sha256": "5d93ab7d1b532c14c414547b20bf9783f112c15a0a7af814cd8699d29600d9bc",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-2271828f3716700253a2120b1fa35c328ce6688f7cab7f57aa72de5fe99941cb",
+          "source_id": "span-687063111562d6a88fdfe14ee34dd28b6c5417441c480ef4f7d9f878a2a3b09a",
+          "sha256": "c4cace696bf95bb884ae9e11d867b5ef01481ebd9dbde571287bf38d0ff54c39",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-d5fe779e4ea168d6c25a4df7b9055a1270a0ba989348550d4a90b328034d3a03",
+          "source_id": "span-accfddf85eada0cc24886ba04af6e404051152db5fcfcfd7d03eb8968c9f4c69",
+          "sha256": "dd30f71b05b39d4e5224d11b64e3095a537c172259ea84336695bcfce56422d8",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-725d4f9da53859c54f033ac3467ba43a886c0eda7786e2cbde0152fb0a482317",
+          "source_id": "span-b7c4ef120182c9e5e0b36926bd13d7613da2598eb3b7f4dc2bd02e5686a3cbe2",
+          "sha256": "ee8e6a314e75672fae05a9571962c4b6ba382cb983051eac9a3ba569928a1364",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-1f0124a9f786f176fb80a620a5c711c345732b7e8642f2d0a11f8089c4cf70d4",
+          "source_id": "span-ade2643d09547a964d4b638317a67bac9da007529415bd247e85c0a77f3d7133",
+          "sha256": "5f5acd5320b50b0790ad581ea5ef5dbfd723fd6108c81438ad3805fcc3d55e8c",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-227a316aa1619e3687666dfc65f228615690117d8812e9e206940fdf39f01ed0",
+          "source_id": "span-9149e88b18a340956aa66f0b6a27d23656ee0c70f52b6979e04f30abc3c73537",
+          "sha256": "f5ce50db47d472ddc17f71179da84f29b5e990bd78133e13cd56d4b980ffe20b",
+          "sequence": 11
+        },
+        {
+          "record_id": "record-ee70cdd11130fd049c925cafdb6e1700a85a3fcf4c6050d4cd2456182194315e",
+          "source_id": "span-d2856c454b2ff302a5ce48af333225ed3b671293ccb5d8fbfb1b2196eee36118",
+          "sha256": "f05f64313e9c86cfff458523e75b2827aa55b9b2d20dbff73987c4dcccb87e49",
+          "sequence": 12
+        },
+        {
+          "record_id": "record-190d5da258c693698b14f9c2ae2db7dbecf0b8ab447e419e86e1157f2265a15d",
+          "source_id": "span-f6cf7263ae0001d4bd23131620689a96326aaa4325cf3279023607aeb92b6226",
+          "sha256": "e2e09ca6f915bf01885fa5709bebf1c842fe4cffc730ee9009063886d682ca57",
+          "sequence": 13
+        }
+      ],
+      "cutoff": 14,
+      "tasks": [
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-bd83d13603e35c8a318813da4e2f4248c15bcf4092faf377aa7e658ea6ba7f9a",
+              "source_id": "span-4e695c1643a08204470b00da5f965b6edb033129c175123f7f3632ecb1b6dbb7",
+              "sha256": "f4b215429f1091d8772c125d0ab2451c0bf5f25c49aff7a254cc57cbbb1b55c3",
+              "sequence": 1
+            },
+            {
+              "record_id": "record-43859735bee01ac30e44a0a37b88f14ccf3d5ff9d15ca709da929532626c7370",
+              "source_id": "span-0050b21e9689faaf8936582c95c1d32a5f20528c194ac834412395d94a6f50b8",
+              "sha256": "26700827ec349c424b7fabc28982077aa0f0b1f4b1b229c0642ada53c47c551b",
+              "sequence": 2
+            },
+            {
+              "record_id": "record-ccbe16304c40844c37c84c2bc796f81f99994f57fc614c488a01cc8dfc760d8f",
+              "source_id": "span-050c6a49651604ddcd7e42ba3e2efee2b9f169f76c315844fadc7ed04f16da51",
+              "sha256": "d629fbe4bc4ad055662e5642ac2458a5f99c1cf73fba7f5daa72e3bcd38b0863",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-4df58e057557726b74d10c9df0c5dc805a1a9b3c588f8ee344bdf2d5fda399d0",
+              "source_id": "span-798b19e357ff17cb6716b6aad4795931a3624d14c46eb5ae7739d94e858ae354",
+              "sha256": "e206a92534e1e101e8c6ee5747eb5f9092c00850a3f8b881bb9d493aadc83534",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-31528a063a2be4b7c332778cde14878610bc802e0a66c16cac3c177ce5965766",
+              "source_id": "span-de372dbc9b7a5d32bde9a95adfaf0fb55953ec02a5a58788edd0e8355c5a1c91",
+              "sha256": "64ee1d12b17c21d5192ef9a4678a3790014015eb4cd8ad2a28e77a3cf42b2516",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-d5fe779e4ea168d6c25a4df7b9055a1270a0ba989348550d4a90b328034d3a03",
+              "source_id": "span-accfddf85eada0cc24886ba04af6e404051152db5fcfcfd7d03eb8968c9f4c69",
+              "sha256": "dd30f71b05b39d4e5224d11b64e3095a537c172259ea84336695bcfce56422d8",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-725d4f9da53859c54f033ac3467ba43a886c0eda7786e2cbde0152fb0a482317",
+              "source_id": "span-b7c4ef120182c9e5e0b36926bd13d7613da2598eb3b7f4dc2bd02e5686a3cbe2",
+              "sha256": "ee8e6a314e75672fae05a9571962c4b6ba382cb983051eac9a3ba569928a1364",
+              "sequence": 9
+            },
+            {
+              "record_id": "record-1f0124a9f786f176fb80a620a5c711c345732b7e8642f2d0a11f8089c4cf70d4",
+              "source_id": "span-ade2643d09547a964d4b638317a67bac9da007529415bd247e85c0a77f3d7133",
+              "sha256": "5f5acd5320b50b0790ad581ea5ef5dbfd723fd6108c81438ad3805fcc3d55e8c",
+              "sequence": 10
+            },
+            {
+              "record_id": "record-ee70cdd11130fd049c925cafdb6e1700a85a3fcf4c6050d4cd2456182194315e",
+              "source_id": "span-d2856c454b2ff302a5ce48af333225ed3b671293ccb5d8fbfb1b2196eee36118",
+              "sha256": "f05f64313e9c86cfff458523e75b2827aa55b9b2d20dbff73987c4dcccb87e49",
+              "sequence": 12
+            },
+            {
+              "record_id": "record-190d5da258c693698b14f9c2ae2db7dbecf0b8ab447e419e86e1157f2265a15d",
+              "source_id": "span-f6cf7263ae0001d4bd23131620689a96326aaa4325cf3279023607aeb92b6226",
+              "sha256": "e2e09ca6f915bf01885fa5709bebf1c842fe4cffc730ee9009063886d682ca57",
+              "sequence": 13
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "已给完整现场和会后材料后，须保留最初官讼破财被当场否定，改问本人后才有车祸左侧伤判断及确认；会后只承认约三千破财，不能等同官讼全对。死二伤三是再续断后的反馈。后置坤位景门白虎、巽伤门和兑死门等解释不得回填为现场逐步推理；未投影的碎片原盘不补全。",
+            "citations": [
+              "chart",
+              "context"
+            ],
+            "uncertainties": [
+              "原始完整九宫未提供或不在现有投影范围，保留未知，不补造盘；作者报道不等于独立现实验证。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-ea86d002d73e8c074ba86bccdab0a73833d4690b8dda2a7230547b15bfabe416",
+      "event_id": "event-5a5c9c0297bc5bf83fd19b7fe28d118ea14dc6e37f3746864aeb7d6d79516970",
+      "family_id": "family-06659008ffb3141673b64b6c6ce84b0d01dc4649953a444d1d20a8554353479d",
+      "chart_id": "chart-28ef2c4a03ec026666dd8dbf63b8a19f6669c64c59e4029eba274df56fa999b4",
+      "chapter": "24-appendix-bundle",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "mode": "source_reading",
+      "source_reading_review": "明确的资料阅读/反馈后复盘：原书仅局部盘，不能补全或当独立全盘首断。",
+      "source_limit_review": "明确的资料阅读/反馈后复盘：原书仅局部盘，不能补全或当独立全盘首断。",
+      "rules": {},
+      "provided_roles": [],
+      "case": 1,
+      "event": 2,
+      "stage": "books_posthoc",
+      "known": [
+        {
+          "record_id": "record-f159a144523c6300c2fc4eb09b7e89928c7f567635c8716e2d9e32a3a5ada515",
+          "source_id": "span-50ce317e393e9f7c0c6efc37a0f2de7adda2874d5f6dcb8d2615538200870311",
+          "sha256": "f19043ea2869dda384646771ed2744902f6f5a1c3250277a3b675e1e69332180",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-2e7d6ced75b77ce407c7926e918ba376632ffc862c3f204df2553a5ba62c8bc0",
+          "source_id": "span-51c63f62f08d76a9c2b4d1c6a60bf5ddfcc45c21ed1f921afa0ef5e07d0e736e",
+          "sha256": "ad2900a8e4236c8b9f2e5a8e0718cad3510d0878415b8ff2cc895aa42c8e8ae5",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-74f7eda28bd5ad7254ae49220f3d5bb3a08322c0792ec7aa8da920125155e366",
+          "source_id": "span-feec899660f33c8bb7600b42872c8e89c07e475f0ad1e8f337c1b27678be9280",
+          "sha256": "8af0a57f18e3e7d894b28f16c7681fad17666b6c8df1b3793c31b5f36e95bef4",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-b6fe0ccbd3ec6919d68c0a63cfd486cb64d9e4f4ef2953285cca589b630afb3b",
+          "source_id": "span-28cfbdf48833b2951374df621e6c59173a4860d7422bb8d850297bffc00e4c5f",
+          "sha256": "b3a2ed7184a77720b75b3efa8a0924a272aed9f9bfe4e98ff91ea5ea59ce9d44",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-90d8f79fb026dc1dbf84b565b14d8a67d7a04810dc4e6f372ad9fb527073d8b3",
+          "source_id": "span-db58d73a5e1d94e301b020004076eda0cd848fcc4ad333b0d2f45efc6dba6627",
+          "sha256": "6616ad9e60832d5b9d861f3aced37cf0396c2a67d84afdeffc74faf9d56f3529",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-d0a77a4f5c249f3f299aae2efefa5e399fb291c1644e83b32b3f697f7441d70b",
+          "source_id": "span-2276ee8372e5535e007f2a0e0a2ccc4c18b403853c94c5d96d18edc5d5544f38",
+          "sha256": "93c0c1de08ce9c6ee04f994d4845a2894b1df742adf087c6cda1940525537739",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-bc2b6ca11c97b1ca7b9a0aff3bac8567ac4a5649c1892a30a1685e6d48a51938",
+          "source_id": "span-506f6f942b4f68de9bce4ad718cf7b31541f752ef33c0915808f8b32efb123cb",
+          "sha256": "a00eb5350c7e9882f2c71174e9b437bdd5f8a5b5da4d764a6101c074ef79f4e4",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-fa428d5d54d534f36065dd25348816182881666a704f6fa4f3805ba2d010ffaa",
+          "source_id": "span-48f91f92867bae2ce938bfd5c1b3e4fe9b164c281337253b00e8cbf5c03eee0f",
+          "sha256": "a88355dd84aee48c3ef6030eae7dc0353c0692c49a78a523f85d9918a18921f0",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-3e40a266d01903a24e3767fedbc0a2f0e8e72f512de71b90aeb832453774e354",
+          "source_id": "span-6ca0634a6d86393d98828e1f53536609eb9b9eaa64d418b603e65635d47ecbd3",
+          "sha256": "4856ad0f4b2013d8cba2850a4e4faca28dc99993c202e4e5079b1bb3b8d4c2e1",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-0b6e03c1c2edc06f5c29d84e6b1f6870b955a9d77a73d10e8df0bca5aacb6082",
+          "source_id": "span-0a1ebe592bb09a342f4b5875869ce97b90b9f48e5dd4fcce66e2879d6fecf442",
+          "sha256": "94b091bc9ce183619b9dea2d5adcce6273fd2257d8a8a2f19a974806577ef1f5",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-429bcfbd3f7201b3430ffab81598697911a8d694cac2a17cd10e636afb554c50",
+          "source_id": "span-c60083ac4ae7670111dc077108ce20b2bf9ac43c5a2eb20bf673f8adb3963500",
+          "sha256": "cd050fa354f1d006f942b1a8bb4c1b71308617aced0cbc6c2e3f1c6ac9503bc1",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-816a36e0144d44426b3d4c5b995c1f4f3c79d1c8471901faa41c1fed8282e43f",
+          "source_id": "span-1bdd728ce62330bafd9e52e0d632121e1454c86761cb4bb1c08b2abba5a42d1a",
+          "sha256": "f5ce50db47d472ddc17f71179da84f29b5e990bd78133e13cd56d4b980ffe20b",
+          "sequence": 11
+        },
+        {
+          "record_id": "record-ea801043b3f407abe9507c0c16bdaaa23322643b0892da8c60a8f53247ae9fa6",
+          "source_id": "span-9fd8c4cce830f74e9af670e6e6e636759973aa29447dc8edde7f1368401ebca5",
+          "sha256": "b53e2a228e831eee0d821834f57711260c9f302a85e806f197a9222d39fee293",
+          "sequence": 12
+        },
+        {
+          "record_id": "record-8e648e0a236172258359b7e00d546c3ab2d3f2f081f314b7829de3e638e203f0",
+          "source_id": "span-94fd5ccd840b721ce8cba9934c50a5868401b6a42ede76ff545fd398b66b114c",
+          "sha256": "9a95dc26b81f57c9afc5f13ea7be5d5d7133ca9efe670a00a4a4a65bc75e8680",
+          "sequence": 13
+        },
+        {
+          "record_id": "record-3c1328ef578fd1b88151325d7131cc3d3f5cd1e9cbb10a0d57835e1fa70327a2",
+          "source_id": "span-3d4f4f296e6f4e62f741a6d6c6622caa46b71f1b9e20316caa21d55688ce63f7",
+          "sha256": "e7ac689436411f7d5bec57580cf650ce00de8fa88cb4d0d0da1e76d0f6c1675a",
+          "sequence": 14
+        },
+        {
+          "record_id": "record-4c7f404a3d98935a6e5282cf778e628cf7756fefe550c97141f03816944363c7",
+          "source_id": "span-ec32ec128b27bf64c38276ee4eddb8285bfa55477fe20f63414aba287208666e",
+          "sha256": "efb1a0080b0750f4cb0805f61690e375fef3b027174e41ecb11db0c98e9e9763",
+          "sequence": 15
+        }
+      ],
+      "cutoff": 16,
+      "tasks": [
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-90d8f79fb026dc1dbf84b565b14d8a67d7a04810dc4e6f372ad9fb527073d8b3",
+              "source_id": "span-db58d73a5e1d94e301b020004076eda0cd848fcc4ad333b0d2f45efc6dba6627",
+              "sha256": "6616ad9e60832d5b9d861f3aced37cf0396c2a67d84afdeffc74faf9d56f3529",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-ea801043b3f407abe9507c0c16bdaaa23322643b0892da8c60a8f53247ae9fa6",
+              "source_id": "span-9fd8c4cce830f74e9af670e6e6e636759973aa29447dc8edde7f1368401ebca5",
+              "sha256": "b53e2a228e831eee0d821834f57711260c9f302a85e806f197a9222d39fee293",
+              "sequence": 12
+            },
+            {
+              "record_id": "record-8e648e0a236172258359b7e00d546c3ab2d3f2f081f314b7829de3e638e203f0",
+              "source_id": "span-94fd5ccd840b721ce8cba9934c50a5868401b6a42ede76ff545fd398b66b114c",
+              "sha256": "9a95dc26b81f57c9afc5f13ea7be5d5d7133ca9efe670a00a4a4a65bc75e8680",
+              "sequence": 13
+            },
+            {
+              "record_id": "record-3c1328ef578fd1b88151325d7131cc3d3f5cd1e9cbb10a0d57835e1fa70327a2",
+              "source_id": "span-3d4f4f296e6f4e62f741a6d6c6622caa46b71f1b9e20316caa21d55688ce63f7",
+              "sha256": "e7ac689436411f7d5bec57580cf650ce00de8fa88cb4d0d0da1e76d0f6c1675a",
+              "sequence": 14
+            },
+            {
+              "record_id": "record-4c7f404a3d98935a6e5282cf778e628cf7756fefe550c97141f03816944363c7",
+              "source_id": "span-ec32ec128b27bf64c38276ee4eddb8285bfa55477fe20f63414aba287208666e",
+              "sha256": "efb1a0080b0750f4cb0805f61690e375fef3b027174e41ecb11db0c98e9e9763",
+              "sequence": 15
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "来源阅读中，出版预测依会场东侧震位与景门书稿、开门出版社，且作者明说没听清书名而按一二三的序号比较。现场编辑意见、两天后信和2000年改名出版是不同时间层；出版社认可不等于当场已经出版，不能提前使用最终书名，也不能把原本只一本的判断拆成三独立案例。",
+            "citations": [
+              "chart",
+              "context"
+            ],
+            "uncertainties": [
+              "原始完整九宫未提供或不在现有投影范围，保留未知，不补造盘；作者报道不等于独立现实验证。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-ea86d002d73e8c074ba86bccdab0a73833d4690b8dda2a7230547b15bfabe416",
+      "event_id": "event-f1614748d2320ad62e8a4ad14e65c9af3dc825fdd13b84de49a9c4fd800972d5",
+      "family_id": "family-06659008ffb3141673b64b6c6ce84b0d01dc4649953a444d1d20a8554353479d",
+      "chart_id": "chart-51a3509edea59beb09a82dbc3e496a35ffd2be97caae2d246d2ba086699b490f",
+      "chapter": "24-appendix-bundle",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    }
+  ]
+}

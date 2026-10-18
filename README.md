@@ -1,5 +1,7 @@
 全书基础任务覆盖已更新为[book_preparation_v2](data/splits/book_preparation_v2.json)：98故事、127任务，82训练/21验证/20测试/4开发；其中32是本章方法任务，其余为带明确范围的原表/局部资料阅读。各故事的专业方法审读程度见[覆盖清单](data/provenance/book_training_coverage_v2.json)。
 
+全章节方法微调正在推进：98故事已逐源审读，26份来源均有任务，新冻结391条（265训练/60验证/9开发/57封存测试）；另3条跨章重复事件训练任务隔离。新版配置为27B最后层7模块rank16、最多30遍并按验证结果迭代。目前正在缓存准备，尚无新版模型通过成绩。详见[全章节研究状态](docs/BOOK_METHOD_ITERATION.md)。
+
 [钱物丢失章的Mac与4090试验入口](docs/METHOD_PILOT.md) · [本轮实际数据与工程验收](data/provenance/book_pilot_validation_v1.json)
 
 当前建模进度：全书98故事/94家族已固定划分（65训练/15验证/15测试/3开发）；[v2准备清单](data/splits/book_preparation_v2.json)的127基础任务覆盖全部故事，其中专业方法审读仍8案32题。Mac已实际完成27B限定LoRA三遍/66更新；验证损失下降，但同题生成仍有读盘、条件、输出和应期错误，四验证子题未完整通过，尚不进入4090系统训练。[实际试验与逐来源比较](data/provenance/mac_lost_method_comparison_v1.json) · [模型登记及附件上传状态](data/provenance/mac_lost_method_model_v1.json)。独立现实准确率尚未测得。

@@ -1,0 +1,49 @@
+{
+  "scope": "all_book_curriculum_preparation_validation_not_training_success",
+  "source_data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "curriculum_sha256": "59660caf4f0b5984a2022990d7ff803135287c5ba14f7212c2bb766aa255444b",
+  "cases_source_reviewed": 98,
+  "source_inputs_with_tasks": 26,
+  "tasks": 391,
+  "splits": {
+    "train": 265,
+    "validation": 60,
+    "development": 9,
+    "test": 57
+  },
+  "quarantined_duplicate_tasks": 3,
+  "original_event_families": 94,
+  "reference_reading_groups_are_event_families": false,
+  "original_snapshot_files": 52,
+  "original_snapshot_changed": 0,
+  "protected_file_hashes_verified": 56,
+  "protected_files_changed": 0,
+  "full_local_regression": {
+    "discovered": 600,
+    "passed": 600,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 91.871,
+    "log_sha256": "6b7a3e516327a1a0c377de1b778a43f0114a4ffca841ae731340953a3063e245"
+  },
+  "latest_adversarial_suite_after_test_strengthening": {
+    "discovered": 15,
+    "passed": 15,
+    "seconds": 5.01,
+    "log_sha256": "1fe7f47c30f5dd437aa8bde3861e46ebbb68ee667776708fd57bca15360704a3"
+  },
+  "stage_a_cache_at_recording": {
+    "examples_complete": 17,
+    "examples_total": 166,
+    "full_cached_loss_delta": 0.0,
+    "optimizer_updates": 0
+  },
+  "new_official_optimizer_updates": 0,
+  "all_chapter_model_pass": false,
+  "test_inference_opened": false,
+  "github_code_sync": "pending_this_commit",
+  "github_four_ci": "pending_this_commit",
+  "model_release_upload": "pending_normal_user_login",
+  "recorded_unix": 1792324408.082647
+}

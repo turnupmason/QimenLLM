@@ -1,0 +1,34 @@
+{
+  "scope": "new_curriculum_model_input_isolation_only",
+  "reviewed_by": "Codex cross-chapter historical-source comparison",
+  "basis": "Both sources identify the one-year-old landlord child taken on1996-11-23 and returned11-24, followed by prosecution inJan1997. Same underlying case; different original DB families do not provide independence.",
+  "source_rows": [
+    {
+      "chapter": "14-missing-person",
+      "case_id": "case-99e5d7b77d9880042106cce4c60b434f34205f782492f0a46b28b2e255e65610",
+      "event_id": "event-e425fc0f557667fd3e3d6abbe7e756a2774c525891aefedef4cf3567139eeb55",
+      "family_id": "family-4e07877a876ef919b876e39a8ab5dfadacaa19a746877ac242c592369e5a6bfe",
+      "record_id": "record-9adfb1f8f69868944fd81fe3fb57547d791f17888bd388d279fa1c1df1e470b1",
+      "source_id": "span-e72cbc8318b39be34973f031799c41e02f5e11afcb46a9c34d9cb21fef3444cd",
+      "text": "1996年11月23日晚上9点多钟，鹿泉市精神文明办主任韩少清给我打电话，说今天上午10点左右石家庄郊区有一周岁男孩被一个妇女抱走，至今下落不明，看能否找回。\n",
+      "text_sha256": "f751f58858bfd2d1ea591d7a75d253f401ed2bc0db45c35e32c5d230ffe6db46"
+    },
+    {
+      "chapter": "17-litigation",
+      "case_id": "case-405d8fe297401efc0210237a2bf0d70b183dd3a3eacc7cc334ce4d04a69d26cf",
+      "event_id": "event-bd89407e3ce0805137793dea2fd3b6af3b8787c5656fdc88a98645938f4131f4",
+      "family_id": "family-47f75d3976795c0d19038d9392d04783dd547fbb81bd558a77afbe8315bf44c2",
+      "record_id": "record-c5773d374e2d92991d7c95acc9b33bde43eb1f9fc1a04d250039c2c548dd049f",
+      "source_id": "span-7326f36f1b37bc365ac4635de5b00c9d2a533f65c143f8d008228e59bb69ee4a",
+      "text": "外地在石市打工的一男一女，1996年11月23日将房东周岁男孩抱走，11月24日追回。一男一女先后被拘留逮捕，房东以拐骗儿童罪将这对男女告上法庭。\n",
+      "text_sha256": "f0d056aac33e476bc9465fcfbb871f710a003dc77b04b1574d8038b9be49f679"
+    }
+  ],
+  "excluded_training_families": [
+    "family-47f75d3976795c0d19038d9392d04783dd547fbb81bd558a77afbe8315bf44c2"
+  ],
+  "retained_validation_family": "family-4e07877a876ef919b876e39a8ab5dfadacaa19a746877ac242c592369e5a6bfe",
+  "original_database_or_frozen_assignments_modified": false,
+  "all_related_new_training_examples_excluded": true,
+  "model_updates_before_detection": 0
+}

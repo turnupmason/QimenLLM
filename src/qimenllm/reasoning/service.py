@@ -86,6 +86,9 @@ class QimenService:
             # keyword; production gates and success semantics remain unchanged.
             from ..evaluation.research import ResearchRequest, research_ask
             from ..evaluation.method import MethodRequest, method_ask
+            from ..evaluation.book_method import BookMethodRequest, book_method_ask
+            if isinstance(research, BookMethodRequest):
+                return book_method_ask(self, inquiry, research)
             if isinstance(research, MethodRequest):
                 return method_ask(self, inquiry, research)
             if not isinstance(research, ResearchRequest):

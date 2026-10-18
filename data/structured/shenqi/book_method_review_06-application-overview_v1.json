@@ -1,0 +1,218 @@
+{
+  "schema": "book-method-semantic-review-v1",
+  "source_data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "reviewed_by": "Codex source-grounded semantic curation",
+  "rows": [
+    {
+      "mode": "source_reading",
+      "source_reading_review": "明确的资料阅读/反馈后复盘：原书仅局部盘，不能补全或当独立全盘首断。",
+      "source_limit_review": "明确的资料阅读/反馈后复盘：原书仅局部盘，不能补全或当独立全盘首断。",
+      "rules": {},
+      "provided_roles": [],
+      "case": 1,
+      "stage": "partial_source_method",
+      "known": [
+        {
+          "record_id": "record-926a8cdf8fb5fd8ffd9cfd7ca24975a6f33679b84afd6900fc6e60ffb848d094",
+          "source_id": "span-2475cc7000bef244bbd97cf73c922d24de5feb0aea6584b61e942287d07b4df6",
+          "sha256": "c8bc7f9b42ed7f7f371e3f545d526bceff3b998ae8cd60be7c4f53bdde677ec4",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-20134fa7ff189a2980ec70981272522a2e8893cb3678d150cd8ba9b0857c4715",
+          "source_id": "span-16228c47465c3f9198702a52c878817cd0ff2f5b8837186440714e176528bece",
+          "sha256": "c15bd151f2996e05c3f5f081f33bebaeae76b776d6a0102257a820a95392ee79",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-4a7b7f770f38579a13e8ce2760d6523fae25ca4f2cbe8a2eed685a9ed84331d5",
+          "source_id": "span-b30f00d25e9c74dbc3e0cc772c6d6e59bbf694e39d91e6f547133eb7fda0bc33",
+          "sha256": "11215bc99cf197d4a76c3e48a4431401ade8329afeb672f7ef4714a82e37de17",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-594220ad5ec33eb14549a6252d009afcf8283ffc94ba40450332f46b41e7b186",
+          "source_id": "span-dc24d485d277c7a8da49ebe745ec7d01de2395d21ea83882b7526021785e3bdf",
+          "sha256": "ba8bc07990977c37fd43eddacb8e29d5993eb2137fce545a6a15d84226853684",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-68e677b8aab33b8dea4203b26c7b43ab06477d7656cd68a579e15de25e56870f",
+          "source_id": "span-ac1137e18e8ca7334ecd50b24abc2bec4887400fa5c01fe4d19e1b58b9557794",
+          "sha256": "35b2da7ca7fa4a0010bc2f07dc1c422b02bbe567807492582684da5ad858ea03",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-8f456859aae9ef4853eed0cb94af4be5486feb5285dab7daf0633cac1414588f",
+          "source_id": "span-28b2e02d41bab5e0e3c581ff6b6cd0ea4b0614d1f04fddd82d638195bb732756",
+          "sha256": "e35604c23d8fc497a43ba1d7dc44f64fac6ce72f5646425c7f27409a3db4ba79",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-13e9d9847adb867d849b143f6ffb6c745d0db4f20a8ceae809a1e7dde6642e76",
+          "source_id": "span-87d3e62423e7506a96e78a89a1376e06dcac5f8ddd3f7e1c85b0174b5b15b2a6",
+          "sha256": "89cdc73c8e12480e4ef90751966b6f7fa91bfbdc2af82add664491f53d184a43",
+          "sequence": 6
+        }
+      ],
+      "cutoff": 7,
+      "tasks": [
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-4a7b7f770f38579a13e8ce2760d6523fae25ca4f2cbe8a2eed685a9ed84331d5",
+              "source_id": "span-b30f00d25e9c74dbc3e0cc772c6d6e59bbf694e39d91e6f547133eb7fda0bc33",
+              "sha256": "11215bc99cf197d4a76c3e48a4431401ade8329afeb672f7ef4714a82e37de17",
+              "sequence": 2
+            },
+            {
+              "record_id": "record-594220ad5ec33eb14549a6252d009afcf8283ffc94ba40450332f46b41e7b186",
+              "source_id": "span-dc24d485d277c7a8da49ebe745ec7d01de2395d21ea83882b7526021785e3bdf",
+              "sha256": "ba8bc07990977c37fd43eddacb8e29d5993eb2137fce545a6a15d84226853684",
+              "sequence": 3
+            },
+            {
+              "record_id": "record-68e677b8aab33b8dea4203b26c7b43ab06477d7656cd68a579e15de25e56870f",
+              "source_id": "span-ac1137e18e8ca7334ecd50b24abc2bec4887400fa5c01fe4d19e1b58b9557794",
+              "sha256": "35b2da7ca7fa4a0010bc2f07dc1c422b02bbe567807492582684da5ad858ea03",
+              "sequence": 4
+            },
+            {
+              "record_id": "record-8f456859aae9ef4853eed0cb94af4be5486feb5285dab7daf0633cac1414588f",
+              "source_id": "span-28b2e02d41bab5e0e3c581ff6b6cd0ea4b0614d1f04fddd82d638195bb732756",
+              "sha256": "e35604c23d8fc497a43ba1d7dc44f64fac6ce72f5646425c7f27409a3db4ba79",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-13e9d9847adb867d849b143f6ffb6c745d0db4f20a8ceae809a1e7dde6642e76",
+              "source_id": "span-87d3e62423e7506a96e78a89a1376e06dcac5f8ddd3f7e1c85b0174b5b15b2a6",
+              "sha256": "89cdc73c8e12480e4ef90751966b6f7fa91bfbdc2af82add664491f53d184a43",
+              "sequence": 6
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "已给作者分析的资料阅读中，他按预告的发射时起局，以五不遇、值符辛癸/辛庚、伤门伏吟及九天下临乙戊等组织不利判断。这里能核对的只是局部原文报告，不能展开成完整九宫、独立校历或一套已经验证的航天事故模型。最终失败报道未放入本题。",
+            "citations": [
+              "chart",
+              "context"
+            ],
+            "uncertainties": [
+              "原始完整九宫未提供或不在现有投影范围，保留未知，不补造盘；作者报道不等于独立现实验证。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-b3dd6097c4186c79d3b834cef63cad5cf7f195da0d7946de4495c1184b3e6459",
+      "event_id": "event-43dad715258f2b6a25226bb868b95325f14d86a54c5295892c23dd6968089a66",
+      "family_id": "family-128b8f4ac86abd5fa6aea2c91a934ddb86484a1974788fac8eb5af952dcefd3e",
+      "chart_id": "chart-6762c00eade7b6d2801b9e372f4c8b8de62e5f9b185cb7cc68e9d74ca99e1e98",
+      "chapter": "06-application-overview",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "mode": "source_reading",
+      "source_reading_review": "明确的资料阅读/反馈后复盘：原书仅局部盘，不能补全或当独立全盘首断。",
+      "source_limit_review": "明确的资料阅读/反馈后复盘：原书仅局部盘，不能补全或当独立全盘首断。",
+      "rules": {},
+      "provided_roles": [],
+      "case": 1,
+      "stage": "after_launch_reports",
+      "known": [
+        {
+          "record_id": "record-926a8cdf8fb5fd8ffd9cfd7ca24975a6f33679b84afd6900fc6e60ffb848d094",
+          "source_id": "span-2475cc7000bef244bbd97cf73c922d24de5feb0aea6584b61e942287d07b4df6",
+          "sha256": "c8bc7f9b42ed7f7f371e3f545d526bceff3b998ae8cd60be7c4f53bdde677ec4",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-20134fa7ff189a2980ec70981272522a2e8893cb3678d150cd8ba9b0857c4715",
+          "source_id": "span-16228c47465c3f9198702a52c878817cd0ff2f5b8837186440714e176528bece",
+          "sha256": "c15bd151f2996e05c3f5f081f33bebaeae76b776d6a0102257a820a95392ee79",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-4a7b7f770f38579a13e8ce2760d6523fae25ca4f2cbe8a2eed685a9ed84331d5",
+          "source_id": "span-b30f00d25e9c74dbc3e0cc772c6d6e59bbf694e39d91e6f547133eb7fda0bc33",
+          "sha256": "11215bc99cf197d4a76c3e48a4431401ade8329afeb672f7ef4714a82e37de17",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-594220ad5ec33eb14549a6252d009afcf8283ffc94ba40450332f46b41e7b186",
+          "source_id": "span-dc24d485d277c7a8da49ebe745ec7d01de2395d21ea83882b7526021785e3bdf",
+          "sha256": "ba8bc07990977c37fd43eddacb8e29d5993eb2137fce545a6a15d84226853684",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-68e677b8aab33b8dea4203b26c7b43ab06477d7656cd68a579e15de25e56870f",
+          "source_id": "span-ac1137e18e8ca7334ecd50b24abc2bec4887400fa5c01fe4d19e1b58b9557794",
+          "sha256": "35b2da7ca7fa4a0010bc2f07dc1c422b02bbe567807492582684da5ad858ea03",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-8f456859aae9ef4853eed0cb94af4be5486feb5285dab7daf0633cac1414588f",
+          "source_id": "span-28b2e02d41bab5e0e3c581ff6b6cd0ea4b0614d1f04fddd82d638195bb732756",
+          "sha256": "e35604c23d8fc497a43ba1d7dc44f64fac6ce72f5646425c7f27409a3db4ba79",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-13e9d9847adb867d849b143f6ffb6c745d0db4f20a8ceae809a1e7dde6642e76",
+          "source_id": "span-87d3e62423e7506a96e78a89a1376e06dcac5f8ddd3f7e1c85b0174b5b15b2a6",
+          "sha256": "89cdc73c8e12480e4ef90751966b6f7fa91bfbdc2af82add664491f53d184a43",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-2e49b5b436ada9981a51f249d6d5396e5116341cf355aea666e65b293bcc198b",
+          "source_id": "span-b217e59519ceb89f7648374531d4c29844a6dfe571be997dbe979d71d100990a",
+          "sha256": "959cd723ac0f4d2002e85f0981b83fcebcb0c61193b6e91f9d5edb8cb744e6f3",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-e3a2f5ce0dad1b594cb8c3ca732586a2a8560ca58f92195085911d0bf3e38940",
+          "source_id": "span-26e7b12c6b23da7282c2ff0e9a6ea63f64c2b2491f338653ba7c8f08caf95a0d",
+          "sha256": "4cd6aaa031bed6297e086693f6365da84b8a7f952c4003519f998fc47f4117c6",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-c4e8110a797614359778e1ad19716864427f4dd6016f0373909c4d2709585a0f",
+          "source_id": "span-ba5743b0cc00ddd4eef482d8409d4be857dc437597a83bbb239390b68258a013",
+          "sha256": "3252f09e3e29df234f38a8648311f7c86915b4a5eb48907791fae95ef57fd8b1",
+          "sequence": 9
+        }
+      ],
+      "cutoff": 10,
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-c4e8110a797614359778e1ad19716864427f4dd6016f0373909c4d2709585a0f",
+              "source_id": "span-ba5743b0cc00ddd4eef482d8409d4be857dc437597a83bbb239390b68258a013",
+              "sha256": "3252f09e3e29df234f38a8648311f7c86915b4a5eb48907791fae95ef57fd8b1",
+              "sequence": 9
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "发射失败报道已作为已知后，作者后置补以天冲坤二逢丑月木弱克土反悔作凶解释。它不是预报时已经展开的那条理由，也不能把报道损失和伤亡当成从局部盘独立算出的观测数据。",
+            "citations": [
+              "chart",
+              "context"
+            ],
+            "uncertainties": [
+              "原始完整九宫未提供或不在现有投影范围，保留未知，不补造盘；作者报道不等于独立现实验证。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-b3dd6097c4186c79d3b834cef63cad5cf7f195da0d7946de4495c1184b3e6459",
+      "event_id": "event-43dad715258f2b6a25226bb868b95325f14d86a54c5295892c23dd6968089a66",
+      "family_id": "family-128b8f4ac86abd5fa6aea2c91a934ddb86484a1974788fac8eb5af952dcefd3e",
+      "chart_id": "chart-6762c00eade7b6d2801b9e372f4c8b8de62e5f9b185cb7cc68e9d74ca99e1e98",
+      "chapter": "06-application-overview",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    }
+  ]
+}

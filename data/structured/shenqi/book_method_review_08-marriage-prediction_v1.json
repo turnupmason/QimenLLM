@@ -1,0 +1,1663 @@
+{
+  "schema": "book-method-semantic-review-v1",
+  "source_data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "reviewed_by": "Codex source-grounded semantic curation",
+  "rows": [
+    {
+      "case": 1,
+      "stage": "initial",
+      "mode": "initial",
+      "known": [
+        {
+          "record_id": "record-2c0f6d9df879e03ea3a1a2f32745339327eab277d19bdf0f220aea221c0272e6",
+          "source_id": "span-107db76516f01fc58fbd138cc16d8283554aaf040c76a8dac2d5701ff9f88085",
+          "sha256": "7285ebbc6df75f793c9e5088c707380fcf87794ddf731c33fea43d9ad2896eca",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-046903b277071a4f22be6112141700b85311d77561f453b31d67162ff275328d",
+          "source_id": "span-2d3a6c0249dfce406ba70562a52f7466c2af40e494c56669e5942a726a80d49a",
+          "sha256": "380a14f3d45d13e3d063b9723ace7c81398a89cd06a32a9cf16d2cd685fb5674",
+          "sequence": 1
+        }
+      ],
+      "cutoff": 3,
+      "rules": {
+        "marriage": "测恋爱婚姻一般以天盘乙奇为女方，天盘庚为男方",
+        "year": "如果预测成婚或离婚等大事，还可以分别看男、女双方的年命落宫情况"
+      },
+      "provided_roles": [
+        "天盘乙女、庚男"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-5e092e6e4642933ce5c5278601754e18e09c860814615ccb3c2d6d953dae49a0",
+              "source_id": "span-e4cd8ab7a2ec0093db57294709b3b31ce41d02a0bb64b52070f4543319cfabf8",
+              "sha256": "ff75dc584451a5249420c5280ecb038248d72c3f4256c663b33d1f3fbb84634c",
+              "sequence": 3
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "母亲代问儿子婚事，作者这轮采用婚姻一般乙女庚男视角，不是把母亲日干当女方，也不能仅因儿子三十岁而另换用神。",
+            "citations": [
+              "chart",
+              "context",
+              "marriage",
+              "year"
+            ],
+            "uncertainties": [
+              "一般男女、日干人物、配偶相合干和年命视角须分开；只复现此案方法。"
+            ],
+            "bindings": [
+              {
+                "role": "对象女方",
+                "symbol": "天盘乙奇",
+                "condition": "本例一般婚姻取法"
+              },
+              {
+                "role": "儿子男方",
+                "symbol": "天盘庚",
+                "condition": "同一一般法"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-5e092e6e4642933ce5c5278601754e18e09c860814615ccb3c2d6d953dae49a0",
+              "source_id": "span-e4cd8ab7a2ec0093db57294709b3b31ce41d02a0bb64b52070f4543319cfabf8",
+              "sha256": "ff75dc584451a5249420c5280ecb038248d72c3f4256c663b33d1f3fbb84634c",
+              "sequence": 3
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "原表乙在坎一、庚在巽四，分别临休门与杜门。乙水生庚宫木是宫关系，不把干自身乙木庚金偷换为宫生克。",
+            "citations": [
+              "chart",
+              "context",
+              "marriage",
+              "year"
+            ],
+            "uncertainties": [
+              "一般男女、日干人物、配偶相合干和年命视角须分开；只复现此案方法。"
+            ]
+          },
+          "facts": [
+            [
+              1,
+              "heaven_stem"
+            ],
+            [
+              4,
+              "heaven_stem"
+            ],
+            [
+              1,
+              "door"
+            ],
+            [
+              4,
+              "door"
+            ]
+          ]
+        }
+      ],
+      "case_id": "case-e5446929f76492002068967bd0f7d69ae58788ae47b381af75f9e17a671201fe",
+      "event_id": "event-de8ef26f57a95fb998260252629c1fd8c9e4676ef54d9e2f5578cf11f847ebbc",
+      "family_id": "family-f2892a286de80434bcdbb1d08211048f0615988fc677421fb242c76ec5258b81",
+      "chart_id": "chart-75ec30d71074d8ea5afcb0f91e8210708d6999bd775d11565b7a8e06a707c377",
+      "chapter": "08-marriage-prediction",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 1,
+      "stage": "after_first_description",
+      "mode": "continuation",
+      "known": [
+        {
+          "record_id": "record-2c0f6d9df879e03ea3a1a2f32745339327eab277d19bdf0f220aea221c0272e6",
+          "source_id": "span-107db76516f01fc58fbd138cc16d8283554aaf040c76a8dac2d5701ff9f88085",
+          "sha256": "7285ebbc6df75f793c9e5088c707380fcf87794ddf731c33fea43d9ad2896eca",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-046903b277071a4f22be6112141700b85311d77561f453b31d67162ff275328d",
+          "source_id": "span-2d3a6c0249dfce406ba70562a52f7466c2af40e494c56669e5942a726a80d49a",
+          "sha256": "380a14f3d45d13e3d063b9723ace7c81398a89cd06a32a9cf16d2cd685fb5674",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-5e092e6e4642933ce5c5278601754e18e09c860814615ccb3c2d6d953dae49a0",
+          "source_id": "span-e4cd8ab7a2ec0093db57294709b3b31ce41d02a0bb64b52070f4543319cfabf8",
+          "sha256": "ff75dc584451a5249420c5280ecb038248d72c3f4256c663b33d1f3fbb84634c",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-0f20b0990fa03371ee4a6cff65f5bf4b44358b0f507abb0c0f2749c53ac67786",
+          "source_id": "span-78685f6de77842d3c3069385530da183aba8671735f62ab3285f8d3a2203c809",
+          "sha256": "83aa4caf0ed40b3d9d6e0991b5871172455b8e6635f48c37e19d80dacec9bb1d",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-01bef75298d6c2e98e5c29914ff8d3bca96c233404013e062108f09c89690b46",
+          "source_id": "span-124258e2ab9a1e0cee3e818569dc041f8ce1fed225884c16e0fcbf5f0f31a732",
+          "sha256": "6547360f07ca6387ff619711791441b812615a433e4d3cdf5c3311f475825d7d",
+          "sequence": 5
+        }
+      ],
+      "cutoff": 6,
+      "rules": {
+        "marriage": "测恋爱婚姻一般以天盘乙奇为女方，天盘庚为男方",
+        "year": "如果预测成婚或离婚等大事，还可以分别看男、女双方的年命落宫情况"
+      },
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-eb51fc8480862ad2c54a96252d29659b5406385a2409a4aae3f17fc539b4ac51",
+              "source_id": "span-597ddb8e5834503068142ff51bcc54f8a6a8c34bca7334d6e3e6ecd05a18ad45",
+              "sha256": "37857387dd79d7ec487537bc4fb81de43d2a127afbe604bc1d7044e5eefe9e1e",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-9b36c56031e2074e1c5c70357ffed5cebc3544f31bfdd66438667cdfb8305415",
+              "source_id": "span-f0f372c9bd9e24e499acc98e920479613b0a45ea58e9855fd58205e53489fb56",
+              "sha256": "a1c9b128da5bd59e97c9cf8d1065eb597dadce5b0149360c692e65b2a1c854d8",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-02334b727a8e9063f9a076e077dce357cf2d001f7930eae76d3f19b9b3125eaf",
+              "source_id": "span-bbaf52177a195cf62fe10871f1f0ca03eecb90b913164f052dbc61b3e4d50db5",
+              "sha256": "ebfd142e1b0fea7e5b89d2f981720123f95fc84c3dd54d10f60097782fb83b1d",
+              "sequence": 9
+            },
+            {
+              "record_id": "record-652fd18aacf50adc9679a65d6a05cf6414f5b9fe574f6aaf5d80fe86922a4b9e",
+              "source_id": "span-3916318e8824de30b6ca88cbb04cd8eff6041f0780bac8af0bb587b4fb583d10",
+              "sha256": "e9eb9be2916c310477b3846a2d24e5bddc7bae8e29dac88fa25412fa048fbc5e",
+              "sequence": 10
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-eb51fc8480862ad2c54a96252d29659b5406385a2409a4aae3f17fc539b4ac51",
+              "source_id": "span-597ddb8e5834503068142ff51bcc54f8a6a8c34bca7334d6e3e6ecd05a18ad45",
+              "sha256": "37857387dd79d7ec487537bc4fb81de43d2a127afbe604bc1d7044e5eefe9e1e",
+              "sequence": 6,
+              "quote": "庚落4宫临杜门，闭塞不通，上乘螣蛇主变化"
+            },
+            {
+              "record_id": "record-eb51fc8480862ad2c54a96252d29659b5406385a2409a4aae3f17fc539b4ac51",
+              "source_id": "span-597ddb8e5834503068142ff51bcc54f8a6a8c34bca7334d6e3e6ecd05a18ad45",
+              "sha256": "37857387dd79d7ec487537bc4fb81de43d2a127afbe604bc1d7044e5eefe9e1e",
+              "sequence": 6,
+              "quote": "六合主婚姻，落2宫临死门，逢空亡"
+            },
+            {
+              "record_id": "record-eb51fc8480862ad2c54a96252d29659b5406385a2409a4aae3f17fc539b4ac51",
+              "source_id": "span-597ddb8e5834503068142ff51bcc54f8a6a8c34bca7334d6e3e6ecd05a18ad45",
+              "sha256": "37857387dd79d7ec487537bc4fb81de43d2a127afbe604bc1d7044e5eefe9e1e",
+              "sequence": 6,
+              "quote": "大局为伏吟格"
+            },
+            {
+              "record_id": "record-02334b727a8e9063f9a076e077dce357cf2d001f7930eae76d3f19b9b3125eaf",
+              "source_id": "span-bbaf52177a195cf62fe10871f1f0ca03eecb90b913164f052dbc61b3e4d50db5",
+              "sha256": "ebfd142e1b0fea7e5b89d2f981720123f95fc84c3dd54d10f60097782fb83b1d",
+              "sequence": 9,
+              "quote": "庚在巽4宫伏吟，临天辅星，克六合所落坤2宫"
+            }
+          ],
+          "answer": {
+            "explanation": "新增反馈是女方积极、儿子消极。作者沿原盘把庚临杜门螣蛇、六合死门空亡、时干伤门与伏吟合看，认为婚事难成；再由庚宫天辅及克六合解释男方偏重学习。女方生男方这项有利不能覆盖其他不利条件，后来的分手尚未知。",
+            "citations": [
+              "chart",
+              "context",
+              "marriage",
+              "year"
+            ],
+            "uncertainties": [
+              "一般男女、日干人物、配偶相合干和年命视角须分开；只复现此案方法。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-e5446929f76492002068967bd0f7d69ae58788ae47b381af75f9e17a671201fe",
+      "event_id": "event-de8ef26f57a95fb998260252629c1fd8c9e4676ef54d9e2f5578cf11f847ebbc",
+      "family_id": "family-f2892a286de80434bcdbb1d08211048f0615988fc677421fb242c76ec5258b81",
+      "chart_id": "chart-75ec30d71074d8ea5afcb0f91e8210708d6999bd775d11565b7a8e06a707c377",
+      "chapter": "08-marriage-prediction",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 2,
+      "stage": "initial",
+      "mode": "initial",
+      "known": [
+        {
+          "record_id": "record-27fe9285a03fbf900e3b8a957d92b7af0137260a4ce8ec74f2501083af745644",
+          "source_id": "span-21ef1bb09622eee3ad4d862ba33e802c8e292ebce111cfe728b194f186ef8596",
+          "sha256": "b4f598821b7131028cc76155707d71f0b20ca0ae98bb79773563a627d35476bb",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-816561c7cce26e897e65dd305cc84366a56c52acb00b08ab56f56cdc7028837b",
+          "source_id": "span-7e0cbc41d63d691b5ddd932bacfd2ef3d6bd52f22f12d48931e60a8041a6f8a3",
+          "sha256": "24bb4a3a5411164d37e2fb8c30de2c688fdcde4b0a91d77ae89c781f5bce293f",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-8588b723a32aa8438f1918c774f615cb12db09754d6e99543163d095fd907622",
+          "source_id": "span-72661f247b78ad28996ff39555fadbaebfe8061d258412e06ce30e35eb82ceb4",
+          "sha256": "21fd3a18bd0e37c708758bf4bfd9fd1926cdc79a61070bc5e5034265900a5708",
+          "sequence": 2
+        }
+      ],
+      "cutoff": 4,
+      "rules": {
+        "marriage": "测恋爱婚姻一般以天盘乙奇为女方，天盘庚为男方",
+        "year": "如果预测成婚或离婚等大事，还可以分别看男、女双方的年命落宫情况"
+      },
+      "provided_roles": [
+        "乙庚一般男女不自动对应这对新恋人；女命庚男命甲辰壬已知"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-f2f0e5ed3a576a31c4e45b149d19a9c0a98cce7ff254a17aef9f0fa53797ce31",
+              "source_id": "span-4959fa2c9ecce3eef8ee56a31ea5e09ab20a8c5c63d60cbe38ffb6fc17dc0e37",
+              "sha256": "b9cc227cf998b3e153715b71059f38c4ef1cd77cc309351ba70ea4b8636ff4f6",
+              "sequence": 4
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "已知女方年命庚、男方甲辰壬。本例先审查一般乙庚是否与刚恋爱背景相合；作者认为乙空亡临死冲庚，与已知女方生门及当前恋爱时势不合，故不能机械把乙庚当这对当事人，年命另立口径。",
+            "citations": [
+              "chart",
+              "context",
+              "marriage",
+              "year"
+            ],
+            "uncertainties": [
+              "一般男女、日干人物、配偶相合干和年命视角须分开；只复现此案方法。"
+            ],
+            "bindings": [
+              {
+                "role": "女方年命",
+                "symbol": "庚",
+                "condition": "1970庚戌出生已知"
+              },
+              {
+                "role": "男方年命",
+                "symbol": "甲辰壬",
+                "condition": "1964甲辰出生已知"
+              },
+              {
+                "role": "一般婚姻男女",
+                "symbol": "乙、庚",
+                "condition": "先核对适用对象，不能自动覆盖年命"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-f2f0e5ed3a576a31c4e45b149d19a9c0a98cce7ff254a17aef9f0fa53797ce31",
+              "source_id": "span-4959fa2c9ecce3eef8ee56a31ea5e09ab20a8c5c63d60cbe38ffb6fc17dc0e37",
+              "sha256": "b9cc227cf998b3e153715b71059f38c4ef1cd77cc309351ba70ea4b8636ff4f6",
+              "sequence": 4
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "坎一乙以前缀保留且临死门；离九庚临生门，巽四壬按原表读取。前缀不能改成坎一主干。",
+            "citations": [
+              "chart",
+              "context",
+              "marriage",
+              "year"
+            ],
+            "uncertainties": [
+              "一般男女、日干人物、配偶相合干和年命视角须分开；只复现此案方法。"
+            ]
+          },
+          "facts": [
+            [
+              1,
+              "heaven_prefix_marker"
+            ],
+            [
+              1,
+              "door"
+            ],
+            [
+              9,
+              "heaven_stem"
+            ],
+            [
+              9,
+              "door"
+            ],
+            [
+              4,
+              "heaven_stem"
+            ]
+          ]
+        }
+      ],
+      "case_id": "case-66e477dd113e9546168814a71a348f90d927350eac4f9a64ed1bcf9db9ed2efa",
+      "event_id": "event-ba13b59fb256c4aa23e09821043839b26fe201f088a88b086486ba5be33303d0",
+      "family_id": "family-609b78a46774b68294634b005e90526e942e53cd2d8ca2e378cb9e898360bcd4",
+      "chart_id": "chart-6c19816976f2df7b47365e6b8a71ee205deb0c0d6c2f2e42150fa80a97ecaf3e",
+      "chapter": "08-marriage-prediction",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 2,
+      "stage": "after_parental_objection",
+      "mode": "continuation",
+      "known": [
+        {
+          "record_id": "record-27fe9285a03fbf900e3b8a957d92b7af0137260a4ce8ec74f2501083af745644",
+          "source_id": "span-21ef1bb09622eee3ad4d862ba33e802c8e292ebce111cfe728b194f186ef8596",
+          "sha256": "b4f598821b7131028cc76155707d71f0b20ca0ae98bb79773563a627d35476bb",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-816561c7cce26e897e65dd305cc84366a56c52acb00b08ab56f56cdc7028837b",
+          "source_id": "span-7e0cbc41d63d691b5ddd932bacfd2ef3d6bd52f22f12d48931e60a8041a6f8a3",
+          "sha256": "24bb4a3a5411164d37e2fb8c30de2c688fdcde4b0a91d77ae89c781f5bce293f",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-8588b723a32aa8438f1918c774f615cb12db09754d6e99543163d095fd907622",
+          "source_id": "span-72661f247b78ad28996ff39555fadbaebfe8061d258412e06ce30e35eb82ceb4",
+          "sha256": "21fd3a18bd0e37c708758bf4bfd9fd1926cdc79a61070bc5e5034265900a5708",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-f2f0e5ed3a576a31c4e45b149d19a9c0a98cce7ff254a17aef9f0fa53797ce31",
+          "source_id": "span-4959fa2c9ecce3eef8ee56a31ea5e09ab20a8c5c63d60cbe38ffb6fc17dc0e37",
+          "sha256": "b9cc227cf998b3e153715b71059f38c4ef1cd77cc309351ba70ea4b8636ff4f6",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-ad64cdc3b442273bc5587682a51ad5ec1556dbf8706a469f1dfddaab5667bdc7",
+          "source_id": "span-e32b05d2973fcefe4f7f5d23c7bf22a2ef1a1520d9250954c8c559a4076ba6e7",
+          "sha256": "0ab73ba150dbed67b8632bd5dfb69348e063faa546a7d73e4a36ea457ca13b64",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-cdb0437af3593988b1e90eef50feadbd69546de8ebce85ecc66be8e0306e4128",
+          "source_id": "span-ae356a082a26db40f1ab07af7362cdb73c45c41bdcf47e6689b7f00f331d92be",
+          "sha256": "f8e3679eace8b05cc77ecde51466d86a11d846fd2a0875f8e084a6de72a598b7",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-f6d8694b3c6f66d7d7222e4f91a800d3f814df1db4585b0e03d25d7a8447b355",
+          "source_id": "span-f9fe3e9dab939a6851128f2e04809553558d847431d9e8f4f8c2d9dd8dca9cb3",
+          "sha256": "17bdc308f6966532aa406296d8bfe8ad48bfd9b77321b90f9d0f661eca4042cd",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-39ca5a020660214d972195e11f4db92a6b5f055f18e11378e95deac0a5a433e9",
+          "source_id": "span-03f8e48a217776356cbafa5903dcbc4ff8be8daad3a01413986f6fac55ecb38d",
+          "sha256": "d3499d0e6dec55dab174f4160bb27ae42918017b4d92f1855b0887666cb6dc8c",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-76569e7da393bf4062a511b13d2f1b7041329e4a50dacd864aca755d19fd939e",
+          "source_id": "span-d61405bcbb0e4f2bf1f8c09343e49832e2706f6da5a74d69037ee34f3b6dd2bf",
+          "sha256": "4c16b64c8ed98a60a1c9999aea116903f9086fb7ee5d05ab1d1e643f63871fad",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-8c25866e438baf2d719f1a8dfbdcd73774d7f41d34dc77d0473e299d73b88b66",
+          "source_id": "span-8fd43aa421ccf01d54420c709262050c1426a3d15f3e6b0ef9fa3a83f86757d6",
+          "sha256": "0ca8123c745871bdfb30066daee5654408d7bc537e16f9e042dec3a76241483f",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-7fb0eac7e9d9e1773522a196b21b439f4857a5904b49838ad4c607018ee1df2a",
+          "source_id": "span-9b0e168a32bb4289cfc8594f99456b7c146f3cc85e706f201984d5480fb6a856",
+          "sha256": "270ba5dbba7b9f4d3cd07b2ed6144d28491f0f5368246c9a07f8be2205bc8dde",
+          "sequence": 11
+        },
+        {
+          "record_id": "record-99db4c54fa2ea2d7d95fb4b0baf76991e188cfa328ca0c03dc525db5d41ea53b",
+          "source_id": "span-a4e3fbd0ca09fe07ddf91ca10511bc95efda908cf946f888f8321acfa4ec503b",
+          "sha256": "e07293db10406f49315d3627757e0344a7780e80816361df5a07ab505210aa12",
+          "sequence": 12
+        }
+      ],
+      "cutoff": 13,
+      "rules": {
+        "marriage": "测恋爱婚姻一般以天盘乙奇为女方，天盘庚为男方",
+        "year": "如果预测成婚或离婚等大事，还可以分别看男、女双方的年命落宫情况"
+      },
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-cef78aeae13f3b1b568d854522c0ff47d67bdbe865aa6648447e081ad97b1513",
+              "source_id": "span-17dd7c5d1e93d949ec245ceba792f19bd0f68afa96911b4152b56d7fd09e63fb",
+              "sha256": "1edc31252439e61982bac85a674e1cf480f704955fe4b891a1cf8bae3c63a1e6",
+              "sequence": 13
+            },
+            {
+              "record_id": "record-83cee0b08b97a047eb46993890819274e8f273e6da21118b5d444cd5fe1a791b",
+              "source_id": "span-ce1f6ceec3fd3331c6472d050e92242ee880699cf1a762ce280ac4e35d0ebd75",
+              "sha256": "58da0d67cc64dcfbf18b93964a5cf7799b369759d59ada81926bc669ce1acd7c",
+              "sequence": 14
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-cef78aeae13f3b1b568d854522c0ff47d67bdbe865aa6648447e081ad97b1513",
+              "source_id": "span-17dd7c5d1e93d949ec245ceba792f19bd0f68afa96911b4152b56d7fd09e63fb",
+              "sha256": "1edc31252439e61982bac85a674e1cf480f704955fe4b891a1cf8bae3c63a1e6",
+              "sequence": 13,
+              "quote": "时干为所问之事，时干壬临吉门休门"
+            },
+            {
+              "record_id": "record-cef78aeae13f3b1b568d854522c0ff47d67bdbe865aa6648447e081ad97b1513",
+              "source_id": "span-17dd7c5d1e93d949ec245ceba792f19bd0f68afa96911b4152b56d7fd09e63fb",
+              "sha256": "1edc31252439e61982bac85a674e1cf480f704955fe4b891a1cf8bae3c63a1e6",
+              "sequence": 13,
+              "quote": "又上乘六合吉神"
+            },
+            {
+              "record_id": "record-cef78aeae13f3b1b568d854522c0ff47d67bdbe865aa6648447e081ad97b1513",
+              "source_id": "span-17dd7c5d1e93d949ec245ceba792f19bd0f68afa96911b4152b56d7fd09e63fb",
+              "sha256": "1edc31252439e61982bac85a674e1cf480f704955fe4b891a1cf8bae3c63a1e6",
+              "sequence": 13,
+              "quote": "年命甲辰壬又生年命庚"
+            },
+            {
+              "record_id": "record-cef78aeae13f3b1b568d854522c0ff47d67bdbe865aa6648447e081ad97b1513",
+              "source_id": "span-17dd7c5d1e93d949ec245ceba792f19bd0f68afa96911b4152b56d7fd09e63fb",
+              "sha256": "1edc31252439e61982bac85a674e1cf480f704955fe4b891a1cf8bae3c63a1e6",
+              "sequence": 13,
+              "quote": "巳月火旺，时干当令；年干丙处死地"
+            }
+          ],
+          "answer": {
+            "explanation": "在已知男方离异、父母反对及女方坚持后，作者没有只看乙克庚，而改比较所问事时干壬临休门、六合和年命男生女，并权衡时干当令与父母年干处死，判断父母终会让步。这里沿原盘续断；下一年实际结婚反馈尚未开放，丁壬合的后置应期解释也不提前使用。",
+            "citations": [
+              "chart",
+              "context",
+              "marriage",
+              "year"
+            ],
+            "uncertainties": [
+              "一般男女、日干人物、配偶相合干和年命视角须分开；只复现此案方法。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-66e477dd113e9546168814a71a348f90d927350eac4f9a64ed1bcf9db9ed2efa",
+      "event_id": "event-ba13b59fb256c4aa23e09821043839b26fe201f088a88b086486ba5be33303d0",
+      "family_id": "family-609b78a46774b68294634b005e90526e942e53cd2d8ca2e378cb9e898360bcd4",
+      "chart_id": "chart-6c19816976f2df7b47365e6b8a71ee205deb0c0d6c2f2e42150fa80a97ecaf3e",
+      "chapter": "08-marriage-prediction",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 3,
+      "stage": "after_disclosed_divorce",
+      "mode": "retrospective",
+      "known": [
+        {
+          "record_id": "record-05c2aada1ff456da1294286483ce10b2572ec0a3d9849297a1d499df7b9ac955",
+          "source_id": "span-826d1c1c81ce9c20ab4bb7fce7585e41db648ef1b347754937fc188667a3ac31",
+          "sha256": "6cb61b45a34b51eb55f82cb66c8872caeed1ac0f643a463e8a1d650132070f02",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-3c37509b35fe1d55a91775fc295d3b529528a1857168d5d10e78252dad50df1c",
+          "source_id": "span-41d0742b5503d9313f081a7fdbaaaa609dd31c1718e7aa95f5583f3ef580b0a8",
+          "sha256": "7b3f3642187688c874b0ad411d241baaa7036442f03eb0186d9912439805649d",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-1580f5e6c867f40646d94489e4ff47e83597886ddd8c284267eae5fd329bfd6e",
+          "source_id": "span-e958dabeabd9ac1621cd8cf57c9e259b60b173c38757ef90361a8e54987e890f",
+          "sha256": "9a222fbc0fe69f6f992a5d50d8f765f3965a2f374ee247fcd234b2b36fa932a6",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-daf591cb8794b67a3a096e8d3595bd49aa6bb96769d10f3667139d8d1e873400",
+          "source_id": "span-654e8c257550c5b8c1302085610a63d59043a5b3b7dc008fa4df20b71691d67a",
+          "sha256": "baf2b16f620d215fbdc2f8844476b1e48f06d0b949fdd025b3822ca249e7bce0",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-ff0b565247014ccead4cf45e8d8cb4238e43aabcade54b2bbad99f6f8b760268",
+          "source_id": "span-424d3cf469b91ea5be71f795740eca8af9175d48e2332dcb32d17c8e48e1810c",
+          "sha256": "4c61bb1ce1b82c6918f06c0b413e39f03b3604fd9b291c997f8218749e2c06f9",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-277222158143183342e06fc51790e7d01f8a663ca1c2f6c6d03b506971a1440c",
+          "source_id": "span-fc01005c6c0d245f081f1ae21d5028b36d96889a758b94714a8cd448e7d59053",
+          "sha256": "05f30489fe7f0274ea65b65263803b07486f48e56fa90aadfb26da66a7c9fc84",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-e52086e01e2e7e72ac1c79479bcb5df760f5be983092fc3460197b28b0fec339",
+          "source_id": "span-1a028b50615b17a2ce1dcefc0f613f5644cf0e5b79681d6448a610cfc796b14e",
+          "sha256": "6252bc3d19fc0151f01f7aeefcbd6224d911edfae4017ec875aa664ce4e2af56",
+          "sequence": 6
+        }
+      ],
+      "cutoff": 8,
+      "rules": {
+        "marriage": "测恋爱婚姻一般以天盘乙奇为女方，天盘庚为男方",
+        "year": "如果预测成婚或离婚等大事，还可以分别看男、女双方的年命落宫情况"
+      },
+      "provided_roles": [
+        "乙妻庚夫、丁为离婚文书、戊财"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-81589db19702094afc26195748042d19e57e4636f1c60b616222ab476a1c4375",
+              "source_id": "span-e865db1f1904c37799d45b57f2300dee04f4962f59795a7dd7a3a9c893a88f44",
+              "sha256": "f806d2b14182ec265e8eca79a554bd780f420d2f0b96e6fa6392ee2e7553e4f6",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-c44e6f7242cfeb4ffd53039fdf5a3fb6feb542158841380ba6eefa750d4358da",
+              "source_id": "span-5ae7791477cb43d45bb440c58d8c6f27dcee03a72574e1e76bda672f39e88499",
+              "sha256": "49e4cdb6b3435563b796b6e32b90a2f28f47898aea85b40f7bcc2869d80ed791",
+              "sequence": 10
+            },
+            {
+              "record_id": "record-19ab6dc4f6dec33f276d800bde72b7aaa332b59138359b35026f40e313c8e34d",
+              "source_id": "span-e4ff0af68543ef9b7145b5827bb6ce6bd12d31bb97ee14a739c1725ef62d6e1d",
+              "sha256": "0c50f52c965763e832dbd9a90a080cfad22f7e71e8d3f91ed738681dc8a88223",
+              "sequence": 12
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "已知离婚事实后审读作者方法：乙、庚分别取夫妇；丁奇兼离婚文书与时干事项，戊另看财。不同角色不可混作一个用神，且本题已知反馈，不能计为首断识别。",
+            "citations": [
+              "chart",
+              "context",
+              "marriage",
+              "year"
+            ],
+            "uncertainties": [
+              "一般男女、日干人物、配偶相合干和年命视角须分开；只复现此案方法。"
+            ],
+            "bindings": [
+              {
+                "role": "夫妻",
+                "symbol": "乙妻、庚夫",
+                "condition": "本例婚姻一般口径"
+              },
+              {
+                "role": "离婚文书与当前事项",
+                "symbol": "丁奇、时干丁",
+                "condition": "本例已知离婚复盘"
+              },
+              {
+                "role": "财",
+                "symbol": "戊",
+                "condition": "另取财物视角"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-81589db19702094afc26195748042d19e57e4636f1c60b616222ab476a1c4375",
+              "source_id": "span-e865db1f1904c37799d45b57f2300dee04f4962f59795a7dd7a3a9c893a88f44",
+              "sha256": "f806d2b14182ec265e8eca79a554bd780f420d2f0b96e6fa6392ee2e7553e4f6",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-c44e6f7242cfeb4ffd53039fdf5a3fb6feb542158841380ba6eefa750d4358da",
+              "source_id": "span-5ae7791477cb43d45bb440c58d8c6f27dcee03a72574e1e76bda672f39e88499",
+              "sha256": "49e4cdb6b3435563b796b6e32b90a2f28f47898aea85b40f7bcc2869d80ed791",
+              "sequence": 10
+            },
+            {
+              "record_id": "record-0e586d210c691aef71e6a8e091600dd5ab74de25e6f1c57ede68e2e92f4f48bc",
+              "source_id": "span-1ab336593ed8b34207af48b643a9f00a466bcd15d4be5a44e771373f3acf2f61",
+              "sha256": "44eab2403d014d446ebc857cc1897bf76efb426fa1b8f47473fe9da1036cc88c",
+              "sequence": 13
+            },
+            {
+              "record_id": "record-da9da9b107ec2db5a1f816506dc321d83f0a91f0d8f1339be3da70eb908a3698",
+              "source_id": "span-67f3ee3732398879d0f355a57d14ae66cb201758b711b3ac44d53e4f35f33159",
+              "sha256": "5649d33cc306ec5f5c339f0686bdd983d7ea05f8669b45023c9d9eb95f9db67e",
+              "sequence": 14
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "核对震三乙前缀、兑七庚、乾六丁下戊和离九戊。乙前缀与癸主干保留，不能为了乙庚断语改表。",
+            "citations": [
+              "chart",
+              "context",
+              "marriage",
+              "year"
+            ],
+            "uncertainties": [
+              "一般男女、日干人物、配偶相合干和年命视角须分开；只复现此案方法。"
+            ]
+          },
+          "facts": [
+            [
+              3,
+              "heaven_prefix_marker"
+            ],
+            [
+              7,
+              "heaven_stem"
+            ],
+            [
+              6,
+              "heaven_stem"
+            ],
+            [
+              6,
+              "earth_stem"
+            ],
+            [
+              9,
+              "heaven_stem"
+            ]
+          ]
+        },
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-81589db19702094afc26195748042d19e57e4636f1c60b616222ab476a1c4375",
+              "source_id": "span-e865db1f1904c37799d45b57f2300dee04f4962f59795a7dd7a3a9c893a88f44",
+              "sha256": "f806d2b14182ec265e8eca79a554bd780f420d2f0b96e6fa6392ee2e7553e4f6",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-5d6f0a72419aa27b28f71ea53f42294a43ca7afcc368ca26f947e77bb2753e04",
+              "source_id": "span-bbb265cc4208881527513a76040e978d41cff6a19a271a8ba8d9a42730361be1",
+              "sha256": "1dcf34f0010a5a4e00e9679060cdaeefad9f227a02997292ce69d1b056842c30",
+              "sequence": 9
+            },
+            {
+              "record_id": "record-c44e6f7242cfeb4ffd53039fdf5a3fb6feb542158841380ba6eefa750d4358da",
+              "source_id": "span-5ae7791477cb43d45bb440c58d8c6f27dcee03a72574e1e76bda672f39e88499",
+              "sha256": "49e4cdb6b3435563b796b6e32b90a2f28f47898aea85b40f7bcc2869d80ed791",
+              "sequence": 10
+            },
+            {
+              "record_id": "record-19ab6dc4f6dec33f276d800bde72b7aaa332b59138359b35026f40e313c8e34d",
+              "source_id": "span-e4ff0af68543ef9b7145b5827bb6ce6bd12d31bb97ee14a739c1725ef62d6e1d",
+              "sha256": "0c50f52c965763e832dbd9a90a080cfad22f7e71e8d3f91ed738681dc8a88223",
+              "sequence": 12
+            },
+            {
+              "record_id": "record-0e586d210c691aef71e6a8e091600dd5ab74de25e6f1c57ede68e2e92f4f48bc",
+              "source_id": "span-1ab336593ed8b34207af48b643a9f00a466bcd15d4be5a44e771373f3acf2f61",
+              "sha256": "44eab2403d014d446ebc857cc1897bf76efb426fa1b8f47473fe9da1036cc88c",
+              "sequence": 13
+            },
+            {
+              "record_id": "record-da9da9b107ec2db5a1f816506dc321d83f0a91f0d8f1339be3da70eb908a3698",
+              "source_id": "span-67f3ee3732398879d0f355a57d14ae66cb201758b711b3ac44d53e4f35f33159",
+              "sha256": "5649d33cc306ec5f5c339f0686bdd983d7ea05f8669b45023c9d9eb95f9db67e",
+              "sequence": 14
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-81589db19702094afc26195748042d19e57e4636f1c60b616222ab476a1c4375",
+              "source_id": "span-e865db1f1904c37799d45b57f2300dee04f4962f59795a7dd7a3a9c893a88f44",
+              "sha256": "f806d2b14182ec265e8eca79a554bd780f420d2f0b96e6fa6392ee2e7553e4f6",
+              "sequence": 8,
+              "quote": "乙庚落3、7对冲之宫"
+            },
+            {
+              "record_id": "record-5d6f0a72419aa27b28f71ea53f42294a43ca7afcc368ca26f947e77bb2753e04",
+              "source_id": "span-bbb265cc4208881527513a76040e978d41cff6a19a271a8ba8d9a42730361be1",
+              "sha256": "1dcf34f0010a5a4e00e9679060cdaeefad9f227a02997292ce69d1b056842c30",
+              "sequence": 9,
+              "quote": "乙奇为其妻，落震3宫，正值卯月最旺之时"
+            },
+            {
+              "record_id": "record-c44e6f7242cfeb4ffd53039fdf5a3fb6feb542158841380ba6eefa750d4358da",
+              "source_id": "span-5ae7791477cb43d45bb440c58d8c6f27dcee03a72574e1e76bda672f39e88499",
+              "sha256": "49e4cdb6b3435563b796b6e32b90a2f28f47898aea85b40f7bcc2869d80ed791",
+              "sequence": 10,
+              "quote": "丁奇为离婚证书，又是时干"
+            },
+            {
+              "record_id": "record-0e586d210c691aef71e6a8e091600dd5ab74de25e6f1c57ede68e2e92f4f48bc",
+              "source_id": "span-1ab336593ed8b34207af48b643a9f00a466bcd15d4be5a44e771373f3acf2f61",
+              "sha256": "44eab2403d014d446ebc857cc1897bf76efb426fa1b8f47473fe9da1036cc88c",
+              "sequence": 13,
+              "quote": "地盘戊为主，为求测人小吴所分得之财"
+            },
+            {
+              "record_id": "record-da9da9b107ec2db5a1f816506dc321d83f0a91f0d8f1339be3da70eb908a3698",
+              "source_id": "span-67f3ee3732398879d0f355a57d14ae66cb201758b711b3ac44d53e4f35f33159",
+              "sha256": "5649d33cc306ec5f5c339f0686bdd983d7ea05f8669b45023c9d9eb95f9db67e",
+              "sequence": 14,
+              "quote": "天盘戊为客，为其妻所分得钱物"
+            }
+          ],
+          "answer": {
+            "explanation": "作者回看乙庚对冲、六合死门和乙回本位解释离婚回娘家，再从月令强弱解释女方主动；丁文书开门玄武解释私下协议，戊财的主客宫数分别解释6000与3900钱物。金额和器物在本题已经由小吴反馈，不能把这份复盘算成未见结果的预测。",
+            "citations": [
+              "chart",
+              "context",
+              "marriage",
+              "year"
+            ],
+            "uncertainties": [
+              "一般男女、日干人物、配偶相合干和年命视角须分开；只复现此案方法。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        },
+        {
+          "type": "timing_analysis",
+          "targets": [
+            {
+              "record_id": "record-32f7cbcef6d1f8d9f664b2adaf82e996ca5db28c39e18ed7bcbf22fcbf13f286",
+              "source_id": "span-f7dee4f2b027c1cf69beaf5e740d5015ecb2dce2ee792ab7e9e6b46b6e2071ce",
+              "sha256": "f95a9fb1baaa7c0071605eacee004c95c103df9f08f4d52bb2305c6ccf0baeac",
+              "sequence": 11
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-32f7cbcef6d1f8d9f664b2adaf82e996ca5db28c39e18ed7bcbf22fcbf13f286",
+              "source_id": "span-f7dee4f2b027c1cf69beaf5e740d5015ecb2dce2ee792ab7e9e6b46b6e2071ce",
+              "sha256": "f95a9fb1baaa7c0071605eacee004c95c103df9f08f4d52bb2305c6ccf0baeac",
+              "sequence": 11,
+              "quote": "丁下所临之干为应期，丁下临戊（甲）"
+            }
+          ],
+          "answer": {
+            "explanation": "原例以丁下所临之干取应期，丁下戊以甲遁之干处理，报3月18甲寅。这里是已知离婚日期后的来源解释，不能当独立日期验证，也不把一般庚格应期硬套到此丁下取干法。",
+            "citations": [
+              "chart",
+              "context",
+              "marriage",
+              "year"
+            ],
+            "uncertainties": [
+              "一般男女、日干人物、配偶相合干和年命视角须分开；只复现此案方法。"
+            ],
+            "methods": [
+              "丁下之干与所遁甲取应日"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-e18ba5844c83c23d448d9ce551cbc146cfe697c3b9a0f248b52872724c80edd0",
+      "event_id": "event-de3efd9375179c05b2165d44a043a5fece068c33bcb480f8b2986cd4cc0d9282",
+      "family_id": "family-17ab3487dbf51e137eed97645ccb2c39fdb60481d3ca4e2f082c7b2b191029e4",
+      "chart_id": "chart-f944687c999057ee4537a9d55c8655ce19f77ebfb488261823c0b0e95cb7bfab",
+      "chapter": "08-marriage-prediction",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 4,
+      "stage": "initial",
+      "mode": "initial",
+      "known": [
+        {
+          "record_id": "record-6e8a7621b2920b6f71691fcf5abe8a10ecded91882f2a4b04705f5100efe2b68",
+          "source_id": "span-b63019d6caf680fc31171b73ec2d064b73ffccdc9de4a8936059ee1c249cc19f",
+          "sha256": "166eb1f2e08b02050a1ba23f64a6dadaabce375a2c552250199f9472772363ef",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-b4a1812dd480151b44a5c21f6ff9ed971cc5db5cde9c2019df97759bc0c6d33f",
+          "source_id": "span-641ee9033cc5b848510b9a7393f4572134952cba817ec47274df2586c0059152",
+          "sha256": "9577a6e2ae01a163c798bfaa92678155ccfbda51772d5679f0bc927e27c77ee8",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-8151562e493760976c6d4fe40070983b56134565e3c9f52f0207faf452e8f138",
+          "source_id": "span-683cff08bdf74831988cb23acec18f9613e599e47a204b524ecf340242e3a481",
+          "sha256": "260443cc9d18cf34508ac40fd99d6f8bf92557f2744571a1865bf88aec3fb088",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-fb894ce7931744f316696bd648f8cf9206b15605a3e8619722d8de65a8cafca7",
+          "source_id": "span-2980a6a70e5be30e63841a83e3a623ddef20e1b9f4648803ef00dfc7a1958b70",
+          "sha256": "0878673a170558929bd58abfb64bc292b2d7f0f9ab16c46c05e043c2e68c61cf",
+          "sequence": 3
+        }
+      ],
+      "cutoff": 5,
+      "rules": {
+        "marriage": "测恋爱婚姻一般以天盘乙奇为女方，天盘庚为男方",
+        "year": "如果预测成婚或离婚等大事，还可以分别看男、女双方的年命落宫情况"
+      },
+      "provided_roles": [
+        "乙女庚男的一般视角，日干问测人及年命另论"
+      ],
+      "tasks": [
+        {
+          "type": "role_selection",
+          "targets": [
+            {
+              "record_id": "record-b297291016ca241de109821f587ef78abd1e831f2f56fe33bbb80618a2cbb481",
+              "source_id": "span-00c7ffe68d0b3817d26b064f94e795f578a18caa65b8826d637190295ff9bad2",
+              "sha256": "dcd1b0957812a3772b60c9f2502954de8ecb38d270723b60d38ddaa0be040db2",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "本人问婚，先用乙女庚男一般婚姻口径；日干庚在其他轮次又代表女问测人，不能因同为庚就把人物身份混成男方。两人辛卯、壬辰年命另行保留。",
+            "citations": [
+              "chart",
+              "context",
+              "marriage",
+              "year"
+            ],
+            "uncertainties": [
+              "一般男女、日干人物、配偶相合干和年命视角须分开；只复现此案方法。"
+            ],
+            "bindings": [
+              {
+                "role": "一般婚姻女方",
+                "symbol": "乙",
+                "condition": "与日干问测人视角分开"
+              },
+              {
+                "role": "一般婚姻男方",
+                "symbol": "庚",
+                "condition": "不据此改写实际问测性别"
+              }
+            ]
+          }
+        },
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-b297291016ca241de109821f587ef78abd1e831f2f56fe33bbb80618a2cbb481",
+              "source_id": "span-00c7ffe68d0b3817d26b064f94e795f578a18caa65b8826d637190295ff9bad2",
+              "sha256": "dcd1b0957812a3772b60c9f2502954de8ecb38d270723b60d38ddaa0be040db2",
+              "sequence": 5
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "离九乙伤门、乾六庚及坤二壬六合分别核对；时干空亡和壬辛格义不能当作表格直接标注。",
+            "citations": [
+              "chart",
+              "context",
+              "marriage",
+              "year"
+            ],
+            "uncertainties": [
+              "一般男女、日干人物、配偶相合干和年命视角须分开；只复现此案方法。"
+            ]
+          },
+          "facts": [
+            [
+              9,
+              "heaven_stem"
+            ],
+            [
+              9,
+              "door"
+            ],
+            [
+              6,
+              "heaven_stem"
+            ],
+            [
+              2,
+              "heaven_stem"
+            ],
+            [
+              2,
+              "deity"
+            ]
+          ]
+        },
+        {
+          "type": "evidence_synthesis",
+          "targets": [
+            {
+              "record_id": "record-b297291016ca241de109821f587ef78abd1e831f2f56fe33bbb80618a2cbb481",
+              "source_id": "span-00c7ffe68d0b3817d26b064f94e795f578a18caa65b8826d637190295ff9bad2",
+              "sha256": "dcd1b0957812a3772b60c9f2502954de8ecb38d270723b60d38ddaa0be040db2",
+              "sequence": 5
+            },
+            {
+              "record_id": "record-abe5dc1292709b11aa2b8bf559149613c51da9488f234295fb4bf5ea512a24eb",
+              "source_id": "span-5f89f96a9a2d72c77513d3818687f4e0f9555e208c9f709a52312e51781637a9",
+              "sha256": "c344230eca66308c648741e30875aac7746f0e8f2db6c362c11707edb9c9abd5",
+              "sequence": 6
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-b297291016ca241de109821f587ef78abd1e831f2f56fe33bbb80618a2cbb481",
+              "source_id": "span-00c7ffe68d0b3817d26b064f94e795f578a18caa65b8826d637190295ff9bad2",
+              "sha256": "dcd1b0957812a3772b60c9f2502954de8ecb38d270723b60d38ddaa0be040db2",
+              "sequence": 5,
+              "quote": "乙奇在离9宫临伤门，克乾6宫之庚"
+            },
+            {
+              "record_id": "record-b297291016ca241de109821f587ef78abd1e831f2f56fe33bbb80618a2cbb481",
+              "source_id": "span-00c7ffe68d0b3817d26b064f94e795f578a18caa65b8826d637190295ff9bad2",
+              "sha256": "dcd1b0957812a3772b60c9f2502954de8ecb38d270723b60d38ddaa0be040db2",
+              "sequence": 5,
+              "quote": "时干壬临杜门、六合，又逢空亡"
+            },
+            {
+              "record_id": "record-b297291016ca241de109821f587ef78abd1e831f2f56fe33bbb80618a2cbb481",
+              "source_id": "span-00c7ffe68d0b3817d26b064f94e795f578a18caa65b8826d637190295ff9bad2",
+              "sha256": "dcd1b0957812a3772b60c9f2502954de8ecb38d270723b60d38ddaa0be040db2",
+              "sequence": 5,
+              "quote": "壬+辛名为螣蛇相缠"
+            }
+          ],
+          "answer": {
+            "explanation": "作者以乙宫克庚宫、乙临伤门及所问事壬临杜门六合而空亡、壬辛格等，解释婚姻不满、阻隔及隐瞒倾向。六月份以来具体矛盾是作者这轮断语，不是背景已知；后面的外遇与离婚意向反馈不得提前加入。",
+            "citations": [
+              "chart",
+              "context",
+              "marriage",
+              "year"
+            ],
+            "uncertainties": [
+              "一般男女、日干人物、配偶相合干和年命视角须分开；只复现此案方法。"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-cecf00bd786c790b3bec788b23487bb4a2f7a16d6ca1132ec703d4ce78a96ebc",
+      "event_id": "event-61c8b3d8db027c8abff921d72187042b04c7c86e2c26adac3f359037773e1f28",
+      "family_id": "family-ae68591b63904fc64a0006133dda5c9ff1c9e148d7182f7110d71562977b10d8",
+      "chart_id": "chart-23951156ea1b90081375d298957979a38d24d3cd2694b5478cc06fba85e5cb45",
+      "chapter": "08-marriage-prediction",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 4,
+      "stage": "after_divorce_intent",
+      "mode": "continuation",
+      "known": [
+        {
+          "record_id": "record-6e8a7621b2920b6f71691fcf5abe8a10ecded91882f2a4b04705f5100efe2b68",
+          "source_id": "span-b63019d6caf680fc31171b73ec2d064b73ffccdc9de4a8936059ee1c249cc19f",
+          "sha256": "166eb1f2e08b02050a1ba23f64a6dadaabce375a2c552250199f9472772363ef",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-b4a1812dd480151b44a5c21f6ff9ed971cc5db5cde9c2019df97759bc0c6d33f",
+          "source_id": "span-641ee9033cc5b848510b9a7393f4572134952cba817ec47274df2586c0059152",
+          "sha256": "9577a6e2ae01a163c798bfaa92678155ccfbda51772d5679f0bc927e27c77ee8",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-8151562e493760976c6d4fe40070983b56134565e3c9f52f0207faf452e8f138",
+          "source_id": "span-683cff08bdf74831988cb23acec18f9613e599e47a204b524ecf340242e3a481",
+          "sha256": "260443cc9d18cf34508ac40fd99d6f8bf92557f2744571a1865bf88aec3fb088",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-fb894ce7931744f316696bd648f8cf9206b15605a3e8619722d8de65a8cafca7",
+          "source_id": "span-2980a6a70e5be30e63841a83e3a623ddef20e1b9f4648803ef00dfc7a1958b70",
+          "sha256": "0878673a170558929bd58abfb64bc292b2d7f0f9ab16c46c05e043c2e68c61cf",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-b297291016ca241de109821f587ef78abd1e831f2f56fe33bbb80618a2cbb481",
+          "source_id": "span-00c7ffe68d0b3817d26b064f94e795f578a18caa65b8826d637190295ff9bad2",
+          "sha256": "dcd1b0957812a3772b60c9f2502954de8ecb38d270723b60d38ddaa0be040db2",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-abe5dc1292709b11aa2b8bf559149613c51da9488f234295fb4bf5ea512a24eb",
+          "source_id": "span-5f89f96a9a2d72c77513d3818687f4e0f9555e208c9f709a52312e51781637a9",
+          "sha256": "c344230eca66308c648741e30875aac7746f0e8f2db6c362c11707edb9c9abd5",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-6fe00d694a3ba000864807a84a6c5125f45df35b5cce4ce4f7ca86e6bee197ac",
+          "source_id": "span-ac8d2cbc19de526152aa6526e7b234d532d5978a1824fa09b28ba2577d3a30f3",
+          "sha256": "dd203e3cd2b01eaa15f5efedc863a40d224e29097989941818af3e14460ecbc0",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-206deec420f5a40c4e33c757416d3373d9d21ee29ed3e994ed1403ccfe4ee29f",
+          "source_id": "span-389ef0421450885f0e9dc02e4f0e6cae97dd0e16be2951463f3ee5a076a1961c",
+          "sha256": "140643b85b662f3de72d65a3cb545c871e7b23aa7b7cb07dc52f080edede65cf",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-f1c0d783b83939d525687c4c5059a2210003be29ac895d2e43487ff78f054bf8",
+          "source_id": "span-8dda3fc6f92122005469aea38cc7f65d7e42ef31f74e47ca0884c1dc560bfcb3",
+          "sha256": "e375f02d210e78911b0a37a7c816a01eee87f739cfb8e9e778b3dc44e51d68c2",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-01387ff6d5e3e13c2ddd714b53782ee727519d6dfa357608bba53bd88264f9bf",
+          "source_id": "span-eabb1dd8ad342aeea7184cc3c2957b671cb6b5e57ee8904051f0e9900ff23eb0",
+          "sha256": "74e4bee2e9cf1f4f867bb04e9aab3dd79307787941c4f4e8bc3b4b7ad38cdb21",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-4b09f6a521154d04390f625abe75352ea6743cfae20b865411da3d3741cd81d2",
+          "source_id": "span-212b91c25ee4d46f7c745c30e6d3b39352588fb1bc789761685f67c00ab51c9c",
+          "sha256": "43e006c14dd8bf01f0053c32d65a62f04f532908703b93973abedc011e02769c",
+          "sequence": 11
+        },
+        {
+          "record_id": "record-fa16516b20c7427c6e08a389babd5ccf59651681623c9a30e0920c9dbc72fde0",
+          "source_id": "span-723c70d0abe129551a4299955fb0bb898eb0b400c7e660d83b4bacb805db73fb",
+          "sha256": "121d06d78f008bd25938b66ca8f9b5effbecafa40c2aa6e570854ed894c496d8",
+          "sequence": 12
+        },
+        {
+          "record_id": "record-108da8d25a1c56e0e60534f0c17ee050833a4dd41deb924c9d8f9bb07d509146",
+          "source_id": "span-a0a18c40cb62b38aaa9106e8e22d66f5d577a080113ae696e938c24a68cdab8f",
+          "sha256": "5f876199e11e498a2892b85e8dfcb0f7295f881723330cb9e997238b0ccd3684",
+          "sequence": 13
+        }
+      ],
+      "cutoff": 14,
+      "rules": {
+        "marriage": "测恋爱婚姻一般以天盘乙奇为女方，天盘庚为男方",
+        "year": "如果预测成婚或离婚等大事，还可以分别看男、女双方的年命落宫情况"
+      },
+      "tasks": [
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-bfce801da7793e84dc99e08dff093cdc933c6875697543cc76e669397b7752c9",
+              "source_id": "span-0367fb40d896398a148d9be5bd6540b1f25f63bb92e1b2f359b63eb448a534be",
+              "sha256": "78198f2895f5ee7a6f2bec3020aaa9f0b99abc35730c77447d3fc94d24b23a3e",
+              "sequence": 14
+            },
+            {
+              "record_id": "record-59f5795f7b3ce598278960553b0f7d1bb514ae1bf507d5614d45285f82e3d85b",
+              "source_id": "span-af4331d617c588f0a3d866013c9a7a5428e2cd05fabadb59da18ba6f7a312336",
+              "sha256": "caefc138b61f823cb0a844d010b4eeafef6086d1f5b5f4fe77090fe6aa21c216",
+              "sequence": 15
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-bfce801da7793e84dc99e08dff093cdc933c6875697543cc76e669397b7752c9",
+              "source_id": "span-0367fb40d896398a148d9be5bd6540b1f25f63bb92e1b2f359b63eb448a534be",
+              "sha256": "78198f2895f5ee7a6f2bec3020aaa9f0b99abc35730c77447d3fc94d24b23a3e",
+              "sequence": 14,
+              "quote": "赵小姐年命辛在震3宫，直克丈夫年命壬所在的坤2宫"
+            },
+            {
+              "record_id": "record-bfce801da7793e84dc99e08dff093cdc933c6875697543cc76e669397b7752c9",
+              "source_id": "span-0367fb40d896398a148d9be5bd6540b1f25f63bb92e1b2f359b63eb448a534be",
+              "sha256": "78198f2895f5ee7a6f2bec3020aaa9f0b99abc35730c77447d3fc94d24b23a3e",
+              "sequence": 14,
+              "quote": "六合又逢空亡"
+            },
+            {
+              "record_id": "record-bfce801da7793e84dc99e08dff093cdc933c6875697543cc76e669397b7752c9",
+              "source_id": "span-0367fb40d896398a148d9be5bd6540b1f25f63bb92e1b2f359b63eb448a534be",
+              "sha256": "78198f2895f5ee7a6f2bec3020aaa9f0b99abc35730c77447d3fc94d24b23a3e",
+              "sequence": 14,
+              "quote": "1998年寅、卯月木旺，冲克坤宫之土"
+            }
+          ],
+          "answer": {
+            "explanation": "在女方明确要协议离婚、男方不愿离的新增信息后，作者用女命辛震三克男命壬坤二、六合空亡，再以1998寅卯木旺冲克坤土取时段，估次年二月并给出找律师协调建议。这是本例历史咨询的续断，不是现代法律意见；具体2月27日办手续尚未反馈。",
+            "citations": [
+              "chart",
+              "context",
+              "marriage",
+              "year"
+            ],
+            "uncertainties": [
+              "一般男女、日干人物、配偶相合干和年命视角须分开；只复现此案方法。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-cecf00bd786c790b3bec788b23487bb4a2f7a16d6ca1132ec703d4ce78a96ebc",
+      "event_id": "event-61c8b3d8db027c8abff921d72187042b04c7c86e2c26adac3f359037773e1f28",
+      "family_id": "family-ae68591b63904fc64a0006133dda5c9ff1c9e148d7182f7110d71562977b10d8",
+      "chart_id": "chart-23951156ea1b90081375d298957979a38d24d3cd2694b5478cc06fba85e5cb45",
+      "chapter": "08-marriage-prediction",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 5,
+      "stage": "after_third_party_acknowledged",
+      "mode": "continuation",
+      "known": [
+        {
+          "record_id": "record-93d87339bb10af529a93ecffd0f9133328d819014a5915cd8b1b228c99356af3",
+          "source_id": "span-a4fd74f0503aa0076408ac38e18c607aef404aea808d95aade2b9b44b4a53805",
+          "sha256": "ca1db0d78b451588033daceabe7aff8f039bf587461ad109a43574df0f5c46e4",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-ee89bca6d29851fb4283df8a345c8fe79f19afb6c7c4fb4393db367aece0afbb",
+          "source_id": "span-e566c5b695487857a212b227cc2b9d5fefd7fefdd416fd78114bf02de985030e",
+          "sha256": "756b53e4544a8090ec5cb1429c9fa205f8ae2f833a9175303c42591614da7875",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-5eaca13d74e967544fb4f0292bb5e953b32a1f8072eb20667f2b78ae4c2aae49",
+          "source_id": "span-dce846c55db4c0563aef3e67b5040e4b58f912f2f566f3720749f7a486b3962a",
+          "sha256": "6fe29c906d5d7136464ed9ec79ad4c3a4b768d86459568a802776dc191cd1685",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-41a801ac2fe22da6190f34a6020a28d499cfcc486330edf5b769435233f6a487",
+          "source_id": "span-505d3029a201e1c8be444408546169c5b4627bb937510ff8afb99a14a836bb2b",
+          "sha256": "f77cac681c1a002159579b17e29198b2b023fed0ae342ad8e503a251c7f67f82",
+          "sequence": 5
+        }
+      ],
+      "cutoff": 6,
+      "rules": {
+        "marriage": "测恋爱婚姻一般以天盘乙奇为女方，天盘庚为男方",
+        "year": "如果预测成婚或离婚等大事，还可以分别看男、女双方的年命落宫情况"
+      },
+      "provided_roles": [
+        "庚男方、乙其妻、丁第三者女，年命壬另看求测者"
+      ],
+      "tasks": [
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-f427655a052bf560f977be4868cfee18604810ee605a991b86448daf3dd533ed",
+              "source_id": "span-c962f899bca97025286e1f00b5b3ed3db3ac602e82bc53242ddf2bc622cce0b8",
+              "sha256": "e4e8561f5f176fee474398ba1a89cda6d9b0f74806dc89cbad96130c986ee2dc",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-8e2fcc82c4aa8feb60c5a9a48158785a21703593e591be77e8403b4429964ab0",
+              "source_id": "span-f821c7b354af6e231208a659a7059d91b7e535c75b186400ee154207e12a34bf",
+              "sha256": "d6d6651520020ce304720b311a35517a2cfffac962b8748c049b8b0d8f847886",
+              "sequence": 9
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "原表庚在巽四，乙在兑七临天心休门六合，年命壬在离九。源中时干丁落5宫的叙述与表里震三丁不一致，不能照叙述改表。",
+            "citations": [
+              "chart",
+              "context",
+              "marriage",
+              "year"
+            ],
+            "uncertainties": [
+              "一般男女、日干人物、配偶相合干和年命视角须分开；只复现此案方法。"
+            ]
+          },
+          "facts": [
+            [
+              4,
+              "heaven_stem"
+            ],
+            [
+              7,
+              "heaven_stem"
+            ],
+            [
+              7,
+              "star"
+            ],
+            [
+              7,
+              "door"
+            ],
+            [
+              7,
+              "deity"
+            ],
+            [
+              9,
+              "heaven_stem"
+            ]
+          ]
+        },
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-f427655a052bf560f977be4868cfee18604810ee605a991b86448daf3dd533ed",
+              "source_id": "span-c962f899bca97025286e1f00b5b3ed3db3ac602e82bc53242ddf2bc622cce0b8",
+              "sha256": "e4e8561f5f176fee474398ba1a89cda6d9b0f74806dc89cbad96130c986ee2dc",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-6ec05c96ef93a62e9732cf7f20c02ed2ffb88e294b8471e9e45599bd96e7c843",
+              "source_id": "span-2645e0c2f34a6e8b081207dc7710c7bf712f917e74355490bb23eacab35f9d91",
+              "sha256": "989f7c3c4a3c48bb28d2ea9344a0b9ff07a8c355fdaada73d85df2a4d290d09d",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-8e2fcc82c4aa8feb60c5a9a48158785a21703593e591be77e8403b4429964ab0",
+              "source_id": "span-f821c7b354af6e231208a659a7059d91b7e535c75b186400ee154207e12a34bf",
+              "sha256": "d6d6651520020ce304720b311a35517a2cfffac962b8748c049b8b0d8f847886",
+              "sequence": 9
+            },
+            {
+              "record_id": "record-599cb6170c86d3b654d6dc5656fd50f9a98038afd1d8f2e7f5d53c4f7a2676b6",
+              "source_id": "span-626443b4a49fb3e115ea26675ee8bfab6a6b663b40966a45e67eaa3662cd8618",
+              "sha256": "cf8e56e9b3e8aac2ac9e87dc4c91ecec16b68c949ab79501036f00dd149760b6",
+              "sequence": 10
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-f427655a052bf560f977be4868cfee18604810ee605a991b86448daf3dd533ed",
+              "source_id": "span-c962f899bca97025286e1f00b5b3ed3db3ac602e82bc53242ddf2bc622cce0b8",
+              "sha256": "e4e8561f5f176fee474398ba1a89cda6d9b0f74806dc89cbad96130c986ee2dc",
+              "sequence": 6,
+              "quote": "庚为男方，上乘值符，临死门"
+            },
+            {
+              "record_id": "record-f427655a052bf560f977be4868cfee18604810ee605a991b86448daf3dd533ed",
+              "source_id": "span-c962f899bca97025286e1f00b5b3ed3db3ac602e82bc53242ddf2bc622cce0b8",
+              "sha256": "e4e8561f5f176fee474398ba1a89cda6d9b0f74806dc89cbad96130c986ee2dc",
+              "sequence": 6,
+              "quote": "乙奇为其妻在兑7宫，临天心星、休门、六合"
+            },
+            {
+              "record_id": "record-f427655a052bf560f977be4868cfee18604810ee605a991b86448daf3dd533ed",
+              "source_id": "span-c962f899bca97025286e1f00b5b3ed3db3ac602e82bc53242ddf2bc622cce0b8",
+              "sha256": "e4e8561f5f176fee474398ba1a89cda6d9b0f74806dc89cbad96130c986ee2dc",
+              "sequence": 6,
+              "quote": "乙克庚，又克丁"
+            },
+            {
+              "record_id": "record-8e2fcc82c4aa8feb60c5a9a48158785a21703593e591be77e8403b4429964ab0",
+              "source_id": "span-f821c7b354af6e231208a659a7059d91b7e535c75b186400ee154207e12a34bf",
+              "sha256": "d6d6651520020ce304720b311a35517a2cfffac962b8748c049b8b0d8f847886",
+              "sequence": 9,
+              "quote": "女子年命壬在离9宫，与第三者男人丙同宫"
+            }
+          ],
+          "answer": {
+            "explanation": "已确认婚姻纠纷后，作者把男方庚、其妻乙及求测者丁/年命壬分看，乙克庚也克丁且得门星神，认为妻子不愿离；再审求测者年命与男方关系，提出退出纠纷或等待的历史建议。不能用尚未知的男方家中冲突和最终结婚日期反证本轮判断。",
+            "citations": [
+              "chart",
+              "context",
+              "marriage",
+              "year"
+            ],
+            "uncertainties": [
+              "一般男女、日干人物、配偶相合干和年命视角须分开；只复现此案方法。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-06199fc40772ac8fc5f4a73cde73b79c26318962a41f628c16c8aef05e0c4427",
+      "event_id": "event-be59b4644c19626051150e9e3209891a5b76d1da385fc486cb171f570493ad05",
+      "family_id": "family-43857b7ab4b6d02ba6faadb60fe05d4521414a167f15cd3823a2fc854f44654b",
+      "chart_id": "chart-752b82666e1f8456f51f947181a7c6ee1dc1a527e602b978ac9c76776cb2f8a0",
+      "chapter": "08-marriage-prediction",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 5,
+      "stage": "after_asked_when",
+      "mode": "continuation",
+      "known": [
+        {
+          "record_id": "record-93d87339bb10af529a93ecffd0f9133328d819014a5915cd8b1b228c99356af3",
+          "source_id": "span-a4fd74f0503aa0076408ac38e18c607aef404aea808d95aade2b9b44b4a53805",
+          "sha256": "ca1db0d78b451588033daceabe7aff8f039bf587461ad109a43574df0f5c46e4",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-ee89bca6d29851fb4283df8a345c8fe79f19afb6c7c4fb4393db367aece0afbb",
+          "source_id": "span-e566c5b695487857a212b227cc2b9d5fefd7fefdd416fd78114bf02de985030e",
+          "sha256": "756b53e4544a8090ec5cb1429c9fa205f8ae2f833a9175303c42591614da7875",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-5eaca13d74e967544fb4f0292bb5e953b32a1f8072eb20667f2b78ae4c2aae49",
+          "source_id": "span-dce846c55db4c0563aef3e67b5040e4b58f912f2f566f3720749f7a486b3962a",
+          "sha256": "6fe29c906d5d7136464ed9ec79ad4c3a4b768d86459568a802776dc191cd1685",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-41a801ac2fe22da6190f34a6020a28d499cfcc486330edf5b769435233f6a487",
+          "source_id": "span-505d3029a201e1c8be444408546169c5b4627bb937510ff8afb99a14a836bb2b",
+          "sha256": "f77cac681c1a002159579b17e29198b2b023fed0ae342ad8e503a251c7f67f82",
+          "sequence": 5
+        },
+        {
+          "record_id": "record-f427655a052bf560f977be4868cfee18604810ee605a991b86448daf3dd533ed",
+          "source_id": "span-c962f899bca97025286e1f00b5b3ed3db3ac602e82bc53242ddf2bc622cce0b8",
+          "sha256": "e4e8561f5f176fee474398ba1a89cda6d9b0f74806dc89cbad96130c986ee2dc",
+          "sequence": 6
+        },
+        {
+          "record_id": "record-6ec05c96ef93a62e9732cf7f20c02ed2ffb88e294b8471e9e45599bd96e7c843",
+          "source_id": "span-2645e0c2f34a6e8b081207dc7710c7bf712f917e74355490bb23eacab35f9d91",
+          "sha256": "989f7c3c4a3c48bb28d2ea9344a0b9ff07a8c355fdaada73d85df2a4d290d09d",
+          "sequence": 7
+        },
+        {
+          "record_id": "record-a6a6db0efc90799ce1482c5c7120714fa6cc5d73f6b84a78b6b88ac6fedf2291",
+          "source_id": "span-19a4e0e36162b8489cfea0c44dee0acc620ffb3d5a1f76d572e7307ac8340958",
+          "sha256": "cd07bef7371a2954133d1b4d1d4e00c5b455402fc8bdbfa8c144bf151e0ad52e",
+          "sequence": 8
+        },
+        {
+          "record_id": "record-8e2fcc82c4aa8feb60c5a9a48158785a21703593e591be77e8403b4429964ab0",
+          "source_id": "span-f821c7b354af6e231208a659a7059d91b7e535c75b186400ee154207e12a34bf",
+          "sha256": "d6d6651520020ce304720b311a35517a2cfffac962b8748c049b8b0d8f847886",
+          "sequence": 9
+        },
+        {
+          "record_id": "record-599cb6170c86d3b654d6dc5656fd50f9a98038afd1d8f2e7f5d53c4f7a2676b6",
+          "source_id": "span-626443b4a49fb3e115ea26675ee8bfab6a6b663b40966a45e67eaa3662cd8618",
+          "sha256": "cf8e56e9b3e8aac2ac9e87dc4c91ecec16b68c949ab79501036f00dd149760b6",
+          "sequence": 10
+        },
+        {
+          "record_id": "record-cc356b19c3b81031faab81f224b8f4d92703289635066981565f9ea1a4f324d1",
+          "source_id": "span-532636a11b298c4e84e49618347ebae2a012edde084c3758ad67caa6b059edae",
+          "sha256": "f2ae9b9993db26af9811a58edc3b30f2ac2e96e8a85b61779fe0c5b5573139c9",
+          "sequence": 11
+        }
+      ],
+      "cutoff": 12,
+      "rules": {
+        "marriage": "测恋爱婚姻一般以天盘乙奇为女方，天盘庚为男方",
+        "year": "如果预测成婚或离婚等大事，还可以分别看男、女双方的年命落宫情况"
+      },
+      "tasks": [
+        {
+          "type": "timing_analysis",
+          "targets": [
+            {
+              "record_id": "record-48c488057667f351d0caac49b8738c10a4f2de8e5d1581c5f4e4e882e53a4dc0",
+              "source_id": "span-2e0b9d9626de7a37551b5085e7a9343e25da42496ae545481e0ceedd4afe04c1",
+              "sha256": "b54e12a171a18dadd65c9a26a463f07f344ab37905327a6e6e647eba8b451879",
+              "sequence": 12
+            },
+            {
+              "record_id": "record-c0e34b0a5f43078df9fb93004e6e338409b73132a2cc06dee8303ce705b07af2",
+              "source_id": "span-d0e4501787070c49bbaecf27e055a2eca893b604b37b285f0939f6612730e210",
+              "sha256": "f0c613f1666f0fb041605ff0113c21ee75fec15dda4f96407ff4ccc85e1c773f",
+              "sequence": 13
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-48c488057667f351d0caac49b8738c10a4f2de8e5d1581c5f4e4e882e53a4dc0",
+              "source_id": "span-2e0b9d9626de7a37551b5085e7a9343e25da42496ae545481e0ceedd4afe04c1",
+              "sha256": "b54e12a171a18dadd65c9a26a463f07f344ab37905327a6e6e647eba8b451879",
+              "sequence": 12,
+              "quote": "日、时均在内盘，庚+丁又为时格，景门为值使在3宫"
+            }
+          ],
+          "answer": {
+            "explanation": "作者用日时内盘、庚丁时格与景门值使震三组合给三十天至三个月左右，再预报次年四五月成婚；这两项是当时预测范围，后续结果未开放，不能把其后实际年份改写成原预测年份。",
+            "citations": [
+              "chart",
+              "context",
+              "marriage",
+              "year"
+            ],
+            "uncertainties": [
+              "一般男女、日干人物、配偶相合干和年命视角须分开；只复现此案方法。"
+            ],
+            "methods": [
+              "内盘与时格判断快慢",
+              "值使宫数取日月范围"
+            ]
+          }
+        }
+      ],
+      "case_id": "case-06199fc40772ac8fc5f4a73cde73b79c26318962a41f628c16c8aef05e0c4427",
+      "event_id": "event-be59b4644c19626051150e9e3209891a5b76d1da385fc486cb171f570493ad05",
+      "family_id": "family-43857b7ab4b6d02ba6faadb60fe05d4521414a167f15cd3823a2fc854f44654b",
+      "chart_id": "chart-752b82666e1f8456f51f947181a7c6ee1dc1a527e602b978ac9c76776cb2f8a0",
+      "chapter": "08-marriage-prediction",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    },
+    {
+      "case": 6,
+      "event": 1,
+      "stage": "after_marriage_feedback",
+      "mode": "retrospective",
+      "known": [
+        {
+          "record_id": "record-0ddfbf47f43202ebc7982b841afa8ecf50b4f6d9686f47838ba0d1269e688d3a",
+          "source_id": "span-c8f8f626391c0ed3493f03a9513f5d36a21fc64ca1630b7bcd45ef2e1c8bcf0a",
+          "sha256": "614a6e4a6c08c5cb5751c7415a8d40e05899abe522d9f6907bcdf034d69f3058",
+          "sequence": 0
+        },
+        {
+          "record_id": "record-4393d1de58e6bbbfec839e0975ab12bf2f8169e0573dc3a5bac311eb686cf388",
+          "source_id": "span-a5e8deccad26c0adccb0caf364163ddd28ce5d67db5cee172b4f5d41239dfb20",
+          "sha256": "f5086382809321e237beb10b3bec5ef89c1d5a82bd53a8283568216c0e8d94f0",
+          "sequence": 1
+        },
+        {
+          "record_id": "record-db6ec9d448d1ab577530eb9c46fa1e4d1c1ef31d8fb620ded2ad7f3f6e7300b0",
+          "source_id": "span-fc47a45a6dd8ac290fc59ca7637c942c27f247bac88d4137e728d9118cbea39f",
+          "sha256": "60784f57fa30a2345b17b93953ce8e6b1cc645caf3d2bdcc09476274a5f60643",
+          "sequence": 2
+        },
+        {
+          "record_id": "record-de3b588ef5942877b7ecca6ba4c8bfdc379f5e43f98152f0dd3464fbb8ff6f93",
+          "source_id": "span-897223e5ccbdb2f82f2679f5d5962f3a93677ff856ced6558bc9d888a07ee920",
+          "sha256": "1cb118da5ede54cdb2fe7d578a4ebc86f988faeab3fe378402519a06a5cc6543",
+          "sequence": 3
+        },
+        {
+          "record_id": "record-7c1f5dc6e006a03da585295b4e3708cc207adb54d949e72773e6aaf73703a2d5",
+          "source_id": "span-34154ee6e9bc11454332a992a7780ded0e9c70a6312c02641e1af490f4e59b6b",
+          "sha256": "898c221fcd53c30870da845f5ebf19b81b39cf23bd61e9ca07d2b191fa86409f",
+          "sequence": 4
+        },
+        {
+          "record_id": "record-bbec516097386df06a9f4a0b23924ba6e09ef23e303573b95ff57994242cc076",
+          "source_id": "span-b38806ba08d1ae98c2eea2156ff5e99c8ff3004f54dc63e71317ec3313efd692",
+          "sha256": "ae82929d5fb04582e492155d59f45fe1175cb06007f0d42245a8315fa2d019d2",
+          "sequence": 5
+        }
+      ],
+      "cutoff": 6,
+      "rules": {
+        "marriage": "测恋爱婚姻一般以天盘乙奇为女方，天盘庚为男方",
+        "year": "如果预测成婚或离婚等大事，还可以分别看男、女双方的年命落宫情况"
+      },
+      "provided_roles": [
+        "乙妻庚夫、双方年命丁戊、第三者丁及年命癸分开"
+      ],
+      "tasks": [
+        {
+          "type": "chart_evidence",
+          "targets": [
+            {
+              "record_id": "record-ff652482e387e82e3d39cef9a10915973d02732ffabefbd7e2d0a13cc10040d1",
+              "source_id": "span-e947298d0886d9bfc7857c0a8aea92fac93565e101068915f960f92d32f95efc",
+              "sha256": "81d8ab26fce7f4168da3176e0c3d26cb5773b0f644a5a9c06489ef9fce813cd1",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-87d5bb5308a769b5dc31ef509422300774c6fd6b370757c916c05398503d199b",
+              "source_id": "span-cc051f8e52b4cc47da93305139f5f5be5387e6cc11eec0eed6b05d3d495e08ef",
+              "sha256": "33df22e087e7e4edd3b929ac769eff2ee7511dbd57fb0fcbfc77903d915497fe",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-28a72ef40d611a7006f87571c42121f2a7ff76ab9b36b31df0242f3fa8d03626",
+              "source_id": "span-fc7ce38c4dc4cf353a2542d6c90a1545bfad984dccdda6e47dd5c207e612805b",
+              "sha256": "b161de6305f787750272c3b790eeddefcf8c5b25f0f5ad86103bd01ff9423bf9",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-32b046e3091864c7b0ab1852cad65a03735c5504045a07ad89c013240bb0d3e0",
+              "source_id": "span-e9482be01053461e42311dcb93e6e48f728535ee903bedfe660d475ccab306ff",
+              "sha256": "f18b2c3470fe44f88d37d0802ebcecb59e2645459a8defae82482c4337e2ea9e",
+              "sequence": 9
+            }
+          ],
+          "conditions": [],
+          "answer": {
+            "explanation": "乙坎一六合、庚巽四九地，丈夫年命戊坤二、妻命丁艮八、第三者年命癸兑七按原表保留；不能把角色同干自动当成同一人物。",
+            "citations": [
+              "chart",
+              "context",
+              "marriage",
+              "year"
+            ],
+            "uncertainties": [
+              "一般男女、日干人物、配偶相合干和年命视角须分开；只复现此案方法。"
+            ]
+          },
+          "facts": [
+            [
+              1,
+              "heaven_stem"
+            ],
+            [
+              1,
+              "deity"
+            ],
+            [
+              4,
+              "heaven_stem"
+            ],
+            [
+              4,
+              "deity"
+            ],
+            [
+              2,
+              "heaven_stem"
+            ],
+            [
+              8,
+              "heaven_stem"
+            ],
+            [
+              7,
+              "heaven_stem"
+            ]
+          ]
+        },
+        {
+          "type": "feedback_continuation",
+          "targets": [
+            {
+              "record_id": "record-ff652482e387e82e3d39cef9a10915973d02732ffabefbd7e2d0a13cc10040d1",
+              "source_id": "span-e947298d0886d9bfc7857c0a8aea92fac93565e101068915f960f92d32f95efc",
+              "sha256": "81d8ab26fce7f4168da3176e0c3d26cb5773b0f644a5a9c06489ef9fce813cd1",
+              "sequence": 6
+            },
+            {
+              "record_id": "record-87d5bb5308a769b5dc31ef509422300774c6fd6b370757c916c05398503d199b",
+              "source_id": "span-cc051f8e52b4cc47da93305139f5f5be5387e6cc11eec0eed6b05d3d495e08ef",
+              "sha256": "33df22e087e7e4edd3b929ac769eff2ee7511dbd57fb0fcbfc77903d915497fe",
+              "sequence": 7
+            },
+            {
+              "record_id": "record-28a72ef40d611a7006f87571c42121f2a7ff76ab9b36b31df0242f3fa8d03626",
+              "source_id": "span-fc7ce38c4dc4cf353a2542d6c90a1545bfad984dccdda6e47dd5c207e612805b",
+              "sha256": "b161de6305f787750272c3b790eeddefcf8c5b25f0f5ad86103bd01ff9423bf9",
+              "sequence": 8
+            },
+            {
+              "record_id": "record-32b046e3091864c7b0ab1852cad65a03735c5504045a07ad89c013240bb0d3e0",
+              "source_id": "span-e9482be01053461e42311dcb93e6e48f728535ee903bedfe660d475ccab306ff",
+              "sha256": "f18b2c3470fe44f88d37d0802ebcecb59e2645459a8defae82482c4337e2ea9e",
+              "sequence": 9
+            }
+          ],
+          "conditions": [
+            {
+              "record_id": "record-ff652482e387e82e3d39cef9a10915973d02732ffabefbd7e2d0a13cc10040d1",
+              "source_id": "span-e947298d0886d9bfc7857c0a8aea92fac93565e101068915f960f92d32f95efc",
+              "sha256": "81d8ab26fce7f4168da3176e0c3d26cb5773b0f644a5a9c06489ef9fce813cd1",
+              "sequence": 6,
+              "quote": "乙为妻子在坎1宫，庚为丈夫在巽4宫，二者相生"
+            },
+            {
+              "record_id": "record-ff652482e387e82e3d39cef9a10915973d02732ffabefbd7e2d0a13cc10040d1",
+              "source_id": "span-e947298d0886d9bfc7857c0a8aea92fac93565e101068915f960f92d32f95efc",
+              "sha256": "81d8ab26fce7f4168da3176e0c3d26cb5773b0f644a5a9c06489ef9fce813cd1",
+              "sequence": 6,
+              "quote": "乙奇又临六合，庚临九地主长久"
+            },
+            {
+              "record_id": "record-87d5bb5308a769b5dc31ef509422300774c6fd6b370757c916c05398503d199b",
+              "source_id": "span-cc051f8e52b4cc47da93305139f5f5be5387e6cc11eec0eed6b05d3d495e08ef",
+              "sha256": "33df22e087e7e4edd3b929ac769eff2ee7511dbd57fb0fcbfc77903d915497fe",
+              "sequence": 7,
+              "quote": "二宫虽然对冲，有矛盾，但毕竟均属土，又有比和之意"
+            },
+            {
+              "record_id": "record-87d5bb5308a769b5dc31ef509422300774c6fd6b370757c916c05398503d199b",
+              "source_id": "span-cc051f8e52b4cc47da93305139f5f5be5387e6cc11eec0eed6b05d3d495e08ef",
+              "sha256": "33df22e087e7e4edd3b929ac769eff2ee7511dbd57fb0fcbfc77903d915497fe",
+              "sequence": 7,
+              "quote": "伏吟主不动之象"
+            }
+          ],
+          "answer": {
+            "explanation": "已知既往外遇与当前反馈的来源复盘中，作者以乙庚相生、六合九地，及双方年命虽冲而同土、伏吟不动，支持“不离”判断；第三者的丁象和癸年命另论，不能凭一个合就推必成婚。未提供新的最终离婚结局，不把家族另一次无盘事件复制成独立训练案。",
+            "citations": [
+              "chart",
+              "context",
+              "marriage",
+              "year"
+            ],
+            "uncertainties": [
+              "一般男女、日干人物、配偶相合干和年命视角须分开；只复现此案方法。"
+            ],
+            "chart_action": "reuse_original"
+          }
+        }
+      ],
+      "case_id": "case-9b0a82c9dd9be93670a78d2035fc0ed84bf4a8a87a5ff970281c1be8bb007855",
+      "event_id": "event-048804d6cf4ee3aae11ecb7f9a7117bc596d61f36951698dce1c18d91516f60f",
+      "family_id": "family-c6faf70e227f9740cb1295e24c62a0a1ed7bf5494e3602debada0907ee74aaa1",
+      "chart_id": "chart-ee4ad1bf5adeb7e3ce1e5cda5f9dab48848387eb924d288f1805c98ea1152276",
+      "chapter": "08-marriage-prediction",
+      "source_review": "Manually read full record packet; preserve source phases, declared conditions and same historical chart."
+    }
+  ]
+}
