@@ -53,6 +53,12 @@ def matrix(manifest, records=None):
             'frozen_tasks': frozen,
             'unseen_validation_families': source['unseen_validation_families'],
             'forecast_validation_tasks': source['forecast_validation_tasks'],
+            'independent_sealed_test_case_gate': ('not_a_case_chapter' if not is_case else
+                'missing_sealed_test_tasks' if frozen['test'] == 0 else
+                'pending_unique_eligible_family_audit'),
+            'training_time_validation_case_gate': ('not_a_case_chapter' if not is_case else
+                'missing_validation_family' if source['unseen_validation_families'] == 0 else
+                'pending_independent_case_method_review'),
             'records_evaluated': len(observations),
             'seen_train_diagnostics': per_split['train'],
             'heldout_validation_records': per_split['validation'],
@@ -77,6 +83,16 @@ def matrix(manifest, records=None):
         'theory_or_source_chapters': sum(c['kind'] != 'case_method' for c in items),
         'source_chapters_with_validation_tasks': sum(c['frozen_tasks']['validation'] > 0 for c in items),
         'source_chapters_with_development_tasks': sum(c['frozen_tasks']['development'] > 0 for c in items),
+        'case_chapters_missing_any_sealed_test_tasks': [
+            {'chapter': c['chapter'], 'title': c['title']} for c in items
+            if c['kind'] == 'case_method' and c['frozen_tasks']['test'] == 0
+        ],
+        'case_chapters_with_test_tasks_but_unique_eligible_case_unverified': [
+            {'chapter': c['chapter'], 'title': c['title']} for c in items
+            if c['kind'] == 'case_method' and c['frozen_tasks']['test'] > 0
+        ],
+        'minimum_eligible_independent_final_test_cases_per_case_chapter': 1,
+        'every_case_chapter_independent_final_test_verified': False,
         'case_chapters_missing_unseen_validation_families': [
             {'chapter': c['chapter'], 'title': c['title']} for c in items
             if c['kind'] == 'case_method' and c['unseen_validation_families'] == 0
