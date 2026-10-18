@@ -32,3 +32,5 @@
 9专项通过：原字节与新旧引用、2478字符全文比对、原5组语境真实解析、实体/方法/案例/盘/候选/训练不重复、2注释参考标志与断尾、实际learn/reference/CLI/WSGI及来源确认、幂等和坏新源/坏旧关系拒绝、旧行审计、快照精确恢复。全量`PYTHONPATH=src python3 -m unittest discover -s tests -v`实际469项通过、0失败/错误；精确SHA四组CI按实际结果写入data/provenance/biography_validation.json，pending不当完成。
 
 既有API学习入口可查新整篇及旧来源关系，未改问事/排盘/核心metrics。无schema迁移、新目录或workflow增删；保留原tests.yml，历史解释见ingestion/SHENQI_TRAVEL.md。详见ingestion/SHENQI_BIOGRAPHY.md。独立公历、正式专业问事/应期、训练、独立现实准确率和公众Web未完成，不由重复来源推模型掌握或全书收齐。
+
+远端内容验收：`9dc1bbcdb3a9d31f7c3e4c63330ad951895a2c4d` 已核对main一致、384文件blob匹配；[Actions 39084971648](https://github.com/turnupmason/QimenLLM/actions/runs/39084971648) 的Ubuntu/macOS × Python3.11/3.12四job全部success，四份日志均实际Ran 469 tests / OK。通过已连接GitHub接口非强制更新，未增删workflow。这里记录实际验收的内容提交；本验收文档提交自身须按精确新SHA另查四CI，不以旧CI替代。
