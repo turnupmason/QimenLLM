@@ -1,0 +1,191 @@
+{
+  "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+  "source_byte_count": 9177,
+  "source_line_count": 37,
+  "source_file": "神奇之门_奇门预测准确率评估_精校完整版.txt",
+  "verification_basis": "user_attestation",
+  "system_performed_independent_verification": false,
+  "context_groups": 13,
+  "technical_boundaries": 9,
+  "method_disagreement_families": 5,
+  "author_accuracy_interpretations": 2,
+  "historical_cases_added": 0,
+  "events_added": 0,
+  "charts_added": 0,
+  "case_records_added": 0,
+  "rule_candidates_added": 0,
+  "empirical_evaluation_runs_added": 0,
+  "project_empirical_accuracy": null,
+  "last_line_as_supplied": "列宁说过：“世界上除了运动的物质之外，便没有别的东西。而运动的物质若不在时间空间中便无运动的可能。”事物都是在一定时间和空间发生、发展、变化、灭亡和转化的。而奇门预测，正是通过提取时间和空间的信息，纳入宇宙统一信息场这个全息思维模型之中进行系统辨识，从而达到预测目的和效果的一种思维科学理论和方法。所以，提取什么样的时间和空间，与准确率有很大关系。\n",
+  "schema_migration": false,
+  "default_casting_method_changed": false,
+  "formal_rules_added": 0,
+  "training_tasks_added": 0,
+  "snapshot": {
+    "data_version": "b79a2c25-dd1e-4ecd-b0cb-10956fe080de",
+    "snapshot": "data/snapshots/current",
+    "counts": {
+      "data_versions": 98,
+      "books": 1,
+      "chapters": 21,
+      "raw_documents": 21,
+      "chapter_revisions": 21,
+      "source_reviews": 28,
+      "source_spans": 3163,
+      "methods": 30,
+      "concepts": 2530,
+      "concept_links": 0,
+      "knowledge_items": 1109,
+      "rules": 0,
+      "rule_conditions": 0,
+      "rule_disagreements": 0,
+      "event_families": 93,
+      "cases": 97,
+      "events": 104,
+      "case_events": 104,
+      "charts": 102,
+      "case_records": 1549,
+      "evidence_links": 1872,
+      "dataset_releases": 0,
+      "split_assignments": 0,
+      "training_tasks": 0,
+      "task_inputs": 0
+    },
+    "manifest_sha256": "ed62a8ee475dee77a8175a5efffe3542b3904614b996407665eff776f6fc2e0b"
+  },
+  "old_rows_preserved": {
+    "rule_conditions": {
+      "old": 0,
+      "new": 0
+    },
+    "concept_links": {
+      "old": 0,
+      "new": 0
+    },
+    "case_events": {
+      "old": 104,
+      "new": 104
+    },
+    "data_versions": {
+      "old": 95,
+      "new": 98
+    },
+    "case_records": {
+      "old": 1549,
+      "new": 1549
+    },
+    "rule_disagreements": {
+      "old": 0,
+      "new": 0
+    },
+    "training_tasks": {
+      "old": 0,
+      "new": 0
+    },
+    "evidence_links": {
+      "old": 1872,
+      "new": 1872
+    },
+    "chapter_revisions": {
+      "old": 20,
+      "new": 21
+    },
+    "knowledge_items": {
+      "old": 1087,
+      "new": 1109
+    },
+    "methods": {
+      "old": 29,
+      "new": 30
+    },
+    "event_families": {
+      "old": 93,
+      "new": 93
+    },
+    "raw_documents": {
+      "old": 20,
+      "new": 21
+    },
+    "cases": {
+      "old": 97,
+      "new": 97
+    },
+    "task_inputs": {
+      "old": 0,
+      "new": 0
+    },
+    "source_spans": {
+      "old": 3140,
+      "new": 3163
+    },
+    "concepts": {
+      "old": 2480,
+      "new": 2530
+    },
+    "events": {
+      "old": 104,
+      "new": 104
+    },
+    "rules": {
+      "old": 0,
+      "new": 0
+    },
+    "split_assignments": {
+      "old": 0,
+      "new": 0
+    },
+    "charts": {
+      "old": 102,
+      "new": 102
+    },
+    "chapters": {
+      "old": 20,
+      "new": 21
+    },
+    "books": {
+      "old": 1,
+      "new": 1
+    },
+    "source_reviews": {
+      "old": 27,
+      "new": 28
+    },
+    "dataset_releases": {
+      "old": 0,
+      "new": 0
+    }
+  },
+  "old_raw_documents_byte_identical": 20,
+  "snapshot_files": 47,
+  "snapshot_roundtrip_byte_identical": true,
+  "integrity_audit_ok": true,
+  "base_main_sha": "899673499eee34e60f7388cf5f1976451b1aec07",
+  "full_regression": {
+    "status": "passed",
+    "tests": 429,
+    "failures": 0,
+    "errors": 0,
+    "command": "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+    "python": "3.12.2",
+    "platform": "Darwin",
+    "focused_tests": 15,
+    "actual_cli_and_wsgi_read": true,
+    "existing_symbolic_calculation_status": "computed",
+    "existing_symbolic_calculation_unchanged": true,
+    "professional_correctness": null,
+    "real_world_predictive_accuracy": null
+  },
+  "github_sync": {
+    "status": "pending"
+  },
+  "development_failures": [
+    {
+      "kind": "test_query_assumption",
+      "description": "Initial reference-annotation assertion filtered by compiled method_id and found zero rows; existing add_annotations leaves method_id NULL. Query corrected to source revision, preserving runtime and source data.",
+      "resolved": true
+    }
+  ],
+  "cumulative_context_groups": 511,
+  "cumulative_quality_records": 342,
+  "cumulative_compiled_datasets": 39
+}

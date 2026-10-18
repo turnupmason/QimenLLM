@@ -1,8 +1,8 @@
 # QimenLLM
 
-古籍知识、确定性计算、完整案例与可替换语言模型结合的研究工程。**当前累计接收《神奇之门》二十份章级输入、97个完整故事/104事件/102已给原盘（本轮新增5个人生机遇故事/5咨询或验测事件/5原盘，含1例已知结果后验测）；支持符号计算、来源候选检查、案例阅读和原盘投影对照。独立公历起盘、正式用神激活、专业问事及模型训练尚未完成。**
+古籍知识、确定性计算、完整案例与可替换语言模型结合的研究工程。**当前累计接收《神奇之门》二十一份章级输入、97个完整故事/104事件/102已给原盘。本轮《奇门预测准确率评估》新增13组方法论语境和9项评估边界；保存作者准确率的两种口径、失败案例披露和五类方法分歧。支持符号计算、来源学习、条件候选检查、案例阅读与原盘投影；独立公历起盘、正式用神激活、专业问事及模型训练尚未完成。**
 
-用户已统一确认既往及未来提供的资料与历史事实，并声明已独立确认。维护导入默认confirmed，不再请求原文二次确认；确认依据与程序复算、模型评估分开记录，详见[现行来源政策](docs/KNOWLEDGE_POLICY.md)及[人生机遇报告](docs/ingestion/SHENQI_LIFE.md)及[地理环境报告](docs/ingestion/SHENQI_GEOGRAPHY.md)及[天时气象报告](docs/ingestion/SHENQI_WEATHER.md)及[体育竞赛报告](docs/ingestion/SHENQI_SPORTS.md)及[官司诉讼报告](docs/ingestion/SHENQI_LITIGATION.md)及[刑事案件报告](docs/ingestion/SHENQI_CRIMINAL.md)及[钱物丢失报告](docs/ingestion/SHENQI_LOST.md)及[行人走失报告](docs/ingestion/SHENQI_MISSING.md)及[出行出国报告](docs/ingestion/SHENQI_TRAVEL.md)及[经营求财报告](docs/ingestion/SHENQI_BUSINESS.md)及[上一轮工作就业报告](docs/ingestion/SHENQI_EMPLOYMENT.md)。
+用户已统一确认既往及未来提供的资料与历史事实，并声明已独立确认。维护导入默认confirmed，不再请求原文二次确认；确认依据与程序复算、模型评估分开记录，详见[现行来源政策](docs/KNOWLEDGE_POLICY.md)及[准确率评估知识报告](docs/ingestion/SHENQI_ACCURACY.md)及[人生机遇报告](docs/ingestion/SHENQI_LIFE.md)及[地理环境报告](docs/ingestion/SHENQI_GEOGRAPHY.md)及[天时气象报告](docs/ingestion/SHENQI_WEATHER.md)及[体育竞赛报告](docs/ingestion/SHENQI_SPORTS.md)及[官司诉讼报告](docs/ingestion/SHENQI_LITIGATION.md)及[刑事案件报告](docs/ingestion/SHENQI_CRIMINAL.md)及[钱物丢失报告](docs/ingestion/SHENQI_LOST.md)及[行人走失报告](docs/ingestion/SHENQI_MISSING.md)及[出行出国报告](docs/ingestion/SHENQI_TRAVEL.md)及[经营求财报告](docs/ingestion/SHENQI_BUSINESS.md)及[上一轮工作就业报告](docs/ingestion/SHENQI_EMPLOYMENT.md)。
 
 执行约束见 [AGENTS](AGENTS.md)，[原始用户总指令](docs/user_instructions/master_spec_2026-10-17.txt)，[本次重申总指令](docs/user_instructions/master_spec_reaffirmed_2026-10-17.txt)，[当前进度](docs/STATUS.md)，[首章入库报告](docs/ingestion/SHENQI_CHAPTER01.md)、[第二份报告](docs/ingestion/SHENQI_CHAPTER02.md)、[第四、五章报告](docs/ingestion/SHENQI_CHAPTERS0405.md)、[应用概述报告](docs/ingestion/SHENQI_APPLICATION_OVERVIEW.md)、[疾病案例报告](docs/ingestion/SHENQI_HEALTH.md)、[婚恋案例报告](docs/ingestion/SHENQI_MARRIAGE.md)。没有读取或继承旧项目。
 
@@ -52,7 +52,7 @@ src/qimenllm/按knowledge/casting/retrieval/rules/cases/reasoning/models/verific
 
 data/qimenllm.sqlite3是本地运行库，raw_books是原字节镜像，二者不直接入Git。**实际原文字节与全部权威表**保存在data/snapshots/current，可恢复；整理和来源测试在data/structured/shenqi，来源与验收在data/provenance。schema v1见src/qimenllm/knowledge/migrations/001_initial.sql及[SCHEMA](docs/SCHEMA.md)。
 
-累计498个上下文块、39编译符号族、333来源/技术边界、16符号教学例；194当前条件候选对应201不可变历史条，正式角色rules仍0。97完整故事/93家族/104事件/102已给原盘、1549记录/1872证据；缺盘不造。作者明确反馈按用户声明确认；未载结局不补。本轮5张人生机遇原盘45宫逐字读取，已知结果后验测、死亡年份错断及初五后验应期隔离；此前2张地理环境原盘18宫逐字读取，先考题无盘不造，两处墓地同家族且反馈范围有限；此前5张天气原盘45宫逐字读取，与体育章共局一案共用家族、辅庚/铺庚原文并存；此前7张体育竞赛原盘63宫逐字读取，铺庚星名保持未知，第六例错断保留；此前6张官司诉讼原盘54宫逐字读取并隔离后置解释；此前6张刑事案件原盘已逐盘读取，含同一银行案两种方法且后验比较隔离；钱物丢失8张原盘保留；行人走失11张四行盘保留；出行出国7张框线原盘保留；经营求财16张原表已逐盘读取，原书特殊中五“禽己”保留字面前缀；上一轮工作调动盘仍保留2处程序携干差异。训练任务0，旧217有向参考键仍保留原句和条件，详见[覆盖](docs/KNOWLEDGE_COVERAGE.md)。
+累计511个上下文块、39编译符号族、342来源/技术边界、16符号教学例；194当前条件候选对应201不可变历史条，正式角色rules仍0。97完整故事/93家族/104事件/102已给原盘、1549记录/1872证据；缺盘不造。作者明确反馈按用户声明确认；未载结局不补。本轮5张人生机遇原盘45宫逐字读取，已知结果后验测、死亡年份错断及初五后验应期隔离；此前2张地理环境原盘18宫逐字读取，先考题无盘不造，两处墓地同家族且反馈范围有限；此前5张天气原盘45宫逐字读取，与体育章共局一案共用家族、辅庚/铺庚原文并存；此前7张体育竞赛原盘63宫逐字读取，铺庚星名保持未知，第六例错断保留；此前6张官司诉讼原盘54宫逐字读取并隔离后置解释；此前6张刑事案件原盘已逐盘读取，含同一银行案两种方法且后验比较隔离；钱物丢失8张原盘保留；行人走失11张四行盘保留；出行出国7张框线原盘保留；经营求财16张原表已逐盘读取，原书特殊中五“禽己”保留字面前缀；上一轮工作调动盘仍保留2处程序携干差异。训练任务0，旧217有向参考键仍保留原句和条件，详见[覆盖](docs/KNOWLEDGE_COVERAGE.md)。
 
 ## 每次更新同步GitHub
 
@@ -84,3 +84,13 @@ PYTHONPATH=src python3 scripts/import_shenqi_sports.py
 PYTHONPATH=src python3 scripts/import_shenqi_weather.py
 PYTHONPATH=src python3 scripts/import_shenqi_geography.py
 PYTHONPATH=src python3 scripts/import_shenqi_life.py`，本章所有真实原盘均通过 `case-chart` 同一服务读取（明确比较方法后才尝试对照）。
+
+本轮方法论知识可直接使用现有学习入口读取：
+
+```sh
+PYTHONPATH=src python3 -m qimenllm learn '百分之七八十'
+PYTHONPATH=src python3 -m qimenllm reference accuracy_method_disagreements_reference --filters '{}'
+PYTHONPATH=src python3 scripts/import_shenqi_accuracy.py
+```
+
+作者的百分之七八十属于原书经验表述，两个分母/程度口径均保留；未提供实际百人样本或逐案评分表，不写成项目实测准确率。批评只报成功、承认错断、略去完全失败案例的三个原书段落同组保存。方法分歧只作来源参考，不更换现有算法默认值；本轮未增加案例、盘、正式规则或训练任务。

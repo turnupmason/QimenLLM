@@ -150,3 +150,7 @@ PYTHONPATH=src python3 scripts/import_shenqi_life.py --restore-base --db work/li
 ```
 
 目标库须不存在；已含本章的快照重放幂等。复用import_chapter/install_curated/import_cases/install_candidates及QimenService/CLI/WSGI。多轮断语、分析、反馈分kind/phase，未知和已知结果后验测不放首次输入；不得把现有本金回收/计划或错误年份重写成后续命中。旧source/cases/curation/gold/总指令不改。local-only只维护暂存，最终须审计/快照/全量回归/核实私有仓库/非强制更新main/精确SHA逐blob与四CI；不新增workflow。见ingestion/SHENQI_LIFE.md。
+
+## 准确率评估知识重放
+
+用户上传方法论TXT，SHA256 528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3，9177字节/37行。使用 `PYTHONPATH=src python3 scripts/import_shenqi_accuracy.py`，沿现有import_chapter/install_curated，按accuracy-assessment/接收排序22保存13完整语境与9参考边界。无具体案例、原盘或逐案评分表，不调用import_cases/install_candidates，不建空case/gold文件；作者百分比不计算成实测分数。既有learn/reference接口可读。重放幂等，源字节变化拒绝；用户确认政策、私有同步、快照和全量回归要求不变。见ingestion/SHENQI_ACCURACY.md。

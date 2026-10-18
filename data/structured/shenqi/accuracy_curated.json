@@ -1,0 +1,1023 @@
+{
+  "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+  "source_byte_count": 9177,
+  "source_line_count": 37,
+  "chapter_title": "奇门预测准确率评估",
+  "chapter_key_suggestion": "accuracy-assessment",
+  "printed_chapter_number": null,
+  "groups": [
+    {
+      "key": "accuracy_heading",
+      "title": "准确率评估原题",
+      "category": "commentary",
+      "line_start": 1,
+      "line_end": 2,
+      "attribution": "原书作者；引述与比较保留归属，不冒称本项目独立外查",
+      "summary": "完整论证语境；作者经验、样本口径、披露限制、方法分歧与项目实测指标分别记录",
+      "concepts": [],
+      "dataset": {
+        "key": "accuracy_heading_reference",
+        "rows": [
+          {
+            "key": "accuracy_heading_1",
+            "source_lines": [
+              1,
+              1
+            ],
+            "source_pointer": {
+              "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+              "line_start": 1,
+              "line_end": 1,
+              "byte_start": 0,
+              "byte_end": 28,
+              "source_quote": "奇门预测准确率评估\n"
+            },
+            "source_quote": "奇门预测准确率评估\n",
+            "method_scope": "shenqi_accuracy_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "原书作者观点或经验表述"
+          }
+        ]
+      }
+    },
+    {
+      "key": "accuracy_initial_claim",
+      "title": "作者实践检验及广泛应用的开篇主张",
+      "category": "commentary",
+      "line_start": 3,
+      "line_end": 4,
+      "attribution": "原书作者；引述与比较保留归属，不冒称本项目独立外查",
+      "summary": "完整论证语境；作者经验、样本口径、披露限制、方法分歧与项目实测指标分别记录",
+      "concepts": [
+        "预测范围",
+        "实践经验"
+      ],
+      "dataset": {
+        "key": "accuracy_initial_claim_reference",
+        "rows": [
+          {
+            "key": "accuracy_initial_claim_3",
+            "source_lines": [
+              3,
+              3
+            ],
+            "source_pointer": {
+              "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+              "line_start": 3,
+              "line_end": 3,
+              "byte_start": 29,
+              "byte_end": 210,
+              "source_quote": "奇门遁甲，不仅可以用于择时择方，趋吉避凶，而且经过我们的实践检验，确实可以用于预测，而且预测范围很广，并有相当的准确率。\n"
+            },
+            "source_quote": "奇门遁甲，不仅可以用于择时择方，趋吉避凶，而且经过我们的实践检验，确实可以用于预测，而且预测范围很广，并有相当的准确率。\n",
+            "method_scope": "shenqi_accuracy_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "原书作者观点或经验表述"
+          }
+        ]
+      }
+    },
+    {
+      "key": "accuracy_three_reasons",
+      "title": "高层次称谓的三条完整论证与类比限制",
+      "category": "commentary",
+      "line_start": 5,
+      "line_end": 12,
+      "attribution": "原书作者；引述与比较保留归属，不冒称本项目独立外查",
+      "summary": "完整论证语境；作者经验、样本口径、披露限制、方法分歧与项目实测指标分别记录",
+      "concepts": [
+        "天时",
+        "地利",
+        "人和",
+        "时间",
+        "空间",
+        "可重复性",
+        "六爻",
+        "四柱"
+      ],
+      "dataset": {
+        "key": "accuracy_three_reasons_reference",
+        "rows": [
+          {
+            "key": "accuracy_three_reasons_5",
+            "source_lines": [
+              5,
+              5
+            ],
+            "source_pointer": {
+              "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+              "line_start": 5,
+              "line_end": 5,
+              "byte_start": 211,
+              "byte_end": 278,
+              "source_quote": "说它是高层次预测学，我体会，起码有三条理由：\n"
+            },
+            "source_quote": "说它是高层次预测学，我体会，起码有三条理由：\n",
+            "method_scope": "shenqi_accuracy_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "原书作者观点或经验表述"
+          },
+          {
+            "key": "accuracy_three_reasons_7",
+            "source_lines": [
+              7,
+              7
+            ],
+            "source_pointer": {
+              "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+              "line_start": 7,
+              "line_end": 7,
+              "byte_start": 279,
+              "byte_end": 931,
+              "source_quote": "第一，比较起中层次的六爻预测和四柱预测来，它的理论架构和思维模型更加复杂、更加立体化、动态化，它把天时、地利、人和以及自然界某种作用于人的神秘力量(目前还难以应用现代科学破译的某些自然力量)综合在一起，形成一个立体的宇宙统一信息场。它向我们提供的信息更加丰富全面，在一定意义上可以称之为全方位的时空信息。有人曾把六爻预测比附为六维空间(这种比附是否科学，尚待研究),那么,奇门预测则可比附为九维空间，自然反映的信息更加立体更加全面更加丰富了。\n"
+            },
+            "source_quote": "第一，比较起中层次的六爻预测和四柱预测来，它的理论架构和思维模型更加复杂、更加立体化、动态化，它把天时、地利、人和以及自然界某种作用于人的神秘力量(目前还难以应用现代科学破译的某些自然力量)综合在一起，形成一个立体的宇宙统一信息场。它向我们提供的信息更加丰富全面，在一定意义上可以称之为全方位的时空信息。有人曾把六爻预测比附为六维空间(这种比附是否科学，尚待研究),那么,奇门预测则可比附为九维空间，自然反映的信息更加立体更加全面更加丰富了。\n",
+            "method_scope": "shenqi_accuracy_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "原书作者观点或经验表述"
+          },
+          {
+            "key": "accuracy_three_reasons_9",
+            "source_lines": [
+              9,
+              9
+            ],
+            "source_pointer": {
+              "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+              "line_start": 9,
+              "line_end": 9,
+              "byte_start": 932,
+              "byte_end": 2118,
+              "source_quote": "第二，它提取信息的方法主要是时间和空间方位，既不用求测人抽签、摇卦、写字，也不用求测人报出生时间等等，只要求测人提出想问的问题，测者就可根据奇门格局一一给予回答了。如果测者对奇门运用纯熟，可以不用任何工具，只在手上点几下，或在脑子里转一下，就可以在分秒之间回答求测人的各种问题。这种预测方式更加适用于上层和高层人士。根据我们的实践经验，稍有地位和身份的人，特别在当今社会多数人对周易预测还不理解的情况下，你让他摇铜钱或钢币，他是不屑为之的；同时，他对自身的四柱或者不清楚(特别是出生时辰),或者不愿告人，故而六爻法和四柱法是不适合于他们的。再者，特别有身份的人，许多时候他们是不肯亲自出面的，他们往往委托自己的亲属或秘书出面问测，或者打电话问测，所以中层次的预测法是不适用他们的，只有奇门遁甲这种以提取时间和空间信息从而进行全方位立体系统辨识的预测方法才适用于他们。所以我说它是高层次的预测学。\n"
+            },
+            "source_quote": "第二，它提取信息的方法主要是时间和空间方位，既不用求测人抽签、摇卦、写字，也不用求测人报出生时间等等，只要求测人提出想问的问题，测者就可根据奇门格局一一给予回答了。如果测者对奇门运用纯熟，可以不用任何工具，只在手上点几下，或在脑子里转一下，就可以在分秒之间回答求测人的各种问题。这种预测方式更加适用于上层和高层人士。根据我们的实践经验，稍有地位和身份的人，特别在当今社会多数人对周易预测还不理解的情况下，你让他摇铜钱或钢币，他是不屑为之的；同时，他对自身的四柱或者不清楚(特别是出生时辰),或者不愿告人，故而六爻法和四柱法是不适合于他们的。再者，特别有身份的人，许多时候他们是不肯亲自出面的，他们往往委托自己的亲属或秘书出面问测，或者打电话问测，所以中层次的预测法是不适用他们的，只有奇门遁甲这种以提取时间和空间信息从而进行全方位立体系统辨识的预测方法才适用于他们。所以我说它是高层次的预测学。\n",
+            "method_scope": "shenqi_accuracy_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "原书作者观点或经验表述"
+          },
+          {
+            "key": "accuracy_three_reasons_11",
+            "source_lines": [
+              11,
+              11
+            ],
+            "source_pointer": {
+              "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+              "line_start": 11,
+              "line_end": 11,
+              "byte_start": 2119,
+              "byte_end": 2697,
+              "source_quote": "第三，它提供的信息比较客观、准确，不受求测人主观意念的左右，不讲究什么“心诚则灵”,不管你相信不相信周易预测，只要你在这个时候出现在这个空间，这个时空的奇门象数理模型中就能反映出你的一些特定信息。因而说，它的科学性、可重复性，比以摇卦为主的六爻预测法更为先进，应用领域也更加广泛，值得我们借鉴、继承的东西更多一些。难怪古人把它称为高层次预测学，清代四库馆臣称它“于方技之中，最有理致”。\n"
+            },
+            "source_quote": "第三，它提供的信息比较客观、准确，不受求测人主观意念的左右，不讲究什么“心诚则灵”,不管你相信不相信周易预测，只要你在这个时候出现在这个空间，这个时空的奇门象数理模型中就能反映出你的一些特定信息。因而说，它的科学性、可重复性，比以摇卦为主的六爻预测法更为先进，应用领域也更加广泛，值得我们借鉴、继承的东西更多一些。难怪古人把它称为高层次预测学，清代四库馆臣称它“于方技之中，最有理致”。\n",
+            "method_scope": "shenqi_accuracy_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "原书作者观点或经验表述"
+          }
+        ]
+      },
+      "assessment": {
+        "kind": "author_arguments_and_analogies",
+        "scientific_comparison_independently_verified": false,
+        "space_dimension_claim": "analogy_as_written_not_implemented_physical_dimension",
+        "analogy_caution_selector": {
+          "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+          "line_start": 7,
+          "line_end": 7,
+          "byte_start": 777,
+          "byte_end": 816,
+          "source_quote": "这种比附是否科学，尚待研究"
+        },
+        "no_birth_time_description_not_override_of_previous_birth_chart_scope": true
+      }
+    },
+    {
+      "key": "accuracy_comparison_limits",
+      "title": "理论优越不等于实际准确率简单比较",
+      "category": "analysis",
+      "line_start": 13,
+      "line_end": 16,
+      "attribution": "原书作者；引述与比较保留归属，不冒称本项目独立外查",
+      "summary": "完整论证语境；作者经验、样本口径、披露限制、方法分歧与项目实测指标分别记录",
+      "concepts": [
+        "方法比较",
+        "熟练程度",
+        "实例资料"
+      ],
+      "dataset": {
+        "key": "accuracy_comparison_limits_reference",
+        "rows": [
+          {
+            "key": "accuracy_comparison_limits_13",
+            "source_lines": [
+              13,
+              13
+            ],
+            "source_pointer": {
+              "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+              "line_start": 13,
+              "line_end": 13,
+              "byte_start": 2698,
+              "byte_end": 2889,
+              "source_quote": "既然是高层次的预测学，它的准确率是否比中层次的六爻法和四柱法要高呢?从理论上说，应该如此，但在实际运用中则不好如此简单地下结论。\n"
+            },
+            "source_quote": "既然是高层次的预测学，它的准确率是否比中层次的六爻法和四柱法要高呢?从理论上说，应该如此，但在实际运用中则不好如此简单地下结论。\n",
+            "method_scope": "shenqi_accuracy_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "原书作者观点或经验表述"
+          },
+          {
+            "key": "accuracy_comparison_limits_15",
+            "source_lines": [
+              15,
+              15
+            ],
+            "source_pointer": {
+              "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+              "line_start": 15,
+              "line_end": 15,
+              "byte_start": 2890,
+              "byte_end": 3257,
+              "source_quote": "一者，掌握奇门遁甲预测的人比较起六爻法和四柱法来说要少得多，特别是熟练掌握的人更少。二者，两千年来有关六爻预测和四柱预测的著述较多，且有大量实例以资借鉴研究；而有关奇门遁甲的著述则较少，而且几乎没有实际案例可资借鉴和研究，所以更难以简单下结论。\n"
+            },
+            "source_quote": "一者，掌握奇门遁甲预测的人比较起六爻法和四柱法来说要少得多，特别是熟练掌握的人更少。二者，两千年来有关六爻预测和四柱预测的著述较多，且有大量实例以资借鉴研究；而有关奇门遁甲的著述则较少，而且几乎没有实际案例可资借鉴和研究，所以更难以简单下结论。\n",
+            "method_scope": "shenqi_accuracy_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "原书作者观点或经验表述"
+          }
+        ]
+      }
+    },
+    {
+      "key": "accuracy_rate_meanings",
+      "title": "百分之七八十的两个作者口径",
+      "category": "analysis",
+      "line_start": 17,
+      "line_end": 18,
+      "attribution": "原书作者；引述与比较保留归属，不冒称本项目独立外查",
+      "summary": "完整论证语境；作者经验、样本口径、披露限制、方法分歧与项目实测指标分别记录",
+      "concepts": [
+        "准确率",
+        "人数",
+        "事件数",
+        "单人多事",
+        "准确程度"
+      ],
+      "dataset": {
+        "key": "accuracy_rate_meanings_reference",
+        "rows": [
+          {
+            "key": "accuracy_rate_meanings_17",
+            "source_lines": [
+              17,
+              17
+            ],
+            "source_pointer": {
+              "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+              "line_start": 17,
+              "line_end": 17,
+              "byte_start": 3258,
+              "byte_end": 3676,
+              "source_quote": "根据我们的初步实践经验，奇门预测如果掌握得比较好、比较纯熟，准确率达到百分之七八十是问题不大的。所谓百分之七八十，包含两层意思：一是测一百人或一百件事，有百分之七十或八十以上是准确的；二是测一个人或一个人测多件事，其中百分之七八十以上的事或一件事在百分之七八十程度以上是准确的。\n"
+            },
+            "source_quote": "根据我们的初步实践经验，奇门预测如果掌握得比较好、比较纯熟，准确率达到百分之七八十是问题不大的。所谓百分之七八十，包含两层意思：一是测一百人或一百件事，有百分之七十或八十以上是准确的；二是测一个人或一个人测多件事，其中百分之七八十以上的事或一件事在百分之七八十程度以上是准确的。\n",
+            "method_scope": "shenqi_accuracy_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "原书作者观点或经验表述"
+          }
+        ]
+      },
+      "assessment": {
+        "claim_kind": "author_preliminary_practice_experience",
+        "claimed_level_as_written": "百分之七八十",
+        "claimed_level_selector": {
+          "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+          "line_start": 17,
+          "line_end": 17,
+          "byte_start": 3348,
+          "byte_end": 3399,
+          "source_quote": "准确率达到百分之七八十是问题不大的"
+        },
+        "interpretations": [
+          {
+            "kind": "people_or_events_as_author_describes",
+            "source_selector": {
+              "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+              "line_start": 17,
+              "line_end": 17,
+              "byte_start": 3450,
+              "byte_end": 3531,
+              "source_quote": "一是测一百人或一百件事，有百分之七十或八十以上是准确的"
+            }
+          },
+          {
+            "kind": "within_person_multiple_matters_or_degree_of_one_matter_as_author_describes",
+            "source_selector": {
+              "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+              "line_start": 17,
+              "line_end": 17,
+              "byte_start": 3534,
+              "byte_end": 3675,
+              "source_quote": "二是测一个人或一个人测多件事，其中百分之七八十以上的事或一件事在百分之七八十程度以上是准确的。"
+            }
+          }
+        ],
+        "observed_sample_size": null,
+        "observed_correct_count": null,
+        "scoring_protocol_supplied": false,
+        "case_level_dataset_supplied": false,
+        "hypothetical_hundred_not_observed_cohort": true,
+        "project_empirical_accuracy": null,
+        "do_not_merge_denominators": true,
+        "normalize_to_single_calibrated_probability": false
+      }
+    },
+    {
+      "key": "accuracy_publication_policy",
+      "title": "只报成功的批评、承认错断与略去完全失败的原书说明",
+      "category": "commentary",
+      "line_start": 19,
+      "line_end": 24,
+      "attribution": "原书作者；引述与比较保留归属，不冒称本项目独立外查",
+      "summary": "完整论证语境；作者经验、样本口径、披露限制、方法分歧与项目实测指标分别记录",
+      "concepts": [
+        "失败案例",
+        "错断",
+        "百发百中",
+        "选择性刊载"
+      ],
+      "dataset": {
+        "key": "accuracy_publication_policy_reference",
+        "rows": [
+          {
+            "key": "accuracy_publication_policy_19",
+            "source_lines": [
+              19,
+              19
+            ],
+            "source_pointer": {
+              "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+              "line_start": 19,
+              "line_end": 19,
+              "byte_start": 3677,
+              "byte_end": 4383,
+              "source_quote": "有人批评目前许多出版的有关预测学著述中，只讲测准的例子，不讲测错的例子，认为这种著书的态度是不科学的，容易给读者造成误解，似乎预测能够百发百中。这种批评，我是完全赞同的。我认为，对于古人留给我们的各种预测术，简单地否定它，贴上封建迷信的标签，是无济于事的；相反，把它说得很神奇、很神秘，甚至讲它会百发百中，这不仅不是科学的实事求是的态度，而且不利于把它们同封建迷信区别开来。著书只讲测准的例子，不讲测不准的例子，而且对测不准的问题避而不谈，这也不是科学的实事求是的态度。\n"
+            },
+            "source_quote": "有人批评目前许多出版的有关预测学著述中，只讲测准的例子，不讲测错的例子，认为这种著书的态度是不科学的，容易给读者造成误解，似乎预测能够百发百中。这种批评，我是完全赞同的。我认为，对于古人留给我们的各种预测术，简单地否定它，贴上封建迷信的标签，是无济于事的；相反，把它说得很神奇、很神秘，甚至讲它会百发百中，这不仅不是科学的实事求是的态度，而且不利于把它们同封建迷信区别开来。著书只讲测准的例子，不讲测不准的例子，而且对测不准的问题避而不谈，这也不是科学的实事求是的态度。\n",
+            "method_scope": "shenqi_accuracy_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "原书作者观点或经验表述"
+          },
+          {
+            "key": "accuracy_publication_policy_21",
+            "source_lines": [
+              21,
+              21
+            ],
+            "source_pointer": {
+              "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+              "line_start": 21,
+              "line_end": 21,
+              "byte_start": 4384,
+              "byte_end": 4814,
+              "source_quote": "我可以毫无顾忌地告诉读者，我们在奇门预测中，测不准的时候也是有的，测错或者与事实正好相反的例子都是有的。奇门预测同其他古代预测术一样，绝对达不到百分之百，即使现代科学，也达不到百分之百。从人类认知世界的局限上讲，正如绝对真理只是无数相对真理的总和一样，测准只是相对的，测不准才是绝对的。\n"
+            },
+            "source_quote": "我可以毫无顾忌地告诉读者，我们在奇门预测中，测不准的时候也是有的，测错或者与事实正好相反的例子都是有的。奇门预测同其他古代预测术一样，绝对达不到百分之百，即使现代科学，也达不到百分之百。从人类认知世界的局限上讲，正如绝对真理只是无数相对真理的总和一样，测准只是相对的，测不准才是绝对的。\n",
+            "method_scope": "shenqi_accuracy_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "原书作者观点或经验表述"
+          },
+          {
+            "key": "accuracy_publication_policy_23",
+            "source_lines": [
+              23,
+              23
+            ],
+            "source_pointer": {
+              "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+              "line_start": 23,
+              "line_end": 23,
+              "byte_start": 4815,
+              "byte_end": 5434,
+              "source_quote": "本来我也想在该书中专门讲一些测不准的例子(在测准的例子中已经讲了一些测错的地方),但我想，人类研究预测学，正如研究医学和其他学科一样，目的在提高准确率，对于不准确的地方重点在剖析其原因。例如，许多医学著作，特别是一些医案，都是成功的例子，同时讲一下概率，即治愈或有效率，对于无效的例子都是略去不写的。因为写进去的价值不大。所以，我在该书中，也就将完全测不准或测错的例子，略去不写了，重点在分析研究测不准或测错的原因。\n"
+            },
+            "source_quote": "本来我也想在该书中专门讲一些测不准的例子(在测准的例子中已经讲了一些测错的地方),但我想，人类研究预测学，正如研究医学和其他学科一样，目的在提高准确率，对于不准确的地方重点在剖析其原因。例如，许多医学著作，特别是一些医案，都是成功的例子，同时讲一下概率，即治愈或有效率，对于无效的例子都是略去不写的。因为写进去的价值不大。所以，我在该书中，也就将完全测不准或测错的例子，略去不写了，重点在分析研究测不准或测错的原因。\n",
+            "method_scope": "shenqi_accuracy_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "原书作者观点或经验表述"
+          }
+        ]
+      },
+      "assessment": {
+        "source_positions": [
+          {
+            "kind": "agrees_with_criticism_of_success_only_publication",
+            "source_selector": {
+              "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+              "line_start": 19,
+              "line_end": 19,
+              "byte_start": 3677,
+              "byte_end": 4383,
+              "source_quote": "有人批评目前许多出版的有关预测学著述中，只讲测准的例子，不讲测错的例子，认为这种著书的态度是不科学的，容易给读者造成误解，似乎预测能够百发百中。这种批评，我是完全赞同的。我认为，对于古人留给我们的各种预测术，简单地否定它，贴上封建迷信的标签，是无济于事的；相反，把它说得很神奇、很神秘，甚至讲它会百发百中，这不仅不是科学的实事求是的态度，而且不利于把它们同封建迷信区别开来。著书只讲测准的例子，不讲测不准的例子，而且对测不准的问题避而不谈，这也不是科学的实事求是的态度。\n"
+            }
+          },
+          {
+            "kind": "acknowledges_wrong_or_opposite_predictions_and_no_hundred_percent",
+            "source_selector": {
+              "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+              "line_start": 21,
+              "line_end": 21,
+              "byte_start": 4384,
+              "byte_end": 4814,
+              "source_quote": "我可以毫无顾忌地告诉读者，我们在奇门预测中，测不准的时候也是有的，测错或者与事实正好相反的例子都是有的。奇门预测同其他古代预测术一样，绝对达不到百分之百，即使现代科学，也达不到百分之百。从人类认知世界的局限上讲，正如绝对真理只是无数相对真理的总和一样，测准只是相对的，测不准才是绝对的。\n"
+            }
+          },
+          {
+            "kind": "states_fully_wrong_examples_were_omitted",
+            "source_selector": {
+              "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+              "line_start": 23,
+              "line_end": 23,
+              "byte_start": 4815,
+              "byte_end": 5434,
+              "source_quote": "本来我也想在该书中专门讲一些测不准的例子(在测准的例子中已经讲了一些测错的地方),但我想，人类研究预测学，正如研究医学和其他学科一样，目的在提高准确率，对于不准确的地方重点在剖析其原因。例如，许多医学著作，特别是一些医案，都是成功的例子，同时讲一下概率，即治愈或有效率，对于无效的例子都是略去不写的。因为写进去的价值不大。所以，我在该书中，也就将完全测不准或测错的例子，略去不写了，重点在分析研究测不准或测错的原因。\n"
+            }
+          }
+        ],
+        "source_tension_preserved": true,
+        "published_examples_not_complete_success_failure_population": true,
+        "project_may_drop_failed_predictions_on_this_basis": false,
+        "project_success_rate_computed_from_book_examples": false
+      }
+    },
+    {
+      "key": "accuracy_failure_intro",
+      "title": "作者列举不准确原因的总起",
+      "category": "commentary",
+      "line_start": 25,
+      "line_end": 26,
+      "attribution": "原书作者；引述与比较保留归属，不冒称本项目独立外查",
+      "summary": "完整论证语境；作者经验、样本口径、披露限制、方法分歧与项目实测指标分别记录",
+      "concepts": [],
+      "dataset": {
+        "key": "accuracy_failure_intro_reference",
+        "rows": [
+          {
+            "key": "accuracy_failure_intro_25",
+            "source_lines": [
+              25,
+              25
+            ],
+            "source_pointer": {
+              "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+              "line_start": 25,
+              "line_end": 25,
+              "byte_start": 5435,
+              "byte_end": 5524,
+              "source_quote": "奇门预测，为什么有时测不准或者测错呢?我认为有以下几种原因：\n"
+            },
+            "source_quote": "奇门预测，为什么有时测不准或者测错呢?我认为有以下几种原因：\n",
+            "method_scope": "shenqi_accuracy_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "原书作者观点或经验表述"
+          }
+        ]
+      }
+    },
+    {
+      "key": "accuracy_operator_factors",
+      "title": "原因一：掌握、疲劳、反应与看断排盘错误",
+      "category": "analysis",
+      "line_start": 27,
+      "line_end": 28,
+      "attribution": "原书作者；引述与比较保留归属，不冒称本项目独立外查",
+      "summary": "完整论证语境；作者经验、样本口径、披露限制、方法分歧与项目实测指标分别记录",
+      "concepts": [
+        "熟练度",
+        "疲劳",
+        "排盘错误",
+        "判断错误"
+      ],
+      "dataset": {
+        "key": "accuracy_operator_factors_reference",
+        "rows": [
+          {
+            "key": "accuracy_operator_factors_27",
+            "source_lines": [
+              27,
+              27
+            ],
+            "source_pointer": {
+              "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+              "line_start": 27,
+              "line_end": 27,
+              "byte_start": 5525,
+              "byte_end": 5763,
+              "source_quote": "(1)预测的人对奇门遁甲掌握得不熟不精，或者疲劳困顿，精神不集中，反应迟钝，对奇门格局中本来存在的信息看不出来，或者看错、断错，甚至把格局都搞错了，自然会不准确。\n"
+            },
+            "source_quote": "(1)预测的人对奇门遁甲掌握得不熟不精，或者疲劳困顿，精神不集中，反应迟钝，对奇门格局中本来存在的信息看不出来，或者看错、断错，甚至把格局都搞错了，自然会不准确。\n",
+            "method_scope": "shenqi_accuracy_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "原书作者观点或经验表述"
+          }
+        ]
+      },
+      "assessment": {
+        "kind": "author_proposed_error_causes",
+        "automatically_excuse_wrong_prediction_or_remove_from_denominator": false,
+        "project_error_attribution_completed": false
+      }
+    },
+    {
+      "key": "accuracy_method_disagreements",
+      "title": "原因二：起局、八神、旺衰、寄宫与取用分歧",
+      "category": "casting",
+      "line_start": 29,
+      "line_end": 30,
+      "attribution": "原书作者；引述与比较保留归属，不冒称本项目独立外查",
+      "summary": "完整论证语境；作者经验、样本口径、披露限制、方法分歧与项目实测指标分别记录",
+      "concepts": [
+        "超神",
+        "接气",
+        "置闰",
+        "拆补法",
+        "交节",
+        "小值符",
+        "六甲",
+        "九星旺相休囚",
+        "中五宫",
+        "寄宫",
+        "取用"
+      ],
+      "dataset": {
+        "key": "accuracy_method_disagreements_reference",
+        "rows": [
+          {
+            "key": "accuracy_method_disagreements_29",
+            "source_lines": [
+              29,
+              29
+            ],
+            "source_pointer": {
+              "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+              "line_start": 29,
+              "line_end": 29,
+              "byte_start": 5764,
+              "byte_end": 7162,
+              "source_quote": "(2)古人在奇门遁甲理论和应用上存在不少分歧意见，比如超神、接气和置闰，有人主张置闰，有人主张不置闰；有人主张用拆补法，有人主张完全按交节时间定局。即使在置闰派中，在何时置闰上也不一致，如前所述。这样以来，在同一天同一个时辰内，会出现用不同遁甲局的现象，格局不同，自然预测结果不同。又如，奇门遁甲的八神盘，多数人主张小值符追大值符，但也有人(比如《奇门预测学》作者刘广斌先生)主张小值符不追大值符，而是按地盘六甲运转，即十个时辰小值符运转一个宫次。这样，同一个时辰内，八神的参照系不同，自然也会出现不同的预测结果。还有关于九星的旺相休囚，有人主张与五行一致，有人主张不一致。还有，关于中五宫寄何宫问题，分歧意见也很大。一种主张永远寄坤2宫。另一种主张阳遁寄艮8宫，阴遁寄坤2宫。第三种，《奇门法窍》作者锡孟樨主张应寄于四维：立春寄艮，用生门；立夏寄巽，用杜门；立秋寄坤，用死门；立冬寄乾，用开门，即按土旺于辰、戌、丑、未月而定。另外关于奇门的种种吉格和凶格，也有不同意见，取用方法不同，也会造成不同的预测结论。这些都是影响预测准确一致的因素。\n"
+            },
+            "source_quote": "(2)古人在奇门遁甲理论和应用上存在不少分歧意见，比如超神、接气和置闰，有人主张置闰，有人主张不置闰；有人主张用拆补法，有人主张完全按交节时间定局。即使在置闰派中，在何时置闰上也不一致，如前所述。这样以来，在同一天同一个时辰内，会出现用不同遁甲局的现象，格局不同，自然预测结果不同。又如，奇门遁甲的八神盘，多数人主张小值符追大值符，但也有人(比如《奇门预测学》作者刘广斌先生)主张小值符不追大值符，而是按地盘六甲运转，即十个时辰小值符运转一个宫次。这样，同一个时辰内，八神的参照系不同，自然也会出现不同的预测结果。还有关于九星的旺相休囚，有人主张与五行一致，有人主张不一致。还有，关于中五宫寄何宫问题，分歧意见也很大。一种主张永远寄坤2宫。另一种主张阳遁寄艮8宫，阴遁寄坤2宫。第三种，《奇门法窍》作者锡孟樨主张应寄于四维：立春寄艮，用生门；立夏寄巽，用杜门；立秋寄坤，用死门；立冬寄乾，用开门，即按土旺于辰、戌、丑、未月而定。另外关于奇门的种种吉格和凶格，也有不同意见，取用方法不同，也会造成不同的预测结论。这些都是影响预测准确一致的因素。\n",
+            "method_scope": "shenqi_accuracy_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "原书作者观点或经验表述"
+          }
+        ]
+      },
+      "assessment": {
+        "kind": "source_method_disagreements",
+        "families": [
+          {
+            "key": "bureau_choice",
+            "title": "起局口径",
+            "alternatives_as_written": [
+              {
+                "text": "有人主张置闰，有人主张不置闰；有人主张用拆补法，有人主张完全按交节时间定局。",
+                "source_selector": {
+                  "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+                  "line_start": 29,
+                  "line_end": 29,
+                  "byte_start": 5866,
+                  "byte_end": 5980,
+                  "source_quote": "有人主张置闰，有人主张不置闰；有人主张用拆补法，有人主张完全按交节时间定局。"
+                }
+              },
+              {
+                "text": "即使在置闰派中，在何时置闰上也不一致，如前所述。",
+                "source_selector": {
+                  "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+                  "line_start": 29,
+                  "line_end": 29,
+                  "byte_start": 5980,
+                  "byte_end": 6052,
+                  "source_quote": "即使在置闰派中，在何时置闰上也不一致，如前所述。"
+                }
+              }
+            ],
+            "execution_status": "reference_only_not_compiled",
+            "selected_default": null
+          },
+          {
+            "key": "deity_reference_frame",
+            "title": "八神参照系",
+            "alternatives_as_written": [
+              {
+                "text": "多数人主张小值符追大值符",
+                "source_selector": {
+                  "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+                  "line_start": 29,
+                  "line_end": 29,
+                  "byte_start": 6217,
+                  "byte_end": 6253,
+                  "source_quote": "多数人主张小值符追大值符"
+                }
+              },
+              {
+                "text": "主张小值符不追大值符，而是按地盘六甲运转，即十个时辰小值符运转一个宫次。",
+                "source_selector": {
+                  "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+                  "line_start": 29,
+                  "line_end": 29,
+                  "byte_start": 6318,
+                  "byte_end": 6426,
+                  "source_quote": "主张小值符不追大值符，而是按地盘六甲运转，即十个时辰小值符运转一个宫次。"
+                }
+              }
+            ],
+            "execution_status": "reference_only_not_compiled",
+            "selected_default": null
+          },
+          {
+            "key": "star_strength",
+            "title": "九星旺相休囚",
+            "alternatives_as_written": [
+              {
+                "text": "有人主张与五行一致，有人主张不一致。",
+                "source_selector": {
+                  "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+                  "line_start": 29,
+                  "line_end": 29,
+                  "byte_start": 6561,
+                  "byte_end": 6615,
+                  "source_quote": "有人主张与五行一致，有人主张不一致。"
+                }
+              }
+            ],
+            "execution_status": "reference_only_not_compiled",
+            "selected_default": null
+          },
+          {
+            "key": "center_hosting",
+            "title": "中五寄宫",
+            "alternatives_as_written": [
+              {
+                "text": "一种主张永远寄坤2宫。",
+                "source_selector": {
+                  "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+                  "line_start": 29,
+                  "line_end": 29,
+                  "byte_start": 6681,
+                  "byte_end": 6712,
+                  "source_quote": "一种主张永远寄坤2宫。"
+                }
+              },
+              {
+                "text": "另一种主张阳遁寄艮8宫，阴遁寄坤2宫。",
+                "source_selector": {
+                  "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+                  "line_start": 29,
+                  "line_end": 29,
+                  "byte_start": 6712,
+                  "byte_end": 6765,
+                  "source_quote": "另一种主张阳遁寄艮8宫，阴遁寄坤2宫。"
+                }
+              },
+              {
+                "text": "第三种，《奇门法窍》作者锡孟樨主张应寄于四维：立春寄艮，用生门；立夏寄巽，用杜门；立秋寄坤，用死门；立冬寄乾，用开门，即按土旺于辰、戌、丑、未月而定。",
+                "source_selector": {
+                  "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+                  "line_start": 29,
+                  "line_end": 29,
+                  "byte_start": 6765,
+                  "byte_end": 6990,
+                  "source_quote": "第三种，《奇门法窍》作者锡孟樨主张应寄于四维：立春寄艮，用生门；立夏寄巽，用杜门；立秋寄坤，用死门；立冬寄乾，用开门，即按土旺于辰、戌、丑、未月而定。"
+                }
+              }
+            ],
+            "execution_status": "reference_only_not_compiled",
+            "selected_default": null
+          },
+          {
+            "key": "patterns_and_selection",
+            "title": "格局与取用",
+            "alternatives_as_written": [
+              {
+                "text": "另外关于奇门的种种吉格和凶格，也有不同意见，取用方法不同，也会造成不同的预测结论。",
+                "source_selector": {
+                  "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+                  "line_start": 29,
+                  "line_end": 29,
+                  "byte_start": 6990,
+                  "byte_end": 7113,
+                  "source_quote": "另外关于奇门的种种吉格和凶格，也有不同意见，取用方法不同，也会造成不同的预测结论。"
+                }
+              }
+            ],
+            "execution_status": "reference_only_not_compiled",
+            "selected_default": null
+          }
+        ],
+        "default_method_changed": false,
+        "new_external_books_imported": false,
+        "algorithm_validation_completed": false
+      }
+    },
+    {
+      "key": "accuracy_scientific_limits",
+      "title": "原因三：理论模型科学性仍需研究验证",
+      "category": "commentary",
+      "line_start": 31,
+      "line_end": 32,
+      "attribution": "原书作者；引述与比较保留归属，不冒称本项目独立外查",
+      "summary": "完整论证语境；作者经验、样本口径、披露限制、方法分歧与项目实测指标分别记录",
+      "concepts": [
+        "科学性",
+        "研究验证"
+      ],
+      "dataset": {
+        "key": "accuracy_scientific_limits_reference",
+        "rows": [
+          {
+            "key": "accuracy_scientific_limits_31",
+            "source_lines": [
+              31,
+              31
+            ],
+            "source_pointer": {
+              "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+              "line_start": 31,
+              "line_end": 31,
+              "byte_start": 7163,
+              "byte_end": 7308,
+              "source_quote": "(3)奇门遁甲本身的思维模式和理论架构虽然具有相当的完整性，但其科学性到底有多大，尚值得研究和验证。\n"
+            },
+            "source_quote": "(3)奇门遁甲本身的思维模式和理论架构虽然具有相当的完整性，但其科学性到底有多大，尚值得研究和验证。\n",
+            "method_scope": "shenqi_accuracy_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "原书作者观点或经验表述"
+          }
+        ]
+      },
+      "assessment": {
+        "kind": "author_explicit_validation_limit",
+        "source_selector": {
+          "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+          "line_start": 31,
+          "line_end": 31,
+          "byte_start": 7163,
+          "byte_end": 7308,
+          "source_quote": "(3)奇门遁甲本身的思维模式和理论架构虽然具有相当的完整性，但其科学性到底有多大，尚值得研究和验证。\n"
+        },
+        "theory_scientifically_validated_by_project": false
+      }
+    },
+    {
+      "key": "accuracy_question_context",
+      "title": "原因四：同刻多事、问时偶然性与关系语境",
+      "category": "analysis",
+      "line_start": 33,
+      "line_end": 34,
+      "attribution": "原书作者；引述与比较保留归属，不冒称本项目独立外查",
+      "summary": "完整论证语境；作者经验、样本口径、披露限制、方法分歧与项目实测指标分别记录",
+      "concepts": [
+        "问事时间",
+        "当事人",
+        "代问",
+        "亲属关系",
+        "问题范围"
+      ],
+      "dataset": {
+        "key": "accuracy_question_context_reference",
+        "rows": [
+          {
+            "key": "accuracy_question_context_33",
+            "source_lines": [
+              33,
+              33
+            ],
+            "source_pointer": {
+              "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+              "line_start": 33,
+              "line_end": 33,
+              "byte_start": 7309,
+              "byte_end": 8267,
+              "source_quote": "(4)奇门预测提取信息的方法主要是时间和方位，这种方法虽然有灵活方便等种种优点，但也有局限性。一者，同一个时辰内世界上会发生千千万万种事情，要找出找准求测人所问的事情，并不那么简单明了；二者，求测人在什么时间问事，有很大的偶然性。根据我们的体会，凡当事人专门为此事前来求测者，按其问事时辰起局预测准确率较高；或者与当事人有直接亲属血缘关系或关系特别密切，身上携带当事人信息较多者前来替当事人求测，一般按问事时辰起局，准确率也较高。反之，如果求测者并没有什么事情要问，只是好奇，随机提问，所问问题又漫无边际，十分空泛笼统；或者问事者与当事人没有任何关系或仅有一面之交；或碰上预测师才偶然想起来问一下，在这些情况下一般准确率较低，或者根本不对头。\n"
+            },
+            "source_quote": "(4)奇门预测提取信息的方法主要是时间和方位，这种方法虽然有灵活方便等种种优点，但也有局限性。一者，同一个时辰内世界上会发生千千万万种事情，要找出找准求测人所问的事情，并不那么简单明了；二者，求测人在什么时间问事，有很大的偶然性。根据我们的体会，凡当事人专门为此事前来求测者，按其问事时辰起局预测准确率较高；或者与当事人有直接亲属血缘关系或关系特别密切，身上携带当事人信息较多者前来替当事人求测，一般按问事时辰起局，准确率也较高。反之，如果求测者并没有什么事情要问，只是好奇，随机提问，所问问题又漫无边际，十分空泛笼统；或者问事者与当事人没有任何关系或仅有一面之交；或碰上预测师才偶然想起来问一下，在这些情况下一般准确率较低，或者根本不对头。\n",
+            "method_scope": "shenqi_accuracy_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "原书作者观点或经验表述"
+          }
+        ]
+      },
+      "assessment": {
+        "kind": "author_contextual_accuracy_experience",
+        "source_selector": {
+          "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+          "line_start": 33,
+          "line_end": 33,
+          "byte_start": 7309,
+          "byte_end": 8267,
+          "source_quote": "(4)奇门预测提取信息的方法主要是时间和方位，这种方法虽然有灵活方便等种种优点，但也有局限性。一者，同一个时辰内世界上会发生千千万万种事情，要找出找准求测人所问的事情，并不那么简单明了；二者，求测人在什么时间问事，有很大的偶然性。根据我们的体会，凡当事人专门为此事前来求测者，按其问事时辰起局预测准确率较高；或者与当事人有直接亲属血缘关系或关系特别密切，身上携带当事人信息较多者前来替当事人求测，一般按问事时辰起局，准确率也较高。反之，如果求测者并没有什么事情要问，只是好奇，随机提问，所问问题又漫无边际，十分空泛笼统；或者问事者与当事人没有任何关系或仅有一面之交；或碰上预测师才偶然想起来问一下，在这些情况下一般准确率较低，或者根本不对头。\n"
+        },
+        "project_empirical_subgroup_scores": null,
+        "automatically_refuse_curious_unrelated_or_proxy_questioners": false,
+        "post_outcome_case_exclusion_allowed": false
+      }
+    },
+    {
+      "key": "accuracy_timing_relationship",
+      "title": "提取时间与所问事物关系的作者总结",
+      "category": "analysis",
+      "line_start": 35,
+      "line_end": 36,
+      "attribution": "原书作者；引述与比较保留归属，不冒称本项目独立外查",
+      "summary": "完整论证语境；作者经验、样本口径、披露限制、方法分歧与项目实测指标分别记录",
+      "concepts": [
+        "提取时间",
+        "事物关系",
+        "信息运动"
+      ],
+      "dataset": {
+        "key": "accuracy_timing_relationship_reference",
+        "rows": [
+          {
+            "key": "accuracy_timing_relationship_35",
+            "source_lines": [
+              35,
+              35
+            ],
+            "source_pointer": {
+              "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+              "line_start": 35,
+              "line_end": 35,
+              "byte_start": 8268,
+              "byte_end": 8653,
+              "source_quote": "总之，由于时间这个信息的运动性过强，不像六爻预测摇卦法是当事人身上携带信息的直接反馈，又不像提取人的四柱或手纹、面相、骨相等这些静态信息从局部反馈全体，所以，提取哪个时间十分重要。所提取的时间信息，同所问的事物关系越直接，越密切，准确率越高；反之，则越低。\n"
+            },
+            "source_quote": "总之，由于时间这个信息的运动性过强，不像六爻预测摇卦法是当事人身上携带信息的直接反馈，又不像提取人的四柱或手纹、面相、骨相等这些静态信息从局部反馈全体，所以，提取哪个时间十分重要。所提取的时间信息，同所问的事物关系越直接，越密切，准确率越高；反之，则越低。\n",
+            "method_scope": "shenqi_accuracy_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "原书作者观点或经验表述"
+          }
+        ]
+      },
+      "assessment": {
+        "kind": "author_timing_information_relationship_claim",
+        "source_selector": {
+          "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+          "line_start": 35,
+          "line_end": 35,
+          "byte_start": 8268,
+          "byte_end": 8653,
+          "source_quote": "总之，由于时间这个信息的运动性过强，不像六爻预测摇卦法是当事人身上携带信息的直接反馈，又不像提取人的四柱或手纹、面相、骨相等这些静态信息从局部反馈全体，所以，提取哪个时间十分重要。所提取的时间信息，同所问的事物关系越直接，越密切，准确率越高；反之，则越低。\n"
+        },
+        "automatic_timestamp_or_probability_selection": false
+      }
+    },
+    {
+      "key": "accuracy_closing_argument",
+      "title": "结语时空论述与引述归属",
+      "category": "commentary",
+      "line_start": 37,
+      "line_end": 37,
+      "attribution": "原书作者；引述与比较保留归属，不冒称本项目独立外查",
+      "summary": "完整论证语境；作者经验、样本口径、披露限制、方法分歧与项目实测指标分别记录",
+      "concepts": [
+        "时间",
+        "空间",
+        "系统辨识"
+      ],
+      "dataset": {
+        "key": "accuracy_closing_argument_reference",
+        "rows": [
+          {
+            "key": "accuracy_closing_argument_37",
+            "source_lines": [
+              37,
+              37
+            ],
+            "source_pointer": {
+              "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+              "line_start": 37,
+              "line_end": 37,
+              "byte_start": 8654,
+              "byte_end": 9177,
+              "source_quote": "列宁说过：“世界上除了运动的物质之外，便没有别的东西。而运动的物质若不在时间空间中便无运动的可能。”事物都是在一定时间和空间发生、发展、变化、灭亡和转化的。而奇门预测，正是通过提取时间和空间的信息，纳入宇宙统一信息场这个全息思维模型之中进行系统辨识，从而达到预测目的和效果的一种思维科学理论和方法。所以，提取什么样的时间和空间，与准确率有很大关系。\n"
+            },
+            "source_quote": "列宁说过：“世界上除了运动的物质之外，便没有别的东西。而运动的物质若不在时间空间中便无运动的可能。”事物都是在一定时间和空间发生、发展、变化、灭亡和转化的。而奇门预测，正是通过提取时间和空间的信息，纳入宇宙统一信息场这个全息思维模型之中进行系统辨识，从而达到预测目的和效果的一种思维科学理论和方法。所以，提取什么样的时间和空间，与准确率有很大关系。\n",
+            "method_scope": "shenqi_accuracy_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "原书作者观点或经验表述"
+          }
+        ]
+      },
+      "assessment": {
+        "kind": "author_conclusion_with_attributed_quote",
+        "quotation_independently_checked_against_external_edition": false,
+        "source_selector": {
+          "source_sha256": "528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3",
+          "line_start": 37,
+          "line_end": 37,
+          "byte_start": 8654,
+          "byte_end": 9177,
+          "source_quote": "列宁说过：“世界上除了运动的物质之外，便没有别的东西。而运动的物质若不在时间空间中便无运动的可能。”事物都是在一定时间和空间发生、发展、变化、灭亡和转化的。而奇门预测，正是通过提取时间和空间的信息，纳入宇宙统一信息场这个全息思维模型之中进行系统辨识，从而达到预测目的和效果的一种思维科学理论和方法。所以，提取什么样的时间和空间，与准确率有很大关系。\n"
+        }
+      }
+    }
+  ],
+  "quality_issues": [
+    {
+      "key": "rate_is_author_claim_not_project_result",
+      "line_start": 17,
+      "line_end": 17,
+      "description": "作者初步实践经验，不是本项目实测准确率；未给逐案样本、分子、分母、抽样方法或评分协议，不能造100条样本或70/80条命中"
+    },
+    {
+      "key": "different_units_and_degree_not_one_probability",
+      "line_start": 17,
+      "line_end": 17,
+      "description": "人数/事件比例与同人多事比例/单事准确程度分开，不合为同一指标或校准概率；七八十及以上按原措辞保留"
+    },
+    {
+      "key": "publication_positions_both_retained",
+      "line_start": 19,
+      "line_end": 23,
+      "description": "赞同批评只报成功、承认反向错断、又说明略去完全测错案例，三者同组保留。不能据刊例推完整总体命中率，不能以此授权项目删失败样本"
+    },
+    {
+      "key": "method_disagreements_are_not_executable_defaults",
+      "line_start": 29,
+      "line_end": 29,
+      "description": "起局、八神、九星、三类寄宫、格局取用分别保存方法来源，不选默认、不混派、不改现有计算器；本段不是完整算法规范"
+    },
+    {
+      "key": "scientific_claims_and_qualification_preserved",
+      "line_start": 7,
+      "line_end": 31,
+      "description": "九维/六维类比、信息场与可重复性为作者论证；尚待研究/实际比较不能简单下结论/科学性仍需验证同时保留，不升级独立科学验证"
+    },
+    {
+      "key": "context_experience_not_posthoc_exclusion",
+      "line_start": 27,
+      "line_end": 35,
+      "description": "熟练疲劳、来问关系与时间接近度为作者原因/经验，不自动把失败归为求测者不当、剔除分母或拒答陌生/好奇者；未生成分组实测"
+    },
+    {
+      "key": "no_birth_time_claim_scope",
+      "line_start": 9,
+      "line_end": 11,
+      "description": "不需报出生时间是此处作者关于时间方位提取方式的描述，不回写或取消此前出生盘资料口径，不改变ask补问与方法门槛"
+    },
+    {
+      "key": "quoted_books_and_lenin_are_nested_source",
+      "line_start": 11,
+      "line_end": 37,
+      "description": "四库馆臣、刘广斌/奇门预测学、锡孟樨/奇门法窍及列宁引文只按本源记述保存，不另取书或冒称软件校过外部版本"
+    },
+    {
+      "key": "source_contains_no_case_dataset_or_chart",
+      "line_start": 1,
+      "line_end": 37,
+      "description": "一百人/一百事是假设说明，不是给出100例；全文无独立问测故事、原盘或实测评估记录，不创建case/event/chart、角色候选或模型评估成绩"
+    }
+  ],
+  "worked_examples": []
+}
