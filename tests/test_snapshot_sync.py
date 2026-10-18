@@ -101,6 +101,35 @@ class SyncTests(DatabaseTest):
             with self.assertRaises(SyncError): sync_github(self.root,self.db,self.raw,'fixture')
         self.assertFalse((self.root/'work/github-sync.json').exists())
 
+    def public_fixture(self):
+        from hashlib import sha256
+        folder=self.root/'docs/user_instructions';folder.mkdir(parents=True)
+        instruction=folder/'all_cases_pilot_github_2026-10-17.txt'
+        instruction.write_text('Fixture: user explicitly authorizes public synchronization')
+        (folder/'manifest.json').write_text(json.dumps({'files':[{'path':instruction.name,
+            'sha256':sha256(instruction.read_bytes()).hexdigest()}]}))
+        (self.root/'configs/github.json').write_text(json.dumps({'repository':'turnupmason/QimenLLM',
+            'visibility':'public','public_sync_user_authorization':str(instruction.relative_to(self.root))}))
+        default=self.runner()
+        def run(args,root):
+            if args[:3]==['git','remote','get-url']:return 'https://github.com/turnupmason/QimenLLM.git'
+            if args[:2]==['gh','api']:return json.dumps({'private':False,'full_name':'turnupmason/QimenLLM'})
+            return default(args,root)
+        return instruction,run
+
+    def test_explicit_recorded_public_target_may_sync(self):
+        _,runner=self.public_fixture()
+        with patch('qimenllm.github_sync._run',side_effect=runner):
+            result=sync_github(self.root,self.db,self.raw,'fixture')
+        self.assertEqual(result['status'],'synced')
+
+    def test_altered_public_authorization_cannot_stage_or_push(self):
+        instruction,runner=self.public_fixture()
+        instruction.write_text('Changed bytes')
+        with patch('qimenllm.github_sync._run',side_effect=runner) as run:
+            with self.assertRaises(SyncError):sync_github(self.root,self.db,self.raw,'fixture')
+        self.assertFalse(any(c.args[0][:2] in (['git','add'],['git','push']) for c in run.call_args_list))
+
     def test_cli_import_saves_content_and_reports_pending_on_network_failure(self):
         path=self.root/'chapter.txt'; path.write_bytes(b'Neutral engineering fixture')
         args=['--db',str(self.db),'--raw-dir',str(self.raw),'import-chapter',str(path),

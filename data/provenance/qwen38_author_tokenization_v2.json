@@ -1,0 +1,31 @@
+{
+  "model_revision": "10c35caafbb80f7dc6a7a432cdd11af10a6d4818",
+  "enable_thinking": false,
+  "splits": {
+    "train": {
+      "examples": 33,
+      "max_tokens": 1742,
+      "total_tokens": 36743,
+      "sha256": "a53189fbecc7758b053bf229dc9b4b32ee1214cbfae684df871d30bcbec6b745"
+    },
+    "validation": {
+      "examples": 9,
+      "max_tokens": 1439,
+      "total_tokens": 10312,
+      "sha256": "29fe8fcd5b23f25c68c429287a6b07009813a06d8a5b0179fd2fdeef1eaacc3d"
+    },
+    "test": {
+      "examples": 6,
+      "max_tokens": 1388,
+      "total_tokens": 7798,
+      "sha256": "77080593c5212ddbc95bbf3c93880bef5efc4d7aaf8e2ac39c148292d9c87cfe"
+    },
+    "development": {
+      "examples": 1,
+      "max_tokens": 1018,
+      "total_tokens": 1018,
+      "sha256": "b1572dd39c6980894b6e8c255a3e5552ffba1c0744d2345bbd98fdfadaf85828"
+    }
+  },
+  "largest_task": "initial-187e63fbd5dee097d784"
+}

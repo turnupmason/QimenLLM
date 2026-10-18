@@ -1,0 +1,9 @@
+{
+  "release": "shenqi-lost-method-tasks-v4",
+  "disposition": "rejected_before_model_or_training_use",
+  "superseded_by": "shenqi-lost-method-tasks-v5",
+  "reason": "QA found evidence-reference dictionaries reused across sibling task types, so a condition supplied to synthesis could remain in a later timing payload without its own permission. Make references task-local and regression-test exact per-task condition ownership.",
+  "prior_review_sha256": "9bb51a534748446f4996dc92908bd436b81efec40921523f1b482b204d06fce6",
+  "model_calls": 0,
+  "optimizer_steps": 0
+}

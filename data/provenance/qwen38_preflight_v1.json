@@ -1,0 +1,65 @@
+{
+  "scope": "local_27b_training_preflight_not_training_completion",
+  "tests": {
+    "existing_and_release": {
+      "passed": 524,
+      "seconds": 154.47,
+      "failed": 0,
+      "log": "work/qwen38-regression.log"
+    },
+    "gateway_options": {
+      "passed": 3,
+      "failed": 0
+    },
+    "mlx_tail_math_and_rng_resume": {
+      "passed": 2,
+      "failed": 0
+    },
+    "total_passed_across_invocations": 529,
+    "full_suite_single_invocation_including_last_five": false
+  },
+  "development_failure_fixed": {
+    "error": "MLX 0.32 random.state does not support item assignment",
+    "correction": "restore two-uint32 key through exact 64-bit seed, assert state equality; next random draws and next AdamW update match",
+    "model_training_epochs_counted": 0
+  },
+  "existing_file_audit": {
+    "base_sha": "90e624c9e21a29d9aff2f81ba3f35aba983097cf",
+    "unchanged_existing": 392,
+    "changed_existing": [
+      "AGENTS.md",
+      "README.md",
+      "docs/EVALUATION_PROTOCOL.md",
+      "docs/MODEL_STRATEGY.md",
+      "docs/ROADMAP.md",
+      "docs/STATUS.md",
+      "docs/user_instructions/manifest.json",
+      "src/qimenllm/reasoning/service.py",
+      "training/README.md"
+    ],
+    "missing_existing": [],
+    "old_data_or_workflow_changed": []
+  },
+  "domain_prefix_and_resume_equivalence": "not_yet_run; trainer fails closed if numerical test fails",
+  "ci": "not_run_local_only",
+  "github_push": false,
+  "code_sha256": {
+    "training/train_mac_author_lora.py": "009741c082659ec2b3a13867cf4862dae01953c91468ef645c1422dff2751ded",
+    "training/epoch_protocol.py": "51b1bb71187bff5dfb0cff772ba2e4552756cb3d1108fea67d84afbc45c015af",
+    "training/author_release.py": "3bb6a04249cf0d21d94f4668ed5a4d88eb93c8a5c866fa26af68d243b7cb29f5",
+    "training/mlx_tail.py": "d61c1f6b925ac8be2089a67f7c0b70797d463a00dfaecd3d7ffa9b39f1697c53"
+  },
+  "additional_source_guard": "reject forged case-event association; re-ran 13 release/epoch tests successfully",
+  "final_full_suite": {
+    "passed": 534,
+    "failed": 0,
+    "errors": 0,
+    "seconds": 101.606,
+    "log": "work/qwen38-regression-final.log"
+  },
+  "current_release": "shenqi-initial-author-turn-v2",
+  "v1_frozen_release_retained": true,
+  "unknown_time_metadata_permissions": 31,
+  "heldout_suite": "data/structured/shenqi/author_initial_heldout_v2.json",
+  "additional_pre_model_failure_fixed": "heldout v1 dun enum 阳/阴 rejected by engine; new immutable v2 normalizes 阳遁/阴遁, all labels unchanged; 4 heldout checks now pass"
+}

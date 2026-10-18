@@ -1,0 +1,45 @@
+{
+  "scope": "whole_book_preparation_and_method_pilot_engineering",
+  "all_cases": 98,
+  "families": 94,
+  "case_splits": {
+    "train": 65,
+    "validation": 15,
+    "test": 15,
+    "development": 3
+  },
+  "safe_tasks": 125,
+  "method_tasks": 32,
+  "additional_literal_tasks": 93,
+  "task_cases": 96,
+  "unsupported_original_charts": 3,
+  "database_modified": false,
+  "protected_files_unchanged": 56,
+  "formal_rules": 0,
+  "all_case_method_reasoning_review_complete": false,
+  "cuda_hardware_tested": false,
+  "mac_27b_baseline": "in_progress",
+  "mac_official_training_epochs": 0,
+  "tests": {
+    "mac_runtime": {
+      "discovered": 567,
+      "passed": 567,
+      "skipped": 0,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 168.684,
+      "log_sha256": "816a76397c024f29e88ab7ae28d2f0bf7d4b8f74a8d600d9da97928d92416add"
+    },
+    "stdlib_clean_clone": {
+      "discovered": 567,
+      "passed": 564,
+      "skipped": 3,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 163.416,
+      "log_sha256": "7699bff8e3901ad26a86e8d6fc745e39c3559a26cbd2aa5691b7dcdb052216f0"
+    }
+  },
+  "source_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "independent_real_world_accuracy": null
+}

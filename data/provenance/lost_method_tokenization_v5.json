@@ -1,0 +1,50 @@
+{
+  "scope": "complete_sequence_tokenization_of_source_reviewed_subtasks_not_training",
+  "model_revision": "10c35caafbb80f7dc6a7a432cdd11af10a6d4818",
+  "tokenizer_file_hashes": {
+    "tokenizer.json": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+    "tokenizer_config.json": "792fa3f0cb88b111e54ef3134c873531008c4df471d108da17903426e308aa7b"
+  },
+  "release_manifest_sha256": "24f1aa3343112de8c4c6ba6a4e2d10002364e9e6c5e59cb842a031b6168e5ac0",
+  "split_lengths": {
+    "train": {
+      "tasks": 22,
+      "max_complete_sequence_tokens": 3402,
+      "minimum_complete_sequence_tokens": 2521,
+      "max_prompt_tokens": 3245,
+      "max_target_tokens": 415,
+      "supervised_target_tokens_total": 4412
+    },
+    "validation": {
+      "tasks": 4,
+      "max_complete_sequence_tokens": 3153,
+      "minimum_complete_sequence_tokens": 2587,
+      "max_prompt_tokens": 2965,
+      "max_target_tokens": 366,
+      "supervised_target_tokens_total": 925
+    },
+    "test": {
+      "tasks": 4,
+      "max_complete_sequence_tokens": 2908,
+      "minimum_complete_sequence_tokens": 2585,
+      "max_prompt_tokens": 2753,
+      "max_target_tokens": 321,
+      "supervised_target_tokens_total": 782
+    },
+    "development": {
+      "tasks": 2,
+      "max_complete_sequence_tokens": 3085,
+      "minimum_complete_sequence_tokens": 2881,
+      "max_prompt_tokens": 2926,
+      "max_target_tokens": 361,
+      "supervised_target_tokens_total": 520
+    }
+  },
+  "truncate": false,
+  "drop_last": false,
+  "gpu_model_loaded": false,
+  "model_generation_calls": 0,
+  "optimizer_steps": 0,
+  "configuration_selected_from_test_scores": false,
+  "max_sequence_length_is_audit_only_not_cuda_memory_pass": true
+}

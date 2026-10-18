@@ -1,0 +1,12 @@
+{
+  "release": "shenqi-lost-method-tasks-v1",
+  "disposition": "rejected_before_any_model_or_training_use",
+  "reason": "Semantic QA found several initial/follow-up targets mentioned specific later locations/times as negative reminders. They are still future-information leaks in supervision. Source files and old frozen manifests are retained; new v2 removes those mentions and adds per-stage hidden-future checks.",
+  "superseded_by": "shenqi-lost-method-tasks-v2",
+  "files_sha256": {
+    "data/structured/shenqi/lost_method_task_review_v1.json": "be26a5b08953f86b7c1983d958bf7edc8ba605208bd8d453691942c6c4eb5dd8",
+    "data/splits/lost_method_release_v1.json": "10732bbd17a94c3718da8780615eadbc20cf7db067bffec6c65be7f7e75e0f06"
+  },
+  "model_calls": 0,
+  "optimizer_steps": 0
+}

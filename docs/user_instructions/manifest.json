@@ -6,6 +6,62 @@
       "bytes": 38221,
       "origin": "user-upload:file_00000000b1d081f6aac85952f431d1f0",
       "kind": "project_instruction_not_book_source"
+    },
+    {
+      "path": "model_research_2026-10-17.txt",
+      "sha256": "ed524f4344a72a34ba6985292a1cf16579c9772e0e0017441f66a906ca78cc6a",
+      "bytes": 1123,
+      "origin": "current-user-conversation:book-complete/model-research/mac/local-only",
+      "kind": "project_instruction_not_book_source"
+    },
+    {
+      "path": "qwen38_27b_50epochs_2026-10-17.txt",
+      "sha256": "87ca0859849ac14b4a153b9334e01f76fdddc03d39cd50bcb5d74e229bec6223",
+      "bytes": 1044,
+      "origin": "current-user-conversation:explicit-qwen3.8-27b-and-50-epochs",
+      "kind": "project_instruction_not_book_source"
+    },
+    {
+      "path": "huggingface_terminal_2026-10-17.txt",
+      "sha256": "694f417b72b4fe44c39fa7720491b1bd6f71c3aa4b437188edb3580f9dc43833",
+      "bytes": 526,
+      "origin": "current-user-conversation:huggingface-terminal-clarification",
+      "kind": "project_instruction_not_book_source"
+    },
+    {
+      "path": "professional_training_summary_2026-10-17.txt",
+      "sha256": "622324ed2b5f392bb4baf73df1524b1e1b3b4c92b6bb448bb2461b92802ff58e",
+      "bytes": 15133,
+      "origin": "/Users/masonliu/.codex/attachments/913ce4c0-2ba4-4fe2-92ed-7d9ed8c07fe5/Pasted text.txt",
+      "kind": "project_instruction_not_book_source"
+    },
+    {
+      "path": "validation_driven_training_2026-10-17.txt",
+      "sha256": "ec2a3879d5fa9976491bca3f65c29f3c0b4771ff6425af566706f7c6a217b7ec",
+      "bytes": 725,
+      "origin": "current-user-conversation:50-epochs-not-a-requirement",
+      "kind": "project_instruction_not_book_source"
+    },
+    {
+      "path": "rtx4090_data_handoff_2026-10-17.txt",
+      "sha256": "6bebd393b42d2d692719597114f72219f2041a8dd997517ca1edf639225880f3",
+      "bytes": 700,
+      "origin": "current-user-conversation:user-trains-on-4090-codex-prepares-data",
+      "kind": "project_instruction_not_book_source"
+    },
+    {
+      "path": "all_cases_pilot_github_2026-10-17.txt",
+      "sha256": "5a2dfe0a8369c1ab75ac149dcde6006c2ad2e4ccdb1d68d559bfbda284fb2409",
+      "bytes": 1335,
+      "origin": "current-user-conversation:all-cases-4090-pilot-restore-github-sync-option-1",
+      "kind": "project_instruction_not_book_source"
+    },
+    {
+      "path": "mac_method_pilot_2026-10-17.txt",
+      "sha256": "816a3ba27096676730a402c7d0e0c396e113dd9c666bc002f932cc97d2a06a07",
+      "bytes": 1188,
+      "origin": "current-user-conversation:mac-27b-method-lora-before-systematic-gpu-training",
+      "kind": "project_instruction_not_book_source"
     }
   ]
 }

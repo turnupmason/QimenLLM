@@ -1,0 +1,1562 @@
+{
+  "scope": "full_book_method_task_coverage_not_model_input",
+  "source_data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "book_cases": 98,
+  "source_reviewed_cases": 8,
+  "pending_cases": 90,
+  "source_reviewed_tasks": 32,
+  "release_manifests": [
+    "data/splits/lost_method_release_v5.json"
+  ],
+  "task_counts": {
+    "chart_evidence": 8,
+    "evidence_synthesis": 6,
+    "feedback_continuation": 6,
+    "role_selection": 6,
+    "timing_analysis": 6
+  },
+  "case_rows": [
+    {
+      "case_id": "case-000ec3e2e85e8de3d12a100b4c8cf7555e906a8f46ed3ef2ee5badf1ce753b34",
+      "title_for_coverage_only": "实例三：测高中生走失",
+      "source_id": "span-c03dc90f1fc74b6f9ef2b6fb55bc9649657a8089f6e0b22801bd912d73597b0b",
+      "event_families": [
+        {
+          "event_id": "event-5b2a3a8d13289e159d5719592646899f896f4fe9bcbf4dd8d6d9bbd3735a9ff6",
+          "family_id": "family-4db5e46e6eb8f7bfc07973b4f6086fa85de405a49ccd92c0d67ec627b0ac242c"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-01c8e6298f0608f7acb72af2731bd791f0b0e2fd1c846705e17e8fe6aa234aee",
+      "title_for_coverage_only": "实例一：测内蒙古某县干部近况",
+      "source_id": "span-f79b5c73ec669b89a67c728fb7183f1201be4693fd65fc97252126acbb4f06be",
+      "event_families": [
+        {
+          "event_id": "event-ae49ea8ddb11be63617af0292654aac48a025eea25d6b4dbe6c3cc2809ba4c28",
+          "family_id": "family-aedc1d8abdd4a82ef02e83c3e7d49e68b0407d9cf512d4407115f3d2ab2997e7"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-021baaf3fb1e70e9276e280005e9a0aaf1fc507f91afa6ea7d16c5fa748439b8",
+      "title_for_coverage_only": "实例三：测出行安全",
+      "source_id": "span-b18f50e4d303938a3c60734ec70eb2b36999ddd592382eea5d9b9bec11ec7045",
+      "event_families": [
+        {
+          "event_id": "event-0dc48e4b9272ee08bfca721f4969a7098f2d83be3127116c3d3750d8b56fde94",
+          "family_id": "family-fbff487f123f88c48e773d54bdb90d21b8822f71b9099b6b9a5c981fa7d3e96f"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-029e543df86f7e8122a33e6fdafb41a8052a982a577f787b871d05c27e903a77",
+      "title_for_coverage_only": "实例三：测失皮衣",
+      "source_id": "span-4eb5da1e5ce4cc9190aa4abf2d17979308d7ca5f020a24075af525e3fdb2fc7e",
+      "event_families": [
+        {
+          "event_id": "event-b571206f0050567b898cc3425e09ac6797fedfcdfd8c6fac5d9000ffc2d58eb8",
+          "family_id": "family-7ab9e4f720d65ef4442759351e38ebb42eb4ca61936ee85f8d04a4998ec5e965"
+        }
+      ],
+      "source_reviewed_method_tasks": 2,
+      "task_types": [
+        "chart_evidence",
+        "feedback_continuation"
+      ],
+      "status": "source_reviewed_first_batch",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-06199fc40772ac8fc5f4a73cde73b79c26318962a41f628c16c8aef05e0c4427",
+      "title_for_coverage_only": "实例五：第三者测婚",
+      "source_id": "span-1a59c806dbaad2106c75ecdc2d48602585c5d1e02ec08e51bf9ce02e051abd65",
+      "event_families": [
+        {
+          "event_id": "event-be59b4644c19626051150e9e3209891a5b76d1da385fc486cb171f570493ad05",
+          "family_id": "family-43857b7ab4b6d02ba6faadb60fe05d4521414a167f15cd3823a2fc854f44654b"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-07f860fe820305525ffba961a2369f8b6ff1fead46bf85c2da26dabb5d003ec6",
+      "title_for_coverage_only": "实例九：测外甥女失踪",
+      "source_id": "span-e89d085a168532016a1b99bbdd7db8597d50a8308346a0ea3b32430b133392ae",
+      "event_families": [
+        {
+          "event_id": "event-dc0fd4cdaab0e1e442e24b7e8a973d3752680ef375e8a9dbb8dae4c93470a8ea",
+          "family_id": "family-f018bbbf8250fd6ae4eac2bb729ceada706c6e76da0a6f3b0cbb1a17cfa6a2f6"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-146dcedd8799e9c4442671fce44b08a64e34da63602d1a017febce2fa3073946",
+      "title_for_coverage_only": "实例三：测革职",
+      "source_id": "span-858650b29bc4e7bccd142e96d486b03181e8d322285a581fdc22341f55953631",
+      "event_families": [
+        {
+          "event_id": "event-5f23947c6700b7038642414040aca1527ffb87132000c12dcb168224fe85e4a0",
+          "family_id": "family-1eb03593f406aecdca274e6190641cc1bcf202cb28418838b8ff25e6e6c0b3a1"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-173d377e286f776749c2d54042ddcddef0dcb04f28fca03c2c7b66e1a57644cd",
+      "title_for_coverage_only": "实例十一：杜新会测中介生意",
+      "source_id": "span-b56fd2b52d433b1c0e81b44d0a27e39f33884a7aa3b8376e751bc89a1a47c3c5",
+      "event_families": [
+        {
+          "event_id": "event-2cf620354216059af3a44dfb0dcc0604f8e3e1d2690b8ac96bcbf3c94c3418c5",
+          "family_id": "family-f2261c5b35bb46334366832bd93addd6ee1a7893efc39835c25590e100073c45"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-19557e07abb372b16dac1998c3981a2b5385614f006d89900cf79beb871cf88c",
+      "title_for_coverage_only": "实例二：测身份证下落",
+      "source_id": "span-645f408f60830d2fd49977219b6552df317686a686fb79632717b0f78ed76484",
+      "event_families": [
+        {
+          "event_id": "event-2ef4dc67ad6dc2468ce05abda1254ac8f5849013fc4b4782d1520866c4035024",
+          "family_id": "family-f387b779afa7247577678c139391ad98872f655fe8904edb456bff5694d268eb"
+        }
+      ],
+      "source_reviewed_method_tasks": 4,
+      "task_types": [
+        "chart_evidence",
+        "evidence_synthesis",
+        "role_selection",
+        "timing_analysis"
+      ],
+      "status": "source_reviewed_first_batch",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-19e1ad351808cb2679578449e41f48bffbddd16156e3765e9b71c89e065f2b62",
+      "title_for_coverage_only": "实例三：测商城开业后效益",
+      "source_id": "span-4b722a09f0170d965914083a3be20913209d58dce4f3601a3248a07047ab3bc1",
+      "event_families": [
+        {
+          "event_id": "event-9207174e6e5ee41bbe1b1267fccb1cb1c707bebb61361796ec7f1db9fb6d7c31",
+          "family_id": "family-e679099359c16ed00c09b8a499219dd6525f55149cbecbea879faac043883a48"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-1a2b11fa07bbb8db7a01636368cc50134f4a565189971222eb5756d8ea06bfbc",
+      "title_for_coverage_only": "实例五：测奸情杀人案",
+      "source_id": "span-3ddc01650ca86ad0365bf5a5632aecfc795abd10da017b8dcf2a8f2fb43b75c2",
+      "event_families": [
+        {
+          "event_id": "event-b0040748c1af5cb293ba2a8413227456e0d1880e3cde0d31843ad63985921858",
+          "family_id": "family-deea01e5dbfb38cac23994391f8775b627578f3d4e819dae35d1747713301ce0"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-1ac4d55c58328404e8aa247f98e54bd5c9758d04c3cad795dc1f78e826942e05",
+      "title_for_coverage_only": "实例八：测汽车丢失",
+      "source_id": "span-1f9817c1f215bfb13390d2677aed16d90d74cad84e2e66828b322a9ae2d7bddd",
+      "event_families": [
+        {
+          "event_id": "event-d16beaa6800b736754762fe36da64b60707c3925e2c7503dd49fbb5a4672a44b",
+          "family_id": "family-49c7660641cf818392de715a6369ec7a081ecc3b0bda7c834bb8f0d6693b678c"
+        }
+      ],
+      "source_reviewed_method_tasks": 4,
+      "task_types": [
+        "chart_evidence",
+        "evidence_synthesis",
+        "feedback_continuation",
+        "role_selection"
+      ],
+      "status": "source_reviewed_first_batch",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-1eedc064bf1d23f7c887a29741c668a4ae8aa1aed5631420b65719fa3c1d0029",
+      "title_for_coverage_only": "实例三：自费上学",
+      "source_id": "span-6397b0da592cfa4dc96f327a1218adb3ba158bc723530e5f16436d41d299ca47",
+      "event_families": [
+        {
+          "event_id": "event-a803063c4ae8caeedbb2f760d12ce3c2315bc86ebd23e07c359ee9b525aecb64",
+          "family_id": "family-cfb49bc5e6cfbaf348d17663409479a7d86e77478830dcb52589171665b86431"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-224ff955ae92d42a0846027b94c017d996d9456901d2dabc9b26ed9fecf0e432",
+      "title_for_coverage_only": "实例二：测分娩",
+      "source_id": "span-1f140c52fd604b3177789af3be63d72d2a706ffb9281747c9c81e6fb90f33235",
+      "event_families": [
+        {
+          "event_id": "event-1d9d2b4da7bc6fddc84a43a517955702a39b42319e66b71515067343e681bebd",
+          "family_id": "family-46bf1f92c86b85f1c26b211b435a69dcd30f0fb2ec581a9393cbc82d7907c16a"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-22de15c30828654ac90c14ab378de76d25a3dd26d754e62e97be498d4e4b7b08",
+      "title_for_coverage_only": "实例一：测找发票",
+      "source_id": "span-a97c0d485a74143fff8262261fc09524c1104dccde089ef0cbfd914441c1e012",
+      "event_families": [
+        {
+          "event_id": "event-091d2d1d6013f9df853b2b69cec3940926d6703926a134598f1d65b1d89ec9bf",
+          "family_id": "family-6e55953bb745ffd88693ed5082fbc1a688702f9dfe49cb0be8d8c1341ea20143"
+        }
+      ],
+      "source_reviewed_method_tasks": 4,
+      "task_types": [
+        "chart_evidence",
+        "evidence_synthesis",
+        "role_selection",
+        "timing_analysis"
+      ],
+      "status": "source_reviewed_first_batch",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-2421ad7bbb4c5b70db9d84dd2135c30b6b7e3f11b1086e0825465fcc1ce84864",
+      "title_for_coverage_only": "实例六：王建国测孕产例",
+      "source_id": "span-71fba0e68fd919b562f3fe69f1e65f79f5a51fd78e0843304da4ac62c650906c",
+      "event_families": [
+        {
+          "event_id": "event-4c1e0289fc728e31f7ae15783bae175230b3c057036fc8e46fed3d9b753ea19f",
+          "family_id": "family-26fc333e3d670513c3b2676649885f10cab72fa61e4f4c011415705049847ec7"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-25dbb19e38eaa8d44c833d256146344faa713d9b3fe6b368bfffd53f606ffd6e",
+      "title_for_coverage_only": "实例八：测外甥离家出走",
+      "source_id": "span-71d78ff557bfd4d7deb8a16a3769a5b02f373c2b0118d19be2efc350b1fd4da5",
+      "event_families": [
+        {
+          "event_id": "event-b8f0bad61d478b3149517b6f502912f2c90ed806aadd35367fcb1efcc39b3175",
+          "family_id": "family-86acd5970889e0e2011221641a3d08caed1168542635ee98595f046ae5022548"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-280bbb10405b701933060214cfb9a6109e5fd91b73cf89bdc3cc395a4b062fe3",
+      "title_for_coverage_only": "实例五：山西学员王海燕测例",
+      "source_id": "span-1d39fa3c337d8e2571a8cd40bf4e16792a20b9ee02f6717367163297d40884eb",
+      "event_families": [
+        {
+          "event_id": "event-2e800815a83eabda63099a18749642e35ca48f6a569cd8b00de562f748af76ff",
+          "family_id": "family-e0c9f031682489f00111145198cecda3e9d6551b4c94b3e5c677ccd4363f3551"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-2d48dfbf2fc3afae29cd3e792c8cafe3715e7c98994c42e1e9a4d1c12eae96bb",
+      "title_for_coverage_only": "实例四：测中国队获金牌数",
+      "source_id": "span-ecd0133c5533573fa5468b429d5c68b2c939401cd9366d5930b17a05ef99745d",
+      "event_families": [
+        {
+          "event_id": "event-1e460e1d33d890efc229ca2c9c26c63894ea6df93b7c84010bf4945f755c9de9",
+          "family_id": "family-e0d1734ffd95c1265d4ca0bd97b8f28a9f72a52f6aa3953651225cbaaaba12d6"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-302aabf8ca053df5882186fa7ba93bff7f24cd583cd4a95ae66f96a7a12fb794",
+      "title_for_coverage_only": "实例二：测第四十三届世乒赛男子团体决赛",
+      "source_id": "span-29414fbfa8873197026d5d26eb4b1f845e77c4ccb395e934443c61541490ce27",
+      "event_families": [
+        {
+          "event_id": "event-ce7ee9c87b5eebc2a3f482eb9cd2cccfdbd2c1f8f5e71d431fc04ba1a9b43fa3",
+          "family_id": "family-dd36aa29cc3de349ca009c15b3cae79f6f6d4c60a43a042688a91690f8810dc8"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-3031948ca59b417be4ae0fdc2bf6253ea1ccc2e0458a035df0b6b8aac2fa5da0",
+      "title_for_coverage_only": "实例十二：贵州省赤水市学员卢圣湘测抽奖例",
+      "source_id": "span-1cd28bc46015583e2a11a73a3685f287443fef7e2d2d5cdc07cc8f604e491575",
+      "event_families": [
+        {
+          "event_id": "event-443afa6e2f0c59dc0a1ddccff592692855db28c501db829e4e4ea51e2ca54a92",
+          "family_id": "family-0eca637c25d8894f57a1199e103052daf0112a9e16daee8d05fb1608fed3d6bc"
+        },
+        {
+          "event_id": "event-847bdfb0ddd8f5cad5af1a98b798abc6d84840bba3a0a5a4f87543b68e9a1734",
+          "family_id": "family-0eca637c25d8894f57a1199e103052daf0112a9e16daee8d05fb1608fed3d6bc"
+        },
+        {
+          "event_id": "event-b85c780e0c9684930563073c8ad50e221a1238d60dd9b29b3300dca6b5ede779",
+          "family_id": "family-0eca637c25d8894f57a1199e103052daf0112a9e16daee8d05fb1608fed3d6bc"
+        },
+        {
+          "event_id": "event-d373207141fcb18a114e491aaf15068ffc9be04fa8a7394e730e9ba61373be2f",
+          "family_id": "family-0eca637c25d8894f57a1199e103052daf0112a9e16daee8d05fb1608fed3d6bc"
+        },
+        {
+          "event_id": "event-dff46dec7843c7d2f1d8e8cf2e5950b55d1da60011bfb6c35de42ad1f3b9cc5e",
+          "family_id": "family-0eca637c25d8894f57a1199e103052daf0112a9e16daee8d05fb1608fed3d6bc"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-32daa0de0ee1dad256fc6df500e460514f9fbe42b07518b0c9d3fb63596f3234",
+      "title_for_coverage_only": "实例一：测旅游区开业典礼时天气",
+      "source_id": "span-897c136d772cbf992626f6a39522de13e14a98020ec14a6cd1b74b0f7e10d616",
+      "event_families": [
+        {
+          "event_id": "event-3b0c675d43e02f8c2c44826faf0815fdd771ff81a62966c89685b267bb8c7fd4",
+          "family_id": "family-927d0a75bf1eabf95452c4331fda1b9a7fc1f2b37a90620ff0325b68fdfe4bb5"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-347187b085e69aa50b13dc19e914c5bb0823c438502dce4e1a2d4a3ef67cbdbd",
+      "title_for_coverage_only": "实例四：辽宁学员王作霞测例",
+      "source_id": "span-62997a1dc0dae970168b1a0ce20ca4fb1a264a80433c214c1d71699189e9ddc1",
+      "event_families": [
+        {
+          "event_id": "event-afe7840d0d3a2ecf27ac69037cce8c00d5b9ca7f4f92fe4b25e21cf1abeed0af",
+          "family_id": "family-28588ef24e3ccbeb7eb5ceaa649a366cecca535454b0b0c157d2cfb0e4ada77f"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-37a08549bba6a899758b833ae7cdbebdac389a7044013eaa96e1ae14b4ca90be",
+      "title_for_coverage_only": "实例三：测何时出院",
+      "source_id": "span-d20d64358d4fb299d8aa5fc51c5216143694f02458fcc4ea7f26015c54c2d1f7",
+      "event_families": [
+        {
+          "event_id": "event-f88d63afe52e39f227080cc107881363fe5d7c386e475946b55bf35fe3289d2a",
+          "family_id": "family-f48a7d16e9dc300bb5e7fe9b998de26d83d4aa7985502886f8776fa6322e01ad"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-39d214819044fc65ceb2b312c58f14e189e2c732b554748a6b55d962f24dee84",
+      "title_for_coverage_only": "实例六：杜新会测劳动纠纷案",
+      "source_id": "span-5d87bb96b650cf3783d2393f59179f10e2053339b55316d3954b67408afa5045",
+      "event_families": [
+        {
+          "event_id": "event-6536abeffed4b3fa0c105174d29c44cc233b81a4ee3426e9541625a63c9808e4",
+          "family_id": "family-23c42fb26da8d1954e07acb1569f92e13e8a68587f3d39d4d293b737c69542c9"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-3c1ec0139a4c5d89ff767270bc68e893181df6d4d0a5d036c0f8f1205f97ab5d",
+      "title_for_coverage_only": "实例四：测丢BP机",
+      "source_id": "span-b7db9d0eec0114846519bd070f988322fac8e06a5871ebaac5780e8a945e5c2a",
+      "event_families": [
+        {
+          "event_id": "event-25ec007525bfa2c0e42bf3fd07ab67e6775d989b765574f9a6b6501d0eba134b",
+          "family_id": "family-3382e87821fa440bc20bf808181a745000c91f3d4a9663b055af56eb6fdd0022"
+        }
+      ],
+      "source_reviewed_method_tasks": 4,
+      "task_types": [
+        "chart_evidence",
+        "evidence_synthesis",
+        "role_selection",
+        "timing_analysis"
+      ],
+      "status": "source_reviewed_first_batch",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-3d0c131e4950ef020bc7d27e4017cc6d9adf838560fdf4dcfbeeacc2019588dc",
+      "title_for_coverage_only": "实例七：测女孩失踪",
+      "source_id": "span-f6cdec26d9bf56f27af3f029f420a08972c8bc28a300c91b5fcb3441fe36fcda",
+      "event_families": [
+        {
+          "event_id": "event-cfe12e11cc85bca3fec123e96e46bfdaf19aea0bf3b100f2751a683909478124",
+          "family_id": "family-a370274b6a3c5f9b970e9844fb38c301db10a3f961cd9a77b11e290cc3b60edf"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-3e554b89430de76587487514d493fbcabee6782d5876f67db8dcdc858aa07b80",
+      "title_for_coverage_only": "实例五：当场测病",
+      "source_id": "span-f454db9e2f3230c43d43b2beed70d21c611a8eeb9ae8393de3c333f4ce60dc85",
+      "event_families": [
+        {
+          "event_id": "event-81a43050529e834fee16c5299ba7c63154f2398dc3b0a852c81b1448b568f17e",
+          "family_id": "family-dedb7f590087454464cae79b33654a438ae442a3dd2c11f441d52d50d12ce49a"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-3f5bd69c19807861162f3dae2de2d5b171199a2714e37bd15088f89d33c65b2e",
+      "title_for_coverage_only": "实例二：测山西某学员近期运气",
+      "source_id": "span-7c0670c474f161d90911ef840b084695649bcc33c47b6f1398a38d3a76b15096",
+      "event_families": [
+        {
+          "event_id": "event-e7e418966dec99373ff7ea7bb9a3f72022c45153fa0b354443b709e01ae50f99",
+          "family_id": "family-8fc64773a16c951fb9e808b55162729a3a6aa56ff0fda4a74df1648265a0ee30"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-405d8fe297401efc0210237a2bf0d70b183dd3a3eacc7cc334ce4d04a69d26cf",
+      "title_for_coverage_only": "实例四：测判刑",
+      "source_id": "span-347dc7c370cbbdfc2ee6b27de2eff42e60de88193b34ae31153c051b14e1dea9",
+      "event_families": [
+        {
+          "event_id": "event-bd89407e3ce0805137793dea2fd3b6af3b8787c5656fdc88a98645938f4131f4",
+          "family_id": "family-47f75d3976795c0d19038d9392d04783dd547fbb81bd558a77afbe8315bf44c2"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-41a68ebd451cfde6d08c5c85c8d63a344b4342646939c95f5269499e357fc803",
+      "title_for_coverage_only": "实例五：测女儿离家出走",
+      "source_id": "span-e9b2e3a680008c9021123e29b53da1da50ec06cff6bd7f92f71e33dc2b3648ec",
+      "event_families": [
+        {
+          "event_id": "event-fa3eb010ae66f56df1aa39119d0c46dffb6338115a1deb65cf3c0298e2e4f326",
+          "family_id": "family-da7cc73015634d4bd69e085860258ce0010fb162773e4c2c32e3d58a03d408dc"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-47877ff3c6908a4f1f5feb5ee7bf3250b42fb9b546363e3a97446a28142587a2",
+      "title_for_coverage_only": "实例十：测出租车司机下落",
+      "source_id": "span-ed04c74fb916fe3fc399ed22e1c8edf06df0e84ef9703cb162f9a4008b7fe8f2",
+      "event_families": [
+        {
+          "event_id": "event-024a09f3c56106aae46dfeab464e454d9a388f2f8f9d5b1ef670054e68747b6b",
+          "family_id": "family-3216b07e6f1b36cd59414b2c1df0b0e23aa2ac83ff7b474c07d38bf9b98b3cca"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-47c198ac385cda942a508aebbe2b9b9e0ed0fee06031f4845d156ebd57e2f545",
+      "title_for_coverage_only": "实例二：测出行吉凶",
+      "source_id": "span-e6aee33afb33914d97339e661ca43d1f22aae6cf7c0bee73386d1bffb4ac94ae",
+      "event_families": [
+        {
+          "event_id": "event-3dcd35bbef6e755f6b78eb9711fda976c0e96203b7c805e07ba9ee1fe356f93b",
+          "family_id": "family-81b00fb8d2dbc9fdc2c1df492d11d35dd1c7025dc7b95790e12e10bf79b4f155"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-4a1e47ae84392ffab33451a16b24d08bf2c20995300103b9979cf7e1d1c6d7bc",
+      "title_for_coverage_only": "实例二：测初中生走失",
+      "source_id": "span-9e6ffa49e9e70271219c9bcab88838f0f2959936582d07aebececd5487ed2279",
+      "event_families": [
+        {
+          "event_id": "event-b6203192bed4ad1db49283166d5589aca118a0d1b5c0a3d47820fae5195b83b0",
+          "family_id": "family-742130d54da32fba329e2e3f9a455b0784e9327c00eceb57479e7799bd24de07"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-4c9167e5865158db0e16e1ef0a6702fee49c1b234ef117ad530bbee3f920fac2",
+      "title_for_coverage_only": "实例四：杜新会测天气例",
+      "source_id": "span-fc4886786693a241090a22702d9352eaa1aabf71f84aca5c8b6ad685538309f5",
+      "event_families": [
+        {
+          "event_id": "event-ecf6ddb1806678843affee3d6378fe4526c3f56593b335bcfcc0e093ff718608",
+          "family_id": "family-f284e5b0a84170015100d4169bead84ba4ed5a6133eaae3036376241dc6c0e53"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-4ef63d5364758c475d15497fb53d903432ed0b10f2880faf8bcf56769644ac3d",
+      "title_for_coverage_only": "实例四：测投资买商位",
+      "source_id": "span-3c1eba1662c92580fb621fcc8b5ebaba921d3047d5b7f1605ff02e09a42bcf36",
+      "event_families": [
+        {
+          "event_id": "event-1a4fcb7394e3e40addbe6ac3bdcd18e77575628c33fef9abf08484fc8e41de93",
+          "family_id": "family-e679099359c16ed00c09b8a499219dd6525f55149cbecbea879faac043883a48"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-5b9217acf0d3c19410d8ba81171c9a1752b5d7200e409d8881635c957ac8646f",
+      "title_for_coverage_only": "实例五：四川学员李文达测官讼例",
+      "source_id": "span-aa5ce6854e61cea20f7e2ce600f32c0f5767c21246475df5104e4e4eecd7e656",
+      "event_families": [
+        {
+          "event_id": "event-4665743eaf32901a510ae72f6c1a740fad86c0e3a1aa6314d907d92047695cdc",
+          "family_id": "family-815bc11976c26d6f1240b5e252de460e1623d18bc1a6c51c953463c5137bd269"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-5c4545470e1bce7abf5746c6d55c0b2e75a5e57b4f4d31cf3594fa7530fb55f3",
+      "title_for_coverage_only": "实例一：父测子升大学",
+      "source_id": "span-a628b4455aaf3edb1640e45a3f5918780c1bf40d0d74b62dc4a4a51e927aecf1",
+      "event_families": [
+        {
+          "event_id": "event-5f6620cde3351b6fb265fc772ffcad3ac94147453243f9288671660b8f419189",
+          "family_id": "family-7eea06457816b727d5cc5bd452cb63e7305123f99267ec427869f2fad4ee5413"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-5f7e98ed58ee85d646920418766d9f00c12b145d589f5e69c75bedf180124b4f",
+      "title_for_coverage_only": "实例九：杜新会测企业前景及对策",
+      "source_id": "span-b3fc6200b064ea4407d5d46fec2f0a8c0314bb20360d1208bf2a28e83585a01a",
+      "event_families": [
+        {
+          "event_id": "event-c6216c51887216dd6500ad5b97914c82b37a2a1333383e04d87daa445144a345",
+          "family_id": "family-572f5fb577f60d58f3d67e401748b8f1b38d0bf85edaa0eba89312c8ad5b0294"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-60d72c817d82eb4566c918c2af264cbeea84e5267666111916ecd4cb5f8eaac5",
+      "title_for_coverage_only": "实例一：测第四十三届世乒赛女子团体决赛",
+      "source_id": "span-71a35e12c4b2273d1b62301a96446917f664ad510445ec3cd0e8273c57b482ed",
+      "event_families": [
+        {
+          "event_id": "event-b6e84edca8ea9232ca90506d9be550d53a0fa43d676272625ee6bc9abe25048f",
+          "family_id": "family-84192cb63c9a21057b0b1e2d98611c77b2638c9736fcc389e08dd24207dc342f"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-66e477dd113e9546168814a71a348f90d927350eac4f9a64ed1bcf9db9ed2efa",
+      "title_for_coverage_only": "实例二：母亲测女儿婚事",
+      "source_id": "span-75d3f91c61b9fbce301a23b50aed6714e34fc48d9c30aa2336dc8f722eea3416",
+      "event_families": [
+        {
+          "event_id": "event-ba13b59fb256c4aa23e09821043839b26fe201f088a88b086486ba5be33303d0",
+          "family_id": "family-609b78a46774b68294634b005e90526e942e53cd2d8ca2e378cb9e898360bcd4"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-7371b7970fea9278c20e6cb4f723573b5de82c0e8e637ac18679f759d487097c",
+      "title_for_coverage_only": "实例一：测怀孕",
+      "source_id": "span-cd5961f8fd6a4bef77b4057a18c3a056acd50f1bb0736463eb99fd205ad1a63f",
+      "event_families": [
+        {
+          "event_id": "event-30960df740e46b86e3e0ce5dc563f353f16d5bc6937ce1a5012f4c1be9b4d5cf",
+          "family_id": "family-46bf1f92c86b85f1c26b211b435a69dcd30f0fb2ec581a9393cbc82d7907c16a"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-74e2b4db6b9797a75c3db3ade3a9a57746c51cce5ee327a09e7ca760ce149127",
+      "title_for_coverage_only": "实例七：江苏学员赵国葆测例",
+      "source_id": "span-70e88c7fdaaac5a41a682d668fb1f4eac9e1a4b20e548413fef7fdd20970d2e7",
+      "event_families": [
+        {
+          "event_id": "event-6655044433a0eff398df9e2da6df333be84aef6f7d1698a8dc11164b33bdbc79",
+          "family_id": "family-04a6933906e0e22d30ca40dcc6b974fbc8f1b020dc6a1373bf2252125e8ea15b"
+        }
+      ],
+      "source_reviewed_method_tasks": 3,
+      "task_types": [
+        "chart_evidence",
+        "feedback_continuation",
+        "timing_analysis"
+      ],
+      "status": "source_reviewed_first_batch",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-79ac973e4894351bd15ca06a2b6bd23fd87d2cdaf8b0dd96968e113ae758f64c",
+      "title_for_coverage_only": "实例二：测8天以后天气",
+      "source_id": "span-f4fb9670df28fdaf13c2e8e31b64772bdd938a103ef02c49e1cecaac5bac8c0e",
+      "event_families": [
+        {
+          "event_id": "event-f853ec28d2d92bf234f79e4a3314d459986d01a8ff70ac363459e4d63ed99dd7",
+          "family_id": "family-528251b4325d4290b16affec2a2c5294828e84b69722c633576f0cdca244dc68"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-7fc07aa27ff6d7ee95d117f282c310657f48316faf352eacf9c7e9f12fe7a389",
+      "title_for_coverage_only": "实例五：杜新会测天气例",
+      "source_id": "span-7783cfde59dc134be4be65b223c40d7eba6a0e6c93521d26a37448582e0c26fc",
+      "event_families": [
+        {
+          "event_id": "event-1131106c7df65449d9066454b2fb4f09c78da9a2e21dcb6f43f6deda62333cff",
+          "family_id": "family-3e25f98854ab93609f12a4f4fc4595d163af88e7fc481747d0be26d5774f86f3"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-80d7ba7cee60e3ae20c1d8db4402cb9d454689e3a44322173c179abb805deafe",
+      "title_for_coverage_only": "实例二：测拘留",
+      "source_id": "span-d4b6d795d584a617533bb3d68ddc52e6512ceb8a028bc62c22c8804004543f1c",
+      "event_families": [
+        {
+          "event_id": "event-395fc0eb406c6c99624dc86af6774e40d407a5bed7b92865962b53d0d0c4d7ae",
+          "family_id": "family-6877139d2993c8aac3d55a679a2c1003945f62cc71c5a252096097806cfe5bad"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-82e074e0cf047090c8a76bba680c10cb39315cf0ed59b4080c5659c5a5556a60",
+      "title_for_coverage_only": "实例三：广东学员袁炜文测天气例",
+      "source_id": "span-8678a3e95c7a539ede5496a15ccce49c2c8ceb59117e4430716747fedaef100d",
+      "event_families": [
+        {
+          "event_id": "event-f785d1530a7343fc70d46e618cafc72608ae8325579745047106a014b05b5db6",
+          "family_id": "family-88ef2d196e1d21b82f5e74f12776ee8cafe256e6d7cebf15a4939e18527fc62f"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-842818d6f605c7a5199a24c3cfed93002a361a2519e462190d59c9dbc059244a",
+      "title_for_coverage_only": "实例一：测官司",
+      "source_id": "span-551138b91aa0241747262cd3affbece3c1809e7e20209ac12922fdb13c8d7932",
+      "event_families": [
+        {
+          "event_id": "event-cb14e2db1e5a13776bea3ac1ba23ed8976df1f33cefa925bd7b8ff46d92d546b",
+          "family_id": "family-7742c087df4583b9d3917dd9667dd7a3e3d3108a66aaa4c7470e0ae5aef4d01b"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-86b5ff91affd7bc9c6878668a1db82d2e9a42e3b980ca3f9bc290cb7d81e5742",
+      "title_for_coverage_only": "实例五：测合资办厂",
+      "source_id": "span-e7d42f7af07584387b3b90408085a28e51bb90290a4243c5d19c9413f936239a",
+      "event_families": [
+        {
+          "event_id": "event-043a3af0d9986f050002f4da4691ebf0ebf07ee902a897067483015d92950e6d",
+          "family_id": "family-982e364986a38a26b160877e69c8605a22528100b2b7652fdcf2d0ee6381e8d2"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-87f19eef166a53eac668afe9bf976fdcfd0f35bf0a595f1e4cf554dd0644fb1f",
+      "title_for_coverage_only": "实例一：测人下落",
+      "source_id": "span-f08796f3a8ad9583d4f166a32df2ff05fb25aa8bd62e4394e95419a5d96028ab",
+      "event_families": [
+        {
+          "event_id": "event-1c4a90ac0249bc686a1292492faad767bf222ccfe7b7f105a71a2853b91df207",
+          "family_id": "family-12315fa92bbffd043cdc459aa77ba210c1e211906935d5512463990cbb6a34e4"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-8952fc5da57a570385241cce39c1f98d45b9ab8c333ff618c70e3890ebc4cf5d",
+      "title_for_coverage_only": "实例二：母测子毕业分配",
+      "source_id": "span-138bcac0f5621ee558d2a7cac83bbc5447708a9eb28f5eff3fa6f9dc61ccc22a",
+      "event_families": [
+        {
+          "event_id": "event-d2c24149f590d2bc4b475f519ed0406fa59f9c4d62292192dd5268151433bd37",
+          "family_id": "family-c87ac2bb301944d5311e9ff0a35986652e6633fed2f50d324bfd6c67f9ab132d"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-8fd7948dbe13d66aab4ddf793087cd8470b60b35edc089b5666625f9fa7fef0c",
+      "title_for_coverage_only": "实例六：测传销营养药品",
+      "source_id": "span-5431d35f1f15ba6827024cab4987e6c49fd247827ea25bca2eb30d185d80e572",
+      "event_families": [
+        {
+          "event_id": "event-a336641673bf61f5e1fcc96e0aa256b4d63678b08a5e504d6a9ab42da034058e",
+          "family_id": "family-87d06d6e5705e31f4d29353d4253538a8bb880f44c6c28090fd9aff8e50ccf91"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-90638797d4c4fa4b93aecc5529352f4f936ca90456e77693e2881fb5accfe1dc",
+      "title_for_coverage_only": "实例一：测坐飞机安全否",
+      "source_id": "span-8420a527594a8d44d1c33e915cee718690376e0e8d9bbf96248f0643b8cf50f6",
+      "event_families": [
+        {
+          "event_id": "event-9bdab29b32aa5715bbbb14f1136f3f8dbe5a7e1319d069a708adb20b7cfe8827",
+          "family_id": "family-a844819a63c387a7c64608e6457e8103c48407d28b912f42d37b6ce6c7cfb5fc"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-9525ab650b082cc58b06d15f863ce7dbdae2b9480c77991d3394f348c6486d62",
+      "title_for_coverage_only": "实例六：测侄儿出走",
+      "source_id": "span-ff835bd813de000a301b0b2a5a4b93cad030c3507910a0722d723c88782a8489",
+      "event_families": [
+        {
+          "event_id": "event-a85dd70c31bddc13bb11f62de451a86373cd0d34818cf8f1d387f9dd0630d6b2",
+          "family_id": "family-e60175312fb8ab60e3096b38e058ef2ca16ba6de9a97b74dd8dd5997a5ff41de"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-99e5d7b77d9880042106cce4c60b434f34205f782492f0a46b28b2e255e65610",
+      "title_for_coverage_only": "实例四：测小男孩被盗",
+      "source_id": "span-afba2daaedbf47e84e9f06339aebf998054c454bae70ce47e2be905debf97280",
+      "event_families": [
+        {
+          "event_id": "event-e425fc0f557667fd3e3d6abbe7e756a2774c525891aefedef4cf3567139eeb55",
+          "family_id": "family-4e07877a876ef919b876e39a8ab5dfadacaa19a746877ac242c592369e5a6bfe"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-9b0a82c9dd9be93670a78d2035fc0ed84bf4a8a87a5ff970281c1be8bb007855",
+      "title_for_coverage_only": "实例六：妻子测丈夫外遇",
+      "source_id": "span-47b8cd7d6d83cbd93bdf07960db642ea39e04abaf62bb4a551d18c7a69f7b590",
+      "event_families": [
+        {
+          "event_id": "event-048804d6cf4ee3aae11ecb7f9a7117bc596d61f36951698dce1c18d91516f60f",
+          "family_id": "family-c6faf70e227f9740cb1295e24c62a0a1ed7bf5494e3602debada0907ee74aaa1"
+        },
+        {
+          "event_id": "event-513b8515f6dfb5ff62f9bc9ce8ec10dae75be5755db225cef7fc706983dba94a",
+          "family_id": "family-c6faf70e227f9740cb1295e24c62a0a1ed7bf5494e3602debada0907ee74aaa1"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-9f9a89b4935ef80ce7ba3be2217791f0611afc15a789c50ac0cc83588b5c18e7",
+      "title_for_coverage_only": "实例一：测租赁经营",
+      "source_id": "span-3c757b788caed2462dc379159f24930f88f18b6937126b948e4ef28e8628898f",
+      "event_families": [
+        {
+          "event_id": "event-22bf792fc2de4b90f99ae3fe750dc35b682df481db839c876b6aa774a4c845f7",
+          "family_id": "family-abd64e8db18fd0fc531a84c9e03e896d95f8ba401c29aca612e71e85398f7355"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-9ff7e074b8fca7fb92b2cc750a61d053f527928fdd3f5ffe991592830bc58f55",
+      "title_for_coverage_only": "实例五：测第十六届世界杯足球赛半决赛",
+      "source_id": "span-be5ed00e6e0700db91e589d094a10d5f0891985f1f6c21e776efcc2a238b50a0",
+      "event_families": [
+        {
+          "event_id": "event-6805cc9a7d292fc78810dbc6f73d5ad80e202b8111e427b45d4a30abbd4cfed3",
+          "family_id": "family-f284e5b0a84170015100d4169bead84ba4ed5a6133eaae3036376241dc6c0e53"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-a4fe07631f5c1bfcbe0e1c685ea4d4324251247afebdd9ee0448db0b0d23afbe",
+      "title_for_coverage_only": "实例十三：杜新会测讨债",
+      "source_id": "span-69dc996b7a938878a22464b86668467c35e6e93fa2f94c62a12716862c8193d3",
+      "event_families": [
+        {
+          "event_id": "event-3c226e2274bf7b5d8ea330e8ecdadeaa63ea9eca0e5fe554de8218b2faad7d8d",
+          "family_id": "family-7fdb5a8b4427542223f897691a4ff79cbf411f1aeae3b8a76b1bbbfb18d87471"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-aa2c76f61e2f091ac3a8d1cba2e26ab3d50cea3aa013f0b58578dd361128f7a3",
+      "title_for_coverage_only": "实例二：测引进外资建商城",
+      "source_id": "span-fa40d0687eab374daeb664b5ea0d31107c2b060bd39d2e9fffcb04d01d418580",
+      "event_families": [
+        {
+          "event_id": "event-994eb11effc26a97bc9aab4b97a808002103976a2fee2d448a9431e917a25bd9",
+          "family_id": "family-e679099359c16ed00c09b8a499219dd6525f55149cbecbea879faac043883a48"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-abf48581214ec50a5aeeb86459068ddbd5d7dc7d4bd2fe6c0273ba5a98e80dfb",
+      "title_for_coverage_only": "实例十四：杜新会测讨债无获",
+      "source_id": "span-11f71d1a6ecd202d967e1067d7088cc4ff4ed055a9ba5f8d2dd9f45fde751942",
+      "event_families": [
+        {
+          "event_id": "event-3aea08377e4ae1c3f0ee3ec24f88a7b32e77c8b158401f178ea5a8516ba37411",
+          "family_id": "family-bb6f14521268b759620499b624c6d2619726ecefbbb9b25e0ec9a19d825d8748"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-aef7e114a1920df5a02b7804bb64610c6ef4af39c502716dd5c784fdcf28efe5",
+      "title_for_coverage_only": "实例二：“地理虽好，但你不能用”",
+      "source_id": "span-822f61435fdd2bc904dfc7219ce6c3ab229d0e7a32d665b7c2d58e0acfcc6d5d",
+      "event_families": [
+        {
+          "event_id": "event-072ee812b228fa34b3333e350fa176dfb4865202eb29cf00900606ff75b5f97c",
+          "family_id": "family-8e1af827ce5370de4874d9ac50ea0be099e52c06e434abf3175a1a1ee914249c"
+        },
+        {
+          "event_id": "event-393b4f1c3ff1a66dae355d5334b498555925f9fc868b7214c6ebbb7487478870",
+          "family_id": "family-8e1af827ce5370de4874d9ac50ea0be099e52c06e434abf3175a1a1ee914249c"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-b3dd6097c4186c79d3b834cef63cad5cf7f195da0d7946de4495c1184b3e6459",
+      "title_for_coverage_only": "亚太二号通信卫星预定发射时间预测（原书完整叙事、局部盘）",
+      "source_id": "span-357f63dc1b1d0634b4233c0b28875de843878fb7b7ba1dee749d93960b6d76ba",
+      "event_families": [
+        {
+          "event_id": "event-43dad715258f2b6a25226bb868b95325f14d86a54c5295892c23dd6968089a66",
+          "family_id": "family-128b8f4ac86abd5fa6aea2c91a934ddb86484a1974788fac8eb5af952dcefd3e"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-b3edf9b54b6680cdbc4840ae4551d6276da6c560172364848cc15c102bdf1dc3",
+      "title_for_coverage_only": "实例一：选最佳建筑方案",
+      "source_id": "span-7df4d7df624349933dae2f43ceb9afd94424bde85703db6134321413433632be",
+      "event_families": [
+        {
+          "event_id": "event-a24f00fd545101f74e2e9d540d3ca2fd79623ffee9e001a080d2a68a9a082490",
+          "family_id": "family-c6c2d3305907728d59a020e907e1546598ac2f2cf94d4dc7859b466e8a7b32ad"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-b460c5504cc2043ea582903147b552a773ccb150716a0797f4cdba89da90c923",
+      "title_for_coverage_only": "实例七：测第十六届世界杯足球赛决赛",
+      "source_id": "span-e077da54afa7c5834d3b7dfb186086249f3d5cf7456c4a70531e2676d9efd786",
+      "event_families": [
+        {
+          "event_id": "event-849b45da25586707ad51730836065e74b546b7fc41831e459692b8eff7bb2875",
+          "family_id": "family-6f85e17bb0c9451ae224ba07b33e2931dc13c379154948f31b323ab626da3c80"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-b5306852ebcbec234070a774b8cc452b17838de35e76c77ba3ce3969eae8c3e3",
+      "title_for_coverage_only": "实例一：测钱被偷案",
+      "source_id": "span-9b7aa4d6c5d1531466c045b421754f346d7b94549506e06e630227ced4ea2749",
+      "event_families": [
+        {
+          "event_id": "event-1984230a20ac2fce9178ca6ebd1916f5f026851c09f6767882d60d47e6249717",
+          "family_id": "family-d08a6722381e14f7a292be697c0ad8206e982c37f59b42c7d1a8e9d55d78bd6c"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-b6d7c7589ab9cbaf715ab9c9b3aa3e26658c5851f81de474eb2af4e0911e7c90",
+      "title_for_coverage_only": "实例四：测出国",
+      "source_id": "span-cf89607e8ed15e1dcef43c6baa3df116a605b9a1d20eb9beda10c0e691dbddad",
+      "event_families": [
+        {
+          "event_id": "event-4dfd20d666d238a402e959fd184dc1dbf46eef55550413cdfcc6fae8f987c116",
+          "family_id": "family-7413efa178f538f869492db21e4c4aa6cf8552f4152a7edf4358b6f0da34a801"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-b78f14c43bb40d6a7cc2551de8c7cca5c973cfd4629f8f2e5b2a767b1e7c517a",
+      "title_for_coverage_only": "实例四：杜新会自测工作调动",
+      "source_id": "span-d654938c94feb1d4b9799e2e6865989247815976695b0f908412c41b100b4f88",
+      "event_families": [
+        {
+          "event_id": "event-8bdab1b60a86e1fb94ae21c36e1a84c60077a6117f5dbe0f0a57e866c4fcb1d9",
+          "family_id": "family-26624434404defb9412ddb5fbedcf83c13b4c403c503b4a387b47a3e5863741b"
+        },
+        {
+          "event_id": "event-90430d46d4268626008bcc9ad040c7f6986f4e53474659f7e80903f6c6c65f50",
+          "family_id": "family-26624434404defb9412ddb5fbedcf83c13b4c403c503b4a387b47a3e5863741b"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-be1da18582115ed03e38708a104b371ad3251fe2303288e8aff69bb00da8363d",
+      "title_for_coverage_only": "实例一：测毕业分配",
+      "source_id": "span-9eb9c8478fc4af1b17a45c2eb3608cd47e7aef7d623909921550730e476b8788",
+      "event_families": [
+        {
+          "event_id": "event-5dab8534b569f2b1f3339a737c1e5012009d25a9fc9edd5c42a43896d3148cd3",
+          "family_id": "family-289a7ced6ed50efe42b8f9ef5328d01a4ede0fb7a84a1e35dd0dd58a1aceb92a"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-c02fb6ee86f1438b3f6c93f6a77edb3b357b836054330fde1a512d65a9bc5f1f",
+      "title_for_coverage_only": "实例五：测外出旅游",
+      "source_id": "span-720c1dbc60446c9d2ae7e049e7e8d985e455e01a84482cd7b5a0835d4ca72f2d",
+      "event_families": [
+        {
+          "event_id": "event-6a9c85a3944ca93980392ac211ad3b71578c9b084abfc103809e5dd20bb95cd9",
+          "family_id": "family-d19a67ab9d2d3530a4f43bd5c7a3259d0eb7825e30057542b2947b392c91ab84"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-c8d1e05c9761ccb9c63887c16b5d2abe61996a335a83c184e8321a42df804896",
+      "title_for_coverage_only": "实例六：测外出求医",
+      "source_id": "span-ceeaba4662d7bb4d38f8d4a6ffc1fae24e52a04f17ca7632743986dfa238c221",
+      "event_families": [
+        {
+          "event_id": "event-f10966a29a047283bb97083445b33ab62e8a82e0ed7f04b518baa74330a23056",
+          "family_id": "family-f7bc530b6552ee7d75b66d256984602029e80e33d2355b4f07fb1beb1344c34b"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-cbb92faf5ba02f7a1a36e4cd4743c471a15dbfb5438684c73cdb50168a7c72ca",
+      "title_for_coverage_only": "实例五：测失钱",
+      "source_id": "span-07bc8371771fb302c246ab4a5b39d940f0ca71d215f5c4c6dbeddd1448dcfc1f",
+      "event_families": [
+        {
+          "event_id": "event-36d690eefde1897059c757f89fcbdc116b1f87c6a69408b3232248dd19057857",
+          "family_id": "family-a2b130fca4834fdc1d9fa0ca75260fc68ab2f6a4fe423c328cb51d476e63b751"
+        }
+      ],
+      "source_reviewed_method_tasks": 4,
+      "task_types": [
+        "chart_evidence",
+        "evidence_synthesis",
+        "role_selection",
+        "timing_analysis"
+      ],
+      "status": "source_reviewed_first_batch",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-cecf00bd786c790b3bec788b23487bb4a2f7a16d6ca1132ec703d4ce78a96ebc",
+      "title_for_coverage_only": "实例四：中年妇女测婚",
+      "source_id": "span-9d224076473c9d2e64d5f5be512dc06946c2862e361a73f724ed0b190aaaeb4c",
+      "event_families": [
+        {
+          "event_id": "event-61c8b3d8db027c8abff921d72187042b04c7c86e2c26adac3f359037773e1f28",
+          "family_id": "family-ae68591b63904fc64a0006133dda5c9ff1c9e148d7182f7110d71562977b10d8"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-d4a7467f0ad1461d2278b7c571bef9ea2a826d5e112e2018dec7d55abc9a71a5",
+      "title_for_coverage_only": "实例二：女测父病",
+      "source_id": "span-68b75b31b91f400e61ba343d6f1405e5ca02f4c53ac309db72ab2b17e1656de3",
+      "event_families": [
+        {
+          "event_id": "event-a8375e8b7144a6efddd92e97e02c29216574739dd8a12ef11a14fb0b7bf81359",
+          "family_id": "family-fef18431d85e768be83e4cfd6ca62cedeb319dc2d4217a4e4673752c816d6f9a"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-d5b34c409e2228e0cc0dacf6bc0c2de0f53c619450f1f5fe783065788b20791e",
+      "title_for_coverage_only": "实例三：测抢劫案",
+      "source_id": "span-a0eef45153045e18bd441ed7a812842e8219db3d4e0b18a4db6f6a76325fdc31",
+      "event_families": [
+        {
+          "event_id": "event-709c88578119ec9fef7e2de597d61f4c84d017b944c074a34e7aeeed810a209b",
+          "family_id": "family-50c02028c3ad714a1429c1ec84bc7ef75dc1cd0e61f7e26c083ace416e5ecfc8"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-d6ee2c00327c917de7d7e8c896b5b8ce1f87b7ff72c5dae5d5cb8d330508b5b3",
+      "title_for_coverage_only": "实例五：测外籍医生四柱",
+      "source_id": "span-1748367a5bad6a32145e56c34da5474e68f90f79bcf351a07c822839ea2bd8d7",
+      "event_families": [
+        {
+          "event_id": "event-19f7c9ef9533f7966bd22f2876a828cb498d6b1000e8f48facd9721deb699568",
+          "family_id": "family-e6cf6886b3dfc5ce9e9e000e9532781f43676fdf8240353053728d6a012b88d7"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-dbc650b9331ca875e4a2720129c75ff408f4bbdd0ce284b93385ddaccb70d2a1",
+      "title_for_coverage_only": "实例四：验测早夭女命",
+      "source_id": "span-6ef937b6b8ed4fee90f663360c1bb01c85da57b6e012815861bb545bccec0818",
+      "event_families": [
+        {
+          "event_id": "event-37e1f0c2c04c53a5e697329f34d6a09e656091af02f2e4775dbf09842f046da4",
+          "family_id": "family-8d4b39a290be56e1266b3066f159274ac6ce1dc893ec815f4b4044d678770fc3"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-dc6238a5f749af624ffd54792af8ced4823aa751485a93eda74bb58d9e00e6d0",
+      "title_for_coverage_only": "实例一：测动过手术",
+      "source_id": "span-21a53995846b07bc6e2ad502daea2438911158254ac71d532716d5513289b11a",
+      "event_families": [
+        {
+          "event_id": "event-eb4aebe82fb7e80c2baa5e77ae8f12ee372e508a4f035b7242c715c68b56997d",
+          "family_id": "family-c9bcb94ab437b9f8056e28baf4f79fd165843706102ad2ea1bc9980eae3ab2e5"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-dea9cdd88900071b102cfcf5095d5f2db62011d4caf7385e1173279c9473f542",
+      "title_for_coverage_only": "实例四：测抢银行案",
+      "source_id": "span-77eea3c0df89b459e3a4ab38f9a9e7513328f50a7a9de97f420f32d81d9bd39e",
+      "event_families": [
+        {
+          "event_id": "event-91b761f97613498ce16d6d192cde9287f2e409f225e6dad8f58137e241ba3684",
+          "family_id": "family-d79ce1d453ace6da061efdee81da58fb56e35ebaf21ac3c1a0d1b32f9a718cdd"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-deb05ed0b5f1c7b259885be2a5c8f1094359e61237fa1aff957f48d5050e1ee5",
+      "title_for_coverage_only": "实例三：测房产纠纷",
+      "source_id": "span-8383d331e463bfa0b976856ab10090a9d9a8a59e89051f32564cee33ff573b68",
+      "event_families": [
+        {
+          "event_id": "event-36e48632bc4644a95194a16a8e2116c5f96016ede8133d3c5d237869848eb058",
+          "family_id": "family-593eebe6566c635d479b3ac0b767c4cc1d5b77f17c959c72d38058c60ec24455"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-df8242049e9bc8dc0de93fe9f43406f0e686b009a78f9832910bb7227a79c5e9",
+      "title_for_coverage_only": "实例十：杜新会测贷款",
+      "source_id": "span-099e0a97316605e608c305fb7449edf19fab881c94d0c4241af48573990eea9d",
+      "event_families": [
+        {
+          "event_id": "event-ed0f0675396f3ffdd914e11148587ebb19267c5f45ad0d412860358f7833d744",
+          "family_id": "family-649dc0789e24afe504d39c3a5f1af4714bb58f50a66d580681255edddcf373f1"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-e1290022bc14f9bc65222b790234b0d511defbf53ce94d7afddf29f6c8bea64e",
+      "title_for_coverage_only": "实例三：广东省潮州市学员卢松天测例",
+      "source_id": "span-6186f21f0680320c5029712f3c094822b498c47218c3eb3f2f5331e5727308e5",
+      "event_families": [
+        {
+          "event_id": "event-71f8f2d6a845f0c0bc2796442ced5497a4648675a6f8e1bc76c7bc3b6c33aac6",
+          "family_id": "family-515a6aa8fedb6a8dc5554669972a469db95a6a25b7e63df094613bfdcc0e7afe"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-e18ba5844c83c23d448d9ce551cbc146cfe697c3b9a0f248b52872724c80edd0",
+      "title_for_coverage_only": "实例三：杜新会测男青年离婚",
+      "source_id": "span-299b48523f229914547199d4ededf71c4276843c4270d192b99158b19b153d68",
+      "event_families": [
+        {
+          "event_id": "event-de3efd9375179c05b2165d44a043a5fece068c33bcb480f8b2986cd4cc0d9282",
+          "family_id": "family-17ab3487dbf51e137eed97645ccb2c39fdb60481d3ca4e2f082c7b2b191029e4"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-e3e071482aa5e18af02ef00b25698d4850559ab1e32e3b4884967a98ede1c601",
+      "title_for_coverage_only": "实例四：当场测考博士生",
+      "source_id": "span-e65f200e18064730e3c4b1a11d8dcff5b7e5f22b499d5b0ab9a22cb271309991",
+      "event_families": [
+        {
+          "event_id": "event-dedfd3fd5c0d0e5a56e290ec146f85e484f8868ccce1f6abd1b25892d1e39cc9",
+          "family_id": "family-8fa0416995b0c6b2059c4eec1d4f399757e4d9655aea698f12ae1629a0402a13"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-e4382029793a646c7548ff3cee4c4b566cd8e9e1ad1c3ae1b049275527f3970d",
+      "title_for_coverage_only": "实例七：杜新会测出租商场",
+      "source_id": "span-76a098dbb24096ac5c71767e11b855741b5f028c2a0ed05cfba6fee1fa7f9030",
+      "event_families": [
+        {
+          "event_id": "event-9cf2580a40ec797fa2505c8ecd9d71872498b9bb8cf3558963bcb1cf81dab2fb",
+          "family_id": "family-bf60b7cfffb01b677e6683e68796605170f1ef2f37c2cabe454dca6454a77e37"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-e5446929f76492002068967bd0f7d69ae58788ae47b381af75f9e17a671201fe",
+      "title_for_coverage_only": "实例一：母亲测儿子婚事",
+      "source_id": "span-0c51236fe6467bd4e638ce7419cac3d26a1210123cabe7fdd713c6350d22b7a5",
+      "event_families": [
+        {
+          "event_id": "event-de8ef26f57a95fb998260252629c1fd8c9e4676ef54d9e2f5578cf11f847ebbc",
+          "family_id": "family-f2892a286de80434bcdbb1d08211048f0615988fc677421fb242c76ec5258b81"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-e621b85f5b3d60fe9f386c3e8886e4202e53dca882bc41f97e0171ef1fc81396",
+      "title_for_coverage_only": "实例五：河南省林州市学员尚瓴吉测选举例",
+      "source_id": "span-ce26f3a3ac7b2f2dda271c254cd8ffe15bd884050de43b70c51cdc1c04cb5ac4",
+      "event_families": [
+        {
+          "event_id": "event-291d5b41a9501ce1123aef19fb50fd349c057ab2fe647a8018ef84110c88e351",
+          "family_id": "family-25dcea5c28df7c8a0105220c877dc0b1862a829a03a3da9a92e63ae2dc71f0a5"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-ea3c064d2e9fc7f266065fcbd155ec086ac4c69ea2380e78100ee5bca73bccf4",
+      "title_for_coverage_only": "实例八：杜新会测买画卷赢利",
+      "source_id": "span-f011d6da7bee6d1ba482cd0ab7cc7fd061a0cd947b897a92180001d74059061e",
+      "event_families": [
+        {
+          "event_id": "event-b1bc3d050272a084fa9d0e7d7971ac6f1c724e88064904b211b3fa0e68371b72",
+          "family_id": "family-f0bff2edcb9acf596aef4ac2e1b3c7beaa1c86a4aa820280af640fc503b270eb"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-ea86d002d73e8c074ba86bccdab0a73833d4690b8dda2a7230547b15bfabe416",
+      "title_for_coverage_only": "杜新会在第九届会议现场表演：三书出版与本人车祸两目标完整纪实",
+      "source_id": "span-2ec16a8eebc57afe66da3e4c4cbcd8ec2d672ba098e38c59a1fc6297e11e1e68",
+      "event_families": [
+        {
+          "event_id": "event-5a5c9c0297bc5bf83fd19b7fe28d118ea14dc6e37f3746864aeb7d6d79516970",
+          "family_id": "family-06659008ffb3141673b64b6c6ce84b0d01dc4649953a444d1d20a8554353479d"
+        },
+        {
+          "event_id": "event-f1614748d2320ad62e8a4ad14e65c9af3dc825fdd13b84de49a9c4fd800972d5",
+          "family_id": "family-06659008ffb3141673b64b6c6ce84b0d01dc4649953a444d1d20a8554353479d"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-eb02f42ba99f7f74d1b91b09f0615eb4627ba26badd972d4a54c7d6709f0464f",
+      "title_for_coverage_only": "实例六：测法国与克罗地亚队半决赛",
+      "source_id": "span-50221fce3dbc07210bbc6760861f7b8f0bc4824b28c10eb800c010a297f02dc8",
+      "event_families": [
+        {
+          "event_id": "event-a432691784f9a0c419312d3b5b8bb17612ddc6ebc69e26b81680a65be0b819d0",
+          "family_id": "family-683a74c454cb2804fc8ae61b8af4bffd995a7852d5f0b3221bc9cad03ea2f971"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-ee43a8baa22671f2d32e08b9464d07c71208258d7e566b0b0b2bdf46c3bf3646",
+      "title_for_coverage_only": "实例四：测姨母病",
+      "source_id": "span-b247c97e2f00a2f0cbb80c5f1e3cd2846bfb41d900946c2b311c5cb332ff1c29",
+      "event_families": [
+        {
+          "event_id": "event-901114deae3af40ddcbb889b8b6aa06911f5fcc00b05dfc55210356e0a3950b5",
+          "family_id": "family-27876c692920159296ac3455c61ad5b1f97883e9b44ec51603e50bef1e13c4e1"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-f1f4d71e477d69f576279bfe9b9d57f00b78b9494cce344d873063b4369c80a0",
+      "title_for_coverage_only": "实例二：测服装被盗案",
+      "source_id": "span-1f29681a7145ec7dd9d0ab1f971dcf2fe162b204afc28d7eb1cc724ab647eae9",
+      "event_families": [
+        {
+          "event_id": "event-387b5e0f7a0d243dc132dd513db0070da3c615ff4b5aff457e0830e1dbf7def6",
+          "family_id": "family-a1d31974bd3ac08b8133685c681e07a1b4e68570197ed3dade9fac3dfef9a324"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-f29df215e46ee4e12f98954d2bd7ed6517b73e305ab5b9ac7d1099ec2ff64ee2",
+      "title_for_coverage_only": "实例三：测第四十三届世乒赛男单决赛",
+      "source_id": "span-151a03aea6a1922f6dcf2e0c931ce5143ef08fc9586fd8c1f7d691a3c5af4b2d",
+      "event_families": [
+        {
+          "event_id": "event-46717cc35fdecad53eddc8b41c6a240ded514e812f711ffde7fabb1f36d902e0",
+          "family_id": "family-b74167c99addb9d15053995a9206b36a718bd27ece78453a116707ff1a5e7eb9"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-f2dbe3bc8bbd5ff7018cc66b4fb989a094d4648e16d1883d18bf638099c3c121",
+      "title_for_coverage_only": "实例二：母测子高考",
+      "source_id": "span-133022f2b4efb1dfb9085f1c2213a8296db8b7b600c10759639271f4831751f7",
+      "event_families": [
+        {
+          "event_id": "event-579ce7e0d67154f1ee33b0d481abfd069bf6d573971908504803c5a190885863",
+          "family_id": "family-b662735d6b06215f968234f32c9d7e848b0d4c723829f0b5f7c7078f920c52fc"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-f3a4cf455cfa420796db078054c6e8e09b5857d8f5e5e342d0870213ca53c3d2",
+      "title_for_coverage_only": "实例六：测丢失文件",
+      "source_id": "span-c635cb67d50d471fd965644c7e3fa5387b8f710c934745bae0456e6e2481937a",
+      "event_families": [
+        {
+          "event_id": "event-9192e1ff39f4a4a9b8121291ebbdc2d1794e87017fedb52a7bb9c1d65f4c2d2d",
+          "family_id": "family-d6a8d85716f792920f3cb8bea0f33eeb4994133b9ad77555eceb820946148648"
+        }
+      ],
+      "source_reviewed_method_tasks": 7,
+      "task_types": [
+        "chart_evidence",
+        "evidence_synthesis",
+        "feedback_continuation",
+        "role_selection",
+        "timing_analysis"
+      ],
+      "status": "source_reviewed_first_batch",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-f3b7e2023426b56d387e8a1bebc5ffaa5924101426d8cabc8f13fdbf92cc288a",
+      "title_for_coverage_only": "实例六：测出国考察",
+      "source_id": "span-dba3fd0e86dea7d761ed7c7842753ac3d0ad977a9a1f95bd41d6b742a7594f06",
+      "event_families": [
+        {
+          "event_id": "event-957db63e215a7ed50ca445c16165d775a79a9044a9f40e2dd3be9c2aa4b6907b",
+          "family_id": "family-c32bcd393b02f696a0f49b6ca93ea2d16e3da4e326839d55b2741b9fcc6a6b45"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-f8183a1538d30dfebd86ea800a2601cf1f9601eaae64c2608d615bb49946e67b",
+      "title_for_coverage_only": "实例五：杜新会测在美国考行医执照",
+      "source_id": "span-9e45b9028856c08e17e6c5508e6b531e1860a2c3592eaee2ac7d2e6ddb017991",
+      "event_families": [
+        {
+          "event_id": "event-35e0bea2fc8292d3a229536ad71509698dbf0f8b8bf44f61c5531d60a4aa6541",
+          "family_id": "family-937e983190f950e6d7b47826b8e3f2fb7b9d91aac4809aabdf70691b6d66d762"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    },
+    {
+      "case_id": "case-ffec60ee3013caaff64bca3218527c9a0ce897774de68d4a5c6bd6a388fb8efd",
+      "title_for_coverage_only": "实例三：赵某测年内吉凶",
+      "source_id": "span-5cb7718a53eb7a6ba70446fa5a60ade27df78048690e7e60b59f950106f95f19",
+      "event_families": [
+        {
+          "event_id": "event-2564aebaabfe5e4209d85fabc869657e09c614243cbb8a05968cbfe80a8ad4ca",
+          "family_id": "family-1d6189ee604804b1e62b48bc91aaf22dc6be768d9f5018d13a5a5cf3d87506c2"
+        }
+      ],
+      "source_reviewed_method_tasks": 0,
+      "task_types": [],
+      "status": "pending_professional_task_curation",
+      "included_in_model_payload": false
+    }
+  ],
+  "all_book_training_data_complete": false,
+  "formal_sft_launch_authorized": false
+}

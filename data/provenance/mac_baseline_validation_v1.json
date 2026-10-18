@@ -1,0 +1,249 @@
+{
+  "status": "completed_local_development_experiment_not_professional_baseline",
+  "source_commit": "90e624c9e21a29d9aff2f81ba3f35aba983097cf",
+  "data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "suite_file": "data/structured/shenqi/baseline_development_v3.json",
+  "suite_sha256": "6c43228e83db2e71eb658ef2a385088cb93a007fbaea4006d93eb0d0e37b5a78",
+  "run_report_file": "data/provenance/mac_baseline_run003.json",
+  "run_report_sha256": "364956666ae9f1532f4ccc117956fa406ae18acc3ddbf1d35010098874c46bcb",
+  "model_revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+  "summary": {
+    "requests": 12,
+    "statuses": {
+      "research_generated": 1,
+      "research_evidence_error": 10,
+      "generation_error": 1
+    },
+    "by_arm": {
+      "base": {
+        "requests": 3,
+        "statuses": {
+          "research_generated": 1,
+          "research_evidence_error": 1,
+          "generation_error": 1
+        },
+        "author_fields_available": 7,
+        "author_fields_matched": 0,
+        "reported_outcome_fields_available": 4,
+        "reported_outcome_fields_matched": 0
+      },
+      "symbolic_chart": {
+        "requests": 3,
+        "statuses": {
+          "research_evidence_error": 3
+        },
+        "author_fields_available": 7,
+        "author_fields_matched": 1,
+        "reported_outcome_fields_available": 4,
+        "reported_outcome_fields_matched": 0
+      },
+      "chart_knowledge": {
+        "requests": 3,
+        "statuses": {
+          "research_evidence_error": 3
+        },
+        "author_fields_available": 7,
+        "author_fields_matched": 2,
+        "reported_outcome_fields_available": 4,
+        "reported_outcome_fields_matched": 0
+      },
+      "candidate_conditions": {
+        "requests": 3,
+        "statuses": {
+          "research_evidence_error": 3
+        },
+        "author_fields_available": 7,
+        "author_fields_matched": 2,
+        "reported_outcome_fields_available": 4,
+        "reported_outcome_fields_matched": 1
+      }
+    },
+    "professional_correctness": null,
+    "real_world_predictive_accuracy": null,
+    "full_condition_rule_baseline": "blocked",
+    "finetuned_baseline": "not_run"
+  },
+  "diagnostic_error_counts": {
+    "source_id_not_released": 1,
+    "declared_computed_fact_not_equal_to_chart_object": 5,
+    "quote_not_literal_in_released_slice": 13,
+    "protocol:Answer value outside declared schema": 1
+  },
+  "per_request_diagnostics": [
+    {
+      "task_id": "travel_return_safety",
+      "arm": "base",
+      "labels": [],
+      "author_field_matches": 0,
+      "reported_outcome_field_matches": 0
+    },
+    {
+      "task_id": "travel_return_safety",
+      "arm": "symbolic_chart",
+      "labels": [
+        "source_id_not_released",
+        "declared_computed_fact_not_equal_to_chart_object"
+      ],
+      "author_field_matches": 0,
+      "reported_outcome_field_matches": 0
+    },
+    {
+      "task_id": "travel_return_safety",
+      "arm": "chart_knowledge",
+      "labels": [
+        "quote_not_literal_in_released_slice"
+      ],
+      "author_field_matches": 0,
+      "reported_outcome_field_matches": 0
+    },
+    {
+      "task_id": "travel_return_safety",
+      "arm": "candidate_conditions",
+      "labels": [
+        "quote_not_literal_in_released_slice",
+        "quote_not_literal_in_released_slice"
+      ],
+      "author_field_matches": 0,
+      "reported_outcome_field_matches": 0
+    },
+    {
+      "task_id": "concealed_question_first_turn",
+      "arm": "base",
+      "labels": [
+        "quote_not_literal_in_released_slice"
+      ],
+      "author_field_matches": 0,
+      "reported_outcome_field_matches": 0
+    },
+    {
+      "task_id": "concealed_question_first_turn",
+      "arm": "symbolic_chart",
+      "labels": [
+        "quote_not_literal_in_released_slice",
+        "declared_computed_fact_not_equal_to_chart_object"
+      ],
+      "author_field_matches": 0,
+      "reported_outcome_field_matches": 0
+    },
+    {
+      "task_id": "concealed_question_first_turn",
+      "arm": "chart_knowledge",
+      "labels": [
+        "quote_not_literal_in_released_slice",
+        "declared_computed_fact_not_equal_to_chart_object"
+      ],
+      "author_field_matches": 0,
+      "reported_outcome_field_matches": 0
+    },
+    {
+      "task_id": "concealed_question_first_turn",
+      "arm": "candidate_conditions",
+      "labels": [
+        "quote_not_literal_in_released_slice",
+        "declared_computed_fact_not_equal_to_chart_object"
+      ],
+      "author_field_matches": 0,
+      "reported_outcome_field_matches": 0
+    },
+    {
+      "task_id": "marriage_later_turn_timing",
+      "arm": "base",
+      "labels": [
+        "protocol:Answer value outside declared schema"
+      ],
+      "author_field_matches": 0,
+      "reported_outcome_field_matches": 0
+    },
+    {
+      "task_id": "marriage_later_turn_timing",
+      "arm": "symbolic_chart",
+      "labels": [
+        "quote_not_literal_in_released_slice",
+        "quote_not_literal_in_released_slice"
+      ],
+      "author_field_matches": 1,
+      "reported_outcome_field_matches": 0
+    },
+    {
+      "task_id": "marriage_later_turn_timing",
+      "arm": "chart_knowledge",
+      "labels": [
+        "quote_not_literal_in_released_slice",
+        "quote_not_literal_in_released_slice"
+      ],
+      "author_field_matches": 2,
+      "reported_outcome_field_matches": 0
+    },
+    {
+      "task_id": "marriage_later_turn_timing",
+      "arm": "candidate_conditions",
+      "labels": [
+        "quote_not_literal_in_released_slice",
+        "quote_not_literal_in_released_slice",
+        "declared_computed_fact_not_equal_to_chart_object"
+      ],
+      "author_field_matches": 2,
+      "reported_outcome_field_matches": 1
+    }
+  ],
+  "distinct_payloads": 10,
+  "repeated_payload_group_sizes": [
+    3
+  ],
+  "performance": {
+    "max_peak_mlx_memory_bytes": 3660774452,
+    "tokens_per_second_range": [
+      22.8086010666526,
+      30.99691569045241
+    ],
+    "context_tokens_max": 5809,
+    "timing_caveat": "Regression tests ran concurrently; indicative local throughput only."
+  },
+  "regression": {
+    "command": "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+    "tests": 511,
+    "result": "OK",
+    "log_sha256": "bf8cb924e518fc2451461f8982601bd427c82d8243e03d08afb98e4edb115f3a",
+    "new_tests": 18
+  },
+  "snapshot": {
+    "files_exact": 52,
+    "canonical_manifest_sha256": "60c681252486135c1dd5b730d1d31677757437d9b01f1e7e330624a597195401",
+    "manifest_file_sha256": "9a25c2820b56303a589a32af2b1a8f6b370d250fb482a98b62338bfebf1c032e",
+    "data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c"
+  },
+  "source_data_unchanged": true,
+  "schema_migration": false,
+  "professional_rule_promotion": false,
+  "training": false,
+  "independent_real_world_evaluation": false,
+  "github": {
+    "pushed": false,
+    "actions_ci": "not_run_local_only_by_explicit_user_instruction",
+    "visibility_changed": false
+  },
+  "code_sha256": {
+    "scripts/run_mac_baseline.py": "e28beaa8c628d064fa7d80f6ee62416ad28ca6ab59c5e6cb2f6b682478360d3d",
+    "src/qimenllm/models/mlx_gateway.py": "90d0f1a3364f2daec160faa821814cf7f29c4a22dd05874581ac11ecb2f1accb",
+    "src/qimenllm/evaluation/research.py": "d8186f79c181c0e4f86fa3e8f85c651013915aafc6bdf80cca1131ebdcd56b2d",
+    "src/qimenllm/reasoning/service.py": "240edd2acd2b87b7bb3a7f00847a38d85c2090c86c70e20ba52d1bb0808bd021"
+  },
+  "pilots": {
+    "run001_completed_requests": 3,
+    "run002_completed_requests": 10,
+    "excluded_from_final_comparison": true,
+    "why": [
+      "Known-time input fairness corrected before v2",
+      "Candidate DSL integration values corrected before v3; raw outputs and failed fixtures preserved."
+    ]
+  },
+  "limits": [
+    "3 development families, not a blind heldout release",
+    "7 author fields and 4 reported feedback fields per arm; not independent events",
+    "Published-case selection and pretraining contamination unknown",
+    "Human-selected limited theory slices; not complete correct retrieval or retrieval ranking evaluation",
+    "Candidate conditions are reference-only; full formal condition-rule arm remains blocked",
+    "Lexical citations and exact field matches do not prove reasoning correctness",
+    "Wrong/null and invalid outputs remain in denominators; no source or gold edited to improve scores"
+  ]
+}

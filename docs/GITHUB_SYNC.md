@@ -1,3 +1,11 @@
+当前授权覆盖历史私有/仅本地表述：用户主动将turnupmason/QimenLLM公开，并最新要求数据、代码与每次模型实验继续同步GitHub main。已用连接器验证public、push权限及main=90e624c9e21a29d9aff2f81ba3f35aba983097cf；不更改可见性。configs/github.json显式public且绑定新授权原文哈希，其他仓库默认仍须private。若实际可见性与配置不符，停止发布。
+
+本轮不增删.github/workflows/tests.yml；一次性business-ingest-staging.yml的新增与移除精确提交见ingestion/SHENQI_TRAVEL.md，不重复添加临时Actions。
+
+普通Git保存源码、冻结数据清单、可重建原快照和实际实验回执；模型适配器采用版本化Release资产与SHA256。training/publish_pilot.py提供4090训练完成后的Release上传、重新下载核对及main清单推送流程；它需要用户本机GitHub CLI已登录。无Release能力或凭据时仍同步代码和结果清单，适配器明确报pending，不声称模型文件已上传。基座、优化器、密钥、任意日志不入Git。
+
+以下保留原同步建立过程，其中私有可见性检查已由上文的显式用户授权配置替代。
+
 # GitHub 更新与可恢复数据
 
 ## 用户授权与当前状态

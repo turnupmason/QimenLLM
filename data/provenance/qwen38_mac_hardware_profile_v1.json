@@ -1,0 +1,66 @@
+{
+  "scope": "27b_hardware_profile_not_full_50_epoch_training",
+  "model": "Qwen3.8-27B",
+  "status": "profile_passed",
+  "memory_limit_bytes": 19000000000,
+  "rows": [
+    {
+      "stage": "loaded",
+      "unix": 1792289333.562696,
+      "seconds": 14.76880066699232,
+      "active_bytes": 15133588488,
+      "peak_bytes": 15133588488,
+      "layers": 64
+    },
+    {
+      "stage": "actual_generation",
+      "unix": 1792289350.210785,
+      "seconds": 16.61888608301524,
+      "text": "好",
+      "active_bytes": 15133588490,
+      "peak_bytes": 15398864884
+    },
+    {
+      "stage": "attached_profile_adapters",
+      "unix": 1792289350.2214148,
+      "trainable_parameters": 94208,
+      "keys": [
+        "language_model.model.layers.63.self_attn.q_proj.lora_a",
+        "language_model.model.layers.63.self_attn.q_proj.lora_b",
+        "language_model.model.layers.63.self_attn.v_proj.lora_a",
+        "language_model.model.layers.63.self_attn.v_proj.lora_b"
+      ]
+    },
+    {
+      "stage": "backward_profile",
+      "unix": 1792289354.453512,
+      "tokens": 64,
+      "loss": 0.76953125,
+      "seconds": 4.230454208998708,
+      "peak_bytes": 15318134684
+    },
+    {
+      "stage": "profile_checkpoint_reopened",
+      "unix": 1792289354.526389,
+      "optimizer_step": 1,
+      "adapter_tensors": 4
+    },
+    {
+      "stage": "backward_profile",
+      "unix": 1792289363.203694,
+      "tokens": 256,
+      "loss": 0.703125,
+      "seconds": 8.674768415978178,
+      "peak_bytes": 15737907660
+    },
+    {
+      "stage": "backward_profile",
+      "unix": 1792289387.860527,
+      "tokens": 512,
+      "loss": 0.64453125,
+      "seconds": 24.653051583009074,
+      "peak_bytes": 16121817602
+    }
+  ],
+  "quantized_revision": "10c35caafbb80f7dc6a7a432cdd11af10a6d4818"
+}

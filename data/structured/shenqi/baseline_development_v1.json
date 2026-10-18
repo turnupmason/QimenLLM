@@ -1,0 +1,429 @@
+{
+  "format": 1,
+  "scope": "development_only_not_blind_test",
+  "data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "snapshot_manifest_sha256": "9a25c2820b56303a589a32af2b1a8f6b370d250fb482a98b62338bfebf1c032e",
+  "source_commit": "90e624c9e21a29d9aff2f81ba3f35aba983097cf",
+  "family_assignments": {
+    "family-04a6933906e0e22d30ca40dcc6b974fbc8f1b020dc6a1373bf2252125e8ea15b": "reserved_unreviewed",
+    "family-06659008ffb3141673b64b6c6ce84b0d01dc4649953a444d1d20a8554353479d": "reserved_unreviewed",
+    "family-0eca637c25d8894f57a1199e103052daf0112a9e16daee8d05fb1608fed3d6bc": "reserved_unreviewed",
+    "family-12315fa92bbffd043cdc459aa77ba210c1e211906935d5512463990cbb6a34e4": "reserved_unreviewed",
+    "family-128b8f4ac86abd5fa6aea2c91a934ddb86484a1974788fac8eb5af952dcefd3e": "reserved_unreviewed",
+    "family-17ab3487dbf51e137eed97645ccb2c39fdb60481d3ca4e2f082c7b2b191029e4": "reserved_unreviewed",
+    "family-1d6189ee604804b1e62b48bc91aaf22dc6be768d9f5018d13a5a5cf3d87506c2": "reserved_unreviewed",
+    "family-1eb03593f406aecdca274e6190641cc1bcf202cb28418838b8ff25e6e6c0b3a1": "reserved_unreviewed",
+    "family-23c42fb26da8d1954e07acb1569f92e13e8a68587f3d39d4d293b737c69542c9": "reserved_unreviewed",
+    "family-25dcea5c28df7c8a0105220c877dc0b1862a829a03a3da9a92e63ae2dc71f0a5": "reserved_unreviewed",
+    "family-26624434404defb9412ddb5fbedcf83c13b4c403c503b4a387b47a3e5863741b": "reserved_unreviewed",
+    "family-26fc333e3d670513c3b2676649885f10cab72fa61e4f4c011415705049847ec7": "reserved_unreviewed",
+    "family-27876c692920159296ac3455c61ad5b1f97883e9b44ec51603e50bef1e13c4e1": "reserved_unreviewed",
+    "family-28588ef24e3ccbeb7eb5ceaa649a366cecca535454b0b0c157d2cfb0e4ada77f": "reserved_unreviewed",
+    "family-289a7ced6ed50efe42b8f9ef5328d01a4ede0fb7a84a1e35dd0dd58a1aceb92a": "reserved_unreviewed",
+    "family-3216b07e6f1b36cd59414b2c1df0b0e23aa2ac83ff7b474c07d38bf9b98b3cca": "reserved_unreviewed",
+    "family-3382e87821fa440bc20bf808181a745000c91f3d4a9663b055af56eb6fdd0022": "reserved_unreviewed",
+    "family-3e25f98854ab93609f12a4f4fc4595d163af88e7fc481747d0be26d5774f86f3": "reserved_unreviewed",
+    "family-43857b7ab4b6d02ba6faadb60fe05d4521414a167f15cd3823a2fc854f44654b": "development",
+    "family-46bf1f92c86b85f1c26b211b435a69dcd30f0fb2ec581a9393cbc82d7907c16a": "reserved_unreviewed",
+    "family-47f75d3976795c0d19038d9392d04783dd547fbb81bd558a77afbe8315bf44c2": "reserved_unreviewed",
+    "family-49c7660641cf818392de715a6369ec7a081ecc3b0bda7c834bb8f0d6693b678c": "reserved_unreviewed",
+    "family-4db5e46e6eb8f7bfc07973b4f6086fa85de405a49ccd92c0d67ec627b0ac242c": "reserved_unreviewed",
+    "family-4e07877a876ef919b876e39a8ab5dfadacaa19a746877ac242c592369e5a6bfe": "reserved_unreviewed",
+    "family-50c02028c3ad714a1429c1ec84bc7ef75dc1cd0e61f7e26c083ace416e5ecfc8": "reserved_unreviewed",
+    "family-515a6aa8fedb6a8dc5554669972a469db95a6a25b7e63df094613bfdcc0e7afe": "reserved_unreviewed",
+    "family-528251b4325d4290b16affec2a2c5294828e84b69722c633576f0cdca244dc68": "reserved_unreviewed",
+    "family-572f5fb577f60d58f3d67e401748b8f1b38d0bf85edaa0eba89312c8ad5b0294": "reserved_unreviewed",
+    "family-593eebe6566c635d479b3ac0b767c4cc1d5b77f17c959c72d38058c60ec24455": "reserved_unreviewed",
+    "family-609b78a46774b68294634b005e90526e942e53cd2d8ca2e378cb9e898360bcd4": "reserved_unreviewed",
+    "family-649dc0789e24afe504d39c3a5f1af4714bb58f50a66d580681255edddcf373f1": "reserved_unreviewed",
+    "family-683a74c454cb2804fc8ae61b8af4bffd995a7852d5f0b3221bc9cad03ea2f971": "reserved_unreviewed",
+    "family-6877139d2993c8aac3d55a679a2c1003945f62cc71c5a252096097806cfe5bad": "reserved_unreviewed",
+    "family-6e55953bb745ffd88693ed5082fbc1a688702f9dfe49cb0be8d8c1341ea20143": "reserved_unreviewed",
+    "family-6f85e17bb0c9451ae224ba07b33e2931dc13c379154948f31b323ab626da3c80": "reserved_unreviewed",
+    "family-7413efa178f538f869492db21e4c4aa6cf8552f4152a7edf4358b6f0da34a801": "reserved_unreviewed",
+    "family-742130d54da32fba329e2e3f9a455b0784e9327c00eceb57479e7799bd24de07": "reserved_unreviewed",
+    "family-7742c087df4583b9d3917dd9667dd7a3e3d3108a66aaa4c7470e0ae5aef4d01b": "reserved_unreviewed",
+    "family-7ab9e4f720d65ef4442759351e38ebb42eb4ca61936ee85f8d04a4998ec5e965": "development",
+    "family-7eea06457816b727d5cc5bd452cb63e7305123f99267ec427869f2fad4ee5413": "reserved_unreviewed",
+    "family-7fdb5a8b4427542223f897691a4ff79cbf411f1aeae3b8a76b1bbbfb18d87471": "reserved_unreviewed",
+    "family-815bc11976c26d6f1240b5e252de460e1623d18bc1a6c51c953463c5137bd269": "reserved_unreviewed",
+    "family-81b00fb8d2dbc9fdc2c1df492d11d35dd1c7025dc7b95790e12e10bf79b4f155": "reserved_unreviewed",
+    "family-84192cb63c9a21057b0b1e2d98611c77b2638c9736fcc389e08dd24207dc342f": "reserved_unreviewed",
+    "family-86acd5970889e0e2011221641a3d08caed1168542635ee98595f046ae5022548": "reserved_unreviewed",
+    "family-87d06d6e5705e31f4d29353d4253538a8bb880f44c6c28090fd9aff8e50ccf91": "reserved_unreviewed",
+    "family-88ef2d196e1d21b82f5e74f12776ee8cafe256e6d7cebf15a4939e18527fc62f": "reserved_unreviewed",
+    "family-8d4b39a290be56e1266b3066f159274ac6ce1dc893ec815f4b4044d678770fc3": "reserved_unreviewed",
+    "family-8e1af827ce5370de4874d9ac50ea0be099e52c06e434abf3175a1a1ee914249c": "reserved_unreviewed",
+    "family-8fa0416995b0c6b2059c4eec1d4f399757e4d9655aea698f12ae1629a0402a13": "reserved_unreviewed",
+    "family-8fc64773a16c951fb9e808b55162729a3a6aa56ff0fda4a74df1648265a0ee30": "reserved_unreviewed",
+    "family-927d0a75bf1eabf95452c4331fda1b9a7fc1f2b37a90620ff0325b68fdfe4bb5": "reserved_unreviewed",
+    "family-937e983190f950e6d7b47826b8e3f2fb7b9d91aac4809aabdf70691b6d66d762": "reserved_unreviewed",
+    "family-982e364986a38a26b160877e69c8605a22528100b2b7652fdcf2d0ee6381e8d2": "reserved_unreviewed",
+    "family-a1d31974bd3ac08b8133685c681e07a1b4e68570197ed3dade9fac3dfef9a324": "reserved_unreviewed",
+    "family-a2b130fca4834fdc1d9fa0ca75260fc68ab2f6a4fe423c328cb51d476e63b751": "reserved_unreviewed",
+    "family-a370274b6a3c5f9b970e9844fb38c301db10a3f961cd9a77b11e290cc3b60edf": "reserved_unreviewed",
+    "family-a844819a63c387a7c64608e6457e8103c48407d28b912f42d37b6ce6c7cfb5fc": "reserved_unreviewed",
+    "family-abd64e8db18fd0fc531a84c9e03e896d95f8ba401c29aca612e71e85398f7355": "reserved_unreviewed",
+    "family-ae68591b63904fc64a0006133dda5c9ff1c9e148d7182f7110d71562977b10d8": "reserved_unreviewed",
+    "family-aedc1d8abdd4a82ef02e83c3e7d49e68b0407d9cf512d4407115f3d2ab2997e7": "reserved_unreviewed",
+    "family-b662735d6b06215f968234f32c9d7e848b0d4c723829f0b5f7c7078f920c52fc": "reserved_unreviewed",
+    "family-b74167c99addb9d15053995a9206b36a718bd27ece78453a116707ff1a5e7eb9": "reserved_unreviewed",
+    "family-bb6f14521268b759620499b624c6d2619726ecefbbb9b25e0ec9a19d825d8748": "reserved_unreviewed",
+    "family-bf60b7cfffb01b677e6683e68796605170f1ef2f37c2cabe454dca6454a77e37": "reserved_unreviewed",
+    "family-c32bcd393b02f696a0f49b6ca93ea2d16e3da4e326839d55b2741b9fcc6a6b45": "reserved_unreviewed",
+    "family-c6c2d3305907728d59a020e907e1546598ac2f2cf94d4dc7859b466e8a7b32ad": "reserved_unreviewed",
+    "family-c6faf70e227f9740cb1295e24c62a0a1ed7bf5494e3602debada0907ee74aaa1": "reserved_unreviewed",
+    "family-c87ac2bb301944d5311e9ff0a35986652e6633fed2f50d324bfd6c67f9ab132d": "reserved_unreviewed",
+    "family-c9bcb94ab437b9f8056e28baf4f79fd165843706102ad2ea1bc9980eae3ab2e5": "reserved_unreviewed",
+    "family-cfb49bc5e6cfbaf348d17663409479a7d86e77478830dcb52589171665b86431": "reserved_unreviewed",
+    "family-d08a6722381e14f7a292be697c0ad8206e982c37f59b42c7d1a8e9d55d78bd6c": "reserved_unreviewed",
+    "family-d19a67ab9d2d3530a4f43bd5c7a3259d0eb7825e30057542b2947b392c91ab84": "reserved_unreviewed",
+    "family-d6a8d85716f792920f3cb8bea0f33eeb4994133b9ad77555eceb820946148648": "reserved_unreviewed",
+    "family-d79ce1d453ace6da061efdee81da58fb56e35ebaf21ac3c1a0d1b32f9a718cdd": "reserved_unreviewed",
+    "family-da7cc73015634d4bd69e085860258ce0010fb162773e4c2c32e3d58a03d408dc": "reserved_unreviewed",
+    "family-dd36aa29cc3de349ca009c15b3cae79f6f6d4c60a43a042688a91690f8810dc8": "reserved_unreviewed",
+    "family-dedb7f590087454464cae79b33654a438ae442a3dd2c11f441d52d50d12ce49a": "reserved_unreviewed",
+    "family-deea01e5dbfb38cac23994391f8775b627578f3d4e819dae35d1747713301ce0": "reserved_unreviewed",
+    "family-e0c9f031682489f00111145198cecda3e9d6551b4c94b3e5c677ccd4363f3551": "reserved_unreviewed",
+    "family-e0d1734ffd95c1265d4ca0bd97b8f28a9f72a52f6aa3953651225cbaaaba12d6": "reserved_unreviewed",
+    "family-e60175312fb8ab60e3096b38e058ef2ca16ba6de9a97b74dd8dd5997a5ff41de": "reserved_unreviewed",
+    "family-e679099359c16ed00c09b8a499219dd6525f55149cbecbea879faac043883a48": "reserved_unreviewed",
+    "family-e6cf6886b3dfc5ce9e9e000e9532781f43676fdf8240353053728d6a012b88d7": "reserved_unreviewed",
+    "family-f018bbbf8250fd6ae4eac2bb729ceada706c6e76da0a6f3b0cbb1a17cfa6a2f6": "reserved_unreviewed",
+    "family-f0bff2edcb9acf596aef4ac2e1b3c7beaa1c86a4aa820280af640fc503b270eb": "reserved_unreviewed",
+    "family-f2261c5b35bb46334366832bd93addd6ee1a7893efc39835c25590e100073c45": "reserved_unreviewed",
+    "family-f284e5b0a84170015100d4169bead84ba4ed5a6133eaae3036376241dc6c0e53": "reserved_unreviewed",
+    "family-f2892a286de80434bcdbb1d08211048f0615988fc677421fb242c76ec5258b81": "reserved_unreviewed",
+    "family-f387b779afa7247577678c139391ad98872f655fe8904edb456bff5694d268eb": "reserved_unreviewed",
+    "family-f48a7d16e9dc300bb5e7fe9b998de26d83d4aa7985502886f8776fa6322e01ad": "reserved_unreviewed",
+    "family-f7bc530b6552ee7d75b66d256984602029e80e33d2355b4f07fb1beb1344c34b": "reserved_unreviewed",
+    "family-fbff487f123f88c48e773d54bdb90d21b8822f71b9099b6b9a5c981fa7d3e96f": "development",
+    "family-fef18431d85e768be83e4cfd6ca62cedeb319dc2d4217a4e4673752c816d6f9a": "reserved_unreviewed"
+  },
+  "partition_policy": "三个人工审读开发家族；其余91家族保留待任务审读；本清单不作为正式训练/盲测release。跨书复用同事件时沿用家族。",
+  "tasks": [
+    {
+      "task_id": "travel_return_safety",
+      "case_id": "case-021baaf3fb1e70e9276e280005e9a0aaf1fc507f91afa6ea7d16c5fa748439b8",
+      "event_id": "event-0dc48e4b9272ee08bfca721f4969a7098f2d83be3127116c3d3750d8b56fde94",
+      "family_id": "family-fbff487f123f88c48e773d54bdb90d21b8822f71b9099b6b9a5c981fa7d3e96f",
+      "cutoff_sequence": 2,
+      "question": "根据已知问事与本轮可用信息，判断出行的取人用神、返途车辆事故风险和人员安全。信息不足填null。",
+      "input_records": [
+        {
+          "record_id": "record-bb96f9dc1d4f1b0565be617e5510877754f310fe570c956ba5220fa78a874234",
+          "source_id": "span-deb946ed8ccecd0d0b91491e4439a2c736693799bdcec7442897e67110c9944d",
+          "excerpt_sha256": "3ed87fa877455a7513949b7856e1bb3d7b529dda46df450eb656aeef55d38828",
+          "reviewed_phase": "unknown",
+          "review_note": "人工逐句核对：本次断语之前已披露的对话。unknown仅指旧标注未定，不擅改旧行；续断只释放明确早于本轮目标的反馈。"
+        }
+      ],
+      "chart_sources": [
+        {
+          "source_id": "span-1bf790cf9130f3da6c961eacd9390ae2a39bd8cfff908de61336cb3a007b75de",
+          "excerpt_sha256": "24f230ff351fab2d09d9ccde959ed1f7b042148332d4bc5c6cc95ec70835747d"
+        }
+      ],
+      "symbolic_inputs": {
+        "dun": "阳遁",
+        "bureau": 9,
+        "hour_ganzhi": "丙戌"
+      },
+      "answer_fields": {
+        "traveler_role": {
+          "description": "代表战友的用神",
+          "values": [
+            "日干",
+            "月干",
+            "年干",
+            "时干"
+          ]
+        },
+        "return_accident": {
+          "description": "返途车辆可能出事故",
+          "values": [
+            true,
+            false
+          ]
+        },
+        "people_safe": {
+          "description": "人员是否安全",
+          "values": [
+            true,
+            false
+          ]
+        }
+      },
+      "knowledge_sources": [
+        {
+          "source_id": "span-bf013550225902a546a216eefe27f7f0a19453910bf44e240a33d0286a8796c7",
+          "excerpt_sha256": "18d18a37caa89aec87fe68cdcb29902e596cddedae7192303e075af88f92cd4e"
+        },
+        {
+          "source_id": "span-40b55cd40c864138841130b8c528c57dee66bd9d0705d1f03f59c7e793a421bf",
+          "excerpt_sha256": "3abdb4caa9ff3253118a1a04c3c6d67b758862a116e0d0138ed1d5b9c7933239"
+        }
+      ],
+      "domain": "travel",
+      "condition_context": {
+        "domain": "travel",
+        "travel_subtype": "car",
+        "method_scope": "shenqi_travel_reference_v1"
+      },
+      "gold": {
+        "author": {
+          "traveler_role": {
+            "record_id": "record-bc2f9c1234590388812bc2399d767d1ba9c087ea37a75b5e6bc35727aeb635a2",
+            "quote": "测战友以月干为用神",
+            "value": "月干"
+          },
+          "return_accident": {
+            "record_id": "record-221b1d62ae03bea074c3dfe10ad51a583a2e423501f3a28b4c8aa3d3b1e63701",
+            "quote": "返途中汽车可能出事故",
+            "value": true
+          },
+          "people_safe": {
+            "record_id": "record-221b1d62ae03bea074c3dfe10ad51a583a2e423501f3a28b4c8aa3d3b1e63701",
+            "quote": "但人安全",
+            "value": true
+          }
+        },
+        "reported_outcome": {
+          "return_accident": {
+            "record_id": "record-cd08acae2de221495b95c764ea25b8e86545a94cca2c9c7a243b635fef737abc",
+            "quote": "整个右轮胎报废",
+            "value": true
+          },
+          "people_safe": {
+            "record_id": "record-cd08acae2de221495b95c764ea25b8e86545a94cca2c9c7a243b635fef737abc",
+            "quote": "人员倒安全",
+            "value": true
+          }
+        }
+      },
+      "review": {
+        "status": "source_chronology_reviewed_for_development",
+        "reviewer": "codex_source_review_not_independent_blind_judge",
+        "chart_scope": "原文所报符号输入；非历法复算；同轮目标前的原盘来源",
+        "limitations": "三个开发任务，不作为盲测，不预估泛化或独立现实准确率。"
+      }
+    },
+    {
+      "task_id": "concealed_question_first_turn",
+      "case_id": "case-029e543df86f7e8122a33e6fdafb41a8052a982a577f787b871d05c27e903a77",
+      "event_id": "event-b571206f0050567b898cc3425e09ac6797fedfcdfd8c6fac5d9000ffc2d58eb8",
+      "family_id": "family-7ab9e4f720d65ef4442759351e38ebb42eb4ca61936ee85f8d04a4998ec5e965",
+      "cutoff_sequence": 3,
+      "question": "来人尚未透露要问何事。仅据此轮已知信息推测所问事项类型；不能确定时填null。",
+      "input_records": [
+        {
+          "record_id": "record-9eb4b937aa39ac8a123e0005ba32ce319a47144a4641cdc68dd0219f22a30dbf",
+          "source_id": "span-dc181f1890377c35e73f9478d33ebd059ab0cfe297057ffc44dd8c391c047569",
+          "excerpt_sha256": "7d5bdd5edd27dafe0c6227c696375710698c0f001d352c40326848e8028706ea",
+          "reviewed_phase": "pre_prediction",
+          "review_note": "人工逐句核对：本次断语之前已披露的对话。unknown仅指旧标注未定，不擅改旧行；续断只释放明确早于本轮目标的反馈。"
+        },
+        {
+          "record_id": "record-f7be07a97209bc3dcb8ca0025b989995c3821ad9258565b95a622f7dd873c1d4",
+          "source_id": "span-94df7e32f056eb6477f5d7d3986558a59d072bed2a813cd9b58e1d7a6c5cc7eb",
+          "excerpt_sha256": "ac1a17543ac69f45ab637cfcb5bdd3730ef65bf3060b8d7a6f1948639ddf797c",
+          "reviewed_phase": "pre_prediction",
+          "review_note": "人工逐句核对：本次断语之前已披露的对话。unknown仅指旧标注未定，不擅改旧行；续断只释放明确早于本轮目标的反馈。"
+        }
+      ],
+      "chart_sources": [
+        {
+          "source_id": "span-4d08993d3288ed79866ec88b9889f4af9c87b550821eed292645c08a6880fc8d",
+          "excerpt_sha256": "d6c65ac81bb0bedb92549d9b55969c1d42545eec5b906aed6a54f82bf46a6e41"
+        }
+      ],
+      "symbolic_inputs": {
+        "dun": "阴遁",
+        "bureau": 4,
+        "hour_ganzhi": "庚戌"
+      },
+      "answer_fields": {
+        "query_type": {
+          "description": "所问事项类型",
+          "values": [
+            "失财或错账",
+            "疾病",
+            "婚姻",
+            "工作",
+            "出行",
+            "其他"
+          ]
+        }
+      },
+      "knowledge_sources": [],
+      "domain": "general_inquiry",
+      "condition_context": {},
+      "gold": {
+        "author": {
+          "query_type": {
+            "record_id": "record-b59e0ca2bc7cd51925a7976a73b96127ba59422b3f8a5933f5eeec01a1b9796e",
+            "quote": "断她一定是失财或错账之事",
+            "value": "失财或错账"
+          }
+        },
+        "reported_outcome": {
+          "query_type": {
+            "record_id": "record-04139d8ac22be02e8a9783914d390445c7f224a750ff40dad72ca0ce79f46735",
+            "quote": "回来对账时少了一件",
+            "value": "失财或错账"
+          }
+        }
+      },
+      "review": {
+        "status": "source_chronology_reviewed_for_development",
+        "reviewer": "codex_source_review_not_independent_blind_judge",
+        "chart_scope": "原文所报符号输入；非历法复算；同轮目标前的原盘来源",
+        "limitations": "三个开发任务，不作为盲测，不预估泛化或独立现实准确率。"
+      }
+    },
+    {
+      "task_id": "marriage_later_turn_timing",
+      "case_id": "case-06199fc40772ac8fc5f4a73cde73b79c26318962a41f628c16c8aef05e0c4427",
+      "event_id": "event-be59b4644c19626051150e9e3209891a5b76d1da385fc486cb171f570493ad05",
+      "family_id": "family-43857b7ab4b6d02ba6faadb60fe05d4521414a167f15cd3823a2fc854f44654b",
+      "cutoff_sequence": 13,
+      "question": "在此轮已披露的对话后，判断求测女子与该男子可能成婚的年份；并判断男方及其妻的用神。信息不足填null。",
+      "input_records": [
+        {
+          "record_id": "record-93d87339bb10af529a93ecffd0f9133328d819014a5915cd8b1b228c99356af3",
+          "source_id": "span-a4fd74f0503aa0076408ac38e18c607aef404aea808d95aade2b9b44b4a53805",
+          "excerpt_sha256": "ca1db0d78b451588033daceabe7aff8f039bf587461ad109a43574df0f5c46e4",
+          "reviewed_phase": "pre_prediction",
+          "review_note": "人工逐句核对：本次断语之前已披露的对话。unknown仅指旧标注未定，不擅改旧行；续断只释放明确早于本轮目标的反馈。"
+        },
+        {
+          "record_id": "record-41a801ac2fe22da6190f34a6020a28d499cfcc486330edf5b769435233f6a487",
+          "source_id": "span-505d3029a201e1c8be444408546169c5b4627bb937510ff8afb99a14a836bb2b",
+          "excerpt_sha256": "f77cac681c1a002159579b17e29198b2b023fed0ae342ad8e503a251c7f67f82",
+          "reviewed_phase": "post_feedback",
+          "review_note": "人工逐句核对：本次断语之前已披露的对话。unknown仅指旧标注未定，不擅改旧行；续断只释放明确早于本轮目标的反馈。"
+        },
+        {
+          "record_id": "record-a6a6db0efc90799ce1482c5c7120714fa6cc5d73f6b84a78b6b88ac6fedf2291",
+          "source_id": "span-19a4e0e36162b8489cfea0c44dee0acc620ffb3d5a1f76d572e7307ac8340958",
+          "excerpt_sha256": "cd07bef7371a2954133d1b4d1d4e00c5b455402fc8bdbfa8c144bf151e0ad52e",
+          "reviewed_phase": "post_feedback",
+          "review_note": "人工逐句核对：本次断语之前已披露的对话。unknown仅指旧标注未定，不擅改旧行；续断只释放明确早于本轮目标的反馈。"
+        },
+        {
+          "record_id": "record-cc356b19c3b81031faab81f224b8f4d92703289635066981565f9ea1a4f324d1",
+          "source_id": "span-532636a11b298c4e84e49618347ebae2a012edde084c3758ad67caa6b059edae",
+          "excerpt_sha256": "f2ae9b9993db26af9811a58edc3b30f2ac2e96e8a85b61779fe0c5b5573139c9",
+          "reviewed_phase": "post_feedback",
+          "review_note": "人工逐句核对：本次断语之前已披露的对话。unknown仅指旧标注未定，不擅改旧行；续断只释放明确早于本轮目标的反馈。"
+        }
+      ],
+      "chart_sources": [
+        {
+          "source_id": "span-ca1fce335f9dbc6a13e9070a88d52cd32977c423935570f24c15d5f296e38772",
+          "excerpt_sha256": "343fd867613eeea99932f42b9d57c23a94ae9be22547cfcb4f2f7c5d6c02abfb"
+        }
+      ],
+      "symbolic_inputs": {
+        "dun": "阳遁",
+        "bureau": 7,
+        "hour_ganzhi": "丁亥"
+      },
+      "answer_fields": {
+        "marriage_year": {
+          "description": "预计公历成婚年份",
+          "values": [
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001
+          ]
+        },
+        "male_role": {
+          "description": "男方用神",
+          "values": [
+            "甲",
+            "乙",
+            "丙",
+            "丁",
+            "戊",
+            "己",
+            "庚",
+            "辛",
+            "壬",
+            "癸"
+          ]
+        },
+        "wife_role": {
+          "description": "男方之妻的用神",
+          "values": [
+            "甲",
+            "乙",
+            "丙",
+            "丁",
+            "戊",
+            "己",
+            "庚",
+            "辛",
+            "壬",
+            "癸"
+          ]
+        }
+      },
+      "knowledge_sources": [
+        {
+          "source_id": "span-edae841653b2dee1eb1e14bc585e119b975c8f17a211f8c10ad25edb304fc6e0",
+          "excerpt_sha256": "a5cd9ce38335a7cfd5e3ca99332d8d7903ad09da1753f510426bfd71f267e24a"
+        },
+        {
+          "source_id": "span-9b185705aa0343ab719d8cb220e52a5ca5084dceb290198d80f8b6bdc210b38d",
+          "excerpt_sha256": "a5cd9ce38335a7cfd5e3ca99332d8d7903ad09da1753f510426bfd71f267e24a"
+        },
+        {
+          "source_id": "span-3e7f1e9ce673e90508e9b03d9b1b39b2d2b7e83efe3582004427541264a2ccd2",
+          "excerpt_sha256": "bc4a8bd793f8acc046bf49c61cab7b15894bc804419e5f6899ab5ffcb0bed959"
+        }
+      ],
+      "domain": "marriage",
+      "condition_context": {
+        "domain": "marriage",
+        "analysis_context": "marriage",
+        "era_context": "contemporary"
+      },
+      "gold": {
+        "author": {
+          "marriage_year": {
+            "record_id": "record-c0e34b0a5f43078df9fb93004e6e338409b73132a2cc06dee8303ce705b07af2",
+            "quote": "明年四五月你们就能结婚",
+            "value": 1997
+          },
+          "male_role": {
+            "record_id": "record-f427655a052bf560f977be4868cfee18604810ee605a991b86448daf3dd533ed",
+            "quote": "庚为男方",
+            "value": "庚"
+          },
+          "wife_role": {
+            "record_id": "record-f427655a052bf560f977be4868cfee18604810ee605a991b86448daf3dd533ed",
+            "quote": "乙奇为其妻",
+            "value": "乙"
+          }
+        },
+        "reported_outcome": {
+          "marriage_year": {
+            "record_id": "record-e7f11488160016091d2fcbc7dc1e1a5bc69b0140332942650bb1f1909c87ddf4",
+            "quote": "1998年五月同这个青年女子结了婚",
+            "value": 1998
+          }
+        }
+      },
+      "review": {
+        "status": "source_chronology_reviewed_for_development",
+        "reviewer": "codex_source_review_not_independent_blind_judge",
+        "chart_scope": "原文所报符号输入；非历法复算；同轮目标前的原盘来源",
+        "limitations": "三个开发任务，不作为盲测，不预估泛化或独立现实准确率。"
+      }
+    }
+  ]
+}

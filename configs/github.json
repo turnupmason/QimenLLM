@@ -1,6 +1,7 @@
 {
   "repository": "turnupmason/QimenLLM",
-  "visibility": "private",
+  "visibility": "public",
   "branch": "main",
-  "auto_sync_data_updates": true
+  "auto_sync_data_updates": true,
+  "public_sync_user_authorization": "docs/user_instructions/all_cases_pilot_github_2026-10-17.txt"
 }

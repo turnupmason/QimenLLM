@@ -79,8 +79,18 @@ class QimenService:
             result['comparison']=compare_chart(result,self.paper,comparison_method)
         return result
 
-    def ask(self, inquiry: Inquiry) -> dict:
+    def ask(self, inquiry: Inquiry, *, research=None) -> dict:
         if not isinstance(inquiry.text,str) or not inquiry.text.strip(): raise ValueError('Nonempty question required')
+        if research is not None:
+            # Trusted local experiments share this entry. HTTP cannot set this
+            # keyword; production gates and success semantics remain unchanged.
+            from ..evaluation.research import ResearchRequest, research_ask
+            from ..evaluation.method import MethodRequest, method_ask
+            if isinstance(research, MethodRequest):
+                return method_ask(self, inquiry, research)
+            if not isinstance(research, ResearchRequest):
+                raise ValueError('Explicit local research request required')
+            return research_ask(self, inquiry, research)
         trace = []
         def record(stage, status, **values): trace.append({'stage':stage,'status':status,**values})
         understanding = self.interpreter.interpret(inquiry)

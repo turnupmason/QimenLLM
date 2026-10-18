@@ -1,6 +1,12 @@
+[钱物丢失章的Mac与4090试验入口](docs/METHOD_PILOT.md) · [本轮实际数据与工程验收](data/provenance/book_pilot_validation_v1.json)
+
+当前建模进度：全书98完整故事/94家族已固定划分（65训练/15验证/15测试/3开发）；[全书数据准备清单](data/splits/book_preparation_v1.json)可从原快照重建。125条派生任务中，32为钱物丢失五类方法子任务、93为其他原盘字面读取，不能当作125独立案例或全书断案能力。正在按用户要求先Mac 27B基线→限定LoRA→同题验证，再决定4090系统训练。独立现实预测准确率尚无成绩。见[专业训练状态](docs/PROFESSIONAL_TRAINING.md)。
+
 # QimenLLM
 
 古籍知识、确定性计算、完整案例与可替换语言模型结合的研究工程。**当前累计接收《神奇之门》二十六份章级来源输入，98个完整故事/106事件/104来源盘记录。本轮附录三精校叙事与旧纪实一致，另有所供九宫文字重排表，已逐宫保存并关联原故事、两目标事件和30条时序记录。旧碎片、初次否定、续断及后来按语保持，不重复计案盘。独立公历起盘、正式用神、专业问事及模型训练尚未完成。**
+
+本地研究进度：用户宣布本书资料已提供完毕，授权按总指令开始模型研究，先使用M2/24GB。现已接通本地MLX候选推理和受控开发评估；正式完整条件规则、盲测与训练仍受阶段门槛约束。当前仓库公开是用户主动设置，本轮明确仅本地，不同步GitHub。见[建模开发记录](docs/MODEL_BASELINE.md)。
 
 用户已统一确认既往及未来提供的资料与历史事实，并声明已独立确认。维护导入默认confirmed，不再请求原文二次确认；确认依据与程序复算、模型评估分开记录，详见[现行来源政策](docs/KNOWLEDGE_POLICY.md)及[附录三精校与重排表报告](docs/ingestion/SHENQI_DEMO.md)及[附录一精校来源报告](docs/ingestion/SHENQI_LEARNING.md)及[附录二精校来源报告](docs/ingestion/SHENQI_BIOGRAPHY.md)及[附录报告](docs/ingestion/SHENQI_APPENDIX.md)及[后记报告](docs/ingestion/SHENQI_AFTERWORD.md)及[准确率评估知识报告](docs/ingestion/SHENQI_ACCURACY.md)及[人生机遇报告](docs/ingestion/SHENQI_LIFE.md)及[地理环境报告](docs/ingestion/SHENQI_GEOGRAPHY.md)及[天时气象报告](docs/ingestion/SHENQI_WEATHER.md)及[体育竞赛报告](docs/ingestion/SHENQI_SPORTS.md)及[官司诉讼报告](docs/ingestion/SHENQI_LITIGATION.md)及[刑事案件报告](docs/ingestion/SHENQI_CRIMINAL.md)及[钱物丢失报告](docs/ingestion/SHENQI_LOST.md)及[行人走失报告](docs/ingestion/SHENQI_MISSING.md)及[出行出国报告](docs/ingestion/SHENQI_TRAVEL.md)及[经营求财报告](docs/ingestion/SHENQI_BUSINESS.md)及[上一轮工作就业报告](docs/ingestion/SHENQI_EMPLOYMENT.md)。
 

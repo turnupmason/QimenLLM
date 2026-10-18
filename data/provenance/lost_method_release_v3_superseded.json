@@ -1,0 +1,9 @@
+{
+  "release": "shenqi-lost-method-tasks-v3",
+  "disposition": "superseded_before_model_or_training_use",
+  "superseded_by": "shenqi-lost-method-tasks-v4",
+  "reason": "Provide exact, reviewed source conditions explicitly for scaffolded synthesis/timing/continuation. An uncomputed void/horse/pattern must not be silently assumed by the model. These are author-provided premises, not independently recomputed chart facts or unassisted forecast inputs.",
+  "prior_review_sha256": "cfaf6fe11d7f44faeccb01b9b11d4902312e179f47e4e045a25fd11c7f83c3b2",
+  "model_calls": 0,
+  "optimizer_steps": 0
+}

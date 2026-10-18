@@ -1,0 +1,9 @@
+{
+  "release": "shenqi-lost-method-tasks-v2",
+  "disposition": "superseded_before_model_or_training_use",
+  "reason": "Keep source-reviewed targets in natural professional/teaching language; remove references to exporter implementation and later editorial alternatives from current-turn model answers. Source and chronology permissions unchanged.",
+  "superseded_by": "shenqi-lost-method-tasks-v3",
+  "model_calls": 0,
+  "optimizer_steps": 0,
+  "prior_review_sha256": "77523d81e89d79da7a2ea9408b59180daa3a5cfbfbfbfccb1bab48ec416853cb"
+}

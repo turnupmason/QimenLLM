@@ -1,0 +1,2823 @@
+{
+  "schema": "shenqi-method-task-review-v1",
+  "release_id": "shenqi-lost-method-tasks-v5",
+  "source_data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "chapter_source_sha256": "ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9",
+  "reviewed_by": "Codex source-grounded semantic curation",
+  "review_note": "完整审读钱物丢失8故事及通用条文，按实际披露轮次整理五类任务；所有归纳以原文显式依据为限，错误或不完整的地点、应期口径、后置按语与未知反馈分别保留。不使用模型生成结果审查或修改标签。 对软件尚未独立算出的空亡、马星及格局条件，以明确给定的作者前提提供给综合/应期/续断子任务，角色与读盘题不接收这类前提；不能要求模型在字段未知时凭空断言它成立。",
+  "cases": [
+    {
+      "event_id": "event-091d2d1d6013f9df853b2b69cec3940926d6703926a134598f1d65b1d89ec9bf",
+      "family_id": "family-6e55953bb745ffd88693ed5082fbc1a688702f9dfe49cb0be8d8c1341ea20143",
+      "case_id": "case-22de15c30828654ac90c14ab378de76d25a3dd26d754e62e97be498d4e4b7b08",
+      "chart_id": "chart-c37305f6dd415779e59b67dba46751d174f7c235c5948e98642ce320dc1dc842",
+      "case_title_for_review_only": "实例一：测找发票",
+      "stages": [
+        {
+          "key": "first",
+          "mode": "initial",
+          "cutoff_sequence": 3,
+          "input_permissions": [
+            {
+              "record_id": "record-54534930ef468a4256dee8861e89a54de01e1fa78996fcc29febfa2d3dd94c61",
+              "text_sha256": "949bd486112f33cb3669a90ea80f6dd03f68b242e2865015acd3f23f9538dbe0",
+              "grant": "pre_prediction_dialogue",
+              "semantic_note": "原书首断前已明确的问测信息。"
+            },
+            {
+              "record_id": "record-9ba6669cd408efb1c14a94089c3be4f136cb4301a0f9dcfe821ad530d3436bb7",
+              "text_sha256": "dc531de59fae05ea807c84178cd2660867f4d29b5ec93678a711d65c1d68a441",
+              "grant": "pre_prediction_dialogue",
+              "semantic_note": "原书首断前已明确的问测信息。"
+            },
+            {
+              "record_id": "record-3b8869302a6a67c2ba2b0067329fe34d188ae42a8aa0858a0f2d7e30c3a1b71b",
+              "text_sha256": "c23fc2faab7bc17f531bcf7e6981ba2e8794978e648e3bbb4598ed8f8be39fd0",
+              "grant": "source_given_time_metadata",
+              "semantic_note": "逐句审读；此unknown记录仅为原书给定四柱、遁局、旬及值符使，不含判断或反馈。"
+            }
+          ],
+          "provided_roles": [
+            "日干己：问测人",
+            "时干壬：失物；原表壬保存在震三门位前缀，不擅改为主干",
+            "景门：文书发票视角"
+          ],
+          "facts": [
+            {
+              "palace": 3,
+              "field": "heaven_stem",
+              "value": "己"
+            },
+            {
+              "palace": 3,
+              "field": "heaven_prefix_marker",
+              "value": "壬"
+            },
+            {
+              "palace": 3,
+              "field": "deity",
+              "value": "玄武"
+            },
+            {
+              "palace": 1,
+              "field": "door",
+              "value": "景门"
+            },
+            {
+              "palace": 1,
+              "field": "star",
+              "value": "天辅星"
+            },
+            {
+              "palace": 1,
+              "field": "deity",
+              "value": "六合"
+            }
+          ],
+          "rule_references": [
+            {
+              "id": "roles",
+              "source_id": "span-d9cad9c010fe70bcc737b00c82186bb57a14400c8a03ee70c66df15f07d16a21",
+              "excerpt_sha256": "3f707773d9cc35d39b0d920da4227b9b7f70870b90625d19257ff7e2e1eea31a"
+            },
+            {
+              "id": "location",
+              "source_id": "span-f5bda0e51f70c8d35cf281561919288a3a11d8ae3caba56cea19a2ac3cf9bb7b",
+              "excerpt_sha256": "5ba6bb08e51b82b3ecdb4a77a495115345bdb04ea4dfc0ad4c5bfd1c6ddf0653"
+            },
+            {
+              "id": "theft",
+              "source_id": "span-6a3827dfd89b9251b7cdeef7df2af3318841d884bfcbef83b097ffaade4cc693",
+              "excerpt_sha256": "d14395d045ad55afca602ad0f4856b1e842036b363d3f4255d3fb61039a676a9"
+            },
+            {
+              "id": "timing",
+              "source_id": "span-3e5cf937f845b659f3ab6ad2dc4c18f5b9c597043231abc0e89ed43b9dc6573e",
+              "excerpt_sha256": "b18df6160f8df22c05a57d5f1b48e785a7f21abe2bf1decb1251cbd016261dac"
+            },
+            {
+              "id": "documents",
+              "source_id": "span-8c4df0a21fbf00abeb5226b084d54fc07548e5033a57cbd329b216f0d0dfe0d2",
+              "excerpt_sha256": "03cf402ffb9f75959d0bb51702ab6537bd574e671f04d74903f33f88e9d3024b"
+            }
+          ],
+          "review_note": "逐条审读该轮原文；仅开放列出的当前已知记录，九宫保留完整字面。作者断语的归纳为显式方法复现，不推为实际预测准确或已编译通用规则。",
+          "tasks": [
+            {
+              "type": "role_selection",
+              "target_permissions": [
+                {
+                  "record_id": "record-0483567d3d570ea7e048c4e71e03af0daa1a60dec596cd5a1fdb3ad53a68f680",
+                  "text_sha256": "10e48b4d1d097dce72c3100686bad8443b588f1d4164fdeb21afaf1147d498f0"
+                }
+              ],
+              "answer": {
+                "explanation": "本题已明确寻找发票。按一般法先以日干代表问测人、时干代表失物；原例另用景门观察文书，两种视角应分别说明，不能只因见玄武就断为被盗。",
+                "citations": [
+                  "roles"
+                ],
+                "uncertainties": [
+                  "这是本题指定的一般取法，不排除原例的其他有来源取法。"
+                ],
+                "bindings": [
+                  {
+                    "role": "失主或本例问测主体",
+                    "symbol": "日干",
+                    "condition": "已经明确问失物，并按本章一般取法；代问身份仍以本例口径为限。"
+                  },
+                  {
+                    "role": "丢失之钱物",
+                    "symbol": "时干",
+                    "condition": "同一问测和同一一般法，不扩成其他事件用神。"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "chart_evidence",
+              "target_permissions": [
+                {
+                  "record_id": "record-a12fa54941e95da52d8006dba8f2fa0b47ef7fa3d112702f40ac4f8f4d267a73",
+                  "text_sha256": "3e0948636d095364ee9575d8e62e52ff519ea4dfd8fedd7f8a59908d8beebf17"
+                },
+                {
+                  "record_id": "record-0483567d3d570ea7e048c4e71e03af0daa1a60dec596cd5a1fdb3ad53a68f680",
+                  "text_sha256": "10e48b4d1d097dce72c3100686bad8443b588f1d4164fdeb21afaf1147d498f0"
+                }
+              ],
+              "answer": {
+                "explanation": "先区分失主、失物和文书三个观察视角：震三宫的己及壬前缀、玄武，与坎一宫的景门、天辅、六合均照原表列出。壬的字面前缀保留，不擅自当作另一个主干重解释。",
+                "citations": [
+                  "chart"
+                ],
+                "uncertainties": []
+              }
+            },
+            {
+              "type": "evidence_synthesis",
+              "target_permissions": [
+                {
+                  "record_id": "record-a12fa54941e95da52d8006dba8f2fa0b47ef7fa3d112702f40ac4f8f4d267a73",
+                  "text_sha256": "3e0948636d095364ee9575d8e62e52ff519ea4dfd8fedd7f8a59908d8beebf17"
+                },
+                {
+                  "record_id": "record-0483567d3d570ea7e048c4e71e03af0daa1a60dec596cd5a1fdb3ad53a68f680",
+                  "text_sha256": "10e48b4d1d097dce72c3100686bad8443b588f1d4164fdeb21afaf1147d498f0"
+                },
+                {
+                  "record_id": "record-fe1afa0cbeafa575036052be7bdc71c0decaaf544af2c226cb640ef4e7cc1455",
+                  "text_sha256": "f6a2fce962d703167a38d3c23e4c688adb47d8718d7bcae3beee379dd82cec9d"
+                }
+              ],
+              "answer": {
+                "explanation": "原例没有把玄武单独当作失盗结论，而是把景门所临的六合、天辅及其落宫生扶日时宫等信息合看，判断发票可找回。再由震宫的东方、近处及金木容器之象，提出东边不远处铁木保险柜一类的寻找线索。此时只能给出寻找方向与容器假设，具体发现经过仍未知。",
+                "citations": [
+                  "chart",
+                  "roles",
+                  "theft",
+                  "location",
+                  "documents"
+                ],
+                "uncertainties": [
+                  "保险柜等为原作者类象判断，不是从盘表字面独立验出的物品事实。"
+                ]
+              },
+              "source_given_conditions": [
+                {
+                  "record_id": "record-a12fa54941e95da52d8006dba8f2fa0b47ef7fa3d112702f40ac4f8f4d267a73",
+                  "text_sha256": "3e0948636d095364ee9575d8e62e52ff519ea4dfd8fedd7f8a59908d8beebf17",
+                  "quote": "景门落坎1宫，火入水乡，景加休",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                },
+                {
+                  "record_id": "record-fe1afa0cbeafa575036052be7bdc71c0decaaf544af2c226cb640ef4e7cc1455",
+                  "text_sha256": "f6a2fce962d703167a38d3c23e4c688adb47d8718d7bcae3beee379dd82cec9d",
+                  "quote": "今八门反吟，反吟主做事速度快，成败易分，又震宫为阳遁内盘",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                }
+              ]
+            },
+            {
+              "type": "timing_analysis",
+              "target_permissions": [
+                {
+                  "record_id": "record-fe1afa0cbeafa575036052be7bdc71c0decaaf544af2c226cb640ef4e7cc1455",
+                  "text_sha256": "f6a2fce962d703167a38d3c23e4c688adb47d8718d7bcae3beee379dd82cec9d"
+                }
+              ],
+              "answer": {
+                "explanation": "作者由八门反吟和阳遁内盘取快、近，再以震三宫及三八木取数，给出约三天的寻找窗口。这里复现的是当时的约数判断，不能提前写入后来找回的实际日期。",
+                "citations": [
+                  "chart",
+                  "timing"
+                ],
+                "uncertainties": [
+                  "原文的约三天保留为预测窗口，之后的实际反馈另行记录。"
+                ],
+                "methods": [
+                  "反吟取快",
+                  "内外盘快慢",
+                  "宫位与五行取数"
+                ]
+              },
+              "source_given_conditions": [
+                {
+                  "record_id": "record-fe1afa0cbeafa575036052be7bdc71c0decaaf544af2c226cb640ef4e7cc1455",
+                  "text_sha256": "f6a2fce962d703167a38d3c23e4c688adb47d8718d7bcae3beee379dd82cec9d",
+                  "quote": "今八门反吟，反吟主做事速度快，成败易分，又震宫为阳遁内盘",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                }
+              ]
+            }
+          ],
+          "unavailable_information": {
+            "forbidden_phrases": [
+              "办公室",
+              "12月22日",
+              "壬午日"
+            ],
+            "review_note": "逐项标记本轮未披露且不能写入输入或监督目标的具体后续信息；即使作为否定提醒也不向模型泄漏。此名单是来源审读回归，不宣称完整语义泄漏证明。"
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "event-2ef4dc67ad6dc2468ce05abda1254ac8f5849013fc4b4782d1520866c4035024",
+      "family_id": "family-f387b779afa7247577678c139391ad98872f655fe8904edb456bff5694d268eb",
+      "case_id": "case-19557e07abb372b16dac1998c3981a2b5385614f006d89900cf79beb871cf88c",
+      "chart_id": "chart-bcaf43657d9b77d41b391732c8e3a3bca0dd91752999819ad92b40972b14afeb",
+      "case_title_for_review_only": "实例二：测身份证下落",
+      "stages": [
+        {
+          "key": "first",
+          "mode": "initial",
+          "cutoff_sequence": 4,
+          "input_permissions": [
+            {
+              "record_id": "record-90e5403e52f1a22a316d03e146a5e2f5e6928ac16307ec2e40e12d43238b20a8",
+              "text_sha256": "44199adc8c0806801485068289e0ead33477d6808bd42bc584aa0db1cf4a5213",
+              "grant": "pre_prediction_dialogue",
+              "semantic_note": "原书首断前已明确的问测信息。"
+            },
+            {
+              "record_id": "record-4773e13d4dcb9180649f1aad48916aad89a55e6fd3aa852e158a10b873a09e07",
+              "text_sha256": "724268763d3f7864e1f38b9dec97c1ddbe7fcf3e195dbfcfaec1282dff773f28",
+              "grant": "pre_prediction_dialogue",
+              "semantic_note": "原书首断前已明确的问测信息。"
+            },
+            {
+              "record_id": "record-a48aed874a98e8002e821b16819aeafa4fa6b9c4b1558e11d74a6771ba584134",
+              "text_sha256": "9fe1a69d037ad17be635a5ea6da3c99686129b9989fd347c02e945dd3fd4e47c",
+              "grant": "pre_prediction_dialogue",
+              "semantic_note": "原书首断前已明确的问测信息。"
+            },
+            {
+              "record_id": "record-9d3484d1bcbbf2155c69d6b3d3993cfdcb44e3411e05936935910c5ee7a946ab",
+              "text_sha256": "a4515feb39ef5209095e60b7c1879d5ada1da45f318c18f2adb36472b92db69e",
+              "grant": "source_given_time_metadata",
+              "semantic_note": "逐句审读；此unknown记录仅为原书给定四柱、遁局、旬及值符使，不含判断或反馈。"
+            }
+          ],
+          "provided_roles": [
+            "日干己：问测人",
+            "时干癸：身份证",
+            "景门：文书身份证视角"
+          ],
+          "facts": [
+            {
+              "palace": 3,
+              "field": "heaven_stem",
+              "value": "己"
+            },
+            {
+              "palace": 1,
+              "field": "heaven_stem",
+              "value": "癸"
+            },
+            {
+              "palace": 1,
+              "field": "door",
+              "value": "休门"
+            },
+            {
+              "palace": 1,
+              "field": "star",
+              "value": "天任星"
+            },
+            {
+              "palace": 1,
+              "field": "deity",
+              "value": "九天"
+            },
+            {
+              "palace": 9,
+              "field": "door",
+              "value": "景门"
+            }
+          ],
+          "rule_references": [
+            {
+              "id": "roles",
+              "source_id": "span-d9cad9c010fe70bcc737b00c82186bb57a14400c8a03ee70c66df15f07d16a21",
+              "excerpt_sha256": "3f707773d9cc35d39b0d920da4227b9b7f70870b90625d19257ff7e2e1eea31a"
+            },
+            {
+              "id": "location",
+              "source_id": "span-f5bda0e51f70c8d35cf281561919288a3a11d8ae3caba56cea19a2ac3cf9bb7b",
+              "excerpt_sha256": "5ba6bb08e51b82b3ecdb4a77a495115345bdb04ea4dfc0ad4c5bfd1c6ddf0653"
+            },
+            {
+              "id": "theft",
+              "source_id": "span-6a3827dfd89b9251b7cdeef7df2af3318841d884bfcbef83b097ffaade4cc693",
+              "excerpt_sha256": "d14395d045ad55afca602ad0f4856b1e842036b363d3f4255d3fb61039a676a9"
+            },
+            {
+              "id": "timing",
+              "source_id": "span-3e5cf937f845b659f3ab6ad2dc4c18f5b9c597043231abc0e89ed43b9dc6573e",
+              "excerpt_sha256": "b18df6160f8df22c05a57d5f1b48e785a7f21abe2bf1decb1251cbd016261dac"
+            },
+            {
+              "id": "documents",
+              "source_id": "span-8c4df0a21fbf00abeb5226b084d54fc07548e5033a57cbd329b216f0d0dfe0d2",
+              "excerpt_sha256": "03cf402ffb9f75959d0bb51702ab6537bd574e671f04d74903f33f88e9d3024b"
+            }
+          ],
+          "review_note": "逐条审读该轮原文；仅开放列出的当前已知记录，九宫保留完整字面。作者断语的归纳为显式方法复现，不推为实际预测准确或已编译通用规则。",
+          "tasks": [
+            {
+              "type": "role_selection",
+              "target_permissions": [
+                {
+                  "record_id": "record-6f1a6fc16c365485f4e1fcf1ec8ae46efea2c41bd428c290d0beff59d2d5d3ab",
+                  "text_sha256": "81dd3f3e7db75dec968b2b300e2150c59cee06d0d26632878c3f10bd3eca0574"
+                }
+              ],
+              "answer": {
+                "explanation": "已知问题是搬家后身份证不见、担心混入废品。按一般法以日干为问测人、时干为所寻身份证；文书的景门视角可补充，但不把代问亲属关系一概换成年干或年龄规则。",
+                "citations": [
+                  "roles"
+                ],
+                "uncertainties": [
+                  "这是本题指定的一般取法，不排除原例的其他有来源取法。"
+                ],
+                "bindings": [
+                  {
+                    "role": "失主或本例问测主体",
+                    "symbol": "日干",
+                    "condition": "已经明确问失物，并按本章一般取法；代问身份仍以本例口径为限。"
+                  },
+                  {
+                    "role": "丢失之钱物",
+                    "symbol": "时干",
+                    "condition": "同一问测和同一一般法，不扩成其他事件用神。"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "chart_evidence",
+              "target_permissions": [
+                {
+                  "record_id": "record-6f1a6fc16c365485f4e1fcf1ec8ae46efea2c41bd428c290d0beff59d2d5d3ab",
+                  "text_sha256": "81dd3f3e7db75dec968b2b300e2150c59cee06d0d26632878c3f10bd3eca0574"
+                },
+                {
+                  "record_id": "record-f874f8825e11749a97986a944f9319db749a0ee478e39c006bc7dcd459757673",
+                  "text_sha256": "cea8a3d7b14b56e885736cc4d16a808ba2fc981efe93c889233f0e009265ce1f"
+                },
+                {
+                  "record_id": "record-cde8c33b7b5965bd51f80b6c35b5fac89c4e7857c45827cc6ed4c481b02f0beb",
+                  "text_sha256": "fbf1c465c67c8f25c0152fc91ac51f2b86fcec2d4fc4e4ce462f2dcc91b09c39"
+                }
+              ],
+              "answer": {
+                "explanation": "把日干己的震三宫与时干癸的坎一宫分开；同时读取坎宫的天任、休门、九天和离宫景门，作为后续比较依据，不把原宫与实际落宫混写。",
+                "citations": [
+                  "chart"
+                ],
+                "uncertainties": []
+              }
+            },
+            {
+              "type": "evidence_synthesis",
+              "target_permissions": [
+                {
+                  "record_id": "record-6f1a6fc16c365485f4e1fcf1ec8ae46efea2c41bd428c290d0beff59d2d5d3ab",
+                  "text_sha256": "81dd3f3e7db75dec968b2b300e2150c59cee06d0d26632878c3f10bd3eca0574"
+                },
+                {
+                  "record_id": "record-f874f8825e11749a97986a944f9319db749a0ee478e39c006bc7dcd459757673",
+                  "text_sha256": "cea8a3d7b14b56e885736cc4d16a808ba2fc981efe93c889233f0e009265ce1f"
+                },
+                {
+                  "record_id": "record-3739ce415fde00dc02b8c28bdba22df59fe3be0c60d5c3539b66d07568c571d6",
+                  "text_sha256": "3181366f1a9094f5a0ede53f5158c78069a1bf3f2701e8e984bdb9ee7bc0990e"
+                },
+                {
+                  "record_id": "record-cde8c33b7b5965bd51f80b6c35b5fac89c4e7857c45827cc6ed4c481b02f0beb",
+                  "text_sha256": "fbf1c465c67c8f25c0152fc91ac51f2b86fcec2d4fc4e4ce462f2dcc91b09c39"
+                }
+              ],
+              "answer": {
+                "explanation": "原例以时干宫生日干宫支持能够找回，再将景门伏吟、文书未动的判断与坎宫吉星吉门等信息合看，倾向身份证没有随废品卖走，仍留原住处。离卦中空、红色的类象用于提出红色箱柜盒的寻找线索；九天等信息被作者用于推测可能由父母找到。具体哪位亲属、哪间房和哪只箱子，此轮尚无反馈。",
+                "citations": [
+                  "chart",
+                  "roles",
+                  "theft",
+                  "location",
+                  "documents"
+                ],
+                "uncertainties": [
+                  "容器颜色及由父母找到是当时推测，不写成已经观察到的事实。"
+                ]
+              },
+              "source_given_conditions": [
+                {
+                  "record_id": "record-6f1a6fc16c365485f4e1fcf1ec8ae46efea2c41bd428c290d0beff59d2d5d3ab",
+                  "text_sha256": "81dd3f3e7db75dec968b2b300e2150c59cee06d0d26632878c3f10bd3eca0574",
+                  "quote": "时干宫生日干宫",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                },
+                {
+                  "record_id": "record-f874f8825e11749a97986a944f9319db749a0ee478e39c006bc7dcd459757673",
+                  "text_sha256": "cea8a3d7b14b56e885736cc4d16a808ba2fc981efe93c889233f0e009265ce1f",
+                  "quote": "又伏吟不动",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                },
+                {
+                  "record_id": "record-3739ce415fde00dc02b8c28bdba22df59fe3be0c60d5c3539b66d07568c571d6",
+                  "text_sha256": "3181366f1a9094f5a0ede53f5158c78069a1bf3f2701e8e984bdb9ee7bc0990e",
+                  "quote": "景门加景门",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                }
+              ]
+            },
+            {
+              "type": "timing_analysis",
+              "target_permissions": [
+                {
+                  "record_id": "record-6462aecfb6e2dd2da12a3aaf799d29336da910c91f449090abc874339c4a44ea",
+                  "text_sha256": "a894bc4845f30e011ed25f9d4e350d0c28e70b3d787217bad43333ffb09704f0"
+                }
+              ],
+              "answer": {
+                "explanation": "原例先按时干癸为阴干采用阴干寻庚上，取地盘庚上的壬，并以内盘快近将范围定在本旬壬日；同时另列癸日时干旺、生扶日干宫的可能。应保留壬日或癸日的两个候选，不用后来实际找回之日删去未中的分支。",
+                "citations": [
+                  "chart",
+                  "timing"
+                ],
+                "uncertainties": [
+                  "原作者同时给出的两个日期候选均保留；程序没有在此独立校历。"
+                ],
+                "methods": [
+                  "阴干寻庚上",
+                  "时干生日干之日"
+                ]
+              },
+              "source_given_conditions": [
+                {
+                  "record_id": "record-6462aecfb6e2dd2da12a3aaf799d29336da910c91f449090abc874339c4a44ea",
+                  "text_sha256": "a894bc4845f30e011ed25f9d4e350d0c28e70b3d787217bad43333ffb09704f0",
+                  "quote": "阴干寻庚上，阳干寻庚下",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                },
+                {
+                  "record_id": "record-6462aecfb6e2dd2da12a3aaf799d29336da910c91f449090abc874339c4a44ea",
+                  "text_sha256": "a894bc4845f30e011ed25f9d4e350d0c28e70b3d787217bad43333ffb09704f0",
+                  "quote": "今时干癸为阴干，西南坤宫地盘庚上之干为壬",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                },
+                {
+                  "record_id": "record-6462aecfb6e2dd2da12a3aaf799d29336da910c91f449090abc874339c4a44ea",
+                  "text_sha256": "a894bc4845f30e011ed25f9d4e350d0c28e70b3d787217bad43333ffb09704f0",
+                  "quote": "阳遁时干落1宫为近，为速",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                }
+              ]
+            }
+          ],
+          "unavailable_information": {
+            "forbidden_phrases": [
+              "6月11日",
+              "其妹的红色木箱",
+              "北屋的东间"
+            ],
+            "review_note": "逐项标记本轮未披露且不能写入输入或监督目标的具体后续信息；即使作为否定提醒也不向模型泄漏。此名单是来源审读回归，不宣称完整语义泄漏证明。"
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "event-b571206f0050567b898cc3425e09ac6797fedfcdfd8c6fac5d9000ffc2d58eb8",
+      "family_id": "family-7ab9e4f720d65ef4442759351e38ebb42eb4ca61936ee85f8d04a4998ec5e965",
+      "case_id": "case-029e543df86f7e8122a33e6fdafb41a8052a982a577f787b871d05c27e903a77",
+      "chart_id": "chart-243288a300e2d9087a8c8195de6b6e4422db34b1c323e050e5d8d805b238c103",
+      "case_title_for_review_only": "实例三：测失皮衣",
+      "stages": [
+        {
+          "key": "after_topic_disclosed",
+          "mode": "continuation",
+          "cutoff_sequence": 5,
+          "input_permissions": [
+            {
+              "record_id": "record-9eb4b937aa39ac8a123e0005ba32ce319a47144a4641cdc68dd0219f22a30dbf",
+              "text_sha256": "7d5bdd5edd27dafe0c6227c696375710698c0f001d352c40326848e8028706ea",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-f7be07a97209bc3dcb8ca0025b989995c3821ad9258565b95a622f7dd873c1d4",
+              "text_sha256": "ac1a17543ac69f45ab637cfcb5bdd3730ef65bf3060b8d7a6f1948639ddf797c",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-a266288c526968d71c423125134b8dc1013062b45c0941dbac6125cf40da8655",
+              "text_sha256": "52bec828b11508f5482de13007e498ff46674cb3e7c7cd43b1630bd69556ded2",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-b59e0ca2bc7cd51925a7976a73b96127ba59422b3f8a5933f5eeec01a1b9796e",
+              "text_sha256": "93935c76bc4983f9137ca510b558e6cdd70de9deb0181d460a4642b8ba97c07c",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-04139d8ac22be02e8a9783914d390445c7f224a750ff40dad72ca0ce79f46735",
+              "text_sha256": "a0cf2bde464a8269b93ee43c29f2493da4f982b1e689d66f1a2bb33c23524623",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            }
+          ],
+          "provided_roles": [
+            "日干壬：本例问测人",
+            "时干庚：本例所说对方",
+            "坐宫坤二：原作者首先采用的观察视角"
+          ],
+          "facts": [
+            {
+              "palace": 2,
+              "field": "heaven_stem",
+              "value": "壬"
+            },
+            {
+              "palace": 2,
+              "field": "door",
+              "value": "开门"
+            },
+            {
+              "palace": 2,
+              "field": "deity",
+              "value": "值符"
+            },
+            {
+              "palace": 7,
+              "field": "heaven_stem",
+              "value": "庚"
+            },
+            {
+              "palace": 7,
+              "field": "door",
+              "value": "休门"
+            },
+            {
+              "palace": 7,
+              "field": "deity",
+              "value": "九天"
+            },
+            {
+              "palace": 1,
+              "field": "deity",
+              "value": "玄武"
+            }
+          ],
+          "rule_references": [
+            {
+              "id": "roles",
+              "source_id": "span-d9cad9c010fe70bcc737b00c82186bb57a14400c8a03ee70c66df15f07d16a21",
+              "excerpt_sha256": "3f707773d9cc35d39b0d920da4227b9b7f70870b90625d19257ff7e2e1eea31a"
+            },
+            {
+              "id": "location",
+              "source_id": "span-f5bda0e51f70c8d35cf281561919288a3a11d8ae3caba56cea19a2ac3cf9bb7b",
+              "excerpt_sha256": "5ba6bb08e51b82b3ecdb4a77a495115345bdb04ea4dfc0ad4c5bfd1c6ddf0653"
+            },
+            {
+              "id": "theft",
+              "source_id": "span-6a3827dfd89b9251b7cdeef7df2af3318841d884bfcbef83b097ffaade4cc693",
+              "excerpt_sha256": "d14395d045ad55afca602ad0f4856b1e842036b363d3f4255d3fb61039a676a9"
+            },
+            {
+              "id": "timing",
+              "source_id": "span-3e5cf937f845b659f3ab6ad2dc4c18f5b9c597043231abc0e89ed43b9dc6573e",
+              "excerpt_sha256": "b18df6160f8df22c05a57d5f1b48e785a7f21abe2bf1decb1251cbd016261dac"
+            },
+            {
+              "id": "documents",
+              "source_id": "span-8c4df0a21fbf00abeb5226b084d54fc07548e5033a57cbd329b216f0d0dfe0d2",
+              "excerpt_sha256": "03cf402ffb9f75959d0bb51702ab6537bd574e671f04d74903f33f88e9d3024b"
+            }
+          ],
+          "review_note": "逐条审读该轮原文；仅开放列出的当前已知记录，九宫保留完整字面。作者断语的归纳为显式方法复现，不推为实际预测准确或已编译通用规则。",
+          "tasks": [
+            {
+              "type": "chart_evidence",
+              "target_permissions": [
+                {
+                  "record_id": "record-4f155bf0ec2a2f3d8a74b81d34655e16ed02f59d1f3fb6b59c016421c5a123de",
+                  "text_sha256": "79deb6e6b4db1d8c481f6fcc5833d11c7bf661e034be0a256f56a22daa80aeed"
+                }
+              ],
+              "answer": {
+                "explanation": "到本轮才知道问题是少了一件皮衣。按原例已给的坐宫、日干和对方时干视角，读取坤二与兑七的门神、天干以及玄武所在坎宫；不能把皮衣问题倒填进此前未透露问事的初轮。",
+                "citations": [
+                  "chart"
+                ],
+                "uncertainties": []
+              }
+            },
+            {
+              "type": "feedback_continuation",
+              "target_permissions": [
+                {
+                  "record_id": "record-4f155bf0ec2a2f3d8a74b81d34655e16ed02f59d1f3fb6b59c016421c5a123de",
+                  "text_sha256": "79deb6e6b4db1d8c481f6fcc5833d11c7bf661e034be0a256f56a22daa80aeed"
+                },
+                {
+                  "record_id": "record-04270ed8072b685d64d003d8992f70d4cfaee4599bf29c6a3b5275870bbfae5d",
+                  "text_sha256": "9830d7e6c76d03b72009e0599ad80f97956ee777931283b11678b2d5b2e80fd9"
+                }
+              ],
+              "answer": {
+                "explanation": "她说明少一件皮衣后，原例继续沿用来时这张盘，结合坐宫坤二的值符、开门及与玄武宫的关系，又比较日干与所指对方的时干宫。由这些相互支持的信息，作者倾向并非被偷，而是仍留在卖主一方，建议尽快向辛集卖主寻找。此时还没有找回反馈。",
+                "citations": [
+                  "chart",
+                  "roles",
+                  "location",
+                  "theft",
+                  "documents"
+                ],
+                "uncertainties": [
+                  "此前只说失财或错账，不能改写成一开始就知道皮衣遗失。"
+                ],
+                "chart_action": "reuse_original"
+              },
+              "source_given_conditions": [
+                {
+                  "record_id": "record-4f155bf0ec2a2f3d8a74b81d34655e16ed02f59d1f3fb6b59c016421c5a123de",
+                  "text_sha256": "79deb6e6b4db1d8c481f6fcc5833d11c7bf661e034be0a256f56a22daa80aeed",
+                  "quote": "宫生门，星生宫",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                },
+                {
+                  "record_id": "record-4f155bf0ec2a2f3d8a74b81d34655e16ed02f59d1f3fb6b59c016421c5a123de",
+                  "text_sha256": "79deb6e6b4db1d8c481f6fcc5833d11c7bf661e034be0a256f56a22daa80aeed",
+                  "quote": "又坤宫克玄武所落坎1宫",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                },
+                {
+                  "record_id": "record-4f155bf0ec2a2f3d8a74b81d34655e16ed02f59d1f3fb6b59c016421c5a123de",
+                  "text_sha256": "79deb6e6b4db1d8c481f6fcc5833d11c7bf661e034be0a256f56a22daa80aeed",
+                  "quote": "又天盘日干壬受地盘时干庚之生",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                }
+              ]
+            }
+          ],
+          "unavailable_information": {
+            "forbidden_phrases": [
+              "现已送还"
+            ],
+            "review_note": "逐项标记本轮未披露且不能写入输入或监督目标的具体后续信息；即使作为否定提醒也不向模型泄漏。此名单是来源审读回归，不宣称完整语义泄漏证明。"
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "event-25ec007525bfa2c0e42bf3fd07ab67e6775d989b765574f9a6b6501d0eba134b",
+      "family_id": "family-3382e87821fa440bc20bf808181a745000c91f3d4a9663b055af56eb6fdd0022",
+      "case_id": "case-3c1ec0139a4c5d89ff767270bc68e893181df6d4d0a5d036c0f8f1205f97ab5d",
+      "chart_id": "chart-0b72c3608c5f02978cdd3be5beeea0b2a0d6005d7faaaa67e4b130fb43820394",
+      "case_title_for_review_only": "实例四：测丢BP机",
+      "stages": [
+        {
+          "key": "first",
+          "mode": "initial",
+          "cutoff_sequence": 3,
+          "input_permissions": [
+            {
+              "record_id": "record-9bfeda64bff84b18b0bd56be17ac3a532ccd83fc50067b83b1736f0e328ee589",
+              "text_sha256": "3fb46e6ae99b17895c6bcfcd21e2046914a510ad89ead52371b27214600cc3e3",
+              "grant": "pre_prediction_dialogue",
+              "semantic_note": "原书首断前已明确的问测信息。"
+            },
+            {
+              "record_id": "record-fb7e97b006c3347054345c1810d1dfebe45f14a4d0acc1b714d7c3f30bd4fcf5",
+              "text_sha256": "f51ee227525fa8cb5d0b53b1fe557c9f96320ed45a6149d916cbb168186096b4",
+              "grant": "pre_prediction_dialogue",
+              "semantic_note": "原书首断前已明确的问测信息。"
+            },
+            {
+              "record_id": "record-1edef1929268d72050aa53f4f0cf8c86e94af08d2d33da19e28fda254eb7fea9",
+              "text_sha256": "75c1bf15eaed635cc30d7a9285f2a81fb73699bd33ad2033d2ae3500a34e4654",
+              "grant": "source_given_time_metadata",
+              "semantic_note": "逐句审读；此unknown记录仅为原书给定四柱、遁局、旬及值符使，不含判断或反馈。"
+            }
+          ],
+          "provided_roles": [
+            "日干丁：失主",
+            "时干丙：BP机",
+            "景门：通信设备视角"
+          ],
+          "facts": [
+            {
+              "palace": 8,
+              "field": "heaven_stem",
+              "value": "丙"
+            },
+            {
+              "palace": 8,
+              "field": "door",
+              "value": "伤门"
+            },
+            {
+              "palace": 8,
+              "field": "deity",
+              "value": "白虎"
+            },
+            {
+              "palace": 3,
+              "field": "deity",
+              "value": "玄武"
+            },
+            {
+              "palace": 9,
+              "field": "heaven_stem",
+              "value": "丁"
+            },
+            {
+              "palace": 4,
+              "field": "door",
+              "value": "景门"
+            }
+          ],
+          "rule_references": [
+            {
+              "id": "roles",
+              "source_id": "span-d9cad9c010fe70bcc737b00c82186bb57a14400c8a03ee70c66df15f07d16a21",
+              "excerpt_sha256": "3f707773d9cc35d39b0d920da4227b9b7f70870b90625d19257ff7e2e1eea31a"
+            },
+            {
+              "id": "location",
+              "source_id": "span-f5bda0e51f70c8d35cf281561919288a3a11d8ae3caba56cea19a2ac3cf9bb7b",
+              "excerpt_sha256": "5ba6bb08e51b82b3ecdb4a77a495115345bdb04ea4dfc0ad4c5bfd1c6ddf0653"
+            },
+            {
+              "id": "theft",
+              "source_id": "span-6a3827dfd89b9251b7cdeef7df2af3318841d884bfcbef83b097ffaade4cc693",
+              "excerpt_sha256": "d14395d045ad55afca602ad0f4856b1e842036b363d3f4255d3fb61039a676a9"
+            },
+            {
+              "id": "timing",
+              "source_id": "span-3e5cf937f845b659f3ab6ad2dc4c18f5b9c597043231abc0e89ed43b9dc6573e",
+              "excerpt_sha256": "b18df6160f8df22c05a57d5f1b48e785a7f21abe2bf1decb1251cbd016261dac"
+            },
+            {
+              "id": "documents",
+              "source_id": "span-8c4df0a21fbf00abeb5226b084d54fc07548e5033a57cbd329b216f0d0dfe0d2",
+              "excerpt_sha256": "03cf402ffb9f75959d0bb51702ab6537bd574e671f04d74903f33f88e9d3024b"
+            }
+          ],
+          "review_note": "逐条审读该轮原文；仅开放列出的当前已知记录，九宫保留完整字面。作者断语的归纳为显式方法复现，不推为实际预测准确或已编译通用规则。",
+          "tasks": [
+            {
+              "type": "role_selection",
+              "target_permissions": [
+                {
+                  "record_id": "record-f460172b680918c634595983992f342defd4390f35c5361f53d47683d1b2bb7e",
+                  "text_sha256": "9c6a2e346eb5cba92b99bfa5a91eb72e6eb1c30c0a3dea7fc68a383baf3283cb"
+                },
+                {
+                  "record_id": "record-91a73bbcf5fe1e3e6c9abb4e8a7865bcbf946c2b7d3782cbf140dd7dd1ac4d5c",
+                  "text_sha256": "24021c9fbb9de5b3d70da59ed78df1942f9c0360c85fdc80c41465a4d038cf3b"
+                }
+              ],
+              "answer": {
+                "explanation": "明确是在问丢失BP机，先按一般法用日干看失主、时干看BP机。原作者还从景门的通信类象作交叉观察；不同视角有出处时分别使用，不仅凭物名或凶神作结论。",
+                "citations": [
+                  "roles"
+                ],
+                "uncertainties": [
+                  "这是本题指定的一般取法，不排除原例的其他有来源取法。"
+                ],
+                "bindings": [
+                  {
+                    "role": "失主或本例问测主体",
+                    "symbol": "日干",
+                    "condition": "已经明确问失物，并按本章一般取法；代问身份仍以本例口径为限。"
+                  },
+                  {
+                    "role": "丢失之钱物",
+                    "symbol": "时干",
+                    "condition": "同一问测和同一一般法，不扩成其他事件用神。"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "chart_evidence",
+              "target_permissions": [
+                {
+                  "record_id": "record-f460172b680918c634595983992f342defd4390f35c5361f53d47683d1b2bb7e",
+                  "text_sha256": "9c6a2e346eb5cba92b99bfa5a91eb72e6eb1c30c0a3dea7fc68a383baf3283cb"
+                },
+                {
+                  "record_id": "record-655e6ce4034e392493c556f6be46a5a05073770367b4e4c6f997c9303660fb75",
+                  "text_sha256": "f87d1bb2ddb221448e1273d2ebdc7e534788a471d991c6a17b4eb1b3f129a879"
+                },
+                {
+                  "record_id": "record-91a73bbcf5fe1e3e6c9abb4e8a7865bcbf946c2b7d3782cbf140dd7dd1ac4d5c",
+                  "text_sha256": "24021c9fbb9de5b3d70da59ed78df1942f9c0360c85fdc80c41465a4d038cf3b"
+                }
+              ],
+              "answer": {
+                "explanation": "时干丙在艮八，临伤门、白虎；日干丁在离九，玄武在震三，景门在巽四。先把这些可从原表读取的信息分开，空亡和反吟另需对应方法确认，不伪装成表内已有字段。",
+                "citations": [
+                  "chart"
+                ],
+                "uncertainties": []
+              }
+            },
+            {
+              "type": "evidence_synthesis",
+              "target_permissions": [
+                {
+                  "record_id": "record-f460172b680918c634595983992f342defd4390f35c5361f53d47683d1b2bb7e",
+                  "text_sha256": "9c6a2e346eb5cba92b99bfa5a91eb72e6eb1c30c0a3dea7fc68a383baf3283cb"
+                },
+                {
+                  "record_id": "record-655e6ce4034e392493c556f6be46a5a05073770367b4e4c6f997c9303660fb75",
+                  "text_sha256": "f87d1bb2ddb221448e1273d2ebdc7e534788a471d991c6a17b4eb1b3f129a879"
+                },
+                {
+                  "record_id": "record-91a73bbcf5fe1e3e6c9abb4e8a7865bcbf946c2b7d3782cbf140dd7dd1ac4d5c",
+                  "text_sha256": "24021c9fbb9de5b3d70da59ed78df1942f9c0360c85fdc80c41465a4d038cf3b"
+                },
+                {
+                  "record_id": "record-9b664ed8b134c164226b0b204b4f2c778740da86e62eafa817d8ca878a57c845",
+                  "text_sha256": "422c1948b5869b97abca1042645639176de57ea38fb92725d7f17bd0917688cf"
+                }
+              ],
+              "answer": {
+                "explanation": "原例把道路损失的类象与盗失判断分开：时干所临伤门、白虎用于提出路边电话亭的遗失线索，玄武空亡及天蓬不克时干宫等则用于排除被盗倾向。再用日时宫相生、景门生扶日干宫支持能够找回。拾得者三个小伙子的说法，是艮少男与伤门取数的作者类象推测，不是当时已经得到的证言。",
+                "citations": [
+                  "chart",
+                  "roles",
+                  "theft",
+                  "location",
+                  "documents"
+                ],
+                "uncertainties": [
+                  "空亡、反吟和拾得者人数属于本例作者的解释；不能把这些推测写成当时已经获得的外部证言。"
+                ]
+              },
+              "source_given_conditions": [
+                {
+                  "record_id": "record-f460172b680918c634595983992f342defd4390f35c5361f53d47683d1b2bb7e",
+                  "text_sha256": "9c6a2e346eb5cba92b99bfa5a91eb72e6eb1c30c0a3dea7fc68a383baf3283cb",
+                  "quote": "时干丙落艮8宫为空亡之地（甲辰旬中寅、卯空）",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                },
+                {
+                  "record_id": "record-655e6ce4034e392493c556f6be46a5a05073770367b4e4c6f997c9303660fb75",
+                  "text_sha256": "f87d1bb2ddb221448e1273d2ebdc7e534788a471d991c6a17b4eb1b3f129a879",
+                  "quote": "玄武落3宫空亡",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                },
+                {
+                  "record_id": "record-655e6ce4034e392493c556f6be46a5a05073770367b4e4c6f997c9303660fb75",
+                  "text_sha256": "f87d1bb2ddb221448e1273d2ebdc7e534788a471d991c6a17b4eb1b3f129a879",
+                  "quote": "天蓬为大盗，落9宫，临死门，不克时干宫",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                },
+                {
+                  "record_id": "record-91a73bbcf5fe1e3e6c9abb4e8a7865bcbf946c2b7d3782cbf140dd7dd1ac4d5c",
+                  "text_sha256": "24021c9fbb9de5b3d70da59ed78df1942f9c0360c85fdc80c41465a4d038cf3b",
+                  "quote": "日干丁落离9宫，与时干丙所落艮8宫相生",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                }
+              ]
+            },
+            {
+              "type": "timing_analysis",
+              "target_permissions": [
+                {
+                  "record_id": "record-7b50cd93900489c19f8ef44e06ac176acaa13f9e92cd7d0624d83e20f578588c",
+                  "text_sha256": "659f86c1b541794af2f2c703f7375341a00b94825484cc41ff0a699e948a1f7b"
+                }
+              ],
+              "answer": {
+                "explanation": "作者先以九星反吟、阳遁内盘取快，将寻找范围限在八日内，再按甲辰旬寅卯空、出空取应期，给出三月二十四日甲寅日。应将时间范围、出空条件和具体日分别记录；这里保存的是预测，不使用后来反馈证明推导。",
+                "citations": [
+                  "chart",
+                  "timing"
+                ],
+                "uncertainties": [
+                  "未由本导出器独立校验公历转换。"
+                ],
+                "methods": [
+                  "反吟与内盘取快",
+                  "旬空出空取应期"
+                ]
+              },
+              "source_given_conditions": [
+                {
+                  "record_id": "record-7b50cd93900489c19f8ef44e06ac176acaa13f9e92cd7d0624d83e20f578588c",
+                  "text_sha256": "659f86c1b541794af2f2c703f7375341a00b94825484cc41ff0a699e948a1f7b",
+                  "quote": "九星反吟主快，阳遁8宫为内",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                },
+                {
+                  "record_id": "record-7b50cd93900489c19f8ef44e06ac176acaa13f9e92cd7d0624d83e20f578588c",
+                  "text_sha256": "659f86c1b541794af2f2c703f7375341a00b94825484cc41ff0a699e948a1f7b",
+                  "quote": "甲辰旬中寅卯空",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                }
+              ]
+            }
+          ],
+          "unavailable_information": {
+            "forbidden_phrases": [],
+            "review_note": "逐项标记本轮未披露且不能写入输入或监督目标的具体后续信息；即使作为否定提醒也不向模型泄漏。此名单是来源审读回归，不宣称完整语义泄漏证明。"
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "event-36d690eefde1897059c757f89fcbdc116b1f87c6a69408b3232248dd19057857",
+      "family_id": "family-a2b130fca4834fdc1d9fa0ca75260fc68ab2f6a4fe423c328cb51d476e63b751",
+      "case_id": "case-cbb92faf5ba02f7a1a36e4cd4743c471a15dbfb5438684c73cdb50168a7c72ca",
+      "chart_id": "chart-cb0431cd730cc94d5bff1bd0d14b247b3339d5058880ab406a3d79c45f3717e1",
+      "case_title_for_review_only": "实例五：测失钱",
+      "stages": [
+        {
+          "key": "first",
+          "mode": "initial",
+          "cutoff_sequence": 3,
+          "input_permissions": [
+            {
+              "record_id": "record-c3171ddd882fbdca7d871159052984c9b96ec8e2bb85de0fa30a53bac1c67754",
+              "text_sha256": "8f85238db445832874ea84f520720f40d55423a2b7dc2e3ab9bf0b38c787fab2",
+              "grant": "pre_prediction_dialogue",
+              "semantic_note": "原书首断前已明确的问测信息。"
+            },
+            {
+              "record_id": "record-f2d6fe40da860caf481a8a876729264c892249b389e3763c1f6fee92502ba911",
+              "text_sha256": "45383795c8693b00532209a09b5ae96fcfc2557f7b838229cc1f96895ad5ba55",
+              "grant": "pre_prediction_dialogue",
+              "semantic_note": "原书首断前已明确的问测信息。"
+            },
+            {
+              "record_id": "record-bf00e5d972f7abc650680cd230305d022ce82b1b59400f701d15fed751bddd8f",
+              "text_sha256": "dc18bc4b586d2e58b7208ed4f543423b5dedbd5afbab7e4080b1ff2fe420112b",
+              "grant": "source_given_time_metadata",
+              "semantic_note": "逐句审读；此unknown记录仅为原书给定四柱、遁局、旬及值符使，不含判断或反馈。"
+            }
+          ],
+          "provided_roles": [
+            "日干庚：失主",
+            "时干壬：失物",
+            "甲子戊：钱财辅助视角"
+          ],
+          "facts": [
+            {
+              "palace": 4,
+              "field": "heaven_stem",
+              "value": "庚"
+            },
+            {
+              "palace": 3,
+              "field": "heaven_stem",
+              "value": "壬"
+            },
+            {
+              "palace": 2,
+              "field": "deity",
+              "value": "玄武"
+            },
+            {
+              "palace": 8,
+              "field": "heaven_stem",
+              "value": "戊"
+            },
+            {
+              "palace": 8,
+              "field": "earth_stem",
+              "value": "庚"
+            },
+            {
+              "palace": 8,
+              "field": "deity",
+              "value": "螣蛇"
+            },
+            {
+              "palace": 6,
+              "field": "door",
+              "value": "惊门"
+            }
+          ],
+          "rule_references": [
+            {
+              "id": "roles",
+              "source_id": "span-d9cad9c010fe70bcc737b00c82186bb57a14400c8a03ee70c66df15f07d16a21",
+              "excerpt_sha256": "3f707773d9cc35d39b0d920da4227b9b7f70870b90625d19257ff7e2e1eea31a"
+            },
+            {
+              "id": "location",
+              "source_id": "span-f5bda0e51f70c8d35cf281561919288a3a11d8ae3caba56cea19a2ac3cf9bb7b",
+              "excerpt_sha256": "5ba6bb08e51b82b3ecdb4a77a495115345bdb04ea4dfc0ad4c5bfd1c6ddf0653"
+            },
+            {
+              "id": "theft",
+              "source_id": "span-6a3827dfd89b9251b7cdeef7df2af3318841d884bfcbef83b097ffaade4cc693",
+              "excerpt_sha256": "d14395d045ad55afca602ad0f4856b1e842036b363d3f4255d3fb61039a676a9"
+            },
+            {
+              "id": "timing",
+              "source_id": "span-3e5cf937f845b659f3ab6ad2dc4c18f5b9c597043231abc0e89ed43b9dc6573e",
+              "excerpt_sha256": "b18df6160f8df22c05a57d5f1b48e785a7f21abe2bf1decb1251cbd016261dac"
+            },
+            {
+              "id": "documents",
+              "source_id": "span-8c4df0a21fbf00abeb5226b084d54fc07548e5033a57cbd329b216f0d0dfe0d2",
+              "excerpt_sha256": "03cf402ffb9f75959d0bb51702ab6537bd574e671f04d74903f33f88e9d3024b"
+            }
+          ],
+          "review_note": "逐条审读该轮原文；仅开放列出的当前已知记录，九宫保留完整字面。作者断语的归纳为显式方法复现，不推为实际预测准确或已编译通用规则。",
+          "tasks": [
+            {
+              "type": "role_selection",
+              "target_permissions": [
+                {
+                  "record_id": "record-762237775fd31d1a8a651ace57c1679a68baeac1bb7decc9b587de1e842bd13e",
+                  "text_sha256": "43ff2ae8db91f57b9a653e9f7da0bd2f969dcc02ca7f617636faa931f77fbe6c"
+                },
+                {
+                  "record_id": "record-513910cb0cf732ae5ce44a179e1c2b69fd8d1a31cc8275f6c3b6c326cb009e9b",
+                  "text_sha256": "cc0887049921a39b41dc6eb75b82a3915f15cc532be6cb6042d6baf24b1a4cc1"
+                }
+              ],
+              "answer": {
+                "explanation": "已知是失钱并怀疑侄儿拿走。按一般法先以日干看失主、时干看失物，侄儿住过只能算背景，不能据此绑定盗者。原例另外用甲子戊观察钱财，这个案例辅助取法与一般日时法分开保存。",
+                "citations": [
+                  "roles"
+                ],
+                "uncertainties": [
+                  "这是本题指定的一般取法，不排除原例的其他有来源取法。"
+                ],
+                "bindings": [
+                  {
+                    "role": "失主或本例问测主体",
+                    "symbol": "日干",
+                    "condition": "已经明确问失物，并按本章一般取法；代问身份仍以本例口径为限。"
+                  },
+                  {
+                    "role": "丢失之钱物",
+                    "symbol": "时干",
+                    "condition": "同一问测和同一一般法，不扩成其他事件用神。"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "chart_evidence",
+              "target_permissions": [
+                {
+                  "record_id": "record-762237775fd31d1a8a651ace57c1679a68baeac1bb7decc9b587de1e842bd13e",
+                  "text_sha256": "43ff2ae8db91f57b9a653e9f7da0bd2f969dcc02ca7f617636faa931f77fbe6c"
+                },
+                {
+                  "record_id": "record-d887d37605c6c2329f810698983047a5bd250e3245012790c2db3974e30ed5cc",
+                  "text_sha256": "23f7ac957bfeffee225356367dc714762ae06ed566b1194e134c3515b4b1d0c5"
+                },
+                {
+                  "record_id": "record-513910cb0cf732ae5ce44a179e1c2b69fd8d1a31cc8275f6c3b6c326cb009e9b",
+                  "text_sha256": "cc0887049921a39b41dc6eb75b82a3915f15cc532be6cb6042d6baf24b1a4cc1"
+                }
+              ],
+              "answer": {
+                "explanation": "从原表读取巽四的庚、震三的壬、坤二的玄武，以及艮八的戊加庚和螣蛇。它们是后续比较的事实输入；玄武宫是否空亡及戊庚格局含义不能冒充为表内直接写出的事实。",
+                "citations": [
+                  "chart"
+                ],
+                "uncertainties": []
+              }
+            },
+            {
+              "type": "evidence_synthesis",
+              "target_permissions": [
+                {
+                  "record_id": "record-762237775fd31d1a8a651ace57c1679a68baeac1bb7decc9b587de1e842bd13e",
+                  "text_sha256": "43ff2ae8db91f57b9a653e9f7da0bd2f969dcc02ca7f617636faa931f77fbe6c"
+                },
+                {
+                  "record_id": "record-d887d37605c6c2329f810698983047a5bd250e3245012790c2db3974e30ed5cc",
+                  "text_sha256": "23f7ac957bfeffee225356367dc714762ae06ed566b1194e134c3515b4b1d0c5"
+                },
+                {
+                  "record_id": "record-513910cb0cf732ae5ce44a179e1c2b69fd8d1a31cc8275f6c3b6c326cb009e9b",
+                  "text_sha256": "cc0887049921a39b41dc6eb75b82a3915f15cc532be6cb6042d6baf24b1a4cc1"
+                },
+                {
+                  "record_id": "record-7d368a5be0c44e9571da1b54f0e6ce39bcf0c946fdcadbd89be9e36b66e8a580",
+                  "text_sha256": "2e3dfd11ec3ad648e2e2339a20576d229618f49c7f65fcec383a69c6202924de"
+                }
+              ],
+              "answer": {
+                "explanation": "作者先以日时宫比和支持钱仍在，再考察玄武落空亡且不克失物宫，未把怀疑侄儿或见玄武直接当成被盗。钱财甲子戊的移位、戊下庚对应日干及螣蛇变化等，被综合为本人挪动后忘记的可能。天盘甲子戊及内盘木宫用于提出家中立柜或木家具的寻找线索。此时尚未查明实际藏放处，不能把侄儿当作已确认的盗者。",
+                "citations": [
+                  "chart",
+                  "roles",
+                  "theft",
+                  "location",
+                  "documents"
+                ],
+                "uncertainties": [
+                  "本人挪动后忘记是原例当时的倾向判断；实际找到经过仍未知。"
+                ]
+              },
+              "source_given_conditions": [
+                {
+                  "record_id": "record-762237775fd31d1a8a651ace57c1679a68baeac1bb7decc9b587de1e842bd13e",
+                  "text_sha256": "43ff2ae8db91f57b9a653e9f7da0bd2f969dcc02ca7f617636faa931f77fbe6c",
+                  "quote": "日、时比和",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                },
+                {
+                  "record_id": "record-d887d37605c6c2329f810698983047a5bd250e3245012790c2db3974e30ed5cc",
+                  "text_sha256": "23f7ac957bfeffee225356367dc714762ae06ed566b1194e134c3515b4b1d0c5",
+                  "quote": "玄武为小偷，落2宫空亡，又不克时干落宫",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                },
+                {
+                  "record_id": "record-513910cb0cf732ae5ce44a179e1c2b69fd8d1a31cc8275f6c3b6c326cb009e9b",
+                  "text_sha256": "cc0887049921a39b41dc6eb75b82a3915f15cc532be6cb6042d6baf24b1a4cc1",
+                  "quote": "戊+庚为飞宫格",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                },
+                {
+                  "record_id": "record-7d368a5be0c44e9571da1b54f0e6ce39bcf0c946fdcadbd89be9e36b66e8a580",
+                  "text_sha256": "2e3dfd11ec3ad648e2e2339a20576d229618f49c7f65fcec383a69c6202924de",
+                  "quote": "艮为山为止，阳遁为内盘",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                }
+              ]
+            },
+            {
+              "type": "timing_analysis",
+              "target_permissions": [
+                {
+                  "record_id": "record-0a9a90eda8b317a7ca4210334e860071819b73755709148d045cf78fd198284d",
+                  "text_sha256": "46754585631d16ad67f0f9f8b1379d042c780b0e83ce6229d7e983b456b46e41"
+                }
+              ],
+              "answer": {
+                "explanation": "原例把内盘的快与值使惊门落乾六取数相结合，给出六天左右；另依庚申为阳日，采用阳日看庚下之干，巽四庚下丙，断三月三十日丙寅日。两条应期口径都应标出条件，不能只给一个没有来由的日期。",
+                "citations": [
+                  "chart",
+                  "timing"
+                ],
+                "uncertainties": [
+                  "保留作者在此案按阳日取庚下的实际口径；不把一般条文的阴干阳干与此处阳日悄悄合并。"
+                ],
+                "methods": [
+                  "内盘快慢与值使宫取数",
+                  "阳日庚下之干取应期"
+                ]
+              },
+              "source_given_conditions": [
+                {
+                  "record_id": "record-0a9a90eda8b317a7ca4210334e860071819b73755709148d045cf78fd198284d",
+                  "text_sha256": "46754585631d16ad67f0f9f8b1379d042c780b0e83ce6229d7e983b456b46e41",
+                  "quote": "时干、甲子戊均在内盘",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                },
+                {
+                  "record_id": "record-0a9a90eda8b317a7ca4210334e860071819b73755709148d045cf78fd198284d",
+                  "text_sha256": "46754585631d16ad67f0f9f8b1379d042c780b0e83ce6229d7e983b456b46e41",
+                  "quote": "惊门值使落6宫",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                },
+                {
+                  "record_id": "record-0a9a90eda8b317a7ca4210334e860071819b73755709148d045cf78fd198284d",
+                  "text_sha256": "46754585631d16ad67f0f9f8b1379d042c780b0e83ce6229d7e983b456b46e41",
+                  "quote": "今庚申日为阳日，4宫庚下之干为丙",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                }
+              ]
+            }
+          ],
+          "unavailable_information": {
+            "forbidden_phrases": [
+              "床单",
+              "脚面",
+              "上午8点"
+            ],
+            "review_note": "逐项标记本轮未披露且不能写入输入或监督目标的具体后续信息；即使作为否定提醒也不向模型泄漏。此名单是来源审读回归，不宣称完整语义泄漏证明。"
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "event-9192e1ff39f4a4a9b8121291ebbdc2d1794e87017fedb52a7bb9c1d65f4c2d2d",
+      "family_id": "family-d6a8d85716f792920f3cb8bea0f33eeb4994133b9ad77555eceb820946148648",
+      "case_id": "case-f3a4cf455cfa420796db078054c6e8e09b5857d8f5e5e342d0870213ca53c3d2",
+      "chart_id": "chart-409ad5826971bcfc7ed6e1ecf5894585097afb2f51dce4f0707c1962f5e273d0",
+      "case_title_for_review_only": "实例六：测丢失文件",
+      "stages": [
+        {
+          "key": "first",
+          "mode": "initial",
+          "cutoff_sequence": 5,
+          "input_permissions": [
+            {
+              "record_id": "record-45ab6af4ec8f3b847425948c12cfda862eca497e3b2621d13a36a606739facb3",
+              "text_sha256": "d74fd8eac1b13b79d016f9338f7cd5a340eb4db63aa0cb877f5565f6984ea1a6",
+              "grant": "pre_prediction_dialogue",
+              "semantic_note": "原书首断前已明确的问测信息。"
+            },
+            {
+              "record_id": "record-456d365c43553e85da1154d78c8a54221011030c1896222598376a399bb1a2a8",
+              "text_sha256": "24ecdd1a290b32789cd93ec4a01b2d424432c866631a8afd6181637336dc53d3",
+              "grant": "pre_prediction_dialogue",
+              "semantic_note": "原书首断前已明确的问测信息。"
+            },
+            {
+              "record_id": "record-d35ad11ccc8001ba1da2a1dc7979beedc00ba5bbf529a97cec2a6aeda9c536e0",
+              "text_sha256": "57c4ce16aa420b91b006ed7e226b3ab0642c933a8e87f7ab74614a877fa6a793",
+              "grant": "pre_prediction_dialogue",
+              "semantic_note": "原书首断前已明确的问测信息。"
+            },
+            {
+              "record_id": "record-6a69508642f37657171802f586d3817bc3ed91db6c707c2f5a0d8347bfd8c52a",
+              "text_sha256": "e39122a98b80061f03335f3dac48ed27c118765137ef76a250a52f0e94eb8cfe",
+              "grant": "source_given_time_metadata",
+              "semantic_note": "逐句审读；此unknown记录仅为原书给定四柱、遁局、旬及值符使，不含判断或反馈。"
+            }
+          ],
+          "provided_roles": [
+            "日干辛：问测人",
+            "甲午时所遁之辛：本例时干用神",
+            "丁奇：文件辅助视角"
+          ],
+          "facts": [
+            {
+              "palace": 2,
+              "field": "heaven_stem",
+              "value": "辛"
+            },
+            {
+              "palace": 2,
+              "field": "earth_stem",
+              "value": "辛"
+            },
+            {
+              "palace": 1,
+              "field": "deity",
+              "value": "玄武"
+            },
+            {
+              "palace": 1,
+              "field": "star",
+              "value": "天蓬星"
+            },
+            {
+              "palace": 8,
+              "field": "heaven_stem",
+              "value": "丁"
+            },
+            {
+              "palace": 8,
+              "field": "door",
+              "value": "生门"
+            },
+            {
+              "palace": 8,
+              "field": "deity",
+              "value": "白虎"
+            }
+          ],
+          "rule_references": [
+            {
+              "id": "roles",
+              "source_id": "span-d9cad9c010fe70bcc737b00c82186bb57a14400c8a03ee70c66df15f07d16a21",
+              "excerpt_sha256": "3f707773d9cc35d39b0d920da4227b9b7f70870b90625d19257ff7e2e1eea31a"
+            },
+            {
+              "id": "location",
+              "source_id": "span-f5bda0e51f70c8d35cf281561919288a3a11d8ae3caba56cea19a2ac3cf9bb7b",
+              "excerpt_sha256": "5ba6bb08e51b82b3ecdb4a77a495115345bdb04ea4dfc0ad4c5bfd1c6ddf0653"
+            },
+            {
+              "id": "theft",
+              "source_id": "span-6a3827dfd89b9251b7cdeef7df2af3318841d884bfcbef83b097ffaade4cc693",
+              "excerpt_sha256": "d14395d045ad55afca602ad0f4856b1e842036b363d3f4255d3fb61039a676a9"
+            },
+            {
+              "id": "timing",
+              "source_id": "span-3e5cf937f845b659f3ab6ad2dc4c18f5b9c597043231abc0e89ed43b9dc6573e",
+              "excerpt_sha256": "b18df6160f8df22c05a57d5f1b48e785a7f21abe2bf1decb1251cbd016261dac"
+            },
+            {
+              "id": "documents",
+              "source_id": "span-8c4df0a21fbf00abeb5226b084d54fc07548e5033a57cbd329b216f0d0dfe0d2",
+              "excerpt_sha256": "03cf402ffb9f75959d0bb51702ab6537bd574e671f04d74903f33f88e9d3024b"
+            }
+          ],
+          "review_note": "逐条审读该轮原文；仅开放列出的当前已知记录，九宫保留完整字面。作者断语的归纳为显式方法复现，不推为实际预测准确或已编译通用规则。",
+          "tasks": [
+            {
+              "type": "role_selection",
+              "target_permissions": [
+                {
+                  "record_id": "record-321dfaf0431f27555bc53b3f604b52174e734dfae06478f30541a65398625cc0",
+                  "text_sha256": "301cc47f720b3431a296ef71a80c801193eba786079907c5ee8aa79dd371ebcd"
+                },
+                {
+                  "record_id": "record-9fea1e4ae796c67ba1c54cdf5bb55459ee8947db6b214779bf495e5da1aceca2",
+                  "text_sha256": "59eff49fd0a527722f82d9797fe25b108622f9a1aac3c52c64aa4d25d76a690d"
+                }
+              ],
+              "answer": {
+                "explanation": "本轮已明确寻找重要文件。按一般法用日干和时干观察问测人与失物，本例原文把日时都记为辛；丁奇为文件是另一个辅助视角。后续寻找结果未知，不能在角色选择时预设具体发现位置。",
+                "citations": [
+                  "roles"
+                ],
+                "uncertainties": [
+                  "这是本题指定的一般取法，不排除原例的其他有来源取法。"
+                ],
+                "bindings": [
+                  {
+                    "role": "失主或本例问测主体",
+                    "symbol": "日干",
+                    "condition": "已经明确问失物，并按本章一般取法；代问身份仍以本例口径为限。"
+                  },
+                  {
+                    "role": "丢失之钱物",
+                    "symbol": "时干",
+                    "condition": "同一问测和同一一般法，不扩成其他事件用神。"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "chart_evidence",
+              "target_permissions": [
+                {
+                  "record_id": "record-321dfaf0431f27555bc53b3f604b52174e734dfae06478f30541a65398625cc0",
+                  "text_sha256": "301cc47f720b3431a296ef71a80c801193eba786079907c5ee8aa79dd371ebcd"
+                },
+                {
+                  "record_id": "record-9fea1e4ae796c67ba1c54cdf5bb55459ee8947db6b214779bf495e5da1aceca2",
+                  "text_sha256": "59eff49fd0a527722f82d9797fe25b108622f9a1aac3c52c64aa4d25d76a690d"
+                }
+              ],
+              "answer": {
+                "explanation": "原表坤二为辛辛，坎一有天蓬与玄武，艮八有丁和生门、白虎。把这些实际盘表信息与文件的重要程度、纸袋等作者推断分开列出。",
+                "citations": [
+                  "chart"
+                ],
+                "uncertainties": []
+              }
+            },
+            {
+              "type": "evidence_synthesis",
+              "target_permissions": [
+                {
+                  "record_id": "record-321dfaf0431f27555bc53b3f604b52174e734dfae06478f30541a65398625cc0",
+                  "text_sha256": "301cc47f720b3431a296ef71a80c801193eba786079907c5ee8aa79dd371ebcd"
+                },
+                {
+                  "record_id": "record-9fea1e4ae796c67ba1c54cdf5bb55459ee8947db6b214779bf495e5da1aceca2",
+                  "text_sha256": "59eff49fd0a527722f82d9797fe25b108622f9a1aac3c52c64aa4d25d76a690d"
+                }
+              ],
+              "answer": {
+                "explanation": "首次分析把日时同宫、坤宫克天蓬玄武宫用于判断文件未丢、非盗，再由丁奇临太岁、白虎及入丑库等提出重要文件、牛皮纸袋与五份的判断。首次判断只到这些内容为止，目前尚未收到物品特征确认或位置反馈。",
+                "citations": [
+                  "chart",
+                  "roles",
+                  "theft",
+                  "location",
+                  "documents"
+                ],
+                "uncertainties": [
+                  "入库、份数及纸袋属于本例作者的解释，与原盘字面事实分别标明。"
+                ]
+              },
+              "source_given_conditions": [
+                {
+                  "record_id": "record-321dfaf0431f27555bc53b3f604b52174e734dfae06478f30541a65398625cc0",
+                  "text_sha256": "301cc47f720b3431a296ef71a80c801193eba786079907c5ee8aa79dd371ebcd",
+                  "quote": "日干辛、时干辛同落坤2宫，又克天蓬、玄武落宫",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                },
+                {
+                  "record_id": "record-9fea1e4ae796c67ba1c54cdf5bb55459ee8947db6b214779bf495e5da1aceca2",
+                  "text_sha256": "59eff49fd0a527722f82d9797fe25b108622f9a1aac3c52c64aa4d25d76a690d",
+                  "quote": "丁落艮8宫为入丑库",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                }
+              ]
+            }
+          ],
+          "unavailable_information": {
+            "forbidden_phrases": [
+              "坐垫",
+              "1点28分",
+              "一点二十八分",
+              "小宋",
+              "办公室",
+              "汽车",
+              "点头说"
+            ],
+            "review_note": "逐项标记本轮未披露且不能写入输入或监督目标的具体后续信息；即使作为否定提醒也不向模型泄漏。此名单是来源审读回归，不宣称完整语义泄漏证明。"
+          }
+        },
+        {
+          "key": "after_bag_confirmed",
+          "mode": "continuation",
+          "cutoff_sequence": 8,
+          "input_permissions": [
+            {
+              "record_id": "record-45ab6af4ec8f3b847425948c12cfda862eca497e3b2621d13a36a606739facb3",
+              "text_sha256": "d74fd8eac1b13b79d016f9338f7cd5a340eb4db63aa0cb877f5565f6984ea1a6",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-456d365c43553e85da1154d78c8a54221011030c1896222598376a399bb1a2a8",
+              "text_sha256": "24ecdd1a290b32789cd93ec4a01b2d424432c866631a8afd6181637336dc53d3",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-d35ad11ccc8001ba1da2a1dc7979beedc00ba5bbf529a97cec2a6aeda9c536e0",
+              "text_sha256": "57c4ce16aa420b91b006ed7e226b3ab0642c933a8e87f7ab74614a877fa6a793",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-6a69508642f37657171802f586d3817bc3ed91db6c707c2f5a0d8347bfd8c52a",
+              "text_sha256": "e39122a98b80061f03335f3dac48ed27c118765137ef76a250a52f0e94eb8cfe",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-71d87bed09ee46afad7cd1cdf892436b8ef15238ace24db5288e324acae85b46",
+              "text_sha256": "c5b79984acfb49b60518ffd71dea5032788be7a956c2f0837568b6e36a68d8af",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-321dfaf0431f27555bc53b3f604b52174e734dfae06478f30541a65398625cc0",
+              "text_sha256": "301cc47f720b3431a296ef71a80c801193eba786079907c5ee8aa79dd371ebcd",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-9fea1e4ae796c67ba1c54cdf5bb55459ee8947db6b214779bf495e5da1aceca2",
+              "text_sha256": "59eff49fd0a527722f82d9797fe25b108622f9a1aac3c52c64aa4d25d76a690d",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-5fe68f0d6b5bd5b01326f9ecb64d3514ed70085bc6048df304978fb70327aa9a",
+              "text_sha256": "43f90a8dda410ca92825e66250803bf2fb4e245774795234ea183c916f896f63",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            }
+          ],
+          "provided_roles": [],
+          "facts": [],
+          "rule_references": [
+            {
+              "id": "roles",
+              "source_id": "span-d9cad9c010fe70bcc737b00c82186bb57a14400c8a03ee70c66df15f07d16a21",
+              "excerpt_sha256": "3f707773d9cc35d39b0d920da4227b9b7f70870b90625d19257ff7e2e1eea31a"
+            },
+            {
+              "id": "location",
+              "source_id": "span-f5bda0e51f70c8d35cf281561919288a3a11d8ae3caba56cea19a2ac3cf9bb7b",
+              "excerpt_sha256": "5ba6bb08e51b82b3ecdb4a77a495115345bdb04ea4dfc0ad4c5bfd1c6ddf0653"
+            },
+            {
+              "id": "theft",
+              "source_id": "span-6a3827dfd89b9251b7cdeef7df2af3318841d884bfcbef83b097ffaade4cc693",
+              "excerpt_sha256": "d14395d045ad55afca602ad0f4856b1e842036b363d3f4255d3fb61039a676a9"
+            },
+            {
+              "id": "timing",
+              "source_id": "span-3e5cf937f845b659f3ab6ad2dc4c18f5b9c597043231abc0e89ed43b9dc6573e",
+              "excerpt_sha256": "b18df6160f8df22c05a57d5f1b48e785a7f21abe2bf1decb1251cbd016261dac"
+            },
+            {
+              "id": "documents",
+              "source_id": "span-8c4df0a21fbf00abeb5226b084d54fc07548e5033a57cbd329b216f0d0dfe0d2",
+              "excerpt_sha256": "03cf402ffb9f75959d0bb51702ab6537bd574e671f04d74903f33f88e9d3024b"
+            }
+          ],
+          "review_note": "逐条审读该轮原文；仅开放列出的当前已知记录，九宫保留完整字面。作者断语的归纳为显式方法复现，不推为实际预测准确或已编译通用规则。",
+          "tasks": [
+            {
+              "type": "feedback_continuation",
+              "target_permissions": [
+                {
+                  "record_id": "record-2a32cceed80f9ce5bbcbeaa5883670d99c955c7b1affd13932b75edbc4471f7f",
+                  "text_sha256": "2f6a3f7c2d8e578e14ad621a8eed2686c7b9f91f91c3f21c8e86c447da43ee43"
+                }
+              ],
+              "answer": {
+                "explanation": "收到五份重要文件、牛皮纸袋的确认后，继续用原盘。作者改从丁入丑库与未冲丑考察此前翻动时间，提出七月十六日己未日辛未时曾动过文件。这个时间是本轮待核对的新判断，后续是否确认须另存，不能预知对方回答。",
+                "citations": [
+                  "chart",
+                  "roles",
+                  "location",
+                  "theft",
+                  "documents"
+                ],
+                "uncertainties": [
+                  "后续证实或否定与本轮提出的判断分别存放。"
+                ],
+                "chart_action": "reuse_original"
+              },
+              "source_given_conditions": [
+                {
+                  "record_id": "record-2a32cceed80f9ce5bbcbeaa5883670d99c955c7b1affd13932b75edbc4471f7f",
+                  "text_sha256": "2f6a3f7c2d8e578e14ad621a8eed2686c7b9f91f91c3f21c8e86c447da43ee43",
+                  "quote": "未冲丑",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                }
+              ]
+            }
+          ],
+          "unavailable_information": {
+            "forbidden_phrases": [
+              "坐垫",
+              "1点28分",
+              "一点二十八分",
+              "小宋"
+            ],
+            "review_note": "逐项标记本轮未披露且不能写入输入或监督目标的具体后续信息；即使作为否定提醒也不向模型泄漏。此名单是来源审读回归，不宣称完整语义泄漏证明。"
+          }
+        },
+        {
+          "key": "home_hypothesis_denied",
+          "mode": "continuation",
+          "cutoff_sequence": 12,
+          "input_permissions": [
+            {
+              "record_id": "record-45ab6af4ec8f3b847425948c12cfda862eca497e3b2621d13a36a606739facb3",
+              "text_sha256": "d74fd8eac1b13b79d016f9338f7cd5a340eb4db63aa0cb877f5565f6984ea1a6",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-456d365c43553e85da1154d78c8a54221011030c1896222598376a399bb1a2a8",
+              "text_sha256": "24ecdd1a290b32789cd93ec4a01b2d424432c866631a8afd6181637336dc53d3",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-d35ad11ccc8001ba1da2a1dc7979beedc00ba5bbf529a97cec2a6aeda9c536e0",
+              "text_sha256": "57c4ce16aa420b91b006ed7e226b3ab0642c933a8e87f7ab74614a877fa6a793",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-6a69508642f37657171802f586d3817bc3ed91db6c707c2f5a0d8347bfd8c52a",
+              "text_sha256": "e39122a98b80061f03335f3dac48ed27c118765137ef76a250a52f0e94eb8cfe",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-71d87bed09ee46afad7cd1cdf892436b8ef15238ace24db5288e324acae85b46",
+              "text_sha256": "c5b79984acfb49b60518ffd71dea5032788be7a956c2f0837568b6e36a68d8af",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-321dfaf0431f27555bc53b3f604b52174e734dfae06478f30541a65398625cc0",
+              "text_sha256": "301cc47f720b3431a296ef71a80c801193eba786079907c5ee8aa79dd371ebcd",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-9fea1e4ae796c67ba1c54cdf5bb55459ee8947db6b214779bf495e5da1aceca2",
+              "text_sha256": "59eff49fd0a527722f82d9797fe25b108622f9a1aac3c52c64aa4d25d76a690d",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-5fe68f0d6b5bd5b01326f9ecb64d3514ed70085bc6048df304978fb70327aa9a",
+              "text_sha256": "43f90a8dda410ca92825e66250803bf2fb4e245774795234ea183c916f896f63",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-2a32cceed80f9ce5bbcbeaa5883670d99c955c7b1affd13932b75edbc4471f7f",
+              "text_sha256": "2f6a3f7c2d8e578e14ad621a8eed2686c7b9f91f91c3f21c8e86c447da43ee43",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-e680a8c5a31cb066247d08d1823661a593f6dd3102827ca9b6f70a4a8ec57b53",
+              "text_sha256": "16fd201ed9fb13af79f754a20b6e90be6045181c71d1354154e3f7130bf3e7c7",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-a51cbf288c0025abf5ddc886c2c183ec6dd99c18c65465c455ec7f1ee96bf6cf",
+              "text_sha256": "7acd699e6d016d23daedd6c5a8b7c65a419339bdb073eab6050b48f876c4348d",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-2b7ca7cc2b071c1a656c7d361e18c7db6181582ed7699c318e21da1deb911148",
+              "text_sha256": "cf9a7b19b98ba91f2aa63c8715d256ab2d4c6cbe998ccc0edb1017ff439bc804",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            }
+          ],
+          "provided_roles": [],
+          "facts": [],
+          "rule_references": [
+            {
+              "id": "roles",
+              "source_id": "span-d9cad9c010fe70bcc737b00c82186bb57a14400c8a03ee70c66df15f07d16a21",
+              "excerpt_sha256": "3f707773d9cc35d39b0d920da4227b9b7f70870b90625d19257ff7e2e1eea31a"
+            },
+            {
+              "id": "location",
+              "source_id": "span-f5bda0e51f70c8d35cf281561919288a3a11d8ae3caba56cea19a2ac3cf9bb7b",
+              "excerpt_sha256": "5ba6bb08e51b82b3ecdb4a77a495115345bdb04ea4dfc0ad4c5bfd1c6ddf0653"
+            },
+            {
+              "id": "theft",
+              "source_id": "span-6a3827dfd89b9251b7cdeef7df2af3318841d884bfcbef83b097ffaade4cc693",
+              "excerpt_sha256": "d14395d045ad55afca602ad0f4856b1e842036b363d3f4255d3fb61039a676a9"
+            },
+            {
+              "id": "timing",
+              "source_id": "span-3e5cf937f845b659f3ab6ad2dc4c18f5b9c597043231abc0e89ed43b9dc6573e",
+              "excerpt_sha256": "b18df6160f8df22c05a57d5f1b48e785a7f21abe2bf1decb1251cbd016261dac"
+            },
+            {
+              "id": "documents",
+              "source_id": "span-8c4df0a21fbf00abeb5226b084d54fc07548e5033a57cbd329b216f0d0dfe0d2",
+              "excerpt_sha256": "03cf402ffb9f75959d0bb51702ab6537bd574e671f04d74903f33f88e9d3024b"
+            }
+          ],
+          "review_note": "逐条审读该轮原文；仅开放列出的当前已知记录，九宫保留完整字面。作者断语的归纳为显式方法复现，不推为实际预测准确或已编译通用规则。",
+          "tasks": [
+            {
+              "type": "feedback_continuation",
+              "target_permissions": [
+                {
+                  "record_id": "record-e88012149b88e0efa8b2ca7252186145d241ec7204411eb1371e4850d5ff621d",
+                  "text_sha256": "d21b317af27b032d7a33f3e6e58836e714b3f128a279978eca677e5f12918380"
+                }
+              ],
+              "answer": {
+                "explanation": "先前依据生门提出可能在家中，但问测人已明确说半个多月没回家。原例据此把寻找处改为可能在办公室，仍沿用原盘。这里应保留可能二字和地点尚未验证的状态，而不是把家中或办公室写成已知事实。",
+                "citations": [
+                  "chart",
+                  "roles",
+                  "location",
+                  "theft",
+                  "documents"
+                ],
+                "uncertainties": [
+                  "本轮的实际发现位置仍未知，寻找地点仍是待核实的假设。"
+                ],
+                "chart_action": "reuse_original"
+              }
+            }
+          ],
+          "unavailable_information": {
+            "forbidden_phrases": [
+              "坐垫",
+              "1点28分",
+              "一点二十八分",
+              "小宋"
+            ],
+            "review_note": "逐项标记本轮未披露且不能写入输入或监督目标的具体后续信息；即使作为否定提醒也不向模型泄漏。此名单是来源审读回归，不宣称完整语义泄漏证明。"
+          }
+        },
+        {
+          "key": "followup_timing",
+          "mode": "continuation",
+          "cutoff_sequence": 13,
+          "input_permissions": [
+            {
+              "record_id": "record-45ab6af4ec8f3b847425948c12cfda862eca497e3b2621d13a36a606739facb3",
+              "text_sha256": "d74fd8eac1b13b79d016f9338f7cd5a340eb4db63aa0cb877f5565f6984ea1a6",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-456d365c43553e85da1154d78c8a54221011030c1896222598376a399bb1a2a8",
+              "text_sha256": "24ecdd1a290b32789cd93ec4a01b2d424432c866631a8afd6181637336dc53d3",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-d35ad11ccc8001ba1da2a1dc7979beedc00ba5bbf529a97cec2a6aeda9c536e0",
+              "text_sha256": "57c4ce16aa420b91b006ed7e226b3ab0642c933a8e87f7ab74614a877fa6a793",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-6a69508642f37657171802f586d3817bc3ed91db6c707c2f5a0d8347bfd8c52a",
+              "text_sha256": "e39122a98b80061f03335f3dac48ed27c118765137ef76a250a52f0e94eb8cfe",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-71d87bed09ee46afad7cd1cdf892436b8ef15238ace24db5288e324acae85b46",
+              "text_sha256": "c5b79984acfb49b60518ffd71dea5032788be7a956c2f0837568b6e36a68d8af",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-321dfaf0431f27555bc53b3f604b52174e734dfae06478f30541a65398625cc0",
+              "text_sha256": "301cc47f720b3431a296ef71a80c801193eba786079907c5ee8aa79dd371ebcd",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-9fea1e4ae796c67ba1c54cdf5bb55459ee8947db6b214779bf495e5da1aceca2",
+              "text_sha256": "59eff49fd0a527722f82d9797fe25b108622f9a1aac3c52c64aa4d25d76a690d",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-5fe68f0d6b5bd5b01326f9ecb64d3514ed70085bc6048df304978fb70327aa9a",
+              "text_sha256": "43f90a8dda410ca92825e66250803bf2fb4e245774795234ea183c916f896f63",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-2a32cceed80f9ce5bbcbeaa5883670d99c955c7b1affd13932b75edbc4471f7f",
+              "text_sha256": "2f6a3f7c2d8e578e14ad621a8eed2686c7b9f91f91c3f21c8e86c447da43ee43",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-e680a8c5a31cb066247d08d1823661a593f6dd3102827ca9b6f70a4a8ec57b53",
+              "text_sha256": "16fd201ed9fb13af79f754a20b6e90be6045181c71d1354154e3f7130bf3e7c7",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-a51cbf288c0025abf5ddc886c2c183ec6dd99c18c65465c455ec7f1ee96bf6cf",
+              "text_sha256": "7acd699e6d016d23daedd6c5a8b7c65a419339bdb073eab6050b48f876c4348d",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-2b7ca7cc2b071c1a656c7d361e18c7db6181582ed7699c318e21da1deb911148",
+              "text_sha256": "cf9a7b19b98ba91f2aa63c8715d256ab2d4c6cbe998ccc0edb1017ff439bc804",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-e88012149b88e0efa8b2ca7252186145d241ec7204411eb1371e4850d5ff621d",
+              "text_sha256": "d21b317af27b032d7a33f3e6e58836e714b3f128a279978eca677e5f12918380",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            }
+          ],
+          "provided_roles": [],
+          "facts": [],
+          "rule_references": [
+            {
+              "id": "roles",
+              "source_id": "span-d9cad9c010fe70bcc737b00c82186bb57a14400c8a03ee70c66df15f07d16a21",
+              "excerpt_sha256": "3f707773d9cc35d39b0d920da4227b9b7f70870b90625d19257ff7e2e1eea31a"
+            },
+            {
+              "id": "location",
+              "source_id": "span-f5bda0e51f70c8d35cf281561919288a3a11d8ae3caba56cea19a2ac3cf9bb7b",
+              "excerpt_sha256": "5ba6bb08e51b82b3ecdb4a77a495115345bdb04ea4dfc0ad4c5bfd1c6ddf0653"
+            },
+            {
+              "id": "theft",
+              "source_id": "span-6a3827dfd89b9251b7cdeef7df2af3318841d884bfcbef83b097ffaade4cc693",
+              "excerpt_sha256": "d14395d045ad55afca602ad0f4856b1e842036b363d3f4255d3fb61039a676a9"
+            },
+            {
+              "id": "timing",
+              "source_id": "span-3e5cf937f845b659f3ab6ad2dc4c18f5b9c597043231abc0e89ed43b9dc6573e",
+              "excerpt_sha256": "b18df6160f8df22c05a57d5f1b48e785a7f21abe2bf1decb1251cbd016261dac"
+            },
+            {
+              "id": "documents",
+              "source_id": "span-8c4df0a21fbf00abeb5226b084d54fc07548e5033a57cbd329b216f0d0dfe0d2",
+              "excerpt_sha256": "03cf402ffb9f75959d0bb51702ab6537bd574e671f04d74903f33f88e9d3024b"
+            }
+          ],
+          "review_note": "逐条审读该轮原文；仅开放列出的当前已知记录，九宫保留完整字面。作者断语的归纳为显式方法复现，不推为实际预测准确或已编译通用规则。",
+          "tasks": [
+            {
+              "type": "timing_analysis",
+              "target_permissions": [
+                {
+                  "record_id": "record-0a021c1fb4fc520f1945dbe97ab1bea46e5c5bcdf993e80f51211f314e3ae6e6",
+                  "text_sha256": "58d61d89d1cc177fc899cda910d2522f2a2d96e71ff25fadd827281072cad198"
+                },
+                {
+                  "record_id": "record-ece16e81f2fc2fbf8b89f2546cdf378624757b6da6622101142403727efff6c9",
+                  "text_sha256": "5a3bbfa3d88c3bac4aba881d25a73674452e73a95b1b01e244ff267c560503c9"
+                }
+              ],
+              "answer": {
+                "explanation": "作者在同一盘上以甲午旬辰巳空、未冲丑库等条件，取乙未时为找见窗口，并告诉当事人下午一点以后去找。应期按这一轮实际已有信息解释，后续找到时刻未知。",
+                "citations": [
+                  "chart",
+                  "timing"
+                ],
+                "uncertainties": [
+                  "此时办公室只是寻找假设；应期判断不能当作地点已经被证实。"
+                ],
+                "methods": [
+                  "冲空与冲库取应期"
+                ]
+              },
+              "source_given_conditions": [
+                {
+                  "record_id": "record-0a021c1fb4fc520f1945dbe97ab1bea46e5c5bcdf993e80f51211f314e3ae6e6",
+                  "text_sha256": "58d61d89d1cc177fc899cda910d2522f2a2d96e71ff25fadd827281072cad198",
+                  "quote": "甲午旬中辰、巳空",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                },
+                {
+                  "record_id": "record-0a021c1fb4fc520f1945dbe97ab1bea46e5c5bcdf993e80f51211f314e3ae6e6",
+                  "text_sha256": "58d61d89d1cc177fc899cda910d2522f2a2d96e71ff25fadd827281072cad198",
+                  "quote": "乙未时，乙临开门冲实4宫，未冲开丑库",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                }
+              ]
+            }
+          ],
+          "unavailable_information": {
+            "forbidden_phrases": [
+              "坐垫",
+              "1点28分",
+              "一点二十八分",
+              "小宋"
+            ],
+            "review_note": "逐项标记本轮未披露且不能写入输入或监督目标的具体后续信息；即使作为否定提醒也不向模型泄漏。此名单是来源审读回归，不宣称完整语义泄漏证明。"
+          }
+        },
+        {
+          "key": "negative_search_feedback",
+          "mode": "continuation",
+          "cutoff_sequence": 16,
+          "input_permissions": [
+            {
+              "record_id": "record-45ab6af4ec8f3b847425948c12cfda862eca497e3b2621d13a36a606739facb3",
+              "text_sha256": "d74fd8eac1b13b79d016f9338f7cd5a340eb4db63aa0cb877f5565f6984ea1a6",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-456d365c43553e85da1154d78c8a54221011030c1896222598376a399bb1a2a8",
+              "text_sha256": "24ecdd1a290b32789cd93ec4a01b2d424432c866631a8afd6181637336dc53d3",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-d35ad11ccc8001ba1da2a1dc7979beedc00ba5bbf529a97cec2a6aeda9c536e0",
+              "text_sha256": "57c4ce16aa420b91b006ed7e226b3ab0642c933a8e87f7ab74614a877fa6a793",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-6a69508642f37657171802f586d3817bc3ed91db6c707c2f5a0d8347bfd8c52a",
+              "text_sha256": "e39122a98b80061f03335f3dac48ed27c118765137ef76a250a52f0e94eb8cfe",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-71d87bed09ee46afad7cd1cdf892436b8ef15238ace24db5288e324acae85b46",
+              "text_sha256": "c5b79984acfb49b60518ffd71dea5032788be7a956c2f0837568b6e36a68d8af",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-321dfaf0431f27555bc53b3f604b52174e734dfae06478f30541a65398625cc0",
+              "text_sha256": "301cc47f720b3431a296ef71a80c801193eba786079907c5ee8aa79dd371ebcd",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-9fea1e4ae796c67ba1c54cdf5bb55459ee8947db6b214779bf495e5da1aceca2",
+              "text_sha256": "59eff49fd0a527722f82d9797fe25b108622f9a1aac3c52c64aa4d25d76a690d",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-5fe68f0d6b5bd5b01326f9ecb64d3514ed70085bc6048df304978fb70327aa9a",
+              "text_sha256": "43f90a8dda410ca92825e66250803bf2fb4e245774795234ea183c916f896f63",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-2a32cceed80f9ce5bbcbeaa5883670d99c955c7b1affd13932b75edbc4471f7f",
+              "text_sha256": "2f6a3f7c2d8e578e14ad621a8eed2686c7b9f91f91c3f21c8e86c447da43ee43",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-e680a8c5a31cb066247d08d1823661a593f6dd3102827ca9b6f70a4a8ec57b53",
+              "text_sha256": "16fd201ed9fb13af79f754a20b6e90be6045181c71d1354154e3f7130bf3e7c7",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-a51cbf288c0025abf5ddc886c2c183ec6dd99c18c65465c455ec7f1ee96bf6cf",
+              "text_sha256": "7acd699e6d016d23daedd6c5a8b7c65a419339bdb073eab6050b48f876c4348d",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-2b7ca7cc2b071c1a656c7d361e18c7db6181582ed7699c318e21da1deb911148",
+              "text_sha256": "cf9a7b19b98ba91f2aa63c8715d256ab2d4c6cbe998ccc0edb1017ff439bc804",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-e88012149b88e0efa8b2ca7252186145d241ec7204411eb1371e4850d5ff621d",
+              "text_sha256": "d21b317af27b032d7a33f3e6e58836e714b3f128a279978eca677e5f12918380",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-0a021c1fb4fc520f1945dbe97ab1bea46e5c5bcdf993e80f51211f314e3ae6e6",
+              "text_sha256": "58d61d89d1cc177fc899cda910d2522f2a2d96e71ff25fadd827281072cad198",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-ece16e81f2fc2fbf8b89f2546cdf378624757b6da6622101142403727efff6c9",
+              "text_sha256": "5a3bbfa3d88c3bac4aba881d25a73674452e73a95b1b01e244ff267c560503c9",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-209dba9b2ad2e464128bba7053fe757ee989dcddccadc2767e92f5a2bf601b8a",
+              "text_sha256": "3aa5a9247e8fcf8d520888ed7142c2c8b7cdb4ebece2e936be38472d0b9fa6e8",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            }
+          ],
+          "provided_roles": [],
+          "facts": [],
+          "rule_references": [
+            {
+              "id": "roles",
+              "source_id": "span-d9cad9c010fe70bcc737b00c82186bb57a14400c8a03ee70c66df15f07d16a21",
+              "excerpt_sha256": "3f707773d9cc35d39b0d920da4227b9b7f70870b90625d19257ff7e2e1eea31a"
+            },
+            {
+              "id": "location",
+              "source_id": "span-f5bda0e51f70c8d35cf281561919288a3a11d8ae3caba56cea19a2ac3cf9bb7b",
+              "excerpt_sha256": "5ba6bb08e51b82b3ecdb4a77a495115345bdb04ea4dfc0ad4c5bfd1c6ddf0653"
+            },
+            {
+              "id": "theft",
+              "source_id": "span-6a3827dfd89b9251b7cdeef7df2af3318841d884bfcbef83b097ffaade4cc693",
+              "excerpt_sha256": "d14395d045ad55afca602ad0f4856b1e842036b363d3f4255d3fb61039a676a9"
+            },
+            {
+              "id": "timing",
+              "source_id": "span-3e5cf937f845b659f3ab6ad2dc4c18f5b9c597043231abc0e89ed43b9dc6573e",
+              "excerpt_sha256": "b18df6160f8df22c05a57d5f1b48e785a7f21abe2bf1decb1251cbd016261dac"
+            },
+            {
+              "id": "documents",
+              "source_id": "span-8c4df0a21fbf00abeb5226b084d54fc07548e5033a57cbd329b216f0d0dfe0d2",
+              "excerpt_sha256": "03cf402ffb9f75959d0bb51702ab6537bd574e671f04d74903f33f88e9d3024b"
+            }
+          ],
+          "review_note": "逐条审读该轮原文；仅开放列出的当前已知记录，九宫保留完整字面。作者断语的归纳为显式方法复现，不推为实际预测准确或已编译通用规则。",
+          "tasks": [
+            {
+              "type": "feedback_continuation",
+              "target_permissions": [
+                {
+                  "record_id": "record-92385bec2067454a55f107cdb0eda4070522874a363e6650b1fac05151863659",
+                  "text_sha256": "dd38b4e584dac66c619adc93fa497909cfaaca3017d791479d2120d5dd3ce1fd"
+                }
+              ],
+              "answer": {
+                "explanation": "司机反馈办公室和汽车都找过仍未找到后，原例没有重新起盘，也没有宣称文件已经找到。杜新会指出刚进入未时，建议再派人协助寻找，继续核对原来的时间窗口。到这一轮为止仍应报告未找到，不提前说出后来发现的位置或时间。",
+                "citations": [
+                  "chart",
+                  "roles",
+                  "location",
+                  "theft",
+                  "documents"
+                ],
+                "uncertainties": [
+                  "原先的办公室假设尚未被验证，不能把地点判断修饰成已经准确定位。"
+                ],
+                "chart_action": "reuse_original"
+              }
+            }
+          ],
+          "unavailable_information": {
+            "forbidden_phrases": [
+              "坐垫",
+              "1点28分",
+              "一点二十八分",
+              "小宋"
+            ],
+            "review_note": "逐项标记本轮未披露且不能写入输入或监督目标的具体后续信息；即使作为否定提醒也不向模型泄漏。此名单是来源审读回归，不宣称完整语义泄漏证明。"
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "event-6655044433a0eff398df9e2da6df333be84aef6f7d1698a8dc11164b33bdbc79",
+      "family_id": "family-04a6933906e0e22d30ca40dcc6b974fbc8f1b020dc6a1373bf2252125e8ea15b",
+      "case_id": "case-74e2b4db6b9797a75c3db3ade3a9a57746c51cce5ee327a09e7ca760ce149127",
+      "chart_id": "chart-9ccf3dbc8e2c52ba998fa77f1e894be73ef01e84cc1254e35babd9897b365434",
+      "case_title_for_review_only": "实例七：江苏学员赵国葆测例",
+      "stages": [
+        {
+          "key": "identity_card_disclosed",
+          "mode": "continuation",
+          "cutoff_sequence": 10,
+          "input_permissions": [
+            {
+              "record_id": "record-364783989e143547efa4c692244cb509237ac7a5d5ec2a3f854ccb97a6b99e83",
+              "text_sha256": "8efabcb320bee484642270d68068790a8528ed5dedcda2d0da7bdf74ca2dd3d1",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-81f03096918602355234393820da43a07d6501e2bb73da08c8d5783f8d8c1f69",
+              "text_sha256": "538273c4425d8cdab57f80d260c67b168c17691a36d033ad2d3da6a0eca621f1",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-994268d47992069d71a709960ddc52bde95be37eff4ab7c241d2a5e227c033fb",
+              "text_sha256": "d44e0ce685e24bc6e786dc5739fd81204a47c06b73593a2db5b4d8dc73b5a8bf",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-17d62e4d6e0123ea8c61c168c929965c63618924bbc4da66543a39c8f582cdb0",
+              "text_sha256": "ea36d2a928d8c37b88afe42bfc82c02f085d92614d17757090ba0d0ea8b834c4",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-8e5ce2f13b6d8f1e9ef031a212ec80ed99082ea2e7fe00f14e52c81e8defc354",
+              "text_sha256": "01b7c5e9b021888ed07e8eb5f9104129c2d15968db1497ffafc5745383f88273",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-d351b06738cfbbc2f9baa3a511b17e5d9b0fa8f140b230bb2daac9d0f2e26f80",
+              "text_sha256": "1f876382ee16633fcd520525eb5ddfff1278e3edeaba07df74a74a1e7a9e3464",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-b3b82b86f36bdffb84ebcda073ca24eb46d373371fa3c7522868e59b2b47e691",
+              "text_sha256": "f8616031d45ed4dda054af7a60f75731790cbc63100818cde91cfdb7016ed347",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-c72b72af463d2863db3a1d9f977b854d5474578f5fbdf72d9a1dce70d3ed139e",
+              "text_sha256": "d2b6e71462901d4341a4b4e64fc958e883e9362efd6f6c7d51420165dd99ec6f",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-2583af84f3672d536647a8eeacf654b1cccdf04bac777bf3d72b05e1f17170a6",
+              "text_sha256": "1deaae4eb8e1e3f27aa992afb61e47689192d4187b4c88fce1262a81eb6adc58",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            }
+          ],
+          "provided_roles": [
+            "景门：身份证",
+            "日干癸：梁工；戊癸相合的戊：其妻（原例先前口径）"
+          ],
+          "facts": [
+            {
+              "palace": 1,
+              "field": "door",
+              "value": "景门"
+            },
+            {
+              "palace": 1,
+              "field": "heaven_stem",
+              "value": "乙"
+            },
+            {
+              "palace": 1,
+              "field": "earth_stem",
+              "value": "丙"
+            },
+            {
+              "palace": 9,
+              "field": "earth_stem",
+              "value": "乙"
+            },
+            {
+              "palace": 9,
+              "field": "star",
+              "value": "天蓬星"
+            }
+          ],
+          "rule_references": [
+            {
+              "id": "roles",
+              "source_id": "span-d9cad9c010fe70bcc737b00c82186bb57a14400c8a03ee70c66df15f07d16a21",
+              "excerpt_sha256": "3f707773d9cc35d39b0d920da4227b9b7f70870b90625d19257ff7e2e1eea31a"
+            },
+            {
+              "id": "location",
+              "source_id": "span-f5bda0e51f70c8d35cf281561919288a3a11d8ae3caba56cea19a2ac3cf9bb7b",
+              "excerpt_sha256": "5ba6bb08e51b82b3ecdb4a77a495115345bdb04ea4dfc0ad4c5bfd1c6ddf0653"
+            },
+            {
+              "id": "theft",
+              "source_id": "span-6a3827dfd89b9251b7cdeef7df2af3318841d884bfcbef83b097ffaade4cc693",
+              "excerpt_sha256": "d14395d045ad55afca602ad0f4856b1e842036b363d3f4255d3fb61039a676a9"
+            },
+            {
+              "id": "timing",
+              "source_id": "span-3e5cf937f845b659f3ab6ad2dc4c18f5b9c597043231abc0e89ed43b9dc6573e",
+              "excerpt_sha256": "b18df6160f8df22c05a57d5f1b48e785a7f21abe2bf1decb1251cbd016261dac"
+            },
+            {
+              "id": "documents",
+              "source_id": "span-8c4df0a21fbf00abeb5226b084d54fc07548e5033a57cbd329b216f0d0dfe0d2",
+              "excerpt_sha256": "03cf402ffb9f75959d0bb51702ab6537bd574e671f04d74903f33f88e9d3024b"
+            }
+          ],
+          "review_note": "逐条审读该轮原文；仅开放列出的当前已知记录，九宫保留完整字面。作者断语的归纳为显式方法复现，不推为实际预测准确或已编译通用规则。",
+          "tasks": [
+            {
+              "type": "chart_evidence",
+              "target_permissions": [
+                {
+                  "record_id": "record-a73168b905794143bff2f1e8805c29c4f2d47a3f2421dde4c7b8fc6d0ef664c5",
+                  "text_sha256": "ae72a446b38b1417827d1ac122f334deacd37369992831ba3c45152faf0c1b1e"
+                },
+                {
+                  "record_id": "record-50349f209dfb2c059398b7d765163911c7938af5e81e1211038e73003631f32e",
+                  "text_sha256": "47b6bdefd7883883fc44c2f0c58ecc03ab54412ba8b6679cb51535d57360a9d4"
+                }
+              ],
+              "answer": {
+                "explanation": "本轮才知道妻子的身份证不见。沿用先前出行问测的同一张盘，按已给景门文书视角读取坎一景门及乙丙；地盘景门所取的老家视角与天盘当前落宫须分开，不混为同一位置。",
+                "citations": [
+                  "chart"
+                ],
+                "uncertainties": []
+              }
+            },
+            {
+              "type": "feedback_continuation",
+              "target_permissions": [
+                {
+                  "record_id": "record-a73168b905794143bff2f1e8805c29c4f2d47a3f2421dde4c7b8fc6d0ef664c5",
+                  "text_sha256": "ae72a446b38b1417827d1ac122f334deacd37369992831ba3c45152faf0c1b1e"
+                },
+                {
+                  "record_id": "record-71baf7bd8b0de6b0b02453a35080462f93ef15437a0ecd0b0fa80690d5a001bd",
+                  "text_sha256": "9cff9627f6d60402c8dfdc96ed4f4f4abcbd6f1c90e0ded5f50387b9d6e83aa5"
+                },
+                {
+                  "record_id": "record-50349f209dfb2c059398b7d765163911c7938af5e81e1211038e73003631f32e",
+                  "text_sha256": "47b6bdefd7883883fc44c2f0c58ecc03ab54412ba8b6679cb51535d57360a9d4"
+                },
+                {
+                  "record_id": "record-13b396aa2e047a4118f0ccbdaf57aa6b1f4d977314ce33fce053b3a0c2cd1d52",
+                  "text_sha256": "58cd49cbc56c10a83b1a893aae501631130ad541b3b4b4f8c278b658609622a0"
+                },
+                {
+                  "record_id": "record-492894ccf653af15c565062d4de0b0a89b0eb608f5acc80bd6762587aee85237",
+                  "text_sha256": "89106882e5464603c40a8e1b098932ebb09a61c4217db9c8db35d6e0527d26aa"
+                }
+              ],
+              "answer": {
+                "explanation": "身份证丢失的信息是在夫妻争执反馈后才披露的，因此只能从这轮起转入失物分析。作者继续使用原盘，以景门文书和伏吟反吟等判断，先提出在北方远处老家，再从地盘景门、离中空、乙木、天蓬一白等取老家柜子的方向和颜色，给出三小时内有消息的判断。这些方向、颜色与三小时消息窗口，都是本轮尚待核实的判断。",
+                "citations": [
+                  "chart",
+                  "roles",
+                  "location",
+                  "theft",
+                  "documents"
+                ],
+                "uncertainties": [
+                  "这是原作者当轮的类象与取数，不是已经收到找到身份证的消息；后置按语只在原库保留。"
+                ],
+                "chart_action": "reuse_original"
+              },
+              "source_given_conditions": [
+                {
+                  "record_id": "record-a73168b905794143bff2f1e8805c29c4f2d47a3f2421dde4c7b8fc6d0ef664c5",
+                  "text_sha256": "ae72a446b38b1417827d1ac122f334deacd37369992831ba3c45152faf0c1b1e",
+                  "quote": "阴遁坎宫为外为远",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                },
+                {
+                  "record_id": "record-50349f209dfb2c059398b7d765163911c7938af5e81e1211038e73003631f32e",
+                  "text_sha256": "47b6bdefd7883883fc44c2f0c58ecc03ab54412ba8b6679cb51535d57360a9d4",
+                  "quote": "地盘景门在离9宫，离为中空，乙又为木，天蓬星为一白",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                },
+                {
+                  "record_id": "record-492894ccf653af15c565062d4de0b0a89b0eb608f5acc80bd6762587aee85237",
+                  "text_sha256": "89106882e5464603c40a8e1b098932ebb09a61c4217db9c8db35d6e0527d26aa",
+                  "quote": "九星、八门均反吟",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                }
+              ]
+            }
+          ],
+          "unavailable_information": {
+            "forbidden_phrases": [
+              "丁奇",
+              "二个小时",
+              "两个小时",
+              "两小时",
+              "乳白色",
+              "5点钟以前"
+            ],
+            "review_note": "逐项标记本轮未披露且不能写入输入或监督目标的具体后续信息；即使作为否定提醒也不向模型泄漏。此名单是来源审读回归，不宣称完整语义泄漏证明。"
+          }
+        },
+        {
+          "key": "identity_card_timing",
+          "mode": "continuation",
+          "cutoff_sequence": 14,
+          "input_permissions": [
+            {
+              "record_id": "record-364783989e143547efa4c692244cb509237ac7a5d5ec2a3f854ccb97a6b99e83",
+              "text_sha256": "8efabcb320bee484642270d68068790a8528ed5dedcda2d0da7bdf74ca2dd3d1",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-81f03096918602355234393820da43a07d6501e2bb73da08c8d5783f8d8c1f69",
+              "text_sha256": "538273c4425d8cdab57f80d260c67b168c17691a36d033ad2d3da6a0eca621f1",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-994268d47992069d71a709960ddc52bde95be37eff4ab7c241d2a5e227c033fb",
+              "text_sha256": "d44e0ce685e24bc6e786dc5739fd81204a47c06b73593a2db5b4d8dc73b5a8bf",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-17d62e4d6e0123ea8c61c168c929965c63618924bbc4da66543a39c8f582cdb0",
+              "text_sha256": "ea36d2a928d8c37b88afe42bfc82c02f085d92614d17757090ba0d0ea8b834c4",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-8e5ce2f13b6d8f1e9ef031a212ec80ed99082ea2e7fe00f14e52c81e8defc354",
+              "text_sha256": "01b7c5e9b021888ed07e8eb5f9104129c2d15968db1497ffafc5745383f88273",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-d351b06738cfbbc2f9baa3a511b17e5d9b0fa8f140b230bb2daac9d0f2e26f80",
+              "text_sha256": "1f876382ee16633fcd520525eb5ddfff1278e3edeaba07df74a74a1e7a9e3464",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-b3b82b86f36bdffb84ebcda073ca24eb46d373371fa3c7522868e59b2b47e691",
+              "text_sha256": "f8616031d45ed4dda054af7a60f75731790cbc63100818cde91cfdb7016ed347",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-c72b72af463d2863db3a1d9f977b854d5474578f5fbdf72d9a1dce70d3ed139e",
+              "text_sha256": "d2b6e71462901d4341a4b4e64fc958e883e9362efd6f6c7d51420165dd99ec6f",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-2583af84f3672d536647a8eeacf654b1cccdf04bac777bf3d72b05e1f17170a6",
+              "text_sha256": "1deaae4eb8e1e3f27aa992afb61e47689192d4187b4c88fce1262a81eb6adc58",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-a73168b905794143bff2f1e8805c29c4f2d47a3f2421dde4c7b8fc6d0ef664c5",
+              "text_sha256": "ae72a446b38b1417827d1ac122f334deacd37369992831ba3c45152faf0c1b1e",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-71baf7bd8b0de6b0b02453a35080462f93ef15437a0ecd0b0fa80690d5a001bd",
+              "text_sha256": "9cff9627f6d60402c8dfdc96ed4f4f4abcbd6f1c90e0ded5f50387b9d6e83aa5",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-50349f209dfb2c059398b7d765163911c7938af5e81e1211038e73003631f32e",
+              "text_sha256": "47b6bdefd7883883fc44c2f0c58ecc03ab54412ba8b6679cb51535d57360a9d4",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-13b396aa2e047a4118f0ccbdaf57aa6b1f4d977314ce33fce053b3a0c2cd1d52",
+              "text_sha256": "58cd49cbc56c10a83b1a893aae501631130ad541b3b4b4f8c278b658609622a0",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            }
+          ],
+          "provided_roles": [],
+          "facts": [],
+          "rule_references": [
+            {
+              "id": "roles",
+              "source_id": "span-d9cad9c010fe70bcc737b00c82186bb57a14400c8a03ee70c66df15f07d16a21",
+              "excerpt_sha256": "3f707773d9cc35d39b0d920da4227b9b7f70870b90625d19257ff7e2e1eea31a"
+            },
+            {
+              "id": "location",
+              "source_id": "span-f5bda0e51f70c8d35cf281561919288a3a11d8ae3caba56cea19a2ac3cf9bb7b",
+              "excerpt_sha256": "5ba6bb08e51b82b3ecdb4a77a495115345bdb04ea4dfc0ad4c5bfd1c6ddf0653"
+            },
+            {
+              "id": "theft",
+              "source_id": "span-6a3827dfd89b9251b7cdeef7df2af3318841d884bfcbef83b097ffaade4cc693",
+              "excerpt_sha256": "d14395d045ad55afca602ad0f4856b1e842036b363d3f4255d3fb61039a676a9"
+            },
+            {
+              "id": "timing",
+              "source_id": "span-3e5cf937f845b659f3ab6ad2dc4c18f5b9c597043231abc0e89ed43b9dc6573e",
+              "excerpt_sha256": "b18df6160f8df22c05a57d5f1b48e785a7f21abe2bf1decb1251cbd016261dac"
+            },
+            {
+              "id": "documents",
+              "source_id": "span-8c4df0a21fbf00abeb5226b084d54fc07548e5033a57cbd329b216f0d0dfe0d2",
+              "excerpt_sha256": "03cf402ffb9f75959d0bb51702ab6537bd574e671f04d74903f33f88e9d3024b"
+            }
+          ],
+          "review_note": "逐条审读该轮原文；仅开放列出的当前已知记录，九宫保留完整字面。作者断语的归纳为显式方法复现，不推为实际预测准确或已编译通用规则。",
+          "tasks": [
+            {
+              "type": "timing_analysis",
+              "target_permissions": [
+                {
+                  "record_id": "record-492894ccf653af15c565062d4de0b0a89b0eb608f5acc80bd6762587aee85237",
+                  "text_sha256": "89106882e5464603c40a8e1b098932ebb09a61c4217db9c8db35d6e0527d26aa"
+                }
+              ],
+              "answer": {
+                "explanation": "本轮以九星八门反吟及离宫为内盘取快，原作者又用离为三数，断今天三小时内有消息。应完整保留这个取数口径，不把九宫的离九宫编号直接改写成九小时，所用取数口径保持清楚，不把不同的时长判断合并。",
+                "citations": [
+                  "chart",
+                  "timing"
+                ],
+                "uncertainties": [
+                  "三小时是消息窗口，不等同于邮寄抵达时间或保证当事人已经拿到身份证。"
+                ],
+                "methods": [
+                  "星门反吟取快",
+                  "内盘取快",
+                  "原例离三数取时"
+                ]
+              },
+              "source_given_conditions": [
+                {
+                  "record_id": "record-492894ccf653af15c565062d4de0b0a89b0eb608f5acc80bd6762587aee85237",
+                  "text_sha256": "89106882e5464603c40a8e1b098932ebb09a61c4217db9c8db35d6e0527d26aa",
+                  "quote": "九星、八门均反吟",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                },
+                {
+                  "record_id": "record-492894ccf653af15c565062d4de0b0a89b0eb608f5acc80bd6762587aee85237",
+                  "text_sha256": "89106882e5464603c40a8e1b098932ebb09a61c4217db9c8db35d6e0527d26aa",
+                  "quote": "离9宫为内盘",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                },
+                {
+                  "record_id": "record-492894ccf653af15c565062d4de0b0a89b0eb608f5acc80bd6762587aee85237",
+                  "text_sha256": "89106882e5464603c40a8e1b098932ebb09a61c4217db9c8db35d6e0527d26aa",
+                  "quote": "离为三数",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                }
+              ]
+            }
+          ],
+          "unavailable_information": {
+            "forbidden_phrases": [
+              "丁奇",
+              "二个小时",
+              "两个小时",
+              "两小时",
+              "乳白色",
+              "5点钟以前"
+            ],
+            "review_note": "逐项标记本轮未披露且不能写入输入或监督目标的具体后续信息；即使作为否定提醒也不向模型泄漏。此名单是来源审读回归，不宣称完整语义泄漏证明。"
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "event-d16beaa6800b736754762fe36da64b60707c3925e2c7503dd49fbb5a4672a44b",
+      "family_id": "family-49c7660641cf818392de715a6369ec7a081ecc3b0bda7c834bb8f0d6693b678c",
+      "case_id": "case-1ac4d55c58328404e8aa247f98e54bd5c9758d04c3cad795dc1f78e826942e05",
+      "chart_id": "chart-63e513f4278b7390e6caaf1dd1f5c656734411f7a1a0127aa0dbcf177e06b216",
+      "case_title_for_review_only": "实例八：测汽车丢失",
+      "stages": [
+        {
+          "key": "first",
+          "mode": "initial",
+          "cutoff_sequence": 3,
+          "input_permissions": [
+            {
+              "record_id": "record-35b8407ad9695dbffb39274e715eadaaf74dc2344ea4bf1af0fa29d1c561eda5",
+              "text_sha256": "847b2eb8193f11ed0f00ebb121b4df7bd9c152308541607d71014a8e6471ece6",
+              "grant": "pre_prediction_dialogue",
+              "semantic_note": "原书首断前已明确的问测信息。"
+            },
+            {
+              "record_id": "record-dbdebcaa44e4e0205f7ce9edfdc087d7d81a9fed29da994dc8c2cebe26f86cd7",
+              "text_sha256": "36c694bafc89d99d71ac992237588435eb3342f2700dcb4a826ef8f2f3d10300",
+              "grant": "pre_prediction_dialogue",
+              "semantic_note": "原书首断前已明确的问测信息。"
+            },
+            {
+              "record_id": "record-481b2a994328f259ca5a0d41f46684368a755da5d2744c54392e79b903cf8e33",
+              "text_sha256": "c784210c21fdb1c69cf18f053acd1bef6f240385fa7a04a5e00de25846c6f4ce",
+              "grant": "source_given_time_metadata",
+              "semantic_note": "逐句审读；此unknown记录仅为原书给定四柱、遁局、旬及值符使，不含判断或反馈。"
+            }
+          ],
+          "provided_roles": [
+            "日干甲午辛：原例所用问测主体口径",
+            "时干戊：汽车",
+            "伤门：汽车辅助视角"
+          ],
+          "facts": [
+            {
+              "palace": 2,
+              "field": "heaven_stem",
+              "value": "辛"
+            },
+            {
+              "palace": 2,
+              "field": "door",
+              "value": "景门"
+            },
+            {
+              "palace": 2,
+              "field": "deity",
+              "value": "白虎"
+            },
+            {
+              "palace": 8,
+              "field": "heaven_stem",
+              "value": "戊"
+            },
+            {
+              "palace": 8,
+              "field": "earth_stem",
+              "value": "戊"
+            },
+            {
+              "palace": 4,
+              "field": "door",
+              "value": "伤门"
+            },
+            {
+              "palace": 4,
+              "field": "heaven_stem",
+              "value": "癸"
+            },
+            {
+              "palace": 4,
+              "field": "earth_stem",
+              "value": "癸"
+            }
+          ],
+          "rule_references": [
+            {
+              "id": "roles",
+              "source_id": "span-d9cad9c010fe70bcc737b00c82186bb57a14400c8a03ee70c66df15f07d16a21",
+              "excerpt_sha256": "3f707773d9cc35d39b0d920da4227b9b7f70870b90625d19257ff7e2e1eea31a"
+            },
+            {
+              "id": "location",
+              "source_id": "span-f5bda0e51f70c8d35cf281561919288a3a11d8ae3caba56cea19a2ac3cf9bb7b",
+              "excerpt_sha256": "5ba6bb08e51b82b3ecdb4a77a495115345bdb04ea4dfc0ad4c5bfd1c6ddf0653"
+            },
+            {
+              "id": "theft",
+              "source_id": "span-6a3827dfd89b9251b7cdeef7df2af3318841d884bfcbef83b097ffaade4cc693",
+              "excerpt_sha256": "d14395d045ad55afca602ad0f4856b1e842036b363d3f4255d3fb61039a676a9"
+            },
+            {
+              "id": "timing",
+              "source_id": "span-3e5cf937f845b659f3ab6ad2dc4c18f5b9c597043231abc0e89ed43b9dc6573e",
+              "excerpt_sha256": "b18df6160f8df22c05a57d5f1b48e785a7f21abe2bf1decb1251cbd016261dac"
+            },
+            {
+              "id": "documents",
+              "source_id": "span-8c4df0a21fbf00abeb5226b084d54fc07548e5033a57cbd329b216f0d0dfe0d2",
+              "excerpt_sha256": "03cf402ffb9f75959d0bb51702ab6537bd574e671f04d74903f33f88e9d3024b"
+            }
+          ],
+          "review_note": "逐条审读该轮原文；仅开放列出的当前已知记录，九宫保留完整字面。作者断语的归纳为显式方法复现，不推为实际预测准确或已编译通用规则。",
+          "tasks": [
+            {
+              "type": "role_selection",
+              "target_permissions": [
+                {
+                  "record_id": "record-f0091c41a545dd057d3f1edf4b27bd522436c3ee5a1031a2f4f698eaaca3768b",
+                  "text_sha256": "d47095bdde8410a7b927ae0a0ae81a8e16e9bdb92fca0170f74fedac2643e25e"
+                },
+                {
+                  "record_id": "record-3a2b4b06faa963be9869e686e909ada5c667a0a378bf44fe1431c957ee57c883",
+                  "text_sha256": "b1ee08d9a2e4f4a9f87c3b22ad131ea21a4b315db2b2ad3c74e6040d89c839d0"
+                },
+                {
+                  "record_id": "record-f609a299ba69150c8545b8604d1697789147883e4d3fbd6c275be802d7edea83",
+                  "text_sha256": "71523c58a43782a9aecd588187ea41475f847732b9c4974d34cd91e7bfa3d24c"
+                }
+              ],
+              "answer": {
+                "explanation": "这是亲戚转问乡友汽车能否找回。按原例口径先保留日干所指主体，以时干观察失物；伤门作汽车的辅助取法与一般法分开。不能仅因转问者或失主年龄、辈分就自行换成其他六亲用神。",
+                "citations": [
+                  "roles"
+                ],
+                "uncertainties": [
+                  "这是本题指定的一般取法，不排除原例的其他有来源取法。"
+                ],
+                "bindings": [
+                  {
+                    "role": "失主或本例问测主体",
+                    "symbol": "日干",
+                    "condition": "已经明确问失物，并按本章一般取法；代问身份仍以本例口径为限。"
+                  },
+                  {
+                    "role": "丢失之钱物",
+                    "symbol": "时干",
+                    "condition": "同一问测和同一一般法，不扩成其他事件用神。"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "chart_evidence",
+              "target_permissions": [
+                {
+                  "record_id": "record-f0091c41a545dd057d3f1edf4b27bd522436c3ee5a1031a2f4f698eaaca3768b",
+                  "text_sha256": "d47095bdde8410a7b927ae0a0ae81a8e16e9bdb92fca0170f74fedac2643e25e"
+                },
+                {
+                  "record_id": "record-3a2b4b06faa963be9869e686e909ada5c667a0a378bf44fe1431c957ee57c883",
+                  "text_sha256": "b1ee08d9a2e4f4a9f87c3b22ad131ea21a4b315db2b2ad3c74e6040d89c839d0"
+                },
+                {
+                  "record_id": "record-f609a299ba69150c8545b8604d1697789147883e4d3fbd6c275be802d7edea83",
+                  "text_sha256": "71523c58a43782a9aecd588187ea41475f847732b9c4974d34cd91e7bfa3d24c"
+                }
+              ],
+              "answer": {
+                "explanation": "读取坤二辛与白虎、景门，艮八戊戊，以及巽四伤门和癸癸。九宫原表事实先列明；马星、自刑和伏吟的完整计算须另有方法，不因为作者提及就把未算字段填成已验证。",
+                "citations": [
+                  "chart"
+                ],
+                "uncertainties": []
+              }
+            },
+            {
+              "type": "evidence_synthesis",
+              "target_permissions": [
+                {
+                  "record_id": "record-f0091c41a545dd057d3f1edf4b27bd522436c3ee5a1031a2f4f698eaaca3768b",
+                  "text_sha256": "d47095bdde8410a7b927ae0a0ae81a8e16e9bdb92fca0170f74fedac2643e25e"
+                },
+                {
+                  "record_id": "record-3a2b4b06faa963be9869e686e909ada5c667a0a378bf44fe1431c957ee57c883",
+                  "text_sha256": "b1ee08d9a2e4f4a9f87c3b22ad131ea21a4b315db2b2ad3c74e6040d89c839d0"
+                },
+                {
+                  "record_id": "record-f609a299ba69150c8545b8604d1697789147883e4d3fbd6c275be802d7edea83",
+                  "text_sha256": "71523c58a43782a9aecd588187ea41475f847732b9c4974d34cd91e7bfa3d24c"
+                }
+              ],
+              "answer": {
+                "explanation": "原例没有只用日时比和就断能找回，而是同时考虑对冲、马星、伏吟等不利条件，并以伤门汽车视角落宫克日干宫、癸癸格局作交叉判断，倾向难以找回。这一轮尚未取得进一步特征和办案反馈，不提前把新的问测内容当作已知。",
+                "citations": [
+                  "chart",
+                  "roles",
+                  "theft",
+                  "location",
+                  "documents"
+                ],
+                "uncertainties": [
+                  "马星与特殊格局是本例作者明确采用的依据，不能据此推为所有失车问题均适用。"
+                ]
+              },
+              "source_given_conditions": [
+                {
+                  "record_id": "record-f0091c41a545dd057d3f1edf4b27bd522436c3ee5a1031a2f4f698eaaca3768b",
+                  "text_sha256": "d47095bdde8410a7b927ae0a0ae81a8e16e9bdb92fca0170f74fedac2643e25e",
+                  "quote": "又九星伏吟",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                },
+                {
+                  "record_id": "record-3a2b4b06faa963be9869e686e909ada5c667a0a378bf44fe1431c957ee57c883",
+                  "text_sha256": "b1ee08d9a2e4f4a9f87c3b22ad131ea21a4b315db2b2ad3c74e6040d89c839d0",
+                  "quote": "而且临马星",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                },
+                {
+                  "record_id": "record-f609a299ba69150c8545b8604d1697789147883e4d3fbd6c275be802d7edea83",
+                  "text_sha256": "71523c58a43782a9aecd588187ea41475f847732b9c4974d34cd91e7bfa3d24c",
+                  "quote": "又临癸+癸天网四张格",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                }
+              ]
+            }
+          ],
+          "unavailable_information": {
+            "forbidden_phrases": [
+              "墨绿色",
+              "八万元",
+              "四百五十公里"
+            ],
+            "review_note": "逐项标记本轮未披露且不能写入输入或监督目标的具体后续信息；即使作为否定提醒也不向模型泄漏。此名单是来源审读回归，不宣称完整语义泄漏证明。"
+          }
+        },
+        {
+          "key": "police_question",
+          "mode": "continuation",
+          "cutoff_sequence": 10,
+          "input_permissions": [
+            {
+              "record_id": "record-35b8407ad9695dbffb39274e715eadaaf74dc2344ea4bf1af0fa29d1c561eda5",
+              "text_sha256": "847b2eb8193f11ed0f00ebb121b4df7bd9c152308541607d71014a8e6471ece6",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-dbdebcaa44e4e0205f7ce9edfdc087d7d81a9fed29da994dc8c2cebe26f86cd7",
+              "text_sha256": "36c694bafc89d99d71ac992237588435eb3342f2700dcb4a826ef8f2f3d10300",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-481b2a994328f259ca5a0d41f46684368a755da5d2744c54392e79b903cf8e33",
+              "text_sha256": "c784210c21fdb1c69cf18f053acd1bef6f240385fa7a04a5e00de25846c6f4ce",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-f0091c41a545dd057d3f1edf4b27bd522436c3ee5a1031a2f4f698eaaca3768b",
+              "text_sha256": "d47095bdde8410a7b927ae0a0ae81a8e16e9bdb92fca0170f74fedac2643e25e",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-3a2b4b06faa963be9869e686e909ada5c667a0a378bf44fe1431c957ee57c883",
+              "text_sha256": "b1ee08d9a2e4f4a9f87c3b22ad131ea21a4b315db2b2ad3c74e6040d89c839d0",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-f609a299ba69150c8545b8604d1697789147883e4d3fbd6c275be802d7edea83",
+              "text_sha256": "71523c58a43782a9aecd588187ea41475f847732b9c4974d34cd91e7bfa3d24c",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-4ccf4b8d79713a50a82c8a901e7c8145151704fad177328f89ce4110a2fab49f",
+              "text_sha256": "9191f8686ba19a2fb777b53dfd5050a38e88d3004713f5315b127c58beb63fb3",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-1b77e0613f50db3ba1043a0f227be1b5809ebafd25e030190a257abf72ecb141",
+              "text_sha256": "533c4f62e494a79fbdd567821c5072c8867946e97457a0eae2ac32746721ed13",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-d5cbbad5da452f91ee7caba7322169a0033f4ffa2e5b5fc968c00d8420bf655c",
+              "text_sha256": "23da204461d41074a0d108969f9151a97408b6efbc9e8003e921e3fd098dd786",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            },
+            {
+              "record_id": "record-0ca2519a3e03d6999fa82925c8bb2ab0273f61601245d79bb84dbf329735f8fd",
+              "text_sha256": "fb7eeff598c2d3937ea677979f36bcd9d4721211fd0e602ab5ee0987747c01a9",
+              "grant": "known_at_continuation_cutoff",
+              "semantic_note": "本轮之前已经发生并在本故事公开的对话/判断/反馈；不含此轮之后的新反馈。"
+            }
+          ],
+          "provided_roles": [],
+          "facts": [],
+          "rule_references": [
+            {
+              "id": "roles",
+              "source_id": "span-d9cad9c010fe70bcc737b00c82186bb57a14400c8a03ee70c66df15f07d16a21",
+              "excerpt_sha256": "3f707773d9cc35d39b0d920da4227b9b7f70870b90625d19257ff7e2e1eea31a"
+            },
+            {
+              "id": "location",
+              "source_id": "span-f5bda0e51f70c8d35cf281561919288a3a11d8ae3caba56cea19a2ac3cf9bb7b",
+              "excerpt_sha256": "5ba6bb08e51b82b3ecdb4a77a495115345bdb04ea4dfc0ad4c5bfd1c6ddf0653"
+            },
+            {
+              "id": "theft",
+              "source_id": "span-6a3827dfd89b9251b7cdeef7df2af3318841d884bfcbef83b097ffaade4cc693",
+              "excerpt_sha256": "d14395d045ad55afca602ad0f4856b1e842036b363d3f4255d3fb61039a676a9"
+            },
+            {
+              "id": "timing",
+              "source_id": "span-3e5cf937f845b659f3ab6ad2dc4c18f5b9c597043231abc0e89ed43b9dc6573e",
+              "excerpt_sha256": "b18df6160f8df22c05a57d5f1b48e785a7f21abe2bf1decb1251cbd016261dac"
+            },
+            {
+              "id": "documents",
+              "source_id": "span-8c4df0a21fbf00abeb5226b084d54fc07548e5033a57cbd329b216f0d0dfe0d2",
+              "excerpt_sha256": "03cf402ffb9f75959d0bb51702ab6537bd574e671f04d74903f33f88e9d3024b"
+            },
+            {
+              "id": "police",
+              "source_id": "span-8060c7667d58a4effb3b21045ef7cb36560c0225118ee76e3651a74f2e201d6b",
+              "excerpt_sha256": "d08dafd422b3aa60e9720e9c1c188a5f713efd9ce4cecdda6b3f9bd6df9b7d7d"
+            }
+          ],
+          "review_note": "逐条审读该轮原文；仅开放列出的当前已知记录，九宫保留完整字面。作者断语的归纳为显式方法复现，不推为实际预测准确或已编译通用规则。",
+          "tasks": [
+            {
+              "type": "feedback_continuation",
+              "target_permissions": [
+                {
+                  "record_id": "record-52a7b398cefd241e3b45f6ac1e7dd722d2fc11fc38494c391fd389ac79e2e9e5",
+                  "text_sha256": "30b99ffe5801cbc956e7df23de8ae0296002549b5b49c79380a283b81d148939"
+                },
+                {
+                  "record_id": "record-c61716dfc5263d488a3c36ff5002a0efe06907c9a210884334890a007d407eb4",
+                  "text_sha256": "5dfb47bfc6e10d43d6999e921bdc44f1ab296f0f22ab597abf27617d6202bc0c"
+                }
+              ],
+              "answer": {
+                "explanation": "在前面已询问并判断被盗之后，当事人追加已报案、能否破案的问题。原例沿用旧盘转而观察白虎及值使生门这些捕盗视角，比较其与玄武的关系及九星伏吟，判断破案困难，并给出盗者向南远去的断语。这个子任务必须与最初找车判断区分；原文没有展开四百五十公里的完整推导，不能补造计算过程。",
+                "citations": [
+                  "chart",
+                  "police",
+                  "theft"
+                ],
+                "uncertainties": [
+                  "破案困难是本轮预测，不是已经取得警方结案结论；方向距离的推导未完整明写。"
+                ],
+                "chart_action": "reuse_original"
+              },
+              "source_given_conditions": [
+                {
+                  "record_id": "record-52a7b398cefd241e3b45f6ac1e7dd722d2fc11fc38494c391fd389ac79e2e9e5",
+                  "text_sha256": "30b99ffe5801cbc956e7df23de8ae0296002549b5b49c79380a283b81d148939",
+                  "quote": "今白虎生玄武，生门受玄武之克，又九星伏吟",
+                  "review_note": "逐字截取作者当轮明确使用的盘面/方法条件，未包含找回结论、后续反馈或应期答案。作为本专业子任务的给定前提，不假称软件复算；不用于无辅助首断成绩。"
+                }
+              ]
+            }
+          ],
+          "unavailable_information": {
+            "forbidden_phrases": [],
+            "review_note": "逐项标记本轮未披露且不能写入输入或监督目标的具体后续信息；即使作为否定提醒也不向模型泄漏。此名单是来源审读回归，不宣称完整语义泄漏证明。"
+          }
+        }
+      ]
+    }
+  ],
+  "db_chronology_unchanged": true,
+  "full_cases_retained": true,
+  "no_test_driven_selection": true,
+  "semantic_review_version": 2
+}

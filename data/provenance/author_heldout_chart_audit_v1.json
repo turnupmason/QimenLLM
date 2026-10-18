@@ -1,0 +1,2979 @@
+{
+  "scope": "given-symbol chart fields only, no calendar or outcome verification",
+  "source_or_old_gold_modified": false,
+  "rows": [
+    {
+      "task_id": "initial-b7b6c0893c2da798a0ab",
+      "chart_id": "chart-c37305f6dd415779e59b67dba46751d174f7c235c5948e98642ce320dc1dc842",
+      "given_inputs": {
+        "dun": "阳遁",
+        "bureau": 1,
+        "hour_ganzhi": "壬申"
+      },
+      "basis": "individually reviewed given source metadata; temporary comparison projection only",
+      "comparison": {
+        "status": "matches",
+        "comparison_method": "shenqi_ch2_paper_v1",
+        "source_chart_id": "chart-c37305f6dd415779e59b67dba46751d174f7c235c5948e98642ce320dc1dc842",
+        "computed_chart_id": "chart-ec7dc81a65bc0b190c0af4c36c3eeff7f73046d661f92b74d1571f1f6038248f",
+        "checks": [
+          {
+            "path": "palaces.1.earth_stem",
+            "source_value": "戊",
+            "computed_value": "戊",
+            "matches": true
+          },
+          {
+            "path": "palaces.1.door",
+            "source_value": "景门",
+            "computed_value": "景门",
+            "matches": true
+          },
+          {
+            "path": "palaces.1.deity",
+            "source_value": "六合",
+            "computed_value": "六合",
+            "matches": true
+          },
+          {
+            "path": "palaces.1.star",
+            "source_value": "天辅星",
+            "computed_value": "天辅星",
+            "matches": true
+          },
+          {
+            "path": "palaces.1.heaven_stem",
+            "source_value": "辛",
+            "computed_value": "辛",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.earth_stem",
+            "source_value": "己",
+            "computed_value": "己",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.door",
+            "source_value": "生门",
+            "computed_value": "生门",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.deity",
+            "source_value": "值符",
+            "computed_value": "值符",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.star",
+            "source_value": "天蓬星",
+            "computed_value": "天蓬星",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.heaven_stem",
+            "source_value": "戊",
+            "computed_value": "戊",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.earth_stem",
+            "source_value": "庚",
+            "computed_value": "庚",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.door",
+            "source_value": "惊门",
+            "computed_value": "惊门",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.deity",
+            "source_value": "玄武",
+            "computed_value": "玄武",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.star",
+            "source_value": "天芮星",
+            "computed_value": "天芮星",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.heaven_stem",
+            "source_value": "己",
+            "computed_value": "己",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.heaven_prefix_marker",
+            "source_value": "壬",
+            "computed_value": "壬",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.earth_stem",
+            "source_value": "辛",
+            "computed_value": "辛",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.door",
+            "source_value": "开门",
+            "computed_value": "开门",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.deity",
+            "source_value": "九地",
+            "computed_value": "九地",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.star",
+            "source_value": "天柱星",
+            "computed_value": "天柱星",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.heaven_stem",
+            "source_value": "丁",
+            "computed_value": "丁",
+            "matches": true
+          },
+          {
+            "path": "palaces.5.earth_stem",
+            "source_value": "壬",
+            "computed_value": "壬",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.earth_stem",
+            "source_value": "癸",
+            "computed_value": "癸",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.door",
+            "source_value": "杜门",
+            "computed_value": "杜门",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.deity",
+            "source_value": "太阴",
+            "computed_value": "太阴",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.star",
+            "source_value": "天冲星",
+            "computed_value": "天冲星",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.heaven_stem",
+            "source_value": "庚",
+            "computed_value": "庚",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.earth_stem",
+            "source_value": "丁",
+            "computed_value": "丁",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.door",
+            "source_value": "伤门",
+            "computed_value": "伤门",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.deity",
+            "source_value": "螣蛇",
+            "computed_value": "螣蛇",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.star",
+            "source_value": "天任星",
+            "computed_value": "天任星",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.heaven_stem",
+            "source_value": "丙",
+            "computed_value": "丙",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.earth_stem",
+            "source_value": "丙",
+            "computed_value": "丙",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.door",
+            "source_value": "死门",
+            "computed_value": "死门",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.deity",
+            "source_value": "白虎",
+            "computed_value": "白虎",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.star",
+            "source_value": "天英星",
+            "computed_value": "天英星",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.heaven_stem",
+            "source_value": "乙",
+            "computed_value": "乙",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.earth_stem",
+            "source_value": "乙",
+            "computed_value": "乙",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.door",
+            "source_value": "休门",
+            "computed_value": "休门",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.deity",
+            "source_value": "九天",
+            "computed_value": "九天",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.star",
+            "source_value": "天心星",
+            "computed_value": "天心星",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.heaven_stem",
+            "source_value": "癸",
+            "computed_value": "癸",
+            "matches": true
+          }
+        ],
+        "calculation_evidence": [
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-699f882cd5e070b5e7c1b49b395c5a2b58b87fa3e85c0115d621ca7c8c58003f",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "两完整盘支持的外圈与旋转约定；输入行 240–416",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-f24753400a24214dcec7807475a0b053daed2f964a02e80391220ebea5d4a0f8",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "八卦八门九宫掌上位置及中五寄二；输入行 53–61",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-d28a2c32bdfdb8d18b45a5486305e35f76799f2efac8dd19062b613c8e8e0135",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "纸上快速起局十步骤完整流程；输入行 186–223",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-6059deed448f239f7ba4ea1ec733ebc0e3fcca092d0fc28779ec0ec0fd3679ec",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例一：完整文字盘与天禽随天芮；输入行 247–275",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-7045cef833c2bd7ad764d4a1b7c52045ae56d1867285c0674e2553836e6a0ee6",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例一：值符随时干与九星携干旋转；输入行 287–299",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-6408d6608100d9e8ca5ba1da721b256e65f8c126d0ec21cb5db4dbebe6fabc60",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例一：八门旋转与三宫明确五行；输入行 300–318",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-d6b6866e564a29894a9b4654702e1a79c15a8b26a0bc0332f833c4edea708760",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例一：阳神顺时针与起局完成边界；输入行 319–334",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-515173e61ce2eb93e4cc89a9d8f54e71728a6398827e63f3130064b5f99e4f72",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：旬首中五的天禽值符死门值使；输入行 354–358",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-6ca2dc58cc9fc61fb9f5620ab5033376c229cb9eac56b2abc1c91adddc00f907",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：天禽携辛连天芮转艮八；输入行 359–369",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-44cbd114b38e20f55277e984391ceb25c8b66732e78735d17629104bf815b643",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：完整阴八文字盘与中五原位置；输入行 370–398",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-543b48b7d61630b7fccbc57f3f60a6213ff660291efe5631b89f852ef7eb1d71",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：值使从原五逆数到一及全八门；输入行 399–407",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-96346ebf89dcdae25ec28a92637cad6a2135c7239638cd7073bd328fa947dc42",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：阴神逆时针与起局完成；输入行 408–416",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "stars",
+            "item_id": "compiled-0b6d6ff4a8afe32f7ccab8938f4849b486f9711c4056c5ebef1cbed2fafb9385",
+            "source_id": "span-79e0c4e5d62ffb05e2d0980e6cd1a91f121b22a0f81cf31ff00c7bea5f11a466",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "天盘九星固定对应与属性；输入行 380–391",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "stars",
+            "item_id": "compiled-0b6d6ff4a8afe32f7ccab8938f4849b486f9711c4056c5ebef1cbed2fafb9385",
+            "source_id": "span-da3678e1add557f69277e5ae4dc99077c2023ec32b0548d744125a7216cb7637",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "值符身份与随时干转宫的完整例段；输入行 392–406",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "earth_sequence",
+            "item_id": "compiled-d9a7d790d3a43dae5223468470b2a208b6f54b0ef95c729328a5b4e1d082b6d9",
+            "source_id": "span-b8040f25a9a3bed62a9740313612194b2c74550f7119cc3d1a68d0ce44591211",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "九干固定队形与首尾相接；输入行 20–32",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "earth_sequence",
+            "item_id": "compiled-d9a7d790d3a43dae5223468470b2a208b6f54b0ef95c729328a5b4e1d082b6d9",
+            "source_id": "span-d1b05f3c3e8c1537a493bfcb9fb2a07fa5d05287b0a9c35d453851d4993f3a13",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "阴阳遁顺逆与甲子戊定局；输入行 33–40",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "earth_sequence",
+            "item_id": "compiled-d9a7d790d3a43dae5223468470b2a208b6f54b0ef95c729328a5b4e1d082b6d9",
+            "source_id": "span-583c17453ff83ded80859885a305d390daab53c4e7d8c198516ff1a5f66e4069",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "遁甲规律表与四张完整地盘示例；输入行 41–86",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "sexagenary_xun",
+            "item_id": "compiled-5989bdf4b4b9fe43aad5dee9d03f83714cbabf13fea5908a7523f9cd6b209502",
+            "source_id": "span-2d72443d059dc716c74bc55f01665b2a45695fb0ec598fbb29dd487167397eaf",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "时辰六旬完整六十甲子表；输入行 105–116",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "hidden_jia",
+            "item_id": "compiled-1f7b01b88a7db0e6c12c9e19249bf8411fba08b721eafc13ed438b19e98a456e",
+            "source_id": "span-347c42f2bfd29d2df3c55f20d686d6f13d019ae89fa49e705cb21c6c25af69d2",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "六甲隐六仪永定例；输入行 15–19",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "doors",
+            "item_id": "compiled-3905ba60a1d5e13c65a666f416f79829baefc48db741018f4e6b0c8f99b9817f",
+            "source_id": "span-96ccc23ddf3b8d1eb35403bb851b8e85cfbdc6b8f4a47d867d34ccd1fb11f7d3",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "人盘八门固定本宫与五行；输入行 407–418",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "doors",
+            "item_id": "compiled-3905ba60a1d5e13c65a666f416f79829baefc48db741018f4e6b0c8f99b9817f",
+            "source_id": "span-aa91e2ba0c11f557d1c67611fda7c42ff6282819f40baa4160d1d8c4ee5bf47d",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "值使身份与随时宫阴阳顺逆；输入行 419–428",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          }
+        ],
+        "checked_field_count": 42,
+        "uncompared_fields": [
+          "star_prefix_marker semantics",
+          "full nine-star expansion",
+          "year/month/day calendar",
+          "voids/horse",
+          "author reasoning/clinical outcome"
+        ],
+        "scope": "given_source_symbols_and_transcription_only_not_calendar_or_medical_judgment",
+        "source_rejected": false,
+        "original_chart_modified": false,
+        "engine_verified": false,
+        "calendar_recomputed": false
+      }
+    },
+    {
+      "task_id": "initial-e4fa7e976cba9ca958ca",
+      "chart_id": "chart-f6cf3bf858508bf9bea0257c297598c5b38c31f61f200731dcb9968ef959759c",
+      "given_inputs": {
+        "dun": "阳遁",
+        "bureau": 3,
+        "hour_ganzhi": "己亥"
+      },
+      "basis": "individually reviewed given source metadata; temporary comparison projection only",
+      "comparison": {
+        "status": "matches",
+        "comparison_method": "shenqi_ch2_paper_v1",
+        "source_chart_id": "chart-f6cf3bf858508bf9bea0257c297598c5b38c31f61f200731dcb9968ef959759c",
+        "computed_chart_id": "chart-46cb4b7e7fd36611a6b8a6588196550835950e9c07e8b968e8996b6db634fa8c",
+        "checks": [
+          {
+            "path": "palaces.1.earth_stem",
+            "source_value": "丙",
+            "computed_value": "丙",
+            "matches": true
+          },
+          {
+            "path": "palaces.1.door",
+            "source_value": "伤门",
+            "computed_value": "伤门",
+            "matches": true
+          },
+          {
+            "path": "palaces.1.deity",
+            "source_value": "玄武",
+            "computed_value": "玄武",
+            "matches": true
+          },
+          {
+            "path": "palaces.1.star",
+            "source_value": "天英星",
+            "computed_value": "天英星",
+            "matches": true
+          },
+          {
+            "path": "palaces.1.heaven_stem",
+            "source_value": "丁",
+            "computed_value": "丁",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.earth_stem",
+            "source_value": "乙",
+            "computed_value": "乙",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.door",
+            "source_value": "开门",
+            "computed_value": "开门",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.deity",
+            "source_value": "太阴",
+            "computed_value": "太阴",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.star",
+            "source_value": "天任星",
+            "computed_value": "天任星",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.heaven_stem",
+            "source_value": "癸",
+            "computed_value": "癸",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.earth_stem",
+            "source_value": "戊",
+            "computed_value": "戊",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.door",
+            "source_value": "景门",
+            "computed_value": "景门",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.deity",
+            "source_value": "九天",
+            "computed_value": "九天",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.star",
+            "source_value": "天柱星",
+            "computed_value": "天柱星",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.heaven_stem",
+            "source_value": "壬",
+            "computed_value": "壬",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.earth_stem",
+            "source_value": "己",
+            "computed_value": "己",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.door",
+            "source_value": "死门",
+            "computed_value": "死门",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.deity",
+            "source_value": "值符",
+            "computed_value": "值符",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.star",
+            "source_value": "天心星",
+            "computed_value": "天心星",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.heaven_stem",
+            "source_value": "辛",
+            "computed_value": "辛",
+            "matches": true
+          },
+          {
+            "path": "palaces.5.earth_stem",
+            "source_value": "庚",
+            "computed_value": "庚",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.earth_stem",
+            "source_value": "辛",
+            "computed_value": "辛",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.door",
+            "source_value": "生门",
+            "computed_value": "生门",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.deity",
+            "source_value": "白虎",
+            "computed_value": "白虎",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.star",
+            "source_value": "天辅星",
+            "computed_value": "天辅星",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.heaven_stem",
+            "source_value": "己",
+            "computed_value": "己",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.earth_stem",
+            "source_value": "壬",
+            "computed_value": "壬",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.door",
+            "source_value": "休门",
+            "computed_value": "休门",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.deity",
+            "source_value": "六合",
+            "computed_value": "六合",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.star",
+            "source_value": "天冲星",
+            "computed_value": "天冲星",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.heaven_stem",
+            "source_value": "戊",
+            "computed_value": "戊",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.earth_stem",
+            "source_value": "癸",
+            "computed_value": "癸",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.door",
+            "source_value": "杜门",
+            "computed_value": "杜门",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.deity",
+            "source_value": "九地",
+            "computed_value": "九地",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.star",
+            "source_value": "天芮星",
+            "computed_value": "天芮星",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.heaven_stem",
+            "source_value": "乙",
+            "computed_value": "乙",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.heaven_prefix_marker",
+            "source_value": "庚",
+            "computed_value": "庚",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.earth_stem",
+            "source_value": "丁",
+            "computed_value": "丁",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.door",
+            "source_value": "惊门",
+            "computed_value": "惊门",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.deity",
+            "source_value": "螣蛇",
+            "computed_value": "螣蛇",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.star",
+            "source_value": "天蓬星",
+            "computed_value": "天蓬星",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.heaven_stem",
+            "source_value": "丙",
+            "computed_value": "丙",
+            "matches": true
+          }
+        ],
+        "calculation_evidence": [
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-699f882cd5e070b5e7c1b49b395c5a2b58b87fa3e85c0115d621ca7c8c58003f",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "两完整盘支持的外圈与旋转约定；输入行 240–416",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-f24753400a24214dcec7807475a0b053daed2f964a02e80391220ebea5d4a0f8",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "八卦八门九宫掌上位置及中五寄二；输入行 53–61",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-d28a2c32bdfdb8d18b45a5486305e35f76799f2efac8dd19062b613c8e8e0135",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "纸上快速起局十步骤完整流程；输入行 186–223",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-6059deed448f239f7ba4ea1ec733ebc0e3fcca092d0fc28779ec0ec0fd3679ec",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例一：完整文字盘与天禽随天芮；输入行 247–275",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-7045cef833c2bd7ad764d4a1b7c52045ae56d1867285c0674e2553836e6a0ee6",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例一：值符随时干与九星携干旋转；输入行 287–299",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-6408d6608100d9e8ca5ba1da721b256e65f8c126d0ec21cb5db4dbebe6fabc60",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例一：八门旋转与三宫明确五行；输入行 300–318",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-d6b6866e564a29894a9b4654702e1a79c15a8b26a0bc0332f833c4edea708760",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例一：阳神顺时针与起局完成边界；输入行 319–334",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-515173e61ce2eb93e4cc89a9d8f54e71728a6398827e63f3130064b5f99e4f72",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：旬首中五的天禽值符死门值使；输入行 354–358",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-6ca2dc58cc9fc61fb9f5620ab5033376c229cb9eac56b2abc1c91adddc00f907",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：天禽携辛连天芮转艮八；输入行 359–369",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-44cbd114b38e20f55277e984391ceb25c8b66732e78735d17629104bf815b643",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：完整阴八文字盘与中五原位置；输入行 370–398",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-543b48b7d61630b7fccbc57f3f60a6213ff660291efe5631b89f852ef7eb1d71",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：值使从原五逆数到一及全八门；输入行 399–407",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-96346ebf89dcdae25ec28a92637cad6a2135c7239638cd7073bd328fa947dc42",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：阴神逆时针与起局完成；输入行 408–416",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "stars",
+            "item_id": "compiled-0b6d6ff4a8afe32f7ccab8938f4849b486f9711c4056c5ebef1cbed2fafb9385",
+            "source_id": "span-79e0c4e5d62ffb05e2d0980e6cd1a91f121b22a0f81cf31ff00c7bea5f11a466",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "天盘九星固定对应与属性；输入行 380–391",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "stars",
+            "item_id": "compiled-0b6d6ff4a8afe32f7ccab8938f4849b486f9711c4056c5ebef1cbed2fafb9385",
+            "source_id": "span-da3678e1add557f69277e5ae4dc99077c2023ec32b0548d744125a7216cb7637",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "值符身份与随时干转宫的完整例段；输入行 392–406",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "earth_sequence",
+            "item_id": "compiled-d9a7d790d3a43dae5223468470b2a208b6f54b0ef95c729328a5b4e1d082b6d9",
+            "source_id": "span-b8040f25a9a3bed62a9740313612194b2c74550f7119cc3d1a68d0ce44591211",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "九干固定队形与首尾相接；输入行 20–32",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "earth_sequence",
+            "item_id": "compiled-d9a7d790d3a43dae5223468470b2a208b6f54b0ef95c729328a5b4e1d082b6d9",
+            "source_id": "span-d1b05f3c3e8c1537a493bfcb9fb2a07fa5d05287b0a9c35d453851d4993f3a13",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "阴阳遁顺逆与甲子戊定局；输入行 33–40",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "earth_sequence",
+            "item_id": "compiled-d9a7d790d3a43dae5223468470b2a208b6f54b0ef95c729328a5b4e1d082b6d9",
+            "source_id": "span-583c17453ff83ded80859885a305d390daab53c4e7d8c198516ff1a5f66e4069",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "遁甲规律表与四张完整地盘示例；输入行 41–86",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "sexagenary_xun",
+            "item_id": "compiled-5989bdf4b4b9fe43aad5dee9d03f83714cbabf13fea5908a7523f9cd6b209502",
+            "source_id": "span-2d72443d059dc716c74bc55f01665b2a45695fb0ec598fbb29dd487167397eaf",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "时辰六旬完整六十甲子表；输入行 105–116",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "hidden_jia",
+            "item_id": "compiled-1f7b01b88a7db0e6c12c9e19249bf8411fba08b721eafc13ed438b19e98a456e",
+            "source_id": "span-347c42f2bfd29d2df3c55f20d686d6f13d019ae89fa49e705cb21c6c25af69d2",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "六甲隐六仪永定例；输入行 15–19",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "doors",
+            "item_id": "compiled-3905ba60a1d5e13c65a666f416f79829baefc48db741018f4e6b0c8f99b9817f",
+            "source_id": "span-96ccc23ddf3b8d1eb35403bb851b8e85cfbdc6b8f4a47d867d34ccd1fb11f7d3",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "人盘八门固定本宫与五行；输入行 407–418",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "doors",
+            "item_id": "compiled-3905ba60a1d5e13c65a666f416f79829baefc48db741018f4e6b0c8f99b9817f",
+            "source_id": "span-aa91e2ba0c11f557d1c67611fda7c42ff6282819f40baa4160d1d8c4ee5bf47d",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "值使身份与随时宫阴阳顺逆；输入行 419–428",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          }
+        ],
+        "checked_field_count": 42,
+        "uncompared_fields": [
+          "star_prefix_marker semantics",
+          "full nine-star expansion",
+          "year/month/day calendar",
+          "voids/horse",
+          "author reasoning/clinical outcome"
+        ],
+        "scope": "given_source_symbols_and_transcription_only_not_calendar_or_medical_judgment",
+        "source_rejected": false,
+        "original_chart_modified": false,
+        "engine_verified": false,
+        "calendar_recomputed": false
+      }
+    },
+    {
+      "task_id": "initial-2c8252776e0670fa7159",
+      "chart_id": "chart-b8164e1d68f2b28a2b9efe38234c8753d9ca6678582c5240b42d0428651ffac0",
+      "given_inputs": {
+        "dun": "阳遁",
+        "bureau": 1,
+        "hour_ganzhi": "己巳"
+      },
+      "basis": "individually reviewed given source metadata; temporary comparison projection only",
+      "comparison": {
+        "status": "matches",
+        "comparison_method": "shenqi_ch2_paper_v1",
+        "source_chart_id": "chart-b8164e1d68f2b28a2b9efe38234c8753d9ca6678582c5240b42d0428651ffac0",
+        "computed_chart_id": "chart-04624145fca9d8c7f869851ab7f59c4faa1b39d549e337003ed94d7c82e6e54a",
+        "checks": [
+          {
+            "path": "palaces.1.earth_stem",
+            "source_value": "戊",
+            "computed_value": "戊",
+            "matches": true
+          },
+          {
+            "path": "palaces.1.door",
+            "source_value": "生门",
+            "computed_value": "生门",
+            "matches": true
+          },
+          {
+            "path": "palaces.1.deity",
+            "source_value": "六合",
+            "computed_value": "六合",
+            "matches": true
+          },
+          {
+            "path": "palaces.1.star",
+            "source_value": "天辅星",
+            "computed_value": "天辅星",
+            "matches": true
+          },
+          {
+            "path": "palaces.1.heaven_stem",
+            "source_value": "辛",
+            "computed_value": "辛",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.earth_stem",
+            "source_value": "己",
+            "computed_value": "己",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.door",
+            "source_value": "惊门",
+            "computed_value": "惊门",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.deity",
+            "source_value": "值符",
+            "computed_value": "值符",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.star",
+            "source_value": "天蓬星",
+            "computed_value": "天蓬星",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.heaven_stem",
+            "source_value": "戊",
+            "computed_value": "戊",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.earth_stem",
+            "source_value": "庚",
+            "computed_value": "庚",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.door",
+            "source_value": "杜门",
+            "computed_value": "杜门",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.deity",
+            "source_value": "玄武",
+            "computed_value": "玄武",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.star",
+            "source_value": "天芮星",
+            "computed_value": "天芮星",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.heaven_stem",
+            "source_value": "己",
+            "computed_value": "己",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.heaven_prefix_marker",
+            "source_value": "壬",
+            "computed_value": "壬",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.earth_stem",
+            "source_value": "辛",
+            "computed_value": "辛",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.door",
+            "source_value": "景门",
+            "computed_value": "景门",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.deity",
+            "source_value": "九地",
+            "computed_value": "九地",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.star",
+            "source_value": "天柱星",
+            "computed_value": "天柱星",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.heaven_stem",
+            "source_value": "丁",
+            "computed_value": "丁",
+            "matches": true
+          },
+          {
+            "path": "palaces.5.earth_stem",
+            "source_value": "壬",
+            "computed_value": "壬",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.earth_stem",
+            "source_value": "癸",
+            "computed_value": "癸",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.door",
+            "source_value": "休门",
+            "computed_value": "休门",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.deity",
+            "source_value": "太阴",
+            "computed_value": "太阴",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.star",
+            "source_value": "天冲星",
+            "computed_value": "天冲星",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.heaven_stem",
+            "source_value": "庚",
+            "computed_value": "庚",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.earth_stem",
+            "source_value": "丁",
+            "computed_value": "丁",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.door",
+            "source_value": "开门",
+            "computed_value": "开门",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.deity",
+            "source_value": "螣蛇",
+            "computed_value": "螣蛇",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.star",
+            "source_value": "天任星",
+            "computed_value": "天任星",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.heaven_stem",
+            "source_value": "丙",
+            "computed_value": "丙",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.earth_stem",
+            "source_value": "丙",
+            "computed_value": "丙",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.door",
+            "source_value": "伤门",
+            "computed_value": "伤门",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.deity",
+            "source_value": "白虎",
+            "computed_value": "白虎",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.star",
+            "source_value": "天英星",
+            "computed_value": "天英星",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.heaven_stem",
+            "source_value": "乙",
+            "computed_value": "乙",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.earth_stem",
+            "source_value": "乙",
+            "computed_value": "乙",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.door",
+            "source_value": "死门",
+            "computed_value": "死门",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.deity",
+            "source_value": "九天",
+            "computed_value": "九天",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.star",
+            "source_value": "天心星",
+            "computed_value": "天心星",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.heaven_stem",
+            "source_value": "癸",
+            "computed_value": "癸",
+            "matches": true
+          }
+        ],
+        "calculation_evidence": [
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-699f882cd5e070b5e7c1b49b395c5a2b58b87fa3e85c0115d621ca7c8c58003f",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "两完整盘支持的外圈与旋转约定；输入行 240–416",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-f24753400a24214dcec7807475a0b053daed2f964a02e80391220ebea5d4a0f8",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "八卦八门九宫掌上位置及中五寄二；输入行 53–61",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-d28a2c32bdfdb8d18b45a5486305e35f76799f2efac8dd19062b613c8e8e0135",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "纸上快速起局十步骤完整流程；输入行 186–223",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-6059deed448f239f7ba4ea1ec733ebc0e3fcca092d0fc28779ec0ec0fd3679ec",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例一：完整文字盘与天禽随天芮；输入行 247–275",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-7045cef833c2bd7ad764d4a1b7c52045ae56d1867285c0674e2553836e6a0ee6",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例一：值符随时干与九星携干旋转；输入行 287–299",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-6408d6608100d9e8ca5ba1da721b256e65f8c126d0ec21cb5db4dbebe6fabc60",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例一：八门旋转与三宫明确五行；输入行 300–318",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-d6b6866e564a29894a9b4654702e1a79c15a8b26a0bc0332f833c4edea708760",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例一：阳神顺时针与起局完成边界；输入行 319–334",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-515173e61ce2eb93e4cc89a9d8f54e71728a6398827e63f3130064b5f99e4f72",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：旬首中五的天禽值符死门值使；输入行 354–358",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-6ca2dc58cc9fc61fb9f5620ab5033376c229cb9eac56b2abc1c91adddc00f907",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：天禽携辛连天芮转艮八；输入行 359–369",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-44cbd114b38e20f55277e984391ceb25c8b66732e78735d17629104bf815b643",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：完整阴八文字盘与中五原位置；输入行 370–398",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-543b48b7d61630b7fccbc57f3f60a6213ff660291efe5631b89f852ef7eb1d71",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：值使从原五逆数到一及全八门；输入行 399–407",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-96346ebf89dcdae25ec28a92637cad6a2135c7239638cd7073bd328fa947dc42",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：阴神逆时针与起局完成；输入行 408–416",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "stars",
+            "item_id": "compiled-0b6d6ff4a8afe32f7ccab8938f4849b486f9711c4056c5ebef1cbed2fafb9385",
+            "source_id": "span-79e0c4e5d62ffb05e2d0980e6cd1a91f121b22a0f81cf31ff00c7bea5f11a466",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "天盘九星固定对应与属性；输入行 380–391",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "stars",
+            "item_id": "compiled-0b6d6ff4a8afe32f7ccab8938f4849b486f9711c4056c5ebef1cbed2fafb9385",
+            "source_id": "span-da3678e1add557f69277e5ae4dc99077c2023ec32b0548d744125a7216cb7637",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "值符身份与随时干转宫的完整例段；输入行 392–406",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "earth_sequence",
+            "item_id": "compiled-d9a7d790d3a43dae5223468470b2a208b6f54b0ef95c729328a5b4e1d082b6d9",
+            "source_id": "span-b8040f25a9a3bed62a9740313612194b2c74550f7119cc3d1a68d0ce44591211",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "九干固定队形与首尾相接；输入行 20–32",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "earth_sequence",
+            "item_id": "compiled-d9a7d790d3a43dae5223468470b2a208b6f54b0ef95c729328a5b4e1d082b6d9",
+            "source_id": "span-d1b05f3c3e8c1537a493bfcb9fb2a07fa5d05287b0a9c35d453851d4993f3a13",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "阴阳遁顺逆与甲子戊定局；输入行 33–40",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "earth_sequence",
+            "item_id": "compiled-d9a7d790d3a43dae5223468470b2a208b6f54b0ef95c729328a5b4e1d082b6d9",
+            "source_id": "span-583c17453ff83ded80859885a305d390daab53c4e7d8c198516ff1a5f66e4069",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "遁甲规律表与四张完整地盘示例；输入行 41–86",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "sexagenary_xun",
+            "item_id": "compiled-5989bdf4b4b9fe43aad5dee9d03f83714cbabf13fea5908a7523f9cd6b209502",
+            "source_id": "span-2d72443d059dc716c74bc55f01665b2a45695fb0ec598fbb29dd487167397eaf",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "时辰六旬完整六十甲子表；输入行 105–116",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "hidden_jia",
+            "item_id": "compiled-1f7b01b88a7db0e6c12c9e19249bf8411fba08b721eafc13ed438b19e98a456e",
+            "source_id": "span-347c42f2bfd29d2df3c55f20d686d6f13d019ae89fa49e705cb21c6c25af69d2",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "六甲隐六仪永定例；输入行 15–19",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "doors",
+            "item_id": "compiled-3905ba60a1d5e13c65a666f416f79829baefc48db741018f4e6b0c8f99b9817f",
+            "source_id": "span-96ccc23ddf3b8d1eb35403bb851b8e85cfbdc6b8f4a47d867d34ccd1fb11f7d3",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "人盘八门固定本宫与五行；输入行 407–418",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "doors",
+            "item_id": "compiled-3905ba60a1d5e13c65a666f416f79829baefc48db741018f4e6b0c8f99b9817f",
+            "source_id": "span-aa91e2ba0c11f557d1c67611fda7c42ff6282819f40baa4160d1d8c4ee5bf47d",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "值使身份与随时宫阴阳顺逆；输入行 419–428",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          }
+        ],
+        "checked_field_count": 42,
+        "uncompared_fields": [
+          "star_prefix_marker semantics",
+          "full nine-star expansion",
+          "year/month/day calendar",
+          "voids/horse",
+          "author reasoning/clinical outcome"
+        ],
+        "scope": "given_source_symbols_and_transcription_only_not_calendar_or_medical_judgment",
+        "source_rejected": false,
+        "original_chart_modified": false,
+        "engine_verified": false,
+        "calendar_recomputed": false
+      }
+    },
+    {
+      "task_id": "initial-72983600e809549d0268",
+      "chart_id": "chart-2a8f52c1427bd722f17262c9284a4bdd503d9acec88729bb5c48f01ff46a9c27",
+      "given_inputs": {
+        "dun": "阴遁",
+        "bureau": 3,
+        "hour_ganzhi": "癸卯"
+      },
+      "basis": "individually reviewed given source metadata; temporary comparison projection only",
+      "comparison": {
+        "status": "matches",
+        "comparison_method": "shenqi_ch2_paper_v1",
+        "source_chart_id": "chart-2a8f52c1427bd722f17262c9284a4bdd503d9acec88729bb5c48f01ff46a9c27",
+        "computed_chart_id": "chart-10542f17f7b22ce584a1417098951b501a4ae73a3a47e1628d5810232ec56d27",
+        "checks": [
+          {
+            "path": "palaces.1.earth_stem",
+            "source_value": "庚",
+            "computed_value": "庚",
+            "matches": true
+          },
+          {
+            "path": "palaces.1.door",
+            "source_value": "休门",
+            "computed_value": "休门",
+            "matches": true
+          },
+          {
+            "path": "palaces.1.deity",
+            "source_value": "九地",
+            "computed_value": "九地",
+            "matches": true
+          },
+          {
+            "path": "palaces.1.star",
+            "source_value": "天柱星",
+            "computed_value": "天柱星",
+            "matches": true
+          },
+          {
+            "path": "palaces.1.heaven_stem",
+            "source_value": "癸",
+            "computed_value": "癸",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.earth_stem",
+            "source_value": "己",
+            "computed_value": "己",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.door",
+            "source_value": "死门",
+            "computed_value": "死门",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.deity",
+            "source_value": "螣蛇",
+            "computed_value": "螣蛇",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.star",
+            "source_value": "天辅星",
+            "computed_value": "天辅星",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.heaven_stem",
+            "source_value": "乙",
+            "computed_value": "乙",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.earth_stem",
+            "source_value": "戊",
+            "computed_value": "戊",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.door",
+            "source_value": "伤门",
+            "computed_value": "伤门",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.deity",
+            "source_value": "白虎",
+            "computed_value": "白虎",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.star",
+            "source_value": "天蓬星",
+            "computed_value": "天蓬星",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.heaven_stem",
+            "source_value": "庚",
+            "computed_value": "庚",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.earth_stem",
+            "source_value": "乙",
+            "computed_value": "乙",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.door",
+            "source_value": "杜门",
+            "computed_value": "杜门",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.deity",
+            "source_value": "六合",
+            "computed_value": "六合",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.star",
+            "source_value": "天任星",
+            "computed_value": "天任星",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.heaven_stem",
+            "source_value": "壬",
+            "computed_value": "壬",
+            "matches": true
+          },
+          {
+            "path": "palaces.5.earth_stem",
+            "source_value": "丙",
+            "computed_value": "丙",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.earth_stem",
+            "source_value": "丁",
+            "computed_value": "丁",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.door",
+            "source_value": "开门",
+            "computed_value": "开门",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.deity",
+            "source_value": "九天",
+            "computed_value": "九天",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.star",
+            "source_value": "天芮星",
+            "computed_value": "天芮星",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.heaven_stem",
+            "source_value": "己",
+            "computed_value": "己",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.heaven_prefix_marker",
+            "source_value": "丙",
+            "computed_value": "丙",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.earth_stem",
+            "source_value": "癸",
+            "computed_value": "癸",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.door",
+            "source_value": "惊门",
+            "computed_value": "惊门",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.deity",
+            "source_value": "值符",
+            "computed_value": "值符",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.star",
+            "source_value": "天英星",
+            "computed_value": "天英星",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.heaven_stem",
+            "source_value": "辛",
+            "computed_value": "辛",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.earth_stem",
+            "source_value": "壬",
+            "computed_value": "壬",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.door",
+            "source_value": "生门",
+            "computed_value": "生门",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.deity",
+            "source_value": "玄武",
+            "computed_value": "玄武",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.star",
+            "source_value": "天心星",
+            "computed_value": "天心星",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.heaven_stem",
+            "source_value": "丁",
+            "computed_value": "丁",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.earth_stem",
+            "source_value": "辛",
+            "computed_value": "辛",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.door",
+            "source_value": "景门",
+            "computed_value": "景门",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.deity",
+            "source_value": "太阴",
+            "computed_value": "太阴",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.star",
+            "source_value": "天冲星",
+            "computed_value": "天冲星",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.heaven_stem",
+            "source_value": "戊",
+            "computed_value": "戊",
+            "matches": true
+          }
+        ],
+        "calculation_evidence": [
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-699f882cd5e070b5e7c1b49b395c5a2b58b87fa3e85c0115d621ca7c8c58003f",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "两完整盘支持的外圈与旋转约定；输入行 240–416",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-f24753400a24214dcec7807475a0b053daed2f964a02e80391220ebea5d4a0f8",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "八卦八门九宫掌上位置及中五寄二；输入行 53–61",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-d28a2c32bdfdb8d18b45a5486305e35f76799f2efac8dd19062b613c8e8e0135",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "纸上快速起局十步骤完整流程；输入行 186–223",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-6059deed448f239f7ba4ea1ec733ebc0e3fcca092d0fc28779ec0ec0fd3679ec",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例一：完整文字盘与天禽随天芮；输入行 247–275",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-7045cef833c2bd7ad764d4a1b7c52045ae56d1867285c0674e2553836e6a0ee6",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例一：值符随时干与九星携干旋转；输入行 287–299",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-6408d6608100d9e8ca5ba1da721b256e65f8c126d0ec21cb5db4dbebe6fabc60",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例一：八门旋转与三宫明确五行；输入行 300–318",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-d6b6866e564a29894a9b4654702e1a79c15a8b26a0bc0332f833c4edea708760",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例一：阳神顺时针与起局完成边界；输入行 319–334",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-515173e61ce2eb93e4cc89a9d8f54e71728a6398827e63f3130064b5f99e4f72",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：旬首中五的天禽值符死门值使；输入行 354–358",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-6ca2dc58cc9fc61fb9f5620ab5033376c229cb9eac56b2abc1c91adddc00f907",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：天禽携辛连天芮转艮八；输入行 359–369",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-44cbd114b38e20f55277e984391ceb25c8b66732e78735d17629104bf815b643",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：完整阴八文字盘与中五原位置；输入行 370–398",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-543b48b7d61630b7fccbc57f3f60a6213ff660291efe5631b89f852ef7eb1d71",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：值使从原五逆数到一及全八门；输入行 399–407",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-96346ebf89dcdae25ec28a92637cad6a2135c7239638cd7073bd328fa947dc42",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：阴神逆时针与起局完成；输入行 408–416",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "stars",
+            "item_id": "compiled-0b6d6ff4a8afe32f7ccab8938f4849b486f9711c4056c5ebef1cbed2fafb9385",
+            "source_id": "span-79e0c4e5d62ffb05e2d0980e6cd1a91f121b22a0f81cf31ff00c7bea5f11a466",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "天盘九星固定对应与属性；输入行 380–391",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "stars",
+            "item_id": "compiled-0b6d6ff4a8afe32f7ccab8938f4849b486f9711c4056c5ebef1cbed2fafb9385",
+            "source_id": "span-da3678e1add557f69277e5ae4dc99077c2023ec32b0548d744125a7216cb7637",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "值符身份与随时干转宫的完整例段；输入行 392–406",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "earth_sequence",
+            "item_id": "compiled-d9a7d790d3a43dae5223468470b2a208b6f54b0ef95c729328a5b4e1d082b6d9",
+            "source_id": "span-b8040f25a9a3bed62a9740313612194b2c74550f7119cc3d1a68d0ce44591211",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "九干固定队形与首尾相接；输入行 20–32",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "earth_sequence",
+            "item_id": "compiled-d9a7d790d3a43dae5223468470b2a208b6f54b0ef95c729328a5b4e1d082b6d9",
+            "source_id": "span-d1b05f3c3e8c1537a493bfcb9fb2a07fa5d05287b0a9c35d453851d4993f3a13",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "阴阳遁顺逆与甲子戊定局；输入行 33–40",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "earth_sequence",
+            "item_id": "compiled-d9a7d790d3a43dae5223468470b2a208b6f54b0ef95c729328a5b4e1d082b6d9",
+            "source_id": "span-583c17453ff83ded80859885a305d390daab53c4e7d8c198516ff1a5f66e4069",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "遁甲规律表与四张完整地盘示例；输入行 41–86",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "sexagenary_xun",
+            "item_id": "compiled-5989bdf4b4b9fe43aad5dee9d03f83714cbabf13fea5908a7523f9cd6b209502",
+            "source_id": "span-2d72443d059dc716c74bc55f01665b2a45695fb0ec598fbb29dd487167397eaf",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "时辰六旬完整六十甲子表；输入行 105–116",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "hidden_jia",
+            "item_id": "compiled-1f7b01b88a7db0e6c12c9e19249bf8411fba08b721eafc13ed438b19e98a456e",
+            "source_id": "span-347c42f2bfd29d2df3c55f20d686d6f13d019ae89fa49e705cb21c6c25af69d2",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "六甲隐六仪永定例；输入行 15–19",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "doors",
+            "item_id": "compiled-3905ba60a1d5e13c65a666f416f79829baefc48db741018f4e6b0c8f99b9817f",
+            "source_id": "span-96ccc23ddf3b8d1eb35403bb851b8e85cfbdc6b8f4a47d867d34ccd1fb11f7d3",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "人盘八门固定本宫与五行；输入行 407–418",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "doors",
+            "item_id": "compiled-3905ba60a1d5e13c65a666f416f79829baefc48db741018f4e6b0c8f99b9817f",
+            "source_id": "span-aa91e2ba0c11f557d1c67611fda7c42ff6282819f40baa4160d1d8c4ee5bf47d",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "值使身份与随时宫阴阳顺逆；输入行 419–428",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          }
+        ],
+        "checked_field_count": 42,
+        "uncompared_fields": [
+          "star_prefix_marker semantics",
+          "full nine-star expansion",
+          "year/month/day calendar",
+          "voids/horse",
+          "author reasoning/clinical outcome"
+        ],
+        "scope": "given_source_symbols_and_transcription_only_not_calendar_or_medical_judgment",
+        "source_rejected": false,
+        "original_chart_modified": false,
+        "engine_verified": false,
+        "calendar_recomputed": false
+      }
+    },
+    {
+      "task_id": "initial-252f67b5e6d606ad1316",
+      "chart_id": "chart-e5b42b50b9dd0be1049764103be0cc11eb7a5b355ba703fe13d294b47db11299",
+      "given_inputs": {
+        "dun": "阳遁",
+        "bureau": 4,
+        "hour_ganzhi": "壬戌"
+      },
+      "basis": "individually reviewed given source metadata; temporary comparison projection only",
+      "comparison": {
+        "status": "matches",
+        "comparison_method": "shenqi_ch2_paper_v1",
+        "source_chart_id": "chart-e5b42b50b9dd0be1049764103be0cc11eb7a5b355ba703fe13d294b47db11299",
+        "computed_chart_id": "chart-1bfd2a09998d3f8293c1874f88ed0385d6bdbca66a39256a046fefb3dae4b532",
+        "checks": [
+          {
+            "path": "palaces.1.earth_stem",
+            "source_value": "丁",
+            "computed_value": "丁",
+            "matches": true
+          },
+          {
+            "path": "palaces.1.door",
+            "source_value": "杜门",
+            "computed_value": "杜门",
+            "matches": true
+          },
+          {
+            "path": "palaces.1.deity",
+            "source_value": "九天",
+            "computed_value": "九天",
+            "matches": true
+          },
+          {
+            "path": "palaces.1.star",
+            "source_value": "天辅星",
+            "computed_value": "天辅星",
+            "matches": true
+          },
+          {
+            "path": "palaces.1.heaven_stem",
+            "source_value": "戊",
+            "computed_value": "戊",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.earth_stem",
+            "source_value": "丙",
+            "computed_value": "丙",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.door",
+            "source_value": "休门",
+            "computed_value": "休门",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.deity",
+            "source_value": "白虎",
+            "computed_value": "白虎",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.star",
+            "source_value": "天蓬星",
+            "computed_value": "天蓬星",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.heaven_stem",
+            "source_value": "丁",
+            "computed_value": "丁",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.earth_stem",
+            "source_value": "乙",
+            "computed_value": "乙",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.door",
+            "source_value": "死门",
+            "computed_value": "死门",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.deity",
+            "source_value": "螣蛇",
+            "computed_value": "螣蛇",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.star",
+            "source_value": "天芮星",
+            "computed_value": "天芮星",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.heaven_stem",
+            "source_value": "丙",
+            "computed_value": "丙",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.heaven_prefix_marker",
+            "source_value": "己",
+            "computed_value": "己",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.earth_stem",
+            "source_value": "戊",
+            "computed_value": "戊",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.door",
+            "source_value": "惊门",
+            "computed_value": "惊门",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.deity",
+            "source_value": "太阴",
+            "computed_value": "太阴",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.star",
+            "source_value": "天柱星",
+            "computed_value": "天柱星",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.heaven_stem",
+            "source_value": "辛",
+            "computed_value": "辛",
+            "matches": true
+          },
+          {
+            "path": "palaces.5.earth_stem",
+            "source_value": "己",
+            "computed_value": "己",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.earth_stem",
+            "source_value": "庚",
+            "computed_value": "庚",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.door",
+            "source_value": "伤门",
+            "computed_value": "伤门",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.deity",
+            "source_value": "九地",
+            "computed_value": "九地",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.star",
+            "source_value": "天冲星",
+            "computed_value": "天冲星",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.heaven_stem",
+            "source_value": "乙",
+            "computed_value": "乙",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.earth_stem",
+            "source_value": "辛",
+            "computed_value": "辛",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.door",
+            "source_value": "生门",
+            "computed_value": "生门",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.deity",
+            "source_value": "玄武",
+            "computed_value": "玄武",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.star",
+            "source_value": "天任星",
+            "computed_value": "天任星",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.heaven_stem",
+            "source_value": "壬",
+            "computed_value": "壬",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.earth_stem",
+            "source_value": "壬",
+            "computed_value": "壬",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.door",
+            "source_value": "景门",
+            "computed_value": "景门",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.deity",
+            "source_value": "值符",
+            "computed_value": "值符",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.star",
+            "source_value": "天英星",
+            "computed_value": "天英星",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.heaven_stem",
+            "source_value": "癸",
+            "computed_value": "癸",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.earth_stem",
+            "source_value": "癸",
+            "computed_value": "癸",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.door",
+            "source_value": "开门",
+            "computed_value": "开门",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.deity",
+            "source_value": "六合",
+            "computed_value": "六合",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.star",
+            "source_value": "天心星",
+            "computed_value": "天心星",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.heaven_stem",
+            "source_value": "庚",
+            "computed_value": "庚",
+            "matches": true
+          }
+        ],
+        "calculation_evidence": [
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-699f882cd5e070b5e7c1b49b395c5a2b58b87fa3e85c0115d621ca7c8c58003f",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "两完整盘支持的外圈与旋转约定；输入行 240–416",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-f24753400a24214dcec7807475a0b053daed2f964a02e80391220ebea5d4a0f8",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "八卦八门九宫掌上位置及中五寄二；输入行 53–61",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-d28a2c32bdfdb8d18b45a5486305e35f76799f2efac8dd19062b613c8e8e0135",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "纸上快速起局十步骤完整流程；输入行 186–223",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-6059deed448f239f7ba4ea1ec733ebc0e3fcca092d0fc28779ec0ec0fd3679ec",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例一：完整文字盘与天禽随天芮；输入行 247–275",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-7045cef833c2bd7ad764d4a1b7c52045ae56d1867285c0674e2553836e6a0ee6",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例一：值符随时干与九星携干旋转；输入行 287–299",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-6408d6608100d9e8ca5ba1da721b256e65f8c126d0ec21cb5db4dbebe6fabc60",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例一：八门旋转与三宫明确五行；输入行 300–318",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-d6b6866e564a29894a9b4654702e1a79c15a8b26a0bc0332f833c4edea708760",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例一：阳神顺时针与起局完成边界；输入行 319–334",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-515173e61ce2eb93e4cc89a9d8f54e71728a6398827e63f3130064b5f99e4f72",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：旬首中五的天禽值符死门值使；输入行 354–358",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-6ca2dc58cc9fc61fb9f5620ab5033376c229cb9eac56b2abc1c91adddc00f907",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：天禽携辛连天芮转艮八；输入行 359–369",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-44cbd114b38e20f55277e984391ceb25c8b66732e78735d17629104bf815b643",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：完整阴八文字盘与中五原位置；输入行 370–398",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-543b48b7d61630b7fccbc57f3f60a6213ff660291efe5631b89f852ef7eb1d71",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：值使从原五逆数到一及全八门；输入行 399–407",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-96346ebf89dcdae25ec28a92637cad6a2135c7239638cd7073bd328fa947dc42",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：阴神逆时针与起局完成；输入行 408–416",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "stars",
+            "item_id": "compiled-0b6d6ff4a8afe32f7ccab8938f4849b486f9711c4056c5ebef1cbed2fafb9385",
+            "source_id": "span-79e0c4e5d62ffb05e2d0980e6cd1a91f121b22a0f81cf31ff00c7bea5f11a466",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "天盘九星固定对应与属性；输入行 380–391",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "stars",
+            "item_id": "compiled-0b6d6ff4a8afe32f7ccab8938f4849b486f9711c4056c5ebef1cbed2fafb9385",
+            "source_id": "span-da3678e1add557f69277e5ae4dc99077c2023ec32b0548d744125a7216cb7637",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "值符身份与随时干转宫的完整例段；输入行 392–406",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "earth_sequence",
+            "item_id": "compiled-d9a7d790d3a43dae5223468470b2a208b6f54b0ef95c729328a5b4e1d082b6d9",
+            "source_id": "span-b8040f25a9a3bed62a9740313612194b2c74550f7119cc3d1a68d0ce44591211",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "九干固定队形与首尾相接；输入行 20–32",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "earth_sequence",
+            "item_id": "compiled-d9a7d790d3a43dae5223468470b2a208b6f54b0ef95c729328a5b4e1d082b6d9",
+            "source_id": "span-d1b05f3c3e8c1537a493bfcb9fb2a07fa5d05287b0a9c35d453851d4993f3a13",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "阴阳遁顺逆与甲子戊定局；输入行 33–40",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "earth_sequence",
+            "item_id": "compiled-d9a7d790d3a43dae5223468470b2a208b6f54b0ef95c729328a5b4e1d082b6d9",
+            "source_id": "span-583c17453ff83ded80859885a305d390daab53c4e7d8c198516ff1a5f66e4069",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "遁甲规律表与四张完整地盘示例；输入行 41–86",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "sexagenary_xun",
+            "item_id": "compiled-5989bdf4b4b9fe43aad5dee9d03f83714cbabf13fea5908a7523f9cd6b209502",
+            "source_id": "span-2d72443d059dc716c74bc55f01665b2a45695fb0ec598fbb29dd487167397eaf",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "时辰六旬完整六十甲子表；输入行 105–116",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "hidden_jia",
+            "item_id": "compiled-1f7b01b88a7db0e6c12c9e19249bf8411fba08b721eafc13ed438b19e98a456e",
+            "source_id": "span-347c42f2bfd29d2df3c55f20d686d6f13d019ae89fa49e705cb21c6c25af69d2",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "六甲隐六仪永定例；输入行 15–19",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "doors",
+            "item_id": "compiled-3905ba60a1d5e13c65a666f416f79829baefc48db741018f4e6b0c8f99b9817f",
+            "source_id": "span-96ccc23ddf3b8d1eb35403bb851b8e85cfbdc6b8f4a47d867d34ccd1fb11f7d3",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "人盘八门固定本宫与五行；输入行 407–418",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "doors",
+            "item_id": "compiled-3905ba60a1d5e13c65a666f416f79829baefc48db741018f4e6b0c8f99b9817f",
+            "source_id": "span-aa91e2ba0c11f557d1c67611fda7c42ff6282819f40baa4160d1d8c4ee5bf47d",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "值使身份与随时宫阴阳顺逆；输入行 419–428",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          }
+        ],
+        "checked_field_count": 42,
+        "uncompared_fields": [
+          "star_prefix_marker semantics",
+          "full nine-star expansion",
+          "year/month/day calendar",
+          "voids/horse",
+          "author reasoning/clinical outcome"
+        ],
+        "scope": "given_source_symbols_and_transcription_only_not_calendar_or_medical_judgment",
+        "source_rejected": false,
+        "original_chart_modified": false,
+        "engine_verified": false,
+        "calendar_recomputed": false
+      }
+    },
+    {
+      "task_id": "initial-e708e04a798ece33d7d3",
+      "chart_id": "chart-9bc47b3c23a166d1ec9d14cf93fed4e8b73a4e199764009c6ee68935c6928efc",
+      "given_inputs": {
+        "dun": "阴遁",
+        "bureau": 2,
+        "hour_ganzhi": "乙巳"
+      },
+      "basis": "individually reviewed given source metadata; temporary comparison projection only",
+      "comparison": {
+        "status": "matches",
+        "comparison_method": "shenqi_ch2_paper_v1",
+        "source_chart_id": "chart-9bc47b3c23a166d1ec9d14cf93fed4e8b73a4e199764009c6ee68935c6928efc",
+        "computed_chart_id": "chart-293fd9e6e58af903b534576b686a1196817def868f0d569f8d98a3ddfd9414b3",
+        "checks": [
+          {
+            "path": "palaces.1.earth_stem",
+            "source_value": "己",
+            "computed_value": "己",
+            "matches": true
+          },
+          {
+            "path": "palaces.1.door",
+            "source_value": "开门",
+            "computed_value": "开门",
+            "matches": true
+          },
+          {
+            "path": "palaces.1.deity",
+            "source_value": "太阴",
+            "computed_value": "太阴",
+            "matches": true
+          },
+          {
+            "path": "palaces.1.star",
+            "source_value": "天英星",
+            "computed_value": "天英星",
+            "matches": true
+          },
+          {
+            "path": "palaces.1.heaven_stem",
+            "source_value": "庚",
+            "computed_value": "庚",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.earth_stem",
+            "source_value": "戊",
+            "computed_value": "戊",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.door",
+            "source_value": "景门",
+            "computed_value": "景门",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.deity",
+            "source_value": "玄武",
+            "computed_value": "玄武",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.star",
+            "source_value": "天任星",
+            "computed_value": "天任星",
+            "matches": true
+          },
+          {
+            "path": "palaces.2.heaven_stem",
+            "source_value": "辛",
+            "computed_value": "辛",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.earth_stem",
+            "source_value": "乙",
+            "computed_value": "乙",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.door",
+            "source_value": "生门",
+            "computed_value": "生门",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.deity",
+            "source_value": "值符",
+            "computed_value": "值符",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.star",
+            "source_value": "天柱星",
+            "computed_value": "天柱星",
+            "matches": true
+          },
+          {
+            "path": "palaces.3.heaven_stem",
+            "source_value": "壬",
+            "computed_value": "壬",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.earth_stem",
+            "source_value": "丙",
+            "computed_value": "丙",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.door",
+            "source_value": "伤门",
+            "computed_value": "伤门",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.deity",
+            "source_value": "九天",
+            "computed_value": "九天",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.star",
+            "source_value": "天心星",
+            "computed_value": "天心星",
+            "matches": true
+          },
+          {
+            "path": "palaces.4.heaven_stem",
+            "source_value": "癸",
+            "computed_value": "癸",
+            "matches": true
+          },
+          {
+            "path": "palaces.5.earth_stem",
+            "source_value": "丁",
+            "computed_value": "丁",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.earth_stem",
+            "source_value": "癸",
+            "computed_value": "癸",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.door",
+            "source_value": "惊门",
+            "computed_value": "惊门",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.deity",
+            "source_value": "六合",
+            "computed_value": "六合",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.star",
+            "source_value": "天辅星",
+            "computed_value": "天辅星",
+            "matches": true
+          },
+          {
+            "path": "palaces.6.heaven_stem",
+            "source_value": "丙",
+            "computed_value": "丙",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.earth_stem",
+            "source_value": "壬",
+            "computed_value": "壬",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.door",
+            "source_value": "死门",
+            "computed_value": "死门",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.deity",
+            "source_value": "白虎",
+            "computed_value": "白虎",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.star",
+            "source_value": "天冲星",
+            "computed_value": "天冲星",
+            "matches": true
+          },
+          {
+            "path": "palaces.7.heaven_stem",
+            "source_value": "乙",
+            "computed_value": "乙",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.earth_stem",
+            "source_value": "辛",
+            "computed_value": "辛",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.door",
+            "source_value": "休门",
+            "computed_value": "休门",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.deity",
+            "source_value": "螣蛇",
+            "computed_value": "螣蛇",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.star",
+            "source_value": "天芮星",
+            "computed_value": "天芮星",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.heaven_stem",
+            "source_value": "戊",
+            "computed_value": "戊",
+            "matches": true
+          },
+          {
+            "path": "palaces.8.heaven_prefix_marker",
+            "source_value": "丁",
+            "computed_value": "丁",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.earth_stem",
+            "source_value": "庚",
+            "computed_value": "庚",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.door",
+            "source_value": "杜门",
+            "computed_value": "杜门",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.deity",
+            "source_value": "九地",
+            "computed_value": "九地",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.star",
+            "source_value": "天蓬星",
+            "computed_value": "天蓬星",
+            "matches": true
+          },
+          {
+            "path": "palaces.9.heaven_stem",
+            "source_value": "己",
+            "computed_value": "己",
+            "matches": true
+          }
+        ],
+        "calculation_evidence": [
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-699f882cd5e070b5e7c1b49b395c5a2b58b87fa3e85c0115d621ca7c8c58003f",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "两完整盘支持的外圈与旋转约定；输入行 240–416",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-f24753400a24214dcec7807475a0b053daed2f964a02e80391220ebea5d4a0f8",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "八卦八门九宫掌上位置及中五寄二；输入行 53–61",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-d28a2c32bdfdb8d18b45a5486305e35f76799f2efac8dd19062b613c8e8e0135",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "纸上快速起局十步骤完整流程；输入行 186–223",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-6059deed448f239f7ba4ea1ec733ebc0e3fcca092d0fc28779ec0ec0fd3679ec",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例一：完整文字盘与天禽随天芮；输入行 247–275",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-7045cef833c2bd7ad764d4a1b7c52045ae56d1867285c0674e2553836e6a0ee6",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例一：值符随时干与九星携干旋转；输入行 287–299",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-6408d6608100d9e8ca5ba1da721b256e65f8c126d0ec21cb5db4dbebe6fabc60",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例一：八门旋转与三宫明确五行；输入行 300–318",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-d6b6866e564a29894a9b4654702e1a79c15a8b26a0bc0332f833c4edea708760",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例一：阳神顺时针与起局完成边界；输入行 319–334",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-515173e61ce2eb93e4cc89a9d8f54e71728a6398827e63f3130064b5f99e4f72",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：旬首中五的天禽值符死门值使；输入行 354–358",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-6ca2dc58cc9fc61fb9f5620ab5033376c229cb9eac56b2abc1c91adddc00f907",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：天禽携辛连天芮转艮八；输入行 359–369",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-44cbd114b38e20f55277e984391ceb25c8b66732e78735d17629104bf815b643",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：完整阴八文字盘与中五原位置；输入行 370–398",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-543b48b7d61630b7fccbc57f3f60a6213ff660291efe5631b89f852ef7eb1d71",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：值使从原五逆数到一及全八门；输入行 399–407",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "rotation_conventions",
+            "item_id": "compiled-e045655de0f975cb0377ae5dd58e212de53ce9ddcf3b693dc9d8f8aea177001c",
+            "source_id": "span-96346ebf89dcdae25ec28a92637cad6a2135c7239638cd7073bd328fa947dc42",
+            "book": "神奇之门",
+            "chapter": "时家奇门的起局方法",
+            "locator": "例二：阴神逆时针与起局完成；输入行 408–416",
+            "sha256": "617c7936aeb2dff7b82a9d461ac030ec37011ee83e8c4169429288f10075ff92",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "stars",
+            "item_id": "compiled-0b6d6ff4a8afe32f7ccab8938f4849b486f9711c4056c5ebef1cbed2fafb9385",
+            "source_id": "span-79e0c4e5d62ffb05e2d0980e6cd1a91f121b22a0f81cf31ff00c7bea5f11a466",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "天盘九星固定对应与属性；输入行 380–391",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "stars",
+            "item_id": "compiled-0b6d6ff4a8afe32f7ccab8938f4849b486f9711c4056c5ebef1cbed2fafb9385",
+            "source_id": "span-da3678e1add557f69277e5ae4dc99077c2023ec32b0548d744125a7216cb7637",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "值符身份与随时干转宫的完整例段；输入行 392–406",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "earth_sequence",
+            "item_id": "compiled-d9a7d790d3a43dae5223468470b2a208b6f54b0ef95c729328a5b4e1d082b6d9",
+            "source_id": "span-b8040f25a9a3bed62a9740313612194b2c74550f7119cc3d1a68d0ce44591211",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "九干固定队形与首尾相接；输入行 20–32",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "earth_sequence",
+            "item_id": "compiled-d9a7d790d3a43dae5223468470b2a208b6f54b0ef95c729328a5b4e1d082b6d9",
+            "source_id": "span-d1b05f3c3e8c1537a493bfcb9fb2a07fa5d05287b0a9c35d453851d4993f3a13",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "阴阳遁顺逆与甲子戊定局；输入行 33–40",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "earth_sequence",
+            "item_id": "compiled-d9a7d790d3a43dae5223468470b2a208b6f54b0ef95c729328a5b4e1d082b6d9",
+            "source_id": "span-583c17453ff83ded80859885a305d390daab53c4e7d8c198516ff1a5f66e4069",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "遁甲规律表与四张完整地盘示例；输入行 41–86",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "sexagenary_xun",
+            "item_id": "compiled-5989bdf4b4b9fe43aad5dee9d03f83714cbabf13fea5908a7523f9cd6b209502",
+            "source_id": "span-2d72443d059dc716c74bc55f01665b2a45695fb0ec598fbb29dd487167397eaf",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "时辰六旬完整六十甲子表；输入行 105–116",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "hidden_jia",
+            "item_id": "compiled-1f7b01b88a7db0e6c12c9e19249bf8411fba08b721eafc13ed438b19e98a456e",
+            "source_id": "span-347c42f2bfd29d2df3c55f20d686d6f13d019ae89fa49e705cb21c6c25af69d2",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "六甲隐六仪永定例；输入行 15–19",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "doors",
+            "item_id": "compiled-3905ba60a1d5e13c65a666f416f79829baefc48db741018f4e6b0c8f99b9817f",
+            "source_id": "span-96ccc23ddf3b8d1eb35403bb851b8e85cfbdc6b8f4a47d867d34ccd1fb11f7d3",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "人盘八门固定本宫与五行；输入行 407–418",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          },
+          {
+            "dataset": "doors",
+            "item_id": "compiled-3905ba60a1d5e13c65a666f416f79829baefc48db741018f4e6b0c8f99b9817f",
+            "source_id": "span-aa91e2ba0c11f557d1c67611fda7c42ff6282819f40baa4160d1d8c4ee5bf47d",
+            "book": "神奇之门",
+            "chapter": "时家奇门演局的规律",
+            "locator": "值使身份与随时宫阴阳顺逆；输入行 419–428",
+            "sha256": "b70a7ab71b428a39f262d3df2ff41058af9273bb561419371d5e1b979e095718",
+            "source_acceptance": "confirmed"
+          }
+        ],
+        "checked_field_count": 42,
+        "uncompared_fields": [
+          "star_prefix_marker semantics",
+          "full nine-star expansion",
+          "year/month/day calendar",
+          "voids/horse",
+          "author reasoning/clinical outcome"
+        ],
+        "scope": "given_source_symbols_and_transcription_only_not_calendar_or_medical_judgment",
+        "source_rejected": false,
+        "original_chart_modified": false,
+        "engine_verified": false,
+        "calendar_recomputed": false
+      }
+    }
+  ],
+  "counts": {
+    "matches": 6
+  }
+}

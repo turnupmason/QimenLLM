@@ -1,0 +1,1399 @@
+{
+  "release_id": "shenqi-book-preparation-v1",
+  "all_cases": 98,
+  "task_cases": 96,
+  "case_counts": {
+    "development": 3,
+    "test": 15,
+    "train": 65,
+    "validation": 15
+  },
+  "task_counts": {
+    "development": 4,
+    "test": 20,
+    "train": 80,
+    "validation": 21
+  },
+  "rows": [
+    {
+      "case_id": "case-01c8e6298f0608f7acb72af2731bd791f0b0e2fd1c846705e17e8fe6aa234aee",
+      "split": "train",
+      "event_ids": [
+        "event-ae49ea8ddb11be63617af0292654aac48a025eea25d6b4dbe6c3cc2809ba4c28"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "257625f5f98e07c974ad38cccb3debe7f4dc689274e5f56565b06d94e6c88f07",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-07f860fe820305525ffba961a2369f8b6ff1fead46bf85c2da26dabb5d003ec6",
+      "split": "train",
+      "event_ids": [
+        "event-dc0fd4cdaab0e1e442e24b7e8a973d3752680ef375e8a9dbb8dae4c93470a8ea"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "3da0d6cfb4e7908991e1f554651a210ce959b46dceee348bb31f5b90cec2ca52",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-146dcedd8799e9c4442671fce44b08a64e34da63602d1a017febce2fa3073946",
+      "split": "train",
+      "event_ids": [
+        "event-5f23947c6700b7038642414040aca1527ffb87132000c12dcb168224fe85e4a0"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "c87fe8f2f3d79384dafa86312e5ca4a58e7dcb441a6f44bf0715bad7f8a40bd2",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-173d377e286f776749c2d54042ddcddef0dcb04f28fca03c2c7b66e1a57644cd",
+      "split": "train",
+      "event_ids": [
+        "event-2cf620354216059af3a44dfb0dcc0604f8e3e1d2690b8ac96bcbf3c94c3418c5"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "9a5181f2b2325caddb205830aaea897eef523392a17c93d79e8e6c694725332a",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-19557e07abb372b16dac1998c3981a2b5385614f006d89900cf79beb871cf88c",
+      "split": "train",
+      "event_ids": [
+        "event-2ef4dc67ad6dc2468ce05abda1254ac8f5849013fc4b4782d1520866c4035024"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "dcc4321d8402896267510ccbf678f28aa112e7f4410069837c466fdff39b36d2",
+      "task_count": 4,
+      "reviewed_method_tasks": 4,
+      "additional_literal_tasks": 0,
+      "method_reasoning_status": "reviewed_lost_property_subtasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-19e1ad351808cb2679578449e41f48bffbddd16156e3765e9b71c89e065f2b62",
+      "split": "train",
+      "event_ids": [
+        "event-9207174e6e5ee41bbe1b1267fccb1cb1c707bebb61361796ec7f1db9fb6d7c31"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "68f3ec3efe89fa03160b75c8dc2d34a5e85137d9cc8302f1ce517a3195fc050e",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-1ac4d55c58328404e8aa247f98e54bd5c9758d04c3cad795dc1f78e826942e05",
+      "split": "train",
+      "event_ids": [
+        "event-d16beaa6800b736754762fe36da64b60707c3925e2c7503dd49fbb5a4672a44b"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "030ce9981e6ef6ca5014dde439e0cc602d531b227bf34f1f4fa296f3011a103d",
+      "task_count": 4,
+      "reviewed_method_tasks": 4,
+      "additional_literal_tasks": 0,
+      "method_reasoning_status": "reviewed_lost_property_subtasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-1eedc064bf1d23f7c887a29741c668a4ae8aa1aed5631420b65719fa3c1d0029",
+      "split": "train",
+      "event_ids": [
+        "event-a803063c4ae8caeedbb2f760d12ce3c2315bc86ebd23e07c359ee9b525aecb64"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "aea13acfc6ed62771dfb36b39b47c7c2fd7351aaa66f9e93335b6173671f3e57",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-2421ad7bbb4c5b70db9d84dd2135c30b6b7e3f11b1086e0825465fcc1ce84864",
+      "split": "train",
+      "event_ids": [
+        "event-4c1e0289fc728e31f7ae15783bae175230b3c057036fc8e46fed3d9b753ea19f"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "08e589cbc074685d296eefd9728ecedaf10125c813d585ecc4600c5bd383f3a2",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-25dbb19e38eaa8d44c833d256146344faa713d9b3fe6b368bfffd53f606ffd6e",
+      "split": "train",
+      "event_ids": [
+        "event-b8f0bad61d478b3149517b6f502912f2c90ed806aadd35367fcb1efcc39b3175"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "56ec60892ec7755f45ea6ef1ed6f08c95757d5455d4290bf8499c514aa337422",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-280bbb10405b701933060214cfb9a6109e5fd91b73cf89bdc3cc395a4b062fe3",
+      "split": "train",
+      "event_ids": [
+        "event-2e800815a83eabda63099a18749642e35ca48f6a569cd8b00de562f748af76ff"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "a0e22816c45b3475c0e260f53eb8eacf2f0f8275bb7fb16e8230e94f259c52c1",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-2d48dfbf2fc3afae29cd3e792c8cafe3715e7c98994c42e1e9a4d1c12eae96bb",
+      "split": "train",
+      "event_ids": [
+        "event-1e460e1d33d890efc229ca2c9c26c63894ea6df93b7c84010bf4945f755c9de9"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "b261aeb9dc786423d7a1656c9f7fd6efcbb38a53deca97bd482c519a22f6bd4d",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-302aabf8ca053df5882186fa7ba93bff7f24cd583cd4a95ae66f96a7a12fb794",
+      "split": "train",
+      "event_ids": [
+        "event-ce7ee9c87b5eebc2a3f482eb9cd2cccfdbd2c1f8f5e71d431fc04ba1a9b43fa3"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "b462699b713f8657089d1ae20a9130d73072c452b982b504ab04ec1fc6e25b36",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-32daa0de0ee1dad256fc6df500e460514f9fbe42b07518b0c9d3fb63596f3234",
+      "split": "train",
+      "event_ids": [
+        "event-3b0c675d43e02f8c2c44826faf0815fdd771ff81a62966c89685b267bb8c7fd4"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "38d34dbf98f75e0da444f93072c3a96cbb284b24ab040bb82005a9ea3b98ef67",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-347187b085e69aa50b13dc19e914c5bb0823c438502dce4e1a2d4a3ef67cbdbd",
+      "split": "train",
+      "event_ids": [
+        "event-afe7840d0d3a2ecf27ac69037cce8c00d5b9ca7f4f92fe4b25e21cf1abeed0af"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "98e816bde870fa2b3993179e835b4890e012c992379498487dbd319265dfaf5f",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-37a08549bba6a899758b833ae7cdbebdac389a7044013eaa96e1ae14b4ca90be",
+      "split": "train",
+      "event_ids": [
+        "event-f88d63afe52e39f227080cc107881363fe5d7c386e475946b55bf35fe3289d2a"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "b911e090b45c1b38049ba5b31ca092cc34a8ad5e9bece1f2b6c341e6df09b4c1",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-39d214819044fc65ceb2b312c58f14e189e2c732b554748a6b55d962f24dee84",
+      "split": "train",
+      "event_ids": [
+        "event-6536abeffed4b3fa0c105174d29c44cc233b81a4ee3426e9541625a63c9808e4"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "038161e5cdb31cb0eefd4df053f9aa35bb4e44a4fc60021fcccc34b10ad7033a",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-3c1ec0139a4c5d89ff767270bc68e893181df6d4d0a5d036c0f8f1205f97ab5d",
+      "split": "train",
+      "event_ids": [
+        "event-25ec007525bfa2c0e42bf3fd07ab67e6775d989b765574f9a6b6501d0eba134b"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "9890de0e189c0dea09dba53ca905c0493af814c3b050fee52cf57791d132c8c7",
+      "task_count": 4,
+      "reviewed_method_tasks": 4,
+      "additional_literal_tasks": 0,
+      "method_reasoning_status": "reviewed_lost_property_subtasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-3e554b89430de76587487514d493fbcabee6782d5876f67db8dcdc858aa07b80",
+      "split": "train",
+      "event_ids": [
+        "event-81a43050529e834fee16c5299ba7c63154f2398dc3b0a852c81b1448b568f17e"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "8a2ce6c6c26ea3e21e0e9fe351f9bb2967fdcbf758213880810dbaa0548e31ed",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-3f5bd69c19807861162f3dae2de2d5b171199a2714e37bd15088f89d33c65b2e",
+      "split": "train",
+      "event_ids": [
+        "event-e7e418966dec99373ff7ea7bb9a3f72022c45153fa0b354443b709e01ae50f99"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "b8fab1de8cf955a21c209eea08a47cbc435b7bff88c386bbd1ad64d4675d4e04",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-405d8fe297401efc0210237a2bf0d70b183dd3a3eacc7cc334ce4d04a69d26cf",
+      "split": "train",
+      "event_ids": [
+        "event-bd89407e3ce0805137793dea2fd3b6af3b8787c5656fdc88a98645938f4131f4"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "b6a3bb01df769588f19fe7d5e315b03ef8f445c056373794be707dac2edf318f",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-41a68ebd451cfde6d08c5c85c8d63a344b4342646939c95f5269499e357fc803",
+      "split": "train",
+      "event_ids": [
+        "event-fa3eb010ae66f56df1aa39119d0c46dffb6338115a1deb65cf3c0298e2e4f326"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "cf09b126555ceb7720031d34d949319ffda5c47c9a00f76fe8b7e568d168f864",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-47877ff3c6908a4f1f5feb5ee7bf3250b42fb9b546363e3a97446a28142587a2",
+      "split": "train",
+      "event_ids": [
+        "event-024a09f3c56106aae46dfeab464e454d9a388f2f8f9d5b1ef670054e68747b6b"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "549b389d9ebf5561602404e2cb7f56cc2979f4dd19d5d4c5bde33686abcba749",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-47c198ac385cda942a508aebbe2b9b9e0ed0fee06031f4845d156ebd57e2f545",
+      "split": "train",
+      "event_ids": [
+        "event-3dcd35bbef6e755f6b78eb9711fda976c0e96203b7c805e07ba9ee1fe356f93b"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "13752c57fde4b0280c2ecee96a09e3c9e97e7250b6014646c9c5334cccb65105",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-4ef63d5364758c475d15497fb53d903432ed0b10f2880faf8bcf56769644ac3d",
+      "split": "train",
+      "event_ids": [
+        "event-1a4fcb7394e3e40addbe6ac3bdcd18e77575628c33fef9abf08484fc8e41de93"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "015847fd6710a0651c6ccd3f0a5f683cd98a5d5f9e67d6b5fcc57bc82b03b879",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-5b9217acf0d3c19410d8ba81171c9a1752b5d7200e409d8881635c957ac8646f",
+      "split": "train",
+      "event_ids": [
+        "event-4665743eaf32901a510ae72f6c1a740fad86c0e3a1aa6314d907d92047695cdc"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "9df22de7a8dd2dd899630e811c132219d65b2f151d14a451e0752a8b4c344807",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-5c4545470e1bce7abf5746c6d55c0b2e75a5e57b4f4d31cf3594fa7530fb55f3",
+      "split": "train",
+      "event_ids": [
+        "event-5f6620cde3351b6fb265fc772ffcad3ac94147453243f9288671660b8f419189"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "ec12d752e4c21e4b120c568422d07d9b04bcf7308667dda5be5d8410eb54e4b6",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-66e477dd113e9546168814a71a348f90d927350eac4f9a64ed1bcf9db9ed2efa",
+      "split": "train",
+      "event_ids": [
+        "event-ba13b59fb256c4aa23e09821043839b26fe201f088a88b086486ba5be33303d0"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "b8278f56633f8abbfb6f2ffecb20942f0b72931d68e0ae8e0204add1875c99cf",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-74e2b4db6b9797a75c3db3ade3a9a57746c51cce5ee327a09e7ca760ce149127",
+      "split": "train",
+      "event_ids": [
+        "event-6655044433a0eff398df9e2da6df333be84aef6f7d1698a8dc11164b33bdbc79"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "da6aff0d34a423d473ef56bf408cd488f8957c39505b36f30803e9042d6154ad",
+      "task_count": 3,
+      "reviewed_method_tasks": 3,
+      "additional_literal_tasks": 0,
+      "method_reasoning_status": "reviewed_lost_property_subtasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-7fc07aa27ff6d7ee95d117f282c310657f48316faf352eacf9c7e9f12fe7a389",
+      "split": "train",
+      "event_ids": [
+        "event-1131106c7df65449d9066454b2fb4f09c78da9a2e21dcb6f43f6deda62333cff"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "cd68ddc03bf147949c04bc28f33a0c86f4f57a5d8a1c901ddab84862f0ec2fa5",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-82e074e0cf047090c8a76bba680c10cb39315cf0ed59b4080c5659c5a5556a60",
+      "split": "train",
+      "event_ids": [
+        "event-f785d1530a7343fc70d46e618cafc72608ae8325579745047106a014b05b5db6"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "6855ddf68a0489f5fd96e4a7462ed467bb69861c11f958f1d3be5359f4085d32",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-842818d6f605c7a5199a24c3cfed93002a361a2519e462190d59c9dbc059244a",
+      "split": "train",
+      "event_ids": [
+        "event-cb14e2db1e5a13776bea3ac1ba23ed8976df1f33cefa925bd7b8ff46d92d546b"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "e21603f31fb7935aebb3691ab55e74873f39d97b0b3b527d18fda46f3aa11520",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-86b5ff91affd7bc9c6878668a1db82d2e9a42e3b980ca3f9bc290cb7d81e5742",
+      "split": "train",
+      "event_ids": [
+        "event-043a3af0d9986f050002f4da4691ebf0ebf07ee902a897067483015d92950e6d"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "3668762336bf4be4c554448ec34528c956f929e2c7ae78e01ef7ca7464146e9b",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-8fd7948dbe13d66aab4ddf793087cd8470b60b35edc089b5666625f9fa7fef0c",
+      "split": "train",
+      "event_ids": [
+        "event-a336641673bf61f5e1fcc96e0aa256b4d63678b08a5e504d6a9ab42da034058e"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "c525b9df021c035528bd408097ef6018a22a7fcc6346db7530d70d78939124d3",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-90638797d4c4fa4b93aecc5529352f4f936ca90456e77693e2881fb5accfe1dc",
+      "split": "train",
+      "event_ids": [
+        "event-9bdab29b32aa5715bbbb14f1136f3f8dbe5a7e1319d069a708adb20b7cfe8827"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "c09a8e738daa0984f8a3fbad57a321b779d4e64123be3ee9110055c022ee0449",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-9525ab650b082cc58b06d15f863ce7dbdae2b9480c77991d3394f348c6486d62",
+      "split": "train",
+      "event_ids": [
+        "event-a85dd70c31bddc13bb11f62de451a86373cd0d34818cf8f1d387f9dd0630d6b2"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "c319b44e32301a3f74d02b51afbf8f671a8d82a689243fcf098815c26d5ac85f",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-9f9a89b4935ef80ce7ba3be2217791f0611afc15a789c50ac0cc83588b5c18e7",
+      "split": "train",
+      "event_ids": [
+        "event-22bf792fc2de4b90f99ae3fe750dc35b682df481db839c876b6aa774a4c845f7"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "da35980f5bf9aea5e2a4082c9248ec6dfaff6586b04a9c6410fa89e563bc7aee",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-a4fe07631f5c1bfcbe0e1c685ea4d4324251247afebdd9ee0448db0b0d23afbe",
+      "split": "train",
+      "event_ids": [
+        "event-3c226e2274bf7b5d8ea330e8ecdadeaa63ea9eca0e5fe554de8218b2faad7d8d"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "47a6c748e91c64632420f2224ead9cc2011f32d46b4f5581cdd0a11c3586ef06",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-aa2c76f61e2f091ac3a8d1cba2e26ab3d50cea3aa013f0b58578dd361128f7a3",
+      "split": "train",
+      "event_ids": [
+        "event-994eb11effc26a97bc9aab4b97a808002103976a2fee2d448a9431e917a25bd9"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "bc8ca26a567c916fc3892cb58bd2accf46620c3baa50baac1dc12d0973bb38f0",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-b3dd6097c4186c79d3b834cef63cad5cf7f195da0d7946de4495c1184b3e6459",
+      "split": "train",
+      "event_ids": [
+        "event-43dad715258f2b6a25226bb868b95325f14d86a54c5295892c23dd6968089a66"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "90af0376512b53d11957d94fd99f17255528926a1b0832a7be32e78c807b1e61",
+      "task_count": 0,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 0,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": "Original chart payload retained; no supported complete chart projection for SFT. Supplied alternate reference layouts do not silently upgrade original chart records."
+    },
+    {
+      "case_id": "case-b3edf9b54b6680cdbc4840ae4551d6276da6c560172364848cc15c102bdf1dc3",
+      "split": "train",
+      "event_ids": [
+        "event-a24f00fd545101f74e2e9d540d3ca2fd79623ffee9e001a080d2a68a9a082490"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "71465fc689f48488633fade05e5d2b0db328087e6e80c09d1002a1d94e437100",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-b460c5504cc2043ea582903147b552a773ccb150716a0797f4cdba89da90c923",
+      "split": "train",
+      "event_ids": [
+        "event-849b45da25586707ad51730836065e74b546b7fc41831e459692b8eff7bb2875"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "a0b82a578e0b3f4ec6169571aeff6e53d9022939cd43702846dfa2fa8d720122",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-b5306852ebcbec234070a774b8cc452b17838de35e76c77ba3ce3969eae8c3e3",
+      "split": "train",
+      "event_ids": [
+        "event-1984230a20ac2fce9178ca6ebd1916f5f026851c09f6767882d60d47e6249717"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "c2bf3ad786aefb4de23e286d270251ea9702dc7ef109c1ab94d84143c36c86f0",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-b6d7c7589ab9cbaf715ab9c9b3aa3e26658c5851f81de474eb2af4e0911e7c90",
+      "split": "train",
+      "event_ids": [
+        "event-4dfd20d666d238a402e959fd184dc1dbf46eef55550413cdfcc6fae8f987c116"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "6225bc2f7683b1df65f888cd514e995f78d04d10a22107c452237f8af36eb2ab",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-b78f14c43bb40d6a7cc2551de8c7cca5c973cfd4629f8f2e5b2a767b1e7c517a",
+      "split": "train",
+      "event_ids": [
+        "event-8bdab1b60a86e1fb94ae21c36e1a84c60077a6117f5dbe0f0a57e866c4fcb1d9",
+        "event-90430d46d4268626008bcc9ad040c7f6986f4e53474659f7e80903f6c6c65f50"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "dec7c844dd1ca3ff2f1489de94627854f37afe1df65af20deb0d1eba6ccc2784",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-c02fb6ee86f1438b3f6c93f6a77edb3b357b836054330fde1a512d65a9bc5f1f",
+      "split": "train",
+      "event_ids": [
+        "event-6a9c85a3944ca93980392ac211ad3b71578c9b084abfc103809e5dd20bb95cd9"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "8c35c21b8e2c6af14c3c7a44487a4d5028322d8ebb971cac976029f96fa759d4",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-cecf00bd786c790b3bec788b23487bb4a2f7a16d6ca1132ec703d4ce78a96ebc",
+      "split": "train",
+      "event_ids": [
+        "event-61c8b3d8db027c8abff921d72187042b04c7c86e2c26adac3f359037773e1f28"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "15b3e7254e0e0634dcc6b6a7aff49e49b4de65d10b6e1bbbfd032521fb5e7ee0",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-d4a7467f0ad1461d2278b7c571bef9ea2a826d5e112e2018dec7d55abc9a71a5",
+      "split": "train",
+      "event_ids": [
+        "event-a8375e8b7144a6efddd92e97e02c29216574739dd8a12ef11a14fb0b7bf81359"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "344272c2e582a0f5a9bfdfa9d736b6a66e384a97b52b841b2751e5c5209d79bd",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-d6ee2c00327c917de7d7e8c896b5b8ce1f87b7ff72c5dae5d5cb8d330508b5b3",
+      "split": "train",
+      "event_ids": [
+        "event-19f7c9ef9533f7966bd22f2876a828cb498d6b1000e8f48facd9721deb699568"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "7d317ed3e4a63bc1853179092f03a4a0b7dcf662313d8aff2eb27b7fe8b4cbe5",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-dbc650b9331ca875e4a2720129c75ff408f4bbdd0ce284b93385ddaccb70d2a1",
+      "split": "train",
+      "event_ids": [
+        "event-37e1f0c2c04c53a5e697329f34d6a09e656091af02f2e4775dbf09842f046da4"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "46fed2084e3d68df22804ade10cbe7adfb658bdd5e4c9847836e8d7916ffbfb0",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-dc6238a5f749af624ffd54792af8ced4823aa751485a93eda74bb58d9e00e6d0",
+      "split": "train",
+      "event_ids": [
+        "event-eb4aebe82fb7e80c2baa5e77ae8f12ee372e508a4f035b7242c715c68b56997d"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "ad2650c0df3a1bf35305ff2a6f6c37297525f379d71e9b3cf92f11d60a213af0",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-deb05ed0b5f1c7b259885be2a5c8f1094359e61237fa1aff957f48d5050e1ee5",
+      "split": "train",
+      "event_ids": [
+        "event-36e48632bc4644a95194a16a8e2116c5f96016ede8133d3c5d237869848eb058"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "07beaf4df80ab5a79c5b031faa02958ef62683e47521846992ce1ec52b6187cd",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-df8242049e9bc8dc0de93fe9f43406f0e686b009a78f9832910bb7227a79c5e9",
+      "split": "train",
+      "event_ids": [
+        "event-ed0f0675396f3ffdd914e11148587ebb19267c5f45ad0d412860358f7833d744"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "b4d4e3a043449db796c10f202a736eefa411e590d5dd76fc66a9e3d6c2686a60",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-e1290022bc14f9bc65222b790234b0d511defbf53ce94d7afddf29f6c8bea64e",
+      "split": "train",
+      "event_ids": [
+        "event-71f8f2d6a845f0c0bc2796442ced5497a4648675a6f8e1bc76c7bc3b6c33aac6"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "31c38d3b1f1794b9f3315f8bbedbe6e3715b47727d63ef4cd9cbcc1f3773dec8",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-e3e071482aa5e18af02ef00b25698d4850559ab1e32e3b4884967a98ede1c601",
+      "split": "train",
+      "event_ids": [
+        "event-dedfd3fd5c0d0e5a56e290ec146f85e484f8868ccce1f6abd1b25892d1e39cc9"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "0960447b5a0b7225fa46f2d3e1078c2f962b563f8f19b2b8708dc32ed2e908de",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-e5446929f76492002068967bd0f7d69ae58788ae47b381af75f9e17a671201fe",
+      "split": "train",
+      "event_ids": [
+        "event-de8ef26f57a95fb998260252629c1fd8c9e4676ef54d9e2f5578cf11f847ebbc"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "cba6f51df21b8fba39b16f7b3ae23071d77bf679c55f2eedd298706bb19843c4",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-e621b85f5b3d60fe9f386c3e8886e4202e53dca882bc41f97e0171ef1fc81396",
+      "split": "train",
+      "event_ids": [
+        "event-291d5b41a9501ce1123aef19fb50fd349c057ab2fe647a8018ef84110c88e351"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "42f5d1d70b6b19617cb444479f5dc28176dba8400a00ea5f84075d61ebd0859b",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-ea86d002d73e8c074ba86bccdab0a73833d4690b8dda2a7230547b15bfabe416",
+      "split": "train",
+      "event_ids": [
+        "event-5a5c9c0297bc5bf83fd19b7fe28d118ea14dc6e37f3746864aeb7d6d79516970",
+        "event-f1614748d2320ad62e8a4ad14e65c9af3dc825fdd13b84de49a9c4fd800972d5"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "8f7eaf8f10bd20a0688cd04fffcacd7d96b966aa71e26737758b203750a9dd21",
+      "task_count": 0,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 0,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": "Original chart payload retained; no supported complete chart projection for SFT. Supplied alternate reference layouts do not silently upgrade original chart records."
+    },
+    {
+      "case_id": "case-eb02f42ba99f7f74d1b91b09f0615eb4627ba26badd972d4a54c7d6709f0464f",
+      "split": "train",
+      "event_ids": [
+        "event-a432691784f9a0c419312d3b5b8bb17612ddc6ebc69e26b81680a65be0b819d0"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "0ee30b833b8a99854d02dcf06d3bba8781b6d60ec7083fcfceaa38e8ae79075b",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-f1f4d71e477d69f576279bfe9b9d57f00b78b9494cce344d873063b4369c80a0",
+      "split": "train",
+      "event_ids": [
+        "event-387b5e0f7a0d243dc132dd513db0070da3c615ff4b5aff457e0830e1dbf7def6"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "73d48bad7e40bdc351dfb1d8aa4e6212ebc4a2fb76cf1cda415e07904b92fc26",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-f29df215e46ee4e12f98954d2bd7ed6517b73e305ab5b9ac7d1099ec2ff64ee2",
+      "split": "train",
+      "event_ids": [
+        "event-46717cc35fdecad53eddc8b41c6a240ded514e812f711ffde7fabb1f36d902e0"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "02d19731f9677ae78594f6719f9bd98d0aa23f8d219ce39be9b7a92e7a8f1431",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-f2dbe3bc8bbd5ff7018cc66b4fb989a094d4648e16d1883d18bf638099c3c121",
+      "split": "train",
+      "event_ids": [
+        "event-579ce7e0d67154f1ee33b0d481abfd069bf6d573971908504803c5a190885863"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "d0b12391b4248cabf34d578642b1b12228d690d506afd712adef144e7b9f35d6",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-f3a4cf455cfa420796db078054c6e8e09b5857d8f5e5e342d0870213ca53c3d2",
+      "split": "train",
+      "event_ids": [
+        "event-9192e1ff39f4a4a9b8121291ebbdc2d1794e87017fedb52a7bb9c1d65f4c2d2d"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "73749e06a86966e9052ee227a7a13f6e580ef05443cfef76b64ee303235f808e",
+      "task_count": 7,
+      "reviewed_method_tasks": 7,
+      "additional_literal_tasks": 0,
+      "method_reasoning_status": "reviewed_lost_property_subtasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-f8183a1538d30dfebd86ea800a2601cf1f9601eaae64c2608d615bb49946e67b",
+      "split": "train",
+      "event_ids": [
+        "event-35e0bea2fc8292d3a229536ad71509698dbf0f8b8bf44f61c5531d60a4aa6541"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "26bd5035ea65c738a7b3ed9d278b98d9e55469d90c1da24f80b050ac4148dbbf",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-ffec60ee3013caaff64bca3218527c9a0ce897774de68d4a5c6bd6a388fb8efd",
+      "split": "train",
+      "event_ids": [
+        "event-2564aebaabfe5e4209d85fabc869657e09c614243cbb8a05968cbfe80a8ad4ca"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "b639213f92a96da598b2215aa1812f0e4c5a4c78b846295fe8870f0e31d53848",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-224ff955ae92d42a0846027b94c017d996d9456901d2dabc9b26ed9fecf0e432",
+      "split": "validation",
+      "event_ids": [
+        "event-1d9d2b4da7bc6fddc84a43a517955702a39b42319e66b71515067343e681bebd"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "053efb4bad32e24e03d1068d54f49c0f409eaf0cac2a9e44364aa1e8080f1077",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-3031948ca59b417be4ae0fdc2bf6253ea1ccc2e0458a035df0b6b8aac2fa5da0",
+      "split": "validation",
+      "event_ids": [
+        "event-443afa6e2f0c59dc0a1ddccff592692855db28c501db829e4e4ea51e2ca54a92",
+        "event-847bdfb0ddd8f5cad5af1a98b798abc6d84840bba3a0a5a4f87543b68e9a1734",
+        "event-b85c780e0c9684930563073c8ad50e221a1238d60dd9b29b3300dca6b5ede779",
+        "event-d373207141fcb18a114e491aaf15068ffc9be04fa8a7394e730e9ba61373be2f",
+        "event-dff46dec7843c7d2f1d8e8cf2e5950b55d1da60011bfb6c35de42ad1f3b9cc5e"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "73697c58304a0edd21e5a10f5203911761cbba78a87168e69fb84bf1d56ac067",
+      "task_count": 3,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 3,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-4c9167e5865158db0e16e1ef0a6702fee49c1b234ef117ad530bbee3f920fac2",
+      "split": "validation",
+      "event_ids": [
+        "event-ecf6ddb1806678843affee3d6378fe4526c3f56593b335bcfcc0e093ff718608"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "9d9d733d092dfad44de1bf638c46ada3e70a5c96f5e7e1e3dff6a1ecd9597104",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-7371b7970fea9278c20e6cb4f723573b5de82c0e8e637ac18679f759d487097c",
+      "split": "validation",
+      "event_ids": [
+        "event-30960df740e46b86e3e0ce5dc563f353f16d5bc6937ce1a5012f4c1be9b4d5cf"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "e75e6cf5152e9a13dd9fe3cbbf1b1c79492db9d0f722d0c70dcab8e3f577a31f",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-79ac973e4894351bd15ca06a2b6bd23fd87d2cdaf8b0dd96968e113ae758f64c",
+      "split": "validation",
+      "event_ids": [
+        "event-f853ec28d2d92bf234f79e4a3314d459986d01a8ff70ac363459e4d63ed99dd7"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "5ac25ecdc579e17032646a0d6db7f24f2965984f057ba24a37f203a24b83145a",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-99e5d7b77d9880042106cce4c60b434f34205f782492f0a46b28b2e255e65610",
+      "split": "validation",
+      "event_ids": [
+        "event-e425fc0f557667fd3e3d6abbe7e756a2774c525891aefedef4cf3567139eeb55"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "d406ef88071aa3dfeae708498aa2414b38d22e06dc90219281f3a45715f78830",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-9ff7e074b8fca7fb92b2cc750a61d053f527928fdd3f5ffe991592830bc58f55",
+      "split": "validation",
+      "event_ids": [
+        "event-6805cc9a7d292fc78810dbc6f73d5ad80e202b8111e427b45d4a30abbd4cfed3"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "3d11c0aa6f798495a332589e1d5e6f14a9b85b7a45adb055e546fd445c6aeb1d",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-aef7e114a1920df5a02b7804bb64610c6ef4af39c502716dd5c784fdcf28efe5",
+      "split": "validation",
+      "event_ids": [
+        "event-072ee812b228fa34b3333e350fa176dfb4865202eb29cf00900606ff75b5f97c",
+        "event-393b4f1c3ff1a66dae355d5334b498555925f9fc868b7214c6ebbb7487478870"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "005b8cca77c8667f08ae6fac0fbe81bcb9ce69de00b66afadc15765c893a368c",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-c8d1e05c9761ccb9c63887c16b5d2abe61996a335a83c184e8321a42df804896",
+      "split": "validation",
+      "event_ids": [
+        "event-f10966a29a047283bb97083445b33ab62e8a82e0ed7f04b518baa74330a23056"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "d89cbf017cc5ba60cbff9904134294e5401bda725110e7b70badf53549023d2d",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-cbb92faf5ba02f7a1a36e4cd4743c471a15dbfb5438684c73cdb50168a7c72ca",
+      "split": "validation",
+      "event_ids": [
+        "event-36d690eefde1897059c757f89fcbdc116b1f87c6a69408b3232248dd19057857"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "80f371423a5207d8cf88512d348bb946f5f85fbe33ae6853475df36345d19f3b",
+      "task_count": 4,
+      "reviewed_method_tasks": 4,
+      "additional_literal_tasks": 0,
+      "method_reasoning_status": "reviewed_lost_property_subtasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-d5b34c409e2228e0cc0dacf6bc0c2de0f53c619450f1f5fe783065788b20791e",
+      "split": "validation",
+      "event_ids": [
+        "event-709c88578119ec9fef7e2de597d61f4c84d017b944c074a34e7aeeed810a209b"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "fdf04e92fa6122b5510404f94bc173479bdf33c4dee748ef576148d91e90fcee",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-dea9cdd88900071b102cfcf5095d5f2db62011d4caf7385e1173279c9473f542",
+      "split": "validation",
+      "event_ids": [
+        "event-91b761f97613498ce16d6d192cde9287f2e409f225e6dad8f58137e241ba3684"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "e7ecd32336b9280d3ebf62ed6acc03d0d07655cc4253e385f2d719171e1fb1ef",
+      "task_count": 2,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 2,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-e18ba5844c83c23d448d9ce551cbc146cfe697c3b9a0f248b52872724c80edd0",
+      "split": "validation",
+      "event_ids": [
+        "event-de3efd9375179c05b2165d44a043a5fece068c33bcb480f8b2986cd4cc0d9282"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "c8074ff1468e63e825c0d8c5721fcb03c4ca9dfd58beae26b1dd3a525091f9f0",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-e4382029793a646c7548ff3cee4c4b566cd8e9e1ad1c3ae1b049275527f3970d",
+      "split": "validation",
+      "event_ids": [
+        "event-9cf2580a40ec797fa2505c8ecd9d71872498b9bb8cf3558963bcb1cf81dab2fb"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "75ea983601e0a2ae132487612373003a81ce27592cd30f0517909fcde5056f1c",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-ee43a8baa22671f2d32e08b9464d07c71208258d7e566b0b0b2bdf46c3bf3646",
+      "split": "validation",
+      "event_ids": [
+        "event-901114deae3af40ddcbb889b8b6aa06911f5fcc00b05dfc55210356e0a3950b5"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "2412687b46cbb710e277454ca1ad405672394cc1aacc33b6755f648b58bf5703",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-000ec3e2e85e8de3d12a100b4c8cf7555e906a8f46ed3ef2ee5badf1ce753b34",
+      "split": "test",
+      "event_ids": [
+        "event-5b2a3a8d13289e159d5719592646899f896f4fe9bcbf4dd8d6d9bbd3735a9ff6"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "00a99e8e1266fcebd764e26bed374fa968112f6c9d6345ee14cd49ac5ae020e5",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-1a2b11fa07bbb8db7a01636368cc50134f4a565189971222eb5756d8ea06bfbc",
+      "split": "test",
+      "event_ids": [
+        "event-b0040748c1af5cb293ba2a8413227456e0d1880e3cde0d31843ad63985921858"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "76cd1219d8d6a475722eea91470d8977d568ab886dcb9123a6e9c57cf8054687",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-22de15c30828654ac90c14ab378de76d25a3dd26d754e62e97be498d4e4b7b08",
+      "split": "test",
+      "event_ids": [
+        "event-091d2d1d6013f9df853b2b69cec3940926d6703926a134598f1d65b1d89ec9bf"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "12d50215484e6a77c40822d99f1d5bd9d03e6f962faa9134f1d0e45376211383",
+      "task_count": 4,
+      "reviewed_method_tasks": 4,
+      "additional_literal_tasks": 0,
+      "method_reasoning_status": "reviewed_lost_property_subtasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-3d0c131e4950ef020bc7d27e4017cc6d9adf838560fdf4dcfbeeacc2019588dc",
+      "split": "test",
+      "event_ids": [
+        "event-cfe12e11cc85bca3fec123e96e46bfdaf19aea0bf3b100f2751a683909478124"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "984f2dd83879b81dab48ce083b0df9adf402f456aa38eab4e672bda1e26f67fb",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-4a1e47ae84392ffab33451a16b24d08bf2c20995300103b9979cf7e1d1c6d7bc",
+      "split": "test",
+      "event_ids": [
+        "event-b6203192bed4ad1db49283166d5589aca118a0d1b5c0a3d47820fae5195b83b0"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "bb1306fc82676ec0b3d2fa19627e8afd5f4d0e224897a3daec431241c5c5cfcf",
+      "task_count": 2,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 2,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-5f7e98ed58ee85d646920418766d9f00c12b145d589f5e69c75bedf180124b4f",
+      "split": "test",
+      "event_ids": [
+        "event-c6216c51887216dd6500ad5b97914c82b37a2a1333383e04d87daa445144a345"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "c12ace62d6b7cb51965ec0f78f54d7733a68577d691bd85058d136a6dce94645",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-60d72c817d82eb4566c918c2af264cbeea84e5267666111916ecd4cb5f8eaac5",
+      "split": "test",
+      "event_ids": [
+        "event-b6e84edca8ea9232ca90506d9be550d53a0fa43d676272625ee6bc9abe25048f"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "efae01b452b12e86b11064a3d42d99ccf84f635433e579015a72917015fc8a58",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-80d7ba7cee60e3ae20c1d8db4402cb9d454689e3a44322173c179abb805deafe",
+      "split": "test",
+      "event_ids": [
+        "event-395fc0eb406c6c99624dc86af6774e40d407a5bed7b92865962b53d0d0c4d7ae"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "6ca22fe3be56e56c7df4f8d9fe36121d58e92371433f7b5b850f924f18f1ba9f",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-87f19eef166a53eac668afe9bf976fdcfd0f35bf0a595f1e4cf554dd0644fb1f",
+      "split": "test",
+      "event_ids": [
+        "event-1c4a90ac0249bc686a1292492faad767bf222ccfe7b7f105a71a2853b91df207"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "71ae88d4712b3c703272548118883ea8c8b19da7114ec1cc920975e38c6b5a80",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-8952fc5da57a570385241cce39c1f98d45b9ab8c333ff618c70e3890ebc4cf5d",
+      "split": "test",
+      "event_ids": [
+        "event-d2c24149f590d2bc4b475f519ed0406fa59f9c4d62292192dd5268151433bd37"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "a6307f65154c3879c52d6123db3fd7506ca81f67a95f57b200896501b51fc94c",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-9b0a82c9dd9be93670a78d2035fc0ed84bf4a8a87a5ff970281c1be8bb007855",
+      "split": "test",
+      "event_ids": [
+        "event-048804d6cf4ee3aae11ecb7f9a7117bc596d61f36951698dce1c18d91516f60f",
+        "event-513b8515f6dfb5ff62f9bc9ce8ec10dae75be5755db225cef7fc706983dba94a"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "ed995088f98853cd29d0580e1148ea94465e3df228965b1bff3bd6e2cbe99062",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-abf48581214ec50a5aeeb86459068ddbd5d7dc7d4bd2fe6c0273ba5a98e80dfb",
+      "split": "test",
+      "event_ids": [
+        "event-3aea08377e4ae1c3f0ee3ec24f88a7b32e77c8b158401f178ea5a8516ba37411"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "e5bf90c21db410f6a6745665d3dfdcfc69c753ff1b2ebe520b86a19a692731bc",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-be1da18582115ed03e38708a104b371ad3251fe2303288e8aff69bb00da8363d",
+      "split": "test",
+      "event_ids": [
+        "event-5dab8534b569f2b1f3339a737c1e5012009d25a9fc9edd5c42a43896d3148cd3"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "22851f24edcfdf590dd0eaec0674defb362576ed41c9c2dedcc927ed1197e64a",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-ea3c064d2e9fc7f266065fcbd155ec086ac4c69ea2380e78100ee5bca73bccf4",
+      "split": "test",
+      "event_ids": [
+        "event-b1bc3d050272a084fa9d0e7d7971ac6f1c724e88064904b211b3fa0e68371b72"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "11df3f033adaad360177b33ce8811c6c6ebf4e3c4a65fd6eb91462f71b368b99",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-f3b7e2023426b56d387e8a1bebc5ffaa5924101426d8cabc8f13fdbf92cc288a",
+      "split": "test",
+      "event_ids": [
+        "event-957db63e215a7ed50ca445c16165d775a79a9044a9f40e2dd3be9c2aa4b6907b"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "3e226cb937fe191947291cf7235dca417cbbb87c3988d716a0f3239100031c6b",
+      "task_count": 2,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 2,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-021baaf3fb1e70e9276e280005e9a0aaf1fc507f91afa6ea7d16c5fa748439b8",
+      "split": "development",
+      "event_ids": [
+        "event-0dc48e4b9272ee08bfca721f4969a7098f2d83be3127116c3d3750d8b56fde94"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "c3d2fb1335776feb9f643e147419bf7f3123d89db36ce8ade7a4516f78df35cc",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-029e543df86f7e8122a33e6fdafb41a8052a982a577f787b871d05c27e903a77",
+      "split": "development",
+      "event_ids": [
+        "event-b571206f0050567b898cc3425e09ac6797fedfcdfd8c6fac5d9000ffc2d58eb8"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "0af743e25e8b8dd43aa1813b4cfff8fab5454ef273bfe06832b0d83cd811ee74",
+      "task_count": 2,
+      "reviewed_method_tasks": 2,
+      "additional_literal_tasks": 0,
+      "method_reasoning_status": "reviewed_lost_property_subtasks",
+      "no_task_reason": null
+    },
+    {
+      "case_id": "case-06199fc40772ac8fc5f4a73cde73b79c26318962a41f628c16c8aef05e0c4427",
+      "split": "development",
+      "event_ids": [
+        "event-be59b4644c19626051150e9e3209891a5b76d1da385fc486cb171f570493ad05"
+      ],
+      "archive_complete": true,
+      "source_story_sha256": "bfef35bfabf2a0bb47ed50d37b6c4bbaad149efe134b25d1d1488047270fb2c2",
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "additional_literal_tasks": 1,
+      "method_reasoning_status": "not_yet_curated_as_reasoning_tasks",
+      "no_task_reason": null
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "plan_version": 3,
+  "status": "mac_method_pilot_baseline_in_progress",
+  "instruction_files": [
+    "docs/user_instructions/master_spec_2026-10-17.txt",
+    "docs/user_instructions/professional_training_summary_2026-10-17.txt",
+    "docs/user_instructions/validation_driven_training_2026-10-17.txt",
+    "docs/user_instructions/rtx4090_data_handoff_2026-10-17.txt",
+    "docs/user_instructions/all_cases_pilot_github_2026-10-17.txt",
+    "docs/user_instructions/mac_method_pilot_2026-10-17.txt"
+  ],
+  "model": {
+    "repository": "Qwen/Qwen3.8-27B",
+    "source_revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "license": "apache-2.0",
+    "user_selected": true,
+    "prior_4b_role": "engineering_protocol_pilot_only",
+    "mlx_quantization_candidate": {
+      "repository": "mlx-community/Qwen3.8-27B-4bit",
+      "revision": "10c35caafbb80f7dc6a7a432cdd11af10a6d4818",
+      "bits": 4,
+      "tested_loading": true,
+      "tested_training": "neutral_hardware_fixture_backward_only_not_domain_epochs"
+    }
+  },
+  "hardware": {
+    "preferred_now": "Mac local 27B pilot first; user RTX4090 systematic training after method and validation review",
+    "backend_candidate": "CUDA / PyTorch / PEFT, actual 4090 preflight pending",
+    "27b_memory_gradient_and_resume_profile": "passed: loading, generation, 64/256/512 token backward, save/reopen; complete domain-task equivalence still pending",
+    "fallback_hardware": "RTX 4090 user-reported; not connected, no remote access assumed",
+    "do_not_change_user_target_to_fit_device": true,
+    "mac_role": "data preparation, curation and tests; no legacy training restart",
+    "rtx4090_actual_cuda_preflight": "not_run; no remote connection assumed",
+    "mlx_weight_role": "Historical Mac probe only; CUDA training must use a compatible pinned source model, not blindly load MLX quantized weights."
+  },
+  "training": {
+    "technique": "LoRA; quantized frozen base when required (QLoRA)",
+    "planned_epochs": null,
+    "fixed_fifty_epochs_required": false,
+    "completed_epochs": 0,
+    "optimizer_steps": 0,
+    "rank": null,
+    "alpha": null,
+    "learning_rate": null,
+    "batch_size": null,
+    "gradient_accumulation": null,
+    "maximum_context": null,
+    "steps_per_epoch": null,
+    "derived_iterations": null,
+    "target_modules": null,
+    "epoch_definition": "Every eligible training example exactly once per completed epoch; shuffle permitted, no silent drop_last or unreported repetitions",
+    "scope": "professional_method_learning",
+    "configuration_selection": "After audited professional tasks and full unadapted system baseline; validation-only selection and stopping; frozen test never selects hyperparameters/checkpoints."
+  },
+  "data": {
+    "source_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+    "professional_training_release": null,
+    "legacy_author_quote_release": "data/splits/author_initial_release_v2.json",
+    "legacy_release_role": "preserved_frozen_engineering_artifact_not_professional_training",
+    "family_split_policy": "Preserve development/test isolation and known event-family assignments; no moving heldout families into training; any new release versioned and audited.",
+    "source_reviewed_batch_manifests": [
+      "data/splits/lost_method_release_v5.json"
+    ],
+    "source_reviewed_method_tasks": 32,
+    "source_reviewed_cases": 8,
+    "pending_book_cases": 90,
+    "source_reviewed_batch_role": "Curriculum subtasks with task-local source-given conditions where needed; not unassisted forecasting or a completed full-book release.",
+    "complete_book_preparation": "data/splits/book_preparation_v1.json",
+    "all_cases_archived": 98,
+    "safe_literal_and_method_tasks": 125,
+    "pending_book_cases_meaning": "Remaining cases have complete archives/splits; their professional reasoning tasks are not yet semantically curated"
+  },
+  "required_task_types": [
+    "role_selection",
+    "chart_evidence",
+    "evidence_synthesis",
+    "timing_analysis",
+    "feedback_continuation"
+  ],
+  "evaluation": {
+    "baseline_arms": [
+      "base",
+      "chart",
+      "chart_retrieval",
+      "chart_conditional_rules"
+    ],
+    "finetuned_arm": "full_system_sft",
+    "same_27b_unfinetuned_baseline_required": true,
+    "same_source_chart_retrieval_and_condition_settings": true,
+    "during_training": "validation_only",
+    "checkpoint_selection": "validation professional metrics plus overfitting and stability; select policy before test access",
+    "frozen_test": "final_only_not_for_tuning",
+    "author_reproduction_separate_from_reported_feedback": true,
+    "independent_real_world_accuracy": null,
+    "professional_accuracy": null
+  },
+  "checkpointing": {
+    "save_each_epoch": true,
+    "resume_includes": [
+      "adapter",
+      "optimizer",
+      "scheduler",
+      "rng",
+      "data_order",
+      "example_cursor",
+      "epoch",
+      "optimizer_step"
+    ],
+    "resume_test_required": true
+  },
+  "execution_policy": {
+    "training_authorized_by_current_artifacts": false,
+    "legacy_author_quote_launcher_retired": true,
+    "reason": "Full formal training gates remain separate; latest user explicitly authorizes a bounded source-conditioned Mac LoRA pilot.",
+    "limited_mac_method_pilot_authorized": true
+  },
+  "pending_gates": [
+    "Source-supported independent calendar and full-chart scope validation",
+    "Compile and test conditional professional roles through QimenService.ask",
+    "Create source-grounded tasks for all five types with task-specific chronology and feedback access",
+    "Freeze audited event-family release without changing legacy splits or test labels",
+    "Run same-27B full unadapted A-D baseline with task completion and professional correctness denominators",
+    "Profile actual professional sequence lengths and adapter placement; exact save/resume verification",
+    "Choose training/stopping configuration using training and validation only"
+  ],
+  "github_upload": true,
+  "previous_run_progress": "work/qwen38-author-run001/progress.json",
+  "actual_run_progress": null,
+  "handoff": {
+    "training_operator": "user",
+    "preparation_operator": "Codex on Mac",
+    "ready_for_user_training": false,
+    "package_scope": "professional tasks and evaluation after source/chronology/family auditing",
+    "remote_connection_authorized": false
+  },
+  "mac_pilot": {
+    "max_epochs": 3,
+    "validation_patience": 1,
+    "rank": 4,
+    "scale": 2,
+    "target_modules": [
+      "layers.63.self_attn.q_proj",
+      "layers.63.self_attn.v_proj"
+    ],
+    "source_release": "shenqi-lost-method-tasks-v5",
+    "baseline": "work/mac-lost-method-baseline-v1",
+    "status": "baseline_in_progress",
+    "completed_epochs": 0,
+    "optimizer_steps": 0,
+    "test_accessed": false
+  }
+}

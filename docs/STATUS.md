@@ -1,4 +1,40 @@
+本轮数据/工程验收：Mac可用MLX+PyTorch环境全量567项通过，0失败/错误/跳过，168.684秒；独立干净克隆的标准库环境同567项，564通过、3项可选MLX/PyTorch数值检查跳过，163.416秒。新增全书归档/划分、共享ask权限、来源事实、失败诊断及真实小型混合Qwen反传/恢复检查均通过；后者不冒充CUDA或全27B训练。56受保护源文件逐哈希保持。见data/provenance/book_pilot_validation_v1.json。当前全27B基线仍在进行，真实训练与远端CI结果分别记录，不能由本段替代。
+
+最新执行状态（2026-10-17，覆盖下文“仅本地”和“仅4090训练”历史限制）：用户已恢复GitHub同步，并要求先Mac27B的读盘/方法基线、真实LoRA微调和验证比较，效果及逻辑通过后再进行4090系统训练。新指令见docs/user_instructions/all_cases_pilot_github_2026-10-17.txt、mac_method_pilot_2026-10-17.txt。原Master、旧来源、旧冻结划分与旧作业不改；不得恢复作者原话/固定50遍启动器。
+
+全书98完整故事已导出按既有94家族冻结的完整档案：65train/15validation/15test/3development。所有106事件/1579记录/104原盘完整保存，故事档案含结局且永不作为模型输入。可训练派生任务125条：32个钱物丢失审读方法子任务+93个其他来源原盘字面读取任务；分布80train/21validation/20test/4development，涉及96故事。另2故事的3张旧原盘不在现有投影覆盖范围，完整档案保留，不补造盘面。125不等于125独立案例或全书综合方法已审读。见data/splits/book_preparation_v1.json和data/provenance/book_training_coverage_v1.json。
+
+钱物丢失限定研究试验沿v5冻结32任务，不移动家族。Mac先测试无适配器27B，再使用最后全注意力层q/v的rank4 LoRA进行最多3遍、验证无改善停止的工程/方法试验；训练只读22train/4validation，test封存。缓存全模型等价和真实任务下一更新恢复等价必须实际通过；loss只选候选，仍需比较同题生成的专业解释。正式规则和完整D/E系统对照尚未完成，不以source_given_conditions替代。QimenService.ask的显式MethodRequest研究分支承担全部生成评估，正式问事门槛保持。
+
+以下为此前版本验收记录；最新实际模型与回归结果待本轮运行完成后追加。
+
 # 当前项目状态
+
+本轮已开始专业数据精编：**首批《钱物丢失预测》8整案，14披露阶段，32个五类任务**（用神6/盘面8/综合6/应期6/续断6），当前冻结批次shenqi-lost-method-tasks-v5；22训练/4验证/4测试/2开发沿旧家族划分。目标为有出处的简明方法解释与证据，不再是原文复写。明确给定的作者条件与软件独立盘事实分开，初断、反馈和续断分别截止；源中未展开推导不补。全书98故事都保留，已审读专业子任务8案、其余90案待整理，不能说全书训练数据已就绪。正式SFT未启动，4090未连接，DB正式rules/tasks/releases仍0。详见PROFESSIONAL_TRAINING.md、data/splits/lost_method_release_v5.json及data/provenance/method_task_coverage_v1.json。
+
+本批验收：555项全量回归通过（0失败/错误/跳过，59.969秒），随后新增覆盖计数检查后16项专题通过（其中15项与全量重叠）。32条实际JSONL已重开并逐哈希核对，56个受保护原文件不变；原DB仍98故事/94家族/106事件/104盘，正式rules/tasks/releases均0。模型调用/训练更新均0，无本轮push/Actions。详见data/provenance/lost_method_validation_v5.json。
+
+最新用户修订：以原Master及新增专业训练总结为准，学习用神选择、盘面证据、综合取舍、应期与反馈续断。**50个epoch已撤回，不再固定轮数；Mac优先准备数据，由用户RTX4090训练。** Qwen3.8-27B + LoRA/QLoRA目标保留，本轮仅本地、不推送。旧作者原话复现作业已停止并禁用自动重启，0正式遍/0正式更新；49个首轮工程子任务保留冻结，但不充作五类专业训练集。当前专业数据尚未就绪，完整专业基线与正式规则缺口不跳过。
+
+全书只读整理现已实际重开并核对26份原始文档、3275个引用范围、1579条记录及104盘payload哈希，覆盖98故事/94家族/106事件。五类证据审读队列已生成（不是训练任务数）：用神13、盘面分析738、综合依据936、应期38、续断43；队列互有重叠，并含不同时间阶段，不能相加当样本量，不能直接当模型输入。保留所有原记录阶段、旧家族划分与全部反馈；当前可正式训练任务仍0。细节见PROFESSIONAL_TRAINING.md及data/provenance/professional_source_inventory_v1.json。
+
+本次完整回归实际540项通过，0失败/错误/跳过，62.048秒；旧作业退役入口与全书审读清单的6项新增检查包含在内。原Master、52快照、原CI文件与v1/v2冻结清单共56文件逐哈希不变，无schema迁移，无本轮GitHub push/Actions或4090实测。验收见data/provenance/professional_preparation_validation_v1.json。
+
+以下为此前本地开发实验与入库的历史记录；其中固定50遍、Mac训练及“正在执行”表述已被上述修订覆盖。
+
+当前工作已从逐章接收转入用户授权的建模准备：按Master第11节/Phase2与4门槛，先Mac本地开发预实验。本轮用户明确仅本地、不推送；仓库公开由用户主动设置，未改可见性。原总指令、原文、案例、旧gold、schema和52快照文件保持；下方旧入库验收作为历史保留。
+
+本轮新增可替换MLX研究适配、同一QimenService.ask的显式本地研究调用、审读切片与输入/目标隔离、四个开发配置和错误计量。M2/24GiB实测Metal，下载并逐哈希校验约2.28GB的Qwen3-4B-Instruct-2507社区MLX4bit候选（revision50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b），未锁定最终模型或启动训练。
+
+3开发家族/91保留待审读家族；开发清单v3 SHA256 6c43228e83db2e71eb658ef2a385088cb93a007fbaea4006d93eb0d0e37b5a78，非正式盲测release。真实12请求：协议/引用/事实通过1、证据层错误10、生成协议失败1；通过协议的回答作者字段仍无匹配，专业完成0。四组作者字段匹配依次0/7、1/7、2/7、2/7；文献反馈匹配0/4、0/4、0/4、1/4，包含证据未过的原始字段匹配，不当专业或现实准确率。作者1997年成婚目标与所载1998年反馈保留分开。完整条件规则仍blocked、微调未运行、独立现实预测准确率null。
+
+只读全书盘门槛审计：101/104可投影；按显式方法的受支持比较字段35 matches、4 mismatch、57 conditional、8 not_covered，不修改来源。人工审读三个开发例给定遁/局/时干支后，临时比较全部matches，不等于完整公历起盘。196候选空背景全部conditional，正式rules0。
+
+实际新增18项与旧493项合计511项回归通过，0失败/错误，67.112秒；权威快照52文件重新导出逐字节一致。当前未push、未运行本轮Actions，远端仍基于90e624c9e21a29d9aff2f81ba3f35aba983097cf，不能以旧CI替代新增代码远端验收。数据版本仍9fe01f72-44f1-4b6d-b793-f2b9b748f16c，rules/training_tasks/dataset_releases均0。
+
+详情见MODEL_BASELINE.md、data/provenance/mac_baseline_validation_v1.json及mac_baseline_run003.json；新用户执行指令见user_instructions/model_research_2026-10-17.txt。后续先补有来源的正式角色、历法/盘面缺口、可评分任务与冻结release，再执行原计划完整专业基线；家庭4090、训练与20余后续古籍保留各自门槛。
+
+## 上轮附录三入库状态（历史保留）
 
 更新：2026-10-17。本轮附录三《现场预测表演纪实》精校及所供重排表，appendix-demo-clean/接收排序27，累计26份章级来源输入。书中篇次三独立记录，附录二/一接收25/26与旧键保持。
 

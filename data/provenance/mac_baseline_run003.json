@@ -1,0 +1,1455 @@
+{
+  "scope": "development_only_not_blind_test",
+  "suite_sha256": "6c43228e83db2e71eb658ef2a385088cb93a007fbaea4006d93eb0d0e37b5a78",
+  "data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "source_commit": "90e624c9e21a29d9aff2f81ba3f35aba983097cf",
+  "model": {
+    "repo": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+    "revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+    "files": {
+      ".gitattributes": {
+        "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+        "bytes": 1570,
+        "lfs_verified": false
+      },
+      "README.md": {
+        "sha256": "7b17ce562d7ea121c86d2ffdf660eed3726ac5b52cacfa9f1de11a65969f5657",
+        "bytes": 969,
+        "lfs_verified": false
+      },
+      "added_tokens.json": {
+        "sha256": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+        "bytes": 707,
+        "lfs_verified": false
+      },
+      "chat_template.jinja": {
+        "sha256": "40c21f34cf67d8c760ef72f8ad3ae5afad514299d4b06e91dd9a8d705af7b541",
+        "bytes": 4040,
+        "lfs_verified": false
+      },
+      "config.json": {
+        "sha256": "574349e5a343236546fda55e4744a76e181f534182d7dc60ff1bad7e7a502849",
+        "bytes": 938,
+        "lfs_verified": false
+      },
+      "generation_config.json": {
+        "sha256": "835fffe355c9438e7a25be099b3fccaa98350b83451f9fd2d99512e74f1ade48",
+        "bytes": 238,
+        "lfs_verified": false
+      },
+      "merges.txt": {
+        "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+        "bytes": 1671853,
+        "lfs_verified": false
+      },
+      "model.safetensors": {
+        "sha256": "2a73c6c248601ab904e035548abd8e6abb65ea27dcb5f342fb0a8910eb44173f",
+        "bytes": 2263022417,
+        "lfs_verified": true
+      },
+      "model.safetensors.index.json": {
+        "sha256": "388d811b8b7c2608dd04cce1bcb04a8bf715d19b42790894e6d3427ff429a777",
+        "bytes": 63964,
+        "lfs_verified": false
+      },
+      "special_tokens_map.json": {
+        "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+        "bytes": 613,
+        "lfs_verified": false
+      },
+      "tokenizer.json": {
+        "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "bytes": 11422654,
+        "lfs_verified": true
+      },
+      "tokenizer_config.json": {
+        "sha256": "4397cc477eb6d79715ccd2000accd6b3531928f30029665832fa1b255f24d2b9",
+        "bytes": 5440,
+        "lfs_verified": false
+      },
+      "vocab.json": {
+        "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+        "bytes": 2776833,
+        "lfs_verified": false
+      }
+    }
+  },
+  "model_load_seconds": 0.6138810419943184,
+  "python": "3.12.2",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "packages": {
+    "mlx": "0.32.4",
+    "mlx-lm": "0.32.2",
+    "transformers": "5.20.1",
+    "tokenizers": "0.23.3",
+    "safetensors": "0.8.0"
+  },
+  "hardware": {
+    "hw.memsize": "25769803776",
+    "hw.model": "Mac14,15",
+    "machdep.cpu.brand_string": "Apple M2"
+  },
+  "started_unix": 1792287983.096403,
+  "rows": [
+    {
+      "task_id": "travel_return_safety",
+      "family_id": "family-fbff487f123f88c48e773d54bdb90d21b8822f71b9099b6b9a5c981fa7d3e96f",
+      "arm": "base",
+      "result": {
+        "status": "research_generated",
+        "scope": "development_research_only",
+        "professional_analysis_completed": false,
+        "diagnostics": {
+          "arm": "base",
+          "casting_status": "not_requested",
+          "knowledge_count": 0,
+          "formal_rule_count": 0,
+          "full_condition_rule_arm": "blocked_no_compiled_professional_rules"
+        },
+        "payload_sha256": "fc0f74195ba6b6155b950f74fd4a6a7c0606c318828ed62b789064ee32815833",
+        "telemetry": {
+          "prompt_tokens": 967,
+          "max_tokens": 768,
+          "max_context_tokens": 8192,
+          "temperature": 0.0,
+          "seed": 17,
+          "seconds": 13.85523716697935,
+          "first_token_seconds": 3.9956405419798102,
+          "peak_memory_bytes": 2921220980,
+          "generation_tokens": 305,
+          "tokens_per_second": 30.99691569045241,
+          "finish_reason": "stop",
+          "raw_output": "{\n  \"answers\": {\n    \"people_safe\": null,\n    \"return_accident\": null,\n    \"traveler_role\": \"日干\"\n  },\n  \"evidence\": [\n    {\n      \"source_id\": \"span-deb946ed8ccecd0d0b91491e4439a2c736693799bdcec7442897e67110c9944d\",\n      \"quote\": \"1995年3月25日晚上8点30分，河北省汽车工业贸易总公司一处赵景录经理给杜新会打电话，说他准备让战友白庆波明天开车到秦皇岛去办理手续，请预测一下此行顺行否？\"\n    },\n    {\n      \"source_id\": \"span-006cbde2361226580fc7b31fcb68636d9812ff7098f6d59adb0ed7cbb2bee359\",\n      \"quote\": \"杜新会即按打电话时间起局。乙亥年己卯月乙卯日丙戌时，阳9局，甲申旬，天芮星为值符，落7宫，死门为值使，落4宫。\"\n    }\n  ],\n  \"fact_claims\": []\n}"
+        },
+        "output": {
+          "answers": {
+            "people_safe": null,
+            "return_accident": null,
+            "traveler_role": "日干"
+          },
+          "evidence": [
+            {
+              "source_id": "span-deb946ed8ccecd0d0b91491e4439a2c736693799bdcec7442897e67110c9944d",
+              "quote": "1995年3月25日晚上8点30分，河北省汽车工业贸易总公司一处赵景录经理给杜新会打电话，说他准备让战友白庆波明天开车到秦皇岛去办理手续，请预测一下此行顺行否？"
+            },
+            {
+              "source_id": "span-006cbde2361226580fc7b31fcb68636d9812ff7098f6d59adb0ed7cbb2bee359",
+              "quote": "杜新会即按打电话时间起局。乙亥年己卯月乙卯日丙戌时，阳9局，甲申旬，天芮星为值符，落7宫，死门为值使，落4宫。"
+            }
+          ],
+          "fact_claims": []
+        },
+        "evidence_errors": []
+      },
+      "score": {
+        "author": {
+          "available": 3,
+          "matches": 0,
+          "details": [
+            {
+              "field": "traveler_role",
+              "expected": "月干",
+              "answered": true,
+              "abstained": false,
+              "match": false,
+              "record_id": "record-bc2f9c1234590388812bc2399d767d1ba9c087ea37a75b5e6bc35727aeb635a2"
+            },
+            {
+              "field": "return_accident",
+              "expected": true,
+              "answered": false,
+              "abstained": true,
+              "match": false,
+              "record_id": "record-221b1d62ae03bea074c3dfe10ad51a583a2e423501f3a28b4c8aa3d3b1e63701"
+            },
+            {
+              "field": "people_safe",
+              "expected": true,
+              "answered": false,
+              "abstained": true,
+              "match": false,
+              "record_id": "record-221b1d62ae03bea074c3dfe10ad51a583a2e423501f3a28b4c8aa3d3b1e63701"
+            }
+          ]
+        },
+        "reported_outcome": {
+          "available": 2,
+          "matches": 0,
+          "details": [
+            {
+              "field": "return_accident",
+              "expected": true,
+              "answered": false,
+              "abstained": true,
+              "match": false,
+              "record_id": "record-cd08acae2de221495b95c764ea25b8e86545a94cca2c9c7a243b635fef737abc"
+            },
+            {
+              "field": "people_safe",
+              "expected": true,
+              "answered": false,
+              "abstained": true,
+              "match": false,
+              "record_id": "record-cd08acae2de221495b95c764ea25b8e86545a94cca2c9c7a243b635fef737abc"
+            }
+          ]
+        },
+        "real_world_predictive_accuracy": null,
+        "professional_correctness": null,
+        "limitations": [
+          "development_cases_not_blind",
+          "selected_published_cases",
+          "pretraining_contamination_unknown",
+          "reported_feedback_not_prospective_validation",
+          "citation_substring_match_does_not_verify_inference"
+        ]
+      }
+    },
+    {
+      "task_id": "travel_return_safety",
+      "family_id": "family-fbff487f123f88c48e773d54bdb90d21b8822f71b9099b6b9a5c981fa7d3e96f",
+      "arm": "symbolic_chart",
+      "result": {
+        "status": "research_evidence_error",
+        "scope": "development_research_only",
+        "professional_analysis_completed": false,
+        "diagnostics": {
+          "arm": "symbolic_chart",
+          "casting_status": "symbolic_verified",
+          "knowledge_count": 0,
+          "formal_rule_count": 0,
+          "full_condition_rule_arm": "blocked_no_compiled_professional_rules"
+        },
+        "payload_sha256": "62b5b13c27c01f2d60690b1fb5ea5c250e6319bcb0e866ec14979c6d7e219c29",
+        "telemetry": {
+          "prompt_tokens": 4176,
+          "max_tokens": 768,
+          "max_context_tokens": 8192,
+          "temperature": 0.0,
+          "seed": 17,
+          "seconds": 33.089958541997476,
+          "first_token_seconds": 19.43653858298785,
+          "peak_memory_bytes": 3474783284,
+          "generation_tokens": 337,
+          "tokens_per_second": 24.75909951777814,
+          "finish_reason": "stop",
+          "raw_output": "{\n  \"answers\": {\n    \"people_safe\": null,\n    \"return_accident\": null,\n    \"traveler_role\": \"时干\"\n  },\n  \"evidence\": [\n    {\n      \"source_id\": \"span-006cbde2361226580fc7b31fcb68636d9812ff7098f6d59adb0ed7cbb2bee359\",\n      \"quote\": \"杜新会即按打电话时间起局。乙亥年己卯月乙卯日丙戌时，阳9局，甲申旬，天芮星为值符，落7宫，死门为值使，落4宫。\"\n    },\n    {\n      \"source_id\": \"span-2d72443d059dc716c74bc55f01665b2a45695fb0ec598fbb29dd487167397eaf\",\n      \"quote\": \"九宫盘面：巽四宫八神：武，门位：死辛，星位：冲壬；震三宫八神：虎，门位：景乙，星位：任辛；乾六宫八神：蛇，门位：生丙，星位：柱丁。\"\n    }\n  ],\n  \"fact_claims\": [\n    {\n      \"key\": \"bureau\",\n      \"value\": \"阳遁\"\n    }\n  ]\n}"
+        },
+        "output": {
+          "answers": {
+            "people_safe": null,
+            "return_accident": null,
+            "traveler_role": "时干"
+          },
+          "evidence": [
+            {
+              "source_id": "span-006cbde2361226580fc7b31fcb68636d9812ff7098f6d59adb0ed7cbb2bee359",
+              "quote": "杜新会即按打电话时间起局。乙亥年己卯月乙卯日丙戌时，阳9局，甲申旬，天芮星为值符，落7宫，死门为值使，落4宫。"
+            },
+            {
+              "source_id": "span-2d72443d059dc716c74bc55f01665b2a45695fb0ec598fbb29dd487167397eaf",
+              "quote": "九宫盘面：巽四宫八神：武，门位：死辛，星位：冲壬；震三宫八神：虎，门位：景乙，星位：任辛；乾六宫八神：蛇，门位：生丙，星位：柱丁。"
+            }
+          ],
+          "fact_claims": [
+            {
+              "key": "bureau",
+              "value": "阳遁"
+            }
+          ]
+        },
+        "evidence_errors": [
+          "citation_not_in_released_source",
+          "chart_fact_mismatch"
+        ]
+      },
+      "score": {
+        "author": {
+          "available": 3,
+          "matches": 0,
+          "details": [
+            {
+              "field": "traveler_role",
+              "expected": "月干",
+              "answered": true,
+              "abstained": false,
+              "match": false,
+              "record_id": "record-bc2f9c1234590388812bc2399d767d1ba9c087ea37a75b5e6bc35727aeb635a2"
+            },
+            {
+              "field": "return_accident",
+              "expected": true,
+              "answered": false,
+              "abstained": true,
+              "match": false,
+              "record_id": "record-221b1d62ae03bea074c3dfe10ad51a583a2e423501f3a28b4c8aa3d3b1e63701"
+            },
+            {
+              "field": "people_safe",
+              "expected": true,
+              "answered": false,
+              "abstained": true,
+              "match": false,
+              "record_id": "record-221b1d62ae03bea074c3dfe10ad51a583a2e423501f3a28b4c8aa3d3b1e63701"
+            }
+          ]
+        },
+        "reported_outcome": {
+          "available": 2,
+          "matches": 0,
+          "details": [
+            {
+              "field": "return_accident",
+              "expected": true,
+              "answered": false,
+              "abstained": true,
+              "match": false,
+              "record_id": "record-cd08acae2de221495b95c764ea25b8e86545a94cca2c9c7a243b635fef737abc"
+            },
+            {
+              "field": "people_safe",
+              "expected": true,
+              "answered": false,
+              "abstained": true,
+              "match": false,
+              "record_id": "record-cd08acae2de221495b95c764ea25b8e86545a94cca2c9c7a243b635fef737abc"
+            }
+          ]
+        },
+        "real_world_predictive_accuracy": null,
+        "professional_correctness": null,
+        "limitations": [
+          "development_cases_not_blind",
+          "selected_published_cases",
+          "pretraining_contamination_unknown",
+          "reported_feedback_not_prospective_validation",
+          "citation_substring_match_does_not_verify_inference"
+        ]
+      }
+    },
+    {
+      "task_id": "travel_return_safety",
+      "family_id": "family-fbff487f123f88c48e773d54bdb90d21b8822f71b9099b6b9a5c981fa7d3e96f",
+      "arm": "chart_knowledge",
+      "result": {
+        "status": "research_evidence_error",
+        "scope": "development_research_only",
+        "professional_analysis_completed": false,
+        "diagnostics": {
+          "arm": "chart_knowledge",
+          "casting_status": "symbolic_verified",
+          "knowledge_count": 2,
+          "formal_rule_count": 0,
+          "full_condition_rule_arm": "blocked_no_compiled_professional_rules"
+        },
+        "payload_sha256": "1ba1740b14c677a8c7fb67e495826bcaeb1f6c2a7b0b4da609835edf679fd6f8",
+        "telemetry": {
+          "prompt_tokens": 4732,
+          "max_tokens": 768,
+          "max_context_tokens": 8192,
+          "temperature": 0.0,
+          "seed": 17,
+          "seconds": 45.55219720900641,
+          "first_token_seconds": 33.03314641700126,
+          "peak_memory_bytes": 3474783284,
+          "generation_tokens": 296,
+          "tokens_per_second": 23.680311869711247,
+          "finish_reason": "stop",
+          "raw_output": "{\n  \"answers\": {\n    \"people_safe\": null,\n    \"return_accident\": null,\n    \"traveler_role\": \"时干\"\n  },\n  \"evidence\": [\n    {\n      \"source_id\": \"span-1bf790cf9130f3da6c961eacd9390ae2a39bd8cfff908de61336cb3a007b75de\",\n      \"quote\": \"九宫盘面：巽四宫八神：武，门位：死辛，星位：冲壬\"\n    },\n    {\n      \"source_id\": \"span-006cbde2361226580fc7b31fcb68636d9812ff7098f6d59adb0ed7cbb2bee359\",\n      \"quote\": \"乙亥年己卯月乙卯日丙戌时，阳9局，甲申旬，天芮星为值符，落7宫，死门为值使，落4宫。\"\n    }\n  ],\n  \"fact_claims\": [\n    {\n      \"key\": \"bureau\",\n      \"value\": {\n        \"dun\": \"阳遁\",\n        \"number\": 9\n      }\n    }\n  ]\n}"
+        },
+        "output": {
+          "answers": {
+            "people_safe": null,
+            "return_accident": null,
+            "traveler_role": "时干"
+          },
+          "evidence": [
+            {
+              "source_id": "span-1bf790cf9130f3da6c961eacd9390ae2a39bd8cfff908de61336cb3a007b75de",
+              "quote": "九宫盘面：巽四宫八神：武，门位：死辛，星位：冲壬"
+            },
+            {
+              "source_id": "span-006cbde2361226580fc7b31fcb68636d9812ff7098f6d59adb0ed7cbb2bee359",
+              "quote": "乙亥年己卯月乙卯日丙戌时，阳9局，甲申旬，天芮星为值符，落7宫，死门为值使，落4宫。"
+            }
+          ],
+          "fact_claims": [
+            {
+              "key": "bureau",
+              "value": {
+                "dun": "阳遁",
+                "number": 9
+              }
+            }
+          ]
+        },
+        "evidence_errors": [
+          "citation_not_in_released_source"
+        ]
+      },
+      "score": {
+        "author": {
+          "available": 3,
+          "matches": 0,
+          "details": [
+            {
+              "field": "traveler_role",
+              "expected": "月干",
+              "answered": true,
+              "abstained": false,
+              "match": false,
+              "record_id": "record-bc2f9c1234590388812bc2399d767d1ba9c087ea37a75b5e6bc35727aeb635a2"
+            },
+            {
+              "field": "return_accident",
+              "expected": true,
+              "answered": false,
+              "abstained": true,
+              "match": false,
+              "record_id": "record-221b1d62ae03bea074c3dfe10ad51a583a2e423501f3a28b4c8aa3d3b1e63701"
+            },
+            {
+              "field": "people_safe",
+              "expected": true,
+              "answered": false,
+              "abstained": true,
+              "match": false,
+              "record_id": "record-221b1d62ae03bea074c3dfe10ad51a583a2e423501f3a28b4c8aa3d3b1e63701"
+            }
+          ]
+        },
+        "reported_outcome": {
+          "available": 2,
+          "matches": 0,
+          "details": [
+            {
+              "field": "return_accident",
+              "expected": true,
+              "answered": false,
+              "abstained": true,
+              "match": false,
+              "record_id": "record-cd08acae2de221495b95c764ea25b8e86545a94cca2c9c7a243b635fef737abc"
+            },
+            {
+              "field": "people_safe",
+              "expected": true,
+              "answered": false,
+              "abstained": true,
+              "match": false,
+              "record_id": "record-cd08acae2de221495b95c764ea25b8e86545a94cca2c9c7a243b635fef737abc"
+            }
+          ]
+        },
+        "real_world_predictive_accuracy": null,
+        "professional_correctness": null,
+        "limitations": [
+          "development_cases_not_blind",
+          "selected_published_cases",
+          "pretraining_contamination_unknown",
+          "reported_feedback_not_prospective_validation",
+          "citation_substring_match_does_not_verify_inference"
+        ]
+      }
+    },
+    {
+      "task_id": "travel_return_safety",
+      "family_id": "family-fbff487f123f88c48e773d54bdb90d21b8822f71b9099b6b9a5c981fa7d3e96f",
+      "arm": "candidate_conditions",
+      "result": {
+        "status": "research_evidence_error",
+        "scope": "development_research_only",
+        "professional_analysis_completed": false,
+        "diagnostics": {
+          "arm": "candidate_conditions",
+          "casting_status": "symbolic_verified",
+          "knowledge_count": 2,
+          "formal_rule_count": 0,
+          "full_condition_rule_arm": "blocked_no_compiled_professional_rules",
+          "candidate_count": 2
+        },
+        "payload_sha256": "9312e8934e9b31449c0db79147414d006aca8323eba3ac138e1ad5a51f7f5866",
+        "telemetry": {
+          "prompt_tokens": 4960,
+          "max_tokens": 768,
+          "max_context_tokens": 8192,
+          "temperature": 0.0,
+          "seed": 17,
+          "seconds": 38.54416816597222,
+          "first_token_seconds": 25.458436957997037,
+          "peak_memory_bytes": 3587062868,
+          "generation_tokens": 298,
+          "tokens_per_second": 22.8086010666526,
+          "finish_reason": "stop",
+          "raw_output": "{\n  \"answers\": {\n    \"people_safe\": null,\n    \"return_accident\": null,\n    \"traveler_role\": \"日干\"\n  },\n  \"evidence\": [\n    {\n      \"source_id\": \"span-1bf790cf9130f3da6c961eacd9390ae2a39bd8cfff908de61336cb3a007b75de\",\n      \"quote\": \"九宫盘面：巽四宫八神：武，门位：死辛，星位：冲壬；离九宫八神：地，门位：惊壬，星位：辅戊；坤二宫八神：天，门位：开戊，星位：英庚。\"\n    },\n    {\n      \"source_id\": \"span-40b55cd40c864138841130b8c528c57dee66bd9d0705d1f03f59c7e793a421bf\",\n      \"quote\": \"出行出国，一般以日干落宫为出行之人，看去什么方向，这个方向如果有吉格吉门来生日干落宫，则为顺利。\"\n    }\n  ],\n  \"fact_claims\": []\n}"
+        },
+        "output": {
+          "answers": {
+            "people_safe": null,
+            "return_accident": null,
+            "traveler_role": "日干"
+          },
+          "evidence": [
+            {
+              "source_id": "span-1bf790cf9130f3da6c961eacd9390ae2a39bd8cfff908de61336cb3a007b75de",
+              "quote": "九宫盘面：巽四宫八神：武，门位：死辛，星位：冲壬；离九宫八神：地，门位：惊壬，星位：辅戊；坤二宫八神：天，门位：开戊，星位：英庚。"
+            },
+            {
+              "source_id": "span-40b55cd40c864138841130b8c528c57dee66bd9d0705d1f03f59c7e793a421bf",
+              "quote": "出行出国，一般以日干落宫为出行之人，看去什么方向，这个方向如果有吉格吉门来生日干落宫，则为顺利。"
+            }
+          ],
+          "fact_claims": []
+        },
+        "evidence_errors": [
+          "citation_not_in_released_source",
+          "citation_not_in_released_source"
+        ]
+      },
+      "score": {
+        "author": {
+          "available": 3,
+          "matches": 0,
+          "details": [
+            {
+              "field": "traveler_role",
+              "expected": "月干",
+              "answered": true,
+              "abstained": false,
+              "match": false,
+              "record_id": "record-bc2f9c1234590388812bc2399d767d1ba9c087ea37a75b5e6bc35727aeb635a2"
+            },
+            {
+              "field": "return_accident",
+              "expected": true,
+              "answered": false,
+              "abstained": true,
+              "match": false,
+              "record_id": "record-221b1d62ae03bea074c3dfe10ad51a583a2e423501f3a28b4c8aa3d3b1e63701"
+            },
+            {
+              "field": "people_safe",
+              "expected": true,
+              "answered": false,
+              "abstained": true,
+              "match": false,
+              "record_id": "record-221b1d62ae03bea074c3dfe10ad51a583a2e423501f3a28b4c8aa3d3b1e63701"
+            }
+          ]
+        },
+        "reported_outcome": {
+          "available": 2,
+          "matches": 0,
+          "details": [
+            {
+              "field": "return_accident",
+              "expected": true,
+              "answered": false,
+              "abstained": true,
+              "match": false,
+              "record_id": "record-cd08acae2de221495b95c764ea25b8e86545a94cca2c9c7a243b635fef737abc"
+            },
+            {
+              "field": "people_safe",
+              "expected": true,
+              "answered": false,
+              "abstained": true,
+              "match": false,
+              "record_id": "record-cd08acae2de221495b95c764ea25b8e86545a94cca2c9c7a243b635fef737abc"
+            }
+          ]
+        },
+        "real_world_predictive_accuracy": null,
+        "professional_correctness": null,
+        "limitations": [
+          "development_cases_not_blind",
+          "selected_published_cases",
+          "pretraining_contamination_unknown",
+          "reported_feedback_not_prospective_validation",
+          "citation_substring_match_does_not_verify_inference"
+        ]
+      }
+    },
+    {
+      "task_id": "concealed_question_first_turn",
+      "family_id": "family-7ab9e4f720d65ef4442759351e38ebb42eb4ca61936ee85f8d04a4998ec5e965",
+      "arm": "base",
+      "result": {
+        "status": "research_evidence_error",
+        "scope": "development_research_only",
+        "professional_analysis_completed": false,
+        "diagnostics": {
+          "arm": "base",
+          "casting_status": "not_requested",
+          "knowledge_count": 0,
+          "formal_rule_count": 0,
+          "full_condition_rule_arm": "blocked_no_compiled_professional_rules"
+        },
+        "payload_sha256": "d93c6805f88237796d3d03b33dc7a3278993fd51ce924683103b080b45a6536c",
+        "telemetry": {
+          "prompt_tokens": 1055,
+          "max_tokens": 768,
+          "max_context_tokens": 8192,
+          "temperature": 0.0,
+          "seed": 17,
+          "seconds": 13.856802041002084,
+          "first_token_seconds": 6.54419849999249,
+          "peak_memory_bytes": 3010890958,
+          "generation_tokens": 201,
+          "tokens_per_second": 27.57174572075994,
+          "finish_reason": "stop",
+          "raw_output": "{\n  \"answers\": {\n    \"query_type\": null\n  },\n  \"evidence\": [\n    {\n      \"source_id\": \"span-dc181f1890377c35e73f9478d33ebd059ab0cfe297057ffc44dd8c391c047569\",\n      \"quote\": \"来人尚未透露要问何事\"\n    },\n    {\n      \"source_id\": \"span-94df7e32f056eb6477f5d7d3986558a59d072bed2a813cd9b58e1d7a6c5cc7eb\",\n      \"quote\": \"刘成云即按来时起局\"\n    }\n  ],\n  \"fact_claims\": []\n}"
+        },
+        "output": {
+          "answers": {
+            "query_type": null
+          },
+          "evidence": [
+            {
+              "source_id": "span-dc181f1890377c35e73f9478d33ebd059ab0cfe297057ffc44dd8c391c047569",
+              "quote": "来人尚未透露要问何事"
+            },
+            {
+              "source_id": "span-94df7e32f056eb6477f5d7d3986558a59d072bed2a813cd9b58e1d7a6c5cc7eb",
+              "quote": "刘成云即按来时起局"
+            }
+          ],
+          "fact_claims": []
+        },
+        "evidence_errors": [
+          "citation_not_in_released_source"
+        ]
+      },
+      "score": {
+        "author": {
+          "available": 1,
+          "matches": 0,
+          "details": [
+            {
+              "field": "query_type",
+              "expected": "失财或错账",
+              "answered": false,
+              "abstained": true,
+              "match": false,
+              "record_id": "record-b59e0ca2bc7cd51925a7976a73b96127ba59422b3f8a5933f5eeec01a1b9796e"
+            }
+          ]
+        },
+        "reported_outcome": {
+          "available": 1,
+          "matches": 0,
+          "details": [
+            {
+              "field": "query_type",
+              "expected": "失财或错账",
+              "answered": false,
+              "abstained": true,
+              "match": false,
+              "record_id": "record-04139d8ac22be02e8a9783914d390445c7f224a750ff40dad72ca0ce79f46735"
+            }
+          ]
+        },
+        "real_world_predictive_accuracy": null,
+        "professional_correctness": null,
+        "limitations": [
+          "development_cases_not_blind",
+          "selected_published_cases",
+          "pretraining_contamination_unknown",
+          "reported_feedback_not_prospective_validation",
+          "citation_substring_match_does_not_verify_inference"
+        ]
+      }
+    },
+    {
+      "task_id": "concealed_question_first_turn",
+      "family_id": "family-7ab9e4f720d65ef4442759351e38ebb42eb4ca61936ee85f8d04a4998ec5e965",
+      "arm": "symbolic_chart",
+      "result": {
+        "status": "research_evidence_error",
+        "scope": "development_research_only",
+        "professional_analysis_completed": false,
+        "diagnostics": {
+          "arm": "symbolic_chart",
+          "casting_status": "symbolic_verified",
+          "knowledge_count": 0,
+          "formal_rule_count": 0,
+          "full_condition_rule_arm": "blocked_no_compiled_professional_rules"
+        },
+        "payload_sha256": "770fbcb7a2a48c2cb47c93bb0ec859ea5caf35215e3dbe90a29745a8ee496e74",
+        "telemetry": {
+          "prompt_tokens": 4256,
+          "max_tokens": 768,
+          "max_context_tokens": 8192,
+          "temperature": 0.0,
+          "seed": 17,
+          "seconds": 38.032721916009905,
+          "first_token_seconds": 27.296814291010378,
+          "peak_memory_bytes": 3474783284,
+          "generation_tokens": 277,
+          "tokens_per_second": 25.84528636036493,
+          "finish_reason": "stop",
+          "raw_output": "{\n  \"answers\": {\n    \"query_type\": \"其他\"\n  },\n  \"evidence\": [\n    {\n      \"source_id\": \"span-4d08993d3288ed79866ec88b9889f4af9c87b550821eed292645c08a6880fc8d\",\n      \"quote\": \"奇门格局：巽四宫八神：阴，离九宫八神：蛇，坤二宫八神：符\"\n    },\n    {\n      \"source_id\": \"span-f22d8faf6c256981dd7ce180322b35ef53f103ed129ebf2f53fcfaf9e7a38278\",\n      \"quote\": \"干支历为乙亥年乙酉月壬戌日庚戌时，阴4局，甲辰旬，天英星为值符，落2宫，景门为值使，落3宫。\"\n    }\n  ],\n  \"fact_claims\": [\n    {\n      \"key\": \"bureau\",\n      \"value\": \"阴遁\"\n    }\n  ]\n}"
+        },
+        "output": {
+          "answers": {
+            "query_type": "其他"
+          },
+          "evidence": [
+            {
+              "source_id": "span-4d08993d3288ed79866ec88b9889f4af9c87b550821eed292645c08a6880fc8d",
+              "quote": "奇门格局：巽四宫八神：阴，离九宫八神：蛇，坤二宫八神：符"
+            },
+            {
+              "source_id": "span-f22d8faf6c256981dd7ce180322b35ef53f103ed129ebf2f53fcfaf9e7a38278",
+              "quote": "干支历为乙亥年乙酉月壬戌日庚戌时，阴4局，甲辰旬，天英星为值符，落2宫，景门为值使，落3宫。"
+            }
+          ],
+          "fact_claims": [
+            {
+              "key": "bureau",
+              "value": "阴遁"
+            }
+          ]
+        },
+        "evidence_errors": [
+          "citation_not_in_released_source",
+          "chart_fact_mismatch"
+        ]
+      },
+      "score": {
+        "author": {
+          "available": 1,
+          "matches": 0,
+          "details": [
+            {
+              "field": "query_type",
+              "expected": "失财或错账",
+              "answered": true,
+              "abstained": false,
+              "match": false,
+              "record_id": "record-b59e0ca2bc7cd51925a7976a73b96127ba59422b3f8a5933f5eeec01a1b9796e"
+            }
+          ]
+        },
+        "reported_outcome": {
+          "available": 1,
+          "matches": 0,
+          "details": [
+            {
+              "field": "query_type",
+              "expected": "失财或错账",
+              "answered": true,
+              "abstained": false,
+              "match": false,
+              "record_id": "record-04139d8ac22be02e8a9783914d390445c7f224a750ff40dad72ca0ce79f46735"
+            }
+          ]
+        },
+        "real_world_predictive_accuracy": null,
+        "professional_correctness": null,
+        "limitations": [
+          "development_cases_not_blind",
+          "selected_published_cases",
+          "pretraining_contamination_unknown",
+          "reported_feedback_not_prospective_validation",
+          "citation_substring_match_does_not_verify_inference"
+        ]
+      }
+    },
+    {
+      "task_id": "concealed_question_first_turn",
+      "family_id": "family-7ab9e4f720d65ef4442759351e38ebb42eb4ca61936ee85f8d04a4998ec5e965",
+      "arm": "chart_knowledge",
+      "result": {
+        "status": "research_evidence_error",
+        "scope": "development_research_only",
+        "professional_analysis_completed": false,
+        "diagnostics": {
+          "arm": "chart_knowledge",
+          "casting_status": "symbolic_verified",
+          "knowledge_count": 0,
+          "formal_rule_count": 0,
+          "full_condition_rule_arm": "blocked_no_compiled_professional_rules"
+        },
+        "payload_sha256": "770fbcb7a2a48c2cb47c93bb0ec859ea5caf35215e3dbe90a29745a8ee496e74",
+        "telemetry": {
+          "prompt_tokens": 4256,
+          "max_tokens": 768,
+          "max_context_tokens": 8192,
+          "temperature": 0.0,
+          "seed": 17,
+          "seconds": 30.846387958998093,
+          "first_token_seconds": 20.427477958990494,
+          "peak_memory_bytes": 3474783284,
+          "generation_tokens": 277,
+          "tokens_per_second": 26.634269438803216,
+          "finish_reason": "stop",
+          "raw_output": "{\n  \"answers\": {\n    \"query_type\": \"其他\"\n  },\n  \"evidence\": [\n    {\n      \"source_id\": \"span-4d08993d3288ed79866ec88b9889f4af9c87b550821eed292645c08a6880fc8d\",\n      \"quote\": \"奇门格局：巽四宫八神：阴，离九宫八神：蛇，坤二宫八神：符\"\n    },\n    {\n      \"source_id\": \"span-f22d8faf6c256981dd7ce180322b35ef53f103ed129ebf2f53fcfaf9e7a38278\",\n      \"quote\": \"干支历为乙亥年乙酉月壬戌日庚戌时，阴4局，甲辰旬，天英星为值符，落2宫，景门为值使，落3宫。\"\n    }\n  ],\n  \"fact_claims\": [\n    {\n      \"key\": \"bureau\",\n      \"value\": \"阴遁\"\n    }\n  ]\n}"
+        },
+        "output": {
+          "answers": {
+            "query_type": "其他"
+          },
+          "evidence": [
+            {
+              "source_id": "span-4d08993d3288ed79866ec88b9889f4af9c87b550821eed292645c08a6880fc8d",
+              "quote": "奇门格局：巽四宫八神：阴，离九宫八神：蛇，坤二宫八神：符"
+            },
+            {
+              "source_id": "span-f22d8faf6c256981dd7ce180322b35ef53f103ed129ebf2f53fcfaf9e7a38278",
+              "quote": "干支历为乙亥年乙酉月壬戌日庚戌时，阴4局，甲辰旬，天英星为值符，落2宫，景门为值使，落3宫。"
+            }
+          ],
+          "fact_claims": [
+            {
+              "key": "bureau",
+              "value": "阴遁"
+            }
+          ]
+        },
+        "evidence_errors": [
+          "citation_not_in_released_source",
+          "chart_fact_mismatch"
+        ]
+      },
+      "score": {
+        "author": {
+          "available": 1,
+          "matches": 0,
+          "details": [
+            {
+              "field": "query_type",
+              "expected": "失财或错账",
+              "answered": true,
+              "abstained": false,
+              "match": false,
+              "record_id": "record-b59e0ca2bc7cd51925a7976a73b96127ba59422b3f8a5933f5eeec01a1b9796e"
+            }
+          ]
+        },
+        "reported_outcome": {
+          "available": 1,
+          "matches": 0,
+          "details": [
+            {
+              "field": "query_type",
+              "expected": "失财或错账",
+              "answered": true,
+              "abstained": false,
+              "match": false,
+              "record_id": "record-04139d8ac22be02e8a9783914d390445c7f224a750ff40dad72ca0ce79f46735"
+            }
+          ]
+        },
+        "real_world_predictive_accuracy": null,
+        "professional_correctness": null,
+        "limitations": [
+          "development_cases_not_blind",
+          "selected_published_cases",
+          "pretraining_contamination_unknown",
+          "reported_feedback_not_prospective_validation",
+          "citation_substring_match_does_not_verify_inference"
+        ]
+      }
+    },
+    {
+      "task_id": "concealed_question_first_turn",
+      "family_id": "family-7ab9e4f720d65ef4442759351e38ebb42eb4ca61936ee85f8d04a4998ec5e965",
+      "arm": "candidate_conditions",
+      "result": {
+        "status": "research_evidence_error",
+        "scope": "development_research_only",
+        "professional_analysis_completed": false,
+        "diagnostics": {
+          "arm": "candidate_conditions",
+          "casting_status": "symbolic_verified",
+          "knowledge_count": 0,
+          "formal_rule_count": 0,
+          "full_condition_rule_arm": "blocked_no_compiled_professional_rules",
+          "candidate_count": 0
+        },
+        "payload_sha256": "770fbcb7a2a48c2cb47c93bb0ec859ea5caf35215e3dbe90a29745a8ee496e74",
+        "telemetry": {
+          "prompt_tokens": 4256,
+          "max_tokens": 768,
+          "max_context_tokens": 8192,
+          "temperature": 0.0,
+          "seed": 17,
+          "seconds": 31.681510666996473,
+          "first_token_seconds": 21.21580845900462,
+          "peak_memory_bytes": 3474783284,
+          "generation_tokens": 277,
+          "tokens_per_second": 26.51689492482227,
+          "finish_reason": "stop",
+          "raw_output": "{\n  \"answers\": {\n    \"query_type\": \"其他\"\n  },\n  \"evidence\": [\n    {\n      \"source_id\": \"span-4d08993d3288ed79866ec88b9889f4af9c87b550821eed292645c08a6880fc8d\",\n      \"quote\": \"奇门格局：巽四宫八神：阴，离九宫八神：蛇，坤二宫八神：符\"\n    },\n    {\n      \"source_id\": \"span-f22d8faf6c256981dd7ce180322b35ef53f103ed129ebf2f53fcfaf9e7a38278\",\n      \"quote\": \"干支历为乙亥年乙酉月壬戌日庚戌时，阴4局，甲辰旬，天英星为值符，落2宫，景门为值使，落3宫。\"\n    }\n  ],\n  \"fact_claims\": [\n    {\n      \"key\": \"bureau\",\n      \"value\": \"阴遁\"\n    }\n  ]\n}"
+        },
+        "output": {
+          "answers": {
+            "query_type": "其他"
+          },
+          "evidence": [
+            {
+              "source_id": "span-4d08993d3288ed79866ec88b9889f4af9c87b550821eed292645c08a6880fc8d",
+              "quote": "奇门格局：巽四宫八神：阴，离九宫八神：蛇，坤二宫八神：符"
+            },
+            {
+              "source_id": "span-f22d8faf6c256981dd7ce180322b35ef53f103ed129ebf2f53fcfaf9e7a38278",
+              "quote": "干支历为乙亥年乙酉月壬戌日庚戌时，阴4局，甲辰旬，天英星为值符，落2宫，景门为值使，落3宫。"
+            }
+          ],
+          "fact_claims": [
+            {
+              "key": "bureau",
+              "value": "阴遁"
+            }
+          ]
+        },
+        "evidence_errors": [
+          "citation_not_in_released_source",
+          "chart_fact_mismatch"
+        ]
+      },
+      "score": {
+        "author": {
+          "available": 1,
+          "matches": 0,
+          "details": [
+            {
+              "field": "query_type",
+              "expected": "失财或错账",
+              "answered": true,
+              "abstained": false,
+              "match": false,
+              "record_id": "record-b59e0ca2bc7cd51925a7976a73b96127ba59422b3f8a5933f5eeec01a1b9796e"
+            }
+          ]
+        },
+        "reported_outcome": {
+          "available": 1,
+          "matches": 0,
+          "details": [
+            {
+              "field": "query_type",
+              "expected": "失财或错账",
+              "answered": true,
+              "abstained": false,
+              "match": false,
+              "record_id": "record-04139d8ac22be02e8a9783914d390445c7f224a750ff40dad72ca0ce79f46735"
+            }
+          ]
+        },
+        "real_world_predictive_accuracy": null,
+        "professional_correctness": null,
+        "limitations": [
+          "development_cases_not_blind",
+          "selected_published_cases",
+          "pretraining_contamination_unknown",
+          "reported_feedback_not_prospective_validation",
+          "citation_substring_match_does_not_verify_inference"
+        ]
+      }
+    },
+    {
+      "task_id": "marriage_later_turn_timing",
+      "family_id": "family-43857b7ab4b6d02ba6faadb60fe05d4521414a167f15cd3823a2fc854f44654b",
+      "arm": "base",
+      "result": {
+        "status": "generation_error",
+        "scope": "development_research_only",
+        "professional_analysis_completed": false,
+        "diagnostics": {
+          "arm": "base",
+          "casting_status": "not_requested",
+          "knowledge_count": 0,
+          "formal_rule_count": 0,
+          "full_condition_rule_arm": "blocked_no_compiled_professional_rules"
+        },
+        "payload_sha256": "75410d868b79e367e336e2d9d3be85189ba3b8a981fa8e7252f8a55da1a73d9c",
+        "telemetry": {
+          "prompt_tokens": 1577,
+          "max_tokens": 768,
+          "max_context_tokens": 8192,
+          "temperature": 0.0,
+          "seed": 17,
+          "seconds": 19.02335174998734,
+          "first_token_seconds": 7.940646917006234,
+          "peak_memory_bytes": 3089863908,
+          "generation_tokens": 318,
+          "tokens_per_second": 28.74731983298336,
+          "finish_reason": "stop",
+          "raw_output": "{\n  \"answers\": {\n    \"male_role\": null,\n    \"marriage_year\": [1998],\n    \"wife_role\": null\n  },\n  \"evidence\": [\n    {\n      \"source_id\": \"span-a4fd74f0503aa0076408ac38e18c607aef404aea808d95aade2b9b44b4a53805\",\n      \"quote\": \"1996年12月29日晚上9点45分，一青年女子（1972年壬子年生）找杜新会预测，开始也不说测什么事。\"\n    },\n    {\n      \"source_id\": \"span-532636a11b298c4e84e49618347ebae2a012edde084c3758ad67caa6b059edae\",\n      \"quote\": \"青年女子：“你看他们啥时候能离了婚？”\"\n    }\n  ],\n  \"fact_claims\": [\n    {\n      \"key\": \"bureau\",\n      \"value\": 7\n    },\n    {\n      \"key\": \"dun\",\n      \"value\": \"阳遁\"\n    },\n    {\n      \"key\": \"hour_ganzhi\",\n      \"value\": \"丁亥\"\n    }\n  ]\n}"
+        }
+      },
+      "score": {
+        "author": {
+          "available": 3,
+          "matches": 0,
+          "details": [
+            {
+              "field": "marriage_year",
+              "expected": 1997,
+              "answered": false,
+              "abstained": false,
+              "match": false,
+              "record_id": "record-c0e34b0a5f43078df9fb93004e6e338409b73132a2cc06dee8303ce705b07af2"
+            },
+            {
+              "field": "male_role",
+              "expected": "庚",
+              "answered": false,
+              "abstained": false,
+              "match": false,
+              "record_id": "record-f427655a052bf560f977be4868cfee18604810ee605a991b86448daf3dd533ed"
+            },
+            {
+              "field": "wife_role",
+              "expected": "乙",
+              "answered": false,
+              "abstained": false,
+              "match": false,
+              "record_id": "record-f427655a052bf560f977be4868cfee18604810ee605a991b86448daf3dd533ed"
+            }
+          ]
+        },
+        "reported_outcome": {
+          "available": 1,
+          "matches": 0,
+          "details": [
+            {
+              "field": "marriage_year",
+              "expected": 1998,
+              "answered": false,
+              "abstained": false,
+              "match": false,
+              "record_id": "record-e7f11488160016091d2fcbc7dc1e1a5bc69b0140332942650bb1f1909c87ddf4"
+            }
+          ]
+        },
+        "real_world_predictive_accuracy": null,
+        "professional_correctness": null,
+        "limitations": [
+          "development_cases_not_blind",
+          "selected_published_cases",
+          "pretraining_contamination_unknown",
+          "reported_feedback_not_prospective_validation",
+          "citation_substring_match_does_not_verify_inference"
+        ]
+      }
+    },
+    {
+      "task_id": "marriage_later_turn_timing",
+      "family_id": "family-43857b7ab4b6d02ba6faadb60fe05d4521414a167f15cd3823a2fc854f44654b",
+      "arm": "symbolic_chart",
+      "result": {
+        "status": "research_evidence_error",
+        "scope": "development_research_only",
+        "professional_analysis_completed": false,
+        "diagnostics": {
+          "arm": "symbolic_chart",
+          "casting_status": "symbolic_verified",
+          "knowledge_count": 0,
+          "formal_rule_count": 0,
+          "full_condition_rule_arm": "blocked_no_compiled_professional_rules"
+        },
+        "payload_sha256": "615572fd9a5dd52fea9e70c763791c85e7a6e1f992fd3f3a0edb4071bc5c02bb",
+        "telemetry": {
+          "prompt_tokens": 4718,
+          "max_tokens": 768,
+          "max_context_tokens": 8192,
+          "temperature": 0.0,
+          "seed": 17,
+          "seconds": 35.882536499993876,
+          "first_token_seconds": 24.285101459012367,
+          "peak_memory_bytes": 3474783284,
+          "generation_tokens": 292,
+          "tokens_per_second": 25.217296687761028,
+          "finish_reason": "stop",
+          "raw_output": "{\n  \"answers\": {\n    \"male_role\": \"庚\",\n    \"marriage_year\": 2000,\n    \"wife_role\": \"壬\"\n  },\n  \"evidence\": [\n    {\n      \"source_id\": \"span-505d3029a201e1c8be444408546169c5b4627bb937510ff8afb99a14a836bb2b\",\n      \"quote\": \"青年女子点点头，然后说：‘你看我跟他能结婚吗？’\"\n    },\n    {\n      \"source_id\": \"span-19a4e0e36162b8489cfea0c44dee0acc620ffb3d5a1f76d572e7307ac8340958\",\n      \"quote\": \"青年女子：‘对对！你算得太对了！他老婆是一家商场的会计，说啥也不同意跟他离婚。你看这可咋办呀？’\"\n    }\n  ],\n  \"fact_claims\": [\n    {\n      \"key\": \"bureau\",\n      \"value\": {\n        \"dun\": \"阳遁\",\n        \"number\": 7\n      }\n    }\n  ]\n}"
+        },
+        "output": {
+          "answers": {
+            "male_role": "庚",
+            "marriage_year": 2000,
+            "wife_role": "壬"
+          },
+          "evidence": [
+            {
+              "source_id": "span-505d3029a201e1c8be444408546169c5b4627bb937510ff8afb99a14a836bb2b",
+              "quote": "青年女子点点头，然后说：‘你看我跟他能结婚吗？’"
+            },
+            {
+              "source_id": "span-19a4e0e36162b8489cfea0c44dee0acc620ffb3d5a1f76d572e7307ac8340958",
+              "quote": "青年女子：‘对对！你算得太对了！他老婆是一家商场的会计，说啥也不同意跟他离婚。你看这可咋办呀？’"
+            }
+          ],
+          "fact_claims": [
+            {
+              "key": "bureau",
+              "value": {
+                "dun": "阳遁",
+                "number": 7
+              }
+            }
+          ]
+        },
+        "evidence_errors": [
+          "citation_not_in_released_source",
+          "citation_not_in_released_source"
+        ]
+      },
+      "score": {
+        "author": {
+          "available": 3,
+          "matches": 1,
+          "details": [
+            {
+              "field": "marriage_year",
+              "expected": 1997,
+              "answered": true,
+              "abstained": false,
+              "match": false,
+              "record_id": "record-c0e34b0a5f43078df9fb93004e6e338409b73132a2cc06dee8303ce705b07af2"
+            },
+            {
+              "field": "male_role",
+              "expected": "庚",
+              "answered": true,
+              "abstained": false,
+              "match": true,
+              "record_id": "record-f427655a052bf560f977be4868cfee18604810ee605a991b86448daf3dd533ed"
+            },
+            {
+              "field": "wife_role",
+              "expected": "乙",
+              "answered": true,
+              "abstained": false,
+              "match": false,
+              "record_id": "record-f427655a052bf560f977be4868cfee18604810ee605a991b86448daf3dd533ed"
+            }
+          ]
+        },
+        "reported_outcome": {
+          "available": 1,
+          "matches": 0,
+          "details": [
+            {
+              "field": "marriage_year",
+              "expected": 1998,
+              "answered": true,
+              "abstained": false,
+              "match": false,
+              "record_id": "record-e7f11488160016091d2fcbc7dc1e1a5bc69b0140332942650bb1f1909c87ddf4"
+            }
+          ]
+        },
+        "real_world_predictive_accuracy": null,
+        "professional_correctness": null,
+        "limitations": [
+          "development_cases_not_blind",
+          "selected_published_cases",
+          "pretraining_contamination_unknown",
+          "reported_feedback_not_prospective_validation",
+          "citation_substring_match_does_not_verify_inference"
+        ]
+      }
+    },
+    {
+      "task_id": "marriage_later_turn_timing",
+      "family_id": "family-43857b7ab4b6d02ba6faadb60fe05d4521414a167f15cd3823a2fc854f44654b",
+      "arm": "chart_knowledge",
+      "result": {
+        "status": "research_evidence_error",
+        "scope": "development_research_only",
+        "professional_analysis_completed": false,
+        "diagnostics": {
+          "arm": "chart_knowledge",
+          "casting_status": "symbolic_verified",
+          "knowledge_count": 3,
+          "formal_rule_count": 0,
+          "full_condition_rule_arm": "blocked_no_compiled_professional_rules"
+        },
+        "payload_sha256": "254a20f6aba095b866d94a1e79761b3ca04724f783d38b292b6e089637f5ba48",
+        "telemetry": {
+          "prompt_tokens": 5413,
+          "max_tokens": 768,
+          "max_context_tokens": 8192,
+          "temperature": 0.0,
+          "seed": 17,
+          "seconds": 40.15066304098582,
+          "first_token_seconds": 28.348287040978903,
+          "peak_memory_bytes": 3645078592,
+          "generation_tokens": 292,
+          "tokens_per_second": 24.783357191248747,
+          "finish_reason": "stop",
+          "raw_output": "{\n  \"answers\": {\n    \"male_role\": \"庚\",\n    \"marriage_year\": 2000,\n    \"wife_role\": \"乙\"\n  },\n  \"evidence\": [\n    {\n      \"source_id\": \"span-505d3029a201e1c8be444408546169c5b4627bb937510ff8afb99a14a836bb2b\",\n      \"quote\": \"青年女子点点头，然后说：‘你看我跟他能结婚吗？’\"\n    },\n    {\n      \"source_id\": \"span-19a4e0e36162b8489cfea0c44dee0acc620ffb3d5a1f76d572e7307ac8340958\",\n      \"quote\": \"青年女子：‘对对！你算得太对了！他老婆是一家商场的会计，说啥也不同意跟他离婚。你看这可咋办呀？’\"\n    }\n  ],\n  \"fact_claims\": [\n    {\n      \"key\": \"bureau\",\n      \"value\": {\n        \"dun\": \"阳遁\",\n        \"number\": 7\n      }\n    }\n  ]\n}"
+        },
+        "output": {
+          "answers": {
+            "male_role": "庚",
+            "marriage_year": 2000,
+            "wife_role": "乙"
+          },
+          "evidence": [
+            {
+              "source_id": "span-505d3029a201e1c8be444408546169c5b4627bb937510ff8afb99a14a836bb2b",
+              "quote": "青年女子点点头，然后说：‘你看我跟他能结婚吗？’"
+            },
+            {
+              "source_id": "span-19a4e0e36162b8489cfea0c44dee0acc620ffb3d5a1f76d572e7307ac8340958",
+              "quote": "青年女子：‘对对！你算得太对了！他老婆是一家商场的会计，说啥也不同意跟他离婚。你看这可咋办呀？’"
+            }
+          ],
+          "fact_claims": [
+            {
+              "key": "bureau",
+              "value": {
+                "dun": "阳遁",
+                "number": 7
+              }
+            }
+          ]
+        },
+        "evidence_errors": [
+          "citation_not_in_released_source",
+          "citation_not_in_released_source"
+        ]
+      },
+      "score": {
+        "author": {
+          "available": 3,
+          "matches": 2,
+          "details": [
+            {
+              "field": "marriage_year",
+              "expected": 1997,
+              "answered": true,
+              "abstained": false,
+              "match": false,
+              "record_id": "record-c0e34b0a5f43078df9fb93004e6e338409b73132a2cc06dee8303ce705b07af2"
+            },
+            {
+              "field": "male_role",
+              "expected": "庚",
+              "answered": true,
+              "abstained": false,
+              "match": true,
+              "record_id": "record-f427655a052bf560f977be4868cfee18604810ee605a991b86448daf3dd533ed"
+            },
+            {
+              "field": "wife_role",
+              "expected": "乙",
+              "answered": true,
+              "abstained": false,
+              "match": true,
+              "record_id": "record-f427655a052bf560f977be4868cfee18604810ee605a991b86448daf3dd533ed"
+            }
+          ]
+        },
+        "reported_outcome": {
+          "available": 1,
+          "matches": 0,
+          "details": [
+            {
+              "field": "marriage_year",
+              "expected": 1998,
+              "answered": true,
+              "abstained": false,
+              "match": false,
+              "record_id": "record-e7f11488160016091d2fcbc7dc1e1a5bc69b0140332942650bb1f1909c87ddf4"
+            }
+          ]
+        },
+        "real_world_predictive_accuracy": null,
+        "professional_correctness": null,
+        "limitations": [
+          "development_cases_not_blind",
+          "selected_published_cases",
+          "pretraining_contamination_unknown",
+          "reported_feedback_not_prospective_validation",
+          "citation_substring_match_does_not_verify_inference"
+        ]
+      }
+    },
+    {
+      "task_id": "marriage_later_turn_timing",
+      "family_id": "family-43857b7ab4b6d02ba6faadb60fe05d4521414a167f15cd3823a2fc854f44654b",
+      "arm": "candidate_conditions",
+      "result": {
+        "status": "research_evidence_error",
+        "scope": "development_research_only",
+        "professional_analysis_completed": false,
+        "diagnostics": {
+          "arm": "candidate_conditions",
+          "casting_status": "symbolic_verified",
+          "knowledge_count": 3,
+          "formal_rule_count": 0,
+          "full_condition_rule_arm": "blocked_no_compiled_professional_rules",
+          "candidate_count": 3
+        },
+        "payload_sha256": "62626417cb41d1c8cfc4fcace0e194d6e305ae41027f7d6251db1c20d203f52f",
+        "telemetry": {
+          "prompt_tokens": 5809,
+          "max_tokens": 768,
+          "max_context_tokens": 8192,
+          "temperature": 0.0,
+          "seed": 17,
+          "seconds": 41.60196866700426,
+          "first_token_seconds": 31.37606545901508,
+          "peak_memory_bytes": 3660774452,
+          "generation_tokens": 248,
+          "tokens_per_second": 24.293420142266324,
+          "finish_reason": "stop",
+          "raw_output": "{\n  \"answers\": {\n    \"male_role\": \"庚\",\n    \"marriage_year\": 1998,\n    \"wife_role\": \"乙\"\n  },\n  \"evidence\": [\n    {\n      \"source_id\": \"span-505d3029a201e1c8be444408546169c5b4627bb937510ff8afb99a14a836bb2b\",\n      \"quote\": \"青年女子：“你看我跟他能结婚吗？”\"\n    },\n    {\n      \"source_id\": \"span-19a4e0e36162b8489cfea0c44dee0acc620ffb3d5a1f76d572e7307ac8340958\",\n      \"quote\": \"青年女子：“你看他们啥时候能离了婚？”\"\n    }\n  ],\n  \"fact_claims\": [\n    {\n      \"key\": \"bureau\",\n      \"value\": \"阳遁\"\n    }\n  ]\n}"
+        },
+        "output": {
+          "answers": {
+            "male_role": "庚",
+            "marriage_year": 1998,
+            "wife_role": "乙"
+          },
+          "evidence": [
+            {
+              "source_id": "span-505d3029a201e1c8be444408546169c5b4627bb937510ff8afb99a14a836bb2b",
+              "quote": "青年女子：“你看我跟他能结婚吗？”"
+            },
+            {
+              "source_id": "span-19a4e0e36162b8489cfea0c44dee0acc620ffb3d5a1f76d572e7307ac8340958",
+              "quote": "青年女子：“你看他们啥时候能离了婚？”"
+            }
+          ],
+          "fact_claims": [
+            {
+              "key": "bureau",
+              "value": "阳遁"
+            }
+          ]
+        },
+        "evidence_errors": [
+          "citation_not_in_released_source",
+          "citation_not_in_released_source",
+          "chart_fact_mismatch"
+        ]
+      },
+      "score": {
+        "author": {
+          "available": 3,
+          "matches": 2,
+          "details": [
+            {
+              "field": "marriage_year",
+              "expected": 1997,
+              "answered": true,
+              "abstained": false,
+              "match": false,
+              "record_id": "record-c0e34b0a5f43078df9fb93004e6e338409b73132a2cc06dee8303ce705b07af2"
+            },
+            {
+              "field": "male_role",
+              "expected": "庚",
+              "answered": true,
+              "abstained": false,
+              "match": true,
+              "record_id": "record-f427655a052bf560f977be4868cfee18604810ee605a991b86448daf3dd533ed"
+            },
+            {
+              "field": "wife_role",
+              "expected": "乙",
+              "answered": true,
+              "abstained": false,
+              "match": true,
+              "record_id": "record-f427655a052bf560f977be4868cfee18604810ee605a991b86448daf3dd533ed"
+            }
+          ]
+        },
+        "reported_outcome": {
+          "available": 1,
+          "matches": 1,
+          "details": [
+            {
+              "field": "marriage_year",
+              "expected": 1998,
+              "answered": true,
+              "abstained": false,
+              "match": true,
+              "record_id": "record-e7f11488160016091d2fcbc7dc1e1a5bc69b0140332942650bb1f1909c87ddf4"
+            }
+          ]
+        },
+        "real_world_predictive_accuracy": null,
+        "professional_correctness": null,
+        "limitations": [
+          "development_cases_not_blind",
+          "selected_published_cases",
+          "pretraining_contamination_unknown",
+          "reported_feedback_not_prospective_validation",
+          "citation_substring_match_does_not_verify_inference"
+        ]
+      }
+    }
+  ],
+  "training_performed": false,
+  "network_inference": false,
+  "reserved_families_evaluated": 0,
+  "code_sha256": {
+    "scripts/run_mac_baseline.py": "e28beaa8c628d064fa7d80f6ee62416ad28ca6ab59c5e6cb2f6b682478360d3d",
+    "src/qimenllm/models/mlx_gateway.py": "90d0f1a3364f2daec160faa821814cf7f29c4a22dd05874581ac11ecb2f1accb",
+    "src/qimenllm/evaluation/research.py": "d8186f79c181c0e4f86fa3e8f85c651013915aafc6bdf80cca1131ebdcd56b2d",
+    "src/qimenllm/reasoning/service.py": "240edd2acd2b87b7bb3a7f00847a38d85c2090c86c70e20ba52d1bb0808bd021"
+  },
+  "summary": {
+    "requests": 12,
+    "statuses": {
+      "research_generated": 1,
+      "research_evidence_error": 10,
+      "generation_error": 1
+    },
+    "by_arm": {
+      "base": {
+        "requests": 3,
+        "statuses": {
+          "research_generated": 1,
+          "research_evidence_error": 1,
+          "generation_error": 1
+        },
+        "author_fields_available": 7,
+        "author_fields_matched": 0,
+        "reported_outcome_fields_available": 4,
+        "reported_outcome_fields_matched": 0
+      },
+      "symbolic_chart": {
+        "requests": 3,
+        "statuses": {
+          "research_evidence_error": 3
+        },
+        "author_fields_available": 7,
+        "author_fields_matched": 1,
+        "reported_outcome_fields_available": 4,
+        "reported_outcome_fields_matched": 0
+      },
+      "chart_knowledge": {
+        "requests": 3,
+        "statuses": {
+          "research_evidence_error": 3
+        },
+        "author_fields_available": 7,
+        "author_fields_matched": 2,
+        "reported_outcome_fields_available": 4,
+        "reported_outcome_fields_matched": 0
+      },
+      "candidate_conditions": {
+        "requests": 3,
+        "statuses": {
+          "research_evidence_error": 3
+        },
+        "author_fields_available": 7,
+        "author_fields_matched": 2,
+        "reported_outcome_fields_available": 4,
+        "reported_outcome_fields_matched": 1
+      }
+    },
+    "professional_correctness": null,
+    "real_world_predictive_accuracy": null,
+    "full_condition_rule_baseline": "blocked",
+    "finetuned_baseline": "not_run"
+  },
+  "finished_unix": 1792288365.86642
+}

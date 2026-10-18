@@ -1,0 +1,1405 @@
+{
+  "version": 1,
+  "scope": "derived_initial_turn_author_reconstruction_only_not_full_professional_release",
+  "source_data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "candidate_catalog_sha256": "b86d4b9f2ae4664e12bafa9f2320d83258b40d964bf7cfc24588c0e7cc4aab39",
+  "reviewed_by": "Codex source chronology engineering audit; not a second user source confirmation",
+  "db_chronology_not_modified": true,
+  "full_case_storage_unchanged": true,
+  "source_acceptance_basis": "user_attestation",
+  "independently_verified_real_world_accuracy": null,
+  "rows": [
+    {
+      "candidate_index": 0,
+      "event_id": "event-024a09f3c56106aae46dfeab464e454d9a388f2f8f9d5b1ef670054e68747b6b",
+      "family_id": "family-3216b07e6f1b36cd59414b2c1df0b0e23aa2ac83ff7b474c07d38bf9b98b3cca",
+      "case_id": "case-47877ff3c6908a4f1f5feb5ee7bf3250b42fb9b546363e3a97446a28142587a2",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-dc778dcf72b16e65fc7837bbc28d65e561dbcdab45e0f4f858a056ac4fea36ca",
+        "record-3a9bfb7972a47232bc1e1b655dbffe4f34283c2a062cdd0659cec57aa60acf8f"
+      ],
+      "target_record_ids": [
+        "record-986d96ad905a7db0e94fc06d17cdf50e2df0d1702bab0d3682ac93aed2bb2858",
+        "record-eefed877e4d0c7d1791e1070572e81de0cd584c0e374bea4e8f3b50d806e7a4f",
+        "record-99973ce8dd80d6777c58aaf4635806e7e8b8cb2e86fc353d316137221d8aea41",
+        "record-417f28fc23f69c26a3b778a8a9fca6829601f1b014027883a7a61740faf87295",
+        "record-6b1c4b54b8d7f340f6bc62c36adeb3f16a02cae588f5d291d51b5225c18a42f9"
+      ],
+      "cutoff_sequence": 3,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 1,
+      "event_id": "event-043a3af0d9986f050002f4da4691ebf0ebf07ee902a897067483015d92950e6d",
+      "family_id": "family-982e364986a38a26b160877e69c8605a22528100b2b7652fdcf2d0ee6381e8d2",
+      "case_id": "case-86b5ff91affd7bc9c6878668a1db82d2e9a42e3b980ca3f9bc290cb7d81e5742",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 2,
+      "event_id": "event-048804d6cf4ee3aae11ecb7f9a7117bc596d61f36951698dce1c18d91516f60f",
+      "family_id": "family-c6faf70e227f9740cb1295e24c62a0a1ed7bf5494e3602debada0907ee74aaa1",
+      "case_id": "case-9b0a82c9dd9be93670a78d2035fc0ed84bf4a8a87a5ff970281c1be8bb007855",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 3,
+      "event_id": "event-072ee812b228fa34b3333e350fa176dfb4865202eb29cf00900606ff75b5f97c",
+      "family_id": "family-8e1af827ce5370de4874d9ac50ea0be099e52c06e434abf3175a1a1ee914249c",
+      "case_id": "case-aef7e114a1920df5a02b7804bb64610c6ef4af39c502716dd5c784fdcf28efe5",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 4,
+      "event_id": "event-091d2d1d6013f9df853b2b69cec3940926d6703926a134598f1d65b1d89ec9bf",
+      "family_id": "family-6e55953bb745ffd88693ed5082fbc1a688702f9dfe49cb0be8d8c1341ea20143",
+      "case_id": "case-22de15c30828654ac90c14ab378de76d25a3dd26d754e62e97be498d4e4b7b08",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-54534930ef468a4256dee8861e89a54de01e1fa78996fcc29febfa2d3dd94c61",
+        "record-9ba6669cd408efb1c14a94089c3be4f136cb4301a0f9dcfe821ad530d3436bb7"
+      ],
+      "target_record_ids": [
+        "record-a12fa54941e95da52d8006dba8f2fa0b47ef7fa3d112702f40ac4f8f4d267a73",
+        "record-0483567d3d570ea7e048c4e71e03af0daa1a60dec596cd5a1fdb3ad53a68f680",
+        "record-fe1afa0cbeafa575036052be7bdc71c0decaaf544af2c226cb640ef4e7cc1455"
+      ],
+      "cutoff_sequence": 3,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 5,
+      "event_id": "event-0dc48e4b9272ee08bfca721f4969a7098f2d83be3127116c3d3750d8b56fde94",
+      "family_id": "family-fbff487f123f88c48e773d54bdb90d21b8822f71b9099b6b9a5c981fa7d3e96f",
+      "case_id": "case-021baaf3fb1e70e9276e280005e9a0aaf1fc507f91afa6ea7d16c5fa748439b8",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 6,
+      "event_id": "event-1131106c7df65449d9066454b2fb4f09c78da9a2e21dcb6f43f6deda62333cff",
+      "family_id": "family-3e25f98854ab93609f12a4f4fc4595d163af88e7fc481747d0be26d5774f86f3",
+      "case_id": "case-7fc07aa27ff6d7ee95d117f282c310657f48316faf352eacf9c7e9f12fe7a389",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-9ee966730c77103fe789c5253bcd98d5e6a7cd2aec504d47e3b90636e7fcc8de",
+        "record-106f39d30193d88f4ee695e1b416a2242d705be74e410317df0c5dc6b34e35e1"
+      ],
+      "target_record_ids": [
+        "record-4d67adbc66fced49be58f486962ce8ad9ad385fa5afc72e2af160cf580cd129e",
+        "record-bc2299e71345a45fd36252990dbe5728f1a835d7ecc0b8abfca66655a7ca347f",
+        "record-9d0ab18c1c08425b4e02663e0dc4af67e8505bf7c064d17e1635607ee6093aa5"
+      ],
+      "cutoff_sequence": 3,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 7,
+      "event_id": "event-1984230a20ac2fce9178ca6ebd1916f5f026851c09f6767882d60d47e6249717",
+      "family_id": "family-d08a6722381e14f7a292be697c0ad8206e982c37f59b42c7d1a8e9d55d78bd6c",
+      "case_id": "case-b5306852ebcbec234070a774b8cc452b17838de35e76c77ba3ce3969eae8c3e3",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-ca4ea110e43e2048665aa5e470b7b47c120ea01027164866cf6e4d9eeead4272",
+        "record-d2707c418b9ac21200bec55209a7c9d9279e84ac451d8538c54e53d7dd579f72"
+      ],
+      "target_record_ids": [
+        "record-c9a778ae554af7691181ea408a63f1b49683be992254eb68b4f5754ff56108e3",
+        "record-9238ec01c45d5467d25500868a3a0b7945b8fc4611a5ac7af80b1ee267615929",
+        "record-d3b3189b8f3c156e082f922327edd427457ff608867a9792fc647881f8bf08cb",
+        "record-cdff15887584d0f0dd12c9ce984d58128d61092262318ba01b59cbca162de385",
+        "record-4c1252904236ea868d3838e5609e2e674c1bbbb3e771c3753cb0298f4a8afcd4"
+      ],
+      "cutoff_sequence": 2,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 8,
+      "event_id": "event-19f7c9ef9533f7966bd22f2876a828cb498d6b1000e8f48facd9721deb699568",
+      "family_id": "family-e6cf6886b3dfc5ce9e9e000e9532781f43676fdf8240353053728d6a012b88d7",
+      "case_id": "case-d6ee2c00327c917de7d7e8c896b5b8ce1f87b7ff72c5dae5d5cb8d330508b5b3",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 9,
+      "event_id": "event-1c4a90ac0249bc686a1292492faad767bf222ccfe7b7f105a71a2853b91df207",
+      "family_id": "family-12315fa92bbffd043cdc459aa77ba210c1e211906935d5512463990cbb6a34e4",
+      "case_id": "case-87f19eef166a53eac668afe9bf976fdcfd0f35bf0a595f1e4cf554dd0644fb1f",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-4af45209623388eb01b446002f062cbcd64e9c89b6e6ce63fe4b955cb84bca26",
+        "record-b3980b44a8a6d24ca4a72bebd6a72e25faeeb2d9ac6f1b33a37ee90745c88f75"
+      ],
+      "target_record_ids": [
+        "record-b2ad2e34581741b5fa38374c32eae9cd993d4df05731dbaac6d2f9fdfde83a22",
+        "record-0981a7f45e6c8b8cb28adec97abbe47a62646f2361ce56f53b4742e2e26f4771",
+        "record-06d4bef20c17f1549689bd4fcb74953a1e1e4e50b94ee6328fe196c751599f7c",
+        "record-36fdac79b6e171ba3f8adc7831a0ecb5104549501ff84e83570a4e1c52936237",
+        "record-21e8e8470f5477fbee9e13ef0c2f94788f0c1c9d8c15676b0d72d1d0ec3392fc",
+        "record-110f0bf9f0b279210d36c13f99f8c96a97513ab36c24f4487ed2bc835c9490eb"
+      ],
+      "cutoff_sequence": 3,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 10,
+      "event_id": "event-1d9d2b4da7bc6fddc84a43a517955702a39b42319e66b71515067343e681bebd",
+      "family_id": "family-46bf1f92c86b85f1c26b211b435a69dcd30f0fb2ec581a9393cbc82d7907c16a",
+      "case_id": "case-224ff955ae92d42a0846027b94c017d996d9456901d2dabc9b26ed9fecf0e432",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-e7e08f12ac4e697db3e8351d772edd838486ae7855baf5d6d0f98fce9ada08e5"
+      ],
+      "target_record_ids": [
+        "record-dfeeff1736bf25ad876d6aec88acf559589e02630ae4c3b6438d887a5c77c1a2"
+      ],
+      "cutoff_sequence": 3,
+      "review_note": "首次只保留母子平安的初断；12序号应期依赖后续来电披露的预产期，须另轮，当前不纳入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 11,
+      "event_id": "event-1e460e1d33d890efc229ca2c9c26c63894ea6df93b7c84010bf4945f755c9de9",
+      "family_id": "family-e0d1734ffd95c1265d4ca0bd97b8f28a9f72a52f6aa3953651225cbaaaba12d6",
+      "case_id": "case-2d48dfbf2fc3afae29cd3e792c8cafe3715e7c98994c42e1e9a4d1c12eae96bb",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-4386a530510667cd2ad88ed132f65c24ed8deea6df480136c18a0a5d69541930",
+        "record-fd0f8f95340b54f4c7661e7758d50649c348cc688c015baeb0747b82ee043452"
+      ],
+      "target_record_ids": [
+        "record-b5e71a24b30a8b6e41f2d1a07bef983522ef9a93b78301f85645f6314d124fd9",
+        "record-86ed1700b33567b4858701bba903ccc0b3f96fb78dace7850e264aa88260b002"
+      ],
+      "cutoff_sequence": 3,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 12,
+      "event_id": "event-2564aebaabfe5e4209d85fabc869657e09c614243cbb8a05968cbfe80a8ad4ca",
+      "family_id": "family-1d6189ee604804b1e62b48bc91aaf22dc6be768d9f5018d13a5a5cf3d87506c2",
+      "case_id": "case-ffec60ee3013caaff64bca3218527c9a0ce897774de68d4a5c6bd6a388fb8efd",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-f56af9f59715ecf8cc31c2ed22a14d7a20d0c730075fa36e57bf3a6d6c473e06"
+      ],
+      "target_record_ids": [
+        "record-7db9f005322e3874f5b2bf7c7af4feb72fe8d1e69e347b79b58ad741d40d75c7",
+        "record-c1b7efe4055eccb1722d2c45971a952c78dc147733ab044b14ca423198f1f557",
+        "record-9b18f4321a6e661b8dbc1a659d368cb2436aac7b64a2eac720250eabd7b603bb",
+        "record-1a7b16f6a69082c5709539dda85dc073208e71cf28f7f624acd27d4b510d2263",
+        "record-85964ae997a900743a21f596f94a2886766a3fec262fcdc1f9a06fabf9ca0177",
+        "record-17e93b8a8a70ff129f17e6045360397efd755b5b41e3a0c156c2db3e7d119d86",
+        "record-55386f06d9bfb288af879a6d95fe3a0e08978ffcf6b429ace7a1a2c96b7199e3"
+      ],
+      "cutoff_sequence": 2,
+      "review_note": "序号10应期答复属于首轮后追问，暂仅保留2到8初始显式分析。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 13,
+      "event_id": "event-25ec007525bfa2c0e42bf3fd07ab67e6775d989b765574f9a6b6501d0eba134b",
+      "family_id": "family-3382e87821fa440bc20bf808181a745000c91f3d4a9663b055af56eb6fdd0022",
+      "case_id": "case-3c1ec0139a4c5d89ff767270bc68e893181df6d4d0a5d036c0f8f1205f97ab5d",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-9bfeda64bff84b18b0bd56be17ac3a532ccd83fc50067b83b1736f0e328ee589",
+        "record-fb7e97b006c3347054345c1810d1dfebe45f14a4d0acc1b714d7c3f30bd4fcf5"
+      ],
+      "target_record_ids": [
+        "record-f460172b680918c634595983992f342defd4390f35c5361f53d47683d1b2bb7e",
+        "record-655e6ce4034e392493c556f6be46a5a05073770367b4e4c6f997c9303660fb75",
+        "record-91a73bbcf5fe1e3e6c9abb4e8a7865bcbf946c2b7d3782cbf140dd7dd1ac4d5c",
+        "record-9b664ed8b134c164226b0b204b4f2c778740da86e62eafa817d8ca878a57c845",
+        "record-7b50cd93900489c19f8ef44e06ac176acaa13f9e92cd7d0624d83e20f578588c"
+      ],
+      "cutoff_sequence": 3,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 14,
+      "event_id": "event-291d5b41a9501ce1123aef19fb50fd349c057ab2fe647a8018ef84110c88e351",
+      "family_id": "family-25dcea5c28df7c8a0105220c877dc0b1862a829a03a3da9a92e63ae2dc71f0a5",
+      "case_id": "case-e621b85f5b3d60fe9f386c3e8886e4202e53dca882bc41f97e0171ef1fc81396",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 15,
+      "event_id": "event-2cf620354216059af3a44dfb0dcc0604f8e3e1d2690b8ac96bcbf3c94c3418c5",
+      "family_id": "family-f2261c5b35bb46334366832bd93addd6ee1a7893efc39835c25590e100073c45",
+      "case_id": "case-173d377e286f776749c2d54042ddcddef0dcb04f28fca03c2c7b66e1a57644cd",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 16,
+      "event_id": "event-2e800815a83eabda63099a18749642e35ca48f6a569cd8b00de562f748af76ff",
+      "family_id": "family-e0c9f031682489f00111145198cecda3e9d6551b4c94b3e5c677ccd4363f3551",
+      "case_id": "case-280bbb10405b701933060214cfb9a6109e5fd91b73cf89bdc3cc395a4b062fe3",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-dc4b0cfc2afa9c1e3b4482cec01623774472aff84e64e8805e864ae964bc5704"
+      ],
+      "target_record_ids": [
+        "record-d772592061fd9272584b973c95a4714a8b40ac515825bfcb2acdcd661204d073",
+        "record-e62abdebefaecea6871e58aef6592a20ef0d8cab80d835dfcebb0343bb36cb92",
+        "record-7d8a3dc1a10704de02e4c1da23ef15e83f91640b5624eadcfa79207f4d53f0fe",
+        "record-ab197906b9ac3862fe6a455e3a0e6866dc27effbb8bfe6575a7667db9fce482e",
+        "record-5f5a134e843f32ff2686c9c80fdbc094d05c93f938529c5f64795687351925a9",
+        "record-12b087af8fedd83b39ee30d87b7d56f6a15a048e3bab1f2dc72e81b1b8542fd2",
+        "record-03da9a422af8c03535d20529402b51776ce1d23a4a974c6a195915c08257490c",
+        "record-66262da1a3a5dc0f434b1c66317a915f50ee76c21a4edc736d32698456aadc02",
+        "record-71f1af6df817b22339d2198243a6675bf11379f523119296c3a1c0e106628d93"
+      ],
+      "cutoff_sequence": 3,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 17,
+      "event_id": "event-2ef4dc67ad6dc2468ce05abda1254ac8f5849013fc4b4782d1520866c4035024",
+      "family_id": "family-f387b779afa7247577678c139391ad98872f655fe8904edb456bff5694d268eb",
+      "case_id": "case-19557e07abb372b16dac1998c3981a2b5385614f006d89900cf79beb871cf88c",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-90e5403e52f1a22a316d03e146a5e2f5e6928ac16307ec2e40e12d43238b20a8",
+        "record-4773e13d4dcb9180649f1aad48916aad89a55e6fd3aa852e158a10b873a09e07",
+        "record-a48aed874a98e8002e821b16819aeafa4fa6b9c4b1558e11d74a6771ba584134"
+      ],
+      "target_record_ids": [
+        "record-6f1a6fc16c365485f4e1fcf1ec8ae46efea2c41bd428c290d0beff59d2d5d3ab",
+        "record-f874f8825e11749a97986a944f9319db749a0ee478e39c006bc7dcd459757673",
+        "record-3739ce415fde00dc02b8c28bdba22df59fe3be0c60d5c3539b66d07568c571d6",
+        "record-cde8c33b7b5965bd51f80b6c35b5fac89c4e7857c45827cc6ed4c481b02f0beb",
+        "record-6462aecfb6e2dd2da12a3aaf799d29336da910c91f449090abc874339c4a44ea"
+      ],
+      "cutoff_sequence": 4,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 18,
+      "event_id": "event-30960df740e46b86e3e0ce5dc563f353f16d5bc6937ce1a5012f4c1be9b4d5cf",
+      "family_id": "family-46bf1f92c86b85f1c26b211b435a69dcd30f0fb2ec581a9393cbc82d7907c16a",
+      "case_id": "case-7371b7970fea9278c20e6cb4f723573b5de82c0e8e637ac18679f759d487097c",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-54d37192aa27182c8f05539de182f3225fd888b6cabc7398c86d2bc3986ac568",
+        "record-43354b2826b1e16b5528bc8162654d0e1fb991a0a19b7aa787c45291ce82ccdb",
+        "record-90ed9bba495c9212d1a6f844c4a78b861413cafdd2fb76c6b0226d80d246fa32"
+      ],
+      "target_record_ids": [
+        "record-05ab4df0d052440d23aafe03c8ca4c8e3e63404690f9b375f7d28cfa248fb003"
+      ],
+      "cutoff_sequence": 5,
+      "review_note": "5序号尚未怀孕为首断；后续月份目标10、11依赖中间角色分析，暂不纳入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 19,
+      "event_id": "event-35e0bea2fc8292d3a229536ad71509698dbf0f8b8bf44f61c5531d60a4aa6541",
+      "family_id": "family-937e983190f950e6d7b47826b8e3f2fb7b9d91aac4809aabdf70691b6d66d762",
+      "case_id": "case-f8183a1538d30dfebd86ea800a2601cf1f9601eaae64c2608d615bb49946e67b",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-42fc13c5a19d2c1d79349dd3400d583e6733d7e3f499fe759d5b1278a7fc237b",
+        "record-94b0040e6a952efab8a936dfb00f244b19bcf8e27d0e07273a66b129ce4f9a1d",
+        "record-98b6518261b959bef02685a3e8149e395b42cd9a277f7dbd9b09c8b36338745c",
+        "record-11b2996b41aadfd94c7620ba0044aec3a1ec08b110460238b72974e94597cbf0",
+        "record-28b74c6f6260dee356c298f3a349de3f4edb21e82c718ae672a44ecfb7cc4008",
+        "record-68bc7476676a73a61cc71aeb566aafe899935396967569b54b5c34321986c496",
+        "record-88b00ca5642119b2527683bdca2b8e443f738fabcd47159c77e8860bf8a9b0fe",
+        "record-3ae7cf0c49bff5681488402f990947d5a23887925bf22cff9db114a36063cc2e",
+        "record-f1ab529fe4573b09a812eeda3bc3f002da9364643a40cdfb7144343fa7a8c029"
+      ],
+      "target_record_ids": [
+        "record-ee684372b69c2f64e47dd0f934e6f9f329634b519f7deff416b8970c65126060",
+        "record-02c11310b57678ccd6b710db9635571b64e6241648a22a61f08f97c6f72c27cc",
+        "record-42770da6de008325900fc008a6ccddefa9a08ba8058104bfe1e84cbd314a2fdd",
+        "record-4eac9a48ba09cfd89f40bf7b0f67018fcdfb08315d09a9b0e82768855de52883",
+        "record-a23eb0ee53b5b03cb4fa1718788012a08b5de98bba918bef60281832a9ec5b1c",
+        "record-ccd7f7bd52060e3e3791b2300603a1e7673eec90b15fd44e84e4efe80fbc61ca",
+        "record-c1dd6dff3c1a7d06bef5af589e79e59ada9cb2fb039da581d7b69c2c76d9bfe1"
+      ],
+      "cutoff_sequence": 9,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 20,
+      "event_id": "event-36d690eefde1897059c757f89fcbdc116b1f87c6a69408b3232248dd19057857",
+      "family_id": "family-a2b130fca4834fdc1d9fa0ca75260fc68ab2f6a4fe423c328cb51d476e63b751",
+      "case_id": "case-cbb92faf5ba02f7a1a36e4cd4743c471a15dbfb5438684c73cdb50168a7c72ca",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-c3171ddd882fbdca7d871159052984c9b96ec8e2bb85de0fa30a53bac1c67754",
+        "record-f2d6fe40da860caf481a8a876729264c892249b389e3763c1f6fee92502ba911"
+      ],
+      "target_record_ids": [
+        "record-762237775fd31d1a8a651ace57c1679a68baeac1bb7decc9b587de1e842bd13e",
+        "record-d887d37605c6c2329f810698983047a5bd250e3245012790c2db3974e30ed5cc",
+        "record-513910cb0cf732ae5ce44a179e1c2b69fd8d1a31cc8275f6c3b6c326cb009e9b",
+        "record-7d368a5be0c44e9571da1b54f0e6ce39bcf0c946fdcadbd89be9e36b66e8a580",
+        "record-0a9a90eda8b317a7ca4210334e860071819b73755709148d045cf78fd198284d"
+      ],
+      "cutoff_sequence": 3,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 21,
+      "event_id": "event-36e48632bc4644a95194a16a8e2116c5f96016ede8133d3c5d237869848eb058",
+      "family_id": "family-593eebe6566c635d479b3ac0b767c4cc1d5b77f17c959c72d38058c60ec24455",
+      "case_id": "case-deb05ed0b5f1c7b259885be2a5c8f1094359e61237fa1aff957f48d5050e1ee5",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 22,
+      "event_id": "event-387b5e0f7a0d243dc132dd513db0070da3c615ff4b5aff457e0830e1dbf7def6",
+      "family_id": "family-a1d31974bd3ac08b8133685c681e07a1b4e68570197ed3dade9fac3dfef9a324",
+      "case_id": "case-f1f4d71e477d69f576279bfe9b9d57f00b78b9494cce344d873063b4369c80a0",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-5c53b31542fb4609670ae9efd6cbadec66a027dd21e869ddc38167654e50539e",
+        "record-ee2ceaf76686b84cf4b75b9a12f2b124ca87ce1a837c1ee12cee21f02bd7b5be"
+      ],
+      "target_record_ids": [
+        "record-b858c97043b9fa830e4123e46433b71e8dfc5a7faa181f6de2f504ae8593967b",
+        "record-b00c9082f41fbbfa4cd58d8d7056b3fe0517f2bb7f4c68b8aafaeb9ad8ecdc31",
+        "record-7dc92b44fa2583a9b3f1a121e3cc54158af7dc68e26694e6d5a5f07a37d861a2",
+        "record-25fcbf6423f03c930f1a7732ba4d7a647c912a6107d86e753e26f4f14f7da89b",
+        "record-77be952cf733bd567830395217b700390ee0f4fa4ee91985932abfe8ea3908f1",
+        "record-a77bfad495b69d0f865c3f1f88cf02ff9f5a3047d38c17bc684bb74b171e3ec6"
+      ],
+      "cutoff_sequence": 2,
+      "review_note": "保留最初分析至7，9序号为后续复述，不额外生成样本。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 23,
+      "event_id": "event-393b4f1c3ff1a66dae355d5334b498555925f9fc868b7214c6ebbb7487478870",
+      "family_id": "family-8e1af827ce5370de4874d9ac50ea0be099e52c06e434abf3175a1a1ee914249c",
+      "case_id": "case-aef7e114a1920df5a02b7804bb64610c6ef4af39c502716dd5c784fdcf28efe5",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 24,
+      "event_id": "event-395fc0eb406c6c99624dc86af6774e40d407a5bed7b92865962b53d0d0c4d7ae",
+      "family_id": "family-6877139d2993c8aac3d55a679a2c1003945f62cc71c5a252096097806cfe5bad",
+      "case_id": "case-80d7ba7cee60e3ae20c1d8db4402cb9d454689e3a44322173c179abb805deafe",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-0980b8cd7570faa6bd317b7acb2e44d5cf21526985cdbf857b576adada6ff5a3"
+      ],
+      "target_record_ids": [
+        "record-9067f44c617712f079063506b7c9539a91c198469f220dc25d5b3502610735c3",
+        "record-5cca8dfb464f02dfd0f1a3bc7bc4a115dbd58561db4d594180585496ff10e4c5",
+        "record-3f42bfe2f60b68278e6761f1fd8d5e7328f09bc241c09d57690daf370d156343",
+        "record-05c0f0e64fd0009c6a8d1d64aab684ee2c87276d0b8e264bdb147f502824a246"
+      ],
+      "cutoff_sequence": 2,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 25,
+      "event_id": "event-3aea08377e4ae1c3f0ee3ec24f88a7b32e77c8b158401f178ea5a8516ba37411",
+      "family_id": "family-bb6f14521268b759620499b624c6d2619726ecefbbb9b25e0ec9a19d825d8748",
+      "case_id": "case-abf48581214ec50a5aeeb86459068ddbd5d7dc7d4bd2fe6c0273ba5a98e80dfb",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 26,
+      "event_id": "event-3b0c675d43e02f8c2c44826faf0815fdd771ff81a62966c89685b267bb8c7fd4",
+      "family_id": "family-927d0a75bf1eabf95452c4331fda1b9a7fc1f2b37a90620ff0325b68fdfe4bb5",
+      "case_id": "case-32daa0de0ee1dad256fc6df500e460514f9fbe42b07518b0c9d3fb63596f3234",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-27cd287cf3d59004af10eef42ade90c928ebd4ee87633c78ae4e209f60add57e",
+        "record-6106908610c61d7f90797546d317b596820c408f67e8232bfb7f27d2cb173ceb"
+      ],
+      "target_record_ids": [
+        "record-3d6652895e2cad20791acbf8c7e0c9a117a8565bebbb774c9da4030e2e1662d9",
+        "record-201c9453d9170311ee9d65c8949227c9929284a88e73458e2eec14f6f5c25342"
+      ],
+      "cutoff_sequence": 3,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 27,
+      "event_id": "event-3c226e2274bf7b5d8ea330e8ecdadeaa63ea9eca0e5fe554de8218b2faad7d8d",
+      "family_id": "family-7fdb5a8b4427542223f897691a4ff79cbf411f1aeae3b8a76b1bbbfb18d87471",
+      "case_id": "case-a4fe07631f5c1bfcbe0e1c685ea4d4324251247afebdd9ee0448db0b0d23afbe",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 28,
+      "event_id": "event-3dcd35bbef6e755f6b78eb9711fda976c0e96203b7c805e07ba9ee1fe356f93b",
+      "family_id": "family-81b00fb8d2dbc9fdc2c1df492d11d35dd1c7025dc7b95790e12e10bf79b4f155",
+      "case_id": "case-47c198ac385cda942a508aebbe2b9b9e0ed0fee06031f4845d156ebd57e2f545",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 29,
+      "event_id": "event-43dad715258f2b6a25226bb868b95325f14d86a54c5295892c23dd6968089a66",
+      "family_id": "family-128b8f4ac86abd5fa6aea2c91a934ddb86484a1974788fac8eb5af952dcefd3e",
+      "case_id": "case-b3dd6097c4186c79d3b834cef63cad5cf7f195da0d7946de4495c1184b3e6459",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 30,
+      "event_id": "event-4665743eaf32901a510ae72f6c1a740fad86c0e3a1aa6314d907d92047695cdc",
+      "family_id": "family-815bc11976c26d6f1240b5e252de460e1623d18bc1a6c51c953463c5137bd269",
+      "case_id": "case-5b9217acf0d3c19410d8ba81171c9a1752b5d7200e409d8881635c957ac8646f",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-bac8294b95d22ec5f5a7817e8f4264699ce6d11fb9d04943c1ad0d4cb5d78923",
+        "record-45f12f38d7a87d8d38f61607f68bd092e98ef33bb0ad1672159a1e2bf0c7f7c5"
+      ],
+      "target_record_ids": [
+        "record-55c75253fed67aab2f6c004c4c2d9012fb2c49d6521c45b360f412f0b2dd6876",
+        "record-90f2643ebb89127e33e4908cc0468146520c4bf94b01c779ac62882a837b3cec",
+        "record-bc1bce795698ef359874cfe745209e030e2fd8aa9b19c0feee0e78a27b89762a",
+        "record-778414cccfb5fb4a4acf1f56e41e0e4feb8c3c5e469e81f0ef67b08de2db5d20"
+      ],
+      "cutoff_sequence": 3,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 31,
+      "event_id": "event-46717cc35fdecad53eddc8b41c6a240ded514e812f711ffde7fabb1f36d902e0",
+      "family_id": "family-b74167c99addb9d15053995a9206b36a718bd27ece78453a116707ff1a5e7eb9",
+      "case_id": "case-f29df215e46ee4e12f98954d2bd7ed6517b73e305ab5b9ac7d1099ec2ff64ee2",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-98e65c03fa5a0c8e50af5370e259fa60303c73581d4bed6df0770c99f4737946",
+        "record-b88338112c46d6f05cb703a1541eca2b22add80e7c362558f56b24f837840f66"
+      ],
+      "target_record_ids": [
+        "record-abb3a663690e872c14796d1bbbcc3aec5debb19b6c61906bae81a596a2c00d38",
+        "record-53647ca72645dbc519ef5183cf88d4c59be2e5fa2316aad20e0a65083a6c2276",
+        "record-54a34a8ed8b0d943c39669f778a036d70465938b37b171e5f1af8abec4e8787a",
+        "record-a69ef889fb1a6f1b7e430caa9ec4707ca773cacae03be6b5c7a403093b49c9ae",
+        "record-df4333dbb4ecdaa74d0c4a281dae76e96ef229c4cfd5069960a0778d61eb6e1a",
+        "record-f4500fcf36ec1aea6b30e92993fa9a61a20205c316cb8225f9bc2b61f9155e62",
+        "record-3c2fd613618808ddfaf1739107c00ba280f1d1cd4d89a9bc0cae996ba2ba5eff",
+        "record-beb91f88b6fe6e0c57dfcdc5f70dcc56403cae4008bfdbda633c33c89e197af1",
+        "record-47082e3ef5c8a9466d7300161e7af7a7df8eadf741bd4e19ef76a9dd16b6e0f1",
+        "record-c7a9cbf6fb914370fc917161c3e7c9956b3cc10095d45234ade0eccf1369a003"
+      ],
+      "cutoff_sequence": 3,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 32,
+      "event_id": "event-4c1e0289fc728e31f7ae15783bae175230b3c057036fc8e46fed3d9b753ea19f",
+      "family_id": "family-26fc333e3d670513c3b2676649885f10cab72fa61e4f4c011415705049847ec7",
+      "case_id": "case-2421ad7bbb4c5b70db9d84dd2135c30b6b7e3f11b1086e0825465fcc1ce84864",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 33,
+      "event_id": "event-4dfd20d666d238a402e959fd184dc1dbf46eef55550413cdfcc6fae8f987c116",
+      "family_id": "family-7413efa178f538f869492db21e4c4aa6cf8552f4152a7edf4358b6f0da34a801",
+      "case_id": "case-b6d7c7589ab9cbaf715ab9c9b3aa3e26658c5851f81de474eb2af4e0911e7c90",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 34,
+      "event_id": "event-513b8515f6dfb5ff62f9bc9ce8ec10dae75be5755db225cef7fc706983dba94a",
+      "family_id": "family-c6faf70e227f9740cb1295e24c62a0a1ed7bf5494e3602debada0907ee74aaa1",
+      "case_id": "case-9b0a82c9dd9be93670a78d2035fc0ed84bf4a8a87a5ff970281c1be8bb007855",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 35,
+      "event_id": "event-579ce7e0d67154f1ee33b0d481abfd069bf6d573971908504803c5a190885863",
+      "family_id": "family-b662735d6b06215f968234f32c9d7e848b0d4c723829f0b5f7c7078f920c52fc",
+      "case_id": "case-f2dbe3bc8bbd5ff7018cc66b4fb989a094d4648e16d1883d18bf638099c3c121",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-201a6f61e19fcc81d7984d07b916a4758cb867d02e7420c5c443638617af5af1"
+      ],
+      "target_record_ids": [
+        "record-f9632c2971e560aba54de476c083c64ce24158cafbf5bf36021d12bc3dc9a246"
+      ],
+      "cutoff_sequence": 5,
+      "review_note": "仅首轮体质学习状况初断，不将后来成绩反馈提前。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 36,
+      "event_id": "event-5a5c9c0297bc5bf83fd19b7fe28d118ea14dc6e37f3746864aeb7d6d79516970",
+      "family_id": "family-06659008ffb3141673b64b6c6ce84b0d01dc4649953a444d1d20a8554353479d",
+      "case_id": "case-ea86d002d73e8c074ba86bccdab0a73833d4690b8dda2a7230547b15bfabe416",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 37,
+      "event_id": "event-5dab8534b569f2b1f3339a737c1e5012009d25a9fc9edd5c42a43896d3148cd3",
+      "family_id": "family-289a7ced6ed50efe42b8f9ef5328d01a4ede0fb7a84a1e35dd0dd58a1aceb92a",
+      "case_id": "case-be1da18582115ed03e38708a104b371ad3251fe2303288e8aff69bb00da8363d",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 38,
+      "event_id": "event-5f23947c6700b7038642414040aca1527ffb87132000c12dcb168224fe85e4a0",
+      "family_id": "family-1eb03593f406aecdca274e6190641cc1bcf202cb28418838b8ff25e6e6c0b3a1",
+      "case_id": "case-146dcedd8799e9c4442671fce44b08a64e34da63602d1a017febce2fa3073946",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-e25700a089942b0d1a550cd0267ac8835c4cb98c874937ccc3114c42b8437638"
+      ],
+      "target_record_ids": [
+        "record-b1c843e18abe5027d5687c6baae3b51f4490ac218b2ab9b90b06683df5cfa180",
+        "record-9dca88c8c19e97b81d1c4a97f3c3a3995856e097b2520a27095bbb8241851919",
+        "record-2ae6e8fe638e3c2643632eff76b190c315bd5dfe68bf74a547b8ae3b8d4c3143",
+        "record-ab16fa98dc25d7cd757d7c62355651744fc06f5f7417512d39718cf21d69dbb2",
+        "record-944b70e89ace63a03135a1e31191320bf6aab8c439a058e3bb4864fd32cf8932"
+      ],
+      "cutoff_sequence": 3,
+      "review_note": "未知phase的3、4实际是原文首轮编号(1)(2)，本派生审读可作目标，原DB不改。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 39,
+      "event_id": "event-5f6620cde3351b6fb265fc772ffcad3ac94147453243f9288671660b8f419189",
+      "family_id": "family-7eea06457816b727d5cc5bd452cb63e7305123f99267ec427869f2fad4ee5413",
+      "case_id": "case-5c4545470e1bce7abf5746c6d55c0b2e75a5e57b4f4d31cf3594fa7530fb55f3",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-0cd756d60c934a34aec2f4a139ca5b7823053c43ad92b415ddc4014cddb0d2d4",
+        "record-1499697432aae57116fe554794125983f9b58c06878639d3ac21669a9cf15fd4"
+      ],
+      "target_record_ids": [
+        "record-172e84e1eefd334e9999ff89342be77a174afa358c42f88883eced0e6120fcae",
+        "record-f668952b01eb0ed2961c44b3d4acfc799342960bbc29408671c5b4bdddf473ba",
+        "record-836779e35fb6e6a0448141e12ee09ab1e648244c95fb34b496f3f3101bbecc21"
+      ],
+      "cutoff_sequence": 4,
+      "review_note": "未知phase的4、5实际是首轮编号(1)(2)，可作目标，不作输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 40,
+      "event_id": "event-61c8b3d8db027c8abff921d72187042b04c7c86e2c26adac3f359037773e1f28",
+      "family_id": "family-ae68591b63904fc64a0006133dda5c9ff1c9e148d7182f7110d71562977b10d8",
+      "case_id": "case-cecf00bd786c790b3bec788b23487bb4a2f7a16d6ca1132ec703d4ce78a96ebc",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-6e8a7621b2920b6f71691fcf5abe8a10ecded91882f2a4b04705f5100efe2b68",
+        "record-b4a1812dd480151b44a5c21f6ff9ed971cc5db5cde9c2019df97759bc0c6d33f"
+      ],
+      "target_record_ids": [
+        "record-b297291016ca241de109821f587ef78abd1e831f2f56fe33bbb80618a2cbb481",
+        "record-abe5dc1292709b11aa2b8bf559149613c51da9488f234295fb4bf5ea512a24eb"
+      ],
+      "cutoff_sequence": 5,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 41,
+      "event_id": "event-6536abeffed4b3fa0c105174d29c44cc233b81a4ee3426e9541625a63c9808e4",
+      "family_id": "family-23c42fb26da8d1954e07acb1569f92e13e8a68587f3d39d4d293b737c69542c9",
+      "case_id": "case-39d214819044fc65ceb2b312c58f14e189e2c732b554748a6b55d962f24dee84",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 42,
+      "event_id": "event-6655044433a0eff398df9e2da6df333be84aef6f7d1698a8dc11164b33bdbc79",
+      "family_id": "family-04a6933906e0e22d30ca40dcc6b974fbc8f1b020dc6a1373bf2252125e8ea15b",
+      "case_id": "case-74e2b4db6b9797a75c3db3ade3a9a57746c51cce5ee327a09e7ca760ce149127",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 43,
+      "event_id": "event-6805cc9a7d292fc78810dbc6f73d5ad80e202b8111e427b45d4a30abbd4cfed3",
+      "family_id": "family-f284e5b0a84170015100d4169bead84ba4ed5a6133eaae3036376241dc6c0e53",
+      "case_id": "case-9ff7e074b8fca7fb92b2cc750a61d053f527928fdd3f5ffe991592830bc58f55",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-4e1b0f6b2f5549ba1fbf1b49bafe033bce1a223b6341e0630f7656bdf4634cd1",
+        "record-f89f3c217975b028ec3c4968274be88437b134a883ba19cfb506ce7703425288",
+        "record-215defb9fc52cd2b45445409b703fd47258a9a4f4f9d19812c3cc80b2cd51a25"
+      ],
+      "target_record_ids": [
+        "record-7f95f91980304a8dd2e023474c2012ba189786236d679b434beda29f56fe9264",
+        "record-c268e7eddba299873ecac5e30e48cd3127f9a07c86e16354465014613c7333b8",
+        "record-f75b6456e1b1823589f492b29c9a37ed5f41365e84a42ad80872df4ad343fa85",
+        "record-1346c6bc46698a7905ca6900505c4905e55233de4569f99866370f3bad24da60"
+      ],
+      "cutoff_sequence": 4,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 44,
+      "event_id": "event-6a9c85a3944ca93980392ac211ad3b71578c9b084abfc103809e5dd20bb95cd9",
+      "family_id": "family-d19a67ab9d2d3530a4f43bd5c7a3259d0eb7825e30057542b2947b392c91ab84",
+      "case_id": "case-c02fb6ee86f1438b3f6c93f6a77edb3b357b836054330fde1a512d65a9bc5f1f",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 45,
+      "event_id": "event-709c88578119ec9fef7e2de597d61f4c84d017b944c074a34e7aeeed810a209b",
+      "family_id": "family-50c02028c3ad714a1429c1ec84bc7ef75dc1cd0e61f7e26c083ace416e5ecfc8",
+      "case_id": "case-d5b34c409e2228e0cc0dacf6bc0c2de0f53c619450f1f5fe783065788b20791e",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-4d236c4410ca4c816310054baa3b9e90a8eca0ea5702be2ddaa87b4f0d9072bb",
+        "record-240254c5c65e6e9c02c8c376aa1e206483fe3675a840b4892a048ba3f63159b2",
+        "record-7a0728f1a5f42a1eb1d578c01bfd2d6023a5e84d42ad4bc98e5832ed27a7a5fd"
+      ],
+      "target_record_ids": [
+        "record-796a8ae5328818a262d138da704c712049c6c36e71db698ba238e31f4f6eea5e",
+        "record-d02f4ba1cfa4bd24fd72786bf312560057e7d125a969aa9ba70d2ffcc88d1c43",
+        "record-089bbe5612bb26b35cbbcad13e5680e37b849ef2449dd6ebd1f7e0e45cfc8420",
+        "record-bb8253b255bff966341c79c2a9b5a985d5fcf4221efce7d2f3dcc5be1a4424c7"
+      ],
+      "cutoff_sequence": 3,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 46,
+      "event_id": "event-71f8f2d6a845f0c0bc2796442ced5497a4648675a6f8e1bc76c7bc3b6c33aac6",
+      "family_id": "family-515a6aa8fedb6a8dc5554669972a469db95a6a25b7e63df094613bfdcc0e7afe",
+      "case_id": "case-e1290022bc14f9bc65222b790234b0d511defbf53ce94d7afddf29f6c8bea64e",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 47,
+      "event_id": "event-81a43050529e834fee16c5299ba7c63154f2398dc3b0a852c81b1448b568f17e",
+      "family_id": "family-dedb7f590087454464cae79b33654a438ae442a3dd2c11f441d52d50d12ce49a",
+      "case_id": "case-3e554b89430de76587487514d493fbcabee6782d5876f67db8dcdc858aa07b80",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-886d323ec845107951946f8d48f0e109b125d5effddb4293ac2dc1d52c4dfe36",
+        "record-ddff7a1925b6107f2a91809a446f8bebd896e23e3280ecf7c18cb2633a3d53f7"
+      ],
+      "target_record_ids": [
+        "record-fd56a6d7a3f70e64be963659fbbe07795c782742081b548afc244db9f36098a7",
+        "record-4f4e46ef3ca4ff4965e6cc77f9fc0c5aefc0190d5048f1c689019cad4be6733c",
+        "record-72f5bd02b3d6e71f9e070aa8b0b13b7485a06b8da4f986632caee87275250961",
+        "record-7da7a99cd2078fa3c1a5fe57b5d3678501936081d8236dbd2563ac087123252f",
+        "record-8dce6e9dc7978080149ebbfbbdb9d406c61a0353ab906e9a3f387cfaaf236d4f",
+        "record-07e607b7c352937375a81b14bb6cca85ebee48d5396fdc1ac2ffc03ee736193d"
+      ],
+      "cutoff_sequence": 5,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 48,
+      "event_id": "event-847bdfb0ddd8f5cad5af1a98b798abc6d84840bba3a0a5a4f87543b68e9a1734",
+      "family_id": "family-0eca637c25d8894f57a1199e103052daf0112a9e16daee8d05fb1608fed3d6bc",
+      "case_id": "case-3031948ca59b417be4ae0fdc2bf6253ea1ccc2e0458a035df0b6b8aac2fa5da0",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 49,
+      "event_id": "event-849b45da25586707ad51730836065e74b546b7fc41831e459692b8eff7bb2875",
+      "family_id": "family-6f85e17bb0c9451ae224ba07b33e2931dc13c379154948f31b323ab626da3c80",
+      "case_id": "case-b460c5504cc2043ea582903147b552a773ccb150716a0797f4cdba89da90c923",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-f0c988bfd5368ac9f59c024328b164c4c5389f9d8186a14248c30fa0a91913cb",
+        "record-3ea2e5ffbec037912536bebac99940bb0b87e5d0eb4ef0167d8e25de213b3612"
+      ],
+      "target_record_ids": [
+        "record-34bf3b2b18abeedb1182d02e37e3a1aff6c8c2bbd5c9904925b3c11ddb24ba00",
+        "record-573dc032d46693ec6890f36695baf8c3681e12a4e7fa58d4c62ff3b0a49fd03e",
+        "record-02343ff11f3aa66ca772f64b2b905b89582fe2a103327a21711bba13551330e7",
+        "record-254a24ba610d978766d5d811f58d54751d2ea4a0b455dddcb0709d8d1b80814c",
+        "record-2806073050ec2aa054eaa627fd2dde2681e53c8b259e82fab7cea1f9e8c78550",
+        "record-1ff0200564277c5048246e1ebed5d5f5032c86368bd06ca77857a890bcca06ff"
+      ],
+      "cutoff_sequence": 3,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 50,
+      "event_id": "event-8bdab1b60a86e1fb94ae21c36e1a84c60077a6117f5dbe0f0a57e866c4fcb1d9",
+      "family_id": "family-26624434404defb9412ddb5fbedcf83c13b4c403c503b4a387b47a3e5863741b",
+      "case_id": "case-b78f14c43bb40d6a7cc2551de8c7cca5c973cfd4629f8f2e5b2a767b1e7c517a",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 51,
+      "event_id": "event-901114deae3af40ddcbb889b8b6aa06911f5fcc00b05dfc55210356e0a3950b5",
+      "family_id": "family-27876c692920159296ac3455c61ad5b1f97883e9b44ec51603e50bef1e13c4e1",
+      "case_id": "case-ee43a8baa22671f2d32e08b9464d07c71208258d7e566b0b0b2bdf46c3bf3646",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-26311dfe8fc4048e7e3858eb625e6ab39201da20a60aad6d4e9e141dc403077e"
+      ],
+      "target_record_ids": [
+        "record-abb4c73d4ed730d9e4bd1cbe9dca39294bd0d79dfc6dee58ab85bad1a6b0f112",
+        "record-088ab3f775364aa94f29357cb39b1e3fc95b7bd8de9c63f64dead6e2965de9fb",
+        "record-4f1bbc5d9f0cf33a6f2abfd0446a5b564792d92ee8f7f41384a361097c5fbb20",
+        "record-401bfc7bb6c9de5b92bb166e9fe3f04cef2477a60a02bf3cbb2c75b07854c695",
+        "record-4669bc8492df073cc14d58ecb30804b2f3431e8239cf9a11eda89501d712d15e",
+        "record-a044e10fd26e83b4f39fe26a8922b64b9db16b52978c0c0f90b155680b007da0"
+      ],
+      "cutoff_sequence": 2,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 52,
+      "event_id": "event-90430d46d4268626008bcc9ad040c7f6986f4e53474659f7e80903f6c6c65f50",
+      "family_id": "family-26624434404defb9412ddb5fbedcf83c13b4c403c503b4a387b47a3e5863741b",
+      "case_id": "case-b78f14c43bb40d6a7cc2551de8c7cca5c973cfd4629f8f2e5b2a767b1e7c517a",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-500efbbf1ba3c31c4062acfd7a5a0b45f958424813d0bf93e796b1b964eaaf02",
+        "record-36217f92849940a107a524f7cebb0025223f46e531a43716e8d435dc81cf5b45"
+      ],
+      "target_record_ids": [
+        "record-07ae9f766d0db23c632c67659a0e4a78deeb3bbae7ed17cf4ec5556e8e26dbe6",
+        "record-a242d6d168cc1e68c2b3b62e294bf12e2276a3b36e816e14cb63b1e83931285b"
+      ],
+      "cutoff_sequence": 3,
+      "review_note": "只取3、4原初自测变动/月份；后来的工作冻结及六月事件不入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 53,
+      "event_id": "event-9192e1ff39f4a4a9b8121291ebbdc2d1794e87017fedb52a7bb9c1d65f4c2d2d",
+      "family_id": "family-d6a8d85716f792920f3cb8bea0f33eeb4994133b9ad77555eceb820946148648",
+      "case_id": "case-f3a4cf455cfa420796db078054c6e8e09b5857d8f5e5e342d0870213ca53c3d2",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-45ab6af4ec8f3b847425948c12cfda862eca497e3b2621d13a36a606739facb3",
+        "record-456d365c43553e85da1154d78c8a54221011030c1896222598376a399bb1a2a8",
+        "record-d35ad11ccc8001ba1da2a1dc7979beedc00ba5bbf529a97cec2a6aeda9c536e0"
+      ],
+      "target_record_ids": [
+        "record-321dfaf0431f27555bc53b3f604b52174e734dfae06478f30541a65398625cc0",
+        "record-9fea1e4ae796c67ba1c54cdf5bb55459ee8947db6b214779bf495e5da1aceca2"
+      ],
+      "cutoff_sequence": 5,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 54,
+      "event_id": "event-91b761f97613498ce16d6d192cde9287f2e409f225e6dad8f58137e241ba3684",
+      "family_id": "family-d79ce1d453ace6da061efdee81da58fb56e35ebaf21ac3c1a0d1b32f9a718cdd",
+      "case_id": "case-dea9cdd88900071b102cfcf5095d5f2db62011d4caf7385e1173279c9473f542",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 55,
+      "event_id": "event-9207174e6e5ee41bbe1b1267fccb1cb1c707bebb61361796ec7f1db9fb6d7c31",
+      "family_id": "family-e679099359c16ed00c09b8a499219dd6525f55149cbecbea879faac043883a48",
+      "case_id": "case-19e1ad351808cb2679578449e41f48bffbddd16156e3765e9b71c89e065f2b62",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 56,
+      "event_id": "event-957db63e215a7ed50ca445c16165d775a79a9044a9f40e2dd3be9c2aa4b6907b",
+      "family_id": "family-c32bcd393b02f696a0f49b6ca93ea2d16e3da4e326839d55b2741b9fcc6a6b45",
+      "case_id": "case-f3b7e2023426b56d387e8a1bebc5ffaa5924101426d8cabc8f13fdbf92cc288a",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 57,
+      "event_id": "event-9bdab29b32aa5715bbbb14f1136f3f8dbe5a7e1319d069a708adb20b7cfe8827",
+      "family_id": "family-a844819a63c387a7c64608e6457e8103c48407d28b912f42d37b6ce6c7cfb5fc",
+      "case_id": "case-90638797d4c4fa4b93aecc5529352f4f936ca90456e77693e2881fb5accfe1dc",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 58,
+      "event_id": "event-9cf2580a40ec797fa2505c8ecd9d71872498b9bb8cf3558963bcb1cf81dab2fb",
+      "family_id": "family-bf60b7cfffb01b677e6683e68796605170f1ef2f37c2cabe454dca6454a77e37",
+      "case_id": "case-e4382029793a646c7548ff3cee4c4b566cd8e9e1ad1c3ae1b049275527f3970d",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 59,
+      "event_id": "event-a24f00fd545101f74e2e9d540d3ca2fd79623ffee9e001a080d2a68a9a082490",
+      "family_id": "family-c6c2d3305907728d59a020e907e1546598ac2f2cf94d4dc7859b466e8a7b32ad",
+      "case_id": "case-b3edf9b54b6680cdbc4840ae4551d6276da6c560172364848cc15c102bdf1dc3",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 60,
+      "event_id": "event-a432691784f9a0c419312d3b5b8bb17612ddc6ebc69e26b81680a65be0b819d0",
+      "family_id": "family-683a74c454cb2804fc8ae61b8af4bffd995a7852d5f0b3221bc9cad03ea2f971",
+      "case_id": "case-eb02f42ba99f7f74d1b91b09f0615eb4627ba26badd972d4a54c7d6709f0464f",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-f7b98998c9f7dc2cfc219016f5f90253f4d128cfa940760657dfd08405e93adc",
+        "record-b53ba4a704e138794fe68718ba9634d5b94c470e6cacfea1ddf16f3fda01e99c"
+      ],
+      "target_record_ids": [
+        "record-01466195bcd48b9117776fc4239344296f9a2ece0fa9c87fab9119f8fcca26c1",
+        "record-9cb22f3a76ca1e71d93ae6b83e5d5067a86ada5abbb300cad9a7f6dde2890cbc",
+        "record-b05ea4f277fd03e28acd12127ab964a481e82369efe821506b0ca6051df6b95b",
+        "record-de8f1a3c885b8c405a8f93d73e9677eaf088ef251944c28065158234bb4e400e"
+      ],
+      "cutoff_sequence": 3,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 61,
+      "event_id": "event-a803063c4ae8caeedbb2f760d12ce3c2315bc86ebd23e07c359ee9b525aecb64",
+      "family_id": "family-cfb49bc5e6cfbaf348d17663409479a7d86e77478830dcb52589171665b86431",
+      "case_id": "case-1eedc064bf1d23f7c887a29741c668a4ae8aa1aed5631420b65719fa3c1d0029",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 62,
+      "event_id": "event-a8375e8b7144a6efddd92e97e02c29216574739dd8a12ef11a14fb0b7bf81359",
+      "family_id": "family-fef18431d85e768be83e4cfd6ca62cedeb319dc2d4217a4e4673752c816d6f9a",
+      "case_id": "case-d4a7467f0ad1461d2278b7c571bef9ea2a826d5e112e2018dec7d55abc9a71a5",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-4c65f9628795bb29a4d821267da2ac97959d1220a5d62175ebe26f6a59f56e9e"
+      ],
+      "target_record_ids": [
+        "record-05be1d64b7f7e05eb694fafc317235d7d75d62187fcb252d817aa7f37a6ea6d3",
+        "record-233b6eeadc3540cdc496caa24821cb4a6d82ad8d8486459979ccc4d3367a34da",
+        "record-73627b8bbe52d018baabdcc284be2602b27e545c667f06df3dd7a548c54ade3e",
+        "record-be2745cdf6e0d21e34bc5d2c74d08e0021c94d622b8102c55fd911fc2c4a841d"
+      ],
+      "cutoff_sequence": 5,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 63,
+      "event_id": "event-a85dd70c31bddc13bb11f62de451a86373cd0d34818cf8f1d387f9dd0630d6b2",
+      "family_id": "family-e60175312fb8ab60e3096b38e058ef2ca16ba6de9a97b74dd8dd5997a5ff41de",
+      "case_id": "case-9525ab650b082cc58b06d15f863ce7dbdae2b9480c77991d3394f348c6486d62",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 64,
+      "event_id": "event-ae49ea8ddb11be63617af0292654aac48a025eea25d6b4dbe6c3cc2809ba4c28",
+      "family_id": "family-aedc1d8abdd4a82ef02e83c3e7d49e68b0407d9cf512d4407115f3d2ab2997e7",
+      "case_id": "case-01c8e6298f0608f7acb72af2731bd791f0b0e2fd1c846705e17e8fe6aa234aee",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-e4a89b28e5abc91b261a12692ea97b0f00ac4a452d06d03a39b1c5feb557873f",
+        "record-f98bd5776092b799d37012c7d1b8403cf655397279f851c1f4147e6cd33d3970"
+      ],
+      "target_record_ids": [
+        "record-2e79cba17d4bdbbea625becf6188c5ef8e13e81cb6a3df1eae3f75f118c745e8",
+        "record-c0c4599f5fa4e998617d448bd6a55c2184d7ea3b3bd25eb64f024ccef85ff15e"
+      ],
+      "cutoff_sequence": 3,
+      "review_note": "只最初近期工作近况断，不提前合并后面事实核对。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 65,
+      "event_id": "event-afe7840d0d3a2ecf27ac69037cce8c00d5b9ca7f4f92fe4b25e21cf1abeed0af",
+      "family_id": "family-28588ef24e3ccbeb7eb5ceaa649a366cecca535454b0b0c157d2cfb0e4ada77f",
+      "case_id": "case-347187b085e69aa50b13dc19e914c5bb0823c438502dce4e1a2d4a3ef67cbdbd",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-33e5b3083d7639a6174975822f82bb12c6cff73b187aad933da05587380eeaf0"
+      ],
+      "target_record_ids": [
+        "record-c6dde785b590db3f754d129454237148fcafe335d6078b816743c75ccaf6f9ee"
+      ],
+      "cutoff_sequence": 3,
+      "review_note": "保留初次分析3，序号5及后续解答依赖中途对话，另轮暂缓。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 66,
+      "event_id": "event-b0040748c1af5cb293ba2a8413227456e0d1880e3cde0d31843ad63985921858",
+      "family_id": "family-deea01e5dbfb38cac23994391f8775b627578f3d4e819dae35d1747713301ce0",
+      "case_id": "case-1a2b11fa07bbb8db7a01636368cc50134f4a565189971222eb5756d8ea06bfbc",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-9f2ba305afe0c752cb3934cae17c4c8652d9d020a7a1279c96b1a216553f46fe",
+        "record-44ae9d15ba828376906e8fb24df85dafef1eab06fe9e5f79c81589ac5593323b"
+      ],
+      "target_record_ids": [
+        "record-f12389f7c62b50407d2320fcbfc48a19587dc8f962df32b0c06a3ebab002ef8f",
+        "record-ddd79e424081b9a1854fc870a8e0a286bc1e8acf3cefca05357725d45d61c9b5",
+        "record-e466e1807e94e4bd2e9db281a3548f6a2c49520ba5114dfe5d17d37ee12d1e33",
+        "record-b064a8997621a61c89af032e41709143aea38efc1332ee3d549a8b4e3d021d0e"
+      ],
+      "cutoff_sequence": 2,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 67,
+      "event_id": "event-b1bc3d050272a084fa9d0e7d7971ac6f1c724e88064904b211b3fa0e68371b72",
+      "family_id": "family-f0bff2edcb9acf596aef4ac2e1b3c7beaa1c86a4aa820280af640fc503b270eb",
+      "case_id": "case-ea3c064d2e9fc7f266065fcbd155ec086ac4c69ea2380e78100ee5bca73bccf4",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 68,
+      "event_id": "event-b571206f0050567b898cc3425e09ac6797fedfcdfd8c6fac5d9000ffc2d58eb8",
+      "family_id": "family-7ab9e4f720d65ef4442759351e38ebb42eb4ca61936ee85f8d04a4998ec5e965",
+      "case_id": "case-029e543df86f7e8122a33e6fdafb41a8052a982a577f787b871d05c27e903a77",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-9eb4b937aa39ac8a123e0005ba32ce319a47144a4641cdc68dd0219f22a30dbf",
+        "record-f7be07a97209bc3dcb8ca0025b989995c3821ad9258565b95a622f7dd873c1d4"
+      ],
+      "target_record_ids": [
+        "record-b59e0ca2bc7cd51925a7976a73b96127ba59422b3f8a5933f5eeec01a1b9796e"
+      ],
+      "cutoff_sequence": 3,
+      "review_note": "求测者没有透露失物，输入不含案例题名、章节/领域或后续皮衣信息。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 69,
+      "event_id": "event-b6203192bed4ad1db49283166d5589aca118a0d1b5c0a3d47820fae5195b83b0",
+      "family_id": "family-742130d54da32fba329e2e3f9a455b0784e9327c00eceb57479e7799bd24de07",
+      "case_id": "case-4a1e47ae84392ffab33451a16b24d08bf2c20995300103b9979cf7e1d1c6d7bc",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 70,
+      "event_id": "event-b6e84edca8ea9232ca90506d9be550d53a0fa43d676272625ee6bc9abe25048f",
+      "family_id": "family-84192cb63c9a21057b0b1e2d98611c77b2638c9736fcc389e08dd24207dc342f",
+      "case_id": "case-60d72c817d82eb4566c918c2af264cbeea84e5267666111916ecd4cb5f8eaac5",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-dc5db7e1d450fee29fbf2bfa246725cefa380828dc0f78caef23204a864f42ac",
+        "record-f05e205067a509d8b06aac3e6583840c3e8f2137e84931dbb7258167a8be6cee",
+        "record-939eeaea24871014d47454f2e40ef180a289bc0998baca6f316cac4c54d20add"
+      ],
+      "target_record_ids": [
+        "record-7471ed0311d8ffb585bce923ec3306bb0f4a7089dad254906eee6052b97c71ce",
+        "record-763a9431862c29cb2d97d4b159b45b8af2f41c3df3a3c7a81a8b9ed5231fc7a2",
+        "record-47427c13f06d96fcad947544f4a8fdc0ae37eda8ac54942e26e3f0200846bf40",
+        "record-8997d0d7bef4621690ed8b0bc6e888585dd5bfe369413cd733ba3ab0dd4b58a0"
+      ],
+      "cutoff_sequence": 4,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 71,
+      "event_id": "event-b8f0bad61d478b3149517b6f502912f2c90ed806aadd35367fcb1efcc39b3175",
+      "family_id": "family-86acd5970889e0e2011221641a3d08caed1168542635ee98595f046ae5022548",
+      "case_id": "case-25dbb19e38eaa8d44c833d256146344faa713d9b3fe6b368bfffd53f606ffd6e",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-c6b23cb46885366bef214f0fe46d964c0c57d23aab547a8399b557c15c7a372d",
+        "record-bbd6c613058af795a042c6f90fbf81fb75ac20c663371d5bc63a1d01bbf3767f"
+      ],
+      "target_record_ids": [
+        "record-d57f1d1292348f6281ffae1b332edd8a89ae66fef968c16397b066b6cc785f6b",
+        "record-4b71cc5d499b3e3012268be6be2378337950384d785b7d8b6fa337327883b3ea",
+        "record-1655247428b82b0a957ade25d28a8aa2d9157e9265fb89be7b32dfe9b046ef7b",
+        "record-454f7f3f6e75267df0e87f1be1749f2b098de1995d5664772c30848713b2bdaa",
+        "record-725c2e60f9a7e978fdc78c36f643ae600a3ef28313a195b02e960fd92cabd0b5"
+      ],
+      "cutoff_sequence": 3,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 72,
+      "event_id": "event-ba13b59fb256c4aa23e09821043839b26fe201f088a88b086486ba5be33303d0",
+      "family_id": "family-609b78a46774b68294634b005e90526e942e53cd2d8ca2e378cb9e898360bcd4",
+      "case_id": "case-66e477dd113e9546168814a71a348f90d927350eac4f9a64ed1bcf9db9ed2efa",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-27fe9285a03fbf900e3b8a957d92b7af0137260a4ce8ec74f2501083af745644",
+        "record-816561c7cce26e897e65dd305cc84366a56c52acb00b08ab56f56cdc7028837b"
+      ],
+      "target_record_ids": [
+        "record-ad64cdc3b442273bc5587682a51ad5ec1556dbf8706a469f1dfddaab5667bdc7"
+      ],
+      "cutoff_sequence": 5,
+      "review_note": "仅首个婚史判断，后续对男方实际婚史的承认不入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 73,
+      "event_id": "event-bd89407e3ce0805137793dea2fd3b6af3b8787c5656fdc88a98645938f4131f4",
+      "family_id": "family-47f75d3976795c0d19038d9392d04783dd547fbb81bd558a77afbe8315bf44c2",
+      "case_id": "case-405d8fe297401efc0210237a2bf0d70b183dd3a3eacc7cc334ce4d04a69d26cf",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 74,
+      "event_id": "event-be59b4644c19626051150e9e3209891a5b76d1da385fc486cb171f570493ad05",
+      "family_id": "family-43857b7ab4b6d02ba6faadb60fe05d4521414a167f15cd3823a2fc854f44654b",
+      "case_id": "case-06199fc40772ac8fc5f4a73cde73b79c26318962a41f628c16c8aef05e0c4427",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 75,
+      "event_id": "event-cb14e2db1e5a13776bea3ac1ba23ed8976df1f33cefa925bd7b8ff46d92d546b",
+      "family_id": "family-7742c087df4583b9d3917dd9667dd7a3e3d3108a66aaa4c7470e0ae5aef4d01b",
+      "case_id": "case-842818d6f605c7a5199a24c3cfed93002a361a2519e462190d59c9dbc059244a",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-65b1b59867b6d96231d12a0216a6e6c2fc08bc8de166a55f86932a25b2c6cf6f"
+      ],
+      "target_record_ids": [
+        "record-f1ae978fcd0c197106632fe44669774acba2923c68ee1f598931cbba0e2c5e24",
+        "record-abb786e3635b7d593fe6732d964246f066d5d3d8a3ffe66fb9c0e36489df86c0",
+        "record-9a8cb7df1517cdcceddc2a8611f57194fb471581463cc84e5b8cccd521896e34",
+        "record-54228032712b60adf8143befd311da46ef00e9fdac38a1290480e1abecd0b0a7",
+        "record-163828fdcd22489a239146f4fbca80f664513c51fae95c617158617c885fc8a5"
+      ],
+      "cutoff_sequence": 4,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 76,
+      "event_id": "event-ce7ee9c87b5eebc2a3f482eb9cd2cccfdbd2c1f8f5e71d431fc04ba1a9b43fa3",
+      "family_id": "family-dd36aa29cc3de349ca009c15b3cae79f6f6d4c60a43a042688a91690f8810dc8",
+      "case_id": "case-302aabf8ca053df5882186fa7ba93bff7f24cd583cd4a95ae66f96a7a12fb794",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 77,
+      "event_id": "event-cfe12e11cc85bca3fec123e96e46bfdaf19aea0bf3b100f2751a683909478124",
+      "family_id": "family-a370274b6a3c5f9b970e9844fb38c301db10a3f961cd9a77b11e290cc3b60edf",
+      "case_id": "case-3d0c131e4950ef020bc7d27e4017cc6d9adf838560fdf4dcfbeeacc2019588dc",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-aaaa46bda51448f80e8f277fae238ebc91a0df974b0a52cc83d1c7ee5de659bd",
+        "record-c83911a0ac9a608a76b053060b33e72a535876cbd395a36779457005346a1230"
+      ],
+      "target_record_ids": [
+        "record-a6425b7af68d2a2d0ac87fd206bda30f3d6606a3083065581c1d971f0c9f8ea7",
+        "record-b03ede2ee7a0365b89d8cd2c29f8da8dd15bb776dd78ba882873977265007e53",
+        "record-a0b965698c2123aa711b6b2bd6dd6f1ddc0568100eeca365bb3e435a346e0fcf",
+        "record-1f38a9053c0825a3a5bc37ad9aca2daf1fb614cd38c1717d0dbbd44e3fff5a59",
+        "record-c4d659153b77986874c835a4aa9367603509f861d7059115e55e413f96db166b",
+        "record-227b62e1c40631165a0aed522f2b67391801db7ad0c72c89421c16b5e0a72c58",
+        "record-0f12d825b182934ecfebbedf71290470de0525f801c334440b1d9293fcc2eaa6"
+      ],
+      "cutoff_sequence": 3,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 78,
+      "event_id": "event-d16beaa6800b736754762fe36da64b60707c3925e2c7503dd49fbb5a4672a44b",
+      "family_id": "family-49c7660641cf818392de715a6369ec7a081ecc3b0bda7c834bb8f0d6693b678c",
+      "case_id": "case-1ac4d55c58328404e8aa247f98e54bd5c9758d04c3cad795dc1f78e826942e05",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-35b8407ad9695dbffb39274e715eadaaf74dc2344ea4bf1af0fa29d1c561eda5",
+        "record-dbdebcaa44e4e0205f7ce9edfdc087d7d81a9fed29da994dc8c2cebe26f86cd7"
+      ],
+      "target_record_ids": [
+        "record-f0091c41a545dd057d3f1edf4b27bd522436c3ee5a1031a2f4f698eaaca3768b",
+        "record-3a2b4b06faa963be9869e686e909ada5c667a0a378bf44fe1431c957ee57c883",
+        "record-f609a299ba69150c8545b8604d1697789147883e4d3fbd6c275be802d7edea83"
+      ],
+      "cutoff_sequence": 3,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 79,
+      "event_id": "event-d2c24149f590d2bc4b475f519ed0406fa59f9c4d62292192dd5268151433bd37",
+      "family_id": "family-c87ac2bb301944d5311e9ff0a35986652e6633fed2f50d324bfd6c67f9ab132d",
+      "case_id": "case-8952fc5da57a570385241cce39c1f98d45b9ab8c333ff618c70e3890ebc4cf5d",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 80,
+      "event_id": "event-d373207141fcb18a114e491aaf15068ffc9be04fa8a7394e730e9ba61373be2f",
+      "family_id": "family-0eca637c25d8894f57a1199e103052daf0112a9e16daee8d05fb1608fed3d6bc",
+      "case_id": "case-3031948ca59b417be4ae0fdc2bf6253ea1ccc2e0458a035df0b6b8aac2fa5da0",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 81,
+      "event_id": "event-dc0fd4cdaab0e1e442e24b7e8a973d3752680ef375e8a9dbb8dae4c93470a8ea",
+      "family_id": "family-f018bbbf8250fd6ae4eac2bb729ceada706c6e76da0a6f3b0cbb1a17cfa6a2f6",
+      "case_id": "case-07f860fe820305525ffba961a2369f8b6ff1fead46bf85c2da26dabb5d003ec6",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-82b9c33ddfd8f2edc43207822f4b3a1a60d9f58a6f7aef7e833c129ecf7c331c",
+        "record-406de13493d4b440b514353c634d126a42c629254a2e891c65a5895280a1521d"
+      ],
+      "target_record_ids": [
+        "record-2591ecc4eeeacc596f7db516988ff4e763fb7fe7518ec8e55044e723060ab094"
+      ],
+      "cutoff_sequence": 3,
+      "review_note": "只初次第(1)段，之后问答另轮，不将整案结果提前。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 82,
+      "event_id": "event-de3efd9375179c05b2165d44a043a5fece068c33bcb480f8b2986cd4cc0d9282",
+      "family_id": "family-17ab3487dbf51e137eed97645ccb2c39fdb60481d3ca4e2f082c7b2b191029e4",
+      "case_id": "case-e18ba5844c83c23d448d9ce551cbc146cfe697c3b9a0f248b52872724c80edd0",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-05c2aada1ff456da1294286483ce10b2572ec0a3d9849297a1d499df7b9ac955"
+      ],
+      "target_record_ids": [
+        "record-3c37509b35fe1d55a91775fc295d3b529528a1857168d5d10e78252dad50df1c"
+      ],
+      "cutoff_sequence": 1,
+      "review_note": "泛问求测，输入不含离婚题名或后来承认。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 83,
+      "event_id": "event-de8ef26f57a95fb998260252629c1fd8c9e4676ef54d9e2f5578cf11f847ebbc",
+      "family_id": "family-f2892a286de80434bcdbb1d08211048f0615988fc677421fb242c76ec5258b81",
+      "case_id": "case-e5446929f76492002068967bd0f7d69ae58788ae47b381af75f9e17a671201fe",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-2c0f6d9df879e03ea3a1a2f32745339327eab277d19bdf0f220aea221c0272e6"
+      ],
+      "target_record_ids": [
+        "record-0f20b0990fa03371ee4a6cff65f5bf4b44358b0f507abb0c0f2749c53ac67786"
+      ],
+      "cutoff_sequence": 4,
+      "review_note": "只女方外貌学历初断，不提前使用下一轮确认或后续婚事成败。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 84,
+      "event_id": "event-dedfd3fd5c0d0e5a56e290ec146f85e484f8868ccce1f6abd1b25892d1e39cc9",
+      "family_id": "family-8fa0416995b0c6b2059c4eec1d4f399757e4d9655aea698f12ae1629a0402a13",
+      "case_id": "case-e3e071482aa5e18af02ef00b25698d4850559ab1e32e3b4884967a98ede1c601",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 85,
+      "event_id": "event-e425fc0f557667fd3e3d6abbe7e756a2774c525891aefedef4cf3567139eeb55",
+      "family_id": "family-4e07877a876ef919b876e39a8ab5dfadacaa19a746877ac242c592369e5a6bfe",
+      "case_id": "case-99e5d7b77d9880042106cce4c60b434f34205f782492f0a46b28b2e255e65610",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-9adfb1f8f69868944fd81fe3fb57547d791f17888bd388d279fa1c1df1e470b1",
+        "record-cfa6fe9afd1010ed7d56ab0ad3c906a34b454973c1d6c619ebcad4ca658367cd"
+      ],
+      "target_record_ids": [
+        "record-ed35650279229f377b6ff524fb02a339f48615f628a5043d37a65c5b393366fd",
+        "record-8de904bd7be6d3fabafa4cc65c170420e8e8f61221bfd0f6a3373783d30b4398",
+        "record-6096ef744cb938a76c0577c9a7a803ceddda29bbce44cf56eedfa6fd960bcc5d"
+      ],
+      "cutoff_sequence": 3,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 86,
+      "event_id": "event-e7e418966dec99373ff7ea7bb9a3f72022c45153fa0b354443b709e01ae50f99",
+      "family_id": "family-8fc64773a16c951fb9e808b55162729a3a6aa56ff0fda4a74df1648265a0ee30",
+      "case_id": "case-3f5bd69c19807861162f3dae2de2d5b171199a2714e37bd15088f89d33c65b2e",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-7539e42b1e0258a06e5a4b703225db3ea61b24bf2dedd93986d3587c70bdca3f",
+        "record-e998b06a6d84050e83633819276f3edabf6baff2f31b36a161208a8459c42d7f",
+        "record-fd7129b9d668fdab273139656091f227a459ffd3a50bb7f47d2495f7876863ab",
+        "record-2ab4989be8e1ec68ffbc0091c47b4297ad87edb2a58a5baa19813b376c269d87"
+      ],
+      "target_record_ids": [
+        "record-0949af1c4da8f21a0b8db9383cfe5d3fae8f023ac55e9d721d2ecfbf50ad54a1",
+        "record-46244fd91024cb8e499b53b53e2d903408972f2342b90b2277072323ad773d5b"
+      ],
+      "cutoff_sequence": 5,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 87,
+      "event_id": "event-eb4aebe82fb7e80c2baa5e77ae8f12ee372e508a4f035b7242c715c68b56997d",
+      "family_id": "family-c9bcb94ab437b9f8056e28baf4f79fd165843706102ad2ea1bc9980eae3ab2e5",
+      "case_id": "case-dc6238a5f749af624ffd54792af8ced4823aa751485a93eda74bb58d9e00e6d0",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-917348d29955bb79619409f9d53a89d2eb1e2841cd6f9ea8e3787469b7522ca4",
+        "record-66bb27617873be79bd3d929381970c9db8eadd7d398262035ab9744eacf7ba4c",
+        "record-7fbcf4d6f2539d7bcd8ef155b36e4dc4683dbd6daa6f5cf41d83654a8a3427f0"
+      ],
+      "target_record_ids": [
+        "record-3972d7b68856d545a6e32e3a52c0d8a90f2b27519d774f797bd0f5fc677b8115"
+      ],
+      "cutoff_sequence": 4,
+      "review_note": "只肠胃手术首断，不提前加入随后病情承认和后置解释。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 88,
+      "event_id": "event-ecf6ddb1806678843affee3d6378fe4526c3f56593b335bcfcc0e093ff718608",
+      "family_id": "family-f284e5b0a84170015100d4169bead84ba4ed5a6133eaae3036376241dc6c0e53",
+      "case_id": "case-4c9167e5865158db0e16e1ef0a6702fee49c1b234ef117ad530bbee3f920fac2",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-93a8ceca8799bc52795fd630a7fd662894cea660e42e13545eae31840808ad92",
+        "record-fc7369f560e75d147f0f683d65001ac4867b9129100fba35ead9590ed09488ed"
+      ],
+      "target_record_ids": [
+        "record-b6709eebd61ca29a8ea5a257424976665a4b520a67f76781b3c8f61b93fecc8b",
+        "record-469bc5a2a7183f00360b7609e9dd85115ed1ad21529f51453fadd5cc51054c44",
+        "record-f9a16b3588879157f6c7ea8c49228ebe7b5d3655a5d687e50fa5de81cfef5347"
+      ],
+      "cutoff_sequence": 3,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 89,
+      "event_id": "event-ed0f0675396f3ffdd914e11148587ebb19267c5f45ad0d412860358f7833d744",
+      "family_id": "family-649dc0789e24afe504d39c3a5f1af4714bb58f50a66d580681255edddcf373f1",
+      "case_id": "case-df8242049e9bc8dc0de93fe9f43406f0e686b009a78f9832910bb7227a79c5e9",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 90,
+      "event_id": "event-f10966a29a047283bb97083445b33ab62e8a82e0ed7f04b518baa74330a23056",
+      "family_id": "family-f7bc530b6552ee7d75b66d256984602029e80e33d2355b4f07fb1beb1344c34b",
+      "case_id": "case-c8d1e05c9761ccb9c63887c16b5d2abe61996a335a83c184e8321a42df804896",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-e0cb1a9644390c5a77a503c623324cad812f9a0fc3b19eeda625c0915c98e418",
+        "record-1a1987c5817f2ac3187657cb2de8a42dd25cfee4aa189518da8adc5f841cf9ed",
+        "record-8c89a1d46d2952796bd485774c7de55a2e030382c2278229f798ccba82602404"
+      ],
+      "target_record_ids": [
+        "record-68d11ca870d64198b04a313be0af82df3a6689dca63ccb5feb8d675f94dcb320",
+        "record-00eaf7adab5fbddf0902e91c1c582332a2768a3f5acff28061efbd65dfbaa6b6",
+        "record-d1d56fcf9708dd0af0c91dbcea4d177010921a37079816457b4af716f3050711",
+        "record-82f719265db333445390fff5dcd861dd40fd2c56fc6d1a2e291172f3ea300648",
+        "record-4b25165c138f1077eee9197d74a62a43094925ed92c7ca73993318eb809596ea"
+      ],
+      "cutoff_sequence": 4,
+      "review_note": "报刊宣传作为求测前转述背景，保留归属；非现代临床建议/疗效验证。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 91,
+      "event_id": "event-f1614748d2320ad62e8a4ad14e65c9af3dc825fdd13b84de49a9c4fd800972d5",
+      "family_id": "family-06659008ffb3141673b64b6c6ce84b0d01dc4649953a444d1d20a8554353479d",
+      "case_id": "case-ea86d002d73e8c074ba86bccdab0a73833d4690b8dda2a7230547b15bfabe416",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 92,
+      "event_id": "event-f785d1530a7343fc70d46e618cafc72608ae8325579745047106a014b05b5db6",
+      "family_id": "family-88ef2d196e1d21b82f5e74f12776ee8cafe256e6d7cebf15a4939e18527fc62f",
+      "case_id": "case-82e074e0cf047090c8a76bba680c10cb39315cf0ed59b4080c5659c5a5556a60",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-a4f156b3619448ca13ab61bca451ce580f8579b281a6722775890d433a52938d"
+      ],
+      "target_record_ids": [
+        "record-e2911de3146fdaf1229f5f996eaa3b6824aa609c2a7fc58f5dd7af24ef2a59f3",
+        "record-000648638523f85381f478806a8f8772d69b025367d32f5bf9b99a925308aa38",
+        "record-4f171820feeb5959484dcaaed2844826921683ecb1a8164d679f4bf7b04deed0",
+        "record-786ad43d2598ab58a0ba9e2d4b4d6983160ac66965d1dcb738b93d057810757a",
+        "record-a3f555902fd621d04987379d97335d90b7b28636eeaff5d1985d7818f15c9d62"
+      ],
+      "cutoff_sequence": 2,
+      "review_note": "初次已知问测对话与原始首盘；仅该轮原文显式步骤/判断，后续反馈和解释不进入输入。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 93,
+      "event_id": "event-f853ec28d2d92bf234f79e4a3314d459986d01a8ff70ac363459e4d63ed99dd7",
+      "family_id": "family-528251b4325d4290b16affec2a2c5294828e84b69722c633576f0cdca244dc68",
+      "case_id": "case-79ac973e4894351bd15ca06a2b6bd23fd87d2cdaf8b0dd96968e113ae758f64c",
+      "disposition": "pending_not_exported",
+      "review_note": "暂缓：缺首轮完整已知问测、缺适用完整盘、后续/多盘时序或需再审读的背景/分析；不改旧案例、不将其视为无效资料。"
+    },
+    {
+      "candidate_index": 94,
+      "event_id": "event-f88d63afe52e39f227080cc107881363fe5d7c386e475946b55bf35fe3289d2a",
+      "family_id": "family-f48a7d16e9dc300bb5e7fe9b998de26d83d4aa7985502886f8776fa6322e01ad",
+      "case_id": "case-37a08549bba6a899758b833ae7cdbebdac389a7044013eaa96e1ae14b4ca90be",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-a1c283b3fd31abbe09afdca16976ee62fd80d0c38ce90d5c69253f7d1901df24"
+      ],
+      "target_record_ids": [
+        "record-05536bc39bbd9c4f8aa2c2d4cc551ac265f4f178918f9ee54c26bb2418fac6e5",
+        "record-7627da2d2fb1250d7cc46dcd0c30f508995fffa3b0e477e56a158a4c8ddf023e"
+      ],
+      "cutoff_sequence": 2,
+      "review_note": "只初断(1)(2)；后来病情核对和出院时间另轮。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    },
+    {
+      "candidate_index": 95,
+      "event_id": "event-fa3eb010ae66f56df1aa39119d0c46dffb6338115a1deb65cf3c0298e2e4f326",
+      "family_id": "family-da7cc73015634d4bd69e085860258ce0010fb162773e4c2c32e3d58a03d408dc",
+      "case_id": "case-41a68ebd451cfde6d08c5c85c8d63a344b4342646939c95f5269499e357fc803",
+      "disposition": "include_initial_turn",
+      "input_record_ids": [
+        "record-618d05422537b017962a48a1c903fb850931b48c12f088b15ff525d14dd62a1f",
+        "record-8df2be0095e9248a7b452a277e4e5c2967f79036ae5e3df7482efb36f116c025"
+      ],
+      "target_record_ids": [
+        "record-aa7d58395a0a5ebe70c372ad0f6abff55a524e9201009eec12166614159ea7c6"
+      ],
+      "cutoff_sequence": 3,
+      "review_note": "只首轮(1)推断；不把后来险情反馈与续断提前。",
+      "source_chart_policy": "one original chart only, wholly before earliest selected target; require exact source bytes; metadata not taken from unrestricted background"
+    }
+  ]
+}

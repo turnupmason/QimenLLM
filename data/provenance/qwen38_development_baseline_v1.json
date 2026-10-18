@@ -1,0 +1,60 @@
+{
+  "scope": "27b development baseline not professional/predictive accuracy",
+  "model_revision": "10c35caafbb80f7dc6a7a432cdd11af10a6d4818",
+  "data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "suite_sha256": "6c43228e83db2e71eb658ef2a385088cb93a007fbaea4006d93eb0d0e37b5a78",
+  "summary": {
+    "requests": 12,
+    "statuses": {
+      "research_generated": 12
+    },
+    "by_arm": {
+      "base": {
+        "requests": 3,
+        "statuses": {
+          "research_generated": 3
+        },
+        "author_fields_available": 7,
+        "author_fields_matched": 0,
+        "reported_outcome_fields_available": 4,
+        "reported_outcome_fields_matched": 0
+      },
+      "symbolic_chart": {
+        "requests": 3,
+        "statuses": {
+          "research_generated": 3
+        },
+        "author_fields_available": 7,
+        "author_fields_matched": 0,
+        "reported_outcome_fields_available": 4,
+        "reported_outcome_fields_matched": 0
+      },
+      "chart_knowledge": {
+        "requests": 3,
+        "statuses": {
+          "research_generated": 3
+        },
+        "author_fields_available": 7,
+        "author_fields_matched": 1,
+        "reported_outcome_fields_available": 4,
+        "reported_outcome_fields_matched": 0
+      },
+      "candidate_conditions": {
+        "requests": 3,
+        "statuses": {
+          "research_generated": 3
+        },
+        "author_fields_available": 7,
+        "author_fields_matched": 1,
+        "reported_outcome_fields_available": 4,
+        "reported_outcome_fields_matched": 0
+      }
+    },
+    "professional_correctness": null,
+    "real_world_predictive_accuracy": null,
+    "full_condition_rule_baseline": "blocked",
+    "finetuned_baseline": "not_run"
+  },
+  "report_sha256": "bd8904b1d681a6fd3eda1d0884e76d8e9752ad469d99ca777321a5673e178a03",
+  "training_performed": false
+}
