@@ -38,3 +38,6 @@ TXT10912原字节/4298字符/81行，末尾LF；SHA256 c755e3879432b2f84329e0b94
 ## 未完成
 
 独立公历/节气/四柱/全面排盘、正式用神激活、专业断案与应期、模型训练/现实效果评估及公众Web未完成。正式问事仍只通过QimenService.ask，资料读取或阻断不算专业成功。未用外部文献或模型记忆补出结局/内部推理。完成本章后等待下一章。
+
+
+远端内容验收：`bb5bbead2e5beb72132501e97e37c55f396b1787` 已核对main一致、333文件blob匹配；[Actions 39081549783](https://github.com/turnupmason/QimenLLM/actions/runs/39081549783) 的Ubuntu/macOS × Python3.11/3.12四job全部success，四份日志均实际Ran 392 tests / OK。通过已连接GitHub接口非强制更新，未增删workflow。这里记录已实际验收的内容提交；本验收文档后续提交本身仍须按精确新SHA另查四CI，不以旧CI替代。

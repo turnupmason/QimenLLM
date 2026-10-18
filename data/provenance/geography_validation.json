@@ -158,7 +158,57 @@
   "old_raw_documents_preserved": 18,
   "remote_base_sha": "2a0e6c0f9c0ed6a33c08937bb7563cbcf8c17b5f",
   "github_sync": {
-    "status": "pending"
+    "status": "synced",
+    "repository": "turnupmason/QimenLLM",
+    "content_commit": "bb5bbead2e5beb72132501e97e37c55f396b1787",
+    "transport": "connected_github_git_data_api",
+    "remote_main_verified": true,
+    "files_verified": 333,
+    "ci": {
+      "run_id": 39081549783,
+      "url": "https://github.com/turnupmason/QimenLLM/actions/runs/39081549783",
+      "head_sha": "bb5bbead2e5beb72132501e97e37c55f396b1787",
+      "jobs": [
+        {
+          "id": 117539342084,
+          "name": "stdlib-tests (macos-latest, 3.12)",
+          "conclusion": "success",
+          "summary": [
+            "2026-10-18T00:07:42.3358300Z Ran 392 tests in 53.372s",
+            "2026-10-18T00:07:42.3358510Z OK"
+          ]
+        },
+        {
+          "id": 117539342241,
+          "name": "stdlib-tests (ubuntu-latest, 3.11)",
+          "conclusion": "success",
+          "summary": [
+            "2026-10-18T00:07:52.0482703Z Ran 392 tests in 63.176s",
+            "2026-10-18T00:07:52.0483827Z OK"
+          ]
+        },
+        {
+          "id": 117539342267,
+          "name": "stdlib-tests (ubuntu-latest, 3.12)",
+          "conclusion": "success",
+          "summary": [
+            "2026-10-18T00:07:39.8156178Z Ran 392 tests in 50.024s",
+            "2026-10-18T00:07:39.8156718Z OK"
+          ]
+        },
+        {
+          "id": 117539342280,
+          "name": "stdlib-tests (macos-latest, 3.11)",
+          "conclusion": "success",
+          "summary": [
+            "2026-10-18T00:07:34.1980820Z Ran 392 tests in 43.976s",
+            "2026-10-18T00:07:34.1981020Z OK"
+          ]
+        }
+      ]
+    },
+    "data_version": "94f52e84-d394-4d82-9b38-f779acbd8d22",
+    "snapshot_manifest_sha256": "d3b012494126d66e9f35131960a80344f39172686b42bdf0eaa4e1645acbddbc"
   },
   "workflow_added": false,
   "workflow_deleted": false,

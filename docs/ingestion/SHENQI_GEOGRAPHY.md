@@ -28,3 +28,6 @@ scripts/import_shenqi_geography.py复用import_chapter → install_curated → i
 本章17专项及全量392回归实际通过、0失败/错误，包括API两盘/CLI两案、第二故事两事件但一盘、预算/结果范围、姓名与事件身份、正反条件不激活、时序隔离、旧行/幂等/拒改及快照恢复。远端精确SHA四CI以STATUS和data/provenance/geography_validation.json实际验收为准，未完成不假称成功。旧25权威表全部旧行逐字段仍在、18旧原文逐字节相同；45文件快照恢复再导出一致。旧章source/cases/curation/gold和总指令不改，无schema迁移、新目录或workflow增删。
 
 累计19份章级输入、92故事/88家族/99事件/97来源原盘、1407记录/1730证据，1059知识项/2429概念/28方法；486语境块/321技术边界/190当前候选/197历史候选，39编译符号族不变。正式rules/训练任务/冻结release仍0。
+
+
+远端内容验收：`bb5bbead2e5beb72132501e97e37c55f396b1787` 已核对main一致、333文件blob匹配；[Actions 39081549783](https://github.com/turnupmason/QimenLLM/actions/runs/39081549783) 的Ubuntu/macOS × Python3.11/3.12四job全部success，四份日志均实际Ran 392 tests / OK。通过已连接GitHub接口非强制更新，未增删workflow。这里记录已实际验收的内容提交；本验收文档后续提交本身仍须按精确新SHA另查四CI，不以旧CI替代。
