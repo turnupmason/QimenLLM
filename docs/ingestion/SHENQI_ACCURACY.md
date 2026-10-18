@@ -38,3 +38,5 @@ PYTHONPATH=src python3 -m unittest discover -s tests -v
 数据版本b79a2c25-dd1e-4ecd-b0cb-10956fe080de，manifest SHA256 ed62a8ee475dee77a8175a5efffe3542b3904614b996407665eff776f6fc2e0b。25表旧行逐字段均在、20旧原文字节一致、47快照文件恢复再导出一致。累计21输入、2530概念/30方法、1109知识项/3163来源片段、511语境组/342边界；97故事/93家族/104事件/102原盘、1549记录/1872证据、194当前候选/201历史与39编译符号族保持。正式rules/训练/release均0。
 
 既有`.github/workflows/tests.yml`保留，本次无workflow增删。历史一次性workflow的确切路径/增加与删除commit已在SHENQI_TRAVEL.md审查，本轮未重新创建。未改旧章source/curation/cases/gold/验收报告、旧总指令或冻结规则。独立公历、专业用神/断案/现实准确率与训练尚未完成。
+
+远端内容验收：`f08d7701982946b9d5ddd7617c635532df0d7c2a` 已核对main一致、354文件blob匹配；[Actions 39082973635](https://github.com/turnupmason/QimenLLM/actions/runs/39082973635) 的Ubuntu/macOS × Python3.11/3.12四job全部success，四份日志均实际Ran 429 tests / OK。通过已连接GitHub接口非强制更新，未增删workflow。这里记录实际验收的内容提交；本验收文档提交自身须按精确新SHA另查四CI，不以旧CI替代。
