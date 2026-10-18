@@ -94,6 +94,28 @@ def model_report(manifest_path, verify_hashes=False):
             'hash_check_performed': verify_hashes}
 
 
+def current_book_state():
+    work = ROOT / 'work'
+    def read_status(rel, *keys):
+        file = work / rel
+        if not file.is_file():
+            return {'exists': False}
+        try:
+            value = json.loads(file.read_text(encoding='utf-8'))
+            return {'exists': True, **{key: value.get(key) for key in keys}}
+        except (OSError, ValueError):
+            return {'exists': True, 'unreadable': True}
+    data = work / 'book-method-curriculum-v1'
+    return {'pipeline': read_status('book-iteration-v1/pipeline.json', 'stage', 'pid', 'error_type'),
+            'stage_a_receipt': read_status('book-method-stage-a-cache.json', 'status', 'optimizer_updates'),
+            'whole_book_cache': read_status('book-method-curriculum-cache.json', 'status', 'optimizer_updates'),
+            'baseline': read_status('mac-book-method-before-v1/report.json', 'status', 'test_accessed'),
+            'training': read_status('mac-book-method-lora-v1/progress.json', 'status', 'completed_epochs', 'optimizer_steps'),
+            'training_receipt': read_status('mac-book-method-lora-v1/report.json', 'status', 'completed_epochs', 'optimizer_steps'),
+            'release_files_present': {split: (data / (split + '.jsonl')).is_file()
+                                      for split in ('train', 'validation', 'development', 'test')}}
+
+
 def report(manifest_path=None, verify_hashes=False):
     mem = memory_bytes()
     disk = shutil.disk_usage(ROOT)
@@ -116,6 +138,7 @@ def report(manifest_path=None, verify_hashes=False):
              'mlx_installed': importlib.util.find_spec('mlx') is not None,
              'torch_installed': importlib.util.find_spec('torch') is not None,
              'model': model_report(manifest_path, verify_hashes),
+             'book_iteration': current_book_state(),
              'machine_training_verified': False,
              'note': 'This checks availability and files, not a real GPU load or training step.'}
     latest = ROOT / 'work/mac-book-method-lora-v1/latest.json'
