@@ -35,6 +35,17 @@ class FullChapterCoverageAuditTests(unittest.TestCase):
         self.assertEqual(s['source_chapters_with_validation_tasks'], 10)
         self.assertEqual(s['source_chapters_with_development_tasks'], 3)
         self.assertEqual(s['frozen_test_tasks_reserved'], 57)
+        self.assertEqual(len(s['case_chapters_missing_any_sealed_test_tasks']), 6)
+        self.assertEqual(len(s['case_chapters_missing_unseen_validation_families']), 5)
+        self.assertEqual(s['minimum_eligible_independent_final_test_cases_per_case_chapter'], 1)
+        self.assertFalse(s['every_case_chapter_independent_final_test_verified'])
+        missing = {c['chapter'] for c in s['case_chapters_missing_any_sealed_test_tasks']}
+        self.assertIn('education-examinations', missing)
+        self.assertIn('health-prediction', missing)
+        self.assertIn('pregnancy-childbirth', missing)
+        self.assertIn('weather-prediction', missing)
+        self.assertIn('geography-environment', missing)
+        self.assertIn('life-opportunities', missing)
         self.assertFalse(s['test_file_opened'])
         self.assertFalse(s['all_chapter_professional_pass'])
         for c in report['chapters']:
