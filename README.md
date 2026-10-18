@@ -1,8 +1,8 @@
 # QimenLLM
 
-古籍知识、确定性计算、完整案例与可替换语言模型结合的研究工程。**当前累计接收《神奇之门》二十四份章级来源输入，98个完整故事/106事件/104来源盘记录。本轮保存附录二《从编辑、作家到易学专家》的精校独立来源，与此前复合附件正文一致；已关联旧语境，不重复增加人物理论、案例或规则。独立公历起盘、正式用神、专业问事及模型训练尚未完成。**
+古籍知识、确定性计算、完整案例与可替换语言模型结合的研究工程。**当前累计接收《神奇之门》二十五份章级来源输入，98个完整故事/106事件/104来源盘记录。本轮为附录一《学习奇门遁甲并不难》的精校独立来源；虽后于附录二接收，书中篇次仍为一。与此前复合附件同文，关联旧语境和三旧案，不重复增加理论、方法、案例或规则。独立公历起盘、正式用神、专业问事及模型训练尚未完成。**
 
-用户已统一确认既往及未来提供的资料与历史事实，并声明已独立确认。维护导入默认confirmed，不再请求原文二次确认；确认依据与程序复算、模型评估分开记录，详见[现行来源政策](docs/KNOWLEDGE_POLICY.md)及[附录二精校来源报告](docs/ingestion/SHENQI_BIOGRAPHY.md)及[附录报告](docs/ingestion/SHENQI_APPENDIX.md)及[后记报告](docs/ingestion/SHENQI_AFTERWORD.md)及[准确率评估知识报告](docs/ingestion/SHENQI_ACCURACY.md)及[人生机遇报告](docs/ingestion/SHENQI_LIFE.md)及[地理环境报告](docs/ingestion/SHENQI_GEOGRAPHY.md)及[天时气象报告](docs/ingestion/SHENQI_WEATHER.md)及[体育竞赛报告](docs/ingestion/SHENQI_SPORTS.md)及[官司诉讼报告](docs/ingestion/SHENQI_LITIGATION.md)及[刑事案件报告](docs/ingestion/SHENQI_CRIMINAL.md)及[钱物丢失报告](docs/ingestion/SHENQI_LOST.md)及[行人走失报告](docs/ingestion/SHENQI_MISSING.md)及[出行出国报告](docs/ingestion/SHENQI_TRAVEL.md)及[经营求财报告](docs/ingestion/SHENQI_BUSINESS.md)及[上一轮工作就业报告](docs/ingestion/SHENQI_EMPLOYMENT.md)。
+用户已统一确认既往及未来提供的资料与历史事实，并声明已独立确认。维护导入默认confirmed，不再请求原文二次确认；确认依据与程序复算、模型评估分开记录，详见[现行来源政策](docs/KNOWLEDGE_POLICY.md)及[附录一精校来源报告](docs/ingestion/SHENQI_LEARNING.md)及[附录二精校来源报告](docs/ingestion/SHENQI_BIOGRAPHY.md)及[附录报告](docs/ingestion/SHENQI_APPENDIX.md)及[后记报告](docs/ingestion/SHENQI_AFTERWORD.md)及[准确率评估知识报告](docs/ingestion/SHENQI_ACCURACY.md)及[人生机遇报告](docs/ingestion/SHENQI_LIFE.md)及[地理环境报告](docs/ingestion/SHENQI_GEOGRAPHY.md)及[天时气象报告](docs/ingestion/SHENQI_WEATHER.md)及[体育竞赛报告](docs/ingestion/SHENQI_SPORTS.md)及[官司诉讼报告](docs/ingestion/SHENQI_LITIGATION.md)及[刑事案件报告](docs/ingestion/SHENQI_CRIMINAL.md)及[钱物丢失报告](docs/ingestion/SHENQI_LOST.md)及[行人走失报告](docs/ingestion/SHENQI_MISSING.md)及[出行出国报告](docs/ingestion/SHENQI_TRAVEL.md)及[经营求财报告](docs/ingestion/SHENQI_BUSINESS.md)及[上一轮工作就业报告](docs/ingestion/SHENQI_EMPLOYMENT.md)。
 
 执行约束见 [AGENTS](AGENTS.md)，[原始用户总指令](docs/user_instructions/master_spec_2026-10-17.txt)，[本次重申总指令](docs/user_instructions/master_spec_reaffirmed_2026-10-17.txt)，[当前进度](docs/STATUS.md)，[首章入库报告](docs/ingestion/SHENQI_CHAPTER01.md)、[第二份报告](docs/ingestion/SHENQI_CHAPTER02.md)、[第四、五章报告](docs/ingestion/SHENQI_CHAPTERS0405.md)、[应用概述报告](docs/ingestion/SHENQI_APPLICATION_OVERVIEW.md)、[疾病案例报告](docs/ingestion/SHENQI_HEALTH.md)、[婚恋案例报告](docs/ingestion/SHENQI_MARRIAGE.md)。没有读取或继承旧项目。
 
@@ -52,7 +52,7 @@ src/qimenllm/按knowledge/casting/retrieval/rules/cases/reasoning/models/verific
 
 data/qimenllm.sqlite3是本地运行库，raw_books是原字节镜像，二者不直接入Git。**实际原文字节与全部权威表**保存在data/snapshots/current，可恢复；整理和来源测试在data/structured/shenqi，来源与验收在data/provenance。schema v1见src/qimenllm/knowledge/migrations/001_initial.sql及[SCHEMA](docs/SCHEMA.md)。
 
-累计551个上下文块（含本轮1个来源对应语境）、39编译符号族、368来源/技术边界、16符号教学例；196当前条件候选对应203不可变历史条，正式角色rules仍0。98完整故事/94家族/106事件/104来源盘记录、1579记录/1902证据；缺盘不造。作者明确反馈按用户声明确认；未载结局不补。本轮5张人生机遇原盘45宫逐字读取，已知结果后验测、死亡年份错断及初五后验应期隔离；此前2张地理环境原盘18宫逐字读取，先考题无盘不造，两处墓地同家族且反馈范围有限；此前5张天气原盘45宫逐字读取，与体育章共局一案共用家族、辅庚/铺庚原文并存；此前7张体育竞赛原盘63宫逐字读取，铺庚星名保持未知，第六例错断保留；此前6张官司诉讼原盘54宫逐字读取并隔离后置解释；此前6张刑事案件原盘已逐盘读取，含同一银行案两种方法且后验比较隔离；钱物丢失8张原盘保留；行人走失11张四行盘保留；出行出国7张框线原盘保留；经营求财16张原表已逐盘读取，原书特殊中五“禽己”保留字面前缀；上一轮工作调动盘仍保留2处程序携干差异。训练任务0，旧217有向参考键仍保留原句和条件，详见[覆盖](docs/KNOWLEDGE_COVERAGE.md)。
+累计552个上下文块（含来源对应语境）、39编译符号族、369来源/技术边界、16符号教学例；196当前条件候选对应203不可变历史条，正式角色rules仍0。98完整故事/94家族/106事件/104来源盘记录、1579记录/1902证据；缺盘不造。作者明确反馈按用户声明确认；未载结局不补。本轮5张人生机遇原盘45宫逐字读取，已知结果后验测、死亡年份错断及初五后验应期隔离；此前2张地理环境原盘18宫逐字读取，先考题无盘不造，两处墓地同家族且反馈范围有限；此前5张天气原盘45宫逐字读取，与体育章共局一案共用家族、辅庚/铺庚原文并存；此前7张体育竞赛原盘63宫逐字读取，铺庚星名保持未知，第六例错断保留；此前6张官司诉讼原盘54宫逐字读取并隔离后置解释；此前6张刑事案件原盘已逐盘读取，含同一银行案两种方法且后验比较隔离；钱物丢失8张原盘保留；行人走失11张四行盘保留；出行出国7张框线原盘保留；经营求财16张原表已逐盘读取，原书特殊中五“禽己”保留字面前缀；上一轮工作调动盘仍保留2处程序携干差异。训练任务0，旧217有向参考键仍保留原句和条件，详见[覆盖](docs/KNOWLEDGE_COVERAGE.md)。
 
 ## 每次更新同步GitHub
 
@@ -109,3 +109,5 @@ PYTHONPATH=src python3 scripts/import_shenqi_appendix.py
 本篇“最多五十分钟”明确以蔡敦祺已有其他奇门基础为条件，教学目标和作者的准确率比较保留归属；不自动改变旧方法默认值或升级实测成绩。
 
 附录二精校文件已独立保存原字节并关联旧复合源；去空白及旧页眉后2478字符完全一致，末句“代表人物之”断尾仍按源保留。`PYTHONPATH=src python3 -m qimenllm reference biography_clean_source_reference --filters '{}'` 可读整篇新来源，`learn 精校来源` 可查与旧5组语境的关系。重放使用 `PYTHONPATH=src python3 scripts/import_shenqi_biography.py`。来源接收数增加不代表新增一篇独立理论或实测样本。
+
+附录一精校来源与旧复合源的总题及第一篇去空白/明确页眉后3988字符一致。原14语境、卢圣湘抽奖/尚瓴吉选举/赵国葆身份证三个旧案保持关联，不复制案盘；四难、三原则目标、作者取法和五十分钟已有基础的条件照源保留。`reference learning_clean_source_reference --filters '{}'` 可读新整篇，重放使用 `PYTHONPATH=src python3 scripts/import_shenqi_learning.py`。附录一接收排序26与附录二排序25分别保存，旧键、旧源和方法默认不变。

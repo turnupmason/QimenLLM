@@ -1,0 +1,36 @@
+{
+  "source_sha256": "10db674c708186c6408c9d38228b066456ed71adb6e5939e2e1102e2a2df15ef",
+  "source_byte_count": 11761,
+  "source_line_count": 51,
+  "source_file": "神奇之门_附录一_学习奇门遁甲并不难_精校完整版.txt",
+  "printed_appendix_number": 1,
+  "received_sequence": 26,
+  "verification_basis": "user_attestation",
+  "system_performed_independent_verification": false,
+  "context_groups": 1,
+  "technical_boundaries": 1,
+  "new_substantive_articles": 0,
+  "new_concepts": 0,
+  "new_methods": 0,
+  "historical_cases_added": 0,
+  "events_added": 0,
+  "charts_added": 0,
+  "rule_candidates_added": 0,
+  "existing_case_summary_links": 3,
+  "project_empirical_accuracy": null,
+  "comparison": {
+    "policy": "remove_whitespace_and_only_explicit_old_printed_header_for_comparison",
+    "excluded_old_source_lines": [
+      93
+    ],
+    "normalized_equal": true,
+    "normalized_character_count": 3988,
+    "article_body_normalized_character_count": 3986,
+    "normalized_sha256": "d35273b2452c0b17b5e9b55578876736b2a0c8276548a085e749cab0003afec8",
+    "lexical_differences": []
+  },
+  "schema_migration": false,
+  "default_casting_method_changed": false,
+  "formal_rules_added": 0,
+  "training_tasks_added": 0
+}

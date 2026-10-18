@@ -1,36 +1,34 @@
 # 当前项目状态
 
-更新：2026-10-17。本轮附录二《从编辑、作家到易学专家》精校独立来源，appendix-biography-clean/接收排序25，累计24份章级来源输入。接收次数含同文不同排版来源，不当独立理论篇数或预测次数；沿AGENTS、用户总指令和schema v1接续。
+更新：2026-10-17。本轮附录一《学习奇门遁甲并不难》精校独立来源，appendix-learning-clean/接收排序26，累计25份章级来源输入。用户先给附录二再给附录一；printed_appendix_number=1与接收排序分别保存，旧附录二键/排序25不改。
 
-## 来源核对
+## 来源与重复处理
 
-新TXT7221 UTF-8原字节/2495字符/17行LF，末尾LF；SHA256 b9f8fc44d2174f54cc962ed31dd794262cb1d54a1e6060fcdf279570e8abb716。原样保存到uploads、SQLite BLOB、snapshot raw，confirmed/user_attestation。旧复合源df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340的140–171行，除155明确页眉及空白后，与新文件2478字符完全一致，无词句增删。保留新旧哈希、两侧字节范围、排除页眉规则和规范化对照哈希；旧CRLF源与既有整理均不改。
+TXT11761 UTF-8原字节/4039字符/51行LF，末尾LF；SHA256 10db674c708186c6408c9d38228b066456ed71adb6e5939e2e1102e2a2df15ef。uploads、SQLite BLOB、snapshot raw原样保全，confirmed/user_attestation。新文件总题“附录”及第一篇，与旧复合源df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340的77–139行去空白/仅去93明确页眉后3988字符完全一致，词句差异0；其中第一篇正文3986字符。新旧源哈希、双侧字节范围、对照策略/哈希和14旧语境关联存库，旧CRLF源不变。
 
-关联原5语境：人物篇名署名、1996会议开篇、1997访问/履历书目、六大论、笔名与访问结语。作者宛北布衣与被报道者张志春分开；人物职务、称誉、六大论及科学性评价仍归属原报道，不作当前任职或项目实证。新旧11/157行“代表人物之”均断尾，照源不补“一”。本篇没有新案、盘或起局方法。
+本篇作者张志春，已保存四难（定局、起局、断卦、应期）、三原则/三目标、拆补按交节、时家排宫/中五寄坤/天盘八神及已有其他基础才五十分钟的条件。教学经验、准确率比较和赞誉仍归属作者/来信，不转项目保证。三则学员摘要对应求财卢圣湘、就业尚瓴吉、钱物赵国葆的旧家族，保留精确新范围45/47/49；不克隆案例、图盘、预测次数或既有已知结果。连门也人不了等源字面保留，不以文件名精校自行修字。
 
-只使用已有import_chapter/add_annotations，新增1完整来源对应语境和1来源边界（2条参考注释）；不重复建立人物概念/理论索引或注册方法。不调用import_cases/install_candidates。原附录三篇计数及现场纪实、三旧案去重关系保持。
+沿已有import_chapter/add_annotations新增1完整来源对应语境和1来源边界，两条reference_only注释。没有新方法不注册阅读方法，无新案例/候选/gold空壳。来源数增长不等于新增一篇独立理论或训练样本。
 
 ## 当前权威库
 
 | 资源 | 数量 |
 |---|---:|
-| 书 / 来源输入 / 原始文档 | 1 / 24 / 24 |
+| 书 / 来源输入 / 原始文档 | 1 / 25 / 25 |
 | 概念索引 / 方法 | 2674 / 32 |
-| 知识项 / 来源片段 | 1177 / 3267 |
-| 完整语境（含来源对应）/ 技术边界 / 编译族 | 551 / 368 / 39 |
+| 知识项 / 来源片段 | 1179 / 3270 |
+| 完整语境（含来源对应）/ 技术边界 / 编译族 | 552 / 369 / 39 |
 | 故事 / 家族 / 事件 / 来源盘引用记录 | 98 / 94 / 106 / 104 |
 | 案例记录 / 证据 | 1579 / 1902 |
 | 当前参考候选 / 历史 | 196 / 203 |
-| 来源审读历史 / 数据版本记录 | 31 / 108 |
+| 来源审读历史 / 数据版本记录 | 32 / 110 |
 | 正式rules / 训练任务 / 冻结release | 0 / 0 / 0 |
 | schema | v1，无迁移 |
 
-版本cd6ca5ad-6fa3-449a-bc51-9de45014fde3；manifest SHA256 ea4e35b1f02ad682b312abcda2276dca9f51cd25aba4e5b1884cde961dd71d48。25表全部旧行逐字段保留、23旧源逐字节相同、50文件快照恢复再导出一致。旧原文、人物/方法/案例/图/证据/候选/旧gold/冻结约束不改。
+版本5b8798d1-d3bd-4393-b8b8-f07552fc4bdf；manifest SHA256 cb587698b63189caa0d6dee6defd1d090e42cf7547c7839ad5afe12e21d68b05。25表所有旧行逐字段保留、24旧源逐字节相同、51快照文件恢复再导出一致。旧人物索引/理论/方法/案例/盘/证据/候选/gold及用户总指令不变。
 
 ## 实际验收
 
-9专项通过：原字节与新旧引用、2478字符全文比对、原5组语境真实解析、实体/方法/案例/盘/候选/训练不重复、2注释参考标志与断尾、实际learn/reference/CLI/WSGI及来源确认、幂等和坏新源/坏旧关系拒绝、旧行审计、快照精确恢复。全量`PYTHONPATH=src python3 -m unittest discover -s tests -v`实际469项通过、0失败/错误；精确SHA四组CI按实际结果写入data/provenance/biography_validation.json，pending不当完成。
+10专项通过：原字节/双侧引用、3988字符全文比对、14旧语境在库、无重复实体/方法/案盘/候选/训练、参考标志及原字面、真实learn/reference/CLI/WSGI、重放及坏新源/旧关联拒绝、旧行审计、精确恢复、附录一先后二次序与3旧家族真实关联/教学条件。全量`PYTHONPATH=src python3 -m unittest discover -s tests -v`实际479项通过、0失败/错误；精确SHA四CI按实测记入data/provenance/learning_validation.json；pending不当完成。
 
-既有API学习入口可查新整篇及旧来源关系，未改问事/排盘/核心metrics。无schema迁移、新目录或workflow增删；保留原tests.yml，历史解释见ingestion/SHENQI_TRAVEL.md。详见ingestion/SHENQI_BIOGRAPHY.md。独立公历、正式专业问事/应期、训练、独立现实准确率和公众Web未完成，不由重复来源推模型掌握或全书收齐。
-
-远端内容验收：`9dc1bbcdb3a9d31f7c3e4c63330ad951895a2c4d` 已核对main一致、384文件blob匹配；[Actions 39084971648](https://github.com/turnupmason/QimenLLM/actions/runs/39084971648) 的Ubuntu/macOS × Python3.11/3.12四job全部success，四份日志均实际Ran 469 tests / OK。通过已连接GitHub接口非强制更新，未增删workflow。这里记录实际验收的内容提交；本验收文档提交自身须按精确新SHA另查四CI，不以旧CI替代。
+原有学习接口可读取新整篇与旧关系，问事/排盘/metrics未改，无schema迁移、新目录或workflow增删；tests.yml保留，历史解释见ingestion/SHENQI_TRAVEL.md。详见ingestion/SHENQI_LEARNING.md。独立历法、正式问事/应期、训练和现实准确率、公众Web仍未完成，不由收到同篇精校源推全书齐备或模型掌握。

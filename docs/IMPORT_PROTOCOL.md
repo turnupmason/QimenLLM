@@ -166,3 +166,7 @@ PYTHONPATH=src python3 scripts/import_shenqi_life.py --restore-base --db work/li
 ## 附录二精校来源重放
 
 `PYTHONPATH=src python3 scripts/import_shenqi_biography.py` 校验本次SHA256 b9f8fc44d2174f54cc962ed31dd794262cb1d54a1e6060fcdf279570e8abb716、7221字节/17行，将新LF附件按appendix-biography-clean/排序25保存。先核验旧复合源完整SHA和片段字节，再核验仅去空白与155页眉后同文；随后使用既有import_chapter/add_annotations保存来源对应语境及边界。没有新方法不调用install_curated注册重复方法，也不导case/candidate。`reference biography_clean_source_reference --filters '{}'` 可读新整篇，learn精校来源可查旧5语境关系。坏源/坏关联拒绝、重放幂等、旧行/快照/全量/远端四CI要求保持。
+
+## 附录一精校来源重放
+
+`PYTHONPATH=src python3 scripts/import_shenqi_learning.py` 校验本次SHA256 10db674c708186c6408c9d38228b066456ed71adb6e5939e2e1102e2a2df15ef、11761字节/51行LF；对旧复合源77–139行和93页眉作明确对照，然后沿import_chapter/add_annotations保存appendix-learning-clean/排序26。书中篇次一独立记录，旧附录二不改键或排序。curated含14旧语境/3旧家族对应，不重复导入案例、候选或方法。`reference learning_clean_source_reference --filters '{}'` 可读新全文；坏源/坏旧关联拒绝、同文幂等、快照/全量回归/私有main四CI要求保持。
