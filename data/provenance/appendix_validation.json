@@ -183,7 +183,65 @@
     "real_world_predictive_accuracy": null
   },
   "github_sync": {
-    "status": "pending"
+    "status": "verified",
+    "repository_private": true,
+    "method": "connected_github_git_data_api",
+    "branch": "main",
+    "force": false,
+    "accepted_content_sha": "e6c8922ff8ca4f38ddad840cf39cd822dc363b83",
+    "verified_blob_count": 376,
+    "workflow_added_or_deleted": false,
+    "source_crlf_and_tabs_byte_preserved": true,
+    "ci": {
+      "run_id": 39084423582,
+      "url": "https://github.com/turnupmason/QimenLLM/actions/runs/39084423582",
+      "head_sha": "e6c8922ff8ca4f38ddad840cf39cd822dc363b83",
+      "status": "completed",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "id": 117547904965,
+          "name": "stdlib-tests (macos-latest, 3.12)",
+          "status": "completed",
+          "conclusion": "success",
+          "log_evidence": [
+            "2026-10-18T00:54:26.2336470Z Ran 460 tests in 63.405s",
+            "2026-10-18T00:54:26.2336730Z OK"
+          ]
+        },
+        {
+          "id": 117547905164,
+          "name": "stdlib-tests (macos-latest, 3.11)",
+          "status": "completed",
+          "conclusion": "success",
+          "log_evidence": [
+            "2026-10-18T00:54:15.1265410Z Ran 460 tests in 53.068s",
+            "2026-10-18T00:54:15.1265560Z OK"
+          ]
+        },
+        {
+          "id": 117547905271,
+          "name": "stdlib-tests (ubuntu-latest, 3.11)",
+          "status": "completed",
+          "conclusion": "success",
+          "log_evidence": [
+            "2026-10-18T00:54:43.0985153Z Ran 460 tests in 80.727s",
+            "2026-10-18T00:54:43.0985715Z OK"
+          ]
+        },
+        {
+          "id": 117547905337,
+          "name": "stdlib-tests (ubuntu-latest, 3.12)",
+          "status": "completed",
+          "conclusion": "success",
+          "log_evidence": [
+            "2026-10-18T00:54:54.5785209Z Ran 460 tests in 92.907s",
+            "2026-10-18T00:54:54.5786012Z OK"
+          ]
+        }
+      ]
+    },
+    "scope": "Accepted content commit; subsequent acceptance-document commit needs its own exact-head CI check."
   },
   "development_failures": [
     {

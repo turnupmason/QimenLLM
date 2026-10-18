@@ -40,3 +40,5 @@
 18专项通过，覆盖CRLF/引用/全行与三署名、旧文规范化对照/三旧家族关联、四难和教学条件/六大论、一故事两目标同家族一图、独立字面gold与同ID未覆盖读取、首断/书名/编辑意见/后来出版、初次否定/部分财务/会后死伤、事前视图隔离、候选真实SQL、CLI/WSGI、旧行/幂等/拒改/计算不变/快照恢复。全量`PYTHONPATH=src python3 -m unittest discover -s tests -v`实际460项通过、0失败/错误；精确SHA四CI在data/provenance/appendix_validation.json按实测补录，pending不算完成。
 
 无新目录、schema迁移或workflow增删，原tests.yml保留；历史workflow解释见ingestion/SHENQI_TRAVEL.md。完整说明见ingestion/SHENQI_APPENDIX.md。独立历法、正式用神/断案应期、训练、独立现实准确率与公众Web仍未完成，不由收到附录宣告全书收齐或模型已掌握。
+
+远端内容验收：`e6c8922ff8ca4f38ddad840cf39cd822dc363b83` 已核对main一致、376文件blob匹配，原附件CRLF/制表符字节一致；[Actions 39084423582](https://github.com/turnupmason/QimenLLM/actions/runs/39084423582) 的Ubuntu/macOS × Python3.11/3.12四job全部success，四份日志均实际Ran 460 tests / OK。通过已连接GitHub接口非强制更新，未增删workflow。这里记录实际验收的内容提交；本验收文档提交自身须按精确新SHA另查四CI，不以旧CI替代。
