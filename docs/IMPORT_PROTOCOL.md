@@ -154,3 +154,7 @@ PYTHONPATH=src python3 scripts/import_shenqi_life.py --restore-base --db work/li
 ## 准确率评估知识重放
 
 用户上传方法论TXT，SHA256 528174a11b617ab7d32b9c2a0a85e57a739851b4145f3a5bd544451857efbde3，9177字节/37行。使用 `PYTHONPATH=src python3 scripts/import_shenqi_accuracy.py`，沿现有import_chapter/install_curated，按accuracy-assessment/接收排序22保存13完整语境与9参考边界。无具体案例、原盘或逐案评分表，不调用import_cases/install_candidates，不建空case/gold文件；作者百分比不计算成实测分数。既有learn/reference接口可读。重放幂等，源字节变化拒绝；用户确认政策、私有同步、快照和全量回归要求不变。见ingestion/SHENQI_ACCURACY.md。
+
+## 后记重放
+
+`PYTHONPATH=src python3 scripts/import_shenqi_afterword.py` 校验本次5285字节/21行TXT，SHA256 ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb，按afterword/排序23沿import_chapter/install_curated保存9完整语境/7边界。无案例或原盘，仅参考学习读取，沿既有快照、审计、全量回归与私有main同步。相同输入幂等；坏源拒绝。前作/转引不另导书报，不凭收到后记认定全书完整。见ingestion/SHENQI_AFTERWORD.md。

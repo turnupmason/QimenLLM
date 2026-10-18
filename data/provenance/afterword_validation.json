@@ -1,0 +1,186 @@
+{
+  "source_sha256": "ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb",
+  "source_byte_count": 5285,
+  "source_line_count": 21,
+  "source_file": "神奇之门_后记_精校完整版.txt",
+  "verification_basis": "user_attestation",
+  "system_performed_independent_verification": false,
+  "context_groups": 9,
+  "technical_boundaries": 7,
+  "source_kind": "author_afterword_context_and_research_purpose",
+  "historical_cases_added": 0,
+  "events_added": 0,
+  "charts_added": 0,
+  "case_records_added": 0,
+  "rule_candidates_added": 0,
+  "external_books_or_articles_added": 0,
+  "project_empirical_accuracy": null,
+  "last_line_as_supplied": "张志春于石家庄\n",
+  "current_book_publication_date_inferred": false,
+  "entire_book_completeness_asserted": false,
+  "schema_migration": false,
+  "default_casting_method_changed": false,
+  "formal_rules_added": 0,
+  "training_tasks_added": 0,
+  "snapshot": {
+    "data_version": "f916ccff-c72c-4589-af31-c6edf805ffb1",
+    "snapshot": "data/snapshots/current",
+    "counts": {
+      "data_versions": 101,
+      "books": 1,
+      "chapters": 22,
+      "raw_documents": 22,
+      "chapter_revisions": 22,
+      "source_reviews": 29,
+      "source_spans": 3180,
+      "methods": 31,
+      "concepts": 2577,
+      "concept_links": 0,
+      "knowledge_items": 1125,
+      "rules": 0,
+      "rule_conditions": 0,
+      "rule_disagreements": 0,
+      "event_families": 93,
+      "cases": 97,
+      "events": 104,
+      "case_events": 104,
+      "charts": 102,
+      "case_records": 1549,
+      "evidence_links": 1872,
+      "dataset_releases": 0,
+      "split_assignments": 0,
+      "training_tasks": 0,
+      "task_inputs": 0
+    },
+    "manifest_sha256": "171e633f1e2dd4f3ae5b6c7015a310da13e0191b87454b1590e23aaa1ab92051"
+  },
+  "old_rows_preserved": {
+    "rule_conditions": {
+      "old": 0,
+      "new": 0
+    },
+    "concept_links": {
+      "old": 0,
+      "new": 0
+    },
+    "case_events": {
+      "old": 104,
+      "new": 104
+    },
+    "data_versions": {
+      "old": 98,
+      "new": 101
+    },
+    "case_records": {
+      "old": 1549,
+      "new": 1549
+    },
+    "rule_disagreements": {
+      "old": 0,
+      "new": 0
+    },
+    "training_tasks": {
+      "old": 0,
+      "new": 0
+    },
+    "evidence_links": {
+      "old": 1872,
+      "new": 1872
+    },
+    "chapter_revisions": {
+      "old": 21,
+      "new": 22
+    },
+    "knowledge_items": {
+      "old": 1109,
+      "new": 1125
+    },
+    "methods": {
+      "old": 30,
+      "new": 31
+    },
+    "event_families": {
+      "old": 93,
+      "new": 93
+    },
+    "raw_documents": {
+      "old": 21,
+      "new": 22
+    },
+    "cases": {
+      "old": 97,
+      "new": 97
+    },
+    "task_inputs": {
+      "old": 0,
+      "new": 0
+    },
+    "source_spans": {
+      "old": 3163,
+      "new": 3180
+    },
+    "concepts": {
+      "old": 2530,
+      "new": 2577
+    },
+    "events": {
+      "old": 104,
+      "new": 104
+    },
+    "rules": {
+      "old": 0,
+      "new": 0
+    },
+    "split_assignments": {
+      "old": 0,
+      "new": 0
+    },
+    "charts": {
+      "old": 102,
+      "new": 102
+    },
+    "chapters": {
+      "old": 21,
+      "new": 22
+    },
+    "books": {
+      "old": 1,
+      "new": 1
+    },
+    "source_reviews": {
+      "old": 28,
+      "new": 29
+    },
+    "dataset_releases": {
+      "old": 0,
+      "new": 0
+    }
+  },
+  "old_raw_documents_byte_identical": 21,
+  "snapshot_files": 48,
+  "snapshot_roundtrip_byte_identical": true,
+  "integrity_audit_ok": true,
+  "base_main_sha": "773d6f086f6ccded6d7c97ca5a70f12d51c88d5e",
+  "full_regression": {
+    "status": "passed",
+    "tests": 442,
+    "failures": 0,
+    "errors": 0,
+    "focused_tests": 13,
+    "command": "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+    "python": "3.12.2",
+    "platform": "Darwin",
+    "actual_cli_and_wsgi_read": true,
+    "existing_symbolic_calculation_status": "computed",
+    "existing_symbolic_calculation_unchanged": true,
+    "professional_correctness": null,
+    "real_world_predictive_accuracy": null
+  },
+  "github_sync": {
+    "status": "pending"
+  },
+  "development_failures": [],
+  "cumulative_context_groups": 520,
+  "cumulative_quality_records": 349,
+  "cumulative_compiled_datasets": 39
+}

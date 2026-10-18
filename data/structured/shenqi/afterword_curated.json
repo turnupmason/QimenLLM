@@ -1,0 +1,665 @@
+{
+  "source_sha256": "ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb",
+  "source_byte_count": 5285,
+  "source_line_count": 21,
+  "chapter_title": "后记",
+  "chapter_key_suggestion": "afterword",
+  "printed_chapter_number": null,
+  "groups": [
+    {
+      "key": "afterword_heading",
+      "title": "后记原题",
+      "category": "commentary",
+      "line_start": 1,
+      "line_end": 2,
+      "attribution": "张志春后记中的自述、观点或转引；不冒称项目独立外查",
+      "summary": "用户提供的后记标题，不由接收排序推印刷章号",
+      "concepts": [],
+      "dataset": {
+        "key": "afterword_heading_reference",
+        "rows": [
+          {
+            "key": "afterword_heading_1",
+            "source_lines": [
+              1,
+              1
+            ],
+            "source_pointer": {
+              "source_sha256": "ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb",
+              "line_start": 1,
+              "line_end": 1,
+              "byte_start": 0,
+              "byte_end": 7,
+              "source_quote": "后记\n"
+            },
+            "source_quote": "后记\n",
+            "method_scope": "shenqi_afterword_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "本篇后记作者；嵌套引文保留原述归属"
+          }
+        ]
+      }
+    },
+    {
+      "key": "afterword_earlier_book",
+      "title": "先前《未知之门》的出版与写作背景",
+      "category": "commentary",
+      "line_start": 3,
+      "line_end": 4,
+      "attribution": "张志春后记中的自述、观点或转引；不冒称项目独立外查",
+      "summary": "作者自述1993年6月作家出版社出版《未知之门》，通过邵伟华研究经历与实例介绍预测领域；不是本篇或《神奇之门》的出版日期",
+      "concepts": [
+        "未知之门",
+        "出版背景",
+        "作家出版社",
+        "邵伟华"
+      ],
+      "dataset": {
+        "key": "afterword_earlier_book_reference",
+        "rows": [
+          {
+            "key": "afterword_earlier_book_3",
+            "source_lines": [
+              3,
+              3
+            ],
+            "source_pointer": {
+              "source_sha256": "ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb",
+              "line_start": 3,
+              "line_end": 3,
+              "byte_start": 8,
+              "byte_end": 239,
+              "source_quote": "1993年6月作家出版社出版了我写的《未知之门》一书，通过对邵伟华研究周易应用艰难历程的记述和其应用实例的详尽剖析，力图使广大读者了解周易预测这个“未知”领域。\n"
+            },
+            "source_quote": "1993年6月作家出版社出版了我写的《未知之门》一书，通过对邵伟华研究周易应用艰难历程的记述和其应用实例的详尽剖析，力图使广大读者了解周易预测这个“未知”领域。\n",
+            "method_scope": "shenqi_afterword_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "本篇后记作者；嵌套引文保留原述归属"
+          }
+        ]
+      },
+      "assessment": {
+        "kind": "author_prior_publication_account",
+        "book_title_as_written": "未知之门",
+        "publication_time_as_written": "1993年6月",
+        "publisher_as_written": "作家出版社",
+        "source_selector": {
+          "source_sha256": "ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb",
+          "line_start": 3,
+          "line_end": 3,
+          "byte_start": 8,
+          "byte_end": 239,
+          "source_quote": "1993年6月作家出版社出版了我写的《未知之门》一书，通过对邵伟华研究周易应用艰难历程的记述和其应用实例的详尽剖析，力图使广大读者了解周易预测这个“未知”领域。\n"
+        },
+        "date_role": "earlier_book_publication_not_current_book_or_afterword_date",
+        "new_book_imported": false,
+        "new_historical_cases_created": false
+      }
+    },
+    {
+      "key": "afterword_purpose",
+      "title": "本书研究目的、书名解释与去神秘化",
+      "category": "commentary",
+      "line_start": 5,
+      "line_end": 6,
+      "attribution": "张志春后记中的自述、观点或转引；不冒称项目独立外查",
+      "summary": "完整保存从思维科学、理论与应用入手，取合理精华、弃迷信糟粕和解释《神奇之门》书名的作者目的；不拆成项目能力保证",
+      "concepts": [
+        "神奇之门",
+        "思维科学",
+        "理论与实践",
+        "传统哲学",
+        "去神秘化"
+      ],
+      "dataset": {
+        "key": "afterword_purpose_reference",
+        "rows": [
+          {
+            "key": "afterword_purpose_5",
+            "source_lines": [
+              5,
+              5
+            ],
+            "source_pointer": {
+              "source_sha256": "ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb",
+              "line_start": 5,
+              "line_end": 5,
+              "byte_start": 240,
+              "byte_end": 1009,
+              "source_quote": "该书则是我对易学预测原理和对奇门遁甲这种古代预测术的初步研究。一般人对易学预测都感到神秘，特别是对奇门预测就感到更加神秘了。为了揭开其神秘面纱，我从思维科学入手，从理论和实践应用两个方面揭开了它的神秘面纱，分析肯定其合理性精华，批判扬弃其迷信性糟粕。故名之曰《神奇之门》。意思是告诉广大读者，只要通过研读本书，走进门仔细观察了解一番，就会认识到所谓奇门遁甲，所谓易学预测，都不过是我们祖先运用中国传统哲学思维模式，创造的一种或多种应用技术而已。只要刻苦钻研，大胆实践，人人都可以掌握，绝对没有任何神秘、神奇可言。\n"
+            },
+            "source_quote": "该书则是我对易学预测原理和对奇门遁甲这种古代预测术的初步研究。一般人对易学预测都感到神秘，特别是对奇门预测就感到更加神秘了。为了揭开其神秘面纱，我从思维科学入手，从理论和实践应用两个方面揭开了它的神秘面纱，分析肯定其合理性精华，批判扬弃其迷信性糟粕。故名之曰《神奇之门》。意思是告诉广大读者，只要通过研读本书，走进门仔细观察了解一番，就会认识到所谓奇门遁甲，所谓易学预测，都不过是我们祖先运用中国传统哲学思维模式，创造的一种或多种应用技术而已。只要刻苦钻研，大胆实践，人人都可以掌握，绝对没有任何神秘、神奇可言。\n",
+            "method_scope": "shenqi_afterword_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "本篇后记作者；嵌套引文保留原述归属"
+          }
+        ]
+      },
+      "assessment": {
+        "kind": "author_research_purpose_and_demystification",
+        "source_selector": {
+          "source_sha256": "ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb",
+          "line_start": 5,
+          "line_end": 5,
+          "byte_start": 240,
+          "byte_end": 1009,
+          "source_quote": "该书则是我对易学预测原理和对奇门遁甲这种古代预测术的初步研究。一般人对易学预测都感到神秘，特别是对奇门预测就感到更加神秘了。为了揭开其神秘面纱，我从思维科学入手，从理论和实践应用两个方面揭开了它的神秘面纱，分析肯定其合理性精华，批判扬弃其迷信性糟粕。故名之曰《神奇之门》。意思是告诉广大读者，只要通过研读本书，走进门仔细观察了解一番，就会认识到所谓奇门遁甲，所谓易学预测，都不过是我们祖先运用中国传统哲学思维模式，创造的一种或多种应用技术而已。只要刻苦钻研，大胆实践，人人都可以掌握，绝对没有任何神秘、神奇可言。\n"
+        },
+        "related_limit_group_key": "afterword_research_limits",
+        "automatic_mastery_guarantee": false,
+        "project_scientific_or_predictive_validation": false,
+        "wording_preserved_as_supplied": "该书则是"
+      }
+    },
+    {
+      "key": "afterword_demystification",
+      "title": "作者提出神秘化的三类历史社会原因",
+      "category": "commentary",
+      "line_start": 7,
+      "line_end": 8,
+      "attribution": "张志春后记中的自述、观点或转引；不冒称项目独立外查",
+      "summary": "保留作者关于统治、谋生保守与宗教儒道交织的三项历史社会解释，归属原作者观点，不当项目外证史实或排盘规则",
+      "concepts": [
+        "以神设教",
+        "保守思想",
+        "神秘文化",
+        "儒家",
+        "道家",
+        "宗教"
+      ],
+      "dataset": {
+        "key": "afterword_demystification_reference",
+        "rows": [
+          {
+            "key": "afterword_demystification_7",
+            "source_lines": [
+              7,
+              7
+            ],
+            "source_pointer": {
+              "source_sha256": "ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb",
+              "line_start": 7,
+              "line_end": 7,
+              "byte_start": 1010,
+              "byte_end": 1765,
+              "source_quote": "过去人们之所以感到它神秘、神奇，一是封建统治者搞愚民政策，把它作为“以神设教”的工具；二是操其术者把它作为谋生手段，保守思想极其严重，不肯把其中的规律告诉别人，同时也借助迷信将其技术神秘化，以便更容易地捞取钱财；三是中国人本来没有宗教(佛教传入中国以后，为了抵御外来宗教，才在道家思想基础上创造了道教),儒家和道家都将周易作为经典，纳入自己的思想体系之中，因而几千年来易学及易学应用特别是预测就成为中国神秘文化的一部分，和宗教(道教)、准宗教(儒家)纠缠在一起，被蒙上了许多神秘的面纱，搀杂进一些封建迷信的东西。\n"
+            },
+            "source_quote": "过去人们之所以感到它神秘、神奇，一是封建统治者搞愚民政策，把它作为“以神设教”的工具；二是操其术者把它作为谋生手段，保守思想极其严重，不肯把其中的规律告诉别人，同时也借助迷信将其技术神秘化，以便更容易地捞取钱财；三是中国人本来没有宗教(佛教传入中国以后，为了抵御外来宗教，才在道家思想基础上创造了道教),儒家和道家都将周易作为经典，纳入自己的思想体系之中，因而几千年来易学及易学应用特别是预测就成为中国神秘文化的一部分，和宗教(道教)、准宗教(儒家)纠缠在一起，被蒙上了许多神秘的面纱，搀杂进一些封建迷信的东西。\n",
+            "method_scope": "shenqi_afterword_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "本篇后记作者；嵌套引文保留原述归属"
+          }
+        ]
+      },
+      "assessment": {
+        "kind": "author_historical_social_interpretation",
+        "source_selector": {
+          "source_sha256": "ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb",
+          "line_start": 7,
+          "line_end": 7,
+          "byte_start": 1010,
+          "byte_end": 1765,
+          "source_quote": "过去人们之所以感到它神秘、神奇，一是封建统治者搞愚民政策，把它作为“以神设教”的工具；二是操其术者把它作为谋生手段，保守思想极其严重，不肯把其中的规律告诉别人，同时也借助迷信将其技术神秘化，以便更容易地捞取钱财；三是中国人本来没有宗教(佛教传入中国以后，为了抵御外来宗教，才在道家思想基础上创造了道教),儒家和道家都将周易作为经典，纳入自己的思想体系之中，因而几千年来易学及易学应用特别是预测就成为中国神秘文化的一部分，和宗教(道教)、准宗教(儒家)纠缠在一起，被蒙上了许多神秘的面纱，搀杂进一些封建迷信的东西。\n"
+        },
+        "historical_or_religious_claims_independently_verified_by_project": false,
+        "deterministic_casting_or_role_rule": false
+      }
+    },
+    {
+      "key": "afterword_science_technology",
+      "title": "自然哲学、李约瑟难题与理论技术不可割裂的完整论证",
+      "category": "commentary",
+      "line_start": 9,
+      "line_end": 14,
+      "attribution": "张志春后记中的自述、观点或转引；不冒称项目独立外查",
+      "summary": "把自然哲学发展、社会制度解释、吴大猷观点的报刊转引和反对义理/应用割裂三段保持连续语境；不将技术应用等同科学效力证明",
+      "concepts": [
+        "自然哲学",
+        "认识论",
+        "李约瑟难题",
+        "科学与技术",
+        "吴大猷",
+        "义理",
+        "理论联系实际",
+        "光明日报"
+      ],
+      "dataset": {
+        "key": "afterword_science_technology_reference",
+        "rows": [
+          {
+            "key": "afterword_science_technology_9",
+            "source_lines": [
+              9,
+              9
+            ],
+            "source_pointer": {
+              "source_sha256": "ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb",
+              "line_start": 9,
+              "line_end": 9,
+              "byte_start": 1766,
+              "byte_end": 2271,
+              "source_quote": "易学本来是中国人的一种哲学观、认识论，既包括对自然界规律的认识与探讨，也包括对人类社会规律的认识与探索，但自从汉代将其列为群经之首，唐代更作为知识分子“学而优则仕”的钦定的教科书以后，封建统治者只将易经作为政治哲学和社会伦理哲学来提倡和使用，故而其作为自然哲学的一面未得到很好发展，我认为这也是中国封建社会科学技术不发达的一个重要原因。\n"
+            },
+            "source_quote": "易学本来是中国人的一种哲学观、认识论，既包括对自然界规律的认识与探讨，也包括对人类社会规律的认识与探索，但自从汉代将其列为群经之首，唐代更作为知识分子“学而优则仕”的钦定的教科书以后，封建统治者只将易经作为政治哲学和社会伦理哲学来提倡和使用，故而其作为自然哲学的一面未得到很好发展，我认为这也是中国封建社会科学技术不发达的一个重要原因。\n",
+            "method_scope": "shenqi_afterword_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "本篇后记作者；嵌套引文保留原述归属"
+          },
+          {
+            "key": "afterword_science_technology_11",
+            "source_lines": [
+              11,
+              11
+            ],
+            "source_pointer": {
+              "source_sha256": "ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb",
+              "line_start": 11,
+              "line_end": 11,
+              "byte_start": 2272,
+              "byte_end": 3274,
+              "source_quote": "近年来，学术界特别是哲学界都在讨论“李约瑟难题”。李约瑟是英国著名学者，著有《中国科学技术发展史》。所谓“李约瑟难题”,意思是说，中国有领先于世界的古代科技成就，有对西方近代科学发展起推动作用的天才发现，为何“近代科学崛起于西方而不是中国”?这个问题，我认为根本原因是社会制度问题，即中国封建社会太长，资本主义没有得到发展，因为经济基础决定上层建筑，上层建筑又决定文化科技的发展。如果仅从科学技术自身发展规律来说，那么著名学者吴大猷提出的观点不无道理。他说，古代中国超过西方的大多是技术，不是科学，技术与科学不能混为一谈。没有以科学为基础的技术，发展是有限的。这才是中国长久以来科学发展不及西方的重要原因之一(转引自《光明日报》1998年3月20日《如何面对“李约瑟难题”》一文)。\n"
+            },
+            "source_quote": "近年来，学术界特别是哲学界都在讨论“李约瑟难题”。李约瑟是英国著名学者，著有《中国科学技术发展史》。所谓“李约瑟难题”,意思是说，中国有领先于世界的古代科技成就，有对西方近代科学发展起推动作用的天才发现，为何“近代科学崛起于西方而不是中国”?这个问题，我认为根本原因是社会制度问题，即中国封建社会太长，资本主义没有得到发展，因为经济基础决定上层建筑，上层建筑又决定文化科技的发展。如果仅从科学技术自身发展规律来说，那么著名学者吴大猷提出的观点不无道理。他说，古代中国超过西方的大多是技术，不是科学，技术与科学不能混为一谈。没有以科学为基础的技术，发展是有限的。这才是中国长久以来科学发展不及西方的重要原因之一(转引自《光明日报》1998年3月20日《如何面对“李约瑟难题”》一文)。\n",
+            "method_scope": "shenqi_afterword_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "本篇后记作者；嵌套引文保留原述归属"
+          },
+          {
+            "key": "afterword_science_technology_13",
+            "source_lines": [
+              13,
+              13
+            ],
+            "source_pointer": {
+              "source_sha256": "ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb",
+              "line_start": 13,
+              "line_end": 13,
+              "byte_start": 3275,
+              "byte_end": 3776,
+              "source_quote": "在易学的研究和应用方面同样存在这个问题。一方面，一些学者把易学仍然作为一种“经院哲学”,只去研究所谓“义理”,空洞无物，大而无当；另一方面，许多所谓易学爱好者，只把易学作为一种应用技术，只研究如何应用，如何提高应用技能，以便达到实用赚钱的目的，只知其然，而不知其所以然。这种将理论与实际脱离，把科学与技术割裂开来的认识与做法，我不赞成。\n"
+            },
+            "source_quote": "在易学的研究和应用方面同样存在这个问题。一方面，一些学者把易学仍然作为一种“经院哲学”,只去研究所谓“义理”,空洞无物，大而无当；另一方面，许多所谓易学爱好者，只把易学作为一种应用技术，只研究如何应用，如何提高应用技能，以便达到实用赚钱的目的，只知其然，而不知其所以然。这种将理论与实际脱离，把科学与技术割裂开来的认识与做法，我不赞成。\n",
+            "method_scope": "shenqi_afterword_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "本篇后记作者；嵌套引文保留原述归属"
+          }
+        ]
+      },
+      "assessment": {
+        "kind": "author_argument_with_secondary_attribution",
+        "source_positions": [
+          {
+            "kind": "author_natural_philosophy_interpretation",
+            "source_selector": {
+              "source_sha256": "ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb",
+              "line_start": 9,
+              "line_end": 9,
+              "byte_start": 1766,
+              "byte_end": 2271,
+              "source_quote": "易学本来是中国人的一种哲学观、认识论，既包括对自然界规律的认识与探讨，也包括对人类社会规律的认识与探索，但自从汉代将其列为群经之首，唐代更作为知识分子“学而优则仕”的钦定的教科书以后，封建统治者只将易经作为政治哲学和社会伦理哲学来提倡和使用，故而其作为自然哲学的一面未得到很好发展，我认为这也是中国封建社会科学技术不发达的一个重要原因。\n"
+            }
+          },
+          {
+            "kind": "author_social_system_explanation_and_secondary_wu_view",
+            "source_selector": {
+              "source_sha256": "ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb",
+              "line_start": 11,
+              "line_end": 11,
+              "byte_start": 2272,
+              "byte_end": 3274,
+              "source_quote": "近年来，学术界特别是哲学界都在讨论“李约瑟难题”。李约瑟是英国著名学者，著有《中国科学技术发展史》。所谓“李约瑟难题”,意思是说，中国有领先于世界的古代科技成就，有对西方近代科学发展起推动作用的天才发现，为何“近代科学崛起于西方而不是中国”?这个问题，我认为根本原因是社会制度问题，即中国封建社会太长，资本主义没有得到发展，因为经济基础决定上层建筑，上层建筑又决定文化科技的发展。如果仅从科学技术自身发展规律来说，那么著名学者吴大猷提出的观点不无道理。他说，古代中国超过西方的大多是技术，不是科学，技术与科学不能混为一谈。没有以科学为基础的技术，发展是有限的。这才是中国长久以来科学发展不及西方的重要原因之一(转引自《光明日报》1998年3月20日《如何面对“李约瑟难题”》一文)。\n"
+            }
+          },
+          {
+            "kind": "author_rejects_separation_of_theory_and_application",
+            "source_selector": {
+              "source_sha256": "ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb",
+              "line_start": 13,
+              "line_end": 13,
+              "byte_start": 3275,
+              "byte_end": 3776,
+              "source_quote": "在易学的研究和应用方面同样存在这个问题。一方面，一些学者把易学仍然作为一种“经院哲学”,只去研究所谓“义理”,空洞无物，大而无当；另一方面，许多所谓易学爱好者，只把易学作为一种应用技术，只研究如何应用，如何提高应用技能，以便达到实用赚钱的目的，只知其然，而不知其所以然。这种将理论与实际脱离，把科学与技术割裂开来的认识与做法，我不赞成。\n"
+            }
+          }
+        ],
+        "secondary_citation": {
+          "quoted_person_as_written": "吴大猷",
+          "publication_as_written": "光明日报",
+          "date_as_written": "1998年3月20日",
+          "article_title_as_written": "如何面对“李约瑟难题”",
+          "source_selector": {
+            "source_sha256": "ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb",
+            "line_start": 11,
+            "line_end": 11,
+            "byte_start": 3181,
+            "byte_end": 3269,
+            "source_quote": "转引自《光明日报》1998年3月20日《如何面对“李约瑟难题”》一文"
+          },
+          "attribution_level": "secondary_as_supplied_not_original_article_ingestion",
+          "independently_checked": false
+        },
+        "science_technology_not_equated": true,
+        "new_external_sources_imported": false,
+        "project_scientific_validation": false
+      }
+    },
+    {
+      "key": "afterword_research_limits",
+      "title": "研究纲领与初步、幼稚、不成熟的自我限定",
+      "category": "commentary",
+      "line_start": 15,
+      "line_end": 16,
+      "attribution": "张志春后记中的自述、观点或转引；不冒称项目独立外查",
+      "summary": "本书阐述科学价值和实例技术特征的愿景，与极其初步、幼稚、不成熟及欢迎批评在同段保存；不把研究愿景标成完成验证",
+      "concepts": [
+        "科学价值",
+        "技术特征",
+        "初步研究",
+        "不成熟",
+        "批评指正"
+      ],
+      "dataset": {
+        "key": "afterword_research_limits_reference",
+        "rows": [
+          {
+            "key": "afterword_research_limits_15",
+            "source_lines": [
+              15,
+              15
+            ],
+            "source_pointer": {
+              "source_sha256": "ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb",
+              "line_start": 15,
+              "line_end": 15,
+              "byte_start": 3777,
+              "byte_end": 4207,
+              "source_quote": "我在本书中，首先从思维科学角度入手，研究探讨易学和数术中的科学性精华，力图阐述它的科学价值、独特的科学体系；同时，又从大量现代实际应用的实例剖析中，使读者明了它的技术特征，以便学习它的人迅速地掌握它。当然，这一切都是极其初步的，幼稚的，不成熟的，欢迎广大读者，特别是易学专家们批评指正。\n"
+            },
+            "source_quote": "我在本书中，首先从思维科学角度入手，研究探讨易学和数术中的科学性精华，力图阐述它的科学价值、独特的科学体系；同时，又从大量现代实际应用的实例剖析中，使读者明了它的技术特征，以便学习它的人迅速地掌握它。当然，这一切都是极其初步的，幼稚的，不成熟的，欢迎广大读者，特别是易学专家们批评指正。\n",
+            "method_scope": "shenqi_afterword_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "本篇后记作者；嵌套引文保留原述归属"
+          }
+        ]
+      },
+      "assessment": {
+        "kind": "author_programme_with_explicit_self_limit",
+        "complete_paragraph_selector": {
+          "source_sha256": "ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb",
+          "line_start": 15,
+          "line_end": 15,
+          "byte_start": 3777,
+          "byte_end": 4207,
+          "source_quote": "我在本书中，首先从思维科学角度入手，研究探讨易学和数术中的科学性精华，力图阐述它的科学价值、独特的科学体系；同时，又从大量现代实际应用的实例剖析中，使读者明了它的技术特征，以便学习它的人迅速地掌握它。当然，这一切都是极其初步的，幼稚的，不成熟的，欢迎广大读者，特别是易学专家们批评指正。\n"
+        },
+        "self_limit_selector": {
+          "source_sha256": "ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb",
+          "line_start": 15,
+          "line_end": 15,
+          "byte_start": 4077,
+          "byte_end": 4206,
+          "source_quote": "当然，这一切都是极其初步的，幼稚的，不成熟的，欢迎广大读者，特别是易学专家们批评指正。"
+        },
+        "programme_and_limit_kept_together": true,
+        "related_purpose_group_key": "afterword_purpose",
+        "project_empirical_accuracy": null,
+        "professional_analysis_completed": false,
+        "training_authorized_by_author_invitation": false
+      }
+    },
+    {
+      "key": "afterword_acknowledgements",
+      "title": "学习参考、共同研讨与实例提供致谢",
+      "category": "commentary",
+      "line_start": 17,
+      "line_end": 18,
+      "attribution": "张志春后记中的自述、观点或转引；不冒称项目独立外查",
+      "summary": "完整保存对资料、同仁、学员、师友的感谢及部分同仁提供实例的自述；没有指明哪人提供哪例，不猜测映射或新造案例",
+      "concepts": [
+        "参考资料",
+        "学员",
+        "共同研讨",
+        "实例来源",
+        "王修义",
+        "张岩客",
+        "杜新会",
+        "王建国",
+        "王瑞民",
+        "刘成云",
+        "张顺良",
+        "张粤",
+        "高海东",
+        "王庆丰"
+      ],
+      "dataset": {
+        "key": "afterword_acknowledgements_reference",
+        "rows": [
+          {
+            "key": "afterword_acknowledgements_17",
+            "source_lines": [
+              17,
+              17
+            ],
+            "source_pointer": {
+              "source_sha256": "ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb",
+              "line_start": 17,
+              "line_end": 17,
+              "byte_start": 4208,
+              "byte_end": 4875,
+              "source_quote": "需要说明的是，我在研究奇门遁甲过程中，得到了许多专家学者、民间高人的帮助，所有古籍和今人著述都是我学习和参考的珍贵资料，所有我认识的易学同仁，包括跟我学习奇门遁甲的学员，都是我的老师。特别是我会的王修义师傅、张岩客同志，以及经常跟我一起研讨的杜新会、王建国、王瑞民、刘成云、张顺良、张粤、高海东、王庆丰等同志，都给了我许多启发，不少同志还提供了宝贵的实例，使本书在应用实例方面更具有代表性、广泛性。在本书出版之际，我向上述同志表示最诚挚的感谢。\n"
+            },
+            "source_quote": "需要说明的是，我在研究奇门遁甲过程中，得到了许多专家学者、民间高人的帮助，所有古籍和今人著述都是我学习和参考的珍贵资料，所有我认识的易学同仁，包括跟我学习奇门遁甲的学员，都是我的老师。特别是我会的王修义师傅、张岩客同志，以及经常跟我一起研讨的杜新会、王建国、王瑞民、刘成云、张顺良、张粤、高海东、王庆丰等同志，都给了我许多启发，不少同志还提供了宝贵的实例，使本书在应用实例方面更具有代表性、广泛性。在本书出版之际，我向上述同志表示最诚挚的感谢。\n",
+            "method_scope": "shenqi_afterword_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "本篇后记作者；嵌套引文保留原述归属"
+          }
+        ]
+      },
+      "assessment": {
+        "kind": "author_acknowledgement_of_contributors_and_example_sources",
+        "source_selector": {
+          "source_sha256": "ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb",
+          "line_start": 17,
+          "line_end": 17,
+          "byte_start": 4208,
+          "byte_end": 4875,
+          "source_quote": "需要说明的是，我在研究奇门遁甲过程中，得到了许多专家学者、民间高人的帮助，所有古籍和今人著述都是我学习和参考的珍贵资料，所有我认识的易学同仁，包括跟我学习奇门遁甲的学员，都是我的老师。特别是我会的王修义师傅、张岩客同志，以及经常跟我一起研讨的杜新会、王建国、王瑞民、刘成云、张顺良、张粤、高海东、王庆丰等同志，都给了我许多启发，不少同志还提供了宝贵的实例，使本书在应用实例方面更具有代表性、广泛性。在本书出版之际，我向上述同志表示最诚挚的感谢。\n"
+        },
+        "names_as_written": [
+          "王修义",
+          "张岩客",
+          "杜新会",
+          "王建国",
+          "王瑞民",
+          "刘成云",
+          "张顺良",
+          "张粤",
+          "高海东",
+          "王庆丰"
+        ],
+        "literal_phrase_preserved": "我会的王修义师傅",
+        "specific_case_contributor_mapping_supplied": false,
+        "inferred_links_to_existing_case_people": false,
+        "new_cases_or_person_identities_created": false,
+        "all_materials_mentioned_are_not_new_source_authorization": true
+      }
+    },
+    {
+      "key": "afterword_prefaces",
+      "title": "为本书作序者及其原述职务致谢",
+      "category": "commentary",
+      "line_start": 19,
+      "line_end": 20,
+      "attribution": "张志春后记中的自述、观点或转引；不冒称项目独立外查",
+      "summary": "保留唐明邦、叶梓铨为本书写序的感谢和当时职务原述；非当前任职查询、现代机构背书或模型能力认证",
+      "concepts": [
+        "作序",
+        "唐明邦",
+        "叶梓铨"
+      ],
+      "dataset": {
+        "key": "afterword_prefaces_reference",
+        "rows": [
+          {
+            "key": "afterword_prefaces_19",
+            "source_lines": [
+              19,
+              19
+            ],
+            "source_pointer": {
+              "source_sha256": "ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb",
+              "line_start": 19,
+              "line_end": 19,
+              "byte_start": 4876,
+              "byte_end": 5262,
+              "source_quote": "最后，特别要感谢的是，中国周易研究会会长、中国周易学会顾问、武汉大学哲学学院教授唐明邦先生，和中国人体科学研究会、中国气功科学研究会常务理事叶梓铨教授，二人在百忙中为拙作写序，这是对我最大的支持和鼓舞!衷心期望他们在今后的研究工作中，给予我更多的指导和帮助。\n"
+            },
+            "source_quote": "最后，特别要感谢的是，中国周易研究会会长、中国周易学会顾问、武汉大学哲学学院教授唐明邦先生，和中国人体科学研究会、中国气功科学研究会常务理事叶梓铨教授，二人在百忙中为拙作写序，这是对我最大的支持和鼓舞!衷心期望他们在今后的研究工作中，给予我更多的指导和帮助。\n",
+            "method_scope": "shenqi_afterword_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "本篇后记作者；嵌套引文保留原述归属"
+          }
+        ]
+      },
+      "assessment": {
+        "kind": "author_preface_acknowledgement",
+        "source_selector": {
+          "source_sha256": "ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb",
+          "line_start": 19,
+          "line_end": 19,
+          "byte_start": 4876,
+          "byte_end": 5262,
+          "source_quote": "最后，特别要感谢的是，中国周易研究会会长、中国周易学会顾问、武汉大学哲学学院教授唐明邦先生，和中国人体科学研究会、中国气功科学研究会常务理事叶梓铨教授，二人在百忙中为拙作写序，这是对我最大的支持和鼓舞!衷心期望他们在今后的研究工作中，给予我更多的指导和帮助。\n"
+        },
+        "named_people_as_written": [
+          "唐明邦",
+          "叶梓铨"
+        ],
+        "titles_scope": "as_written_in_source_not_current_office_claim",
+        "current_titles_independently_verified": false,
+        "endorsement_of_project_or_models": false,
+        "new_preface_texts_imported": false
+      }
+    },
+    {
+      "key": "afterword_signature",
+      "title": "作者署名与地点",
+      "category": "commentary",
+      "line_start": 21,
+      "line_end": 21,
+      "attribution": "张志春后记中的自述、观点或转引；不冒称项目独立外查",
+      "summary": "按末行保存张志春于石家庄；本篇没有落款日期，不用前文书刊日期推定",
+      "concepts": [
+        "张志春",
+        "石家庄"
+      ],
+      "dataset": {
+        "key": "afterword_signature_reference",
+        "rows": [
+          {
+            "key": "afterword_signature_21",
+            "source_lines": [
+              21,
+              21
+            ],
+            "source_pointer": {
+              "source_sha256": "ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb",
+              "line_start": 21,
+              "line_end": 21,
+              "byte_start": 5263,
+              "byte_end": 5285,
+              "source_quote": "张志春于石家庄\n"
+            },
+            "source_quote": "张志春于石家庄\n",
+            "method_scope": "shenqi_afterword_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_prediction": false,
+            "automatic_role_binding": false,
+            "author_attribution": "本篇后记作者；嵌套引文保留原述归属"
+          }
+        ]
+      },
+      "assessment": {
+        "kind": "literal_author_signature",
+        "source_selector": {
+          "source_sha256": "ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb",
+          "line_start": 21,
+          "line_end": 21,
+          "byte_start": 5263,
+          "byte_end": 5285,
+          "source_quote": "张志春于石家庄\n"
+        },
+        "name_as_written": "张志春",
+        "location_as_written": "石家庄",
+        "date_as_written": null,
+        "current_book_edition_or_publication_date_inferred": false,
+        "entire_book_completeness_asserted": false
+      }
+    }
+  ],
+  "quality_issues": [
+    {
+      "key": "prior_book_date_not_current_edition",
+      "line_start": 3,
+      "line_end": 4,
+      "description": "1993年6月为《未知之门》的自述出版时间，非本书版次/本篇日期，不导入该书或其中案例"
+    },
+    {
+      "key": "author_historical_social_interpretation",
+      "line_start": 7,
+      "line_end": 14,
+      "description": "历史、宗教和科技发展解释保留作者归属，不标项目独立外证或改编排盘规则"
+    },
+    {
+      "key": "secondary_citation_not_independent_source",
+      "line_start": 11,
+      "line_end": 11,
+      "description": "吴大猷观点为本书转引报刊，保留人/报/日期/篇名与转引链，不冒称核对原报或另导文献"
+    },
+    {
+      "key": "programme_and_caution_kept_together",
+      "line_start": 5,
+      "line_end": 16,
+      "description": "去神秘化、理论与技术研究愿景与15行初步幼稚不成熟告诫关联，不当项目科学性/学习保证"
+    },
+    {
+      "key": "contributors_not_new_cases_or_inferred_identity",
+      "line_start": 17,
+      "line_end": 19,
+      "description": "师友与作序者致谢不构成新案例、逐案供稿映射、当前任职核验或项目背书"
+    },
+    {
+      "key": "literal_ambiguities_not_corrected",
+      "line_start": 5,
+      "line_end": 17,
+      "description": "该书则是、我会的王修义师傅等照源保存，不擅改指代、会字或补组织名称"
+    },
+    {
+      "key": "undated_signature_not_book_completion",
+      "line_start": 21,
+      "line_end": 21,
+      "description": "末行只署名地点无日期，不用1993书日期或1998报日期推书版次/落款，不由后记断言已收齐全书"
+    }
+  ],
+  "worked_examples": []
+}
