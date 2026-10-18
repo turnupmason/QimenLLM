@@ -1,3 +1,5 @@
+全书基础任务覆盖现行为book_preparation_v2：98故事都保留完整档案并有基础学习任务，共127条，82train/21validation/20test/4development；故事分组仍65/15/15/3、94家族归属不动。组成是钱物丢失32方法任务、其他原表93字面读取、卫星局部来源完整性1题、附录三用户重排表1题。后两题限定资料阅读，不模拟历史首断，不补造完整盘；三个旧原盘not_covered状态保持。卫星题不提供后来报道或204行后置补充，重排题逐字核对独立gold的36单元，不按算法改生乙/壬惊丙。原v1全部任务与档案逐字保留，v2只在train增加两个来源审读任务。专业方法深度审读仍8案32题，其余90案的基础任务不能冒充完整断案监督。钱物丢失Mac试验数据仍固定v5的22train/4validation，未用新增两题或test。
+
 # 钱物丢失章：先Mac方法试验，再4090系统训练
 
 遵循原Master和最新mac_method_pilot用户指令。当前试验学习角色、证据组织、综合判断、应期和反馈续断，不是继续旧作者原话复写任务。原v5冻结任务和94家族分组不改；32任务为22训练/4验证/4测试/2开发。测试发票家族封存。
@@ -87,3 +89,15 @@ PYTHONPATH=src python training/publish_pilot.py
 同时记录完成/拒答/生成失败、引用错误、结构化字面事实分母与匹配、明确用神结构目标，以及人工审读的方法正确性。模型用自然语言说对事实但未返回observations时，结构化匹配数为0，不代表自然语言事实全部错误。协议通过也不能代表专业完成。作者方法复现、书中反馈一致和独立现实准确率三条轴分开；未评估的值必须null。书中结果仅供评分，不提前进输入。
 
 用户已恢复GitHub同步。代码、冻结清单、来源快照与实际实验摘要入main；每个选定模型用版本化适配器、数据/基座/代码/配置哈希追溯。publish_pilot.py只上传所选适配器及受控实验文件到Release，重新下载核对，再提交main中的实验清单；需要本机gh已登录。普通Git不放基座/优化器/任意产物，未完成上传时明确pending，不能说“模型已更新”。不增加一次性workflow。
+
+同一候选的六道开发/验证生成完成后，由执行代理逐来源审读四道validation，保存包含reviewer/source_basis、四题source_fidelity_pass/task_completion_pass/no_unsupported_factual_claims/source_note和精确after_report_sha256的审读JSON，再使用training/compare_method_runs.py比较：
+
+```sh
+python3 training/compare_method_runs.py \
+  --before data/provenance/mac_lost_method_baseline_v1.json \
+  --after work/mac-lost-method-after-v1/report.json \
+  --review work/mac-lost-method-after-v1/source-review.json \
+  --output data/provenance/mac_lost_method_comparison_v1.json
+```
+
+脚本拒绝不同模型、来源、输入或生成设置，拒绝缺失语义审读；结构化满分也不能自动证明方法正确。局部方法通过与完整D/E系统、全书专业任务审读、独立现实准确率分别记录。

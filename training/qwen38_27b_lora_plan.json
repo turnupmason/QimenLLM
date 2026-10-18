@@ -1,6 +1,6 @@
 {
   "plan_version": 3,
-  "status": "mac_method_pilot_baseline_in_progress",
+  "status": "mac_method_lora_full_context_cache_preparation",
   "instruction_files": [
     "docs/user_instructions/master_spec_2026-10-17.txt",
     "docs/user_instructions/professional_training_summary_2026-10-17.txt",
@@ -65,10 +65,11 @@
     "source_reviewed_cases": 8,
     "pending_book_cases": 90,
     "source_reviewed_batch_role": "Curriculum subtasks with task-local source-given conditions where needed; not unassisted forecasting or a completed full-book release.",
-    "complete_book_preparation": "data/splits/book_preparation_v1.json",
+    "complete_book_preparation": "data/splits/book_preparation_v2.json",
     "all_cases_archived": 98,
-    "safe_literal_and_method_tasks": 125,
-    "pending_book_cases_meaning": "Remaining cases have complete archives/splits; their professional reasoning tasks are not yet semantically curated"
+    "safe_literal_and_method_tasks": 127,
+    "pending_book_cases_meaning": "Remaining cases have complete archives/splits; their professional reasoning tasks are not yet semantically curated",
+    "cases_with_basic_tasks": 98
   },
   "required_task_types": [
     "role_selection",
@@ -143,10 +144,19 @@
       "layers.63.self_attn.v_proj"
     ],
     "source_release": "shenqi-lost-method-tasks-v5",
-    "baseline": "work/mac-lost-method-baseline-v1",
-    "status": "baseline_in_progress",
+    "baseline": "work/mac-lost-method-baseline-v1/report.json",
+    "status": "full_context_cache_equivalence_passed_caching_remaining_tasks",
     "completed_epochs": 0,
     "optimizer_steps": 0,
-    "test_accessed": false
+    "test_accessed": false,
+    "full_cached_loss_delta": 0.0,
+    "baseline_complete": true,
+    "baseline_protocol_counts": {
+      "method_generated": 3,
+      "method_evidence_error": 2,
+      "generation_error": 1
+    },
+    "baseline_validation_source_review_passes": 0,
+    "baseline_validation_tasks": 4
   }
 }

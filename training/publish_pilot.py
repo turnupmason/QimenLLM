@@ -30,6 +30,8 @@ def publish(c, run):
         raise ValueError('Use a simple versioned experiment name')
     config = json.loads((ROOT/'configs/github.json').read_bytes())
     repo = 'turnupmason/QimenLLM'
+    if Path(command(['git', 'rev-parse', '--show-toplevel'])).resolve()!=ROOT.resolve():
+        raise ValueError('Publish only from the actual project checkout root')
     if config['repository'] != repo or config['visibility'] != 'public' or not config.get('public_sync_user_authorization'):
         raise ValueError('Recorded user authorization and exact repository required')
     if command(['git', 'remote', 'get-url', 'origin']) != 'https://github.com/'+repo+'.git':

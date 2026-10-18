@@ -1,0 +1,459 @@
+{
+  "scope": "source_conditioned_27b_method_baseline_not_full_system_D",
+  "model": "mlx-community/Qwen3.8-27B-4bit",
+  "revision": "10c35caafbb80f7dc6a7a432cdd11af10a6d4818",
+  "model_manifest_sha256": "820b14b9bb4741c109b6fbf7c2903d7a1c1c3452e230d76325698f71f2761226",
+  "data_manifest_sha256": "24f1aa3343112de8c4c6ba6a4e2d10002364e9e6c5e59cb842a031b6168e5ac0",
+  "source_data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "code_sha256": {
+    "scripts/run_mac_method_pilot.py": "d3913b55ad1f9dfcac2c76c3a7a87c588108c639487d3614718a6df730fe36af",
+    "src/qimenllm/models/mlx_gateway.py": "f5c7d38132e625a32f9ae5ff93f5170bf34c33d1f9e403760577d67b6347612d",
+    "src/qimenllm/evaluation/method.py": "27854e9f2c5a4b08282174a1f863529409061c0ac9314d4d671b2165a6025558",
+    "src/qimenllm/reasoning/service.py": "df6dfb257ff272dae9099f6935279cc9cb5f8bd354adc9bec80eeea8d4ca91b4"
+  },
+  "packages": {
+    "mlx": "0.32.4",
+    "mlx-lm": "0.32.2",
+    "transformers": "5.20.1"
+  },
+  "model_load_seconds": 11.88435895901057,
+  "started_unix": 1792295402.1908321,
+  "records": [
+    {
+      "split": "development",
+      "task_id": "method-2d5379e5b6b6b0c7a149fda9",
+      "task_type": "chart_evidence",
+      "result": {
+        "status": "method_evidence_error",
+        "scope": "source_reviewed_method_pilot",
+        "professional_analysis_completed": false,
+        "formal_conditional_rule_arm": "blocked_not_equivalent_to_source_given_conditions",
+        "payload_sha256": "93ac8a31a76732e8de27e65bd8d7c0fd2f7e5c3d5b106334591f806d023a6c84",
+        "author_method_accuracy": null,
+        "reported_feedback_accuracy": null,
+        "independent_real_world_accuracy": null,
+        "output": {
+          "task_type": "chart_evidence",
+          "explanation": "根据提供的角色定义与原始盘表，提取以下事实：\n1. **问测人（日干壬）**：在盘表中，天盘干“壬”位于**坤二宫**（Palace 2）。该宫位配置为：八神“值符”，星“天英星”（带前缀乙），门“开门”，地盘干“庚”。\n2. **对方/所失之物（时干庚）**：在盘表中，天盘干“庚”位于**兑七宫**（Palace 7）。该宫位配置为：八神“九天”，星“天芮星”，门“休门”（带前缀乙），地盘干“丁”。\n3. **坐宫（坤二）**：即问测人日干壬所落之宫。原字显示门位为“开壬”，星位为“乙英庚”。\n\n**事实核对说明**：\n- 已知信息中提到“刘成云根据她的坐宫，首先看坤2宫...断她一定是失财或错账之事”，这与日干壬落坤二宫的事实一致。\n- 已知信息中提到“壬+庚又主变动”，但在提供的JSON盘表数据中，坤二宫的地盘干为“庚”，天盘干为“壬”，符合“壬+庚”的组合（天盘壬+地盘庚）。\n- 时干庚落兑七宫，与日干壬落坤二宫不同宫。根据references/roles，日干与时干不同宫，需进一步判断内外盘及生克关系，但本题仅要求提取事实，不作预测。",
+          "citations": [
+            "chart.palaces.2",
+            "chart.palaces.7",
+            "known_information[0]",
+            "known_information[3]"
+          ],
+          "uncertainties": [
+            "原始文本中刘成云的断语提到“天英星...落坤宫为泄气”，但JSON盘表中坤二宫的星为“天英星”，门为“开门”，需确认“开门”与“景门”（值使）在原始描述中的对应关系，此处仅提取JSON字面事实。",
+            "JSON盘表中坤二宫门为“开门”，而已知信息[2]提到“景门为值使，落3宫”，这与JSON中景门落3宫（Palace 3）一致，但坤二宫门位原字为“开壬”，需确认是否因排盘软件或原始记录差异导致门位不同，此处以JSON数据为准。"
+          ]
+        },
+        "telemetry": {
+          "prompt_tokens": 2520,
+          "max_tokens": 768,
+          "max_context_tokens": 8192,
+          "temperature": 0.0,
+          "seed": 17,
+          "enable_thinking": false,
+          "seconds": 201.49746691598557,
+          "first_token_seconds": 88.3419492499961,
+          "peak_memory_bytes": 18131542928,
+          "generation_tokens": 593,
+          "tokens_per_second": 5.2417903414460545,
+          "finish_reason": "stop"
+        },
+        "evidence_errors": [
+          "unavailable_reference"
+        ]
+      },
+      "score": {
+        "task_id": "method-2d5379e5b6b6b0c7a149fda9",
+        "task_type": "chart_evidence",
+        "literal_facts_available": 7,
+        "literal_facts_matched": 0,
+        "literal_facts_claimed": 0,
+        "binding_target_available": false,
+        "binding_exact_match": false,
+        "protocol_and_citations_pass": false,
+        "author_method_semantic_score": null,
+        "reported_feedback_score": null,
+        "independent_real_world_score": null,
+        "human_review_required": [
+          "方法条件与角色是否正确",
+          "证据支持、反证与不确定性",
+          "应期方法和续断是否符合本轮来源",
+          "作者断语与书中结局分开核对"
+        ]
+      }
+    },
+    {
+      "split": "development",
+      "task_id": "method-3560e90807587549bb0bed38",
+      "task_type": "feedback_continuation",
+      "result": {
+        "status": "generation_error",
+        "scope": "source_reviewed_method_pilot",
+        "professional_analysis_completed": false,
+        "formal_conditional_rule_arm": "blocked_not_equivalent_to_source_given_conditions",
+        "payload_sha256": "30a1005d837ef19452c266359a751410f83bdbe0dbeb5c826cd7938148937843",
+        "author_method_accuracy": null,
+        "reported_feedback_accuracy": null,
+        "independent_real_world_accuracy": null
+      },
+      "score": {
+        "task_id": "method-3560e90807587549bb0bed38",
+        "task_type": "feedback_continuation",
+        "literal_facts_available": 0,
+        "literal_facts_matched": 0,
+        "literal_facts_claimed": 0,
+        "binding_target_available": false,
+        "binding_exact_match": false,
+        "protocol_and_citations_pass": false,
+        "author_method_semantic_score": null,
+        "reported_feedback_score": null,
+        "independent_real_world_score": null,
+        "human_review_required": [
+          "方法条件与角色是否正确",
+          "证据支持、反证与不确定性",
+          "应期方法和续断是否符合本轮来源",
+          "作者断语与书中结局分开核对"
+        ]
+      }
+    },
+    {
+      "split": "validation",
+      "task_id": "method-b00125d46b14fcca3effbfd0",
+      "task_type": "role_selection",
+      "result": {
+        "status": "method_generated",
+        "scope": "source_reviewed_method_pilot",
+        "professional_analysis_completed": false,
+        "formal_conditional_rule_arm": "blocked_not_equivalent_to_source_given_conditions",
+        "payload_sha256": "348e2c9125a676e06e0d35319a5da3640b954e0dd75aeaa59249be862eb21e3e",
+        "author_method_accuracy": null,
+        "reported_feedback_accuracy": null,
+        "independent_real_world_accuracy": null,
+        "output": {
+          "task_type": "role_selection",
+          "explanation": "依据给定文献，失主与失物的角色选取遵循以下一般法：\n1. **角色定义**：一般以**日干**落宫代表**失主**，以**时干**落宫代表**丢失之钱物**（引用：roles）。\n2. **本案应用**：已知起局时间为庚申日，故日干为**庚**；壬午时，故时干为**壬**。在提供的盘表中，天盘**庚**落**巽四宫**，天盘**壬**落**坎一宫**。\n3. **位置判断**：根据文献，日干与时干同在内盘（坎、艮、震、巽为内盘，乾、兑、坤、离为外盘，中五寄宫需视具体流派，但通常坎震巽艮为内），则钱物丢失在家中或近处；若日干在内、时干在外，则丢失在外边。本案中庚（日干）在巽四宫（内盘），壬（时干）在坎一宫（内盘），两者同在内盘，符合“钱物丢失在家中或近处”的一般判断（引用：location）。\n4. **局限与条件**：此法为一般取法，并非唯一方法。文献指出，若日、时同宫，则可能未丢失；若时干落宫乘旺相之气生日干落宫，或遇反吟，也可能找回；若时干落空亡、墓、绝之宫，则难找回（引用：roles）。此外，若时干临玄武，可能被人偷去或自己忘记；若时干宫被玄武宫或天蓬宫所克，可能被人盗走（引用：theft）。本案需结合具体宫位状态（如是否空亡、墓绝、旺衰）及神星门组合进一步判断，不能仅凭日时干落宫直接断定结果。",
+          "citations": [
+            "roles",
+            "location",
+            "theft"
+          ],
+          "uncertainties": [
+            "盘表中中五宫寄宫的具体处理方式未明确，可能影响部分判断。",
+            "文献中“内盘”与“外盘”的具体划分标准在不同流派中可能略有差异，此处依据常见奇门遁甲理论（坎震巽艮为内，乾兑坤离为外）进行推断。",
+            "未提供具体的空亡、墓绝、旺衰计算过程，仅能依据一般法说明角色选取逻辑，无法给出最终断语。"
+          ]
+        },
+        "telemetry": {
+          "prompt_tokens": 2390,
+          "max_tokens": 768,
+          "max_context_tokens": 8192,
+          "temperature": 0.0,
+          "seed": 17,
+          "enable_thinking": false,
+          "seconds": 226.0964305420057,
+          "first_token_seconds": 88.21896908298368,
+          "peak_memory_bytes": 18131542408,
+          "generation_tokens": 585,
+          "tokens_per_second": 4.243803133666278,
+          "finish_reason": "stop"
+        },
+        "evidence_errors": []
+      },
+      "score": {
+        "task_id": "method-b00125d46b14fcca3effbfd0",
+        "task_type": "role_selection",
+        "literal_facts_available": 0,
+        "literal_facts_matched": 0,
+        "literal_facts_claimed": 0,
+        "binding_target_available": true,
+        "binding_exact_match": false,
+        "protocol_and_citations_pass": true,
+        "author_method_semantic_score": null,
+        "reported_feedback_score": null,
+        "independent_real_world_score": null,
+        "human_review_required": [
+          "方法条件与角色是否正确",
+          "证据支持、反证与不确定性",
+          "应期方法和续断是否符合本轮来源",
+          "作者断语与书中结局分开核对"
+        ]
+      }
+    },
+    {
+      "split": "validation",
+      "task_id": "method-dfc05fc1d34e4644661f1b00",
+      "task_type": "chart_evidence",
+      "result": {
+        "status": "method_evidence_error",
+        "scope": "source_reviewed_method_pilot",
+        "professional_analysis_completed": false,
+        "formal_conditional_rule_arm": "blocked_not_equivalent_to_source_given_conditions",
+        "payload_sha256": "c9a5165bd5f6d377a672ee23c8ac347071a47eae1b06d07d5c3050292638a7a8",
+        "author_method_accuracy": null,
+        "reported_feedback_accuracy": null,
+        "independent_real_world_accuracy": null,
+        "output": {
+          "task_type": "chart_evidence",
+          "explanation": "根据提供的奇门盘表（palaces）及已知信息，提取各角色在盘中的落宫事实如下：\n\n1. **日干庚（失主）**：\n   - 天盘庚落**巽四宫**（palace 4）。\n   - 该宫配置：八神六合，门为伤门，星为天任星，地盘丙。\n   - 原字对应：门位原字“伤庚”，星位原字“任丙”。\n\n2. **时干壬（失物）**：\n   - 天盘壬落**震三宫**（palace 3）。\n   - 该宫配置：八神太阴，门为生门，星为天蓬星，地盘丁。\n   - 原字对应：门位原字“生壬”，星位原字“蓬丁”。\n\n3. **甲子戊（钱财辅助视角）**：\n   - 天盘戊落**艮八宫**（palace 8）。\n   - 该宫配置：八神螣蛇，门为休门，星为天心星，地盘庚。\n   - 原字对应：门位原字“休戊”，星位原字“心庚”。\n\n**位置关系事实**：\n- 日干庚（巽四宫）与时干壬（震三宫）均位于**内盘**（震、巽、中五、坤为内盘，坎、艮、乾、离为外盘，依传统九宫方位划分，震巽为内，坎艮乾离为外，或依具体流派定义，此处仅陈述落宫位置）。\n- 根据references中location条目：“日干与时干同在内盘，则钱物丢失在家中或近处”。\n- 时干壬落震三宫，临天蓬星（references中theft条目提及“时干宫被...天蓬宫所克”或“时干临玄武...”，此处时干宫本身即临天蓬星，且八神为太阴，非玄武）。\n- 日干庚落巽四宫，临六合、伤门、天任星。",
+          "citations": [
+            "chart:palaces.4",
+            "chart:palaces.3",
+            "chart:palaces.8",
+            "references:location",
+            "references:roles",
+            "references:theft"
+          ],
+          "uncertainties": [
+            "references中location条目关于“内盘”、“外盘”的具体宫位划分（如震巽是否严格定义为内盘）在不同流派中可能存在差异，此处仅依据字面“同在内盘”的条件进行事实陈述，未做吉凶预测。",
+            "references中theft条目提到“时干临玄武”或“被天蓬宫所克”，本盘中时干壬落震三宫，该宫星为天蓬星，神为太阴。需区分“时干宫临天蓬星”与“时干宫被天蓬宫所克”的不同含义，此处仅提取落宫事实。"
+          ]
+        },
+        "telemetry": {
+          "prompt_tokens": 2425,
+          "max_tokens": 768,
+          "max_context_tokens": 8192,
+          "temperature": 0.0,
+          "seed": 17,
+          "enable_thinking": false,
+          "seconds": 277.64579066602164,
+          "first_token_seconds": 89.9870538750256,
+          "peak_memory_bytes": 18131542548,
+          "generation_tokens": 726,
+          "tokens_per_second": 3.869645857086991,
+          "finish_reason": "stop"
+        },
+        "evidence_errors": [
+          "unavailable_reference"
+        ]
+      },
+      "score": {
+        "task_id": "method-dfc05fc1d34e4644661f1b00",
+        "task_type": "chart_evidence",
+        "literal_facts_available": 7,
+        "literal_facts_matched": 0,
+        "literal_facts_claimed": 0,
+        "binding_target_available": false,
+        "binding_exact_match": false,
+        "protocol_and_citations_pass": false,
+        "author_method_semantic_score": null,
+        "reported_feedback_score": null,
+        "independent_real_world_score": null,
+        "human_review_required": [
+          "方法条件与角色是否正确",
+          "证据支持、反证与不确定性",
+          "应期方法和续断是否符合本轮来源",
+          "作者断语与书中结局分开核对"
+        ]
+      }
+    },
+    {
+      "split": "validation",
+      "task_id": "method-86dc24c6c6c2d720380d86fd",
+      "task_type": "evidence_synthesis",
+      "result": {
+        "status": "method_generated",
+        "scope": "source_reviewed_method_pilot",
+        "professional_analysis_completed": false,
+        "formal_conditional_rule_arm": "blocked_not_equivalent_to_source_given_conditions",
+        "payload_sha256": "61a27e5e4e149f21b80e371c1f7835d891615fcd5951d983993b208564a05872",
+        "author_method_accuracy": null,
+        "reported_feedback_accuracy": null,
+        "independent_real_world_accuracy": null,
+        "output": {
+          "task_type": "evidence_synthesis",
+          "explanation": "原例通过综合日时干支关系、八神玄武状态、特殊格局及宫位属性来推断失物情况。首先，依据“日、时比和”（condition-1）及“日干与时干同在内盘”（location），判断钱物丢失在家中或近处，且因比和关系，失物有找回的可能。其次，针对“是否被偷”的疑问，依据“玄武为小偷”（theft）的取用原则，检查玄武落宫。盘面显示玄武落2宫（坤宫），作者指出该宫“空亡”且“不克时干落宫”（condition-2）。在奇门遁甲中，玄武落空亡通常暗示盗贼虚惊、无实盗或盗贼未遂/未至，结合不克时干（代表失物），进一步支持“非被盗”或“盗者未得”的判断，倾向于失主遗忘或家人误拿。再次，分析时干落宫（8宫，艮宫）的格局，发现“戊+庚为飞宫格”（condition-3）。飞宫格通常主事物变动、飞散或难以固定，但结合“艮为山为止”（condition-4）的宫位属性，艮宫主静止、停止，对“飞”的动性形成制约，暗示钱物虽曾移动或状态不稳，但最终会停留在原地或近处。最后，综合“阳遁为内盘”（condition-4）确认失物在内部，结合玄武空亡排除强盗，以及日时比和的吉象，原例推断钱物并未被外人偷走，而是留在家中，且因比和及止象，最终可寻回。",
+          "citations": [
+            "condition-1",
+            "condition-2",
+            "condition-3",
+            "condition-4",
+            "location",
+            "roles",
+            "theft"
+          ],
+          "uncertainties": [
+            "所有条件（condition-1至4）均为作者给定，未经软件独立复算验证，其准确性依赖于原作者的起局和判断逻辑。",
+            "“玄武落2宫空亡”的具体空亡定义（如是否指旬空）未在给定条件中详细展开，仅引用作者结论。",
+            "“戊+庚为飞宫格”在8宫的具体作用力与“艮为止”的制约关系是作者的综合解读，不同流派可能对“飞宫格”在失物预测中的吉凶含义有不同解释。",
+            "未提供具体的应期计算过程，仅提供了判断失物状态和位置的逻辑。"
+          ]
+        },
+        "telemetry": {
+          "prompt_tokens": 2965,
+          "max_tokens": 768,
+          "max_context_tokens": 8192,
+          "temperature": 0.0,
+          "seed": 17,
+          "enable_thinking": false,
+          "seconds": 276.8950233749929,
+          "first_token_seconds": 122.27071033298853,
+          "peak_memory_bytes": 18131544708,
+          "generation_tokens": 601,
+          "tokens_per_second": 3.8882598588713932,
+          "finish_reason": "stop"
+        },
+        "evidence_errors": []
+      },
+      "score": {
+        "task_id": "method-86dc24c6c6c2d720380d86fd",
+        "task_type": "evidence_synthesis",
+        "literal_facts_available": 0,
+        "literal_facts_matched": 0,
+        "literal_facts_claimed": 0,
+        "binding_target_available": false,
+        "binding_exact_match": false,
+        "protocol_and_citations_pass": true,
+        "author_method_semantic_score": null,
+        "reported_feedback_score": null,
+        "independent_real_world_score": null,
+        "human_review_required": [
+          "方法条件与角色是否正确",
+          "证据支持、反证与不确定性",
+          "应期方法和续断是否符合本轮来源",
+          "作者断语与书中结局分开核对"
+        ]
+      }
+    },
+    {
+      "split": "validation",
+      "task_id": "method-f70a6fd9c7281c0b06376af8",
+      "task_type": "timing_analysis",
+      "result": {
+        "status": "method_generated",
+        "scope": "source_reviewed_method_pilot",
+        "professional_analysis_completed": false,
+        "formal_conditional_rule_arm": "blocked_not_equivalent_to_source_given_conditions",
+        "payload_sha256": "d8adefa450cd5c7ad080ea36dda2002e5d9a46c13f57fe0b826b9ba87931822b",
+        "author_method_accuracy": null,
+        "reported_feedback_accuracy": null,
+        "independent_real_world_accuracy": null,
+        "output": {
+          "task_type": "timing_analysis",
+          "explanation": "原例实际使用的应期方法主要依据“丢失钱物找到时间”的传统断法。首先，根据references中的timing规则，应期一般以“时干生日干之日时”为应期，或按“庚格”推断（阴干寻庚上，阳干寻庚下），若涉及入库或旬空，则以冲出或填实之日时为应期。在本例中，已知条件指出“今庚申日为阳日，4宫庚下之干为丙”（condition-3）。根据“阳干寻庚下”的规则，应期推导指向庚下之干“丙”所对应的日期或时辰。同时，references中的location规则指出“日干与时干同在内盘，则钱物丢失在家中或近处”，这与condition-1“时干、甲子戊均在内盘”相符，确认了丢失地点，为应期判断提供了背景支持。原文未明确展开具体的日期计算过程（如丙日具体是哪一天），仅给出了“庚下之干为丙”这一推导依据，因此应期方法的核心是“阳干寻庚下”取丙日/时。",
+          "citations": [
+            "timing",
+            "condition-3",
+            "condition-1",
+            "location"
+          ],
+          "uncertainties": [
+            "原文未明确写出最终应期的具体日期（如丙日是哪一天），仅提供了“庚下之干为丙”的推导条件。",
+            "未明确说明是否同时考虑了“时干生日干”这一条件，还是仅采用了“庚格”法。",
+            "未提供具体的历法换算过程，无法从“庚申日”直接推导出“丙日”的具体公历日期。"
+          ]
+        },
+        "telemetry": {
+          "prompt_tokens": 2832,
+          "max_tokens": 768,
+          "max_context_tokens": 8192,
+          "temperature": 0.0,
+          "seed": 17,
+          "enable_thinking": false,
+          "seconds": 194.51798041700386,
+          "first_token_seconds": 106.10661212500418,
+          "peak_memory_bytes": 18131544176,
+          "generation_tokens": 402,
+          "tokens_per_second": 4.5493945441244605,
+          "finish_reason": "stop"
+        },
+        "evidence_errors": []
+      },
+      "score": {
+        "task_id": "method-f70a6fd9c7281c0b06376af8",
+        "task_type": "timing_analysis",
+        "literal_facts_available": 0,
+        "literal_facts_matched": 0,
+        "literal_facts_claimed": 0,
+        "binding_target_available": false,
+        "binding_exact_match": false,
+        "protocol_and_citations_pass": true,
+        "author_method_semantic_score": null,
+        "reported_feedback_score": null,
+        "independent_real_world_score": null,
+        "human_review_required": [
+          "方法条件与角色是否正确",
+          "证据支持、反证与不确定性",
+          "应期方法和续断是否符合本轮来源",
+          "作者断语与书中结局分开核对"
+        ]
+      }
+    }
+  ],
+  "training_updates": 0,
+  "test_accessed": false,
+  "network_inference": false,
+  "author_method_accuracy": null,
+  "reported_feedback_accuracy": null,
+  "independent_real_world_accuracy": null,
+  "completion_counts": {
+    "method_evidence_error": 2,
+    "generation_error": 1,
+    "method_generated": 3
+  },
+  "finished_unix": 1792296809.2082,
+  "local_complete_report_sha256": "98f6cca0df5860f74d92104af6f2c1e3a837151e1b33ab7d534fc3a06b5dbe02",
+  "semantic_review": {
+    "reviewer": "Codex source-grounded comparison, not independent prospective validation",
+    "validation_tasks_reviewed": 4,
+    "validation_full_source_fidelity_passes": 0,
+    "not_a_population_accuracy_estimate": true,
+    "rows": {
+      "method-b00125d46b14fcca3effbfd0": {
+        "core_day_hour_roles_correct": true,
+        "full_source_fidelity_pass": false,
+        "errors": [
+          "将地盘壬在坎一误当成时干天盘落宫；原表天盘壬在震三。",
+          "增加输入未给出的固定内外盘划分；没有按一般取法限定于角色任务。"
+        ],
+        "source_basis": "同一原表天盘/地盘及v5输入许可；不使用后来反馈"
+      },
+      "method-dfc05fc1d34e4644661f1b00": {
+        "predeclared_literal_targets": 7,
+        "verbally_present_and_correct": 5,
+        "structured_matches": 0,
+        "full_source_fidelity_pass": false,
+        "errors": [
+          "未给出玄武坤二与惊门乾六两个预定事实；任务说明对完整覆盖的要求仍需单独评估。",
+          "内外盘划分为未获准的补充，并与同组A题说法不一致。",
+          "用chart:palaces等自造引用编号。"
+        ],
+        "source_basis": "原表及七项预定字面事实；文字读取正确与结构化缺失分开"
+      },
+      "method-86dc24c6c6c2d720380d86fd": {
+        "broad_author_conclusion_home_not_stolen": true,
+        "full_source_fidelity_pass": false,
+        "errors": [
+          "将辅助钱财视角甲子戊的艮八宫误称为时干落宫；时干壬在震三。",
+          "扩大玄武空亡解释及家人误拿可能，给定来源未支撑这部分具体说法。"
+        ],
+        "source_basis": "所给四个作者条件短句、完整原盘及本轮作者分析；非独立复算"
+      },
+      "method-f70a6fd9c7281c0b06376af8": {
+        "geng_below_bing_identified": true,
+        "full_source_fidelity_pass": false,
+        "errors": [
+          "遗漏内盘快慢、值使乾六取六天左右的组合。",
+          "将原例按阳日取庚下与一般条文阳干取庚下混同。",
+          "把本题未给作者整段断语误说成原文未写具体日期；源中明确写三月三十日丙寅。"
+        ],
+        "source_basis": "仅核对本轮应期方法和作者预测；实际发现经过未作输入或现实准确率评分"
+      }
+    },
+    "development_literal_task": {
+      "predeclared_literal_targets": 7,
+      "verbally_present_and_correct": 6,
+      "structured_matches": 0,
+      "citation_protocol_pass": false
+    },
+    "development_generation_failure_reason": "No diagnostic telemetry retained by the already-running baseline process; cannot distinguish truncation from invalid schema/JSON."
+  },
+  "comparison_limits": [
+    "One validation family, one chapter; no general accuracy estimate.",
+    "Narrative target coverage is reviewer-assessed, separate from structured exact-match and unsupported additional claims.",
+    "A generic method subtask can admit multiple source-supported answers; exact target formatting is not semantic truth.",
+    "Source-given author conditions are scaffolded premises; not computed full-system rules.",
+    "No test access, no SFT in this baseline, no real-world prediction result."
+  ]
+}

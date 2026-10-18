@@ -1,0 +1,64 @@
+{
+  "release_id": "shenqi-book-preparation-v2",
+  "source_data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "reviewed_by": "Codex source-grounded semantic and literal review",
+  "review_date": "2026-10-18",
+  "scope": "reference reading and source completeness, never historical first-forecast tasks",
+  "rows": [
+    {
+      "kind": "partial_source_reading",
+      "case_id": "case-b3dd6097c4186c79d3b834cef63cad5cf7f195da0d7946de4495c1184b3e6459",
+      "event_id": "event-43dad715258f2b6a25226bb868b95325f14d86a54c5295892c23dd6968089a66",
+      "chart_id": "chart-6762c00eade7b6d2801b9e372f4c8b8de62e5f9b185cb7cc68e9d74ca99e1e98",
+      "family_id": "family-128b8f4ac86abd5fa6aea2c91a934ddb86484a1974788fac8eb5af952dcefd3e",
+      "source_id": "span-3dbd91e7afdc5170241af8521737356963ae55303b2440f6006460d1adac41c2",
+      "excerpt_sha256": "d6bc84e918ad0aab7992a7f8463eb6bc3e5260b0d656effb1562cc674837da1f",
+      "review_note": "仅用原例54–64行的局部盘与作者当时的分析作资料阅读；66行最终断语、68行后来报道与204行后置解释均不提供。此题不模拟首断，不补齐完整盘，原始JSON中的后置补充不进输入。",
+      "reported_facts": [
+        {
+          "key": "four_pillars_as_written",
+          "value": "甲戌年丁丑月丁巳日癸卯时",
+          "quote": "农历甲戌年丁丑月丁巳日癸卯时"
+        },
+        {
+          "key": "dun_and_bureau_as_written",
+          "value": "阳9局",
+          "quote": "其时用阳9局，天冲星为值符，伤门为值使。"
+        },
+        {
+          "key": "chief_star_original_and_hosted",
+          "value": "天冲星落5宫寄坤2宫",
+          "quote": "值符天冲星落5宫寄坤2宫"
+        },
+        {
+          "key": "chief_gate_landing",
+          "value": "伤门又落回3宫",
+          "quote": "值使伤门又落回3宫"
+        },
+        {
+          "key": "deity_landing",
+          "value": "九天下临9宫",
+          "quote": "此时九天下临9宫"
+        },
+        {
+          "key": "ordered_stems_as_written_location_unspecified",
+          "value": "乙加戊",
+          "quote": "形成乙加戊格局"
+        }
+      ]
+    },
+    {
+      "kind": "user_relayout_reading",
+      "case_id": "case-ea86d002d73e8c074ba86bccdab0a73833d4690b8dda2a7230547b15bfabe416",
+      "event_id": "event-f1614748d2320ad62e8a4ad14e65c9af3dc825fdd13b84de49a9c4fd800972d5",
+      "chart_id": "chart-51a3509edea59beb09a82dbc3e496a35ffd2be97caae2d246d2ba086699b490f",
+      "family_id": "family-06659008ffb3141673b64b6c6ce84b0d01dc4649953a444d1d20a8554353479d",
+      "source_id": "span-99e3c89f32f9c530d2e0958814242d401c7b701278c92bd60a10a057648582d4",
+      "excerpt_sha256": "9ed48a7aab8563047bb0ab7775df0e32a2a8007908e31dc8a8cc777814a17e09",
+      "reference_item_id": "item-822b89ee9dc28f09298db786a762351ab709b1c0cec64035bc830405365d9dfc",
+      "gold_path": "data/structured/shenqi/demo_gold.json",
+      "gold_sha256": "937e7777736fd6f7bbcdd5b3de6d81c2ad67b9ab731852f45b2ca701e7e1378f",
+      "review_note": "只读所供91–107行九宫重排表，逐字校验独立gold的36单元；不使用89行历法重算或108行后置解释，不把重排表当新纸本扫描，也不升级两个旧chart_id的not_covered状态。此题只读表，不模拟现场首断；两个事件共用的同一历史盘只形成一个任务。"
+    }
+  ]
+}

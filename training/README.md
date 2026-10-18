@@ -1,3 +1,5 @@
+全书基础任务覆盖现行为book_preparation_v2：98故事都保留完整档案并有基础学习任务，共127条，82train/21validation/20test/4development；故事分组仍65/15/15/3、94家族归属不动。组成是钱物丢失32方法任务、其他原表93字面读取、卫星局部来源完整性1题、附录三用户重排表1题。后两题限定资料阅读，不模拟历史首断，不补造完整盘；三个旧原盘not_covered状态保持。卫星题不提供后来报道或204行后置补充，重排题逐字核对独立gold的36单元，不按算法改生乙/壬惊丙。原v1全部任务与档案逐字保留，v2只在train增加两个来源审读任务。专业方法深度审读仍8案32题，其余90案的基础任务不能冒充完整断案监督。钱物丢失Mac试验数据仍固定v5的22train/4validation，未用新增两题或test。
+
 最新执行状态（2026-10-17，覆盖下文“仅本地”和“仅4090训练”历史限制）：用户已恢复GitHub同步，并要求先Mac27B的读盘/方法基线、真实LoRA微调和验证比较，效果及逻辑通过后再进行4090系统训练。新指令见docs/user_instructions/all_cases_pilot_github_2026-10-17.txt、mac_method_pilot_2026-10-17.txt。原Master、旧来源、旧冻结划分与旧作业不改；不得恢复作者原话/固定50遍启动器。
 
 全书98完整故事已导出按既有94家族冻结的完整档案：65train/15validation/15test/3development。所有106事件/1579记录/104原盘完整保存，故事档案含结局且永不作为模型输入。可训练派生任务125条：32个钱物丢失审读方法子任务+93个其他来源原盘字面读取任务；分布80train/21validation/20test/4development，涉及96故事。另2故事的3张旧原盘不在现有投影覆盖范围，完整档案保留，不补造盘面。125不等于125独立案例或全书综合方法已审读。见data/splits/book_preparation_v1.json和data/provenance/book_training_coverage_v1.json。
@@ -28,3 +30,13 @@ PYTHONPATH=src python3 training/method_release.py --db work/demo.sqlite3 --revie
 ```
 
 现行输出已经存在，此命令会拒绝覆盖；如需只读重建核对，请使用临时新路径或调用build并逐哈希比较。不要用v1–v4试稿替代v5；这些稿次均未被用于模型或训练。全书专业样本仍有90故事待整理，不能把首批32当作全书发布。
+
+全书v2复建（原v1继续可复建，不覆盖冻结文件）：
+
+```sh
+PYTHONPATH=src python3 training/book_release.py --db work/demo.sqlite3 \
+  --supplement-review data/structured/shenqi/book_source_limits_review_v1.json \
+  --output work/book-preparation-v2-rebuild --manifest work/book-preparation-v2-rebuild-manifest.json
+```
+
+将新manifest和data/splits/book_preparation_v2.json逐字比较；所有故事档案含结局，仍不能作为model input。

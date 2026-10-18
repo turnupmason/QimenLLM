@@ -71,6 +71,7 @@ class SyncTests(DatabaseTest):
 
     def runner(self,private=True,remote_head='fixture-commit'):
         def run(args,root):
+            if args[:3]==['git','rev-parse','--show-toplevel']: return str(root)
             if args[:3]==['git','remote','get-url']: return 'https://github.com/owner/QimenLLM.git'
             if args[:2]==['gh','api']: return json.dumps({'private':private,'full_name':'owner/QimenLLM'})
             if args[:3]==['git','diff','--cached']: return ''
@@ -122,6 +123,16 @@ class SyncTests(DatabaseTest):
         with patch('qimenllm.github_sync._run',side_effect=runner):
             result=sync_github(self.root,self.db,self.raw,'fixture')
         self.assertEqual(result['status'],'synced')
+
+    def test_parent_git_repository_cannot_be_used_for_project_sync(self):
+        default=self.runner()
+        def runner(args,root):
+            if args[:3]==['git','rev-parse','--show-toplevel']:return str(root.parent)
+            return default(args,root)
+        with patch('qimenllm.github_sync._run',side_effect=runner) as run:
+            with self.assertRaisesRegex(SyncError,'checkout root'):
+                sync_github(self.root,self.db,self.raw,'fixture')
+        self.assertFalse(any(c.args[0][:2] in (['git','add'],['git','push']) for c in run.call_args_list))
 
     def test_altered_public_authorization_cannot_stage_or_push(self):
         instruction,runner=self.public_fixture()

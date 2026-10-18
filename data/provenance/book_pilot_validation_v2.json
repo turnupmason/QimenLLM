@@ -1,0 +1,37 @@
+{
+  "scope": "book_preparation_v2_and_mac_method_baseline",
+  "source_data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "cases_archived": 98,
+  "cases_with_basic_tasks": 98,
+  "tasks": 127,
+  "method_tasks": 32,
+  "other_full_original_table_tasks": 93,
+  "partial_source_reading_tasks": 1,
+  "user_relayout_reading_tasks": 1,
+  "task_counts": {
+    "train": 82,
+    "validation": 21,
+    "test": 20,
+    "development": 4
+  },
+  "full_regression": {
+    "discovered": 576,
+    "passed": 576,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 86.528,
+    "log_sha256": "f1d7b75a0deab9b75adb2cc156f63fe478c691ec31a6dfc7f6879d936e5f3a9b"
+  },
+  "protected_files_unchanged": 56,
+  "schema_migrated": false,
+  "database_modified": false,
+  "original_chart_statuses_upgraded": false,
+  "mac_training_stage_at_validation": "caching_frozen_prefix",
+  "mac_official_optimizer_steps_at_validation": 0,
+  "mac_full_cached_loss_delta": 0.0,
+  "cuda_actual_hardware_tested": false,
+  "test_inference_accessed": false,
+  "author_method_population_accuracy": null,
+  "independent_real_world_accuracy": null
+}

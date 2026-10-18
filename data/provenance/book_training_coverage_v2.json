@@ -1,0 +1,1004 @@
+{
+  "release_id": "shenqi-book-preparation-v2",
+  "all_cases": 98,
+  "task_cases": 98,
+  "case_counts": {
+    "development": 3,
+    "test": 15,
+    "train": 65,
+    "validation": 15
+  },
+  "task_counts": {
+    "development": 4,
+    "test": 20,
+    "train": 82,
+    "validation": 21
+  },
+  "all_case_method_reasoning_review_complete": false,
+  "rows": [
+    {
+      "case_id": "case-01c8e6298f0608f7acb72af2731bd791f0b0e2fd1c846705e17e8fe6aa234aee",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-07f860fe820305525ffba961a2369f8b6ff1fead46bf85c2da26dabb5d003ec6",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-146dcedd8799e9c4442671fce44b08a64e34da63602d1a017febce2fa3073946",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-173d377e286f776749c2d54042ddcddef0dcb04f28fca03c2c7b66e1a57644cd",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-19557e07abb372b16dac1998c3981a2b5385614f006d89900cf79beb871cf88c",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 4,
+      "reviewed_method_tasks": 4,
+      "source_reading_tasks": 0,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "reviewed_lost_property_subtasks"
+    },
+    {
+      "case_id": "case-19e1ad351808cb2679578449e41f48bffbddd16156e3765e9b71c89e065f2b62",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-1ac4d55c58328404e8aa247f98e54bd5c9758d04c3cad795dc1f78e826942e05",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 4,
+      "reviewed_method_tasks": 4,
+      "source_reading_tasks": 0,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "reviewed_lost_property_subtasks"
+    },
+    {
+      "case_id": "case-1eedc064bf1d23f7c887a29741c668a4ae8aa1aed5631420b65719fa3c1d0029",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-2421ad7bbb4c5b70db9d84dd2135c30b6b7e3f11b1086e0825465fcc1ce84864",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-25dbb19e38eaa8d44c833d256146344faa713d9b3fe6b368bfffd53f606ffd6e",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-280bbb10405b701933060214cfb9a6109e5fd91b73cf89bdc3cc395a4b062fe3",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-2d48dfbf2fc3afae29cd3e792c8cafe3715e7c98994c42e1e9a4d1c12eae96bb",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-302aabf8ca053df5882186fa7ba93bff7f24cd583cd4a95ae66f96a7a12fb794",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-32daa0de0ee1dad256fc6df500e460514f9fbe42b07518b0c9d3fb63596f3234",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-347187b085e69aa50b13dc19e914c5bb0823c438502dce4e1a2d4a3ef67cbdbd",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-37a08549bba6a899758b833ae7cdbebdac389a7044013eaa96e1ae14b4ca90be",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-39d214819044fc65ceb2b312c58f14e189e2c732b554748a6b55d962f24dee84",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-3c1ec0139a4c5d89ff767270bc68e893181df6d4d0a5d036c0f8f1205f97ab5d",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 4,
+      "reviewed_method_tasks": 4,
+      "source_reading_tasks": 0,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "reviewed_lost_property_subtasks"
+    },
+    {
+      "case_id": "case-3e554b89430de76587487514d493fbcabee6782d5876f67db8dcdc858aa07b80",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-3f5bd69c19807861162f3dae2de2d5b171199a2714e37bd15088f89d33c65b2e",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-405d8fe297401efc0210237a2bf0d70b183dd3a3eacc7cc334ce4d04a69d26cf",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-41a68ebd451cfde6d08c5c85c8d63a344b4342646939c95f5269499e357fc803",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-47877ff3c6908a4f1f5feb5ee7bf3250b42fb9b546363e3a97446a28142587a2",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-47c198ac385cda942a508aebbe2b9b9e0ed0fee06031f4845d156ebd57e2f545",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-4ef63d5364758c475d15497fb53d903432ed0b10f2880faf8bcf56769644ac3d",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-5b9217acf0d3c19410d8ba81171c9a1752b5d7200e409d8881635c957ac8646f",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-5c4545470e1bce7abf5746c6d55c0b2e75a5e57b4f4d31cf3594fa7530fb55f3",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-66e477dd113e9546168814a71a348f90d927350eac4f9a64ed1bcf9db9ed2efa",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-74e2b4db6b9797a75c3db3ade3a9a57746c51cce5ee327a09e7ca760ce149127",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 3,
+      "reviewed_method_tasks": 3,
+      "source_reading_tasks": 0,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "reviewed_lost_property_subtasks"
+    },
+    {
+      "case_id": "case-7fc07aa27ff6d7ee95d117f282c310657f48316faf352eacf9c7e9f12fe7a389",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-82e074e0cf047090c8a76bba680c10cb39315cf0ed59b4080c5659c5a5556a60",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-842818d6f605c7a5199a24c3cfed93002a361a2519e462190d59c9dbc059244a",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-86b5ff91affd7bc9c6878668a1db82d2e9a42e3b980ca3f9bc290cb7d81e5742",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-8fd7948dbe13d66aab4ddf793087cd8470b60b35edc089b5666625f9fa7fef0c",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-90638797d4c4fa4b93aecc5529352f4f936ca90456e77693e2881fb5accfe1dc",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-9525ab650b082cc58b06d15f863ce7dbdae2b9480c77991d3394f348c6486d62",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-9f9a89b4935ef80ce7ba3be2217791f0611afc15a789c50ac0cc83588b5c18e7",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-a4fe07631f5c1bfcbe0e1c685ea4d4324251247afebdd9ee0448db0b0d23afbe",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-aa2c76f61e2f091ac3a8d1cba2e26ab3d50cea3aa013f0b58578dd361128f7a3",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-b3dd6097c4186c79d3b834cef63cad5cf7f195da0d7946de4495c1184b3e6459",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [
+        "partial_source_reading"
+      ],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-b3edf9b54b6680cdbc4840ae4551d6276da6c560172364848cc15c102bdf1dc3",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-b460c5504cc2043ea582903147b552a773ccb150716a0797f4cdba89da90c923",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-b5306852ebcbec234070a774b8cc452b17838de35e76c77ba3ce3969eae8c3e3",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-b6d7c7589ab9cbaf715ab9c9b3aa3e26658c5851f81de474eb2af4e0911e7c90",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-b78f14c43bb40d6a7cc2551de8c7cca5c973cfd4629f8f2e5b2a767b1e7c517a",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-c02fb6ee86f1438b3f6c93f6a77edb3b357b836054330fde1a512d65a9bc5f1f",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-cecf00bd786c790b3bec788b23487bb4a2f7a16d6ca1132ec703d4ce78a96ebc",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-d4a7467f0ad1461d2278b7c571bef9ea2a826d5e112e2018dec7d55abc9a71a5",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-d6ee2c00327c917de7d7e8c896b5b8ce1f87b7ff72c5dae5d5cb8d330508b5b3",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-dbc650b9331ca875e4a2720129c75ff408f4bbdd0ce284b93385ddaccb70d2a1",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-dc6238a5f749af624ffd54792af8ced4823aa751485a93eda74bb58d9e00e6d0",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-deb05ed0b5f1c7b259885be2a5c8f1094359e61237fa1aff957f48d5050e1ee5",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-df8242049e9bc8dc0de93fe9f43406f0e686b009a78f9832910bb7227a79c5e9",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-e1290022bc14f9bc65222b790234b0d511defbf53ce94d7afddf29f6c8bea64e",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-e3e071482aa5e18af02ef00b25698d4850559ab1e32e3b4884967a98ede1c601",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-e5446929f76492002068967bd0f7d69ae58788ae47b381af75f9e17a671201fe",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-e621b85f5b3d60fe9f386c3e8886e4202e53dca882bc41f97e0171ef1fc81396",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-ea86d002d73e8c074ba86bccdab0a73833d4690b8dda2a7230547b15bfabe416",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [
+        "user_relayout_reading"
+      ],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-eb02f42ba99f7f74d1b91b09f0615eb4627ba26badd972d4a54c7d6709f0464f",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-f1f4d71e477d69f576279bfe9b9d57f00b78b9494cce344d873063b4369c80a0",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-f29df215e46ee4e12f98954d2bd7ed6517b73e305ab5b9ac7d1099ec2ff64ee2",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-f2dbe3bc8bbd5ff7018cc66b4fb989a094d4648e16d1883d18bf638099c3c121",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-f3a4cf455cfa420796db078054c6e8e09b5857d8f5e5e342d0870213ca53c3d2",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 7,
+      "reviewed_method_tasks": 7,
+      "source_reading_tasks": 0,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "reviewed_lost_property_subtasks"
+    },
+    {
+      "case_id": "case-f8183a1538d30dfebd86ea800a2601cf1f9601eaae64c2608d615bb49946e67b",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-ffec60ee3013caaff64bca3218527c9a0ce897774de68d4a5c6bd6a388fb8efd",
+      "split": "train",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-224ff955ae92d42a0846027b94c017d996d9456901d2dabc9b26ed9fecf0e432",
+      "split": "validation",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-3031948ca59b417be4ae0fdc2bf6253ea1ccc2e0458a035df0b6b8aac2fa5da0",
+      "split": "validation",
+      "archive_complete": true,
+      "task_count": 3,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 3,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-4c9167e5865158db0e16e1ef0a6702fee49c1b234ef117ad530bbee3f920fac2",
+      "split": "validation",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-7371b7970fea9278c20e6cb4f723573b5de82c0e8e637ac18679f759d487097c",
+      "split": "validation",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-79ac973e4894351bd15ca06a2b6bd23fd87d2cdaf8b0dd96968e113ae758f64c",
+      "split": "validation",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-99e5d7b77d9880042106cce4c60b434f34205f782492f0a46b28b2e255e65610",
+      "split": "validation",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-9ff7e074b8fca7fb92b2cc750a61d053f527928fdd3f5ffe991592830bc58f55",
+      "split": "validation",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-aef7e114a1920df5a02b7804bb64610c6ef4af39c502716dd5c784fdcf28efe5",
+      "split": "validation",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-c8d1e05c9761ccb9c63887c16b5d2abe61996a335a83c184e8321a42df804896",
+      "split": "validation",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-cbb92faf5ba02f7a1a36e4cd4743c471a15dbfb5438684c73cdb50168a7c72ca",
+      "split": "validation",
+      "archive_complete": true,
+      "task_count": 4,
+      "reviewed_method_tasks": 4,
+      "source_reading_tasks": 0,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "reviewed_lost_property_subtasks"
+    },
+    {
+      "case_id": "case-d5b34c409e2228e0cc0dacf6bc0c2de0f53c619450f1f5fe783065788b20791e",
+      "split": "validation",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-dea9cdd88900071b102cfcf5095d5f2db62011d4caf7385e1173279c9473f542",
+      "split": "validation",
+      "archive_complete": true,
+      "task_count": 2,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 2,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-e18ba5844c83c23d448d9ce551cbc146cfe697c3b9a0f248b52872724c80edd0",
+      "split": "validation",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-e4382029793a646c7548ff3cee4c4b566cd8e9e1ad1c3ae1b049275527f3970d",
+      "split": "validation",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-ee43a8baa22671f2d32e08b9464d07c71208258d7e566b0b0b2bdf46c3bf3646",
+      "split": "validation",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-000ec3e2e85e8de3d12a100b4c8cf7555e906a8f46ed3ef2ee5badf1ce753b34",
+      "split": "test",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-1a2b11fa07bbb8db7a01636368cc50134f4a565189971222eb5756d8ea06bfbc",
+      "split": "test",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-22de15c30828654ac90c14ab378de76d25a3dd26d754e62e97be498d4e4b7b08",
+      "split": "test",
+      "archive_complete": true,
+      "task_count": 4,
+      "reviewed_method_tasks": 4,
+      "source_reading_tasks": 0,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "reviewed_lost_property_subtasks"
+    },
+    {
+      "case_id": "case-3d0c131e4950ef020bc7d27e4017cc6d9adf838560fdf4dcfbeeacc2019588dc",
+      "split": "test",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-4a1e47ae84392ffab33451a16b24d08bf2c20995300103b9979cf7e1d1c6d7bc",
+      "split": "test",
+      "archive_complete": true,
+      "task_count": 2,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 2,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-5f7e98ed58ee85d646920418766d9f00c12b145d589f5e69c75bedf180124b4f",
+      "split": "test",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-60d72c817d82eb4566c918c2af264cbeea84e5267666111916ecd4cb5f8eaac5",
+      "split": "test",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-80d7ba7cee60e3ae20c1d8db4402cb9d454689e3a44322173c179abb805deafe",
+      "split": "test",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-87f19eef166a53eac668afe9bf976fdcfd0f35bf0a595f1e4cf554dd0644fb1f",
+      "split": "test",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-8952fc5da57a570385241cce39c1f98d45b9ab8c333ff618c70e3890ebc4cf5d",
+      "split": "test",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-9b0a82c9dd9be93670a78d2035fc0ed84bf4a8a87a5ff970281c1be8bb007855",
+      "split": "test",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-abf48581214ec50a5aeeb86459068ddbd5d7dc7d4bd2fe6c0273ba5a98e80dfb",
+      "split": "test",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-be1da18582115ed03e38708a104b371ad3251fe2303288e8aff69bb00da8363d",
+      "split": "test",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-ea3c064d2e9fc7f266065fcbd155ec086ac4c69ea2380e78100ee5bca73bccf4",
+      "split": "test",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-f3b7e2023426b56d387e8a1bebc5ffaa5924101426d8cabc8f13fdbf92cc288a",
+      "split": "test",
+      "archive_complete": true,
+      "task_count": 2,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 2,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-021baaf3fb1e70e9276e280005e9a0aaf1fc507f91afa6ea7d16c5fa748439b8",
+      "split": "development",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    },
+    {
+      "case_id": "case-029e543df86f7e8122a33e6fdafb41a8052a982a577f787b871d05c27e903a77",
+      "split": "development",
+      "archive_complete": true,
+      "task_count": 2,
+      "reviewed_method_tasks": 2,
+      "source_reading_tasks": 0,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "reviewed_lost_property_subtasks"
+    },
+    {
+      "case_id": "case-06199fc40772ac8fc5f4a73cde73b79c26318962a41f628c16c8aef05e0c4427",
+      "split": "development",
+      "archive_complete": true,
+      "task_count": 1,
+      "reviewed_method_tasks": 0,
+      "source_reading_tasks": 1,
+      "source_limit_tasks": [],
+      "method_reasoning_status": "basic_source_reading_covered_professional_reasoning_not_yet_curated"
+    }
+  ]
+}

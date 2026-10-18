@@ -18,7 +18,7 @@ import time
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/'src'))
 from cuda_pilot import encode_example, rows, load_config
-from epoch_protocol import order_for_epoch, learning_rate, sha
+from epoch_protocol import order_for_epoch, learning_rate, sha, validate_cursor
 
 
 def json_write(path, value):
@@ -46,6 +46,8 @@ def main():
         raise ValueError('Complete matching unadapted validation baseline required')
     if a.output.exists() and a.resume is None:
         raise FileExistsError('Keep completed/partial runs; resume explicitly')
+    if (a.output/'report.json').exists():
+        raise ValueError('Completed pilot is immutable; use a new experiment')
     if a.resume and not a.resume.resolve().is_relative_to(a.output.resolve()):
         raise ValueError('Only local checkpoints from this run may be resumed')
     a.output.mkdir(parents=True, exist_ok=True)
@@ -220,6 +222,10 @@ def main():
                  'best_validation_nll': intrinsic['validation'], 'best_checkpoint': None, 'bad_epochs': 0}
         if a.resume:
             state = restore(a.resume)
+            later = [int(d.name.split('-')[1]) for d in a.output.glob('step-*')
+                     if d.is_dir() and d.name.split('-')[1].isdigit()]
+            if later and max(later)>state['optimizer_step']:
+                raise ValueError('Resume the latest completed update, not an older branch')
         else:
             probe_ids = [r['task_id'] for r in sorted(tokenized['train'],
                          key=lambda r: len(r['input_ids']), reverse=True)[:2]]
@@ -239,6 +245,7 @@ def main():
             tail.update(tree_unflatten(list(initial.items())))
             optimizer = optim.AdamW(learning_rate=1e-4, weight_decay=.01)
             mx.random.seed(17); random.seed(17); mx.eval(tail.trainable_parameters())
+        validate_cursor(state, train_ids, 3)
         report['status'] = 'training'
         while state['epoch'] < 3:
             for cursor in range(state['cursor'], len(train_ids)):

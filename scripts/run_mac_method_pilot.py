@@ -54,6 +54,21 @@ def main():
     mx.set_cache_limit(64*1024**2)
     release_raw = a.manifest.read_bytes()
     release = json.loads(release_raw)
+    adapter_training = None
+    if a.adapter_path is not None:
+        training = json.loads((a.adapter_path.parent/'report.json').read_bytes())
+        state = json.loads((a.adapter_path/'state.json').read_bytes())
+        if (training['status'] != 'pilot_training_complete'
+                or training['release_sha256'] != sha(release_raw)
+                or training['model_revision'] != metadata['revision']):
+            raise ValueError('Adapter training identity differs from current source/model')
+        for name in ('adapters.safetensors', 'adapter_config.json'):
+            if sha((a.adapter_path/name).read_bytes()) != state['files'][name]:
+                raise ValueError('Saved standard adapter bytes changed')
+        adapter_training = {'checkpoint': a.adapter_path.name, 'epoch': state['epoch'],
+                            'optimizer_updates': state['optimizer_step'],
+                            'state_sha256': sha((a.adapter_path/'state.json').read_bytes()),
+                            'training_report_sha256': sha((a.adapter_path.parent/'report.json').read_bytes())}
     todo = []
     for split in a.split or ('development', 'validation'):
         raw = (a.data_dir/(split+'.jsonl')).read_bytes()
@@ -74,6 +89,7 @@ def main():
         'packages': {name: importlib.metadata.version(name) for name in ('mlx', 'mlx-lm', 'transformers')},
         'model_load_seconds': gateway.load_seconds, 'started_unix': time.time(), 'records': [],
         'training_updates': 0, 'test_accessed': False, 'network_inference': False,
+        'training_updates_this_generation_process': 0, 'adapter_training': adapter_training,
         'adapter': None if a.adapter_path is None else {
             name: sha((a.adapter_path/name).read_bytes()) for name in ('adapters.safetensors', 'adapter_config.json')},
         'author_method_accuracy': None, 'reported_feedback_accuracy': None,

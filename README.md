@@ -1,3 +1,5 @@
+全书基础任务覆盖已更新为[book_preparation_v2](data/splits/book_preparation_v2.json)：98故事、127任务，82训练/21验证/20测试/4开发；其中32是本章方法任务，其余为带明确范围的原表/局部资料阅读。各故事的专业方法审读程度见[覆盖清单](data/provenance/book_training_coverage_v2.json)。
+
 [钱物丢失章的Mac与4090试验入口](docs/METHOD_PILOT.md) · [本轮实际数据与工程验收](data/provenance/book_pilot_validation_v1.json)
 
 当前建模进度：全书98完整故事/94家族已固定划分（65训练/15验证/15测试/3开发）；[全书数据准备清单](data/splits/book_preparation_v1.json)可从原快照重建。125条派生任务中，32为钱物丢失五类方法子任务、93为其他原盘字面读取，不能当作125独立案例或全书断案能力。正在按用户要求先Mac 27B基线→限定LoRA→同题验证，再决定4090系统训练。独立现实预测准确率尚无成绩。见[专业训练状态](docs/PROFESSIONAL_TRAINING.md)。

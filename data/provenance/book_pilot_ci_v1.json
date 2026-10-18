@@ -1,0 +1,49 @@
+{
+  "commit": "e3bcf2954e1de2da750461fe9b98d0fc9d9c0423",
+  "tree": "4b56058e388ec5e411cc8780edfec39125f00122",
+  "run_id": 39096099101,
+  "url": "https://github.com/turnupmason/QimenLLM/actions/runs/39096099101",
+  "conclusion": "success",
+  "job_logs_actually_read": true,
+  "jobs": [
+    {
+      "job_id": 117582758924,
+      "platform": "ubuntu",
+      "python": "3.11",
+      "discovered": 567,
+      "passed": 564,
+      "skipped": 3,
+      "seconds": 78.238
+    },
+    {
+      "job_id": 117582759052,
+      "platform": "ubuntu",
+      "python": "3.12",
+      "discovered": 567,
+      "passed": 564,
+      "skipped": 3,
+      "seconds": 100.537
+    },
+    {
+      "job_id": 117582759062,
+      "platform": "macos",
+      "python": "3.12",
+      "discovered": 567,
+      "passed": 564,
+      "skipped": 3,
+      "seconds": 123.85
+    },
+    {
+      "job_id": 117582759067,
+      "platform": "macos",
+      "python": "3.11",
+      "discovered": 567,
+      "passed": 564,
+      "skipped": 3,
+      "seconds": 94.238
+    }
+  ],
+  "skips": "Two optional MLX numerical tests and one optional PyTorch/PEFT numerical test; all three ran and passed in local model runtime.",
+  "workflow_unchanged": true,
+  "main_verified_with_ls_remote": true
+}

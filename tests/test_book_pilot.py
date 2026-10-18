@@ -31,6 +31,9 @@ class BookPilotTests(unittest.TestCase):
         cls.manifest = ROOT/'data/splits/lost_method_release_v5.json'
         cls.dataset = Path(cls.tmp.name)/'tasks'; cls.dataset.mkdir()
         cls.method_tasks = [t for t in cls.tasks if t['task_id'].startswith('method-')]
+        cls.supplements = json.loads((ROOT/'data/structured/shenqi/book_source_limits_review_v1.json').read_bytes())
+        cls.review, cls.families = review, families
+        cls.archives_v2, cls.tasks_v2, cls.report_v2 = build(cls.db, review, families, cls.supplements)
         for split in ('train', 'validation', 'test', 'development'):
             (cls.dataset/(split+'.jsonl')).write_bytes(b''.join(encoded(t) for t in cls.method_tasks if t['split']==split))
 
@@ -129,6 +132,56 @@ class BookPilotTests(unittest.TestCase):
         self.assertEqual(set(check_output(output,payload)),{'source_table_fact_mismatch','unavailable_reference'})
         with self.assertRaises(GenerationError):
             check_output({'task_type':'chart_evidence'},payload)
+
+    def test_v2_covers_all_98_stories_without_moving_or_rewriting_prior_tasks(self):
+        self.assertEqual(len(self.tasks_v2),127)
+        self.assertEqual(self.report_v2['task_cases'],98)
+        self.assertEqual(self.report_v2['task_counts'],{'train':82,'validation':21,'test':20,'development':4})
+        old={t['task_id']:t for t in self.tasks}
+        for t in self.tasks_v2:
+            if t['task_id'] in old:self.assertEqual(t,old[t['task_id']])
+        self.assertEqual(self.archives_v2,self.archives)
+        manifest=json.loads((ROOT/'data/splits/book_preparation_v2.json').read_bytes())
+        for split in ('train','validation','test','development'):
+            raw=b''.join(encoded(t) for t in self.tasks_v2 if t['split']==split)
+            self.assertEqual(sha(raw),manifest['files']['tasks-'+split+'.jsonl']['sha256'])
+
+    def test_partial_source_teaches_explicit_missing_information_without_later_commentary(self):
+        task=next(t for t in self.tasks_v2 if t.get('input_setting')=='partial_source_reading')
+        payload=json.loads(task['messages'][1]['content'])
+        answer=json.loads(task['messages'][2]['content'])
+        self.assertFalse(answer['complete_nine_palace_chart'])
+        self.assertFalse(task['forecast_evaluation_eligible'])
+        self.assertEqual(len(answer['reported_facts']),6)
+        self.assertNotIn('palaces',payload)
+        text=json.dumps(payload,ensure_ascii=False)
+        self.assertNotIn('retrospective_addendum',text)
+        self.assertNotIn('木克土，克不动',text)
+        for fact in answer['reported_facts']:
+            self.assertIn(fact['value'],fact['quote'])
+            self.assertIn(fact['quote'],payload['references']['source']['text'])
+
+    def test_user_relayout_36_literal_cells_never_upgrade_original_chart(self):
+        task=next(t for t in self.tasks_v2 if t.get('input_setting')=='user_relayout_reading')
+        answer=json.loads(task['messages'][2]['content'])
+        cells={r['palace']:r['source_cells_as_written'] for r in answer['palaces_as_written']}
+        self.assertEqual(sum(len(v) for v in cells.values()),36)
+        self.assertEqual(cells[3][2],'门位：生乙')
+        self.assertEqual(cells[5][2],'中宫原文：壬')
+        self.assertEqual(cells[6][2],'门位：壬惊丙')
+        self.assertFalse(task['original_chart_status_upgraded'])
+        self.assertFalse(answer['engine_verified'])
+        self.assertFalse(task['forecast_evaluation_eligible'])
+        self.assertEqual(len(self.report_v2['unsupported_charts']),3)
+
+    def test_forged_supplement_fact_source_family_or_gold_is_rejected(self):
+        for change in (
+            lambda s:s['rows'][0]['reported_facts'][0].update(value='不存在的干支'),
+            lambda s:s['rows'][0].update(excerpt_sha256='0'*64),
+            lambda s:s['rows'][0].update(family_id='another-family'),
+            lambda s:s['rows'][1].update(gold_sha256='0'*64)):
+            altered=copy.deepcopy(self.supplements);change(altered)
+            with self.assertRaises(ValueError):build(self.db,self.review,self.families,altered)
 
     def test_failed_json_keeps_generation_diagnostics(self):
         task = next(t for t in self.method_tasks if t['split']=='validation')

@@ -29,6 +29,8 @@ def sync_github(root: str | Path, db: str | Path, raw_dir: str | Path, message: 
     root=Path(root).resolve()
     try: config=json.loads((root/'configs/github.json').read_bytes())
     except (OSError,ValueError) as exc: raise SyncError('Missing or invalid configs/github.json') from exc
+    if Path(_run(['git','rev-parse','--show-toplevel'],root)).resolve()!=root:
+        raise SyncError('Project must be the actual Git checkout root')
     export=export_snapshot(db,raw_dir,root/'data/snapshots/current')
     repository=config['repository']
     expected='https://github.com/'+repository+'.git'
