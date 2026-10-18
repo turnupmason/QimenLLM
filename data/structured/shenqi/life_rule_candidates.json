@@ -1,0 +1,255 @@
+{
+  "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+  "source_byte_count": 37761,
+  "source_line_count": 273,
+  "schema_version": "source_selection_candidates_v1",
+  "title": "人生机遇预测",
+  "candidate_count": 4,
+  "candidate_record_count": 4,
+  "candidates": [
+    {
+      "key": "life_birth_family",
+      "domain": "life_opportunities",
+      "scope": "birth_family",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "life_opportunities"
+        },
+        {
+          "field": "life_subtype",
+          "op": "eq",
+          "value": "birth_family"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_life_birth_family_reference_v1"
+        },
+        {
+          "field": "relationship_scope",
+          "op": "eq",
+          "value": "family"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_life_reference_v1"
+      },
+      "source_lines": [
+        10
+      ],
+      "source_quote": "凡预测一个人的先天素质和后天大的机遇，可以通过其出生时间的奇门格局进行分析，一般以日干落宫为本人，在家庭，以年干为父母，以月干为兄弟姐妹，以时干为子女；在社会群体，以年干为上级领导，以月干为同事朋友，以时干为下级群众；以九星为天时，以八门为人事，以九宫为地理，以八神为自然力量；结合时令和落宫分析其旺相休囚，结合格局分析其机遇好坏，通过五行生克制化分析其吉凶祸福。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "出生与近期问时、家庭与社会角色须明示；未知条件不默认满足",
+        "韵文按本章引述与不可拘泥告诫保全，仅参考，不编译刻板命运/健康/身份判断"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "日干",
+          "年干",
+          "月干",
+          "时干"
+        ],
+        "semantic_role": "birth_family",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "life_birth_social",
+      "domain": "life_opportunities",
+      "scope": "birth_social",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "life_opportunities"
+        },
+        {
+          "field": "life_subtype",
+          "op": "eq",
+          "value": "birth_social"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_life_birth_social_reference_v1"
+        },
+        {
+          "field": "relationship_scope",
+          "op": "eq",
+          "value": "social_group"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_life_reference_v1"
+      },
+      "source_lines": [
+        10
+      ],
+      "source_quote": "凡预测一个人的先天素质和后天大的机遇，可以通过其出生时间的奇门格局进行分析，一般以日干落宫为本人，在家庭，以年干为父母，以月干为兄弟姐妹，以时干为子女；在社会群体，以年干为上级领导，以月干为同事朋友，以时干为下级群众；以九星为天时，以八门为人事，以九宫为地理，以八神为自然力量；结合时令和落宫分析其旺相休囚，结合格局分析其机遇好坏，通过五行生克制化分析其吉凶祸福。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "出生与近期问时、家庭与社会角色须明示；未知条件不默认满足",
+        "韵文按本章引述与不可拘泥告诫保全，仅参考，不编译刻板命运/健康/身份判断"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "日干",
+          "年干",
+          "月干",
+          "时干"
+        ],
+        "semantic_role": "birth_social",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "life_recent_inquiry",
+      "domain": "life_opportunities",
+      "scope": "recent_inquiry",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "life_opportunities"
+        },
+        {
+          "field": "life_subtype",
+          "op": "eq",
+          "value": "recent_inquiry"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_life_recent_inquiry_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_life_reference_v1"
+      },
+      "source_lines": [
+        11
+      ],
+      "source_quote": "凡预测一个人近期机遇和行运，可以通过问测时间的奇门格局进行分析，一般以日干为本人，结合年命落宫，综合判断之，也可以结合来人落宫方位，帮助判断之。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "出生与近期问时、家庭与社会角色须明示；未知条件不默认满足",
+        "韵文按本章引述与不可拘泥告诫保全，仅参考，不编译刻板命运/健康/身份判断"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "日干",
+          "年命",
+          "来人落宫方位"
+        ],
+        "semantic_role": "recent_inquiry",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "life_quoted_verse_with_caution",
+      "domain": "life_opportunities",
+      "scope": "quoted_verse_with_caution",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "life_opportunities"
+        },
+        {
+          "field": "life_subtype",
+          "op": "eq",
+          "value": "quoted_verse_with_caution"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_life_quoted_verse_with_caution_reference_v1"
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_life_reference_v1"
+      },
+      "source_lines": [
+        12,
+        25
+      ],
+      "source_quote": "《奇门遁甲秘笈大全》一书将预测人生的经验归纳成一篇韵文，现整理如下，供易学爱好者研读：\n其法先明戴九履一，细寻接气超神。八门配合九宫，九宫要带三奇。年月日时要旺相，八门九宫须推移。离宫头面，乾艮两足；肩耳在于坤巽，震兑左右胸襟。坎为阴肾，中为心腹。\n年干父母，月干兄弟，日干本身，时干子女。推及妻妾，但看乙丁之落宫；若问夫君面首，庚丙二干定不移。要详细其强弱，即能决其荣枯。旺相得奇，且富且贵；死囚墓绝，极贱极贫。\n格局要分轻重，命运验其得失。未布局先看孤虚旺相，即开口必辩天地乘时。太白入乾坤，父母早年沦没；若临兄弟宫位，手足竟是仇敌。日奇被刑，庄生嗟叹，时干逢之，邓通无儿。\n生门产业，要得三奇。成败分于内外，生克决其得失。生门太白逢冲陷，背祖离乡之客；被冲克，售尽祖父旧园。生在外而身在内，必迁居而发富；身在外而生在内，纵有祖业亦难留。身生二宫俱在内，安享仆马之福；身生俱在外宫，远方创业之人。\n日值孤时值虚，少年无依；时落孤，日落虚，老后鳏独。命被冲克，乞食道路；日临墓绝，难释愁眉。\n财官生旺，盖因飞鸟跌穴；鳌头独立，必得青龙返首。天辅旺相得奇门，文明翰苑。天冲旺相得奇仪，威镇边疆。天禽位镇中宫，得奇门，百官元首。英星右弼合吉格，鼎鼐元勋。天柱合式直言谏议。天心入垣医药最良。任为左辅，司农之职。天芮不可得地，逢奇门曹董之流。蓬星位镇北垣，得奇门叛君之贼。\n开门有奇，应是文职。伤门得令，定系虎臣。生门得奇，石崇富足。景门合局，丹天文明。惊门入式，好辩之人。休门合奇，礼宾首长。杜门得地，保密军警。死门得奇，职在司刑。\n分布八门，星神奇仪。合局者，豪富豪贵。失局者，下等平人。开门、心星皆是金，稍有气，医卜星相；若值死囚，手艺辛勤。休门、天蓬同是水，稍有气，兵弁役吏；值死囚，军卒贼人。生门、天任是土宿，得地者，田地富足；若失时，庸工耕耘。伤门、天冲皆为木，稍有气，兵役之首；值死休，马后相奔。杜门、天辅亦是木，稍有气，乃是寒儒；值墓绝，僧道山林。景门、天英为火宿，稍有气，行行威烈之表；全失局，冶炼劳碌之人。死门、天芮俱是土，稍有气，赵魏家长；值墓空，孤穷之人。惊门、天柱同属金，稍有气，幕宾教授；若失令，说唱巫祝之人。\n八门辨别旺相，再论九星。天蓬乘时，边疆之将；失地利，军卒贼人。天任得地，田土仆马之富；受克，农圃辛苦之人。天冲有气者武贵，背时者车船江湖之流。天辅为文昌，得气者文雅仕官；失地利，僧道画工。天英火司南离，乘权者必主文明；背时者，贪暴昏庸。天芮本是黑星，得天时，性恶霸道；失天时，牧隶庸工。七赤天柱位镇西垣，有气者，舌辩当世；被冲克，优伎乐工。天心原是六白，得地者，才华国柱；若空墓，九流相寻。\n青龙返首，鳌头独占。飞鸟跌穴，富贵成名。青龙转光，邑长县令。戊加丁奇，富贵荣耀。白虎猖狂，凶顽之辈。青龙逃走，懦弱之人，更主因妻成败，而且驼背驼身。朱雀投江，刀笔书吏。螣蛇夭娇，毒心小人。失时者目盲耳聩，乘气者火焚伤身。太白入荧者，进主先贫后富；荧入白者，退主家业萧条。庚加戊，戊加庚，多成多败，此地不比他地。飞干伏干，此人不比他人。太白同宫，兄弟雷攻。太白逢星，妻室常病。星逢太白，惟薄丑声。大格者，萍迹四海。小格者，暂时清贫。年月日时四格，即六亲而推去，看是何宫测验，而为悖戾无礼相从，推及父母兄弟妻子贤否，可以详明。\n辛为天狱，壬为地牢，主低下之品，更主抑郁难伸。癸为天网，须看高低，高者化为华盖，可推贵格；低者天网缠身，寂寂孤贫。且忌玉女守门，妻随人行。乙丁妻妾，看是谁亲谁疏。乙奇入墓，妻不生子。丁乙同宫，另续相亲。乙奇在上，妻妾和谐；丁在乙上，妾幸夫心。\n诸格忌落空亡，吉者减昌而苦者更苦。若临墓绝之地，无告穷民。八门推来最怕反吟，伏吟亦是凶神。五行配合斯理，取用在乎一心。余不尽言，惟应用者悟之。\n需要说明的是，对古人的经验，只可参考，不能拘泥。古籍中所载经验，片面性、绝对性很大，往往把吉凶简单化。在应用中，必须灵活掌握，变通参考，全盘分析，综合判断，才能不断提高准确率。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "出生与近期问时、家庭与社会角色须明示；未知条件不默认满足",
+        "韵文按本章引述与不可拘泥告诫保全，仅参考，不编译刻板命运/健康/身份判断"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_confirmation_policy": "confirmed_on_user_submission_no_second_manual_source_review",
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "九星",
+          "八门",
+          "六亲",
+          "格局",
+          "旺相",
+          "空亡"
+        ],
+        "semantic_role": "quoted_verse_with_caution",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    }
+  ]
+}

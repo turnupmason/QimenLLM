@@ -16,4 +16,4 @@
 
 运行：`PYTHONPATH=src python3 -m unittest discover -s tests -v`。
 资料/案例规则见 KNOWLEDGE_POLICY / CASE_POLICY；架构与迁移见 ARCHITECTURE / SCHEMA；评估见 EVALUATION_PROTOCOL；设备与远程接入见 HARDWARE。
-当前已接收《神奇之门》19份章级输入，累计92故事/88家族/99事件/97原盘。地理环境本轮2故事/2家族/3事件/2盘、30过程记录；第二故事两处墓地目标同家族，先考题无原盘且方法未明，不补图。第十五章是原印刷标题，sequence20仅接收排序；源SHA256 c755e3879432b2f84329e0b9491eabdb48b865fa2f1cad96a0187f1bb7a3f5c1。第一例专家意见先已公开、八亿预算/资金缺口有限反馈与2001开业/十四亿未报结局分开；第二例省略号与佩服反应保留，不补作者内部推理或墓地最终结果。沿import_shenqi_geography.py、snapshot和QimenService接续，无schema迁移或workflow增删，正式rules/训练0。最高总指令见docs/user_instructions/master_spec_reaffirmed_2026-10-17.txt，旧原件保留；不重置Phase0。进度以STATUS为准，历史验收报告不覆盖。
+当前已接收《神奇之门》20份章级输入，累计97故事/93家族/104事件/102原盘。人生机遇本轮5故事/5家族/5咨询或验测事件/5盘、142过程记录；源SHA256 92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507。原印刷第十六章，sequence21仅接收排序。问时/出生盘分开，第四例全案已知死亡后验测；第三例初五后验应期、第五例1994/95原断与1996反馈不改。第二例本金已追回和出行计划按当场透露保存，不造后续应验；多轮事实不前泄。引韵文连同不可拘泥告诫保留，不另导书或编译身份/健康命运刻板规则。沿import_shenqi_life.py、snapshot和QimenService接续，无schema迁移或workflow增删，正式rules/训练0。最高总指令见docs/user_instructions/master_spec_reaffirmed_2026-10-17.txt，旧原件保留；不重置Phase0。进度以STATUS为准，历史验收报告不覆盖。

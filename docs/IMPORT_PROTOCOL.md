@@ -139,3 +139,14 @@ PYTHONPATH=src python3 scripts/import_shenqi_geography.py --restore-base --db wo
 ```
 
 目标库须不存在；已含本章的快照重放幂等。沿现有import_chapter/install_curated/import_cases/install_candidates和QimenService/CLI/WSGI。第二故事两个事件同家族，前题无盘、后题一盘；不能把后题盘挂前题或补图。原文未报结局/内部推理不补，旧source/cases/curation/gold不改。local-only仅维护暂存；最终需完整审计、快照、全量回归、核实私有仓库、非强制更新main、精确SHA逐blob和四CI，不新增章级workflow。见ingestion/SHENQI_GEOGRAPHY.md。
+
+
+## 人生机遇增量重放
+
+37761原字节/273行，末尾LF，确切SHA见data/provenance/life_source_audit.json；uploads/SQLite BLOB/snapshot raw完整保存。chapter_key=life-opportunities，sequence21仅接收排序，印刷标题第十六章。既有快照恢复到新库后：
+
+```sh
+PYTHONPATH=src python3 scripts/import_shenqi_life.py --restore-base --db work/life.sqlite3 --raw-dir work/life-raw --local-only
+```
+
+目标库须不存在；已含本章的快照重放幂等。复用import_chapter/install_curated/import_cases/install_candidates及QimenService/CLI/WSGI。多轮断语、分析、反馈分kind/phase，未知和已知结果后验测不放首次输入；不得把现有本金回收/计划或错误年份重写成后续命中。旧source/cases/curation/gold/总指令不改。local-only只维护暂存，最终须审计/快照/全量回归/核实私有仓库/非强制更新main/精确SHA逐blob与四CI；不新增workflow。见ingestion/SHENQI_LIFE.md。

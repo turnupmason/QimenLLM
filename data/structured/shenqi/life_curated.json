@@ -1,0 +1,1503 @@
+{
+  "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+  "source_byte_count": 37761,
+  "source_line_count": 273,
+  "chapter_title": "人生机遇预测",
+  "chapter_key_suggestion": "life-opportunities",
+  "printed_chapter_number": 16,
+  "groups": [
+    {
+      "key": "life_heading",
+      "title": "第十六章",
+      "category": "commentary",
+      "line_start": 1,
+      "line_end": 6,
+      "attribution": "原书作者叙述；引文《奇门遁甲秘笈大全》为本章内引述，并非额外取得该书",
+      "summary": "整块语境；出生/问时口径及家庭/社会角色分开，韵文与作者不可拘泥告诫共同保留；原断、反馈、错断、复盘分阶段",
+      "concepts": [],
+      "dataset": {
+        "key": "life_heading_reference",
+        "rows": [
+          {
+            "key": "life_heading_1",
+            "source_lines": [
+              1,
+              1
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 1,
+              "line_end": 1,
+              "byte_start": 0,
+              "byte_end": 13,
+              "source_quote": "第十六章\n"
+            },
+            "source_quote": "第十六章\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_heading_3",
+            "source_lines": [
+              3,
+              3
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 3,
+              "line_end": 3,
+              "byte_start": 14,
+              "byte_end": 33,
+              "source_quote": "人生机遇预测\n"
+            },
+            "source_quote": "人生机遇预测\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_heading_5",
+            "source_lines": [
+              5,
+              5
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 5,
+              "line_end": 5,
+              "byte_start": 34,
+              "byte_end": 63,
+              "source_quote": "第一节 取用判断经验\n"
+            },
+            "source_quote": "第一节 取用判断经验\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "life_author_context",
+      "title": "一个人的命运，除了个人主观努力以外，第一，与先天素质有关，即由祖上及父母遗传基因和出生前的时间、空间等自然界因素赋予他的基本素质有关。有人将",
+      "category": "commentary",
+      "line_start": 7,
+      "line_end": 9,
+      "attribution": "原书作者叙述；引文《奇门遁甲秘笈大全》为本章内引述，并非额外取得该书",
+      "summary": "整块语境；出生/问时口径及家庭/社会角色分开，韵文与作者不可拘泥告诫共同保留；原断、反馈、错断、复盘分阶段",
+      "concepts": [],
+      "dataset": {
+        "key": "life_author_context_reference",
+        "rows": [
+          {
+            "key": "life_author_context_7",
+            "source_lines": [
+              7,
+              7
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 7,
+              "line_end": 7,
+              "byte_start": 64,
+              "byte_end": 741,
+              "source_quote": "一个人的命运，除了个人主观努力以外，第一，与先天素质有关，即由祖上及父母遗传基因和出生前的时间、空间等自然界因素赋予他的基本素质有关。有人将这种基本素质，称之为“天赋”,也就是降生以前，客观世界给予他这个生物的物质结构、性能等。比如说是健康的肌体，还是有病残的肌体；是高智商的大脑，还是低智商或弱智的大脑；是坚忍不拔、与人随和的性格，还是忽冷忽热、偏激古怪的性格，等等。这些都与他事业的成功与失败，选择什么样的职业才能更好地实现其人生价值，有很大关系。\n"
+            },
+            "source_quote": "一个人的命运，除了个人主观努力以外，第一，与先天素质有关，即由祖上及父母遗传基因和出生前的时间、空间等自然界因素赋予他的基本素质有关。有人将这种基本素质，称之为“天赋”,也就是降生以前，客观世界给予他这个生物的物质结构、性能等。比如说是健康的肌体，还是有病残的肌体；是高智商的大脑，还是低智商或弱智的大脑；是坚忍不拔、与人随和的性格，还是忽冷忽热、偏激古怪的性格，等等。这些都与他事业的成功与失败，选择什么样的职业才能更好地实现其人生价值，有很大关系。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_author_context_8",
+            "source_lines": [
+              8,
+              8
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 8,
+              "line_end": 8,
+              "byte_start": 741,
+              "byte_end": 1287,
+              "source_quote": "第二，与后天的机遇有关。有的人先天素质很不错，但是阴差阳错，后天运程中老是碰不上发展其“天赋”的机遇，一生怀才不遇，郁郁寡欢。也有的人，从全面素质来比较可能不如另一个人，但他某一方面的“天赋”却碰上了发展的机遇，于是大展其才华，成为“一招鲜，吃遍天”的明星人物。所谓后天机遇，包括天时、地利、人和，以及某些人类用肉眼无法直接看到的自然力量(能量场、生物场等)等因素。\n"
+            },
+            "source_quote": "第二，与后天的机遇有关。有的人先天素质很不错，但是阴差阳错，后天运程中老是碰不上发展其“天赋”的机遇，一生怀才不遇，郁郁寡欢。也有的人，从全面素质来比较可能不如另一个人，但他某一方面的“天赋”却碰上了发展的机遇，于是大展其才华，成为“一招鲜，吃遍天”的明星人物。所谓后天机遇，包括天时、地利、人和，以及某些人类用肉眼无法直接看到的自然力量(能量场、生物场等)等因素。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_author_context_9",
+            "source_lines": [
+              9,
+              9
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 9,
+              "line_end": 9,
+              "byte_start": 1287,
+              "byte_end": 1642,
+              "source_quote": "奇门预测由于是一个将天时、地利、人和和自然力量综合到一起的时、空象数理模型，所以可以帮助人们认识自我，了解自我，帮助你了解自己的先天素质如何，后天机遇如何，以便扬长避短，调整自我，经过主观努力，发展自我，完善自我，更好地实现其人生价值。\n"
+            },
+            "source_quote": "奇门预测由于是一个将天时、地利、人和和自然力量综合到一起的时、空象数理模型，所以可以帮助人们认识自我，了解自我，帮助你了解自己的先天素质如何，后天机遇如何，以便扬长避短，调整自我，经过主观努力，发展自我，完善自我，更好地实现其人生价值。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "life_birth_roles",
+      "title": "凡预测一个人的先天素质和后天大的机遇，可以通过其出生时间的奇门格局进行分析，一般以日干落宫为本人，在家庭，以年干为父母，以月干为兄弟姐妹，以",
+      "category": "role",
+      "line_start": 10,
+      "line_end": 10,
+      "attribution": "原书作者叙述；引文《奇门遁甲秘笈大全》为本章内引述，并非额外取得该书",
+      "summary": "整块语境；出生/问时口径及家庭/社会角色分开，韵文与作者不可拘泥告诫共同保留；原断、反馈、错断、复盘分阶段",
+      "concepts": [
+        "日干",
+        "年干",
+        "月干",
+        "时干",
+        "家庭",
+        "社会群体",
+        "九星",
+        "八门",
+        "九宫",
+        "八神"
+      ],
+      "dataset": {
+        "key": "life_birth_roles_reference",
+        "rows": [
+          {
+            "key": "life_birth_roles_10",
+            "source_lines": [
+              10,
+              10
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 10,
+              "line_end": 10,
+              "byte_start": 1642,
+              "byte_end": 2189,
+              "source_quote": "凡预测一个人的先天素质和后天大的机遇，可以通过其出生时间的奇门格局进行分析，一般以日干落宫为本人，在家庭，以年干为父母，以月干为兄弟姐妹，以时干为子女；在社会群体，以年干为上级领导，以月干为同事朋友，以时干为下级群众；以九星为天时，以八门为人事，以九宫为地理，以八神为自然力量；结合时令和落宫分析其旺相休囚，结合格局分析其机遇好坏，通过五行生克制化分析其吉凶祸福。\n"
+            },
+            "source_quote": "凡预测一个人的先天素质和后天大的机遇，可以通过其出生时间的奇门格局进行分析，一般以日干落宫为本人，在家庭，以年干为父母，以月干为兄弟姐妹，以时干为子女；在社会群体，以年干为上级领导，以月干为同事朋友，以时干为下级群众；以九星为天时，以八门为人事，以九宫为地理，以八神为自然力量；结合时令和落宫分析其旺相休囚，结合格局分析其机遇好坏，通过五行生克制化分析其吉凶祸福。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "life_recent_inquiry_roles",
+      "title": "凡预测一个人近期机遇和行运，可以通过问测时间的奇门格局进行分析，一般以日干为本人，结合年命落宫，综合判断之，也可以结合来人落宫方位，帮助判断",
+      "category": "role",
+      "line_start": 11,
+      "line_end": 11,
+      "attribution": "原书作者叙述；引文《奇门遁甲秘笈大全》为本章内引述，并非额外取得该书",
+      "summary": "整块语境；出生/问时口径及家庭/社会角色分开，韵文与作者不可拘泥告诫共同保留；原断、反馈、错断、复盘分阶段",
+      "concepts": [
+        "日干",
+        "年命",
+        "问测时间",
+        "来人落宫方位"
+      ],
+      "dataset": {
+        "key": "life_recent_inquiry_roles_reference",
+        "rows": [
+          {
+            "key": "life_recent_inquiry_roles_11",
+            "source_lines": [
+              11,
+              11
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 11,
+              "line_end": 11,
+              "byte_start": 2189,
+              "byte_end": 2406,
+              "source_quote": "凡预测一个人近期机遇和行运，可以通过问测时间的奇门格局进行分析，一般以日干为本人，结合年命落宫，综合判断之，也可以结合来人落宫方位，帮助判断之。\n"
+            },
+            "source_quote": "凡预测一个人近期机遇和行运，可以通过问测时间的奇门格局进行分析，一般以日干为本人，结合年命落宫，综合判断之，也可以结合来人落宫方位，帮助判断之。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "life_quoted_verse_with_caution",
+      "title": "《奇门遁甲秘笈大全》一书将预测人生的经验归纳成一篇韵文，现整理如下，供易学爱好者研读：",
+      "category": "commentary",
+      "line_start": 12,
+      "line_end": 25,
+      "attribution": "原书作者叙述；引文《奇门遁甲秘笈大全》为本章内引述，并非额外取得该书",
+      "summary": "整块语境；出生/问时口径及家庭/社会角色分开，韵文与作者不可拘泥告诫共同保留；原断、反馈、错断、复盘分阶段",
+      "concepts": [
+        "旺相",
+        "六亲",
+        "生门",
+        "内外盘",
+        "九星",
+        "八门",
+        "格局",
+        "空亡",
+        "墓绝",
+        "反吟",
+        "伏吟"
+      ],
+      "dataset": {
+        "key": "life_quoted_verse_with_caution_reference",
+        "rows": [
+          {
+            "key": "life_quoted_verse_with_caution_12",
+            "source_lines": [
+              12,
+              12
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 12,
+              "line_end": 12,
+              "byte_start": 2406,
+              "byte_end": 2536,
+              "source_quote": "《奇门遁甲秘笈大全》一书将预测人生的经验归纳成一篇韵文，现整理如下，供易学爱好者研读：\n"
+            },
+            "source_quote": "《奇门遁甲秘笈大全》一书将预测人生的经验归纳成一篇韵文，现整理如下，供易学爱好者研读：\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_quoted_verse_with_caution_13",
+            "source_lines": [
+              13,
+              13
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 13,
+              "line_end": 13,
+              "byte_start": 2536,
+              "byte_end": 2777,
+              "source_quote": "其法先明戴九履一，细寻接气超神。八门配合九宫，九宫要带三奇。年月日时要旺相，八门九宫须推移。离宫头面，乾艮两足；肩耳在于坤巽，震兑左右胸襟。坎为阴肾，中为心腹。\n"
+            },
+            "source_quote": "其法先明戴九履一，细寻接气超神。八门配合九宫，九宫要带三奇。年月日时要旺相，八门九宫须推移。离宫头面，乾艮两足；肩耳在于坤巽，震兑左右胸襟。坎为阴肾，中为心腹。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_quoted_verse_with_caution_14",
+            "source_lines": [
+              14,
+              14
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 14,
+              "line_end": 14,
+              "byte_start": 2777,
+              "byte_end": 3024,
+              "source_quote": "年干父母，月干兄弟，日干本身，时干子女。推及妻妾，但看乙丁之落宫；若问夫君面首，庚丙二干定不移。要详细其强弱，即能决其荣枯。旺相得奇，且富且贵；死囚墓绝，极贱极贫。\n"
+            },
+            "source_quote": "年干父母，月干兄弟，日干本身，时干子女。推及妻妾，但看乙丁之落宫；若问夫君面首，庚丙二干定不移。要详细其强弱，即能决其荣枯。旺相得奇，且富且贵；死囚墓绝，极贱极贫。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_quoted_verse_with_caution_15",
+            "source_lines": [
+              15,
+              15
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 15,
+              "line_end": 15,
+              "byte_start": 3024,
+              "byte_end": 3268,
+              "source_quote": "格局要分轻重，命运验其得失。未布局先看孤虚旺相，即开口必辩天地乘时。太白入乾坤，父母早年沦没；若临兄弟宫位，手足竟是仇敌。日奇被刑，庄生嗟叹，时干逢之，邓通无儿。\n"
+            },
+            "source_quote": "格局要分轻重，命运验其得失。未布局先看孤虚旺相，即开口必辩天地乘时。太白入乾坤，父母早年沦没；若临兄弟宫位，手足竟是仇敌。日奇被刑，庄生嗟叹，时干逢之，邓通无儿。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_quoted_verse_with_caution_16",
+            "source_lines": [
+              16,
+              16
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 16,
+              "line_end": 16,
+              "byte_start": 3268,
+              "byte_end": 3599,
+              "source_quote": "生门产业，要得三奇。成败分于内外，生克决其得失。生门太白逢冲陷，背祖离乡之客；被冲克，售尽祖父旧园。生在外而身在内，必迁居而发富；身在外而生在内，纵有祖业亦难留。身生二宫俱在内，安享仆马之福；身生俱在外宫，远方创业之人。\n"
+            },
+            "source_quote": "生门产业，要得三奇。成败分于内外，生克决其得失。生门太白逢冲陷，背祖离乡之客；被冲克，售尽祖父旧园。生在外而身在内，必迁居而发富；身在外而生在内，纵有祖业亦难留。身生二宫俱在内，安享仆马之福；身生俱在外宫，远方创业之人。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_quoted_verse_with_caution_17",
+            "source_lines": [
+              17,
+              17
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 17,
+              "line_end": 17,
+              "byte_start": 3599,
+              "byte_end": 3735,
+              "source_quote": "日值孤时值虚，少年无依；时落孤，日落虚，老后鳏独。命被冲克，乞食道路；日临墓绝，难释愁眉。\n"
+            },
+            "source_quote": "日值孤时值虚，少年无依；时落孤，日落虚，老后鳏独。命被冲克，乞食道路；日临墓绝，难释愁眉。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_quoted_verse_with_caution_18",
+            "source_lines": [
+              18,
+              18
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 18,
+              "line_end": 18,
+              "byte_start": 3735,
+              "byte_end": 4147,
+              "source_quote": "财官生旺，盖因飞鸟跌穴；鳌头独立，必得青龙返首。天辅旺相得奇门，文明翰苑。天冲旺相得奇仪，威镇边疆。天禽位镇中宫，得奇门，百官元首。英星右弼合吉格，鼎鼐元勋。天柱合式直言谏议。天心入垣医药最良。任为左辅，司农之职。天芮不可得地，逢奇门曹董之流。蓬星位镇北垣，得奇门叛君之贼。\n"
+            },
+            "source_quote": "财官生旺，盖因飞鸟跌穴；鳌头独立，必得青龙返首。天辅旺相得奇门，文明翰苑。天冲旺相得奇仪，威镇边疆。天禽位镇中宫，得奇门，百官元首。英星右弼合吉格，鼎鼐元勋。天柱合式直言谏议。天心入垣医药最良。任为左辅，司农之职。天芮不可得地，逢奇门曹董之流。蓬星位镇北垣，得奇门叛君之贼。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_quoted_verse_with_caution_19",
+            "source_lines": [
+              19,
+              19
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 19,
+              "line_end": 19,
+              "byte_start": 4147,
+              "byte_end": 4388,
+              "source_quote": "开门有奇，应是文职。伤门得令，定系虎臣。生门得奇，石崇富足。景门合局，丹天文明。惊门入式，好辩之人。休门合奇，礼宾首长。杜门得地，保密军警。死门得奇，职在司刑。\n"
+            },
+            "source_quote": "开门有奇，应是文职。伤门得令，定系虎臣。生门得奇，石崇富足。景门合局，丹天文明。惊门入式，好辩之人。休门合奇，礼宾首长。杜门得地，保密军警。死门得奇，职在司刑。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_quoted_verse_with_caution_20",
+            "source_lines": [
+              20,
+              20
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 20,
+              "line_end": 20,
+              "byte_start": 4388,
+              "byte_end": 5142,
+              "source_quote": "分布八门，星神奇仪。合局者，豪富豪贵。失局者，下等平人。开门、心星皆是金，稍有气，医卜星相；若值死囚，手艺辛勤。休门、天蓬同是水，稍有气，兵弁役吏；值死囚，军卒贼人。生门、天任是土宿，得地者，田地富足；若失时，庸工耕耘。伤门、天冲皆为木，稍有气，兵役之首；值死休，马后相奔。杜门、天辅亦是木，稍有气，乃是寒儒；值墓绝，僧道山林。景门、天英为火宿，稍有气，行行威烈之表；全失局，冶炼劳碌之人。死门、天芮俱是土，稍有气，赵魏家长；值墓空，孤穷之人。惊门、天柱同属金，稍有气，幕宾教授；若失令，说唱巫祝之人。\n"
+            },
+            "source_quote": "分布八门，星神奇仪。合局者，豪富豪贵。失局者，下等平人。开门、心星皆是金，稍有气，医卜星相；若值死囚，手艺辛勤。休门、天蓬同是水，稍有气，兵弁役吏；值死囚，军卒贼人。生门、天任是土宿，得地者，田地富足；若失时，庸工耕耘。伤门、天冲皆为木，稍有气，兵役之首；值死休，马后相奔。杜门、天辅亦是木，稍有气，乃是寒儒；值墓绝，僧道山林。景门、天英为火宿，稍有气，行行威烈之表；全失局，冶炼劳碌之人。死门、天芮俱是土，稍有气，赵魏家长；值墓空，孤穷之人。惊门、天柱同属金，稍有气，幕宾教授；若失令，说唱巫祝之人。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_quoted_verse_with_caution_21",
+            "source_lines": [
+              21,
+              21
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 21,
+              "line_end": 21,
+              "byte_start": 5142,
+              "byte_end": 5728,
+              "source_quote": "八门辨别旺相，再论九星。天蓬乘时，边疆之将；失地利，军卒贼人。天任得地，田土仆马之富；受克，农圃辛苦之人。天冲有气者武贵，背时者车船江湖之流。天辅为文昌，得气者文雅仕官；失地利，僧道画工。天英火司南离，乘权者必主文明；背时者，贪暴昏庸。天芮本是黑星，得天时，性恶霸道；失天时，牧隶庸工。七赤天柱位镇西垣，有气者，舌辩当世；被冲克，优伎乐工。天心原是六白，得地者，才华国柱；若空墓，九流相寻。\n"
+            },
+            "source_quote": "八门辨别旺相，再论九星。天蓬乘时，边疆之将；失地利，军卒贼人。天任得地，田土仆马之富；受克，农圃辛苦之人。天冲有气者武贵，背时者车船江湖之流。天辅为文昌，得气者文雅仕官；失地利，僧道画工。天英火司南离，乘权者必主文明；背时者，贪暴昏庸。天芮本是黑星，得天时，性恶霸道；失天时，牧隶庸工。七赤天柱位镇西垣，有气者，舌辩当世；被冲克，优伎乐工。天心原是六白，得地者，才华国柱；若空墓，九流相寻。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_quoted_verse_with_caution_22",
+            "source_lines": [
+              22,
+              22
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 22,
+              "line_end": 22,
+              "byte_start": 5728,
+              "byte_end": 6512,
+              "source_quote": "青龙返首，鳌头独占。飞鸟跌穴，富贵成名。青龙转光，邑长县令。戊加丁奇，富贵荣耀。白虎猖狂，凶顽之辈。青龙逃走，懦弱之人，更主因妻成败，而且驼背驼身。朱雀投江，刀笔书吏。螣蛇夭娇，毒心小人。失时者目盲耳聩，乘气者火焚伤身。太白入荧者，进主先贫后富；荧入白者，退主家业萧条。庚加戊，戊加庚，多成多败，此地不比他地。飞干伏干，此人不比他人。太白同宫，兄弟雷攻。太白逢星，妻室常病。星逢太白，惟薄丑声。大格者，萍迹四海。小格者，暂时清贫。年月日时四格，即六亲而推去，看是何宫测验，而为悖戾无礼相从，推及父母兄弟妻子贤否，可以详明。\n"
+            },
+            "source_quote": "青龙返首，鳌头独占。飞鸟跌穴，富贵成名。青龙转光，邑长县令。戊加丁奇，富贵荣耀。白虎猖狂，凶顽之辈。青龙逃走，懦弱之人，更主因妻成败，而且驼背驼身。朱雀投江，刀笔书吏。螣蛇夭娇，毒心小人。失时者目盲耳聩，乘气者火焚伤身。太白入荧者，进主先贫后富；荧入白者，退主家业萧条。庚加戊，戊加庚，多成多败，此地不比他地。飞干伏干，此人不比他人。太白同宫，兄弟雷攻。太白逢星，妻室常病。星逢太白，惟薄丑声。大格者，萍迹四海。小格者，暂时清贫。年月日时四格，即六亲而推去，看是何宫测验，而为悖戾无礼相从，推及父母兄弟妻子贤否，可以详明。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_quoted_verse_with_caution_23",
+            "source_lines": [
+              23,
+              23
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 23,
+              "line_end": 23,
+              "byte_start": 6512,
+              "byte_end": 6876,
+              "source_quote": "辛为天狱，壬为地牢，主低下之品，更主抑郁难伸。癸为天网，须看高低，高者化为华盖，可推贵格；低者天网缠身，寂寂孤贫。且忌玉女守门，妻随人行。乙丁妻妾，看是谁亲谁疏。乙奇入墓，妻不生子。丁乙同宫，另续相亲。乙奇在上，妻妾和谐；丁在乙上，妾幸夫心。\n"
+            },
+            "source_quote": "辛为天狱，壬为地牢，主低下之品，更主抑郁难伸。癸为天网，须看高低，高者化为华盖，可推贵格；低者天网缠身，寂寂孤贫。且忌玉女守门，妻随人行。乙丁妻妾，看是谁亲谁疏。乙奇入墓，妻不生子。丁乙同宫，另续相亲。乙奇在上，妻妾和谐；丁在乙上，妾幸夫心。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_quoted_verse_with_caution_24",
+            "source_lines": [
+              24,
+              24
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 24,
+              "line_end": 24,
+              "byte_start": 6876,
+              "byte_end": 7090,
+              "source_quote": "诸格忌落空亡，吉者减昌而苦者更苦。若临墓绝之地，无告穷民。八门推来最怕反吟，伏吟亦是凶神。五行配合斯理，取用在乎一心。余不尽言，惟应用者悟之。\n"
+            },
+            "source_quote": "诸格忌落空亡，吉者减昌而苦者更苦。若临墓绝之地，无告穷民。八门推来最怕反吟，伏吟亦是凶神。五行配合斯理，取用在乎一心。余不尽言，惟应用者悟之。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_quoted_verse_with_caution_25",
+            "source_lines": [
+              25,
+              25
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 25,
+              "line_end": 25,
+              "byte_start": 7090,
+              "byte_end": 7355,
+              "source_quote": "需要说明的是，对古人的经验，只可参考，不能拘泥。古籍中所载经验，片面性、绝对性很大，往往把吉凶简单化。在应用中，必须灵活掌握，变通参考，全盘分析，综合判断，才能不断提高准确率。\n"
+            },
+            "source_quote": "需要说明的是，对古人的经验，只可参考，不能拘泥。古籍中所载经验，片面性、绝对性很大，往往把吉凶简单化。在应用中，必须灵活掌握，变通参考，全盘分析，综合判断，才能不断提高准确率。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "life_author_claim",
+      "title": "再者，通过验证，奇门完全可以测终身命运。虽然它代替不了四柱命理学，但却有比四柱预测迅速、简捷、明快、直观、具体等优长之处。",
+      "category": "commentary",
+      "line_start": 26,
+      "line_end": 27,
+      "attribution": "原书作者叙述；引文《奇门遁甲秘笈大全》为本章内引述，并非额外取得该书",
+      "summary": "整块语境；出生/问时口径及家庭/社会角色分开，韵文与作者不可拘泥告诫共同保留；原断、反馈、错断、复盘分阶段",
+      "concepts": [],
+      "dataset": {
+        "key": "life_author_claim_reference",
+        "rows": [
+          {
+            "key": "life_author_claim_26",
+            "source_lines": [
+              26,
+              26
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 26,
+              "line_end": 26,
+              "byte_start": 7355,
+              "byte_end": 7539,
+              "source_quote": "再者，通过验证，奇门完全可以测终身命运。虽然它代替不了四柱命理学，但却有比四柱预测迅速、简捷、明快、直观、具体等优长之处。\n"
+            },
+            "source_quote": "再者，通过验证，奇门完全可以测终身命运。虽然它代替不了四柱命理学，但却有比四柱预测迅速、简捷、明快、直观、具体等优长之处。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "life_case_heading",
+      "title": "第二节 实例解析(5例)",
+      "category": "commentary",
+      "line_start": 28,
+      "line_end": 29,
+      "attribution": "原书作者叙述；引文《奇门遁甲秘笈大全》为本章内引述，并非额外取得该书",
+      "summary": "整块语境；出生/问时口径及家庭/社会角色分开，韵文与作者不可拘泥告诫共同保留；原断、反馈、错断、复盘分阶段",
+      "concepts": [],
+      "dataset": {
+        "key": "life_case_heading_reference",
+        "rows": [
+          {
+            "key": "life_case_heading_28",
+            "source_lines": [
+              28,
+              28
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 28,
+              "line_end": 28,
+              "byte_start": 7540,
+              "byte_end": 7569,
+              "source_quote": "第二节 实例解析(5例)\n"
+            },
+            "source_quote": "第二节 实例解析(5例)\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "life_case_01",
+      "title": "实例一：测内蒙古某县干部近况",
+      "category": "analysis",
+      "line_start": 30,
+      "line_end": 82,
+      "attribution": "原书作者叙述；引文《奇门遁甲秘笈大全》为本章内引述，并非额外取得该书",
+      "summary": "整块语境；出生/问时口径及家庭/社会角色分开，韵文与作者不可拘泥告诫共同保留；原断、反馈、错断、复盘分阶段",
+      "concepts": [
+        "日干",
+        "年干",
+        "月干",
+        "时干",
+        "问时",
+        "空亡",
+        "反吟"
+      ],
+      "dataset": {
+        "key": "life_case_01_reference",
+        "rows": [
+          {
+            "key": "life_case_01_53",
+            "source_lines": [
+              53,
+              53
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 53,
+              "line_end": 53,
+              "byte_start": 9998,
+              "byte_end": 10095,
+              "source_quote": "(1)时干辛克日干乙，为五不遇时。又八门反吟。总的看，近期不太顺利。\n"
+            },
+            "source_quote": "(1)时干辛克日干乙，为五不遇时。又八门反吟。总的看，近期不太顺利。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_01_54",
+            "source_lines": [
+              54,
+              54
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 54,
+              "line_end": 54,
+              "byte_start": 10095,
+              "byte_end": 10359,
+              "source_quote": "(2)日干乙为本人，落艮8宫为帝旺，现在正处壮年，事业上升之时。乙+丁为奇仪相佐吉格，临天心吉星，有领导能力，又爱动脑筋，丁奇主文书，应该是搞宣传工作的。日干处四维位，应当是个副职。\n"
+            },
+            "source_quote": "(2)日干乙为本人，落艮8宫为帝旺，现在正处壮年，事业上升之时。乙+丁为奇仪相佐吉格，临天心吉星，有领导能力，又爱动脑筋，丁奇主文书，应该是搞宣传工作的。日干处四维位，应当是个副职。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_01_56",
+            "source_lines": [
+              56,
+              56
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 56,
+              "line_end": 56,
+              "byte_start": 10432,
+              "byte_end": 10705,
+              "source_quote": "(3)但日干乙临死门，近期心里不痛快。地盘日干在乾6宫，表示家在千里之外的西北方向。乙在6宫为入墓，又受天盘辛之克，近期不顺。上乘天芮星，天芮星为病星，又为学艺之人，临杜门，主保密，躲藏。\n"
+            },
+            "source_quote": "(3)但日干乙临死门，近期心里不痛快。地盘日干在乾6宫，表示家在千里之外的西北方向。乙在6宫为入墓，又受天盘辛之克，近期不顺。上乘天芮星，天芮星为病星，又为学艺之人，临杜门，主保密，躲藏。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_01_59",
+            "source_lines": [
+              59,
+              59
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 59,
+              "line_end": 59,
+              "byte_start": 10930,
+              "byte_end": 10994,
+              "source_quote": "(4)日干乙临死门，上乘白虎，白虎主刑伤病灾。\n"
+            },
+            "source_quote": "(4)日干乙临死门，上乘白虎，白虎主刑伤病灾。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_01_62",
+            "source_lines": [
+              62,
+              62
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 62,
+              "line_end": 62,
+              "byte_start": 11167,
+              "byte_end": 11283,
+              "source_quote": "(5)年干为父母，年干丙为阳为父，落坎1宫，火入天罗，又临破军星，景门也入水受克。\n"
+            },
+            "source_quote": "(5)年干为父母，年干丙为阳为父，落坎1宫，火入天罗，又临破军星，景门也入水受克。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_01_65",
+            "source_lines": [
+              65,
+              65
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 65,
+              "line_end": 65,
+              "byte_start": 11418,
+              "byte_end": 11483,
+              "source_quote": "(6)丙辛合，辛为其母，辛落乾6宫，临天芮病星。\n"
+            },
+            "source_quote": "(6)丙辛合，辛为其母，辛落乾6宫，临天芮病星。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_01_68",
+            "source_lines": [
+              68,
+              68
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 68,
+              "line_end": 68,
+              "byte_start": 11612,
+              "byte_end": 11726,
+              "source_quote": "(7)月干戊为兄弟姐妹，落乾6宫，应有6个左右，但戊落乾宫为入墓，故可能伤一二个。\n"
+            },
+            "source_quote": "(7)月干戊为兄弟姐妹，落乾6宫，应有6个左右，但戊落乾宫为入墓，故可能伤一二个。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_01_70",
+            "source_lines": [
+              70,
+              70
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 70,
+              "line_end": 70,
+              "byte_start": 11811,
+              "byte_end": 11897,
+              "source_quote": "(8)甲子戊为资本为钱财，戊+乙为青龙和会吉格。又辛与戊同宫。\n"
+            },
+            "source_quote": "(8)甲子戊为资本为钱财，戊+乙为青龙和会吉格。又辛与戊同宫。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_01_73",
+            "source_lines": [
+              73,
+              73
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 73,
+              "line_end": 73,
+              "byte_start": 12100,
+              "byte_end": 12302,
+              "source_quote": "(9)时干辛为子女，落乾6宫，为败地，辛+乙为虎猖狂凶格，结合计划生育政策和洪先生年龄，我说：“你可能有子女3人，而且有的孩子身体还不太好。”\n"
+            },
+            "source_quote": "(9)时干辛为子女，落乾6宫，为败地，辛+乙为虎猖狂凶格，结合计划生育政策和洪先生年龄，我说：“你可能有子女3人，而且有的孩子身体还不太好。”\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_01_75",
+            "source_lines": [
+              75,
+              75
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 75,
+              "line_end": 75,
+              "byte_start": 12375,
+              "byte_end": 12492,
+              "source_quote": "(10)乙为日干，乙庚合，庚则为其妻。今庚落离9宫，临天冲吉星，休门吉门，上乘螣蛇。\n"
+            },
+            "source_quote": "(10)乙为日干，乙庚合，庚则为其妻。今庚落离9宫，临天冲吉星，休门吉门，上乘螣蛇。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "life_case_02",
+      "title": "实例二：测山西某学员近期运气",
+      "category": "analysis",
+      "line_start": 83,
+      "line_end": 157,
+      "attribution": "原书作者叙述；引文《奇门遁甲秘笈大全》为本章内引述，并非额外取得该书",
+      "summary": "整块语境；出生/问时口径及家庭/社会角色分开，韵文与作者不可拘泥告诫共同保留；原断、反馈、错断、复盘分阶段",
+      "concepts": [
+        "日干",
+        "年命",
+        "年干",
+        "月干",
+        "时干",
+        "生门",
+        "空亡",
+        "伏吟"
+      ],
+      "dataset": {
+        "key": "life_case_02_reference",
+        "rows": [
+          {
+            "key": "life_case_02_108",
+            "source_lines": [
+              108,
+              108
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 108,
+              "line_end": 108,
+              "byte_start": 16000,
+              "byte_end": 16344,
+              "source_quote": "(1)以日干辛为汪女士，落坎1宫为长生之地，临天禽吉星，休门吉门，又上乘太阴吉神，天盘临丁奇，地盘临丙奇。年命己(汪女士1949年己丑年生)落艮8宫，逢生门，克天芮病星落宫，又冲克死门。3宫庚+癸为大格，临伤门伏吟，不吉，但临天心吉星，上乘值符。\n"
+            },
+            "source_quote": "(1)以日干辛为汪女士，落坎1宫为长生之地，临天禽吉星，休门吉门，又上乘太阴吉神，天盘临丁奇，地盘临丙奇。年命己(汪女士1949年己丑年生)落艮8宫，逢生门，克天芮病星落宫，又冲克死门。3宫庚+癸为大格，临伤门伏吟，不吉，但临天心吉星，上乘值符。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_02_111",
+            "source_lines": [
+              111,
+              111
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 111,
+              "line_end": 111,
+              "byte_start": 16560,
+              "byte_end": 16706,
+              "source_quote": "(2)天盘辛在外盘，为客，临休门，与天芮星同宫，天芮为学员。地盘辛在内盘坤2宫，逢空亡，坤在西南方位。\n"
+            },
+            "source_quote": "(2)天盘辛在外盘，为客，临休门，与天芮星同宫，天芮为学员。地盘辛在内盘坤2宫，逢空亡，坤在西南方位。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_02_114",
+            "source_lines": [
+              114,
+              114
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 114,
+              "line_end": 114,
+              "byte_start": 17048,
+              "byte_end": 17107,
+              "source_quote": "(3)辛+丙为干合悖师格，测事必因财物致讼。\n"
+            },
+            "source_quote": "(3)辛+丙为干合悖师格，测事必因财物致讼。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_02_119",
+            "source_lines": [
+              119,
+              119
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 119,
+              "line_end": 119,
+              "byte_start": 17338,
+              "byte_end": 17521,
+              "source_quote": "(4)以值符为原告，在震3宫属木；以天冲星为天乙为被告，在坤2宫属土，木克土，值符克天乙。但天乙上乘玄武、临死门，生助开门落宫。\n"
+            },
+            "source_quote": "(4)以值符为原告，在震3宫属木；以天冲星为天乙为被告，在坤2宫属土，木克土，值符克天乙。但天乙上乘玄武、临死门，生助开门落宫。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_02_124",
+            "source_lines": [
+              124,
+              124
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 124,
+              "line_end": 124,
+              "byte_start": 17851,
+              "byte_end": 17966,
+              "source_quote": "(5)天盘甲子戊在9宫，生生门所在8宫，但9宫逢空亡，又子午相冲。值符克地盘甲子戊。\n"
+            },
+            "source_quote": "(5)天盘甲子戊在9宫，生生门所在8宫，但9宫逢空亡，又子午相冲。值符克地盘甲子戊。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_02_127",
+            "source_lines": [
+              127,
+              127
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 127,
+              "line_end": 127,
+              "byte_start": 18185,
+              "byte_end": 18355,
+              "source_quote": "(6)日干为辛，丙辛合，以丙为丈夫。丙在巽4宫，临杜门，天蓬星，上乘九天。辛下又临丙，乙下又临庚。庚临伤门，上乘值符。\n"
+            },
+            "source_quote": "(6)日干为辛，丙辛合，以丙为丈夫。丙在巽4宫，临杜门，天蓬星，上乘九天。辛下又临丙，乙下又临庚。庚临伤门，上乘值符。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_02_134",
+            "source_lines": [
+              134,
+              134
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 134,
+              "line_end": 134,
+              "byte_start": 19063,
+              "byte_end": 19167,
+              "source_quote": "(7)时干癸落坤2宫，最少二个，但又临天冲星，天冲星主三数，故也可能是仨。\n"
+            },
+            "source_quote": "(7)时干癸落坤2宫，最少二个，但又临天冲星，天冲星主三数，故也可能是仨。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_02_136",
+            "source_lines": [
+              136,
+              136
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 136,
+              "line_end": 136,
+              "byte_start": 19347,
+              "byte_end": 19491,
+              "source_quote": "(8)年命庚落外盘3宫，正应出国到东方之事，庚临天心吉星和伤门，我说：“是否去学习与汽车有关的技术?”\n"
+            },
+            "source_quote": "(8)年命庚落外盘3宫，正应出国到东方之事，庚临天心吉星和伤门，我说：“是否去学习与汽车有关的技术?”\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_02_138",
+            "source_lines": [
+              138,
+              138
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 138,
+              "line_end": 138,
+              "byte_start": 19541,
+              "byte_end": 19593,
+              "source_quote": "(9)巳酉丑马在亥，应在亥月、日出发。\n"
+            },
+            "source_quote": "(9)巳酉丑马在亥，应在亥月、日出发。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_02_140",
+            "source_lines": [
+              140,
+              140
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 140,
+              "line_end": 140,
+              "byte_start": 19757,
+              "byte_end": 19877,
+              "source_quote": "(10)马星所在乾6宫，庚上临乙，乙为妻，又上乘六合，同行之象。我说：“能一起出国。”\n"
+            },
+            "source_quote": "(10)马星所在乾6宫，庚上临乙，乙为妻，又上乘六合，同行之象。我说：“能一起出国。”\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_02_142",
+            "source_lines": [
+              142,
+              142
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 142,
+              "line_end": 142,
+              "byte_start": 19979,
+              "byte_end": 20144,
+              "source_quote": "(11)年命癸在坤2宫为人墓，但癸丁相冲，又临死门。所以，我说：“她在那里虽然学习很刻苦，但不安心，心情并不愉快。”\n"
+            },
+            "source_quote": "(11)年命癸在坤2宫为人墓，但癸丁相冲，又临死门。所以，我说：“她在那里虽然学习很刻苦，但不安心，心情并不愉快。”\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_02_144",
+            "source_lines": [
+              144,
+              144
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 144,
+              "line_end": 144,
+              "byte_start": 20216,
+              "byte_end": 20309,
+              "source_quote": "(12)年命丁在坎1宫，临天芮，受天辅宫生之，与日干辛同宫又临休门。\n"
+            },
+            "source_quote": "(12)年命丁在坎1宫，临天芮，受天辅宫生之，与日干辛同宫又临休门。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_02_147",
+            "source_lines": [
+              147,
+              147
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 147,
+              "line_end": 147,
+              "byte_start": 20477,
+              "byte_end": 20616,
+              "source_quote": "(13)年干丁为父，落坎1宫，火入水乡，又临天芮病星；地盘丁在2宫临死门，又空亡；又庚落乾宫父早亡。\n"
+            },
+            "source_quote": "(13)年干丁为父，落坎1宫，火入水乡，又临天芮病星；地盘丁在2宫临死门，又空亡；又庚落乾宫父早亡。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_02_150",
+            "source_lines": [
+              150,
+              150
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 150,
+              "line_end": 150,
+              "byte_start": 20771,
+              "byte_end": 20891,
+              "source_quote": "(14)母看坤宫，年干癸正在坤宫为入墓，临死门，又空亡。我说：“你母亲是否也不在了?”\n"
+            },
+            "source_quote": "(14)母看坤宫，年干癸正在坤宫为入墓，临死门，又空亡。我说：“你母亲是否也不在了?”\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_02_155",
+            "source_lines": [
+              155,
+              155
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 155,
+              "line_end": 155,
+              "byte_start": 21700,
+              "byte_end": 21855,
+              "source_quote": "(15)时干克日干，时干又逢空亡。但开门为用神，生日干宫、月干宫、年干宫，又上乘六合；开门为金，天英星为电。\n"
+            },
+            "source_quote": "(15)时干克日干，时干又逢空亡。但开门为用神，生日干宫、月干宫、年干宫，又上乘六合；开门为金，天英星为电。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "life_case_03",
+      "title": "实例三：赵某测年内吉凶",
+      "category": "analysis",
+      "line_start": 158,
+      "line_end": 192,
+      "attribution": "原书作者叙述；引文《奇门遁甲秘笈大全》为本章内引述，并非额外取得该书",
+      "summary": "整块语境；出生/问时口径及家庭/社会角色分开，韵文与作者不可拘泥告诫共同保留；原断、反馈、错断、复盘分阶段",
+      "concepts": [
+        "日干",
+        "年命",
+        "时干",
+        "问时"
+      ],
+      "dataset": {
+        "key": "life_case_03_reference",
+        "rows": [
+          {
+            "key": "life_case_03_180",
+            "source_lines": [
+              180,
+              180
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 180,
+              "line_end": 180,
+              "byte_start": 24476,
+              "byte_end": 24543,
+              "source_quote": "(1)时干丙克日干庚，为五不遇时，年内不顺之兆。\n"
+            },
+            "source_quote": "(1)时干丙克日干庚，为五不遇时，年内不顺之兆。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_03_181",
+            "source_lines": [
+              181,
+              181
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 181,
+              "line_end": 181,
+              "byte_start": 24543,
+              "byte_end": 24894,
+              "source_quote": "(2)以日干庚为赵某，落巽4宫本为长生之位，但甲申庚落4宫为六仪击刑；庚下临癸为大格，主道路车祸，行人不至，官事不止，生育母子俱伤，大凶；又形成寅、巳、申三刑。不仅如此，日干临凶门伤门，白虎凶神，均主车祸刑伤。又临天蓬凶星，为破财大盗之星。\n"
+            },
+            "source_quote": "(2)以日干庚为赵某，落巽4宫本为长生之位，但甲申庚落4宫为六仪击刑；庚下临癸为大格，主道路车祸，行人不至，官事不止，生育母子俱伤，大凶；又形成寅、巳、申三刑。不仅如此，日干临凶门伤门，白虎凶神，均主车祸刑伤。又临天蓬凶星，为破财大盗之星。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_03_182",
+            "source_lines": [
+              182,
+              182
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 182,
+              "line_end": 182,
+              "byte_start": 24894,
+              "byte_end": 25026,
+              "source_quote": "(3)再看时干，时干主事体。时干丙落震3宫，为败地，丙+壬为火入天罗凶格，为客不利，是非颇多。\n"
+            },
+            "source_quote": "(3)再看时干，时干主事体。时干丙落震3宫，为败地，丙+壬为火入天罗凶格，为客不利，是非颇多。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_03_183",
+            "source_lines": [
+              183,
+              183
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 183,
+              "line_end": 183,
+              "byte_start": 25026,
+              "byte_end": 25270,
+              "source_quote": "(4)赵某1957年丁酉年生人，年命丁落坎1宫，为火入水乡，不吉；丁下临庚，庚为阻隔之神，不顺利之象。又辛+庚为白虎出力凶格，刀刃相交，主客相残，逊让退步稍可，强进血溅衣衫。\n"
+            },
+            "source_quote": "(4)赵某1957年丁酉年生人，年命丁落坎1宫，为火入水乡，不吉；丁下临庚，庚为阻隔之神，不顺利之象。又辛+庚为白虎出力凶格，刀刃相交，主客相残，逊让退步稍可，强进血溅衣衫。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_03_184",
+            "source_lines": [
+              184,
+              184
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 184,
+              "line_end": 184,
+              "byte_start": 25270,
+              "byte_end": 25587,
+              "source_quote": "(5)1997年丁丑，地支丑在艮8宫，上乘太阴为吉神，临休门为吉门，但休门在8宫被制，吉门被克吉不就；上乘天柱凶星，不吉；乙+戊为阴害阳门，利阴不利阳，对男人不利，如果临吉门旺相尚可谋为，如果门凶或门受迫制，则难免破财伤人。\n"
+            },
+            "source_quote": "(5)1997年丁丑，地支丑在艮8宫，上乘太阴为吉神，临休门为吉门，但休门在8宫被制，吉门被克吉不就；上乘天柱凶星，不吉；乙+戊为阴害阳门，利阴不利阳，对男人不利，如果临吉门旺相尚可谋为，如果门凶或门受迫制，则难免破财伤人。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_03_185",
+            "source_lines": [
+              185,
+              185
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 185,
+              "line_end": 185,
+              "byte_start": 25587,
+              "byte_end": 25639,
+              "source_quote": "(6)申子辰马在寅，甲戌旬中申、酉空。\n"
+            },
+            "source_quote": "(6)申子辰马在寅，甲戌旬中申、酉空。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "life_case_04",
+      "title": "实例四：验测早夭女命",
+      "category": "analysis",
+      "line_start": 193,
+      "line_end": 222,
+      "attribution": "原书作者叙述；引文《奇门遁甲秘笈大全》为本章内引述，并非额外取得该书",
+      "summary": "整块语境；出生/问时口径及家庭/社会角色分开，韵文与作者不可拘泥告诫共同保留；原断、反馈、错断、复盘分阶段",
+      "concepts": [
+        "日干",
+        "年命",
+        "年干",
+        "时干",
+        "出生",
+        "空亡"
+      ],
+      "dataset": {
+        "key": "life_case_04_reference",
+        "rows": [
+          {
+            "key": "life_case_04_217",
+            "source_lines": [
+              217,
+              217
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 217,
+              "line_end": 217,
+              "byte_start": 29606,
+              "byte_end": 29995,
+              "source_quote": "(1)日干甲午辛落巽4宫为墓地，又为虚地，又临日干空亡之地，辛+戊为困龙被伤格局，应屈抑守分，妄动必然带来祸殃。古籍云“诸格忌落空亡，吉者减昌而苦者更苦”,所以凶格空亡事更凶。何况又临惊门凶门克宫，又临天蓬凶星旺相。又地盘辛在1宫，上临庚，为日格。日主逢格，大凶之象。\n"
+            },
+            "source_quote": "(1)日干甲午辛落巽4宫为墓地，又为虚地，又临日干空亡之地，辛+戊为困龙被伤格局，应屈抑守分，妄动必然带来祸殃。古籍云“诸格忌落空亡，吉者减昌而苦者更苦”,所以凶格空亡事更凶。何况又临惊门凶门克宫，又临天蓬凶星旺相。又地盘辛在1宫，上临庚，为日格。日主逢格，大凶之象。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_04_218",
+            "source_lines": [
+              218,
+              218
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 218,
+              "line_end": 218,
+              "byte_start": 29995,
+              "byte_end": 30100,
+              "source_quote": "(2)年命丙落3宫，丙+己，火悖入刑凶格，又临死门凶门，白虎凶神，早夭命象。\n"
+            },
+            "source_quote": "(2)年命丙落3宫，丙+己，火悖入刑凶格，又临死门凶门，白虎凶神，早夭命象。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_04_219",
+            "source_lines": [
+              219,
+              219
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 219,
+              "line_end": 219,
+              "byte_start": 30100,
+              "byte_end": 30238,
+              "source_quote": "(3)时干为事体，时干丁落艮8宫为入墓，临天柱凶星，上乘玄武，丁+癸雀投江凶格，也是溺水大凶之象。\n"
+            },
+            "source_quote": "(3)时干为事体，时干丁落艮8宫为入墓，临天柱凶星，上乘玄武，丁+癸雀投江凶格，也是溺水大凶之象。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          },
+          {
+            "key": "life_case_04_220",
+            "source_lines": [
+              220,
+              220
+            ],
+            "source_pointer": {
+              "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+              "line_start": 220,
+              "line_end": 220,
+              "byte_start": 30238,
+              "byte_end": 30731,
+              "source_quote": "(4)值使门落宫定应期。今杜门值使落坎1宫，坎水主一、六数，须注意六岁、十一岁、十六岁。六岁是1991年辛未，日主当令，午与未合，该命无忧。十一岁是1996年丙子，太岁子与日主午相冲，太岁子水当令，天蓬星属水，玄武属水，癸为水，辛之墓地为辰，辰为水库；年命丙与太岁年干相同，临死门、白虎，这一年如果随便乱动，到水边去，早夭之灾恐怕就难以躲过了。\n"
+            },
+            "source_quote": "(4)值使门落宫定应期。今杜门值使落坎1宫，坎水主一、六数，须注意六岁、十一岁、十六岁。六岁是1991年辛未，日主当令，午与未合，该命无忧。十一岁是1996年丙子，太岁子与日主午相冲，太岁子水当令，天蓬星属水，玄武属水，癸为水，辛之墓地为辰，辰为水库；年命丙与太岁年干相同，临死门、白虎，这一年如果随便乱动，到水边去，早夭之灾恐怕就难以躲过了。\n",
+            "method_scope": "shenqi_life_reference_v1",
+            "applicability_status": "reference_only",
+            "automatic_role_binding": false,
+            "automatic_prediction": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "life_case_05",
+      "title": "实例五：测外籍医生四柱",
+      "category": "analysis",
+      "line_start": 223,
+      "line_end": 273,
+      "attribution": "原书作者叙述；引文《奇门遁甲秘笈大全》为本章内引述，并非额外取得该书",
+      "summary": "整块语境；出生/问时口径及家庭/社会角色分开，韵文与作者不可拘泥告诫共同保留；原断、反馈、错断、复盘分阶段",
+      "concepts": [
+        "出生"
+      ],
+      "dataset": {
+        "key": "life_case_05_reference",
+        "rows": []
+      }
+    }
+  ],
+  "quality_issues": [
+    {
+      "key": "source_worldview_and_nested_quote",
+      "line_start": 7,
+      "line_end": 26,
+      "description": "天赋/基因/能量场与断语为原书观点，不当现代遗传/医学验证；12–24引韵文随25作者不可拘泥、古法片面绝对的限制完整保留，不另建或引入未上传古籍"
+    },
+    {
+      "key": "birth_inquiry_and_relation_scopes",
+      "line_start": 10,
+      "line_end": 11,
+      "description": "出生时间用于终身、问时用于近期；年/月/时干在家庭和社会群体不同角色不混用，不凭年龄替关系或唯一选法"
+    },
+    {
+      "key": "case1_progressive_feedback_not_all_known_at_start",
+      "line_start": 53,
+      "line_end": 81,
+      "description": "职务、请假真相、疾病、亲属生卒/人数、配偶职业、书记已上党校等逐轮才透露；过去事实辨识不冒作事后发生。书记未来是否调职仅猜测未报结果"
+    },
+    {
+      "key": "case2_recovered_principal_preexisting_fact",
+      "line_start": 114,
+      "line_end": 126,
+      "description": "九万本金已追回是126当场透露的既有事实，二十多万利息未追回；不用可能追回原断伪造成咨询后收回，身份原告118行才确认"
+    },
+    {
+      "key": "case2_plans_and_unconfirmed_future_targets",
+      "line_start": 108,
+      "line_end": 156,
+      "description": "全年不死/无大病伤无年终结果，139仅计划出发非实际成行；儿媳同去、女儿状态、亲戚工厂等未报后续，不能用概括赞许全部打成功"
+    },
+    {
+      "key": "case2_multiple_targets_one_same_chart_consultation",
+      "line_start": 83,
+      "line_end": 156,
+      "description": "同一次课堂咨询明言一个格局断多事，15分析步骤及亲属/官司/出国/工厂依序保留为一个事件的多轮，不克隆原盘或扩大独立样本"
+    },
+    {
+      "key": "case3_posthoc_day_timing",
+      "line_start": 186,
+      "line_end": 191,
+      "description": "原断正月/七月两个注意窗口，初五事故是结果；190五天/甲申日解释与191如果提前可避免均后知，不冒作首次精确日断或已避免"
+    },
+    {
+      "key": "case4_known_death_retrospective_only",
+      "line_start": 195,
+      "line_end": 221,
+      "description": "已读溺亡来信后按出生时间验测，全案和盘均post_feedback；不能当事前早夭命中。四柱回信仅叙述不补命理；出生日期未明历法不擅转公历"
+    },
+    {
+      "key": "case5_wrong_year_and_revealed_death",
+      "line_start": 254,
+      "line_end": 259,
+      "description": "256先知丈夫已死，257再推1994/95，258明确纠正为1996；259天克地冲解释在生卒年反馈之后，不能提前泄漏或改旧断"
+    },
+    {
+      "key": "case5_alternatives_and_limited_confirmations",
+      "line_start": 248,
+      "line_end": 270,
+      "description": "外国人/军警/机密/副职与外籍华人/机密/一定职务的反馈不全同；1967或68与1968结婚分开；3或2孩子不确认流产；长子不病仅留学；惊讶不逐项证明曾受帮助"
+    },
+    {
+      "key": "case5_unreported_future_and_method_title",
+      "line_start": 223,
+      "line_end": 273,
+      "description": "标题四柱但实际试测出生奇门盘；1999破财、未来五年事业与子女求职未记结局，末段改学奇门不等于效力验证"
+    },
+    {
+      "key": "literal_analysis_chart_discrepancies",
+      "line_start": 108,
+      "line_end": 150,
+      "description": "108临天禽吉星与源表芮丙并存，150年干癸及142人墓等字面不擅改，不补缺星或依算法改原文"
+    }
+  ],
+  "worked_examples": []
+}

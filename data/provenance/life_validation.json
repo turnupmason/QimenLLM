@@ -1,0 +1,176 @@
+{
+  "source_sha256": "92de6590ebf88698d9bf0137e8ecdb780b8f1ff1f66765faf0a69eb3d7eac507",
+  "source_byte_count": 37761,
+  "source_line_count": 273,
+  "source_file": "神奇之门_人生机遇预测_精校完整版.txt",
+  "verification_basis": "user_attestation",
+  "system_performed_independent_verification": false,
+  "printed_chapter_number": 16,
+  "stories": 5,
+  "events": 5,
+  "charts": 5,
+  "source_palaces": 45,
+  "new_families": 5,
+  "records": 142,
+  "context_groups": 12,
+  "technical_boundaries": 12,
+  "reference_candidates": 4,
+  "case4_entirely_retrospective": true,
+  "case3_posthoc_day_timing_preserved": true,
+  "case5_wrong_death_year_preserved": true,
+  "last_line_as_supplied": "我说：“好，欢迎。我也是刚刚入门，我们一起研究祖先给我们留下的这门传统文化遗产吧!让它不仅在中国，而且在世界上发扬光大，为全人类造福。”\n",
+  "schema_migration": false,
+  "formal_rules_added": 0,
+  "training_tasks_added": 0,
+  "snapshot": {
+    "data_version": "d02fad92-85e7-44b8-9fe3-9b7914487769",
+    "snapshot": "data/snapshots/current",
+    "counts": {
+      "data_versions": 95,
+      "books": 1,
+      "chapters": 20,
+      "raw_documents": 20,
+      "chapter_revisions": 20,
+      "source_reviews": 27,
+      "source_spans": 3140,
+      "methods": 29,
+      "concepts": 2480,
+      "concept_links": 0,
+      "knowledge_items": 1087,
+      "rules": 0,
+      "rule_conditions": 0,
+      "rule_disagreements": 0,
+      "event_families": 93,
+      "cases": 97,
+      "events": 104,
+      "case_events": 104,
+      "charts": 102,
+      "case_records": 1549,
+      "evidence_links": 1872,
+      "dataset_releases": 0,
+      "split_assignments": 0,
+      "training_tasks": 0,
+      "task_inputs": 0
+    },
+    "manifest_sha256": "b0684c0d2c23782e7b2a895c46d4708610cf13a74a960f71151a286547a906c3"
+  },
+  "old_rows_preserved": {
+    "rule_conditions": {
+      "old": 0,
+      "new": 0
+    },
+    "concept_links": {
+      "old": 0,
+      "new": 0
+    },
+    "case_events": {
+      "old": 99,
+      "new": 104
+    },
+    "data_versions": {
+      "old": 90,
+      "new": 95
+    },
+    "case_records": {
+      "old": 1407,
+      "new": 1549
+    },
+    "rule_disagreements": {
+      "old": 0,
+      "new": 0
+    },
+    "training_tasks": {
+      "old": 0,
+      "new": 0
+    },
+    "evidence_links": {
+      "old": 1730,
+      "new": 1872
+    },
+    "chapter_revisions": {
+      "old": 19,
+      "new": 20
+    },
+    "knowledge_items": {
+      "old": 1059,
+      "new": 1087
+    },
+    "methods": {
+      "old": 28,
+      "new": 29
+    },
+    "event_families": {
+      "old": 88,
+      "new": 93
+    },
+    "raw_documents": {
+      "old": 19,
+      "new": 20
+    },
+    "cases": {
+      "old": 92,
+      "new": 97
+    },
+    "task_inputs": {
+      "old": 0,
+      "new": 0
+    },
+    "source_spans": {
+      "old": 2959,
+      "new": 3140
+    },
+    "concepts": {
+      "old": 2429,
+      "new": 2480
+    },
+    "events": {
+      "old": 99,
+      "new": 104
+    },
+    "rules": {
+      "old": 0,
+      "new": 0
+    },
+    "split_assignments": {
+      "old": 0,
+      "new": 0
+    },
+    "charts": {
+      "old": 97,
+      "new": 102
+    },
+    "chapters": {
+      "old": 19,
+      "new": 20
+    },
+    "books": {
+      "old": 1,
+      "new": 1
+    },
+    "source_reviews": {
+      "old": 26,
+      "new": 27
+    },
+    "dataset_releases": {
+      "old": 0,
+      "new": 0
+    }
+  },
+  "old_raw_documents_preserved": 19,
+  "remote_base_sha": "1ba94f019b9e08cbf6dd1f5527ac174e14c1f14f",
+  "github_sync": {
+    "status": "pending"
+  },
+  "workflow_added": false,
+  "workflow_deleted": false,
+  "local_regression": {
+    "command": "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+    "tests": 414,
+    "failures": 0,
+    "errors": 0,
+    "new_chapter_tests": 22
+  },
+  "snapshot_roundtrip": "byte_identical",
+  "api_original_charts": 5,
+  "cli_cases": 5
+}
