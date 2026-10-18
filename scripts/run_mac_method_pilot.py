@@ -78,6 +78,23 @@ def main():
     a.output.mkdir(parents=True)
     gateway = MLXResearchGateway(a.model_path, revision=metadata['revision'], max_tokens=768,
                                  max_context_tokens=8192, enable_thinking=False, adapter_path=a.adapter_path)
+    adapter_verification = None
+    if a.adapter_path is not None:
+        from mlx.utils import tree_flatten
+        saved = mx.load(str(a.adapter_path/'adapters.safetensors'))
+        loaded = dict(tree_flatten(gateway.model.parameters()))
+        if len(saved) != 4 or any(name not in loaded for name in saved):
+            raise ValueError('Standard adapter did not map to the four expected full-model tensors')
+        delta = max(float(mx.max(mx.abs(value-loaded[name])).item()) for name, value in saved.items())
+        if delta != 0.0:
+            raise ValueError('Reloaded full-model adapter differs from the saved checkpoint')
+        config = json.loads((a.adapter_path/'adapter_config.json').read_bytes())
+        for name in ('q_proj', 'v_proj'):
+            layer = getattr(gateway.model.language_model.model.layers[-1].self_attn, name)
+            if getattr(layer, 'scale', None) != config['lora_parameters']['scale']:
+                raise ValueError('Reloaded LoRA scale differs')
+        adapter_verification = {'tensors_compared': len(saved), 'maximum_tensor_difference': delta,
+                                'scale_matches': True, 'saved_checkpoint_applied_to_full_model': True}
     service = QimenService(a.db, model=gateway)
     report = {'scope': 'source_conditioned_27b_method_baseline_not_full_system_D',
         'model': metadata['repo'], 'revision': metadata['revision'],
@@ -90,6 +107,7 @@ def main():
         'model_load_seconds': gateway.load_seconds, 'started_unix': time.time(), 'records': [],
         'training_updates': 0, 'test_accessed': False, 'network_inference': False,
         'training_updates_this_generation_process': 0, 'adapter_training': adapter_training,
+        'adapter_reload_verification': adapter_verification,
         'adapter': None if a.adapter_path is None else {
             name: sha((a.adapter_path/name).read_bytes()) for name in ('adapters.safetensors', 'adapter_config.json')},
         'author_method_accuracy': None, 'reported_feedback_accuracy': None,

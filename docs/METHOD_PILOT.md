@@ -1,10 +1,16 @@
+Mac首轮真实LoRA已完成：M2/24GiB，Qwen3.8-27B的固定MLX4bit基座，最终全注意力层q/v、rank4，94,208可训练参数；22训练任务每遍恰好一次，共3遍/66更新。4验证任务仅评估，test封存。验证目标NLL由1.708725降至1.503766，但同输入/同768token预算的6题生成中3题协议接受、3题截断；四验证子题来源审读均未完整通过（同一事件家族，不能外推为0%现实预测准确率）。用神题天盘壬从坎一纠正为震三，但仍有无依据内外盘划分；读盘题戊天盘/地盘等错误；综合题抄回输入；应期题漏值使六宫取六天并错误声称原文无日期。该候选不进入4090系统训练。
+
+训练前最长3403token完整/缓存损失差0，真实域任务保存恢复后的下一更新损失及适配器差0；训练后重载完整27B与缓存尾层在一条完整验证题上的NLL均1.948090672492981、差0。26条训练/验证目标逐token核对正确，四适配器张量重载逐项差0。上述数值检查不证明专业方法正确，见[错误分层记录](../data/provenance/mac_lost_method_diagnosis_v1.json)。
+
+实际训练和恢复检查、模型登记、同题原始生成/逐来源审读见[data/provenance/mac_lost_method_training_v1.json](../data/provenance/mac_lost_method_training_v1.json)、[模型版本](../data/provenance/mac_lost_method_model_v1.json)、[比较回执](../data/provenance/mac_lost_method_comparison_v1.json)。损失只选择候选，不能替代方法/事实验收；完整D/E系统仍未完成，独立现实准确率保持null。模型包已在本机生成和逐哈希核对，GitHub Release附件上传仍待正常登录；代码/清单同步与模型二进制上传分开验收。
+
 全书基础任务覆盖现行为book_preparation_v2：98故事都保留完整档案并有基础学习任务，共127条，82train/21validation/20test/4development；故事分组仍65/15/15/3、94家族归属不动。组成是钱物丢失32方法任务、其他原表93字面读取、卫星局部来源完整性1题、附录三用户重排表1题。后两题限定资料阅读，不模拟历史首断，不补造完整盘；三个旧原盘not_covered状态保持。卫星题不提供后来报道或204行后置补充，重排题逐字核对独立gold的36单元，不按算法改生乙/壬惊丙。原v1全部任务与档案逐字保留，v2只在train增加两个来源审读任务。专业方法深度审读仍8案32题，其余90案的基础任务不能冒充完整断案监督。钱物丢失Mac试验数据仍固定v5的22train/4validation，未用新增两题或test。
 
 # 钱物丢失章：先Mac方法试验，再4090系统训练
 
 遵循原Master和最新mac_method_pilot用户指令。当前试验学习角色、证据组织、综合判断、应期和反馈续断，不是继续旧作者原话复写任务。原v5冻结任务和94家族分组不改；32任务为22训练/4验证/4测试/2开发。测试发票家族封存。
 
-全书完整档案已按65训练/15验证/15测试/3开发归组；档案含未来反馈，只作审读和评分，绝不能作为训练输入。全书可导出的125任务中93只是字面读盘，32是已审读方法子任务。96故事有任务，另外2故事的3旧盘未被现有投影器覆盖，原文、盘payload与替代表达都保留。其余专业推理任务尚需逐项审读，不将档案或自动记录标签伪装成高质量监督。
+全书完整档案已按65训练/15验证/15测试/3开发归组；档案含未来反馈，只作审读和评分，绝不能作为训练输入。现行v2共127任务：93个其他原表字面读盘、32个已审读钱物方法子任务，以及卫星局部来源完整性/附录三用户重排表各1题，98故事都有基础任务。后两题不升级三个旧盘的not_covered状态，原文、盘payload与替代表达都保留。其余专业推理任务尚需逐项审读，不将档案或自动记录标签伪装成高质量监督。
 
 ## 可重建的数据
 
@@ -36,7 +42,7 @@ PYTHONPATH=src python scripts/run_mac_method_pilot.py \
   --model-path /absolute/local/model \
   --model-manifest /absolute/local/model-receipt.json \
   --adapter-path work/mac-lost-method-lora-v1/epoch-NN \
-  --split validation --output work/mac-lost-method-after-v1
+  --output work/mac-lost-method-after-v1
 ```
 
 epoch-NN必须来自本次训练实际留下的候选检查点，不能照抄占位符。最终全注意力层q/v、rank4、scale2、学习率1e-4、batch1、最多3遍，完整验证无改善即停止；没有固定50遍。冻结前63层的完整输入激活缓存，仅适用于这个受限适配位置，不能套用到全层LoRA。先比较真实方法样本完整64层目标损失与缓存目标损失，再比较保存/恢复后的下一次更新；任一不等价就停止，探测更新重置后才计正式遍数。每优化更新保存适配器、优化器、RNG、游标、样本次序及调度位置，文件哈希防止错版本恢复。未完整缓存前中断应从新目录重建；有完整cache-index和检查点才用--resume恢复。
@@ -55,7 +61,7 @@ PYTHONPATH=src python training/cuda_pilot.py baseline
 PYTHONPATH=src python training/cuda_pilot.py train
 ```
 
-此处尚未在真实4090上执行。preflight实际完整上下文反传与下一更新恢复必须通过，不能拿Mac或小张量测试代替；不自动降模型或截短任务。训练只读train/validation，最大12遍是可修改的研究上限，非已确定最优值；验证无改善停止。恢复使用同run最新完整checkpoint，改变配置/代码/数据需新实验。训练完成后先查看各epoch-validation.json并按原文填写验证审读文件：
+此处尚未在真实4090上执行。train还要求同数据/同基座的Mac方法审读回执明确通过，否则在初始化GPU前拒绝；systematic_training=true另外要求系统训练就绪。preflight实际完整上下文反传与下一更新恢复必须通过，不能拿Mac或小张量测试代替；不自动降模型或截短任务。训练只读train/validation，最大12遍是可修改的研究上限，非已确定最优值；验证无改善停止。恢复使用同run最新完整checkpoint，改变配置/代码/数据需新实验。训练完成后先查看各epoch-validation.json并按原文填写验证审读文件：
 
 ```json
 {

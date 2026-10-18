@@ -1,0 +1,348 @@
+{
+  "scope": "same_input_source_conditioned_mac_method_pilot",
+  "model": "mlx-community/Qwen3.8-27B-4bit",
+  "revision": "10c35caafbb80f7dc6a7a432cdd11af10a6d4818",
+  "data_manifest_sha256": "24f1aa3343112de8c4c6ba6a4e2d10002364e9e6c5e59cb842a031b6168e5ac0",
+  "source_data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "adapter": {
+    "adapters.safetensors": "23f1e3735d7053bc49694ff65ed13ae10b23988af6314f125d079b73a526c78c",
+    "adapter_config.json": "e7d326581860b3dffec5a43ae7ce529f64846105fd795b82becc7a1674770d57"
+  },
+  "adapter_training": {
+    "checkpoint": "epoch-03",
+    "epoch": 3,
+    "optimizer_updates": 66,
+    "state_sha256": "98e5152464935b319c8d17d9696aaa5e1c51e560aa42923dac1a06c90123336b",
+    "training_report_sha256": "eb066ce45dcee2ecf09d31cff5f1afee80ac7c94b34cb61fe052cee154879bdc"
+  },
+  "tasks_compared": 6,
+  "validation_tasks": 4,
+  "before_completion_counts": {
+    "method_evidence_error": 2,
+    "generation_error": 1,
+    "method_generated": 3
+  },
+  "after_completion_counts": {
+    "generation_error": 3,
+    "method_generated": 3
+  },
+  "validation_source_fidelity_and_task_passes": 0,
+  "mac_limited_method_review_pass": false,
+  "full_system_D_E_validated": false,
+  "systematic_training_ready": false,
+  "test_accessed": false,
+  "author_method_population_accuracy": null,
+  "reported_feedback_accuracy": null,
+  "independent_real_world_accuracy": null,
+  "reviewer": "Codex source-grounded review",
+  "source_basis": "Frozen shenqi-lost-method-tasks-v5 validation.jsonl; source ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9, original chart lines169–185 and explicit pre-feedback author statements187–195; no test output read.",
+  "rows": [
+    {
+      "task_id": "method-2d5379e5b6b6b0c7a149fda9",
+      "split": "development",
+      "task_type": "chart_evidence",
+      "before_status": "method_evidence_error",
+      "after_status": "generation_error",
+      "before_structured_score": {
+        "task_id": "method-2d5379e5b6b6b0c7a149fda9",
+        "task_type": "chart_evidence",
+        "literal_facts_available": 7,
+        "literal_facts_matched": 0,
+        "literal_facts_claimed": 0,
+        "binding_target_available": false,
+        "binding_exact_match": false,
+        "protocol_and_citations_pass": false,
+        "author_method_semantic_score": null,
+        "reported_feedback_score": null,
+        "independent_real_world_score": null,
+        "human_review_required": [
+          "方法条件与角色是否正确",
+          "证据支持、反证与不确定性",
+          "应期方法和续断是否符合本轮来源",
+          "作者断语与书中结局分开核对"
+        ]
+      },
+      "after_structured_score": {
+        "task_id": "method-2d5379e5b6b6b0c7a149fda9",
+        "task_type": "chart_evidence",
+        "literal_facts_available": 7,
+        "literal_facts_matched": 0,
+        "literal_facts_claimed": 0,
+        "binding_target_available": false,
+        "binding_exact_match": false,
+        "protocol_and_citations_pass": false,
+        "author_method_semantic_score": null,
+        "reported_feedback_score": null,
+        "independent_real_world_score": null,
+        "human_review_required": [
+          "方法条件与角色是否正确",
+          "证据支持、反证与不确定性",
+          "应期方法和续断是否符合本轮来源",
+          "作者断语与书中结局分开核对"
+        ]
+      },
+      "source_review": null
+    },
+    {
+      "task_id": "method-3560e90807587549bb0bed38",
+      "split": "development",
+      "task_type": "feedback_continuation",
+      "before_status": "generation_error",
+      "after_status": "generation_error",
+      "before_structured_score": {
+        "task_id": "method-3560e90807587549bb0bed38",
+        "task_type": "feedback_continuation",
+        "literal_facts_available": 0,
+        "literal_facts_matched": 0,
+        "literal_facts_claimed": 0,
+        "binding_target_available": false,
+        "binding_exact_match": false,
+        "protocol_and_citations_pass": false,
+        "author_method_semantic_score": null,
+        "reported_feedback_score": null,
+        "independent_real_world_score": null,
+        "human_review_required": [
+          "方法条件与角色是否正确",
+          "证据支持、反证与不确定性",
+          "应期方法和续断是否符合本轮来源",
+          "作者断语与书中结局分开核对"
+        ]
+      },
+      "after_structured_score": {
+        "task_id": "method-3560e90807587549bb0bed38",
+        "task_type": "feedback_continuation",
+        "literal_facts_available": 0,
+        "literal_facts_matched": 0,
+        "literal_facts_claimed": 0,
+        "binding_target_available": false,
+        "binding_exact_match": false,
+        "protocol_and_citations_pass": false,
+        "author_method_semantic_score": null,
+        "reported_feedback_score": null,
+        "independent_real_world_score": null,
+        "human_review_required": [
+          "方法条件与角色是否正确",
+          "证据支持、反证与不确定性",
+          "应期方法和续断是否符合本轮来源",
+          "作者断语与书中结局分开核对"
+        ]
+      },
+      "source_review": null
+    },
+    {
+      "task_id": "method-b00125d46b14fcca3effbfd0",
+      "split": "validation",
+      "task_type": "role_selection",
+      "before_status": "method_generated",
+      "after_status": "method_generated",
+      "before_structured_score": {
+        "task_id": "method-b00125d46b14fcca3effbfd0",
+        "task_type": "role_selection",
+        "literal_facts_available": 0,
+        "literal_facts_matched": 0,
+        "literal_facts_claimed": 0,
+        "binding_target_available": true,
+        "binding_exact_match": false,
+        "protocol_and_citations_pass": true,
+        "author_method_semantic_score": null,
+        "reported_feedback_score": null,
+        "independent_real_world_score": null,
+        "human_review_required": [
+          "方法条件与角色是否正确",
+          "证据支持、反证与不确定性",
+          "应期方法和续断是否符合本轮来源",
+          "作者断语与书中结局分开核对"
+        ]
+      },
+      "after_structured_score": {
+        "task_id": "method-b00125d46b14fcca3effbfd0",
+        "task_type": "role_selection",
+        "literal_facts_available": 0,
+        "literal_facts_matched": 0,
+        "literal_facts_claimed": 0,
+        "binding_target_available": true,
+        "binding_exact_match": false,
+        "protocol_and_citations_pass": true,
+        "author_method_semantic_score": null,
+        "reported_feedback_score": null,
+        "independent_real_world_score": null,
+        "human_review_required": [
+          "方法条件与角色是否正确",
+          "证据支持、反证与不确定性",
+          "应期方法和续断是否符合本轮来源",
+          "作者断语与书中结局分开核对"
+        ]
+      },
+      "source_review": {
+        "source_fidelity_pass": false,
+        "task_completion_pass": false,
+        "no_unsupported_factual_claims": false,
+        "source_note": "日干庚/时干壬的一般角色叙述正确，天盘庚巽四/壬震三相对基线的壬坎一错误已修正。但未返回题目所需bindings；自行补出“内盘1–8宫/外盘9、1、2宫”等重叠划分，输入未授权该规则，“庚与日支申同”未说明含义。原文187/191分别保存一般角色及甲子戊辅助，不支持扩写为已确定在家。"
+      }
+    },
+    {
+      "task_id": "method-dfc05fc1d34e4644661f1b00",
+      "split": "validation",
+      "task_type": "chart_evidence",
+      "before_status": "method_evidence_error",
+      "after_status": "method_generated",
+      "before_structured_score": {
+        "task_id": "method-dfc05fc1d34e4644661f1b00",
+        "task_type": "chart_evidence",
+        "literal_facts_available": 7,
+        "literal_facts_matched": 0,
+        "literal_facts_claimed": 0,
+        "binding_target_available": false,
+        "binding_exact_match": false,
+        "protocol_and_citations_pass": false,
+        "author_method_semantic_score": null,
+        "reported_feedback_score": null,
+        "independent_real_world_score": null,
+        "human_review_required": [
+          "方法条件与角色是否正确",
+          "证据支持、反证与不确定性",
+          "应期方法和续断是否符合本轮来源",
+          "作者断语与书中结局分开核对"
+        ]
+      },
+      "after_structured_score": {
+        "task_id": "method-dfc05fc1d34e4644661f1b00",
+        "task_type": "chart_evidence",
+        "literal_facts_available": 7,
+        "literal_facts_matched": 0,
+        "literal_facts_claimed": 0,
+        "binding_target_available": false,
+        "binding_exact_match": false,
+        "protocol_and_citations_pass": true,
+        "author_method_semantic_score": null,
+        "reported_feedback_score": null,
+        "independent_real_world_score": null,
+        "human_review_required": [
+          "方法条件与角色是否正确",
+          "证据支持、反证与不确定性",
+          "应期方法和续断是否符合本轮来源",
+          "作者断语与书中结局分开核对"
+        ]
+      },
+      "source_review": {
+        "source_fidelity_pass": false,
+        "task_completion_pass": false,
+        "no_unsupported_factual_claims": false,
+        "source_note": "未返回observations，结构化0/7。自然语言7项目标中庚天盘四、壬天盘三、玄武二共3项可核对；甲子戊天盘应艮八却称乾六，地盘应乾六却称艮八；庚地盘应艮八却称震三。漏艮八螣蛇及值使惊门乾六的目标事实。擅推空亡与内外盘规则，不是本题要求的表内字面证据。源表169–185及原断187–191支持上述核对。"
+      }
+    },
+    {
+      "task_id": "method-86dc24c6c6c2d720380d86fd",
+      "split": "validation",
+      "task_type": "evidence_synthesis",
+      "before_status": "method_generated",
+      "after_status": "generation_error",
+      "before_structured_score": {
+        "task_id": "method-86dc24c6c6c2d720380d86fd",
+        "task_type": "evidence_synthesis",
+        "literal_facts_available": 0,
+        "literal_facts_matched": 0,
+        "literal_facts_claimed": 0,
+        "binding_target_available": false,
+        "binding_exact_match": false,
+        "protocol_and_citations_pass": true,
+        "author_method_semantic_score": null,
+        "reported_feedback_score": null,
+        "independent_real_world_score": null,
+        "human_review_required": [
+          "方法条件与角色是否正确",
+          "证据支持、反证与不确定性",
+          "应期方法和续断是否符合本轮来源",
+          "作者断语与书中结局分开核对"
+        ]
+      },
+      "after_structured_score": {
+        "task_id": "method-86dc24c6c6c2d720380d86fd",
+        "task_type": "evidence_synthesis",
+        "literal_facts_available": 0,
+        "literal_facts_matched": 0,
+        "literal_facts_claimed": 0,
+        "binding_target_available": false,
+        "binding_exact_match": false,
+        "protocol_and_citations_pass": false,
+        "author_method_semantic_score": null,
+        "reported_feedback_score": null,
+        "independent_real_world_score": null,
+        "human_review_required": [
+          "方法条件与角色是否正确",
+          "证据支持、反证与不确定性",
+          "应期方法和续断是否符合本轮来源",
+          "作者断语与书中结局分开核对"
+        ]
+      },
+      "source_review": {
+        "source_fidelity_pass": false,
+        "task_completion_pass": false,
+        "no_unsupported_factual_claims": true,
+        "source_note": "达到同一768 token上限时仍在抄回chart/raw_text，未生成综合分析JSON。原断187–193要求比较日时比和、玄武空亡且不克、戊庚与螣蛇及家具寻找线索；本次没有完成这些任务。不能以抄回正确盘表算方法推理通过。"
+      }
+    },
+    {
+      "task_id": "method-f70a6fd9c7281c0b06376af8",
+      "split": "validation",
+      "task_type": "timing_analysis",
+      "before_status": "method_generated",
+      "after_status": "method_generated",
+      "before_structured_score": {
+        "task_id": "method-f70a6fd9c7281c0b06376af8",
+        "task_type": "timing_analysis",
+        "literal_facts_available": 0,
+        "literal_facts_matched": 0,
+        "literal_facts_claimed": 0,
+        "binding_target_available": false,
+        "binding_exact_match": false,
+        "protocol_and_citations_pass": true,
+        "author_method_semantic_score": null,
+        "reported_feedback_score": null,
+        "independent_real_world_score": null,
+        "human_review_required": [
+          "方法条件与角色是否正确",
+          "证据支持、反证与不确定性",
+          "应期方法和续断是否符合本轮来源",
+          "作者断语与书中结局分开核对"
+        ]
+      },
+      "after_structured_score": {
+        "task_id": "method-f70a6fd9c7281c0b06376af8",
+        "task_type": "timing_analysis",
+        "literal_facts_available": 0,
+        "literal_facts_matched": 0,
+        "literal_facts_claimed": 0,
+        "binding_target_available": false,
+        "binding_exact_match": false,
+        "protocol_and_citations_pass": true,
+        "author_method_semantic_score": null,
+        "reported_feedback_score": null,
+        "independent_real_world_score": null,
+        "human_review_required": [
+          "方法条件与角色是否正确",
+          "证据支持、反证与不确定性",
+          "应期方法和续断是否符合本轮来源",
+          "作者断语与书中结局分开核对"
+        ]
+      },
+      "source_review": {
+        "source_fidelity_pass": false,
+        "task_completion_pass": false,
+        "no_unsupported_factual_claims": false,
+        "source_note": "保留了庚申阳日、巽四庚下丙这一条口径，但遗漏“时干、甲子戊内盘取快，惊门值使六宫取六天”另一条明确来源推导；又把阳日与日干阴阳混写，称原文没有给具体日期，而原断195明确三月三十日丙寅日。输入没有完整断语不等于原文未给日期，不能这样断言。"
+      }
+    }
+  ],
+  "limits": [
+    "Four correlated validation subtasks from one event family; no population estimate.",
+    "Source-given conditions are not an independently computed full-system rule baseline.",
+    "Exact fields and citations do not prove narrative correctness; source review is separate.",
+    "Even a local method pass still needs all-book curation and full-system gates before systematic training."
+  ],
+  "files_sha256": {
+    "before": "67fc78b3d1c4b9869a93bd8e72b462c4052fc8f1ec94c2835e70995f5bda61ed",
+    "after": "748358813f1b7c8c412a6d4194fd100a942ea156ff82271c42bd7f40f49e7ad8",
+    "review": "54e48af06d1ec40f6a63157f332249fc01c04c91dedc9d80eca321d6e4a2e69d"
+  }
+}

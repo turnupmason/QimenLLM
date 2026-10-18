@@ -1,6 +1,6 @@
 {
   "plan_version": 3,
-  "status": "mac_method_lora_full_context_cache_preparation",
+  "status": "mac_limited_lora_completed_method_review_failed",
   "instruction_files": [
     "docs/user_instructions/master_spec_2026-10-17.txt",
     "docs/user_instructions/professional_training_summary_2026-10-17.txt",
@@ -26,12 +26,12 @@
   "hardware": {
     "preferred_now": "Mac local 27B pilot first; user RTX4090 systematic training after method and validation review",
     "backend_candidate": "CUDA / PyTorch / PEFT, actual 4090 preflight pending",
-    "27b_memory_gradient_and_resume_profile": "passed: loading, generation, 64/256/512 token backward, save/reopen; complete domain-task equivalence still pending",
+    "27b_memory_gradient_and_resume_profile": "Actual complete 3403-token full/cache target loss delta0; real method next-update save/resume adapter/loss deltas0; 3epochs/66updates completed",
     "fallback_hardware": "RTX 4090 user-reported; not connected, no remote access assumed",
     "do_not_change_user_target_to_fit_device": true,
-    "mac_role": "data preparation, curation and tests; no legacy training restart",
+    "mac_role": "Local 27B baseline, bounded source-conditioned LoRA and same-input validation before GPU scaling",
     "rtx4090_actual_cuda_preflight": "not_run; no remote connection assumed",
-    "mlx_weight_role": "Historical Mac probe only; CUDA training must use a compatible pinned source model, not blindly load MLX quantized weights."
+    "mlx_weight_role": "Actual Mac 27B method pilot base; not a CUDA-compatible weight package"
   },
   "training": {
     "technique": "LoRA; quantized frozen base when required (QLoRA)",
@@ -126,9 +126,9 @@
   ],
   "github_upload": true,
   "previous_run_progress": "work/qwen38-author-run001/progress.json",
-  "actual_run_progress": null,
+  "actual_run_progress": "work/mac-lost-method-lora-v1/report.json",
   "handoff": {
-    "training_operator": "user",
+    "training_operator": "Mac bounded pilot by Codex; later RTX4090 systematic training by user only after method/logic gates",
     "preparation_operator": "Codex on Mac",
     "ready_for_user_training": false,
     "package_scope": "professional tasks and evaluation after source/chronology/family auditing",
@@ -145,9 +145,9 @@
     ],
     "source_release": "shenqi-lost-method-tasks-v5",
     "baseline": "work/mac-lost-method-baseline-v1/report.json",
-    "status": "full_context_cache_equivalence_passed_caching_remaining_tasks",
-    "completed_epochs": 0,
-    "optimizer_steps": 0,
+    "status": "completed_source_review_failed",
+    "completed_epochs": 3,
+    "optimizer_steps": 66,
     "test_accessed": false,
     "full_cached_loss_delta": 0.0,
     "baseline_complete": true,
@@ -157,6 +157,20 @@
       "generation_error": 1
     },
     "baseline_validation_source_review_passes": 0,
-    "baseline_validation_tasks": 4
+    "baseline_validation_tasks": 4,
+    "trainable_parameters": 94208,
+    "selected_candidate": "epoch-03",
+    "candidate_selected_by": "validation NLL only",
+    "validation_nll_before": 1.7087245796545458,
+    "validation_nll_candidate": 1.503765944002519,
+    "resume_loss_delta": 0.0,
+    "resume_adapter_delta": 0.0,
+    "training_receipt": "data/provenance/mac_lost_method_training_v1.json",
+    "model_registry": "data/provenance/mac_lost_method_model_v1.json",
+    "comparison": "data/provenance/mac_lost_method_comparison_v1.json",
+    "validation_source_review_passes": 0,
+    "validation_tasks": 4,
+    "mac_limited_method_review_pass": false,
+    "systematic_training_ready": false
   }
 }

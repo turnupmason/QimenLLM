@@ -1,0 +1,193 @@
+{
+  "scope": "actual_training_tokenization_and_cached_label_audit",
+  "tokens_file_sha256": "14d7cc4f20cb6abc855d5d4df313be87d484f79042ca37654dea947dee41d6f1",
+  "tasks_verified": 26,
+  "all_assistant_labels_exact": true,
+  "all_cached_next_token_labels_exact": true,
+  "model_loaded": false,
+  "test_accessed": false,
+  "rows": [
+    {
+      "task_id": "method-32f5b9df0970f4586f767cda",
+      "split": "train",
+      "assistant_label_exact": true,
+      "cached_shifted_labels_exact": true,
+      "label_first_key": "bindings"
+    },
+    {
+      "task_id": "method-377b4ab9199170a88361f517",
+      "split": "train",
+      "assistant_label_exact": true,
+      "cached_shifted_labels_exact": true,
+      "label_first_key": "citations"
+    },
+    {
+      "task_id": "method-97f513b1360d79251be90ded",
+      "split": "train",
+      "assistant_label_exact": true,
+      "cached_shifted_labels_exact": true,
+      "label_first_key": "citations"
+    },
+    {
+      "task_id": "method-4656497ae49a7b95e2038e7f",
+      "split": "train",
+      "assistant_label_exact": true,
+      "cached_shifted_labels_exact": true,
+      "label_first_key": "citations"
+    },
+    {
+      "task_id": "method-1e483855fec084815293a323",
+      "split": "train",
+      "assistant_label_exact": true,
+      "cached_shifted_labels_exact": true,
+      "label_first_key": "bindings"
+    },
+    {
+      "task_id": "method-8892a3f166aac99afa609f56",
+      "split": "train",
+      "assistant_label_exact": true,
+      "cached_shifted_labels_exact": true,
+      "label_first_key": "citations"
+    },
+    {
+      "task_id": "method-869f5bc547c93515f6bd27f4",
+      "split": "train",
+      "assistant_label_exact": true,
+      "cached_shifted_labels_exact": true,
+      "label_first_key": "citations"
+    },
+    {
+      "task_id": "method-006f5fc22e5d8f8e0444e016",
+      "split": "train",
+      "assistant_label_exact": true,
+      "cached_shifted_labels_exact": true,
+      "label_first_key": "citations"
+    },
+    {
+      "task_id": "method-ae63d24e539db29b38c9dbb7",
+      "split": "train",
+      "assistant_label_exact": true,
+      "cached_shifted_labels_exact": true,
+      "label_first_key": "bindings"
+    },
+    {
+      "task_id": "method-5e265502f9ce42d501d98f71",
+      "split": "train",
+      "assistant_label_exact": true,
+      "cached_shifted_labels_exact": true,
+      "label_first_key": "citations"
+    },
+    {
+      "task_id": "method-41c814856b1a1bf793f25abc",
+      "split": "train",
+      "assistant_label_exact": true,
+      "cached_shifted_labels_exact": true,
+      "label_first_key": "citations"
+    },
+    {
+      "task_id": "method-6ad7d2f97aff3ac2fc716b32",
+      "split": "train",
+      "assistant_label_exact": true,
+      "cached_shifted_labels_exact": true,
+      "label_first_key": "chart_action"
+    },
+    {
+      "task_id": "method-8ba3d05afec6c1052c728fa2",
+      "split": "train",
+      "assistant_label_exact": true,
+      "cached_shifted_labels_exact": true,
+      "label_first_key": "chart_action"
+    },
+    {
+      "task_id": "method-4fd7602f0c33f441c5dec30c",
+      "split": "train",
+      "assistant_label_exact": true,
+      "cached_shifted_labels_exact": true,
+      "label_first_key": "citations"
+    },
+    {
+      "task_id": "method-3728fb506ea63987d3ddbd86",
+      "split": "train",
+      "assistant_label_exact": true,
+      "cached_shifted_labels_exact": true,
+      "label_first_key": "chart_action"
+    },
+    {
+      "task_id": "method-59a3bf9e9cd40d0b1f211168",
+      "split": "train",
+      "assistant_label_exact": true,
+      "cached_shifted_labels_exact": true,
+      "label_first_key": "citations"
+    },
+    {
+      "task_id": "method-1934f6535af1ab568521a680",
+      "split": "train",
+      "assistant_label_exact": true,
+      "cached_shifted_labels_exact": true,
+      "label_first_key": "chart_action"
+    },
+    {
+      "task_id": "method-456e9aee36330b853ab3d7eb",
+      "split": "train",
+      "assistant_label_exact": true,
+      "cached_shifted_labels_exact": true,
+      "label_first_key": "citations"
+    },
+    {
+      "task_id": "method-2b855aa53ac71aa7afa7509a",
+      "split": "train",
+      "assistant_label_exact": true,
+      "cached_shifted_labels_exact": true,
+      "label_first_key": "bindings"
+    },
+    {
+      "task_id": "method-c1c4a3c72c1e34b2093d4cc5",
+      "split": "train",
+      "assistant_label_exact": true,
+      "cached_shifted_labels_exact": true,
+      "label_first_key": "citations"
+    },
+    {
+      "task_id": "method-801e9baa5300ad0828dab579",
+      "split": "train",
+      "assistant_label_exact": true,
+      "cached_shifted_labels_exact": true,
+      "label_first_key": "citations"
+    },
+    {
+      "task_id": "method-0596bab2840366d96b199c87",
+      "split": "train",
+      "assistant_label_exact": true,
+      "cached_shifted_labels_exact": true,
+      "label_first_key": "chart_action"
+    },
+    {
+      "task_id": "method-b00125d46b14fcca3effbfd0",
+      "split": "validation",
+      "assistant_label_exact": true,
+      "cached_shifted_labels_exact": true,
+      "label_first_key": "bindings"
+    },
+    {
+      "task_id": "method-dfc05fc1d34e4644661f1b00",
+      "split": "validation",
+      "assistant_label_exact": true,
+      "cached_shifted_labels_exact": true,
+      "label_first_key": "citations"
+    },
+    {
+      "task_id": "method-86dc24c6c6c2d720380d86fd",
+      "split": "validation",
+      "assistant_label_exact": true,
+      "cached_shifted_labels_exact": true,
+      "label_first_key": "citations"
+    },
+    {
+      "task_id": "method-f70a6fd9c7281c0b06376af8",
+      "split": "validation",
+      "assistant_label_exact": true,
+      "cached_shifted_labels_exact": true,
+      "label_first_key": "citations"
+    }
+  ]
+}

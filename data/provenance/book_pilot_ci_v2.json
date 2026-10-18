@@ -1,0 +1,48 @@
+{
+  "commit": "affe4d7a4f600a827e0aa0f35a0967b1f7c0189e",
+  "tree": "0957a3a5d7201a667901e70423abea827cf0d8e5",
+  "run_id": 39098322745,
+  "url": "https://github.com/turnupmason/QimenLLM/actions/runs/39098322745",
+  "conclusion": "success",
+  "job_logs_actually_read": true,
+  "main_verified_with_ls_remote": true,
+  "workflow_unchanged": true,
+  "jobs": [
+    {
+      "job_id": 117589262426,
+      "platform": "macos",
+      "python": "3.11",
+      "discovered": 576,
+      "passed": 573,
+      "skipped": 3,
+      "seconds": 77.045
+    },
+    {
+      "job_id": 117589262555,
+      "platform": "ubuntu",
+      "python": "3.11",
+      "discovered": 576,
+      "passed": 573,
+      "skipped": 3,
+      "seconds": 97.437
+    },
+    {
+      "job_id": 117589262648,
+      "platform": "ubuntu",
+      "python": "3.12",
+      "discovered": 576,
+      "passed": 573,
+      "skipped": 3,
+      "seconds": 109.817
+    },
+    {
+      "job_id": 117589262694,
+      "platform": "macos",
+      "python": "3.12",
+      "discovered": 576,
+      "passed": 573,
+      "skipped": 3,
+      "seconds": 132.948
+    }
+  ]
+}

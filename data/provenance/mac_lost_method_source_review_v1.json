@@ -1,0 +1,32 @@
+{
+  "split": "validation",
+  "reviewer": "Codex source-grounded review",
+  "source_basis": "Frozen shenqi-lost-method-tasks-v5 validation.jsonl; source ed3c80f32c213563bf35d9f9790e330ea04e4def404f6e6ca904006a94a9eaf9, original chart lines169–185 and explicit pre-feedback author statements187–195; no test output read.",
+  "after_report_sha256": "748358813f1b7c8c412a6d4194fd100a942ea156ff82271c42bd7f40f49e7ad8",
+  "tasks": {
+    "method-b00125d46b14fcca3effbfd0": {
+      "source_fidelity_pass": false,
+      "task_completion_pass": false,
+      "no_unsupported_factual_claims": false,
+      "source_note": "日干庚/时干壬的一般角色叙述正确，天盘庚巽四/壬震三相对基线的壬坎一错误已修正。但未返回题目所需bindings；自行补出“内盘1–8宫/外盘9、1、2宫”等重叠划分，输入未授权该规则，“庚与日支申同”未说明含义。原文187/191分别保存一般角色及甲子戊辅助，不支持扩写为已确定在家。"
+    },
+    "method-dfc05fc1d34e4644661f1b00": {
+      "source_fidelity_pass": false,
+      "task_completion_pass": false,
+      "no_unsupported_factual_claims": false,
+      "source_note": "未返回observations，结构化0/7。自然语言7项目标中庚天盘四、壬天盘三、玄武二共3项可核对；甲子戊天盘应艮八却称乾六，地盘应乾六却称艮八；庚地盘应艮八却称震三。漏艮八螣蛇及值使惊门乾六的目标事实。擅推空亡与内外盘规则，不是本题要求的表内字面证据。源表169–185及原断187–191支持上述核对。"
+    },
+    "method-86dc24c6c6c2d720380d86fd": {
+      "source_fidelity_pass": false,
+      "task_completion_pass": false,
+      "no_unsupported_factual_claims": true,
+      "source_note": "达到同一768 token上限时仍在抄回chart/raw_text，未生成综合分析JSON。原断187–193要求比较日时比和、玄武空亡且不克、戊庚与螣蛇及家具寻找线索；本次没有完成这些任务。不能以抄回正确盘表算方法推理通过。"
+    },
+    "method-f70a6fd9c7281c0b06376af8": {
+      "source_fidelity_pass": false,
+      "task_completion_pass": false,
+      "no_unsupported_factual_claims": false,
+      "source_note": "保留了庚申阳日、巽四庚下丙这一条口径，但遗漏“时干、甲子戊内盘取快，惊门值使六宫取六天”另一条明确来源推导；又把阳日与日干阴阳混写，称原文没有给具体日期，而原断195明确三月三十日丙寅日。输入没有完整断语不等于原文未给日期，不能这样断言。"
+    }
+  }
+}

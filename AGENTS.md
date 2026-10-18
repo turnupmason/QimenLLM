@@ -33,3 +33,5 @@
 钱物丢失限定研究试验沿v5冻结32任务，不移动家族。Mac先测试无适配器27B，再使用最后全注意力层q/v的rank4 LoRA进行最多3遍、验证无改善停止的工程/方法试验；训练只读22train/4validation，test封存。缓存全模型等价和真实任务下一更新恢复等价必须实际通过；loss只选候选，仍需比较同题生成的专业解释。正式规则和完整D/E系统对照尚未完成，不以source_given_conditions替代。QimenService.ask的显式MethodRequest研究分支承担全部生成评估，正式问事门槛保持。
 
 全书基础任务覆盖现行为book_preparation_v2：98故事都保留完整档案并有基础学习任务，共127条，82train/21validation/20test/4development；故事分组仍65/15/15/3、94家族归属不动。组成是钱物丢失32方法任务、其他原表93字面读取、卫星局部来源完整性1题、附录三用户重排表1题。后两题限定资料阅读，不模拟历史首断，不补造完整盘；三个旧原盘not_covered状态保持。卫星题不提供后来报道或204行后置补充，重排题逐字核对独立gold的36单元，不按算法改生乙/壬惊丙。原v1全部任务与档案逐字保留，v2只在train增加两个来源审读任务。专业方法深度审读仍8案32题，其余90案的基础任务不能冒充完整断案监督。钱物丢失Mac试验数据仍固定v5的22train/4validation，未用新增两题或test。
+
+最新实际Mac结果（2026-10-18）：有限方法LoRA已完成3遍/66更新，94,208参数；验证NLL下降不能替代来源审读。同题六请求3协议接受/3生成截断，四validation均有专业问题，comparison_v1.mac_limited_method_review_pass=false/systematic_training_ready=false，test未开。4090 train入口须核对同基座/数据的Mac通过回执，在GPU初始化前拒绝缺失或失败门槛；不把该候选升级为正式训练或专业模型。训练实际旧代码见affe4d7 commit；后续恢复游标修复不改旧实验代码哈希。模型附件无正常登录时保持pending，不将权重放普通Git。

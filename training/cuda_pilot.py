@@ -51,6 +51,23 @@ def fingerprint(c):
     return sha(encoded({'config': c, 'files': {str(p.relative_to(ROOT)): sha(p.read_bytes()) for p in paths}}))
 
 
+def require_mac_method_review(c):
+    name = c.get('mac_quality_report')
+    path = ROOT/name if name else None
+    if path is None or not path.is_file():
+        raise ValueError('Mac source-based method review must pass before CUDA training')
+    report = json.loads(path.read_bytes())
+    if (report.get('mac_limited_method_review_pass') is not True or report.get('test_accessed') is not False
+            or report.get('model') != 'mlx-community/Qwen3.8-27B-4bit'
+            or report.get('revision') != '10c35caafbb80f7dc6a7a432cdd11af10a6d4818'
+            or report.get('data_manifest_sha256') != sha((ROOT/c['manifest']).read_bytes())):
+        raise ValueError('Mac method/source review is incomplete or failed; no CUDA training started')
+    if c.get('systematic_training') and report.get('systematic_training_ready') is not True:
+        raise ValueError('Full-system training gates remain incomplete')
+    return {'path': str(name), 'sha256': sha(path.read_bytes()), 'limited_method_pass': True,
+            'systematic_training_ready': report.get('systematic_training_ready', False)}
+
+
 def rows(c, split):
     m = json.loads((ROOT/c['manifest']).read_bytes())
     name = split + '.jsonl'
@@ -307,6 +324,7 @@ def evaluate(c, run, model, tok, split, name, base=False, arms=('source_chart_co
 
 
 def train(c, run, resume=None):
+    mac_review = require_mac_method_review(c)
     import torch
     identity = fingerprint(c)
     for prerequisite in ('preflight.json', 'baseline-validation.json'):
@@ -327,6 +345,9 @@ def train(c, run, resume=None):
     state = {'epoch': 0, 'cursor': 0, 'order': [], 'optimizer_steps': 0,
              'best_validation_loss': None, 'epochs_without_improvement': 0, 'history': []}
     if resume:
+        started = json.loads((run/'training-started.json').read_bytes())
+        if started.get('mac_method_review') != mac_review:
+            raise ValueError('Mac review changed since this CUDA run started')
         resume = Path(resume).resolve()
         if not resume.is_relative_to(run.resolve()):
             raise ValueError('Resume only checkpoints generated inside this run')
@@ -337,7 +358,8 @@ def train(c, run, resume=None):
         if existing and int(existing[-1].name.split('-')[1]) > state['optimizer_steps']:
             raise ValueError('Resume the latest completed checkpoint, not an older branch')
     else:
-        write_new(run/'training-started.json', {'fingerprint': identity, 'hardware': hardware, 'config': c})
+        write_new(run/'training-started.json', {'fingerprint': identity, 'hardware': hardware, 'config': c,
+                                              'mac_method_review': mac_review})
     for epoch in range(state['epoch'], c['max_epochs']):
         if not state['order']:
             state['order'] = list(range(len(data)))

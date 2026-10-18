@@ -1,0 +1,398 @@
+{
+  "scope": "source_conditioned_27b_method_baseline_not_full_system_D",
+  "model": "mlx-community/Qwen3.8-27B-4bit",
+  "revision": "10c35caafbb80f7dc6a7a432cdd11af10a6d4818",
+  "model_manifest_sha256": "820b14b9bb4741c109b6fbf7c2903d7a1c1c3452e230d76325698f71f2761226",
+  "data_manifest_sha256": "24f1aa3343112de8c4c6ba6a4e2d10002364e9e6c5e59cb842a031b6168e5ac0",
+  "source_data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "code_sha256": {
+    "scripts/run_mac_method_pilot.py": "83694f68b58f05d48bff91fbed0c0e4267bb987131b0fb178f96bb142eb1480f",
+    "src/qimenllm/models/mlx_gateway.py": "f5c7d38132e625a32f9ae5ff93f5170bf34c33d1f9e403760577d67b6347612d",
+    "src/qimenllm/evaluation/method.py": "06b6505f48efe9bd5198aa8d8490fb682d6db33856a66018f509921a52b56510",
+    "src/qimenllm/reasoning/service.py": "df6dfb257ff272dae9099f6935279cc9cb5f8bd354adc9bec80eeea8d4ca91b4"
+  },
+  "packages": {
+    "mlx": "0.32.4",
+    "mlx-lm": "0.32.2",
+    "transformers": "5.20.1"
+  },
+  "model_load_seconds": 5.68792608298827,
+  "started_unix": 1792300574.829189,
+  "records": [
+    {
+      "split": "development",
+      "task_id": "method-2d5379e5b6b6b0c7a149fda9",
+      "task_type": "chart_evidence",
+      "result": {
+        "status": "generation_error",
+        "scope": "source_reviewed_method_pilot",
+        "professional_analysis_completed": false,
+        "formal_conditional_rule_arm": "blocked_not_equivalent_to_source_given_conditions",
+        "payload_sha256": "93ac8a31a76732e8de27e65bd8d7c0fd2f7e5c3d5b106334591f806d023a6c84",
+        "author_method_accuracy": null,
+        "reported_feedback_accuracy": null,
+        "independent_real_world_accuracy": null,
+        "telemetry": {
+          "prompt_tokens": 2520,
+          "max_tokens": 768,
+          "max_context_tokens": 8192,
+          "temperature": 0.0,
+          "seed": 17,
+          "enable_thinking": false,
+          "seconds": 242.80172487499658,
+          "first_token_seconds": 81.14420774998143,
+          "peak_memory_bytes": 18132296596,
+          "generation_tokens": 768,
+          "tokens_per_second": 4.751715303873134,
+          "finish_reason": "length",
+          "raw_output": "{\"citations\": [\"chart\", \"chart:palaces.2\", \"chart:palaces.7\", \"chart:palaces.8\", \"chart:palaces.1\", \"chart:palaces.3\", \"chart:palaces.4\", \"chart:palaces.6\", \"chart:palaces.9\", \"chart:palaces.5\", \"chart:raw_text\", \"chart:calendar_recomputed\", \"chart:engine_verified\", \"chart:voids\", \"chart:horse\", \"chart:chart_id\", \"chart:palaces.2.deity\", \"chart:palaces.2.star\", \"chart:palaces.2.door\", \"chart:palaces.2.heaven_stem\", \"chart:palaces.2.earth_stem\", \"chart:palaces.2.star_prefix_marker\", \"chart:palaces.2.heaven_prefix_marker\", \"chart:palaces.7.deity\", \"chart:palaces.7.star\", \"chart:palaces.7.door\", \"chart:palaces.7.heaven_stem\", \"chart:palaces.7.earth_stem\", \"chart:palaces.7.star_prefix_marker\", \"chart:palaces.7.heaven_prefix_marker\", \"chart:palaces.8.deity\", \"chart:palaces.8.star\", \"chart:palaces.8.door\", \"chart:palaces.8.heaven_stem\", \"chart:palaces.8.earth_stem\", \"chart:palaces.8.star_prefix_marker\", \"chart:palaces.8.heaven_prefix_marker\", \"chart:palaces.1.deity\", \"chart:palaces.1.star\", \"chart:palaces.1.door\", \"chart:palaces.1.heaven_stem\", \"chart:palaces.1.earth_stem\", \"chart:palaces.1.star_prefix_marker\", \"chart:palaces.1.heaven_prefix_marker\", \"chart:palaces.3.deity\", \"chart:palaces.3.star\", \"chart:palaces.3.door\", \"chart:palaces.3.heaven_stem\", \"chart:palaces.3.earth_stem\", \"chart:palaces.3.star_prefix_marker\", \"chart:palaces.3.heaven_prefix_marker\", \"chart:palaces.4.deity\", \"chart:palaces.4.star\", \"chart:palaces.4.door\", \"chart:palaces.4.heaven_stem\", \"chart:palaces.4.earth_stem\", \"chart:palaces.4.star_prefix_marker\", \"chart:palaces.4.heaven_prefix_marker\", \"chart:palaces.6.deity\", \"chart:palaces.6.star\", \"chart:palaces.6.door\", \"chart:palaces.6.heaven_stem\", \"chart:palaces.6.earth_stem\", \"chart:palaces.6.star_prefix_marker\", \"chart:palaces.6.heaven_prefix_marker\", \"chart:palaces.9.deity\", \"chart:palaces.9.star\", \"chart:palaces.9.door\", \"chart:palaces.9.heaven_stem\", \"chart:palaces.9.earth_stem\", \"chart:palaces.9.star_prefix_marker\", \"chart:palaces.9.heaven_prefix_marker\", \"chart:palaces.5.deity\", \"chart:palaces.5.star\", \"chart:palaces.5.door\", \"chart:palaces.5.heaven_stem\", \"chart:palaces"
+        }
+      },
+      "score": {
+        "task_id": "method-2d5379e5b6b6b0c7a149fda9",
+        "task_type": "chart_evidence",
+        "literal_facts_available": 7,
+        "literal_facts_matched": 0,
+        "literal_facts_claimed": 0,
+        "binding_target_available": false,
+        "binding_exact_match": false,
+        "protocol_and_citations_pass": false,
+        "author_method_semantic_score": null,
+        "reported_feedback_score": null,
+        "independent_real_world_score": null,
+        "human_review_required": [
+          "方法条件与角色是否正确",
+          "证据支持、反证与不确定性",
+          "应期方法和续断是否符合本轮来源",
+          "作者断语与书中结局分开核对"
+        ]
+      }
+    },
+    {
+      "split": "development",
+      "task_id": "method-3560e90807587549bb0bed38",
+      "task_type": "feedback_continuation",
+      "result": {
+        "status": "generation_error",
+        "scope": "source_reviewed_method_pilot",
+        "professional_analysis_completed": false,
+        "formal_conditional_rule_arm": "blocked_not_equivalent_to_source_given_conditions",
+        "payload_sha256": "30a1005d837ef19452c266359a751410f83bdbe0dbeb5c826cd7938148937843",
+        "author_method_accuracy": null,
+        "reported_feedback_accuracy": null,
+        "independent_real_world_accuracy": null,
+        "telemetry": {
+          "prompt_tokens": 2926,
+          "max_tokens": 768,
+          "max_context_tokens": 8192,
+          "temperature": 0.0,
+          "seed": 17,
+          "enable_thinking": false,
+          "seconds": 258.3655281670217,
+          "first_token_seconds": 107.30622662501992,
+          "peak_memory_bytes": 18132298220,
+          "generation_tokens": 768,
+          "tokens_per_second": 5.08531350177028,
+          "finish_reason": "length",
+          "raw_output": "{\"chart\": {\"calendar_recomputed\": false, \"chart_id\": \"chart-243288a300e2d9087a8c8195de6b6e4422db34b1c323e050e5d8d805b238c103\", \"engine_verified\": false, \"horse\": null, \"palaces\": {\"1\": {\"deity\": \"玄武\", \"door\": \"伤门\", \"earth_stem\": \"辛\", \"heaven_prefix_marker\": null, \"heaven_stem\": \"丙\", \"palace\": 1, \"star\": \"天心星\", \"star_prefix_marker\": null}, \"2\": {\"deity\": \"值符\", \"door\": \"开门\", \"earth_stem\": \"庚\", \"heaven_prefix_marker\": null, \"heaven_stem\": \"壬\", \"palace\": 2, \"star\": \"天英星\", \"star_prefix_marker\": \"乙\"}, \"3\": {\"deity\": \"六合\", \"door\": \"景门\", \"earth_stem\": \"己\", \"heaven_prefix_marker\": null, \"heaven_stem\": \"癸\", \"palace\": 3, \"star\": \"天任星\", \"star_prefix_marker\": null}, \"4\": {\"deity\": \"太阴\", \"door\": \"死门\", \"earth_stem\": \"戊\", \"heaven_prefix_marker\": null, \"heaven_stem\": \"己\", \"palace\": 4, \"star\": \"天冲星\", \"star_prefix_marker\": null}, \"5\": {\"deity\": null, \"door\": null, \"earth_stem\": \"乙\", \"heaven_prefix_marker\": null, \"heaven_stem\": null, \"palace\": 5, \"star\": null, \"star_prefix_marker\": null}, \"6\": {\"deity\": \"九地\", \"door\": \"生门\", \"earth_stem\": \"丙\", \"heaven_prefix_marker\": null, \"heaven_stem\": \"丁\", \"palace\": 6, \"star\": \"天柱星\", \"star_prefix_marker\": null}, \"7\": {\"deity\": \"九天\", \"door\": \"休门\", \"earth_stem\": \"丁\", \"heaven_prefix_marker\": \"乙\", \"heaven_stem\": \"庚\", \"palace\": 7, \"star\": \"天芮星\", \"star_prefix_marker\": null}, \"8\": {\"deity\": \"白虎\", \"door\": \"杜门\", \"earth_stem\": \"癸\", \"heaven_prefix_marker\": null, \"heaven_stem\": \"辛\", \"palace\": 8, \"star\": \"天蓬星\", \"star_prefix_marker\": null}, \"9\": {\"deity\": \"螣蛇\", \"door\": \"惊门\", \"earth_stem\": \"壬\", \"heaven_prefix_marker\": null, \"heaven_stem\": \"戊\", \"palace\": 9, \"star\": \"天辅星\", \"star_prefix_marker\": null}}, \"raw_text\": \"奇门格局：\\n┌─────────────────────────┬─────────────────────────┬─────────────────────────┐\\n│巽四宫  八神：阴         │离九宫  八神：蛇         │坤二宫  八神：符         │\\n│门位原字：死己           │门位原字：惊戊           │门位原字：开壬"
+        }
+      },
+      "score": {
+        "task_id": "method-3560e90807587549bb0bed38",
+        "task_type": "feedback_continuation",
+        "literal_facts_available": 0,
+        "literal_facts_matched": 0,
+        "literal_facts_claimed": 0,
+        "binding_target_available": false,
+        "binding_exact_match": false,
+        "protocol_and_citations_pass": false,
+        "author_method_semantic_score": null,
+        "reported_feedback_score": null,
+        "independent_real_world_score": null,
+        "human_review_required": [
+          "方法条件与角色是否正确",
+          "证据支持、反证与不确定性",
+          "应期方法和续断是否符合本轮来源",
+          "作者断语与书中结局分开核对"
+        ]
+      }
+    },
+    {
+      "split": "validation",
+      "task_id": "method-b00125d46b14fcca3effbfd0",
+      "task_type": "role_selection",
+      "result": {
+        "status": "method_generated",
+        "scope": "source_reviewed_method_pilot",
+        "professional_analysis_completed": false,
+        "formal_conditional_rule_arm": "blocked_not_equivalent_to_source_given_conditions",
+        "payload_sha256": "348e2c9125a676e06e0d35319a5da3640b954e0dd75aeaa59249be862eb21e3e",
+        "author_method_accuracy": null,
+        "reported_feedback_accuracy": null,
+        "independent_real_world_accuracy": null,
+        "telemetry": {
+          "prompt_tokens": 2390,
+          "max_tokens": 768,
+          "max_context_tokens": 8192,
+          "temperature": 0.0,
+          "seed": 17,
+          "enable_thinking": false,
+          "seconds": 146.56518700000015,
+          "first_token_seconds": 75.08187491699937,
+          "peak_memory_bytes": 18132296076,
+          "generation_tokens": 375,
+          "tokens_per_second": 5.248166519373305,
+          "finish_reason": "stop",
+          "raw_output": "{\"citations\": [\"chart\", \"roles\", \"location\", \"theft\", \"timing\"], \"explanation\": \"在奇门遁甲测失物的一般取法中，通常以日干（庚）的落宫代表失主，以时干（壬）的落宫代表丢失的钱物。本例中，日干庚与日支申同，时干为壬。根据一般法，若日干与时干同宫，或时干宫生助日干宫，或出现反吟，通常断为未丢失或可找回；若时干落空亡、墓、绝，或时干宫被玄武、天蓬宫所克，则可能被盗或难找回。此外，日干与时干同在内盘（1-8宫）主丢失在家中或近处，同在外盘（9、1、2宫等，视具体宫位定义）主丢失在外。本例中，日干庚在4宫，时干壬在3宫，二者均在内盘，一般法断为丢失在家中。但此仅为一般取法，并非唯一方法，实际判断需结合具体宫位生克、八神（如玄武）及门星状态。\", \"task_type\": \"role_selection\", \"uncertainties\": [\"一般法中关于内盘外盘的具体宫位划分在不同流派中可能略有差异，本例中庚在4宫、壬在3宫，通常均视为内盘，但需确认具体流派对内外盘的定义。\", \"本例中时干壬在3宫，日干庚在4宫，二者不同宫，一般法中需进一步判断生克关系及是否临玄武等，本任务仅要求说明一般取法，未进行具体断语。\"]}"
+        },
+        "output": {
+          "citations": [
+            "chart",
+            "roles",
+            "location",
+            "theft",
+            "timing"
+          ],
+          "explanation": "在奇门遁甲测失物的一般取法中，通常以日干（庚）的落宫代表失主，以时干（壬）的落宫代表丢失的钱物。本例中，日干庚与日支申同，时干为壬。根据一般法，若日干与时干同宫，或时干宫生助日干宫，或出现反吟，通常断为未丢失或可找回；若时干落空亡、墓、绝，或时干宫被玄武、天蓬宫所克，则可能被盗或难找回。此外，日干与时干同在内盘（1-8宫）主丢失在家中或近处，同在外盘（9、1、2宫等，视具体宫位定义）主丢失在外。本例中，日干庚在4宫，时干壬在3宫，二者均在内盘，一般法断为丢失在家中。但此仅为一般取法，并非唯一方法，实际判断需结合具体宫位生克、八神（如玄武）及门星状态。",
+          "task_type": "role_selection",
+          "uncertainties": [
+            "一般法中关于内盘外盘的具体宫位划分在不同流派中可能略有差异，本例中庚在4宫、壬在3宫，通常均视为内盘，但需确认具体流派对内外盘的定义。",
+            "本例中时干壬在3宫，日干庚在4宫，二者不同宫，一般法中需进一步判断生克关系及是否临玄武等，本任务仅要求说明一般取法，未进行具体断语。"
+          ]
+        },
+        "evidence_errors": []
+      },
+      "score": {
+        "task_id": "method-b00125d46b14fcca3effbfd0",
+        "task_type": "role_selection",
+        "literal_facts_available": 0,
+        "literal_facts_matched": 0,
+        "literal_facts_claimed": 0,
+        "binding_target_available": true,
+        "binding_exact_match": false,
+        "protocol_and_citations_pass": true,
+        "author_method_semantic_score": null,
+        "reported_feedback_score": null,
+        "independent_real_world_score": null,
+        "human_review_required": [
+          "方法条件与角色是否正确",
+          "证据支持、反证与不确定性",
+          "应期方法和续断是否符合本轮来源",
+          "作者断语与书中结局分开核对"
+        ]
+      }
+    },
+    {
+      "split": "validation",
+      "task_id": "method-dfc05fc1d34e4644661f1b00",
+      "task_type": "chart_evidence",
+      "result": {
+        "status": "method_generated",
+        "scope": "source_reviewed_method_pilot",
+        "professional_analysis_completed": false,
+        "formal_conditional_rule_arm": "blocked_not_equivalent_to_source_given_conditions",
+        "payload_sha256": "c9a5165bd5f6d377a672ee23c8ac347071a47eae1b06d07d5c3050292638a7a8",
+        "author_method_accuracy": null,
+        "reported_feedback_accuracy": null,
+        "independent_real_world_accuracy": null,
+        "telemetry": {
+          "prompt_tokens": 2425,
+          "max_tokens": 768,
+          "max_context_tokens": 8192,
+          "temperature": 0.0,
+          "seed": 17,
+          "enable_thinking": false,
+          "seconds": 179.69417445900035,
+          "first_token_seconds": 83.68910879199393,
+          "peak_memory_bytes": 18132296216,
+          "generation_tokens": 499,
+          "tokens_per_second": 5.199505149339642,
+          "finish_reason": "stop",
+          "raw_output": "{\"citations\": [\"chart\", \"roles\", \"location\", \"theft\", \"timing\"], \"explanation\": \"根据原盘及已知信息，提取各角色在盘中的具体位置与状态：\\n1. 日干庚（失主）：庚金在震三宫（地盘）和巽四宫（天盘）。震三宫为内盘，巽四宫为外盘。\\n2. 时干壬（失物）：壬水在坎一宫（地盘）和震三宫（天盘）。坎一宫为内盘，震三宫为内盘。\\n3. 甲子戊（钱财辅助）：戊土在艮八宫（地盘）和乾六宫（天盘）。艮八宫为内盘，乾六宫为外盘。\\n\\n关于内外盘判断：\\n- 日干庚：地盘在震三（内），天盘在巽四（外）。\\n- 时干壬：地盘在坎一（内），天盘在震三（内）。\\n\\n关于神星门状态：\\n- 时干壬所在宫位：\\n  - 地盘壬在坎一宫：临值符、开门、天柱星。\\n  - 天盘壬在震三宫：临太阴、生门、天蓬星。\\n- 日干庚所在宫位：\\n  - 地盘庚在震三宫：临太阴、生门、天蓬星。\\n  - 天盘庚在巽四宫：临六合、伤门、天任星。\\n\\n关于玄武与天蓬：\\n- 玄武在坤二宫，临景门、天辅星。\\n- 天蓬星在震三宫，临生门、太阴。\\n\\n关于空亡：\\n- 甲戌旬，空亡为申、酉。申酉对应坤二宫和兑七宫。\", \"task_type\": \"chart_evidence\", \"uncertainties\": [\"原盘未明确标注内外盘划分标准，通常以坎艮震巽为内，离坤兑乾为外，此处按此惯例提取。\", \"原盘未直接给出空亡宫位，需根据甲戌旬推算。\"]}"
+        },
+        "output": {
+          "citations": [
+            "chart",
+            "roles",
+            "location",
+            "theft",
+            "timing"
+          ],
+          "explanation": "根据原盘及已知信息，提取各角色在盘中的具体位置与状态：\n1. 日干庚（失主）：庚金在震三宫（地盘）和巽四宫（天盘）。震三宫为内盘，巽四宫为外盘。\n2. 时干壬（失物）：壬水在坎一宫（地盘）和震三宫（天盘）。坎一宫为内盘，震三宫为内盘。\n3. 甲子戊（钱财辅助）：戊土在艮八宫（地盘）和乾六宫（天盘）。艮八宫为内盘，乾六宫为外盘。\n\n关于内外盘判断：\n- 日干庚：地盘在震三（内），天盘在巽四（外）。\n- 时干壬：地盘在坎一（内），天盘在震三（内）。\n\n关于神星门状态：\n- 时干壬所在宫位：\n  - 地盘壬在坎一宫：临值符、开门、天柱星。\n  - 天盘壬在震三宫：临太阴、生门、天蓬星。\n- 日干庚所在宫位：\n  - 地盘庚在震三宫：临太阴、生门、天蓬星。\n  - 天盘庚在巽四宫：临六合、伤门、天任星。\n\n关于玄武与天蓬：\n- 玄武在坤二宫，临景门、天辅星。\n- 天蓬星在震三宫，临生门、太阴。\n\n关于空亡：\n- 甲戌旬，空亡为申、酉。申酉对应坤二宫和兑七宫。",
+          "task_type": "chart_evidence",
+          "uncertainties": [
+            "原盘未明确标注内外盘划分标准，通常以坎艮震巽为内，离坤兑乾为外，此处按此惯例提取。",
+            "原盘未直接给出空亡宫位，需根据甲戌旬推算。"
+          ]
+        },
+        "evidence_errors": []
+      },
+      "score": {
+        "task_id": "method-dfc05fc1d34e4644661f1b00",
+        "task_type": "chart_evidence",
+        "literal_facts_available": 7,
+        "literal_facts_matched": 0,
+        "literal_facts_claimed": 0,
+        "binding_target_available": false,
+        "binding_exact_match": false,
+        "protocol_and_citations_pass": true,
+        "author_method_semantic_score": null,
+        "reported_feedback_score": null,
+        "independent_real_world_score": null,
+        "human_review_required": [
+          "方法条件与角色是否正确",
+          "证据支持、反证与不确定性",
+          "应期方法和续断是否符合本轮来源",
+          "作者断语与书中结局分开核对"
+        ]
+      }
+    },
+    {
+      "split": "validation",
+      "task_id": "method-86dc24c6c6c2d720380d86fd",
+      "task_type": "evidence_synthesis",
+      "result": {
+        "status": "generation_error",
+        "scope": "source_reviewed_method_pilot",
+        "professional_analysis_completed": false,
+        "formal_conditional_rule_arm": "blocked_not_equivalent_to_source_given_conditions",
+        "payload_sha256": "61a27e5e4e149f21b80e371c1f7835d891615fcd5951d983993b208564a05872",
+        "author_method_accuracy": null,
+        "reported_feedback_accuracy": null,
+        "independent_real_world_accuracy": null,
+        "telemetry": {
+          "prompt_tokens": 2965,
+          "max_tokens": 768,
+          "max_context_tokens": 8192,
+          "temperature": 0.0,
+          "seed": 17,
+          "enable_thinking": false,
+          "seconds": 252.28499991699937,
+          "first_token_seconds": 101.85901195800398,
+          "peak_memory_bytes": 18132298376,
+          "generation_tokens": 768,
+          "tokens_per_second": 5.106692172976743,
+          "finish_reason": "length",
+          "raw_output": "{\"chart\": {\"calendar_recomputed\": false, \"chart_id\": \"chart-cb0431cd730cc94d5bff1bd0d14b247b3339d5058880ab406a3d79c45f3717e1\", \"engine_verified\": false, \"horse\": null, \"palaces\": {\"1\": {\"deity\": \"值符\", \"door\": \"开门\", \"earth_stem\": \"壬\", \"heaven_prefix_marker\": null, \"heaven_stem\": \"己\", \"palace\": 1, \"star\": \"天柱星\", \"star_prefix_marker\": null}, \"2\": {\"deity\": \"玄武\", \"door\": \"景门\", \"earth_stem\": \"癸\", \"heaven_prefix_marker\": null, \"heaven_stem\": \"丙\", \"palace\": 2, \"star\": \"天辅星\", \"star_prefix_marker\": null}, \"3\": {\"deity\": \"太阴\", \"door\": \"生门\", \"earth_stem\": \"丁\", \"heaven_prefix_marker\": null, \"heaven_stem\": \"壬\", \"palace\": 3, \"star\": \"天蓬星\", \"star_prefix_marker\": null}, \"4\": {\"deity\": \"六合\", \"door\": \"伤门\", \"earth_stem\": \"丙\", \"heaven_prefix_marker\": null, \"heaven_stem\": \"庚\", \"palace\": 4, \"star\": \"天任星\", \"star_prefix_marker\": null}, \"5\": {\"deity\": null, \"door\": null, \"earth_stem\": \"乙\", \"heaven_prefix_marker\": null, \"heaven_stem\": null, \"palace\": 5, \"star\": null, \"star_prefix_marker\": null}, \"6\": {\"deity\": \"九天\", \"door\": \"惊门\", \"earth_stem\": \"戊\", \"heaven_prefix_marker\": \"乙\", \"heaven_stem\": \"癸\", \"palace\": 6, \"star\": \"天芮星\", \"star_prefix_marker\": null}, \"7\": {\"deity\": \"九地\", \"door\": \"死门\", \"earth_stem\": \"己\", \"heaven_prefix_marker\": null, \"heaven_stem\": \"辛\", \"palace\": 7, \"star\": \"天英星\", \"star_prefix_marker\": null}, \"8\": {\"deity\": \"螣蛇\", \"door\": \"休门\", \"earth_stem\": \"庚\", \"heaven_prefix_marker\": null, \"heaven_stem\": \"戊\", \"palace\": 8, \"star\": \"天心星\", \"star_prefix_marker\": null}, \"9\": {\"deity\": \"白虎\", \"door\": \"杜门\", \"earth_stem\": \"辛\", \"heaven_prefix_marker\": null, \"heaven_stem\": \"丁\", \"palace\": 9, \"star\": \"天冲星\", \"star_prefix_marker\": null}}, \"raw_text\": \"奇门格局：\\n┌─────────────────────────┬─────────────────────────┬─────────────────────────┐\\n│巽四宫  八神：合         │离九宫  八神：虎         │坤二宫  八神：武         │\\n│门位原字：伤庚           │门位原字：杜丁           │门位原字：景丙           │\\n│星"
+        }
+      },
+      "score": {
+        "task_id": "method-86dc24c6c6c2d720380d86fd",
+        "task_type": "evidence_synthesis",
+        "literal_facts_available": 0,
+        "literal_facts_matched": 0,
+        "literal_facts_claimed": 0,
+        "binding_target_available": false,
+        "binding_exact_match": false,
+        "protocol_and_citations_pass": false,
+        "author_method_semantic_score": null,
+        "reported_feedback_score": null,
+        "independent_real_world_score": null,
+        "human_review_required": [
+          "方法条件与角色是否正确",
+          "证据支持、反证与不确定性",
+          "应期方法和续断是否符合本轮来源",
+          "作者断语与书中结局分开核对"
+        ]
+      }
+    },
+    {
+      "split": "validation",
+      "task_id": "method-f70a6fd9c7281c0b06376af8",
+      "task_type": "timing_analysis",
+      "result": {
+        "status": "method_generated",
+        "scope": "source_reviewed_method_pilot",
+        "professional_analysis_completed": false,
+        "formal_conditional_rule_arm": "blocked_not_equivalent_to_source_given_conditions",
+        "payload_sha256": "d8adefa450cd5c7ad080ea36dda2002e5d9a46c13f57fe0b826b9ba87931822b",
+        "author_method_accuracy": null,
+        "reported_feedback_accuracy": null,
+        "independent_real_world_accuracy": null,
+        "telemetry": {
+          "prompt_tokens": 2832,
+          "max_tokens": 768,
+          "max_context_tokens": 8192,
+          "temperature": 0.0,
+          "seed": 17,
+          "enable_thinking": false,
+          "seconds": 157.7823714579863,
+          "first_token_seconds": 97.85993112498545,
+          "peak_memory_bytes": 18132297844,
+          "generation_tokens": 306,
+          "tokens_per_second": 5.109343854443874,
+          "finish_reason": "stop",
+          "raw_output": "{\"citations\": [\"chart\", \"condition-1\", \"condition-2\", \"condition-3\", \"documents\", \"location\", \"roles\", \"theft\", \"timing\"], \"explanation\": \"原例实际使用的应期方法为：首先确定钱物（时干）与失主（日干）的落宫，判断丢失范围；其次寻找钱物被克或受制的格局（庚格）；最后根据日干阴阳属性，在庚的上下寻找应期。具体推导如下：\\n1. 确定钱物与失主：日干庚，时干壬。壬水在震三宫，庚金在巽四宫。两干均在内盘，故钱物丢失在家中或近处。\\n2. 寻找庚格：今庚申日为阳日，取庚下之干。庚在巽四宫，其下之干为丙。故取丙为应期之象。\\n3. 确定应期：阳日取庚下之干，即取丙。故应期在丙日或丙时。\", \"task_type\": \"timing_analysis\", \"uncertainties\": [\"原文未明确说明为何取丙为应期，仅给出阳日取庚下之干的规则，未解释丙与钱物或失主的具体生克关系。\", \"原文未说明丙日或丙时具体是哪一天，需结合历法推算。\"]}"
+        },
+        "output": {
+          "citations": [
+            "chart",
+            "condition-1",
+            "condition-2",
+            "condition-3",
+            "documents",
+            "location",
+            "roles",
+            "theft",
+            "timing"
+          ],
+          "explanation": "原例实际使用的应期方法为：首先确定钱物（时干）与失主（日干）的落宫，判断丢失范围；其次寻找钱物被克或受制的格局（庚格）；最后根据日干阴阳属性，在庚的上下寻找应期。具体推导如下：\n1. 确定钱物与失主：日干庚，时干壬。壬水在震三宫，庚金在巽四宫。两干均在内盘，故钱物丢失在家中或近处。\n2. 寻找庚格：今庚申日为阳日，取庚下之干。庚在巽四宫，其下之干为丙。故取丙为应期之象。\n3. 确定应期：阳日取庚下之干，即取丙。故应期在丙日或丙时。",
+          "task_type": "timing_analysis",
+          "uncertainties": [
+            "原文未明确说明为何取丙为应期，仅给出阳日取庚下之干的规则，未解释丙与钱物或失主的具体生克关系。",
+            "原文未说明丙日或丙时具体是哪一天，需结合历法推算。"
+          ]
+        },
+        "evidence_errors": []
+      },
+      "score": {
+        "task_id": "method-f70a6fd9c7281c0b06376af8",
+        "task_type": "timing_analysis",
+        "literal_facts_available": 0,
+        "literal_facts_matched": 0,
+        "literal_facts_claimed": 0,
+        "binding_target_available": false,
+        "binding_exact_match": false,
+        "protocol_and_citations_pass": true,
+        "author_method_semantic_score": null,
+        "reported_feedback_score": null,
+        "independent_real_world_score": null,
+        "human_review_required": [
+          "方法条件与角色是否正确",
+          "证据支持、反证与不确定性",
+          "应期方法和续断是否符合本轮来源",
+          "作者断语与书中结局分开核对"
+        ]
+      }
+    }
+  ],
+  "training_updates": 0,
+  "test_accessed": false,
+  "network_inference": false,
+  "training_updates_this_generation_process": 0,
+  "adapter_training": {
+    "checkpoint": "epoch-03",
+    "epoch": 3,
+    "optimizer_updates": 66,
+    "state_sha256": "98e5152464935b319c8d17d9696aaa5e1c51e560aa42923dac1a06c90123336b",
+    "training_report_sha256": "eb066ce45dcee2ecf09d31cff5f1afee80ac7c94b34cb61fe052cee154879bdc"
+  },
+  "adapter_reload_verification": {
+    "tensors_compared": 4,
+    "maximum_tensor_difference": 0.0,
+    "scale_matches": true,
+    "saved_checkpoint_applied_to_full_model": true
+  },
+  "adapter": {
+    "adapters.safetensors": "23f1e3735d7053bc49694ff65ed13ae10b23988af6314f125d079b73a526c78c",
+    "adapter_config.json": "e7d326581860b3dffec5a43ae7ce529f64846105fd795b82becc7a1674770d57"
+  },
+  "author_method_accuracy": null,
+  "reported_feedback_accuracy": null,
+  "independent_real_world_accuracy": null,
+  "completion_counts": {
+    "generation_error": 3,
+    "method_generated": 3
+  },
+  "finished_unix": 1792301813.157846
+}

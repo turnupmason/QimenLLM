@@ -1,0 +1,46 @@
+{
+  "scope": "completed_mac_method_lora_and_same_input_validation_engineering_regression",
+  "source_data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+  "regression": {
+    "discovered": 583,
+    "passed": 583,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 65.382,
+    "command": "PYTHONPATH=src ../mac-model-venv/bin/python -m unittest discover -s tests -v",
+    "log_sha256": "2756519ef2197020efb10d5f784399509e5042f99ab2a93fef482c4a87bafa2e"
+  },
+  "protected_files_unchanged": 56,
+  "schema_migrated": false,
+  "source_database_modified": false,
+  "workflow_modified": false,
+  "training": {
+    "epochs": 3,
+    "optimizer_updates": 66,
+    "trainable_parameters": 94208,
+    "train_tasks_per_epoch": 22,
+    "validation_tasks": 4
+  },
+  "generation": {
+    "development_requests": 2,
+    "validation_requests": 4,
+    "completion_counts": {
+      "method_generated": 3,
+      "generation_error": 3
+    },
+    "validation_source_fidelity_and_task_passes": 0,
+    "mac_limited_method_review_pass": false
+  },
+  "test_inference_accessed": false,
+  "systematic_training_ready": false,
+  "cuda_actual_hardware_tested": false,
+  "independent_real_world_accuracy": null,
+  "receipt_sha256": {
+    "mac_lost_method_training_v1.json": "f1b59ff726f917356d3786239f8934d03e1c2396cc343f01f5e549aeb94716c2",
+    "mac_lost_method_after_v1.json": "748358813f1b7c8c412a6d4194fd100a942ea156ff82271c42bd7f40f49e7ad8",
+    "mac_lost_method_comparison_v1.json": "676911f82c91d92cb949b364bf8179d6c0f9be14dddcef63c7ca10c677d2f357",
+    "mac_lost_method_adapted_parity_v1.json": "54e3878f227f18e192cc7cf6986c1e3570a005e7e386d8b22c20b22dcd2743eb",
+    "mac_lost_method_label_audit_v1.json": "d97a562b87e3f9a31650c57435fde2dd0c56cf61e7820518bc5ddd2a095a72cc"
+  }
+}

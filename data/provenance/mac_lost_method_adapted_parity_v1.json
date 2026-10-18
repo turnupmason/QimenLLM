@@ -1,0 +1,17 @@
+{
+  "scope": "trained_adapter_full_27b_vs_cached_tail_teacher_loss",
+  "task_id": "method-b00125d46b14fcca3effbfd0",
+  "split": "validation",
+  "epoch": 3,
+  "optimizer_steps": 66,
+  "adapter_sha256": "23f1e3735d7053bc49694ff65ed13ae10b23988af6314f125d079b73a526c78c",
+  "full_model_nll": 1.948090672492981,
+  "cached_tail_nll": 1.948090672492981,
+  "absolute_delta": 0.0,
+  "tolerance": 1e-05,
+  "passed": true,
+  "test_accessed": false,
+  "training_updates_performed": 0,
+  "seconds": 84.76411116600502,
+  "peak_memory_bytes": 16027831538
+}

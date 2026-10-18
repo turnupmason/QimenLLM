@@ -12,6 +12,7 @@ import math
 import os
 from pathlib import Path
 import random
+import re
 import sys
 import time
 
@@ -26,6 +27,25 @@ def json_write(path, value):
     tmp = path.with_name(path.name+'.tmp')
     tmp.write_text(json.dumps(value, ensure_ascii=False, indent=2)+'\n')
     tmp.replace(path)
+
+
+def validate_official_resume_name(path):
+    if not re.fullmatch(r'(step|epoch)-\d+', Path(path).name):
+        raise ValueError('Resume only an official step/epoch checkpoint, not the disposable probe')
+
+
+def validate_mac_cursor(state, task_ids, epochs=3):
+    # A save immediately after the last update precedes epoch validation.
+    # Resume that boundary without repeating any optimization examples.
+    if state['cursor'] == len(task_ids) and 0 <= state['epoch'] < epochs:
+        if state['data_order'] != order_for_epoch(task_ids, state['epoch']):
+            raise ValueError('End-of-epoch sample order differs')
+        next_epoch = state['epoch']+1
+        normalized = {**state, 'epoch': next_epoch, 'cursor': 0,
+                      'data_order': order_for_epoch(task_ids, next_epoch) if next_epoch < epochs else []}
+        validate_cursor(normalized, task_ids, epochs)
+    else:
+        validate_cursor(state, task_ids, epochs)
 
 
 def main():
@@ -50,6 +70,8 @@ def main():
         raise ValueError('Completed pilot is immutable; use a new experiment')
     if a.resume and not a.resume.resolve().is_relative_to(a.output.resolve()):
         raise ValueError('Only local checkpoints from this run may be resumed')
+    if a.resume:
+        validate_official_resume_name(a.resume)
     a.output.mkdir(parents=True, exist_ok=True)
     model_path = Path(model_info['local_path'])
     if model_info['revision'] != '10c35caafbb80f7dc6a7a432cdd11af10a6d4818':
@@ -222,6 +244,9 @@ def main():
                  'best_validation_nll': intrinsic['validation'], 'best_checkpoint': None, 'bad_epochs': 0}
         if a.resume:
             state = restore(a.resume)
+            if (state['cursor'] == len(train_ids)
+                    and (a.output/f'epoch-{state["epoch"]+1:02d}').exists()):
+                raise ValueError('Resume the completed epoch checkpoint at this boundary')
             later = [int(d.name.split('-')[1]) for d in a.output.glob('step-*')
                      if d.is_dir() and d.name.split('-')[1].isdigit()]
             if later and max(later)>state['optimizer_step']:
@@ -245,7 +270,7 @@ def main():
             tail.update(tree_unflatten(list(initial.items())))
             optimizer = optim.AdamW(learning_rate=1e-4, weight_decay=.01)
             mx.random.seed(17); random.seed(17); mx.eval(tail.trainable_parameters())
-        validate_cursor(state, train_ids, 3)
+        validate_mac_cursor(state, train_ids, 3)
         report['status'] = 'training'
         while state['epoch'] < 3:
             for cursor in range(state['cursor'], len(train_ids)):

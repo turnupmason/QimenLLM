@@ -1,0 +1,37 @@
+{
+  "scope": "observed_failure_layers_not_causal_ablation",
+  "experiment": "QimenLLM-27B-lost-method-mac-pilot-v1",
+  "test_accessed": false,
+  "passed_checks": [
+    "26 assistant target boundaries and cached next-token labels exact",
+    "all four saved adapter tensors match reloaded full model; LoRA scale matches",
+    "real longest training full/cache NLL delta0",
+    "real next-update optimizer/RNG save/resume delta0",
+    "66 updates, each train task once each epoch; no validation/test optimization",
+    "trained adapter full27B vs cached-tail validation NLL1.948090672492981, absolute delta0; receipt mac_lost_method_adapted_parity_v1.json"
+  ],
+  "observed_failures": {
+    "output_completion": "3/6 same-budget generation requests reached768 tokens while echoing input or extending citations",
+    "source_table_reading": "validation B wrongly relocates heaven戊 to6 and earth庚 to3 despite literal input",
+    "task_contract": "A/B return explanation but omit required bindings/observations; current protocol checks do not enforce all task targets",
+    "source_conditions": "arbitrary inner/outer partitions and derived claims unsupported by supplied material",
+    "author_timing": "misses explicit six-day method and conflates original source absence with unavailable full statement"
+  },
+  "causes_not_established": [
+    "Small data (22 training tasks from five families) may limit generalization; no size ablation yet",
+    "Final-block rank4 adaptation may be insufficient; no placement/rank ablation yet",
+    "Free-generation instability vs teacher-forced NLL is observed; lower NLL is not a causal explanation"
+  ],
+  "next_experiment_requirements": [
+    "Preserve failed candidate and unchanged old splits/test; version any revised training or evaluation input",
+    "Enforce requested typed fields and source-grounded fact checks on new runs without relabeling archived outputs",
+    "Curate remaining90 full professional cases beyond their existing basic source-reading tasks",
+    "Use development/train diagnostics then predeclare next validation comparison; no test-based tuning",
+    "Complete independent chart, role/conditional rule and retrieval arms for full D/E comparison before systematic training"
+  ],
+  "mac_limited_method_review_pass": false,
+  "systematic_training_ready": false,
+  "author_method_population_accuracy": null,
+  "independent_real_world_accuracy": null,
+  "integration_check_limit": "One complete validation sample after training plus longest complete sample before training; not every prompt or decoding path exhaustively validated"
+}

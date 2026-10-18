@@ -1,0 +1,81 @@
+{
+  "status": "passed",
+  "epochs": 3,
+  "optimizer_updates": 66,
+  "training_tasks_per_epoch": 22,
+  "all_training_tasks_seen_once_per_epoch": true,
+  "train_event_families": 5,
+  "validation_or_test_optimized": false,
+  "full_cached_loss_delta": 0.0,
+  "resume_adapter_delta": 0.0,
+  "resume_loss_delta": 0.0,
+  "selected_candidate": "epoch-03",
+  "selected_by": "validation target NLL only; generated source review failed, see mac_lost_method_comparison_v1.json",
+  "validation_nll_before": 1.7087245796545458,
+  "validation_nll_by_epoch": [
+    {
+      "stage": "epoch_complete",
+      "unix": 1792300380.31636,
+      "epoch": 1,
+      "validation_nll": 1.6317670165016782,
+      "improved": true,
+      "checkpoint": "epoch-01"
+    },
+    {
+      "stage": "epoch_complete",
+      "unix": 1792300428.287276,
+      "epoch": 2,
+      "validation_nll": 1.5212418226559272,
+      "improved": true,
+      "checkpoint": "epoch-02"
+    },
+    {
+      "stage": "epoch_complete",
+      "unix": 1792300475.464672,
+      "epoch": 3,
+      "validation_nll": 1.503765944002519,
+      "improved": true,
+      "checkpoint": "epoch-03"
+    }
+  ],
+  "trainable_parameters": 94208,
+  "adapter_sha256": "23f1e3735d7053bc49694ff65ed13ae10b23988af6314f125d079b73a526c78c",
+  "adapter_bytes": 377337,
+  "adapter_tensors": {
+    "language_model.model.layers.63.self_attn.v_proj.lora_b": {
+      "shape": [
+        4,
+        1024
+      ],
+      "maximum_absolute_value": 0.019637295976281166
+    },
+    "language_model.model.layers.63.self_attn.v_proj.lora_a": {
+      "shape": [
+        5120,
+        4
+      ],
+      "maximum_absolute_value": 0.031727779656648636
+    },
+    "language_model.model.layers.63.self_attn.q_proj.lora_b": {
+      "shape": [
+        4,
+        12288
+      ],
+      "maximum_absolute_value": 0.020611701533198357
+    },
+    "language_model.model.layers.63.self_attn.q_proj.lora_a": {
+      "shape": [
+        5120,
+        4
+      ],
+      "maximum_absolute_value": 0.032137367874383926
+    }
+  },
+  "training_report_sha256": "eb066ce45dcee2ecf09d31cff5f1afee80ac7c94b34cb61fe052cee154879bdc",
+  "peak_memory_bytes": 16019073588,
+  "test_accessed": false,
+  "independent_real_world_accuracy": null,
+  "checkpoint_directories_verified": 70,
+  "checkpoint_data_files_verified": 350,
+  "scope": "completed_training_and_checkpoint_integrity_only_not_professional_quality"
+}

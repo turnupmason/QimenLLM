@@ -2,7 +2,7 @@
 
 [钱物丢失章的Mac与4090试验入口](docs/METHOD_PILOT.md) · [本轮实际数据与工程验收](data/provenance/book_pilot_validation_v1.json)
 
-当前建模进度：全书98完整故事/94家族已固定划分（65训练/15验证/15测试/3开发）；[全书数据准备清单](data/splits/book_preparation_v1.json)可从原快照重建。125条派生任务中，32为钱物丢失五类方法子任务、93为其他原盘字面读取，不能当作125独立案例或全书断案能力。正在按用户要求先Mac 27B基线→限定LoRA→同题验证，再决定4090系统训练。独立现实预测准确率尚无成绩。见[专业训练状态](docs/PROFESSIONAL_TRAINING.md)。
+当前建模进度：全书98故事/94家族已固定划分（65训练/15验证/15测试/3开发）；[v2准备清单](data/splits/book_preparation_v2.json)的127基础任务覆盖全部故事，其中专业方法审读仍8案32题。Mac已实际完成27B限定LoRA三遍/66更新；验证损失下降，但同题生成仍有读盘、条件、输出和应期错误，四验证子题未完整通过，尚不进入4090系统训练。[实际试验与逐来源比较](data/provenance/mac_lost_method_comparison_v1.json) · [模型登记及附件上传状态](data/provenance/mac_lost_method_model_v1.json)。独立现实准确率尚未测得。
 
 # QimenLLM
 

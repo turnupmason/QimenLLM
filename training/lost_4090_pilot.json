@@ -6,6 +6,8 @@
   "manifest": "data/splits/lost_method_release_v5.json",
   "data_dir": "work/lost-method-release-v5",
   "db": "work/demo.sqlite3",
+  "mac_quality_report": "data/provenance/mac_lost_method_comparison_v1.json",
+  "systematic_training": false,
   "seed": 17,
   "rank": 8,
   "alpha": 16,
