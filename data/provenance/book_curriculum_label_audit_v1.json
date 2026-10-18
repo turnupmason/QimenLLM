@@ -1,0 +1,1964 @@
+{
+  "scope": "tokenization_and_label_audit_only_no_generation_or_training",
+  "data_manifest_sha256": "59660caf4f0b5984a2022990d7ff803135287c5ba14f7212c2bb766aa255444b",
+  "examples": 325,
+  "max_tokens": 4937,
+  "max_target_tokens": 491,
+  "assistant_label_exact_matches": 325,
+  "truncation": false,
+  "test_opened": false,
+  "optimizer_updates": 0,
+  "tasks": [
+    {
+      "task_id": "bookmethod-5f5f9c84754fa26dd63e9b75",
+      "split": "train",
+      "tokens": 1051,
+      "target_tokens": 142
+    },
+    {
+      "task_id": "bookmethod-9987889b0cc666b9c25a1f27",
+      "split": "train",
+      "tokens": 1172,
+      "target_tokens": 124
+    },
+    {
+      "task_id": "bookmethod-7dd01b781e0bb4981e3803b1",
+      "split": "train",
+      "tokens": 2005,
+      "target_tokens": 302
+    },
+    {
+      "task_id": "bookmethod-aca63ad681dac965ea1ef4fd",
+      "split": "train",
+      "tokens": 2519,
+      "target_tokens": 207
+    },
+    {
+      "task_id": "bookmethod-c399764e5e2dcdc6c9d1e7f5",
+      "split": "train",
+      "tokens": 1689,
+      "target_tokens": 218
+    },
+    {
+      "task_id": "bookmethod-405877cf87460a4422fa766e",
+      "split": "train",
+      "tokens": 1785,
+      "target_tokens": 277
+    },
+    {
+      "task_id": "bookmethod-f055ddbe225e37f8f677f0cd",
+      "split": "train",
+      "tokens": 2392,
+      "target_tokens": 169
+    },
+    {
+      "task_id": "bookmethod-625d7a99fb8aa4712710228e",
+      "split": "train",
+      "tokens": 2278,
+      "target_tokens": 184
+    },
+    {
+      "task_id": "bookmethod-b8de25c02313e96f476b8dd2",
+      "split": "train",
+      "tokens": 1629,
+      "target_tokens": 164
+    },
+    {
+      "task_id": "bookmethod-bfcc8c09986b5b5e5e85d341",
+      "split": "train",
+      "tokens": 1724,
+      "target_tokens": 236
+    },
+    {
+      "task_id": "bookmethod-68e7a7018b89f720101e634c",
+      "split": "train",
+      "tokens": 2014,
+      "target_tokens": 143
+    },
+    {
+      "task_id": "bookmethod-32fd97f5dd1ce9e6f95dc207",
+      "split": "train",
+      "tokens": 2316,
+      "target_tokens": 175
+    },
+    {
+      "task_id": "bookmethod-b0a7363d704ec3451c7fc235",
+      "split": "train",
+      "tokens": 1729,
+      "target_tokens": 170
+    },
+    {
+      "task_id": "bookmethod-db04242f6fb2838469613686",
+      "split": "train",
+      "tokens": 1863,
+      "target_tokens": 274
+    },
+    {
+      "task_id": "bookmethod-181ee0c418fc7f68028a5dd7",
+      "split": "train",
+      "tokens": 2502,
+      "target_tokens": 181
+    },
+    {
+      "task_id": "bookmethod-4094f9c462abd713f40e5423",
+      "split": "train",
+      "tokens": 1460,
+      "target_tokens": 156
+    },
+    {
+      "task_id": "bookmethod-a03383c47b2fb701fe43d925",
+      "split": "train",
+      "tokens": 1540,
+      "target_tokens": 221
+    },
+    {
+      "task_id": "bookmethod-7fa013db2784a7b61d7dcce4",
+      "split": "train",
+      "tokens": 2111,
+      "target_tokens": 166
+    },
+    {
+      "task_id": "bookmethod-58684e63eaf6278f7cd80442",
+      "split": "train",
+      "tokens": 1575,
+      "target_tokens": 218
+    },
+    {
+      "task_id": "bookmethod-3232b8d08d5c01af1139b292",
+      "split": "train",
+      "tokens": 1625,
+      "target_tokens": 240
+    },
+    {
+      "task_id": "bookmethod-c7569477d9e428a9bab3ad52",
+      "split": "train",
+      "tokens": 2411,
+      "target_tokens": 179
+    },
+    {
+      "task_id": "bookmethod-4cdeaa134b22328348e7cfc3",
+      "split": "train",
+      "tokens": 1493,
+      "target_tokens": 169
+    },
+    {
+      "task_id": "bookmethod-65b2c9900f0d35beee5e2109",
+      "split": "train",
+      "tokens": 1586,
+      "target_tokens": 237
+    },
+    {
+      "task_id": "bookmethod-1924a64583151133b249dc5a",
+      "split": "train",
+      "tokens": 1850,
+      "target_tokens": 147
+    },
+    {
+      "task_id": "bookmethod-f62f3b10edb45841b04b73a5",
+      "split": "train",
+      "tokens": 2429,
+      "target_tokens": 172
+    },
+    {
+      "task_id": "bookmethod-665acdb49791dfb792040683",
+      "split": "train",
+      "tokens": 1381,
+      "target_tokens": 199
+    },
+    {
+      "task_id": "bookmethod-dbf6ff1f8e5264e6a13d25da",
+      "split": "train",
+      "tokens": 1505,
+      "target_tokens": 296
+    },
+    {
+      "task_id": "bookmethod-8dbbf674f7b6cad1c120e958",
+      "split": "train",
+      "tokens": 1571,
+      "target_tokens": 151
+    },
+    {
+      "task_id": "bookmethod-aa06413f68e5b72dcc7f61a7",
+      "split": "train",
+      "tokens": 1418,
+      "target_tokens": 186
+    },
+    {
+      "task_id": "bookmethod-b7722d4b30667c2c9e0d24ba",
+      "split": "train",
+      "tokens": 1563,
+      "target_tokens": 301
+    },
+    {
+      "task_id": "bookmethod-c96f85e6a7d43236a013ef6d",
+      "split": "train",
+      "tokens": 2024,
+      "target_tokens": 150
+    },
+    {
+      "task_id": "bookmethod-0858a56b8690d9cfef397004",
+      "split": "train",
+      "tokens": 1763,
+      "target_tokens": 168
+    },
+    {
+      "task_id": "bookmethod-ae336168156424b8894c70d4",
+      "split": "train",
+      "tokens": 1418,
+      "target_tokens": 213
+    },
+    {
+      "task_id": "bookmethod-e175c3c15a134f514c7a260b",
+      "split": "train",
+      "tokens": 1533,
+      "target_tokens": 296
+    },
+    {
+      "task_id": "bookmethod-5424a1a92fde4cb42e2ef564",
+      "split": "train",
+      "tokens": 1987,
+      "target_tokens": 162
+    },
+    {
+      "task_id": "bookmethod-846f174c6222f4498cb6091e",
+      "split": "train",
+      "tokens": 1577,
+      "target_tokens": 141
+    },
+    {
+      "task_id": "bookmethod-3a76cfef0b4c8c43e5a49d60",
+      "split": "train",
+      "tokens": 1785,
+      "target_tokens": 135
+    },
+    {
+      "task_id": "bookmethod-80f0f0f7439c914fe7c47579",
+      "split": "train",
+      "tokens": 1542,
+      "target_tokens": 207
+    },
+    {
+      "task_id": "bookmethod-359737b004a35e35c275b06b",
+      "split": "train",
+      "tokens": 1670,
+      "target_tokens": 305
+    },
+    {
+      "task_id": "bookmethod-6b6a479a31362784ff3f1835",
+      "split": "train",
+      "tokens": 2130,
+      "target_tokens": 162
+    },
+    {
+      "task_id": "bookmethod-8819fa5dcc3c0e566ab968e1",
+      "split": "train",
+      "tokens": 1576,
+      "target_tokens": 124
+    },
+    {
+      "task_id": "bookmethod-270a19ef3c632c6686c172ce",
+      "split": "train",
+      "tokens": 1518,
+      "target_tokens": 189
+    },
+    {
+      "task_id": "bookmethod-7a6736800fdaa24912acde17",
+      "split": "train",
+      "tokens": 1625,
+      "target_tokens": 264
+    },
+    {
+      "task_id": "bookmethod-e0da12038333acfd9a760914",
+      "split": "train",
+      "tokens": 2000,
+      "target_tokens": 153
+    },
+    {
+      "task_id": "bookmethod-2454494870cdd8b135dd9a79",
+      "split": "train",
+      "tokens": 1973,
+      "target_tokens": 150
+    },
+    {
+      "task_id": "bookmethod-b34b53b751e2caec340119e3",
+      "split": "train",
+      "tokens": 1411,
+      "target_tokens": 149
+    },
+    {
+      "task_id": "bookmethod-7d4b310d6682981a43c2b382",
+      "split": "train",
+      "tokens": 1529,
+      "target_tokens": 252
+    },
+    {
+      "task_id": "bookmethod-214cb41d9f1f699bcc475ba8",
+      "split": "train",
+      "tokens": 1654,
+      "target_tokens": 124
+    },
+    {
+      "task_id": "bookmethod-a132e490f0da1dbe3af082e7",
+      "split": "train",
+      "tokens": 1951,
+      "target_tokens": 148
+    },
+    {
+      "task_id": "bookmethod-0a5934285ca1065f562476a6",
+      "split": "train",
+      "tokens": 1480,
+      "target_tokens": 191
+    },
+    {
+      "task_id": "bookmethod-a6760b161e1e0fc5a504e4cf",
+      "split": "train",
+      "tokens": 1580,
+      "target_tokens": 266
+    },
+    {
+      "task_id": "bookmethod-d852878eb00c824ec8adfc9d",
+      "split": "train",
+      "tokens": 2052,
+      "target_tokens": 163
+    },
+    {
+      "task_id": "bookmethod-5b546ff55c047fe2a60dc360",
+      "split": "train",
+      "tokens": 1561,
+      "target_tokens": 192
+    },
+    {
+      "task_id": "bookmethod-1c71e7f0ac8427968240fcf9",
+      "split": "train",
+      "tokens": 1713,
+      "target_tokens": 316
+    },
+    {
+      "task_id": "bookmethod-6de40bb06b59a24a477e9c79",
+      "split": "train",
+      "tokens": 2052,
+      "target_tokens": 144
+    },
+    {
+      "task_id": "bookmethod-96edcabd5fba2a081dc286b5",
+      "split": "train",
+      "tokens": 2563,
+      "target_tokens": 205
+    },
+    {
+      "task_id": "bookmethod-ca710862e8842491033fed18",
+      "split": "train",
+      "tokens": 2662,
+      "target_tokens": 268
+    },
+    {
+      "task_id": "bookmethod-9b9b81a22a07163c922c2600",
+      "split": "train",
+      "tokens": 3178,
+      "target_tokens": 163
+    },
+    {
+      "task_id": "bookmethod-b4f62b9ff277f4ecdfa70c2b",
+      "split": "train",
+      "tokens": 2937,
+      "target_tokens": 173
+    },
+    {
+      "task_id": "bookmethod-6d33941eb3911d0181c77709",
+      "split": "train",
+      "tokens": 1484,
+      "target_tokens": 182
+    },
+    {
+      "task_id": "bookmethod-0718d1354e6d375d797e25f6",
+      "split": "train",
+      "tokens": 1590,
+      "target_tokens": 262
+    },
+    {
+      "task_id": "bookmethod-94b0484dfa2144cebf3d79f8",
+      "split": "train",
+      "tokens": 1993,
+      "target_tokens": 149
+    },
+    {
+      "task_id": "bookmethod-760f35b21dc70dcef12e401c",
+      "split": "train",
+      "tokens": 1551,
+      "target_tokens": 119
+    },
+    {
+      "task_id": "bookmethod-9a4d7e2869c17c3da2c57fcc",
+      "split": "train",
+      "tokens": 2311,
+      "target_tokens": 215
+    },
+    {
+      "task_id": "bookmethod-74bfa0391f7428f25b0d5461",
+      "split": "train",
+      "tokens": 2393,
+      "target_tokens": 269
+    },
+    {
+      "task_id": "bookmethod-580e4bc6182a745757ab30bf",
+      "split": "train",
+      "tokens": 2760,
+      "target_tokens": 160
+    },
+    {
+      "task_id": "bookmethod-4e26c9e0e2bb2e0740517cfa",
+      "split": "train",
+      "tokens": 2502,
+      "target_tokens": 150
+    },
+    {
+      "task_id": "bookmethod-908320acdcd49f8af52e44ed",
+      "split": "train",
+      "tokens": 1567,
+      "target_tokens": 252
+    },
+    {
+      "task_id": "bookmethod-74600b4ab532d15e367680be",
+      "split": "train",
+      "tokens": 1641,
+      "target_tokens": 282
+    },
+    {
+      "task_id": "bookmethod-f582c91cba8e2e7a82cc964f",
+      "split": "train",
+      "tokens": 2087,
+      "target_tokens": 150
+    },
+    {
+      "task_id": "bookmethod-b8f0d7f5e8863784d5f5fd1e",
+      "split": "train",
+      "tokens": 3588,
+      "target_tokens": 176
+    },
+    {
+      "task_id": "bookmethod-6058969d57f5e4a1d3601369",
+      "split": "train",
+      "tokens": 1715,
+      "target_tokens": 178
+    },
+    {
+      "task_id": "bookmethod-bb97749d07c6eb85085f0d3e",
+      "split": "train",
+      "tokens": 1817,
+      "target_tokens": 272
+    },
+    {
+      "task_id": "bookmethod-55ae31efd1ecb0bbc90868f2",
+      "split": "train",
+      "tokens": 2330,
+      "target_tokens": 186
+    },
+    {
+      "task_id": "bookmethod-dcd817b6a635050d6ed549da",
+      "split": "train",
+      "tokens": 1728,
+      "target_tokens": 174
+    },
+    {
+      "task_id": "bookmethod-c67affe813b7b8947977377a",
+      "split": "train",
+      "tokens": 1858,
+      "target_tokens": 296
+    },
+    {
+      "task_id": "bookmethod-869e433ce9176598d97821da",
+      "split": "train",
+      "tokens": 2217,
+      "target_tokens": 165
+    },
+    {
+      "task_id": "bookmethod-e55e1d4e94463c1d857c3c62",
+      "split": "train",
+      "tokens": 1950,
+      "target_tokens": 151
+    },
+    {
+      "task_id": "bookmethod-d54a2cb912a0ef8ae32f5ef6",
+      "split": "train",
+      "tokens": 1755,
+      "target_tokens": 194
+    },
+    {
+      "task_id": "bookmethod-3b2c7e246cb42c2d52529ae3",
+      "split": "train",
+      "tokens": 1870,
+      "target_tokens": 301
+    },
+    {
+      "task_id": "bookmethod-933e47b6ebe39ccc6387bcec",
+      "split": "train",
+      "tokens": 2222,
+      "target_tokens": 150
+    },
+    {
+      "task_id": "bookmethod-d5c465ebc957d30a9160e1fa",
+      "split": "train",
+      "tokens": 2377,
+      "target_tokens": 157
+    },
+    {
+      "task_id": "bookmethod-21d94f6f2997328776bccd3b",
+      "split": "train",
+      "tokens": 1752,
+      "target_tokens": 176
+    },
+    {
+      "task_id": "bookmethod-d26c050b091a08a217b1d730",
+      "split": "train",
+      "tokens": 1845,
+      "target_tokens": 261
+    },
+    {
+      "task_id": "bookmethod-d5f1762ce795e23d6be396a1",
+      "split": "train",
+      "tokens": 2081,
+      "target_tokens": 142
+    },
+    {
+      "task_id": "bookmethod-616ac45ccfbcc0c23323cd7b",
+      "split": "train",
+      "tokens": 2050,
+      "target_tokens": 142
+    },
+    {
+      "task_id": "bookmethod-4a6cd302bc002799203fda25",
+      "split": "train",
+      "tokens": 1767,
+      "target_tokens": 198
+    },
+    {
+      "task_id": "bookmethod-d010e31e6403158e31f6998a",
+      "split": "train",
+      "tokens": 1815,
+      "target_tokens": 238
+    },
+    {
+      "task_id": "bookmethod-c07f0f4b3821f2095246f5ed",
+      "split": "train",
+      "tokens": 2225,
+      "target_tokens": 139
+    },
+    {
+      "task_id": "bookmethod-22e05f52e356162709c8b868",
+      "split": "train",
+      "tokens": 1789,
+      "target_tokens": 170
+    },
+    {
+      "task_id": "bookmethod-2d2d16b8d3136b089e343ecd",
+      "split": "train",
+      "tokens": 1900,
+      "target_tokens": 273
+    },
+    {
+      "task_id": "bookmethod-477be68c4f8691d9337e309b",
+      "split": "train",
+      "tokens": 2306,
+      "target_tokens": 155
+    },
+    {
+      "task_id": "bookmethod-beb26a3ed5d8b7034664402d",
+      "split": "train",
+      "tokens": 2087,
+      "target_tokens": 211
+    },
+    {
+      "task_id": "bookmethod-264296bad4b74fe496222d64",
+      "split": "train",
+      "tokens": 2122,
+      "target_tokens": 239
+    },
+    {
+      "task_id": "bookmethod-0518cd50f5644e71d955334a",
+      "split": "train",
+      "tokens": 2432,
+      "target_tokens": 161
+    },
+    {
+      "task_id": "bookmethod-b4b22a14d6b4f6ddf757b8af",
+      "split": "train",
+      "tokens": 1768,
+      "target_tokens": 149
+    },
+    {
+      "task_id": "bookmethod-18e6b9a5217355040532472e",
+      "split": "train",
+      "tokens": 1853,
+      "target_tokens": 227
+    },
+    {
+      "task_id": "bookmethod-7b196e14bd51f0a985011604",
+      "split": "train",
+      "tokens": 2155,
+      "target_tokens": 159
+    },
+    {
+      "task_id": "bookmethod-3ebd5a5cf5281144707612f0",
+      "split": "train",
+      "tokens": 1806,
+      "target_tokens": 191
+    },
+    {
+      "task_id": "bookmethod-db5ab6d29f859e71bc9d50b9",
+      "split": "train",
+      "tokens": 1894,
+      "target_tokens": 271
+    },
+    {
+      "task_id": "bookmethod-19170dedd704c9e1b0755699",
+      "split": "train",
+      "tokens": 2324,
+      "target_tokens": 158
+    },
+    {
+      "task_id": "bookmethod-895d24351a0fdbfb052dbc42",
+      "split": "train",
+      "tokens": 1792,
+      "target_tokens": 190
+    },
+    {
+      "task_id": "bookmethod-6c19a849187d7e01d506d959",
+      "split": "train",
+      "tokens": 1855,
+      "target_tokens": 231
+    },
+    {
+      "task_id": "bookmethod-036e6189d51eefef5bd9df47",
+      "split": "train",
+      "tokens": 2211,
+      "target_tokens": 148
+    },
+    {
+      "task_id": "bookmethod-67a1cf020d10b403f5644af3",
+      "split": "train",
+      "tokens": 1729,
+      "target_tokens": 183
+    },
+    {
+      "task_id": "bookmethod-4c0e86c17128b761ed0c0dff",
+      "split": "train",
+      "tokens": 1869,
+      "target_tokens": 301
+    },
+    {
+      "task_id": "bookmethod-72f335c6177c37b1ee44a1f9",
+      "split": "train",
+      "tokens": 2303,
+      "target_tokens": 164
+    },
+    {
+      "task_id": "bookmethod-1dfb318ec8f0a87280adf7ee",
+      "split": "train",
+      "tokens": 1788,
+      "target_tokens": 171
+    },
+    {
+      "task_id": "bookmethod-f8dea978b6f082ff9e6a8b5d",
+      "split": "train",
+      "tokens": 1907,
+      "target_tokens": 268
+    },
+    {
+      "task_id": "bookmethod-8b800a3b04f1ac197db5170d",
+      "split": "train",
+      "tokens": 2264,
+      "target_tokens": 147
+    },
+    {
+      "task_id": "bookmethod-8d17ca7ac604742224480042",
+      "split": "train",
+      "tokens": 2538,
+      "target_tokens": 147
+    },
+    {
+      "task_id": "bookmethod-8eac0885d1917494bc1d2e4f",
+      "split": "train",
+      "tokens": 2667,
+      "target_tokens": 138
+    },
+    {
+      "task_id": "bookmethod-3ad67d2fcf69b7cabf2e4d26",
+      "split": "train",
+      "tokens": 2802,
+      "target_tokens": 151
+    },
+    {
+      "task_id": "bookmethod-7bb68c0c60389c945039de0d",
+      "split": "train",
+      "tokens": 2929,
+      "target_tokens": 148
+    },
+    {
+      "task_id": "bookmethod-bed40a9065aeb0a49028fd78",
+      "split": "train",
+      "tokens": 3044,
+      "target_tokens": 143
+    },
+    {
+      "task_id": "bookmethod-902ac5b1e0e9dc362470e685",
+      "split": "train",
+      "tokens": 1726,
+      "target_tokens": 186
+    },
+    {
+      "task_id": "bookmethod-07a1f57901b5269931fa8d40",
+      "split": "train",
+      "tokens": 1857,
+      "target_tokens": 295
+    },
+    {
+      "task_id": "bookmethod-5a39a8b06fa3ca136862bf8a",
+      "split": "train",
+      "tokens": 2195,
+      "target_tokens": 162
+    },
+    {
+      "task_id": "bookmethod-c566222c511ddbe361af868e",
+      "split": "train",
+      "tokens": 1918,
+      "target_tokens": 150
+    },
+    {
+      "task_id": "bookmethod-feea949015ba9e68067b59a6",
+      "split": "train",
+      "tokens": 2047,
+      "target_tokens": 250
+    },
+    {
+      "task_id": "bookmethod-8df6cbc537b40fd5f3a75250",
+      "split": "train",
+      "tokens": 2605,
+      "target_tokens": 191
+    },
+    {
+      "task_id": "bookmethod-ceadff800cd7fd96c4c40e5a",
+      "split": "train",
+      "tokens": 1913,
+      "target_tokens": 166
+    },
+    {
+      "task_id": "bookmethod-c1ac56d84ac349c816e9df25",
+      "split": "train",
+      "tokens": 2071,
+      "target_tokens": 295
+    },
+    {
+      "task_id": "bookmethod-bed8ee8d4be34e6bc26df545",
+      "split": "train",
+      "tokens": 2304,
+      "target_tokens": 176
+    },
+    {
+      "task_id": "bookmethod-b86703b7569c1222d959d46f",
+      "split": "train",
+      "tokens": 1917,
+      "target_tokens": 178
+    },
+    {
+      "task_id": "bookmethod-6980ec45d7b9301ac5751226",
+      "split": "train",
+      "tokens": 2036,
+      "target_tokens": 268
+    },
+    {
+      "task_id": "bookmethod-c40e921026a694c8dce9ef46",
+      "split": "train",
+      "tokens": 2402,
+      "target_tokens": 156
+    },
+    {
+      "task_id": "bookmethod-8052f38bf9b788c06ca530b7",
+      "split": "train",
+      "tokens": 2020,
+      "target_tokens": 148
+    },
+    {
+      "task_id": "bookmethod-a2394eaaae7bf1ef0e240a7f",
+      "split": "train",
+      "tokens": 1930,
+      "target_tokens": 151
+    },
+    {
+      "task_id": "bookmethod-c97075cfdaf05dbdd3b382d6",
+      "split": "train",
+      "tokens": 2046,
+      "target_tokens": 238
+    },
+    {
+      "task_id": "bookmethod-6d083c67af78df5866cadaa8",
+      "split": "train",
+      "tokens": 2750,
+      "target_tokens": 200
+    },
+    {
+      "task_id": "bookmethod-4b9a0f2fe66022c93058acc4",
+      "split": "train",
+      "tokens": 2388,
+      "target_tokens": 195
+    },
+    {
+      "task_id": "bookmethod-e18eaaf2ae7e9c030ecf96ac",
+      "split": "train",
+      "tokens": 2563,
+      "target_tokens": 341
+    },
+    {
+      "task_id": "bookmethod-c9b9daa61f1516d5d95769da",
+      "split": "train",
+      "tokens": 2992,
+      "target_tokens": 193
+    },
+    {
+      "task_id": "bookmethod-984d6c0a1177e207e1aa519a",
+      "split": "train",
+      "tokens": 1612,
+      "target_tokens": 159
+    },
+    {
+      "task_id": "bookmethod-5ba59200bf90d7065e97fc55",
+      "split": "train",
+      "tokens": 1735,
+      "target_tokens": 260
+    },
+    {
+      "task_id": "bookmethod-0cdf28c51a2d21004cc6b0be",
+      "split": "train",
+      "tokens": 2203,
+      "target_tokens": 173
+    },
+    {
+      "task_id": "bookmethod-1e99a5fee011544959ddfe03",
+      "split": "train",
+      "tokens": 1702,
+      "target_tokens": 125
+    },
+    {
+      "task_id": "bookmethod-380213a1f68f936524fbea6f",
+      "split": "train",
+      "tokens": 1621,
+      "target_tokens": 177
+    },
+    {
+      "task_id": "bookmethod-b7340d74b447ded1c57f3bda",
+      "split": "train",
+      "tokens": 1793,
+      "target_tokens": 327
+    },
+    {
+      "task_id": "bookmethod-2ac57a2165abc3d54ca963c4",
+      "split": "train",
+      "tokens": 2141,
+      "target_tokens": 172
+    },
+    {
+      "task_id": "bookmethod-91537da3b7aca0a725b0fa5e",
+      "split": "train",
+      "tokens": 1570,
+      "target_tokens": 177
+    },
+    {
+      "task_id": "bookmethod-da39a7ed83d8ad2a769b2c74",
+      "split": "train",
+      "tokens": 1702,
+      "target_tokens": 287
+    },
+    {
+      "task_id": "bookmethod-72ac9f52c9758efcb120c355",
+      "split": "train",
+      "tokens": 2030,
+      "target_tokens": 144
+    },
+    {
+      "task_id": "bookmethod-73fb71f7d812b3ca660da348",
+      "split": "train",
+      "tokens": 1769,
+      "target_tokens": 127
+    },
+    {
+      "task_id": "bookmethod-a6de6d9269f914c8afc5283e",
+      "split": "train",
+      "tokens": 1584,
+      "target_tokens": 178
+    },
+    {
+      "task_id": "bookmethod-ce7c7a49e205f4d2b93768c5",
+      "split": "train",
+      "tokens": 1689,
+      "target_tokens": 261
+    },
+    {
+      "task_id": "bookmethod-cf1a25b8e5a768e3cc0355bc",
+      "split": "train",
+      "tokens": 2072,
+      "target_tokens": 161
+    },
+    {
+      "task_id": "bookmethod-50f31e1f634cdc498639f9bc",
+      "split": "train",
+      "tokens": 1491,
+      "target_tokens": 139
+    },
+    {
+      "task_id": "bookmethod-15ef96350c6255237384c53a",
+      "split": "train",
+      "tokens": 1602,
+      "target_tokens": 228
+    },
+    {
+      "task_id": "bookmethod-7499c81281efbc65947541b7",
+      "split": "train",
+      "tokens": 1858,
+      "target_tokens": 149
+    },
+    {
+      "task_id": "bookmethod-e6581c986f375edbb1e0e6e6",
+      "split": "train",
+      "tokens": 2611,
+      "target_tokens": 187
+    },
+    {
+      "task_id": "bookmethod-05bbb505b63d747095cb1d8a",
+      "split": "train",
+      "tokens": 2707,
+      "target_tokens": 261
+    },
+    {
+      "task_id": "bookmethod-ee31652ac112b1c6355fd117",
+      "split": "train",
+      "tokens": 3089,
+      "target_tokens": 164
+    },
+    {
+      "task_id": "bookmethod-be96be1d70397237b2fb7a09",
+      "split": "train",
+      "tokens": 1515,
+      "target_tokens": 177
+    },
+    {
+      "task_id": "bookmethod-186d4aff1dfe092b676c44b4",
+      "split": "train",
+      "tokens": 1655,
+      "target_tokens": 290
+    },
+    {
+      "task_id": "bookmethod-933b0282dc176f596ef79897",
+      "split": "train",
+      "tokens": 2001,
+      "target_tokens": 165
+    },
+    {
+      "task_id": "bookmethod-59ad6fc712b05cd823c25259",
+      "split": "train",
+      "tokens": 1445,
+      "target_tokens": 181
+    },
+    {
+      "task_id": "bookmethod-2966bb1fd74684d194181dc8",
+      "split": "train",
+      "tokens": 1581,
+      "target_tokens": 290
+    },
+    {
+      "task_id": "bookmethod-d9ad789f0c7db114c54d34b4",
+      "split": "train",
+      "tokens": 2077,
+      "target_tokens": 160
+    },
+    {
+      "task_id": "bookmethod-6b328e979b69dde5ac29c0f5",
+      "split": "train",
+      "tokens": 1335,
+      "target_tokens": 141
+    },
+    {
+      "task_id": "bookmethod-9d7325b85e2a4bbd0910d237",
+      "split": "train",
+      "tokens": 1451,
+      "target_tokens": 230
+    },
+    {
+      "task_id": "bookmethod-93f14238ccffa8aa3ce878f3",
+      "split": "train",
+      "tokens": 1583,
+      "target_tokens": 130
+    },
+    {
+      "task_id": "bookmethod-26b5ba7ea0c1b0d16289d5f7",
+      "split": "train",
+      "tokens": 1342,
+      "target_tokens": 140
+    },
+    {
+      "task_id": "bookmethod-8f82859bc5745fdb79013b35",
+      "split": "train",
+      "tokens": 1521,
+      "target_tokens": 292
+    },
+    {
+      "task_id": "bookmethod-3596c1163a5f11ecd2012a06",
+      "split": "train",
+      "tokens": 1655,
+      "target_tokens": 142
+    },
+    {
+      "task_id": "bookmethod-af220c39c49e558cdf728c3a",
+      "split": "train",
+      "tokens": 1360,
+      "target_tokens": 157
+    },
+    {
+      "task_id": "bookmethod-37b5974f3989ed963c95b1d7",
+      "split": "train",
+      "tokens": 1555,
+      "target_tokens": 325
+    },
+    {
+      "task_id": "bookmethod-60983378d420d49fcc9a6a98",
+      "split": "train",
+      "tokens": 1869,
+      "target_tokens": 148
+    },
+    {
+      "task_id": "bookmethod-8743c4fba196b9e0da36bf68",
+      "split": "train",
+      "tokens": 1786,
+      "target_tokens": 165
+    },
+    {
+      "task_id": "bookmethod-db97fea9676643f370d10ed3",
+      "split": "train",
+      "tokens": 1884,
+      "target_tokens": 231
+    },
+    {
+      "task_id": "bookmethod-d603dded3cd219b9a96d027b",
+      "split": "train",
+      "tokens": 2168,
+      "target_tokens": 139
+    },
+    {
+      "task_id": "bookmethod-8ae25001fe50992f1a68651b",
+      "split": "train",
+      "tokens": 1719,
+      "target_tokens": 143
+    },
+    {
+      "task_id": "bookmethod-14657814b071039ed9c974f1",
+      "split": "train",
+      "tokens": 1866,
+      "target_tokens": 258
+    },
+    {
+      "task_id": "bookmethod-884c7b5baf9180b7d0acc6ca",
+      "split": "train",
+      "tokens": 2250,
+      "target_tokens": 158
+    },
+    {
+      "task_id": "bookmethod-2588697e8f09a5bd31e5e790",
+      "split": "train",
+      "tokens": 1767,
+      "target_tokens": 163
+    },
+    {
+      "task_id": "bookmethod-b9ec5fd14b809fa6ef0f14a4",
+      "split": "train",
+      "tokens": 1927,
+      "target_tokens": 291
+    },
+    {
+      "task_id": "bookmethod-dae2f9c4a9a832608b71d62b",
+      "split": "train",
+      "tokens": 2284,
+      "target_tokens": 158
+    },
+    {
+      "task_id": "bookmethod-c103ae0b9e54643c7cb0fc51",
+      "split": "train",
+      "tokens": 1799,
+      "target_tokens": 181
+    },
+    {
+      "task_id": "bookmethod-994d7a74bdc0d34e9a65cfb2",
+      "split": "train",
+      "tokens": 1794,
+      "target_tokens": 151
+    },
+    {
+      "task_id": "bookmethod-e684c589614cebe410683289",
+      "split": "train",
+      "tokens": 2250,
+      "target_tokens": 170
+    },
+    {
+      "task_id": "bookmethod-7a7d7912d9d74317eac7c609",
+      "split": "train",
+      "tokens": 3059,
+      "target_tokens": 161
+    },
+    {
+      "task_id": "bookmethod-65f17b21a643a80741624a40",
+      "split": "train",
+      "tokens": 3163,
+      "target_tokens": 240
+    },
+    {
+      "task_id": "bookmethod-1c1a94a467cc5790f0f605fd",
+      "split": "train",
+      "tokens": 3552,
+      "target_tokens": 154
+    },
+    {
+      "task_id": "bookmethod-981932c6a535aecb408942ca",
+      "split": "train",
+      "tokens": 3416,
+      "target_tokens": 134
+    },
+    {
+      "task_id": "bookmethod-50309ef523c7b39cbbc0e227",
+      "split": "train",
+      "tokens": 3494,
+      "target_tokens": 140
+    },
+    {
+      "task_id": "bookmethod-271ac72e167564bd6fa1badd",
+      "split": "train",
+      "tokens": 3568,
+      "target_tokens": 135
+    },
+    {
+      "task_id": "bookmethod-5a29ee3261fa8a9401952d3f",
+      "split": "train",
+      "tokens": 3907,
+      "target_tokens": 151
+    },
+    {
+      "task_id": "bookmethod-b7efd52c57c6e7a53025a956",
+      "split": "train",
+      "tokens": 3984,
+      "target_tokens": 153
+    },
+    {
+      "task_id": "bookmethod-ef8aefd5125515f6a257f524",
+      "split": "train",
+      "tokens": 4076,
+      "target_tokens": 143
+    },
+    {
+      "task_id": "bookmethod-3c9c9977bab5c5f9259baefd",
+      "split": "train",
+      "tokens": 3103,
+      "target_tokens": 158
+    },
+    {
+      "task_id": "bookmethod-1375c593f344522c5219a890",
+      "split": "train",
+      "tokens": 3275,
+      "target_tokens": 305
+    },
+    {
+      "task_id": "bookmethod-6a2456b819c0fa89f87ee4b3",
+      "split": "train",
+      "tokens": 3506,
+      "target_tokens": 150
+    },
+    {
+      "task_id": "bookmethod-549a46115e68158868b8c465",
+      "split": "train",
+      "tokens": 3849,
+      "target_tokens": 151
+    },
+    {
+      "task_id": "bookmethod-f6fb288bcd8e19b9aea97ebc",
+      "split": "train",
+      "tokens": 3980,
+      "target_tokens": 155
+    },
+    {
+      "task_id": "bookmethod-43996deed373199d79266db5",
+      "split": "train",
+      "tokens": 4174,
+      "target_tokens": 148
+    },
+    {
+      "task_id": "bookmethod-206ea35a6dc74b86eadb6fc8",
+      "split": "train",
+      "tokens": 4937,
+      "target_tokens": 155
+    },
+    {
+      "task_id": "bookmethod-0776e9af779021bc9c9a77c7",
+      "split": "train",
+      "tokens": 3097,
+      "target_tokens": 182
+    },
+    {
+      "task_id": "bookmethod-a40f4589f8f2e9c18bbbdc4c",
+      "split": "train",
+      "tokens": 3241,
+      "target_tokens": 301
+    },
+    {
+      "task_id": "bookmethod-4e05f1cf98987396eff2e638",
+      "split": "train",
+      "tokens": 3703,
+      "target_tokens": 170
+    },
+    {
+      "task_id": "bookmethod-ba3153ed939be9630ea2f891",
+      "split": "train",
+      "tokens": 3056,
+      "target_tokens": 142
+    },
+    {
+      "task_id": "bookmethod-d5ee246050eac12d3c180ae3",
+      "split": "train",
+      "tokens": 3871,
+      "target_tokens": 156
+    },
+    {
+      "task_id": "bookmethod-fbfb4cec48cc4b4e58807e07",
+      "split": "train",
+      "tokens": 3220,
+      "target_tokens": 170
+    },
+    {
+      "task_id": "bookmethod-aff13a16c4acdbfa294277d0",
+      "split": "train",
+      "tokens": 3375,
+      "target_tokens": 300
+    },
+    {
+      "task_id": "bookmethod-eaf2b5c4b692de97cfa680da",
+      "split": "train",
+      "tokens": 3707,
+      "target_tokens": 182
+    },
+    {
+      "task_id": "bookmethod-960b9f43c6f5ae85deb9ec8b",
+      "split": "train",
+      "tokens": 3147,
+      "target_tokens": 165
+    },
+    {
+      "task_id": "bookmethod-aa228d390091d99d404887d1",
+      "split": "train",
+      "tokens": 3280,
+      "target_tokens": 273
+    },
+    {
+      "task_id": "bookmethod-0b4fe4242344e5a2bad9dd39",
+      "split": "train",
+      "tokens": 3104,
+      "target_tokens": 122
+    },
+    {
+      "task_id": "bookmethod-5473bfca6f8dbe6b74f268fe",
+      "split": "train",
+      "tokens": 4074,
+      "target_tokens": 166
+    },
+    {
+      "task_id": "bookmethod-094697863818d8682f4deac9",
+      "split": "train",
+      "tokens": 1654,
+      "target_tokens": 154
+    },
+    {
+      "task_id": "bookmethod-f70e1bf6f997c8363fe19b37",
+      "split": "train",
+      "tokens": 2333,
+      "target_tokens": 142
+    },
+    {
+      "task_id": "booklost-method-32f5b9df0970f4586f767cda",
+      "split": "train",
+      "tokens": 2178,
+      "target_tokens": 186
+    },
+    {
+      "task_id": "booklost-method-377b4ab9199170a88361f517",
+      "split": "train",
+      "tokens": 2341,
+      "target_tokens": 318
+    },
+    {
+      "task_id": "booklost-method-97f513b1360d79251be90ded",
+      "split": "train",
+      "tokens": 2572,
+      "target_tokens": 169
+    },
+    {
+      "task_id": "booklost-method-4656497ae49a7b95e2038e7f",
+      "split": "train",
+      "tokens": 2617,
+      "target_tokens": 156
+    },
+    {
+      "task_id": "booklost-method-1e483855fec084815293a323",
+      "split": "train",
+      "tokens": 2088,
+      "target_tokens": 188
+    },
+    {
+      "task_id": "booklost-method-8892a3f166aac99afa609f56",
+      "split": "train",
+      "tokens": 2260,
+      "target_tokens": 330
+    },
+    {
+      "task_id": "booklost-method-869f5bc547c93515f6bd27f4",
+      "split": "train",
+      "tokens": 2709,
+      "target_tokens": 186
+    },
+    {
+      "task_id": "booklost-method-006f5fc22e5d8f8e0444e016",
+      "split": "train",
+      "tokens": 2347,
+      "target_tokens": 144
+    },
+    {
+      "task_id": "booklost-method-ae63d24e539db29b38c9dbb7",
+      "split": "train",
+      "tokens": 2211,
+      "target_tokens": 191
+    },
+    {
+      "task_id": "booklost-method-5e265502f9ce42d501d98f71",
+      "split": "train",
+      "tokens": 2410,
+      "target_tokens": 352
+    },
+    {
+      "task_id": "booklost-method-41c814856b1a1bf793f25abc",
+      "split": "train",
+      "tokens": 2493,
+      "target_tokens": 144
+    },
+    {
+      "task_id": "booklost-method-6ad7d2f97aff3ac2fc716b32",
+      "split": "train",
+      "tokens": 2481,
+      "target_tokens": 138
+    },
+    {
+      "task_id": "booklost-method-8ba3d05afec6c1052c728fa2",
+      "split": "train",
+      "tokens": 2447,
+      "target_tokens": 121
+    },
+    {
+      "task_id": "booklost-method-4fd7602f0c33f441c5dec30c",
+      "split": "train",
+      "tokens": 2786,
+      "target_tokens": 121
+    },
+    {
+      "task_id": "booklost-method-3728fb506ea63987d3ddbd86",
+      "split": "train",
+      "tokens": 2617,
+      "target_tokens": 135
+    },
+    {
+      "task_id": "booklost-method-59a3bf9e9cd40d0b1f211168",
+      "split": "train",
+      "tokens": 2568,
+      "target_tokens": 284
+    },
+    {
+      "task_id": "booklost-method-1934f6535af1ab568521a680",
+      "split": "train",
+      "tokens": 2893,
+      "target_tokens": 186
+    },
+    {
+      "task_id": "booklost-method-456e9aee36330b853ab3d7eb",
+      "split": "train",
+      "tokens": 2970,
+      "target_tokens": 158
+    },
+    {
+      "task_id": "booklost-method-2b855aa53ac71aa7afa7509a",
+      "split": "train",
+      "tokens": 2136,
+      "target_tokens": 196
+    },
+    {
+      "task_id": "booklost-method-c1c4a3c72c1e34b2093d4cc5",
+      "split": "train",
+      "tokens": 2392,
+      "target_tokens": 416
+    },
+    {
+      "task_id": "booklost-method-801e9baa5300ad0828dab579",
+      "split": "train",
+      "tokens": 2517,
+      "target_tokens": 155
+    },
+    {
+      "task_id": "booklost-method-0596bab2840366d96b199c87",
+      "split": "train",
+      "tokens": 2799,
+      "target_tokens": 160
+    },
+    {
+      "task_id": "curriculum-book-source-limits-chart-6762c00eade7b6d2801b9e372f4c8b8de62e5f9b185cb7cc68e9d74ca99e1e98",
+      "split": "train",
+      "tokens": 878,
+      "target_tokens": 357
+    },
+    {
+      "task_id": "curriculum-book-source-limits-chart-51a3509edea59beb09a82dbc3e496a35ffd2be97caae2d246d2ba086699b490f",
+      "split": "train",
+      "tokens": 1150,
+      "target_tokens": 491
+    },
+    {
+      "task_id": "bookknowledge-1f60f6c61c4ec1e26f2c865f",
+      "split": "train",
+      "tokens": 637,
+      "target_tokens": 83
+    },
+    {
+      "task_id": "bookknowledge-f761349d5cdc2e54560de4d9",
+      "split": "train",
+      "tokens": 876,
+      "target_tokens": 78
+    },
+    {
+      "task_id": "bookknowledge-c426df226866523a2f5b9183",
+      "split": "train",
+      "tokens": 671,
+      "target_tokens": 107
+    },
+    {
+      "task_id": "bookknowledge-52288b3ec6d74e71db971015",
+      "split": "train",
+      "tokens": 691,
+      "target_tokens": 93
+    },
+    {
+      "task_id": "bookknowledge-53c5b0c5537dd43c135bbe01",
+      "split": "train",
+      "tokens": 883,
+      "target_tokens": 107
+    },
+    {
+      "task_id": "bookknowledge-ad06cc901946079901326323",
+      "split": "train",
+      "tokens": 435,
+      "target_tokens": 88
+    },
+    {
+      "task_id": "bookknowledge-f66ce1e315d2690b7bd5b494",
+      "split": "train",
+      "tokens": 488,
+      "target_tokens": 103
+    },
+    {
+      "task_id": "bookknowledge-db5b955e227feeb56544034c",
+      "split": "train",
+      "tokens": 804,
+      "target_tokens": 125
+    },
+    {
+      "task_id": "bookknowledge-c5892e412d27d52f015c253d",
+      "split": "train",
+      "tokens": 965,
+      "target_tokens": 126
+    },
+    {
+      "task_id": "bookknowledge-ca65770c7527940321ff75ad",
+      "split": "train",
+      "tokens": 644,
+      "target_tokens": 97
+    },
+    {
+      "task_id": "bookknowledge-bbbf38f35a852a83927fd790",
+      "split": "train",
+      "tokens": 720,
+      "target_tokens": 107
+    },
+    {
+      "task_id": "bookknowledge-7107b905157443906c60823a",
+      "split": "train",
+      "tokens": 510,
+      "target_tokens": 92
+    },
+    {
+      "task_id": "bookknowledge-b396bf2044f30ccb5a1e6d05",
+      "split": "train",
+      "tokens": 1557,
+      "target_tokens": 129
+    },
+    {
+      "task_id": "bookknowledge-44579639b88c20d960678082",
+      "split": "train",
+      "tokens": 406,
+      "target_tokens": 83
+    },
+    {
+      "task_id": "bookknowledge-2976b8fb3fda4a6bff22de02",
+      "split": "train",
+      "tokens": 332,
+      "target_tokens": 93
+    },
+    {
+      "task_id": "bookknowledge-1a1967e1e85c86948501420e",
+      "split": "train",
+      "tokens": 805,
+      "target_tokens": 113
+    },
+    {
+      "task_id": "bookknowledge-55e1aebe043db3db4a87af02",
+      "split": "train",
+      "tokens": 578,
+      "target_tokens": 129
+    },
+    {
+      "task_id": "bookknowledge-605c98ebe79b43709dc0b70a",
+      "split": "train",
+      "tokens": 596,
+      "target_tokens": 111
+    },
+    {
+      "task_id": "bookknowledge-b746a5f8d09a22b2b7a6b45a",
+      "split": "train",
+      "tokens": 508,
+      "target_tokens": 98
+    },
+    {
+      "task_id": "bookknowledge-fd3accb57f5e984b9749e320",
+      "split": "train",
+      "tokens": 640,
+      "target_tokens": 88
+    },
+    {
+      "task_id": "bookknowledge-f0252417384b4ea832ef5c6c",
+      "split": "train",
+      "tokens": 765,
+      "target_tokens": 113
+    },
+    {
+      "task_id": "bookknowledge-24ed68859af0065b75683e4a",
+      "split": "train",
+      "tokens": 574,
+      "target_tokens": 95
+    },
+    {
+      "task_id": "bookknowledge-122b5a0f3ecff29e4e4f335d",
+      "split": "train",
+      "tokens": 496,
+      "target_tokens": 81
+    },
+    {
+      "task_id": "bookknowledge-de2fa4046e4053f90cd1fba6",
+      "split": "train",
+      "tokens": 604,
+      "target_tokens": 90
+    },
+    {
+      "task_id": "bookknowledge-053142997c9ba143f490a7c1",
+      "split": "train",
+      "tokens": 645,
+      "target_tokens": 103
+    },
+    {
+      "task_id": "bookknowledge-4f30c50d82627632411d577b",
+      "split": "train",
+      "tokens": 1600,
+      "target_tokens": 95
+    },
+    {
+      "task_id": "bookknowledge-4c384ce7b228137505079fa9",
+      "split": "train",
+      "tokens": 1128,
+      "target_tokens": 109
+    },
+    {
+      "task_id": "bookknowledge-fa2c383b4882b11d4c657273",
+      "split": "train",
+      "tokens": 799,
+      "target_tokens": 115
+    },
+    {
+      "task_id": "bookknowledge-cc3c7900ad52ed708345b245",
+      "split": "train",
+      "tokens": 428,
+      "target_tokens": 92
+    },
+    {
+      "task_id": "bookknowledge-7acafc335cfcd4b2cd962e8e",
+      "split": "train",
+      "tokens": 397,
+      "target_tokens": 96
+    },
+    {
+      "task_id": "bookmethod-9cd8a0e4c616d2490a340b02",
+      "split": "validation",
+      "tokens": 1651,
+      "target_tokens": 177
+    },
+    {
+      "task_id": "bookmethod-8b4ad423046915225b1cbdb5",
+      "split": "validation",
+      "tokens": 1744,
+      "target_tokens": 240
+    },
+    {
+      "task_id": "bookmethod-99e904d6732627bc0895b278",
+      "split": "validation",
+      "tokens": 2368,
+      "target_tokens": 160
+    },
+    {
+      "task_id": "bookmethod-91ee4b3f6430c2ba2a755d8c",
+      "split": "validation",
+      "tokens": 1867,
+      "target_tokens": 144
+    },
+    {
+      "task_id": "bookmethod-d9e4fe36cbeb1c55a2c2ee29",
+      "split": "validation",
+      "tokens": 1779,
+      "target_tokens": 177
+    },
+    {
+      "task_id": "bookmethod-d7e4cddbbe376633f34cf88a",
+      "split": "validation",
+      "tokens": 1857,
+      "target_tokens": 230
+    },
+    {
+      "task_id": "bookmethod-33670d794b6aec41b2c3b12c",
+      "split": "validation",
+      "tokens": 2361,
+      "target_tokens": 154
+    },
+    {
+      "task_id": "bookmethod-5cea8e0b3eabc02c76565576",
+      "split": "validation",
+      "tokens": 1768,
+      "target_tokens": 196
+    },
+    {
+      "task_id": "bookmethod-674761a25f06669137941406",
+      "split": "validation",
+      "tokens": 1839,
+      "target_tokens": 247
+    },
+    {
+      "task_id": "bookmethod-1be8bdd9976274b83c087cb7",
+      "split": "validation",
+      "tokens": 2378,
+      "target_tokens": 175
+    },
+    {
+      "task_id": "bookmethod-4fa67ed58183ac509dd74bfe",
+      "split": "validation",
+      "tokens": 1848,
+      "target_tokens": 146
+    },
+    {
+      "task_id": "bookmethod-851b13b15b06de76f80fe669",
+      "split": "validation",
+      "tokens": 1547,
+      "target_tokens": 217
+    },
+    {
+      "task_id": "bookmethod-56611cfa331114555adc0293",
+      "split": "validation",
+      "tokens": 1639,
+      "target_tokens": 276
+    },
+    {
+      "task_id": "bookmethod-ac4dac69a464289c0523dc08",
+      "split": "validation",
+      "tokens": 2095,
+      "target_tokens": 161
+    },
+    {
+      "task_id": "bookmethod-519b27869ab8b8af504cc7f6",
+      "split": "validation",
+      "tokens": 1597,
+      "target_tokens": 136
+    },
+    {
+      "task_id": "bookmethod-3ebc5f9a4cb8b1b56504e4a9",
+      "split": "validation",
+      "tokens": 1452,
+      "target_tokens": 223
+    },
+    {
+      "task_id": "bookmethod-53cc8d0fffc717cf8e5bafdd",
+      "split": "validation",
+      "tokens": 1537,
+      "target_tokens": 273
+    },
+    {
+      "task_id": "bookmethod-281241d4cf0a740787f12358",
+      "split": "validation",
+      "tokens": 1982,
+      "target_tokens": 164
+    },
+    {
+      "task_id": "bookmethod-bd605ae28efe4463d7741cfd",
+      "split": "validation",
+      "tokens": 1491,
+      "target_tokens": 124
+    },
+    {
+      "task_id": "bookmethod-35c4208326dfe6d7f7b66de8",
+      "split": "validation",
+      "tokens": 1776,
+      "target_tokens": 171
+    },
+    {
+      "task_id": "bookmethod-265c1141554c5bf5c0513bab",
+      "split": "validation",
+      "tokens": 2052,
+      "target_tokens": 185
+    },
+    {
+      "task_id": "bookmethod-694b6308f861317d382befb5",
+      "split": "validation",
+      "tokens": 2111,
+      "target_tokens": 237
+    },
+    {
+      "task_id": "bookmethod-cece9208908c620928ea20d1",
+      "split": "validation",
+      "tokens": 2565,
+      "target_tokens": 174
+    },
+    {
+      "task_id": "bookmethod-fb38d20102b21467961db78e",
+      "split": "validation",
+      "tokens": 2143,
+      "target_tokens": 140
+    },
+    {
+      "task_id": "bookmethod-93390ebf385da8a8f3046e3e",
+      "split": "validation",
+      "tokens": 1941,
+      "target_tokens": 178
+    },
+    {
+      "task_id": "bookmethod-f16e00c28388987e42336851",
+      "split": "validation",
+      "tokens": 2008,
+      "target_tokens": 238
+    },
+    {
+      "task_id": "bookmethod-56e777b9d265afad19822f16",
+      "split": "validation",
+      "tokens": 2442,
+      "target_tokens": 172
+    },
+    {
+      "task_id": "bookmethod-d000f1f1f5d0e63a2fe06150",
+      "split": "validation",
+      "tokens": 1677,
+      "target_tokens": 209
+    },
+    {
+      "task_id": "bookmethod-11764a20876898c963a2759b",
+      "split": "validation",
+      "tokens": 1840,
+      "target_tokens": 123
+    },
+    {
+      "task_id": "bookmethod-f7f46c1b82f5a5e1c5832162",
+      "split": "validation",
+      "tokens": 1695,
+      "target_tokens": 208
+    },
+    {
+      "task_id": "bookmethod-53d79bbb39843b7c296d87b0",
+      "split": "validation",
+      "tokens": 1867,
+      "target_tokens": 137
+    },
+    {
+      "task_id": "bookmethod-494148792bf1a25a4b0d2438",
+      "split": "validation",
+      "tokens": 1879,
+      "target_tokens": 173
+    },
+    {
+      "task_id": "bookmethod-cb9e44b881856f0d325ff0c4",
+      "split": "validation",
+      "tokens": 2058,
+      "target_tokens": 323
+    },
+    {
+      "task_id": "bookmethod-f65954334cd121622decf43a",
+      "split": "validation",
+      "tokens": 2486,
+      "target_tokens": 172
+    },
+    {
+      "task_id": "bookmethod-8c4c7c5c893c2fab7d4ef9c9",
+      "split": "validation",
+      "tokens": 1689,
+      "target_tokens": 193
+    },
+    {
+      "task_id": "bookmethod-43e7e9853254f15dc708a1a5",
+      "split": "validation",
+      "tokens": 1838,
+      "target_tokens": 320
+    },
+    {
+      "task_id": "bookmethod-9e5616a38dbf75998665eec3",
+      "split": "validation",
+      "tokens": 2173,
+      "target_tokens": 161
+    },
+    {
+      "task_id": "bookmethod-04cfc5a9ef21e76f4cc8d28a",
+      "split": "validation",
+      "tokens": 1741,
+      "target_tokens": 133
+    },
+    {
+      "task_id": "bookmethod-d54ea7e341b40cd060901842",
+      "split": "validation",
+      "tokens": 1654,
+      "target_tokens": 191
+    },
+    {
+      "task_id": "bookmethod-6f309aacf038577ce33fe89b",
+      "split": "validation",
+      "tokens": 1812,
+      "target_tokens": 327
+    },
+    {
+      "task_id": "bookmethod-005be4a93b5a9d129be5e02e",
+      "split": "validation",
+      "tokens": 2277,
+      "target_tokens": 161
+    },
+    {
+      "task_id": "bookmethod-d3852a38a6e296f97dd8bd50",
+      "split": "validation",
+      "tokens": 1598,
+      "target_tokens": 136
+    },
+    {
+      "task_id": "bookmethod-fb0f080728d7fe4ba1186caf",
+      "split": "validation",
+      "tokens": 3035,
+      "target_tokens": 326
+    },
+    {
+      "task_id": "bookmethod-1ed7c5844e3ebe6fe963ffc2",
+      "split": "validation",
+      "tokens": 3375,
+      "target_tokens": 183
+    },
+    {
+      "task_id": "bookmethod-d117b61720212828c2b21ad0",
+      "split": "validation",
+      "tokens": 1439,
+      "target_tokens": 157
+    },
+    {
+      "task_id": "bookmethod-0f2967e15a3dfb0181b28021",
+      "split": "validation",
+      "tokens": 1617,
+      "target_tokens": 308
+    },
+    {
+      "task_id": "bookmethod-c0b48c9be91c383476615fe6",
+      "split": "validation",
+      "tokens": 1958,
+      "target_tokens": 148
+    },
+    {
+      "task_id": "bookmethod-a7607c057eb43a16a3569ea3",
+      "split": "validation",
+      "tokens": 1851,
+      "target_tokens": 130
+    },
+    {
+      "task_id": "bookmethod-bd198b8ce16d5e2a85fa6481",
+      "split": "validation",
+      "tokens": 1799,
+      "target_tokens": 171
+    },
+    {
+      "task_id": "bookmethod-bad217eff3b9fe5a72299459",
+      "split": "validation",
+      "tokens": 1934,
+      "target_tokens": 274
+    },
+    {
+      "task_id": "bookmethod-c6f594e79065e34fee777f4c",
+      "split": "validation",
+      "tokens": 2412,
+      "target_tokens": 161
+    },
+    {
+      "task_id": "bookmethod-a8dec15756ceb7ace01c8d4c",
+      "split": "validation",
+      "tokens": 1780,
+      "target_tokens": 160
+    },
+    {
+      "task_id": "bookmethod-96b7625e2418fd9a99b150ee",
+      "split": "validation",
+      "tokens": 1976,
+      "target_tokens": 324
+    },
+    {
+      "task_id": "bookmethod-b00dfc1fd813b4f6279f7438",
+      "split": "validation",
+      "tokens": 2272,
+      "target_tokens": 158
+    },
+    {
+      "task_id": "bookmethod-05c5f8dea8c5969ab07f9c9a",
+      "split": "validation",
+      "tokens": 1598,
+      "target_tokens": 164
+    },
+    {
+      "task_id": "bookmethod-808c48a1d76d492f46113b56",
+      "split": "validation",
+      "tokens": 1549,
+      "target_tokens": 140
+    },
+    {
+      "task_id": "booklost-method-b00125d46b14fcca3effbfd0",
+      "split": "validation",
+      "tokens": 2152,
+      "target_tokens": 198
+    },
+    {
+      "task_id": "booklost-method-dfc05fc1d34e4644661f1b00",
+      "split": "validation",
+      "tokens": 2352,
+      "target_tokens": 367
+    },
+    {
+      "task_id": "booklost-method-86dc24c6c6c2d720380d86fd",
+      "split": "validation",
+      "tokens": 2716,
+      "target_tokens": 189
+    },
+    {
+      "task_id": "booklost-method-f70a6fd9c7281c0b06376af8",
+      "split": "validation",
+      "tokens": 2570,
+      "target_tokens": 175
+    }
+  ],
+  "unix": 1792324692.0358038
+}

@@ -33,9 +33,17 @@ def select_tasks(manifest,data):
     if key not in covered:out.append(t);covered.add(key)
  return out
 
+def validate_adapter_identity(adapter,manifest,config,model_manifest):
+ state=json.loads((Path(adapter)/'state.json').read_bytes());identity=state['identity']
+ if identity.get('release_sha256')!=sha(manifest) or identity.get('config_sha256')!=sha(config) or identity.get('model_manifest_sha256')!=sha(model_manifest):raise ValueError('Adapter belongs to different model/data/config')
+ for name in ('adapters.safetensors','adapter_config.json'):
+  if state['files'].get(name)!=sha(Path(adapter)/name):raise ValueError('Saved adapter checkpoint changed')
+ return {'optimizer_step':state['optimizer_step'],'epoch':state['epoch'],'state_sha256':sha(Path(adapter)/'state.json')}
+
 def main():
  p=argparse.ArgumentParser();p.add_argument('--config',type=Path,default=ROOT/'training/mac_book_curriculum_v1.json');p.add_argument('--model-manifest',type=Path,required=True);p.add_argument('--output',type=Path,required=True);p.add_argument('--db',type=Path,default=ROOT/'work/demo.sqlite3');p.add_argument('--adapter',type=Path);p.add_argument('--resume',action='store_true');a=p.parse_args();cfg=json.loads(a.config.read_bytes());manifest=ROOT/cfg['data_manifest'];data=ROOT/cfg['data_dir'];todo=select_tasks(manifest,data);base=json.loads(a.model_manifest.read_bytes())
  if base['revision']!=cfg['base_revision']:raise ValueError('Pinned base mismatch')
+ adapter_training=None if a.adapter is None else validate_adapter_identity(a.adapter,manifest,a.config,a.model_manifest)
  for n,m in base['files'].items():
   f=Path(base['local_path'])/n
   if not f.resolve().is_relative_to(Path(base['local_path']).resolve()) or sha(f)!=m['sha256']:raise ValueError('Model file changed')
@@ -72,5 +80,5 @@ def main():
     expected=json.loads(t['messages'][2]['content']);actual=result.get('output',{});key='reported_facts' if t['input_setting']=='partial_source_reading' else 'palaces_as_written';score['source_limit_literal_exact_match']=actual.get(key)==expected[key]
    record={'task_id':t['task_id'],'chapter':t['chapter'],'split':t['split'],'context_mode':t['context_mode'],'task_type':t['task_type'],'result':result,'score':score};dest.write_bytes(encoded(record))
   records.append(record);progress={'completed':len(records),'total':len(todo),'last_task':t['task_id'],'last_status':record['result']['status']};(a.output/'progress.json').write_bytes(encoded(progress));print(json.dumps(progress),flush=True)
- report={**identity,'status':'generation_complete_not_semantic_acceptance','scope':'whole_book_source_conditioned_method_research','records':records,'adapter':identity['adapter_files'],'adapter_reload_parity':adapter_parity,'training_updates':0,'generation_settings':{'max_tokens':cfg['max_generation_tokens'],'thinking':False},'revision':base['revision'],'test_accessed':False,'chapter_counts':dict(Counter(r['chapter'] for r in records)),'completion_counts':dict(Counter(r['result']['status'] for r in records)),'semantic_source_review_complete':False,'all_chapter_model_pass':False,'independent_real_world_accuracy':None,'started_unix':started,'finished_unix':time.time()};(a.output/'report.json').write_bytes(encoded(report))
+ report={**identity,'status':'generation_complete_not_semantic_acceptance','scope':'whole_book_source_conditioned_method_research','records':records,'adapter':identity['adapter_files'],'adapter_reload_parity':adapter_parity,'adapter_training':adapter_training,'training_updates':0,'generation_settings':{'max_tokens':cfg['max_generation_tokens'],'thinking':False},'revision':base['revision'],'test_accessed':False,'chapter_counts':dict(Counter(r['chapter'] for r in records)),'completion_counts':dict(Counter(r['result']['status'] for r in records)),'semantic_source_review_complete':False,'all_chapter_model_pass':False,'independent_real_world_accuracy':None,'started_unix':started,'finished_unix':time.time()};(a.output/'report.json').write_bytes(encoded(report))
 if __name__=='__main__':main()

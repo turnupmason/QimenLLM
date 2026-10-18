@@ -1,0 +1,30 @@
+{
+  "commit": "f747f6b7cb836b2ff8b226e941ce67cbb34c5590",
+  "run_id": 39125245472,
+  "run_url": "https://github.com/turnupmason/QimenLLM/actions/runs/39125245472",
+  "four_ci_passed": true,
+  "jobs": [
+    {
+      "id": 117668880907,
+      "ran": "Ran 600 tests in 98.615s",
+      "outcome": "OK (skipped=3)"
+    },
+    {
+      "id": 117668881037,
+      "ran": "Ran 600 tests in 110.656s",
+      "outcome": "OK (skipped=3)"
+    },
+    {
+      "id": 117668881043,
+      "ran": "Ran 600 tests in 98.440s",
+      "outcome": "OK (skipped=3)"
+    },
+    {
+      "id": 117668881137,
+      "ran": "Ran 600 tests in 132.302s",
+      "outcome": "OK (skipped=3)"
+    }
+  ],
+  "current_head_proof": false,
+  "note": "Exact preceding curriculum commit verified; subsequent adapter identity fix requires its own CI."
+}

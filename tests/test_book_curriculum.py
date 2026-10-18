@@ -121,4 +121,13 @@ class BookCurriculumTests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as d:
    run=Path(d);folder=run/'epoch-01';folder.mkdir();(folder/'adapters.safetensors').write_bytes(b'changed');(folder/'state.json').write_bytes(encoded({'files':{'adapters.safetensors':'0'*64}}));(run/'latest.json').write_bytes(encoded({'checkpoint':'epoch-01'}));receipt=run/'report.json';receipt.write_bytes(encoded({}))
    with self.assertRaisesRegex(ValueError,'Checkpoint changed'):mod.package(run,receipt)
+ def test_generation_rejects_adapter_from_different_curriculum_before_model_load(self):
+  import importlib.util
+  spec=importlib.util.spec_from_file_location('book_adapt_identity',ROOT/'scripts/run_mac_book_method.py');mod=importlib.util.module_from_spec(spec);spec.loader.exec_module(mod)
+  with tempfile.TemporaryDirectory() as d:
+   p=Path(d);base=p/'base.json';base.write_bytes(b'fixture-model');config=ROOT/'training/mac_book_curriculum_v1.json'
+   for name in ('adapters.safetensors','adapter_config.json'):(p/name).write_bytes(b'fixture-adapter')
+   state={'identity':{'release_sha256':sha(self.manifest.read_bytes()),'config_sha256':sha(config.read_bytes()),'model_manifest_sha256':sha(base.read_bytes())},'files':{n:sha((p/n).read_bytes()) for n in ('adapters.safetensors','adapter_config.json')},'optimizer_step':4,'epoch':1};(p/'state.json').write_bytes(encoded(state));self.assertEqual(mod.validate_adapter_identity(p,self.manifest,config,base)['optimizer_step'],4)
+   state['identity']['release_sha256']='0'*64;(p/'state.json').write_bytes(encoded(state))
+   with self.assertRaisesRegex(ValueError,'different model/data/config'):mod.validate_adapter_identity(p,self.manifest,config,base)
 if __name__=='__main__':unittest.main()
