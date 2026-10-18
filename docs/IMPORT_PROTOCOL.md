@@ -158,3 +158,7 @@ PYTHONPATH=src python3 scripts/import_shenqi_life.py --restore-base --db work/li
 ## 后记重放
 
 `PYTHONPATH=src python3 scripts/import_shenqi_afterword.py` 校验本次5285字节/21行TXT，SHA256 ae609b92f0e1e1f475bece88879e811f7ded8161035e246003ecaa081f18a4eb，按afterword/排序23沿import_chapter/install_curated保存9完整语境/7边界。无案例或原盘，仅参考学习读取，沿既有快照、审计、全量回归与私有main同步。相同输入幂等；坏源拒绝。前作/转引不另导书报，不凭收到后记认定全书完整。见ingestion/SHENQI_AFTERWORD.md。
+
+## 附录复合源重放
+
+`PYTHONPATH=src python3 scripts/import_shenqi_appendix.py` 校验SHA256 df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340、48021字节/276行，沿import_chapter/install_curated/import_cases/install_candidates保存appendix-bundle/排序24。一份原附件包含重叠准确率/后记与三附录，不拆改源字节；appendix_source_links.json记录两旧文与三旧案对应，运行时语境亦含相同来源关系。新现场一故事两目标同家族、原图两event引用但同一个source_diagram_id。原图字面gold不冒称九宫gold；source_chart保持未覆盖，全文可读。新设备restore-snapshot后重放幂等，原CRLF变LF会拒绝；全量测试/审计/私有main和四CI要求保持。

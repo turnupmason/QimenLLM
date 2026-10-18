@@ -1,0 +1,75 @@
+{
+  "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+  "source_byte_count": 48021,
+  "source_line_count": 276,
+  "basis": "manual literal fragment transcription independent of calculator; not nine-palace gold",
+  "source_lines": [
+    241,
+    254
+  ],
+  "literal_lines": [
+    "地\r\n",
+    "伤乙 任癸\t武\r\n",
+    "杜丁 冲戊\t虎  景癸\r\n",
+    "辅丙\r\n",
+    "天\r\n",
+    "生乙 蓬丁\t\r\n",
+    "\r\n",
+    "\r\n",
+    "壬\t合  死戊\r\n",
+    "英庚\r\n",
+    "符\r\n",
+    "休辛 心己\t蛇\r\n",
+    "开庚 柱乙\t阴 壬惊丙\r\n",
+    "芮辛\r\n"
+  ],
+  "expected_chart_projection_status": "not_covered",
+  "source_unique_diagrams": 1,
+  "event_chart_references": 2,
+  "expected_no_inferred_palaces": true,
+  "condition_cases": [
+    {
+      "context": {},
+      "applicable": 0
+    },
+    {
+      "context": {
+        "domain": "live_demo",
+        "demo_target": "publication",
+        "method_scope": "shenqi_appendix_publication_reference_v1",
+        "venue_position": "east",
+        "ordinal_question": true
+      },
+      "applicable": 1
+    },
+    {
+      "context": {
+        "domain": "live_demo",
+        "demo_target": "publication",
+        "method_scope": "shenqi_appendix_publication_reference_v1",
+        "venue_position": "southwest",
+        "ordinal_question": true
+      },
+      "applicable": 0
+    },
+    {
+      "context": {
+        "domain": "live_demo",
+        "demo_target": "past_accident",
+        "method_scope": "shenqi_appendix_accident_reference_v1",
+        "venue_position": "southwest",
+        "target_clarified_as_self": true
+      },
+      "applicable": 1
+    },
+    {
+      "context": {
+        "domain": "live_demo",
+        "demo_target": "past_accident",
+        "method_scope": "shenqi_appendix_accident_reference_v1",
+        "venue_position": "southwest"
+      },
+      "applicable": 0
+    }
+  ]
+}

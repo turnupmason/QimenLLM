@@ -1,0 +1,148 @@
+{
+  "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+  "source_byte_count": 48021,
+  "source_line_count": 276,
+  "schema_version": "source_selection_candidates_v1",
+  "title": "附录现场纪实特定语境候选",
+  "candidate_count": 2,
+  "candidate_record_count": 2,
+  "candidates": [
+    {
+      "key": "appendix_demo_publication",
+      "domain": "live_demo",
+      "scope": "publication",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "live_demo"
+        },
+        {
+          "field": "demo_target",
+          "op": "eq",
+          "value": "publication"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_appendix_publication_reference_v1"
+        },
+        {
+          "field": "venue_position",
+          "op": "eq",
+          "value": "east"
+        },
+        {
+          "field": "ordinal_question",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_appendix_reference_v1"
+      },
+      "source_lines": [
+        259,
+        267
+      ],
+      "source_quote": "(一)对第一个人的预测：\r\n(1)为什么断三本书只能出版一本?\r\n该人位于大会场的东侧，奇门局上为震3宫的位置；景门代 表所写的书，现景门落坤2宫，宫中有天辅文曲星，又上乘白虎 及丙奇，文章应属上乘，但天盘癸入墓及癸加壬凶格，那么再来 判断其文章的写作质量必定是属于中上等水平。\r\n既然书的写作水平属中上等，为什么断三本书稿只能出版一本 呢?景门为书稿，落坤2宫为两本，开门为出版社落坎1宫，现景 门落宫土来克开门落宫水，断有两本不能出版。另外，震宫代表预 测人，属木，克景门落宫土，也主只能出一本，另两本不能出版。\r\n(2)三本书稿中哪本能出版呢?\r\n前边我已断出只能出版一本，而后他又说了三本书名，问哪 本能出。他说第一本，我就看1宫，1宫中逢开门吉门，又生他 所在的震3宫，断第一本书能出。他说第二本，我就看2宫，2  宫克开门出版社，又受3宫之克，必然出版不了。他说第三本， 我看3宫和景门书稿落宫的关系，3宫克景门落宫，也出版不了。\r\n(3)从哪个方向找人帮忙能出版呢?\r\n预测人位于震3宫，北方逢开门，是指北方的出版社大门开  着，开门落坎宫属水，生预测人，所以说可以到北方找人帮忙。 3宫属木，克艮8宫土，宫中有值符吉神和休门吉门及天心吉星， 也可以到他所克制的艮方，即东北方去找人。\r\n为什么不能到南方和其他方向呢?因为别的方向不是克预测 人的震3宫，就是格局不好。如到南方，则看离宫，宫中逢杜 门，杜门主闭塞不通，表明出版社之门不畅通，上乘玄武，又有 地盘甲子戊，戊为钱财落离宫受冲，必破财，所以也不能到南方 的出版社。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "source-session-specific retrospective explanation; not generic role activation",
+        "Initial rejection, later information and incomplete source chart remain separate"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "震3宫",
+          "景门",
+          "开门",
+          "顺序宫数"
+        ],
+        "semantic_role": "publication",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    },
+    {
+      "key": "appendix_demo_accident",
+      "domain": "live_demo",
+      "scope": "past_accident",
+      "require": [
+        {
+          "field": "domain",
+          "op": "eq",
+          "value": "live_demo"
+        },
+        {
+          "field": "demo_target",
+          "op": "eq",
+          "value": "past_accident"
+        },
+        {
+          "field": "method_scope",
+          "op": "eq",
+          "value": "shenqi_appendix_accident_reference_v1"
+        },
+        {
+          "field": "venue_position",
+          "op": "eq",
+          "value": "southwest"
+        },
+        {
+          "field": "target_clarified_as_self",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "exclude": [],
+      "method_choice": {
+        "status": "explicit_choice_required",
+        "method_id": "shenqi_appendix_reference_v1"
+      },
+      "source_lines": [
+        270,
+        275
+      ],
+      "source_quote": "(二)对第二个人的预测：\r\n(1)为什么说他在道路上遇到了车祸?\r\n预测人位于会场的西南角，奇门格局上对应的是坤2宫，宫 中白虎主刑伤、主道路，景门主血光，说明在道路上有血光之灾。 怎么造成的呢?第一看旬空之宫，因为旬空则藏有玄机。现巽4宫 旬空，宫中有伤门，伤门主车辆，车辆宫克预测人宫，必是车祸。\r\n从另一个角度看，预测人位于坤宫，天盘癸为预测人现状， 地盘癸为以前的状态。现地盘癸落巽4宫，也是伤门宫克预测人 宫，为车祸。何时出车祸，春天木旺才能克预测人之宫，故断春 天出的车祸。\r\n(2)伤及的部位是怎样断的?\r\n死门主伤疤，落兑7宫，为左腰部，宫中戊加庚为“值符飞  宫”凶事更凶，死门又主死人，落兑宫主二数，故断死二人。景门 主血光，落坤2宫为左胳膊，上乘白虎主道路伤灾，必伤及左胳膊。",
+      "exceptions": [],
+      "unique": false,
+      "notes": [
+        "source-session-specific retrospective explanation; not generic role activation",
+        "Initial rejection, later information and incomplete source chart remain separate"
+      ],
+      "unknown_policy": "conditional_never_true_by_default",
+      "selection_scope": "symbolic_source_condition_match_only",
+      "formal_role_activation_allowed": false,
+      "professional_prediction_completed": false,
+      "source_confirmed_by_user": true,
+      "source_acceptance_satisfied": true,
+      "reference_only": true,
+      "role_binding": {
+        "symbols": [
+          "坤2宫",
+          "白虎",
+          "景门",
+          "伤门",
+          "死门"
+        ],
+        "semantic_role": "past_accident",
+        "binding_kind": "source_candidate",
+        "supplementary": false,
+        "automatic_activation": false,
+        "uniqueness": "not_claimed"
+      }
+    }
+  ]
+}

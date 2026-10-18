@@ -1,0 +1,198 @@
+{
+  "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+  "source_byte_count": 48021,
+  "source_line_count": 276,
+  "source_file": "user-pasted attachment Pasted text.txt",
+  "verification_basis": "user_attestation",
+  "system_performed_independent_verification": false,
+  "composite_source": true,
+  "appendix_articles": 3,
+  "overlapping_prior_inputs": 2,
+  "existing_case_summary_occurrences": 3,
+  "context_groups": 30,
+  "technical_boundaries": 18,
+  "reference_candidates": 2,
+  "new_stories": 1,
+  "new_families": 1,
+  "new_events": 2,
+  "new_chart_records": 2,
+  "new_unique_source_diagrams": 1,
+  "source_diagram_layout_status": "unparsed_fragments_not_reconstructed",
+  "new_case_records": 30,
+  "project_empirical_accuracy": null,
+  "schema_migration": false,
+  "default_casting_method_changed": false,
+  "formal_rules_added": 0,
+  "training_tasks_added": 0,
+  "snapshot": {
+    "data_version": "1a6e9717-c228-4d88-88e1-8707622cb692",
+    "snapshot": "data/snapshots/current",
+    "counts": {
+      "data_versions": 106,
+      "books": 1,
+      "chapters": 23,
+      "raw_documents": 23,
+      "chapter_revisions": 23,
+      "source_reviews": 30,
+      "source_spans": 3264,
+      "methods": 32,
+      "concepts": 2674,
+      "concept_links": 0,
+      "knowledge_items": 1175,
+      "rules": 0,
+      "rule_conditions": 0,
+      "rule_disagreements": 0,
+      "event_families": 94,
+      "cases": 98,
+      "events": 106,
+      "case_events": 106,
+      "charts": 104,
+      "case_records": 1579,
+      "evidence_links": 1902,
+      "dataset_releases": 0,
+      "split_assignments": 0,
+      "training_tasks": 0,
+      "task_inputs": 0
+    },
+    "manifest_sha256": "bbc8c840b9aa31e84ef582d97e0aa3b662be427f76aaf7c44c9ce49131d2ff4a"
+  },
+  "old_rows_preserved": {
+    "rule_conditions": {
+      "old": 0,
+      "new": 0
+    },
+    "concept_links": {
+      "old": 0,
+      "new": 0
+    },
+    "case_events": {
+      "old": 104,
+      "new": 106
+    },
+    "data_versions": {
+      "old": 101,
+      "new": 106
+    },
+    "case_records": {
+      "old": 1549,
+      "new": 1579
+    },
+    "rule_disagreements": {
+      "old": 0,
+      "new": 0
+    },
+    "training_tasks": {
+      "old": 0,
+      "new": 0
+    },
+    "evidence_links": {
+      "old": 1872,
+      "new": 1902
+    },
+    "chapter_revisions": {
+      "old": 22,
+      "new": 23
+    },
+    "knowledge_items": {
+      "old": 1125,
+      "new": 1175
+    },
+    "methods": {
+      "old": 31,
+      "new": 32
+    },
+    "event_families": {
+      "old": 93,
+      "new": 94
+    },
+    "raw_documents": {
+      "old": 22,
+      "new": 23
+    },
+    "cases": {
+      "old": 97,
+      "new": 98
+    },
+    "task_inputs": {
+      "old": 0,
+      "new": 0
+    },
+    "source_spans": {
+      "old": 3180,
+      "new": 3264
+    },
+    "concepts": {
+      "old": 2577,
+      "new": 2674
+    },
+    "events": {
+      "old": 104,
+      "new": 106
+    },
+    "rules": {
+      "old": 0,
+      "new": 0
+    },
+    "split_assignments": {
+      "old": 0,
+      "new": 0
+    },
+    "charts": {
+      "old": 102,
+      "new": 104
+    },
+    "chapters": {
+      "old": 22,
+      "new": 23
+    },
+    "books": {
+      "old": 1,
+      "new": 1
+    },
+    "source_reviews": {
+      "old": 29,
+      "new": 30
+    },
+    "dataset_releases": {
+      "old": 0,
+      "new": 0
+    }
+  },
+  "old_raw_documents_byte_identical": 22,
+  "snapshot_files": 49,
+  "snapshot_roundtrip_byte_identical": true,
+  "integrity_audit_ok": true,
+  "base_main_sha": "8cb6b032434d85c9b8e6615e67ce5c10f5d6317e",
+  "full_regression": {
+    "status": "passed",
+    "tests": 460,
+    "failures": 0,
+    "errors": 0,
+    "focused_tests": 18,
+    "command": "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+    "python": "3.12.2",
+    "platform": "Darwin",
+    "actual_cli_and_wsgi_read": true,
+    "source_chart_projection_status": "not_covered",
+    "source_chart_references_checked": 2,
+    "unique_source_diagrams": 1,
+    "manual_gold_scope": "14 source fragment lines and 5 source condition contexts; not nine-palace gold",
+    "existing_symbolic_calculation_status": "computed",
+    "existing_symbolic_calculation_unchanged": true,
+    "professional_correctness": null,
+    "real_world_predictive_accuracy": null
+  },
+  "github_sync": {
+    "status": "pending"
+  },
+  "development_failures": [
+    {
+      "kind": "gold_line_ending_and_test_api_assumptions",
+      "description": "Initial manual chart fragment gold used LF while source uses CRLF; corrected independent gold to preserve source line endings. Initial test expected chart payload under payload rather than existing API chart key; corrected test adapter, without changing runtime or source.",
+      "resolved": true
+    }
+  ],
+  "cumulative_context_groups": 550,
+  "cumulative_quality_records": 367,
+  "cumulative_compiled_datasets": 39
+}
