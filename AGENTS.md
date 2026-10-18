@@ -16,4 +16,4 @@
 
 运行：`PYTHONPATH=src python3 -m unittest discover -s tests -v`。
 资料/案例规则见 KNOWLEDGE_POLICY / CASE_POLICY；架构与迁移见 ARCHITECTURE / SCHEMA；评估见 EVALUATION_PROTOCOL；设备与远程接入见 HARDWARE。
-当前已接收《神奇之门》25份章级来源输入，累计98故事/94家族/106事件/104来源盘记录。本轮附录一精校源SHA256 10db674c708186c6408c9d38228b066456ed71adb6e5939e2e1102e2a2df15ef，11761字节/4039字符/51行LF。书中篇次一、接收排序26，附录二接收25不改键不重排。与复合源77–139行去空白和93页眉后3988字符完全一致，独立存源关联14旧语境及卢圣湘/尚瓴吉/赵国葆三旧案，不重复建概念、方法、案例、盘或候选。教学四难、三原则目标、作者拆补/时家排宫/寄坤/天盘八神及五十分钟已有基础条件保留，不改算法默认；连门也人不了不擅校。沿现有import_chapter/add_annotations新增1来源对应语境及1边界，无schema/目录/workflow增删，正式rules/训练0，旧gold和总指令保留。验收见STATUS与ingestion/SHENQI_LEARNING.md。
+当前已接收《神奇之门》26份章级来源输入，累计98故事/94家族/106事件/104来源盘记录。本轮附录三精校源SHA256 0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e，15047字节/5513字符/140行LF；书中篇次三、接收排序27，旧一/二键与次序不改。叙事去空白/旧页眉并分开图表后4387字符相同，30记录对应原故事、两事件共家族，不克隆案盘。文件明确标为文字原盘重排的九宫表逐宫36字面单元与独立gold保存，生乙/中宫壬/壬惊丙不按引擎修字。新表由既有reference读取，旧碎片/原chart_id及case-chart not_covered不升级；不是新纸本原图或复算。初次否定、续断、会后信/部分财务与死伤、后置解释和2000按语保持时序。沿import_chapter/add_annotations新增2语境/2边界，无新方法/索引/案例/候选/训练；schema、目录、workflow、旧gold和总指令不改。验收见STATUS与ingestion/SHENQI_DEMO.md。

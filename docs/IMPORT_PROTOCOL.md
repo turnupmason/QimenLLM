@@ -170,3 +170,7 @@ PYTHONPATH=src python3 scripts/import_shenqi_life.py --restore-base --db work/li
 ## 附录一精校来源重放
 
 `PYTHONPATH=src python3 scripts/import_shenqi_learning.py` 校验本次SHA256 10db674c708186c6408c9d38228b066456ed71adb6e5939e2e1102e2a2df15ef、11761字节/51行LF；对旧复合源77–139行和93页眉作明确对照，然后沿import_chapter/add_annotations保存appendix-learning-clean/排序26。书中篇次一独立记录，旧附录二不改键或排序。curated含14旧语境/3旧家族对应，不重复导入案例、候选或方法。`reference learning_clean_source_reference --filters '{}'` 可读新全文；坏源/坏旧关联拒绝、同文幂等、快照/全量回归/私有main四CI要求保持。
+
+## 附录三精校及所供重排表重放
+
+`PYTHONPATH=src python3 scripts/import_shenqi_demo.py` 校验SHA256 0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e、15047字节/140行LF；叙事比较明确分开旧241–254碎片、新91–107重排表示及旧230页眉。沿import_chapter/add_annotations保存appendix-demo-clean/接收27、篇次三、2来源语境/2边界。curated包括30原记录对应、1case/2event/原chart_id及9宫字面出处；独立demo_gold.json不改旧gold。`reference demo_clean_palaces_reference --filters '{"palace":5}'` 真实按宫读取；旧case-chart保持not_covered，不增case/chart/方法/候选。坏源/坏旧关联拒绝、幂等/恢复/全量和私有main四CI要求保持。

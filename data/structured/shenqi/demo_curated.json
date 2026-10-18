@@ -1,0 +1,2021 @@
+{
+  "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+  "source_byte_count": 15047,
+  "source_line_count": 140,
+  "printed_appendix_number": 3,
+  "chapter_key": "appendix-demo-clean",
+  "source_relationship": {
+    "kind": "same_joint_case_narrative_with_user_supplied_chart_relayout",
+    "existing_chapter_key": "appendix-bundle",
+    "existing_case_id": "case-ea86d002d73e8c074ba86bccdab0a73833d4690b8dda2a7230547b15bfabe416",
+    "existing_case_key": "appendix-demo-19980916",
+    "existing_family": {
+      "family_key": "shenqi-appendix-demo-19980916-session",
+      "description": "1998年9月16日现场表演同一源盘、两位求测者、会后补充与后来出版按语同一家族，避免同盘跨目标划分泄漏"
+    },
+    "existing_event_links": [
+      {
+        "existing_event_key": "appendix-demo-publication",
+        "existing_event_id": "event-f1614748d2320ad62e8a4ad14e65c9af3dc825fdd13b84de49a9c4fd800972d5",
+        "existing_family_id": "family-06659008ffb3141673b64b6c6ce84b0d01dc4649953a444d1d20a8554353479d",
+        "existing_chart_ids": [
+          "chart-51a3509edea59beb09a82dbc3e496a35ffd2be97caae2d246d2ba086699b490f"
+        ]
+      },
+      {
+        "existing_event_key": "appendix-demo-accident",
+        "existing_event_id": "event-5a5c9c0297bc5bf83fd19b7fe28d118ea14dc6e37f3746864aeb7d6d79516970",
+        "existing_family_id": "family-06659008ffb3141673b64b6c6ce84b0d01dc4649953a444d1d20a8554353479d",
+        "existing_chart_ids": [
+          "chart-28ef2c4a03ec026666dd8dbf63b8a19f6669c64c59e4029eba274df56fa999b4"
+        ]
+      }
+    ],
+    "existing_source_selector": {
+      "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+      "line_start": 172,
+      "line_end": 276,
+      "byte_start": 34463,
+      "byte_end": 48021,
+      "source_quote": "三  、第 九 届 周 易 与 现代化国际研讨会\r\n\r\n数理奇门现场预测表演纪实\r\n\r\n杜新会\r\n\r\n河南安阳是中国七大古都中的第一都，是商代后期都城，这 里既有出土甲骨文的殷墟博物院，又有文王演周易的羑里城，是 归藏易和周易的发源地。\r\n自1989年以来，安阳周易研究会与国际易经学会、中华炎黄 文化研究会等学术团体合作， 一年一届举行周易与现代化的国际 学术研讨会。1998年9月15—18日在这里召开了第九届周易与 现代化国际研讨会。\r\n这届会议规模最大，人数最多，有来自澳大利亚、美国、德 国、法国、俄罗斯、韩国以及台湾地区、香港特别行政区和大陆 除西藏、青海以外各省、市的易学专家、研究者五百余人。河北 省周易研究会在张志春会长的率领下，组团参加，我作为研究会 理事，也荣幸地出席了这届大会。\r\n会议期间，在张会长带领下，河北省的代表不仅一一汇报了 大家研究的成果，而且在9月16日晚上，经大会会务组安排，由\r\n \r\n\r\n张会长做了有关奇门遁甲的专场学术报告，最后安排我进行现场 公开预测表演。\r\n说实话，来之前，张会长提出让我准备在大会上进行现场预 测表演，以便充分展示我们河北省周易研究会致力于易学现代化、 科学化的成果，虽然我信心十足，但紧张和精神压力还是不小的， 因为在国际性的易学大会上从来还没见过哪一个易学研究者敢公  开进行现场预测表演，何况这一次大会又是人数最多、规模最大  的一次呢!作为张会长的学生，张会长敢于作出这样的安排，百  分之八十的把握肯定是有的。再者，张会长讲得清楚，既然作为  学术研究，就同任何科研一样，不怕失败。我们绝不故弄玄虚， 而是实事求是的进行科学实验，如果是真理，就不怕实践检验。\r\n16日晚8时，奇门遁甲专场学术报告会在阳光宾馆三楼大会 议室准时开始，国家一级演员、电视连续剧《三国演义》中司马 懿和《水浒传》中高俅的扮演者魏宗万先生，天津大学建筑系教 授、中国易学堪舆研究院院长亢亮先生也前来助兴。今天会场不 但座无虚席，而且后边还站着好多人前来听课。\r\n张志春会长从科学角度，深入浅出地讲解了奇门遁甲的推演 原理，以及为什么说它是高层次的预测学，并首先以第二次世界  大战为例，用奇门遁甲演局验证攻守双方的胜负；尔后又以张会  长和我受有关部门的邀请到某大城市预测抢劫银行大案的实例， 说明了奇门遁甲在现实社会中的应用价值。张会长讲到9点半左 右停了下来。为了证明奇门遁甲的科学性，张会长向大会宣布：\r\n“下面由我们研究会的理事杜新会先生做现场预测表演。测  准了，大家也不要认为我们水平高；测错了，说明我们水平低， 请大家原谅(掌声)。在场的人员谁都可以预测，但因时间关系， 只限两人。下面表演开始，谁预测?”\r\n张会长的话音刚落，哗的一下，会场内站起二十多人，还有\r\n \r\n\r\n一部分坐着举手的。张会长站起来，对着举手的代表随便用手指 了会场东侧一位戴眼镜的男同志，又指了西南角一位中年男子。\r\n我坐在主席台上，也不知道这二位测什么事。东侧戴眼镜的 同志操着一 口湖北话，首先说：  “我想预测一下。我写了三本 书 ，这三本书能不能出版?”\r\n我看一下手中事先起好的奇门格局，张口就答：“先说你这 三部书的写作质量，应属中上等水平，这三本书只能出版一本， 另两本不能出版。”\r\n我目视这位求测者，整个会场听众的眼光也都投向了这位先 生，等待他的评判。但他没下定语，而是又问：“我写的这三部 书，第一部叫《中国方术大师传奇》,第二部是《易数应用学 “梅易”新编》,第三部是《三元九星阳宅学》,我想问，这三部 书哪本能出版?”\r\n他的话音刚落，我立即答道：“你讲的时候我已看了格局， 第一本书可以出版，因为第一本书遇到开门了，开门生你，门开 了，当然你的书就能出了。第二本、第三本出版不了。”\r\n实际上这位先生当时说的书名，我根本没听清，只是根据他 说的第一、第二、第三的数字为依据来预测的。\r\n“我再问一下，我这本书要出版，从哪个方向找贵人帮忙?”\r\n“从你家的北方或东北方找人帮忙比较好，到南方找人，人 家要你钱。”\r\n“我的书稿出版社已经看过，他们的意见也是只有第一本书 能出版，你的预测完全正确!”\r\n全场热烈鼓掌，我赶紧站起来向大家致谢。\r\n掌声还没落，会场中间突然站起来一位中年女同志，右臂高 举，示意发言，而且要求很强烈。我心想，不是大会宣布只测两 个人，怎么又冒出来一个?张会长也不清楚，看到她一副迫切的\r\n \r\n\r\n样子，对她说：“你讲吧。”\r\n“我是浙江文艺出版社的编辑，他的书稿我看过了，我证明， 他的第一部书稿符合出版条件。预测非常准确。”\r\n大家又报以热烈掌声。\r\n第二位要求预测的人是位中年男人，操着河南口音说：“我 想测测我的家庭和我有什么事?”\r\n嗬!这个问题提的面够宽的，公开表演有点无从下手，我心 里边想边低头看奇门局。这位男同志站立在会场后边的西南角， 局上为坤宫，宫中有景门，景门主血光，“血光”这两个字刚在 脑子里一闪，立刻又被对方提的家庭两字给挡住了。大会表演容 不得仔细分析，我对着话筒说：\r\n“我说错了，请你批评，你提的问题可能是因小辈或下级的原  因而引起了官讼，造成了破财，我所说的破财是指各方面的破财。”\r\n整个会场的人把目光都投到这位提问者的身上，全场鸦雀无 声，我满指望对方说上一句“测得对”,但对方抬起右手，在胸 前左右摆了摆。\r\n“不对?”我问他，他表示赞同，并说：“我今天主要是想测 测我本人的事。”\r\n测本人，我毫不犹豫地答道：“在道路上发生了车祸，伤及 的位置在身体的左侧腰部和胳膊上，而且还流了血(我边说边用 我自己的身体示意伤及的部位，并用手指着他的左侧)。这次如 果测错了，你公布实情，我就承认测错了。”\r\n这次这位男子很快做出了反应，并显得有些激动，抬起左 臂，右手指着腰部说：“我今年二月初四坐汽车出去，翻了车， 第八根肋条骨折，左胳膊也流了不少血，测得非常对。”\r\n又是一阵热烈的掌声，我站起来向大家致谢。\r\n这时张会长宣布：“表演到此结束。下边请魏宗万先生为大\r\n \r\n\r\n家表演节目。”\r\n可能是紧张的原因，大会表演中发言的三位同志，会后我都 记不清是谁了。我本想找他们再核对一下会上没说的情况，但由 于不知人家姓名，一时难以寻找。正在发愁，没想到，会后他们 三个人都主动找我来了。\r\n首先来的是写书的那位戴眼镜的先生，原来这位先生是湖北 省荆州市委党校张贵河副教授，他称赞我“所测各点皆极精确”, 并表示今后一定要学会奇门遁甲。\r\n第二个找我的是浙江文艺出版社编辑蔚然(笔名)女士，她 交给我一封信，信是这样写的：\r\n\r\n杜老师：您好!\r\n我参加会议的第一天，湖北荆州党校的张贵河老师就来找 我，询问我所在的出版社能否接受他写的三部书稿(顺便说一  句，我与他素不相识，他是从会议名册上知道我的)。我答应看  了书稿再说。两天后的晚上，也即奇门遁甲讲演会召开前的一小 时，张贵河老师前来询问结果，我告诉他，三部书稿中比较符合  出版标准，最有可能出版的只有一种：《中国方术大师传奇》。 这部书稿质量较好，显示作者有一定水平……此后不久，我们便  去参加奇门遁甲讲演会。会上，张贵河老师当众向您询问他的三  部书稿能否出版，您用奇门遁甲的方法演算后明确告诉他：三部  书稿中，只有第一本(即《中国方术大师传奇》)有出版之可能， 该书稿质量属中上等水平，且只可能在北方的出版社出版，不可  能在南方的出版社出版。此结果与我和张老师的谈话情况完全吻 合，而您是不可能知道我们的谈话内容的，因为我们在会前都不 认识您。更何况整个演算过程只用了一两分钟。奇门遁甲的神奇、 快速，真令我大感惊讶，于是便忍不住站起来说明了您的判断\r\n \r\n\r\n\r\n\r\n458                                                                                                                神 奇 之 门\r\n\r\n的正确。这是一次成功的演示。事实证明，奇门遁甲无愧于“中 国方术之王”的称号，是中国传统文化中的一朵奇葩，是值得我 们学习、继承并发展的。\r\n蔚然\r\n1998年9月18日\r\n\r\n第三个找我的是出车祸的代表，他叫王成周，是河南省林州 市任村镇牛岭山村人、林州市周易研究会会员。他说：“那天大 会表演，说我引起了官讼，破了财，我是破了三千元左右。我主 要是想看看奇门遁甲能不能测出我出车祸的事。”\r\n我讲：“你们翻车是在春天，死了两个人，不知对不对?”\r\n王说：“死俩伤仨，你又测准了。杜老师，我也不是奉承你 们河北，这回你们河北的奇门遁甲真是叫响了，在这几百人的会 上敢公开表演，说明你们是真奇门遁甲。”\r\n下面让我们具体看一下那天晚上九点半时的奇门格局：\r\n1998年9月16日21时30分，干支历为戊寅年辛酉月丙寅 日己亥时，白露上元，阴9局，甲午旬，天心星值符，开门值使。\r\n地\r\n伤乙 任癸\t武\r\n杜丁 冲戊\t虎  景癸\r\n辅丙\r\n天\r\n生乙 蓬丁\t\r\n\r\n\r\n壬\t合  死戊\r\n英庚\r\n符\r\n休辛 心己\t蛇\r\n开庚 柱乙\t阴 壬惊丙\r\n芮辛\r\n\r\n \r\n\r\n我当时是这样分析判断的：\r\n(一)对第一个人的预测：\r\n(1)为什么断三本书只能出版一本?\r\n该人位于大会场的东侧，奇门局上为震3宫的位置；景门代 表所写的书，现景门落坤2宫，宫中有天辅文曲星，又上乘白虎 及丙奇，文章应属上乘，但天盘癸入墓及癸加壬凶格，那么再来 判断其文章的写作质量必定是属于中上等水平。\r\n既然书的写作水平属中上等，为什么断三本书稿只能出版一本 呢?景门为书稿，落坤2宫为两本，开门为出版社落坎1宫，现景 门落宫土来克开门落宫水，断有两本不能出版。另外，震宫代表预 测人，属木，克景门落宫土，也主只能出一本，另两本不能出版。\r\n(2)三本书稿中哪本能出版呢?\r\n前边我已断出只能出版一本，而后他又说了三本书名，问哪 本能出。他说第一本，我就看1宫，1宫中逢开门吉门，又生他 所在的震3宫，断第一本书能出。他说第二本，我就看2宫，2  宫克开门出版社，又受3宫之克，必然出版不了。他说第三本， 我看3宫和景门书稿落宫的关系，3宫克景门落宫，也出版不了。\r\n(3)从哪个方向找人帮忙能出版呢?\r\n预测人位于震3宫，北方逢开门，是指北方的出版社大门开  着，开门落坎宫属水，生预测人，所以说可以到北方找人帮忙。 3宫属木，克艮8宫土，宫中有值符吉神和休门吉门及天心吉星， 也可以到他所克制的艮方，即东北方去找人。\r\n为什么不能到南方和其他方向呢?因为别的方向不是克预测 人的震3宫，就是格局不好。如到南方，则看离宫，宫中逢杜 门，杜门主闭塞不通，表明出版社之门不畅通，上乘玄武，又有 地盘甲子戊，戊为钱财落离宫受冲，必破财，所以也不能到南方 的出版社。\r\n \r\n\r\n(二)对第二个人的预测：\r\n(1)为什么说他在道路上遇到了车祸?\r\n预测人位于会场的西南角，奇门格局上对应的是坤2宫，宫 中白虎主刑伤、主道路，景门主血光，说明在道路上有血光之灾。 怎么造成的呢?第一看旬空之宫，因为旬空则藏有玄机。现巽4宫 旬空，宫中有伤门，伤门主车辆，车辆宫克预测人宫，必是车祸。\r\n从另一个角度看，预测人位于坤宫，天盘癸为预测人现状， 地盘癸为以前的状态。现地盘癸落巽4宫，也是伤门宫克预测人 宫，为车祸。何时出车祸，春天木旺才能克预测人之宫，故断春 天出的车祸。\r\n(2)伤及的部位是怎样断的?\r\n死门主伤疤，落兑7宫，为左腰部，宫中戊加庚为“值符飞  宫”凶事更凶，死门又主死人，落兑宫主二数，故断死二人。景门 主血光，落坤2宫为左胳膊，上乘白虎主道路伤灾，必伤及左胳膊。\r\n一张志春按：湖北荆州市委党校张贵河副教授的第一部书稿《中 国方术大师传奇》,2000年2月改名为《中国异人传奇》由北方的花 山文艺出版社出版。为此，表演预测中所测诸事全部应验\r\n"
+    },
+    "new_source_selector": {
+      "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+      "line_start": 1,
+      "line_end": 140,
+      "byte_start": 0,
+      "byte_end": 15047,
+      "source_quote": "三、第九届周易与现代化国际研讨会\n\n数理奇门现场预测表演纪实\n\n杜新会\n\n河南安阳是中国七大古都中的第一都，是商代后期都城，这里既有出土甲骨文的殷墟博物院，又有文王演周易的羑里城，是归藏易和周易的发源地。\n\n自1989年以来，安阳周易研究会与国际易经学会、中华炎黄文化研究会等学术团体合作，一年一届举行周易与现代化的国际学术研讨会。1998年9月15—18日在这里召开了第九届周易与现代化国际研讨会。\n\n这届会议规模最大，人数最多，有来自澳大利亚、美国、德国、法国、俄罗斯、韩国以及台湾地区、香港特别行政区和大陆除西藏、青海以外各省、市的易学专家、研究者五百余人。河北省周易研究会在张志春会长的率领下，组团参加，我作为研究会理事，也荣幸地出席了这届大会。\n\n会议期间，在张会长带领下，河北省的代表不仅一一汇报了大家研究的成果，而且在9月16日晚上，经大会会务组安排，由张会长做了有关奇门遁甲的专场学术报告，最后安排我进行现场公开预测表演。\n\n说实话，来之前，张会长提出让我准备在大会上进行现场预测表演，以便充分展示我们河北省周易研究会致力于易学现代化、科学化的成果，虽然我信心十足，但紧张和精神压力还是不小的，因为在国际性的易学大会上从来还没见过哪一个易学研究者敢公开进行现场预测表演，何况这一次大会又是人数最多、规模最大的一次呢!作为张会长的学生，张会长敢于作出这样的安排，百分之八十的把握肯定是有的。再者，张会长讲得清楚，既然作为学术研究，就同任何科研一样，不怕失败。我们绝不故弄玄虚，而是实事求是的进行科学实验，如果是真理，就不怕实践检验。\n\n16日晚8时，奇门遁甲专场学术报告会在阳光宾馆三楼大会议室准时开始，国家一级演员、电视连续剧《三国演义》中司马懿和《水浒传》中高俅的扮演者魏宗万先生，天津大学建筑系教授、中国易学堪舆研究院院长亢亮先生也前来助兴。今天会场不但座无虚席，而且后边还站着好多人前来听课。\n\n张志春会长从科学角度，深入浅出地讲解了奇门遁甲的推演原理，以及为什么说它是高层次的预测学，并首先以第二次世界大战为例，用奇门遁甲演局验证攻守双方的胜负；尔后又以张会长和我受有关部门的邀请到某大城市预测抢劫银行大案的实例，说明了奇门遁甲在现实社会中的应用价值。张会长讲到9点半左右停了下来。为了证明奇门遁甲的科学性，张会长向大会宣布：\n\n“下面由我们研究会的理事杜新会先生做现场预测表演。测准了，大家也不要认为我们水平高；测错了，说明我们水平低，请大家原谅(掌声)。在场的人员谁都可以预测，但因时间关系，只限两人。下面表演开始，谁预测?”\n\n张会长的话音刚落，哗的一下，会场内站起二十多人，还有一部分坐着举手的。张会长站起来，对着举手的代表随便用手指了会场东侧一位戴眼镜的男同志，又指了西南角一位中年男子。\n\n我坐在主席台上，也不知道这二位测什么事。东侧戴眼镜的同志操着一口湖北话，首先说：“我想预测一下。我写了三本书，这三本书能不能出版?”\n\n我看一下手中事先起好的奇门格局，张口就答：“先说你这三部书的写作质量，应属中上等水平，这三本书只能出版一本，另两本不能出版。”\n\n我目视这位求测者，整个会场听众的眼光也都投向了这位先生，等待他的评判。但他没下定语，而是又问：“我写的这三部书，第一部叫《中国方术大师传奇》,第二部是《易数应用学“梅易”新编》,第三部是《三元九星阳宅学》,我想问，这三部书哪本能出版?”\n\n他的话音刚落，我立即答道：“你讲的时候我已看了格局，第一本书可以出版，因为第一本书遇到开门了，开门生你，门开了，当然你的书就能出了。第二本、第三本出版不了。”\n\n实际上这位先生当时说的书名，我根本没听清，只是根据他说的第一、第二、第三的数字为依据来预测的。\n\n“我再问一下，我这本书要出版，从哪个方向找贵人帮忙?”\n\n“从你家的北方或东北方找人帮忙比较好，到南方找人，人家要你钱。”\n\n“我的书稿出版社已经看过，他们的意见也是只有第一本书能出版，你的预测完全正确!”\n\n全场热烈鼓掌，我赶紧站起来向大家致谢。\n\n掌声还没落，会场中间突然站起来一位中年女同志，右臂高举，示意发言，而且要求很强烈。我心想，不是大会宣布只测两个人，怎么又冒出来一个?张会长也不清楚，看到她一副迫切的样子，对她说：“你讲吧。”\n\n“我是浙江文艺出版社的编辑，他的书稿我看过了，我证明，他的第一部书稿符合出版条件。预测非常准确。”\n\n大家又报以热烈掌声。\n\n第二位要求预测的人是位中年男人，操着河南口音说：“我想测测我的家庭和我有什么事?”\n\n嗬!这个问题提的面够宽的，公开表演有点无从下手，我心里边想边低头看奇门局。这位男同志站立在会场后边的西南角，局上为坤宫，宫中有景门，景门主血光，“血光”这两个字刚在脑子里一闪，立刻又被对方提的家庭两字给挡住了。大会表演容不得仔细分析，我对着话筒说：\n\n“我说错了，请你批评，你提的问题可能是因小辈或下级的原因而引起了官讼，造成了破财，我所说的破财是指各方面的破财。”\n\n整个会场的人把目光都投到这位提问者的身上，全场鸦雀无声，我满指望对方说上一句“测得对”,但对方抬起右手，在胸前左右摆了摆。\n\n“不对?”我问他，他表示赞同，并说：“我今天主要是想测测我本人的事。”\n\n测本人，我毫不犹豫地答道：“在道路上发生了车祸，伤及的位置在身体的左侧腰部和胳膊上，而且还流了血(我边说边用我自己的身体示意伤及的部位，并用手指着他的左侧)。这次如果测错了，你公布实情，我就承认测错了。”\n\n这次这位男子很快做出了反应，并显得有些激动，抬起左臂，右手指着腰部说：“我今年二月初四坐汽车出去，翻了车，第八根肋条骨折，左胳膊也流了不少血，测得非常对。”\n\n又是一阵热烈的掌声，我站起来向大家致谢。\n\n这时张会长宣布：“表演到此结束。下边请魏宗万先生为大家表演节目。”\n\n可能是紧张的原因，大会表演中发言的三位同志，会后我都记不清是谁了。我本想找他们再核对一下会上没说的情况，但由于不知人家姓名，一时难以寻找。正在发愁，没想到，会后他们三个人都主动找我来了。\n\n首先来的是写书的那位戴眼镜的先生，原来这位先生是湖北省荆州市委党校张贵河副教授，他称赞我“所测各点皆极精确”,并表示今后一定要学会奇门遁甲。\n\n第二个找我的是浙江文艺出版社编辑蔚然(笔名)女士，她交给我一封信，信是这样写的：\n\n杜老师：您好!\n\n我参加会议的第一天，湖北荆州党校的张贵河老师就来找我，询问我所在的出版社能否接受他写的三部书稿(顺便说一句，我与他素不相识，他是从会议名册上知道我的)。我答应看了书稿再说。两天后的晚上，也即奇门遁甲讲演会召开前的一小时，张贵河老师前来询问结果，我告诉他，三部书稿中比较符合出版标准，最有可能出版的只有一种：《中国方术大师传奇》。这部书稿质量较好，显示作者有一定水平……此后不久，我们便去参加奇门遁甲讲演会。会上，张贵河老师当众向您询问他的三部书稿能否出版，您用奇门遁甲的方法演算后明确告诉他：三部书稿中，只有第一本(即《中国方术大师传奇》)有出版之可能，该书稿质量属中上等水平，且只可能在北方的出版社出版，不可能在南方的出版社出版。此结果与我和张老师的谈话情况完全吻合，而您是不可能知道我们的谈话内容的，因为我们在会前都不认识您。更何况整个演算过程只用了一两分钟。奇门遁甲的神奇、快速，真令我大感惊讶，于是便忍不住站起来说明了您的判断的正确。这是一次成功的演示。事实证明，奇门遁甲无愧于“中国方术之王”的称号，是中国传统文化中的一朵奇葩，是值得我们学习、继承并发展的。\n\n蔚然\n\n1998年9月18日\n\n第三个找我的是出车祸的代表，他叫王成周，是河南省林州市任村镇牛岭山村人、林州市周易研究会会员。他说：“那天大会表演，说我引起了官讼，破了财，我是破了三千元左右。我主要是想看看奇门遁甲能不能测出我出车祸的事。”\n\n我讲：“你们翻车是在春天，死了两个人，不知对不对?”\n\n王说：“死俩伤仨，你又测准了。杜老师，我也不是奉承你们河北，这回你们河北的奇门遁甲真是叫响了，在这几百人的会上敢公开表演，说明你们是真奇门遁甲。”\n\n下面让我们具体看一下那天晚上九点半时的奇门格局：\n\n1998年9月16日21时30分，干支历为戊寅年辛酉月丙寅日己亥时，白露上元，阴9局，甲午旬，天心星值符，开门值使。\n\n九宫盘面（根据提供的文字原盘重排）：\n┌──────────────────────┬──────────────────────┬──────────────────────┐\n│巽四宫                │离九宫                │坤二宫                │\n│八神：地              │八神：武              │八神：虎              │\n│门位：伤乙            │门位：杜丁            │门位：景癸            │\n│星位：任癸            │星位：冲戊            │星位：辅丙            │\n├──────────────────────┼──────────────────────┼──────────────────────┤\n│震三宫                │中五宫                │兑七宫                │\n│八神：天              │八神：—               │八神：合              │\n│门位：生乙            │中宫原文：壬          │门位：死戊            │\n│星位：蓬丁            │星位：—               │星位：英庚            │\n├──────────────────────┼──────────────────────┼──────────────────────┤\n│艮八宫                │坎一宫                │乾六宫                │\n│八神：符              │八神：蛇              │八神：阴              │\n│门位：休辛            │门位：开庚            │门位：壬惊丙          │\n│星位：心己            │星位：柱乙            │星位：芮辛            │\n└──────────────────────┴──────────────────────┴──────────────────────┘\n我当时是这样分析判断的：\n\n(一)对第一个人的预测：\n\n(1)为什么断三本书只能出版一本?\n\n该人位于大会场的东侧，奇门局上为震3宫的位置；景门代表所写的书，现景门落坤2宫，宫中有天辅文曲星，又上乘白虎及丙奇，文章应属上乘，但天盘癸入墓及癸加壬凶格，那么再来判断其文章的写作质量必定是属于中上等水平。\n\n既然书的写作水平属中上等，为什么断三本书稿只能出版一本呢?景门为书稿，落坤2宫为两本，开门为出版社落坎1宫，现景门落宫土来克开门落宫水，断有两本不能出版。另外，震宫代表预测人，属木，克景门落宫土，也主只能出一本，另两本不能出版。\n\n(2)三本书稿中哪本能出版呢?\n\n前边我已断出只能出版一本，而后他又说了三本书名，问哪本能出。他说第一本，我就看1宫，1宫中逢开门吉门，又生他所在的震3宫，断第一本书能出。他说第二本，我就看2宫，2宫克开门出版社，又受3宫之克，必然出版不了。他说第三本，我看3宫和景门书稿落宫的关系，3宫克景门落宫，也出版不了。\n\n(3)从哪个方向找人帮忙能出版呢?\n\n预测人位于震3宫，北方逢开门，是指北方的出版社大门开着，开门落坎宫属水，生预测人，所以说可以到北方找人帮忙。3宫属木，克艮8宫土，宫中有值符吉神和休门吉门及天心吉星，也可以到他所克制的艮方，即东北方去找人。\n\n为什么不能到南方和其他方向呢?因为别的方向不是克预测人的震3宫，就是格局不好。如到南方，则看离宫，宫中逢杜门，杜门主闭塞不通，表明出版社之门不畅通，上乘玄武，又有地盘甲子戊，戊为钱财落离宫受冲，必破财，所以也不能到南方的出版社。\n\n(二)对第二个人的预测：\n\n(1)为什么说他在道路上遇到了车祸?\n\n预测人位于会场的西南角，奇门格局上对应的是坤2宫，宫中白虎主刑伤、主道路，景门主血光，说明在道路上有血光之灾。怎么造成的呢?第一看旬空之宫，因为旬空则藏有玄机。现巽4宫旬空，宫中有伤门，伤门主车辆，车辆宫克预测人宫，必是车祸。\n\n从另一个角度看，预测人位于坤宫，天盘癸为预测人现状，地盘癸为以前的状态。现地盘癸落巽4宫，也是伤门宫克预测人宫，为车祸。何时出车祸，春天木旺才能克预测人之宫，故断春天出的车祸。\n\n(2)伤及的部位是怎样断的?\n\n死门主伤疤，落兑7宫，为左腰部，宫中戊加庚为“值符飞宫”凶事更凶，死门又主死人，落兑宫主二数，故断死二人。景门主血光，落坤2宫为左胳膊，上乘白虎主道路伤灾，必伤及左胳膊。\n\n一张志春按：湖北荆州市委党校张贵河副教授的第一部书稿《中国方术大师传奇》,2000年2月改名为《中国异人传奇》由北方的花山文艺出版社出版。为此，表演预测中所测诸事全部应验\n"
+    },
+    "event_record_alignments": [
+      {
+        "existing_event_key": "appendix-demo-publication",
+        "existing_record_key": "appendix-publication-lines-193-193",
+        "existing_record_id": "record-f159a144523c6300c2fc4eb09b7e89928c7f567635c8716e2d9e32a3a5ada515",
+        "kind": "dialogue",
+        "knowledge_phase": "pre_prediction",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 193,
+          "line_end": 193,
+          "byte_start": 37924,
+          "byte_end": 38128,
+          "source_quote": "我坐在主席台上，也不知道这二位测什么事。东侧戴眼镜的 同志操着一 口湖北话，首先说：  “我想预测一下。我写了三本 书 ，这三本书能不能出版?”\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 25,
+          "line_end": 25,
+          "byte_start": 3393,
+          "byte_end": 3590,
+          "source_quote": "我坐在主席台上，也不知道这二位测什么事。东侧戴眼镜的同志操着一口湖北话，首先说：“我想预测一下。我写了三本书，这三本书能不能出版?”\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-publication",
+        "existing_record_key": "appendix-publication-lines-194-194",
+        "existing_record_id": "record-2e7d6ced75b77ce407c7926e918ba376632ffc862c3f204df2553a5ba62c8bc0",
+        "kind": "prediction",
+        "knowledge_phase": "prediction",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 194,
+          "line_end": 194,
+          "byte_start": 38128,
+          "byte_end": 38321,
+          "source_quote": "我看一下手中事先起好的奇门格局，张口就答：“先说你这 三部书的写作质量，应属中上等水平，这三本书只能出版一本， 另两本不能出版。”\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 27,
+          "line_end": 27,
+          "byte_start": 3591,
+          "byte_end": 3781,
+          "source_quote": "我看一下手中事先起好的奇门格局，张口就答：“先说你这三部书的写作质量，应属中上等水平，这三本书只能出版一本，另两本不能出版。”\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-publication",
+        "existing_record_key": "appendix-publication-lines-195-195",
+        "existing_record_id": "record-74f7eda28bd5ad7254ae49220f3d5bb3a08322c0792ec7aa8da920125155e366",
+        "kind": "dialogue",
+        "knowledge_phase": "prediction",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 195,
+          "line_end": 195,
+          "byte_start": 38321,
+          "byte_end": 38673,
+          "source_quote": "我目视这位求测者，整个会场听众的眼光也都投向了这位先 生，等待他的评判。但他没下定语，而是又问：“我写的这三部 书，第一部叫《中国方术大师传奇》,第二部是《易数应用学 “梅易”新编》,第三部是《三元九星阳宅学》,我想问，这三部 书哪本能出版?”\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 29,
+          "line_end": 29,
+          "byte_start": 3782,
+          "byte_end": 4129,
+          "source_quote": "我目视这位求测者，整个会场听众的眼光也都投向了这位先生，等待他的评判。但他没下定语，而是又问：“我写的这三部书，第一部叫《中国方术大师传奇》,第二部是《易数应用学“梅易”新编》,第三部是《三元九星阳宅学》,我想问，这三部书哪本能出版?”\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-publication",
+        "existing_record_key": "appendix-publication-lines-196-196",
+        "existing_record_id": "record-b6fe0ccbd3ec6919d68c0a63cfd486cb64d9e4f4ef2953285cca589b630afb3b",
+        "kind": "prediction",
+        "knowledge_phase": "prediction",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 196,
+          "line_end": 196,
+          "byte_start": 38673,
+          "byte_end": 38914,
+          "source_quote": "他的话音刚落，我立即答道：“你讲的时候我已看了格局， 第一本书可以出版，因为第一本书遇到开门了，开门生你，门开 了，当然你的书就能出了。第二本、第三本出版不了。”\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 31,
+          "line_end": 31,
+          "byte_start": 4130,
+          "byte_end": 4368,
+          "source_quote": "他的话音刚落，我立即答道：“你讲的时候我已看了格局，第一本书可以出版，因为第一本书遇到开门了，开门生你，门开了，当然你的书就能出了。第二本、第三本出版不了。”\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-publication",
+        "existing_record_key": "appendix-publication-lines-197-197",
+        "existing_record_id": "record-90d8f79fb026dc1dbf84b565b14d8a67d7a04810dc4e6f372ad9fb527073d8b3",
+        "kind": "role_selection",
+        "knowledge_phase": "prediction",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 197,
+          "line_end": 197,
+          "byte_start": 38914,
+          "byte_end": 39058,
+          "source_quote": "实际上这位先生当时说的书名，我根本没听清，只是根据他 说的第一、第二、第三的数字为依据来预测的。\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 33,
+          "line_end": 33,
+          "byte_start": 4369,
+          "byte_end": 4511,
+          "source_quote": "实际上这位先生当时说的书名，我根本没听清，只是根据他说的第一、第二、第三的数字为依据来预测的。\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-publication",
+        "existing_record_key": "appendix-publication-lines-198-198",
+        "existing_record_id": "record-d0a77a4f5c249f3f299aae2efefa5e399fb291c1644e83b32b3f697f7441d70b",
+        "kind": "dialogue",
+        "knowledge_phase": "prediction",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 198,
+          "line_end": 198,
+          "byte_start": 39058,
+          "byte_end": 39139,
+          "source_quote": "“我再问一下，我这本书要出版，从哪个方向找贵人帮忙?”\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 35,
+          "line_end": 35,
+          "byte_start": 4512,
+          "byte_end": 4592,
+          "source_quote": "“我再问一下，我这本书要出版，从哪个方向找贵人帮忙?”\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-publication",
+        "existing_record_key": "appendix-publication-lines-199-199",
+        "existing_record_id": "record-bc2b6ca11c97b1ca7b9a0aff3bac8567ac4a5649c1892a30a1685e6d48a51938",
+        "kind": "prediction",
+        "knowledge_phase": "prediction",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 199,
+          "line_end": 199,
+          "byte_start": 39139,
+          "byte_end": 39238,
+          "source_quote": "“从你家的北方或东北方找人帮忙比较好，到南方找人，人 家要你钱。”\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 37,
+          "line_end": 37,
+          "byte_start": 4593,
+          "byte_end": 4690,
+          "source_quote": "“从你家的北方或东北方找人帮忙比较好，到南方找人，人家要你钱。”\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-publication",
+        "existing_record_key": "appendix-publication-lines-200-200",
+        "existing_record_id": "record-fa428d5d54d534f36065dd25348816182881666a704f6fa4f3805ba2d010ffaa",
+        "kind": "feedback",
+        "knowledge_phase": "post_feedback",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 200,
+          "line_end": 200,
+          "byte_start": 39238,
+          "byte_end": 39359,
+          "source_quote": "“我的书稿出版社已经看过，他们的意见也是只有第一本书 能出版，你的预测完全正确!”\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 39,
+          "line_end": 39,
+          "byte_start": 4691,
+          "byte_end": 4810,
+          "source_quote": "“我的书稿出版社已经看过，他们的意见也是只有第一本书能出版，你的预测完全正确!”\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-publication",
+        "existing_record_key": "appendix-publication-lines-201-207",
+        "existing_record_id": "record-3e40a266d01903a24e3767fedbc0a2f0e8e72f512de71b90aeb832453774e354",
+        "kind": "feedback",
+        "knowledge_phase": "post_feedback",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 201,
+          "line_end": 207,
+          "byte_start": 39359,
+          "byte_end": 39894,
+          "source_quote": "全场热烈鼓掌，我赶紧站起来向大家致谢。\r\n掌声还没落，会场中间突然站起来一位中年女同志，右臂高 举，示意发言，而且要求很强烈。我心想，不是大会宣布只测两 个人，怎么又冒出来一个?张会长也不清楚，看到她一副迫切的\r\n \r\n\r\n样子，对她说：“你讲吧。”\r\n“我是浙江文艺出版社的编辑，他的书稿我看过了，我证明， 他的第一部书稿符合出版条件。预测非常准确。”\r\n大家又报以热烈掌声。\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 41,
+          "line_end": 47,
+          "byte_start": 4811,
+          "byte_end": 5335,
+          "source_quote": "全场热烈鼓掌，我赶紧站起来向大家致谢。\n\n掌声还没落，会场中间突然站起来一位中年女同志，右臂高举，示意发言，而且要求很强烈。我心想，不是大会宣布只测两个人，怎么又冒出来一个?张会长也不清楚，看到她一副迫切的样子，对她说：“你讲吧。”\n\n“我是浙江文艺出版社的编辑，他的书稿我看过了，我证明，他的第一部书稿符合出版条件。预测非常准确。”\n\n大家又报以热烈掌声。\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-publication",
+        "existing_record_key": "appendix-publication-lines-220-221",
+        "existing_record_id": "record-0b6e03c1c2edc06f5c29d84e6b1f6870b955a9d77a73d10e8df0bca5aacb6082",
+        "kind": "feedback",
+        "knowledge_phase": "post_feedback",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 220,
+          "line_end": 221,
+          "byte_start": 41575,
+          "byte_end": 42071,
+          "source_quote": "可能是紧张的原因，大会表演中发言的三位同志，会后我都 记不清是谁了。我本想找他们再核对一下会上没说的情况，但由 于不知人家姓名，一时难以寻找。正在发愁，没想到，会后他们 三个人都主动找我来了。\r\n首先来的是写书的那位戴眼镜的先生，原来这位先生是湖北 省荆州市委党校张贵河副教授，他称赞我“所测各点皆极精确”, 并表示今后一定要学会奇门遁甲。\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 67,
+          "line_end": 69,
+          "byte_start": 6995,
+          "byte_end": 7485,
+          "source_quote": "可能是紧张的原因，大会表演中发言的三位同志，会后我都记不清是谁了。我本想找他们再核对一下会上没说的情况，但由于不知人家姓名，一时难以寻找。正在发愁，没想到，会后他们三个人都主动找我来了。\n\n首先来的是写书的那位戴眼镜的先生，原来这位先生是湖北省荆州市委党校张贵河副教授，他称赞我“所测各点皆极精确”,并表示今后一定要学会奇门遁甲。\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-publication",
+        "existing_record_key": "appendix-publication-lines-222-234",
+        "existing_record_id": "record-429bcfbd3f7201b3430ffab81598697911a8d694cac2a17cd10e636afb554c50",
+        "kind": "feedback",
+        "knowledge_phase": "post_feedback",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 222,
+          "line_end": 234,
+          "byte_start": 42071,
+          "byte_end": 43853,
+          "source_quote": "第二个找我的是浙江文艺出版社编辑蔚然(笔名)女士，她 交给我一封信，信是这样写的：\r\n\r\n杜老师：您好!\r\n我参加会议的第一天，湖北荆州党校的张贵河老师就来找 我，询问我所在的出版社能否接受他写的三部书稿(顺便说一  句，我与他素不相识，他是从会议名册上知道我的)。我答应看  了书稿再说。两天后的晚上，也即奇门遁甲讲演会召开前的一小 时，张贵河老师前来询问结果，我告诉他，三部书稿中比较符合  出版标准，最有可能出版的只有一种：《中国方术大师传奇》。 这部书稿质量较好，显示作者有一定水平……此后不久，我们便  去参加奇门遁甲讲演会。会上，张贵河老师当众向您询问他的三  部书稿能否出版，您用奇门遁甲的方法演算后明确告诉他：三部  书稿中，只有第一本(即《中国方术大师传奇》)有出版之可能， 该书稿质量属中上等水平，且只可能在北方的出版社出版，不可  能在南方的出版社出版。此结果与我和张老师的谈话情况完全吻 合，而您是不可能知道我们的谈话内容的，因为我们在会前都不 认识您。更何况整个演算过程只用了一两分钟。奇门遁甲的神奇、 快速，真令我大感惊讶，于是便忍不住站起来说明了您的判断\r\n \r\n\r\n\r\n\r\n458                                                                                                                神 奇 之 门\r\n\r\n的正确。这是一次成功的演示。事实证明，奇门遁甲无愧于“中 国方术之王”的称号，是中国传统文化中的一朵奇葩，是值得我 们学习、继承并发展的。\r\n蔚然\r\n1998年9月18日\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 71,
+          "line_end": 79,
+          "byte_start": 7486,
+          "byte_end": 9096,
+          "source_quote": "第二个找我的是浙江文艺出版社编辑蔚然(笔名)女士，她交给我一封信，信是这样写的：\n\n杜老师：您好!\n\n我参加会议的第一天，湖北荆州党校的张贵河老师就来找我，询问我所在的出版社能否接受他写的三部书稿(顺便说一句，我与他素不相识，他是从会议名册上知道我的)。我答应看了书稿再说。两天后的晚上，也即奇门遁甲讲演会召开前的一小时，张贵河老师前来询问结果，我告诉他，三部书稿中比较符合出版标准，最有可能出版的只有一种：《中国方术大师传奇》。这部书稿质量较好，显示作者有一定水平……此后不久，我们便去参加奇门遁甲讲演会。会上，张贵河老师当众向您询问他的三部书稿能否出版，您用奇门遁甲的方法演算后明确告诉他：三部书稿中，只有第一本(即《中国方术大师传奇》)有出版之可能，该书稿质量属中上等水平，且只可能在北方的出版社出版，不可能在南方的出版社出版。此结果与我和张老师的谈话情况完全吻合，而您是不可能知道我们的谈话内容的，因为我们在会前都不认识您。更何况整个演算过程只用了一两分钟。奇门遁甲的神奇、快速，真令我大感惊讶，于是便忍不住站起来说明了您的判断的正确。这是一次成功的演示。事实证明，奇门遁甲无愧于“中国方术之王”的称号，是中国传统文化中的一朵奇葩，是值得我们学习、继承并发展的。\n\n蔚然\n\n1998年9月18日\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-publication",
+        "existing_record_key": "appendix-publication-lines-239-240",
+        "existing_record_id": "record-816a36e0144d44426b3d4c5b995c1f4f3c79d1c8471901faa41c1fed8282e43f",
+        "kind": "author_reasoning",
+        "knowledge_phase": "post_feedback",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 239,
+          "line_end": 240,
+          "byte_start": 44473,
+          "byte_end": 44700,
+          "source_quote": "下面让我们具体看一下那天晚上九点半时的奇门格局：\r\n1998年9月16日21时30分，干支历为戊寅年辛酉月丙寅 日己亥时，白露上元，阴9局，甲午旬，天心星值符，开门值使。\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 87,
+          "line_end": 89,
+          "byte_start": 9710,
+          "byte_end": 9935,
+          "source_quote": "下面让我们具体看一下那天晚上九点半时的奇门格局：\n\n1998年9月16日21时30分，干支历为戊寅年辛酉月丙寅日己亥时，白露上元，阴9局，甲午旬，天心星值符，开门值使。\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-publication",
+        "existing_record_key": "appendix-publication-lines-258-262",
+        "existing_record_id": "record-ea801043b3f407abe9507c0c16bdaaa23322643b0892da8c60a8f53247ae9fa6",
+        "kind": "author_reasoning",
+        "knowledge_phase": "post_feedback",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 258,
+          "line_end": 262,
+          "byte_start": 44877,
+          "byte_end": 45645,
+          "source_quote": "我当时是这样分析判断的：\r\n(一)对第一个人的预测：\r\n(1)为什么断三本书只能出版一本?\r\n该人位于大会场的东侧，奇门局上为震3宫的位置；景门代 表所写的书，现景门落坤2宫，宫中有天辅文曲星，又上乘白虎 及丙奇，文章应属上乘，但天盘癸入墓及癸加壬凶格，那么再来 判断其文章的写作质量必定是属于中上等水平。\r\n既然书的写作水平属中上等，为什么断三本书稿只能出版一本 呢?景门为书稿，落坤2宫为两本，开门为出版社落坎1宫，现景 门落宫土来克开门落宫水，断有两本不能出版。另外，震宫代表预 测人，属木，克景门落宫土，也主只能出一本，另两本不能出版。\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 108,
+          "line_end": 116,
+          "byte_start": 11939,
+          "byte_end": 12700,
+          "source_quote": "我当时是这样分析判断的：\n\n(一)对第一个人的预测：\n\n(1)为什么断三本书只能出版一本?\n\n该人位于大会场的东侧，奇门局上为震3宫的位置；景门代表所写的书，现景门落坤2宫，宫中有天辅文曲星，又上乘白虎及丙奇，文章应属上乘，但天盘癸入墓及癸加壬凶格，那么再来判断其文章的写作质量必定是属于中上等水平。\n\n既然书的写作水平属中上等，为什么断三本书稿只能出版一本呢?景门为书稿，落坤2宫为两本，开门为出版社落坎1宫，现景门落宫土来克开门落宫水，断有两本不能出版。另外，震宫代表预测人，属木，克景门落宫土，也主只能出一本，另两本不能出版。\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-publication",
+        "existing_record_key": "appendix-publication-lines-263-264",
+        "existing_record_id": "record-8e648e0a236172258359b7e00d546c3ab2d3f2f081f314b7829de3e638e203f0",
+        "kind": "author_reasoning",
+        "knowledge_phase": "post_feedback",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 263,
+          "line_end": 264,
+          "byte_start": 45645,
+          "byte_end": 46092,
+          "source_quote": "(2)三本书稿中哪本能出版呢?\r\n前边我已断出只能出版一本，而后他又说了三本书名，问哪 本能出。他说第一本，我就看1宫，1宫中逢开门吉门，又生他 所在的震3宫，断第一本书能出。他说第二本，我就看2宫，2  宫克开门出版社，又受3宫之克，必然出版不了。他说第三本， 我看3宫和景门书稿落宫的关系，3宫克景门落宫，也出版不了。\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 118,
+          "line_end": 120,
+          "byte_start": 12701,
+          "byte_end": 13142,
+          "source_quote": "(2)三本书稿中哪本能出版呢?\n\n前边我已断出只能出版一本，而后他又说了三本书名，问哪本能出。他说第一本，我就看1宫，1宫中逢开门吉门，又生他所在的震3宫，断第一本书能出。他说第二本，我就看2宫，2宫克开门出版社，又受3宫之克，必然出版不了。他说第三本，我看3宫和景门书稿落宫的关系，3宫克景门落宫，也出版不了。\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-publication",
+        "existing_record_key": "appendix-publication-lines-265-267",
+        "existing_record_id": "record-3c1328ef578fd1b88151325d7131cc3d3f5cd1e9cbb10a0d57835e1fa70327a2",
+        "kind": "author_reasoning",
+        "knowledge_phase": "post_feedback",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 265,
+          "line_end": 267,
+          "byte_start": 46092,
+          "byte_end": 46790,
+          "source_quote": "(3)从哪个方向找人帮忙能出版呢?\r\n预测人位于震3宫，北方逢开门，是指北方的出版社大门开  着，开门落坎宫属水，生预测人，所以说可以到北方找人帮忙。 3宫属木，克艮8宫土，宫中有值符吉神和休门吉门及天心吉星， 也可以到他所克制的艮方，即东北方去找人。\r\n为什么不能到南方和其他方向呢?因为别的方向不是克预测 人的震3宫，就是格局不好。如到南方，则看离宫，宫中逢杜 门，杜门主闭塞不通，表明出版社之门不畅通，上乘玄武，又有 地盘甲子戊，戊为钱财落离宫受冲，必破财，所以也不能到南方 的出版社。\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 122,
+          "line_end": 126,
+          "byte_start": 13143,
+          "byte_end": 13832,
+          "source_quote": "(3)从哪个方向找人帮忙能出版呢?\n\n预测人位于震3宫，北方逢开门，是指北方的出版社大门开着，开门落坎宫属水，生预测人，所以说可以到北方找人帮忙。3宫属木，克艮8宫土，宫中有值符吉神和休门吉门及天心吉星，也可以到他所克制的艮方，即东北方去找人。\n\n为什么不能到南方和其他方向呢?因为别的方向不是克预测人的震3宫，就是格局不好。如到南方，则看离宫，宫中逢杜门，杜门主闭塞不通，表明出版社之门不畅通，上乘玄武，又有地盘甲子戊，戊为钱财落离宫受冲，必破财，所以也不能到南方的出版社。\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-publication",
+        "existing_record_key": "appendix-publication-lines-276-276",
+        "existing_record_id": "record-4c7f404a3d98935a6e5282cf778e628cf7756fefe550c97141f03816944363c7",
+        "kind": "outcome",
+        "knowledge_phase": "post_feedback",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 276,
+          "line_end": 276,
+          "byte_start": 47774,
+          "byte_end": 48021,
+          "source_quote": "一张志春按：湖北荆州市委党校张贵河副教授的第一部书稿《中 国方术大师传奇》,2000年2月改名为《中国异人传奇》由北方的花 山文艺出版社出版。为此，表演预测中所测诸事全部应验\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 140,
+          "line_end": 140,
+          "byte_start": 14803,
+          "byte_end": 15047,
+          "source_quote": "一张志春按：湖北荆州市委党校张贵河副教授的第一部书稿《中国方术大师传奇》,2000年2月改名为《中国异人传奇》由北方的花山文艺出版社出版。为此，表演预测中所测诸事全部应验\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-accident",
+        "existing_record_key": "appendix-accident-lines-208-208",
+        "existing_record_id": "record-9a4c144a0b06090d652dda1a1b53af3e41c1a276d6804ce5ebf3ff1b9ef812fd",
+        "kind": "dialogue",
+        "knowledge_phase": "pre_prediction",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 208,
+          "line_end": 208,
+          "byte_start": 39894,
+          "byte_end": 40018,
+          "source_quote": "第二位要求预测的人是位中年男人，操着河南口音说：“我 想测测我的家庭和我有什么事?”\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 49,
+          "line_end": 49,
+          "byte_start": 5336,
+          "byte_end": 5458,
+          "source_quote": "第二位要求预测的人是位中年男人，操着河南口音说：“我想测测我的家庭和我有什么事?”\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-accident",
+        "existing_record_key": "appendix-accident-lines-209-209",
+        "existing_record_id": "record-bd83d13603e35c8a318813da4e2f4248c15bcf4092faf377aa7e658ea6ba7f9a",
+        "kind": "author_reasoning",
+        "knowledge_phase": "prediction",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 209,
+          "line_end": 209,
+          "byte_start": 40018,
+          "byte_end": 40394,
+          "source_quote": "嗬!这个问题提的面够宽的，公开表演有点无从下手，我心 里边想边低头看奇门局。这位男同志站立在会场后边的西南角， 局上为坤宫，宫中有景门，景门主血光，“血光”这两个字刚在 脑子里一闪，立刻又被对方提的家庭两字给挡住了。大会表演容 不得仔细分析，我对着话筒说：\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 51,
+          "line_end": 51,
+          "byte_start": 5459,
+          "byte_end": 5830,
+          "source_quote": "嗬!这个问题提的面够宽的，公开表演有点无从下手，我心里边想边低头看奇门局。这位男同志站立在会场后边的西南角，局上为坤宫，宫中有景门，景门主血光，“血光”这两个字刚在脑子里一闪，立刻又被对方提的家庭两字给挡住了。大会表演容不得仔细分析，我对着话筒说：\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-accident",
+        "existing_record_key": "appendix-accident-lines-210-210",
+        "existing_record_id": "record-43859735bee01ac30e44a0a37b88f14ccf3d5ff9d15ca709da929532626c7370",
+        "kind": "prediction",
+        "knowledge_phase": "prediction",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 210,
+          "line_end": 210,
+          "byte_start": 40394,
+          "byte_end": 40569,
+          "source_quote": "“我说错了，请你批评，你提的问题可能是因小辈或下级的原  因而引起了官讼，造成了破财，我所说的破财是指各方面的破财。”\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 53,
+          "line_end": 53,
+          "byte_start": 5831,
+          "byte_end": 6003,
+          "source_quote": "“我说错了，请你批评，你提的问题可能是因小辈或下级的原因而引起了官讼，造成了破财，我所说的破财是指各方面的破财。”\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-accident",
+        "existing_record_key": "appendix-accident-lines-211-212",
+        "existing_record_id": "record-ccbe16304c40844c37c84c2bc796f81f99994f57fc614c488a01cc8dfc760d8f",
+        "kind": "feedback",
+        "knowledge_phase": "post_feedback",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 211,
+          "line_end": 212,
+          "byte_start": 40569,
+          "byte_end": 40860,
+          "source_quote": "整个会场的人把目光都投到这位提问者的身上，全场鸦雀无 声，我满指望对方说上一句“测得对”,但对方抬起右手，在胸 前左右摆了摆。\r\n“不对?”我问他，他表示赞同，并说：“我今天主要是想测 测我本人的事。”\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 55,
+          "line_end": 57,
+          "byte_start": 6004,
+          "byte_end": 6291,
+          "source_quote": "整个会场的人把目光都投到这位提问者的身上，全场鸦雀无声，我满指望对方说上一句“测得对”,但对方抬起右手，在胸前左右摆了摆。\n\n“不对?”我问他，他表示赞同，并说：“我今天主要是想测测我本人的事。”\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-accident",
+        "existing_record_key": "appendix-accident-lines-213-213",
+        "existing_record_id": "record-4df58e057557726b74d10c9df0c5dc805a1a9b3c588f8ee344bdf2d5fda399d0",
+        "kind": "continuation",
+        "knowledge_phase": "post_feedback",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 213,
+          "line_end": 213,
+          "byte_start": 40860,
+          "byte_end": 41167,
+          "source_quote": "测本人，我毫不犹豫地答道：“在道路上发生了车祸，伤及 的位置在身体的左侧腰部和胳膊上，而且还流了血(我边说边用 我自己的身体示意伤及的部位，并用手指着他的左侧)。这次如 果测错了，你公布实情，我就承认测错了。”\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 59,
+          "line_end": 59,
+          "byte_start": 6292,
+          "byte_end": 6595,
+          "source_quote": "测本人，我毫不犹豫地答道：“在道路上发生了车祸，伤及的位置在身体的左侧腰部和胳膊上，而且还流了血(我边说边用我自己的身体示意伤及的部位，并用手指着他的左侧)。这次如果测错了，你公布实情，我就承认测错了。”\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-accident",
+        "existing_record_key": "appendix-accident-lines-214-214",
+        "existing_record_id": "record-31528a063a2be4b7c332778cde14878610bc802e0a66c16cac3c177ce5965766",
+        "kind": "feedback",
+        "knowledge_phase": "post_feedback",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 214,
+          "line_end": 214,
+          "byte_start": 41167,
+          "byte_end": 41405,
+          "source_quote": "这次这位男子很快做出了反应，并显得有些激动，抬起左 臂，右手指着腰部说：“我今年二月初四坐汽车出去，翻了车， 第八根肋条骨折，左胳膊也流了不少血，测得非常对。”\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 61,
+          "line_end": 61,
+          "byte_start": 6596,
+          "byte_end": 6831,
+          "source_quote": "这次这位男子很快做出了反应，并显得有些激动，抬起左臂，右手指着腰部说：“我今年二月初四坐汽车出去，翻了车，第八根肋条骨折，左胳膊也流了不少血，测得非常对。”\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-accident",
+        "existing_record_key": "appendix-accident-lines-215-219",
+        "existing_record_id": "record-7a7e3a239d029af6be6cf58048e04e350d12d8d5abc1b23e06322ab9f1a6a00d",
+        "kind": "feedback",
+        "knowledge_phase": "post_feedback",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 215,
+          "line_end": 219,
+          "byte_start": 41405,
+          "byte_end": 41575,
+          "source_quote": "又是一阵热烈的掌声，我站起来向大家致谢。\r\n这时张会长宣布：“表演到此结束。下边请魏宗万先生为大\r\n \r\n\r\n家表演节目。”\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 63,
+          "line_end": 65,
+          "byte_start": 6832,
+          "byte_end": 6994,
+          "source_quote": "又是一阵热烈的掌声，我站起来向大家致谢。\n\n这时张会长宣布：“表演到此结束。下边请魏宗万先生为大家表演节目。”\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-accident",
+        "existing_record_key": "appendix-accident-lines-220-220",
+        "existing_record_id": "record-2271828f3716700253a2120b1fa35c328ce6688f7cab7f57aa72de5fe99941cb",
+        "kind": "feedback",
+        "knowledge_phase": "post_feedback",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 220,
+          "line_end": 220,
+          "byte_start": 41575,
+          "byte_end": 41859,
+          "source_quote": "可能是紧张的原因，大会表演中发言的三位同志，会后我都 记不清是谁了。我本想找他们再核对一下会上没说的情况，但由 于不知人家姓名，一时难以寻找。正在发愁，没想到，会后他们 三个人都主动找我来了。\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 67,
+          "line_end": 67,
+          "byte_start": 6995,
+          "byte_end": 7275,
+          "source_quote": "可能是紧张的原因，大会表演中发言的三位同志，会后我都记不清是谁了。我本想找他们再核对一下会上没说的情况，但由于不知人家姓名，一时难以寻找。正在发愁，没想到，会后他们三个人都主动找我来了。\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-accident",
+        "existing_record_key": "appendix-accident-lines-236-236",
+        "existing_record_id": "record-d5fe779e4ea168d6c25a4df7b9055a1270a0ba989348550d4a90b328034d3a03",
+        "kind": "feedback",
+        "knowledge_phase": "post_feedback",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 236,
+          "line_end": 236,
+          "byte_start": 43855,
+          "byte_end": 44172,
+          "source_quote": "第三个找我的是出车祸的代表，他叫王成周，是河南省林州 市任村镇牛岭山村人、林州市周易研究会会员。他说：“那天大 会表演，说我引起了官讼，破了财，我是破了三千元左右。我主 要是想看看奇门遁甲能不能测出我出车祸的事。”\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 81,
+          "line_end": 81,
+          "byte_start": 9097,
+          "byte_end": 9410,
+          "source_quote": "第三个找我的是出车祸的代表，他叫王成周，是河南省林州市任村镇牛岭山村人、林州市周易研究会会员。他说：“那天大会表演，说我引起了官讼，破了财，我是破了三千元左右。我主要是想看看奇门遁甲能不能测出我出车祸的事。”\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-accident",
+        "existing_record_key": "appendix-accident-lines-237-237",
+        "existing_record_id": "record-725d4f9da53859c54f033ac3467ba43a886c0eda7786e2cbde0152fb0a482317",
+        "kind": "continuation",
+        "knowledge_phase": "post_feedback",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 237,
+          "line_end": 237,
+          "byte_start": 44172,
+          "byte_end": 44250,
+          "source_quote": "我讲：“你们翻车是在春天，死了两个人，不知对不对?”\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 83,
+          "line_end": 83,
+          "byte_start": 9411,
+          "byte_end": 9488,
+          "source_quote": "我讲：“你们翻车是在春天，死了两个人，不知对不对?”\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-accident",
+        "existing_record_key": "appendix-accident-lines-238-238",
+        "existing_record_id": "record-1f0124a9f786f176fb80a620a5c711c345732b7e8642f2d0a11f8089c4cf70d4",
+        "kind": "feedback",
+        "knowledge_phase": "post_feedback",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 238,
+          "line_end": 238,
+          "byte_start": 44250,
+          "byte_end": 44473,
+          "source_quote": "王说：“死俩伤仨，你又测准了。杜老师，我也不是奉承你 们河北，这回你们河北的奇门遁甲真是叫响了，在这几百人的会 上敢公开表演，说明你们是真奇门遁甲。”\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 85,
+          "line_end": 85,
+          "byte_start": 9489,
+          "byte_end": 9709,
+          "source_quote": "王说：“死俩伤仨，你又测准了。杜老师，我也不是奉承你们河北，这回你们河北的奇门遁甲真是叫响了，在这几百人的会上敢公开表演，说明你们是真奇门遁甲。”\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-accident",
+        "existing_record_key": "appendix-accident-lines-239-240",
+        "existing_record_id": "record-227a316aa1619e3687666dfc65f228615690117d8812e9e206940fdf39f01ed0",
+        "kind": "author_reasoning",
+        "knowledge_phase": "post_feedback",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 239,
+          "line_end": 240,
+          "byte_start": 44473,
+          "byte_end": 44700,
+          "source_quote": "下面让我们具体看一下那天晚上九点半时的奇门格局：\r\n1998年9月16日21时30分，干支历为戊寅年辛酉月丙寅 日己亥时，白露上元，阴9局，甲午旬，天心星值符，开门值使。\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 87,
+          "line_end": 89,
+          "byte_start": 9710,
+          "byte_end": 9935,
+          "source_quote": "下面让我们具体看一下那天晚上九点半时的奇门格局：\n\n1998年9月16日21时30分，干支历为戊寅年辛酉月丙寅日己亥时，白露上元，阴9局，甲午旬，天心星值符，开门值使。\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-accident",
+        "existing_record_key": "appendix-accident-lines-270-273",
+        "existing_record_id": "record-ee70cdd11130fd049c925cafdb6e1700a85a3fcf4c6050d4cd2456182194315e",
+        "kind": "author_reasoning",
+        "knowledge_phase": "post_feedback",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 270,
+          "line_end": 273,
+          "byte_start": 46795,
+          "byte_end": 47482,
+          "source_quote": "(二)对第二个人的预测：\r\n(1)为什么说他在道路上遇到了车祸?\r\n预测人位于会场的西南角，奇门格局上对应的是坤2宫，宫 中白虎主刑伤、主道路，景门主血光，说明在道路上有血光之灾。 怎么造成的呢?第一看旬空之宫，因为旬空则藏有玄机。现巽4宫 旬空，宫中有伤门，伤门主车辆，车辆宫克预测人宫，必是车祸。\r\n从另一个角度看，预测人位于坤宫，天盘癸为预测人现状， 地盘癸为以前的状态。现地盘癸落巽4宫，也是伤门宫克预测人 宫，为车祸。何时出车祸，春天木旺才能克预测人之宫，故断春 天出的车祸。\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 128,
+          "line_end": 134,
+          "byte_start": 13833,
+          "byte_end": 14513,
+          "source_quote": "(二)对第二个人的预测：\n\n(1)为什么说他在道路上遇到了车祸?\n\n预测人位于会场的西南角，奇门格局上对应的是坤2宫，宫中白虎主刑伤、主道路，景门主血光，说明在道路上有血光之灾。怎么造成的呢?第一看旬空之宫，因为旬空则藏有玄机。现巽4宫旬空，宫中有伤门，伤门主车辆，车辆宫克预测人宫，必是车祸。\n\n从另一个角度看，预测人位于坤宫，天盘癸为预测人现状，地盘癸为以前的状态。现地盘癸落巽4宫，也是伤门宫克预测人宫，为车祸。何时出车祸，春天木旺才能克预测人之宫，故断春天出的车祸。\n"
+        },
+        "old_record_unchanged": true
+      },
+      {
+        "existing_event_key": "appendix-demo-accident",
+        "existing_record_key": "appendix-accident-lines-274-275",
+        "existing_record_id": "record-190d5da258c693698b14f9c2ae2db7dbecf0b8ab447e419e86e1157f2265a15d",
+        "kind": "author_reasoning",
+        "knowledge_phase": "post_feedback",
+        "existing_source_selector": {
+          "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+          "line_start": 274,
+          "line_end": 275,
+          "byte_start": 47482,
+          "byte_end": 47774,
+          "source_quote": "(2)伤及的部位是怎样断的?\r\n死门主伤疤，落兑7宫，为左腰部，宫中戊加庚为“值符飞  宫”凶事更凶，死门又主死人，落兑宫主二数，故断死二人。景门 主血光，落坤2宫为左胳膊，上乘白虎主道路伤灾，必伤及左胳膊。\r\n"
+        },
+        "new_source_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 136,
+          "line_end": 138,
+          "byte_start": 14514,
+          "byte_end": 14802,
+          "source_quote": "(2)伤及的部位是怎样断的?\n\n死门主伤疤，落兑7宫，为左腰部，宫中戊加庚为“值符飞宫”凶事更凶，死门又主死人，落兑宫主二数，故断死二人。景门主血光，落坤2宫为左胳膊，上乘白虎主道路伤灾，必伤及左胳膊。\n"
+        },
+        "old_record_unchanged": true
+      }
+    ],
+    "comparison": {
+      "policy": "whitespace_removed_for_narrative_comparison_only; chart representations compared separately",
+      "excluded_old_source_lines": [
+        230,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254
+      ],
+      "excluded_new_source_lines": [
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107
+      ],
+      "normalized_narrative_equal": true,
+      "normalized_narrative_character_count": 4387,
+      "normalized_narrative_sha256": "c2fd96635823cde2bf3b1b56b0aa0aafe2c5ace879f577f0708a2bd5c53b8323",
+      "lexical_narrative_differences": []
+    },
+    "existing_sources_and_case_data_modified": false,
+    "new_case_or_event": false
+  },
+  "annotations": [
+    {
+      "category": "commentary",
+      "byte_start": 0,
+      "byte_end": 15047,
+      "locator": "demo_clean_source_occurrence；输入行1–140",
+      "payload": {
+        "kind": "context_group",
+        "key": "demo_clean_source_occurrence",
+        "title": "附录三精校来源：现场预测表演纪实",
+        "category": "commentary",
+        "line_start": 1,
+        "line_end": 140,
+        "printed_appendix_number": 3,
+        "attribution": "杜新会纪实，张志春末尾按语；会后编辑来信与当场反馈分别归属",
+        "summary": "叙事去空白及旧页眉后4387字符相同；保留同一完整故事、两目标原家族和30条时序对应，不复制案例或改原断；本附件另提供明确标为重排的九宫表，单独参考保存",
+        "concepts": [],
+        "source_relationship": {
+          "kind": "same_joint_case_narrative_with_user_supplied_chart_relayout",
+          "existing_chapter_key": "appendix-bundle",
+          "existing_case_id": "case-ea86d002d73e8c074ba86bccdab0a73833d4690b8dda2a7230547b15bfabe416",
+          "existing_case_key": "appendix-demo-19980916",
+          "existing_family": {
+            "family_key": "shenqi-appendix-demo-19980916-session",
+            "description": "1998年9月16日现场表演同一源盘、两位求测者、会后补充与后来出版按语同一家族，避免同盘跨目标划分泄漏"
+          },
+          "existing_event_links": [
+            {
+              "existing_event_key": "appendix-demo-publication",
+              "existing_event_id": "event-f1614748d2320ad62e8a4ad14e65c9af3dc825fdd13b84de49a9c4fd800972d5",
+              "existing_family_id": "family-06659008ffb3141673b64b6c6ce84b0d01dc4649953a444d1d20a8554353479d",
+              "existing_chart_ids": [
+                "chart-51a3509edea59beb09a82dbc3e496a35ffd2be97caae2d246d2ba086699b490f"
+              ]
+            },
+            {
+              "existing_event_key": "appendix-demo-accident",
+              "existing_event_id": "event-5a5c9c0297bc5bf83fd19b7fe28d118ea14dc6e37f3746864aeb7d6d79516970",
+              "existing_family_id": "family-06659008ffb3141673b64b6c6ce84b0d01dc4649953a444d1d20a8554353479d",
+              "existing_chart_ids": [
+                "chart-28ef2c4a03ec026666dd8dbf63b8a19f6669c64c59e4029eba274df56fa999b4"
+              ]
+            }
+          ],
+          "existing_source_selector": {
+            "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+            "line_start": 172,
+            "line_end": 276,
+            "byte_start": 34463,
+            "byte_end": 48021,
+            "source_quote": "三  、第 九 届 周 易 与 现代化国际研讨会\r\n\r\n数理奇门现场预测表演纪实\r\n\r\n杜新会\r\n\r\n河南安阳是中国七大古都中的第一都，是商代后期都城，这 里既有出土甲骨文的殷墟博物院，又有文王演周易的羑里城，是 归藏易和周易的发源地。\r\n自1989年以来，安阳周易研究会与国际易经学会、中华炎黄 文化研究会等学术团体合作， 一年一届举行周易与现代化的国际 学术研讨会。1998年9月15—18日在这里召开了第九届周易与 现代化国际研讨会。\r\n这届会议规模最大，人数最多，有来自澳大利亚、美国、德 国、法国、俄罗斯、韩国以及台湾地区、香港特别行政区和大陆 除西藏、青海以外各省、市的易学专家、研究者五百余人。河北 省周易研究会在张志春会长的率领下，组团参加，我作为研究会 理事，也荣幸地出席了这届大会。\r\n会议期间，在张会长带领下，河北省的代表不仅一一汇报了 大家研究的成果，而且在9月16日晚上，经大会会务组安排，由\r\n \r\n\r\n张会长做了有关奇门遁甲的专场学术报告，最后安排我进行现场 公开预测表演。\r\n说实话，来之前，张会长提出让我准备在大会上进行现场预 测表演，以便充分展示我们河北省周易研究会致力于易学现代化、 科学化的成果，虽然我信心十足，但紧张和精神压力还是不小的， 因为在国际性的易学大会上从来还没见过哪一个易学研究者敢公  开进行现场预测表演，何况这一次大会又是人数最多、规模最大  的一次呢!作为张会长的学生，张会长敢于作出这样的安排，百  分之八十的把握肯定是有的。再者，张会长讲得清楚，既然作为  学术研究，就同任何科研一样，不怕失败。我们绝不故弄玄虚， 而是实事求是的进行科学实验，如果是真理，就不怕实践检验。\r\n16日晚8时，奇门遁甲专场学术报告会在阳光宾馆三楼大会 议室准时开始，国家一级演员、电视连续剧《三国演义》中司马 懿和《水浒传》中高俅的扮演者魏宗万先生，天津大学建筑系教 授、中国易学堪舆研究院院长亢亮先生也前来助兴。今天会场不 但座无虚席，而且后边还站着好多人前来听课。\r\n张志春会长从科学角度，深入浅出地讲解了奇门遁甲的推演 原理，以及为什么说它是高层次的预测学，并首先以第二次世界  大战为例，用奇门遁甲演局验证攻守双方的胜负；尔后又以张会  长和我受有关部门的邀请到某大城市预测抢劫银行大案的实例， 说明了奇门遁甲在现实社会中的应用价值。张会长讲到9点半左 右停了下来。为了证明奇门遁甲的科学性，张会长向大会宣布：\r\n“下面由我们研究会的理事杜新会先生做现场预测表演。测  准了，大家也不要认为我们水平高；测错了，说明我们水平低， 请大家原谅(掌声)。在场的人员谁都可以预测，但因时间关系， 只限两人。下面表演开始，谁预测?”\r\n张会长的话音刚落，哗的一下，会场内站起二十多人，还有\r\n \r\n\r\n一部分坐着举手的。张会长站起来，对着举手的代表随便用手指 了会场东侧一位戴眼镜的男同志，又指了西南角一位中年男子。\r\n我坐在主席台上，也不知道这二位测什么事。东侧戴眼镜的 同志操着一 口湖北话，首先说：  “我想预测一下。我写了三本 书 ，这三本书能不能出版?”\r\n我看一下手中事先起好的奇门格局，张口就答：“先说你这 三部书的写作质量，应属中上等水平，这三本书只能出版一本， 另两本不能出版。”\r\n我目视这位求测者，整个会场听众的眼光也都投向了这位先 生，等待他的评判。但他没下定语，而是又问：“我写的这三部 书，第一部叫《中国方术大师传奇》,第二部是《易数应用学 “梅易”新编》,第三部是《三元九星阳宅学》,我想问，这三部 书哪本能出版?”\r\n他的话音刚落，我立即答道：“你讲的时候我已看了格局， 第一本书可以出版，因为第一本书遇到开门了，开门生你，门开 了，当然你的书就能出了。第二本、第三本出版不了。”\r\n实际上这位先生当时说的书名，我根本没听清，只是根据他 说的第一、第二、第三的数字为依据来预测的。\r\n“我再问一下，我这本书要出版，从哪个方向找贵人帮忙?”\r\n“从你家的北方或东北方找人帮忙比较好，到南方找人，人 家要你钱。”\r\n“我的书稿出版社已经看过，他们的意见也是只有第一本书 能出版，你的预测完全正确!”\r\n全场热烈鼓掌，我赶紧站起来向大家致谢。\r\n掌声还没落，会场中间突然站起来一位中年女同志，右臂高 举，示意发言，而且要求很强烈。我心想，不是大会宣布只测两 个人，怎么又冒出来一个?张会长也不清楚，看到她一副迫切的\r\n \r\n\r\n样子，对她说：“你讲吧。”\r\n“我是浙江文艺出版社的编辑，他的书稿我看过了，我证明， 他的第一部书稿符合出版条件。预测非常准确。”\r\n大家又报以热烈掌声。\r\n第二位要求预测的人是位中年男人，操着河南口音说：“我 想测测我的家庭和我有什么事?”\r\n嗬!这个问题提的面够宽的，公开表演有点无从下手，我心 里边想边低头看奇门局。这位男同志站立在会场后边的西南角， 局上为坤宫，宫中有景门，景门主血光，“血光”这两个字刚在 脑子里一闪，立刻又被对方提的家庭两字给挡住了。大会表演容 不得仔细分析，我对着话筒说：\r\n“我说错了，请你批评，你提的问题可能是因小辈或下级的原  因而引起了官讼，造成了破财，我所说的破财是指各方面的破财。”\r\n整个会场的人把目光都投到这位提问者的身上，全场鸦雀无 声，我满指望对方说上一句“测得对”,但对方抬起右手，在胸 前左右摆了摆。\r\n“不对?”我问他，他表示赞同，并说：“我今天主要是想测 测我本人的事。”\r\n测本人，我毫不犹豫地答道：“在道路上发生了车祸，伤及 的位置在身体的左侧腰部和胳膊上，而且还流了血(我边说边用 我自己的身体示意伤及的部位，并用手指着他的左侧)。这次如 果测错了，你公布实情，我就承认测错了。”\r\n这次这位男子很快做出了反应，并显得有些激动，抬起左 臂，右手指着腰部说：“我今年二月初四坐汽车出去，翻了车， 第八根肋条骨折，左胳膊也流了不少血，测得非常对。”\r\n又是一阵热烈的掌声，我站起来向大家致谢。\r\n这时张会长宣布：“表演到此结束。下边请魏宗万先生为大\r\n \r\n\r\n家表演节目。”\r\n可能是紧张的原因，大会表演中发言的三位同志，会后我都 记不清是谁了。我本想找他们再核对一下会上没说的情况，但由 于不知人家姓名，一时难以寻找。正在发愁，没想到，会后他们 三个人都主动找我来了。\r\n首先来的是写书的那位戴眼镜的先生，原来这位先生是湖北 省荆州市委党校张贵河副教授，他称赞我“所测各点皆极精确”, 并表示今后一定要学会奇门遁甲。\r\n第二个找我的是浙江文艺出版社编辑蔚然(笔名)女士，她 交给我一封信，信是这样写的：\r\n\r\n杜老师：您好!\r\n我参加会议的第一天，湖北荆州党校的张贵河老师就来找 我，询问我所在的出版社能否接受他写的三部书稿(顺便说一  句，我与他素不相识，他是从会议名册上知道我的)。我答应看  了书稿再说。两天后的晚上，也即奇门遁甲讲演会召开前的一小 时，张贵河老师前来询问结果，我告诉他，三部书稿中比较符合  出版标准，最有可能出版的只有一种：《中国方术大师传奇》。 这部书稿质量较好，显示作者有一定水平……此后不久，我们便  去参加奇门遁甲讲演会。会上，张贵河老师当众向您询问他的三  部书稿能否出版，您用奇门遁甲的方法演算后明确告诉他：三部  书稿中，只有第一本(即《中国方术大师传奇》)有出版之可能， 该书稿质量属中上等水平，且只可能在北方的出版社出版，不可  能在南方的出版社出版。此结果与我和张老师的谈话情况完全吻 合，而您是不可能知道我们的谈话内容的，因为我们在会前都不 认识您。更何况整个演算过程只用了一两分钟。奇门遁甲的神奇、 快速，真令我大感惊讶，于是便忍不住站起来说明了您的判断\r\n \r\n\r\n\r\n\r\n458                                                                                                                神 奇 之 门\r\n\r\n的正确。这是一次成功的演示。事实证明，奇门遁甲无愧于“中 国方术之王”的称号，是中国传统文化中的一朵奇葩，是值得我 们学习、继承并发展的。\r\n蔚然\r\n1998年9月18日\r\n\r\n第三个找我的是出车祸的代表，他叫王成周，是河南省林州 市任村镇牛岭山村人、林州市周易研究会会员。他说：“那天大 会表演，说我引起了官讼，破了财，我是破了三千元左右。我主 要是想看看奇门遁甲能不能测出我出车祸的事。”\r\n我讲：“你们翻车是在春天，死了两个人，不知对不对?”\r\n王说：“死俩伤仨，你又测准了。杜老师，我也不是奉承你 们河北，这回你们河北的奇门遁甲真是叫响了，在这几百人的会 上敢公开表演，说明你们是真奇门遁甲。”\r\n下面让我们具体看一下那天晚上九点半时的奇门格局：\r\n1998年9月16日21时30分，干支历为戊寅年辛酉月丙寅 日己亥时，白露上元，阴9局，甲午旬，天心星值符，开门值使。\r\n地\r\n伤乙 任癸\t武\r\n杜丁 冲戊\t虎  景癸\r\n辅丙\r\n天\r\n生乙 蓬丁\t\r\n\r\n\r\n壬\t合  死戊\r\n英庚\r\n符\r\n休辛 心己\t蛇\r\n开庚 柱乙\t阴 壬惊丙\r\n芮辛\r\n\r\n \r\n\r\n我当时是这样分析判断的：\r\n(一)对第一个人的预测：\r\n(1)为什么断三本书只能出版一本?\r\n该人位于大会场的东侧，奇门局上为震3宫的位置；景门代 表所写的书，现景门落坤2宫，宫中有天辅文曲星，又上乘白虎 及丙奇，文章应属上乘，但天盘癸入墓及癸加壬凶格，那么再来 判断其文章的写作质量必定是属于中上等水平。\r\n既然书的写作水平属中上等，为什么断三本书稿只能出版一本 呢?景门为书稿，落坤2宫为两本，开门为出版社落坎1宫，现景 门落宫土来克开门落宫水，断有两本不能出版。另外，震宫代表预 测人，属木，克景门落宫土，也主只能出一本，另两本不能出版。\r\n(2)三本书稿中哪本能出版呢?\r\n前边我已断出只能出版一本，而后他又说了三本书名，问哪 本能出。他说第一本，我就看1宫，1宫中逢开门吉门，又生他 所在的震3宫，断第一本书能出。他说第二本，我就看2宫，2  宫克开门出版社，又受3宫之克，必然出版不了。他说第三本， 我看3宫和景门书稿落宫的关系，3宫克景门落宫，也出版不了。\r\n(3)从哪个方向找人帮忙能出版呢?\r\n预测人位于震3宫，北方逢开门，是指北方的出版社大门开  着，开门落坎宫属水，生预测人，所以说可以到北方找人帮忙。 3宫属木，克艮8宫土，宫中有值符吉神和休门吉门及天心吉星， 也可以到他所克制的艮方，即东北方去找人。\r\n为什么不能到南方和其他方向呢?因为别的方向不是克预测 人的震3宫，就是格局不好。如到南方，则看离宫，宫中逢杜 门，杜门主闭塞不通，表明出版社之门不畅通，上乘玄武，又有 地盘甲子戊，戊为钱财落离宫受冲，必破财，所以也不能到南方 的出版社。\r\n \r\n\r\n(二)对第二个人的预测：\r\n(1)为什么说他在道路上遇到了车祸?\r\n预测人位于会场的西南角，奇门格局上对应的是坤2宫，宫 中白虎主刑伤、主道路，景门主血光，说明在道路上有血光之灾。 怎么造成的呢?第一看旬空之宫，因为旬空则藏有玄机。现巽4宫 旬空，宫中有伤门，伤门主车辆，车辆宫克预测人宫，必是车祸。\r\n从另一个角度看，预测人位于坤宫，天盘癸为预测人现状， 地盘癸为以前的状态。现地盘癸落巽4宫，也是伤门宫克预测人 宫，为车祸。何时出车祸，春天木旺才能克预测人之宫，故断春 天出的车祸。\r\n(2)伤及的部位是怎样断的?\r\n死门主伤疤，落兑7宫，为左腰部，宫中戊加庚为“值符飞  宫”凶事更凶，死门又主死人，落兑宫主二数，故断死二人。景门 主血光，落坤2宫为左胳膊，上乘白虎主道路伤灾，必伤及左胳膊。\r\n一张志春按：湖北荆州市委党校张贵河副教授的第一部书稿《中 国方术大师传奇》,2000年2月改名为《中国异人传奇》由北方的花 山文艺出版社出版。为此，表演预测中所测诸事全部应验\r\n"
+          },
+          "new_source_selector": {
+            "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+            "line_start": 1,
+            "line_end": 140,
+            "byte_start": 0,
+            "byte_end": 15047,
+            "source_quote": "三、第九届周易与现代化国际研讨会\n\n数理奇门现场预测表演纪实\n\n杜新会\n\n河南安阳是中国七大古都中的第一都，是商代后期都城，这里既有出土甲骨文的殷墟博物院，又有文王演周易的羑里城，是归藏易和周易的发源地。\n\n自1989年以来，安阳周易研究会与国际易经学会、中华炎黄文化研究会等学术团体合作，一年一届举行周易与现代化的国际学术研讨会。1998年9月15—18日在这里召开了第九届周易与现代化国际研讨会。\n\n这届会议规模最大，人数最多，有来自澳大利亚、美国、德国、法国、俄罗斯、韩国以及台湾地区、香港特别行政区和大陆除西藏、青海以外各省、市的易学专家、研究者五百余人。河北省周易研究会在张志春会长的率领下，组团参加，我作为研究会理事，也荣幸地出席了这届大会。\n\n会议期间，在张会长带领下，河北省的代表不仅一一汇报了大家研究的成果，而且在9月16日晚上，经大会会务组安排，由张会长做了有关奇门遁甲的专场学术报告，最后安排我进行现场公开预测表演。\n\n说实话，来之前，张会长提出让我准备在大会上进行现场预测表演，以便充分展示我们河北省周易研究会致力于易学现代化、科学化的成果，虽然我信心十足，但紧张和精神压力还是不小的，因为在国际性的易学大会上从来还没见过哪一个易学研究者敢公开进行现场预测表演，何况这一次大会又是人数最多、规模最大的一次呢!作为张会长的学生，张会长敢于作出这样的安排，百分之八十的把握肯定是有的。再者，张会长讲得清楚，既然作为学术研究，就同任何科研一样，不怕失败。我们绝不故弄玄虚，而是实事求是的进行科学实验，如果是真理，就不怕实践检验。\n\n16日晚8时，奇门遁甲专场学术报告会在阳光宾馆三楼大会议室准时开始，国家一级演员、电视连续剧《三国演义》中司马懿和《水浒传》中高俅的扮演者魏宗万先生，天津大学建筑系教授、中国易学堪舆研究院院长亢亮先生也前来助兴。今天会场不但座无虚席，而且后边还站着好多人前来听课。\n\n张志春会长从科学角度，深入浅出地讲解了奇门遁甲的推演原理，以及为什么说它是高层次的预测学，并首先以第二次世界大战为例，用奇门遁甲演局验证攻守双方的胜负；尔后又以张会长和我受有关部门的邀请到某大城市预测抢劫银行大案的实例，说明了奇门遁甲在现实社会中的应用价值。张会长讲到9点半左右停了下来。为了证明奇门遁甲的科学性，张会长向大会宣布：\n\n“下面由我们研究会的理事杜新会先生做现场预测表演。测准了，大家也不要认为我们水平高；测错了，说明我们水平低，请大家原谅(掌声)。在场的人员谁都可以预测，但因时间关系，只限两人。下面表演开始，谁预测?”\n\n张会长的话音刚落，哗的一下，会场内站起二十多人，还有一部分坐着举手的。张会长站起来，对着举手的代表随便用手指了会场东侧一位戴眼镜的男同志，又指了西南角一位中年男子。\n\n我坐在主席台上，也不知道这二位测什么事。东侧戴眼镜的同志操着一口湖北话，首先说：“我想预测一下。我写了三本书，这三本书能不能出版?”\n\n我看一下手中事先起好的奇门格局，张口就答：“先说你这三部书的写作质量，应属中上等水平，这三本书只能出版一本，另两本不能出版。”\n\n我目视这位求测者，整个会场听众的眼光也都投向了这位先生，等待他的评判。但他没下定语，而是又问：“我写的这三部书，第一部叫《中国方术大师传奇》,第二部是《易数应用学“梅易”新编》,第三部是《三元九星阳宅学》,我想问，这三部书哪本能出版?”\n\n他的话音刚落，我立即答道：“你讲的时候我已看了格局，第一本书可以出版，因为第一本书遇到开门了，开门生你，门开了，当然你的书就能出了。第二本、第三本出版不了。”\n\n实际上这位先生当时说的书名，我根本没听清，只是根据他说的第一、第二、第三的数字为依据来预测的。\n\n“我再问一下，我这本书要出版，从哪个方向找贵人帮忙?”\n\n“从你家的北方或东北方找人帮忙比较好，到南方找人，人家要你钱。”\n\n“我的书稿出版社已经看过，他们的意见也是只有第一本书能出版，你的预测完全正确!”\n\n全场热烈鼓掌，我赶紧站起来向大家致谢。\n\n掌声还没落，会场中间突然站起来一位中年女同志，右臂高举，示意发言，而且要求很强烈。我心想，不是大会宣布只测两个人，怎么又冒出来一个?张会长也不清楚，看到她一副迫切的样子，对她说：“你讲吧。”\n\n“我是浙江文艺出版社的编辑，他的书稿我看过了，我证明，他的第一部书稿符合出版条件。预测非常准确。”\n\n大家又报以热烈掌声。\n\n第二位要求预测的人是位中年男人，操着河南口音说：“我想测测我的家庭和我有什么事?”\n\n嗬!这个问题提的面够宽的，公开表演有点无从下手，我心里边想边低头看奇门局。这位男同志站立在会场后边的西南角，局上为坤宫，宫中有景门，景门主血光，“血光”这两个字刚在脑子里一闪，立刻又被对方提的家庭两字给挡住了。大会表演容不得仔细分析，我对着话筒说：\n\n“我说错了，请你批评，你提的问题可能是因小辈或下级的原因而引起了官讼，造成了破财，我所说的破财是指各方面的破财。”\n\n整个会场的人把目光都投到这位提问者的身上，全场鸦雀无声，我满指望对方说上一句“测得对”,但对方抬起右手，在胸前左右摆了摆。\n\n“不对?”我问他，他表示赞同，并说：“我今天主要是想测测我本人的事。”\n\n测本人，我毫不犹豫地答道：“在道路上发生了车祸，伤及的位置在身体的左侧腰部和胳膊上，而且还流了血(我边说边用我自己的身体示意伤及的部位，并用手指着他的左侧)。这次如果测错了，你公布实情，我就承认测错了。”\n\n这次这位男子很快做出了反应，并显得有些激动，抬起左臂，右手指着腰部说：“我今年二月初四坐汽车出去，翻了车，第八根肋条骨折，左胳膊也流了不少血，测得非常对。”\n\n又是一阵热烈的掌声，我站起来向大家致谢。\n\n这时张会长宣布：“表演到此结束。下边请魏宗万先生为大家表演节目。”\n\n可能是紧张的原因，大会表演中发言的三位同志，会后我都记不清是谁了。我本想找他们再核对一下会上没说的情况，但由于不知人家姓名，一时难以寻找。正在发愁，没想到，会后他们三个人都主动找我来了。\n\n首先来的是写书的那位戴眼镜的先生，原来这位先生是湖北省荆州市委党校张贵河副教授，他称赞我“所测各点皆极精确”,并表示今后一定要学会奇门遁甲。\n\n第二个找我的是浙江文艺出版社编辑蔚然(笔名)女士，她交给我一封信，信是这样写的：\n\n杜老师：您好!\n\n我参加会议的第一天，湖北荆州党校的张贵河老师就来找我，询问我所在的出版社能否接受他写的三部书稿(顺便说一句，我与他素不相识，他是从会议名册上知道我的)。我答应看了书稿再说。两天后的晚上，也即奇门遁甲讲演会召开前的一小时，张贵河老师前来询问结果，我告诉他，三部书稿中比较符合出版标准，最有可能出版的只有一种：《中国方术大师传奇》。这部书稿质量较好，显示作者有一定水平……此后不久，我们便去参加奇门遁甲讲演会。会上，张贵河老师当众向您询问他的三部书稿能否出版，您用奇门遁甲的方法演算后明确告诉他：三部书稿中，只有第一本(即《中国方术大师传奇》)有出版之可能，该书稿质量属中上等水平，且只可能在北方的出版社出版，不可能在南方的出版社出版。此结果与我和张老师的谈话情况完全吻合，而您是不可能知道我们的谈话内容的，因为我们在会前都不认识您。更何况整个演算过程只用了一两分钟。奇门遁甲的神奇、快速，真令我大感惊讶，于是便忍不住站起来说明了您的判断的正确。这是一次成功的演示。事实证明，奇门遁甲无愧于“中国方术之王”的称号，是中国传统文化中的一朵奇葩，是值得我们学习、继承并发展的。\n\n蔚然\n\n1998年9月18日\n\n第三个找我的是出车祸的代表，他叫王成周，是河南省林州市任村镇牛岭山村人、林州市周易研究会会员。他说：“那天大会表演，说我引起了官讼，破了财，我是破了三千元左右。我主要是想看看奇门遁甲能不能测出我出车祸的事。”\n\n我讲：“你们翻车是在春天，死了两个人，不知对不对?”\n\n王说：“死俩伤仨，你又测准了。杜老师，我也不是奉承你们河北，这回你们河北的奇门遁甲真是叫响了，在这几百人的会上敢公开表演，说明你们是真奇门遁甲。”\n\n下面让我们具体看一下那天晚上九点半时的奇门格局：\n\n1998年9月16日21时30分，干支历为戊寅年辛酉月丙寅日己亥时，白露上元，阴9局，甲午旬，天心星值符，开门值使。\n\n九宫盘面（根据提供的文字原盘重排）：\n┌──────────────────────┬──────────────────────┬──────────────────────┐\n│巽四宫                │离九宫                │坤二宫                │\n│八神：地              │八神：武              │八神：虎              │\n│门位：伤乙            │门位：杜丁            │门位：景癸            │\n│星位：任癸            │星位：冲戊            │星位：辅丙            │\n├──────────────────────┼──────────────────────┼──────────────────────┤\n│震三宫                │中五宫                │兑七宫                │\n│八神：天              │八神：—               │八神：合              │\n│门位：生乙            │中宫原文：壬          │门位：死戊            │\n│星位：蓬丁            │星位：—               │星位：英庚            │\n├──────────────────────┼──────────────────────┼──────────────────────┤\n│艮八宫                │坎一宫                │乾六宫                │\n│八神：符              │八神：蛇              │八神：阴              │\n│门位：休辛            │门位：开庚            │门位：壬惊丙          │\n│星位：心己            │星位：柱乙            │星位：芮辛            │\n└──────────────────────┴──────────────────────┴──────────────────────┘\n我当时是这样分析判断的：\n\n(一)对第一个人的预测：\n\n(1)为什么断三本书只能出版一本?\n\n该人位于大会场的东侧，奇门局上为震3宫的位置；景门代表所写的书，现景门落坤2宫，宫中有天辅文曲星，又上乘白虎及丙奇，文章应属上乘，但天盘癸入墓及癸加壬凶格，那么再来判断其文章的写作质量必定是属于中上等水平。\n\n既然书的写作水平属中上等，为什么断三本书稿只能出版一本呢?景门为书稿，落坤2宫为两本，开门为出版社落坎1宫，现景门落宫土来克开门落宫水，断有两本不能出版。另外，震宫代表预测人，属木，克景门落宫土，也主只能出一本，另两本不能出版。\n\n(2)三本书稿中哪本能出版呢?\n\n前边我已断出只能出版一本，而后他又说了三本书名，问哪本能出。他说第一本，我就看1宫，1宫中逢开门吉门，又生他所在的震3宫，断第一本书能出。他说第二本，我就看2宫，2宫克开门出版社，又受3宫之克，必然出版不了。他说第三本，我看3宫和景门书稿落宫的关系，3宫克景门落宫，也出版不了。\n\n(3)从哪个方向找人帮忙能出版呢?\n\n预测人位于震3宫，北方逢开门，是指北方的出版社大门开着，开门落坎宫属水，生预测人，所以说可以到北方找人帮忙。3宫属木，克艮8宫土，宫中有值符吉神和休门吉门及天心吉星，也可以到他所克制的艮方，即东北方去找人。\n\n为什么不能到南方和其他方向呢?因为别的方向不是克预测人的震3宫，就是格局不好。如到南方，则看离宫，宫中逢杜门，杜门主闭塞不通，表明出版社之门不畅通，上乘玄武，又有地盘甲子戊，戊为钱财落离宫受冲，必破财，所以也不能到南方的出版社。\n\n(二)对第二个人的预测：\n\n(1)为什么说他在道路上遇到了车祸?\n\n预测人位于会场的西南角，奇门格局上对应的是坤2宫，宫中白虎主刑伤、主道路，景门主血光，说明在道路上有血光之灾。怎么造成的呢?第一看旬空之宫，因为旬空则藏有玄机。现巽4宫旬空，宫中有伤门，伤门主车辆，车辆宫克预测人宫，必是车祸。\n\n从另一个角度看，预测人位于坤宫，天盘癸为预测人现状，地盘癸为以前的状态。现地盘癸落巽4宫，也是伤门宫克预测人宫，为车祸。何时出车祸，春天木旺才能克预测人之宫，故断春天出的车祸。\n\n(2)伤及的部位是怎样断的?\n\n死门主伤疤，落兑7宫，为左腰部，宫中戊加庚为“值符飞宫”凶事更凶，死门又主死人，落兑宫主二数，故断死二人。景门主血光，落坤2宫为左胳膊，上乘白虎主道路伤灾，必伤及左胳膊。\n\n一张志春按：湖北荆州市委党校张贵河副教授的第一部书稿《中国方术大师传奇》,2000年2月改名为《中国异人传奇》由北方的花山文艺出版社出版。为此，表演预测中所测诸事全部应验\n"
+          },
+          "event_record_alignments": [
+            {
+              "existing_event_key": "appendix-demo-publication",
+              "existing_record_key": "appendix-publication-lines-193-193",
+              "existing_record_id": "record-f159a144523c6300c2fc4eb09b7e89928c7f567635c8716e2d9e32a3a5ada515",
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 193,
+                "line_end": 193,
+                "byte_start": 37924,
+                "byte_end": 38128,
+                "source_quote": "我坐在主席台上，也不知道这二位测什么事。东侧戴眼镜的 同志操着一 口湖北话，首先说：  “我想预测一下。我写了三本 书 ，这三本书能不能出版?”\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 25,
+                "line_end": 25,
+                "byte_start": 3393,
+                "byte_end": 3590,
+                "source_quote": "我坐在主席台上，也不知道这二位测什么事。东侧戴眼镜的同志操着一口湖北话，首先说：“我想预测一下。我写了三本书，这三本书能不能出版?”\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-publication",
+              "existing_record_key": "appendix-publication-lines-194-194",
+              "existing_record_id": "record-2e7d6ced75b77ce407c7926e918ba376632ffc862c3f204df2553a5ba62c8bc0",
+              "kind": "prediction",
+              "knowledge_phase": "prediction",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 194,
+                "line_end": 194,
+                "byte_start": 38128,
+                "byte_end": 38321,
+                "source_quote": "我看一下手中事先起好的奇门格局，张口就答：“先说你这 三部书的写作质量，应属中上等水平，这三本书只能出版一本， 另两本不能出版。”\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 27,
+                "line_end": 27,
+                "byte_start": 3591,
+                "byte_end": 3781,
+                "source_quote": "我看一下手中事先起好的奇门格局，张口就答：“先说你这三部书的写作质量，应属中上等水平，这三本书只能出版一本，另两本不能出版。”\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-publication",
+              "existing_record_key": "appendix-publication-lines-195-195",
+              "existing_record_id": "record-74f7eda28bd5ad7254ae49220f3d5bb3a08322c0792ec7aa8da920125155e366",
+              "kind": "dialogue",
+              "knowledge_phase": "prediction",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 195,
+                "line_end": 195,
+                "byte_start": 38321,
+                "byte_end": 38673,
+                "source_quote": "我目视这位求测者，整个会场听众的眼光也都投向了这位先 生，等待他的评判。但他没下定语，而是又问：“我写的这三部 书，第一部叫《中国方术大师传奇》,第二部是《易数应用学 “梅易”新编》,第三部是《三元九星阳宅学》,我想问，这三部 书哪本能出版?”\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 29,
+                "line_end": 29,
+                "byte_start": 3782,
+                "byte_end": 4129,
+                "source_quote": "我目视这位求测者，整个会场听众的眼光也都投向了这位先生，等待他的评判。但他没下定语，而是又问：“我写的这三部书，第一部叫《中国方术大师传奇》,第二部是《易数应用学“梅易”新编》,第三部是《三元九星阳宅学》,我想问，这三部书哪本能出版?”\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-publication",
+              "existing_record_key": "appendix-publication-lines-196-196",
+              "existing_record_id": "record-b6fe0ccbd3ec6919d68c0a63cfd486cb64d9e4f4ef2953285cca589b630afb3b",
+              "kind": "prediction",
+              "knowledge_phase": "prediction",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 196,
+                "line_end": 196,
+                "byte_start": 38673,
+                "byte_end": 38914,
+                "source_quote": "他的话音刚落，我立即答道：“你讲的时候我已看了格局， 第一本书可以出版，因为第一本书遇到开门了，开门生你，门开 了，当然你的书就能出了。第二本、第三本出版不了。”\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 31,
+                "line_end": 31,
+                "byte_start": 4130,
+                "byte_end": 4368,
+                "source_quote": "他的话音刚落，我立即答道：“你讲的时候我已看了格局，第一本书可以出版，因为第一本书遇到开门了，开门生你，门开了，当然你的书就能出了。第二本、第三本出版不了。”\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-publication",
+              "existing_record_key": "appendix-publication-lines-197-197",
+              "existing_record_id": "record-90d8f79fb026dc1dbf84b565b14d8a67d7a04810dc4e6f372ad9fb527073d8b3",
+              "kind": "role_selection",
+              "knowledge_phase": "prediction",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 197,
+                "line_end": 197,
+                "byte_start": 38914,
+                "byte_end": 39058,
+                "source_quote": "实际上这位先生当时说的书名，我根本没听清，只是根据他 说的第一、第二、第三的数字为依据来预测的。\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 33,
+                "line_end": 33,
+                "byte_start": 4369,
+                "byte_end": 4511,
+                "source_quote": "实际上这位先生当时说的书名，我根本没听清，只是根据他说的第一、第二、第三的数字为依据来预测的。\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-publication",
+              "existing_record_key": "appendix-publication-lines-198-198",
+              "existing_record_id": "record-d0a77a4f5c249f3f299aae2efefa5e399fb291c1644e83b32b3f697f7441d70b",
+              "kind": "dialogue",
+              "knowledge_phase": "prediction",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 198,
+                "line_end": 198,
+                "byte_start": 39058,
+                "byte_end": 39139,
+                "source_quote": "“我再问一下，我这本书要出版，从哪个方向找贵人帮忙?”\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 35,
+                "line_end": 35,
+                "byte_start": 4512,
+                "byte_end": 4592,
+                "source_quote": "“我再问一下，我这本书要出版，从哪个方向找贵人帮忙?”\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-publication",
+              "existing_record_key": "appendix-publication-lines-199-199",
+              "existing_record_id": "record-bc2b6ca11c97b1ca7b9a0aff3bac8567ac4a5649c1892a30a1685e6d48a51938",
+              "kind": "prediction",
+              "knowledge_phase": "prediction",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 199,
+                "line_end": 199,
+                "byte_start": 39139,
+                "byte_end": 39238,
+                "source_quote": "“从你家的北方或东北方找人帮忙比较好，到南方找人，人 家要你钱。”\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 37,
+                "line_end": 37,
+                "byte_start": 4593,
+                "byte_end": 4690,
+                "source_quote": "“从你家的北方或东北方找人帮忙比较好，到南方找人，人家要你钱。”\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-publication",
+              "existing_record_key": "appendix-publication-lines-200-200",
+              "existing_record_id": "record-fa428d5d54d534f36065dd25348816182881666a704f6fa4f3805ba2d010ffaa",
+              "kind": "feedback",
+              "knowledge_phase": "post_feedback",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 200,
+                "line_end": 200,
+                "byte_start": 39238,
+                "byte_end": 39359,
+                "source_quote": "“我的书稿出版社已经看过，他们的意见也是只有第一本书 能出版，你的预测完全正确!”\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 39,
+                "line_end": 39,
+                "byte_start": 4691,
+                "byte_end": 4810,
+                "source_quote": "“我的书稿出版社已经看过，他们的意见也是只有第一本书能出版，你的预测完全正确!”\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-publication",
+              "existing_record_key": "appendix-publication-lines-201-207",
+              "existing_record_id": "record-3e40a266d01903a24e3767fedbc0a2f0e8e72f512de71b90aeb832453774e354",
+              "kind": "feedback",
+              "knowledge_phase": "post_feedback",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 201,
+                "line_end": 207,
+                "byte_start": 39359,
+                "byte_end": 39894,
+                "source_quote": "全场热烈鼓掌，我赶紧站起来向大家致谢。\r\n掌声还没落，会场中间突然站起来一位中年女同志，右臂高 举，示意发言，而且要求很强烈。我心想，不是大会宣布只测两 个人，怎么又冒出来一个?张会长也不清楚，看到她一副迫切的\r\n \r\n\r\n样子，对她说：“你讲吧。”\r\n“我是浙江文艺出版社的编辑，他的书稿我看过了，我证明， 他的第一部书稿符合出版条件。预测非常准确。”\r\n大家又报以热烈掌声。\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 41,
+                "line_end": 47,
+                "byte_start": 4811,
+                "byte_end": 5335,
+                "source_quote": "全场热烈鼓掌，我赶紧站起来向大家致谢。\n\n掌声还没落，会场中间突然站起来一位中年女同志，右臂高举，示意发言，而且要求很强烈。我心想，不是大会宣布只测两个人，怎么又冒出来一个?张会长也不清楚，看到她一副迫切的样子，对她说：“你讲吧。”\n\n“我是浙江文艺出版社的编辑，他的书稿我看过了，我证明，他的第一部书稿符合出版条件。预测非常准确。”\n\n大家又报以热烈掌声。\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-publication",
+              "existing_record_key": "appendix-publication-lines-220-221",
+              "existing_record_id": "record-0b6e03c1c2edc06f5c29d84e6b1f6870b955a9d77a73d10e8df0bca5aacb6082",
+              "kind": "feedback",
+              "knowledge_phase": "post_feedback",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 220,
+                "line_end": 221,
+                "byte_start": 41575,
+                "byte_end": 42071,
+                "source_quote": "可能是紧张的原因，大会表演中发言的三位同志，会后我都 记不清是谁了。我本想找他们再核对一下会上没说的情况，但由 于不知人家姓名，一时难以寻找。正在发愁，没想到，会后他们 三个人都主动找我来了。\r\n首先来的是写书的那位戴眼镜的先生，原来这位先生是湖北 省荆州市委党校张贵河副教授，他称赞我“所测各点皆极精确”, 并表示今后一定要学会奇门遁甲。\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 67,
+                "line_end": 69,
+                "byte_start": 6995,
+                "byte_end": 7485,
+                "source_quote": "可能是紧张的原因，大会表演中发言的三位同志，会后我都记不清是谁了。我本想找他们再核对一下会上没说的情况，但由于不知人家姓名，一时难以寻找。正在发愁，没想到，会后他们三个人都主动找我来了。\n\n首先来的是写书的那位戴眼镜的先生，原来这位先生是湖北省荆州市委党校张贵河副教授，他称赞我“所测各点皆极精确”,并表示今后一定要学会奇门遁甲。\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-publication",
+              "existing_record_key": "appendix-publication-lines-222-234",
+              "existing_record_id": "record-429bcfbd3f7201b3430ffab81598697911a8d694cac2a17cd10e636afb554c50",
+              "kind": "feedback",
+              "knowledge_phase": "post_feedback",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 222,
+                "line_end": 234,
+                "byte_start": 42071,
+                "byte_end": 43853,
+                "source_quote": "第二个找我的是浙江文艺出版社编辑蔚然(笔名)女士，她 交给我一封信，信是这样写的：\r\n\r\n杜老师：您好!\r\n我参加会议的第一天，湖北荆州党校的张贵河老师就来找 我，询问我所在的出版社能否接受他写的三部书稿(顺便说一  句，我与他素不相识，他是从会议名册上知道我的)。我答应看  了书稿再说。两天后的晚上，也即奇门遁甲讲演会召开前的一小 时，张贵河老师前来询问结果，我告诉他，三部书稿中比较符合  出版标准，最有可能出版的只有一种：《中国方术大师传奇》。 这部书稿质量较好，显示作者有一定水平……此后不久，我们便  去参加奇门遁甲讲演会。会上，张贵河老师当众向您询问他的三  部书稿能否出版，您用奇门遁甲的方法演算后明确告诉他：三部  书稿中，只有第一本(即《中国方术大师传奇》)有出版之可能， 该书稿质量属中上等水平，且只可能在北方的出版社出版，不可  能在南方的出版社出版。此结果与我和张老师的谈话情况完全吻 合，而您是不可能知道我们的谈话内容的，因为我们在会前都不 认识您。更何况整个演算过程只用了一两分钟。奇门遁甲的神奇、 快速，真令我大感惊讶，于是便忍不住站起来说明了您的判断\r\n \r\n\r\n\r\n\r\n458                                                                                                                神 奇 之 门\r\n\r\n的正确。这是一次成功的演示。事实证明，奇门遁甲无愧于“中 国方术之王”的称号，是中国传统文化中的一朵奇葩，是值得我 们学习、继承并发展的。\r\n蔚然\r\n1998年9月18日\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 71,
+                "line_end": 79,
+                "byte_start": 7486,
+                "byte_end": 9096,
+                "source_quote": "第二个找我的是浙江文艺出版社编辑蔚然(笔名)女士，她交给我一封信，信是这样写的：\n\n杜老师：您好!\n\n我参加会议的第一天，湖北荆州党校的张贵河老师就来找我，询问我所在的出版社能否接受他写的三部书稿(顺便说一句，我与他素不相识，他是从会议名册上知道我的)。我答应看了书稿再说。两天后的晚上，也即奇门遁甲讲演会召开前的一小时，张贵河老师前来询问结果，我告诉他，三部书稿中比较符合出版标准，最有可能出版的只有一种：《中国方术大师传奇》。这部书稿质量较好，显示作者有一定水平……此后不久，我们便去参加奇门遁甲讲演会。会上，张贵河老师当众向您询问他的三部书稿能否出版，您用奇门遁甲的方法演算后明确告诉他：三部书稿中，只有第一本(即《中国方术大师传奇》)有出版之可能，该书稿质量属中上等水平，且只可能在北方的出版社出版，不可能在南方的出版社出版。此结果与我和张老师的谈话情况完全吻合，而您是不可能知道我们的谈话内容的，因为我们在会前都不认识您。更何况整个演算过程只用了一两分钟。奇门遁甲的神奇、快速，真令我大感惊讶，于是便忍不住站起来说明了您的判断的正确。这是一次成功的演示。事实证明，奇门遁甲无愧于“中国方术之王”的称号，是中国传统文化中的一朵奇葩，是值得我们学习、继承并发展的。\n\n蔚然\n\n1998年9月18日\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-publication",
+              "existing_record_key": "appendix-publication-lines-239-240",
+              "existing_record_id": "record-816a36e0144d44426b3d4c5b995c1f4f3c79d1c8471901faa41c1fed8282e43f",
+              "kind": "author_reasoning",
+              "knowledge_phase": "post_feedback",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 239,
+                "line_end": 240,
+                "byte_start": 44473,
+                "byte_end": 44700,
+                "source_quote": "下面让我们具体看一下那天晚上九点半时的奇门格局：\r\n1998年9月16日21时30分，干支历为戊寅年辛酉月丙寅 日己亥时，白露上元，阴9局，甲午旬，天心星值符，开门值使。\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 87,
+                "line_end": 89,
+                "byte_start": 9710,
+                "byte_end": 9935,
+                "source_quote": "下面让我们具体看一下那天晚上九点半时的奇门格局：\n\n1998年9月16日21时30分，干支历为戊寅年辛酉月丙寅日己亥时，白露上元，阴9局，甲午旬，天心星值符，开门值使。\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-publication",
+              "existing_record_key": "appendix-publication-lines-258-262",
+              "existing_record_id": "record-ea801043b3f407abe9507c0c16bdaaa23322643b0892da8c60a8f53247ae9fa6",
+              "kind": "author_reasoning",
+              "knowledge_phase": "post_feedback",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 258,
+                "line_end": 262,
+                "byte_start": 44877,
+                "byte_end": 45645,
+                "source_quote": "我当时是这样分析判断的：\r\n(一)对第一个人的预测：\r\n(1)为什么断三本书只能出版一本?\r\n该人位于大会场的东侧，奇门局上为震3宫的位置；景门代 表所写的书，现景门落坤2宫，宫中有天辅文曲星，又上乘白虎 及丙奇，文章应属上乘，但天盘癸入墓及癸加壬凶格，那么再来 判断其文章的写作质量必定是属于中上等水平。\r\n既然书的写作水平属中上等，为什么断三本书稿只能出版一本 呢?景门为书稿，落坤2宫为两本，开门为出版社落坎1宫，现景 门落宫土来克开门落宫水，断有两本不能出版。另外，震宫代表预 测人，属木，克景门落宫土，也主只能出一本，另两本不能出版。\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 108,
+                "line_end": 116,
+                "byte_start": 11939,
+                "byte_end": 12700,
+                "source_quote": "我当时是这样分析判断的：\n\n(一)对第一个人的预测：\n\n(1)为什么断三本书只能出版一本?\n\n该人位于大会场的东侧，奇门局上为震3宫的位置；景门代表所写的书，现景门落坤2宫，宫中有天辅文曲星，又上乘白虎及丙奇，文章应属上乘，但天盘癸入墓及癸加壬凶格，那么再来判断其文章的写作质量必定是属于中上等水平。\n\n既然书的写作水平属中上等，为什么断三本书稿只能出版一本呢?景门为书稿，落坤2宫为两本，开门为出版社落坎1宫，现景门落宫土来克开门落宫水，断有两本不能出版。另外，震宫代表预测人，属木，克景门落宫土，也主只能出一本，另两本不能出版。\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-publication",
+              "existing_record_key": "appendix-publication-lines-263-264",
+              "existing_record_id": "record-8e648e0a236172258359b7e00d546c3ab2d3f2f081f314b7829de3e638e203f0",
+              "kind": "author_reasoning",
+              "knowledge_phase": "post_feedback",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 263,
+                "line_end": 264,
+                "byte_start": 45645,
+                "byte_end": 46092,
+                "source_quote": "(2)三本书稿中哪本能出版呢?\r\n前边我已断出只能出版一本，而后他又说了三本书名，问哪 本能出。他说第一本，我就看1宫，1宫中逢开门吉门，又生他 所在的震3宫，断第一本书能出。他说第二本，我就看2宫，2  宫克开门出版社，又受3宫之克，必然出版不了。他说第三本， 我看3宫和景门书稿落宫的关系，3宫克景门落宫，也出版不了。\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 118,
+                "line_end": 120,
+                "byte_start": 12701,
+                "byte_end": 13142,
+                "source_quote": "(2)三本书稿中哪本能出版呢?\n\n前边我已断出只能出版一本，而后他又说了三本书名，问哪本能出。他说第一本，我就看1宫，1宫中逢开门吉门，又生他所在的震3宫，断第一本书能出。他说第二本，我就看2宫，2宫克开门出版社，又受3宫之克，必然出版不了。他说第三本，我看3宫和景门书稿落宫的关系，3宫克景门落宫，也出版不了。\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-publication",
+              "existing_record_key": "appendix-publication-lines-265-267",
+              "existing_record_id": "record-3c1328ef578fd1b88151325d7131cc3d3f5cd1e9cbb10a0d57835e1fa70327a2",
+              "kind": "author_reasoning",
+              "knowledge_phase": "post_feedback",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 265,
+                "line_end": 267,
+                "byte_start": 46092,
+                "byte_end": 46790,
+                "source_quote": "(3)从哪个方向找人帮忙能出版呢?\r\n预测人位于震3宫，北方逢开门，是指北方的出版社大门开  着，开门落坎宫属水，生预测人，所以说可以到北方找人帮忙。 3宫属木，克艮8宫土，宫中有值符吉神和休门吉门及天心吉星， 也可以到他所克制的艮方，即东北方去找人。\r\n为什么不能到南方和其他方向呢?因为别的方向不是克预测 人的震3宫，就是格局不好。如到南方，则看离宫，宫中逢杜 门，杜门主闭塞不通，表明出版社之门不畅通，上乘玄武，又有 地盘甲子戊，戊为钱财落离宫受冲，必破财，所以也不能到南方 的出版社。\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 122,
+                "line_end": 126,
+                "byte_start": 13143,
+                "byte_end": 13832,
+                "source_quote": "(3)从哪个方向找人帮忙能出版呢?\n\n预测人位于震3宫，北方逢开门，是指北方的出版社大门开着，开门落坎宫属水，生预测人，所以说可以到北方找人帮忙。3宫属木，克艮8宫土，宫中有值符吉神和休门吉门及天心吉星，也可以到他所克制的艮方，即东北方去找人。\n\n为什么不能到南方和其他方向呢?因为别的方向不是克预测人的震3宫，就是格局不好。如到南方，则看离宫，宫中逢杜门，杜门主闭塞不通，表明出版社之门不畅通，上乘玄武，又有地盘甲子戊，戊为钱财落离宫受冲，必破财，所以也不能到南方的出版社。\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-publication",
+              "existing_record_key": "appendix-publication-lines-276-276",
+              "existing_record_id": "record-4c7f404a3d98935a6e5282cf778e628cf7756fefe550c97141f03816944363c7",
+              "kind": "outcome",
+              "knowledge_phase": "post_feedback",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 276,
+                "line_end": 276,
+                "byte_start": 47774,
+                "byte_end": 48021,
+                "source_quote": "一张志春按：湖北荆州市委党校张贵河副教授的第一部书稿《中 国方术大师传奇》,2000年2月改名为《中国异人传奇》由北方的花 山文艺出版社出版。为此，表演预测中所测诸事全部应验\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 140,
+                "line_end": 140,
+                "byte_start": 14803,
+                "byte_end": 15047,
+                "source_quote": "一张志春按：湖北荆州市委党校张贵河副教授的第一部书稿《中国方术大师传奇》,2000年2月改名为《中国异人传奇》由北方的花山文艺出版社出版。为此，表演预测中所测诸事全部应验\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-accident",
+              "existing_record_key": "appendix-accident-lines-208-208",
+              "existing_record_id": "record-9a4c144a0b06090d652dda1a1b53af3e41c1a276d6804ce5ebf3ff1b9ef812fd",
+              "kind": "dialogue",
+              "knowledge_phase": "pre_prediction",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 208,
+                "line_end": 208,
+                "byte_start": 39894,
+                "byte_end": 40018,
+                "source_quote": "第二位要求预测的人是位中年男人，操着河南口音说：“我 想测测我的家庭和我有什么事?”\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 49,
+                "line_end": 49,
+                "byte_start": 5336,
+                "byte_end": 5458,
+                "source_quote": "第二位要求预测的人是位中年男人，操着河南口音说：“我想测测我的家庭和我有什么事?”\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-accident",
+              "existing_record_key": "appendix-accident-lines-209-209",
+              "existing_record_id": "record-bd83d13603e35c8a318813da4e2f4248c15bcf4092faf377aa7e658ea6ba7f9a",
+              "kind": "author_reasoning",
+              "knowledge_phase": "prediction",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 209,
+                "line_end": 209,
+                "byte_start": 40018,
+                "byte_end": 40394,
+                "source_quote": "嗬!这个问题提的面够宽的，公开表演有点无从下手，我心 里边想边低头看奇门局。这位男同志站立在会场后边的西南角， 局上为坤宫，宫中有景门，景门主血光，“血光”这两个字刚在 脑子里一闪，立刻又被对方提的家庭两字给挡住了。大会表演容 不得仔细分析，我对着话筒说：\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 51,
+                "line_end": 51,
+                "byte_start": 5459,
+                "byte_end": 5830,
+                "source_quote": "嗬!这个问题提的面够宽的，公开表演有点无从下手，我心里边想边低头看奇门局。这位男同志站立在会场后边的西南角，局上为坤宫，宫中有景门，景门主血光，“血光”这两个字刚在脑子里一闪，立刻又被对方提的家庭两字给挡住了。大会表演容不得仔细分析，我对着话筒说：\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-accident",
+              "existing_record_key": "appendix-accident-lines-210-210",
+              "existing_record_id": "record-43859735bee01ac30e44a0a37b88f14ccf3d5ff9d15ca709da929532626c7370",
+              "kind": "prediction",
+              "knowledge_phase": "prediction",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 210,
+                "line_end": 210,
+                "byte_start": 40394,
+                "byte_end": 40569,
+                "source_quote": "“我说错了，请你批评，你提的问题可能是因小辈或下级的原  因而引起了官讼，造成了破财，我所说的破财是指各方面的破财。”\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 53,
+                "line_end": 53,
+                "byte_start": 5831,
+                "byte_end": 6003,
+                "source_quote": "“我说错了，请你批评，你提的问题可能是因小辈或下级的原因而引起了官讼，造成了破财，我所说的破财是指各方面的破财。”\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-accident",
+              "existing_record_key": "appendix-accident-lines-211-212",
+              "existing_record_id": "record-ccbe16304c40844c37c84c2bc796f81f99994f57fc614c488a01cc8dfc760d8f",
+              "kind": "feedback",
+              "knowledge_phase": "post_feedback",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 211,
+                "line_end": 212,
+                "byte_start": 40569,
+                "byte_end": 40860,
+                "source_quote": "整个会场的人把目光都投到这位提问者的身上，全场鸦雀无 声，我满指望对方说上一句“测得对”,但对方抬起右手，在胸 前左右摆了摆。\r\n“不对?”我问他，他表示赞同，并说：“我今天主要是想测 测我本人的事。”\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 55,
+                "line_end": 57,
+                "byte_start": 6004,
+                "byte_end": 6291,
+                "source_quote": "整个会场的人把目光都投到这位提问者的身上，全场鸦雀无声，我满指望对方说上一句“测得对”,但对方抬起右手，在胸前左右摆了摆。\n\n“不对?”我问他，他表示赞同，并说：“我今天主要是想测测我本人的事。”\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-accident",
+              "existing_record_key": "appendix-accident-lines-213-213",
+              "existing_record_id": "record-4df58e057557726b74d10c9df0c5dc805a1a9b3c588f8ee344bdf2d5fda399d0",
+              "kind": "continuation",
+              "knowledge_phase": "post_feedback",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 213,
+                "line_end": 213,
+                "byte_start": 40860,
+                "byte_end": 41167,
+                "source_quote": "测本人，我毫不犹豫地答道：“在道路上发生了车祸，伤及 的位置在身体的左侧腰部和胳膊上，而且还流了血(我边说边用 我自己的身体示意伤及的部位，并用手指着他的左侧)。这次如 果测错了，你公布实情，我就承认测错了。”\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 59,
+                "line_end": 59,
+                "byte_start": 6292,
+                "byte_end": 6595,
+                "source_quote": "测本人，我毫不犹豫地答道：“在道路上发生了车祸，伤及的位置在身体的左侧腰部和胳膊上，而且还流了血(我边说边用我自己的身体示意伤及的部位，并用手指着他的左侧)。这次如果测错了，你公布实情，我就承认测错了。”\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-accident",
+              "existing_record_key": "appendix-accident-lines-214-214",
+              "existing_record_id": "record-31528a063a2be4b7c332778cde14878610bc802e0a66c16cac3c177ce5965766",
+              "kind": "feedback",
+              "knowledge_phase": "post_feedback",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 214,
+                "line_end": 214,
+                "byte_start": 41167,
+                "byte_end": 41405,
+                "source_quote": "这次这位男子很快做出了反应，并显得有些激动，抬起左 臂，右手指着腰部说：“我今年二月初四坐汽车出去，翻了车， 第八根肋条骨折，左胳膊也流了不少血，测得非常对。”\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 61,
+                "line_end": 61,
+                "byte_start": 6596,
+                "byte_end": 6831,
+                "source_quote": "这次这位男子很快做出了反应，并显得有些激动，抬起左臂，右手指着腰部说：“我今年二月初四坐汽车出去，翻了车，第八根肋条骨折，左胳膊也流了不少血，测得非常对。”\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-accident",
+              "existing_record_key": "appendix-accident-lines-215-219",
+              "existing_record_id": "record-7a7e3a239d029af6be6cf58048e04e350d12d8d5abc1b23e06322ab9f1a6a00d",
+              "kind": "feedback",
+              "knowledge_phase": "post_feedback",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 215,
+                "line_end": 219,
+                "byte_start": 41405,
+                "byte_end": 41575,
+                "source_quote": "又是一阵热烈的掌声，我站起来向大家致谢。\r\n这时张会长宣布：“表演到此结束。下边请魏宗万先生为大\r\n \r\n\r\n家表演节目。”\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 63,
+                "line_end": 65,
+                "byte_start": 6832,
+                "byte_end": 6994,
+                "source_quote": "又是一阵热烈的掌声，我站起来向大家致谢。\n\n这时张会长宣布：“表演到此结束。下边请魏宗万先生为大家表演节目。”\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-accident",
+              "existing_record_key": "appendix-accident-lines-220-220",
+              "existing_record_id": "record-2271828f3716700253a2120b1fa35c328ce6688f7cab7f57aa72de5fe99941cb",
+              "kind": "feedback",
+              "knowledge_phase": "post_feedback",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 220,
+                "line_end": 220,
+                "byte_start": 41575,
+                "byte_end": 41859,
+                "source_quote": "可能是紧张的原因，大会表演中发言的三位同志，会后我都 记不清是谁了。我本想找他们再核对一下会上没说的情况，但由 于不知人家姓名，一时难以寻找。正在发愁，没想到，会后他们 三个人都主动找我来了。\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 67,
+                "line_end": 67,
+                "byte_start": 6995,
+                "byte_end": 7275,
+                "source_quote": "可能是紧张的原因，大会表演中发言的三位同志，会后我都记不清是谁了。我本想找他们再核对一下会上没说的情况，但由于不知人家姓名，一时难以寻找。正在发愁，没想到，会后他们三个人都主动找我来了。\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-accident",
+              "existing_record_key": "appendix-accident-lines-236-236",
+              "existing_record_id": "record-d5fe779e4ea168d6c25a4df7b9055a1270a0ba989348550d4a90b328034d3a03",
+              "kind": "feedback",
+              "knowledge_phase": "post_feedback",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 236,
+                "line_end": 236,
+                "byte_start": 43855,
+                "byte_end": 44172,
+                "source_quote": "第三个找我的是出车祸的代表，他叫王成周，是河南省林州 市任村镇牛岭山村人、林州市周易研究会会员。他说：“那天大 会表演，说我引起了官讼，破了财，我是破了三千元左右。我主 要是想看看奇门遁甲能不能测出我出车祸的事。”\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 81,
+                "line_end": 81,
+                "byte_start": 9097,
+                "byte_end": 9410,
+                "source_quote": "第三个找我的是出车祸的代表，他叫王成周，是河南省林州市任村镇牛岭山村人、林州市周易研究会会员。他说：“那天大会表演，说我引起了官讼，破了财，我是破了三千元左右。我主要是想看看奇门遁甲能不能测出我出车祸的事。”\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-accident",
+              "existing_record_key": "appendix-accident-lines-237-237",
+              "existing_record_id": "record-725d4f9da53859c54f033ac3467ba43a886c0eda7786e2cbde0152fb0a482317",
+              "kind": "continuation",
+              "knowledge_phase": "post_feedback",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 237,
+                "line_end": 237,
+                "byte_start": 44172,
+                "byte_end": 44250,
+                "source_quote": "我讲：“你们翻车是在春天，死了两个人，不知对不对?”\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 83,
+                "line_end": 83,
+                "byte_start": 9411,
+                "byte_end": 9488,
+                "source_quote": "我讲：“你们翻车是在春天，死了两个人，不知对不对?”\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-accident",
+              "existing_record_key": "appendix-accident-lines-238-238",
+              "existing_record_id": "record-1f0124a9f786f176fb80a620a5c711c345732b7e8642f2d0a11f8089c4cf70d4",
+              "kind": "feedback",
+              "knowledge_phase": "post_feedback",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 238,
+                "line_end": 238,
+                "byte_start": 44250,
+                "byte_end": 44473,
+                "source_quote": "王说：“死俩伤仨，你又测准了。杜老师，我也不是奉承你 们河北，这回你们河北的奇门遁甲真是叫响了，在这几百人的会 上敢公开表演，说明你们是真奇门遁甲。”\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 85,
+                "line_end": 85,
+                "byte_start": 9489,
+                "byte_end": 9709,
+                "source_quote": "王说：“死俩伤仨，你又测准了。杜老师，我也不是奉承你们河北，这回你们河北的奇门遁甲真是叫响了，在这几百人的会上敢公开表演，说明你们是真奇门遁甲。”\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-accident",
+              "existing_record_key": "appendix-accident-lines-239-240",
+              "existing_record_id": "record-227a316aa1619e3687666dfc65f228615690117d8812e9e206940fdf39f01ed0",
+              "kind": "author_reasoning",
+              "knowledge_phase": "post_feedback",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 239,
+                "line_end": 240,
+                "byte_start": 44473,
+                "byte_end": 44700,
+                "source_quote": "下面让我们具体看一下那天晚上九点半时的奇门格局：\r\n1998年9月16日21时30分，干支历为戊寅年辛酉月丙寅 日己亥时，白露上元，阴9局，甲午旬，天心星值符，开门值使。\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 87,
+                "line_end": 89,
+                "byte_start": 9710,
+                "byte_end": 9935,
+                "source_quote": "下面让我们具体看一下那天晚上九点半时的奇门格局：\n\n1998年9月16日21时30分，干支历为戊寅年辛酉月丙寅日己亥时，白露上元，阴9局，甲午旬，天心星值符，开门值使。\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-accident",
+              "existing_record_key": "appendix-accident-lines-270-273",
+              "existing_record_id": "record-ee70cdd11130fd049c925cafdb6e1700a85a3fcf4c6050d4cd2456182194315e",
+              "kind": "author_reasoning",
+              "knowledge_phase": "post_feedback",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 270,
+                "line_end": 273,
+                "byte_start": 46795,
+                "byte_end": 47482,
+                "source_quote": "(二)对第二个人的预测：\r\n(1)为什么说他在道路上遇到了车祸?\r\n预测人位于会场的西南角，奇门格局上对应的是坤2宫，宫 中白虎主刑伤、主道路，景门主血光，说明在道路上有血光之灾。 怎么造成的呢?第一看旬空之宫，因为旬空则藏有玄机。现巽4宫 旬空，宫中有伤门，伤门主车辆，车辆宫克预测人宫，必是车祸。\r\n从另一个角度看，预测人位于坤宫，天盘癸为预测人现状， 地盘癸为以前的状态。现地盘癸落巽4宫，也是伤门宫克预测人 宫，为车祸。何时出车祸，春天木旺才能克预测人之宫，故断春 天出的车祸。\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 128,
+                "line_end": 134,
+                "byte_start": 13833,
+                "byte_end": 14513,
+                "source_quote": "(二)对第二个人的预测：\n\n(1)为什么说他在道路上遇到了车祸?\n\n预测人位于会场的西南角，奇门格局上对应的是坤2宫，宫中白虎主刑伤、主道路，景门主血光，说明在道路上有血光之灾。怎么造成的呢?第一看旬空之宫，因为旬空则藏有玄机。现巽4宫旬空，宫中有伤门，伤门主车辆，车辆宫克预测人宫，必是车祸。\n\n从另一个角度看，预测人位于坤宫，天盘癸为预测人现状，地盘癸为以前的状态。现地盘癸落巽4宫，也是伤门宫克预测人宫，为车祸。何时出车祸，春天木旺才能克预测人之宫，故断春天出的车祸。\n"
+              },
+              "old_record_unchanged": true
+            },
+            {
+              "existing_event_key": "appendix-demo-accident",
+              "existing_record_key": "appendix-accident-lines-274-275",
+              "existing_record_id": "record-190d5da258c693698b14f9c2ae2db7dbecf0b8ab447e419e86e1157f2265a15d",
+              "kind": "author_reasoning",
+              "knowledge_phase": "post_feedback",
+              "existing_source_selector": {
+                "source_sha256": "df4a878fe719c57ef9138608a24ff12bda6c0cdbdfd577247badbdf6935fd340",
+                "line_start": 274,
+                "line_end": 275,
+                "byte_start": 47482,
+                "byte_end": 47774,
+                "source_quote": "(2)伤及的部位是怎样断的?\r\n死门主伤疤，落兑7宫，为左腰部，宫中戊加庚为“值符飞  宫”凶事更凶，死门又主死人，落兑宫主二数，故断死二人。景门 主血光，落坤2宫为左胳膊，上乘白虎主道路伤灾，必伤及左胳膊。\r\n"
+              },
+              "new_source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 136,
+                "line_end": 138,
+                "byte_start": 14514,
+                "byte_end": 14802,
+                "source_quote": "(2)伤及的部位是怎样断的?\n\n死门主伤疤，落兑7宫，为左腰部，宫中戊加庚为“值符飞宫”凶事更凶，死门又主死人，落兑宫主二数，故断死二人。景门主血光，落坤2宫为左胳膊，上乘白虎主道路伤灾，必伤及左胳膊。\n"
+              },
+              "old_record_unchanged": true
+            }
+          ],
+          "comparison": {
+            "policy": "whitespace_removed_for_narrative_comparison_only; chart representations compared separately",
+            "excluded_old_source_lines": [
+              230,
+              241,
+              242,
+              243,
+              244,
+              245,
+              246,
+              247,
+              248,
+              249,
+              250,
+              251,
+              252,
+              253,
+              254
+            ],
+            "excluded_new_source_lines": [
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107
+            ],
+            "normalized_narrative_equal": true,
+            "normalized_narrative_character_count": 4387,
+            "normalized_narrative_sha256": "c2fd96635823cde2bf3b1b56b0aa0aafe2c5ace879f577f0708a2bd5c53b8323",
+            "lexical_narrative_differences": []
+          },
+          "existing_sources_and_case_data_modified": false,
+          "new_case_or_event": false
+        },
+        "dataset": {
+          "key": "demo_clean_source_reference",
+          "rows": [
+            {
+              "key": "demo_clean_complete_article",
+              "source_quote": "三、第九届周易与现代化国际研讨会\n\n数理奇门现场预测表演纪实\n\n杜新会\n\n河南安阳是中国七大古都中的第一都，是商代后期都城，这里既有出土甲骨文的殷墟博物院，又有文王演周易的羑里城，是归藏易和周易的发源地。\n\n自1989年以来，安阳周易研究会与国际易经学会、中华炎黄文化研究会等学术团体合作，一年一届举行周易与现代化的国际学术研讨会。1998年9月15—18日在这里召开了第九届周易与现代化国际研讨会。\n\n这届会议规模最大，人数最多，有来自澳大利亚、美国、德国、法国、俄罗斯、韩国以及台湾地区、香港特别行政区和大陆除西藏、青海以外各省、市的易学专家、研究者五百余人。河北省周易研究会在张志春会长的率领下，组团参加，我作为研究会理事，也荣幸地出席了这届大会。\n\n会议期间，在张会长带领下，河北省的代表不仅一一汇报了大家研究的成果，而且在9月16日晚上，经大会会务组安排，由张会长做了有关奇门遁甲的专场学术报告，最后安排我进行现场公开预测表演。\n\n说实话，来之前，张会长提出让我准备在大会上进行现场预测表演，以便充分展示我们河北省周易研究会致力于易学现代化、科学化的成果，虽然我信心十足，但紧张和精神压力还是不小的，因为在国际性的易学大会上从来还没见过哪一个易学研究者敢公开进行现场预测表演，何况这一次大会又是人数最多、规模最大的一次呢!作为张会长的学生，张会长敢于作出这样的安排，百分之八十的把握肯定是有的。再者，张会长讲得清楚，既然作为学术研究，就同任何科研一样，不怕失败。我们绝不故弄玄虚，而是实事求是的进行科学实验，如果是真理，就不怕实践检验。\n\n16日晚8时，奇门遁甲专场学术报告会在阳光宾馆三楼大会议室准时开始，国家一级演员、电视连续剧《三国演义》中司马懿和《水浒传》中高俅的扮演者魏宗万先生，天津大学建筑系教授、中国易学堪舆研究院院长亢亮先生也前来助兴。今天会场不但座无虚席，而且后边还站着好多人前来听课。\n\n张志春会长从科学角度，深入浅出地讲解了奇门遁甲的推演原理，以及为什么说它是高层次的预测学，并首先以第二次世界大战为例，用奇门遁甲演局验证攻守双方的胜负；尔后又以张会长和我受有关部门的邀请到某大城市预测抢劫银行大案的实例，说明了奇门遁甲在现实社会中的应用价值。张会长讲到9点半左右停了下来。为了证明奇门遁甲的科学性，张会长向大会宣布：\n\n“下面由我们研究会的理事杜新会先生做现场预测表演。测准了，大家也不要认为我们水平高；测错了，说明我们水平低，请大家原谅(掌声)。在场的人员谁都可以预测，但因时间关系，只限两人。下面表演开始，谁预测?”\n\n张会长的话音刚落，哗的一下，会场内站起二十多人，还有一部分坐着举手的。张会长站起来，对着举手的代表随便用手指了会场东侧一位戴眼镜的男同志，又指了西南角一位中年男子。\n\n我坐在主席台上，也不知道这二位测什么事。东侧戴眼镜的同志操着一口湖北话，首先说：“我想预测一下。我写了三本书，这三本书能不能出版?”\n\n我看一下手中事先起好的奇门格局，张口就答：“先说你这三部书的写作质量，应属中上等水平，这三本书只能出版一本，另两本不能出版。”\n\n我目视这位求测者，整个会场听众的眼光也都投向了这位先生，等待他的评判。但他没下定语，而是又问：“我写的这三部书，第一部叫《中国方术大师传奇》,第二部是《易数应用学“梅易”新编》,第三部是《三元九星阳宅学》,我想问，这三部书哪本能出版?”\n\n他的话音刚落，我立即答道：“你讲的时候我已看了格局，第一本书可以出版，因为第一本书遇到开门了，开门生你，门开了，当然你的书就能出了。第二本、第三本出版不了。”\n\n实际上这位先生当时说的书名，我根本没听清，只是根据他说的第一、第二、第三的数字为依据来预测的。\n\n“我再问一下，我这本书要出版，从哪个方向找贵人帮忙?”\n\n“从你家的北方或东北方找人帮忙比较好，到南方找人，人家要你钱。”\n\n“我的书稿出版社已经看过，他们的意见也是只有第一本书能出版，你的预测完全正确!”\n\n全场热烈鼓掌，我赶紧站起来向大家致谢。\n\n掌声还没落，会场中间突然站起来一位中年女同志，右臂高举，示意发言，而且要求很强烈。我心想，不是大会宣布只测两个人，怎么又冒出来一个?张会长也不清楚，看到她一副迫切的样子，对她说：“你讲吧。”\n\n“我是浙江文艺出版社的编辑，他的书稿我看过了，我证明，他的第一部书稿符合出版条件。预测非常准确。”\n\n大家又报以热烈掌声。\n\n第二位要求预测的人是位中年男人，操着河南口音说：“我想测测我的家庭和我有什么事?”\n\n嗬!这个问题提的面够宽的，公开表演有点无从下手，我心里边想边低头看奇门局。这位男同志站立在会场后边的西南角，局上为坤宫，宫中有景门，景门主血光，“血光”这两个字刚在脑子里一闪，立刻又被对方提的家庭两字给挡住了。大会表演容不得仔细分析，我对着话筒说：\n\n“我说错了，请你批评，你提的问题可能是因小辈或下级的原因而引起了官讼，造成了破财，我所说的破财是指各方面的破财。”\n\n整个会场的人把目光都投到这位提问者的身上，全场鸦雀无声，我满指望对方说上一句“测得对”,但对方抬起右手，在胸前左右摆了摆。\n\n“不对?”我问他，他表示赞同，并说：“我今天主要是想测测我本人的事。”\n\n测本人，我毫不犹豫地答道：“在道路上发生了车祸，伤及的位置在身体的左侧腰部和胳膊上，而且还流了血(我边说边用我自己的身体示意伤及的部位，并用手指着他的左侧)。这次如果测错了，你公布实情，我就承认测错了。”\n\n这次这位男子很快做出了反应，并显得有些激动，抬起左臂，右手指着腰部说：“我今年二月初四坐汽车出去，翻了车，第八根肋条骨折，左胳膊也流了不少血，测得非常对。”\n\n又是一阵热烈的掌声，我站起来向大家致谢。\n\n这时张会长宣布：“表演到此结束。下边请魏宗万先生为大家表演节目。”\n\n可能是紧张的原因，大会表演中发言的三位同志，会后我都记不清是谁了。我本想找他们再核对一下会上没说的情况，但由于不知人家姓名，一时难以寻找。正在发愁，没想到，会后他们三个人都主动找我来了。\n\n首先来的是写书的那位戴眼镜的先生，原来这位先生是湖北省荆州市委党校张贵河副教授，他称赞我“所测各点皆极精确”,并表示今后一定要学会奇门遁甲。\n\n第二个找我的是浙江文艺出版社编辑蔚然(笔名)女士，她交给我一封信，信是这样写的：\n\n杜老师：您好!\n\n我参加会议的第一天，湖北荆州党校的张贵河老师就来找我，询问我所在的出版社能否接受他写的三部书稿(顺便说一句，我与他素不相识，他是从会议名册上知道我的)。我答应看了书稿再说。两天后的晚上，也即奇门遁甲讲演会召开前的一小时，张贵河老师前来询问结果，我告诉他，三部书稿中比较符合出版标准，最有可能出版的只有一种：《中国方术大师传奇》。这部书稿质量较好，显示作者有一定水平……此后不久，我们便去参加奇门遁甲讲演会。会上，张贵河老师当众向您询问他的三部书稿能否出版，您用奇门遁甲的方法演算后明确告诉他：三部书稿中，只有第一本(即《中国方术大师传奇》)有出版之可能，该书稿质量属中上等水平，且只可能在北方的出版社出版，不可能在南方的出版社出版。此结果与我和张老师的谈话情况完全吻合，而您是不可能知道我们的谈话内容的，因为我们在会前都不认识您。更何况整个演算过程只用了一两分钟。奇门遁甲的神奇、快速，真令我大感惊讶，于是便忍不住站起来说明了您的判断的正确。这是一次成功的演示。事实证明，奇门遁甲无愧于“中国方术之王”的称号，是中国传统文化中的一朵奇葩，是值得我们学习、继承并发展的。\n\n蔚然\n\n1998年9月18日\n\n第三个找我的是出车祸的代表，他叫王成周，是河南省林州市任村镇牛岭山村人、林州市周易研究会会员。他说：“那天大会表演，说我引起了官讼，破了财，我是破了三千元左右。我主要是想看看奇门遁甲能不能测出我出车祸的事。”\n\n我讲：“你们翻车是在春天，死了两个人，不知对不对?”\n\n王说：“死俩伤仨，你又测准了。杜老师，我也不是奉承你们河北，这回你们河北的奇门遁甲真是叫响了，在这几百人的会上敢公开表演，说明你们是真奇门遁甲。”\n\n下面让我们具体看一下那天晚上九点半时的奇门格局：\n\n1998年9月16日21时30分，干支历为戊寅年辛酉月丙寅日己亥时，白露上元，阴9局，甲午旬，天心星值符，开门值使。\n\n九宫盘面（根据提供的文字原盘重排）：\n┌──────────────────────┬──────────────────────┬──────────────────────┐\n│巽四宫                │离九宫                │坤二宫                │\n│八神：地              │八神：武              │八神：虎              │\n│门位：伤乙            │门位：杜丁            │门位：景癸            │\n│星位：任癸            │星位：冲戊            │星位：辅丙            │\n├──────────────────────┼──────────────────────┼──────────────────────┤\n│震三宫                │中五宫                │兑七宫                │\n│八神：天              │八神：—               │八神：合              │\n│门位：生乙            │中宫原文：壬          │门位：死戊            │\n│星位：蓬丁            │星位：—               │星位：英庚            │\n├──────────────────────┼──────────────────────┼──────────────────────┤\n│艮八宫                │坎一宫                │乾六宫                │\n│八神：符              │八神：蛇              │八神：阴              │\n│门位：休辛            │门位：开庚            │门位：壬惊丙          │\n│星位：心己            │星位：柱乙            │星位：芮辛            │\n└──────────────────────┴──────────────────────┴──────────────────────┘\n我当时是这样分析判断的：\n\n(一)对第一个人的预测：\n\n(1)为什么断三本书只能出版一本?\n\n该人位于大会场的东侧，奇门局上为震3宫的位置；景门代表所写的书，现景门落坤2宫，宫中有天辅文曲星，又上乘白虎及丙奇，文章应属上乘，但天盘癸入墓及癸加壬凶格，那么再来判断其文章的写作质量必定是属于中上等水平。\n\n既然书的写作水平属中上等，为什么断三本书稿只能出版一本呢?景门为书稿，落坤2宫为两本，开门为出版社落坎1宫，现景门落宫土来克开门落宫水，断有两本不能出版。另外，震宫代表预测人，属木，克景门落宫土，也主只能出一本，另两本不能出版。\n\n(2)三本书稿中哪本能出版呢?\n\n前边我已断出只能出版一本，而后他又说了三本书名，问哪本能出。他说第一本，我就看1宫，1宫中逢开门吉门，又生他所在的震3宫，断第一本书能出。他说第二本，我就看2宫，2宫克开门出版社，又受3宫之克，必然出版不了。他说第三本，我看3宫和景门书稿落宫的关系，3宫克景门落宫，也出版不了。\n\n(3)从哪个方向找人帮忙能出版呢?\n\n预测人位于震3宫，北方逢开门，是指北方的出版社大门开着，开门落坎宫属水，生预测人，所以说可以到北方找人帮忙。3宫属木，克艮8宫土，宫中有值符吉神和休门吉门及天心吉星，也可以到他所克制的艮方，即东北方去找人。\n\n为什么不能到南方和其他方向呢?因为别的方向不是克预测人的震3宫，就是格局不好。如到南方，则看离宫，宫中逢杜门，杜门主闭塞不通，表明出版社之门不畅通，上乘玄武，又有地盘甲子戊，戊为钱财落离宫受冲，必破财，所以也不能到南方的出版社。\n\n(二)对第二个人的预测：\n\n(1)为什么说他在道路上遇到了车祸?\n\n预测人位于会场的西南角，奇门格局上对应的是坤2宫，宫中白虎主刑伤、主道路，景门主血光，说明在道路上有血光之灾。怎么造成的呢?第一看旬空之宫，因为旬空则藏有玄机。现巽4宫旬空，宫中有伤门，伤门主车辆，车辆宫克预测人宫，必是车祸。\n\n从另一个角度看，预测人位于坤宫，天盘癸为预测人现状，地盘癸为以前的状态。现地盘癸落巽4宫，也是伤门宫克预测人宫，为车祸。何时出车祸，春天木旺才能克预测人之宫，故断春天出的车祸。\n\n(2)伤及的部位是怎样断的?\n\n死门主伤疤，落兑7宫，为左腰部，宫中戊加庚为“值符飞宫”凶事更凶，死门又主死人，落兑宫主二数，故断死二人。景门主血光，落坤2宫为左胳膊，上乘白虎主道路伤灾，必伤及左胳膊。\n\n一张志春按：湖北荆州市委党校张贵河副教授的第一部书稿《中国方术大师传奇》,2000年2月改名为《中国异人传奇》由北方的花山文艺出版社出版。为此，表演预测中所测诸事全部应验\n",
+              "source_pointer": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 1,
+                "line_end": 140,
+                "byte_start": 0,
+                "byte_end": 15047,
+                "source_quote": "三、第九届周易与现代化国际研讨会\n\n数理奇门现场预测表演纪实\n\n杜新会\n\n河南安阳是中国七大古都中的第一都，是商代后期都城，这里既有出土甲骨文的殷墟博物院，又有文王演周易的羑里城，是归藏易和周易的发源地。\n\n自1989年以来，安阳周易研究会与国际易经学会、中华炎黄文化研究会等学术团体合作，一年一届举行周易与现代化的国际学术研讨会。1998年9月15—18日在这里召开了第九届周易与现代化国际研讨会。\n\n这届会议规模最大，人数最多，有来自澳大利亚、美国、德国、法国、俄罗斯、韩国以及台湾地区、香港特别行政区和大陆除西藏、青海以外各省、市的易学专家、研究者五百余人。河北省周易研究会在张志春会长的率领下，组团参加，我作为研究会理事，也荣幸地出席了这届大会。\n\n会议期间，在张会长带领下，河北省的代表不仅一一汇报了大家研究的成果，而且在9月16日晚上，经大会会务组安排，由张会长做了有关奇门遁甲的专场学术报告，最后安排我进行现场公开预测表演。\n\n说实话，来之前，张会长提出让我准备在大会上进行现场预测表演，以便充分展示我们河北省周易研究会致力于易学现代化、科学化的成果，虽然我信心十足，但紧张和精神压力还是不小的，因为在国际性的易学大会上从来还没见过哪一个易学研究者敢公开进行现场预测表演，何况这一次大会又是人数最多、规模最大的一次呢!作为张会长的学生，张会长敢于作出这样的安排，百分之八十的把握肯定是有的。再者，张会长讲得清楚，既然作为学术研究，就同任何科研一样，不怕失败。我们绝不故弄玄虚，而是实事求是的进行科学实验，如果是真理，就不怕实践检验。\n\n16日晚8时，奇门遁甲专场学术报告会在阳光宾馆三楼大会议室准时开始，国家一级演员、电视连续剧《三国演义》中司马懿和《水浒传》中高俅的扮演者魏宗万先生，天津大学建筑系教授、中国易学堪舆研究院院长亢亮先生也前来助兴。今天会场不但座无虚席，而且后边还站着好多人前来听课。\n\n张志春会长从科学角度，深入浅出地讲解了奇门遁甲的推演原理，以及为什么说它是高层次的预测学，并首先以第二次世界大战为例，用奇门遁甲演局验证攻守双方的胜负；尔后又以张会长和我受有关部门的邀请到某大城市预测抢劫银行大案的实例，说明了奇门遁甲在现实社会中的应用价值。张会长讲到9点半左右停了下来。为了证明奇门遁甲的科学性，张会长向大会宣布：\n\n“下面由我们研究会的理事杜新会先生做现场预测表演。测准了，大家也不要认为我们水平高；测错了，说明我们水平低，请大家原谅(掌声)。在场的人员谁都可以预测，但因时间关系，只限两人。下面表演开始，谁预测?”\n\n张会长的话音刚落，哗的一下，会场内站起二十多人，还有一部分坐着举手的。张会长站起来，对着举手的代表随便用手指了会场东侧一位戴眼镜的男同志，又指了西南角一位中年男子。\n\n我坐在主席台上，也不知道这二位测什么事。东侧戴眼镜的同志操着一口湖北话，首先说：“我想预测一下。我写了三本书，这三本书能不能出版?”\n\n我看一下手中事先起好的奇门格局，张口就答：“先说你这三部书的写作质量，应属中上等水平，这三本书只能出版一本，另两本不能出版。”\n\n我目视这位求测者，整个会场听众的眼光也都投向了这位先生，等待他的评判。但他没下定语，而是又问：“我写的这三部书，第一部叫《中国方术大师传奇》,第二部是《易数应用学“梅易”新编》,第三部是《三元九星阳宅学》,我想问，这三部书哪本能出版?”\n\n他的话音刚落，我立即答道：“你讲的时候我已看了格局，第一本书可以出版，因为第一本书遇到开门了，开门生你，门开了，当然你的书就能出了。第二本、第三本出版不了。”\n\n实际上这位先生当时说的书名，我根本没听清，只是根据他说的第一、第二、第三的数字为依据来预测的。\n\n“我再问一下，我这本书要出版，从哪个方向找贵人帮忙?”\n\n“从你家的北方或东北方找人帮忙比较好，到南方找人，人家要你钱。”\n\n“我的书稿出版社已经看过，他们的意见也是只有第一本书能出版，你的预测完全正确!”\n\n全场热烈鼓掌，我赶紧站起来向大家致谢。\n\n掌声还没落，会场中间突然站起来一位中年女同志，右臂高举，示意发言，而且要求很强烈。我心想，不是大会宣布只测两个人，怎么又冒出来一个?张会长也不清楚，看到她一副迫切的样子，对她说：“你讲吧。”\n\n“我是浙江文艺出版社的编辑，他的书稿我看过了，我证明，他的第一部书稿符合出版条件。预测非常准确。”\n\n大家又报以热烈掌声。\n\n第二位要求预测的人是位中年男人，操着河南口音说：“我想测测我的家庭和我有什么事?”\n\n嗬!这个问题提的面够宽的，公开表演有点无从下手，我心里边想边低头看奇门局。这位男同志站立在会场后边的西南角，局上为坤宫，宫中有景门，景门主血光，“血光”这两个字刚在脑子里一闪，立刻又被对方提的家庭两字给挡住了。大会表演容不得仔细分析，我对着话筒说：\n\n“我说错了，请你批评，你提的问题可能是因小辈或下级的原因而引起了官讼，造成了破财，我所说的破财是指各方面的破财。”\n\n整个会场的人把目光都投到这位提问者的身上，全场鸦雀无声，我满指望对方说上一句“测得对”,但对方抬起右手，在胸前左右摆了摆。\n\n“不对?”我问他，他表示赞同，并说：“我今天主要是想测测我本人的事。”\n\n测本人，我毫不犹豫地答道：“在道路上发生了车祸，伤及的位置在身体的左侧腰部和胳膊上，而且还流了血(我边说边用我自己的身体示意伤及的部位，并用手指着他的左侧)。这次如果测错了，你公布实情，我就承认测错了。”\n\n这次这位男子很快做出了反应，并显得有些激动，抬起左臂，右手指着腰部说：“我今年二月初四坐汽车出去，翻了车，第八根肋条骨折，左胳膊也流了不少血，测得非常对。”\n\n又是一阵热烈的掌声，我站起来向大家致谢。\n\n这时张会长宣布：“表演到此结束。下边请魏宗万先生为大家表演节目。”\n\n可能是紧张的原因，大会表演中发言的三位同志，会后我都记不清是谁了。我本想找他们再核对一下会上没说的情况，但由于不知人家姓名，一时难以寻找。正在发愁，没想到，会后他们三个人都主动找我来了。\n\n首先来的是写书的那位戴眼镜的先生，原来这位先生是湖北省荆州市委党校张贵河副教授，他称赞我“所测各点皆极精确”,并表示今后一定要学会奇门遁甲。\n\n第二个找我的是浙江文艺出版社编辑蔚然(笔名)女士，她交给我一封信，信是这样写的：\n\n杜老师：您好!\n\n我参加会议的第一天，湖北荆州党校的张贵河老师就来找我，询问我所在的出版社能否接受他写的三部书稿(顺便说一句，我与他素不相识，他是从会议名册上知道我的)。我答应看了书稿再说。两天后的晚上，也即奇门遁甲讲演会召开前的一小时，张贵河老师前来询问结果，我告诉他，三部书稿中比较符合出版标准，最有可能出版的只有一种：《中国方术大师传奇》。这部书稿质量较好，显示作者有一定水平……此后不久，我们便去参加奇门遁甲讲演会。会上，张贵河老师当众向您询问他的三部书稿能否出版，您用奇门遁甲的方法演算后明确告诉他：三部书稿中，只有第一本(即《中国方术大师传奇》)有出版之可能，该书稿质量属中上等水平，且只可能在北方的出版社出版，不可能在南方的出版社出版。此结果与我和张老师的谈话情况完全吻合，而您是不可能知道我们的谈话内容的，因为我们在会前都不认识您。更何况整个演算过程只用了一两分钟。奇门遁甲的神奇、快速，真令我大感惊讶，于是便忍不住站起来说明了您的判断的正确。这是一次成功的演示。事实证明，奇门遁甲无愧于“中国方术之王”的称号，是中国传统文化中的一朵奇葩，是值得我们学习、继承并发展的。\n\n蔚然\n\n1998年9月18日\n\n第三个找我的是出车祸的代表，他叫王成周，是河南省林州市任村镇牛岭山村人、林州市周易研究会会员。他说：“那天大会表演，说我引起了官讼，破了财，我是破了三千元左右。我主要是想看看奇门遁甲能不能测出我出车祸的事。”\n\n我讲：“你们翻车是在春天，死了两个人，不知对不对?”\n\n王说：“死俩伤仨，你又测准了。杜老师，我也不是奉承你们河北，这回你们河北的奇门遁甲真是叫响了，在这几百人的会上敢公开表演，说明你们是真奇门遁甲。”\n\n下面让我们具体看一下那天晚上九点半时的奇门格局：\n\n1998年9月16日21时30分，干支历为戊寅年辛酉月丙寅日己亥时，白露上元，阴9局，甲午旬，天心星值符，开门值使。\n\n九宫盘面（根据提供的文字原盘重排）：\n┌──────────────────────┬──────────────────────┬──────────────────────┐\n│巽四宫                │离九宫                │坤二宫                │\n│八神：地              │八神：武              │八神：虎              │\n│门位：伤乙            │门位：杜丁            │门位：景癸            │\n│星位：任癸            │星位：冲戊            │星位：辅丙            │\n├──────────────────────┼──────────────────────┼──────────────────────┤\n│震三宫                │中五宫                │兑七宫                │\n│八神：天              │八神：—               │八神：合              │\n│门位：生乙            │中宫原文：壬          │门位：死戊            │\n│星位：蓬丁            │星位：—               │星位：英庚            │\n├──────────────────────┼──────────────────────┼──────────────────────┤\n│艮八宫                │坎一宫                │乾六宫                │\n│八神：符              │八神：蛇              │八神：阴              │\n│门位：休辛            │门位：开庚            │门位：壬惊丙          │\n│星位：心己            │星位：柱乙            │星位：芮辛            │\n└──────────────────────┴──────────────────────┴──────────────────────┘\n我当时是这样分析判断的：\n\n(一)对第一个人的预测：\n\n(1)为什么断三本书只能出版一本?\n\n该人位于大会场的东侧，奇门局上为震3宫的位置；景门代表所写的书，现景门落坤2宫，宫中有天辅文曲星，又上乘白虎及丙奇，文章应属上乘，但天盘癸入墓及癸加壬凶格，那么再来判断其文章的写作质量必定是属于中上等水平。\n\n既然书的写作水平属中上等，为什么断三本书稿只能出版一本呢?景门为书稿，落坤2宫为两本，开门为出版社落坎1宫，现景门落宫土来克开门落宫水，断有两本不能出版。另外，震宫代表预测人，属木，克景门落宫土，也主只能出一本，另两本不能出版。\n\n(2)三本书稿中哪本能出版呢?\n\n前边我已断出只能出版一本，而后他又说了三本书名，问哪本能出。他说第一本，我就看1宫，1宫中逢开门吉门，又生他所在的震3宫，断第一本书能出。他说第二本，我就看2宫，2宫克开门出版社，又受3宫之克，必然出版不了。他说第三本，我看3宫和景门书稿落宫的关系，3宫克景门落宫，也出版不了。\n\n(3)从哪个方向找人帮忙能出版呢?\n\n预测人位于震3宫，北方逢开门，是指北方的出版社大门开着，开门落坎宫属水，生预测人，所以说可以到北方找人帮忙。3宫属木，克艮8宫土，宫中有值符吉神和休门吉门及天心吉星，也可以到他所克制的艮方，即东北方去找人。\n\n为什么不能到南方和其他方向呢?因为别的方向不是克预测人的震3宫，就是格局不好。如到南方，则看离宫，宫中逢杜门，杜门主闭塞不通，表明出版社之门不畅通，上乘玄武，又有地盘甲子戊，戊为钱财落离宫受冲，必破财，所以也不能到南方的出版社。\n\n(二)对第二个人的预测：\n\n(1)为什么说他在道路上遇到了车祸?\n\n预测人位于会场的西南角，奇门格局上对应的是坤2宫，宫中白虎主刑伤、主道路，景门主血光，说明在道路上有血光之灾。怎么造成的呢?第一看旬空之宫，因为旬空则藏有玄机。现巽4宫旬空，宫中有伤门，伤门主车辆，车辆宫克预测人宫，必是车祸。\n\n从另一个角度看，预测人位于坤宫，天盘癸为预测人现状，地盘癸为以前的状态。现地盘癸落巽4宫，也是伤门宫克预测人宫，为车祸。何时出车祸，春天木旺才能克预测人之宫，故断春天出的车祸。\n\n(2)伤及的部位是怎样断的?\n\n死门主伤疤，落兑7宫，为左腰部，宫中戊加庚为“值符飞宫”凶事更凶，死门又主死人，落兑宫主二数，故断死二人。景门主血光，落坤2宫为左胳膊，上乘白虎主道路伤灾，必伤及左胳膊。\n\n一张志春按：湖北荆州市委党校张贵河副教授的第一部书稿《中国方术大师传奇》,2000年2月改名为《中国异人传奇》由北方的花山文艺出版社出版。为此，表演预测中所测诸事全部应验\n"
+              },
+              "applicability_status": "reference_only",
+              "automatic_prediction": false,
+              "automatic_role_binding": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "category": "commentary",
+      "byte_start": 9936,
+      "byte_end": 11939,
+      "locator": "demo_clean_user_relayout；输入行91–107",
+      "payload": {
+        "kind": "context_group",
+        "key": "demo_clean_user_relayout",
+        "title": "附录三所供九宫重排表：逐宫字面与旧事件关系",
+        "category": "commentary",
+        "line_start": 91,
+        "line_end": 107,
+        "attribution": "用户本次附件明标根据提供的文字原盘重排；不冒称纸本原图或程序独立复算",
+        "summary": "九宫36个所供字面单元逐宫保存，含震三生乙、中宫原文壬、乾六壬惊丙，不按推算法或后文改字。原碎片及两事件原chart_id保持；本表由现有reference按palace查询，旧case-chart技术状态不升级",
+        "concepts": [],
+        "existing_case_id": "case-ea86d002d73e8c074ba86bccdab0a73833d4690b8dda2a7230547b15bfabe416",
+        "existing_event_links": [
+          {
+            "existing_event_key": "appendix-demo-publication",
+            "existing_event_id": "event-f1614748d2320ad62e8a4ad14e65c9af3dc825fdd13b84de49a9c4fd800972d5",
+            "existing_family_id": "family-06659008ffb3141673b64b6c6ce84b0d01dc4649953a444d1d20a8554353479d",
+            "existing_chart_ids": [
+              "chart-51a3509edea59beb09a82dbc3e496a35ffd2be97caae2d246d2ba086699b490f"
+            ]
+          },
+          {
+            "existing_event_key": "appendix-demo-accident",
+            "existing_event_id": "event-5a5c9c0297bc5bf83fd19b7fe28d118ea14dc6e37f3746864aeb7d6d79516970",
+            "existing_family_id": "family-06659008ffb3141673b64b6c6ce84b0d01dc4649953a444d1d20a8554353479d",
+            "existing_chart_ids": [
+              "chart-28ef2c4a03ec026666dd8dbf63b8a19f6669c64c59e4029eba274df56fa999b4"
+            ]
+          }
+        ],
+        "representation_kind": "user_supplied_relayout_from_prior_text_not_original_scan",
+        "source_claim_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 91,
+          "line_end": 91,
+          "byte_start": 9936,
+          "byte_end": 9991,
+          "source_quote": "九宫盘面（根据提供的文字原盘重排）：\n"
+        },
+        "source_chart_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 92,
+          "line_end": 107,
+          "byte_start": 9991,
+          "byte_end": 11939,
+          "source_quote": "┌──────────────────────┬──────────────────────┬──────────────────────┐\n│巽四宫                │离九宫                │坤二宫                │\n│八神：地              │八神：武              │八神：虎              │\n│门位：伤乙            │门位：杜丁            │门位：景癸            │\n│星位：任癸            │星位：冲戊            │星位：辅丙            │\n├──────────────────────┼──────────────────────┼──────────────────────┤\n│震三宫                │中五宫                │兑七宫                │\n│八神：天              │八神：—               │八神：合              │\n│门位：生乙            │中宫原文：壬          │门位：死戊            │\n│星位：蓬丁            │星位：—               │星位：英庚            │\n├──────────────────────┼──────────────────────┼──────────────────────┤\n│艮八宫                │坎一宫                │乾六宫                │\n│八神：符              │八神：蛇              │八神：阴              │\n│门位：休辛            │门位：开庚            │门位：壬惊丙          │\n│星位：心己            │星位：柱乙            │星位：芮辛            │\n└──────────────────────┴──────────────────────┴──────────────────────┘\n"
+        },
+        "source_chart_metadata_selector": {
+          "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+          "line_start": 89,
+          "line_end": 89,
+          "byte_start": 9784,
+          "byte_end": 9935,
+          "source_quote": "1998年9月16日21时30分，干支历为戊寅年辛酉月丙寅日己亥时，白露上元，阴9局，甲午旬，天心星值符，开门值使。\n"
+        },
+        "new_independent_chart": false,
+        "engine_verified": false,
+        "original_scan_verified": false,
+        "existing_chart_records_modified": false,
+        "dataset": {
+          "key": "demo_clean_palaces_reference",
+          "rows": [
+            {
+              "key": "demo_clean_palace_4",
+              "palace": 4,
+              "palace_label_as_written": "巽四宫",
+              "deity_as_written": "地",
+              "door_as_written": "伤乙",
+              "center_text_as_written": null,
+              "star_as_written": "任癸",
+              "source_cells_as_written": [
+                "巽四宫",
+                "八神：地",
+                "门位：伤乙",
+                "星位：任癸"
+              ],
+              "source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 93,
+                "line_end": 96,
+                "byte_start": 10202,
+                "byte_end": 10569,
+                "source_quote": "│巽四宫                │离九宫                │坤二宫                │\n│八神：地              │八神：武              │八神：虎              │\n│门位：伤乙            │门位：杜丁            │门位：景癸            │\n│星位：任癸            │星位：冲戊            │星位：辅丙            │\n"
+              },
+              "source_grid_column": 1,
+              "representation_kind": "user_supplied_relayout_from_prior_text_not_original_scan",
+              "applicability_status": "reference_only",
+              "engine_verified": false,
+              "automatic_role_binding": false
+            },
+            {
+              "key": "demo_clean_palace_9",
+              "palace": 9,
+              "palace_label_as_written": "离九宫",
+              "deity_as_written": "武",
+              "door_as_written": "杜丁",
+              "center_text_as_written": null,
+              "star_as_written": "冲戊",
+              "source_cells_as_written": [
+                "离九宫",
+                "八神：武",
+                "门位：杜丁",
+                "星位：冲戊"
+              ],
+              "source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 93,
+                "line_end": 96,
+                "byte_start": 10202,
+                "byte_end": 10569,
+                "source_quote": "│巽四宫                │离九宫                │坤二宫                │\n│八神：地              │八神：武              │八神：虎              │\n│门位：伤乙            │门位：杜丁            │门位：景癸            │\n│星位：任癸            │星位：冲戊            │星位：辅丙            │\n"
+              },
+              "source_grid_column": 2,
+              "representation_kind": "user_supplied_relayout_from_prior_text_not_original_scan",
+              "applicability_status": "reference_only",
+              "engine_verified": false,
+              "automatic_role_binding": false
+            },
+            {
+              "key": "demo_clean_palace_2",
+              "palace": 2,
+              "palace_label_as_written": "坤二宫",
+              "deity_as_written": "虎",
+              "door_as_written": "景癸",
+              "center_text_as_written": null,
+              "star_as_written": "辅丙",
+              "source_cells_as_written": [
+                "坤二宫",
+                "八神：虎",
+                "门位：景癸",
+                "星位：辅丙"
+              ],
+              "source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 93,
+                "line_end": 96,
+                "byte_start": 10202,
+                "byte_end": 10569,
+                "source_quote": "│巽四宫                │离九宫                │坤二宫                │\n│八神：地              │八神：武              │八神：虎              │\n│门位：伤乙            │门位：杜丁            │门位：景癸            │\n│星位：任癸            │星位：冲戊            │星位：辅丙            │\n"
+              },
+              "source_grid_column": 3,
+              "representation_kind": "user_supplied_relayout_from_prior_text_not_original_scan",
+              "applicability_status": "reference_only",
+              "engine_verified": false,
+              "automatic_role_binding": false
+            },
+            {
+              "key": "demo_clean_palace_3",
+              "palace": 3,
+              "palace_label_as_written": "震三宫",
+              "deity_as_written": "天",
+              "door_as_written": "生乙",
+              "center_text_as_written": null,
+              "star_as_written": "蓬丁",
+              "source_cells_as_written": [
+                "震三宫",
+                "八神：天",
+                "门位：生乙",
+                "星位：蓬丁"
+              ],
+              "source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 98,
+                "line_end": 101,
+                "byte_start": 10780,
+                "byte_end": 11149,
+                "source_quote": "│震三宫                │中五宫                │兑七宫                │\n│八神：天              │八神：—               │八神：合              │\n│门位：生乙            │中宫原文：壬          │门位：死戊            │\n│星位：蓬丁            │星位：—               │星位：英庚            │\n"
+              },
+              "source_grid_column": 1,
+              "representation_kind": "user_supplied_relayout_from_prior_text_not_original_scan",
+              "applicability_status": "reference_only",
+              "engine_verified": false,
+              "automatic_role_binding": false
+            },
+            {
+              "key": "demo_clean_palace_5",
+              "palace": 5,
+              "palace_label_as_written": "中五宫",
+              "deity_as_written": "—",
+              "door_as_written": null,
+              "center_text_as_written": "壬",
+              "star_as_written": "—",
+              "source_cells_as_written": [
+                "中五宫",
+                "八神：—",
+                "中宫原文：壬",
+                "星位：—"
+              ],
+              "source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 98,
+                "line_end": 101,
+                "byte_start": 10780,
+                "byte_end": 11149,
+                "source_quote": "│震三宫                │中五宫                │兑七宫                │\n│八神：天              │八神：—               │八神：合              │\n│门位：生乙            │中宫原文：壬          │门位：死戊            │\n│星位：蓬丁            │星位：—               │星位：英庚            │\n"
+              },
+              "source_grid_column": 2,
+              "representation_kind": "user_supplied_relayout_from_prior_text_not_original_scan",
+              "applicability_status": "reference_only",
+              "engine_verified": false,
+              "automatic_role_binding": false
+            },
+            {
+              "key": "demo_clean_palace_7",
+              "palace": 7,
+              "palace_label_as_written": "兑七宫",
+              "deity_as_written": "合",
+              "door_as_written": "死戊",
+              "center_text_as_written": null,
+              "star_as_written": "英庚",
+              "source_cells_as_written": [
+                "兑七宫",
+                "八神：合",
+                "门位：死戊",
+                "星位：英庚"
+              ],
+              "source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 98,
+                "line_end": 101,
+                "byte_start": 10780,
+                "byte_end": 11149,
+                "source_quote": "│震三宫                │中五宫                │兑七宫                │\n│八神：天              │八神：—               │八神：合              │\n│门位：生乙            │中宫原文：壬          │门位：死戊            │\n│星位：蓬丁            │星位：—               │星位：英庚            │\n"
+              },
+              "source_grid_column": 3,
+              "representation_kind": "user_supplied_relayout_from_prior_text_not_original_scan",
+              "applicability_status": "reference_only",
+              "engine_verified": false,
+              "automatic_role_binding": false
+            },
+            {
+              "key": "demo_clean_palace_8",
+              "palace": 8,
+              "palace_label_as_written": "艮八宫",
+              "deity_as_written": "符",
+              "door_as_written": "休辛",
+              "center_text_as_written": null,
+              "star_as_written": "心己",
+              "source_cells_as_written": [
+                "艮八宫",
+                "八神：符",
+                "门位：休辛",
+                "星位：心己"
+              ],
+              "source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 103,
+                "line_end": 106,
+                "byte_start": 11360,
+                "byte_end": 11728,
+                "source_quote": "│艮八宫                │坎一宫                │乾六宫                │\n│八神：符              │八神：蛇              │八神：阴              │\n│门位：休辛            │门位：开庚            │门位：壬惊丙          │\n│星位：心己            │星位：柱乙            │星位：芮辛            │\n"
+              },
+              "source_grid_column": 1,
+              "representation_kind": "user_supplied_relayout_from_prior_text_not_original_scan",
+              "applicability_status": "reference_only",
+              "engine_verified": false,
+              "automatic_role_binding": false
+            },
+            {
+              "key": "demo_clean_palace_1",
+              "palace": 1,
+              "palace_label_as_written": "坎一宫",
+              "deity_as_written": "蛇",
+              "door_as_written": "开庚",
+              "center_text_as_written": null,
+              "star_as_written": "柱乙",
+              "source_cells_as_written": [
+                "坎一宫",
+                "八神：蛇",
+                "门位：开庚",
+                "星位：柱乙"
+              ],
+              "source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 103,
+                "line_end": 106,
+                "byte_start": 11360,
+                "byte_end": 11728,
+                "source_quote": "│艮八宫                │坎一宫                │乾六宫                │\n│八神：符              │八神：蛇              │八神：阴              │\n│门位：休辛            │门位：开庚            │门位：壬惊丙          │\n│星位：心己            │星位：柱乙            │星位：芮辛            │\n"
+              },
+              "source_grid_column": 2,
+              "representation_kind": "user_supplied_relayout_from_prior_text_not_original_scan",
+              "applicability_status": "reference_only",
+              "engine_verified": false,
+              "automatic_role_binding": false
+            },
+            {
+              "key": "demo_clean_palace_6",
+              "palace": 6,
+              "palace_label_as_written": "乾六宫",
+              "deity_as_written": "阴",
+              "door_as_written": "壬惊丙",
+              "center_text_as_written": null,
+              "star_as_written": "芮辛",
+              "source_cells_as_written": [
+                "乾六宫",
+                "八神：阴",
+                "门位：壬惊丙",
+                "星位：芮辛"
+              ],
+              "source_selector": {
+                "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+                "line_start": 103,
+                "line_end": 106,
+                "byte_start": 11360,
+                "byte_end": 11728,
+                "source_quote": "│艮八宫                │坎一宫                │乾六宫                │\n│八神：符              │八神：蛇              │八神：阴              │\n│门位：休辛            │门位：开庚            │门位：壬惊丙          │\n│星位：心己            │星位：柱乙            │星位：芮辛            │\n"
+              },
+              "source_grid_column": 3,
+              "representation_kind": "user_supplied_relayout_from_prior_text_not_original_scan",
+              "applicability_status": "reference_only",
+              "engine_verified": false,
+              "automatic_role_binding": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "category": "commentary",
+      "byte_start": 0,
+      "byte_end": 15047,
+      "locator": "demo_clean_same_case_chronology；输入行1–140",
+      "payload": {
+        "kind": "source_quality_issue",
+        "record": {
+          "key": "demo_clean_same_case_chronology",
+          "line_start": 1,
+          "line_end": 140,
+          "description": "同一现场故事两目标，30条叙事记录逐条对应；官讼初断否定、改问本人续断、部分财务、会后死伤及2000按语保留阶段，不因精校重复计案例或命中"
+        }
+      }
+    },
+    {
+      "category": "commentary",
+      "byte_start": 9784,
+      "byte_end": 11939,
+      "locator": "demo_clean_relayout_scope；输入行89–107",
+      "payload": {
+        "kind": "source_quality_issue",
+        "record": {
+          "key": "demo_clean_relayout_scope",
+          "line_start": 89,
+          "line_end": 107,
+          "description": "附件明标文字原盘重排，不是新纸本原图；只保存所供九宫表和字面出处，不补正生乙/壬惊丙、不覆盖旧碎片，不改历法或旧case-chart覆盖状态"
+        }
+      }
+    }
+  ]
+}

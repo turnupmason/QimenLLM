@@ -1,0 +1,200 @@
+{
+  "source_sha256": "0649e0a09cc615c9c379e3fb5f43a20038329546ec8a829dbbdac11b8322981e",
+  "source_byte_count": 15047,
+  "source_line_count": 140,
+  "source_file": "神奇之门_附录三_现场预测表演纪实_精校完整版.txt",
+  "printed_appendix_number": 3,
+  "received_sequence": 27,
+  "verification_basis": "user_attestation",
+  "system_performed_independent_verification": false,
+  "context_groups": 2,
+  "technical_boundaries": 2,
+  "existing_case_links": 1,
+  "existing_event_links": 2,
+  "aligned_existing_records": 30,
+  "normalized_narrative_characters": 4387,
+  "user_supplied_relayout_palaces": 9,
+  "user_supplied_relayout_literal_cells": 36,
+  "new_methods": 0,
+  "new_concepts": 0,
+  "historical_cases_added": 0,
+  "events_added": 0,
+  "charts_added": 0,
+  "rule_candidates_added": 0,
+  "project_empirical_accuracy": null,
+  "original_fragment_data_modified": false,
+  "existing_case_chart_projection_changed": false,
+  "schema_migration": false,
+  "default_casting_method_changed": false,
+  "formal_rules_added": 0,
+  "training_tasks_added": 0,
+  "snapshot": {
+    "data_version": "9fe01f72-44f1-4b6d-b793-f2b9b748f16c",
+    "snapshot": "data/snapshots/current",
+    "counts": {
+      "data_versions": 112,
+      "books": 1,
+      "chapters": 26,
+      "raw_documents": 26,
+      "chapter_revisions": 26,
+      "source_reviews": 33,
+      "source_spans": 3275,
+      "methods": 32,
+      "concepts": 2674,
+      "concept_links": 0,
+      "knowledge_items": 1183,
+      "rules": 0,
+      "rule_conditions": 0,
+      "rule_disagreements": 0,
+      "event_families": 94,
+      "cases": 98,
+      "events": 106,
+      "case_events": 106,
+      "charts": 104,
+      "case_records": 1579,
+      "evidence_links": 1902,
+      "dataset_releases": 0,
+      "split_assignments": 0,
+      "training_tasks": 0,
+      "task_inputs": 0
+    },
+    "manifest_sha256": "60c681252486135c1dd5b730d1d31677757437d9b01f1e7e330624a597195401"
+  },
+  "old_rows_preserved": {
+    "rule_conditions": {
+      "old": 0,
+      "new": 0
+    },
+    "concept_links": {
+      "old": 0,
+      "new": 0
+    },
+    "case_events": {
+      "old": 106,
+      "new": 106
+    },
+    "data_versions": {
+      "old": 110,
+      "new": 112
+    },
+    "case_records": {
+      "old": 1579,
+      "new": 1579
+    },
+    "rule_disagreements": {
+      "old": 0,
+      "new": 0
+    },
+    "training_tasks": {
+      "old": 0,
+      "new": 0
+    },
+    "evidence_links": {
+      "old": 1902,
+      "new": 1902
+    },
+    "chapter_revisions": {
+      "old": 25,
+      "new": 26
+    },
+    "knowledge_items": {
+      "old": 1179,
+      "new": 1183
+    },
+    "methods": {
+      "old": 32,
+      "new": 32
+    },
+    "event_families": {
+      "old": 94,
+      "new": 94
+    },
+    "raw_documents": {
+      "old": 25,
+      "new": 26
+    },
+    "cases": {
+      "old": 98,
+      "new": 98
+    },
+    "task_inputs": {
+      "old": 0,
+      "new": 0
+    },
+    "source_spans": {
+      "old": 3270,
+      "new": 3275
+    },
+    "concepts": {
+      "old": 2674,
+      "new": 2674
+    },
+    "events": {
+      "old": 106,
+      "new": 106
+    },
+    "rules": {
+      "old": 0,
+      "new": 0
+    },
+    "split_assignments": {
+      "old": 0,
+      "new": 0
+    },
+    "charts": {
+      "old": 104,
+      "new": 104
+    },
+    "chapters": {
+      "old": 25,
+      "new": 26
+    },
+    "books": {
+      "old": 1,
+      "new": 1
+    },
+    "source_reviews": {
+      "old": 32,
+      "new": 33
+    },
+    "dataset_releases": {
+      "old": 0,
+      "new": 0
+    }
+  },
+  "old_raw_documents_byte_identical": 25,
+  "snapshot_files": 52,
+  "snapshot_roundtrip_byte_identical": true,
+  "integrity_audit_ok": true,
+  "base_main_sha": "7eaef8f936ae86576fd9ff02281908855e1469fe",
+  "full_regression": {
+    "status": "passed",
+    "tests": 493,
+    "failures": 0,
+    "errors": 0,
+    "focused_tests": 14,
+    "command": "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+    "python": "3.12.2",
+    "platform": "Darwin",
+    "actual_cli_and_wsgi_read": true,
+    "substantive_tables_unchanged": true,
+    "normalized_narrative_equal": true,
+    "normalized_narrative_characters": 4387,
+    "aligned_old_records_verified": 30,
+    "existing_event_family_links_verified": 2,
+    "supplied_relayout_reference_palaces_read": 9,
+    "independent_literal_gold_cells_checked": 36,
+    "supplied_representation_kind": "user_supplied_relayout_from_prior_text_not_original_scan",
+    "old_case_chart_status": "not_covered",
+    "old_case_chart_status_unchanged": true,
+    "professional_correctness": null,
+    "real_world_predictive_accuracy": null
+  },
+  "github_sync": {
+    "status": "pending"
+  },
+  "development_failures": [],
+  "cumulative_context_groups": 554,
+  "cumulative_quality_records": 371,
+  "cumulative_compiled_datasets": 39
+}
