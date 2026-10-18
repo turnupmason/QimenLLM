@@ -6,7 +6,8 @@ Never opens test. Seen train tasks are diagnostics, not unseen validation.
 import argparse,hashlib,importlib.metadata,json,os,sys,time
 from collections import Counter
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'src'));sys.path.insert(0,str(ROOT/'training'))
+ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'src'));sys.path.insert(0,str(ROOT/'training'));sys.path.insert(0,str(ROOT/'scripts'))
+from book_chapter_audit import matrix as chapter_evaluation_matrix
 from epoch_protocol import sha
 from method_release import encoded
 from qimenllm.contracts import Inquiry
@@ -31,6 +32,7 @@ def select_tasks(manifest,data):
    for t in rows:
     key=(t['chapter'],t['task_type'])
     if key not in covered:out.append(t);covered.add(key)
+ if {t['chapter'] for t in out}!=set(meta['chapter_coverage']):raise ValueError('Every chapter source must have an evaluated task; test remains sealed')
  return out
 
 def validate_adapter_identity(adapter,manifest,config,model_manifest):
@@ -80,5 +82,5 @@ def main():
     expected=json.loads(t['messages'][2]['content']);actual=result.get('output',{});key='reported_facts' if t['input_setting']=='partial_source_reading' else 'palaces_as_written';score['source_limit_literal_exact_match']=actual.get(key)==expected[key]
    record={'task_id':t['task_id'],'chapter':t['chapter'],'split':t['split'],'context_mode':t['context_mode'],'task_type':t['task_type'],'result':result,'score':score};dest.write_bytes(encoded(record))
   records.append(record);progress={'completed':len(records),'total':len(todo),'last_task':t['task_id'],'last_status':record['result']['status']};(a.output/'progress.json').write_bytes(encoded(progress));print(json.dumps(progress),flush=True)
- report={**identity,'status':'generation_complete_not_semantic_acceptance','scope':'whole_book_source_conditioned_method_research','records':records,'adapter':identity['adapter_files'],'adapter_reload_parity':adapter_parity,'adapter_training':adapter_training,'training_updates':0,'generation_settings':{'max_tokens':cfg['max_generation_tokens'],'thinking':False},'revision':base['revision'],'test_accessed':False,'chapter_counts':dict(Counter(r['chapter'] for r in records)),'completion_counts':dict(Counter(r['result']['status'] for r in records)),'semantic_source_review_complete':False,'all_chapter_model_pass':False,'independent_real_world_accuracy':None,'started_unix':started,'finished_unix':time.time()};(a.output/'report.json').write_bytes(encoded(report))
+ report={**identity,'status':'generation_complete_not_semantic_acceptance','scope':'whole_book_source_conditioned_method_research','records':records,'adapter':identity['adapter_files'],'adapter_reload_parity':adapter_parity,'adapter_training':adapter_training,'training_updates':0,'generation_settings':{'max_tokens':cfg['max_generation_tokens'],'thinking':False},'revision':base['revision'],'test_accessed':False,'chapter_counts':dict(Counter(r['chapter'] for r in records)),'chapter_evaluation_matrix':chapter_evaluation_matrix(json.loads(manifest.read_bytes()),records),'completion_counts':dict(Counter(r['result']['status'] for r in records)),'semantic_source_review_complete':False,'all_chapter_model_pass':False,'independent_real_world_accuracy':None,'started_unix':started,'finished_unix':time.time()};(a.output/'report.json').write_bytes(encoded(report))
 if __name__=='__main__':main()
