@@ -1,3 +1,11 @@
+# 2026-10-19：冻结监督答案长度审计通过，改用早期checkpoint生成对照
+
+用户的本地真实审计报告显示325条完整train+validation监督回应token长度min78/median169/max491，全部低于当前1536的生成输出上限；44/44条feedback_continuation监督JSON都有`chart_action=reuse_original`。微调epoch05在109道诊断题中35次达到1536生成上限，其中33次具有40字符尾段重复≥3次且33次存在精确重复后缀；基线3次截断无此循环迹象。重复检测是启发式证据，但模型退化比仅“上下文不够”更可能。当前不能声称学到正确应期/续断，也不能盲目把上限提到4096、继续epoch06，或重置旧实验。
+
+新的预登记、**只读旧权重**的诊断实验是`scripts/probe_mac_book_early_checkpoints.py`：从冻结validation中按`sha256('mac-book-checkpoint-probe-validation-v1:'+task_id)`排序，固定五种真正可验证的方法任务各3条，共15条，以原始报告内的同题base/epoch05输出为参照，分别加载epoch-01和epoch-03 checkpoint在一致1536 token、禁用thinking、温度0、seed17、相同prompt与检查器的本地完整模型生成。训练集中独有的source_knowledge不能混进未见验证统计；当前probe的15个是方法任务，不是15个独立历史故事，不代表“各章≥1个完整测试家族”已经达标。每轮新本地目录，先核验adapter hash、scale、模型版本，不覆盖原始checkpoint，不打开test.jsonl，历史test 57任务继续封存。probe只用于定位从epoch1/3/5哪次开始出现协议退步；下一步再对模型重复输出及作者推理语义进行复核，决定是否开展新版本训练。
+
+---
+
 # 2026-10-19：精查35次截断中的33次重复生成迹象，审计监督答案目标长度
 
 用户 Mac 只读终端显示 epoch05 的35次长度截断中33次“最后40字符至少出现三遍”（**启发式迹象，不是已经确认的token级退化循环**），35/35均在精确1536生成token时终止，截断文本0个完整JSON；prompt范围521—2898，最高4096输出预算在8192上下文可容纳35/35。这证明当前上限触发截断，但**不证明提高上限会有用**：若模型循环输出，额外token只会增加无用重复。35例覆盖chart_evidence11、evidence_synthesis9、role_selection7、feedback_continuation4、timing_analysis3、source_knowledge1；其中22个validation、5个development、8个已见train诊断。9个反馈续断原盘复用缺失独立于长度问题，需逐题检查。
