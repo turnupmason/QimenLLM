@@ -1,3 +1,11 @@
+# 2026-10-19：Mac 27B 全书 Rank16 LoRA 第一评估边界（用户 Terminal 实测记录）
+
+在代码提交`0db6912`下，本地用户上传的完整训练日志显示Qwen3.8-27B-4bit共享基座完成5个epoch / 1325次实际优化更新，最后第63层7模块Rank16，共1,736,704可训练参数。265train+60validation，真实next-update断点恢复测试loss_delta=0、adapter_delta=0；逐遍validation NLL 1.4476437271 → 1.2999098789 → 1.2160495817 → 1.1921390937 → 1.1814458185，5遍均有改进；最佳报告checkpoint epoch-05，输出状态`awaiting_generated_source_review`（计划内生成评估边界），封存57 test未访问。这是真正的优化训练，但损失下降不等于古籍方法已学会，更不等于独立预测有效。尚未运行同109题的**微调后**完整模型生成、逐题来源语义审读、15专题独立test覆盖，也未核验Mac本地checkpoint原始文件SHA。
+
+已上传**训练事实元数据**至`data/provenance/mac_book_rank16_epoch05_terminal_evidence_20261019.json`，仅来源于用户终端回显，不把远端Git提交等同本地模型二进制上传；GitHub Release模型附件**仍未上传/验证**。下一步先离线验证epoch-05 state哈希并运行`scripts/run_mac_book_method.py --adapter work/mac-book-method-lora-v1/epoch-05`（完整新目录、同任务、同模型，不开test，不覆盖已有）对照原始109题，逐章真实生成和专家语义评分，再决定延长训练或修正。保持原始all-book v1冻结manifest、已有cache、旧failed candidate与所有checkpoint不变。
+
+---
+
 # 2026-10-18：共享统一QimenLLM模型、动态多专题路由为唯一推荐架构
 
 用户再次明确未来产品是一个ChatGPT式聊天入口，一个共享专业大模型覆盖全部已提供预测章节及后续新增章节/古籍；系统从自然语言自动识别一个或多个问事专题，检索有出处且满足条件的用神与方法，独立起盘、综合断案、事实校验与多轮反馈。将章节独立测试与章节独立模型严格区分：测试按章分层验收，模型原则上共享；多LoRA是未来通过专业对照后可选的专题优化，不预先构建20个独立27B。现有`ExplicitContextInterpreter`没有自然语言分类能力、正式`QimenService.ask`专业链路仍blocked；此处记录架构决策，不宣称运行时路由已实现。详细见`docs/MODEL_STRATEGY.md`最顶部。本次不修改模型/训练器/正在处理的缓存/旧数据/冻结盲测。
