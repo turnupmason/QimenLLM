@@ -1,0 +1,79 @@
+{
+  "schema": "mac-book-epoch05-paired-generation-summary-v1",
+  "source_kind": "user_supplied_mac_terminal_transcript_not_server_verified_raw_reports",
+  "experiment_id": "mac-book-method-lora-v1",
+  "model_revision": "10c35caafbb80f7dc6a7a432cdd11af10a6d4818",
+  "code_head_reported_at_inference": "0db6912ef9df4846370ef0ba833d894d66981038",
+  "data_release": "shenqi-book-method-curriculum-v1",
+  "before_report_local": "work/mac-book-method-before-v1/report.json",
+  "after_report_local": "work/mac-book-method-after-epoch05-v1/report.json",
+  "adapter_checkpoint_local": "work/mac-book-method-lora-v1/epoch-05",
+  "adapter_archive_local": "work/mac-book-method-lora-v1/mac-book-method-lora-v1-through-epoch-05.zip",
+  "adapter_archive_sha256_reported": "536a41838cb41cec8ddcd8db8368bc12c6d583d60edc2c0909472237872b55f0",
+  "adapter_archive_size_bytes_reported": 51601761,
+  "reported_adapter_archive_status": "local_model_package_not_upload",
+  "github_release_asset_uploaded": false,
+  "paired_evaluations": 109,
+  "chapter_source_coverage": 26,
+  "unsealed_splits_used": [
+    "validation",
+    "development",
+    "explicit_seen_train_diagnostics"
+  ],
+  "test_accessed": false,
+  "statuses_before": {
+    "method_generated": 83,
+    "generation_error": 24,
+    "method_evidence_error": 2
+  },
+  "statuses_after": {
+    "method_generated": 60,
+    "generation_error": 37,
+    "method_evidence_error": 12
+  },
+  "paired_transitions": [
+    {
+      "before": "generation_error",
+      "after": "generation_error",
+      "count": 7
+    },
+    {
+      "before": "generation_error",
+      "after": "method_generated",
+      "count": 17
+    },
+    {
+      "before": "method_evidence_error",
+      "after": "generation_error",
+      "count": 1
+    },
+    {
+      "before": "method_evidence_error",
+      "after": "method_generated",
+      "count": 1
+    },
+    {
+      "before": "method_generated",
+      "after": "generation_error",
+      "count": 29
+    },
+    {
+      "before": "method_generated",
+      "after": "method_evidence_error",
+      "count": 12
+    },
+    {
+      "before": "method_generated",
+      "after": "method_generated",
+      "count": 42
+    }
+  ],
+  "generation_protocol_pass_rate_before": 0.7614678899082569,
+  "generation_protocol_pass_rate_after": 0.5504587155963303,
+  "net_protocol_success_change": -23,
+  "net_unverified_quality_regression": true,
+  "professional_semantic_source_review_done": false,
+  "unseen_case_per_topic_final_test_ready": false,
+  "independent_real_world_prediction_accuracy": null,
+  "requires": "Diagnose per-chapter/task and generation truncation vs schema failure from private local paired report; do not continue epoch-06 without source review. This is not professional accuracy."
+}
