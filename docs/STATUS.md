@@ -1,3 +1,13 @@
+# 2026-10-19：本地回归细分原因已核实，优先研究输出长度及续断状态遗忘
+
+用户完成原有只读诊断工具的Mac七项单元测试（7/7通过）和109题成对报告比较。基线method_generated83/109；epoch05模型60/109。基线24个generation_error中21个属于schema_rejected_or_other、3个触及生成长度；微调后37个generation_error中**35个length_truncation、1个invalid_json、1个schema/other**。现有`training/mac_book_curriculum_v1.json`与正式研究生成入口共同限定输出`max_generation_tokens=1536`且`enable_thinking=false`；这是直接观察到的生成行为和截断边界，而不是已证实“只需延长上限即可修复”。另有`original_chart_reuse_missing=9`（续断必须复用原盘），`source_table_fact_mismatch=3`，也不能靠增加token上限自动视为正确。
+
+任务细分：timing_analysis协议成功 **0/15→12/15**；feedback_continuation **15/15→2/15**；role_selection 20/20→13/20；chart_evidence19/27→11/27；evidence_synthesis20/23→14/23；source_knowledge9/9→8/9。Validation46/60→31/60，Development7/9→3/9，Train已见诊断30/40→26/40。完整本地原始生成字符串未分享给助手，原始产物仍在用户Mac。训练loss下降不能证明任务有效；以上百分比仅生成/形式/证据协议，非古籍语义准确率。
+
+新增不可覆盖诊断元数据：`data/provenance/mac_book_epoch05_classified_diagnosis_20261019.json`。保持原始基线、epoch01至epoch05、本地51.6MB模型备份、所有训练/验证/测试文件原样。**当前不执行第6轮，也不碰封存57Test。** 下一步只从现有本地评估回执汇总截断任务的prompt/generation长度、重复生成迹象、token余量和续断chart_action错误来源（不要贴出个人原文/结果）；如需放宽输出预算，应固定相同任务、模型revision、提示词和评估器，分别对原始base与epoch05 adapter进行新实验ID下的对称测试，不拿微调模型宽预算对比原始模型窄预算，不能改旧训练config、不能覆盖旧产物。另行做逐条原文语义审读与15章节独立案例评估。
+
+---
+
 # 2026-10-19：Rank16 epoch-05 严重生成回归，禁止盲目追加epoch
 
 用户Mac实际完成同109题同基座比较，完整用户Terminal日志记录：未微调模型method_generated 83/109、generation_error 24、method_evidence_error 2；微调epoch-05分别为60、37、12。逐题成对状态：原本成功变生成失败29题、变证据检查失败12题；原本失败转成功18题；两端协议成功42题。生成协议成功率76.1%降到55.0%，这是生成协议退步，尚未进行来源语义正确性审读，不能当作真实预测准确率。验证NLL下降不能抵消此回归。模型备份包`work/mac-book-method-lora-v1/mac-book-method-lora-v1-through-epoch-05.zip`由用户Mac本地成功打包（用户终端声称51,601,761字节，SHA256 536a41838cb41cec8ddcd8db8368bc12c6d583d60edc2c0909472237872b55f0）；GitHub Release模型二进制并未上传/验证。
