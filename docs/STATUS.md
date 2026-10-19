@@ -1,3 +1,11 @@
+# 2026-10-19：Rank16 epoch-05 严重生成回归，禁止盲目追加epoch
+
+用户Mac实际完成同109题同基座比较，完整用户Terminal日志记录：未微调模型method_generated 83/109、generation_error 24、method_evidence_error 2；微调epoch-05分别为60、37、12。逐题成对状态：原本成功变生成失败29题、变证据检查失败12题；原本失败转成功18题；两端协议成功42题。生成协议成功率76.1%降到55.0%，这是生成协议退步，尚未进行来源语义正确性审读，不能当作真实预测准确率。验证NLL下降不能抵消此回归。模型备份包`work/mac-book-method-lora-v1/mac-book-method-lora-v1-through-epoch-05.zip`由用户Mac本地成功打包（用户终端声称51,601,761字节，SHA256 536a41838cb41cec8ddcd8db8368bc12c6d583d60edc2c0909472237872b55f0）；GitHub Release模型二进制并未上传/验证。
+
+本次新增`data/provenance/mac_book_epoch05_paired_generation_summary_20261019.json`只记录用户终端实际看到的成对状态；`scripts/diagnose_mac_book_regression.py`只读本地基线/微调后完整回执，验证模型身份、同题、分组、生成参数、适配器加载一致性，按章节/题型/validation-development-已见train诊断输出错误类型、截断/无效JSON/结构错误及简单字面事实指标。诊断报告不包含原文、原模型输出、答案或封存Test；本地核对前不能断言这37次生成失败分别来自何种原因。下阶段需要按题诊断、人工语义审读并制定新的预登记实验；**不默认继续epoch-06，也不覆写epoch-05/原始基线/冻结任务/盲测**。15预测专题独立Test家族门槛仍未全部具备。共享一个QimenLLM基座服务全部专题的架构保持不变。
+
+---
+
 # 2026-10-19：Mac 27B 全书 Rank16 LoRA 第一评估边界（用户 Terminal 实测记录）
 
 在代码提交`0db6912`下，本地用户上传的完整训练日志显示Qwen3.8-27B-4bit共享基座完成5个epoch / 1325次实际优化更新，最后第63层7模块Rank16，共1,736,704可训练参数。265train+60validation，真实next-update断点恢复测试loss_delta=0、adapter_delta=0；逐遍validation NLL 1.4476437271 → 1.2999098789 → 1.2160495817 → 1.1921390937 → 1.1814458185，5遍均有改进；最佳报告checkpoint epoch-05，输出状态`awaiting_generated_source_review`（计划内生成评估边界），封存57 test未访问。这是真正的优化训练，但损失下降不等于古籍方法已学会，更不等于独立预测有效。尚未运行同109题的**微调后**完整模型生成、逐题来源语义审读、15专题独立test覆盖，也未核验Mac本地checkpoint原始文件SHA。
