@@ -1,3 +1,13 @@
+# 2026-10-19：精查35次截断中的33次重复生成迹象，审计监督答案目标长度
+
+用户 Mac 只读终端显示 epoch05 的35次长度截断中33次“最后40字符至少出现三遍”（**启发式迹象，不是已经确认的token级退化循环**），35/35均在精确1536生成token时终止，截断文本0个完整JSON；prompt范围521—2898，最高4096输出预算在8192上下文可容纳35/35。这证明当前上限触发截断，但**不证明提高上限会有用**：若模型循环输出，额外token只会增加无用重复。35例覆盖chart_evidence11、evidence_synthesis9、role_selection7、feedback_continuation4、timing_analysis3、source_knowledge1；其中22个validation、5个development、8个已见train诊断。9个反馈续断原盘复用缺失独立于长度问题，需逐题检查。
+
+已按`training/cache_mac_curriculum.py`核对训练标签构造：`cuda_pilot.encode_example`的监督答案严格包含`<|im_end|>\n`，缓存核对解码文本/分词，`mlx_tail.tail_loss`使用精确回应token位置的交叉熵；这些证明标签通路设计了结束符，不等于模型实际学会输出结束符。新增`scripts/audit_mac_book_repetition_targets.py`只读两份原始109题报告、固定train/validation冻结文本及325缓存回执，在本地验证身份和家族拆分，分析实际teacher目标长度分布、反馈续断目标是否含`chart_action=reuse_original`、尾部重复启发式，不包含作者原文/回答文本，拒绝打开test和覆盖输出。该新脚本是独立观察工具，不能修改基准训练配置，也不能自动认定哪轮checkpoint通过。
+
+接下来优先检查监督目标长度是否远低于1536仍陷入重复，以及续断训练目标是否正确，才能决定是EOS/采样循环还是监督标签偏差；之后按新实验标识和同等约束对比base/epoch01—05/新候选，不能只增大epoch或只给适配模型扩展输出上限。旧checkpoint、原始base与epoch05评估报告、所有冻结split和已封存测试继续保持不变。
+
+---
+
 # 2026-10-19：本地回归细分原因已核实，优先研究输出长度及续断状态遗忘
 
 用户完成原有只读诊断工具的Mac七项单元测试（7/7通过）和109题成对报告比较。基线method_generated83/109；epoch05模型60/109。基线24个generation_error中21个属于schema_rejected_or_other、3个触及生成长度；微调后37个generation_error中**35个length_truncation、1个invalid_json、1个schema/other**。现有`training/mac_book_curriculum_v1.json`与正式研究生成入口共同限定输出`max_generation_tokens=1536`且`enable_thinking=false`；这是直接观察到的生成行为和截断边界，而不是已证实“只需延长上限即可修复”。另有`original_chart_reuse_missing=9`（续断必须复用原盘），`source_table_fact_mismatch=3`，也不能靠增加token上限自动视为正确。
