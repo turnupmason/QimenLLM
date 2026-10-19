@@ -1,0 +1,110 @@
+{
+  "schema": "mac-book-epoch05-classified-diagnosis-v1",
+  "source": "user-shared local read-only scripts/diagnose_mac_book_regression.py terminal output",
+  "release": "shenqi-book-method-curriculum-v1",
+  "dataset_fixed": true,
+  "total_tasks": 109,
+  "source_chapters": 26,
+  "sealed_test_opened": false,
+  "protocol_generated_before": 83,
+  "protocol_generated_after": 60,
+  "protocol_delta": -23,
+  "generation_errors_before": {
+    "length_truncation": 3,
+    "schema_rejected_or_other_generation_error": 21
+  },
+  "generation_errors_after": {
+    "invalid_json": 1,
+    "length_truncation": 35,
+    "schema_rejected_or_other_generation_error": 1
+  },
+  "evidence_errors_before": {
+    "literal_field_or_citation_invalid": 1,
+    "source_table_fact_mismatch": 2
+  },
+  "evidence_errors_after": {
+    "original_chart_reuse_missing": 9,
+    "source_table_fact_mismatch": 3
+  },
+  "by_split": {
+    "development": {
+      "before": {
+        "method_generated": 7,
+        "generation_error": 2
+      },
+      "after": {
+        "method_generated": 3,
+        "generation_error": 5,
+        "method_evidence_error": 1
+      }
+    },
+    "train_seen_diagnostic": {
+      "before": {
+        "method_generated": 30,
+        "generation_error": 9,
+        "method_evidence_error": 1
+      },
+      "after": {
+        "method_generated": 26,
+        "generation_error": 9,
+        "method_evidence_error": 5
+      }
+    },
+    "validation": {
+      "before": {
+        "method_generated": 46,
+        "generation_error": 13,
+        "method_evidence_error": 1
+      },
+      "after": {
+        "method_generated": 31,
+        "generation_error": 23,
+        "method_evidence_error": 6
+      }
+    }
+  },
+  "by_task_type_protocol_generated": {
+    "chart_evidence": {
+      "before": 19,
+      "after": 11,
+      "total": 27
+    },
+    "evidence_synthesis": {
+      "before": 20,
+      "after": 14,
+      "total": 23
+    },
+    "feedback_continuation": {
+      "before": 15,
+      "after": 2,
+      "total": 15
+    },
+    "role_selection": {
+      "before": 20,
+      "after": 13,
+      "total": 20
+    },
+    "source_knowledge": {
+      "before": 9,
+      "after": 8,
+      "total": 9
+    },
+    "timing_analysis": {
+      "before": 0,
+      "after": 12,
+      "total": 15
+    }
+  },
+  "findings": [
+    "Out of 37 adapted generation_error events, 35 are length_truncation at fixed 1536-token max; prior baseline had only 3 length truncations.",
+    "Adapted model improves timing_analysis *protocol generated* from 0 to 12 of 15, without evidence yet of correct timing.",
+    "Adapted model regresses feedback_continuation protocol from 15 to 2 of 15; nine chart reuse requirement errors.",
+    "Model NLL decreases are not reliable proxies for protocol compliance or professional correctness.",
+    "All split/task/chapter outputs are diagnostic; the 57 sealed test tasks remain unopened."
+  ],
+  "decision": "BLOCK continuation epoch-06 and promotion of epoch-05; preserve all checkpoints, baseline, after receipts. First inspect local generation telemetry length/repetition and retrospective chart reuse errors; any token-budget experiment must be a separately registered matched baseline/adapter experiment on the same unsealed selected task subset with equal generation constraints; no test tuning.",
+  "full_chapter_professional_pass": false,
+  "independent_real_world_accuracy": null,
+  "local_raw_text_inspected_by_assistant": false,
+  "github_model_weights_uploaded": false
+}
