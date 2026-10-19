@@ -1,5 +1,6 @@
 """Read-only, no-leak regression analysis for two whole-book generation runs."""
 import importlib.util
+import copy
 import json
 from pathlib import Path
 import tempfile
@@ -39,7 +40,7 @@ def receipts(before_rows, after_rows):
         counts = {}
         for r in rows:
             counts[r['chapter']] = counts.get(r['chapter'], 0)+1
-        return {**common, 'adapter': None if is_baseline else {'adapters.safetensors':'sha'},
+        return {**copy.deepcopy(common), 'adapter': None if is_baseline else {'adapters.safetensors':'sha'},
                 'adapter_reload_parity': None if is_baseline else {'max_delta':0.,'scales_match':True},
                 'records':rows,'chapter_counts':counts}
     return report(before_rows,True),report(after_rows,False)
