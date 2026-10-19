@@ -1,0 +1,59 @@
+{
+  "schema": "mac-book-rank16-epoch05-terminal-evidence-v1",
+  "source_kind": "user_supplied_mac_terminal_log_not_independent_machine_inspection",
+  "source_log_relative": "work/mac-book-rank16-20261018-232930.log",
+  "github_code_head_at_run": "0db6912ef9df4846370ef0ba833d894d66981038",
+  "experiment_id": "mac-book-method-lora-v1",
+  "frozen_release_id": "shenqi-book-method-curriculum-v1",
+  "model_revision": "10c35caafbb80f7dc6a7a432cdd11af10a6d4818",
+  "base_model": "mlx-community/Qwen3.8-27B-4bit",
+  "scope": "single_shared_base_cross_all_book_chapters",
+  "training_tasks": 265,
+  "validation_tasks": 60,
+  "dev_tasks_reserved": 9,
+  "sealed_test_tasks_reserved": 57,
+  "trainable_parameter_count": 1736704,
+  "epochs_completed": 5,
+  "optimizer_updates": 1325,
+  "source_chapter_inputs": 26,
+  "adapter_resume_probe": {
+    "loss_delta": 0,
+    "adapter_delta": 0
+  },
+  "validation_nll": [
+    {
+      "epoch": 1,
+      "nll": 1.4476437270918792
+    },
+    {
+      "epoch": 2,
+      "nll": 1.2999098789374102
+    },
+    {
+      "epoch": 3,
+      "nll": 1.2160495816879338
+    },
+    {
+      "epoch": 4,
+      "nll": 1.1921390937361434
+    },
+    {
+      "epoch": 5,
+      "nll": 1.18144581850131
+    }
+  ],
+  "training_stage": "awaiting_generated_source_review",
+  "checkpoint_name": "epoch-05",
+  "checkpoint_local_relative": "work/mac-book-method-lora-v1/epoch-05",
+  "training_boundary_receipt_local_relative": "work/mac-book-method-lora-v1/evaluation-boundary.json",
+  "training_resume_checkpoint_files_independently_sha_verified_by_assistant": false,
+  "checkpoints_preserved_locally_as_reported": true,
+  "github_source_metadata_committed": true,
+  "github_checkpoint_binary_uploaded": false,
+  "github_model_release_upload_verified": false,
+  "post_training_generation_comparison_performed": false,
+  "independent_heldout_final_test_accessed": false,
+  "professional_all_chapters_pass": false,
+  "independent_real_world_accuracy": null,
+  "interpretation": "Training progress and NLL improvement are confirmed by user-shared terminal transcript only. Not sufficient evidence for model quality, checkpoint bytes, release asset upload, or test performance; strict source-review and within-split evaluation remain pending."
+}
