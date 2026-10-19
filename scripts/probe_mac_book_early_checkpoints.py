@@ -2,7 +2,7 @@
 """Matched, bounded MLX checkpoint probe on deterministic VALIDATION-only tasks.
 
 First run --plan (no model). Then run --adapter-dir local epoch-01/02/03/04/05.
-Stable 3 tasks per represented type; never opens test/dev/train JSONL. For
+Stable 3 tasks per five held-out method types; never opens test/dev/train JSONL. For
 model choice, these are *validation diagnostics*, never independent final tests.
 Reports stay local, raw answers never printed/uploaded to GitHub.
 """
@@ -20,6 +20,7 @@ import time
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/'src'))
 sys.path.insert(0, str(ROOT/'scripts'))
+sys.path.insert(0, str(ROOT/'training'))
 from epoch_protocol import sha
 from qimenllm.evaluation.book_method import BookMethodRequest
 from qimenllm.evaluation.method import score_task
@@ -28,7 +29,8 @@ from qimenllm.contracts import Inquiry
 PROBE_ID = 'mac-book-checkpoint-probe-validation-v1'
 SAMPLE_PER_TYPE = 3
 EXPECTED_TYPES = ('chart_evidence','evidence_synthesis','feedback_continuation',
-                  'role_selection','source_knowledge','timing_analysis')
+                  'role_selection','timing_analysis')
+# Source-knowledge examples in v1 are training-only; never call them unseen validation.
 
 
 def select_validation(manifest_path, data_dir):
@@ -57,8 +59,8 @@ def select_validation(manifest_path, data_dir):
             raise ValueError('Need 3 validation tasks per method type')
         vals.sort(key=lambda t: (hashlib.sha256((PROBE_ID+':'+t['task_id']).encode()).hexdigest(),t['task_id']))
         chosen.extend(vals[:SAMPLE_PER_TYPE])
-    if len(chosen) != 18 or len({r['task_id'] for r in chosen}) != 18:
-        raise ValueError('Probe must be exactly 18 independent task IDs, no duplicates')
+    if len(chosen) != 15 or len({r['task_id'] for r in chosen}) != 15:
+        raise ValueError('Probe must be exactly 15 unique validation task IDs, no duplicates')
     return manifest, chosen
 
 
